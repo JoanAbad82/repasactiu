@@ -2,6 +2,8 @@ import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 const dataDir=path.resolve("site/data");
 const files=(await readdir(dataDir)).filter(n=>/^bloc_\d+\.json$/.test(n)).sort();
+const course=JSON.parse(await readFile(path.join(dataDir,"course.json"),"utf8"));
+for(const block of course.blocks||[]){const fileName=path.basename(block.file||""); const expected=`data/${fileName}`; if(block.file!==expected||!files.includes(fileName)){console.error(`course.json: ruta de bloc invàlida (${block.file})`);process.exit(1);}}
 const ids=new Set(); const questionTexts=new Set(); let total=0; const errors=[]; const expectedCounts={"bloc_1.json":24,"bloc_2.json":30,"bloc_3.json":30,"bloc_5.json":24};
 for(const file of files){
   const bank=JSON.parse(await readFile(path.join(dataDir,file),"utf8"));
