@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Repàs Actiu: practica i reforça el temari amb tests en català.">
+  <meta name="color-scheme" content="light dark">
+  <title>Repàs Actiu</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <button class="brand" id="home-link" type="button">Repàs Actiu</button>
+    <nav aria-label="Navegació principal">
+      <button id="syllabus-link" type="button">Temari</button>
+      <button id="review-errors-link" type="button">Repassar errors</button>
+      <button id="theme-toggle" type="button" aria-label="Canviar mode de color">Clar/Fosc</button>
+    </nav>
+  </header>
+  <main id="app">
+    <section id="home-screen"></section>
+    <section id="setup-screen" hidden></section>
+    <section id="quiz-screen" hidden></section>
+    <section id="results-screen" hidden></section>
+    <section id="review-screen" hidden></section>
+  </main>
+  <div id="live-region" class="sr-only" aria-live="polite"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

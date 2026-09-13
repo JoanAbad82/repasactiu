@@ -1,0 +1,342 @@
+{
+  "blockId": "bloc-1",
+  "blockTitle": "Entitats públiques i privades",
+  "questions": [
+    {
+      "id": "b1-001",
+      "block": "bloc-1",
+      "topic": "Entitats públiques i privades",
+      "question": "Quina característica defineix una entitat pública segons el temari?",
+      "options": [
+        "Forma part del sector públic",
+        "És creada exclusivament per particulars",
+        "Es finança només amb vendes",
+        "Sempre té finalitat lucrativa"
+      ],
+      "correct": 0,
+      "explanation": "Les entitats públiques formen part del sector públic i són creades o gestionades per una administració pública."
+    },
+    {
+      "id": "b1-002",
+      "block": "bloc-1",
+      "topic": "Entitats públiques i privades",
+      "question": "Qui crea o gestiona una entitat pública?",
+      "options": [
+        "Una administració pública",
+        "Només els seus clients",
+        "Exclusivament inversors privats",
+        "Sempre una cooperativa"
+      ],
+      "correct": 0,
+      "explanation": "El material indica que les entitats públiques són creades o gestionades per una administració pública."
+    },
+    {
+      "id": "b1-003",
+      "block": "bloc-1",
+      "topic": "Entitats públiques i privades",
+      "question": "D’on provenen principalment els recursos d’una entitat pública?",
+      "options": [
+        "De recursos públics, com impostos, taxes o pressupostos",
+        "Només de donacions particulars",
+        "Exclusivament de préstecs bancaris",
+        "Només de la venda de productes"
+      ],
+      "correct": 0,
+      "explanation": "Les entitats públiques es financen principalment amb recursos públics."
+    },
+    {
+      "id": "b1-004",
+      "block": "bloc-1",
+      "topic": "Entitats públiques i privades",
+      "question": "Quina és la finalitat principal d’una entitat pública segons el material?",
+      "options": [
+        "Prestar serveis d’interès general a la ciutadania",
+        "Repartir beneficis entre accionistes",
+        "Vendre accions en borsa",
+        "Evitar qualsevol control extern"
+      ],
+      "correct": 0,
+      "explanation": "La finalitat principal que s’hi atribueix és prestar serveis d’interès general."
+    },
+    {
+      "id": "b1-005",
+      "block": "bloc-1",
+      "topic": "Entitats públiques i privades",
+      "question": "Quina afirmació correspon a una entitat privada?",
+      "options": [
+        "És creada i gestionada per persones particulars o empreses",
+        "Forma necessàriament part del sector públic",
+        "Només es finança amb impostos",
+        "No pot ser una associació"
+      ],
+      "correct": 0,
+      "explanation": "Les entitats privades són creades i gestionades per persones particulars o empreses."
+    },
+    {
+      "id": "b1-006",
+      "block": "bloc-1",
+      "topic": "Entitats públiques i privades",
+      "question": "Una entitat privada pot tenir finalitat...",
+      "options": [
+        "Lucrativa o no lucrativa",
+        "Només lucrativa",
+        "Només pública",
+        "Exclusivament administrativa"
+      ],
+      "correct": 0,
+      "explanation": "El temari assenyala que les entitats privades poden tenir finalitat lucrativa o no lucrativa."
+    },
+    {
+      "id": "b1-007",
+      "block": "bloc-1",
+      "topic": "Control i responsabilitat",
+      "question": "Què permet el principi de control de l’organització?",
+      "options": [
+        "Supervisar, coordinar i organitzar les activitats de l’empresa",
+        "Eliminar totes les responsabilitats individuals",
+        "Substituir la direcció per clients",
+        "Evitar la coordinació entre equips"
+      ],
+      "correct": 0,
+      "explanation": "Aquest principi serveix perquè les activitats estiguin supervisades, coordinades i organitzades."
+    },
+    {
+      "id": "b1-008",
+      "block": "bloc-1",
+      "topic": "Control i responsabilitat",
+      "question": "Què exigeix el principi de responsabilitat?",
+      "options": [
+        "Que cada persona assumeixi les seves funcions i responsabilitats",
+        "Que ningú tingui funcions definides",
+        "Que totes les decisions les prenguin els clients",
+        "Que les tasques es facin sense coordinació"
+      ],
+      "correct": 0,
+      "explanation": "Cada persona ha d’assumir les seves funcions i responsabilitats i treballar coordinadament amb l’equip."
+    },
+    {
+      "id": "b1-009",
+      "block": "bloc-1",
+      "topic": "Control i responsabilitat",
+      "question": "Quina acció encaixa amb els principis de control i responsabilitat?",
+      "options": [
+        "Coordinar tasques i assumir responsabilitats",
+        "Evitar definir tasques",
+        "Treballar sempre de manera aïllada",
+        "Suprimir qualsevol organització"
+      ],
+      "correct": 0,
+      "explanation": "El material associa aquests principis amb coordinar, organitzar el treball, assumir responsabilitats i treballar en equip."
+    },
+    {
+      "id": "b1-010",
+      "block": "bloc-1",
+      "topic": "Control i responsabilitat",
+      "question": "Perquè tot funcioni correctament, el principi de control posa l’accent en...",
+      "options": [
+        "La supervisió i coordinació de les activitats",
+        "La promoció publicitària",
+        "La transmissió d’accions",
+        "La política monetària"
+      ],
+      "correct": 0,
+      "explanation": "El principi de control se centra en supervisar, coordinar i organitzar les activitats de l’empresa."
+    },
+    {
+      "id": "b1-011",
+      "block": "bloc-1",
+      "topic": "Direcció i finances",
+      "question": "Quina és una funció de direcció?",
+      "options": [
+        "Coordinar departaments i prendre decisions importants",
+        "Gestionar exclusivament el correu postal",
+        "Convertir matèries primeres en productes",
+        "Elegir regidors municipals"
+      ],
+      "correct": 0,
+      "explanation": "Les funcions de direcció coordinen els diferents departaments i prenen decisions importants."
+    },
+    {
+      "id": "b1-012",
+      "block": "bloc-1",
+      "topic": "Direcció i finances",
+      "question": "Què gestionen principalment les funcions financeres?",
+      "options": [
+        "Els diners, el finançament i els recursos econòmics",
+        "Els organigrames municipals",
+        "Les eleccions europees",
+        "Només la publicitat"
+      ],
+      "correct": 0,
+      "explanation": "Les funcions financeres gestionen els diners de l’empresa, el finançament i el control dels recursos econòmics."
+    },
+    {
+      "id": "b1-013",
+      "block": "bloc-1",
+      "topic": "Direcció i finances",
+      "question": "Quina funció empresarial s’encarrega del control dels recursos econòmics?",
+      "options": [
+        "La funció financera",
+        "L’atenció al client",
+        "La comercialització",
+        "La funció de vendes"
+      ],
+      "correct": 0,
+      "explanation": "El control dels recursos econòmics forma part de la funció financera."
+    },
+    {
+      "id": "b1-014",
+      "block": "bloc-1",
+      "topic": "Direcció i finances",
+      "question": "Quina funció coordina els diferents departaments de l’empresa?",
+      "options": [
+        "La funció de direcció",
+        "La funció postal",
+        "La funció de producció legislativa",
+        "La funció jurisdiccional"
+      ],
+      "correct": 0,
+      "explanation": "La direcció coordina els departaments i pren decisions importants per al funcionament de l’empresa."
+    },
+    {
+      "id": "b1-015",
+      "block": "bloc-1",
+      "topic": "RRHH, comercialització i vendes",
+      "question": "Quina funció gestiona la contractació, la formació i l’organització dels treballadors?",
+      "options": [
+        "Recursos Humans",
+        "Comercialització",
+        "Vendes",
+        "Atenció postal"
+      ],
+      "correct": 0,
+      "explanation": "Recursos Humans gestiona el personal, incloent contractació, formació i organització."
+    },
+    {
+      "id": "b1-016",
+      "block": "bloc-1",
+      "topic": "RRHH, comercialització i vendes",
+      "question": "Quina funció dona a conèixer productes i serveis mitjançant màrqueting i publicitat?",
+      "options": [
+        "Comercialització",
+        "Financera",
+        "Judicial",
+        "Administració local"
+      ],
+      "correct": 0,
+      "explanation": "La comercialització promociona i dona a conèixer productes i serveis."
+    },
+    {
+      "id": "b1-017",
+      "block": "bloc-1",
+      "topic": "RRHH, comercialització i vendes",
+      "question": "Quina funció gestiona les vendes i les comandes dels clients?",
+      "options": [
+        "Vendes",
+        "Recursos Humans",
+        "Financera",
+        "Direcció pública"
+      ],
+      "correct": 0,
+      "explanation": "La funció de vendes s’encarrega de les vendes i de les comandes dels clients."
+    },
+    {
+      "id": "b1-018",
+      "block": "bloc-1",
+      "topic": "RRHH, comercialització i vendes",
+      "question": "Quina d’aquestes tasques correspon a Recursos Humans?",
+      "options": [
+        "Organitzar els treballadors",
+        "Aprovar els pressupostos de l’Estat",
+        "Gestionar la política monetària",
+        "Transmetre accions d’una S.A."
+      ],
+      "correct": 0,
+      "explanation": "La gestió i organització del personal és una funció de Recursos Humans."
+    },
+    {
+      "id": "b1-019",
+      "block": "bloc-1",
+      "topic": "Atenció al client",
+      "question": "Per a què serveix l’atenció al client?",
+      "options": [
+        "Per mantenir una bona relació amb clients i usuaris",
+        "Per substituir la funció financera",
+        "Per eliminar tots els canals de comunicació",
+        "Per dividir el capital en accions"
+      ],
+      "correct": 0,
+      "explanation": "L’atenció al client ajuda a mantenir una bona relació amb clients i usuaris."
+    },
+    {
+      "id": "b1-020",
+      "block": "bloc-1",
+      "topic": "Atenció al client",
+      "question": "Per què són importants les opinions i suggeriments dels clients?",
+      "options": [
+        "Perquè poden ajudar a millorar productes i serveis",
+        "Perquè substitueixen els pressupostos",
+        "Perquè determinen la forma jurídica",
+        "Perquè eliminen la necessitat de coordinació"
+      ],
+      "correct": 0,
+      "explanation": "El material destaca que la informació, opinions i suggeriments serveixen per millorar productes i serveis."
+    },
+    {
+      "id": "b1-021",
+      "block": "bloc-1",
+      "topic": "Atenció al client",
+      "question": "Quin és un canal d’atenció al client indicat al temari?",
+      "options": [
+        "El correu electrònic",
+        "El Tribunal Suprem",
+        "La junta d’accionistes",
+        "El Banc Central Europeu"
+      ],
+      "correct": 0,
+      "explanation": "Entre els canals citats hi ha telèfon, correu electrònic, pàgina web i correu postal."
+    },
+    {
+      "id": "b1-022",
+      "block": "bloc-1",
+      "topic": "Funció administrativa",
+      "question": "Què inclou la funció administrativa de l’empresa?",
+      "options": [
+        "Tasques de gestió i organització de l’empresa",
+        "Només campanyes publicitàries",
+        "Només contractació de personal",
+        "Únicament control judicial"
+      ],
+      "correct": 0,
+      "explanation": "La funció administrativa inclou tasques relacionades amb la gestió i l’organització de l’empresa."
+    },
+    {
+      "id": "b1-023",
+      "block": "bloc-1",
+      "topic": "Funció administrativa",
+      "question": "Quina tasca és pròpia de la funció administrativa?",
+      "options": [
+        "Organitzar documents i gestionar informació",
+        "Definir la política monetària de la zona euro",
+        "Elegir diputats",
+        "Fabricar necessàriament productes físics"
+      ],
+      "correct": 0,
+      "explanation": "El temari inclou organitzar documents i gestionar informació dins les funcions administratives."
+    },
+    {
+      "id": "b1-024",
+      "block": "bloc-1",
+      "topic": "Funció administrativa",
+      "question": "Quin efecte busquen les funcions administratives?",
+      "options": [
+        "Facilitar el bon funcionament de l’empresa",
+        "Suprimir la coordinació de tasques",
+        "Eliminar la gestió d’informació",
+        "Convertir tota empresa en una S.A."
+      ],
+      "correct": 0,
+      "explanation": "Organitzar documents, informació i tasques ajuda al bon funcionament de l’empresa."
+    }
+  ]
+}

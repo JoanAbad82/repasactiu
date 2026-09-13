@@ -1,0 +1,19 @@
+import test from "node:test"; import assert from "node:assert/strict";
+import {shuffleArray,shuffleQuestionOptions,buildQuiz,rankReviewQuestions} from "../../site/js/quiz-engine.js";
+const rngZero=()=>0;
+test("shuffleArray no muta",()=>{const input=[1,2,3,4]; const out=shuffleArray(input,rngZero); assert.deepEqual(input,[1,2,3,4]); assert.notStrictEqual(out,input);});
+test("shuffleQuestionOptions conserva correcta",()=>{const q={id:"q1",options:["A","B","C","D"],correct:2}; const s=shuffleQuestionOptions(q,rngZero); assert.equal(s.options[s.correct],"C");});
+test("buildQuiz limita recompte",()=>{const qs=Array.from({length:12},(_,i)=>({id:`q${i}`,options:["A","B","C","D"],correct:0})); assert.equal(buildQuiz(qs,10,rngZero).length,10); assert.equal(buildQuiz(qs,"all",rngZero).length,12);});
+test("buildQuiz usa totes si en falten",()=>{const qs=Array.from({length:6},(_,i)=>({id:`q${i}`,options:["A","B","C","D"],correct:0})); assert.equal(buildQuiz(qs,20,rngZero).length,6);});
+test("rankReview prioritza score",()=>{const qs=[{id:"a"},{id:"b"},{id:"c"}]; assert.deepEqual(rankReviewQuestions(qs,{a:1,b:3,c:0},rngZero).map(q=>q.id),["b","a"]);});
+
+test("buildReviewQuiz selecciona primer les preguntes amb més errors", async () => {
+  const { buildReviewQuiz } = await import("../../site/js/quiz-engine.js");
+  const qs=[
+    {id:"a",options:["A","B","C","D"],correct:0},
+    {id:"b",options:["A","B","C","D"],correct:0},
+    {id:"c",options:["A","B","C","D"],correct:0}
+  ];
+  const out=buildReviewQuiz(qs,{a:1,b:5,c:3},2,()=>0);
+  assert.deepEqual(new Set(out.map(q=>q.id)),new Set(["b","c"]));
+});

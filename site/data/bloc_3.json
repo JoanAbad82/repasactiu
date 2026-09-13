@@ -1,0 +1,426 @@
+{
+  "blockId": "bloc-3",
+  "blockTitle": "Estructura de l’empresa i organigrames",
+  "questions": [
+    {
+      "id": "b3-001",
+      "block": "bloc-3",
+      "topic": "Estructura i organització",
+      "question": "Què és l’estructura de l’empresa?",
+      "options": [
+        "La manera com s’organitzen i distribueixen tasques, responsabilitats i autoritat",
+        "Només el seu edifici físic",
+        "Únicament la llista de salaris",
+        "Només el seu capital social"
+      ],
+      "correct": 0,
+      "explanation": "L’estructura defineix com es distribueixen tasques, responsabilitats i autoritat dins l’organització."
+    },
+    {
+      "id": "b3-002",
+      "block": "bloc-3",
+      "topic": "Estructura i organització",
+      "question": "Quina pregunta ajuda a respondre l’estructura empresarial?",
+      "options": [
+        "De qui depèn cada treballador o departament?",
+        "Quin temps farà demà?",
+        "Quina moneda utilitza la UE?",
+        "Quina edat tenen els clients?"
+      ],
+      "correct": 0,
+      "explanation": "L’estructura permet saber qui fa què, qui n’és responsable, qui decideix i de qui depèn cadascú."
+    },
+    {
+      "id": "b3-003",
+      "block": "bloc-3",
+      "topic": "Estructura i organització",
+      "question": "Què significa organitzar segons el temari?",
+      "options": [
+        "Ordenar i coordinar el treball perquè tothom sàpiga què ha de fer, com i de qui depèn",
+        "Eliminar totes les responsabilitats",
+        "Treballar sense recursos",
+        "Evitar la coordinació"
+      ],
+      "correct": 0,
+      "explanation": "Organitzar és ordenar i coordinar el treball, les tasques, els recursos i les dependències."
+    },
+    {
+      "id": "b3-004",
+      "block": "bloc-3",
+      "topic": "Estructura i organització",
+      "question": "Quin benefici aporta una bona organització?",
+      "options": [
+        "Facilita el compliment dels objectius de l’empresa",
+        "Impedeix assignar tasques",
+        "Elimina la necessitat de coordinar",
+        "Fa desaparèixer les responsabilitats"
+      ],
+      "correct": 0,
+      "explanation": "Una bona organització assigna tasques, distribueix recursos, coordina i facilita assolir objectius."
+    },
+    {
+      "id": "b3-005",
+      "block": "bloc-3",
+      "topic": "Principis d’organització",
+      "question": "Què és el principi d’autoritat?",
+      "options": [
+        "La capacitat de donar instruccions, prendre decisions i dirigir el treball d’altres",
+        "L’absència de responsabilitat",
+        "La llibertat de no coordinar-se",
+        "El repartiment de beneficis"
+      ],
+      "correct": 0,
+      "explanation": "L’autoritat permet dirigir i decidir, i comporta responsabilitat sobre decisions i resultats."
+    },
+    {
+      "id": "b3-006",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Quina diferència bàsica hi ha entre organització formal i informal?",
+      "options": [
+        "La formal és oficial i planificada; la informal sorgeix espontàniament de les relacions personals",
+        "La formal és sempre temporal i la informal sempre legal",
+        "La formal només existeix en empreses públiques",
+        "La informal sempre apareix a l’organigrama"
+      ],
+      "correct": 0,
+      "explanation": "La formal correspon a l’estructura oficial de l’empresa; la informal neix de relacions personals i de confiança."
+    },
+    {
+      "id": "b3-007",
+      "block": "bloc-3",
+      "topic": "Principis d’organització",
+      "question": "Quin principi busca assolir els objectius utilitzant adequadament els recursos?",
+      "options": [
+        "Eficiència",
+        "Publicitat",
+        "Jerarquia de rang",
+        "Comercialització"
+      ],
+      "correct": 0,
+      "explanation": "L’eficiència tracta d’assolir els objectius amb una utilització adequada dels recursos disponibles."
+    },
+    {
+      "id": "b3-008",
+      "block": "bloc-3",
+      "topic": "Principis d’organització",
+      "question": "Què pretén la unitat de direcció?",
+      "options": [
+        "Que les activitats amb un mateix objectiu segueixin una direcció i orientació comunes",
+        "Que cada tasca tingui objectius contradictoris",
+        "Que no hi hagi responsables",
+        "Que cada departament ignori els altres"
+      ],
+      "correct": 0,
+      "explanation": "La unitat de direcció afavoreix coherència en activitats orientades al mateix objectiu."
+    },
+    {
+      "id": "b3-009",
+      "block": "bloc-3",
+      "topic": "Principis d’organització",
+      "question": "Quin principi evita duplicitats, errors i problemes de comunicació entre persones o departaments?",
+      "options": [
+        "Coordinació",
+        "Descentralització",
+        "Publicitat comercial",
+        "Remuneració"
+      ],
+      "correct": 0,
+      "explanation": "La coordinació facilita que les diferents parts de l’organització treballin de manera coherent."
+    },
+    {
+      "id": "b3-010",
+      "block": "bloc-3",
+      "topic": "Principis d’organització",
+      "question": "Què significa delegar?",
+      "options": [
+        "Assignar tasques, responsabilitats o capacitat de decisió a una altra persona",
+        "Renunciar a tota responsabilitat definitiva",
+        "Eliminar l’autoritat de l’organització",
+        "Externalitzar obligatòriament tota l’empresa"
+      ],
+      "correct": 0,
+      "explanation": "Delegar traspassa l’execució o certa capacitat de decisió, però qui delega manté la responsabilitat general."
+    },
+    {
+      "id": "b3-011",
+      "block": "bloc-3",
+      "topic": "Organigrames",
+      "question": "Quin avantatge d’un organigrama destaca el temari?",
+      "options": [
+        "Ajuda a coordinar departaments i a aclarir responsabilitats i dependències",
+        "Mostra totes les relacions informals sense excepció",
+        "Explica detalladament totes les funcions de cada lloc",
+        "Evita que l’estructura pugui canviar"
+      ],
+      "correct": 0,
+      "explanation": "L’organigrama facilita entendre l’estructura, aclarir responsabilitats i dependències i coordinar departaments."
+    },
+    {
+      "id": "b3-012",
+      "block": "bloc-3",
+      "topic": "Principis d’organització",
+      "question": "Què és la descentralització?",
+      "options": [
+        "Distribuir capacitat de decisió entre diferents nivells o unitats de l’organització",
+        "Concentrar sempre tota decisió en una sola persona",
+        "Eliminar la participació",
+        "Substituir l’organigrama per una factura"
+      ],
+      "correct": 0,
+      "explanation": "La descentralització reparteix decisions entre diferents nivells o unitats."
+    },
+    {
+      "id": "b3-013",
+      "block": "bloc-3",
+      "topic": "Principis d’organització",
+      "question": "Quin principi posa l’accent en controlar i utilitzar adequadament els recursos econòmics?",
+      "options": [
+        "Gestió de la despesa",
+        "Unitat de direcció",
+        "Organització informal",
+        "Jerarquia de rang"
+      ],
+      "correct": 0,
+      "explanation": "La gestió de la despesa busca una utilització i control adequats dels recursos econòmics."
+    },
+    {
+      "id": "b3-014",
+      "block": "bloc-3",
+      "topic": "Principis d’organització",
+      "question": "Quin principi assigna tasques segons coneixements i habilitats específiques?",
+      "options": [
+        "Especialització",
+        "Publicitat",
+        "Descentralització territorial",
+        "Remuneració"
+      ],
+      "correct": 0,
+      "explanation": "L’especialització distribueix tasques tenint en compte coneixements i habilitats específiques."
+    },
+    {
+      "id": "b3-015",
+      "block": "bloc-3",
+      "topic": "Principis d’organització",
+      "question": "Quin principi fomenta que les persones intervinguin en decisions o millores de l’organització?",
+      "options": [
+        "Participació",
+        "Aïllament",
+        "Opacitat",
+        "Absència de coordinació"
+      ],
+      "correct": 0,
+      "explanation": "La participació afavoreix la implicació de les persones en el funcionament de l’organització."
+    },
+    {
+      "id": "b3-016",
+      "block": "bloc-3",
+      "topic": "Principis d’organització",
+      "question": "Quin principi afavoreix que la informació rellevant sigui accessible i comprensible?",
+      "options": [
+        "Publicitat i transparència",
+        "Secretisme absolut",
+        "Jerarquia salarial",
+        "Comercialització externa"
+      ],
+      "correct": 0,
+      "explanation": "Publicitat i transparència faciliten l’accés i la claredat de la informació rellevant."
+    },
+    {
+      "id": "b3-017",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Què és l’organització formal?",
+      "options": [
+        "L’estructura oficial definida per l’empresa, amb càrrecs, funcions, responsabilitats i jerarquia",
+        "Les relacions espontànies d’amistat",
+        "Una xarxa social externa",
+        "Un grup sense cap relació laboral"
+      ],
+      "correct": 0,
+      "explanation": "La formal és l’organització oficial i planificada de l’empresa."
+    },
+    {
+      "id": "b3-018",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "On es representa habitualment l’organització formal?",
+      "options": [
+        "En l’organigrama",
+        "Només en converses informals",
+        "En el correu personal dels treballadors",
+        "En anuncis publicitaris"
+      ],
+      "correct": 0,
+      "explanation": "L’organigrama és la representació gràfica habitual de l’estructura formal."
+    },
+    {
+      "id": "b3-019",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Com sorgeix l’organització informal?",
+      "options": [
+        "De manera espontània a partir de relacions personals, confiança i afinitats",
+        "Per decret en l’organigrama",
+        "Només per decisió judicial",
+        "Sempre per contracte escrit"
+      ],
+      "correct": 0,
+      "explanation": "La informal sorgeix espontàniament de les relacions personals entre membres de l’organització."
+    },
+    {
+      "id": "b3-020",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Quin efecte positiu pot tenir l’organització informal?",
+      "options": [
+        "Facilitar la comunicació, la cooperació i la resolució de problemes",
+        "Eliminar la comunicació",
+        "Substituir obligatòriament l’organització formal",
+        "Impedir qualsevol cooperació"
+      ],
+      "correct": 0,
+      "explanation": "Les relacions informals poden facilitar comunicació, cooperació i solució de problemes."
+    },
+    {
+      "id": "b3-021",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "L’organització informal apareix normalment a l’organigrama oficial?",
+      "options": [
+        "No",
+        "Sí, sempre i completament",
+        "Només si és una S.A.",
+        "Només en empreses públiques"
+      ],
+      "correct": 0,
+      "explanation": "L’organigrama reflecteix sobretot l’organització formal, no totes les relacions informals."
+    },
+    {
+      "id": "b3-022",
+      "block": "bloc-3",
+      "topic": "Organigrames",
+      "question": "Què és un organigrama?",
+      "options": [
+        "Una representació gràfica de l’estructura organitzativa de l’empresa",
+        "Una factura de l’empresa",
+        "Un contracte laboral",
+        "Un balanç financer"
+      ],
+      "correct": 0,
+      "explanation": "L’organigrama mostra visualment departaments, nivells i relacions de dependència."
+    },
+    {
+      "id": "b3-023",
+      "block": "bloc-3",
+      "topic": "Organigrames",
+      "question": "Quina finalitat té un organigrama?",
+      "options": [
+        "Facilitar la comprensió de l’estructura i les dependències",
+        "Mostrar totes les amistats personals",
+        "Substituir les descripcions de tots els llocs",
+        "Fixar els salaris legalment"
+      ],
+      "correct": 0,
+      "explanation": "L’organigrama ajuda a entendre l’estructura, coordinar i identificar responsabilitats i dependències."
+    },
+    {
+      "id": "b3-024",
+      "block": "bloc-3",
+      "topic": "Organigrames",
+      "question": "Quin requisit ha de complir un bon organigrama?",
+      "options": [
+        "Ser clar, comprensible i estar actualitzat",
+        "Ser deliberadament ambigu",
+        "No actualitzar-se mai",
+        "Ometre els nivells jeràrquics"
+      ],
+      "correct": 0,
+      "explanation": "Un bon organigrama ha de ser clar, uniforme i actualitzat."
+    },
+    {
+      "id": "b3-025",
+      "block": "bloc-3",
+      "topic": "Organigrames",
+      "question": "Com es representa un organigrama vertical?",
+      "options": [
+        "Els nivells jeràrquics s’ordenen de dalt cap avall",
+        "La màxima autoritat sempre és al centre",
+        "S’ordena només d’esquerra a dreta",
+        "No mostra jerarquia"
+      ],
+      "correct": 0,
+      "explanation": "En el vertical, la direcció o nivell superior se situa a dalt i els nivells inferiors a sota."
+    },
+    {
+      "id": "b3-026",
+      "block": "bloc-3",
+      "topic": "Organigrames",
+      "question": "Com es representa un organigrama horitzontal?",
+      "options": [
+        "Els nivells es disposen principalment d’esquerra a dreta",
+        "Sempre en cercles concèntrics",
+        "Només de baix a dalt",
+        "Sense cap relació entre unitats"
+      ],
+      "correct": 0,
+      "explanation": "L’organigrama horitzontal presenta els nivells de manera lateral, habitualment d’esquerra a dreta."
+    },
+    {
+      "id": "b3-027",
+      "block": "bloc-3",
+      "topic": "Organigrames",
+      "question": "On se situa la unitat de màxima responsabilitat en un organigrama radial?",
+      "options": [
+        "Al centre",
+        "Sempre a l’extrem dret",
+        "Sempre a baix",
+        "Fora de l’organigrama"
+      ],
+      "correct": 0,
+      "explanation": "En l’organigrama radial o circular, la màxima responsabilitat se situa al centre i la resta al voltant."
+    },
+    {
+      "id": "b3-028",
+      "block": "bloc-3",
+      "topic": "Organigrames",
+      "question": "Què és un organigrama mixt?",
+      "options": [
+        "Una combinació de dues o més formes de representació",
+        "Un organigrama sense departaments",
+        "Un document només financer",
+        "Un tipus exclusiu d’administració pública"
+      ],
+      "correct": 0,
+      "explanation": "El mixt combina formes, habitualment vertical i horitzontal, i pot ser útil en estructures complexes."
+    },
+    {
+      "id": "b3-029",
+      "block": "bloc-3",
+      "topic": "Organigrames",
+      "question": "Per interpretar un organigrama, què convé identificar primer?",
+      "options": [
+        "El nivell de màxima responsabilitat",
+        "El nombre de clients de l’empresa",
+        "Els impostos pagats",
+        "La forma de finançament bancari"
+      ],
+      "correct": 0,
+      "explanation": "El material proposa observar el nivell de màxima responsabilitat, departaments, línies de dependència i nivells equivalents."
+    },
+    {
+      "id": "b3-030",
+      "block": "bloc-3",
+      "topic": "Organigrames",
+      "question": "Quina és una limitació d’un organigrama?",
+      "options": [
+        "Pot quedar desactualitzat i no mostra totes les relacions informals",
+        "Sempre explica cada funció amb detall",
+        "Mai simplifica estructures complexes",
+        "Mostra totes les relacions personals"
+      ],
+      "correct": 0,
+      "explanation": "Entre les limitacions hi ha quedar desactualitzat, ometre relacions informals i simplificar massa estructures complexes."
+    }
+  ]
+}

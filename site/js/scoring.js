@@ -1,0 +1,5 @@
+const round2=v=>Math.round((v+Number.EPSILON)*100)/100;
+function outcomeFor(q,s){if(s===null||s===undefined)return "blank"; return s===q.correct?"correct":"incorrect";}
+export function scoreQuiz(questions,answers,penaltyEnabled){let correct=0,incorrect=0,blank=0; for(const q of questions){const o=outcomeFor(q,answers[q.id]); if(o==="correct")correct++; else if(o==="incorrect")incorrect++; else blank++;} const total=questions.length; const rawPoints=round2(correct-(penaltyEnabled?incorrect*0.33:0)); const percentCorrect=total?round2(correct/total*100):0; const grade10=round2(Math.max(0,Math.min(10,total?rawPoints/total*10:0))); return {total,correct,incorrect,blank,rawPoints,percentCorrect,grade10};}
+function add(g,k,o){g[k]??={total:0,correct:0,incorrect:0,blank:0}; g[k].total++; g[k][o]++;}
+export function buildBreakdown(questions,answers){const byBlock={},byTopic={}; for(const q of questions){const o=outcomeFor(q,answers[q.id]); add(byBlock,q.block,o); add(byTopic,q.topic,o);} return {byBlock,byTopic};}

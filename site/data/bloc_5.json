@@ -1,0 +1,342 @@
+{
+  "blockId": "bloc-5",
+  "blockTitle": "Organització de l’Estat i la Unió Europea",
+  "questions": [
+    {
+      "id": "b5-001",
+      "block": "bloc-5",
+      "topic": "Organització bàsica de l’Estat",
+      "question": "Com defineix el material l’Estat espanyol segons l’article 1 de la Constitució?",
+      "options": [
+        "Com un Estat social i democràtic de dret",
+        "Com una república federal",
+        "Com una confederació",
+        "Com una monarquia absoluta"
+      ],
+      "correct": 0,
+      "explanation": "El material indica que Espanya es constitueix en un Estat social i democràtic de dret."
+    },
+    {
+      "id": "b5-002",
+      "block": "bloc-5",
+      "topic": "Organització bàsica de l’Estat",
+      "question": "On resideix la sobirania nacional?",
+      "options": [
+        "En el poble espanyol",
+        "En el Govern exclusivament",
+        "En el Senat exclusivament",
+        "En el Tribunal Suprem"
+      ],
+      "correct": 0,
+      "explanation": "La sobirania nacional resideix en el poble espanyol, del qual emanen els poders de l’Estat."
+    },
+    {
+      "id": "b5-003",
+      "block": "bloc-5",
+      "topic": "Organització bàsica de l’Estat",
+      "question": "Quina és la forma política de l’Estat espanyol?",
+      "options": [
+        "La monarquia parlamentària",
+        "La monarquia absoluta",
+        "La república presidencialista",
+        "La confederació"
+      ],
+      "correct": 0,
+      "explanation": "El temari identifica la forma política de l’Estat com a monarquia parlamentària."
+    },
+    {
+      "id": "b5-004",
+      "block": "bloc-5",
+      "topic": "Organització bàsica de l’Estat",
+      "question": "Quins tres conceptes diferencia el temari per entendre l’organització pública a Espanya?",
+      "options": [
+        "Organització constitucional, administrativa i territorial",
+        "Organització comercial, financera i publicitària",
+        "Organització vertical, radial i mixta",
+        "Organització lucrativa, cooperativa i privada"
+      ],
+      "correct": 0,
+      "explanation": "El bloc diferencia organització constitucional, administrativa i territorial."
+    },
+    {
+      "id": "b5-005",
+      "block": "bloc-5",
+      "topic": "Poders de l’Estat",
+      "question": "A qui correspon el poder legislatiu estatal?",
+      "options": [
+        "A les Corts Generals",
+        "Al Govern",
+        "Al Banc Central Europeu",
+        "Als ajuntaments"
+      ],
+      "correct": 0,
+      "explanation": "Les Corts Generals, formades pel Congrés i el Senat, exerceixen la potestat legislativa estatal."
+    },
+    {
+      "id": "b5-006",
+      "block": "bloc-5",
+      "topic": "Poders de l’Estat",
+      "question": "Quines cambres formen les Corts Generals?",
+      "options": [
+        "El Congrés dels Diputats i el Senat",
+        "El Govern i el Tribunal Suprem",
+        "El Parlament Europeu i la Comissió",
+        "Els ajuntaments i les diputacions"
+      ],
+      "correct": 0,
+      "explanation": "Les Corts Generals estan formades pel Congrés dels Diputats i el Senat."
+    },
+    {
+      "id": "b5-007",
+      "block": "bloc-5",
+      "topic": "Poders de l’Estat",
+      "question": "Quina funció tenen les Corts Generals, a més de legislar?",
+      "options": [
+        "Aprovar els pressupostos i controlar l’acció del Govern",
+        "Dirigir la política monetària",
+        "Gestionar empreses privades",
+        "Elegir els alcaldes de tots els municipis"
+      ],
+      "correct": 0,
+      "explanation": "El material atribueix a les Corts legislació, pressupostos i control de l’acció del Govern."
+    },
+    {
+      "id": "b5-008",
+      "block": "bloc-5",
+      "topic": "Poders de l’Estat",
+      "question": "Quina cambra és definida com a cambra de representació territorial?",
+      "options": [
+        "El Senat",
+        "El Congrés dels Diputats",
+        "La Comissió Europea",
+        "El Tribunal Constitucional"
+      ],
+      "correct": 0,
+      "explanation": "El Senat és la cambra de representació territorial i participa en el procediment legislatiu."
+    },
+    {
+      "id": "b5-009",
+      "block": "bloc-5",
+      "topic": "Poders de l’Estat",
+      "question": "Què dirigeix el Govern?",
+      "options": [
+        "La política interior i exterior, l’Administració civil i militar i la defensa de l’Estat",
+        "El Poder Judicial",
+        "La política monetària de tota la UE",
+        "Els organigrames de les empreses privades"
+      ],
+      "correct": 0,
+      "explanation": "El Govern dirigeix política interior i exterior, administració civil i militar i defensa."
+    },
+    {
+      "id": "b5-010",
+      "block": "bloc-5",
+      "topic": "Poders de l’Estat",
+      "question": "Com s’administra la justícia?",
+      "options": [
+        "Per jutges i magistrats independents sotmesos a l’imperi de la llei",
+        "Per ministres dependents del Govern",
+        "Per accionistes de societats",
+        "Per alcaldes i regidors"
+      ],
+      "correct": 0,
+      "explanation": "El poder judicial correspon a jutges i magistrats independents, responsables i sotmesos a la llei."
+    },
+    {
+      "id": "b5-011",
+      "block": "bloc-5",
+      "topic": "Poders de l’Estat",
+      "question": "Quin és l’òrgan jurisdiccional superior, excepte en garanties constitucionals?",
+      "options": [
+        "El Tribunal Suprem",
+        "El Tribunal Constitucional",
+        "El Consell Europeu",
+        "El Senat"
+      ],
+      "correct": 0,
+      "explanation": "El Tribunal Suprem és l’òrgan jurisdiccional superior en tots els ordres excepte en matèria de garanties constitucionals."
+    },
+    {
+      "id": "b5-012",
+      "block": "bloc-5",
+      "topic": "Espanya i la UE",
+      "question": "Des de quina data indica el material que Espanya és membre de la Unió Europea?",
+      "options": [
+        "Des de l’1 de gener de 1986",
+        "Des de l’1 de gener de 1978",
+        "Des de l’1 de gener de 2002",
+        "Des de l’1 de gener de 1999"
+      ],
+      "correct": 0,
+      "explanation": "El material indica que Espanya és membre de la Unió Europea des de l’1 de gener de 1986."
+    },
+    {
+      "id": "b5-013",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Quantes comunitats autònomes indica el material que té Espanya?",
+      "options": [
+        "17",
+        "15",
+        "19",
+        "27"
+      ],
+      "correct": 0,
+      "explanation": "El bloc indica 17 comunitats autònomes i 2 ciutats autònomes, Ceuta i Melilla."
+    },
+    {
+      "id": "b5-014",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Quina institució autonòmica exerceix la potestat legislativa dins les competències autonòmiques?",
+      "options": [
+        "L’assemblea legislativa autonòmica",
+        "El Consell de Govern",
+        "La Diputació provincial",
+        "El Tribunal de Comptes Europeu"
+      ],
+      "correct": 0,
+      "explanation": "L’assemblea legislativa autonòmica legisla dins les competències autonòmiques i controla el govern."
+    },
+    {
+      "id": "b5-015",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Qui integra principalment l’Administració local?",
+      "options": [
+        "Els municipis i les províncies",
+        "Només les comunitats autònomes",
+        "Només els ministeris estatals",
+        "El Parlament Europeu"
+      ],
+      "correct": 0,
+      "explanation": "L’Administració local està integrada principalment per municipis i províncies."
+    },
+    {
+      "id": "b5-016",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Qui forma l’ajuntament?",
+      "options": [
+        "L’alcalde i els regidors",
+        "El president autonòmic i els ministres",
+        "Els jutges i magistrats",
+        "Els comissaris europeus"
+      ],
+      "correct": 0,
+      "explanation": "El govern i administració municipal corresponen als ajuntaments, integrats per alcalde i regidors."
+    },
+    {
+      "id": "b5-017",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Què és una província segons el material?",
+      "options": [
+        "Una entitat local amb personalitat jurídica pròpia determinada per l’agrupació de municipis",
+        "Una institució de la UE",
+        "Una societat mercantil",
+        "Un departament empresarial"
+      ],
+      "correct": 0,
+      "explanation": "La província és una entitat local formada per l’agrupació de municipis i amb personalitat jurídica pròpia."
+    },
+    {
+      "id": "b5-018",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució representa els ciutadans de la Unió Europea?",
+      "options": [
+        "El Parlament Europeu",
+        "El Consell de la UE",
+        "La Comissió Europea",
+        "El Consell Europeu"
+      ],
+      "correct": 0,
+      "explanation": "El Parlament Europeu representa els ciutadans de la Unió."
+    },
+    {
+      "id": "b5-019",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució representa els governs dels Estats membres?",
+      "options": [
+        "El Consell de la Unió Europea",
+        "El Parlament Europeu",
+        "El Tribunal de Comptes",
+        "El Banc Central Europeu"
+      ],
+      "correct": 0,
+      "explanation": "El Consell de la UE representa els governs dels Estats membres i hi participen ministres segons l’àmbit tractat."
+    },
+    {
+      "id": "b5-020",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quin és l’òrgan executiu de la UE que promou l’interès general de la Unió?",
+      "options": [
+        "La Comissió Europea",
+        "El Senat espanyol",
+        "El Consell General del Poder Judicial",
+        "La Diputació"
+      ],
+      "correct": 0,
+      "explanation": "La Comissió Europea és l’òrgan executiu de la UE i proposa legislació en la majoria d’àmbits."
+    },
+    {
+      "id": "b5-021",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució defineix les orientacions i prioritats polítiques generals de la UE?",
+      "options": [
+        "El Consell Europeu",
+        "El Consell de la UE en totes les seves formacions",
+        "El Tribunal Suprem",
+        "Els ajuntaments"
+      ],
+      "correct": 0,
+      "explanation": "El Consell Europeu fixa les orientacions i prioritats generals i, amb caràcter general, no legisla."
+    },
+    {
+      "id": "b5-022",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quin és l’objectiu principal del Banc Central Europeu indicat al temari?",
+      "options": [
+        "Mantenir l’estabilitat de preus",
+        "Aprovar directives",
+        "Controlar ajuntaments",
+        "Elegir comissaris"
+      ],
+      "correct": 0,
+      "explanation": "El BCE defineix i executa la política monetària de la zona euro i té com a objectiu principal l’estabilitat de preus."
+    },
+    {
+      "id": "b5-023",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució controla la correcta gestió dels recursos econòmics de la UE?",
+      "options": [
+        "El Tribunal de Comptes Europeu",
+        "El Parlament de Catalunya",
+        "El Tribunal Suprem espanyol",
+        "El Consell General del Poder Judicial"
+      ],
+      "correct": 0,
+      "explanation": "El Tribunal de Comptes Europeu contribueix a la rendició de comptes i transparència controlant els recursos de la UE."
+    },
+    {
+      "id": "b5-024",
+      "block": "bloc-5",
+      "topic": "Espanya i la UE",
+      "question": "Quina diferència assenyala el material entre reglament i directiva de la UE?",
+      "options": [
+        "El reglament és directament aplicable i la directiva generalment s’ha de transposar",
+        "La directiva és sempre directament aplicable i el reglament no",
+        "Cap dels dos pot afectar Espanya",
+        "Tots dos requereixen sempre una llei municipal"
+      ],
+      "correct": 0,
+      "explanation": "El bloc indica que els reglaments són directament aplicables i, amb caràcter general, les directives s’incorporen mitjançant transposició."
+    }
+  ]
+}
