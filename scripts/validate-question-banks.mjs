@@ -1,14 +1,25 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 const dataDir=path.resolve("site/data");
-const files=(await readdir(dataDir)).filter(n=>/^bloc_\d+\.json$/.test(n)).sort();
+const files=(await readdir(dataDir)).filter(n=>/^bloc_\d+(?:_extra)?\.json$/.test(n)).sort();
 const course=JSON.parse(await readFile(path.join(dataDir,"course.json"),"utf8"));
-for(const block of course.blocks||[]){const fileName=path.basename(block.file||""); const expected=`data/${fileName}`; if(block.file!==expected||!files.includes(fileName)){console.error(`course.json: ruta de bloc invàlida (${block.file})`);process.exit(1);}}
-const ids=new Set(); const questionTexts=new Set(); let total=0; const errors=[]; const expectedCounts={"bloc_1.json":24,"bloc_2.json":30,"bloc_3.json":30,"bloc_5.json":24};
+const declaredFiles=[];
+for(const block of course.blocks||[]){
+  for(const key of ["file","extraFile"]){
+    if(!block[key])continue;
+    const fileName=path.basename(block[key]);
+    const expected=`data/${fileName}`;
+    if(block[key]!==expected||!files.includes(fileName)){console.error(`course.json: ruta de bloc invàlida (${block[key]})`);process.exit(1);}
+    declaredFiles.push(fileName);
+  }
+}
+const ids=new Set(); const questionTexts=new Set(); let total=0; const errors=[];
+const expectedCounts={"bloc_1.json":24,"bloc_1_extra.json":18,"bloc_2.json":30,"bloc_2_extra.json":26,"bloc_3.json":30,"bloc_3_extra.json":26,"bloc_5.json":24,"bloc_5_extra.json":22};
 for(const file of files){
   const bank=JSON.parse(await readFile(path.join(dataDir,file),"utf8"));
   if(!bank.blockId||!bank.blockTitle||!Array.isArray(bank.questions)){errors.push(`${file}: blockId, blockTitle i questions són obligatoris`);continue;}
   if(expectedCounts[file]!==undefined && bank.questions.length!==expectedCounts[file]) errors.push(`${file}: s’esperaven ${expectedCounts[file]} preguntes i n’hi ha ${bank.questions.length}`);
+  const m=file.match(/^bloc_(\d+)/); if(m && bank.blockId!==`bloc-${m[1]}`) errors.push(`${file}: blockId no coincideix amb el nom del fitxer`);
   for(const [index,q] of bank.questions.entries()){
     const where=`${file}#${index+1}`;
     if(!q.id||ids.has(q.id))errors.push(`${where}: id absent o duplicat (${q.id})`); if(q.id)ids.add(q.id);
@@ -22,6 +33,7 @@ for(const file of files){
     total++;
   }
 }
-if(files.length===4&&total!==108)errors.push(`V1 ha de contenir exactament 108 preguntes; trobades: ${total}`);
+if(new Set(declaredFiles).size!==files.length)errors.push(`course.json ha de declarar els ${files.length} bancs publicats`);
+if(files.length===8&&total!==200)errors.push(`El banc publicat ha de contenir exactament 200 preguntes; trobades: ${total}`);
 if(errors.length){console.error(errors.join("\n"));process.exit(1);}
 console.log("QUESTION_BANK_VALIDATION=PASS");console.log(`BLOCK_FILES=${files.length}`);console.log(`QUESTION_COUNT=${total}`);
