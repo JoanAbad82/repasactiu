@@ -2,25 +2,9 @@
   "id": "operacions-auxiliars-serveis-administratius-generals",
   "title": "Operacions auxiliars de serveis administratius i generals",
   "blocks": [
-    {
-      "id": "bloc-1",
-      "title": "Entitats públiques i privades",
-      "file": "data/bloc_1.json"
-    },
-    {
-      "id": "bloc-2",
-      "title": "Classes d’empreses, jerarquia empresarial i funció administrativa",
-      "file": "data/bloc_2.json"
-    },
-    {
-      "id": "bloc-3",
-      "title": "Estructura de l’empresa i organigrames",
-      "file": "data/bloc_3.json"
-    },
-    {
-      "id": "bloc-5",
-      "title": "Organització de l’Estat i la Unió Europea",
-      "file": "data/bloc_5.json"
-    }
+    {"id":"bloc-1","title":"Entitats públiques i privades","file":"data/bloc_1.json","extraFile":"data/bloc_1_extra.json"},
+    {"id":"bloc-2","title":"Classes d’empreses, jerarquia empresarial i funció administrativa","file":"data/bloc_2.json","extraFile":"data/bloc_2_extra.json"},
+    {"id":"bloc-3","title":"Estructura de l’empresa i organigrames","file":"data/bloc_3.json","extraFile":"data/bloc_3_extra.json"},
+    {"id":"bloc-5","title":"Organització de l’Estat i la Unió Europea","file":"data/bloc_5.json","extraFile":"data/bloc_5_extra.json"}
   ]
 }
