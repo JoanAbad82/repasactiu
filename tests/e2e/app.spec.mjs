@@ -5,7 +5,11 @@ test('la portada mostra el curs i els quatre blocs', async ({ page }) => {
   await expect(page.getByText('Repàs Actiu').first()).toBeVisible();
   await expect(page.getByText('Operacions auxiliars de serveis administratius i generals')).toBeVisible();
   await expect(page.locator('[data-block-card]')).toHaveCount(5);
-  await expect(page.getByText('108 preguntes')).toBeVisible();
+  await expect(page.getByText('200 preguntes')).toBeVisible();
+  await expect(page.getByRole('button', { name: /Bloc 1.*42 preguntes/ })).toBeVisible();
+  await expect(page.getByRole('button', { name: /Bloc 2.*56 preguntes/ })).toBeVisible();
+  await expect(page.getByRole('button', { name: /Bloc 3.*56 preguntes/ })).toBeVisible();
+  await expect(page.getByRole('button', { name: /Bloc 5.*46 preguntes/ })).toBeVisible();
   await expect(page.locator('[href*="openutilitylab"]')).toHaveCount(0);
 });
 
