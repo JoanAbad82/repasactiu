@@ -12,7 +12,7 @@ const es={blockId:"bloc-1",blockTitle:"Entidades públicas y privadas",questions
 const fetchOk=async url=>({ok:true,json:async()=>url.includes("extra")?extra:url.includes("i18n")?es:original});
 
 test("loadBlockBundle adjunta la traducció sense duplicar la resposta correcta",async()=>{
-  const bank=await loadBlockBundle("data/bloc_1.json","data/bloc_1_extra.json","data/i18n/es/bloc-1.json",fetchOk);
+  const bank=await loadBlockBundle("data/bloc_1.json","data/bloc_1_extra.json",fetchOk,"data/i18n/es/bloc-1.json");
   assert.equal(bank.blockTitleEs,"Entidades públicas y privadas");
   assert.equal(bank.questions[0].correct,2);
   assert.equal(bank.questions[0].translations.es.question,"¿Pregunta?");
@@ -23,5 +23,5 @@ test("loadBlockBundle adjunta la traducció sense duplicar la resposta correcta"
 test("loadBlockBundle rebutja traduccions amb ids absents o sobrants",async()=>{
   const bad={...es,questions:{q1:es.questions.q1}};
   const badFetch=async url=>({ok:true,json:async()=>url.includes("extra")?extra:url.includes("i18n")?bad:original});
-  await assert.rejects(()=>loadBlockBundle("data/bloc_1.json","data/bloc_1_extra.json","data/i18n/es/bloc-1.json",badFetch),/traducció.*preguntes/i);
+  await assert.rejects(()=>loadBlockBundle("data/bloc_1.json","data/bloc_1_extra.json",badFetch,"data/i18n/es/bloc-1.json"),/traducció.*preguntes/i);
 });
