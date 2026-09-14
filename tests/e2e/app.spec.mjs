@@ -28,8 +28,8 @@ test('tota la interfície canvia a castellà i la preferència persisteix', asyn
   await expect(page.getByText('Unidad 1 — Organización empresarial')).toBeVisible();
   await expect(page.getByText('Unidad 2 — La organización de los recursos humanos')).toBeVisible();
   await expect(page.getByText('320 preguntas')).toBeVisible();
-  await expect(page.getByRole('button',{name:'Temario'})).toBeVisible();
-  await expect(page.getByRole('button',{name:'Repasar errores'})).toBeVisible();
+  await expect(page.getByRole('button',{name:'Temario',exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:'Repasar errores',exact:true})).toBeVisible();
   await page.reload();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.locator('#language-es')).toHaveAttribute('aria-pressed','true');
