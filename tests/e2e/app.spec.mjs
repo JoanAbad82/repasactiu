@@ -33,7 +33,7 @@ test('Mode Estudi mostra correcció i explicació immediata', async ({ page }) =
 test('la Unitat 2 es pot practicar de manera independent', async ({ page }) => {
   await page.goto('/');
   await page.locator('[data-selection="unitat-2-bloc-1"]').click();
-  await expect(page.getByText(/Unitat 2/)).toBeVisible();
+  await expect(page.locator('#setup-screen .eyebrow')).toContainText('Unitat 2');
   await page.getByLabel('10 preguntes').check();
   await page.getByRole('button', { name: 'Començar' }).click();
   await expect(page.locator('[data-answer-option]')).toHaveCount(4);
