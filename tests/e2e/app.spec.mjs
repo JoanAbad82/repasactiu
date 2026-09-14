@@ -105,6 +105,16 @@ test('Repassar errors informa quan no hi ha pendents', async ({ page }) => {
   await expect(page.getByText('Encara no tens preguntes pendents de repàs')).toBeVisible();
 });
 
+test('l’estat buit de repàs es manté i es tradueix en canviar d’idioma', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Repassar errors' }).click();
+  await page.getByRole('button', { name: 'Començar' }).click();
+  await expect(page.getByText('Encara no tens preguntes pendents de repàs')).toBeVisible();
+  await page.locator('#language-es').click();
+  await expect(page.getByText('Todavía no tienes preguntas pendientes de repaso')).toBeVisible();
+  await expect(page.getByRole('button',{name:'Comenzar'})).toHaveCount(0);
+});
+
 test('el mode de color es conserva després de recarregar', async ({ page }) => {
   await page.goto('/');
   const before = await page.locator('html').getAttribute('data-theme');
