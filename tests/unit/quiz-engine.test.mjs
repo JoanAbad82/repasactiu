@@ -3,6 +3,20 @@ import {shuffleArray,shuffleQuestionOptions,buildQuiz,rankReviewQuestions} from 
 const rngZero=()=>0;
 test("shuffleArray no muta",()=>{const input=[1,2,3,4]; const out=shuffleArray(input,rngZero); assert.deepEqual(input,[1,2,3,4]); assert.notStrictEqual(out,input);});
 test("shuffleQuestionOptions conserva correcta",()=>{const q={id:"q1",options:["A","B","C","D"],correct:2}; const s=shuffleQuestionOptions(q,rngZero); assert.equal(s.options[s.correct],"C");});
+test("shuffleQuestionOptions manté les traduccions en la mateixa permutació",()=>{
+  const q={
+    id:"q1",
+    options:["CA-A","CA-B","CA-C","CA-D"],
+    correct:2,
+    translations:{
+      es:{question:"Pregunta",options:["ES-A","ES-B","ES-C","ES-D"],explanation:"Explicación"}
+    }
+  };
+  const s=shuffleQuestionOptions(q,rngZero);
+  assert.equal(s.options[s.correct],"CA-C");
+  assert.equal(s.translations.es.options[s.correct],"ES-C");
+  assert.deepEqual(s.translations.es.options,["ES-B","ES-C","ES-D","ES-A"]);
+});
 test("buildQuiz limita recompte",()=>{const qs=Array.from({length:12},(_,i)=>({id:`q${i}`,options:["A","B","C","D"],correct:0})); assert.equal(buildQuiz(qs,10,rngZero).length,10); assert.equal(buildQuiz(qs,"all",rngZero).length,12);});
 test("buildQuiz usa totes si en falten",()=>{const qs=Array.from({length:6},(_,i)=>({id:`q${i}`,options:["A","B","C","D"],correct:0})); assert.equal(buildQuiz(qs,20,rngZero).length,6);});
 test("rankReview prioritza score",()=>{const qs=[{id:"a"},{id:"b"},{id:"c"}]; assert.deepEqual(rankReviewQuestions(qs,{a:1,b:3,c:0},rngZero).map(q=>q.id),["b","a"]);});
