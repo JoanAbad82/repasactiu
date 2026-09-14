@@ -1,21 +1,26 @@
 import { test, expect } from '@playwright/test';
 
-test('la portada mostra el curs i els quatre blocs', async ({ page }) => {
+test('la portada mostra dues unitats, sis blocs i 320 preguntes', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByText('Repàs Actiu').first()).toBeVisible();
   await expect(page.getByText('Operacions auxiliars de serveis administratius i generals')).toBeVisible();
-  await expect(page.locator('[data-block-card]')).toHaveCount(5);
-  await expect(page.getByText('200 preguntes')).toBeVisible();
-  await expect(page.getByRole('button', { name: /Bloc 1.*42 preguntes/ })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Bloc 2.*56 preguntes/ })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Bloc 3.*56 preguntes/ })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Bloc 5.*46 preguntes/ })).toBeVisible();
+  await expect(page.getByText('Unitat 1 — Organització empresarial')).toBeVisible();
+  await expect(page.getByText('Unitat 2 — L’organització dels recursos humans')).toBeVisible();
+  await expect(page.locator('[data-unit-group]')).toHaveCount(2);
+  await expect(page.locator('[data-block-card]')).toHaveCount(7);
+  await expect(page.getByText('320 preguntes')).toBeVisible();
+  await expect(page.locator('[data-selection="bloc-1"]')).toContainText('42 preguntes');
+  await expect(page.locator('[data-selection="bloc-2"]')).toContainText('56 preguntes');
+  await expect(page.locator('[data-selection="bloc-3"]')).toContainText('56 preguntes');
+  await expect(page.locator('[data-selection="bloc-4"]')).toContainText('40 preguntes');
+  await expect(page.locator('[data-selection="bloc-5"]')).toContainText('46 preguntes');
+  await expect(page.locator('[data-selection="unitat-2-bloc-1"]')).toContainText('80 preguntes');
   await expect(page.locator('[href*="openutilitylab"]')).toHaveCount(0);
 });
 
 test('Mode Estudi mostra correcció i explicació immediata', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('button', { name: /Bloc 1/ }).click();
+  await page.locator('[data-selection="bloc-1"]').click();
   await page.getByLabel('Mode Estudi').check();
   await page.getByLabel('10 preguntes').check();
   await page.getByRole('button', { name: 'Començar' }).click();
@@ -25,9 +30,18 @@ test('Mode Estudi mostra correcció i explicació immediata', async ({ page }) =
   await expect(page.getByRole('button', { name: 'Següent' })).toBeEnabled();
 });
 
+test('la Unitat 2 es pot practicar de manera independent', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('[data-selection="unitat-2-bloc-1"]').click();
+  await expect(page.locator('#setup-screen .eyebrow')).toContainText('Unitat 2');
+  await page.getByLabel('10 preguntes').check();
+  await page.getByRole('button', { name: 'Començar' }).click();
+  await expect(page.locator('[data-answer-option]')).toHaveCount(4);
+});
+
 test('Mode Examen no revela solucions durant el test i permet blancs', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('button', { name: /Bloc 1/ }).click();
+  await page.locator('[data-selection="bloc-1"]').click();
   await page.getByLabel('Mode Examen').check();
   await page.getByLabel('10 preguntes').check();
   await page.getByRole('button', { name: 'Començar' }).click();
@@ -59,7 +73,7 @@ test('el mode de color es conserva després de recarregar', async ({ page }) => 
 test('la pregunta és usable en mòbil', async ({ browser }) => {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   await page.goto('/');
-  await page.getByRole('button', { name: /Bloc 1/ }).click();
+  await page.locator('[data-selection="bloc-1"]').click();
   await page.getByRole('button', { name: 'Començar' }).click();
   await expect(page.locator('[data-answer-option]')).toHaveCount(4);
   await page.close();
