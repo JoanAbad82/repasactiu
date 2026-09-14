@@ -18,6 +18,51 @@ test('la portada mostra dues unitats, sis blocs i 320 preguntes', async ({ page 
   await expect(page.locator('[href*="openutilitylab"]')).toHaveCount(0);
 });
 
+test('tota la interfície canvia a castellà i la preferència persisteix', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('#language-ca')).toHaveAttribute('aria-pressed','true');
+  await page.locator('#language-es').click();
+  await expect(page.locator('html')).toHaveAttribute('lang','es');
+  await expect(page.locator('#language-es')).toHaveAttribute('aria-pressed','true');
+  await expect(page.getByText('Operaciones auxiliares de servicios administrativos y generales')).toBeVisible();
+  await expect(page.getByText('Unidad 1 — Organización empresarial')).toBeVisible();
+  await expect(page.getByText('Unidad 2 — La organización de los recursos humanos')).toBeVisible();
+  await expect(page.getByText('320 preguntas')).toBeVisible();
+  await expect(page.getByRole('button',{name:'Temario'})).toBeVisible();
+  await expect(page.getByRole('button',{name:'Repasar errores'})).toBeVisible();
+  await page.reload();
+  await expect(page.locator('html')).toHaveAttribute('lang','es');
+  await expect(page.locator('#language-es')).toHaveAttribute('aria-pressed','true');
+  await expect(page.getByText('320 preguntas')).toBeVisible();
+});
+
+test('les preguntes i explicacions també es mostren en castellà', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#language-es').click();
+  await page.locator('[data-selection="bloc-1"]').click();
+  await page.getByLabel('Modo Estudio').check();
+  await page.getByLabel('10 preguntas').check();
+  await page.getByRole('button',{name:'Comenzar'}).click();
+  await expect(page.locator('[data-answer-option]')).toHaveCount(4);
+  const questionText=await page.locator('.question-card h1').innerText();
+  expect(questionText).not.toMatch(/\bQuina\b|\bQuin\b|\bQuè\b|\bD’on\b/);
+  await page.locator('[data-answer-option]').first().click();
+  await expect(page.locator('#study-feedback')).toContainText(/Respuesta correcta|Respuesta incorrecta/);
+  await expect(page.getByRole('button',{name:'Siguiente'})).toBeEnabled();
+});
+
+test('el canvi d’idioma durant un test conserva la resposta seleccionada', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('[data-selection="bloc-1"]').click();
+  await page.getByRole('button',{name:'Començar'}).click();
+  await page.locator('[data-answer-option]').first().click();
+  await expect(page.locator('[data-answer-option]').first()).toHaveAttribute('aria-pressed','true');
+  await page.locator('#language-es').click();
+  await expect(page.locator('html')).toHaveAttribute('lang','es');
+  await expect(page.locator('[data-answer-option]').first()).toHaveAttribute('aria-pressed','true');
+  await expect(page.locator('#study-feedback')).toContainText(/Respuesta correcta|Respuesta incorrecta/);
+});
+
 test('Mode Estudi mostra correcció i explicació immediata', async ({ page }) => {
   await page.goto('/');
   await page.locator('[data-selection="bloc-1"]').click();
