@@ -36,6 +36,25 @@ test('tota la interfície canvia a castellà i la preferència persisteix', asyn
   await expect(page.getByText('320 preguntas')).toBeVisible();
 });
 
+test('el peu d’avís es mostra en català i canvia íntegrament a castellà', async ({ page }) => {
+  await page.goto('/');
+  const footer=page.locator('.site-footer');
+  const caTitle=page.locator('#material-notice-title .material-notice-ca');
+  const esTitle=page.locator('#material-notice-title .material-notice-es');
+  await expect(footer).toBeVisible();
+  await expect(caTitle).toBeVisible();
+  await expect(esTitle).toBeHidden();
+  await expect(caTitle).toHaveText('Avís sobre el material');
+  await expect(page.locator('#material-notice-primary .material-notice-ca')).toContainText('El contingut no és material oficial');
+  await expect(page.locator('#material-notice-temporary .material-notice-ca')).toContainText('Un cop finalitzat el curs, està previst retirar-ne el contingut.');
+  await page.locator('#language-es').click();
+  await expect(caTitle).toBeHidden();
+  await expect(esTitle).toBeVisible();
+  await expect(esTitle).toHaveText('Aviso sobre el material');
+  await expect(page.locator('#material-notice-primary .material-notice-es')).toContainText('El contenido no es material oficial');
+  await expect(page.locator('#material-notice-temporary .material-notice-es')).toContainText('Una vez finalizado el curso, está previsto retirar su contenido.');
+});
+
 test('les preguntes i explicacions també es mostren en castellà', async ({ page }) => {
   await page.goto('/');
   await page.locator('#language-es').click();

@@ -17,3 +17,18 @@ test("l'aplicació aplica l'idioma guardat al document",()=>{
   assert.match(app,/document\.documentElement\.lang/);
   assert.match(app,/state\.language/);
 });
+
+test("el peu mostra l'avís de material en català i castellà",()=>{
+  assert.match(index,/class="site-footer"/);
+  assert.match(index,/id="material-notice-title"/);
+  assert.match(index,/id="material-notice-primary"/);
+  assert.match(index,/id="material-notice-temporary"/);
+  assert.match(index,/class="material-notice-ca"/);
+  assert.match(index,/class="material-notice-es"/);
+  assert.match(index,/Avís sobre el material/);
+  assert.match(index,/Repàs Actiu és una eina de suport a l’estudi compartida amb el grup de classe\./);
+  assert.match(index,/Aquest espai té caràcter temporal/);
+  assert.match(index,/Aviso sobre el material/);
+  assert.match(index,/Repàs Actiu es una herramienta de apoyo al estudio compartida con el grupo de clase\./);
+  assert.match(index,/Este espacio tiene carácter temporal/);
+});
