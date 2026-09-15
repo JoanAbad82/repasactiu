@@ -3,13 +3,16 @@ import path from "node:path";
 
 const dataDir=path.resolve("site/data");
 const i18nDir=path.join(dataDir,"i18n","es");
+const memoryDir=path.join(dataDir,"memory");
 const bankPattern=/^(?:bloc_\d+|unitat_\d+_bloc_\d+)(?:_extra)?\.json$/;
 const files=(await readdir(dataDir)).filter(n=>bankPattern.test(n)).sort();
 const translationFiles=(await readdir(i18nDir)).filter(n=>n.endsWith(".json")).sort();
+const memoryFiles=(await readdir(memoryDir)).filter(n=>n.endsWith(".json")).sort();
 const course=JSON.parse(await readFile(path.join(dataDir,"course.json"),"utf8"));
 
 const declaredFiles=[];
 const declaredTranslationFiles=[];
+const declaredMemoryFiles=[];
 const metadataErrors=[];
 const unitTitles=new Map();
 const unitTitlesEs=new Map();
@@ -52,9 +55,17 @@ for(const block of course.blocks||[]){
     const expected=`data/i18n/es/${block.id}.json`;
     if(block.translationFile!==expected||!translationFiles.includes(translationName)){
       metadataErrors.push(`course.json: ruta de traducció invàlida (${block.translationFile})`);
-    }else{
-      declaredTranslationFiles.push(translationName);
-    }
+    }else declaredTranslationFiles.push(translationName);
+  }
+
+  if(!block.memoryAidFile){
+    metadataErrors.push(`${block.id||"bloc"}: memoryAidFile obligatori`);
+  }else{
+    const memoryName=path.basename(block.memoryAidFile);
+    const expected=`data/memory/${block.id}.json`;
+    if(block.memoryAidFile!==expected||!memoryFiles.includes(memoryName)){
+      metadataErrors.push(`course.json: ruta d'ajudes de memòria invàlida (${block.memoryAidFile})`);
+    }else declaredMemoryFiles.push(memoryName);
   }
 }
 
@@ -127,17 +138,12 @@ for(const block of course.blocks||[]){
   if(!block.translationFile)continue;
   const translationPath=path.join(dataDir,block.translationFile.replace(/^data\//,""));
   let translated;
-  try{
-    translated=JSON.parse(await readFile(translationPath,"utf8"));
-  }catch{
-    errors.push(`${block.translationFile}: no s’ha pogut llegir la traducció`);
-    continue;
-  }
+  try{translated=JSON.parse(await readFile(translationPath,"utf8"));}
+  catch{errors.push(`${block.translationFile}: no s’ha pogut llegir la traducció`);continue;}
   if(translated.blockId!==block.id)errors.push(`${block.translationFile}: blockId de traducció incorrecte`);
   if(translated.blockTitle!==block.titleEs)errors.push(`${block.translationFile}: blockTitle no coincideix amb titleEs`);
   if(!translated.questions||Array.isArray(translated.questions)||typeof translated.questions!=="object"){
-    errors.push(`${block.translationFile}: questions ha de ser un objecte indexat per id`);
-    continue;
+    errors.push(`${block.translationFile}: questions ha de ser un objecte indexat per id`);continue;
   }
 
   const canonicalIds=questionsByBlock.get(block.id)||[];
@@ -173,6 +179,43 @@ if(new Set(declaredTranslationFiles).size!==translationFiles.length||declaredTra
 if(translationFiles.length!==6)errors.push(`S’esperaven 6 fitxers de traducció i n’hi ha ${translationFiles.length}`);
 if(translationTotal!==320)errors.push(`La traducció castellana ha de cobrir exactament 320 preguntes; trobades: ${translationTotal}`);
 
+let memoryAidTotal=0;
+for(const block of course.blocks||[]){
+  if(!block.memoryAidFile)continue;
+  const memoryPath=path.join(dataDir,block.memoryAidFile.replace(/^data\//,""));
+  let memory;
+  try{memory=JSON.parse(await readFile(memoryPath,"utf8"));}
+  catch{errors.push(`${block.memoryAidFile}: no s’ha pogut llegir el fitxer`);continue;}
+  if(memory.blockId!==block.id)errors.push(`${block.memoryAidFile}: blockId incorrecte`);
+  if(!memory.questions||Array.isArray(memory.questions)||typeof memory.questions!=="object"){
+    errors.push(`${block.memoryAidFile}: questions ha de ser un objecte indexat per id`);continue;
+  }
+  const canonicalIds=questionsByBlock.get(block.id)||[];
+  const memoryIds=Object.keys(memory.questions);
+  const missing=canonicalIds.filter(id=>!Object.hasOwn(memory.questions,id));
+  const extra=memoryIds.filter(id=>!canonicalIds.includes(id));
+  if(missing.length||extra.length)errors.push(`${block.memoryAidFile}: cobertura incorrecta (absents: ${missing.join(",")||"cap"}; sobrants: ${extra.join(",")||"cap"})`);
+
+  for(const id of canonicalIds){
+    const aid=memory.questions[id];
+    if(!aid)continue;
+    const where=`${block.memoryAidFile}#${id}`;
+    if(aid.type!=="example"&&aid.type!=="idea")errors.push(`${where}: type ha de ser example o idea`);
+    for(const lang of ["ca","es"]){
+      if(typeof aid[lang]!=="string"||!aid[lang].trim())errors.push(`${where}: ${lang} obligatori`);
+      else if(aid[lang].length>144)errors.push(`${where}: ${lang} supera 144 caràcters (${aid[lang].length})`);
+    }
+    const allowed=new Set(["type","ca","es"]);
+    const unknown=Object.keys(aid).filter(key=>!allowed.has(key));
+    if(unknown.length)errors.push(`${where}: camps no admesos (${unknown.join(",")})`);
+    memoryAidTotal++;
+  }
+}
+
+if(new Set(declaredMemoryFiles).size!==memoryFiles.length||declaredMemoryFiles.length!==memoryFiles.length)errors.push(`course.json ha de declarar una vegada cadascun dels ${memoryFiles.length} fitxers d'ajudes de memòria`);
+if(memoryFiles.length!==6)errors.push(`S’esperaven 6 fitxers d'ajudes de memòria i n’hi ha ${memoryFiles.length}`);
+if(memoryAidTotal!==320)errors.push(`Les ajudes de memòria han de cobrir exactament 320 preguntes; trobades: ${memoryAidTotal}`);
+
 if(errors.length){
   console.error(errors.join("\n"));
   process.exit(1);
@@ -182,3 +225,5 @@ console.log(`BLOCK_FILES=${files.length}`);
 console.log(`QUESTION_COUNT=${total}`);
 console.log(`TRANSLATION_FILES=${translationFiles.length}`);
 console.log(`TRANSLATION_COUNT=${translationTotal}`);
+console.log(`MEMORY_AID_FILES=${memoryFiles.length}`);
+console.log(`MEMORY_AID_COUNT=${memoryAidTotal}`);

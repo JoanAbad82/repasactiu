@@ -55,7 +55,7 @@ test('el peu d’avís es mostra en català i canvia íntegrament a castellà', 
   await expect(page.locator('#material-notice-temporary .material-notice-es')).toContainText('Una vez finalizado el curso, está previsto retirar su contenido.');
 });
 
-test('les preguntes i explicacions també es mostren en castellà', async ({ page }) => {
+test('les preguntes, explicacions i ajudes de memòria es mostren en castellà', async ({ page }) => {
   await page.goto('/');
   await page.locator('#language-es').click();
   await page.locator('[data-selection="bloc-1"]').click();
@@ -63,10 +63,14 @@ test('les preguntes i explicacions també es mostren en castellà', async ({ pag
   await page.getByLabel('10 preguntas').check();
   await page.getByRole('button',{name:'Comenzar'}).click();
   await expect(page.locator('[data-answer-option]')).toHaveCount(4);
+  await expect(page.locator('.memory-aid')).toHaveCount(0);
   const questionText=await page.locator('.question-card h1').innerText();
   expect(questionText).not.toMatch(/\bQuina\b|\bQuin\b|\bQuè\b|\bD’on\b/);
   await page.locator('[data-answer-option]').first().click();
   await expect(page.locator('#study-feedback')).toContainText(/Respuesta correcta|Respuesta incorrecta/);
+  await expect(page.locator('.memory-aid')).toBeVisible();
+  await expect(page.locator('.memory-aid strong')).toHaveText(/Ejemplo para recordar|Idea para recordar/);
+  await expect(page.locator('.memory-aid p')).not.toHaveText('');
   await expect(page.getByRole('button',{name:'Siguiente'})).toBeEnabled();
 });
 
@@ -80,17 +84,21 @@ test('el canvi d’idioma durant un test conserva la resposta seleccionada', asy
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.locator('[data-answer-option]').first()).toHaveAttribute('aria-pressed','true');
   await expect(page.locator('#study-feedback')).toContainText(/Respuesta correcta|Respuesta incorrecta/);
+  await expect(page.locator('.memory-aid strong')).toHaveText(/Ejemplo para recordar|Idea para recordar/);
 });
 
-test('Mode Estudi mostra correcció i explicació immediata', async ({ page }) => {
+test('Mode Estudi mostra correcció, explicació i ajuda de memòria immediata', async ({ page }) => {
   await page.goto('/');
   await page.locator('[data-selection="bloc-1"]').click();
   await page.getByLabel('Mode Estudi').check();
   await page.getByLabel('10 preguntes').check();
   await page.getByRole('button', { name: 'Començar' }).click();
   await expect(page.locator('[data-answer-option]')).toHaveCount(4);
+  await expect(page.locator('.memory-aid')).toHaveCount(0);
   await page.locator('[data-answer-option]').first().click();
   await expect(page.locator('#study-feedback')).toBeVisible();
+  await expect(page.locator('.memory-aid')).toBeVisible();
+  await expect(page.locator('.memory-aid strong')).toHaveText(/Exemple per recordar|Idea per recordar/);
   await expect(page.getByRole('button', { name: 'Següent' })).toBeEnabled();
 });
 
@@ -111,6 +119,7 @@ test('Mode Examen no revela solucions durant el test i permet blancs', async ({ 
   await page.getByRole('button', { name: 'Començar' }).click();
   await page.locator('[data-answer-option]').first().click();
   await expect(page.locator('#study-feedback')).toHaveCount(0);
+  await expect(page.locator('.memory-aid')).toHaveCount(0);
   await page.getByRole('button', { name: 'Següent' }).click();
   await expect(page.getByText('Pregunta 2 de 10')).toBeVisible();
   await page.getByRole('button', { name: 'Següent' }).click();

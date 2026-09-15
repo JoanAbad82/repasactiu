@@ -74,3 +74,36 @@ test("el curs complet conté 320 preguntes",async()=>{
   }
   assert.equal(total,320);
 });
+
+test("les 320 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
+  const course=await readJson("course.json");
+  let total=0;
+  for(const block of course.blocks){
+    assert.ok(block.memoryAidFile,`${block.id}: memoryAidFile obligatori`);
+    const memoryPath=path.join(dataDir,block.memoryAidFile.replace(/^data\//,""));
+    assert.ok(existsSync(memoryPath),`${block.memoryAidFile} ha d'existir`);
+    const memory=JSON.parse(await readFile(memoryPath,"utf8"));
+    assert.equal(memory.blockId,block.id,`${block.id}: blockId d'ajudes incorrecte`);
+    assert.ok(memory.questions&&!Array.isArray(memory.questions),`${block.id}: questions d'ajudes ha de ser un objecte`);
+
+    const canonicalIds=[];
+    for(const key of ["file","extraFile"]){
+      if(!block[key])continue;
+      const bank=await readJson(path.basename(block[key]));
+      canonicalIds.push(...bank.questions.map(q=>q.id));
+    }
+    assert.deepEqual(Object.keys(memory.questions).sort(),canonicalIds.sort(),`${block.id}: cobertura d'ajudes incompleta`);
+
+    for(const id of canonicalIds){
+      const aid=memory.questions[id];
+      assert.match(aid.type,/^(example|idea)$/,`${id}: type ha de ser example o idea`);
+      for(const lang of ["ca","es"]){
+        assert.equal(typeof aid[lang],"string",`${id}: ${lang} ha de ser text`);
+        assert.ok(aid[lang].trim(),`${id}: ${lang} no pot ser buit`);
+        assert.ok(aid[lang].length<=144,`${id}: ${lang} supera 144 caràcters (${aid[lang].length})`);
+      }
+      total++;
+    }
+  }
+  assert.equal(total,320);
+});

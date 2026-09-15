@@ -20,9 +20,13 @@ test('smoke del lloc publicat',async({page})=>{
   await page.getByRole('button',{name:'Comenzar'}).click();
   await expect(page.locator('[data-answer-option]')).toHaveCount(4);
   await expect(page.locator('.question-card h1')).not.toBeEmpty();
+  await expect(page.locator('.memory-aid')).toHaveCount(0);
   await page.locator('[data-answer-option]').first().click();
   await expect(page.locator('#study-feedback')).toContainText(/Respuesta correcta|Respuesta incorrecta/);
-  await expect(page.locator('#study-feedback p')).not.toBeEmpty();
+  await expect(page.locator('#study-feedback > p')).not.toBeEmpty();
+  await expect(page.locator('#study-feedback .memory-aid')).toBeVisible();
+  await expect(page.locator('#study-feedback .memory-aid strong')).toHaveText(/Ejemplo para recordar|Idea para recordar/);
+  await expect(page.locator('#study-feedback .memory-aid p')).not.toBeEmpty();
 
   if(production) await expect(page).toHaveURL(/repasactiu\.pages\.dev/);
 });

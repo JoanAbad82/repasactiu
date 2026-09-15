@@ -12,14 +12,18 @@ export function loadBlock(file,fetchImpl=fetch){
   return readJson(file,fetchImpl,"No s’ha pogut carregar aquest bloc. Torna-ho a provar.");
 }
 
-function attachSpanishTranslation(bank,translation){
-  if(translation.blockId!==bank.blockId) throw new Error("La traducció no correspon al bloc principal.");
-  if(!translation.questions||Array.isArray(translation.questions)) throw new Error("La traducció de preguntes no té el format esperat.");
+function exactQuestionIds(bank,supplement,errorMessage){
+  if(supplement.blockId!==bank.blockId) throw new Error(errorMessage);
+  if(!supplement.questions||Array.isArray(supplement.questions)) throw new Error(errorMessage);
   const canonicalIds=bank.questions.map(q=>q.id).sort();
-  const translatedIds=Object.keys(translation.questions).sort();
-  if(canonicalIds.length!==translatedIds.length||canonicalIds.some((id,index)=>id!==translatedIds[index])){
-    throw new Error("La traducció de preguntes no coincideix amb el banc principal.");
+  const supplementIds=Object.keys(supplement.questions).sort();
+  if(canonicalIds.length!==supplementIds.length||canonicalIds.some((id,index)=>id!==supplementIds[index])){
+    throw new Error(errorMessage);
   }
+}
+
+function attachSpanishTranslation(bank,translation){
+  exactQuestionIds(bank,translation,"La traducció de preguntes no coincideix amb el banc principal.");
   return {
     ...bank,
     blockTitleEs:translation.blockTitle,
@@ -30,7 +34,18 @@ function attachSpanishTranslation(bank,translation){
   };
 }
 
-export async function loadBlockBundle(file,extraFile,fetchImpl=fetch,translationFile=null){
+function attachMemoryAids(bank,memoryAids){
+  exactQuestionIds(bank,memoryAids,"Les ajudes de memòria no coincideixen amb el banc principal.");
+  return {
+    ...bank,
+    questions:bank.questions.map(question=>({
+      ...question,
+      memoryAid:memoryAids.questions[question.id]
+    }))
+  };
+}
+
+export async function loadBlockBundle(file,extraFile,fetchImpl=fetch,translationFile=null,memoryAidFile=null){
   const base=await loadBlock(file,fetchImpl);
   let bank=base;
   if(extraFile){
@@ -38,7 +53,13 @@ export async function loadBlockBundle(file,extraFile,fetchImpl=fetch,translation
     if(extra.blockId!==base.blockId)throw new Error("El banc addicional no correspon al bloc principal.");
     bank={...base,questions:[...base.questions,...extra.questions]};
   }
-  if(!translationFile)return bank;
-  const translation=await readJson(translationFile,fetchImpl,"No s’ha pogut carregar la traducció castellana. Torna-ho a provar.");
-  return attachSpanishTranslation(bank,translation);
+  if(translationFile){
+    const translation=await readJson(translationFile,fetchImpl,"No s’ha pogut carregar la traducció castellana. Torna-ho a provar.");
+    bank=attachSpanishTranslation(bank,translation);
+  }
+  if(memoryAidFile){
+    const memoryAids=await readJson(memoryAidFile,fetchImpl,"No s’han pogut carregar les ajudes de memòria. Torna-ho a provar.");
+    bank=attachMemoryAids(bank,memoryAids);
+  }
+  return bank;
 }
