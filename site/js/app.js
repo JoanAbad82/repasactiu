@@ -29,8 +29,9 @@ function displayScreen(id){currentScreen=id;showScreen(id);}
 function allQuestions(){return banks.flatMap(b=>b.questions);}
 function selectedQuestions(){if(selection==='all')return allQuestions();return banks.find(b=>b.blockId===selection)?.questions||[];}
 function localizedQuestion(question,lang=language()){
- if(lang!=='es'||!question.translations?.es)return question;
- return {...question,...question.translations.es};
+ const localized=lang==='es'&&question.translations?.es?{...question,...question.translations.es}:{...question};
+ if(question.memoryAid){localized.memoryAid={type:question.memoryAid.type,text:question.memoryAid[lang]};}
+ return localized;
 }
 function localizedBankTitle(bank,lang=language()){return lang==='es'?(bank.blockTitleEs||bank.blockTitle):bank.blockTitle;}
 function localizedUnitTitle(bank,lang=language()){return lang==='es'?(bank.unitTitleEs||bank.unitTitle):bank.unitTitle;}
@@ -70,5 +71,5 @@ function bindGlobal(){
  els.theme.addEventListener('click',()=>{const current=resolveTheme(state.theme,prefersDark());state.theme=current==='dark'?'light':'dark';saveState(state);syncTheme();});
  els.home.addEventListener('click',e=>{const card=e.target.closest('[data-block-card]');if(card)openSetup(card.dataset.selection,false);if(e.target.closest('#reset-progress')){if(window.confirm(t().reset)){resetProgress();state=loadState();syncTheme();syncLanguageChrome();renderHome();}}});
 }
-async function init(){try{syncTheme();syncLanguageChrome();course=await loadCourse();banks=await Promise.all(course.blocks.map(async meta=>{const bank=await loadBlockBundle(meta.file,meta.extraFile,fetch,meta.translationFile);if(bank.blockId!==meta.id)throw new Error('El banc no correspon al bloc declarat al curs.');return {...bank,blockTitleEs:meta.titleEs||bank.blockTitleEs,unitId:meta.unitId,unitTitle:meta.unitTitle,unitTitleEs:meta.unitTitleEs,blockNumber:meta.blockNumber};}));bindGlobal();renderHome();}catch(error){syncLanguageChrome();els.home.innerHTML=`<div class="error-message"><strong>${t().loadError}</strong><p>${t().retry}</p></div>`;console.error(error);}}
+async function init(){try{syncTheme();syncLanguageChrome();course=await loadCourse();banks=await Promise.all(course.blocks.map(async meta=>{const bank=await loadBlockBundle(meta.file,meta.extraFile,fetch,meta.translationFile,meta.memoryAidFile);if(bank.blockId!==meta.id)throw new Error('El banc no correspon al bloc declarat al curs.');return {...bank,blockTitleEs:meta.titleEs||bank.blockTitleEs,unitId:meta.unitId,unitTitle:meta.unitTitle,unitTitleEs:meta.unitTitleEs,blockNumber:meta.blockNumber};}));bindGlobal();renderHome();}catch(error){syncLanguageChrome();els.home.innerHTML=`<div class="error-message"><strong>${t().loadError}</strong><p>${t().retry}</p></div>`;console.error(error);}}
 init();
