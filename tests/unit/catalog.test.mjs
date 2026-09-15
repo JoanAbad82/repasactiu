@@ -7,3 +7,12 @@ test("loadBlock carrega un banc", async()=> assert.equal((await loadBlock("data/
 test("loadBlock falla amb missatge funcional", async()=> { const bad=async()=>({ok:false,status:500}); await assert.rejects(()=>loadBlock("data/bloc_1.json",bad),/No s’ha pogut carregar aquest bloc/); });
 test("loadBlockBundle fusiona banc principal i addicional", async()=> { const bank=await loadBlockBundle("data/bloc_1.json","data/bloc_1_extra.json",okFetch); assert.deepEqual(bank.questions.map(q=>q.id),["q1","q2"]); });
 test("loadBlockBundle rebutja un banc addicional d’un altre bloc", async()=> { const mismatch=async(url)=>({ok:true,json:async()=>url.includes("extra")?{blockId:"bloc-2",questions:[]}:{blockId:"bloc-1",questions:[]}}); await assert.rejects(()=>loadBlockBundle("data/bloc_1.json","data/bloc_1_extra.json",mismatch),/no correspon al bloc principal/); });
+
+test("loadBlockBundle adjunta ajuda de memòria bilingüe", async()=> {
+  const customFetch=async url=>({ok:true,json:async()=>url.includes("memory/")
+    ? {blockId:"bloc-1",questions:{q1:{type:"example",ca:"Exemple curt",es:"Ejemplo corto"}}}
+    : {blockId:"bloc-1",blockTitle:"Bloc 1",questions:[{id:"q1",question:"Q?",options:["A","B","C","D"],correct:0,explanation:"Exp"}]}
+  });
+  const bank=await loadBlockBundle("data/bloc_1.json",null,customFetch,null,"data/memory/bloc-1.json");
+  assert.deepEqual(bank.questions[0].memoryAid,{type:"example",ca:"Exemple curt",es:"Ejemplo corto"});
+});
