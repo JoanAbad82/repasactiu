@@ -4,7 +4,7 @@
   "scope": "UF0517",
   "academicPolicy": "Only the six original course PDFs are authoritative. No web or general-knowledge source is accepted for academic validation.",
   "sources": {
-    "B1": {"file":"1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf","pages":62},
+    "B1": {"file":"1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf","pages":19},
     "B2": {"file":"2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf","pages":33},
     "B3": {"file":"3_Lestructura_empresa_organigrames_BLOC_3.pdf","pages":35},
     "B4": {"file":"Els departaments_BLOC 4.pdf","pages":34},
@@ -12,7 +12,7 @@
     "U2B1": {"file":"Unitat 2_Lorganització dels RRHH.pdf","pages":119}
   },
   "coverageRules": [
-    {"prefix":"b1-","start":1,"end":50,"source":"B1","pageRange":[1,62],"status":"PASS"},
+    {"prefix":"b1-","start":1,"end":50,"source":"B1","pageRange":[1,19],"status":"PASS"},
     {"prefix":"b2-","start":1,"end":70,"source":"B2","pageRange":[1,33],"status":"PASS"},
     {"prefix":"b3-","start":1,"end":70,"source":"B3","pageRange":[1,35],"status":"PASS"},
     {"prefix":"b4-","start":1,"end":60,"source":"B4","pageRange":[1,34],"status":"PASS"},
