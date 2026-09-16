@@ -22,6 +22,19 @@ function exactQuestionIds(bank,supplement,errorMessage){
   }
 }
 
+function mergeIndexedSupplements(blockId,supplements,errorMessage){
+  const merged={blockId,questions:{}};
+  for(const supplement of supplements){
+    if(supplement.blockId!==blockId||!supplement.questions||Array.isArray(supplement.questions))throw new Error(errorMessage);
+    if(supplement.blockTitle&&!merged.blockTitle)merged.blockTitle=supplement.blockTitle;
+    for(const [id,value] of Object.entries(supplement.questions)){
+      if(Object.hasOwn(merged.questions,id))throw new Error(errorMessage);
+      merged.questions[id]=value;
+    }
+  }
+  return merged;
+}
+
 function attachSpanishTranslation(bank,translation){
   exactQuestionIds(bank,translation,"La traducció de preguntes no coincideix amb el banc principal.");
   return {
@@ -45,20 +58,40 @@ function attachMemoryAids(bank,memoryAids){
   };
 }
 
-export async function loadBlockBundle(file,extraFile,fetchImpl=fetch,translationFile=null,memoryAidFile=null){
+async function loadIndexedSupplements(files,fetchImpl,userMessage){
+  return Promise.all(files.map(file=>readJson(file,fetchImpl,userMessage)));
+}
+
+export async function loadBlockBundle(
+  file,
+  extraFile,
+  fetchImpl=fetch,
+  translationFile=null,
+  memoryAidFile=null,
+  additionalFiles=[],
+  additionalTranslationFiles=[],
+  additionalMemoryAidFiles=[]
+){
   const base=await loadBlock(file,fetchImpl);
   let bank=base;
-  if(extraFile){
-    const extra=await loadBlock(extraFile,fetchImpl);
-    if(extra.blockId!==base.blockId)throw new Error("El banc addicional no correspon al bloc principal.");
-    bank={...base,questions:[...base.questions,...extra.questions]};
+  const bankFiles=[extraFile,...additionalFiles].filter(Boolean);
+  for(const supplementalFile of bankFiles){
+    const supplemental=await loadBlock(supplementalFile,fetchImpl);
+    if(supplemental.blockId!==base.blockId)throw new Error("El banc addicional no correspon al bloc principal.");
+    bank={...bank,questions:[...bank.questions,...supplemental.questions]};
   }
-  if(translationFile){
-    const translation=await readJson(translationFile,fetchImpl,"No s’ha pogut carregar la traducció castellana. Torna-ho a provar.");
+
+  const translationFiles=[translationFile,...additionalTranslationFiles].filter(Boolean);
+  if(translationFiles.length){
+    const translations=await loadIndexedSupplements(translationFiles,fetchImpl,"No s’ha pogut carregar la traducció castellana. Torna-ho a provar.");
+    const translation=mergeIndexedSupplements(base.blockId,translations,"La traducció de preguntes no coincideix amb el banc principal.");
     bank=attachSpanishTranslation(bank,translation);
   }
-  if(memoryAidFile){
-    const memoryAids=await readJson(memoryAidFile,fetchImpl,"No s’han pogut carregar les ajudes de memòria. Torna-ho a provar.");
+
+  const memoryFiles=[memoryAidFile,...additionalMemoryAidFiles].filter(Boolean);
+  if(memoryFiles.length){
+    const memorySupplements=await loadIndexedSupplements(memoryFiles,fetchImpl,"No s’han pogut carregar les ajudes de memòria. Torna-ho a provar.");
+    const memoryAids=mergeIndexedSupplements(base.blockId,memorySupplements,"Les ajudes de memòria no coincideixen amb el banc principal.");
     bank=attachMemoryAids(bank,memoryAids);
   }
   return bank;
