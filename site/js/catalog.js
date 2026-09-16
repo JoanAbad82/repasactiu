@@ -8,6 +8,10 @@ export function loadCourse(fetchImpl=fetch){
   return readJson("data/course.json",fetchImpl,"No s’ha pogut carregar el temari. Torna-ho a provar.");
 }
 
+export function loadContentCorrections(fetchImpl=fetch){
+  return readJson("data/content_corrections.json",fetchImpl,"No s’han pogut carregar les correccions auditades. Torna-ho a provar.");
+}
+
 export function loadBlock(file,fetchImpl=fetch){
   return readJson(file,fetchImpl,"No s’ha pogut carregar aquest bloc. Torna-ho a provar.");
 }
@@ -55,6 +59,34 @@ function attachMemoryAids(bank,memoryAids){
       ...question,
       memoryAid:memoryAids.questions[question.id]
     }))
+  };
+}
+
+const protectedCorrectionFields=new Set(['id','block','correct','translations']);
+
+export function applyContentCorrections(bank,corrections={questions:{}}){
+  const correctionMap=corrections?.questions||{};
+  const knownIds=new Set(bank.questions.map(q=>q.id));
+  for(const id of Object.keys(correctionMap)){
+    const correction=correctionMap[id];
+    if(!knownIds.has(id))continue;
+    for(const field of Object.keys(correction.canonical||{})){
+      if(protectedCorrectionFields.has(field))throw new Error(`Correcció ${id}: camp protegit ${field}`);
+    }
+    if(correction.es&&Object.hasOwn(correction.es,'correct'))throw new Error(`Correcció ${id}: camp protegit correct`);
+  }
+  return {
+    ...bank,
+    questions:bank.questions.map(question=>{
+      const correction=correctionMap[question.id];
+      if(!correction)return question;
+      const canonical=correction.canonical||{};
+      const spanish=correction.es;
+      const updated={...question,...canonical,id:question.id,block:question.block,correct:question.correct};
+      if(spanish)updated.translations={...(question.translations||{}),es:{...(question.translations?.es||{}),...spanish}};
+      if(correction.memoryAid)updated.memoryAid={...correction.memoryAid};
+      return updated;
+    })
   };
 }
 

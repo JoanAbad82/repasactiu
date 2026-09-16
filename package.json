@@ -7,9 +7,13 @@
     "serve": "node scripts/serve.mjs",
     "test:unit": "node --test tests/unit/*.test.mjs",
     "test:data": "node scripts/validate-question-banks.mjs",
+    "test:audit:permutations": "node scripts/audit-permutations.mjs",
+    "test:audit:sources": "node scripts/validate-source-traceability.mjs",
+    "test:audit:bilingual": "node scripts/audit-bilingual-contract.mjs",
     "test:e2e": "playwright test",
     "test": "npm run test:data && npm run test:unit",
-    "test:all": "npm run test:data && npm run test:unit && npm run test:e2e"
+    "audit:full": "npm run test:data && npm run test:audit:sources && npm run test:audit:bilingual && npm run test:audit:permutations && npm run test:unit && npm run test:e2e",
+    "test:all": "npm run audit:full"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0"
