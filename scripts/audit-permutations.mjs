@@ -18,8 +18,9 @@ export function generatePermutations(items){
   return result;
 }
 
-async function loadCanonicalQuestions(){
+async function loadEffectiveQuestions(){
   const course=await readJson('course.json');
+  const corrections=await readJson('content_corrections.json');
   const questions=[];
   const translations=new Map();
 
@@ -39,11 +40,20 @@ async function loadCanonicalQuestions(){
       }
     }
   }
-  return {questions,translations};
+
+  const effectiveQuestions=questions.map(q=>{
+    const correction=corrections.questions?.[q.id];
+    return correction?{...q,...(correction.canonical||{}),id:q.id,block:q.block,correct:q.correct}:q;
+  });
+  for(const [id,translation] of translations){
+    const correction=corrections.questions?.[id];
+    if(correction?.es)translations.set(id,{...translation,...correction.es});
+  }
+  return {questions:effectiveQuestions,translations};
 }
 
 export async function runPermutationAudit(){
-  const {questions,translations}=await loadCanonicalQuestions();
+  const {questions,translations}=await loadEffectiveQuestions();
   const permutations=generatePermutations([0,1,2,3]);
   const errors=[];
   let cases=0;
