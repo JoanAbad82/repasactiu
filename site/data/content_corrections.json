@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": {
+    "b2-037": {
+      "canonical": {
+        "question": "Una empresa rep aportacions de capital d’una administració pública i també d’inversors privats. Quin tipus és segons l’origen del capital?",
+        "options": [
+          "Pública, perquè hi participa una administració",
+          "Privada, perquè hi ha inversors privats",
+          "Mixta, perquè combina aportacions públiques i privades",
+          "Cooperativa, perquè hi ha més d’un aportant"
+        ],
+        "explanation": "Segons el material, una empresa mixta combina aportacions de capital del sector públic i del sector privat."
+      },
+      "es": {
+        "question": "Una empresa recibe aportaciones de capital de una administración pública y también de inversores privados. ¿Qué tipo es según el origen del capital?",
+        "options": [
+          "Pública, porque participa una administración",
+          "Privada, porque hay inversores privados",
+          "Mixta, porque combina aportaciones públicas y privadas",
+          "Cooperativa, porque hay más de un aportante"
+        ],
+        "explanation": "Según el material, una empresa mixta combina aportaciones de capital del sector público y del sector privado."
+      },
+      "memoryAid": {
+        "type": "example",
+        "ca": "Capital públic + capital privat = empresa mixta.",
+        "es": "Capital público + capital privado = empresa mixta."
+      }
+    }
+  }
+}
