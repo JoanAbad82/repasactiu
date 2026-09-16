@@ -7,15 +7,17 @@ test('smoke del lloc publicat',async({page})=>{
   await expect(page.getByText('Repàs Actiu').first()).toBeVisible();
   await expect(page.locator('[data-unit-group]')).toHaveCount(2);
   await expect(page.locator('[data-block-card]')).toHaveCount(7);
-  await expect(page.getByText('320 preguntes')).toBeVisible();
+  await expect(page.getByText('450 preguntes')).toBeVisible();
+  await expect(page.locator('[data-selection="unitat-2-bloc-1"]')).toContainText('140 preguntes');
   await expect(page.locator('#language-ca')).toHaveAttribute('aria-pressed','true');
 
   await page.locator('#language-es').click();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
-  await expect(page.getByText('320 preguntas')).toBeVisible();
+  await expect(page.getByText('450 preguntas')).toBeVisible();
+  await expect(page.locator('[data-selection="unitat-2-bloc-1"]')).toContainText('140 preguntas');
   await expect(page.getByText('Unidad 2 — La organización de los recursos humanos')).toBeVisible();
 
-  await page.locator('[data-selection="bloc-1"]').click();
+  await page.locator('[data-selection="unitat-2-bloc-1"]').click();
   await expect(page.getByRole('button',{name:'Comenzar'})).toBeVisible();
   await page.getByRole('button',{name:'Comenzar'}).click();
   await expect(page.locator('[data-answer-option]')).toHaveCount(4);
