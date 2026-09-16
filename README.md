@@ -7,9 +7,9 @@ Plataforma web pública i minimalista de tests en català i castellà.
 Curs inicial: **Operacions auxiliars de serveis administratius i generals**.
 
 - Interfície bilingüe Català / Castellano
-- 320 preguntes disponibles en tots dos idiomes
+- 450 preguntes disponibles en tots dos idiomes
 - Traducció completa d’enunciats, opcions i explicacions
-- 320 ajudes de memòria bilingües: exemple pràctic o idea breu per recordar
+- 450 ajudes de memòria bilingües: exemple pràctic o idea breu per recordar
 - Mode Estudi
 - Mode Examen
 - Mode Repassar errors
@@ -27,23 +27,23 @@ El català és la versió canònica del contingut. La versió castellana reutili
 
 Cada pregunta incorpora també una ajuda de memòria separada del banc canònic. Prioritza un exemple d’aplicació pràctica i, quan no és natural, una idea concisa per recordar. Cada versió lingüística té un màxim de 144 caràcters. L’ajuda només es mostra després de respondre i també durant la revisió de respostes, de manera que no dona pistes abans de contestar.
 
-Les 200 preguntes publicades anteriorment en català es conserven sense modificacions. L’ampliació afegeix 120 preguntes noves corresponents al Bloc 4 de la Unitat 1 i al Bloc 1 de la Unitat 2.
+Les 320 preguntes publicades abans d’aquesta ampliació es conserven sense modificacions. L’ampliació afegeix 130 preguntes noves, distribuïdes segons la cobertura real dels sis materials docents originals del curs.
 
 Distribució actual:
 
 **Unitat 1 — Organització empresarial**
 
-- Bloc 1: 42 preguntes
-- Bloc 2: 56 preguntes
-- Bloc 3: 56 preguntes
-- Bloc 4 — Els departaments: 40 preguntes
-- Bloc 5: 46 preguntes
+- Bloc 1: 50 preguntes
+- Bloc 2: 70 preguntes
+- Bloc 3: 70 preguntes
+- Bloc 4 — Els departaments: 60 preguntes
+- Bloc 5: 60 preguntes
 
 **Unitat 2 — L’organització dels recursos humans**
 
-- Bloc 1 — L’organització d’activitats de suport administratiu: 80 preguntes
+- Bloc 1 — L’organització d’activitats de suport administratiu: 140 preguntes
 
-**Total: 320 preguntes en català + 320 traduccions completes al castellà + 320 ajudes de memòria bilingües.**
+**Total: 450 preguntes en català + 450 traduccions completes al castellà + 450 ajudes de memòria bilingües.**
 
 ## Desenvolupament
 
@@ -55,7 +55,7 @@ npm run test
 npm run serve
 ```
 
-La validació automàtica comprova els 320 registres canònics, la cobertura exacta de les 320 traduccions castellanes i les 320 ajudes de memòria en tots dos idiomes. També verifica que cada ajuda sigui `example` o `idea`, que no sigui buida i que no superi els 144 caràcters.
+La validació automàtica comprova els 450 registres canònics, la cobertura exacta de les 450 traduccions castellanes i les 450 ajudes de memòria en tots dos idiomes. També verifica que cada ajuda sigui `example` o `idea`, que no sigui buida i que no superi els 144 caràcters.
 
 ## Independència
 

@@ -1,0 +1,19 @@
+{
+  "blockId":"bloc-2",
+  "questions":{
+    "b2-057":{"type":"example","ca":"Comprar equips amb part del benefici és una forma de reinvertir en l’empresa.","es":"Comprar equipos con parte del beneficio es una forma de reinvertir en la empresa."},
+    "b2-058":{"type":"example","ca":"Una associació pot cobrar quotes, però els excedents tornen als seus objectius, no als membres.","es":"Una asociación puede cobrar cuotas, pero los excedentes vuelven a sus objetivos, no a los miembros."},
+    "b2-059":{"type":"example","ca":"Una fàbrica privada S.L. és alhora una societat, privada i fabricant.","es":"Una fábrica privada S.L. es a la vez una sociedad, privada y fabricante."},
+    "b2-060":{"type":"example","ca":"Una persona que porta el negoci en nom propi és el cas típic d’empresa individual.","es":"Una persona que lleva el negocio en nombre propio es el caso típico de empresa individual."},
+    "b2-061":{"type":"idea","ca":"En les formes societàries habituals, societat i socis no són la mateixa personalitat jurídica.","es":"En las formas societarias habituales, sociedad y socios no son la misma personalidad jurídica."},
+    "b2-062":{"type":"example","ca":"En una cooperativa, les persones sòcies participen i decideixen mitjançant els seus òrgans.","es":"En una cooperativa, las personas socias participan y deciden mediante sus órganos."},
+    "b2-063":{"type":"idea","ca":"Mixta = capital públic + capital privat.","es":"Mixta = capital público + capital privado."},
+    "b2-064":{"type":"example","ca":"Una assessoria presta un servei: no necessita fabricar ni distribuir un producte.","es":"Una asesoría presta un servicio: no necesita fabricar ni distribuir un producto."},
+    "b2-065":{"type":"example","ca":"Un veterà pot tenir prestigi i influència sense ser cap: això és rang.","es":"Un veterano puede tener prestigio e influencia sin ser jefe: eso es rango."},
+    "b2-066":{"type":"example","ca":"L’experta que resol els casos difícils guanya influència per la seva capacitat.","es":"La experta que resuelve los casos difíciles gana influencia por su capacidad."},
+    "b2-067":{"type":"idea","ca":"Cobrar més no significa necessàriament dirigir: remuneració i comandament poden no coincidir.","es":"Cobrar más no significa necesariamente dirigir: remuneración y mando pueden no coincidir."},
+    "b2-068":{"type":"example","ca":"Fixar un objectiu per als pròxims anys i decidir els passos és planificar.","es":"Fijar un objetivo para los próximos años y decidir los pasos es planificar."},
+    "b2-069":{"type":"example","ca":"Repartir personal, material i diners entre tasques és organitzar recursos.","es":"Repartir personal, material y dinero entre tareas es organizar recursos."},
+    "b2-070":{"type":"idea","ca":"Auditar = revisar i verificar activitats, procediments i resultats.","es":"Auditar = revisar y verificar actividades, procedimientos y resultados."}
+  }
+}

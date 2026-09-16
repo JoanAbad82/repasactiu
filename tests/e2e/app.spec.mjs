@@ -1,6 +1,10 @@
 import { test, expect } from '@playwright/test';
 
-test('la portada mostra dues unitats, sis blocs i 320 preguntes', async ({ page }) => {
+async function waitForHomeReady(page){
+  await expect(page.getByText('450 preguntes')).toBeVisible();
+}
+
+test('la portada mostra dues unitats, sis blocs i 450 preguntes', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByText('Repàs Actiu').first()).toBeVisible();
   await expect(page.getByText('Operacions auxiliars de serveis administratius i generals')).toBeVisible();
@@ -8,18 +12,19 @@ test('la portada mostra dues unitats, sis blocs i 320 preguntes', async ({ page 
   await expect(page.getByText('Unitat 2 — L’organització dels recursos humans')).toBeVisible();
   await expect(page.locator('[data-unit-group]')).toHaveCount(2);
   await expect(page.locator('[data-block-card]')).toHaveCount(7);
-  await expect(page.getByText('320 preguntes')).toBeVisible();
-  await expect(page.locator('[data-selection="bloc-1"]')).toContainText('42 preguntes');
-  await expect(page.locator('[data-selection="bloc-2"]')).toContainText('56 preguntes');
-  await expect(page.locator('[data-selection="bloc-3"]')).toContainText('56 preguntes');
-  await expect(page.locator('[data-selection="bloc-4"]')).toContainText('40 preguntes');
-  await expect(page.locator('[data-selection="bloc-5"]')).toContainText('46 preguntes');
-  await expect(page.locator('[data-selection="unitat-2-bloc-1"]')).toContainText('80 preguntes');
+  await expect(page.getByText('450 preguntes')).toBeVisible();
+  await expect(page.locator('[data-selection="bloc-1"]')).toContainText('50 preguntes');
+  await expect(page.locator('[data-selection="bloc-2"]')).toContainText('70 preguntes');
+  await expect(page.locator('[data-selection="bloc-3"]')).toContainText('70 preguntes');
+  await expect(page.locator('[data-selection="bloc-4"]')).toContainText('60 preguntes');
+  await expect(page.locator('[data-selection="bloc-5"]')).toContainText('60 preguntes');
+  await expect(page.locator('[data-selection="unitat-2-bloc-1"]')).toContainText('140 preguntes');
   await expect(page.locator('[href*="openutilitylab"]')).toHaveCount(0);
 });
 
 test('tota la interfície canvia a castellà i la preferència persisteix', async ({ page }) => {
   await page.goto('/');
+  await waitForHomeReady(page);
   await expect(page.locator('#language-ca')).toHaveAttribute('aria-pressed','true');
   await page.locator('#language-es').click();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
@@ -27,17 +32,18 @@ test('tota la interfície canvia a castellà i la preferència persisteix', asyn
   await expect(page.getByText('Operaciones auxiliares de servicios administrativos y generales')).toBeVisible();
   await expect(page.getByText('Unidad 1 — Organización empresarial')).toBeVisible();
   await expect(page.getByText('Unidad 2 — La organización de los recursos humanos')).toBeVisible();
-  await expect(page.getByText('320 preguntas')).toBeVisible();
+  await expect(page.getByText('450 preguntas')).toBeVisible();
   await expect(page.getByRole('button',{name:'Temario',exact:true})).toBeVisible();
   await expect(page.getByRole('button',{name:'Repasar errores',exact:true})).toBeVisible();
   await page.reload();
+  await expect(page.getByText('450 preguntas')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.locator('#language-es')).toHaveAttribute('aria-pressed','true');
-  await expect(page.getByText('320 preguntas')).toBeVisible();
 });
 
 test('el peu d’avís es mostra en català i canvia íntegrament a castellà', async ({ page }) => {
   await page.goto('/');
+  await waitForHomeReady(page);
   const footer=page.locator('.site-footer');
   const caTitle=page.locator('#material-notice-title .material-notice-ca');
   const esTitle=page.locator('#material-notice-title .material-notice-es');
@@ -57,6 +63,7 @@ test('el peu d’avís es mostra en català i canvia íntegrament a castellà', 
 
 test('les preguntes, explicacions i ajudes de memòria es mostren en castellà', async ({ page }) => {
   await page.goto('/');
+  await waitForHomeReady(page);
   await page.locator('#language-es').click();
   await page.locator('[data-selection="bloc-1"]').click();
   await page.getByLabel('Modo Estudio').check();
@@ -128,6 +135,7 @@ test('Mode Examen no revela solucions durant el test i permet blancs', async ({ 
 
 test('Repassar errors informa quan no hi ha pendents', async ({ page }) => {
   await page.goto('/');
+  await waitForHomeReady(page);
   await page.getByRole('button', { name: 'Repassar errors' }).click();
   await page.getByRole('button', { name: 'Començar' }).click();
   await expect(page.getByText('Encara no tens preguntes pendents de repàs')).toBeVisible();
@@ -135,6 +143,7 @@ test('Repassar errors informa quan no hi ha pendents', async ({ page }) => {
 
 test('l’estat buit de repàs es manté i es tradueix en canviar d’idioma', async ({ page }) => {
   await page.goto('/');
+  await waitForHomeReady(page);
   await page.getByRole('button', { name: 'Repassar errors' }).click();
   await page.getByRole('button', { name: 'Començar' }).click();
   await expect(page.getByText('Encara no tens preguntes pendents de repàs')).toBeVisible();
@@ -145,11 +154,13 @@ test('l’estat buit de repàs es manté i es tradueix en canviar d’idioma', a
 
 test('el mode de color es conserva després de recarregar', async ({ page }) => {
   await page.goto('/');
+  await waitForHomeReady(page);
   const before = await page.locator('html').getAttribute('data-theme');
   await page.getByRole('button', { name: /Clar\/Fosc/ }).click();
   const after = await page.locator('html').getAttribute('data-theme');
   expect(after).not.toBe(before);
   await page.reload();
+  await expect(page.getByText('450 preguntes')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('data-theme', after);
 });
 
