@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { shuffleQuestionOptions } from '../site/js/quiz-engine.js';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const dataDir=path.join(root,'site','data');
@@ -16,6 +17,26 @@ export function generatePermutations(items){
     for(const tail of generatePermutations(rest))result.push([head,...tail]);
   }
   return result;
+}
+
+function allFisherYatesPaths(){
+  const paths=[];
+  for(let j3=0;j3<4;j3++)for(let j2=0;j2<3;j2++)for(let j1=0;j1<2;j1++){
+    paths.push([
+      (j3+0.25)/4,
+      (j2+0.25)/3,
+      (j1+0.25)/2
+    ]);
+  }
+  return paths;
+}
+
+function rngFrom(values){
+  let index=0;
+  return ()=>{
+    if(index>=values.length)throw new Error('Permutation audit RNG exhausted unexpectedly');
+    return values[index++];
+  };
 }
 
 async function loadEffectiveQuestions(){
@@ -54,7 +75,7 @@ async function loadEffectiveQuestions(){
 
 export async function runPermutationAudit(){
   const {questions,translations}=await loadEffectiveQuestions();
-  const permutations=generatePermutations([0,1,2,3]);
+  const paths=allFisherYatesPaths();
   const errors=[];
   let cases=0;
 
@@ -66,22 +87,25 @@ export async function runPermutationAudit(){
 
     const canonicalCorrect=q.options[q.correct];
     const spanishCorrect=es.options[q.correct];
-    for(const permutation of permutations){
-      const correctIndex=permutation.indexOf(q.correct);
-      const ca=permutation.map(i=>q.options[i]);
-      const esp=permutation.map(i=>es.options[i]);
+    const producedOrders=new Set();
+    for(const values of paths){
+      const shuffled=shuffleQuestionOptions({...q,translations:{es}},rngFrom(values));
+      const order=shuffled.options.map(text=>q.options.indexOf(text));
+      producedOrders.add(order.join(','));
 
       cases++;
-      if(ca[correctIndex]!==canonicalCorrect)errors.push(`${q.id}: CA correct answer moved incorrectly in ${permutation.join('')}`);
-      if(new Set(ca).size!==4||ca.some(v=>!q.options.includes(v)))errors.push(`${q.id}: CA option loss/duplication in ${permutation.join('')}`);
+      if(shuffled.options[shuffled.correct]!==canonicalCorrect)errors.push(`${q.id}: CA correct answer moved incorrectly in ${order.join('')}`);
+      if(new Set(shuffled.options).size!==4||shuffled.options.some(v=>!q.options.includes(v)))errors.push(`${q.id}: CA option loss/duplication in ${order.join('')}`);
 
       cases++;
-      if(esp[correctIndex]!==spanishCorrect)errors.push(`${q.id}: ES correct answer moved incorrectly in ${permutation.join('')}`);
-      if(new Set(esp).size!==4||esp.some(v=>!es.options.includes(v)))errors.push(`${q.id}: ES option loss/duplication in ${permutation.join('')}`);
+      const esOptions=shuffled.translations?.es?.options;
+      if(!Array.isArray(esOptions)||esOptions[shuffled.correct]!==spanishCorrect)errors.push(`${q.id}: ES correct answer moved incorrectly in ${order.join('')}`);
+      if(!Array.isArray(esOptions)||new Set(esOptions).size!==4||esOptions.some(v=>!es.options.includes(v)))errors.push(`${q.id}: ES option loss/duplication in ${order.join('')}`);
     }
+    if(producedOrders.size!==24)errors.push(`${q.id}: real shuffle engine produced ${producedOrders.size}/24 distinct permutations`);
   }
 
-  return {questions:questions.length,permutationsPerQuestion:permutations.length,languages:2,cases,errors};
+  return {questions:questions.length,permutationsPerQuestion:paths.length,languages:2,cases,errors};
 }
 
 if(process.argv[1]===fileURLToPath(import.meta.url)){
