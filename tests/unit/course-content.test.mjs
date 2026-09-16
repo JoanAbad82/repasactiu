@@ -23,31 +23,15 @@ const preservedBankBlobShas={
   "unitat_2_bloc_1_extra.json":"e2dd987115e7643b3b00c89d963626ff9bcea59c"
 };
 
-const expansionCounts={
-  "bloc-1":8,
-  "bloc-2":14,
-  "bloc-3":14,
-  "bloc-4":20,
-  "bloc-5":14,
-  "unitat-2-bloc-1":60
-};
-const finalCounts={
-  "bloc-1":50,
-  "bloc-2":70,
-  "bloc-3":70,
-  "bloc-4":60,
-  "bloc-5":60,
-  "unitat-2-bloc-1":140
-};
+const expansionCounts={"bloc-1":8,"bloc-2":14,"bloc-3":14,"bloc-4":20,"bloc-5":14,"unitat-2-bloc-1":60};
+const finalCounts={"bloc-1":50,"bloc-2":70,"bloc-3":70,"bloc-4":60,"bloc-5":60,"unitat-2-bloc-1":140};
 
 function gitBlobSha(text){
   const bytes=Buffer.from(text,"utf8");
   return createHash("sha1").update(`blob ${bytes.length}\0`).update(bytes).digest("hex");
 }
-
-function blockFiles(block){
-  return [block.file,block.extraFile,...(block.additionalFiles||[])].filter(Boolean);
-}
+function blockFiles(block){return [block.file,block.extraFile,...(block.additionalFiles||[])].filter(Boolean);}
+function memoryFiles(block){return [block.memoryAidFile,...(block.additionalMemoryAidFiles||[])].filter(Boolean);}
 
 test("les 320 preguntes prèvies es mantenen byte per byte",async()=>{
   for(const [name,expected] of Object.entries(preservedBankBlobShas)){
@@ -56,14 +40,16 @@ test("les 320 preguntes prèvies es mantenen byte per byte",async()=>{
   }
 });
 
-test("course.json declara dues unitats i una expansió per bloc",async()=>{
+test("course.json declara dues unitats i una expansió completa per bloc",async()=>{
   const course=await readJson("course.json");
   assert.equal(course.blocks.length,6);
   assert.deepEqual([...new Set(course.blocks.map(b=>b.unitId))],["unitat-1","unitat-2"]);
   for(const block of course.blocks){
-    assert.ok(Array.isArray(block.additionalFiles),`${block.id}: additionalFiles ha de ser un array`);
-    assert.equal(block.additionalFiles.length,1,`${block.id}: ha de declarar exactament un banc d'expansió`);
-    assert.equal(block.additionalFiles[0],`data/${block.id==='unitat-2-bloc-1'?'unitat_2_bloc_1':block.id.replace('-','_')}_expansion.json`);
+    const stem=block.id==='unitat-2-bloc-1'?'unitat_2_bloc_1':block.id.replace('-','_');
+    const dashStem=block.id;
+    assert.deepEqual(block.additionalFiles,[`data/${stem}_expansion.json`],`${block.id}: banc d'expansió`);
+    assert.deepEqual(block.additionalTranslationFiles,[`data/i18n/es/${dashStem}-expansion.json`],`${block.id}: traducció d'expansió`);
+    assert.deepEqual(block.additionalMemoryAidFiles,[`data/memory/${dashStem}-expansion.json`],`${block.id}: memòria d'expansió`);
   }
 });
 
@@ -86,7 +72,7 @@ test("el curs complet conté 450 preguntes amb la distribució aprovada",async()
   for(const block of course.blocks){
     let blockTotal=0;
     for(const file of blockFiles(block)){
-      const bank=await readJson(path.basename(file));
+      const bank=await readJson(file.replace(/^data\//,""));
       blockTotal+=bank.questions.length;
     }
     assert.equal(blockTotal,finalCounts[block.id],`${block.id}: total incorrecte`);
@@ -99,22 +85,29 @@ test("les 450 preguntes tenen una ajuda de memòria bilingüe de màxim 144 car�
   const course=await readJson("course.json");
   let total=0;
   for(const block of course.blocks){
-    assert.ok(block.memoryAidFile,`${block.id}: memoryAidFile obligatori`);
-    const memoryPath=path.join(dataDir,block.memoryAidFile.replace(/^data\//,""));
-    assert.ok(existsSync(memoryPath),`${block.memoryAidFile} ha d'existir`);
-    const memory=JSON.parse(await readFile(memoryPath,"utf8"));
-    assert.equal(memory.blockId,block.id,`${block.id}: blockId d'ajudes incorrecte`);
-    assert.ok(memory.questions&&!Array.isArray(memory.questions),`${block.id}: questions d'ajudes ha de ser un objecte`);
+    const aids={};
+    for(const file of memoryFiles(block)){
+      const rel=file.replace(/^data\//,"");
+      const full=path.join(dataDir,rel);
+      assert.ok(existsSync(full),`${file} ha d'existir`);
+      const memory=JSON.parse(await readFile(full,"utf8"));
+      assert.equal(memory.blockId,block.id,`${file}: blockId d'ajudes incorrecte`);
+      assert.ok(memory.questions&&!Array.isArray(memory.questions),`${file}: questions d'ajudes ha de ser un objecte`);
+      for(const [id,aid] of Object.entries(memory.questions)){
+        assert.equal(Object.hasOwn(aids,id),false,`${id}: ajuda duplicada entre suplements`);
+        aids[id]=aid;
+      }
+    }
 
     const canonicalIds=[];
     for(const file of blockFiles(block)){
-      const bank=await readJson(path.basename(file));
+      const bank=await readJson(file.replace(/^data\//,""));
       canonicalIds.push(...bank.questions.map(q=>q.id));
     }
-    assert.deepEqual(Object.keys(memory.questions).sort(),canonicalIds.sort(),`${block.id}: cobertura d'ajudes incompleta`);
+    assert.deepEqual(Object.keys(aids).sort(),canonicalIds.sort(),`${block.id}: cobertura d'ajudes incompleta`);
 
     for(const id of canonicalIds){
-      const aid=memory.questions[id];
+      const aid=aids[id];
       assert.match(aid.type,/^(example|idea)$/,`${id}: type ha de ser example o idea`);
       for(const lang of ["ca","es"]){
         assert.equal(typeof aid[lang],"string",`${id}: ${lang} ha de ser text`);
