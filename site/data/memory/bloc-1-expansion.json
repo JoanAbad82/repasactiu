@@ -1,0 +1,13 @@
+{
+  "blockId": "bloc-1",
+  "questions": {
+    "b1-043":{"type":"example","ca":"Ajuntament o hospital públic: gestió pública, recursos públics i servei d’interès general.","es":"Ayuntamiento u hospital público: gestión pública, recursos públicos y servicio de interés general."},
+    "b1-044":{"type":"example","ca":"Una fundació privada pot no repartir beneficis i continuar sent una entitat privada.","es":"Una fundación privada puede no repartir beneficios y seguir siendo una entidad privada."},
+    "b1-045":{"type":"example","ca":"Una queixa ben recollida pot convertir-se en una millora del servei.","es":"Una queja bien recogida puede convertirse en una mejora del servicio."},
+    "b1-046":{"type":"example","ca":"Direcció decideix comprar una màquina; finances comprova i gestiona els diners disponibles.","es":"Dirección decide comprar una máquina; finanzas comprueba y gestiona el dinero disponible."},
+    "b1-047":{"type":"example","ca":"Arxivar factures i mantenir dades ordenades són tasques administratives.","es":"Archivar facturas y mantener datos ordenados son tareas administrativas."},
+    "b1-048":{"type":"example","ca":"Formar personal és RRHH; anunciar un nou servei és comercialització.","es":"Formar al personal es RR. HH.; anunciar un nuevo servicio es comercialización."},
+    "b1-049":{"type":"idea","ca":"Controlar és comparar el que es fa amb el que s’havia previst i detectar desviacions.","es":"Controlar es comparar lo realizado con lo previsto y detectar desviaciones."},
+    "b1-050":{"type":"example","ca":"Un anunci dona a conèixer el producte; després, la venda concreta l’operació amb el client.","es":"Un anuncio da a conocer el producto; después, la venta concreta la operación con el cliente."}
+  }
+}
