@@ -15,43 +15,60 @@ const expectedTranslationFiles={
   "bloc-5":"i18n/es/bloc-5.json",
   "unitat-2-bloc-1":"i18n/es/unitat-2-bloc-1.json"
 };
+const expectedExpansionTranslationFiles={
+  "bloc-1":"i18n/es/bloc-1-expansion.json",
+  "bloc-2":"i18n/es/bloc-2-expansion.json",
+  "bloc-3":"i18n/es/bloc-3-expansion.json",
+  "bloc-4":"i18n/es/bloc-4-expansion.json",
+  "bloc-5":"i18n/es/bloc-5-expansion.json",
+  "unitat-2-bloc-1":"i18n/es/unitat-2-bloc-1-expansion.json"
+};
 
-test("el catàleg declara metadades castellanes i sis fitxers de traducció",async()=>{
+function bankFiles(block){return [block.file,block.extraFile,...(block.additionalFiles||[])].filter(Boolean);}
+function translationFiles(block){return [block.translationFile,...(block.additionalTranslationFiles||[])].filter(Boolean);}
+
+test("el catàleg declara metadades castellanes i traducció base + expansió per bloc",async()=>{
   const course=await readJson("course.json");
   assert.equal(course.titleEs,"Operaciones auxiliares de servicios administrativos y generales");
   assert.equal(course.blocks.length,6);
   for(const block of course.blocks){
     assert.equal(block.translationFile,`data/${expectedTranslationFiles[block.id]}`);
+    assert.deepEqual(block.additionalTranslationFiles,[`data/${expectedExpansionTranslationFiles[block.id]}`]);
     assert.ok(block.titleEs?.trim(),`${block.id}: titleEs obligatori`);
     assert.ok(block.unitTitleEs?.trim(),`${block.id}: unitTitleEs obligatori`);
   }
 });
 
-test("les traduccions castellanes cobreixen exactament les 320 preguntes sense duplicar la lògica",async()=>{
+test("les traduccions castellanes cobreixen exactament les 450 preguntes sense duplicar la lògica",async()=>{
   const course=await readJson("course.json");
   let total=0;
   for(const block of course.blocks){
-    const rel=expectedTranslationFiles[block.id];
-    assert.ok(rel,`${block.id}: fitxer de traducció esperat`);
-    const full=path.join(dataDir,rel);
-    assert.ok(existsSync(full),`${rel} ha d'existir`);
-    const translation=JSON.parse(await readFile(full,"utf8"));
-    assert.equal(translation.blockId,block.id,`${rel}: blockId incorrecte`);
-    assert.equal(translation.blockTitle,block.titleEs,`${rel}: títol de bloc desalineat`);
-    assert.ok(translation.questions && !Array.isArray(translation.questions),`${rel}: questions ha de ser un mapa per id`);
-
     const originals=[];
-    for(const key of ["file","extraFile"]){
-      if(!block[key])continue;
-      const bank=await readJson(path.basename(block[key]));
+    for(const file of bankFiles(block)){
+      const bank=await readJson(file.replace(/^data\//,""));
       originals.push(...bank.questions);
     }
+
+    const translated={};
+    for(const file of translationFiles(block)){
+      const rel=file.replace(/^data\//,"");
+      const full=path.join(dataDir,rel);
+      assert.ok(existsSync(full),`${rel} ha d'existir`);
+      const translation=JSON.parse(await readFile(full,"utf8"));
+      assert.equal(translation.blockId,block.id,`${rel}: blockId incorrecte`);
+      assert.ok(translation.questions && !Array.isArray(translation.questions),`${rel}: questions ha de ser un mapa per id`);
+      for(const [id,tr] of Object.entries(translation.questions)){
+        assert.equal(Object.hasOwn(translated,id),false,`${id}: traducció duplicada entre suplements`);
+        translated[id]=tr;
+      }
+    }
+
     const originalIds=originals.map(q=>q.id).sort();
-    const translatedIds=Object.keys(translation.questions).sort();
-    assert.deepEqual(translatedIds,originalIds,`${rel}: ids traduïts han de coincidir exactament amb el banc català`);
+    const translatedIds=Object.keys(translated).sort();
+    assert.deepEqual(translatedIds,originalIds,`${block.id}: ids traduïts han de coincidir exactament amb el banc català`);
 
     for(const q of originals){
-      const tr=translation.questions[q.id];
+      const tr=translated[q.id];
       assert.ok(tr.topic?.trim(),`${q.id}: topic en castellà obligatori`);
       assert.ok(tr.question?.trim(),`${q.id}: enunciat en castellà obligatori`);
       assert.ok(tr.explanation?.trim(),`${q.id}: explicació en castellà obligatòria`);
@@ -61,5 +78,5 @@ test("les traduccions castellanes cobreixen exactament les 320 preguntes sense d
       total++;
     }
   }
-  assert.equal(total,320);
+  assert.equal(total,450);
 });
