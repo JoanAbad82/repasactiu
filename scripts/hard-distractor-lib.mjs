@@ -2,6 +2,8 @@ import {readFile,readdir} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {detectCatalanLeakageInSpanish} from './content-quality-lib.mjs';
+import {composeHardQuestion} from '../site/js/hard-distractors.js';
+export {composeHardQuestion};
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const dataDir=path.join(root,'site','data');
@@ -17,27 +19,6 @@ const normalize=value=>String(value??'')
   .toLocaleLowerCase('ca');
 
 const readJson=async p=>JSON.parse(await readFile(path.join(dataDir,String(p).replace(/^data\//,'')),'utf8'));
-
-export function composeHardQuestion(question,hardRecord){
-  if(!question?.translations?.es)throw new Error(`${question?.id||'question'}: Spanish translation required for hard composition`);
-  const ca=[...question.options];
-  const es=[...question.translations.es.options];
-  let hardIndex=0;
-  for(let optionIndex=0;optionIndex<4;optionIndex++){
-    if(optionIndex===question.correct)continue;
-    ca[optionIndex]=hardRecord.ca[hardIndex];
-    es[optionIndex]=hardRecord.es[hardIndex];
-    hardIndex++;
-  }
-  return {
-    ...question,
-    options:ca,
-    translations:{
-      ...(question.translations||{}),
-      es:{...question.translations.es,options:es}
-    }
-  };
-}
 
 function validateLanguage(question,hardRecord,lang){
   const errors=[];
