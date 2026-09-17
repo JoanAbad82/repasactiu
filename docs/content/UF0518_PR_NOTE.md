@@ -1,1 +1,0 @@
-Draft PR purpose: integrate UF0518 Bloc 1 as a separate formative unit. Current branch intentionally contains RED tests before production implementation.

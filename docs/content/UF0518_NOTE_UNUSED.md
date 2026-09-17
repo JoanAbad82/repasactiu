@@ -1,1 +1,0 @@
-This note is non-functional. The actual next step is opening the draft pull request.

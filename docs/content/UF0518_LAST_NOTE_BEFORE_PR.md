@@ -1,1 +1,0 @@
-Pre-PR RED checkpoint finalized.

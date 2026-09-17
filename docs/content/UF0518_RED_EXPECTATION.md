@@ -1,1 +1,0 @@
-Expected RED failure: current source traceability only reads UF0517 and fixed-count validators still encode 450. No production implementation has been applied yet.

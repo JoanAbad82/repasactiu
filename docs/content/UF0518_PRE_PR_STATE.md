@@ -1,1 +1,0 @@
-Branch includes approved design, implementation plan, coverage audit, and RED tests. Production validators remain unchanged.
