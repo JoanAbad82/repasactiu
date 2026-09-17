@@ -3,14 +3,14 @@
   "questions": {
     "b4-001": {
       "ca": [
-        "Una unitat jeràrquica definida només pel nivell d’autoritat dels seus membres",
-        "Una agrupació física de persones que comparteixen espai encara que facin funcions diferents",
-        "Una unitat temporal creada exclusivament per executar un projecte concret"
+        "Una unitat definida pel rang jeràrquic dels seus membres, encara que desenvolupin funcions diferents",
+        "Una agrupació de persones que comparteixen espai i recursos, independentment de la funció que realitzen",
+        "Una unitat creada per coordinar projectes temporals entre diverses àrees de l’empresa"
       ],
       "es": [
-        "Una unidad jerárquica definida solo por el nivel de autoridad de sus miembros",
-        "Una agrupación física de personas que comparten espacio aunque realicen funciones distintas",
-        "Una unidad temporal creada exclusivamente para ejecutar un proyecto concreto"
+        "Una unidad definida por el rango jerárquico de sus miembros, aunque desarrollen funciones distintas",
+        "Una agrupación de personas que comparten espacio y recursos, independientemente de la función que realizan",
+        "Una unidad creada para coordinar proyectos temporales entre distintas áreas de la empresa"
       ]
     },
     "b4-002": {
@@ -27,14 +27,14 @@
     },
     "b4-003": {
       "ca": [
-        "La funció s’integra necessàriament en Administració perquè no hi ha fabricació",
+        "La funció s’integra en Administració perquè el servei no requereix un procés productiu",
         "La funció passa al departament comercial perquè el servei és el producte ofert",
-        "La funció desapareix perquè producció només existeix quan es transformen materials"
+        "La funció queda absorbida per Atenció al Client, que assumeix l’execució de la prestació"
       ],
       "es": [
-        "La función se integra necesariamente en Administración porque no hay fabricación",
+        "La función se integra en Administración porque el servicio no requiere un proceso productivo",
         "La función pasa al departamento comercial porque el servicio es el producto ofrecido",
-        "La función desaparece porque producción solo existe cuando se transforman materiales"
+        "La función queda absorbida por Atención al Cliente, que asume la ejecución de la prestación"
       ]
     },
     "b4-004": {
@@ -111,14 +111,14 @@
     },
     "b4-010": {
       "ca": [
-        "Ha de constituir-se sempre com a departament autònom per garantir independència",
-        "Només pot revisar productes acabats, no serveis ni processos",
-        "La funció correspon sempre a Producció encara que l’empresa sigui de serveis"
+        "La funció de qualitat requereix una unitat independent de les àrees operatives",
+        "La seva responsabilitat se centra en revisar el resultat final i queda fora dels processos i serveis",
+        "En empreses de serveis, la funció s’adscriu a Producció per mantenir un criteri de control únic"
       ],
       "es": [
-        "Debe constituirse siempre como departamento autónomo para garantizar independencia",
-        "Solo puede revisar productos terminados, no servicios ni procesos",
-        "La función corresponde siempre a Producción aunque la empresa sea de servicios"
+        "La función de calidad requiere una unidad independiente de las áreas operativas",
+        "Su responsabilidad se centra en revisar el resultado final y queda fuera de los procesos y servicios",
+        "En empresas de servicios, la función se adscribe a Producción para mantener un criterio de control único"
       ]
     },
     "b4-011": {
@@ -339,14 +339,14 @@
     },
     "b4-029": {
       "ca": [
-        "La manca d’espai justifica sempre centralitzar totes les funcions en un únic departament",
-        "La distribució física només afecta l’espai d’acollida, no l’estructura departamental",
-        "La manca d’espai obliga a eliminar les funcions que no disposin d’un espai propi"
+        "La manca d’espai fa que les funcions de suport s’integrin en una mateixa unitat administrativa",
+        "La distribució física afecta els espais de treball, però no la definició funcional dels departaments",
+        "Quan l’espai és insuficient, les funcions sense ubicació pròpia s’integren en altres departaments"
       ],
       "es": [
-        "La falta de espacio justifica siempre centralizar todas las funciones en un único departamento",
-        "La distribución física solo afecta al espacio de acogida, no a la estructura departamental",
-        "La falta de espacio obliga a eliminar las funciones que no dispongan de un espacio propio"
+        "La falta de espacio hace que las funciones de apoyo se integren en una misma unidad administrativa",
+        "La distribución física afecta a los espacios de trabajo, pero no a la definición funcional de los departamentos",
+        "Cuando el espacio es insuficiente, las funciones sin ubicación propia se integran en otros departamentos"
       ]
     },
     "b4-030": {
@@ -387,14 +387,14 @@
     },
     "b4-033": {
       "ca": [
-        "Cal crear un departament propi sempre que existeixi qualsevol risc laboral",
-        "La prevenció pot limitar-se a documentar els riscos si l’empresa té menys de 500 persones",
-        "La modalitat preventiva depèn exclusivament del pressupost disponible"
+        "La presència de riscos específics determina la creació d’una unitat preventiva interna",
+        "En empreses de menys de 500 persones, documentar i avaluar els riscos és suficient sense organitzar una modalitat preventiva",
+        "La modalitat preventiva es tria principalment segons els recursos econòmics disponibles"
       ],
       "es": [
-        "Hay que crear un departamento propio siempre que exista cualquier riesgo laboral",
-        "La prevención puede limitarse a documentar los riesgos si la empresa tiene menos de 500 personas",
-        "La modalidad preventiva depende exclusivamente del presupuesto disponible"
+        "La presencia de riesgos específicos determina la creación de una unidad preventiva interna",
+        "En empresas de menos de 500 personas, documentar y evaluar los riesgos es suficiente sin organizar una modalidad preventiva",
+        "La modalidad preventiva se elige principalmente según los recursos económicos disponibles"
       ]
     },
     "b4-034": {
@@ -483,14 +483,14 @@
     },
     "b4-041": {
       "ca": [
-        "Administració la tramita i Legal n’assumeix sempre la gestió principal",
-        "Financer la interpreta jurídicament i Administració només l’arxiva",
-        "Comptabilitat la gestiona i Direcció substitueix Legal en qualsevol dubte normatiu"
+        "Administració tramita la notificació i Legal assumeix la interpretació i la responsabilitat principal de tot el procediment",
+        "Financer calcula l’impacte econòmic i Administració arxiva, mentre Legal dirigeix el procediment tributari",
+        "Comptabilitat registra l’efecte i Direcció resol la qüestió jurídica sense intervenció específica de Legal"
       ],
       "es": [
-        "Administración la tramita y Legal asume siempre su gestión principal",
-        "Financiero la interpreta jurídicamente y Administración solo la archiva",
-        "Contabilidad la gestiona y Dirección sustituye a Legal ante cualquier duda normativa"
+        "Administración tramita la notificación y Legal asume la interpretación y la responsabilidad principal de todo el procedimiento",
+        "Financiero calcula el impacto económico y Administración archiva, mientras Legal dirige el procedimiento tributario",
+        "Contabilidad registra el efecto y Dirección resuelve la cuestión jurídica sin intervención específica de Legal"
       ]
     },
     "b4-042": {
@@ -531,14 +531,14 @@
     },
     "b4-045": {
       "ca": [
-        "No; Administració i Finances han de ser sempre departaments separats perquè generen informació diferent",
-        "Sí, però només si la unitat depèn directament de Direcció i no té altres funcions",
-        "No; cada departament només pot assumir una funció per aplicar correctament l’especialització"
+        "No; separar Administració i Finances és necessari per evitar conflictes entre registre i control financer",
+        "No; la dimensió petita pot reduir funcions, però no permet agrupar-les en una mateixa unitat",
+        "No; Administració i Finances pertanyen a nivells jeràrquics diferents i han de mantenir estructures separades"
       ],
       "es": [
-        "No; Administración y Finanzas deben ser siempre departamentos separados porque generan información distinta",
-        "Sí, pero solo si la unidad depende directamente de Dirección y no tiene otras funciones",
-        "No; cada departamento solo puede asumir una función para aplicar correctamente la especialización"
+        "No; separar Administración y Finanzas es necesario para evitar conflictos entre registro y control financiero",
+        "No; el tamaño pequeño puede reducir funciones, pero no permite agruparlas en una misma unidad",
+        "No; Administración y Finanzas pertenecen a niveles jerárquicos distintos y deben mantener estructuras separadas"
       ]
     },
     "b4-046": {
@@ -615,14 +615,14 @@
     },
     "b4-052": {
       "ca": [
-        "La manca d’un departament propi significa que l’empresa no assumeix responsabilitats preventives",
-        "Només les empreses amb més de 500 persones han d’organitzar alguna modalitat preventiva",
-        "Els riscos específics determinen sempre la creació d’un servei de prevenció propi"
+        "L’absència d’un departament propi indica que la prevenció s’ha externalitzat i deixa de ser una responsabilitat directa de l’empresa",
+        "L’obligació d’organitzar una modalitat preventiva apareix a partir d’un determinat llindar de plantilla",
+        "Els riscos específics es gestionen mitjançant un servei propi, mentre els riscos generals admeten altres modalitats"
       ],
       "es": [
-        "La falta de un departamento propio significa que la empresa no asume responsabilidades preventivas",
-        "Solo las empresas con más de 500 personas deben organizar alguna modalidad preventiva",
-        "Los riesgos específicos determinan siempre la creación de un servicio de prevención propio"
+        "La ausencia de un departamento propio indica que la prevención se ha externalizado y deja de ser una responsabilidad directa de la empresa",
+        "La obligación de organizar una modalidad preventiva aparece a partir de un determinado umbral de plantilla",
+        "Los riesgos específicos se gestionan mediante un servicio propio, mientras los riesgos generales admiten otras modalidades"
       ]
     },
     "b4-053": {
@@ -639,14 +639,14 @@
     },
     "b4-054": {
       "ca": [
-        "Pot condicionar només la mida de l’espai d’acollida, no l’estructura",
-        "Obliga a mantenir tots els departaments però amb menys personal",
-        "Determina exclusivament quines funcions es poden centralitzar geogràficament"
+        "El pressupost condiciona la qualitat dels espais i equipaments, però no la distribució funcional de l’organització",
+        "La limitació pressupostària obliga a conservar tots els departaments reduint-ne la plantilla",
+        "El pressupost determina quines funcions es poden centralitzar, però no el nombre d’àrees de l’empresa"
       ],
       "es": [
-        "Puede condicionar solo el tamaño del espacio de acogida, no la estructura",
-        "Obliga a mantener todos los departamentos pero con menos personal",
-        "Determina exclusivamente qué funciones se pueden centralizar geográficamente"
+        "El presupuesto condiciona la calidad de los espacios y equipamientos, pero no la distribución funcional de la organización",
+        "La limitación presupuestaria obliga a conservar todos los departamentos reduciendo su plantilla",
+        "El presupuesto determina qué funciones se pueden centralizar, pero no el número de áreas de la empresa"
       ]
     },
     "b4-055": {
