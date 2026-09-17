@@ -57,6 +57,18 @@ export function detectCatalanLeakageInSpanish(record){
   return leaking;
 }
 
+export function applyAuditCorrections(canonical,translation,correction={}){
+  const ca={
+    ...canonical,
+    ...(correction.canonical||{}),
+    id:canonical.id,
+    block:canonical.block,
+    correct:canonical.correct
+  };
+  const es=translation?{...translation,...(correction.es||{})}:null;
+  return {ca,es};
+}
+
 export function validateTraceEntry(entry,sources){
   const errors=[];
   const id=entry?.id||'trace';
@@ -89,6 +101,7 @@ function expandUf0517Trace(manifest){
 
 export async function runContentQualityAudit(){
   const course=await readJson(path.join(dataDir,'course.json'));
+  const corrections=await readJson(path.join(dataDir,'content_corrections.json'));
   const canonical=[];
   const translations=new Map();
   const errors=[];
@@ -104,13 +117,16 @@ export async function runContentQualityAudit(){
     }
   }
 
-  for(const [a,b] of findExactDuplicateQuestions(canonical))errors.push(`duplicate question: ${a}/${b}`);
-
+  const effectiveCanonical=[];
   for(const q of canonical){
-    const es=translations.get(q.id);
+    const {ca,es}=applyAuditCorrections(q,translations.get(q.id),corrections.questions?.[q.id]);
+    effectiveCanonical.push(ca);
     if(!es){errors.push(`${q.id}: missing Spanish translation`);continue;}
     for(const field of detectCatalanLeakageInSpanish(es))errors.push(`${q.id}: probable Catalan leakage in Spanish ${field}`);
   }
+
+  const duplicates=findExactDuplicateQuestions(effectiveCanonical);
+  for(const [a,b] of duplicates)errors.push(`duplicate question: ${a}/${b}`);
 
   const manifests=[
     await readJson(path.join(docsDir,'UF0517_SOURCE_TRACEABILITY.json')),
@@ -130,7 +146,6 @@ export async function runContentQualityAudit(){
   for(const q of canonical)if(!traceById.has(q.id))errors.push(`${q.id}: missing traceability`);
   for(const id of traceById.keys())if(!canonicalIds.has(id))errors.push(`${id}: orphan traceability`);
 
-  const duplicates=findExactDuplicateQuestions(canonical);
   return {
     questions:canonical.length,
     translations:translations.size,
