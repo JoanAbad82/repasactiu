@@ -49,6 +49,7 @@ El nou `test:audit:hard` comprova sobre el contingut efectiu, després de correc
 - cap distractor igual a la resposta correcta normalitzada;
 - almenys dos distractors nous respecte de Pràctica per idioma;
 - detecció de fuites inequívoces de català en els distractors castellans;
+- màxim d’un distractor per idioma amb absoluts editorials que poden actuar com a pista (`només/sempre/mai/exclusivament/necessàriament/únicament` i equivalents castellans);
 - declaració exacta dels set fitxers hard al catàleg.
 
 Resultat final:
@@ -66,6 +67,8 @@ No es va relaxar el criteri. Es van revisar i substituir aquests 66 registres am
 
 Durant la revisió posterior també es va detectar i corregir una frase castellana amb un fragment accidental en anglès a `u2b1-113`. Una comprovació addicional dels set overlays no va trobar més senyals angleses equivalents.
 
+Un segon barrido editorial va buscar distractors amb absoluts que podien facilitar l’eliminació mecànica d’opcions. Es van detectar **32 preguntes** amb dos o tres distractors d’aquest tipus. Es van reescriure amb confusions conceptuals més plausibles, sense modificar cap resposta correcta. El criteri es va convertir en una regla permanent de l’auditor i el resultat final és **0 preguntes** amb més d’un distractor d’aquest tipus per idioma.
+
 ## Permutacions i alineació bilingüe
 
 L'auditoria de permutacions executa el motor real de barreja sobre les dues representacions:
@@ -78,7 +81,7 @@ Això comprova que la posició correcta es conserva i que català i castellà ma
 
 ## Regressió de producte
 
-CI #193 sobre `cc0688b9cc94386ffab067ffba3ccee19ce5b22b`:
+CI #203 sobre el HEAD de producte i contingut `c17e6f0c134196ba22e9ba81cf9c755d675db39f`:
 
 - validació del banc: PASS;
 - traçabilitat de fonts: PASS;
@@ -86,7 +89,7 @@ CI #193 sobre `cc0688b9cc94386ffab067ffba3ccee19ce5b22b`:
 - qualitat de contingut canònic: PASS;
 - auditoria hard: PASS;
 - permutacions: 50.496/50.496 PASS;
-- unit tests: **86/86 PASS**;
+- unit tests: **87/87 PASS**;
 - Playwright E2E: **22/22 PASS**.
 
 Els E2E específics del mode difícil verifiquen, entre altres punts:
