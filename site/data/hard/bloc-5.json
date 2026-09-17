@@ -1,0 +1,725 @@
+{
+  "blockId": "bloc-5",
+  "questions": {
+    "b5-001": {
+      "ca": [
+        "Com un Estat democràtic i parlamentari basat principalment en la separació de poders",
+        "Com un Estat autonòmic de dret estructurat territorialment en comunitats i municipis",
+        "Com un Estat constitucional en què la sobirania correspon a les Corts Generals"
+      ],
+      "es": [
+        "Como un Estado democrático y parlamentario basado principalmente en la separación de poderes",
+        "Como un Estado autonómico de derecho estructurado territorialmente en comunidades y municipios",
+        "Como un Estado constitucional en el que la soberanía corresponde a las Cortes Generales"
+      ]
+    },
+    "b5-002": {
+      "ca": [
+        "En les Corts Generals, com a representants de la ciutadania",
+        "En el conjunt de les administracions públiques de l’Estat",
+        "En la Corona, com a institució que representa l’Estat"
+      ],
+      "es": [
+        "En las Cortes Generales, como representantes de la ciudadanía",
+        "En el conjunto de las administraciones públicas del Estado",
+        "En la Corona, como institución que representa al Estado"
+      ]
+    },
+    "b5-003": {
+      "ca": [
+        "La monarquia constitucional amb poder executiu propi del monarca",
+        "La república parlamentària amb cap d’Estat elegit per les Corts",
+        "La monarquia representativa en què el Govern forma part de la Corona"
+      ],
+      "es": [
+        "La monarquía constitucional con poder ejecutivo propio del monarca",
+        "La república parlamentaria con jefe de Estado elegido por las Cortes",
+        "La monarquía representativa en la que el Gobierno forma parte de la Corona"
+      ]
+    },
+    "b5-004": {
+      "ca": [
+        "Poder legislatiu, poder executiu i poder judicial",
+        "Administració estatal, autonòmica i local",
+        "Estat, comunitats autònomes i Unió Europea"
+      ],
+      "es": [
+        "Poder legislativo, poder ejecutivo y poder judicial",
+        "Administración estatal, autonómica y local",
+        "Estado, comunidades autónomas y Unión Europea"
+      ]
+    },
+    "b5-005": {
+      "ca": [
+        "Al Govern, perquè exerceix la potestat reglamentària",
+        "Al Congrés dels Diputats exclusivament",
+        "Al Tribunal Constitucional quan una norma afecta drets fonamentals"
+      ],
+      "es": [
+        "Al Gobierno, porque ejerce la potestad reglamentaria",
+        "Al Congreso de los Diputados exclusivamente",
+        "Al Tribunal Constitucional cuando una norma afecta derechos fundamentales"
+      ]
+    },
+    "b5-006": {
+      "ca": [
+        "El Congrés dels Diputats i el Govern",
+        "El Congrés dels Diputats i les assemblees legislatives autonòmiques",
+        "El Senat i el Consell General del Poder Judicial"
+      ],
+      "es": [
+        "El Congreso de los Diputados y el Gobierno",
+        "El Congreso de los Diputados y las asambleas legislativas autonómicas",
+        "El Senado y el Consejo General del Poder Judicial"
+      ]
+    },
+    "b5-007": {
+      "ca": [
+        "Exercir la potestat reglamentària i dirigir l’Administració civil",
+        "Interpretar la Constitució i controlar la independència judicial",
+        "Dirigir la política interior i exterior i executar les lleis aprovades"
+      ],
+      "es": [
+        "Ejercer la potestad reglamentaria y dirigir la Administración civil",
+        "Interpretar la Constitución y controlar la independencia judicial",
+        "Dirigir la política interior y exterior y ejecutar las leyes aprobadas"
+      ]
+    },
+    "b5-008": {
+      "ca": [
+        "El Congrés dels Diputats",
+        "Les Corts Generals en conjunt",
+        "La Diputació provincial"
+      ],
+      "es": [
+        "El Congreso de los Diputados",
+        "Las Cortes Generales en conjunto",
+        "La Diputación provincial"
+      ]
+    },
+    "b5-009": {
+      "ca": [
+        "L’elaboració i aprovació de les lleis i dels pressupostos generals",
+        "La interpretació suprema de la Constitució i el control de constitucionalitat",
+        "La funció jurisdiccional i l’execució de les resolucions judicials"
+      ],
+      "es": [
+        "La elaboración y aprobación de las leyes y de los presupuestos generales",
+        "La interpretación suprema de la Constitución y el control de constitucionalidad",
+        "La función jurisdiccional y la ejecución de las resoluciones judiciales"
+      ]
+    },
+    "b5-010": {
+      "ca": [
+        "Pel Tribunal Constitucional com a òrgan suprem de tots els ordres jurisdiccionals",
+        "Pel Consell General del Poder Judicial mitjançant els seus membres",
+        "Per les Corts Generals a través de comissions especialitzades"
+      ],
+      "es": [
+        "Por el Tribunal Constitucional como órgano supremo de todos los órdenes jurisdiccionales",
+        "Por el Consejo General del Poder Judicial mediante sus miembros",
+        "Por las Cortes Generales a través de comisiones especializadas"
+      ]
+    },
+    "b5-011": {
+      "ca": [
+        "El Tribunal Constitucional",
+        "L’Audiència Nacional",
+        "El Consell General del Poder Judicial"
+      ],
+      "es": [
+        "El Tribunal Constitucional",
+        "La Audiencia Nacional",
+        "El Consejo General del Poder Judicial"
+      ]
+    },
+    "b5-012": {
+      "ca": [
+        "Des de l’1 de gener de 1993, amb l’entrada en vigor del mercat únic",
+        "Des de l’1 de gener de 1999, amb la creació de l’euro",
+        "Des de l’1 de gener de 2002, amb l’entrada en circulació de l’euro"
+      ],
+      "es": [
+        "Desde el 1 de enero de 1993, con la entrada en vigor del mercado único",
+        "Desde el 1 de enero de 1999, con la creación del euro",
+        "Desde el 1 de enero de 2002, con la entrada en circulación del euro"
+      ]
+    },
+    "b5-013": {
+      "ca": [
+        "15 comunitats autònomes i 2 ciutats autònomes",
+        "17 comunitats autònomes i cap ciutat autònoma",
+        "19 comunitats autònomes incloent Ceuta i Melilla"
+      ],
+      "es": [
+        "15 comunidades autónomas y 2 ciudades autónomas",
+        "17 comunidades autónomas y ninguna ciudad autónoma",
+        "19 comunidades autónomas incluyendo Ceuta y Melilla"
+      ]
+    },
+    "b5-014": {
+      "ca": [
+        "El Consell de Govern autonòmic",
+        "El president autonòmic",
+        "La Diputació provincial"
+      ],
+      "es": [
+        "El Consejo de Gobierno autonómico",
+        "El presidente autonómico",
+        "La Diputación provincial"
+      ]
+    },
+    "b5-015": {
+      "ca": [
+        "Els municipis, les províncies i les comunitats autònomes",
+        "Els ajuntaments, les delegacions del Govern i els ministeris",
+        "Les comunitats autònomes i les diputacions provincials exclusivament"
+      ],
+      "es": [
+        "Los municipios, las provincias y las comunidades autónomas",
+        "Los ayuntamientos, las delegaciones del Gobierno y los ministerios",
+        "Las comunidades autónomas y las diputaciones provinciales exclusivamente"
+      ]
+    },
+    "b5-016": {
+      "ca": [
+        "L’alcalde i la diputació provincial",
+        "L’alcalde, els regidors i el president autonòmic",
+        "Els regidors i els representants de l’Administració General de l’Estat"
+      ],
+      "es": [
+        "El alcalde y la diputación provincial",
+        "El alcalde, los concejales y el presidente autonómico",
+        "Los concejales y los representantes de la Administración General del Estado"
+      ]
+    },
+    "b5-017": {
+      "ca": [
+        "Una divisió territorial de l’Administració General de l’Estat sense personalitat pròpia",
+        "Una agrupació de comunitats autònomes per coordinar serveis comuns",
+        "Una entitat territorial bàsica governada per un ajuntament"
+      ],
+      "es": [
+        "Una división territorial de la Administración General del Estado sin personalidad propia",
+        "Una agrupación de comunidades autónomas para coordinar servicios comunes",
+        "Una entidad territorial básica gobernada por un ayuntamiento"
+      ]
+    },
+    "b5-018": {
+      "ca": [
+        "El Consell de la Unió Europea",
+        "La Comissió Europea",
+        "El Consell Europeu"
+      ],
+      "es": [
+        "El Consejo de la Unión Europea",
+        "La Comisión Europea",
+        "El Consejo Europeo"
+      ]
+    },
+    "b5-019": {
+      "ca": [
+        "El Parlament Europeu",
+        "El Consell Europeu",
+        "La Comissió Europea"
+      ],
+      "es": [
+        "El Parlamento Europeo",
+        "El Consejo Europeo",
+        "La Comisión Europea"
+      ]
+    },
+    "b5-020": {
+      "ca": [
+        "El Consell de la Unió Europea",
+        "El Consell Europeu",
+        "El Parlament Europeu"
+      ],
+      "es": [
+        "El Consejo de la Unión Europea",
+        "El Consejo Europeo",
+        "El Parlamento Europeo"
+      ]
+    },
+    "b5-021": {
+      "ca": [
+        "El Consell de la Unió Europea",
+        "La Comissió Europea",
+        "El Parlament Europeu"
+      ],
+      "es": [
+        "El Consejo de la Unión Europea",
+        "La Comisión Europea",
+        "El Parlamento Europeo"
+      ]
+    },
+    "b5-022": {
+      "ca": [
+        "Garantir la interpretació uniforme del dret de la UE",
+        "Controlar la correcta gestió dels recursos econòmics de la UE",
+        "Proposar la majoria de la legislació europea"
+      ],
+      "es": [
+        "Garantizar la interpretación uniforme del derecho de la UE",
+        "Controlar la correcta gestión de los recursos económicos de la UE",
+        "Proponer la mayoría de la legislación europea"
+      ]
+    },
+    "b5-023": {
+      "ca": [
+        "El Banc Central Europeu",
+        "La Comissió Europea",
+        "El Tribunal de Justícia de la UE"
+      ],
+      "es": [
+        "El Banco Central Europeo",
+        "La Comisión Europea",
+        "El Tribunal de Justicia de la UE"
+      ]
+    },
+    "b5-024": {
+      "ca": [
+        "El reglament fixa objectius i la directiva és directament aplicable",
+        "Tots dos són directament aplicables, però la directiva només obliga les administracions",
+        "Tots dos requereixen transposició, però el reglament té prioritat sobre la directiva"
+      ],
+      "es": [
+        "El reglamento fija objetivos y la directiva es directamente aplicable",
+        "Ambos son directamente aplicables, pero la directiva solo obliga a las administraciones",
+        "Ambos requieren transposición, pero el reglamento tiene prioridad sobre la directiva"
+      ]
+    },
+    "b5-025": {
+      "ca": [
+        "Organització administrativa",
+        "Organització territorial",
+        "Administració General de l’Estat"
+      ],
+      "es": [
+        "Organización administrativa",
+        "Organización territorial",
+        "Administración General del Estado"
+      ]
+    },
+    "b5-026": {
+      "ca": [
+        "Organització territorial",
+        "Organització constitucional",
+        "Separació de poders"
+      ],
+      "es": [
+        "Organización territorial",
+        "Organización constitucional",
+        "Separación de poderes"
+      ]
+    },
+    "b5-027": {
+      "ca": [
+        "Organització administrativa",
+        "Organització constitucional",
+        "Separació funcional dels poders"
+      ],
+      "es": [
+        "Organización administrativa",
+        "Organización constitucional",
+        "Separación funcional de los poderes"
+      ]
+    },
+    "b5-028": {
+      "ca": [
+        "Govern",
+        "Tribunal Constitucional",
+        "Consell General del Poder Judicial"
+      ],
+      "es": [
+        "Gobierno",
+        "Tribunal Constitucional",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    "b5-029": {
+      "ca": [
+        "El Congrés representa territorialment i el Senat representa directament la ciutadania",
+        "El Congrés exerceix funcions legislatives i el Senat només funcions consultives",
+        "El Senat forma part del poder executiu mentre el Congrés integra el legislatiu"
+      ],
+      "es": [
+        "El Congreso representa territorialmente y el Senado representa directamente a la ciudadanía",
+        "El Congreso ejerce funciones legislativas y el Senado solo funciones consultivas",
+        "El Senado forma parte del poder ejecutivo mientras el Congreso integra el legislativo"
+      ]
+    },
+    "b5-030": {
+      "ca": [
+        "Les Corts Generals",
+        "El president del Govern de manera individual",
+        "L’Administració General de l’Estat sense el Govern"
+      ],
+      "es": [
+        "Las Cortes Generales",
+        "El presidente del Gobierno de forma individual",
+        "La Administración General del Estado sin el Gobierno"
+      ]
+    },
+    "b5-031": {
+      "ca": [
+        "Tribunal Constitucional",
+        "Audiència Nacional",
+        "Consell General del Poder Judicial"
+      ],
+      "es": [
+        "Tribunal Constitucional",
+        "Audiencia Nacional",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    "b5-032": {
+      "ca": [
+        "Forma part del Poder Judicial, però només coneix qüestions constitucionals",
+        "No forma part del Poder Judicial i governa l’activitat quotidiana dels jutjats",
+        "És l’òrgan jurisdiccional superior de tots els ordres ordinaris"
+      ],
+      "es": [
+        "Forma parte del Poder Judicial, pero solo conoce cuestiones constitucionales",
+        "No forma parte del Poder Judicial y gobierna la actividad cotidiana de los juzgados",
+        "Es el órgano jurisdiccional superior de todos los órdenes ordinarios"
+      ]
+    },
+    "b5-033": {
+      "ca": [
+        "Tribunal Constitucional",
+        "Tribunal Suprem",
+        "Audiència Nacional"
+      ],
+      "es": [
+        "Tribunal Constitucional",
+        "Tribunal Supremo",
+        "Audiencia Nacional"
+      ]
+    },
+    "b5-034": {
+      "ca": [
+        "President autonòmic",
+        "Consell de Govern",
+        "Diputació provincial"
+      ],
+      "es": [
+        "Presidente autonómico",
+        "Consejo de Gobierno",
+        "Diputación provincial"
+      ]
+    },
+    "b5-035": {
+      "ca": [
+        "Assemblea legislativa autonòmica",
+        "President autonòmic",
+        "Diputació provincial"
+      ],
+      "es": [
+        "Asamblea legislativa autonómica",
+        "Presidente autonómico",
+        "Diputación provincial"
+      ]
+    },
+    "b5-036": {
+      "ca": [
+        "Municipi → agrupació de províncies",
+        "Província → agrupació de comunitats autònomes",
+        "Comunitat autònoma → agrupació obligatòria de províncies"
+      ],
+      "es": [
+        "Municipio → agrupación de provincias",
+        "Provincia → agrupación de comunidades autónomas",
+        "Comunidad autónoma → agrupación obligatoria de provincias"
+      ]
+    },
+    "b5-037": {
+      "ca": [
+        "Canàries — diputacions; Balears — consells insulars",
+        "Canàries — cabildos; Balears — diputacions",
+        "Canàries — consells insulars; Balears — diputacions"
+      ],
+      "es": [
+        "Canarias — diputaciones; Baleares — consejos insulares",
+        "Canarias — cabildos; Baleares — diputaciones",
+        "Canarias — consejos insulares; Baleares — diputaciones"
+      ]
+    },
+    "b5-038": {
+      "ca": [
+        "Comissió Europea",
+        "Consell de la Unió Europea",
+        "Consell Europeu"
+      ],
+      "es": [
+        "Comisión Europea",
+        "Consejo de la Unión Europea",
+        "Consejo Europeo"
+      ]
+    },
+    "b5-039": {
+      "ca": [
+        "Consell Europeu",
+        "Comissió Europea",
+        "Parlament Europeu"
+      ],
+      "es": [
+        "Consejo Europeo",
+        "Comisión Europea",
+        "Parlamento Europeo"
+      ]
+    },
+    "b5-040": {
+      "ca": [
+        "Consell de la Unió Europea",
+        "Parlament Europeu",
+        "Consell Europeu"
+      ],
+      "es": [
+        "Consejo de la Unión Europea",
+        "Parlamento Europeo",
+        "Consejo Europeo"
+      ]
+    },
+    "b5-041": {
+      "ca": [
+        "Comissió Europea",
+        "Tribunal de Comptes Europeu",
+        "Consell de la Unió Europea"
+      ],
+      "es": [
+        "Comisión Europea",
+        "Tribunal de Cuentas Europeo",
+        "Consejo de la Unión Europea"
+      ]
+    },
+    "b5-042": {
+      "ca": [
+        "Consell de la Unió Europea",
+        "Comissió Europea",
+        "Parlament Europeu"
+      ],
+      "es": [
+        "Consejo de la Unión Europea",
+        "Comisión Europea",
+        "Parlamento Europeo"
+      ]
+    },
+    "b5-043": {
+      "ca": [
+        "TJUE — política monetària de la zona euro i estabilitat de preus",
+        "Tribunal de Comptes — interpretació i aplicació uniforme del dret europeu",
+        "Comissió Europea — control extern de la correcta gestió dels recursos de la UE"
+      ],
+      "es": [
+        "TJUE — política monetaria de la zona euro y estabilidad de precios",
+        "Tribunal de Cuentas — interpretación y aplicación uniforme del derecho europeo",
+        "Comisión Europea — control externo de la correcta gestión de los recursos de la UE"
+      ]
+    },
+    "b5-044": {
+      "ca": [
+        "Banc Central Europeu",
+        "Comissió Europea",
+        "Tribunal de Justícia de la UE"
+      ],
+      "es": [
+        "Banco Central Europeo",
+        "Comisión Europea",
+        "Tribunal de Justicia de la UE"
+      ]
+    },
+    "b5-045": {
+      "ca": [
+        "Directiva",
+        "Decisió política del Consell Europeu",
+        "Norma estatal de transposició"
+      ],
+      "es": [
+        "Directiva",
+        "Decisión política del Consejo Europeo",
+        "Norma estatal de transposición"
+      ]
+    },
+    "b5-046": {
+      "ca": [
+        "Reglament — transposició",
+        "Directiva — aplicació directa general",
+        "Reglament — objectius a incorporar al dret intern"
+      ],
+      "es": [
+        "Reglamento — transposición",
+        "Directiva — aplicación directa general",
+        "Reglamento — objetivos a incorporar al derecho interno"
+      ]
+    },
+    "b5-047": {
+      "ca": [
+        "El conjunt de comunitats autònomes que exerceixen competències transferides",
+        "L’administració corresponent als municipis i províncies",
+        "El conjunt dels poders legislatiu, executiu i judicial de l’Estat"
+      ],
+      "es": [
+        "El conjunto de comunidades autónomas que ejercen competencias transferidas",
+        "La administración correspondiente a los municipios y provincias",
+        "El conjunto de los poderes legislativo, ejecutivo y judicial del Estado"
+      ]
+    },
+    "b5-048": {
+      "ca": [
+        "Tribunal Suprem",
+        "Tribunal Constitucional",
+        "Consell General del Poder Judicial"
+      ],
+      "es": [
+        "Tribunal Supremo",
+        "Tribunal Constitucional",
+        "Consejo General del Poder Judicial"
+      ]
+    },
+    "b5-049": {
+      "ca": [
+        "La potestat legislativa delegada per les Corts Generals",
+        "La potestat jurisdiccional en matèria administrativa",
+        "La potestat de control constitucional de les normes"
+      ],
+      "es": [
+        "La potestad legislativa delegada por las Cortes Generales",
+        "La potestad jurisdiccional en materia administrativa",
+        "La potestad de control constitucional de las normas"
+      ]
+    },
+    "b5-050": {
+      "ca": [
+        "President del Govern, presidents autonòmics i ministres",
+        "President del Govern, presidents del Congrés i del Senat i ministres",
+        "President del Govern, magistrats del Tribunal Suprem i ministres"
+      ],
+      "es": [
+        "Presidente del Gobierno, presidentes autonómicos y ministros",
+        "Presidente del Gobierno, presidentes del Congreso y del Senado y ministros",
+        "Presidente del Gobierno, magistrados del Tribunal Supremo y ministros"
+      ]
+    },
+    "b5-051": {
+      "ca": [
+        "El Consell de Govern",
+        "L’assemblea legislativa autonòmica",
+        "La delegació del Govern a la comunitat"
+      ],
+      "es": [
+        "El Consejo de Gobierno",
+        "La asamblea legislativa autonómica",
+        "La delegación del Gobierno en la comunidad"
+      ]
+    },
+    "b5-052": {
+      "ca": [
+        "A l’ajuntament de la capital provincial",
+        "Al govern autonòmic del territori",
+        "A la delegació provincial de l’Administració General de l’Estat"
+      ],
+      "es": [
+        "Al ayuntamiento de la capital provincial",
+        "Al gobierno autonómico del territorio",
+        "A la delegación provincial de la Administración General del Estado"
+      ]
+    },
+    "b5-053": {
+      "ca": [
+        "Els seus membres són nomenats pels governs dels Estats membres cada cinc anys",
+        "És l’única institució de la UE amb iniciativa legislativa general",
+        "Està integrat pels caps d’Estat o de Govern dels vint-i-set membres"
+      ],
+      "es": [
+        "Sus miembros son nombrados por los gobiernos de los Estados miembros cada cinco años",
+        "Es la única institución de la UE con iniciativa legislativa general",
+        "Está integrado por los jefes de Estado o de Gobierno de los veintisiete miembros"
+      ]
+    },
+    "b5-054": {
+      "ca": [
+        "Està formada pels ministres dels Estats membres segons la matèria tractada",
+        "Està integrada pels caps d’Estat o de Govern i el seu president",
+        "Els seus membres són elegits directament per la ciutadania cada cinc anys"
+      ],
+      "es": [
+        "Está formada por los ministros de los Estados miembros según la materia tratada",
+        "Está integrada por los jefes de Estado o de Gobierno y su presidente",
+        "Sus miembros son elegidos directamente por la ciudadanía cada cinco años"
+      ]
+    },
+    "b5-055": {
+      "ca": [
+        "Comissió Europea i Consell de la Unió Europea",
+        "Parlament Europeu i Consell Europeu",
+        "Consell de la Unió Europea i Parlament Europeu"
+      ],
+      "es": [
+        "Comisión Europea y Consejo de la Unión Europea",
+        "Parlamento Europeo y Consejo Europeo",
+        "Consejo de la Unión Europea y Parlamento Europeo"
+      ]
+    },
+    "b5-056": {
+      "ca": [
+        "Parlament Europeu",
+        "Comissió Europea",
+        "Consell Europeu"
+      ],
+      "es": [
+        "Parlamento Europeo",
+        "Comisión Europea",
+        "Consejo Europeo"
+      ]
+    },
+    "b5-057": {
+      "ca": [
+        "Consell de la Unió Europea",
+        "Parlament Europeu",
+        "Consell Europeu"
+      ],
+      "es": [
+        "Consejo de la Unión Europea",
+        "Parlamento Europeo",
+        "Consejo Europeo"
+      ]
+    },
+    "b5-058": {
+      "ca": [
+        "Consell de la Unió Europea",
+        "Comissió Europea",
+        "Parlament Europeu"
+      ],
+      "es": [
+        "Consejo de la Unión Europea",
+        "Comisión Europea",
+        "Parlamento Europeo"
+      ]
+    },
+    "b5-059": {
+      "ca": [
+        "Espanya només queda vinculada per les normes europees que transposa voluntàriament",
+        "El dret de la UE substitueix íntegrament el dret intern en qualsevol matèria",
+        "Espanya queda vinculada únicament pels reglaments, no per altres actes de la UE"
+      ],
+      "es": [
+        "España solo queda vinculada por las normas europeas que transpone voluntariamente",
+        "El derecho de la UE sustituye íntegramente al derecho interno en cualquier materia",
+        "España queda vinculada únicamente por los reglamentos, no por otros actos de la UE"
+      ]
+    },
+    "b5-060": {
+      "ca": [
+        "Aplicació directa d’un reglament",
+        "Potestat reglamentària del Govern",
+        "Control de constitucionalitat"
+      ],
+      "es": [
+        "Aplicación directa de un reglamento",
+        "Potestad reglamentaria del Gobierno",
+        "Control de constitucionalidad"
+      ]
+    }
+  }
+}
