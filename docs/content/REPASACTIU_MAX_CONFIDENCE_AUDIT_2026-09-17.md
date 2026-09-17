@@ -59,7 +59,7 @@ S'ha incorporat `scripts/content-quality-lib.mjs` a `npm run audit:full`.
 El nou control comprova, entre altres invariants:
 
 - duplicats exactes d'enunciat després de normalitzar majúscules, accents, puntuació i espais;
-- possibles restes inequívoces de català als camps castellans;
+- possibles restes inequívoces de català al tema, enunciat, explicació **i cadascuna de les quatre opcions castellanes**;
 - cobertura de traducció;
 - cobertura de traçabilitat;
 - fonts declarades existents;
@@ -72,11 +72,13 @@ Durant el desenvolupament, una primera versió del detector lingüístic va prod
 
 La implementació del nou auditor es va iniciar amb una prova RED que fallava perquè el mòdul encara no existia. Posteriorment es va afegir una prova RED perquè `audit:full` exigís explícitament el nou control.
 
-L'ampliació E2E va detectar una fallada a la nova prova de recorregut d'examen. La investigació va demostrar que era un error del test, no del producte: intentava finalitzar l'examen a la pregunta 9. La prova es va corregir perquè navegui fins a la pregunta 10 i després finalitzi. La suite completa va quedar verda.
+L'ampliació E2E va detectar una fallada a la nova prova de recorregut d'examen. La investigació va demostrar que era un error del test, no del producte: intentava finalitzar l'examen a la pregunta 9. La prova es va corregir perquè navegui fins a la pregunta 10 i després finalitzi.
 
-## Resultat automatitzat final — CI #157
+La revisió final va detectar que el primer auditor lingüístic encara no inspeccionava les opcions castellanes. Es va afegir una nova prova RED; la CI #159 va fallar exactament perquè una opció catalana artificial no era detectada. Després s'implementà el control sobre `options[0..3]` i la CI #160 va quedar verda amb totes les preguntes reprocessades.
 
-Commit auditat: `43d5ebd40ac2ec4b090c3ef683e28c09db6601c7`.
+## Resultat automatitzat final de codi — CI #160
+
+Commit de codi auditat: `35653fef0c86f53977e27728770fce318c58bb05`.
 
 | Control | Resultat |
 |---|---:|
@@ -89,10 +91,12 @@ Commit auditat: `43d5ebd40ac2ec4b090c3ef683e28c09db6601c7`.
 | Permutacions per pregunta | 24/24 |
 | Idiomes per permutació | 2/2 |
 | Casos de posició de resposta | 25.248/25.248 PASS |
-| Unit tests | 69/69 PASS |
+| Unit tests | 70/70 PASS |
 | E2E Playwright | 17/17 PASS |
 
 Els E2E reforçats inclouen també persistència d'errors i mode de repàs, canvi d'idioma, finalització completa d'un examen de 10 preguntes amb blancs, revisió de resultats i UF0518 en castellà en viewport mòbil sense desbordament horitzontal.
+
+Després d'actualitzar aquest document es torna a executar la CI completa sobre el HEAD final de la PR; aquest document només es considera certificat per a fusió quan aquella execució final és també verda.
 
 ## Garantia correcta
 
