@@ -145,7 +145,7 @@ test('la Unitat 2 es pot practicar de manera independent', async ({ page }) => {
 test('Mode Examen no revela solucions durant el test i permet blancs', async ({ page }) => {
   await page.goto('/');
   await page.locator('[data-selection="bloc-1"]').click();
-  await page.getByLabel('Mode Examen').check();
+  await page.getByLabel('Mode Examen',{exact:true}).check();
   await page.getByLabel('10 preguntes').check();
   await page.getByRole('button', { name: 'Començar' }).click();
   await page.locator('[data-answer-option]').first().click();
