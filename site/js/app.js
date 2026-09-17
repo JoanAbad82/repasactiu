@@ -1,5 +1,5 @@
-import {loadCourse,loadContentCorrections,loadBlockBundle,applyContentCorrections} from './catalog.js';
-import {buildQuiz,rankReviewQuestions,buildReviewQuiz} from './quiz-engine.js';
+import {loadCourse,loadContentCorrections,loadBlockBundle,loadHardDistractors,applyContentCorrections} from './catalog.js';
+import {buildQuiz,buildHardQuiz,rankReviewQuestions,buildReviewQuiz} from './quiz-engine.js';
 import {scoreQuiz,buildBreakdown} from './scoring.js';
 import {loadState,saveState,recordAttempt,appendHistory,resetProgress} from './storage.js';
 import {resolveTheme,applyTheme} from './theme.js';
@@ -29,6 +29,10 @@ function syncLanguageChrome(){
 function displayScreen(id){currentScreen=id;showScreen(id);}
 function allQuestions(){return banks.flatMap(b=>b.questions);}
 function selectedQuestions(){if(selection==='all')return allQuestions();return banks.find(b=>b.blockId===selection)?.questions||[];}
+function selectedHardDistractors(){
+ const selectedBanks=selection==='all'?banks:banks.filter(bank=>bank.blockId===selection);
+ return Object.assign({},...selectedBanks.map(bank=>bank.hardDistractors||{}));
+}
 function localizedQuestion(question,lang=language()){
  const localized=lang==='es'&&question.translations?.es?{...question,...question.translations.es}:{...question};
  if(question.memoryAid){localized.memoryAid={type:question.memoryAid.type,text:question.memoryAid[lang]};}
@@ -54,7 +58,18 @@ function bindSetup(){
  els.setup.querySelector('#start-quiz')?.addEventListener('click',startQuiz);
 }
 function renderEmptyReview(){els.setup.innerHTML=`<div class="panel"><button data-action="home" class="back-button" type="button">${t().back}</button><div class="empty-state"><h1>${t().emptyTitle}</h1><p>${t().emptyText}</p></div></div>`;displayScreen('setup-screen');els.setup.querySelector('[data-action="home"]').addEventListener('click',goHome);}
-function startQuiz(){const base=setup.review?allQuestions():selectedQuestions();const reviewMode=setup.review||setup.mode==='review';const pool=reviewMode?rankReviewQuestions(base,state.errorScores):base;if(!pool.length){renderEmptyReview();return;}const questions=reviewMode?buildReviewQuiz(base,state.errorScores,setup.count):buildQuiz(pool,setup.count);session={questions,index:0,answers:{},mode:reviewMode?'review':setup.mode,penaltyEnabled:isExamMode(setup.mode)&&setup.penaltyEnabled,revealed:false,finished:false,recorded:new Set()};renderCurrent();}
+function startQuiz(){
+ const base=setup.review?allQuestions():selectedQuestions();
+ const reviewMode=setup.review||setup.mode==='review';
+ const pool=reviewMode?rankReviewQuestions(base,state.errorScores):base;
+ if(!pool.length){renderEmptyReview();return;}
+ let questions;
+ if(reviewMode)questions=buildReviewQuiz(base,state.errorScores,setup.count);
+ else if(setup.mode==='hard-exam')questions=buildHardQuiz(pool,selectedHardDistractors(),setup.count);
+ else questions=buildQuiz(pool,setup.count);
+ session={questions,index:0,answers:{},mode:reviewMode?'review':setup.mode,penaltyEnabled:isExamMode(setup.mode)&&setup.penaltyEnabled,revealed:false,finished:false,recorded:new Set()};
+ renderCurrent();
+}
 function renderCurrent(){const q=session.questions[session.index];const visibleQuestion=localizedQuestion(q);els.quiz.innerHTML=renderQuestionHtml({question:visibleQuestion,index:session.index,total:session.questions.length,mode:isExamMode(session.mode)?'exam':'study',selected:session.answers[q.id]??null,revealed:session.revealed},language());displayScreen('quiz-screen');for(const btn of els.quiz.querySelectorAll('[data-answer-option]'))btn.addEventListener('click',()=>chooseAnswer(Number(btn.dataset.index)));els.quiz.querySelector('#next-question')?.addEventListener('click',nextQuestion);}
 function chooseAnswer(index){const q=session.questions[session.index];if(!isExamMode(session.mode)&&session.revealed)return;session.answers[q.id]=index;if(isExamMode(session.mode)){renderCurrent();return;}session.revealed=true;if(!session.recorded.has(q.id)){const outcome=index===q.correct?'correct':'incorrect';state=recordAttempt(state,q.id,outcome);session.recorded.add(q.id);saveState(state);els.live.textContent=outcome==='correct'?t().correct:t().incorrect;}renderCurrent();}
 function nextQuestion(){if(!isExamMode(session.mode)&&!session.revealed)return;if(session.index<session.questions.length-1){session.index++;session.revealed=false;renderCurrent();return;}finishQuiz();}
@@ -72,5 +87,14 @@ function bindGlobal(){
  els.theme.addEventListener('click',()=>{const current=resolveTheme(state.theme,prefersDark());state.theme=current==='dark'?'light':'dark';saveState(state);syncTheme();});
  els.home.addEventListener('click',e=>{const card=e.target.closest('[data-block-card]');if(card)openSetup(card.dataset.selection,false);if(e.target.closest('#reset-progress')){if(window.confirm(t().reset)){resetProgress();state=loadState();syncTheme();syncLanguageChrome();renderHome();}}});
 }
-async function init(){try{syncTheme();syncLanguageChrome();[course]=await Promise.all([loadCourse()]);const corrections=await loadContentCorrections();banks=await Promise.all(course.blocks.map(async meta=>{let bank=await loadBlockBundle(meta.file,meta.extraFile,fetch,meta.translationFile,meta.memoryAidFile,meta.additionalFiles||[],meta.additionalTranslationFiles||[],meta.additionalMemoryAidFiles||[]);if(bank.blockId!==meta.id)throw new Error('El banc no correspon al bloc declarat al curs.');bank=applyContentCorrections(bank,corrections);return {...bank,blockTitleEs:meta.titleEs||bank.blockTitleEs,unitId:meta.unitId,unitTitle:meta.unitTitle,unitTitleEs:meta.unitTitleEs,blockNumber:meta.blockNumber};}));bindGlobal();renderHome();}catch(error){syncLanguageChrome();els.home.innerHTML=`<div class="error-message"><strong>${t().loadError}</strong><p>${t().retry}</p></div>`;console.error(error);}}
+async function init(){try{syncTheme();syncLanguageChrome();[course]=await Promise.all([loadCourse()]);const corrections=await loadContentCorrections();banks=await Promise.all(course.blocks.map(async meta=>{
+ const [loadedBank,hard]=await Promise.all([
+  loadBlockBundle(meta.file,meta.extraFile,fetch,meta.translationFile,meta.memoryAidFile,meta.additionalFiles||[],meta.additionalTranslationFiles||[],meta.additionalMemoryAidFiles||[]),
+  loadHardDistractors(meta.hardDistractorFile,meta.id,fetch)
+ ]);
+ let bank=loadedBank;
+ if(bank.blockId!==meta.id)throw new Error('El banc no correspon al bloc declarat al curs.');
+ bank=applyContentCorrections(bank,corrections);
+ return {...bank,hardDistractors:hard.questions,blockTitleEs:meta.titleEs||bank.blockTitleEs,unitId:meta.unitId,unitTitle:meta.unitTitle,unitTitleEs:meta.unitTitleEs,blockNumber:meta.blockNumber};
+}));bindGlobal();renderHome();}catch(error){syncLanguageChrome();els.home.innerHTML=`<div class="error-message"><strong>${t().loadError}</strong><p>${t().retry}</p></div>`;console.error(error);}}
 init();

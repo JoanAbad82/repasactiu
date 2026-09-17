@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { shuffleQuestionOptions } from '../site/js/quiz-engine.js';
+import { composeHardQuestion } from '../site/js/hard-distractors.js';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const dataDir=path.join(root,'site','data');
@@ -44,6 +45,7 @@ async function loadEffectiveQuestions(){
   const corrections=await readJson('content_corrections.json');
   const questions=[];
   const translations=new Map();
+  const hardById=new Map();
 
   for(const block of course.blocks){
     const bankFiles=[block.file,block.extraFile,...(block.additionalFiles||[])].filter(Boolean);
@@ -60,6 +62,16 @@ async function loadEffectiveQuestions(){
         translations.set(id,value);
       }
     }
+
+    if(!block.hardDistractorFile)throw new Error(`${block.id}: hardDistractorFile absent`);
+    const hard=await readJson(block.hardDistractorFile);
+    if(hard.blockId!==block.id||!hard.questions||Array.isArray(hard.questions)){
+      throw new Error(`${block.id}: invalid hard distractor overlay`);
+    }
+    for(const [id,value] of Object.entries(hard.questions)){
+      if(hardById.has(id))throw new Error(`Duplicate hard distractor record for ${id}`);
+      hardById.set(id,value);
+    }
   }
 
   const effectiveQuestions=questions.map(q=>{
@@ -70,42 +82,92 @@ async function loadEffectiveQuestions(){
     const correction=corrections.questions?.[id];
     if(correction?.es)translations.set(id,{...translation,...correction.es});
   }
-  return {questions:effectiveQuestions,translations};
+  return {questions:effectiveQuestions,translations,hardById};
+}
+
+function auditRepresentation(question,paths,label,errors){
+  const caOptions=question.options;
+  const esOptions=question.translations?.es?.options;
+  if(!Array.isArray(caOptions)||caOptions.length!==4){
+    errors.push(`${question.id}: ${label} CA options != 4`);
+    return 0;
+  }
+  if(!Array.isArray(esOptions)||esOptions.length!==4){
+    errors.push(`${question.id}: ${label} ES options != 4`);
+    return 0;
+  }
+
+  const canonicalCorrect=caOptions[question.correct];
+  const spanishCorrect=esOptions[question.correct];
+  const producedOrders=new Set();
+  let cases=0;
+
+  for(const values of paths){
+    const shuffled=shuffleQuestionOptions(question,rngFrom(values));
+    const order=shuffled.options.map(text=>caOptions.indexOf(text));
+    producedOrders.add(order.join(','));
+
+    cases++;
+    if(shuffled.options[shuffled.correct]!==canonicalCorrect)errors.push(`${question.id}: ${label} CA correct answer moved incorrectly in ${order.join('')}`);
+    if(new Set(shuffled.options).size!==4||shuffled.options.some(v=>!caOptions.includes(v)))errors.push(`${question.id}: ${label} CA option loss/duplication in ${order.join('')}`);
+
+    cases++;
+    const shuffledEs=shuffled.translations?.es?.options;
+    if(!Array.isArray(shuffledEs)||shuffledEs[shuffled.correct]!==spanishCorrect)errors.push(`${question.id}: ${label} ES correct answer moved incorrectly in ${order.join('')}`);
+    if(!Array.isArray(shuffledEs)||new Set(shuffledEs).size!==4||shuffledEs.some(v=>!esOptions.includes(v)))errors.push(`${question.id}: ${label} ES option loss/duplication in ${order.join('')}`);
+  }
+
+  if(producedOrders.size!==24)errors.push(`${question.id}: ${label} shuffle engine produced ${producedOrders.size}/24 distinct permutations`);
+  return cases;
 }
 
 export async function runPermutationAudit(){
-  const {questions,translations}=await loadEffectiveQuestions();
+  const {questions,translations,hardById}=await loadEffectiveQuestions();
   const paths=allFisherYatesPaths();
   const errors=[];
-  let cases=0;
+  let practiceCases=0;
+  let hardCases=0;
 
   for(const q of questions){
-    if(!Array.isArray(q.options)||q.options.length!==4){errors.push(`${q.id}: canonical options != 4`);continue;}
-    if(!Number.isInteger(q.correct)||q.correct<0||q.correct>3){errors.push(`${q.id}: invalid correct index`);continue;}
-    const es=translations.get(q.id);
-    if(!es||!Array.isArray(es.options)||es.options.length!==4){errors.push(`${q.id}: Spanish options != 4`);continue;}
-
-    const canonicalCorrect=q.options[q.correct];
-    const spanishCorrect=es.options[q.correct];
-    const producedOrders=new Set();
-    for(const values of paths){
-      const shuffled=shuffleQuestionOptions({...q,translations:{es}},rngFrom(values));
-      const order=shuffled.options.map(text=>q.options.indexOf(text));
-      producedOrders.add(order.join(','));
-
-      cases++;
-      if(shuffled.options[shuffled.correct]!==canonicalCorrect)errors.push(`${q.id}: CA correct answer moved incorrectly in ${order.join('')}`);
-      if(new Set(shuffled.options).size!==4||shuffled.options.some(v=>!q.options.includes(v)))errors.push(`${q.id}: CA option loss/duplication in ${order.join('')}`);
-
-      cases++;
-      const esOptions=shuffled.translations?.es?.options;
-      if(!Array.isArray(esOptions)||esOptions[shuffled.correct]!==spanishCorrect)errors.push(`${q.id}: ES correct answer moved incorrectly in ${order.join('')}`);
-      if(!Array.isArray(esOptions)||new Set(esOptions).size!==4||esOptions.some(v=>!es.options.includes(v)))errors.push(`${q.id}: ES option loss/duplication in ${order.join('')}`);
+    if(!Number.isInteger(q.correct)||q.correct<0||q.correct>3){
+      errors.push(`${q.id}: invalid correct index`);
+      continue;
     }
-    if(producedOrders.size!==24)errors.push(`${q.id}: real shuffle engine produced ${producedOrders.size}/24 distinct permutations`);
+    const es=translations.get(q.id);
+    if(!es){
+      errors.push(`${q.id}: Spanish translation absent`);
+      continue;
+    }
+
+    const practice={...q,translations:{...(q.translations||{}),es}};
+    practiceCases+=auditRepresentation(practice,paths,'practice',errors);
+
+    const hardRecord=hardById.get(q.id);
+    if(!hardRecord){
+      errors.push(`${q.id}: hard distractor record absent`);
+      continue;
+    }
+    try{
+      const hard=composeHardQuestion(practice,hardRecord);
+      hardCases+=auditRepresentation(hard,paths,'hard',errors);
+    }catch(error){
+      errors.push(`${q.id}: hard composition failed: ${error.message}`);
+    }
   }
 
-  return {questions:questions.length,permutationsPerQuestion:paths.length,languages:2,cases,errors};
+  const expectedPerRepresentation=questions.length*paths.length*2;
+  if(practiceCases!==expectedPerRepresentation)errors.push(`practice permutation case mismatch: ${practiceCases}/${expectedPerRepresentation}`);
+  if(hardCases!==expectedPerRepresentation)errors.push(`hard permutation case mismatch: ${hardCases}/${expectedPerRepresentation}`);
+
+  return {
+    questions:questions.length,
+    permutationsPerQuestion:paths.length,
+    languages:2,
+    practiceCases,
+    hardCases,
+    cases:practiceCases+hardCases,
+    errors
+  };
 }
 
 if(process.argv[1]===fileURLToPath(import.meta.url)){
@@ -118,5 +180,8 @@ if(process.argv[1]===fileURLToPath(import.meta.url)){
   console.log(`QUESTIONS=${result.questions}`);
   console.log(`PERMUTATIONS_PER_QUESTION=${result.permutationsPerQuestion}`);
   console.log(`LANGUAGES=${result.languages}`);
+  console.log(`PRACTICE_PERMUTATION_CASES=${result.practiceCases}`);
+  console.log(`HARD_PERMUTATION_CASES=${result.hardCases}`);
+  console.log(`TOTAL_PERMUTATION_CASES=${result.cases}`);
   console.log(`CASES=${result.cases}`);
 }
