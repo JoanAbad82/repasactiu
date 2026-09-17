@@ -41,11 +41,18 @@ const catalanSignalWords=new Set([
   'següent','següents','dins','perquè','també'
 ]);
 
+function hasCatalanSignal(value){
+  const words=String(value??'').toLocaleLowerCase('ca').match(/\p{L}+/gu)||[];
+  return words.some(word=>catalanSignalWords.has(word));
+}
+
 export function detectCatalanLeakageInSpanish(record){
   const leaking=[];
   for(const field of ['topic','question','explanation']){
-    const words=String(record?.[field]??'').toLocaleLowerCase('ca').match(/\p{L}+/gu)||[];
-    if(words.some(word=>catalanSignalWords.has(word)))leaking.push(field);
+    if(hasCatalanSignal(record?.[field]))leaking.push(field);
+  }
+  for(const [index,option] of (record?.options||[]).entries()){
+    if(hasCatalanSignal(option))leaking.push(`options[${index}]`);
   }
   return leaking;
 }
