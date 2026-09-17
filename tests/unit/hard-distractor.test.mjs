@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
   composeHardQuestion,
-  validateHardRecord
+  validateHardRecord,
+  countGiveawayAbsoluteDistractors
 } from '../../scripts/hard-distractor-lib.mjs';
 
 function baseQuestion(correct=0){
@@ -60,4 +61,16 @@ test('validateHardRecord rebutja arrays incomplets o buits',()=>{
   const errors=validateHardRecord(baseQuestion(0),{ca:['A','B'],es:['A','B','']});
   assert.ok(errors.some(x=>x.includes('ca')));
   assert.ok(errors.some(x=>x.includes('es')));
+});
+
+
+test('limita els absoluts que poden convertir-se en pistes evidents',()=>{
+  assert.equal(countGiveawayAbsoluteDistractors(['Només A','Sempre B','C'],'ca'),2);
+  assert.equal(countGiveawayAbsoluteDistractors(['Solo A','Siempre B','C'],'es'),2);
+  const errors=validateHardRecord(baseQuestion(0),{
+    ca:['Només H1','Sempre H2','CA-H3'],
+    es:['Solo H1','Siempre H2','ES-H3']
+  });
+  assert.ok(errors.some(x=>x.includes('ca conté massa distractors amb absoluts')));
+  assert.ok(errors.some(x=>x.includes('es conté massa distractors amb absoluts')));
 });
