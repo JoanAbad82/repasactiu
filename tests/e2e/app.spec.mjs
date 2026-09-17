@@ -196,3 +196,18 @@ test('la pregunta és usable en mòbil', async ({ browser }) => {
   await expect(page.locator('[data-answer-option]')).toHaveCount(4);
   await page.close();
 });
+
+test('Mode Examen difícil es comporta com un examen i no revela solucions durant el test', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('[data-selection="bloc-1"]').click();
+  await page.getByLabel('Mode Examen difícil').check();
+  await page.getByLabel('10 preguntes').check();
+  await expect(page.locator('#penalty-field')).toBeVisible();
+  await page.getByRole('button', { name: 'Començar' }).click();
+  await expect(page.locator('[data-answer-option]')).toHaveCount(4);
+  await page.locator('[data-answer-option]').first().click();
+  await expect(page.locator('#study-feedback')).toHaveCount(0);
+  await expect(page.locator('.memory-aid')).toHaveCount(0);
+  await page.getByRole('button', { name: 'Següent' }).click();
+  await expect(page.getByText('Pregunta 2 de 10')).toBeVisible();
+});
