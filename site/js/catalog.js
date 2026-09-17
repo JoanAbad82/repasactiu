@@ -12,6 +12,14 @@ export function loadContentCorrections(fetchImpl=fetch){
   return readJson("data/content_corrections.json",fetchImpl,"No s’han pogut carregar les correccions auditades. Torna-ho a provar.");
 }
 
+export async function loadHardDistractors(file,expectedBlockId,fetchImpl=fetch){
+  const data=await readJson(file,fetchImpl,"No s'han pogut carregar els distractors de l'examen difícil. Torna-ho a provar.");
+  if(data.blockId!==expectedBlockId||!data.questions||Array.isArray(data.questions)){
+    throw new Error("El banc de distractors difícils no correspon al bloc declarat.");
+  }
+  return data;
+}
+
 export function loadBlock(file,fetchImpl=fetch){
   return readJson(file,fetchImpl,"No s’ha pogut carregar aquest bloc. Torna-ho a provar.");
 }
