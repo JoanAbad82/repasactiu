@@ -27,14 +27,14 @@
     },
     "u2b1-003": {
       "ca": [
-        "Supervisió directa",
-        "Normalització dels resultats",
-        "Normalització d’habilitats"
+        "Supervisió directa mitjançant instruccions d’un responsable",
+        "Normalització dels resultats amb objectius prefixats",
+        "Normalització d’habilitats mitjançant formació prèvia"
       ],
       "es": [
-        "Supervisión directa",
-        "Normalización de los resultados",
-        "Normalización de habilidades"
+        "Supervisión directa mediante instrucciones de un responsable",
+        "Normalización de los resultados con objetivos prefijados",
+        "Normalización de habilidades mediante formación previa"
       ]
     },
     "u2b1-004": {
@@ -75,14 +75,14 @@
     },
     "u2b1-007": {
       "ca": [
-        "Adaptació mútua",
-        "Supervisió directa",
-        "Normalització dels resultats"
+        "Adaptació mútua basada en coordinació informal",
+        "Supervisió directa amb instruccions constants",
+        "Normalització dels resultats fixant què s’ha d’assolir"
       ],
       "es": [
-        "Adaptación mutua",
-        "Supervisión directa",
-        "Normalización de los resultados"
+        "Adaptación mutua basada en coordinación informal",
+        "Supervisión directa con instrucciones constantes",
+        "Normalización de los resultados fijando qué debe alcanzarse"
       ]
     },
     "u2b1-008": {
@@ -339,26 +339,26 @@
     },
     "u2b1-029": {
       "ca": [
-        "Normal",
-        "Poc important",
-        "Rutina"
+        "Normal, perquè es pot delegar o ajornar breument",
+        "Poc important, perquè té poc impacte sobre l’objectiu",
+        "Rutinària, perquè es repeteix amb freqüència"
       ],
       "es": [
-        "Normal",
-        "Poco importante",
-        "Rutina"
+        "Normal, porque se puede delegar o aplazar brevemente",
+        "Poco importante, porque tiene poco impacto sobre el objetivo",
+        "Rutinaria, porque se repite con frecuencia"
       ]
     },
     "u2b1-030": {
       "ca": [
-        "Important",
-        "Poc important",
-        "Rutina"
+        "Important, perquè només la pot assumir la persona responsable",
+        "Poc important, perquè es pot ajornar sense afectar l’objectiu",
+        "Rutinària, perquè forma part de la feina habitual"
       ],
       "es": [
-        "Importante",
-        "Poco importante",
-        "Rutina"
+        "Importante, porque solo la puede asumir la persona responsable",
+        "Poco importante, porque se puede aplazar sin afectar al objetivo",
+        "Rutinaria, porque forma parte del trabajo habitual"
       ]
     },
     "u2b1-031": {
@@ -627,14 +627,14 @@
     },
     "u2b1-053": {
       "ca": [
-        "Grup de tasques",
-        "Grup d’interès",
-        "Grup d’amics"
+        "Grup de tasques creat per resoldre un encàrrec concret",
+        "Grup d’interès unit per un objectiu compartit no jeràrquic",
+        "Grup d’amics sorgit de relacions personals"
       ],
       "es": [
-        "Grupo de tareas",
-        "Grupo de interés",
-        "Grupo de amigos"
+        "Grupo de tareas creado para resolver un encargo concreto",
+        "Grupo de interés unido por un objetivo compartido no jerárquico",
+        "Grupo de amigos surgido de relaciones personales"
       ]
     },
     "u2b1-054": {
@@ -675,26 +675,26 @@
     },
     "u2b1-057": {
       "ca": [
-        "Conflicte",
-        "Normalització",
-        "Rendiment"
+        "Conflicte, quan ja apareixen desacords sobre rols",
+        "Normalització, quan ja s’han consolidat normes i confiança",
+        "Rendiment, quan l’equip ja treballa amb autonomia"
       ],
       "es": [
-        "Conflicto",
-        "Normalización",
-        "Rendimiento"
+        "Conflicto, cuando ya aparecen desacuerdos sobre roles",
+        "Normalización, cuando ya se han consolidado normas y confianza",
+        "Rendimiento, cuando el equipo ya trabaja con autonomía"
       ]
     },
     "u2b1-058": {
       "ca": [
-        "Formació",
-        "Normalització",
-        "Rendiment"
+        "Formació, quan les persones encara es coneixen",
+        "Normalització, quan es consoliden normes i rols",
+        "Rendiment, quan el grup ja se centra en resultats"
       ],
       "es": [
-        "Formación",
-        "Normalización",
-        "Rendimiento"
+        "Formación, cuando las personas todavía se están conociendo",
+        "Normalización, cuando se consolidan normas y roles",
+        "Rendimiento, cuando el grupo ya se centra en resultados"
       ]
     },
     "u2b1-059": {
@@ -975,14 +975,14 @@
     },
     "u2b1-082": {
       "ca": [
-        "Adaptació mútua",
-        "Normalització dels processos de treball",
-        "Normalització d’habilitats"
+        "Adaptació mútua mitjançant coordinació informal",
+        "Normalització dels processos de treball mitjançant procediments",
+        "Normalització d’habilitats mitjançant formació prèvia"
       ],
       "es": [
-        "Adaptación mutua",
-        "Normalización de los procesos de trabajo",
-        "Normalización de habilidades"
+        "Adaptación mutua mediante coordinación informal",
+        "Normalización de los procesos de trabajo mediante procedimientos",
+        "Normalización de habilidades mediante formación previa"
       ]
     },
     "u2b1-083": {
@@ -1155,14 +1155,14 @@
     },
     "u2b1-097": {
       "ca": [
-        "Normal",
-        "Poc important",
-        "Rutina"
+        "Normal, perquè es pot delegar o ajornar breument",
+        "Poc important, perquè té poc impacte sobre l’objectiu",
+        "Rutinària, perquè es repeteix amb freqüència"
       ],
       "es": [
-        "Normal",
-        "Poco importante",
-        "Rutina"
+        "Normal, porque se puede delegar o aplazar brevemente",
+        "Poco importante, porque tiene poco impacto sobre el objetivo",
+        "Rutinaria, porque se repite con frecuencia"
       ]
     },
     "u2b1-098": {
@@ -1347,14 +1347,14 @@
     },
     "u2b1-113": {
       "ca": [
-        "Conflicte",
-        "Normalització",
-        "Rendiment"
+        "Conflicte, quan ja apareixen desacords sobre rols",
+        "Normalització, quan ja s’han consolidat normes i confiança",
+        "Rendiment, quan l’equip ja treballa amb autonomia"
       ],
       "es": [
-        "Conflicto",
-        "Normalización",
-        "Rendimiento"
+        "Conflicto, cuando ya aparecen desacuerdos sobre roles",
+        "Normalización, cuando ya se han consolidado normas y confianza",
+        "Rendimiento, when the team already works autonomously"
       ]
     },
     "u2b1-114": {
@@ -1371,14 +1371,14 @@
     },
     "u2b1-115": {
       "ca": [
-        "Formació",
-        "Conflicte",
-        "Rendiment"
+        "Formació, quan el grup encara està definint objectius",
+        "Conflicte, quan persisteixen desacords sobre rols",
+        "Rendiment, quan l’equip ja és estable i autònom"
       ],
       "es": [
-        "Formación",
-        "Conflicto",
-        "Rendimiento"
+        "Formación, cuando el grupo todavía está definiendo objetivos",
+        "Conflicto, cuando persisten desacuerdos sobre roles",
+        "Rendimiento, cuando el equipo ya es estable y autónomo"
       ]
     },
     "u2b1-116": {

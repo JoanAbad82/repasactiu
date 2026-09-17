@@ -99,62 +99,62 @@
     },
     "uf0518-b1-009": {
       "ca": [
-        "Receptor",
-        "Missatge",
-        "Canal"
+        "Receptor, com a persona que interpreta el document",
+        "Canal, com a mitjà pel qual circula la informació",
+        "Codi, com a sistema de signes compartit"
       ],
       "es": [
-        "Receptor",
-        "Mensaje",
-        "Canal"
+        "Receptor, como persona que interpreta el documento",
+        "Canal, como medio por el que circula la información",
+        "Código, como sistema de signos compartido"
       ]
     },
     "uf0518-b1-010": {
       "ca": [
-        "Emissor",
-        "Missatge",
-        "Codi"
+        "Emissor, com a persona que inicia la comunicació",
+        "Missatge, com a contingut que es transmet",
+        "Codi, com a sistema de signes que permet entendre-la"
       ],
       "es": [
-        "Emisor",
-        "Mensaje",
-        "Código"
+        "Emisor, como persona que inicia la comunicación",
+        "Mensaje, como contenido que se transmite",
+        "Código, como sistema de signos que permite entenderla"
       ]
     },
     "uf0518-b1-011": {
       "ca": [
-        "Emissor",
-        "Receptor",
-        "Canal"
+        "Emissor, com a origen de la comunicació",
+        "Receptor, com a destinatari que interpreta la informació",
+        "Canal, com a suport pel qual es transmet"
       ],
       "es": [
-        "Emisor",
-        "Receptor",
-        "Canal"
+        "Emisor, como origen de la comunicación",
+        "Receptor, como destinatario que interpreta la información",
+        "Canal, como soporte por el que se transmite"
       ]
     },
     "uf0518-b1-012": {
       "ca": [
-        "Missatge",
-        "Codi",
-        "Emissor"
+        "Missatge, com a contingut que circula",
+        "Codi, com a conjunt de signes utilitzats",
+        "Emissor, com a persona que origina l’enviament"
       ],
       "es": [
-        "Mensaje",
-        "Código",
-        "Emisor"
+        "Mensaje, como contenido que circula",
+        "Código, como conjunto de signos utilizados",
+        "Emisor, como persona que origina el envío"
       ]
     },
     "uf0518-b1-013": {
       "ca": [
-        "Canal",
-        "Missatge",
-        "Receptor"
+        "Canal, com a suport de transmissió",
+        "Missatge, com a contingut comunicat",
+        "Receptor, com a persona que descodifica la informació"
       ],
       "es": [
-        "Canal",
-        "Mensaje",
-        "Receptor"
+        "Canal, como soporte de transmisión",
+        "Mensaje, como contenido comunicado",
+        "Receptor, como persona que descodifica la información"
       ]
     },
     "uf0518-b1-014": {
@@ -207,122 +207,122 @@
     },
     "uf0518-b1-018": {
       "ca": [
-        "Expressiva",
-        "Fàtica",
-        "Metalingüística"
+        "Expressiva, perquè reflecteix l’actitud de l’emissor",
+        "Fàtica, perquè comprova que el contacte es manté",
+        "Metalingüística, perquè explica el significat del codi"
       ],
       "es": [
-        "Expresiva",
-        "Fática",
-        "Metalingüística"
+        "Expresiva, porque refleja la actitud del emisor",
+        "Fática, porque comprueba que el contacto se mantiene",
+        "Metalingüística, porque explica el significado del código"
       ]
     },
     "uf0518-b1-019": {
       "ca": [
-        "Referencial",
-        "Expressiva",
-        "Fàtica"
+        "Referencial, perquè aporta informació objectiva",
+        "Expressiva, perquè mostra l’actitud de l’emissor",
+        "Fàtica, perquè manté o comprova el contacte"
       ],
       "es": [
-        "Referencial",
-        "Expresiva",
-        "Fática"
+        "Referencial, porque aporta información objetiva",
+        "Expresiva, porque muestra la actitud del emisor",
+        "Fática, porque mantiene o comprueba el contacto"
       ]
     },
     "uf0518-b1-020": {
       "ca": [
-        "Referencial",
-        "Apel·lativa",
-        "Metalingüística"
+        "Referencial, perquè aporta informació objectiva",
+        "Apel·lativa, perquè pretén provocar una acció",
+        "Metalingüística, perquè explica el significat de termes"
       ],
       "es": [
-        "Referencial",
-        "Apelativa",
-        "Metalingüística"
+        "Referencial, porque aporta información objetiva",
+        "Apelativa, porque pretende provocar una acción",
+        "Metalingüística, porque explica el significado de términos"
       ]
     },
     "uf0518-b1-021": {
       "ca": [
-        "Apel·lativa",
-        "Expressiva",
-        "Metalingüística"
+        "Apel·lativa, perquè pretén provocar una acció",
+        "Expressiva, perquè mostra l’actitud de l’emissor",
+        "Metalingüística, perquè explica el significat de termes"
       ],
       "es": [
-        "Apelativa",
-        "Expresiva",
-        "Metalingüística"
+        "Apelativa, porque pretende provocar una acción",
+        "Expresiva, porque muestra la actitud del emisor",
+        "Metalingüística, porque explica el significado de términos"
       ]
     },
     "uf0518-b1-022": {
       "ca": [
-        "Referencial",
-        "Apel·lativa",
-        "Fàtica"
+        "Referencial, perquè aporta informació objectiva",
+        "Apel·lativa, perquè pretén provocar una acció",
+        "Fàtica, perquè manté o comprova el contacte"
       ],
       "es": [
-        "Referencial",
-        "Apelativa",
-        "Fática"
+        "Referencial, porque aporta información objetiva",
+        "Apelativa, porque pretende provocar una acción",
+        "Fática, porque mantiene o comprueba el contacto"
       ]
     },
     "uf0518-b1-023": {
       "ca": [
-        "Coherència i cohesió",
-        "Precisió",
-        "Concisió"
+        "Precisió, perquè garanteix exactitud en dades i referències",
+        "Concisió, perquè elimina repeticions i informació sobrera",
+        "Correcció, perquè assegura ortografia, puntuació i registre"
       ],
       "es": [
-        "Coherencia y cohesión",
-        "Precisión",
-        "Concisión"
+        "Precisión, porque garantiza exactitud en datos y referencias",
+        "Concisión, porque elimina repeticiones e información sobrante",
+        "Corrección, porque asegura ortografía, puntuación y registro"
       ]
     },
     "uf0518-b1-024": {
       "ca": [
-        "Claredat",
-        "Correcció",
-        "Coherència i cohesió"
+        "Claredat, perquè facilita una estructura comprensible",
+        "Correcció, perquè assegura ortografia i registre adequats",
+        "Coherència i cohesió, perquè connecta les parts del text"
       ],
       "es": [
-        "Claridad",
-        "Corrección",
-        "Coherencia y cohesión"
+        "Claridad, porque facilita una estructura comprensible",
+        "Corrección, porque asegura ortografía y registro adecuados",
+        "Coherencia y cohesión, porque conecta las partes del texto"
       ]
     },
     "uf0518-b1-025": {
       "ca": [
-        "Claredat",
-        "Precisió",
-        "Coherència i cohesió"
+        "Claredat, perquè ordena les idees de manera comprensible",
+        "Precisió, perquè verifica l’exactitud de dades i referències",
+        "Coherència i cohesió, perquè manté el sentit global del text"
       ],
       "es": [
-        "Claridad",
-        "Precisión",
-        "Coherencia y cohesión"
+        "Claridad, porque ordena las ideas de forma comprensible",
+        "Precisión, porque verifica la exactitud de datos y referencias",
+        "Coherencia y cohesión, porque mantiene el sentido global del texto"
       ]
     },
     "uf0518-b1-026": {
       "ca": [
-        "Precisió",
-        "Claredat",
-        "Coherència i cohesió"
+        "Precisió, perquè exigeix dades exactes i verificables",
+        "Claredat, perquè facilita frases i estructura comprensibles",
+        "Coherència i cohesió, perquè connecta les parts del text"
       ],
       "es": [
-        "Precisión",
-        "Claridad",
-        "Coherencia y cohesión"
+        "Precisión, porque exige datos exactos y verificables",
+        "Claridad, porque facilita frases y estructura comprensibles",
+        "Coherencia y cohesión, porque conecta las partes del texto"
       ]
     },
     "uf0518-b1-027": {
       "ca": [
-        "Claredat",
-        "Correcció",
-        "Precisió"
+        "Claredat, perquè presenta les idees de manera entenedora",
+        "Correcció, perquè garanteix ortografia i registre adequats",
+        "Precisió, perquè comprova exactitud en dades i referències"
       ],
       "es": [
-        "Claridad",
-        "Corrección",
-        "Precisión"
+        "Claridad, porque presenta las ideas de forma comprensible",
+        "Corrección, porque garantiza ortografía y registro adecuados",
+        "Precisión, porque comprueba exactitud en datos y referencias"
       ]
     },
     "uf0518-b1-028": {
@@ -495,38 +495,38 @@
     },
     "uf0518-b1-042": {
       "ca": [
-        "Destinatari",
-        "Referència",
-        "Assumpte"
+        "Destinatari, perquè identifica la persona o entitat que rep la carta",
+        "Referència, perquè identifica el document o expedient",
+        "Assumpte, perquè resumeix el tema principal"
       ],
       "es": [
-        "Destinatario",
-        "Referencia",
-        "Asunto"
+        "Destinatario, porque identifica a la persona o entidad que recibe la carta",
+        "Referencia, porque identifica el documento o expediente",
+        "Asunto, porque resume el tema principal"
       ]
     },
     "uf0518-b1-043": {
       "ca": [
-        "Capçalera",
-        "Referència",
-        "Data"
+        "Capçalera, perquè recull les dades del remitent",
+        "Referència, perquè identifica el document o expedient",
+        "Data, perquè situa temporalment l’emissió"
       ],
       "es": [
-        "Encabezamiento",
-        "Referencia",
-        "Fecha"
+        "Encabezamiento, porque recoge los datos del remitente",
+        "Referencia, porque identifica el documento o expediente",
+        "Fecha, porque sitúa temporalmente la emisión"
       ]
     },
     "uf0518-b1-044": {
       "ca": [
-        "Assumpte",
-        "Data",
-        "Destinatari"
+        "Assumpte, perquè sintetitza el contingut de la carta",
+        "Data, perquè situa temporalment el document",
+        "Destinatari, perquè identifica qui rep la carta"
       ],
       "es": [
-        "Asunto",
-        "Fecha",
-        "Destinatario"
+        "Asunto, porque sintetiza el contenido de la carta",
+        "Fecha, porque sitúa temporalmente el documento",
+        "Destinatario, porque identifica quién recibe la carta"
       ]
     },
     "uf0518-b1-045": {
@@ -639,50 +639,50 @@
     },
     "uf0518-b1-054": {
       "ca": [
-        "Carta d’oferta",
-        "Carta de reclamació",
-        "Carta de cobrament"
+        "Carta d’oferta, perquè presenta una proposta comercial",
+        "Carta de reclamació, perquè comunica una incidència",
+        "Carta de cobrament, perquè requereix un import pendent"
       ],
       "es": [
-        "Carta de oferta",
-        "Carta de reclamación",
-        "Carta de cobro"
+        "Carta de oferta, porque presenta una propuesta comercial",
+        "Carta de reclamación, porque comunica una incidencia",
+        "Carta de cobro, porque requiere un importe pendiente"
       ]
     },
     "uf0518-b1-055": {
       "ca": [
-        "Carta de comanda",
-        "Carta de reclamació",
-        "Carta de cobrament"
+        "Carta de comanda, perquè sol·licita productes o serveis",
+        "Carta de reclamació, perquè comunica una incidència",
+        "Carta de cobrament, perquè exigeix el pagament d’un deute"
       ],
       "es": [
-        "Carta de pedido",
-        "Carta de reclamación",
-        "Carta de cobro"
+        "Carta de pedido, porque solicita productos o servicios",
+        "Carta de reclamación, porque comunica una incidencia",
+        "Carta de cobro, porque exige el pago de una deuda"
       ]
     },
     "uf0518-b1-056": {
       "ca": [
-        "Carta de comanda",
-        "Carta d’oferta",
-        "Carta de cobrament"
+        "Carta de comanda, perquè formalitza una petició de productes",
+        "Carta d’oferta, perquè presenta una proposta al client",
+        "Carta de cobrament, perquè reclama un import pendent"
       ],
       "es": [
-        "Carta de pedido",
-        "Carta de oferta",
-        "Carta de cobro"
+        "Carta de pedido, porque formaliza una solicitud de productos",
+        "Carta de oferta, porque presenta una propuesta al cliente",
+        "Carta de cobro, porque reclama un importe pendiente"
       ]
     },
     "uf0518-b1-057": {
       "ca": [
-        "Carta de comanda",
-        "Carta d’oferta",
-        "Carta de reclamació"
+        "Carta de comanda, perquè sol·licita productes a un proveïdor",
+        "Carta d’oferta, perquè presenta una proposta comercial",
+        "Carta de reclamació, perquè comunica una incidència o disconformitat"
       ],
       "es": [
-        "Carta de pedido",
-        "Carta de oferta",
-        "Carta de reclamación"
+        "Carta de pedido, porque solicita productos a un proveedor",
+        "Carta de oferta, porque presenta una propuesta comercial",
+        "Carta de reclamación, porque comunica una incidencia o disconformidad"
       ]
     },
     "uf0518-b1-058": {
@@ -867,50 +867,50 @@
     },
     "uf0518-b1-073": {
       "ca": [
-        "Assumpte",
-        "Aplicació",
-        "Tancament"
+        "Assumpte, perquè resumeix el tema de la circular",
+        "Aplicació, perquè indica quan entra en vigor o a qui afecta",
+        "Tancament, perquè identifica la persona responsable"
       ],
       "es": [
-        "Asunto",
-        "Aplicación",
-        "Cierre"
+        "Asunto, porque resume el tema de la circular",
+        "Aplicación, porque indica cuándo entra en vigor o a quién afecta",
+        "Cierre, porque identifica a la persona responsable"
       ]
     },
     "uf0518-b1-074": {
       "ca": [
-        "Capçalera",
-        "Aplicació",
-        "Tancament"
+        "Capçalera, perquè recull empresa, departament i destinataris",
+        "Aplicació, perquè indica vigència i persones afectades",
+        "Tancament, perquè identifica responsable, càrrec i contacte"
       ],
       "es": [
-        "Encabezamiento",
-        "Aplicación",
-        "Cierre"
+        "Encabezamiento, porque recoge empresa, departamento y destinatarios",
+        "Aplicación, porque indica vigencia y personas afectadas",
+        "Cierre, porque identifica responsable, cargo y contacto"
       ]
     },
     "uf0518-b1-075": {
       "ca": [
-        "Capçalera",
-        "Assumpte",
-        "Tancament"
+        "Capçalera, perquè identifica empresa, departament i destinataris",
+        "Assumpte, perquè concreta el tema de la circular",
+        "Tancament, perquè identifica la persona responsable i el contacte"
       ],
       "es": [
-        "Encabezamiento",
-        "Asunto",
-        "Cierre"
+        "Encabezamiento, porque identifica empresa, departamento y destinatarios",
+        "Asunto, porque concreta el tema de la circular",
+        "Cierre, porque identifica a la persona responsable y el contacto"
       ]
     },
     "uf0518-b1-076": {
       "ca": [
-        "Capçalera",
-        "Assumpte",
-        "Aplicació"
+        "Capçalera, perquè identifica empresa, departament i destinataris",
+        "Assumpte, perquè resumeix el tema de la circular",
+        "Aplicació, perquè indica vigència o persones afectades"
       ],
       "es": [
-        "Encabezamiento",
-        "Asunto",
-        "Aplicación"
+        "Encabezamiento, porque identifica empresa, departamento y destinatarios",
+        "Asunto, porque resume el tema de la circular",
+        "Aplicación, porque indica vigencia o personas afectadas"
       ]
     }
   }

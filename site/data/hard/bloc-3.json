@@ -567,38 +567,38 @@
     },
     "b3-048": {
       "ca": [
-        "Horitzontal",
-        "Radial",
-        "Mixt"
+        "Horitzontal, amb nivells d’esquerra a dreta",
+        "Radial, amb la direcció situada al centre",
+        "Mixt, combinant més d’un criteri gràfic"
       ],
       "es": [
-        "Horizontal",
-        "Radial",
-        "Mixto"
+        "Horizontal, con niveles de izquierda a derecha",
+        "Radial, con la dirección situada en el centro",
+        "Mixto, combinando más de un criterio gráfico"
       ]
     },
     "b3-049": {
       "ca": [
-        "Vertical",
-        "Radial",
-        "Mixt"
+        "Vertical, amb nivells de dalt cap avall",
+        "Radial, amb unitats al voltant d’un centre",
+        "Mixt, combinant orientacions diferents"
       ],
       "es": [
-        "Vertical",
-        "Radial",
-        "Mixto"
+        "Vertical, con niveles de arriba abajo",
+        "Radial, con unidades alrededor de un centro",
+        "Mixto, combinando orientaciones diferentes"
       ]
     },
     "b3-050": {
       "ca": [
-        "Vertical",
-        "Horitzontal",
-        "Mixt"
+        "Vertical, amb nivells descendents",
+        "Horitzontal, amb unitats distribuïdes lateralment",
+        "Mixt, combinant estructures gràfiques"
       ],
       "es": [
-        "Vertical",
-        "Horizontal",
-        "Mixto"
+        "Vertical, con niveles descendentes",
+        "Horizontal, con unidades distribuidas lateralmente",
+        "Mixto, combinando estructuras gráficas"
       ]
     },
     "b3-051": {
@@ -819,14 +819,14 @@
     },
     "b3-069": {
       "ca": [
-        "Vertical",
-        "Radial",
-        "Mixt"
+        "Vertical, perquè la jerarquia baixa en columna",
+        "Radial, perquè parteix d’un centre",
+        "Mixt, perquè combina eixos de representació"
       ],
       "es": [
-        "Vertical",
-        "Radial",
-        "Mixto"
+        "Vertical, porque la jerarquía desciende en columna",
+        "Radial, porque parte de un centro",
+        "Mixto, porque combina ejes de representación"
       ]
     },
     "b3-070": {

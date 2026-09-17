@@ -183,14 +183,14 @@
     },
     "b4-016": {
       "ca": [
-        "Informació tributària i fiscal",
-        "Informació financera",
-        "Informació de vendes i compres"
+        "Informació tributària vinculada als llibres fiscals",
+        "Informació financera vinculada als recursos econòmics",
+        "Informació de vendes i compres vinculada a operacions comercials"
       ],
       "es": [
-        "Información tributaria y fiscal",
-        "Información financiera",
-        "Información de ventas y compras"
+        "Información tributaria vinculada a los libros fiscales",
+        "Información financiera vinculada a los recursos económicos",
+        "Información de ventas y compras vinculada a operaciones comerciales"
       ]
     },
     "b4-017": {
@@ -207,14 +207,14 @@
     },
     "b4-018": {
       "ca": [
-        "Informació financera",
-        "Informació mercantil",
-        "Informació de personal"
+        "Informació financera sobre la valoració de l’estoc",
+        "Informació mercantil sobre contractes amb proveïdors",
+        "Informació de personal sobre responsabilitats del magatzem"
       ],
       "es": [
-        "Información financiera",
-        "Información mercantil",
-        "Información de personal"
+        "Información financiera sobre la valoración del stock",
+        "Información mercantil sobre contratos con proveedores",
+        "Información de personal sobre responsabilidades del almacén"
       ]
     },
     "b4-019": {

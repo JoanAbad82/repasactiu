@@ -363,14 +363,14 @@
     },
     "b1-031": {
       "ca": [
-        "Direcció",
-        "Administrativa",
-        "Comercialització"
+        "Direcció amb control pressupostari",
+        "Administrativa de gestió documental",
+        "Comercialització orientada a preus"
       ],
       "es": [
-        "Dirección",
-        "Administrativa",
-        "Comercialización"
+        "Dirección con control presupuestario",
+        "Administrativa de gestión documental",
+        "Comercialización orientada a precios"
       ]
     },
     "b1-032": {
@@ -399,14 +399,14 @@
     },
     "b1-034": {
       "ca": [
-        "Administració",
-        "Direcció",
-        "Comercialització"
+        "Direcció estratègica",
+        "Administrativa de gestió interna",
+        "Comercialització orientada al mercat"
       ],
       "es": [
-        "Administración",
-        "Dirección",
-        "Comercialización"
+        "Dirección estratégica",
+        "Administrativa de gestión interna",
+        "Comercialización orientada al mercado"
       ]
     },
     "b1-035": {
@@ -435,14 +435,14 @@
     },
     "b1-037": {
       "ca": [
-        "Direcció",
-        "Financera",
-        "Vendes"
+        "Direcció operativa",
+        "Financera de control pressupostari",
+        "Vendes de seguiment comercial"
       ],
       "es": [
-        "Dirección",
-        "Financiera",
-        "Ventas"
+        "Dirección operativa",
+        "Financiera de control presupuestario",
+        "Ventas de seguimiento comercial"
       ]
     },
     "b1-038": {

@@ -459,14 +459,14 @@
     },
     "b2-039": {
       "ca": [
-        "Distribuïdora",
-        "De serveis",
-        "Distribuïdora amb procés de qualitat"
+        "Distribuïdora majorista",
+        "Empresa de serveis tècnics",
+        "Comercialitzadora que subcontracta la fabricació"
       ],
       "es": [
-        "Distribuidora",
-        "De servicios",
-        "Distribuidora con proceso de calidad"
+        "Distribuidora mayorista",
+        "Empresa de servicios técnicos",
+        "Comercializadora que subcontrata la fabricación"
       ]
     },
     "b2-040": {
@@ -507,14 +507,14 @@
     },
     "b2-043": {
       "ca": [
-        "Jerarquia per capacitat",
-        "Jerarquia per remuneració",
-        "Jerarquia donada pel càrrec"
+        "Jerarquia per capacitat tècnica",
+        "Jerarquia per remuneració superior",
+        "Jerarquia donada pel càrrec formal"
       ],
       "es": [
-        "Jerarquía por capacidad",
-        "Jerarquía por remuneración",
-        "Jerarquía dada por el cargo"
+        "Jerarquía por capacidad técnica",
+        "Jerarquía por remuneración superior",
+        "Jerarquía dada por el cargo formal"
       ]
     },
     "b2-044": {
@@ -543,14 +543,14 @@
     },
     "b2-046": {
       "ca": [
-        "Organitzar",
-        "Coordinar",
-        "Controlar"
+        "Organitzar els recursos per executar el pla",
+        "Coordinar l’execució entre departaments",
+        "Controlar els resultats després de l’execució"
       ],
       "es": [
-        "Organizar",
-        "Coordinar",
-        "Controlar"
+        "Organizar los recursos para ejecutar el plan",
+        "Coordinar la ejecución entre departamentos",
+        "Controlar los resultados después de la ejecución"
       ]
     },
     "b2-047": {
@@ -747,62 +747,62 @@
     },
     "b2-063": {
       "ca": [
-        "Pública",
-        "Privada",
-        "Cooperativa"
+        "Pública perquè hi participa el sector públic",
+        "Privada perquè hi participa capital privat",
+        "Cooperativa pel repartiment de les aportacions"
       ],
       "es": [
-        "Pública",
-        "Privada",
-        "Cooperativa"
+        "Pública porque participa el sector público",
+        "Privada porque participa capital privado",
+        "Cooperativa por el reparto de las aportaciones"
       ]
     },
     "b2-064": {
       "ca": [
-        "Distribuïdora",
-        "Fabricant",
-        "Empresa comercial de productes"
+        "Distribuïdora perquè intermedia entre productor i client",
+        "Fabricant perquè crea una solució per al client",
+        "Mixta perquè combina coneixement i atenció al client"
       ],
       "es": [
-        "Distribuidora",
-        "Fabricante",
-        "Empresa comercial de productos"
+        "Distribuidora porque intermedia entre productor y cliente",
+        "Fabricante porque crea una solución para el cliente",
+        "Mixta porque combina conocimiento y atención al cliente"
       ]
     },
     "b2-065": {
       "ca": [
-        "Jerarquia per capacitat",
-        "Jerarquia donada pel càrrec",
-        "Jerarquia per remuneració"
+        "Jerarquia per capacitat tècnica",
+        "Jerarquia per remuneració superior",
+        "Jerarquia donada pel càrrec formal"
       ],
       "es": [
-        "Jerarquía por capacidad",
-        "Jerarquía dada por el cargo",
-        "Jerarquía por remuneración"
+        "Jerarquía por capacidad técnica",
+        "Jerarquía por remuneración superior",
+        "Jerarquía dada por el cargo formal"
       ]
     },
     "b2-066": {
       "ca": [
-        "Jerarquia de rang",
-        "Jerarquia donada pel càrrec",
-        "Jerarquia per remuneració"
+        "Jerarquia de rang per prestigi acumulat",
+        "Jerarquia donada pel càrrec tècnic",
+        "Jerarquia per remuneració especialitzada"
       ],
       "es": [
-        "Jerarquía de rango",
-        "Jerarquía dada por el cargo",
-        "Jerarquía por remuneración"
+        "Jerarquía de rango por prestigio acumulado",
+        "Jerarquía dada por el cargo técnico",
+        "Jerarquía por remuneración especializada"
       ]
     },
     "b2-067": {
       "ca": [
-        "Càrrec",
-        "Capacitat",
-        "Rang"
+        "Jerarquia donada pel càrrec funcional",
+        "Jerarquia per capacitat tècnica",
+        "Jerarquia de rang per experiència"
       ],
       "es": [
-        "Cargo",
-        "Capacidad",
-        "Rango"
+        "Jerarquía dada por el cargo funcional",
+        "Jerarquía por capacidad técnica",
+        "Jerarquía de rango por experiencia"
       ]
     },
     "b2-068": {

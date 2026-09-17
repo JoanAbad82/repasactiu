@@ -207,14 +207,14 @@
     },
     "b5-018": {
       "ca": [
-        "El Consell de la Unió Europea",
-        "La Comissió Europea",
-        "El Consell Europeu"
+        "Consell de la UE, com a òrgan que representa els governs estatals",
+        "Comissió Europea, com a òrgan que defensa l’interès general de la UE",
+        "Consell Europeu, com a òrgan que fixa les grans prioritats polítiques"
       ],
       "es": [
-        "El Consejo de la Unión Europea",
-        "La Comisión Europea",
-        "El Consejo Europeo"
+        "Consejo de la UE, como órgano que representa a los gobiernos estatales",
+        "Comisión Europea, como órgano que defiende el interés general de la UE",
+        "Consejo Europeo, como órgano que fija las grandes prioridades políticas"
       ]
     },
     "b5-019": {
@@ -291,14 +291,14 @@
     },
     "b5-025": {
       "ca": [
-        "Organització administrativa",
-        "Organització territorial",
-        "Administració General de l’Estat"
+        "Organització administrativa, centrada en l’estructura de l’Administració pública",
+        "Organització territorial, centrada en la distribució territorial del poder",
+        "Administració General de l’Estat, com a estructura executiva estatal"
       ],
       "es": [
-        "Organización administrativa",
-        "Organización territorial",
-        "Administración General del Estado"
+        "Organización administrativa, centrada en la estructura de la Administración pública",
+        "Organización territorial, centrada en la distribución territorial del poder",
+        "Administración General del Estado, como estructura ejecutiva estatal"
       ]
     },
     "b5-026": {
@@ -327,14 +327,14 @@
     },
     "b5-028": {
       "ca": [
-        "Govern",
-        "Tribunal Constitucional",
-        "Consell General del Poder Judicial"
+        "Govern, perquè dirigeix la política interior i exterior",
+        "Tribunal Constitucional, perquè controla la constitucionalitat de les normes",
+        "CGPJ, perquè governa el Poder Judicial"
       ],
       "es": [
-        "Gobierno",
-        "Tribunal Constitucional",
-        "Consejo General del Poder Judicial"
+        "Gobierno, porque dirige la política interior y exterior",
+        "Tribunal Constitucional, porque controla la constitucionalidad de las normas",
+        "CGPJ, porque gobierna el Poder Judicial"
       ]
     },
     "b5-029": {
@@ -363,14 +363,14 @@
     },
     "b5-031": {
       "ca": [
-        "Tribunal Constitucional",
-        "Audiència Nacional",
-        "Consell General del Poder Judicial"
+        "Tribunal Constitucional, per la seva posició en matèria de garanties constitucionals",
+        "Audiència Nacional, per les seves competències estatals en determinades matèries",
+        "CGPJ, per la seva funció de govern del Poder Judicial"
       ],
       "es": [
-        "Tribunal Constitucional",
-        "Audiencia Nacional",
-        "Consejo General del Poder Judicial"
+        "Tribunal Constitucional, por su posición en materia de garantías constitucionales",
+        "Audiencia Nacional, por sus competencias estatales en determinadas materias",
+        "CGPJ, por su función de gobierno del Poder Judicial"
       ]
     },
     "b5-032": {
@@ -387,26 +387,26 @@
     },
     "b5-033": {
       "ca": [
-        "Tribunal Constitucional",
-        "Tribunal Suprem",
-        "Audiència Nacional"
+        "Tribunal Constitucional, com a garant de la constitucionalitat",
+        "Tribunal Suprem, com a òrgan jurisdiccional superior ordinari",
+        "Audiència Nacional, per les seves competències estatals específiques"
       ],
       "es": [
-        "Tribunal Constitucional",
-        "Tribunal Supremo",
-        "Audiencia Nacional"
+        "Tribunal Constitucional, como garante de la constitucionalidad",
+        "Tribunal Supremo, como órgano jurisdiccional superior ordinario",
+        "Audiencia Nacional, por sus competencias estatales específicas"
       ]
     },
     "b5-034": {
       "ca": [
-        "President autonòmic",
-        "Consell de Govern",
-        "Diputació provincial"
+        "President autonòmic, perquè dirigeix l’acció del govern autonòmic",
+        "Consell de Govern, perquè exerceix la funció executiva autonòmica",
+        "Diputació provincial, perquè governa l’àmbit provincial"
       ],
       "es": [
-        "Presidente autonómico",
-        "Consejo de Gobierno",
-        "Diputación provincial"
+        "Presidente autonómico, porque dirige la acción del gobierno autonómico",
+        "Consejo de Gobierno, porque ejerce la función ejecutiva autonómica",
+        "Diputación provincial, porque gobierna el ámbito provincial"
       ]
     },
     "b5-035": {
@@ -447,26 +447,26 @@
     },
     "b5-038": {
       "ca": [
-        "Comissió Europea",
-        "Consell de la Unió Europea",
-        "Consell Europeu"
+        "Comissió Europea, com a defensora de l’interès general de la UE",
+        "Consell de la UE, com a colegislador que representa els Estats membres",
+        "Consell Europeu, com a òrgan que fixa les prioritats polítiques"
       ],
       "es": [
-        "Comisión Europea",
-        "Consejo de la Unión Europea",
-        "Consejo Europeo"
+        "Comisión Europea, como defensora del interés general de la UE",
+        "Consejo de la UE, como colegislador que representa a los Estados miembros",
+        "Consejo Europeo, como órgano que fija las prioridades políticas"
       ]
     },
     "b5-039": {
       "ca": [
-        "Consell Europeu",
-        "Comissió Europea",
-        "Parlament Europeu"
+        "Consell Europeu, format pels caps d’Estat o de Govern",
+        "Comissió Europea, encarregada d’impulsar propostes legislatives",
+        "Parlament Europeu, elegit directament per la ciutadania"
       ],
       "es": [
-        "Consejo Europeo",
-        "Comisión Europea",
-        "Parlamento Europeo"
+        "Consejo Europeo, formado por los jefes de Estado o de Gobierno",
+        "Comisión Europea, encargada de impulsar propuestas legislativas",
+        "Parlamento Europeo, elegido directamente por la ciudadanía"
       ]
     },
     "b5-040": {
@@ -495,14 +495,14 @@
     },
     "b5-042": {
       "ca": [
-        "Consell de la Unió Europea",
-        "Comissió Europea",
-        "Parlament Europeu"
+        "Consell de la UE, on participen ministres dels Estats membres",
+        "Comissió Europea, que impulsa i executa polítiques de la UE",
+        "Parlament Europeu, que exerceix funcions legislatives i pressupostàries"
       ],
       "es": [
-        "Consejo de la Unión Europea",
-        "Comisión Europea",
-        "Parlamento Europeo"
+        "Consejo de la UE, donde participan ministros de los Estados miembros",
+        "Comisión Europea, que impulsa y ejecuta políticas de la UE",
+        "Parlamento Europeo, que ejerce funciones legislativas y presupuestarias"
       ]
     },
     "b5-043": {
@@ -567,14 +567,14 @@
     },
     "b5-048": {
       "ca": [
-        "Tribunal Suprem",
-        "Tribunal Constitucional",
-        "Consell General del Poder Judicial"
+        "Tribunal Suprem, com a òrgan superior dels ordres jurisdiccionals ordinaris",
+        "Tribunal Constitucional, com a garant de la constitucionalitat",
+        "CGPJ, com a òrgan de govern del Poder Judicial"
       ],
       "es": [
-        "Tribunal Supremo",
-        "Tribunal Constitucional",
-        "Consejo General del Poder Judicial"
+        "Tribunal Supremo, como órgano superior de los órdenes jurisdiccionales ordinarios",
+        "Tribunal Constitucional, como garante de la constitucionalidad",
+        "CGPJ, como órgano de gobierno del Poder Judicial"
       ]
     },
     "b5-049": {
@@ -675,26 +675,26 @@
     },
     "b5-057": {
       "ca": [
-        "Consell de la Unió Europea",
-        "Parlament Europeu",
-        "Consell Europeu"
+        "Consell de la UE, com a colegislador que representa els Estats membres",
+        "Parlament Europeu, com a colegislador elegit directament",
+        "Consell Europeu, com a òrgan de direcció política general"
       ],
       "es": [
-        "Consejo de la Unión Europea",
-        "Parlamento Europeo",
-        "Consejo Europeo"
+        "Consejo de la UE, como colegislador que representa a los Estados miembros",
+        "Parlamento Europeo, como colegislador elegido directamente",
+        "Consejo Europeo, como órgano de dirección política general"
       ]
     },
     "b5-058": {
       "ca": [
-        "Consell de la Unió Europea",
-        "Comissió Europea",
-        "Parlament Europeu"
+        "Consell de la UE, on es reuneixen ministres per legislar",
+        "Comissió Europea, que proposa i executa polítiques",
+        "Parlament Europeu, que representa directament la ciutadania"
       ],
       "es": [
-        "Consejo de la Unión Europea",
-        "Comisión Europea",
-        "Parlamento Europeo"
+        "Consejo de la UE, donde se reúnen ministros para legislar",
+        "Comisión Europea, que propone y ejecuta políticas",
+        "Parlamento Europeo, que representa directamente a la ciudadanía"
       ]
     },
     "b5-059": {
