@@ -1,0 +1,845 @@
+{
+  "blockId": "bloc-3",
+  "questions": {
+    "b3-001": {
+      "ca": [
+        "La distribució dels recursos econòmics entre les diferents activitats de l’empresa",
+        "La representació gràfica dels nivells jeràrquics i les dependències",
+        "El conjunt de relacions personals espontànies que apareixen entre treballadors"
+      ],
+      "es": [
+        "La distribución de los recursos económicos entre las distintas actividades de la empresa",
+        "La representación gráfica de los niveles jerárquicos y las dependencias",
+        "El conjunto de relaciones personales espontáneas que aparecen entre trabajadores"
+      ]
+    },
+    "b3-002": {
+      "ca": [
+        "Quines tasques s’han assignat a cada lloc de treball?",
+        "Qui pren les decisions sobre una determinada activitat?",
+        "Quina persona és responsable de cada activitat?"
+      ],
+      "es": [
+        "¿Qué tareas se han asignado a cada puesto de trabajo?",
+        "¿Quién toma las decisiones sobre una determinada actividad?",
+        "¿Qué persona es responsable de cada actividad?"
+      ]
+    },
+    "b3-003": {
+      "ca": [
+        "Representar gràficament els departaments i les relacions de dependència",
+        "Distribuir la capacitat de decisió entre diferents nivells de l’empresa",
+        "Assignar tasques segons l’especialització professional de cada persona"
+      ],
+      "es": [
+        "Representar gráficamente los departamentos y las relaciones de dependencia",
+        "Distribuir la capacidad de decisión entre distintos niveles de la empresa",
+        "Asignar tareas según la especialización profesional de cada persona"
+      ]
+    },
+    "b3-004": {
+      "ca": [
+        "Permet que totes les decisions es concentrin necessàriament en la direcció",
+        "Facilita sobretot representar la jerarquia mitjançant un organigrama",
+        "Permet substituir la coordinació per l’especialització individual"
+      ],
+      "es": [
+        "Permite que todas las decisiones se concentren necesariamente en la dirección",
+        "Facilita sobre todo representar la jerarquía mediante un organigrama",
+        "Permite sustituir la coordinación por la especialización individual"
+      ]
+    },
+    "b3-005": {
+      "ca": [
+        "La capacitat de repartir decisions de manera estable entre diferents nivells",
+        "L’assignació de tasques a altres persones mantenint la responsabilitat general",
+        "La capacitat tècnica derivada dels coneixements i l’especialització professional"
+      ],
+      "es": [
+        "La capacidad de repartir decisiones de forma estable entre distintos niveles",
+        "La asignación de tareas a otras personas manteniendo la responsabilidad general",
+        "La capacidad técnica derivada de los conocimientos y la especialización profesional"
+      ]
+    },
+    "b3-006": {
+      "ca": [
+        "La formal es basa en relacions jeràrquiques; la informal només apareix quan no hi ha jerarquia",
+        "La formal sorgeix de relacions espontànies i la informal és definida per l’empresa",
+        "La formal i la informal són dues representacions gràfiques diferents de la mateixa jerarquia"
+      ],
+      "es": [
+        "La formal se basa en relaciones jerárquicas; la informal solo aparece cuando no hay jerarquía",
+        "La formal surge de relaciones espontáneas y la informal es definida por la empresa",
+        "La formal y la informal son dos representaciones gráficas diferentes de la misma jerarquía"
+      ]
+    },
+    "b3-007": {
+      "ca": [
+        "Gestió de la despesa",
+        "Especialització",
+        "Coordinació"
+      ],
+      "es": [
+        "Gestión del gasto",
+        "Especialización",
+        "Coordinación"
+      ]
+    },
+    "b3-008": {
+      "ca": [
+        "Que cada departament pugui prendre decisions autònomes sense una orientació comuna",
+        "Que una persona responsable delegui les tasques concretes però mantingui la responsabilitat final",
+        "Que els treballadors aportin propostes de millora relacionades amb la seva feina"
+      ],
+      "es": [
+        "Que cada departamento pueda tomar decisiones autónomas sin una orientación común",
+        "Que una persona responsable delegue las tareas concretas pero mantenga la responsabilidad final",
+        "Que los trabajadores aporten propuestas de mejora relacionadas con su trabajo"
+      ]
+    },
+    "b3-009": {
+      "ca": [
+        "Unitat de direcció",
+        "Delegació",
+        "Participació"
+      ],
+      "es": [
+        "Unidad de dirección",
+        "Delegación",
+        "Participación"
+      ]
+    },
+    "b3-010": {
+      "ca": [
+        "Distribuir de manera estable la capacitat de decisió entre diferents nivells",
+        "Permetre que els treballadors aportin idees i propostes de millora",
+        "Assignar les tasques segons els coneixements i l’experiència de cada persona"
+      ],
+      "es": [
+        "Distribuir de forma estable la capacidad de decisión entre distintos niveles",
+        "Permitir que los trabajadores aporten ideas y propuestas de mejora",
+        "Asignar las tareas según los conocimientos y la experiencia de cada persona"
+      ]
+    },
+    "b3-011": {
+      "ca": [
+        "Mostra també totes les relacions personals que influeixen en el treball diari",
+        "Permet conèixer amb detall totes les funcions concretes de cada lloc",
+        "Garanteix que l’estructura representada continuï sent correcta encara que l’empresa canviï"
+      ],
+      "es": [
+        "Muestra también todas las relaciones personales que influyen en el trabajo diario",
+        "Permite conocer con detalle todas las funciones concretas de cada puesto",
+        "Garantiza que la estructura representada siga siendo correcta aunque la empresa cambie"
+      ]
+    },
+    "b3-012": {
+      "ca": [
+        "Delegar tasques concretes mantenint centralitzada la capacitat general de decisió",
+        "Assignar treball segons els coneixements i habilitats de cada persona",
+        "Permetre que els treballadors participin aportant opinions i propostes"
+      ],
+      "es": [
+        "Delegar tareas concretas manteniendo centralizada la capacidad general de decisión",
+        "Asignar trabajo según los conocimientos y habilidades de cada persona",
+        "Permitir que los trabajadores participen aportando opiniones y propuestas"
+      ]
+    },
+    "b3-013": {
+      "ca": [
+        "Eficiència",
+        "Descentralització",
+        "Especialització"
+      ],
+      "es": [
+        "Eficiencia",
+        "Descentralización",
+        "Especialización"
+      ]
+    },
+    "b3-014": {
+      "ca": [
+        "Delegació",
+        "Eficiència",
+        "Participació"
+      ],
+      "es": [
+        "Delegación",
+        "Eficiencia",
+        "Participación"
+      ]
+    },
+    "b3-015": {
+      "ca": [
+        "Delegació",
+        "Descentralització",
+        "Publicitat i transparència"
+      ],
+      "es": [
+        "Delegación",
+        "Descentralización",
+        "Publicidad y transparencia"
+      ]
+    },
+    "b3-016": {
+      "ca": [
+        "Participació",
+        "Coordinació",
+        "Unitat de direcció"
+      ],
+      "es": [
+        "Participación",
+        "Coordinación",
+        "Unidad de dirección"
+      ]
+    },
+    "b3-017": {
+      "ca": [
+        "El conjunt de relacions espontànies de confiança que faciliten la cooperació",
+        "La distribució de decisions entre diferents nivells de l’empresa",
+        "La representació gràfica de l’estructura mitjançant caixes i línies"
+      ],
+      "es": [
+        "El conjunto de relaciones espontáneas de confianza que facilitan la cooperación",
+        "La distribución de decisiones entre distintos niveles de la empresa",
+        "La representación gráfica de la estructura mediante cajas y líneas"
+      ]
+    },
+    "b3-018": {
+      "ca": [
+        "En les relacions de confiança entre persones de departaments diferents",
+        "En les comunicacions informals que apareixen espontàniament entre treballadors",
+        "En els grups de suport que no formen part de l’estructura oficial"
+      ],
+      "es": [
+        "En las relaciones de confianza entre personas de departamentos distintos",
+        "En las comunicaciones informales que aparecen espontáneamente entre trabajadores",
+        "En los grupos de apoyo que no forman parte de la estructura oficial"
+      ]
+    },
+    "b3-019": {
+      "ca": [
+        "A partir dels càrrecs, responsabilitats i dependències definits per l’empresa",
+        "Mitjançant la distribució oficial de tasques que queda reflectida a l’organigrama",
+        "Quan la direcció estableix formalment qui depèn de qui dins l’organització"
+      ],
+      "es": [
+        "A partir de los cargos, responsabilidades y dependencias definidos por la empresa",
+        "Mediante la distribución oficial de tareas que queda reflejada en el organigrama",
+        "Cuando la dirección establece formalmente quién depende de quién dentro de la organización"
+      ]
+    },
+    "b3-020": {
+      "ca": [
+        "Definir oficialment càrrecs, responsabilitats i relacions jeràrquiques",
+        "Substituir l’organigrama quan l’estructura formal no està actualitzada",
+        "Crear autoritat formal entre persones que mantenen una relació de confiança"
+      ],
+      "es": [
+        "Definir oficialmente cargos, responsabilidades y relaciones jerárquicas",
+        "Sustituir el organigrama cuando la estructura formal no está actualizada",
+        "Crear autoridad formal entre personas que mantienen una relación de confianza"
+      ]
+    },
+    "b3-021": {
+      "ca": [
+        "Sí, si la relació informal és estable i afecta el treball diari",
+        "Sí, però només quan connecta persones de departaments diferents",
+        "No, tret que la direcció transformi la relació en un càrrec formal"
+      ],
+      "es": [
+        "Sí, si la relación informal es estable y afecta al trabajo diario",
+        "Sí, pero solo cuando conecta a personas de departamentos distintos",
+        "No, salvo que la dirección transforme la relación en un cargo formal"
+      ]
+    },
+    "b3-022": {
+      "ca": [
+        "La descripció detallada de les funcions i tasques de cada lloc",
+        "Una representació de les relacions personals i de confiança de l’organització",
+        "Un esquema de les decisions i comunicacions informals que es produeixen a l’empresa"
+      ],
+      "es": [
+        "La descripción detallada de las funciones y tareas de cada puesto",
+        "Una representación de las relaciones personales y de confianza de la organización",
+        "Un esquema de las decisiones y comunicaciones informales que se producen en la empresa"
+      ]
+    },
+    "b3-023": {
+      "ca": [
+        "Explicar amb detall totes les tasques que realitza cada lloc de treball",
+        "Representar les relacions informals que condicionen la cooperació entre persones",
+        "Determinar quina forma jurídica és més adequada per a l’empresa"
+      ],
+      "es": [
+        "Explicar con detalle todas las tareas que realiza cada puesto de trabajo",
+        "Representar las relaciones informales que condicionan la cooperación entre personas",
+        "Determinar qué forma jurídica es más adecuada para la empresa"
+      ]
+    },
+    "b3-024": {
+      "ca": [
+        "Mostrar totes les relacions formals i informals que existeixen a la pràctica",
+        "Mantenir el mateix disseny encara que canviïn càrrecs o dependències",
+        "Incloure el màxim d’informació possible encara que dificulti la lectura"
+      ],
+      "es": [
+        "Mostrar todas las relaciones formales e informales que existen en la práctica",
+        "Mantener el mismo diseño aunque cambien cargos o dependencias",
+        "Incluir la máxima información posible aunque dificulte la lectura"
+      ]
+    },
+    "b3-025": {
+      "ca": [
+        "La direcció se situa a l’esquerra i les unitats avancen cap a la dreta",
+        "La unitat de màxima responsabilitat se situa al centre i la resta al voltant",
+        "Combina una disposició vertical amb una altra d’horitzontal"
+      ],
+      "es": [
+        "La dirección se sitúa a la izquierda y las unidades avanzan hacia la derecha",
+        "La unidad de máxima responsabilidad se sitúa en el centro y el resto alrededor",
+        "Combina una disposición vertical con otra horizontal"
+      ]
+    },
+    "b3-026": {
+      "ca": [
+        "Els nivells superiors se situen a la part superior i els subordinats a sota",
+        "La unitat principal ocupa el centre i les altres unitats s’hi distribueixen al voltant",
+        "Combina una zona vertical amb una altra d’horitzontal segons la complexitat"
+      ],
+      "es": [
+        "Los niveles superiores se sitúan en la parte superior y los subordinados debajo",
+        "La unidad principal ocupa el centro y las demás unidades se distribuyen a su alrededor",
+        "Combina una zona vertical con otra horizontal según la complejidad"
+      ]
+    },
+    "b3-027": {
+      "ca": [
+        "A la part superior, per sobre de totes les unitats dependents",
+        "A l’esquerra, abans de les unitats subordinades",
+        "A la zona superior esquerra, combinant disposició vertical i horitzontal"
+      ],
+      "es": [
+        "En la parte superior, por encima de todas las unidades dependientes",
+        "A la izquierda, antes de las unidades subordinadas",
+        "En la zona superior izquierda, combinando disposición vertical y horizontal"
+      ]
+    },
+    "b3-028": {
+      "ca": [
+        "Una representació en què la màxima responsabilitat és al centre",
+        "Una representació en què la jerarquia avança d’esquerra a dreta",
+        "Una representació vertical amb tots els subordinats situats sota la direcció"
+      ],
+      "es": [
+        "Una representación en la que la máxima responsabilidad está en el centro",
+        "Una representación en la que la jerarquía avanza de izquierda a derecha",
+        "Una representación vertical con todos los subordinados situados bajo la dirección"
+      ]
+    },
+    "b3-029": {
+      "ca": [
+        "Les relacions informals més influents entre els treballadors",
+        "Les funcions detallades que realitza cada lloc de treball",
+        "Els criteris gràfics de formes, línies i colors utilitzats"
+      ],
+      "es": [
+        "Las relaciones informales más influyentes entre los trabajadores",
+        "Las funciones detalladas que realiza cada puesto de trabajo",
+        "Los criterios gráficos de formas, líneas y colores utilizados"
+      ]
+    },
+    "b3-030": {
+      "ca": [
+        "Només és útil per a empreses petites perquè no admet estructures complexes",
+        "No permet identificar nivells de responsabilitat ni relacions de dependència",
+        "No ajuda les persones noves a situar-se dins de l’organització"
+      ],
+      "es": [
+        "Solo es útil para empresas pequeñas porque no admite estructuras complejas",
+        "No permite identificar niveles de responsabilidad ni relaciones de dependencia",
+        "No ayuda a las personas nuevas a situarse dentro de la organización"
+      ]
+    },
+    "b3-031": {
+      "ca": [
+        "L’organització informal de l’empresa",
+        "El principi d’eficiència",
+        "El tipus d’organigrama utilitzat"
+      ],
+      "es": [
+        "La organización informal de la empresa",
+        "El principio de eficiencia",
+        "El tipo de organigrama utilizado"
+      ]
+    },
+    "b3-032": {
+      "ca": [
+        "Especialització, perquè cada persona només pot realitzar una funció",
+        "Descentralització, perquè cada àrea pren necessàriament les seves decisions",
+        "Delegació, perquè la direcció transfereix formalment la responsabilitat general"
+      ],
+      "es": [
+        "Especialización, porque cada persona solo puede realizar una función",
+        "Descentralización, porque cada área toma necesariamente sus decisiones",
+        "Delegación, porque la dirección transfiere formalmente la responsabilidad general"
+      ]
+    },
+    "b3-033": {
+      "ca": [
+        "Delegació",
+        "Descentralització",
+        "Unitat de direcció"
+      ],
+      "es": [
+        "Delegación",
+        "Descentralización",
+        "Unidad de dirección"
+      ]
+    },
+    "b3-034": {
+      "ca": [
+        "Gestió de la despesa",
+        "Especialització",
+        "Coordinació"
+      ],
+      "es": [
+        "Gestión del gasto",
+        "Especialización",
+        "Coordinación"
+      ]
+    },
+    "b3-035": {
+      "ca": [
+        "Coordinació",
+        "Autoritat",
+        "Descentralització"
+      ],
+      "es": [
+        "Coordinación",
+        "Autoridad",
+        "Descentralización"
+      ]
+    },
+    "b3-036": {
+      "ca": [
+        "Unitat de direcció",
+        "Delegació",
+        "Participació"
+      ],
+      "es": [
+        "Unidad de dirección",
+        "Delegación",
+        "Participación"
+      ]
+    },
+    "b3-037": {
+      "ca": [
+        "Descentralitzar una part estable de la capacitat de decisió",
+        "Aplicar especialització assignant la tasca a qui té més experiència",
+        "Aplicar participació perquè una altra persona intervé en l’organització del servei"
+      ],
+      "es": [
+        "Descentralizar una parte estable de la capacidad de decisión",
+        "Aplicar especialización asignando la tarea a quien tiene más experiencia",
+        "Aplicar participación porque otra persona interviene en la organización del servicio"
+      ]
+    },
+    "b3-038": {
+      "ca": [
+        "Delegació",
+        "Coordinació",
+        "Unitat de direcció"
+      ],
+      "es": [
+        "Delegación",
+        "Coordinación",
+        "Unidad de dirección"
+      ]
+    },
+    "b3-039": {
+      "ca": [
+        "Eficiència",
+        "Control",
+        "Organització administrativa"
+      ],
+      "es": [
+        "Eficiencia",
+        "Control",
+        "Organización administrativa"
+      ]
+    },
+    "b3-040": {
+      "ca": [
+        "Eficiència",
+        "Delegació",
+        "Participació"
+      ],
+      "es": [
+        "Eficiencia",
+        "Delegación",
+        "Participación"
+      ]
+    },
+    "b3-041": {
+      "ca": [
+        "Descentralització",
+        "Coordinació",
+        "Especialització"
+      ],
+      "es": [
+        "Descentralización",
+        "Coordinación",
+        "Especialización"
+      ]
+    },
+    "b3-042": {
+      "ca": [
+        "Participació",
+        "Unitat de direcció",
+        "Coordinació"
+      ],
+      "es": [
+        "Participación",
+        "Unidad de dirección",
+        "Coordinación"
+      ]
+    },
+    "b3-043": {
+      "ca": [
+        "Formal, perquè la cooperació resol problemes relacionats amb el treball",
+        "Delegació, perquè una persona consulta una altra amb més experiència",
+        "Especialització, perquè la relació es basa en coneixements diferents"
+      ],
+      "es": [
+        "Formal, porque la cooperación resuelve problemas relacionados con el trabajo",
+        "Delegación, porque una persona consulta a otra con más experiencia",
+        "Especialización, porque la relación se basa en conocimientos distintos"
+      ]
+    },
+    "b3-044": {
+      "ca": [
+        "Relacions de confiança que apareixen espontàniament",
+        "Influència d’una persona experimentada sense càrrec de comandament",
+        "Col·laboracions habituals entre persones que no estan definides oficialment"
+      ],
+      "es": [
+        "Relaciones de confianza que aparecen espontáneamente",
+        "Influencia de una persona experimentada sin cargo de mando",
+        "Colaboraciones habituales entre personas que no están definidas oficialmente"
+      ]
+    },
+    "b3-045": {
+      "ca": [
+        "Només pot existir una de les dues, perquè la informal anul·la la jerarquia formal",
+        "La informal és una extensió oficial de l’organigrama i ha d’actualitzar-se amb aquest",
+        "La formal defineix relacions personals i la informal determina els càrrecs oficials"
+      ],
+      "es": [
+        "Solo puede existir una de las dos, porque la informal anula la jerarquía formal",
+        "La informal es una extensión oficial del organigrama y debe actualizarse con él",
+        "La formal define relaciones personales y la informal determina los cargos oficiales"
+      ]
+    },
+    "b3-046": {
+      "ca": [
+        "Una descripció detallada de lloc de treball",
+        "Un procediment de coordinació entre departaments",
+        "Un mapa de relacions informals de confiança"
+      ],
+      "es": [
+        "Una descripción detallada de puesto de trabajo",
+        "Un procedimiento de coordinación entre departamentos",
+        "Un mapa de relaciones informales de confianza"
+      ]
+    },
+    "b3-047": {
+      "ca": [
+        "Exactitud, perquè el dibuix ja no utilitza les formes adequades",
+        "Claredat, perquè qualsevol organigrama antic deixa de ser comprensible",
+        "Uniformitat, perquè els criteris gràfics han canviat amb el temps"
+      ],
+      "es": [
+        "Exactitud, porque el dibujo ya no utiliza las formas adecuadas",
+        "Claridad, porque cualquier organigrama antiguo deja de ser comprensible",
+        "Uniformidad, porque los criterios gráficos han cambiado con el tiempo"
+      ]
+    },
+    "b3-048": {
+      "ca": [
+        "Horitzontal",
+        "Radial",
+        "Mixt"
+      ],
+      "es": [
+        "Horizontal",
+        "Radial",
+        "Mixto"
+      ]
+    },
+    "b3-049": {
+      "ca": [
+        "Vertical",
+        "Radial",
+        "Mixt"
+      ],
+      "es": [
+        "Vertical",
+        "Radial",
+        "Mixto"
+      ]
+    },
+    "b3-050": {
+      "ca": [
+        "Vertical",
+        "Horitzontal",
+        "Mixt"
+      ],
+      "es": [
+        "Vertical",
+        "Horizontal",
+        "Mixto"
+      ]
+    },
+    "b3-051": {
+      "ca": [
+        "Vertical, perquè una de les àrees segueix una jerarquia de dalt a baix",
+        "Horitzontal, perquè una de les àrees s’estén d’esquerra a dreta",
+        "Radial, perquè combina departaments al voltant d’una direcció comuna"
+      ],
+      "es": [
+        "Vertical, porque una de las áreas sigue una jerarquía de arriba abajo",
+        "Horizontal, porque una de las áreas se extiende de izquierda a derecha",
+        "Radial, porque combina departamentos alrededor de una dirección común"
+      ]
+    },
+    "b3-052": {
+      "ca": [
+        "Pot quedar desactualitzat quan canvien càrrecs o dependències",
+        "Pot simplificar massa una organització complexa",
+        "No explica per si sol les funcions detallades de cada lloc"
+      ],
+      "es": [
+        "Puede quedar desactualizado cuando cambian cargos o dependencias",
+        "Puede simplificar demasiado una organización compleja",
+        "No explica por sí solo las funciones detalladas de cada puesto"
+      ]
+    },
+    "b3-053": {
+      "ca": [
+        "Perquè se centra principalment en les relacions informals i no en els càrrecs",
+        "Perquè només indica la forma jurídica i els departaments de l’empresa",
+        "Perquè representa sobretot els recursos econòmics assignats a cada unitat"
+      ],
+      "es": [
+        "Porque se centra principalmente en las relaciones informales y no en los cargos",
+        "Porque solo indica la forma jurídica y los departamentos de la empresa",
+        "Porque representa sobre todo los recursos económicos asignados a cada unidad"
+      ]
+    },
+    "b3-054": {
+      "ca": [
+        "Definir autoritat → centralitzar decisions → delegar responsabilitats → representar-les gràficament",
+        "Especialitzar persones → eliminar dependències → descentralitzar totes les decisions → fixar objectius",
+        "Crear un organigrama → establir relacions informals → distribuir salaris → assignar funcions"
+      ],
+      "es": [
+        "Definir autoridad → centralizar decisiones → delegar responsabilidades → representarlas gráficamente",
+        "Especializar personas → eliminar dependencias → descentralizar todas las decisiones → fijar objetivos",
+        "Crear un organigrama → establecer relaciones informales → distribuir salarios → asignar funciones"
+      ]
+    },
+    "b3-055": {
+      "ca": [
+        "Descentralització i delegació",
+        "Delegació i coordinació",
+        "Especialització i descentralització"
+      ],
+      "es": [
+        "Descentralización y delegación",
+        "Delegación y coordinación",
+        "Especialización y descentralización"
+      ]
+    },
+    "b3-056": {
+      "ca": [
+        "La relació informal invalida la dependència formal representada al document",
+        "La companya consultada assumeix de fet el càrrec formal encara que no consti",
+        "L’organigrama hauria de representar obligatòriament aquesta relació de confiança"
+      ],
+      "es": [
+        "La relación informal invalida la dependencia formal representada en el documento",
+        "La compañera consultada asume de hecho el cargo formal aunque no conste",
+        "El organigrama debería representar obligatoriamente esa relación de confianza"
+      ]
+    },
+    "b3-057": {
+      "ca": [
+        "Unitat de direcció",
+        "Publicitat i transparència",
+        "Participació"
+      ],
+      "es": [
+        "Unidad de dirección",
+        "Publicidad y transparencia",
+        "Participación"
+      ]
+    },
+    "b3-058": {
+      "ca": [
+        "Descentralització",
+        "Especialització",
+        "Participació"
+      ],
+      "es": [
+        "Descentralización",
+        "Especialización",
+        "Participación"
+      ]
+    },
+    "b3-059": {
+      "ca": [
+        "Delegació",
+        "Unitat de direcció",
+        "Participació"
+      ],
+      "es": [
+        "Delegación",
+        "Unidad de dirección",
+        "Participación"
+      ]
+    },
+    "b3-060": {
+      "ca": [
+        "Eficiència",
+        "Especialització",
+        "Publicitat i transparència"
+      ],
+      "es": [
+        "Eficiencia",
+        "Especialización",
+        "Publicidad y transparencia"
+      ]
+    },
+    "b3-061": {
+      "ca": [
+        "Descentralització",
+        "Coordinació",
+        "Especialització"
+      ],
+      "es": [
+        "Descentralización",
+        "Coordinación",
+        "Especialización"
+      ]
+    },
+    "b3-062": {
+      "ca": [
+        "Unitat de direcció",
+        "Participació",
+        "Coordinació"
+      ],
+      "es": [
+        "Unidad de dirección",
+        "Participación",
+        "Coordinación"
+      ]
+    },
+    "b3-063": {
+      "ca": [
+        "Coordinació",
+        "Autoritat",
+        "Descentralització"
+      ],
+      "es": [
+        "Coordinación",
+        "Autoridad",
+        "Descentralización"
+      ]
+    },
+    "b3-064": {
+      "ca": [
+        "Delegació",
+        "Unitat de direcció",
+        "Coordinació"
+      ],
+      "es": [
+        "Delegación",
+        "Unidad de dirección",
+        "Coordinación"
+      ]
+    },
+    "b3-065": {
+      "ca": [
+        "Organització informal",
+        "Delegació",
+        "Unitat de direcció"
+      ],
+      "es": [
+        "Organización informal",
+        "Delegación",
+        "Unidad de dirección"
+      ]
+    },
+    "b3-066": {
+      "ca": [
+        "Una relació formal transversal entre departaments",
+        "Una delegació no registrada a l’organigrama",
+        "Una coordinació oficial establerta per la direcció"
+      ],
+      "es": [
+        "Una relación formal transversal entre departamentos",
+        "Una delegación no registrada en el organigrama",
+        "Una coordinación oficial establecida por la dirección"
+      ]
+    },
+    "b3-067": {
+      "ca": [
+        "Una descripció de lloc de treball",
+        "Un manual de procediments",
+        "Un mapa de relacions informals"
+      ],
+      "es": [
+        "Una descripción de puesto de trabajo",
+        "Un manual de procedimientos",
+        "Un mapa de relaciones informales"
+      ]
+    },
+    "b3-068": {
+      "ca": [
+        "Exactitud, perquè ja no representa l’estructura real",
+        "Claredat, perquè l’antiguitat fa més difícil entendre qualsevol organigrama",
+        "Uniformitat, perquè una reestructuració obliga a canviar totes les formes gràfiques"
+      ],
+      "es": [
+        "Exactitud, porque ya no representa la estructura real",
+        "Claridad, porque la antigüedad hace más difícil entender cualquier organigrama",
+        "Uniformidad, porque una reestructuración obliga a cambiar todas las formas gráficas"
+      ]
+    },
+    "b3-069": {
+      "ca": [
+        "Vertical",
+        "Radial",
+        "Mixt"
+      ],
+      "es": [
+        "Vertical",
+        "Radial",
+        "Mixto"
+      ]
+    },
+    "b3-070": {
+      "ca": [
+        "Poden quedar desactualitzats quan canvia l’estructura",
+        "Poden simplificar massa una organització complexa",
+        "No expliquen per si sols les funcions detallades de cada lloc"
+      ],
+      "es": [
+        "Pueden quedar desactualizados cuando cambia la estructura",
+        "Pueden simplificar demasiado una organización compleja",
+        "No explican por sí solos las funciones detalladas de cada puesto"
+      ]
+    }
+  }
+}
