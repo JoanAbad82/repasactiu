@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "scope": "UF0518_TEST",
+  "sources": {
+    "UF0518_TEST": {
+      "file": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf",
+      "pages": 28
+    }
+  },
+  "questionTraces": [],
+  "corrections": [],
+  "review": {
+    "questionCount": 0
+  }
+}
