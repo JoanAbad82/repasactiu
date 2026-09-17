@@ -33,19 +33,19 @@ export function findExactDuplicateQuestions(questions){
   return pairs;
 }
 
-const catalanSignals=[
-  /\b(?:què|quina|quines|quin|quins)\b/iu,
-  /\b(?:aquest|aquesta|aquests|aquestes)\b/iu,
-  /\b(?:comunicació|organització|administració|correspondència|informació|explicació|preguntes)\b/iu,
-  /\b(?:adreçat|adreçada|adreçats|adreçades)\b/iu,
-  /\b(?:següent|següents|dins|perquè|també)\b/iu
-];
+const catalanSignalWords=new Set([
+  'què','quina','quines','quin','quins',
+  'aquest','aquesta','aquests','aquestes',
+  'comunicació','organització','administració','correspondència','informació','explicació','preguntes',
+  'adreçat','adreçada','adreçats','adreçades',
+  'següent','següents','dins','perquè','també'
+]);
 
 export function detectCatalanLeakageInSpanish(record){
   const leaking=[];
   for(const field of ['topic','question','explanation']){
-    const value=String(record?.[field]??'');
-    if(catalanSignals.some(pattern=>pattern.test(value)))leaking.push(field);
+    const words=String(record?.[field]??'').toLocaleLowerCase('ca').match(/\p{L}+/gu)||[];
+    if(words.some(word=>catalanSignalWords.has(word)))leaking.push(field);
   }
   return leaking;
 }
@@ -123,11 +123,12 @@ export async function runContentQualityAudit(){
   for(const q of canonical)if(!traceById.has(q.id))errors.push(`${q.id}: missing traceability`);
   for(const id of traceById.keys())if(!canonicalIds.has(id))errors.push(`${id}: orphan traceability`);
 
+  const duplicates=findExactDuplicateQuestions(canonical);
   return {
     questions:canonical.length,
     translations:translations.size,
     traceable:[...canonicalIds].filter(id=>traceById.has(id)).length,
-    duplicateQuestions:findExactDuplicateQuestions(canonical),
+    duplicateQuestions:duplicates,
     errors
   };
 }
