@@ -159,14 +159,14 @@
     },
     "u2b1-014": {
       "ca": [
-        "Definir només qui supervisa cada tasca",
-        "Fixar únicament el resultat final, deixant lliure el procediment",
-        "Reduir la necessitat de coordinar-se substituint-la per decisions individuals"
+        "Definir responsabilitats i supervisió, deixant el mètode de treball a criteri individual",
+        "Fixar resultats esperats i permetre que cada persona decideixi els passos per assolir-los",
+        "Reduir la coordinació formal perquè cada membre resolgui incidències segons la seva experiència"
       ],
       "es": [
-        "Definir solo quién supervisa cada tarea",
-        "Fijar únicamente el resultado final, dejando libre el procedimiento",
-        "Reducir la necesidad de coordinación sustituyéndola por decisiones individuales"
+        "Definir responsabilidades y supervisión, dejando el método de trabajo a criterio individual",
+        "Fijar resultados esperados y permitir que cada persona decida los pasos para alcanzarlos",
+        "Reducir la coordinación formal para que cada miembro resuelva incidencias según su experiencia"
       ]
     },
     "u2b1-015": {
@@ -435,14 +435,14 @@
     },
     "u2b1-037": {
       "ca": [
-        "Un conjunt de persones que comparteixen espai però desenvolupen tasques sense coordinació",
-        "Un grup creat exclusivament per mantenir relacions socials entre companys",
-        "Una unitat jeràrquica en què totes les decisions depenen necessàriament d’un únic responsable"
+        "Un conjunt de persones que comparteixen espai i objectius, però executen tasques sense coordinació entre elles",
+        "Un grup basat en relacions socials que col·labora de forma espontània fora d’un objectiu de treball definit",
+        "Un conjunt de persones que depenen del mateix responsable però desenvolupen tasques independents sense col·laboració"
       ],
       "es": [
-        "Un conjunto de personas que comparten espacio pero desarrollan tareas sin coordinación",
-        "Un grupo creado exclusivamente para mantener relaciones sociales entre compañeros",
-        "Una unidad jerárquica en la que todas las decisiones dependen necesariamente de un único responsable"
+        "Un conjunto de personas que comparten espacio y objetivos, pero ejecutan tareas sin coordinación entre ellas",
+        "Un grupo basado en relaciones sociales que colabora de forma espontánea fuera de un objetivo de trabajo definido",
+        "Un conjunto de personas que dependen del mismo responsable pero desarrollan tareas independientes sin colaboración"
       ]
     },
     "u2b1-038": {
@@ -1131,14 +1131,14 @@
     },
     "u2b1-095": {
       "ca": [
-        "Només a les condicions físiques del lloc, com espai, soroll i il·luminació",
+        "A les condicions físiques del lloc i als recursos materials, sense considerar les relacions entre les persones",
         "A les actituds personals de responsabilitat, motivació, ordre i puntualitat",
-        "Exclusivament als objectius, terminis i prioritats que té assignats cada treballador"
+        "Als objectius, terminis i prioritats assignats individualment a cada treballador"
       ],
       "es": [
-        "Solo a las condiciones físicas del puesto, como espacio, ruido e iluminación",
+        "A las condiciones físicas del puesto y a los recursos materiales, sin considerar las relaciones entre las personas",
         "A las actitudes personales de responsabilidad, motivación, orden y puntualidad",
-        "Exclusivamente a los objetivos, plazos y prioridades que tiene asignados cada trabajador"
+        "A los objetivos, plazos y prioridades asignados individualmente a cada trabajador"
       ]
     },
     "u2b1-096": {
@@ -1239,14 +1239,14 @@
     },
     "u2b1-104": {
       "ca": [
-        "Han de ser sempre formals i explícites perquè siguin aplicables al grup",
-        "Són necessàriament informals quan no existeix un document que les reculli",
-        "Una norma formal deixa de ser norma del grup si també és acceptada espontàniament pels membres"
+        "Són formals quan regulen la feina i informals quan regulen les relacions personals",
+        "La seva existència depèn que el grup les hagi expressat verbalment o per escrit",
+        "Una norma acceptada espontàniament deixa de tenir caràcter formal encara que estigui documentada"
       ],
       "es": [
-        "Deben ser siempre formales y explícitas para que sean aplicables al grupo",
-        "Son necesariamente informales cuando no existe un documento que las recoja",
-        "Una norma formal deja de ser norma del grupo si también es aceptada espontáneamente por los miembros"
+        "Son formales cuando regulan el trabajo e informales cuando regulan las relaciones personales",
+        "Su existencia depende de que el grupo las haya expresado verbalmente o por escrito",
+        "Una norma aceptada espontáneamente deja de tener carácter formal aunque esté documentada"
       ]
     },
     "u2b1-105": {
@@ -1503,14 +1503,14 @@
     },
     "u2b1-126": {
       "ca": [
-        "Hi ha repartiment de tasques i cada membre respon només del seu resultat individual",
-        "Hi ha un objectiu comú, però cada persona treballa de manera independent fins al final",
-        "Hi ha supervisió i especialització, però la informació només es comparteix quan ho demana el responsable"
+        "La coordinació es limita al repartiment inicial i després cada membre treballa per separat",
+        "Comparteixen l’objectiu final, però les decisions i la informació es mantenen dins de cada funció",
+        "El responsable centralitza la informació i distribueix instruccions entre especialistes que no interactuen entre ells"
       ],
       "es": [
-        "Hay reparto de tareas y cada miembro responde solo de su resultado individual",
-        "Hay un objetivo común, pero cada persona trabaja de forma independiente hasta el final",
-        "Hay supervisión y especialización, pero la información solo se comparte cuando lo pide el responsable"
+        "La coordinación se limita al reparto inicial y después cada miembro trabaja por separado",
+        "Comparten el objetivo final, pero las decisiones y la información se mantienen dentro de cada función",
+        "El responsable centraliza la información y distribuye instrucciones entre especialistas que no interactúan entre ellos"
       ]
     },
     "u2b1-127": {
