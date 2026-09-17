@@ -1,0 +1,1 @@
+RED checkpoint prepared. Next action is to open the draft PR and observe CI failure before implementation.
