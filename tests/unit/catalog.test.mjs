@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { loadCourse, loadBlock, loadBlockBundle } from "../../site/js/catalog.js";
+import { loadCourse, loadBlock, loadBlockBundle, loadHardDistractors } from "../../site/js/catalog.js";
 
 const okFetch = async (url) => ({
   ok: true,
@@ -33,4 +33,16 @@ test("loadBlockBundle adjunta ajuda de memòria bilingüe", async()=> {
   });
   const bank=await loadBlockBundle("data/bloc_1.json",null,customFetch,null,"data/memory/bloc-1.json");
   assert.deepEqual(bank.questions[0].memoryAid,{type:"example",ca:"Exemple curt",es:"Ejemplo corto"});
+});
+
+
+test("loadHardDistractors carrega un overlay indexat del bloc correcte", async()=>{
+  const fetchHard=async()=>({ok:true,json:async()=>({blockId:"bloc-1",questions:{q1:{ca:["A","B","C"],es:["D","E","F"]}}})});
+  const hard=await loadHardDistractors("data/hard/bloc-1.json","bloc-1",fetchHard);
+  assert.deepEqual(hard.questions.q1.ca,["A","B","C"]);
+});
+
+test("loadHardDistractors rebutja blockId incorrecte", async()=>{
+  const fetchHard=async()=>({ok:true,json:async()=>({blockId:"bloc-2",questions:{}})});
+  await assert.rejects(()=>loadHardDistractors("data/hard/bloc-1.json","bloc-1",fetchHard),/no correspon al bloc/);
 });
