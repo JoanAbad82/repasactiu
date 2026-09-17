@@ -27,14 +27,14 @@
     },
     "uf0518-b1-003": {
       "ca": [
-        "Que el document ha d’entrar sempre en un registre oficial abans de ser vàlid",
-        "Que el missatge queda fixat i només pot modificar-se mitjançant una nova comunicació",
-        "Que la informació pot conservar-se com a antecedent però no utilitzar-se com a justificació"
+        "Que el document adquireix validesa quan queda registrat, independentment del contingut",
+        "Que el contingut queda fixat i qualsevol rectificació exigeix substituir el document original",
+        "Que la informació pot conservar-se com a antecedent, però no serveix per justificar actuacions"
       ],
       "es": [
-        "Que el documento debe entrar siempre en un registro oficial antes de ser válido",
-        "Que el mensaje queda fijado y solo puede modificarse mediante una nueva comunicación",
-        "Que la información puede conservarse como antecedente pero no utilizarse como justificación"
+        "Que el documento adquiere validez cuando queda registrado, independientemente del contenido",
+        "Que el contenido queda fijado y cualquier rectificación exige sustituir el documento original",
+        "Que la información puede conservarse como antecedente, pero no sirve para justificar actuaciones"
       ]
     },
     "uf0518-b1-004": {
@@ -459,14 +459,14 @@
     },
     "uf0518-b1-039": {
       "ca": [
-        "Ha estat substituïda pel correu electrònic excepte quan una norma exigeix paper",
-        "Manté valor només per a reclamacions i requeriments de pagament",
-        "Continua sent útil en comunicacions formals, però només quan s’envia per correu postal"
+        "Ha quedat com a suport residual per a comunicacions que requereixen més formalitat que un correu electrònic",
+        "Conserva valor principalment en reclamacions i cobraments, mentre les altres comunicacions passen al correu electrònic",
+        "Manté valor formal quan s’envia en paper; en format digital equival funcionalment a un correu electrònic ordinari"
       ],
       "es": [
-        "Ha sido sustituida por el correo electrónico salvo cuando una norma exige papel",
-        "Mantiene valor solo para reclamaciones y requerimientos de pago",
-        "Sigue siendo útil en comunicaciones formales, pero solo cuando se envía por correo postal"
+        "Ha quedado como soporte residual para comunicaciones que requieren más formalidad que un correo electrónico",
+        "Conserva valor principalmente en reclamaciones y cobros, mientras las demás comunicaciones pasan al correo electrónico",
+        "Mantiene valor formal cuando se envía en papel; en formato digital equivale funcionalmente a un correo electrónico ordinario"
       ]
     },
     "uf0518-b1-040": {
@@ -723,14 +723,14 @@
     },
     "uf0518-b1-061": {
       "ca": [
-        "El memoràndum és sempre intern i individual; la circular és sempre externa i col·lectiva",
-        "El memoràndum té validesa legal administrativa i la circular només valor informatiu",
-        "La circular necessita registre d’entrada i el memoràndum no pot incloure instruccions"
+        "El memoràndum s’utilitza entre departaments i la circular entre l’empresa i destinataris externs",
+        "El memoràndum té caràcter administratiu probatori i la circular un caràcter merament informatiu",
+        "La circular requereix registre formal i el memoràndum funciona com una nota sense instruccions"
       ],
       "es": [
-        "El memorándum es siempre interno e individual; la circular es siempre externa y colectiva",
-        "El memorándum tiene validez legal administrativa y la circular solo valor informativo",
-        "La circular necesita registro de entrada y el memorándum no puede incluir instrucciones"
+        "El memorándum se utiliza entre departamentos y la circular entre la empresa y destinatarios externos",
+        "El memorándum tiene carácter administrativo probatorio y la circular un carácter meramente informativo",
+        "La circular requiere registro formal y el memorándum funciona como una nota sin instrucciones"
       ]
     },
     "uf0518-b1-062": {
@@ -843,14 +843,14 @@
     },
     "uf0518-b1-071": {
       "ca": [
-        "Només al personal intern, perquè és un document exclusivament corporatiu",
-        "A múltiples destinataris, però sempre pertanyents al mateix grup: només personal o només clients",
-        "Només a persones externes, perquè les comunicacions internes s’han de fer per memoràndum"
+        "Al personal d’una mateixa unitat o departament, mentre clients i proveïdors reben cartes comercials",
+        "A personal i clients, però no a proveïdors ni persones usuàries",
+        "A clients i proveïdors, mentre el personal intern rep memoràndums"
       ],
       "es": [
-        "Solo al personal interno, porque es un documento exclusivamente corporativo",
-        "A múltiples destinatarios, pero siempre pertenecientes al mismo grupo: solo personal o solo clientes",
-        "Solo a personas externas, porque las comunicaciones internas deben hacerse por memorándum"
+        "Al personal de una misma unidad o departamento, mientras clientes y proveedores reciben cartas comerciales",
+        "A personal y clientes, pero no a proveedores ni personas usuarias",
+        "A clientes y proveedores, mientras el personal interno recibe memorándums"
       ]
     },
     "uf0518-b1-072": {
