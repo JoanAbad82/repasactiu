@@ -27,14 +27,14 @@
     },
     "b2-003": {
       "ca": [
-        "Es reparteixen entre els membres segons la seva aportació",
-        "Es destinen necessàriament a ampliar el capital social",
-        "Es reserven exclusivament per pagar les despeses de l’exercici següent"
+        "Es reparteixen entre els membres en proporció a les seves aportacions",
+        "Es destinen a remunerar les aportacions dels membres abans de finançar les activitats de l’entitat",
+        "Es reserven per cobrir les despeses de l’exercici següent al marge dels objectius socials"
       ],
       "es": [
-        "Se reparten entre los miembros según su aportación",
-        "Se destinan necesariamente a ampliar el capital social",
-        "Se reservan exclusivamente para pagar los gastos del ejercicio siguiente"
+        "Se reparten entre los miembros en proporción a sus aportaciones",
+        "Se destinan a remunerar las aportaciones de los miembros antes de financiar las actividades de la entidad",
+        "Se reservan para cubrir los gastos del ejercicio siguiente al margen de los objetivos sociales"
       ]
     },
     "b2-004": {
@@ -159,14 +159,14 @@
     },
     "b2-014": {
       "ca": [
-        "Una societat en què el capital està dividit necessàriament en accions lliurement transmissibles",
-        "Una empresa individual gestionada de manera participativa amb els treballadors",
-        "Una societat en què la participació dels socis es limita exclusivament a aportar capital"
+        "Una societat de capital en què la participació s’expressa en accions transferibles",
+        "Una empresa individual en què els treballadors participen en algunes decisions",
+        "Una societat orientada a aportar capital en què el pes del vot depèn de la inversió realitzada"
       ],
       "es": [
-        "Una sociedad en la que el capital está dividido necesariamente en acciones libremente transmisibles",
-        "Una empresa individual gestionada de forma participativa con los trabajadores",
-        "Una sociedad en la que la participación de los socios se limita exclusivamente a aportar capital"
+        "Una sociedad de capital en la que la participación se expresa en acciones transferibles",
+        "Una empresa individual en la que los trabajadores participan en algunas decisiones",
+        "Una sociedad orientada a aportar capital en la que el peso del voto depende de la inversión realizada"
       ]
     },
     "b2-015": {
@@ -327,14 +327,14 @@
     },
     "b2-028": {
       "ca": [
-        "Sí, perquè el salari és el criteri principal de l’autoritat formal",
-        "Sí, sempre que la diferència salarial provingui de més qualificació professional",
-        "No, però només quan la persona amb més salari té menys antiguitat"
+        "Sí, quan la remuneració més alta reflecteix una responsabilitat tècnica superior",
+        "Sí, si la diferència salarial està prevista formalment en la classificació dels llocs",
+        "Sí, quan la persona amb més salari acumula més antiguitat a l’empresa"
       ],
       "es": [
-        "Sí, porque el salario es el criterio principal de la autoridad formal",
-        "Sí, siempre que la diferencia salarial proceda de una mayor cualificación profesional",
-        "No, pero solo cuando la persona con mayor salario tiene menos antigüedad"
+        "Sí, cuando la remuneración más alta refleja una responsabilidad técnica superior",
+        "Sí, si la diferencia salarial está prevista formalmente en la clasificación de los puestos",
+        "Sí, cuando la persona con mayor salario acumula más antigüedad en la empresa"
       ]
     },
     "b2-029": {
@@ -351,13 +351,13 @@
     },
     "b2-030": {
       "ca": [
-        "Definir únicament l’estructura jeràrquica i els salaris de cada lloc",
-        "Gestionar exclusivament els recursos econòmics i el finançament",
+        "Definir l’estructura jeràrquica i els criteris retributius dels llocs de treball",
+        "Gestionar pressupostos, finançament i recursos econòmics disponibles",
         "Revisar procediments i resultats sense intervenir en la planificació o coordinació"
       ],
       "es": [
-        "Definir únicamente la estructura jerárquica y los salarios de cada puesto",
-        "Gestionar exclusivamente los recursos económicos y la financiación",
+        "Definir la estructura jerárquica y los criterios retributivos de los puestos de trabajo",
+        "Gestionar presupuestos, financiación y recursos económicos disponibles",
         "Revisar procedimientos y resultados sin intervenir en la planificación o coordinación"
       ]
     },
@@ -375,14 +375,14 @@
     },
     "b2-032": {
       "ca": [
-        "Repartir part dels excedents entre els membres i destinar la resta als objectius",
-        "Finançar-se només amb quotes i donacions, sense poder organitzar activitats pròpies",
-        "Obtenir ingressos i reservar-los exclusivament com a capital de l’entitat"
+        "Repartir part dels excedents entre els membres i destinar la resta als objectius socials",
+        "Finançar l’activitat amb quotes i donacions i reservar les activitats pròpies a entitats lucratives",
+        "Obtenir ingressos i destinar-los a incrementar el patrimoni individual dels membres"
       ],
       "es": [
-        "Repartir parte de los excedentes entre los miembros y destinar el resto a los objetivos",
-        "Financiarse solo con cuotas y donaciones, sin poder organizar actividades propias",
-        "Obtener ingresos y reservarlos exclusivamente como capital de la entidad"
+        "Repartir parte de los excedentes entre los miembros y destinar el resto a los objetivos sociales",
+        "Financiar la actividad con cuotas y donaciones y reservar las actividades propias a entidades lucrativas",
+        "Obtener ingresos y destinarlos a incrementar el patrimonio individual de los miembros"
       ]
     },
     "b2-033": {
@@ -675,26 +675,26 @@
     },
     "b2-057": {
       "ca": [
-        "Sí, però només després de remunerar obligatòriament tots els propietaris",
-        "No, la reinversió és pròpia exclusivament de les entitats sense ànim de lucre",
+        "Sí, després de destinar primer una part fixa al repartiment entre els propietaris",
+        "No, perquè la reinversió correspon a entitats que no reparteixen beneficis",
         "Sí, però la compra d’equips transforma l’empresa en no lucrativa durant l’exercici"
       ],
       "es": [
-        "Sí, pero solo después de remunerar obligatoriamente a todos los propietarios",
-        "No, la reinversión es propia exclusivamente de las entidades sin ánimo de lucro",
+        "Sí, después de destinar primero una parte fija al reparto entre los propietarios",
+        "No, porque la reinversión corresponde a entidades que no reparten beneficios",
         "Sí, pero la compra de equipos transforma la empresa en no lucrativa durante el ejercicio"
       ]
     },
     "b2-058": {
       "ca": [
-        "Es poden repartir entre els membres si una part es reserva per als objectius socials",
-        "S’han de reinvertir necessàriament en equips o ampliació de l’activitat empresarial",
-        "Es poden repartir segons les aportacions sempre que l’entitat mantingui una finalitat social"
+        "Es poden repartir parcialment entre els membres si la resta es destina als objectius socials",
+        "S’han de destinar a incrementar el patrimoni de l’entitat encara que no estigui vinculat als objectius",
+        "Es poden distribuir segons les aportacions dels membres si es conserva una reserva per a les finalitats socials"
       ],
       "es": [
-        "Se pueden repartir entre los miembros si una parte se reserva para los objetivos sociales",
-        "Deben reinvertirse necesariamente en equipos o ampliación de la actividad empresarial",
-        "Se pueden repartir según las aportaciones siempre que la entidad mantenga una finalidad social"
+        "Se pueden repartir parcialmente entre los miembros si el resto se destina a los objetivos sociales",
+        "Deben destinarse a incrementar el patrimonio de la entidad aunque no esté vinculado a los objetivos",
+        "Se pueden distribuir según las aportaciones de los miembros si se conserva una reserva para las finalidades sociales"
       ]
     },
     "b2-059": {
@@ -723,14 +723,14 @@
     },
     "b2-061": {
       "ca": [
-        "La societat i els socis comparteixen necessàriament la mateixa personalitat jurídica",
-        "La personalitat pròpia només existeix quan la societat adopta forma de S.A.",
-        "La societat només és diferenciada dels socis quan la gestió s’encarrega a administradors externs"
+        "La personalitat jurídica de la societat coincideix amb la dels socis mentre aquests en mantenen la gestió directa",
+        "La personalitat pròpia apareix quan la societat adopta una forma amb capital dividit en accions",
+        "La separació entre societat i socis depèn que la gestió s’encarregui a un òrgan d’administració diferenciat"
       ],
       "es": [
-        "La sociedad y los socios comparten necesariamente la misma personalidad jurídica",
-        "La personalidad propia solo existe cuando la sociedad adopta forma de S.A.",
-        "La sociedad solo es diferente de los socios cuando la gestión se encarga a administradores externos"
+        "La personalidad jurídica de la sociedad coincide con la de los socios mientras estos mantienen su gestión directa",
+        "La personalidad propia aparece cuando la sociedad adopta una forma con capital dividido en acciones",
+        "La separación entre sociedad y socios depende de que la gestión se encargue a un órgano de administración diferenciado"
       ]
     },
     "b2-062": {
