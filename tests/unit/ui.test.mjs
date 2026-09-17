@@ -22,3 +22,17 @@ test("review mostra resposta i explicació",()=>{const h=renderReviewHtml([{ques
 test("review es tradueix al castellà",()=>{const h=renderReviewHtml([{question:{question:"¿Q?",options:["A","B","C","D"],correct:0,explanation:"Exp"},selected:1}],"es"); assert.match(h,/Tu respuesta/); assert.match(h,/Respuesta correcta/); assert.match(h,/Revisar respuestas/);});
 test("review conserva l'ajuda de memòria",()=>{const h=renderReviewHtml([{question:{question:"¿Q?",options:["A","B","C","D"],correct:0,explanation:"Exp",memoryAid:{type:"example",text:"Ejemplo breve para recordar."}},selected:1}],"es"); assert.match(h,/Ejemplo para recordar/); assert.match(h,/Ejemplo breve para recordar\./);});
 test("setup normal ofereix mode Repassar errors",()=>{const h=renderSetupHtml({label:"Bloc 1",mode:"study",count:10,penaltyEnabled:false,available:24,pendingReview:3}); assert.match(h,/Repassar errors/);});
+
+
+test("setup ofereix Mode Examen difícil en català i mostra penalització",()=>{
+  const h=renderSetupHtml({label:"Bloc 1",mode:"hard-exam",count:10,penaltyEnabled:true,available:24,pendingReview:0},"ca");
+  assert.match(h,/Mode Examen difícil/);
+  assert.match(h,/Amb penalització/);
+  assert.match(h,/−0,33/);
+});
+
+test("setup ofereix Modo Examen difícil en castellà",()=>{
+  const h=renderSetupHtml({label:"Bloque 1",mode:"hard-exam",count:10,penaltyEnabled:false,available:24,pendingReview:0},"es");
+  assert.match(h,/Modo Examen difícil/);
+  assert.match(h,/Sin penalización/);
+});
