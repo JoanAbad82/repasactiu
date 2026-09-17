@@ -4,6 +4,7 @@ import {
   normalizeForComparison,
   findExactDuplicateQuestions,
   detectCatalanLeakageInSpanish,
+  applyAuditCorrections,
   validateTraceEntry,
   runContentQualityAudit
 } from '../../scripts/content-quality-lib.mjs';
@@ -33,6 +34,18 @@ test('detecta català inequívoc dins les opcions castellanes',()=>{
     explanation:'La respuesta es correcta.',
     options:['Una carta formal','Una comunicació interna','Un correo electrónico','Una solicitud']
   }),['options[1]']);
+});
+
+test('l auditor treballa sobre el contingut efectiu després de content_corrections',()=>{
+  const effective=applyAuditCorrections(
+    {id:'q1',block:'b1',correct:2,topic:'Tema',question:'Pregunta base',options:['A','B','C','D'],explanation:'Base'},
+    {topic:'Tema',question:'Pregunta base',options:['A','B','C','D'],explanation:'Base'},
+    {canonical:{question:'Pregunta corregida'},es:{options:['A','Una comunicació interna','C','D']}}
+  );
+  assert.equal(effective.ca.question,'Pregunta corregida');
+  assert.equal(effective.ca.id,'q1');
+  assert.equal(effective.ca.correct,2);
+  assert.deepEqual(detectCatalanLeakageInSpanish(effective.es),['options[1]']);
 });
 
 test('rebutja traçabilitat fora dels límits físics de la font',()=>{
