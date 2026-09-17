@@ -22,8 +22,17 @@ test('detecta enunciats duplicats encara que canviïn només accents o puntuaci�
 });
 
 test('detecta català inequívoc dins camps castellans sense confondre termes compartits',()=>{
-  assert.deepEqual(detectCatalanLeakageInSpanish({topic:'Comunicació escrita',question:'¿Qué documento corresponde?',explanation:'Es correcto.'}),['topic']);
-  assert.deepEqual(detectCatalanLeakageInSpanish({topic:'Recursos humanos',question:'¿Qué documento corresponde?',explanation:'Es correcto.'}),[]);
+  assert.deepEqual(detectCatalanLeakageInSpanish({topic:'Comunicació escrita',question:'¿Qué documento corresponde?',explanation:'Es correcto.',options:['A','B','C','D']}),['topic']);
+  assert.deepEqual(detectCatalanLeakageInSpanish({topic:'Recursos humanos',question:'¿Qué documento corresponde?',explanation:'Es correcto.',options:['A','B','C','D']}),[]);
+});
+
+test('detecta català inequívoc dins les opcions castellanes',()=>{
+  assert.deepEqual(detectCatalanLeakageInSpanish({
+    topic:'Comunicación escrita',
+    question:'¿Qué opción corresponde?',
+    explanation:'La respuesta es correcta.',
+    options:['Una carta formal','Una comunicació interna','Un correo electrónico','Una solicitud']
+  }),['options[1]']);
 });
 
 test('rebutja traçabilitat fora dels límits físics de la font',()=>{
