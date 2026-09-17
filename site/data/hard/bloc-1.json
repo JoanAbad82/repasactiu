@@ -51,26 +51,26 @@
     },
     "b1-005": {
       "ca": [
-        "És creada per particulars però queda gestionada necessàriament per una administració",
-        "Es finança principalment amb recursos públics encara que la gestió sigui privada",
-        "Ha de tenir sempre una finalitat lucrativa"
+        "És creada per particulars però la gestió queda sota la responsabilitat d’una administració que en supervisa l’activitat",
+        "La seva naturalesa privada depèn que la major part del finançament provingui de recursos públics gestionats privadament",
+        "La naturalesa privada implica que els excedents es distribueixen entre els propietaris o socis"
       ],
       "es": [
-        "Es creada por particulares pero queda gestionada necesariamente por una administración",
-        "Se financia principalmente con recursos públicos aunque la gestión sea privada",
-        "Debe tener siempre una finalidad lucrativa"
+        "Es creada por particulares pero la gestión queda bajo la responsabilidad de una administración que supervisa su actividad",
+        "Su naturaleza privada depende de que la mayor parte de la financiación proceda de recursos públicos gestionados privadamente",
+        "La naturaleza privada implica que los excedentes se distribuyen entre los propietarios o socios"
       ]
     },
     "b1-006": {
       "ca": [
-        "Només lucrativa, perquè es finança amb recursos privats",
-        "Només no lucrativa, si adopta la forma d’associació o fundació",
-        "Determinada exclusivament per l’origen públic o privat del finançament"
+        "Lucrativa o pública, segons l’origen principal del finançament",
+        "No lucrativa o administrativa, segons la forma jurídica adoptada",
+        "Comercial o lucrativa, segons el tipus d’activitat que desenvolupa"
       ],
       "es": [
-        "Solo lucrativa, porque se financia con recursos privados",
-        "Solo no lucrativa, si adopta la forma de asociación o fundación",
-        "Determinada exclusivamente por el origen público o privado de la financiación"
+        "Lucrativa o pública, según el origen principal de la financiación",
+        "No lucrativa o administrativa, según la forma jurídica adoptada",
+        "Comercial o lucrativa, según el tipo de actividad que desarrolla"
       ]
     },
     "b1-007": {
@@ -483,14 +483,14 @@
     },
     "b1-041": {
       "ca": [
-        "Les entitats privades només poden ser no lucratives si són fundacions",
-        "Una entitat sense ànim de lucre passa a ser pública quan presta un servei d’interès general",
-        "La condició de privada depèn de la gestió i del finançament, però implica necessàriament finalitat lucrativa"
+        "El caràcter privat descriu qui crea i gestiona l’entitat, mentre la finalitat lucrativa queda determinada pel tipus de finançament",
+        "Una entitat sense ànim de lucre passa al sector públic quan presta un servei d’interès general",
+        "La naturalesa privada i l’ànim de lucre coincideixen quan l’entitat està controlada per persones particulars"
       ],
       "es": [
-        "Las entidades privadas solo pueden ser no lucrativas si son fundaciones",
-        "Una entidad sin ánimo de lucro pasa a ser pública cuando presta un servicio de interés general",
-        "La condición de privada depende de la gestión y la financiación, pero implica necesariamente finalidad lucrativa"
+        "El carácter privado describe quién crea y gestiona la entidad, mientras la finalidad lucrativa queda determinada por el tipo de financiación",
+        "Una entidad sin ánimo de lucro pasa al sector público cuando presta un servicio de interés general",
+        "La naturaleza privada y el ánimo de lucro coinciden cuando la entidad está controlada por personas particulares"
       ]
     },
     "b1-042": {
@@ -519,14 +519,14 @@
     },
     "b1-044": {
       "ca": [
-        "La manca de repartiment de beneficis la converteix necessàriament en entitat pública",
-        "El finançament privat obliga que la fundació tingui finalitat lucrativa",
-        "El caràcter públic o privat depèn exclusivament de si l’activitat és d’interès general"
+        "El finançament privat determina una finalitat lucrativa encara que els excedents no es reparteixin",
+        "La prestació d’activitats d’interès general situa la fundació en el sector públic encara que sigui creada per particulars",
+        "L’absència de repartiment de beneficis defineix el sector de l’entitat, mentre l’origen del capital defineix la seva finalitat"
       ],
       "es": [
-        "La falta de reparto de beneficios la convierte necesariamente en entidad pública",
-        "La financiación privada obliga a que la fundación tenga finalidad lucrativa",
-        "El carácter público o privado depende exclusivamente de si la actividad es de interés general"
+        "La financiación privada determina una finalidad lucrativa aunque los excedentes no se repartan",
+        "La prestación de actividades de interés general sitúa a la fundación en el sector público aunque sea creada por particulares",
+        "La ausencia de reparto de beneficios define el sector de la entidad, mientras el origen del capital define su finalidad"
       ]
     },
     "b1-045": {
