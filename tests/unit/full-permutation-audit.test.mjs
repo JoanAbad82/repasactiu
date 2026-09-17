@@ -8,11 +8,12 @@ test('generatePermutations produeix exactament les 24 permutacions de quatre opc
   assert.equal(new Set(permutations.map(p=>p.join(','))).size,24);
 });
 
-test('les 450 preguntes superen totes les 24 permutacions en català i castellà', async () => {
+test('totes les preguntes publicades superen les 24 permutacions en català i castellà', async () => {
   const result=await runPermutationAudit();
-  assert.equal(result.questions,450);
+  assert.equal(result.questions,526);
   assert.equal(result.permutationsPerQuestion,24);
   assert.equal(result.languages,2);
-  assert.equal(result.cases,21600);
+  assert.equal(result.cases,result.questions*result.permutationsPerQuestion*result.languages);
+  assert.equal(result.cases,25248);
   assert.deepEqual(result.errors,[]);
 });
