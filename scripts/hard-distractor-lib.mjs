@@ -20,6 +20,20 @@ const normalize=value=>String(value??'')
 
 const readJson=async p=>JSON.parse(await readFile(path.join(dataDir,String(p).replace(/^data\//,'')),'utf8'));
 
+const giveawayAbsoluteWords={
+  ca:new Set(['només','sempre','mai','exclusivament','necessàriament','únicament','unicament']),
+  es:new Set(['solo','sólo','siempre','nunca','exclusivamente','necesariamente','únicamente'])
+};
+
+function hasGiveawayAbsolute(value,lang){
+  const words=String(value??'').toLocaleLowerCase(lang==='es'?'es':'ca').match(/\p{L}+/gu)||[];
+  return words.some(word=>giveawayAbsoluteWords[lang].has(word));
+}
+
+export function countGiveawayAbsoluteDistractors(values,lang){
+  return Array.isArray(values)?values.filter(value=>hasGiveawayAbsolute(value,lang)).length:0;
+}
+
 function validateLanguage(question,hardRecord,lang){
   const errors=[];
   const values=hardRecord?.[lang];
@@ -42,6 +56,7 @@ function validateLanguage(question,hardRecord,lang){
   const practiceWrong=new Set(sourceOptions.filter((_,i)=>i!==question.correct).map(normalize));
   const changed=normalized.filter(value=>!practiceWrong.has(value)).length;
   if(changed<2)errors.push(`${question.id}: ${lang} ha de canviar almenys 2 distractors respecte pràctica`);
+  if(countGiveawayAbsoluteDistractors(values,lang)>1)errors.push(`${question.id}: ${lang} conté massa distractors amb absoluts que poden donar pistes`);
   return errors;
 }
 
