@@ -79,26 +79,27 @@ La revisió final va detectar que el primer auditor lingüístic encara no inspe
 
 Una segona revisió del mateix auditor va detectar que llegia els fitxers base però no materialitzava primer `content_corrections.json`. Es va afegir una prova RED específica a la CI #162 i s'ha corregit el flux perquè duplicats i idioma es comprovin sobre el contingut final que veu l'usuari.
 
-## Resultat automatitzat de referència
+## Resultat automatitzat de referència — CI #165
 
-La CI #160 va certificar 526/526 preguntes, 25.248/25.248 permutacions, 70/70 unit tests i 17/17 E2E abans de l'últim reforç de correccions efectives. Després d'aquest reforç s'executa de nou tota la suite sobre el HEAD final; el PR només és apte per a fusió si aquesta execució completa també és verda.
+La CI #165, executada després de tots els reforços de l'auditor, va certificar:
 
-Els controls esperats en el HEAD final són:
-
-| Control | Criteri |
+| Control | Resultat |
 |---|---:|
-| Preguntes canòniques | 526/526 |
-| Traduccions castellanes | 526/526 |
-| Ajudes de memòria bilingües | 526/526 |
-| Traçabilitat | 526/526 |
+| Preguntes canòniques | 526/526 PASS |
+| Traduccions castellanes | 526/526 PASS |
+| Ajudes de memòria bilingües | 526/526 PASS |
+| Traçabilitat | 526/526 PASS |
 | Fonts acadèmiques autoritzades | 7 |
 | Duplicats exactes normalitzats | 0 |
 | Permutacions per pregunta | 24/24 |
 | Idiomes per permutació | 2/2 |
-| Casos de posició de resposta | 25.248/25.248 |
-| E2E Playwright | 17/17 |
+| Casos de posició de resposta | 25.248/25.248 PASS |
+| Unit tests | 71/71 PASS |
+| E2E Playwright | 17/17 PASS |
 
 Els E2E reforçats inclouen persistència d'errors i mode de repàs, canvi d'idioma, finalització completa d'un examen de 10 preguntes amb blancs, revisió de resultats i UF0518 en castellà en viewport mòbil sense desbordament horitzontal.
+
+Aquesta actualització documental no modifica codi ni contingut acadèmic. El PR només és apte per a fusió si la CI completa torna a quedar verda sobre el HEAD final exacte que es fusionarà.
 
 ## Garantia correcta
 
