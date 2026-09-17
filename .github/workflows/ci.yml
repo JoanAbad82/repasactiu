@@ -1,9 +1,8 @@
-name: CI
+name: Production smoke verification
 on:
   pull_request:
-  workflow_dispatch:
 jobs:
-  test:
+  production-smoke:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -12,4 +11,6 @@ jobs:
           node-version: 22
       - run: npm install --no-audit --no-fund
       - run: npx playwright install --with-deps chromium
-      - run: npm run test:all
+      - run: npm run test:e2e
+        env:
+          BASE_URL: https://repasactiu.pages.dev
