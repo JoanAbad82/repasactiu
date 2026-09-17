@@ -38,9 +38,10 @@ test('un examen de 10 preguntas llega a resultados y contabiliza blancos',async(
   await page.getByRole('button',{name:'Començar'}).click();
 
   await page.locator('[data-answer-option]').first().click();
-  for(let i=1;i<=9;i++){
-    await page.getByRole('button',{name:i===9?'Finalitzar examen':'Següent'}).click();
+  for(let i=0;i<9;i++){
+    await page.getByRole('button',{name:'Següent'}).click();
   }
+  await page.getByRole('button',{name:'Finalitzar examen'}).click();
 
   await expect(page.locator('.results')).toBeVisible();
   await expect(page.getByText('En blanc: 9')).toBeVisible();
