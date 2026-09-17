@@ -1,0 +1,725 @@
+{
+  "blockId": "bloc-4",
+  "questions": {
+    "b4-001": {
+      "ca": [
+        "Una unitat definida pel rang jeràrquic dels seus membres, encara que desenvolupin funcions diferents",
+        "Una agrupació de persones que comparteixen espai i recursos, independentment de la funció que realitzen",
+        "Una unitat creada per coordinar projectes temporals entre diverses àrees de l’empresa"
+      ],
+      "es": [
+        "Una unidad definida por el rango jerárquico de sus miembros, aunque desarrollen funciones distintas",
+        "Una agrupación de personas que comparten espacio y recursos, independientemente de la función que realizan",
+        "Una unidad creada para coordinar proyectos temporales entre distintas áreas de la empresa"
+      ]
+    },
+    "b4-002": {
+      "ca": [
+        "Per concentrar totes les decisions en una única àrea de direcció",
+        "Per distribuir els recursos econòmics segons el pressupost de cada unitat",
+        "Per agrupar persones segons la ubicació física encara que les seves funcions siguin diferents"
+      ],
+      "es": [
+        "Para concentrar todas las decisiones en una única área de dirección",
+        "Para distribuir los recursos económicos según el presupuesto de cada unidad",
+        "Para agrupar personas según la ubicación física aunque sus funciones sean diferentes"
+      ]
+    },
+    "b4-003": {
+      "ca": [
+        "La funció s’integra en Administració perquè el servei no requereix un procés productiu",
+        "La funció passa al departament comercial perquè el servei és el producte ofert",
+        "La funció queda absorbida per Atenció al Client, que assumeix l’execució de la prestació"
+      ],
+      "es": [
+        "La función se integra en Administración porque el servicio no requiere un proceso productivo",
+        "La función pasa al departamento comercial porque el servicio es el producto ofrecido",
+        "La función queda absorbida por Atención al Cliente, que asume la ejecución de la prestación"
+      ]
+    },
+    "b4-004": {
+      "ca": [
+        "Planificar i controlar directament el procés de producció o prestació del servei",
+        "Gestionar la informació financera conjuntament amb Administració",
+        "Establir i millorar els criteris de qualitat dels processos"
+      ],
+      "es": [
+        "Planificar y controlar directamente el proceso de producción o prestación del servicio",
+        "Gestionar la información financiera conjuntamente con Administración",
+        "Establecer y mejorar los criterios de calidad de los procesos"
+      ]
+    },
+    "b4-005": {
+      "ca": [
+        "Direcció, perquè coordina la resta de departaments",
+        "Qualitat, perquè comprova els criteris aplicables al servei",
+        "Administració, perquè controla la documentació que permet prestar el servei"
+      ],
+      "es": [
+        "Dirección, porque coordina al resto de departamentos",
+        "Calidad, porque comprueba los criterios aplicables al servicio",
+        "Administración, porque controla la documentación que permite prestar el servicio"
+      ]
+    },
+    "b4-006": {
+      "ca": [
+        "Administració",
+        "Financer",
+        "Direcció"
+      ],
+      "es": [
+        "Administración",
+        "Financiero",
+        "Dirección"
+      ]
+    },
+    "b4-007": {
+      "ca": [
+        "Gestionar la relació amb el client en el moment concret de la venda",
+        "Recollir incidències i opinions per mantenir una relació positiva amb els clients",
+        "Negociar amb proveïdors les condicions de compra dels productes"
+      ],
+      "es": [
+        "Gestionar la relación con el cliente en el momento concreto de la venta",
+        "Recoger incidencias y opiniones para mantener una relación positiva con los clientes",
+        "Negociar con proveedores las condiciones de compra de los productos"
+      ]
+    },
+    "b4-008": {
+      "ca": [
+        "Vendes promociona preus i descomptes; Atenció al Client negocia les condicions amb proveïdors",
+        "Vendes manté la relació posterior amb el client; Atenció al Client només tramita el cobrament",
+        "Vendes i Atenció al Client tenen la mateixa funció, però una depèn de Comercial i l’altra de Direcció"
+      ],
+      "es": [
+        "Ventas promociona precios y descuentos; Atención al Cliente negocia las condiciones con proveedores",
+        "Ventas mantiene la relación posterior con el cliente; Atención al Cliente solo tramita el cobro",
+        "Ventas y Atención al Cliente tienen la misma función, pero una depende de Comercial y la otra de Dirección"
+      ]
+    },
+    "b4-009": {
+      "ca": [
+        "Producció",
+        "Administració",
+        "Direcció"
+      ],
+      "es": [
+        "Producción",
+        "Administración",
+        "Dirección"
+      ]
+    },
+    "b4-010": {
+      "ca": [
+        "La funció de qualitat requereix una unitat independent de les àrees operatives",
+        "La seva responsabilitat se centra en revisar el resultat final i queda fora dels processos i serveis",
+        "En empreses de serveis, la funció s’adscriu a Producció per mantenir un criteri de control únic"
+      ],
+      "es": [
+        "La función de calidad requiere una unidad independiente de las áreas operativas",
+        "Su responsabilidad se centra en revisar el resultado final y queda fuera de los procesos y servicios",
+        "En empresas de servicios, la función se adscribe a Producción para mantener un criterio de control único"
+      ]
+    },
+    "b4-011": {
+      "ca": [
+        "Guiar els altres departaments i prendre decisions coordinades",
+        "Gestionar la relació comercial amb proveïdors i negociar les compres",
+        "Establir, comprovar i millorar criteris aplicables als processos"
+      ],
+      "es": [
+        "Guiar a los demás departamentos y tomar decisiones coordinadas",
+        "Gestionar la relación comercial con proveedores y negociar las compras",
+        "Establecer, comprobar y mejorar criterios aplicables a los procesos"
+      ]
+    },
+    "b4-012": {
+      "ca": [
+        "Comercial",
+        "Vendes",
+        "Administració"
+      ],
+      "es": [
+        "Comercial",
+        "Ventas",
+        "Administración"
+      ]
+    },
+    "b4-013": {
+      "ca": [
+        "Administració",
+        "Direcció",
+        "Recursos Humans"
+      ],
+      "es": [
+        "Administración",
+        "Dirección",
+        "Recursos Humanos"
+      ]
+    },
+    "b4-014": {
+      "ca": [
+        "Perquè la mida de l’empresa determina sempre un únic model de departamentalització",
+        "Perquè totes les funcions existeixen a totes les empreses però canvien de nom",
+        "Perquè cada empresa ha de tenir com a mínim Direcció, Producció, Comercial i Legal"
+      ],
+      "es": [
+        "Porque el tamaño de la empresa determina siempre un único modelo de departamentalización",
+        "Porque todas las funciones existen en todas las empresas pero cambian de nombre",
+        "Porque cada empresa debe tener como mínimo Dirección, Producción, Comercial y Legal"
+      ]
+    },
+    "b4-015": {
+      "ca": [
+        "Informació mercantil",
+        "Informació financera",
+        "Informació de personal"
+      ],
+      "es": [
+        "Información mercantil",
+        "Información financiera",
+        "Información de personal"
+      ]
+    },
+    "b4-016": {
+      "ca": [
+        "Informació tributària vinculada als llibres fiscals",
+        "Informació financera vinculada als recursos econòmics",
+        "Informació de vendes i compres vinculada a operacions comercials"
+      ],
+      "es": [
+        "Información tributaria vinculada a los libros fiscales",
+        "Información financiera vinculada a los recursos económicos",
+        "Información de ventas y compras vinculada a operaciones comerciales"
+      ]
+    },
+    "b4-017": {
+      "ca": [
+        "Informació tributària i fiscal",
+        "Informació mercantil",
+        "Informació de vendes i compres"
+      ],
+      "es": [
+        "Información tributaria y fiscal",
+        "Información mercantil",
+        "Información de ventas y compras"
+      ]
+    },
+    "b4-018": {
+      "ca": [
+        "Informació financera sobre la valoració de l’estoc",
+        "Informació mercantil sobre contractes amb proveïdors",
+        "Informació de personal sobre responsabilitats del magatzem"
+      ],
+      "es": [
+        "Información financiera sobre la valoración del stock",
+        "Información mercantil sobre contratos con proveedores",
+        "Información de personal sobre responsabilidades del almacén"
+      ]
+    },
+    "b4-019": {
+      "ca": [
+        "Contractes mercantils, escriptures societàries, llibres mercantils i tràmits registrals",
+        "Balanç general, inventaris, canvis del patrimoni net i liquidacions",
+        "Comandes, existències, factures de compra i informació d’entrades i sortides"
+      ],
+      "es": [
+        "Contratos mercantiles, escrituras societarias, libros mercantiles y trámites registrales",
+        "Balance general, inventarios, cambios del patrimonio neto y liquidaciones",
+        "Pedidos, existencias, facturas de compra e información de entradas y salidas"
+      ]
+    },
+    "b4-020": {
+      "ca": [
+        "Administració i Legal com a responsables exclusius de tota obligació fiscal",
+        "Financer i Direcció, sense intervenció d’Administració o Comptabilitat",
+        "Comptable i Legal exclusivament, perquè els impostos són matèria jurídica"
+      ],
+      "es": [
+        "Administración y Legal como responsables exclusivos de toda obligación fiscal",
+        "Financiero y Dirección, sin intervención de Administración o Contabilidad",
+        "Contabilidad y Legal exclusivamente, porque los impuestos son materia jurídica"
+      ]
+    },
+    "b4-021": {
+      "ca": [
+        "Financer i Comptabilitat",
+        "Administració i Financer",
+        "Direcció i Comptabilitat"
+      ],
+      "es": [
+        "Financiero y Contabilidad",
+        "Administración y Financiero",
+        "Dirección y Contabilidad"
+      ]
+    },
+    "b4-022": {
+      "ca": [
+        "Financer, Comptabilitat i Legal",
+        "Administració, Comptabilitat i Recursos Humans",
+        "Direcció, Comptabilitat i Compres"
+      ],
+      "es": [
+        "Financiero, Contabilidad y Legal",
+        "Administración, Contabilidad y Recursos Humanos",
+        "Dirección, Contabilidad y Compras"
+      ]
+    },
+    "b4-023": {
+      "ca": [
+        "Només poden consultar-la quan Vendes autoritza l’accés",
+        "Producció la transforma en informació de qualitat i Qualitat en informació mercantil",
+        "Poden assumir-ne la gestió principal quan hi ha molt volum d’estoc"
+      ],
+      "es": [
+        "Solo pueden consultarla cuando Ventas autoriza el acceso",
+        "Producción la transforma en información de calidad y Calidad en información mercantil",
+        "Pueden asumir su gestión principal cuando hay mucho volumen de stock"
+      ]
+    },
+    "b4-024": {
+      "ca": [
+        "Recursos Humans i Financer",
+        "Administració i Financer",
+        "Recursos Humans i Prevenció"
+      ],
+      "es": [
+        "Recursos Humanos y Financiero",
+        "Administración y Financiero",
+        "Recursos Humanos y Prevención"
+      ]
+    },
+    "b4-025": {
+      "ca": [
+        "RRHH gestiona els pagaments i Financer redacta els contractes laborals",
+        "Administració gestiona la prevenció i Legal controla les absències",
+        "Prevenció gestiona les nòmines i Financer les avaluacions de rendiment"
+      ],
+      "es": [
+        "RR. HH. gestiona los pagos y Financiero redacta los contratos laborales",
+        "Administración gestiona la prevención y Legal controla las ausencias",
+        "Prevención gestiona las nóminas y Financiero las evaluaciones de rendimiento"
+      ]
+    },
+    "b4-026": {
+      "ca": [
+        "El volum de producció",
+        "El pressupost disponible",
+        "La distribució geogràfica dels centres"
+      ],
+      "es": [
+        "El volumen de producción",
+        "El presupuesto disponible",
+        "La distribución geográfica de los centros"
+      ]
+    },
+    "b4-027": {
+      "ca": [
+        "Més centralització i menys especialització per simplificar l’activitat",
+        "Una reducció de recursos per evitar duplicitats entre departaments",
+        "La integració de totes les funcions en Direcció per mantenir el control"
+      ],
+      "es": [
+        "Más centralización y menos especialización para simplificar la actividad",
+        "Una reducción de recursos para evitar duplicidades entre departamentos",
+        "La integración de todas las funciones en Dirección para mantener el control"
+      ]
+    },
+    "b4-028": {
+      "ca": [
+        "Determina quines funcions s’han de centralitzar segons l’àrea geogràfica",
+        "Condiciona principalment el nombre de clients que pot atendre cada departament",
+        "Defineix obligatòriament quins productes o serveis pot oferir l’empresa"
+      ],
+      "es": [
+        "Determina qué funciones deben centralizarse según el área geográfica",
+        "Condiciona principalmente el número de clientes que puede atender cada departamento",
+        "Define obligatoriamente qué productos o servicios puede ofrecer la empresa"
+      ]
+    },
+    "b4-029": {
+      "ca": [
+        "La manca d’espai fa que les funcions de suport s’integrin en una mateixa unitat administrativa",
+        "La distribució física afecta els espais de treball, però no la definició funcional dels departaments",
+        "Quan l’espai és insuficient, les funcions sense ubicació pròpia s’integren en altres departaments"
+      ],
+      "es": [
+        "La falta de espacio hace que las funciones de apoyo se integren en una misma unidad administrativa",
+        "La distribución física afecta a los espacios de trabajo, pero no a la definición funcional de los departamentos",
+        "Cuando el espacio es insuficiente, las funciones sin ubicación propia se integran en otros departamentos"
+      ]
+    },
+    "b4-030": {
+      "ca": [
+        "Centralitzar totes les funcions comunes i deixar només Vendes a cada centre",
+        "Distribuir totes les funcions a cada delegació perquè funcionin amb plena autonomia",
+        "Assignar les funcions segons la mida física de cada delegació, encara que es dupliquin"
+      ],
+      "es": [
+        "Centralizar todas las funciones comunes y dejar solo Ventas en cada centro",
+        "Distribuir todas las funciones en cada delegación para que funcionen con plena autonomía",
+        "Asignar las funciones según el tamaño físico de cada delegación, aunque se dupliquen"
+      ]
+    },
+    "b4-031": {
+      "ca": [
+        "Centralitzar el seguiment de tots els clients en Direcció",
+        "Ampliar Producció perquè assumeixi també la relació amb aquests clients",
+        "Traslladar el seguiment específic a Vendes encara que no estigui relacionat amb la venda"
+      ],
+      "es": [
+        "Centralizar el seguimiento de todos los clientes en Dirección",
+        "Ampliar Producción para que asuma también la relación con estos clientes",
+        "Trasladar el seguimiento específico a Ventas aunque no esté relacionado con la venta"
+      ]
+    },
+    "b4-032": {
+      "ca": [
+        "Perquè la mida de l’empresa determina si pot existir un departament de finançament",
+        "Perquè el pressupost disponible obliga el concessionari a separar totes les funcions",
+        "Perquè l’àrea geogràfica del concessionari exigeix una estructura més complexa"
+      ],
+      "es": [
+        "Porque el tamaño de la empresa determina si puede existir un departamento de financiación",
+        "Porque el presupuesto disponible obliga al concesionario a separar todas las funciones",
+        "Porque el área geográfica del concesionario exige una estructura más compleja"
+      ]
+    },
+    "b4-033": {
+      "ca": [
+        "La presència de riscos específics determina la creació d’una unitat preventiva interna",
+        "En empreses de menys de 500 persones, documentar i avaluar els riscos és suficient sense organitzar una modalitat preventiva",
+        "La modalitat preventiva es tria principalment segons els recursos econòmics disponibles"
+      ],
+      "es": [
+        "La presencia de riesgos específicos determina la creación de una unidad preventiva interna",
+        "En empresas de menos de 500 personas, documentar y evaluar los riesgos es suficiente sin organizar una modalidad preventiva",
+        "La modalidad preventiva se elige principalmente según los recursos económicos disponibles"
+      ]
+    },
+    "b4-034": {
+      "ca": [
+        "Amb més de 250 persones, independentment del tipus d’activitat",
+        "Amb més de 500 persones, o entre 250 i 500 quan qualsevol lloc presenta algun risc",
+        "Només quan una autoritat laboral ho ordena després d’un accident"
+      ],
+      "es": [
+        "Con más de 250 personas, independientemente del tipo de actividad",
+        "Con más de 500 personas, o entre 250 y 500 cuando cualquier puesto presenta algún riesgo",
+        "Solo cuando una autoridad laboral lo ordena después de un accidente"
+      ]
+    },
+    "b4-035": {
+      "ca": [
+        "Gestionar les vendes presencials i cobrar als clients",
+        "Registrar exclusivament l’entrada i sortida del personal intern",
+        "Centralitzar la documentació administrativa de tots els departaments"
+      ],
+      "es": [
+        "Gestionar las ventas presenciales y cobrar a los clientes",
+        "Registrar exclusivamente la entrada y salida del personal interno",
+        "Centralizar la documentación administrativa de todos los departamentos"
+      ]
+    },
+    "b4-036": {
+      "ca": [
+        "Accessibilitat, ordre i senyalització, encara que la comoditat i la seguretat siguin secundàries",
+        "Bona imatge corporativa, materials d’oficina i registre de visites com a únics criteris",
+        "Il·luminació, ventilació i temperatura, sense necessitat de considerar ubicació o accessibilitat"
+      ],
+      "es": [
+        "Accesibilidad, orden y señalización, aunque la comodidad y la seguridad sean secundarias",
+        "Buena imagen corporativa, materiales de oficina y registro de visitas como únicos criterios",
+        "Iluminación, ventilación y temperatura, sin necesidad de considerar ubicación o accesibilidad"
+      ]
+    },
+    "b4-037": {
+      "ca": [
+        "Il·luminació intensa, temperatura uniforme i silenci absolut",
+        "Ventilació suficient i soroll baix, encara que l’ordre de l’espai no sigui rellevant",
+        "Temperatura confortable i neteja, encara que una il·luminació insuficient no afecti la comunicació"
+      ],
+      "es": [
+        "Iluminación intensa, temperatura uniforme y silencio absoluto",
+        "Ventilación suficiente y ruido bajo, aunque el orden del espacio no sea relevante",
+        "Temperatura confortable y limpieza, aunque una iluminación insuficiente no afecte a la comunicación"
+      ]
+    },
+    "b4-038": {
+      "ca": [
+        "Taulell, cadira ergonòmica, seients d’espera i mobiliari d’arxiu",
+        "Senyalització, directoris, seients d’espera i mobiliari accessible",
+        "Ordinador, telèfon, agenda de visites i mobiliari ergonòmic"
+      ],
+      "es": [
+        "Mostrador, silla ergonómica, asientos de espera y mobiliario de archivo",
+        "Señalización, directorios, asientos de espera y mobiliario accesible",
+        "Ordenador, teléfono, agenda de visitas y mobiliario ergonómico"
+      ]
+    },
+    "b4-039": {
+      "ca": [
+        "Mantenint-la accessible a tot el personal perquè l’atenció sigui més ràpida",
+        "Protegint només la documentació en paper, perquè les dades digitals ja estan segures",
+        "Guardant-la fora de la vista, però permetent l’accés als visitants si la necessiten per orientar-se"
+      ],
+      "es": [
+        "Manteniéndola accesible a todo el personal para que la atención sea más rápida",
+        "Protegiendo solo la documentación en papel, porque los datos digitales ya están seguros",
+        "Guardándola fuera de la vista, pero permitiendo el acceso a los visitantes si la necesitan para orientarse"
+      ]
+    },
+    "b4-040": {
+      "ca": [
+        "El mobiliari ha de prioritzar la imatge corporativa encara que redueixi la comoditat",
+        "L’accessibilitat depèn sobretot de la senyalització i no de la distribució del mobiliari",
+        "L’ergonomia consisteix principalment a disposar de seients d’espera còmodes per als visitants"
+      ],
+      "es": [
+        "El mobiliario debe priorizar la imagen corporativa aunque reduzca la comodidad",
+        "La accesibilidad depende sobre todo de la señalización y no de la distribución del mobiliario",
+        "La ergonomía consiste principalmente en disponer de asientos de espera cómodos para los visitantes"
+      ]
+    },
+    "b4-041": {
+      "ca": [
+        "Administració tramita la notificació i Legal assumeix la interpretació i la responsabilitat principal de tot el procediment",
+        "Financer calcula l’impacte econòmic i Administració arxiva, mentre Legal dirigeix el procediment tributari",
+        "Comptabilitat registra l’efecte i Direcció resol la qüestió jurídica sense intervenció específica de Legal"
+      ],
+      "es": [
+        "Administración tramita la notificación y Legal asume la interpretación y la responsabilidad principal de todo el procedimiento",
+        "Financiero calcula el impacto económico y Administración archiva, mientras Legal dirige el procedimiento tributario",
+        "Contabilidad registra el efecto y Dirección resuelve la cuestión jurídica sin intervención específica de Legal"
+      ]
+    },
+    "b4-042": {
+      "ca": [
+        "Administració i Comptabilitat",
+        "Financer i Legal",
+        "Direcció i Administració"
+      ],
+      "es": [
+        "Administración y Contabilidad",
+        "Financiero y Legal",
+        "Dirección y Administración"
+      ]
+    },
+    "b4-043": {
+      "ca": [
+        "Determinar els terminis de les obligacions tributàries",
+        "Conèixer l’estat general dels comptes i del patrimoni net",
+        "Preparar la documentació mercantil per al Registre"
+      ],
+      "es": [
+        "Determinar los plazos de las obligaciones tributarias",
+        "Conocer el estado general de las cuentas y del patrimonio neto",
+        "Preparar la documentación mercantil para el Registro"
+      ]
+    },
+    "b4-044": {
+      "ca": [
+        "RRHH gestiona tot el procés, inclosos pagaments i documentació preventiva",
+        "Administració assumeix tota la informació i RRHH només la consulta",
+        "Financer gestiona nòmines, absències i formació, mentre RRHH controla el pressupost"
+      ],
+      "es": [
+        "RR. HH. gestiona todo el proceso, incluidos pagos y documentación preventiva",
+        "Administración asume toda la información y RR. HH. solo la consulta",
+        "Financiero gestiona nóminas, ausencias y formación, mientras RR. HH. controla el presupuesto"
+      ]
+    },
+    "b4-045": {
+      "ca": [
+        "No; separar Administració i Finances és necessari per evitar conflictes entre registre i control financer",
+        "No; la dimensió petita pot reduir funcions, però no permet agrupar-les en una mateixa unitat",
+        "No; Administració i Finances pertanyen a nivells jeràrquics diferents i han de mantenir estructures separades"
+      ],
+      "es": [
+        "No; separar Administración y Finanzas es necesario para evitar conflictos entre registro y control financiero",
+        "No; el tamaño pequeño puede reducir funciones, pero no permite agruparlas en una misma unidad",
+        "No; Administración y Finanzas pertenecen a niveles jerárquicos distintos y deben mantener estructuras separadas"
+      ]
+    },
+    "b4-046": {
+      "ca": [
+        "Comercial",
+        "Vendes",
+        "Qualitat"
+      ],
+      "es": [
+        "Comercial",
+        "Ventas",
+        "Calidad"
+      ]
+    },
+    "b4-047": {
+      "ca": [
+        "A Direcció, perquè és qui decideix com es presta qualsevol servei",
+        "A Qualitat, perquè controlar el servei equival a controlar-ne els criteris",
+        "A Administració, perquè una consultoria treballa principalment amb documentació"
+      ],
+      "es": [
+        "A Dirección, porque es quien decide cómo se presta cualquier servicio",
+        "A Calidad, porque controlar el servicio equivale a controlar sus criterios",
+        "A Administración, porque una consultoría trabaja principalmente con documentación"
+      ]
+    },
+    "b4-048": {
+      "ca": [
+        "La funció correspon a Producció perquè revisa processos",
+        "La funció existeix només si la persona responsable depèn directament de Direcció",
+        "La funció queda integrada automàticament a Administració quan no hi ha departament propi"
+      ],
+      "es": [
+        "La función corresponde a Producción porque revisa procesos",
+        "La función existe solo si la persona responsable depende directamente de Dirección",
+        "La función queda integrada automáticamente en Administración cuando no hay departamento propio"
+      ]
+    },
+    "b4-049": {
+      "ca": [
+        "El volum de producció de cada centre",
+        "El pressupost disponible a cada delegació",
+        "La tipologia de clients atesos a cada centre"
+      ],
+      "es": [
+        "El volumen de producción de cada centro",
+        "El presupuesto disponible en cada delegación",
+        "La tipología de clientes atendidos en cada centro"
+      ]
+    },
+    "b4-050": {
+      "ca": [
+        "El pressupost",
+        "L’àrea geogràfica",
+        "La mida de l’empresa"
+      ],
+      "es": [
+        "El presupuesto",
+        "El área geográfica",
+        "El tamaño de la empresa"
+      ]
+    },
+    "b4-051": {
+      "ca": [
+        "Centralitzar totes les consultes en Direcció",
+        "Crear més departaments només perquè augmenta el volum d’activitat",
+        "Distribuir les funcions segons l’àrea geogràfica dels clients"
+      ],
+      "es": [
+        "Centralizar todas las consultas en Dirección",
+        "Crear más departamentos solo porque aumenta el volumen de actividad",
+        "Distribuir las funciones según el área geográfica de los clientes"
+      ]
+    },
+    "b4-052": {
+      "ca": [
+        "L’absència d’un departament propi indica que la prevenció s’ha externalitzat i deixa de ser una responsabilitat directa de l’empresa",
+        "L’obligació d’organitzar una modalitat preventiva apareix a partir d’un determinat llindar de plantilla",
+        "Els riscos específics es gestionen mitjançant un servei propi, mentre els riscos generals admeten altres modalitats"
+      ],
+      "es": [
+        "La ausencia de un departamento propio indica que la prevención se ha externalizado y deja de ser una responsabilidad directa de la empresa",
+        "La obligación de organizar una modalidad preventiva aparece a partir de un determinado umbral de plantilla",
+        "Los riesgos específicos se gestionan mediante un servicio propio, mientras los riesgos generales admiten otras modalidades"
+      ]
+    },
+    "b4-053": {
+      "ca": [
+        "Pot ser convenient més centralització per reduir el nombre d’unitats",
+        "El pressupost deixa de ser rellevant perquè l’activitat genera més recursos",
+        "L’estructura física obliga a subcontractar les funcions més complexes"
+      ],
+      "es": [
+        "Puede ser conveniente más centralización para reducir el número de unidades",
+        "El presupuesto deja de ser relevante porque la actividad genera más recursos",
+        "La estructura física obliga a subcontratar las funciones más complejas"
+      ]
+    },
+    "b4-054": {
+      "ca": [
+        "El pressupost condiciona la qualitat dels espais i equipaments, però no la distribució funcional de l’organització",
+        "La limitació pressupostària obliga a conservar tots els departaments reduint-ne la plantilla",
+        "El pressupost determina quines funcions es poden centralitzar, però no el nombre d’àrees de l’empresa"
+      ],
+      "es": [
+        "El presupuesto condiciona la calidad de los espacios y equipamientos, pero no la distribución funcional de la organización",
+        "La limitación presupuestaria obliga a conservar todos los departamentos reduciendo su plantilla",
+        "El presupuesto determina qué funciones se pueden centralizar, pero no el número de áreas de la empresa"
+      ]
+    },
+    "b4-055": {
+      "ca": [
+        "El registre de visites",
+        "La distribució del mobiliari",
+        "Els formularis d’atenció"
+      ],
+      "es": [
+        "El registro de visitas",
+        "La distribución del mobiliario",
+        "Los formularios de atención"
+      ]
+    },
+    "b4-056": {
+      "ca": [
+        "Afecten sobretot la imatge, però no la comunicació si el personal està format",
+        "Poden compensar-se amb una bona senyalització i informació disponible",
+        "Només són rellevants quan hi ha temps d’espera prolongats"
+      ],
+      "es": [
+        "Afectan sobre todo a la imagen, pero no a la comunicación si el personal está formado",
+        "Pueden compensarse con una buena señalización e información disponible",
+        "Solo son relevantes cuando hay tiempos de espera prolongados"
+      ]
+    },
+    "b4-057": {
+      "ca": [
+        "La necessitat de disposar d’un registre de visites",
+        "El criteri d’ordre i neteja de l’espai",
+        "La uniformitat de la senyalització i els directoris"
+      ],
+      "es": [
+        "La necesidad de disponer de un registro de visitas",
+        "El criterio de orden y limpieza del espacio",
+        "La uniformidad de la señalización y los directorios"
+      ]
+    },
+    "b4-058": {
+      "ca": [
+        "Un directori de departaments",
+        "Un formulari d’informació a l’usuari",
+        "Una llista de cites sense dades d’entrada o sortida"
+      ],
+      "es": [
+        "Un directorio de departamentos",
+        "Un formulario de información al usuario",
+        "Una lista de citas sin datos de entrada o salida"
+      ]
+    },
+    "b4-059": {
+      "ca": [
+        "Prioritzar un taulell gran i visible encara que redueixi l’espai accessible",
+        "Situar la documentació a l’abast per agilitzar l’atenció al públic",
+        "Concentrar mobiliari i seients per reduir recorreguts encara que generin obstacles"
+      ],
+      "es": [
+        "Priorizar un mostrador grande y visible aunque reduzca el espacio accesible",
+        "Situar la documentación al alcance para agilizar la atención al público",
+        "Concentrar mobiliario y asientos para reducir recorridos aunque generen obstáculos"
+      ]
+    },
+    "b4-060": {
+      "ca": [
+        "Rebre i vendre en un espai orientat principalment a la promoció comercial",
+        "Informar i registrar en un espai centrat sobretot en l’arxiu administratiu",
+        "Orientar i gestionar incidències en un espai reservat només al personal intern"
+      ],
+      "es": [
+        "Recibir y vender en un espacio orientado principalmente a la promoción comercial",
+        "Informar y registrar en un espacio centrado sobre todo en el archivo administrativo",
+        "Orientar y gestionar incidencias en un espacio reservado solo al personal interno"
+      ]
+    }
+  }
+}

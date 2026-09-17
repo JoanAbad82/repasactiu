@@ -1,0 +1,845 @@
+{
+  "blockId": "bloc-2",
+  "questions": {
+    "b2-001": {
+      "ca": [
+        "Públiques, privades i mixtes",
+        "Individuals, societats i cooperatives",
+        "Fabricants, distribuïdores i de serveis"
+      ],
+      "es": [
+        "Públicas, privadas y mixtas",
+        "Individuales, sociedades y cooperativas",
+        "Fabricantes, distribuidoras y de servicios"
+      ]
+    },
+    "b2-002": {
+      "ca": [
+        "Desenvolupar activitats d’interès social sense repartir excedents",
+        "Satisfer necessitats comunes mitjançant una gestió cooperativa",
+        "Prestar activitats o serveis als clients sense fabricar béns materials"
+      ],
+      "es": [
+        "Desarrollar actividades de interés social sin repartir excedentes",
+        "Satisfacer necesidades comunes mediante una gestión cooperativa",
+        "Prestar actividades o servicios a los clientes sin fabricar bienes materiales"
+      ]
+    },
+    "b2-003": {
+      "ca": [
+        "Es reparteixen entre els membres en proporció a les seves aportacions",
+        "Es destinen a remunerar les aportacions dels membres abans de finançar les activitats de l’entitat",
+        "Es reserven per cobrir les despeses de l’exercici següent al marge dels objectius socials"
+      ],
+      "es": [
+        "Se reparten entre los miembros en proporción a sus aportaciones",
+        "Se destinan a remunerar las aportaciones de los miembros antes de financiar las actividades de la entidad",
+        "Se reservan para cubrir los gastos del ejercicio siguiente al margen de los objetivos sociales"
+      ]
+    },
+    "b2-004": {
+      "ca": [
+        "Perquè la forma jurídica determina automàticament el tipus de capital i l’activitat",
+        "Perquè cada criteri substitueix l’anterior quan canvia l’activitat de l’empresa",
+        "Perquè només les societats poden classificar-se per més d’un criteri"
+      ],
+      "es": [
+        "Porque la forma jurídica determina automáticamente el tipo de capital y la actividad",
+        "Porque cada criterio sustituye al anterior cuando cambia la actividad de la empresa",
+        "Porque solo las sociedades pueden clasificarse por más de un criterio"
+      ]
+    },
+    "b2-005": {
+      "ca": [
+        "L’estructura jurídica",
+        "El tipus de capital",
+        "El motiu de creació"
+      ],
+      "es": [
+        "La estructura jurídica",
+        "El tipo de capital",
+        "El motivo de creación"
+      ]
+    },
+    "b2-006": {
+      "ca": [
+        "El capital està dividit en participacions socials",
+        "La societat té personalitat jurídica pròpia diferenciada del propietari",
+        "La gestió es basa necessàriament en participació democràtica dels socis"
+      ],
+      "es": [
+        "El capital está dividido en participaciones sociales",
+        "La sociedad tiene personalidad jurídica propia diferenciada del propietario",
+        "La gestión se basa necesariamente en participación democrática de los socios"
+      ]
+    },
+    "b2-007": {
+      "ca": [
+        "Els administradors designats per una societat amb personalitat jurídica pròpia",
+        "Els socis reunits segons les normes d’una societat mercantil",
+        "Els òrgans de govern que representen els accionistes"
+      ],
+      "es": [
+        "Los administradores designados por una sociedad con personalidad jurídica propia",
+        "Los socios reunidos según las normas de una sociedad mercantil",
+        "Los órganos de gobierno que representan a los accionistas"
+      ]
+    },
+    "b2-008": {
+      "ca": [
+        "Només fins al capital que ha aportat al negoci",
+        "Amb una responsabilitat limitada segons el nombre de treballadors contractats",
+        "A través d’una societat diferenciada que assumeix totes les obligacions"
+      ],
+      "es": [
+        "Solo hasta el capital que ha aportado al negocio",
+        "Con una responsabilidad limitada según el número de trabajadores contratados",
+        "A través de una sociedad diferenciada que asume todas las obligaciones"
+      ]
+    },
+    "b2-009": {
+      "ca": [
+        "En objectius operatius, tècnics i econòmics",
+        "En objectius individuals, societaris i cooperatius",
+        "En objectius públics, privats i mixtos"
+      ],
+      "es": [
+        "En objetivos operativos, técnicos y económicos",
+        "En objetivos individuales, societarios y cooperativos",
+        "En objetivos públicos, privados y mixtos"
+      ]
+    },
+    "b2-010": {
+      "ca": [
+        "Participacions socials",
+        "Aportacions cooperatives",
+        "Quotes de les persones sòcies"
+      ],
+      "es": [
+        "Participaciones sociales",
+        "Aportaciones cooperativas",
+        "Cuotas de las personas socias"
+      ]
+    },
+    "b2-011": {
+      "ca": [
+        "Limitada al nombre d’accions que es poden transmetre",
+        "Il·limitada quan l’accionista participa en els òrgans de govern",
+        "Equivalent a la de l’empresari individual si és accionista majoritari"
+      ],
+      "es": [
+        "Limitada al número de acciones que pueden transmitirse",
+        "Ilimitada cuando el accionista participa en los órganos de gobierno",
+        "Equivalente a la del empresario individual si es accionista mayoritario"
+      ]
+    },
+    "b2-012": {
+      "ca": [
+        "Accions nominatives",
+        "Quotes dels socis",
+        "Aportacions de treball o serveis"
+      ],
+      "es": [
+        "Acciones nominativas",
+        "Cuotas de los socios",
+        "Aportaciones de trabajo o servicios"
+      ]
+    },
+    "b2-013": {
+      "ca": [
+        "Les participacions d’una S.L. es transmeten més lliurement que les accions d’una S.A.",
+        "S.A. i S.L. tenen la mateixa llibertat de transmissió perquè totes dues limiten responsabilitat",
+        "Les accions d’una S.A. només es poden transmetre entre els seus socis actuals"
+      ],
+      "es": [
+        "Las participaciones de una S.L. se transmiten más libremente que las acciones de una S.A.",
+        "S.A. y S.L. tienen la misma libertad de transmisión porque ambas limitan responsabilidad",
+        "Las acciones de una S.A. solo se pueden transmitir entre sus socios actuales"
+      ]
+    },
+    "b2-014": {
+      "ca": [
+        "Una societat de capital en què la participació s’expressa en accions transferibles",
+        "Una empresa individual en què els treballadors participen en algunes decisions",
+        "Una societat orientada a aportar capital en què el pes del vot depèn de la inversió realitzada"
+      ],
+      "es": [
+        "Una sociedad de capital en la que la participación se expresa en acciones transferibles",
+        "Una empresa individual en la que los trabajadores participan en algunas decisiones",
+        "Una sociedad orientada a aportar capital en la que el peso del voto depende de la inversión realizada"
+      ]
+    },
+    "b2-015": {
+      "ca": [
+        "Comparar els resultats obtinguts amb els objectius establerts",
+        "Distribuir els recursos humans, materials i econòmics",
+        "Alinear els diferents departaments perquè treballin en una mateixa direcció"
+      ],
+      "es": [
+        "Comparar los resultados obtenidos con los objetivos establecidos",
+        "Distribuir los recursos humanos, materiales y económicos",
+        "Alinear los distintos departamentos para que trabajen en una misma dirección"
+      ]
+    },
+    "b2-016": {
+      "ca": [
+        "Quan qualsevol administració hi té una participació, encara que sigui minoritària",
+        "Quan el capital combina aportacions públiques i privades en qualsevol proporció",
+        "Quan l’empresa presta un servei d’interès general, independentment de qui aporta el capital"
+      ],
+      "es": [
+        "Cuando cualquier administración tiene una participación, aunque sea minoritaria",
+        "Cuando el capital combina aportaciones públicas y privadas en cualquier proporción",
+        "Cuando la empresa presta un servicio de interés general, independientemente de quién aporta el capital"
+      ]
+    },
+    "b2-017": {
+      "ca": [
+        "Una empresa en què el capital és majoritàriament públic encara que no hi hagi inversió privada",
+        "Una empresa privada que rep subvencions o contractes d’una administració",
+        "Una societat formada per socis públics sense cap aportació de capital privat"
+      ],
+      "es": [
+        "Una empresa en la que el capital es mayoritariamente público aunque no haya inversión privada",
+        "Una empresa privada que recibe subvenciones o contratos de una administración",
+        "Una sociedad formada por socios públicos sin ninguna aportación de capital privado"
+      ]
+    },
+    "b2-018": {
+      "ca": [
+        "De pressupostos d’una administració que en controla la gestió",
+        "D’una combinació obligatòria de capital públic i privat",
+        "Principalment de subvencions públiques que determinen la propietat"
+      ],
+      "es": [
+        "De presupuestos de una administración que controla su gestión",
+        "De una combinación obligatoria de capital público y privado",
+        "Principalmente de subvenciones públicas que determinan la propiedad"
+      ]
+    },
+    "b2-019": {
+      "ca": [
+        "Aportacions dels propietaris o socis",
+        "Préstecs i crèdits bancaris",
+        "Beneficis generats per la mateixa empresa"
+      ],
+      "es": [
+        "Aportaciones de los propietarios o socios",
+        "Préstamos y créditos bancarios",
+        "Beneficios generados por la propia empresa"
+      ]
+    },
+    "b2-020": {
+      "ca": [
+        "Una administració pública i els seus organismes dependents",
+        "Els accionistes i els administradors d’una mateixa societat privada",
+        "Els propietaris privats i els treballadors sense participació pública"
+      ],
+      "es": [
+        "Una administración pública y sus organismos dependientes",
+        "Los accionistas y los administradores de una misma sociedad privada",
+        "Los propietarios privados y los trabajadores sin participación pública"
+      ]
+    },
+    "b2-021": {
+      "ca": [
+        "Emmagatzema i transporta productes acabats sense transformar-los",
+        "Presta activitats o assessorament als clients com a activitat principal",
+        "Gestiona comandes i existències per connectar fabricants amb punts de venda"
+      ],
+      "es": [
+        "Almacena y transporta productos acabados sin transformarlos",
+        "Presta actividades o asesoramiento a los clientes como actividad principal",
+        "Gestiona pedidos y existencias para conectar fabricantes con puntos de venta"
+      ]
+    },
+    "b2-022": {
+      "ca": [
+        "Gestió de comandes de productes ja fabricats",
+        "Transport dels productes als punts de venda",
+        "Seguiment de consultes i incidències dels clients"
+      ],
+      "es": [
+        "Gestión de pedidos de productos ya fabricados",
+        "Transporte de los productos a los puntos de venta",
+        "Seguimiento de consultas e incidencias de los clientes"
+      ]
+    },
+    "b2-023": {
+      "ca": [
+        "Transformar materials en productes elaborats abans de vendre’ls",
+        "Prestar assessorament o formació sense centrar-se en un producte material",
+        "Controlar la qualitat durant el procés de transformació de matèries primeres"
+      ],
+      "es": [
+        "Transformar materiales en productos elaborados antes de venderlos",
+        "Prestar asesoramiento o formación sin centrarse en un producto material",
+        "Controlar la calidad durante el proceso de transformación de materias primas"
+      ]
+    },
+    "b2-024": {
+      "ca": [
+        "Transforma matèries primeres i controla la qualitat del producte acabat",
+        "Connecta fabricants i clients gestionant transport, estoc i enviaments",
+        "Centra l’activitat en comercialitzar productes físics fabricats per tercers"
+      ],
+      "es": [
+        "Transforma materias primas y controla la calidad del producto acabado",
+        "Conecta fabricantes y clientes gestionando transporte, stock y envíos",
+        "Centra la actividad en comercializar productos físicos fabricados por terceros"
+      ]
+    },
+    "b2-025": {
+      "ca": [
+        "L’experiència i el reconeixement informal que té la persona dins l’equip",
+        "Els coneixements i l’especialització tècnica, encara que no dirigeixi ningú",
+        "La remuneració percebuda, encara que no coincideixi amb l’autoritat formal"
+      ],
+      "es": [
+        "La experiencia y el reconocimiento informal que tiene la persona dentro del equipo",
+        "Los conocimientos y la especialización técnica, aunque no dirija a nadie",
+        "La remuneración percibida, aunque no coincida con la autoridad formal"
+      ]
+    },
+    "b2-026": {
+      "ca": [
+        "En les funcions i el nivell d’autoritat assignats oficialment al lloc",
+        "En els coneixements tècnics i l’especialització professional",
+        "En la retribució associada a les funcions i la qualificació"
+      ],
+      "es": [
+        "En las funciones y el nivel de autoridad asignados oficialmente al puesto",
+        "En los conocimientos técnicos y la especialización profesional",
+        "En la retribución asociada a las funciones y la cualificación"
+      ]
+    },
+    "b2-027": {
+      "ca": [
+        "La posició oficial i l’autoritat que corresponen al càrrec",
+        "El prestigi o reconeixement adquirit per experiència i antiguitat",
+        "El nivell retributiu que rep una persona per les funcions desenvolupades"
+      ],
+      "es": [
+        "La posición oficial y la autoridad que corresponden al cargo",
+        "El prestigio o reconocimiento adquirido por experiencia y antigüedad",
+        "El nivel retributivo que recibe una persona por las funciones desarrolladas"
+      ]
+    },
+    "b2-028": {
+      "ca": [
+        "Sí, quan la remuneració més alta reflecteix una responsabilitat tècnica superior",
+        "Sí, si la diferència salarial està prevista formalment en la classificació dels llocs",
+        "Sí, quan la persona amb més salari acumula més antiguitat a l’empresa"
+      ],
+      "es": [
+        "Sí, cuando la remuneración más alta refleja una responsabilidad técnica superior",
+        "Sí, si la diferencia salarial está prevista formalmente en la clasificación de los puestos",
+        "Sí, cuando la persona con mayor salario acumula más antigüedad en la empresa"
+      ]
+    },
+    "b2-029": {
+      "ca": [
+        "Dirigir, planificar, controlar i auditar",
+        "Planificar, dirigir, auditar i remunerar",
+        "Organitzar, jerarquitzar, distribuir i auditar"
+      ],
+      "es": [
+        "Dirigir, planificar, controlar y auditar",
+        "Planificar, dirigir, auditar y remunerar",
+        "Organizar, jerarquizar, distribuir y auditar"
+      ]
+    },
+    "b2-030": {
+      "ca": [
+        "Definir l’estructura jeràrquica i els criteris retributius dels llocs de treball",
+        "Gestionar pressupostos, finançament i recursos econòmics disponibles",
+        "Revisar procediments i resultats sense intervenir en la planificació o coordinació"
+      ],
+      "es": [
+        "Definir la estructura jerárquica y los criterios retributivos de los puestos de trabajo",
+        "Gestionar presupuestos, financiación y recursos económicos disponibles",
+        "Revisar procedimientos y resultados sin intervenir en la planificación o coordinación"
+      ]
+    },
+    "b2-031": {
+      "ca": [
+        "Empresa lucrativa perquè genera ingressos amb activitat pròpia",
+        "Empresa privada perquè no reparteix els beneficis entre els membres",
+        "Cooperativa perquè destina els resultats als objectius comuns"
+      ],
+      "es": [
+        "Empresa lucrativa porque genera ingresos con actividad propia",
+        "Empresa privada porque no reparte los beneficios entre los miembros",
+        "Cooperativa porque destina los resultados a los objetivos comunes"
+      ]
+    },
+    "b2-032": {
+      "ca": [
+        "Repartir part dels excedents entre els membres i destinar la resta als objectius socials",
+        "Finançar l’activitat amb quotes i donacions i reservar les activitats pròpies a entitats lucratives",
+        "Obtenir ingressos i destinar-los a incrementar el patrimoni individual dels membres"
+      ],
+      "es": [
+        "Repartir parte de los excedentes entre los miembros y destinar el resto a los objetivos sociales",
+        "Financiar la actividad con cuotas y donaciones y reservar las actividades propias a entidades lucrativas",
+        "Obtener ingresos y destinarlos a incrementar el patrimonio individual de los miembros"
+      ]
+    },
+    "b2-033": {
+      "ca": [
+        "Societat limitada unipersonal",
+        "Societat anònima amb un únic accionista",
+        "Cooperativa de treball amb una sola persona"
+      ],
+      "es": [
+        "Sociedad limitada unipersonal",
+        "Sociedad anónima con un único accionista",
+        "Cooperativa de trabajo con una sola persona"
+      ]
+    },
+    "b2-034": {
+      "ca": [
+        "La S.A. limita la responsabilitat i la S.L. obliga a respondre personalment dels deutes",
+        "La S.L. divideix el capital en accions i la S.A. en participacions socials",
+        "La S.A. és sempre de gran empresa i la S.L. només pot tenir un soci"
+      ],
+      "es": [
+        "La S.A. limita la responsabilidad y la S.L. obliga a responder personalmente de las deudas",
+        "La S.L. divide el capital en acciones y la S.A. en participaciones sociales",
+        "La S.A. es siempre de gran empresa y la S.L. solo puede tener un socio"
+      ]
+    },
+    "b2-035": {
+      "ca": [
+        "Societat limitada",
+        "Societat anònima",
+        "Entitat sense ànim de lucre"
+      ],
+      "es": [
+        "Sociedad limitada",
+        "Sociedad anónima",
+        "Entidad sin ánimo de lucro"
+      ]
+    },
+    "b2-036": {
+      "ca": [
+        "S.L. / S.A., perquè totes dues tenen capital dividit en accions",
+        "Cooperativa / S.L., perquè la cooperativa emet accions i la S.L. participacions",
+        "S.A. / cooperativa, perquè totes dues limiten la transmissió de les seves accions"
+      ],
+      "es": [
+        "S.L. / S.A., porque ambas tienen capital dividido en acciones",
+        "Cooperativa / S.L., porque la cooperativa emite acciones y la S.L. participaciones",
+        "S.A. / cooperativa, porque ambas limitan la transmisión de sus acciones"
+      ]
+    },
+    "b2-037": {
+      "ca": [
+        "Pública, perquè hi participa una administració i el sector públic pot tenir control",
+        "Privada, perquè també existeix capital procedent d’inversors particulars",
+        "Pública o privada segons quin sector assumeixi la gestió quotidiana"
+      ],
+      "es": [
+        "Pública, porque participa una administración y el sector público puede tener control",
+        "Privada, porque también existe capital procedente de inversores particulares",
+        "Pública o privada según qué sector asuma la gestión cotidiana"
+      ]
+    },
+    "b2-038": {
+      "ca": [
+        "El capital és exclusivament dels socis inicials i no pot incorporar finançament extern",
+        "La propietat és privada, però qualsevol subvenció pública converteix l’empresa en mixta",
+        "Els préstecs bancaris passen a formar part del capital i determinen la propietat"
+      ],
+      "es": [
+        "El capital es exclusivamente de los socios iniciales y no puede incorporar financiación externa",
+        "La propiedad es privada, pero cualquier subvención pública convierte la empresa en mixta",
+        "Los préstamos bancarios pasan a formar parte del capital y determinan la propiedad"
+      ]
+    },
+    "b2-039": {
+      "ca": [
+        "Distribuïdora majorista",
+        "Empresa de serveis tècnics",
+        "Comercialitzadora que subcontracta la fabricació"
+      ],
+      "es": [
+        "Distribuidora mayorista",
+        "Empresa de servicios técnicos",
+        "Comercializadora que subcontrata la fabricación"
+      ]
+    },
+    "b2-040": {
+      "ca": [
+        "Fabricació",
+        "Empresa de serveis",
+        "Comercialització"
+      ],
+      "es": [
+        "Fabricación",
+        "Empresa de servicios",
+        "Comercialización"
+      ]
+    },
+    "b2-041": {
+      "ca": [
+        "La distribuïdora presta serveis de transport mentre la fabricant només emmagatzema",
+        "La fabricant transforma materials i la de serveis distribueix productes ja elaborats",
+        "La de serveis gestiona principalment comandes mentre la fabricant presta assessorament"
+      ],
+      "es": [
+        "La distribuidora presta servicios de transporte mientras la fabricante solo almacena",
+        "La fabricante transforma materiales y la de servicios distribuye productos ya elaborados",
+        "La de servicios gestiona principalmente pedidos mientras la fabricante presta asesoramiento"
+      ]
+    },
+    "b2-042": {
+      "ca": [
+        "Jerarquia de rang",
+        "Jerarquia per capacitat",
+        "Jerarquia per remuneració"
+      ],
+      "es": [
+        "Jerarquía de rango",
+        "Jerarquía por capacidad",
+        "Jerarquía por remuneración"
+      ]
+    },
+    "b2-043": {
+      "ca": [
+        "Jerarquia per capacitat tècnica",
+        "Jerarquia per remuneració superior",
+        "Jerarquia donada pel càrrec formal"
+      ],
+      "es": [
+        "Jerarquía por capacidad técnica",
+        "Jerarquía por remuneración superior",
+        "Jerarquía dada por el cargo formal"
+      ]
+    },
+    "b2-044": {
+      "ca": [
+        "Jerarquia de rang",
+        "Jerarquia per remuneració",
+        "Jerarquia donada pel càrrec"
+      ],
+      "es": [
+        "Jerarquía de rango",
+        "Jerarquía por remuneración",
+        "Jerarquía dada por el cargo"
+      ]
+    },
+    "b2-045": {
+      "ca": [
+        "Cobrar més implica jerarquia superior quan el salari deriva d’una qualificació especialitzada",
+        "La remuneració determina l’autoritat si la persona exerceix una responsabilitat tècnica elevada",
+        "La coordinadora només conserva l’autoritat si també té una remuneració superior"
+      ],
+      "es": [
+        "Cobrar más implica jerarquía superior cuando el salario deriva de una cualificación especializada",
+        "La remuneración determina la autoridad si la persona ejerce una responsabilidad técnica elevada",
+        "La coordinadora solo conserva la autoridad si también tiene una remuneración superior"
+      ]
+    },
+    "b2-046": {
+      "ca": [
+        "Organitzar els recursos per executar el pla",
+        "Coordinar l’execució entre departaments",
+        "Controlar els resultats després de l’execució"
+      ],
+      "es": [
+        "Organizar los recursos para ejecutar el plan",
+        "Coordinar la ejecución entre departamentos",
+        "Controlar los resultados después de la ejecución"
+      ]
+    },
+    "b2-047": {
+      "ca": [
+        "Planificar",
+        "Coordinar",
+        "Dirigir"
+      ],
+      "es": [
+        "Planificar",
+        "Coordinar",
+        "Dirigir"
+      ]
+    },
+    "b2-048": {
+      "ca": [
+        "Organitzar",
+        "Dirigir",
+        "Controlar"
+      ],
+      "es": [
+        "Organizar",
+        "Dirigir",
+        "Controlar"
+      ]
+    },
+    "b2-049": {
+      "ca": [
+        "Auditar",
+        "Coordinar",
+        "Dirigir"
+      ],
+      "es": [
+        "Auditar",
+        "Coordinar",
+        "Dirigir"
+      ]
+    },
+    "b2-050": {
+      "ca": [
+        "Controlar",
+        "Dirigir",
+        "Coordinar"
+      ],
+      "es": [
+        "Controlar",
+        "Dirigir",
+        "Coordinar"
+      ]
+    },
+    "b2-051": {
+      "ca": [
+        "Coordinar",
+        "Planificar",
+        "Organitzar"
+      ],
+      "es": [
+        "Coordinar",
+        "Planificar",
+        "Organizar"
+      ]
+    },
+    "b2-052": {
+      "ca": [
+        "Curt termini, perquè defineix una fita concreta",
+        "Mitjà termini, perquè afecta els pròxims anys",
+        "Objectiu operatiu sense classificació temporal"
+      ],
+      "es": [
+        "Corto plazo, porque define una meta concreta",
+        "Medio plazo, porque afecta a los próximos años",
+        "Objetivo operativo sin clasificación temporal"
+      ]
+    },
+    "b2-053": {
+      "ca": [
+        "Permet distribuir els recursos només després d’haver comprovat els resultats",
+        "Substitueix la necessitat de controlar si els objectius s’han complert",
+        "Serveix principalment per verificar procediments i resultats ja executats"
+      ],
+      "es": [
+        "Permite distribuir los recursos solo después de haber comprobado los resultados",
+        "Sustituye la necesidad de controlar si los objetivos se han cumplido",
+        "Sirve principalmente para verificar procedimientos y resultados ya ejecutados"
+      ]
+    },
+    "b2-054": {
+      "ca": [
+        "S.L., privada i fabricant, però el caràcter lucratiu no és un criteri independent",
+        "Privada, fabricant i lucrativa, però la forma S.L. queda absorbida per aquestes categories",
+        "S.L. i fabricant; la procedència del capital i el motiu de creació no poden combinar-se amb l’activitat"
+      ],
+      "es": [
+        "S.L., privada y fabricante, pero el carácter lucrativo no es un criterio independiente",
+        "Privada, fabricante y lucrativa, pero la forma S.L. queda absorbida por estas categorías",
+        "S.L. y fabricante; la procedencia del capital y el motivo de creación no pueden combinarse con la actividad"
+      ]
+    },
+    "b2-055": {
+      "ca": [
+        "Tota cooperativa és una entitat no lucrativa perquè funciona democràticament",
+        "Una entitat sense ànim de lucre ha de tenir necessàriament forma cooperativa",
+        "Cooperativa i no lucrativa són dues formes jurídiques alternatives"
+      ],
+      "es": [
+        "Toda cooperativa es una entidad no lucrativa porque funciona democráticamente",
+        "Una entidad sin ánimo de lucro debe tener necesariamente forma cooperativa",
+        "Cooperativa y no lucrativa son dos formas jurídicas alternativas"
+      ]
+    },
+    "b2-056": {
+      "ca": [
+        "Planificar → coordinar → organitzar → controlar",
+        "Organitzar → planificar → controlar → coordinar",
+        "Planificar → controlar → organitzar → coordinar"
+      ],
+      "es": [
+        "Planificar → coordinar → organizar → controlar",
+        "Organizar → planificar → controlar → coordinar",
+        "Planificar → controlar → organizar → coordinar"
+      ]
+    },
+    "b2-057": {
+      "ca": [
+        "Sí, després de destinar primer una part fixa al repartiment entre els propietaris",
+        "No, perquè la reinversió correspon a entitats que no reparteixen beneficis",
+        "Sí, però la compra d’equips transforma l’empresa en no lucrativa durant l’exercici"
+      ],
+      "es": [
+        "Sí, después de destinar primero una parte fija al reparto entre los propietarios",
+        "No, porque la reinversión corresponde a entidades que no reparten beneficios",
+        "Sí, pero la compra de equipos transforma la empresa en no lucrativa durante el ejercicio"
+      ]
+    },
+    "b2-058": {
+      "ca": [
+        "Es poden repartir parcialment entre els membres si la resta es destina als objectius socials",
+        "S’han de destinar a incrementar el patrimoni de l’entitat encara que no estigui vinculat als objectius",
+        "Es poden distribuir segons les aportacions dels membres si es conserva una reserva per a les finalitats socials"
+      ],
+      "es": [
+        "Se pueden repartir parcialmente entre los miembros si el resto se destina a los objetivos sociales",
+        "Deben destinarse a incrementar el patrimonio de la entidad aunque no esté vinculado a los objetivos",
+        "Se pueden distribuir según las aportaciones de los miembros si se conserva una reserva para las finalidades sociales"
+      ]
+    },
+    "b2-059": {
+      "ca": [
+        "Perquè la forma jurídica determina el tipus de capital però no l’activitat",
+        "Perquè l’activitat econòmica substitueix la classificació segons el motiu de creació",
+        "Perquè només les societats mercantils admeten classificacions simultànies"
+      ],
+      "es": [
+        "Porque la forma jurídica determina el tipo de capital pero no la actividad",
+        "Porque la actividad económica sustituye la clasificación según el motivo de creación",
+        "Porque solo las sociedades mercantiles admiten clasificaciones simultáneas"
+      ]
+    },
+    "b2-060": {
+      "ca": [
+        "Una S.L. unipersonal en què una sola persona aporta tot el capital",
+        "Una societat amb un únic administrador però diversos socis propietaris",
+        "Una cooperativa en què una sola persona exerceix la presidència"
+      ],
+      "es": [
+        "Una S.L. unipersonal en la que una sola persona aporta todo el capital",
+        "Una sociedad con un único administrador pero varios socios propietarios",
+        "Una cooperativa en la que una sola persona ejerce la presidencia"
+      ]
+    },
+    "b2-061": {
+      "ca": [
+        "La personalitat jurídica de la societat coincideix amb la dels socis mentre aquests en mantenen la gestió directa",
+        "La personalitat pròpia apareix quan la societat adopta una forma amb capital dividit en accions",
+        "La separació entre societat i socis depèn que la gestió s’encarregui a un òrgan d’administració diferenciat"
+      ],
+      "es": [
+        "La personalidad jurídica de la sociedad coincide con la de los socios mientras estos mantienen su gestión directa",
+        "La personalidad propia aparece cuando la sociedad adopta una forma con capital dividido en acciones",
+        "La separación entre sociedad y socios depende de que la gestión se encargue a un órgano de administración diferenciado"
+      ]
+    },
+    "b2-062": {
+      "ca": [
+        "Cada soci decideix en proporció estricta al capital que aporta, com en una S.A.",
+        "Les decisions depenen del soci amb més antiguitat o prestigi professional",
+        "La gestió correspon als administradors sense participació de les persones sòcies"
+      ],
+      "es": [
+        "Cada socio decide en proporción estricta al capital que aporta, como en una S.A.",
+        "Las decisiones dependen del socio con mayor antigüedad o prestigio profesional",
+        "La gestión corresponde a los administradores sin participación de las personas socias"
+      ]
+    },
+    "b2-063": {
+      "ca": [
+        "Pública perquè hi participa el sector públic",
+        "Privada perquè hi participa capital privat",
+        "Cooperativa pel repartiment de les aportacions"
+      ],
+      "es": [
+        "Pública porque participa el sector público",
+        "Privada porque participa capital privado",
+        "Cooperativa por el reparto de las aportaciones"
+      ]
+    },
+    "b2-064": {
+      "ca": [
+        "Distribuïdora perquè intermedia entre productor i client",
+        "Fabricant perquè crea una solució per al client",
+        "Mixta perquè combina coneixement i atenció al client"
+      ],
+      "es": [
+        "Distribuidora porque intermedia entre productor y cliente",
+        "Fabricante porque crea una solución para el cliente",
+        "Mixta porque combina conocimiento y atención al cliente"
+      ]
+    },
+    "b2-065": {
+      "ca": [
+        "Jerarquia per capacitat tècnica",
+        "Jerarquia per remuneració superior",
+        "Jerarquia donada pel càrrec formal"
+      ],
+      "es": [
+        "Jerarquía por capacidad técnica",
+        "Jerarquía por remuneración superior",
+        "Jerarquía dada por el cargo formal"
+      ]
+    },
+    "b2-066": {
+      "ca": [
+        "Jerarquia de rang per prestigi acumulat",
+        "Jerarquia donada pel càrrec tècnic",
+        "Jerarquia per remuneració especialitzada"
+      ],
+      "es": [
+        "Jerarquía de rango por prestigio acumulado",
+        "Jerarquía dada por el cargo técnico",
+        "Jerarquía por remuneración especializada"
+      ]
+    },
+    "b2-067": {
+      "ca": [
+        "Jerarquia donada pel càrrec funcional",
+        "Jerarquia per capacitat tècnica",
+        "Jerarquia de rang per experiència"
+      ],
+      "es": [
+        "Jerarquía dada por el cargo funcional",
+        "Jerarquía por capacidad técnica",
+        "Jerarquía de rango por experiencia"
+      ]
+    },
+    "b2-068": {
+      "ca": [
+        "Dirigir",
+        "Organitzar",
+        "Coordinar"
+      ],
+      "es": [
+        "Dirigir",
+        "Organizar",
+        "Coordinar"
+      ]
+    },
+    "b2-069": {
+      "ca": [
+        "Planificar",
+        "Coordinar",
+        "Dirigir"
+      ],
+      "es": [
+        "Planificar",
+        "Coordinar",
+        "Dirigir"
+      ]
+    },
+    "b2-070": {
+      "ca": [
+        "Controlar",
+        "Coordinar",
+        "Dirigir"
+      ],
+      "es": [
+        "Controlar",
+        "Coordinar",
+        "Dirigir"
+      ]
+    }
+  }
+}

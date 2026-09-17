@@ -1,0 +1,605 @@
+{
+  "blockId": "bloc-1",
+  "questions": {
+    "b1-001": {
+      "ca": [
+        "Es finança principalment amb recursos privats procedents de la seva activitat",
+        "Pren les decisions d’organització sense vinculació amb cap administració pública",
+        "És creada i gestionada per persones particulars o empreses"
+      ],
+      "es": [
+        "Se financia principalmente con recursos privados procedentes de su actividad",
+        "Toma las decisiones de organización sin vinculación con ninguna administración pública",
+        "Es creada y gestionada por personas particulares o empresas"
+      ]
+    },
+    "b1-002": {
+      "ca": [
+        "Una empresa privada que presta el servei",
+        "Les persones particulars que hi aporten capital",
+        "Una associació o fundació de caràcter privat"
+      ],
+      "es": [
+        "Una empresa privada que presta el servicio",
+        "Las personas particulares que aportan capital",
+        "Una asociación o fundación de carácter privado"
+      ]
+    },
+    "b1-003": {
+      "ca": [
+        "De les activitats, vendes, aportacions o inversions de caràcter privat",
+        "Principalment de les aportacions dels propietaris i de la seva activitat econòmica",
+        "De recursos privats vinculats a persones o empreses"
+      ],
+      "es": [
+        "De las actividades, ventas, aportaciones o inversiones de carácter privado",
+        "Principalmente de las aportaciones de los propietarios y de su actividad económica",
+        "De recursos privados vinculados a personas o empresas"
+      ]
+    },
+    "b1-004": {
+      "ca": [
+        "Obtenir rendibilitat econòmica per als seus propietaris",
+        "Actuar amb autonomia organitzativa pròpia d’una entitat privada",
+        "Finançar l’activitat principalment amb recursos procedents de vendes i inversions"
+      ],
+      "es": [
+        "Obtener rentabilidad económica para sus propietarios",
+        "Actuar con la autonomía organizativa propia de una entidad privada",
+        "Financiar la actividad principalmente con recursos procedentes de ventas e inversiones"
+      ]
+    },
+    "b1-005": {
+      "ca": [
+        "És creada per particulars però la gestió queda sota la responsabilitat d’una administració que en supervisa l’activitat",
+        "La seva naturalesa privada depèn que la major part del finançament provingui de recursos públics gestionats privadament",
+        "La naturalesa privada implica que els excedents es distribueixen entre els propietaris o socis"
+      ],
+      "es": [
+        "Es creada por particulares pero la gestión queda bajo la responsabilidad de una administración que supervisa su actividad",
+        "Su naturaleza privada depende de que la mayor parte de la financiación proceda de recursos públicos gestionados privadamente",
+        "La naturaleza privada implica que los excedentes se distribuyen entre los propietarios o socios"
+      ]
+    },
+    "b1-006": {
+      "ca": [
+        "Lucrativa o pública, segons l’origen principal del finançament",
+        "No lucrativa o administrativa, segons la forma jurídica adoptada",
+        "Comercial o lucrativa, segons el tipus d’activitat que desenvolupa"
+      ],
+      "es": [
+        "Lucrativa o pública, según el origen principal de la financiación",
+        "No lucrativa o administrativa, según la forma jurídica adoptada",
+        "Comercial o lucrativa, según el tipo de actividad que desarrolla"
+      ]
+    },
+    "b1-007": {
+      "ca": [
+        "Assignar a cada persona les seves funcions perquè n’assumeixi la responsabilitat",
+        "Gestionar els diners, el finançament i el control dels recursos econòmics",
+        "Organitzar documents, informació i tasques administratives"
+      ],
+      "es": [
+        "Asignar a cada persona sus funciones para que asuma su responsabilidad",
+        "Gestionar el dinero, la financiación y el control de los recursos económicos",
+        "Organizar documentos, información y tareas administrativas"
+      ]
+    },
+    "b1-008": {
+      "ca": [
+        "Supervisar i coordinar el conjunt d’activitats perquè segueixin l’organització prevista",
+        "Coordinar els departaments i prendre les decisions importants de l’empresa",
+        "Gestionar i organitzar la documentació i la informació administrativa"
+      ],
+      "es": [
+        "Supervisar y coordinar el conjunto de actividades para que sigan la organización prevista",
+        "Coordinar los departamentos y tomar las decisiones importantes de la empresa",
+        "Gestionar y organizar la documentación y la información administrativa"
+      ]
+    },
+    "b1-009": {
+      "ca": [
+        "Supervisar el conjunt de l’activitat sense atribuir responsabilitats individuals",
+        "Coordinar departaments i prendre decisions generals de direcció",
+        "Organitzar documents i informació per facilitar el treball administratiu"
+      ],
+      "es": [
+        "Supervisar el conjunto de la actividad sin atribuir responsabilidades individuales",
+        "Coordinar departamentos y tomar decisiones generales de dirección",
+        "Organizar documentos e información para facilitar el trabajo administrativo"
+      ]
+    },
+    "b1-010": {
+      "ca": [
+        "L’assumpció individual de funcions i responsabilitats per part de cada treballador",
+        "La presa de decisions importants i la coordinació dels departaments",
+        "L’organització de documents, informació i tasques administratives"
+      ],
+      "es": [
+        "La asunción individual de funciones y responsabilidades por parte de cada trabajador",
+        "La toma de decisiones importantes y la coordinación de los departamentos",
+        "La organización de documentos, información y tareas administrativas"
+      ]
+    },
+    "b1-011": {
+      "ca": [
+        "Gestionar el finançament i controlar els recursos econòmics disponibles",
+        "Organitzar la contractació, la formació i el personal de l’empresa",
+        "Classificar documents, gestionar informació i coordinar tasques administratives"
+      ],
+      "es": [
+        "Gestionar la financiación y controlar los recursos económicos disponibles",
+        "Organizar la contratación, la formación y el personal de la empresa",
+        "Clasificar documentos, gestionar información y coordinar tareas administrativas"
+      ]
+    },
+    "b1-012": {
+      "ca": [
+        "La contractació, la formació i l’organització dels treballadors",
+        "Les vendes i les comandes rebudes dels clients",
+        "La documentació, la informació i la coordinació de tasques administratives"
+      ],
+      "es": [
+        "La contratación, la formación y la organización de los trabajadores",
+        "Las ventas y los pedidos recibidos de los clientes",
+        "La documentación, la información y la coordinación de tareas administrativas"
+      ]
+    },
+    "b1-013": {
+      "ca": [
+        "La funció de direcció",
+        "La funció administrativa",
+        "La funció de Recursos Humans"
+      ],
+      "es": [
+        "La función de dirección",
+        "La función administrativa",
+        "La función de Recursos Humanos"
+      ]
+    },
+    "b1-014": {
+      "ca": [
+        "La funció financera",
+        "La funció administrativa",
+        "La funció de Recursos Humans"
+      ],
+      "es": [
+        "La función financiera",
+        "La función administrativa",
+        "La función de Recursos Humanos"
+      ]
+    },
+    "b1-015": {
+      "ca": [
+        "La funció de direcció",
+        "La funció administrativa",
+        "La funció de comercialització"
+      ],
+      "es": [
+        "La función de dirección",
+        "La función administrativa",
+        "La función de comercialización"
+      ]
+    },
+    "b1-016": {
+      "ca": [
+        "Atenció al client",
+        "Vendes",
+        "Direcció"
+      ],
+      "es": [
+        "Atención al cliente",
+        "Ventas",
+        "Dirección"
+      ]
+    },
+    "b1-017": {
+      "ca": [
+        "Comercialització",
+        "Atenció al client",
+        "Administració"
+      ],
+      "es": [
+        "Comercialización",
+        "Atención al cliente",
+        "Administración"
+      ]
+    },
+    "b1-018": {
+      "ca": [
+        "Coordinar departaments i prendre decisions importants",
+        "Gestionar les vendes i les comandes dels clients",
+        "Controlar els recursos econòmics i el finançament"
+      ],
+      "es": [
+        "Coordinar departamentos y tomar decisiones importantes",
+        "Gestionar las ventas y los pedidos de los clientes",
+        "Controlar los recursos económicos y la financiación"
+      ]
+    },
+    "b1-019": {
+      "ca": [
+        "Per donar a conèixer productes i serveis mitjançant màrqueting i publicitat",
+        "Per gestionar les operacions de venda i les comandes dels clients",
+        "Per organitzar documents, informació i tasques administratives"
+      ],
+      "es": [
+        "Para dar a conocer productos y servicios mediante marketing y publicidad",
+        "Para gestionar las operaciones de venta y los pedidos de los clientes",
+        "Para organizar documentos, información y tareas administrativas"
+      ]
+    },
+    "b1-020": {
+      "ca": [
+        "Perquè permeten resoldre dubtes i incidències de manera directa i ràpida",
+        "Perquè faciliten principalment la comunicació escrita entre empresa i client",
+        "Perquè ofereixen per si mateixes formularis de contacte i serveis en línia"
+      ],
+      "es": [
+        "Porque permiten resolver dudas e incidencias de manera directa y rápida",
+        "Porque facilitan principalmente la comunicación escrita entre empresa y cliente",
+        "Porque ofrecen por sí mismas formularios de contacto y servicios en línea"
+      ]
+    },
+    "b1-021": {
+      "ca": [
+        "La intranet corporativa",
+        "La videoconferència amb el personal intern",
+        "Una aplicació interna de comptabilitat"
+      ],
+      "es": [
+        "La intranet corporativa",
+        "La videoconferencia con el personal interno",
+        "Una aplicación interna de contabilidad"
+      ]
+    },
+    "b1-022": {
+      "ca": [
+        "La coordinació de departaments i la presa de decisions importants",
+        "La gestió dels recursos econòmics i del finançament",
+        "La promoció de productes i serveis mitjançant màrqueting"
+      ],
+      "es": [
+        "La coordinación de departamentos y la toma de decisiones importantes",
+        "La gestión de los recursos económicos y de la financiación",
+        "La promoción de productos y servicios mediante marketing"
+      ]
+    },
+    "b1-023": {
+      "ca": [
+        "Coordinar els diferents departaments i decidir l’orientació general",
+        "Gestionar les vendes i tramitar les comandes dels clients",
+        "Recollir opinions i suggeriments per millorar el servei"
+      ],
+      "es": [
+        "Coordinar los distintos departamentos y decidir la orientación general",
+        "Gestionar las ventas y tramitar los pedidos de los clientes",
+        "Recoger opiniones y sugerencias para mejorar el servicio"
+      ]
+    },
+    "b1-024": {
+      "ca": [
+        "Incrementar directament el nombre de vendes i comandes",
+        "Donar a conèixer els productes mitjançant accions de promoció",
+        "Determinar les decisions estratègiques de tots els departaments"
+      ],
+      "es": [
+        "Incrementar directamente el número de ventas y pedidos",
+        "Dar a conocer los productos mediante acciones de promoción",
+        "Determinar las decisiones estratégicas de todos los departamentos"
+      ]
+    },
+    "b1-025": {
+      "ca": [
+        "Entitat privada que presta un servei públic per encàrrec",
+        "Entitat privada no lucrativa finançada majoritàriament amb ajuts públics",
+        "Empresa privada de serveis sotmesa a controls administratius"
+      ],
+      "es": [
+        "Entidad privada que presta un servicio público por encargo",
+        "Entidad privada no lucrativa financiada mayoritariamente con ayudas públicas",
+        "Empresa privada de servicios sometida a controles administrativos"
+      ]
+    },
+    "b1-026": {
+      "ca": [
+        "És pública perquè el fet de no repartir beneficis determina el sector al qual pertany",
+        "És privada lucrativa perquè rep aportacions de persones particulars",
+        "La seva classificació com a pública o privada depèn només del servei que presta"
+      ],
+      "es": [
+        "Es pública porque el hecho de no repartir beneficios determina el sector al que pertenece",
+        "Es privada lucrativa porque recibe aportaciones de personas particulares",
+        "Su clasificación como pública o privada depende solo del servicio que presta"
+      ]
+    },
+    "b1-027": {
+      "ca": [
+        "Si la seva finalitat és lucrativa o no lucrativa",
+        "Si presta principalment serveis d’interès general o serveis comercials",
+        "Si disposa d’autonomia per prendre decisions d’organització interna"
+      ],
+      "es": [
+        "Si su finalidad es lucrativa o no lucrativa",
+        "Si presta principalmente servicios de interés general o servicios comerciales",
+        "Si dispone de autonomía para tomar decisiones de organización interna"
+      ]
+    },
+    "b1-028": {
+      "ca": [
+        "Responsabilitat individual",
+        "Direcció de l’empresa",
+        "Funció administrativa"
+      ],
+      "es": [
+        "Responsabilidad individual",
+        "Dirección de la empresa",
+        "Función administrativa"
+      ]
+    },
+    "b1-029": {
+      "ca": [
+        "Control de l’organització",
+        "Direcció de l’empresa",
+        "Funció administrativa"
+      ],
+      "es": [
+        "Control de la organización",
+        "Dirección de la empresa",
+        "Función administrativa"
+      ]
+    },
+    "b1-030": {
+      "ca": [
+        "Direcció i administració",
+        "Financera i comercialització",
+        "Vendes i atenció al client"
+      ],
+      "es": [
+        "Dirección y administración",
+        "Financiera y comercialización",
+        "Ventas y atención al cliente"
+      ]
+    },
+    "b1-031": {
+      "ca": [
+        "Direcció amb control pressupostari",
+        "Administrativa de gestió documental",
+        "Comercialització orientada a preus"
+      ],
+      "es": [
+        "Dirección con control presupuestario",
+        "Administrativa de gestión documental",
+        "Comercialización orientada a precios"
+      ]
+    },
+    "b1-032": {
+      "ca": [
+        "Recursos Humans → vendes → comercialització",
+        "Comercialització → Recursos Humans → vendes",
+        "Direcció → comercialització → vendes"
+      ],
+      "es": [
+        "Recursos Humanos → ventas → comercialización",
+        "Comercialización → Recursos Humanos → ventas",
+        "Dirección → comercialización → ventas"
+      ]
+    },
+    "b1-033": {
+      "ca": [
+        "Tramitar una comanda que el client ja ha confirmat",
+        "Gestionar el cobrament associat a una venda realitzada",
+        "Atendre una incidència plantejada després de la compra"
+      ],
+      "es": [
+        "Tramitar un pedido que el cliente ya ha confirmado",
+        "Gestionar el cobro asociado a una venta realizada",
+        "Atender una incidencia planteada después de la compra"
+      ]
+    },
+    "b1-034": {
+      "ca": [
+        "Direcció estratègica",
+        "Administrativa de gestió interna",
+        "Comercialització orientada al mercat"
+      ],
+      "es": [
+        "Dirección estratégica",
+        "Administrativa de gestión interna",
+        "Comercialización orientada al mercado"
+      ]
+    },
+    "b1-035": {
+      "ca": [
+        "Classificar-les principalment com a informació de vendes i tancar la incidència",
+        "Utilitzar-les només per decidir futures campanyes de promoció",
+        "Derivar-les a Recursos Humans perquè reorganitzi el personal"
+      ],
+      "es": [
+        "Clasificarlas principalmente como información de ventas y cerrar la incidencia",
+        "Utilizarlas solo para decidir futuras campañas de promoción",
+        "Derivarlas a Recursos Humanos para que reorganice el personal"
+      ]
+    },
+    "b1-036": {
+      "ca": [
+        "Telèfon, correu electrònic, web i videoconferència",
+        "Correu postal, web, telèfon i xarxes socials",
+        "Correu electrònic, correu postal, xat instantani i web"
+      ],
+      "es": [
+        "Teléfono, correo electrónico, web y videoconferencia",
+        "Correo postal, web, teléfono y redes sociales",
+        "Correo electrónico, correo postal, chat instantáneo y web"
+      ]
+    },
+    "b1-037": {
+      "ca": [
+        "Direcció operativa",
+        "Financera de control pressupostari",
+        "Vendes de seguiment comercial"
+      ],
+      "es": [
+        "Dirección operativa",
+        "Financiera de control presupuestario",
+        "Ventas de seguimiento comercial"
+      ]
+    },
+    "b1-038": {
+      "ca": [
+        "Gestionar informació / gestionar comandes de clients",
+        "Coordinar departaments / promocionar productes o serveis",
+        "Organitzar treballadors / controlar recursos econòmics"
+      ],
+      "es": [
+        "Gestionar información / gestionar pedidos de clientes",
+        "Coordinar departamentos / promocionar productos o servicios",
+        "Organizar trabajadores / controlar recursos económicos"
+      ]
+    },
+    "b1-039": {
+      "ca": [
+        "Financera",
+        "Administrativa",
+        "Recursos Humans"
+      ],
+      "es": [
+        "Financiera",
+        "Administrativa",
+        "Recursos Humanos"
+      ]
+    },
+    "b1-040": {
+      "ca": [
+        "Comercialització",
+        "Atenció al client",
+        "Administració"
+      ],
+      "es": [
+        "Comercialización",
+        "Atención al cliente",
+        "Administración"
+      ]
+    },
+    "b1-041": {
+      "ca": [
+        "El caràcter privat descriu qui crea i gestiona l’entitat, mentre la finalitat lucrativa queda determinada pel tipus de finançament",
+        "Una entitat sense ànim de lucre passa al sector públic quan presta un servei d’interès general",
+        "La naturalesa privada i l’ànim de lucre coincideixen quan l’entitat està controlada per persones particulars"
+      ],
+      "es": [
+        "El carácter privado describe quién crea y gestiona la entidad, mientras la finalidad lucrativa queda determinada por el tipo de financiación",
+        "Una entidad sin ánimo de lucro pasa al sector público cuando presta un servicio de interés general",
+        "La naturaleza privada y el ánimo de lucro coinciden cuando la entidad está controlada por personas particulares"
+      ]
+    },
+    "b1-042": {
+      "ca": [
+        "Cada persona assumeix la seva tasca, però no hi ha supervisió ni coordinació del conjunt",
+        "La direcció supervisa el conjunt, però les responsabilitats individuals queden sense definir",
+        "La funció financera controla recursos i Recursos Humans distribueix les tasques del personal"
+      ],
+      "es": [
+        "Cada persona asume su tarea, pero no hay supervisión ni coordinación del conjunto",
+        "La dirección supervisa el conjunto, pero las responsabilidades individuales quedan sin definir",
+        "La función financiera controla recursos y Recursos Humanos distribuye las tareas del personal"
+      ]
+    },
+    "b1-043": {
+      "ca": [
+        "Entitat privada no lucrativa que rep finançament públic",
+        "Empresa privada de serveis que treballa per a l’Administració",
+        "Entitat privada amb activitat d’interès general"
+      ],
+      "es": [
+        "Entidad privada no lucrativa que recibe financiación pública",
+        "Empresa privada de servicios que trabaja para la Administración",
+        "Entidad privada con actividad de interés general"
+      ]
+    },
+    "b1-044": {
+      "ca": [
+        "El finançament privat determina una finalitat lucrativa encara que els excedents no es reparteixin",
+        "La prestació d’activitats d’interès general situa la fundació en el sector públic encara que sigui creada per particulars",
+        "L’absència de repartiment de beneficis defineix el sector de l’entitat, mentre l’origen del capital defineix la seva finalitat"
+      ],
+      "es": [
+        "La financiación privada determina una finalidad lucrativa aunque los excedentes no se repartan",
+        "La prestación de actividades de interés general sitúa a la fundación en el sector público aunque sea creada por particulares",
+        "La ausencia de reparto de beneficios define el sector de la entidad, mientras el origen del capital define su finalidad"
+      ]
+    },
+    "b1-045": {
+      "ca": [
+        "Comercialització",
+        "Vendes",
+        "Funció administrativa"
+      ],
+      "es": [
+        "Comercialización",
+        "Ventas",
+        "Función administrativa"
+      ]
+    },
+    "b1-046": {
+      "ca": [
+        "Direcció pren la decisió i administració determina la disponibilitat econòmica",
+        "Funció financera decideix la inversió i direcció registra la documentació",
+        "Comercialització proposa la inversió i vendes controla els recursos disponibles"
+      ],
+      "es": [
+        "Dirección toma la decisión y administración determina la disponibilidad económica",
+        "La función financiera decide la inversión y dirección registra la documentación",
+        "Comercialización propone la inversión y ventas controla los recursos disponibles"
+      ]
+    },
+    "b1-047": {
+      "ca": [
+        "Funció financera",
+        "Funció de direcció",
+        "Atenció al client"
+      ],
+      "es": [
+        "Función financiera",
+        "Función de dirección",
+        "Atención al cliente"
+      ]
+    },
+    "b1-048": {
+      "ca": [
+        "Recursos Humans i vendes",
+        "Administració i comercialització",
+        "Direcció i atenció al client"
+      ],
+      "es": [
+        "Recursos Humanos y ventas",
+        "Administración y comercialización",
+        "Dirección y atención al cliente"
+      ]
+    },
+    "b1-049": {
+      "ca": [
+        "Planificació",
+        "Organització",
+        "Coordinació"
+      ],
+      "es": [
+        "Planificación",
+        "Organización",
+        "Coordinación"
+      ]
+    },
+    "b1-050": {
+      "ca": [
+        "Vendes promociona i comercialització gestiona l’operació de venda",
+        "Atenció al client promociona i vendes gestiona la comanda",
+        "Recursos Humans promociona i comercialització tramita la venda"
+      ],
+      "es": [
+        "Ventas promociona y comercialización gestiona la operación de venta",
+        "Atención al cliente promociona y ventas gestiona el pedido",
+        "Recursos Humanos promociona y comercialización tramita la venta"
+      ]
+    }
+  }
+}

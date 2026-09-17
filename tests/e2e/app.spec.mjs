@@ -145,7 +145,7 @@ test('la Unitat 2 es pot practicar de manera independent', async ({ page }) => {
 test('Mode Examen no revela solucions durant el test i permet blancs', async ({ page }) => {
   await page.goto('/');
   await page.locator('[data-selection="bloc-1"]').click();
-  await page.getByLabel('Mode Examen').check();
+  await page.getByLabel('Mode Examen',{exact:true}).check();
   await page.getByLabel('10 preguntes').check();
   await page.getByRole('button', { name: 'Començar' }).click();
   await page.locator('[data-answer-option]').first().click();
@@ -195,4 +195,41 @@ test('la pregunta és usable en mòbil', async ({ browser }) => {
   await page.getByRole('button', { name: 'Començar' }).click();
   await expect(page.locator('[data-answer-option]')).toHaveCount(4);
   await page.close();
+});
+
+test('Mode Examen difícil es comporta com un examen i no revela solucions durant el test', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('[data-selection="bloc-1"]').click();
+  await page.getByLabel('Mode Examen difícil').check();
+  await page.getByLabel('10 preguntes').check();
+  await expect(page.locator('#penalty-field')).toBeVisible();
+  await page.getByRole('button', { name: 'Començar' }).click();
+  await expect(page.locator('[data-answer-option]')).toHaveCount(4);
+  await page.locator('[data-answer-option]').first().click();
+  await expect(page.locator('#study-feedback')).toHaveCount(0);
+  await expect(page.locator('.memory-aid')).toHaveCount(0);
+  await page.getByRole('button', { name: 'Següent' }).click();
+  await expect(page.getByText('Pregunta 2 de 10')).toBeVisible();
+});
+
+
+test('Mode Examen difícil utilitza realment tres distractors del seu overlay', async ({ page }) => {
+  await page.addInitScript(() => { Math.random = () => 0; });
+  await page.goto('/');
+  await page.locator('[data-selection="bloc-1"]').click();
+  await page.getByLabel('Mode Examen difícil').check();
+  await page.getByLabel('10 preguntes').check();
+  await page.getByRole('button', { name: 'Començar' }).click();
+
+  const card=page.locator('.question-card');
+  const questionId=await card.getAttribute('data-question-id');
+  expect(questionId).toBeTruthy();
+
+  const overlay=await page.evaluate(async()=>{
+    const response=await fetch('data/hard/bloc-1.json');
+    return response.json();
+  });
+  const expected=new Set(overlay.questions[questionId].ca);
+  const shown=await page.locator('[data-answer-option] > span:nth-child(2)').allInnerTexts();
+  expect(shown.filter(option=>expected.has(option))).toHaveLength(3);
 });

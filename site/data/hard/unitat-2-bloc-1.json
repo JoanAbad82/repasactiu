@@ -1,0 +1,1685 @@
+{
+  "blockId": "unitat-2-bloc-1",
+  "questions": {
+    "u2b1-001": {
+      "ca": [
+        "El departament que gestiona contractació, nòmines i formació del personal",
+        "Els recursos econòmics destinats a remunerar i formar les persones treballadores",
+        "Plantilla de llocs de treball"
+      ],
+      "es": [
+        "El departamento que gestiona contratación, nóminas y formación del personal",
+        "Los recursos económicos destinados a remunerar y formar a las personas trabajadoras",
+        "Plantilla de puestos de trabajo"
+      ]
+    },
+    "u2b1-002": {
+      "ca": [
+        "Fixar prèviament els passos que s’han de seguir per executar la feina",
+        "Fixar el resultat que s’ha d’assolir i deixar marge sobre la manera d’aconseguir-lo",
+        "Exigir una preparació i competència determinades abans de realitzar la feina"
+      ],
+      "es": [
+        "Fijar previamente los pasos que deben seguirse para ejecutar el trabajo",
+        "Fijar el resultado que debe alcanzarse y dejar margen sobre la forma de conseguirlo",
+        "Exigir una preparación y competencia determinadas antes de realizar el trabajo"
+      ]
+    },
+    "u2b1-003": {
+      "ca": [
+        "Supervisió directa mitjançant instruccions d’un responsable",
+        "Normalització dels resultats amb objectius prefixats",
+        "Normalització d’habilitats mitjançant formació prèvia"
+      ],
+      "es": [
+        "Supervisión directa mediante instrucciones de un responsable",
+        "Normalización de los resultados con objetivos prefijados",
+        "Normalización de habilidades mediante formación previa"
+      ]
+    },
+    "u2b1-004": {
+      "ca": [
+        "Adaptació mútua",
+        "Normalització dels processos de treball",
+        "Normalització dels resultats"
+      ],
+      "es": [
+        "Adaptación mutua",
+        "Normalización de los procesos de trabajo",
+        "Normalización de los resultados"
+      ]
+    },
+    "u2b1-005": {
+      "ca": [
+        "Adaptació mútua",
+        "Supervisió directa",
+        "Normalització dels resultats"
+      ],
+      "es": [
+        "Adaptación mutua",
+        "Supervisión directa",
+        "Normalización de los resultados"
+      ]
+    },
+    "u2b1-006": {
+      "ca": [
+        "El procés de treball",
+        "Les habilitats de les persones",
+        "La supervisió de la persona responsable"
+      ],
+      "es": [
+        "El proceso de trabajo",
+        "Las habilidades de las personas",
+        "La supervisión de la persona responsable"
+      ]
+    },
+    "u2b1-007": {
+      "ca": [
+        "Adaptació mútua basada en coordinació informal",
+        "Supervisió directa amb instruccions constants",
+        "Normalització dels resultats fixant què s’ha d’assolir"
+      ],
+      "es": [
+        "Adaptación mutua basada en coordinación informal",
+        "Supervisión directa con instrucciones constantes",
+        "Normalización de los resultados fijando qué debe alcanzarse"
+      ]
+    },
+    "u2b1-008": {
+      "ca": [
+        "La primera fixa què s’ha d’aconseguir; la segona fixa com s’ha de fer la feina",
+        "La primera estandarditza la preparació professional; la segona, els passos de la tasca",
+        "La primera depèn d’un supervisor; la segona, de la comunicació informal de l’equip"
+      ],
+      "es": [
+        "La primera fija qué debe conseguirse; la segunda fija cómo debe hacerse el trabajo",
+        "La primera estandariza la preparación profesional; la segunda, los pasos de la tarea",
+        "La primera depende de un supervisor; la segunda, de la comunicación informal del equipo"
+      ]
+    },
+    "u2b1-009": {
+      "ca": [
+        "Els passos exactes que s’han de seguir",
+        "El resultat final que s’ha d’obtenir",
+        "Les instruccions que dona directament el supervisor"
+      ],
+      "es": [
+        "Los pasos exactos que deben seguirse",
+        "El resultado final que debe obtenerse",
+        "Las instrucciones que da directamente el supervisor"
+      ]
+    },
+    "u2b1-010": {
+      "ca": [
+        "Un equip coordinat per un supervisor que reparteix i controla les tasques",
+        "Un equip que segueix un procediment idèntic fixat prèviament",
+        "Un equip al qual només se li fixa el resultat final que ha d’assolir"
+      ],
+      "es": [
+        "Un equipo coordinado por un supervisor que reparte y controla las tareas",
+        "Un equipo que sigue un procedimiento idéntico fijado previamente",
+        "Un equipo al que solo se le fija el resultado final que debe alcanzar"
+      ]
+    },
+    "u2b1-011": {
+      "ca": [
+        "Adaptació mútua, delegació i normalització de resultats",
+        "Supervisió directa, control de qualitat i normalització de processos",
+        "Normalització d’habilitats, planificació i delegació"
+      ],
+      "es": [
+        "Adaptación mutua, delegación y normalización de resultados",
+        "Supervisión directa, control de calidad y normalización de procesos",
+        "Normalización de habilidades, planificación y delegación"
+      ]
+    },
+    "u2b1-012": {
+      "ca": [
+        "Aplicar supervisió directa",
+        "Normalitzar els resultats",
+        "Normalitzar les habilitats"
+      ],
+      "es": [
+        "Aplicar supervisión directa",
+        "Normalizar los resultados",
+        "Normalizar las habilidades"
+      ]
+    },
+    "u2b1-013": {
+      "ca": [
+        "Unes regles que delimiten què es pot fer dins del procés de treball",
+        "Una forma d’ordenar i controlar la feina per reduir errors i millorar la qualitat",
+        "Procediment lineal"
+      ],
+      "es": [
+        "Unas reglas que delimitan qué puede hacerse dentro del proceso de trabajo",
+        "Una forma de ordenar y controlar el trabajo para reducir errores y mejorar la calidad",
+        "Procedimiento lineal"
+      ]
+    },
+    "u2b1-014": {
+      "ca": [
+        "Definir responsabilitats i supervisió, deixant el mètode de treball a criteri individual",
+        "Fixar resultats esperats i permetre que cada persona decideixi els passos per assolir-los",
+        "Reduir la coordinació formal perquè cada membre resolgui incidències segons la seva experiència"
+      ],
+      "es": [
+        "Definir responsabilidades y supervisión, dejando el método de trabajo a criterio individual",
+        "Fijar resultados esperados y permitir que cada persona decida los pasos para alcanzarlos",
+        "Reducir la coordinación formal para que cada miembro resuelva incidencias según su experiencia"
+      ]
+    },
+    "u2b1-015": {
+      "ca": [
+        "Accions, objectius i indicadors de qualitat",
+        "Protocol, resultats i responsables jeràrquics",
+        "Accions, recursos i criteris de remuneració"
+      ],
+      "es": [
+        "Acciones, objetivos e indicadores de calidad",
+        "Protocolo, resultados y responsables jerárquicos",
+        "Acciones, recursos y criterios de remuneración"
+      ]
+    },
+    "u2b1-016": {
+      "ca": [
+        "Un recorregut amb alternatives diferents segons el resultat obtingut en cada pas",
+        "Un conjunt d’instruccions que orienta com s’ha d’actuar davant d’una situació concreta",
+        "Unes regles que delimiten què es pot fer dins del procés de treball"
+      ],
+      "es": [
+        "Un recorrido con alternativas diferentes según el resultado obtenido en cada paso",
+        "Un conjunto de instrucciones que orienta cómo debe actuarse ante una situación concreta",
+        "Unas reglas que delimitan qué puede hacerse dentro del proceso de trabajo"
+      ]
+    },
+    "u2b1-017": {
+      "ca": [
+        "Un conjunt d’instruccions que orienta com s’ha d’actuar davant d’una situació concreta",
+        "Unes regles que delimiten què es pot fer dins del procés de treball",
+        "Una forma d’ordenar i controlar la feina per reduir errors i millorar la qualitat"
+      ],
+      "es": [
+        "Un conjunto de instrucciones que orienta cómo debe actuarse ante una situación concreta",
+        "Unas reglas que delimitan qué puede hacerse dentro del proceso de trabajo",
+        "Una forma de ordenar y controlar el trabajo para reducir errores y mejorar la calidad"
+      ]
+    },
+    "u2b1-018": {
+      "ca": [
+        "Comprovar si les tasques i funcions s’estan desenvolupant correctament",
+        "Mesurar la satisfacció que tenen els clients o usuaris amb el servei rebut",
+        "Mesurar la imatge o valoració que les persones usuàries tenen de l’oficina o servei"
+      ],
+      "es": [
+        "Comprobar si las tareas y funciones se están desarrollando correctamente",
+        "Medir la satisfacción que tienen los clientes o usuarios con el servicio recibido",
+        "Medir la imagen o valoración que las personas usuarias tienen de la oficina o servicio"
+      ]
+    },
+    "u2b1-019": {
+      "ca": [
+        "Eficiència és assolir els objectius; eficàcia és reduir al mínim els recursos utilitzats",
+        "Eficiència és complir el termini; eficàcia és obtenir la màxima qualitat possible",
+        "Eficiència i eficàcia són sinònims quan s’han assolit els objectius previstos"
+      ],
+      "es": [
+        "Eficiencia es alcanzar los objetivos; eficacia es reducir al mínimo los recursos utilizados",
+        "Eficiencia es cumplir el plazo; eficacia es obtener la máxima calidad posible",
+        "Eficiencia y eficacia son sinónimos cuando se han alcanzado los objetivos previstos"
+      ]
+    },
+    "u2b1-020": {
+      "ca": [
+        "Assolir els objectius previstos encara que es consumeixin més recursos dels necessaris",
+        "Reduir al mínim els recursos utilitzats encara que no s’assoleixi completament l’objectiu",
+        "Mesurar la satisfacció del client i comparar-la amb l’estàndard previst"
+      ],
+      "es": [
+        "Alcanzar los objetivos previstos aunque se consuman más recursos de los necesarios",
+        "Reducir al mínimo los recursos utilizados aunque no se alcance completamente el objetivo",
+        "Medir la satisfacción del cliente y compararla con el estándar previsto"
+      ]
+    },
+    "u2b1-021": {
+      "ca": [
+        "Definir la forma de mesurament abans de realitzar el control",
+        "Comparar el resultat real amb l’estàndard que s’havia previst",
+        "Aplicar accions de millora quan el mesurament detecta desviacions"
+      ],
+      "es": [
+        "Definir la forma de medición antes de realizar el control",
+        "Comparar el resultado real con el estándar que se había previsto",
+        "Aplicar acciones de mejora cuando la medición detecta desviaciones"
+      ]
+    },
+    "u2b1-022": {
+      "ca": [
+        "Interpretar els resultats comparant-los amb l’estàndard previst",
+        "Prendre accions de millora davant de les desviacions detectades",
+        "Redefinir què es vol controlar i començar de nou la seqüència"
+      ],
+      "es": [
+        "Interpretar los resultados comparándolos con el estándar previsto",
+        "Tomar acciones de mejora ante las desviaciones detectadas",
+        "Redefinir qué se quiere controlar y empezar de nuevo la secuencia"
+      ]
+    },
+    "u2b1-023": {
+      "ca": [
+        "Establir un sistema de mesurament eficient abans de recollir dades",
+        "Realitzar el mesurament sense comparar-lo encara amb cap estàndard",
+        "Aplicar directament accions de millora abans de valorar la desviació"
+      ],
+      "es": [
+        "Establecer un sistema de medición eficiente antes de recoger datos",
+        "Realizar la medición sin compararla todavía con ningún estándar",
+        "Aplicar directamente acciones de mejora antes de valorar la desviación"
+      ]
+    },
+    "u2b1-024": {
+      "ca": [
+        "Repetir el mateix mesurament sense introduir cap canvi",
+        "Modificar l’objectiu perquè coincideixi amb el resultat real",
+        "Eliminar l’indicador que ha detectat la desviació"
+      ],
+      "es": [
+        "Repetir la misma medición sin introducir ningún cambio",
+        "Modificar el objetivo para que coincida con el resultado real",
+        "Eliminar el indicador que ha detectado la desviación"
+      ]
+    },
+    "u2b1-025": {
+      "ca": [
+        "Mesurar la satisfacció que tenen els clients o usuaris amb el servei rebut",
+        "Mesurar la imatge o valoració que les persones usuàries tenen de l’oficina o servei",
+        "Definir la forma de mesurament abans de realitzar el control"
+      ],
+      "es": [
+        "Medir la satisfacción que tienen los clientes o usuarios con el servicio recibido",
+        "Medir la imagen o valoración que las personas usuarias tienen de la oficina o servicio",
+        "Definir la forma de medición antes de realizar el control"
+      ]
+    },
+    "u2b1-026": {
+      "ca": [
+        "Servei → com es desenvolupa la tasca; percepció → satisfacció dels clients",
+        "Servei → imatge que tenen els usuaris; percepció → correcció dels processos interns",
+        "Servei → compliment dels procediments; percepció → resultat econòmic de l’oficina"
+      ],
+      "es": [
+        "Servicio → cómo se desarrolla la tarea; percepción → satisfacción de los clientes",
+        "Servicio → imagen que tienen los usuarios; percepción → corrección de los procesos internos",
+        "Servicio → cumplimiento de los procedimientos; percepción → resultado económico de la oficina"
+      ]
+    },
+    "u2b1-027": {
+      "ca": [
+        "Prioritzar sempre les tasques més curtes, independentment de la seva importància",
+        "Concentrar el màxim nombre d’objectius per aprofitar millor el temps disponible",
+        "Dedicar el mateix temps a totes les tasques per evitar diferències de prioritat"
+      ],
+      "es": [
+        "Priorizar siempre las tareas más cortas, independientemente de su importancia",
+        "Concentrar el máximo número de objetivos para aprovechar mejor el tiempo disponible",
+        "Dedicar el mismo tiempo a todas las tareas para evitar diferencias de prioridad"
+      ]
+    },
+    "u2b1-028": {
+      "ca": [
+        "Ser específics, molt nombrosos, exigents i independents de la resta d’objectius",
+        "Ser generals, flexibles i modificables sempre que aparegui una tasca urgent",
+        "Ser assequibles però il·limitats en nombre per cobrir totes les necessitats possibles"
+      ],
+      "es": [
+        "Ser específicos, muy numerosos, exigentes e independientes del resto de objetivos",
+        "Ser generales, flexibles y modificables siempre que aparezca una tarea urgente",
+        "Ser alcanzables pero ilimitados en número para cubrir todas las necesidades posibles"
+      ]
+    },
+    "u2b1-029": {
+      "ca": [
+        "Normal, perquè es pot delegar o ajornar breument",
+        "Poc important, perquè té poc impacte sobre l’objectiu",
+        "Rutinària, perquè es repeteix amb freqüència"
+      ],
+      "es": [
+        "Normal, porque se puede delegar o aplazar brevemente",
+        "Poco importante, porque tiene poco impacto sobre el objetivo",
+        "Rutinaria, porque se repite con frecuencia"
+      ]
+    },
+    "u2b1-030": {
+      "ca": [
+        "Important, perquè només la pot assumir la persona responsable",
+        "Poc important, perquè es pot ajornar sense afectar l’objectiu",
+        "Rutinària, perquè forma part de la feina habitual"
+      ],
+      "es": [
+        "Importante, porque solo la puede asumir la persona responsable",
+        "Poco importante, porque se puede aplazar sin afectar al objetivo",
+        "Rutinaria, porque forma parte del trabajo habitual"
+      ]
+    },
+    "u2b1-031": {
+      "ca": [
+        "Són imprescindibles per a l’objectiu i només les pot assumir la persona responsable",
+        "Són rellevants i es poden posposar breument o delegar",
+        "Són activitats quotidianes que es fan gairebé automàticament"
+      ],
+      "es": [
+        "Son imprescindibles para el objetivo y solo puede asumirlas la persona responsable",
+        "Son relevantes y pueden posponerse brevemente o delegarse",
+        "Son actividades cotidianas que se realizan casi automáticamente"
+      ]
+    },
+    "u2b1-032": {
+      "ca": [
+        "Una activitat rellevant que es pot delegar o ajornar breument",
+        "Una feina amb un termini fix que exigeix planificació personal",
+        "Una activitat destinada a preparar millores futures en la manera de treballar"
+      ],
+      "es": [
+        "Una actividad relevante que puede delegarse o aplazarse brevemente",
+        "Un trabajo con un plazo fijo que exige planificación personal",
+        "Una actividad destinada a preparar mejoras futuras en la forma de trabajar"
+      ]
+    },
+    "u2b1-033": {
+      "ca": [
+        "Una activitat rutinària que es repeteix sense un termini propi",
+        "Una tasca normal que es pot delegar o posposar durant un temps",
+        "Una activitat de planificació orientada a millorar el treball futur"
+      ],
+      "es": [
+        "Una actividad rutinaria que se repite sin un plazo propio",
+        "Una tarea normal que puede delegarse o posponerse durante un tiempo",
+        "Una actividad de planificación orientada a mejorar el trabajo futuro"
+      ]
+    },
+    "u2b1-034": {
+      "ca": [
+        "Assignar immediatament el problema a una sola persona perquè decideixi",
+        "Esperar a la reunió següent abans de compartir qualsevol proposta",
+        "Aplicar el procediment habitual sense plantejar alternatives, encara que no resolgui el problema"
+      ],
+      "es": [
+        "Asignar inmediatamente el problema a una sola persona para que decida",
+        "Esperar a la siguiente reunión antes de compartir cualquier propuesta",
+        "Aplicar el procedimiento habitual sin plantear alternativas, aunque no resuelva el problema"
+      ]
+    },
+    "u2b1-035": {
+      "ca": [
+        "Per substituir la comunicació diària i concentrar totes les decisions en la reunió",
+        "Per dedicar el mateix temps a cada tema encara que tinguin prioritats diferents",
+        "Per evitar que les persones preparin propostes abans de reunir-se"
+      ],
+      "es": [
+        "Para sustituir la comunicación diaria y concentrar todas las decisiones en la reunión",
+        "Para dedicar el mismo tiempo a cada tema aunque tengan prioridades diferentes",
+        "Para evitar que las personas preparen propuestas antes de reunirse"
+      ]
+    },
+    "u2b1-036": {
+      "ca": [
+        "Esperar a comprovar si una altra persona detecta l’error abans d’intervenir",
+        "Ocultar-lo si ja s’ha complert el termini de la tasca",
+        "Compensar-lo amb més feina en una altra activitat sense comunicar-lo"
+      ],
+      "es": [
+        "Esperar a comprobar si otra persona detecta el error antes de intervenir",
+        "Ocultarlo si ya se ha cumplido el plazo de la tarea",
+        "Compensarlo con más trabajo en otra actividad sin comunicarlo"
+      ]
+    },
+    "u2b1-037": {
+      "ca": [
+        "Un conjunt de persones que comparteixen espai i objectius, però executen tasques sense coordinació entre elles",
+        "Un grup basat en relacions socials que col·labora de forma espontània fora d’un objectiu de treball definit",
+        "Un conjunt de persones que depenen del mateix responsable però desenvolupen tasques independents sense col·laboració"
+      ],
+      "es": [
+        "Un conjunto de personas que comparten espacio y objetivos, pero ejecutan tareas sin coordinación entre ellas",
+        "Un grupo basado en relaciones sociales que colabora de forma espontánea fuera de un objetivo de trabajo definido",
+        "Un conjunto de personas que dependen del mismo responsable pero desarrollan tareas independientes sin colaboración"
+      ]
+    },
+    "u2b1-038": {
+      "ca": [
+        "Que cada membre tingui un objectiu individual encara que no coincideixi amb el de la resta",
+        "Que les normes del grup siguin implícites i no es revisin durant el treball",
+        "Que el líder decideixi els objectius sense que la resta necessiti conèixer-los"
+      ],
+      "es": [
+        "Que cada miembro tenga un objetivo individual aunque no coincida con el del resto",
+        "Que las normas del grupo sean implícitas y no se revisen durante el trabajo",
+        "Que el líder decida los objetivos sin que el resto necesite conocerlos"
+      ]
+    },
+    "u2b1-039": {
+      "ca": [
+        "Limitar la participació a les persones amb més experiència per reduir conflictes",
+        "Evitar opinions diferents fins que el grup estigui plenament cohesionat",
+        "Prioritzar els resultats sobre el clima del grup quan hi ha desacords"
+      ],
+      "es": [
+        "Limitar la participación a las personas con más experiencia para reducir conflictos",
+        "Evitar opiniones diferentes hasta que el grupo esté plenamente cohesionado",
+        "Priorizar los resultados sobre el clima del grupo cuando hay desacuerdos"
+      ]
+    },
+    "u2b1-040": {
+      "ca": [
+        "Deixant que el responsable decideixi ràpidament sense obrir debat",
+        "Evitant tractar el desacord fins que desaparegui per si mateix",
+        "Separant les persones que discrepen perquè no afectin la resta"
+      ],
+      "es": [
+        "Dejando que el responsable decida rápidamente sin abrir debate",
+        "Evitando tratar el desacuerdo hasta que desaparezca por sí mismo",
+        "Separando a las personas que discrepan para que no afecten al resto"
+      ]
+    },
+    "u2b1-041": {
+      "ca": [
+        "De 8 membres o més",
+        "De 10 membres o més",
+        "Més de 12 membres, sense incloure els grups de dotze"
+      ],
+      "es": [
+        "De 8 miembros o más",
+        "De 10 miembros o más",
+        "Más de 12 miembros, sin incluir los grupos de doce"
+      ]
+    },
+    "u2b1-042": {
+      "ca": [
+        "El rol",
+        "Les normes del grup",
+        "La cohesió"
+      ],
+      "es": [
+        "El rol",
+        "Las normas del grupo",
+        "La cohesión"
+      ]
+    },
+    "u2b1-043": {
+      "ca": [
+        "L’estatus",
+        "Les normes del grup",
+        "La cohesió"
+      ],
+      "es": [
+        "El estatus",
+        "Las normas del grupo",
+        "La cohesión"
+      ]
+    },
+    "u2b1-044": {
+      "ca": [
+        "El rol",
+        "L’estatus",
+        "La cohesió"
+      ],
+      "es": [
+        "El rol",
+        "El estatus",
+        "La cohesión"
+      ]
+    },
+    "u2b1-045": {
+      "ca": [
+        "El grau de jerarquia formal que diferencia les persones del grup",
+        "El conjunt de conductes esperades segons la posició que ocupa cada membre",
+        "Els estàndards de comportament acceptats i compartits dins del grup"
+      ],
+      "es": [
+        "El grado de jerarquía formal que diferencia a las personas del grupo",
+        "El conjunto de conductas esperadas según la posición que ocupa cada miembro",
+        "Los estándares de comportamiento aceptados y compartidos dentro del grupo"
+      ]
+    },
+    "u2b1-046": {
+      "ca": [
+        "Augmentar molt la mida del grup perquè hi hagi més punts de vista",
+        "Separar o canviar sovint els membres per evitar dependències personals",
+        "Mantenir objectius diferents entre els membres perquè aportin perspectives diverses"
+      ],
+      "es": [
+        "Aumentar mucho el tamaño del grupo para que haya más puntos de vista",
+        "Separar o cambiar con frecuencia a los miembros para evitar dependencias personales",
+        "Mantener objetivos distintos entre los miembros para que aporten perspectivas diversas"
+      ]
+    },
+    "u2b1-047": {
+      "ca": [
+        "Reconèixer i recompensar el grup sencer",
+        "Crear espais de treball que facilitin el contacte habitual",
+        "Reforçar l’acord amb els objectius compartits"
+      ],
+      "es": [
+        "Reconocer y recompensar al grupo entero",
+        "Crear espacios de trabajo que faciliten el contacto habitual",
+        "Reforzar el acuerdo con los objetivos compartidos"
+      ]
+    },
+    "u2b1-048": {
+      "ca": [
+        "Paternalista",
+        "Permissiva o laissez-faire",
+        "Participativa"
+      ],
+      "es": [
+        "Paternalista",
+        "Permisiva o laissez-faire",
+        "Participativa"
+      ]
+    },
+    "u2b1-049": {
+      "ca": [
+        "El líder concentra les decisions i controla directament l’activitat amb poca autonomia de l’equip",
+        "El grup disposa de gran autonomia i el líder intervé molt poc",
+        "Els membres participen en les decisions i el líder actua principalment com a facilitador"
+      ],
+      "es": [
+        "El líder concentra las decisiones y controla directamente la actividad con poca autonomía del equipo",
+        "El grupo dispone de gran autonomía y el líder interviene muy poco",
+        "Los miembros participan en las decisiones y el líder actúa principalmente como facilitador"
+      ]
+    },
+    "u2b1-050": {
+      "ca": [
+        "L’excés de control pot reduir l’autonomia i la iniciativa dels membres",
+        "La protecció del líder pot limitar la participació real del grup",
+        "La presa compartida de decisions pot requerir més comunicació i coordinació"
+      ],
+      "es": [
+        "El exceso de control puede reducir la autonomía y la iniciativa de los miembros",
+        "La protección del líder puede limitar la participación real del grupo",
+        "La toma compartida de decisiones puede requerir más comunicación y coordinación"
+      ]
+    },
+    "u2b1-051": {
+      "ca": [
+        "El líder decideix què considera millor per al grup i consulta només de manera limitada",
+        "El líder concentra les decisions, assigna instruccions i controla l’activitat",
+        "El líder intervé molt poc i deixa una autonomia molt àmplia al grup"
+      ],
+      "es": [
+        "El líder decide lo que considera mejor para el grupo y consulta solo de forma limitada",
+        "El líder concentra las decisiones, asigna instrucciones y controla la actividad",
+        "El líder interviene muy poco y deja una autonomía muy amplia al grupo"
+      ]
+    },
+    "u2b1-052": {
+      "ca": [
+        "El formal sorgeix espontàniament; l’informal és creat per l’organització per assolir objectius",
+        "El formal és sempre permanent; l’informal només existeix durant un període breu",
+        "El formal depèn de l’afinitat personal; l’informal, de les relacions jeràrquiques"
+      ],
+      "es": [
+        "El formal surge espontáneamente; el informal es creado por la organización para alcanzar objetivos",
+        "El formal es siempre permanente; el informal solo existe durante un periodo breve",
+        "El formal depende de la afinidad personal; el informal, de las relaciones jerárquicas"
+      ]
+    },
+    "u2b1-053": {
+      "ca": [
+        "Grup de tasques creat per resoldre un encàrrec concret",
+        "Grup d’interès unit per un objectiu compartit no jeràrquic",
+        "Grup d’amics sorgit de relacions personals"
+      ],
+      "es": [
+        "Grupo de tareas creado para resolver un encargo concreto",
+        "Grupo de interés unido por un objetivo compartido no jerárquico",
+        "Grupo de amigos surgido de relaciones personales"
+      ]
+    },
+    "u2b1-054": {
+      "ca": [
+        "Un grup creat per l’organització per desenvolupar tasques vinculades als seus objectius",
+        "Un grup que sorgeix espontàniament de les relacions socials entre les persones",
+        "Un grup format per una persona responsable i les persones que en depenen directament"
+      ],
+      "es": [
+        "Un grupo creado por la organización para desarrollar tareas vinculadas a sus objetivos",
+        "Un grupo que surge espontáneamente de las relaciones sociales entre las personas",
+        "Un grupo formado por una persona responsable y las personas que dependen directamente de ella"
+      ]
+    },
+    "u2b1-055": {
+      "ca": [
+        "Un grup que sorgeix espontàniament de les relacions socials entre les persones",
+        "Un grup format per una persona responsable i les persones que en depenen directament",
+        "Un grup temporal creat per persones de diferents àrees per resoldre una feina concreta"
+      ],
+      "es": [
+        "Un grupo que surge espontáneamente de las relaciones sociales entre las personas",
+        "Un grupo formado por una persona responsable y las personas que dependen directamente de ella",
+        "Un grupo temporal creado por personas de distintas áreas para resolver un trabajo concreto"
+      ]
+    },
+    "u2b1-056": {
+      "ca": [
+        "Un grup format per una persona responsable i les persones que en depenen directament",
+        "Un grup temporal creat per persones de diferents àrees per resoldre una feina concreta",
+        "Un grup format perquè diverses persones comparteixen una necessitat o un objectiu d’interès comú"
+      ],
+      "es": [
+        "Un grupo formado por una persona responsable y las personas que dependen directamente de ella",
+        "Un grupo temporal creado por personas de distintas áreas para resolver un trabajo concreto",
+        "Un grupo formado porque varias personas comparten una necesidad o un objetivo de interés común"
+      ]
+    },
+    "u2b1-057": {
+      "ca": [
+        "Conflicte, quan ja apareixen desacords sobre rols",
+        "Normalització, quan ja s’han consolidat normes i confiança",
+        "Rendiment, quan l’equip ja treballa amb autonomia"
+      ],
+      "es": [
+        "Conflicto, cuando ya aparecen desacuerdos sobre roles",
+        "Normalización, cuando ya se han consolidado normas y confianza",
+        "Rendimiento, cuando el equipo ya trabaja con autonomía"
+      ]
+    },
+    "u2b1-058": {
+      "ca": [
+        "Formació, quan les persones encara es coneixen",
+        "Normalització, quan es consoliden normes i rols",
+        "Rendiment, quan el grup ja se centra en resultats"
+      ],
+      "es": [
+        "Formación, cuando las personas todavía se están conociendo",
+        "Normalización, cuando se consolidan normas y roles",
+        "Rendimiento, cuando el grupo ya se centra en resultados"
+      ]
+    },
+    "u2b1-059": {
+      "ca": [
+        "Rendiment",
+        "Les persones es coneixen, intenten entendre els objectius i mantenen una comunicació prudent",
+        "Apareixen desacords sobre responsabilitats, manera de treballar o lideratge"
+      ],
+      "es": [
+        "Rendimiento",
+        "Las personas se conocen, intentan entender los objetivos y mantienen una comunicación prudente",
+        "Aparecen desacuerdos sobre responsabilidades, forma de trabajar o liderazgo"
+      ]
+    },
+    "u2b1-060": {
+      "ca": [
+        "Les persones es coneixen, intenten entendre els objectius i mantenen una comunicació prudent",
+        "Apareixen desacords sobre responsabilitats, manera de treballar o lideratge",
+        "Es consoliden normes, rols, confiança i una manera compartida de treballar"
+      ],
+      "es": [
+        "Las personas se conocen, intentan entender los objetivos y mantienen una comunicación prudente",
+        "Aparecen desacuerdos sobre responsabilidades, forma de trabajar o liderazgo",
+        "Se consolidan normas, roles, confianza y una forma compartida de trabajar"
+      ]
+    },
+    "u2b1-061": {
+      "ca": [
+        "Repartiment de tasques, supervisió i control formal",
+        "Objectius comuns, normes i jerarquia definida",
+        "Especialització individual i suma dels resultats de cada membre"
+      ],
+      "es": [
+        "Reparto de tareas, supervisión y control formal",
+        "Objetivos comunes, normas y jerarquía definida",
+        "Especialización individual y suma de los resultados de cada miembro"
+      ]
+    },
+    "u2b1-062": {
+      "ca": [
+        "Una pauta que fixa el nivell preferit d’un comportament i penalitza tant la manca com l’excés",
+        "Una norma formal escrita que s’aplica de manera permanent mentre existeixi el grup",
+        "Una regla informal que sorgeix espontàniament i no està vinculada a cap objectiu concret"
+      ],
+      "es": [
+        "Una pauta que fija el nivel preferido de un comportamiento y penaliza tanto la falta como el exceso",
+        "Una norma formal escrita que se aplica de forma permanente mientras exista el grupo",
+        "Una regla informal que surge espontáneamente y no está vinculada a ningún objetivo concreto"
+      ]
+    },
+    "u2b1-063": {
+      "ca": [
+        "Una conducta orientada a avançar cap a un objectiu i que pot deixar de ser necessària en assolir-lo",
+        "Una regla formal escrita que defineix obligacions permanents del grup",
+        "Una pauta informal que només descriu hàbits espontanis entre els membres"
+      ],
+      "es": [
+        "Una conducta orientada a avanzar hacia un objetivo y que puede dejar de ser necesaria al alcanzarlo",
+        "Una regla formal escrita que define obligaciones permanentes del grupo",
+        "Una pauta informal que solo describe hábitos espontáneos entre los miembros"
+      ]
+    },
+    "u2b1-064": {
+      "ca": [
+        "Rol de lideratge",
+        "Rol tècnic o analític",
+        "Rol avaluador"
+      ],
+      "es": [
+        "Rol de liderazgo",
+        "Rol técnico o analítico",
+        "Rol evaluador"
+      ]
+    },
+    "u2b1-065": {
+      "ca": [
+        "Guiar l’equip, facilitar decisions, repartir tasques i fer seguiment del treball",
+        "Ordenar informació, planificar tasques i controlar terminis",
+        "Aportar coneixements especialitzats, analitzar informació i resoldre dubtes tècnics"
+      ],
+      "es": [
+        "Guiar al equipo, facilitar decisiones, repartir tareas y hacer seguimiento del trabajo",
+        "Ordenar información, planificar tareas y controlar plazos",
+        "Aportar conocimientos especializados, analizar información y resolver dudas técnicas"
+      ]
+    },
+    "u2b1-066": {
+      "ca": [
+        "Guiar l’equip, facilitar decisions, repartir tasques i fer seguiment del treball",
+        "Ordenar informació, planificar tasques i controlar terminis",
+        "Aportar coneixements especialitzats, analitzar informació i resoldre dubtes tècnics"
+      ],
+      "es": [
+        "Guiar al equipo, facilitar decisiones, repartir tareas y hacer seguimiento del trabajo",
+        "Ordenar información, planificar tareas y controlar plazos",
+        "Aportar conocimientos especializados, analizar información y resolver dudas técnicas"
+      ]
+    },
+    "u2b1-067": {
+      "ca": [
+        "La posició o rang socialment reconegut que ocupa una persona dins del grup",
+        "El conjunt de comportaments esperats d’una persona segons la seva posició",
+        "La força que manté els membres units i motivats per continuar al grup"
+      ],
+      "es": [
+        "La posición o rango socialmente reconocido que ocupa una persona dentro del grupo",
+        "El conjunto de comportamientos esperados de una persona según su posición",
+        "La fuerza que mantiene a los miembros unidos y motivados para continuar en el grupo"
+      ]
+    },
+    "u2b1-068": {
+      "ca": [
+        "La jerarquia, l’antiguitat, la mida del grup i les normes compartides",
+        "Les recompenses, la cohesió, els objectius comuns i la comunicació",
+        "Els coneixements, els procediments, els terminis i la supervisió directa"
+      ],
+      "es": [
+        "La jerarquía, la antigüedad, el tamaño del grupo y las normas compartidas",
+        "Las recompensas, la cohesión, los objetivos comunes y la comunicación",
+        "Los conocimientos, los procedimientos, los plazos y la supervisión directa"
+      ]
+    },
+    "u2b1-069": {
+      "ca": [
+        "Augmentar la productivitat global de l’organització mitjançant una millor coordinació",
+        "Reduir la responsabilitat individual perquè les decisions passen a ser col·lectives",
+        "Permetre que cada membre treballi de manera independent i sumi el seu resultat al final"
+      ],
+      "es": [
+        "Aumentar la productividad global de la organización mediante una mejor coordinación",
+        "Reducir la responsabilidad individual porque las decisiones pasan a ser colectivas",
+        "Permitir que cada miembro trabaje de forma independiente y sume su resultado al final"
+      ]
+    },
+    "u2b1-070": {
+      "ca": [
+        "Facilitar que cada persona redueixi la seva implicació confiant en la resta",
+        "Augmentar l’assumpció de riscos perquè la responsabilitat es percep com a col·lectiva",
+        "Substituir els procediments per acords informals entre els membres"
+      ],
+      "es": [
+        "Facilitar que cada persona reduzca su implicación confiando en los demás",
+        "Aumentar la asunción de riesgos porque la responsabilidad se percibe como colectiva",
+        "Sustituir los procedimientos por acuerdos informales entre los miembros"
+      ]
+    },
+    "u2b1-071": {
+      "ca": [
+        "Reducció de l’esforç individual perquè alguns membres confien que la resta assumirà la feina",
+        "Allargament de les decisions perquè cal escoltar i coordinar diferents opinions",
+        "Dependència excessiva d’una persona coordinadora quan el grup no és autònom"
+      ],
+      "es": [
+        "Reducción del esfuerzo individual porque algunos miembros confían en que el resto asumirá el trabajo",
+        "Alargamiento de las decisiones porque hay que escuchar y coordinar distintas opiniones",
+        "Dependencia excesiva de una persona coordinadora cuando el grupo no es autónomo"
+      ]
+    },
+    "u2b1-072": {
+      "ca": [
+        "Acceptar decisions més arriscades perquè la responsabilitat es percep com a col·lectiva",
+        "Dedicar més temps a coordinar-se perquè hi ha diverses opinions",
+        "Dependre massa del lideratge quan els membres no assumeixen prou autonomia"
+      ],
+      "es": [
+        "Aceptar decisiones más arriesgadas porque la responsabilidad se percibe como colectiva",
+        "Dedicar más tiempo a coordinarse porque hay varias opiniones",
+        "Depender demasiado del liderazgo cuando los miembros no asumen suficiente autonomía"
+      ]
+    },
+    "u2b1-073": {
+      "ca": [
+        "Finalitat didàctica",
+        "Desenvolupament personal i professional",
+        "Finalitat organitzativa"
+      ],
+      "es": [
+        "Finalidad didáctica",
+        "Desarrollo personal y profesional",
+        "Finalidad organizativa"
+      ]
+    },
+    "u2b1-074": {
+      "ca": [
+        "Són una finalitat en si mateixes i l’objectiu principal és completar l’activitat prevista",
+        "S’han d’aplicar de la mateixa manera a qualsevol grup per poder comparar resultats",
+        "S’han d’escollir sobretot pels materials disponibles, encara que no coincideixin amb l’objectiu"
+      ],
+      "es": [
+        "Son una finalidad en sí mismas y el objetivo principal es completar la actividad prevista",
+        "Deben aplicarse de la misma forma a cualquier grupo para poder comparar resultados",
+        "Deben escogerse sobre todo por los materiales disponibles, aunque no coincidan con el objetivo"
+      ]
+    },
+    "u2b1-075": {
+      "ca": [
+        "Finalitat didàctica",
+        "Desenvolupament personal i professional",
+        "Finalitat organitzativa"
+      ],
+      "es": [
+        "Finalidad didáctica",
+        "Desarrollo personal y profesional",
+        "Finalidad organizativa"
+      ]
+    },
+    "u2b1-076": {
+      "ca": [
+        "Mida del grup, nivell jeràrquic i sistema de recompenses",
+        "Objectius generals de l’empresa, pressupost del departament i organigrama",
+        "Transferibilitat, cohesió i estatus dels membres com a únics factors pràctics"
+      ],
+      "es": [
+        "Tamaño del grupo, nivel jerárquico y sistema de recompensas",
+        "Objetivos generales de la empresa, presupuesto del departamento y organigrama",
+        "Transferibilidad, cohesión y estatus de los miembros como únicos factores prácticos"
+      ]
+    },
+    "u2b1-077": {
+      "ca": [
+        "Quan la mateixa activitat pot repetir-se exactament amb un altre grup",
+        "Quan els materials utilitzats serveixen per a més d’una dinàmica",
+        "Quan la persona coordinadora pot aplicar la mateixa tècnica sense adaptar-la"
+      ],
+      "es": [
+        "Cuando la misma actividad puede repetirse exactamente con otro grupo",
+        "Cuando los materiales utilizados sirven para más de una dinámica",
+        "Cuando la persona coordinadora puede aplicar la misma técnica sin adaptarla"
+      ]
+    },
+    "u2b1-078": {
+      "ca": [
+        "Nivell d’objectius i nivell de resultats",
+        "Nivell de normes i nivell de rols",
+        "Nivell de cohesió i nivell de poder"
+      ],
+      "es": [
+        "Nivel de objetivos y nivel de resultados",
+        "Nivel de normas y nivel de roles",
+        "Nivel de cohesión y nivel de poder"
+      ]
+    },
+    "u2b1-079": {
+      "ca": [
+        "Treballar de manera autònoma respecte de la resta de departaments per evitar interrupcions",
+        "Prioritzar la rapidesa encara que alguns procediments o terminis no es puguin respectar",
+        "Compartir la informació interna sense restriccions perquè qualsevol persona pugui continuar una tasca"
+      ],
+      "es": [
+        "Trabajar de forma autónoma respecto al resto de departamentos para evitar interrupciones",
+        "Priorizar la rapidez aunque algunos procedimientos o plazos no puedan respetarse",
+        "Compartir la información interna sin restricciones para que cualquier persona pueda continuar una tarea"
+      ]
+    },
+    "u2b1-080": {
+      "ca": [
+        "La responsabilitat es reparteix entre els membres i disminueix la percepció individual del risc",
+        "Cada persona completa la seva part de manera independent i al final se sumen els resultats",
+        "La coordinació evita duplicitats però el resultat final és igual a la suma dels treballs individuals"
+      ],
+      "es": [
+        "La responsabilidad se reparte entre los miembros y disminuye la percepción individual del riesgo",
+        "Cada persona completa su parte de forma independiente y al final se suman los resultados",
+        "La coordinación evita duplicidades pero el resultado final es igual a la suma de los trabajos individuales"
+      ]
+    },
+    "u2b1-081": {
+      "ca": [
+        "Supervisió directa",
+        "Normalització dels processos de treball",
+        "Normalització dels resultats"
+      ],
+      "es": [
+        "Supervisión directa",
+        "Normalización de los procesos de trabajo",
+        "Normalización de los resultados"
+      ]
+    },
+    "u2b1-082": {
+      "ca": [
+        "Adaptació mútua mitjançant coordinació informal",
+        "Normalització dels processos de treball mitjançant procediments",
+        "Normalització d’habilitats mitjançant formació prèvia"
+      ],
+      "es": [
+        "Adaptación mutua mediante coordinación informal",
+        "Normalización de los procesos de trabajo mediante procedimientos",
+        "Normalización de habilidades mediante formación previa"
+      ]
+    },
+    "u2b1-083": {
+      "ca": [
+        "Adaptació mútua",
+        "Supervisió directa",
+        "Normalització dels resultats"
+      ],
+      "es": [
+        "Adaptación mutua",
+        "Supervisión directa",
+        "Normalización de los resultados"
+      ]
+    },
+    "u2b1-084": {
+      "ca": [
+        "El procés de treball",
+        "El resultat final",
+        "La supervisió directa"
+      ],
+      "es": [
+        "El proceso de trabajo",
+        "El resultado final",
+        "La supervisión directa"
+      ]
+    },
+    "u2b1-085": {
+      "ca": [
+        "Que el procediment sigui sempre lineal i no admeti alternatives",
+        "Que cada pas depengui d’una decisió diferent de la persona que l’executa",
+        "Que el nombre de passos sigui el mínim possible encara que no cobreixi totes les situacions"
+      ],
+      "es": [
+        "Que el procedimiento sea siempre lineal y no admita alternativas",
+        "Que cada paso dependa de una decisión distinta de la persona que lo ejecuta",
+        "Que el número de pasos sea el mínimo posible aunque no cubra todas las situaciones"
+      ]
+    },
+    "u2b1-086": {
+      "ca": [
+        "Un recorregut amb alternatives diferents segons el resultat obtingut en cada pas",
+        "Un conjunt d’instruccions que orienta com s’ha d’actuar davant d’una situació concreta",
+        "Unes regles que delimiten què es pot fer dins del procés de treball"
+      ],
+      "es": [
+        "Un recorrido con alternativas diferentes según el resultado obtenido en cada paso",
+        "Un conjunto de instrucciones que orienta cómo debe actuarse ante una situación concreta",
+        "Unas reglas que delimitan qué puede hacerse dentro del proceso de trabajo"
+      ]
+    },
+    "u2b1-087": {
+      "ca": [
+        "Un conjunt d’instruccions que orienta com s’ha d’actuar davant d’una situació concreta",
+        "Unes regles que delimiten què es pot fer dins del procés de treball",
+        "Una forma d’ordenar i controlar la feina per reduir errors i millorar la qualitat"
+      ],
+      "es": [
+        "Un conjunto de instrucciones que orienta cómo debe actuarse ante una situación concreta",
+        "Unas reglas que delimitan qué puede hacerse dentro del proceso de trabajo",
+        "Una forma de ordenar y controlar el trabajo para reducir errores y mejorar la calidad"
+      ]
+    },
+    "u2b1-088": {
+      "ca": [
+        "Per substituir la necessitat de supervisar o coordinar la feina",
+        "Per garantir que qualsevol incidència es resolgui sempre amb el mateix resultat",
+        "Per eliminar l’adaptació del procediment quan apareixen situacions diferents"
+      ],
+      "es": [
+        "Para sustituir la necesidad de supervisar o coordinar el trabajo",
+        "Para garantizar que cualquier incidencia se resuelva siempre con el mismo resultado",
+        "Para eliminar la adaptación del procedimiento cuando aparecen situaciones distintas"
+      ]
+    },
+    "u2b1-089": {
+      "ca": [
+        "Determinar les formes de mesurament que s’utilitzaran",
+        "Realitzar el mesurament per obtenir el resultat real",
+        "Interpretar la diferència entre resultat real i estàndard previst"
+      ],
+      "es": [
+        "Determinar las formas de medición que se utilizarán",
+        "Realizar la medición para obtener el resultado real",
+        "Interpretar la diferencia entre resultado real y estándar previsto"
+      ]
+    },
+    "u2b1-090": {
+      "ca": [
+        "Realitzar immediatament el control mitjançant el mesurament",
+        "Interpretar el resultat real comparant-lo amb l’estàndard previst",
+        "Aplicar les accions de millora abans de definir com es mesurarà"
+      ],
+      "es": [
+        "Realizar inmediatamente el control mediante la medición",
+        "Interpretar el resultado real comparándolo con el estándar previsto",
+        "Aplicar las acciones de mejora antes de definir cómo se medirá"
+      ]
+    },
+    "u2b1-091": {
+      "ca": [
+        "La interpretació de la diferència entre el resultat real i l’estàndard",
+        "Les accions de millora que s’aplicaran si apareixen desviacions",
+        "La revisió final dels objectius després de completar el control"
+      ],
+      "es": [
+        "La interpretación de la diferencia entre el resultado real y el estándar",
+        "Las acciones de mejora que se aplicarán si aparecen desviaciones",
+        "La revisión final de los objetivos después de completar el control"
+      ]
+    },
+    "u2b1-092": {
+      "ca": [
+        "Efectivitat",
+        "Indicador de procés",
+        "Indicador de servei"
+      ],
+      "es": [
+        "Efectividad",
+        "Indicador de proceso",
+        "Indicador de servicio"
+      ]
+    },
+    "u2b1-093": {
+      "ca": [
+        "Generals, independents de la resta d’objectius i sense límit numèric",
+        "Específics i assequibles, però incompatibles entre si per poder prioritzar-los",
+        "Molt nombrosos i ambiciosos perquè cobreixin qualsevol situació possible"
+      ],
+      "es": [
+        "Generales, independientes del resto de objetivos y sin límite numérico",
+        "Específicos y alcanzables, pero incompatibles entre sí para poder priorizarlos",
+        "Muy numerosos y ambiciosos para que cubran cualquier situación posible"
+      ]
+    },
+    "u2b1-094": {
+      "ca": [
+        "Mantenir-los només de manera mental per poder adaptar-los ràpidament",
+        "Afegir-ne tants com sigui possible per evitar deixar necessitats sense cobrir",
+        "Modificar-los cada vegada que aparegui una tasca urgent, encara que siguin incompatibles"
+      ],
+      "es": [
+        "Mantenerlos solo de forma mental para poder adaptarlos rápidamente",
+        "Añadir tantos como sea posible para evitar dejar necesidades sin cubrir",
+        "Modificarlos cada vez que aparezca una tarea urgente, aunque sean incompatibles"
+      ]
+    },
+    "u2b1-095": {
+      "ca": [
+        "A les condicions físiques del lloc i als recursos materials, sense considerar les relacions entre les persones",
+        "A les actituds personals de responsabilitat, motivació, ordre i puntualitat",
+        "Als objectius, terminis i prioritats assignats individualment a cada treballador"
+      ],
+      "es": [
+        "A las condiciones físicas del puesto y a los recursos materiales, sin considerar las relaciones entre las personas",
+        "A las actitudes personales de responsabilidad, motivación, orden y puntualidad",
+        "A los objetivos, plazos y prioridades asignados individualmente a cada trabajador"
+      ]
+    },
+    "u2b1-096": {
+      "ca": [
+        "Eficiència, eficàcia, efectivitat i qualitat",
+        "Estatus, rol, cohesió i participació",
+        "Planificació, supervisió, normalització i control"
+      ],
+      "es": [
+        "Eficiencia, eficacia, efectividad y calidad",
+        "Estatus, rol, cohesión y participación",
+        "Planificación, supervisión, normalización y control"
+      ]
+    },
+    "u2b1-097": {
+      "ca": [
+        "Normal, perquè es pot delegar o ajornar breument",
+        "Poc important, perquè té poc impacte sobre l’objectiu",
+        "Rutinària, perquè es repeteix amb freqüència"
+      ],
+      "es": [
+        "Normal, porque se puede delegar o aplazar brevemente",
+        "Poco importante, porque tiene poco impacto sobre el objetivo",
+        "Rutinaria, porque se repite con frecuencia"
+      ]
+    },
+    "u2b1-098": {
+      "ca": [
+        "Important",
+        "Poc important",
+        "Rutina"
+      ],
+      "es": [
+        "Importante",
+        "Poco importante",
+        "Rutina"
+      ]
+    },
+    "u2b1-099": {
+      "ca": [
+        "Rutina",
+        "Planificació i desenvolupament",
+        "Tasca puntual"
+      ],
+      "es": [
+        "Rutina",
+        "Planificación y desarrollo",
+        "Tarea puntual"
+      ]
+    },
+    "u2b1-100": {
+      "ca": [
+        "Rutina",
+        "Projecte en curs",
+        "Tasca puntual"
+      ],
+      "es": [
+        "Rutina",
+        "Proyecto en curso",
+        "Tarea puntual"
+      ]
+    },
+    "u2b1-101": {
+      "ca": [
+        "Rol",
+        "Normes",
+        "Mida del grup"
+      ],
+      "es": [
+        "Rol",
+        "Normas",
+        "Tamaño del grupo"
+      ]
+    },
+    "u2b1-102": {
+      "ca": [
+        "Objectius compartits, rols flexibles i comunicació només quan hi ha incidències",
+        "Objectius individuals compatibles, normes informals i supervisió directa",
+        "Objectius compartits, competència entre membres i decisions concentrades en el líder"
+      ],
+      "es": [
+        "Objetivos compartidos, roles flexibles y comunicación solo cuando hay incidencias",
+        "Objetivos individuales compatibles, normas informales y supervisión directa",
+        "Objetivos compartidos, competencia entre miembros y decisiones concentradas en el líder"
+      ]
+    },
+    "u2b1-103": {
+      "ca": [
+        "Rol i estatus",
+        "Norma i rol",
+        "Cohesió i estatus"
+      ],
+      "es": [
+        "Rol y estatus",
+        "Norma y rol",
+        "Cohesión y estatus"
+      ]
+    },
+    "u2b1-104": {
+      "ca": [
+        "Són formals quan regulen la feina i informals quan regulen les relacions personals",
+        "La seva existència depèn que el grup les hagi expressat verbalment o per escrit",
+        "Una norma acceptada espontàniament deixa de tenir caràcter formal encara que estigui documentada"
+      ],
+      "es": [
+        "Son formales cuando regulan el trabajo e informales cuando regulan las relaciones personales",
+        "Su existencia depende de que el grupo las haya expresado verbalmente o por escrito",
+        "Una norma aceptada espontáneamente deja de tener carácter formal aunque esté documentada"
+      ]
+    },
+    "u2b1-105": {
+      "ca": [
+        "Premiar només la persona amb millor rendiment perquè la resta intenti superar-la",
+        "Canviar sovint els membres perquè tots tinguin oportunitat de treballar amb persones diferents",
+        "Augmentar la mida de l’equip perquè hi hagi més varietat de perfils"
+      ],
+      "es": [
+        "Premiar solo a la persona con mejor rendimiento para que el resto intente superarla",
+        "Cambiar con frecuencia a los miembros para que todos tengan oportunidad de trabajar con personas distintas",
+        "Aumentar el tamaño del equipo para que haya más variedad de perfiles"
+      ]
+    },
+    "u2b1-106": {
+      "ca": [
+        "Separar físicament els membres per reduir interrupcions i augmentar la concentració",
+        "Canviar periòdicament els llocs de treball per evitar que es formin subgrups estables",
+        "Concentrar els espais compartits només en les reunions, mantenint la resta del treball aïllat"
+      ],
+      "es": [
+        "Separar físicamente a los miembros para reducir interrupciones y aumentar la concentración",
+        "Cambiar periódicamente los puestos de trabajo para evitar que se formen subgrupos estables",
+        "Concentrar los espacios compartidos solo en las reuniones, manteniendo el resto del trabajo aislado"
+      ]
+    },
+    "u2b1-107": {
+      "ca": [
+        "Reconèixer els resultats del conjunt de l’equip",
+        "Crear espais que facilitin la relació habitual entre els membres",
+        "Reforçar l’acord sobre els objectius que comparteix el grup"
+      ],
+      "es": [
+        "Reconocer los resultados del conjunto del equipo",
+        "Crear espacios que faciliten la relación habitual entre los miembros",
+        "Reforzar el acuerdo sobre los objetivos que comparte el grupo"
+      ]
+    },
+    "u2b1-108": {
+      "ca": [
+        "Reconèixer i recompensar els resultats del grup",
+        "Crear espais de treball compartits",
+        "Reduir la mida quan és excessiva per facilitar les relacions"
+      ],
+      "es": [
+        "Reconocer y recompensar los resultados del grupo",
+        "Crear espacios de trabajo compartidos",
+        "Reducir el tamaño cuando es excesivo para facilitar las relaciones"
+      ]
+    },
+    "u2b1-109": {
+      "ca": [
+        "El líder adopta una actitud protectora i decideix què considera millor amb participació limitada",
+        "El grup disposa de molta autonomia i el líder intervé poc, amb risc de manca de coordinació",
+        "Els membres participen en les decisions i el líder facilita la comunicació i la coordinació"
+      ],
+      "es": [
+        "El líder adopta una actitud protectora y decide lo que considera mejor con participación limitada",
+        "El grupo dispone de mucha autonomía y el líder interviene poco, con riesgo de falta de coordinación",
+        "Los miembros participan en las decisiones y el líder facilita la comunicación y la coordinación"
+      ]
+    },
+    "u2b1-110": {
+      "ca": [
+        "El grup disposa de molta autonomia i el líder intervé poc, amb risc de manca de coordinació",
+        "Els membres participen en les decisions i el líder facilita la comunicació i la coordinació",
+        "Autocràtica"
+      ],
+      "es": [
+        "El grupo dispone de mucha autonomía y el líder interviene poco, con riesgo de falta de coordinación",
+        "Los miembros participan en las decisiones y el líder facilita la comunicación y la coordinación",
+        "Autocrática"
+      ]
+    },
+    "u2b1-111": {
+      "ca": [
+        "Autocràtica",
+        "Paternalista",
+        "Participativa"
+      ],
+      "es": [
+        "Autocrática",
+        "Paternalista",
+        "Participativa"
+      ]
+    },
+    "u2b1-112": {
+      "ca": [
+        "Permissiva o laissez-faire",
+        "El líder concentra les decisions, dona instruccions i manté un control elevat de l’activitat",
+        "El líder adopta una actitud protectora i decideix què considera millor amb participació limitada"
+      ],
+      "es": [
+        "Permisiva o laissez-faire",
+        "El líder concentra las decisiones, da instrucciones y mantiene un control elevado de la actividad",
+        "El líder adopta una actitud protectora y decide lo que considera mejor con participación limitada"
+      ]
+    },
+    "u2b1-113": {
+      "ca": [
+        "Conflicte, quan ja apareixen desacords sobre rols",
+        "Normalització, quan ja s’han consolidat normes i confiança",
+        "Rendiment, quan l’equip ja treballa amb autonomia"
+      ],
+      "es": [
+        "Conflicto, cuando ya aparecen desacuerdos sobre roles",
+        "Normalización, cuando ya se han consolidado normas y confianza",
+        "Rendimiento, cuando el equipo ya trabaja con autonomía"
+      ]
+    },
+    "u2b1-114": {
+      "ca": [
+        "Deixar que el líder resolgui el desacord sense escoltar les parts per recuperar ràpidament el ritme",
+        "Posposar el conflicte fins a la fase de rendiment, quan el grup ja sigui més estable",
+        "Modificar les responsabilitats immediatament sense analitzar l’origen del desacord"
+      ],
+      "es": [
+        "Dejar que el líder resuelva el desacuerdo sin escuchar a las partes para recuperar rápidamente el ritmo",
+        "Posponer el conflicto hasta la fase de rendimiento, cuando el grupo ya sea más estable",
+        "Modificar las responsabilidades inmediatamente sin analizar el origen del desacuerdo"
+      ]
+    },
+    "u2b1-115": {
+      "ca": [
+        "Formació, quan el grup encara està definint objectius",
+        "Conflicte, quan persisteixen desacords sobre rols",
+        "Rendiment, quan l’equip ja és estable i autònom"
+      ],
+      "es": [
+        "Formación, cuando el grupo todavía está definiendo objetivos",
+        "Conflicto, cuando persisten desacuerdos sobre roles",
+        "Rendimiento, cuando el equipo ya es estable y autónomo"
+      ]
+    },
+    "u2b1-116": {
+      "ca": [
+        "Les persones es coneixen, intenten entendre els objectius i mantenen una comunicació prudent",
+        "Apareixen desacords sobre responsabilitats, manera de treballar o lideratge",
+        "Es consoliden normes, rols, confiança i una manera compartida de treballar"
+      ],
+      "es": [
+        "Las personas se conocen, intentan entender los objetivos y mantienen una comunicación prudente",
+        "Aparecen desacuerdos sobre responsabilidades, forma de trabajar o liderazgo",
+        "Se consolidan normas, roles, confianza y una forma compartida de trabajar"
+      ]
+    },
+    "u2b1-117": {
+      "ca": [
+        "Proposar alternatives noves i solucions diferents davant dels problemes",
+        "Revisar el resultat, detectar errors i comprovar si s’han assolit els objectius",
+        "Afavorir la participació, animar els companys i cuidar el clima de treball"
+      ],
+      "es": [
+        "Proponer alternativas nuevas y soluciones diferentes ante los problemas",
+        "Revisar el resultado, detectar errores y comprobar si se han alcanzado los objetivos",
+        "Favorecer la participación, animar a los compañeros y cuidar el clima de trabajo"
+      ]
+    },
+    "u2b1-118": {
+      "ca": [
+        "Revisar el resultat, detectar errors i comprovar si s’han assolit els objectius",
+        "Afavorir la participació, animar els companys i cuidar el clima de treball",
+        "Rol organitzador"
+      ],
+      "es": [
+        "Revisar el resultado, detectar errores y comprobar si se han alcanzado los objetivos",
+        "Favorecer la participación, animar a los compañeros y cuidar el clima de trabajo",
+        "Rol organizador"
+      ]
+    },
+    "u2b1-119": {
+      "ca": [
+        "Afavorir la participació, animar els companys i cuidar el clima de treball",
+        "Rol de lideratge",
+        "Rol tècnic o analític"
+      ],
+      "es": [
+        "Favorecer la participación, animar a los compañeros y cuidar el clima de trabajo",
+        "Rol de liderazgo",
+        "Rol técnico o analítico"
+      ]
+    },
+    "u2b1-120": {
+      "ca": [
+        "Rol organitzador",
+        "Rol tècnic o analític",
+        "Guiar l’equip, facilitar decisions, repartir tasques i fer seguiment del treball"
+      ],
+      "es": [
+        "Rol organizador",
+        "Rol técnico o analítico",
+        "Guiar al equipo, facilitar decisiones, repartir tareas y hacer seguimiento del trabajo"
+      ]
+    },
+    "u2b1-121": {
+      "ca": [
+        "Informal",
+        "Grup d’interès",
+        "Grup d’amics"
+      ],
+      "es": [
+        "Informal",
+        "Grupo de interés",
+        "Grupo de amigos"
+      ]
+    },
+    "u2b1-122": {
+      "ca": [
+        "Grup de comandament",
+        "Grup de tasques",
+        "Grup d’interès"
+      ],
+      "es": [
+        "Grupo de mando",
+        "Grupo de tareas",
+        "Grupo de interés"
+      ]
+    },
+    "u2b1-123": {
+      "ca": [
+        "Grup de tasques",
+        "Un grup creat per l’organització per desenvolupar tasques vinculades als seus objectius",
+        "Un grup que sorgeix espontàniament de les relacions socials entre les persones"
+      ],
+      "es": [
+        "Grupo de tareas",
+        "Un grupo creado por la organización para desarrollar tareas vinculadas a sus objetivos",
+        "Un grupo que surge espontáneamente de las relaciones sociales entre las personas"
+      ]
+    },
+    "u2b1-124": {
+      "ca": [
+        "Grup de comandament",
+        "Grup de tasques",
+        "Grup d’interès"
+      ],
+      "es": [
+        "Grupo de mando",
+        "Grupo de tareas",
+        "Grupo de interés"
+      ]
+    },
+    "u2b1-125": {
+      "ca": [
+        "Limitar-se a completar la pròpia part i comunicar-se només quan hi ha una incidència",
+        "Reservar la informació especialitzada a qui assumeix cada tasca per evitar interferències",
+        "Esperar que la persona coordinadora resolgui els problemes abans d’oferir ajuda a un company"
+      ],
+      "es": [
+        "Limitarse a completar la propia parte y comunicarse solo cuando hay una incidencia",
+        "Reservar la información especializada a quien asume cada tarea para evitar interferencias",
+        "Esperar a que la persona coordinadora resuelva los problemas antes de ofrecer ayuda a un compañero"
+      ]
+    },
+    "u2b1-126": {
+      "ca": [
+        "La coordinació es limita al repartiment inicial i després cada membre treballa per separat",
+        "Comparteixen l’objectiu final, però les decisions i la informació es mantenen dins de cada funció",
+        "El responsable centralitza la informació i distribueix instruccions entre especialistes que no interactuen entre ells"
+      ],
+      "es": [
+        "La coordinación se limita al reparto inicial y después cada miembro trabaja por separado",
+        "Comparten el objetivo final, pero las decisiones y la información se mantienen dentro de cada función",
+        "El responsable centraliza la información y distribuye instrucciones entre especialistas que no interactúan entre ellos"
+      ]
+    },
+    "u2b1-127": {
+      "ca": [
+        "Responsabilitat compartida",
+        "Coordinació",
+        "Reducció de l’esforç individual"
+      ],
+      "es": [
+        "Responsabilidad compartida",
+        "Coordinación",
+        "Reducción del esfuerzo individual"
+      ]
+    },
+    "u2b1-128": {
+      "ca": [
+        "Reducció de l’esforç individual",
+        "Sinergia",
+        "Responsabilitat compartida"
+      ],
+      "es": [
+        "Reducción del esfuerzo individual",
+        "Sinergia",
+        "Responsabilidad compartida"
+      ]
+    },
+    "u2b1-129": {
+      "ca": [
+        "Social",
+        "Desenvolupament personal i professional",
+        "Organitzativa"
+      ],
+      "es": [
+        "Social",
+        "Desarrollo personal y profesional",
+        "Organizativa"
+      ]
+    },
+    "u2b1-130": {
+      "ca": [
+        "Social",
+        "Didàctica",
+        "Organitzativa"
+      ],
+      "es": [
+        "Social",
+        "Didáctica",
+        "Organizativa"
+      ]
+    },
+    "u2b1-131": {
+      "ca": [
+        "Considerar el temps, els materials i la capacitat de la persona que coordina l’activitat",
+        "Finalitat social",
+        "Finalitat didàctica"
+      ],
+      "es": [
+        "Considerar el tiempo, los materiales y la capacidad de la persona que coordina la actividad",
+        "Finalidad social",
+        "Finalidad didáctica"
+      ]
+    },
+    "u2b1-132": {
+      "ca": [
+        "Finalitat social",
+        "Finalitat didàctica",
+        "Desenvolupament personal i professional"
+      ],
+      "es": [
+        "Finalidad social",
+        "Finalidad didáctica",
+        "Desarrollo personal y profesional"
+      ]
+    },
+    "u2b1-133": {
+      "ca": [
+        "Donar les instruccions mínimes i deixar que el grup defineixi l’objectiu durant l’activitat",
+        "Centrar-se només en les relacions i deixar el seguiment de la tasca a cada membre",
+        "Modificar les instruccions durant l’activitat sense explicar els canvis al grup"
+      ],
+      "es": [
+        "Dar las instrucciones mínimas y dejar que el grupo defina el objetivo durante la actividad",
+        "Centrarse solo en las relaciones y dejar el seguimiento de la tarea a cada miembro",
+        "Modificar las instrucciones durante la actividad sin explicar los cambios al grupo"
+      ]
+    },
+    "u2b1-134": {
+      "ca": [
+        "Permetre que intervinguin sobretot les persones més actives perquè l’activitat no perdi ritme",
+        "Assignar a les dues persones participants la funció de representar les opinions de la resta",
+        "Continuar l’activitat sense intervenir mentre no aparegui un conflicte explícit"
+      ],
+      "es": [
+        "Permitir que intervengan sobre todo las personas más activas para que la actividad no pierda ritmo",
+        "Asignar a las dos personas participantes la función de representar las opiniones del resto",
+        "Continuar la actividad sin intervenir mientras no aparezca un conflicto explícito"
+      ]
+    },
+    "u2b1-135": {
+      "ca": [
+        "Explicar de nou les instruccions inicials encara que no hi hagi dubtes",
+        "Afavorir que participin les persones que han intervingut menys",
+        "Cuidar el clima del grup encara que no es revisi l’estat de les tasques"
+      ],
+      "es": [
+        "Explicar de nuevo las instrucciones iniciales aunque no haya dudas",
+        "Favorecer que participen las personas que han intervenido menos",
+        "Cuidar el clima del grupo aunque no se revise el estado de las tareas"
+      ]
+    },
+    "u2b1-136": {
+      "ca": [
+        "Repartir les tasques inicials i no intervenir després en les relacions del grup",
+        "Controlar només els terminis i deixar que els conflictes es resolguin espontàniament",
+        "Prioritzar la participació encara que un desacord estigui afectant el clima de treball"
+      ],
+      "es": [
+        "Repartir las tareas iniciales y no intervenir después en las relaciones del grupo",
+        "Controlar solo los plazos y dejar que los conflictos se resuelvan espontáneamente",
+        "Priorizar la participación aunque un desacuerdo esté afectando al clima de trabajo"
+      ]
+    },
+    "u2b1-137": {
+      "ca": [
+        "Treballar de manera independent de la resta d’àrees per concentrar-se en les pròpies tasques",
+        "Prioritzar l’arxiu i el registre encara que altres departaments necessitin suport urgent",
+        "Adaptar els procediments a cada petició encara que això dificulti mantenir criteris comuns"
+      ],
+      "es": [
+        "Trabajar de forma independiente del resto de áreas para concentrarse en las propias tareas",
+        "Priorizar el archivo y el registro aunque otros departamentos necesiten apoyo urgente",
+        "Adaptar los procedimientos a cada petición aunque eso dificulte mantener criterios comunes"
+      ]
+    },
+    "u2b1-138": {
+      "ca": [
+        "Compliment de procediments i terminis",
+        "Qualitat, ordre i confidencialitat",
+        "Donar resposta a necessitats administratives de diferents àrees de l’organització"
+      ],
+      "es": [
+        "Cumplimiento de procedimientos y plazos",
+        "Calidad, orden y confidencialidad",
+        "Dar respuesta a necesidades administrativas de distintas áreas de la organización"
+      ]
+    },
+    "u2b1-139": {
+      "ca": [
+        "Rapidesa, autonomia i flexibilitat en l’accés a la informació",
+        "Especialització, competència interna i independència entre departaments",
+        "Productivitat, reducció de costos i lliure circulació de la documentació"
+      ],
+      "es": [
+        "Rapidez, autonomía y flexibilidad en el acceso a la información",
+        "Especialización, competencia interna e independencia entre departamentos",
+        "Productividad, reducción de costes y libre circulación de la documentación"
+      ]
+    },
+    "u2b1-140": {
+      "ca": [
+        "La versatilitat individual perquè cada persona pugui assumir qualsevol tasca sense consultar altres àrees",
+        "La confidencialitat, restringint l’intercanvi d’informació entre departaments per evitar accessos innecessaris",
+        "El compliment estricte de cada procediment departamental encara que es generin tasques duplicades"
+      ],
+      "es": [
+        "La versatilidad individual para que cada persona pueda asumir cualquier tarea sin consultar otras áreas",
+        "La confidencialidad, restringiendo el intercambio de información entre departamentos para evitar accesos innecesarios",
+        "El cumplimiento estricto de cada procedimiento departamental aunque se generen tareas duplicadas"
+      ]
+    }
+  }
+}

@@ -1,0 +1,917 @@
+{
+  "blockId": "uf0518-bloc-1",
+  "questions": {
+    "uf0518-b1-001": {
+      "ca": [
+        "La transmissió d’informació mitjançant qualsevol canal que permeti conservar una prova del missatge",
+        "La comunicació professional que es produeix entre una empresa i una altra persona sense coincidir presencialment",
+        "La transmissió formal d’informació administrativa mitjançant documents registrats"
+      ],
+      "es": [
+        "La transmisión de información mediante cualquier canal que permita conservar una prueba del mensaje",
+        "La comunicación profesional que se produce entre una empresa y otra persona sin coincidir presencialmente",
+        "La transmisión formal de información administrativa mediante documentos registrados"
+      ]
+    },
+    "uf0518-b1-002": {
+      "ca": [
+        "Permet que el receptor consulti la informació diverses vegades encara que l’emissor ja no sigui disponible",
+        "Permet conservar una prova documental del contingut i del moment de la comunicació",
+        "Facilita que la informació es localitzi i s’arxivi posteriorment sense necessitat d’una conversa simultània"
+      ],
+      "es": [
+        "Permite que el receptor consulte la información varias veces aunque el emisor ya no esté disponible",
+        "Permite conservar una prueba documental del contenido y del momento de la comunicación",
+        "Facilita que la información se localice y archive posteriormente sin necesidad de una conversación simultánea"
+      ]
+    },
+    "uf0518-b1-003": {
+      "ca": [
+        "Que el document adquireix validesa quan queda registrat, independentment del contingut",
+        "Que el contingut queda fixat i qualsevol rectificació exigeix substituir el document original",
+        "Que la informació pot conservar-se com a antecedent, però no serveix per justificar actuacions"
+      ],
+      "es": [
+        "Que el documento adquiere validez cuando queda registrado, independientemente del contenido",
+        "Que el contenido queda fijado y cualquier rectificación exige sustituir el documento original",
+        "Que la información puede conservarse como antecedente, pero no sirve para justificar actuaciones"
+      ]
+    },
+    "uf0518-b1-004": {
+      "ca": [
+        "Precisa, concisa i formal independentment de qui sigui el destinatari",
+        "Clara i ordenada, però mantenint sempre un únic registre molt formal",
+        "Breu i directa, prioritzant la rapidesa encara que el to no s’adapti al destinatari"
+      ],
+      "es": [
+        "Precisa, concisa y formal independientemente de quién sea el destinatario",
+        "Clara y ordenada, pero manteniendo siempre un único registro muy formal",
+        "Breve y directa, priorizando la rapidez aunque el tono no se adapte al destinatario"
+      ]
+    },
+    "uf0518-b1-005": {
+      "ca": [
+        "Perquè tota comunicació escrita adquireix automàticament valor contractual",
+        "Perquè la confidencialitat substitueix la necessitat de comprovar les dades del destinatari",
+        "Perquè conservar una còpia és suficient per complir qualsevol obligació de protecció de dades"
+      ],
+      "es": [
+        "Porque toda comunicación escrita adquiere automáticamente valor contractual",
+        "Porque la confidencialidad sustituye la necesidad de comprobar los datos del destinatario",
+        "Porque conservar una copia es suficiente para cumplir cualquier obligación de protección de datos"
+      ]
+    },
+    "uf0518-b1-006": {
+      "ca": [
+        "Facilita que els documents siguin més extensos i incloguin totes les dades disponibles",
+        "Permet prescindir d’un procediment de revisió perquè el text ja és comprensible",
+        "Redueix principalment el temps d’arxiu encara que el contingut tingui imprecisions"
+      ],
+      "es": [
+        "Facilita que los documentos sean más extensos e incluyan todos los datos disponibles",
+        "Permite prescindir de un procedimiento de revisión porque el texto ya es comprensible",
+        "Reduce principalmente el tiempo de archivo aunque el contenido tenga imprecisiones"
+      ]
+    },
+    "uf0518-b1-007": {
+      "ca": [
+        "Perquè un text ben redactat elimina la necessitat de classificar-lo o arxivar-lo",
+        "Perquè permet prescindir de referències i números identificadors",
+        "Perquè qualsevol document ben escrit té automàticament valor probatori"
+      ],
+      "es": [
+        "Porque un texto bien redactado elimina la necesidad de clasificarlo o archivarlo",
+        "Porque permite prescindir de referencias y números identificadores",
+        "Porque cualquier documento bien escrito tiene automáticamente valor probatorio"
+      ]
+    },
+    "uf0518-b1-008": {
+      "ca": [
+        "Quan qualsevol correu electrònic s’envia des d’una adreça corporativa",
+        "Quan el document és clar i concís encara que no tingui valor jurídic",
+        "Quan el missatge queda arxivat, independentment de les dades que contingui"
+      ],
+      "es": [
+        "Cuando cualquier correo electrónico se envía desde una dirección corporativa",
+        "Cuando el documento es claro y conciso aunque no tenga valor jurídico",
+        "Cuando el mensaje queda archivado, independientemente de los datos que contenga"
+      ]
+    },
+    "uf0518-b1-009": {
+      "ca": [
+        "Receptor, com a persona que interpreta el document",
+        "Canal, com a mitjà pel qual circula la informació",
+        "Codi, com a sistema de signes compartit"
+      ],
+      "es": [
+        "Receptor, como persona que interpreta el documento",
+        "Canal, como medio por el que circula la información",
+        "Código, como sistema de signos compartido"
+      ]
+    },
+    "uf0518-b1-010": {
+      "ca": [
+        "Emissor, com a persona que inicia la comunicació",
+        "Missatge, com a contingut que es transmet",
+        "Codi, com a sistema de signes que permet entendre-la"
+      ],
+      "es": [
+        "Emisor, como persona que inicia la comunicación",
+        "Mensaje, como contenido que se transmite",
+        "Código, como sistema de signos que permite entenderla"
+      ]
+    },
+    "uf0518-b1-011": {
+      "ca": [
+        "Emissor, com a origen de la comunicació",
+        "Receptor, com a destinatari que interpreta la informació",
+        "Canal, com a suport pel qual es transmet"
+      ],
+      "es": [
+        "Emisor, como origen de la comunicación",
+        "Receptor, como destinatario que interpreta la información",
+        "Canal, como soporte por el que se transmite"
+      ]
+    },
+    "uf0518-b1-012": {
+      "ca": [
+        "Missatge, com a contingut que circula",
+        "Codi, com a conjunt de signes utilitzats",
+        "Emissor, com a persona que origina l’enviament"
+      ],
+      "es": [
+        "Mensaje, como contenido que circula",
+        "Código, como conjunto de signos utilizados",
+        "Emisor, como persona que origina el envío"
+      ]
+    },
+    "uf0518-b1-013": {
+      "ca": [
+        "Canal, com a suport de transmissió",
+        "Missatge, com a contingut comunicat",
+        "Receptor, com a persona que descodifica la informació"
+      ],
+      "es": [
+        "Canal, como soporte de transmisión",
+        "Mensaje, como contenido comunicado",
+        "Receptor, como persona que descodifica la información"
+      ]
+    },
+    "uf0518-b1-014": {
+      "ca": [
+        "La flexibilitat per organitzar els procediments segons l’activitat i la normativa sectorial",
+        "La conservació exclusiva dels documents amb valor fiscal o mercantil",
+        "L’ús habitual de pressupostos, comandes, albarans, factures i correus comercials"
+      ],
+      "es": [
+        "La flexibilidad para organizar los procedimientos según la actividad y la normativa sectorial",
+        "La conservación exclusiva de los documentos con valor fiscal o mercantil",
+        "El uso habitual de presupuestos, pedidos, albaranes, facturas y correos comerciales"
+      ]
+    },
+    "uf0518-b1-015": {
+      "ca": [
+        "Cartes comercials, pressupostos, comandes, albarans i factures",
+        "Contractes mercantils, factures i correus comercials com a documents principals",
+        "Pressupostos, resolucions, comandes, factures i correus sense registre"
+      ],
+      "es": [
+        "Cartas comerciales, presupuestos, pedidos, albaranes y facturas",
+        "Contratos mercantiles, facturas y correos comerciales como documentos principales",
+        "Presupuestos, resoluciones, pedidos, facturas y correos sin registro"
+      ]
+    },
+    "uf0518-b1-016": {
+      "ca": [
+        "Sol·licituds, oficis, resolucions i certificats com a documents més habituals",
+        "Notificacions administratives i resolucions, perquè la flexibilitat privada no afecta el tipus documental",
+        "Cartes comercials i sol·licituds administratives, però no pressupostos ni factures"
+      ],
+      "es": [
+        "Solicitudes, oficios, resoluciones y certificados como documentos más habituales",
+        "Notificaciones administrativas y resoluciones, porque la flexibilidad privada no afecta al tipo documental",
+        "Cartas comerciales y solicitudes administrativas, pero no presupuestos ni facturas"
+      ]
+    },
+    "uf0518-b1-017": {
+      "ca": [
+        "Només les normes internes, perquè la protecció de dades afecta principalment les administracions públiques",
+        "La confidencialitat, però no cal conservar documents si l’empresa utilitza canals digitals",
+        "La conservació de qualsevol document indefinidament, encara que no tingui valor fiscal, mercantil o probatori"
+      ],
+      "es": [
+        "Solo las normas internas, porque la protección de datos afecta principalmente a las administraciones públicas",
+        "La confidencialidad, pero no hace falta conservar documentos si la empresa utiliza canales digitales",
+        "La conservación de cualquier documento indefinidamente, aunque no tenga valor fiscal, mercantil o probatorio"
+      ]
+    },
+    "uf0518-b1-018": {
+      "ca": [
+        "Expressiva, perquè reflecteix l’actitud de l’emissor",
+        "Fàtica, perquè comprova que el contacte es manté",
+        "Metalingüística, perquè explica el significat del codi"
+      ],
+      "es": [
+        "Expresiva, porque refleja la actitud del emisor",
+        "Fática, porque comprueba que el contacto se mantiene",
+        "Metalingüística, porque explica el significado del código"
+      ]
+    },
+    "uf0518-b1-019": {
+      "ca": [
+        "Referencial, perquè aporta informació objectiva",
+        "Expressiva, perquè mostra l’actitud de l’emissor",
+        "Fàtica, perquè manté o comprova el contacte"
+      ],
+      "es": [
+        "Referencial, porque aporta información objetiva",
+        "Expresiva, porque muestra la actitud del emisor",
+        "Fática, porque mantiene o comprueba el contacto"
+      ]
+    },
+    "uf0518-b1-020": {
+      "ca": [
+        "Referencial, perquè aporta informació objectiva",
+        "Apel·lativa, perquè pretén provocar una acció",
+        "Metalingüística, perquè explica el significat de termes"
+      ],
+      "es": [
+        "Referencial, porque aporta información objetiva",
+        "Apelativa, porque pretende provocar una acción",
+        "Metalingüística, porque explica el significado de términos"
+      ]
+    },
+    "uf0518-b1-021": {
+      "ca": [
+        "Apel·lativa, perquè pretén provocar una acció",
+        "Expressiva, perquè mostra l’actitud de l’emissor",
+        "Metalingüística, perquè explica el significat de termes"
+      ],
+      "es": [
+        "Apelativa, porque pretende provocar una acción",
+        "Expresiva, porque muestra la actitud del emisor",
+        "Metalingüística, porque explica el significado de términos"
+      ]
+    },
+    "uf0518-b1-022": {
+      "ca": [
+        "Referencial, perquè aporta informació objectiva",
+        "Apel·lativa, perquè pretén provocar una acció",
+        "Fàtica, perquè manté o comprova el contacte"
+      ],
+      "es": [
+        "Referencial, porque aporta información objetiva",
+        "Apelativa, porque pretende provocar una acción",
+        "Fática, porque mantiene o comprueba el contacto"
+      ]
+    },
+    "uf0518-b1-023": {
+      "ca": [
+        "Precisió, perquè garanteix exactitud en dades i referències",
+        "Concisió, perquè elimina repeticions i informació sobrera",
+        "Correcció, perquè assegura ortografia, puntuació i registre"
+      ],
+      "es": [
+        "Precisión, porque garantiza exactitud en datos y referencias",
+        "Concisión, porque elimina repeticiones e información sobrante",
+        "Corrección, porque asegura ortografía, puntuación y registro"
+      ]
+    },
+    "uf0518-b1-024": {
+      "ca": [
+        "Claredat, perquè facilita una estructura comprensible",
+        "Correcció, perquè assegura ortografia i registre adequats",
+        "Coherència i cohesió, perquè connecta les parts del text"
+      ],
+      "es": [
+        "Claridad, porque facilita una estructura comprensible",
+        "Corrección, porque asegura ortografía y registro adecuados",
+        "Coherencia y cohesión, porque conecta las partes del texto"
+      ]
+    },
+    "uf0518-b1-025": {
+      "ca": [
+        "Claredat, perquè ordena les idees de manera comprensible",
+        "Precisió, perquè verifica l’exactitud de dades i referències",
+        "Coherència i cohesió, perquè manté el sentit global del text"
+      ],
+      "es": [
+        "Claridad, porque ordena las ideas de forma comprensible",
+        "Precisión, porque verifica la exactitud de datos y referencias",
+        "Coherencia y cohesión, porque mantiene el sentido global del texto"
+      ]
+    },
+    "uf0518-b1-026": {
+      "ca": [
+        "Precisió, perquè exigeix dades exactes i verificables",
+        "Claredat, perquè facilita frases i estructura comprensibles",
+        "Coherència i cohesió, perquè connecta les parts del text"
+      ],
+      "es": [
+        "Precisión, porque exige datos exactos y verificables",
+        "Claridad, porque facilita frases y estructura comprensibles",
+        "Coherencia y cohesión, porque conecta las partes del texto"
+      ]
+    },
+    "uf0518-b1-027": {
+      "ca": [
+        "Claredat, perquè presenta les idees de manera entenedora",
+        "Correcció, perquè garanteix ortografia i registre adequats",
+        "Precisió, perquè comprova exactitud en dades i referències"
+      ],
+      "es": [
+        "Claridad, porque presenta las ideas de forma comprensible",
+        "Corrección, porque garantiza ortografía y registro adecuados",
+        "Precisión, porque comprueba exactitud en datos y referencias"
+      ]
+    },
+    "uf0518-b1-028": {
+      "ca": [
+        "Senyor/a",
+        "Cordialment",
+        "Atentament"
+      ],
+      "es": [
+        "Señor/a",
+        "Cordialmente",
+        "Atentamente"
+      ]
+    },
+    "uf0518-b1-029": {
+      "ca": [
+        "Adaptar el registre a cada paràgraf segons la informació que contingui",
+        "Utilitzar sempre el tractament de vostè, fins i tot en comunicacions internes entre companys habituals",
+        "Mantenir un registre formal encara que el destinatari i el context permetin un to professional menys distant"
+      ],
+      "es": [
+        "Adaptar el registro a cada párrafo según la información que contenga",
+        "Utilizar siempre el tratamiento de usted, incluso en comunicaciones internas entre compañeros habituales",
+        "Mantener un registro formal aunque el destinatario y el contexto permitan un tono profesional menos distante"
+      ]
+    },
+    "uf0518-b1-030": {
+      "ca": [
+        "Del tipus de document exclusivament, independentment de qui el rebi",
+        "Del canal utilitzat: correu postal, correu electrònic o document intern",
+        "Del grau de formalitat habitual de l’empresa, que s’ha de mantenir igual en tots els casos"
+      ],
+      "es": [
+        "Del tipo de documento exclusivamente, independientemente de quién lo reciba",
+        "Del canal utilizado: correo postal, correo electrónico o documento interno",
+        "Del grado de formalidad habitual de la empresa, que debe mantenerse igual en todos los casos"
+      ]
+    },
+    "uf0518-b1-031": {
+      "ca": [
+        "Un assumpte breu que identifiqui amb precisió el contingut",
+        "Una referència interna que permeti localitzar el document",
+        "Una signatura amb nom i càrrec quan sigui necessària"
+      ],
+      "es": [
+        "Un asunto breve que identifique con precisión el contenido",
+        "Una referencia interna que permita localizar el documento",
+        "Una firma con nombre y cargo cuando sea necesaria"
+      ]
+    },
+    "uf0518-b1-032": {
+      "ca": [
+        "Comprovar només nom i adreça, perquè imports i dates es revisen en comptabilitat",
+        "Revisar les dades després de l’enviament i corregir-les en una comunicació posterior si cal",
+        "Comprovar les dades del destinatari però no les referències internes, que no afecten la validesa"
+      ],
+      "es": [
+        "Comprobar solo nombre y dirección, porque importes y fechas se revisan en contabilidad",
+        "Revisar los datos después del envío y corregirlos en una comunicación posterior si es necesario",
+        "Comprobar los datos del destinatario pero no las referencias internas, que no afectan a la validez"
+      ]
+    },
+    "uf0518-b1-033": {
+      "ca": [
+        "Conservar una còpia d’un document amb valor probatori més temps del necessari",
+        "Incloure una referència interna que permet identificar l’expedient",
+        "Adjuntar documentació addicional quan el destinatari la necessita"
+      ],
+      "es": [
+        "Conservar una copia de un documento con valor probatorio más tiempo del necesario",
+        "Incluir una referencia interna que permite identificar el expediente",
+        "Adjuntar documentación adicional cuando el destinatario la necesita"
+      ]
+    },
+    "uf0518-b1-034": {
+      "ca": [
+        "Un únic paràgraf llarg per evitar separar idees relacionades",
+        "Frases curtes però diverses idees principals dins de cada paràgraf",
+        "Paràgrafs extensos amb enumeracions per reduir el nombre de punts"
+      ],
+      "es": [
+        "Un único párrafo largo para evitar separar ideas relacionadas",
+        "Frases cortas pero varias ideas principales dentro de cada párrafo",
+        "Párrafos extensos con enumeraciones para reducir el número de puntos"
+      ]
+    },
+    "uf0518-b1-035": {
+      "ca": [
+        "Termes tècnics normalitzats quan són necessaris per precisar el missatge",
+        "Enumeracions i signes de puntuació per ordenar informació complexa",
+        "Noms oficials o cites literals en una llengua diferent de la resta del document"
+      ],
+      "es": [
+        "Términos técnicos normalizados cuando son necesarios para precisar el mensaje",
+        "Enumeraciones y signos de puntuación para ordenar información compleja",
+        "Nombres oficiales o citas literales en una lengua diferente del resto del documento"
+      ]
+    },
+    "uf0518-b1-036": {
+      "ca": [
+        "Utilitzar noms oficials en la llengua en què estan establerts",
+        "Incloure una cita literal en una altra llengua quan és necessari reproduir-la",
+        "Revisar noms, dates, imports, referències i annexos abans d’enviar"
+      ],
+      "es": [
+        "Utilizar nombres oficiales en la lengua en la que están establecidos",
+        "Incluir una cita literal en otra lengua cuando es necesario reproducirla",
+        "Revisar nombres, fechas, importes, referencias y anexos antes de enviar"
+      ]
+    },
+    "uf0518-b1-037": {
+      "ca": [
+        "Una comunicació interna breu destinada a transmetre polítiques o instruccions dins l’empresa",
+        "Un document administratiu formal utilitzat per notificar actes amb validesa legal",
+        "Un document informatiu enviat amb el mateix contingut a múltiples destinataris"
+      ],
+      "es": [
+        "Una comunicación interna breve destinada a transmitir políticas o instrucciones dentro de la empresa",
+        "Un documento administrativo formal utilizado para notificar actos con validez legal",
+        "Un documento informativo enviado con el mismo contenido a múltiples destinatarios"
+      ]
+    },
+    "uf0518-b1-038": {
+      "ca": [
+        "Informar, confirmar i respondre, però no formular reclamacions o ofertes",
+        "Sol·licitar i oferir, però només quan la relació és entre dues empreses",
+        "Reclamar o confirmar operacions, però no informar sobre productes o serveis"
+      ],
+      "es": [
+        "Informar, confirmar y responder, pero no formular reclamaciones u ofertas",
+        "Solicitar y ofrecer, pero solo cuando la relación es entre dos empresas",
+        "Reclamar o confirmar operaciones, pero no informar sobre productos o servicios"
+      ]
+    },
+    "uf0518-b1-039": {
+      "ca": [
+        "Ha quedat com a suport residual per a comunicacions que requereixen més formalitat que un correu electrònic",
+        "Conserva valor principalment en reclamacions i cobraments, mentre les altres comunicacions passen al correu electrònic",
+        "Manté valor formal quan s’envia en paper; en format digital equival funcionalment a un correu electrònic ordinari"
+      ],
+      "es": [
+        "Ha quedado como soporte residual para comunicaciones que requieren más formalidad que un correo electrónico",
+        "Conserva valor principalmente en reclamaciones y cobros, mientras las demás comunicaciones pasan al correo electrónico",
+        "Mantiene valor formal cuando se envía en papel; en formato digital equivale funcionalmente a un correo electrónico ordinario"
+      ]
+    },
+    "uf0518-b1-040": {
+      "ca": [
+        "La carta molt formal",
+        "La carta comercial de reclamació",
+        "La carta informal amb to professional"
+      ],
+      "es": [
+        "La carta muy formal",
+        "La carta comercial de reclamación",
+        "La carta informal con tono profesional"
+      ]
+    },
+    "uf0518-b1-041": {
+      "ca": [
+        "Quan qualsevol comunicació es dirigeix a una administració pública",
+        "Quan es tracta d’una primera comunicació comercial amb un client o proveïdor",
+        "Quan la carta conté una reclamació o una petició econòmica encara que la relació sigui habitual"
+      ],
+      "es": [
+        "Cuando cualquier comunicación se dirige a una administración pública",
+        "Cuando se trata de una primera comunicación comercial con un cliente o proveedor",
+        "Cuando la carta contiene una reclamación o una petición económica aunque la relación sea habitual"
+      ]
+    },
+    "uf0518-b1-042": {
+      "ca": [
+        "Destinatari, perquè identifica la persona o entitat que rep la carta",
+        "Referència, perquè identifica el document o expedient",
+        "Assumpte, perquè resumeix el tema principal"
+      ],
+      "es": [
+        "Destinatario, porque identifica a la persona o entidad que recibe la carta",
+        "Referencia, porque identifica el documento o expediente",
+        "Asunto, porque resume el tema principal"
+      ]
+    },
+    "uf0518-b1-043": {
+      "ca": [
+        "Capçalera, perquè recull les dades del remitent",
+        "Referència, perquè identifica el document o expedient",
+        "Data, perquè situa temporalment l’emissió"
+      ],
+      "es": [
+        "Encabezamiento, porque recoge los datos del remitente",
+        "Referencia, porque identifica el documento o expediente",
+        "Fecha, porque sitúa temporalmente la emisión"
+      ]
+    },
+    "uf0518-b1-044": {
+      "ca": [
+        "Assumpte, perquè sintetitza el contingut de la carta",
+        "Data, perquè situa temporalment el document",
+        "Destinatari, perquè identifica qui rep la carta"
+      ],
+      "es": [
+        "Asunto, porque sintetiza el contenido de la carta",
+        "Fecha, porque sitúa temporalmente el documento",
+        "Destinatario, porque identifica quién recibe la carta"
+      ]
+    },
+    "uf0518-b1-045": {
+      "ca": [
+        "Referència",
+        "Data",
+        "Salutació"
+      ],
+      "es": [
+        "Referencia",
+        "Fecha",
+        "Saludo"
+      ]
+    },
+    "uf0518-b1-046": {
+      "ca": [
+        "Comiat",
+        "Assumpte",
+        "Paràgraf d’obertura"
+      ],
+      "es": [
+        "Despedida",
+        "Asunto",
+        "Párrafo de apertura"
+      ]
+    },
+    "uf0518-b1-047": {
+      "ca": [
+        "Resumir les condicions addicionals o els detalls econòmics de la proposta",
+        "Indicar la data límit de resposta i les dades de contacte",
+        "Presentar de manera ordenada la informació detallada de productes o serveis"
+      ],
+      "es": [
+        "Resumir las condiciones adicionales o los detalles económicos de la propuesta",
+        "Indicar la fecha límite de respuesta y los datos de contacto",
+        "Presentar de forma ordenada la información detallada de productos o servicios"
+      ]
+    },
+    "uf0518-b1-048": {
+      "ca": [
+        "Al paràgraf d’obertura, perquè defineix el motiu de la comunicació",
+        "Al paràgraf final, juntament amb la data límit i el contacte",
+        "Als annexos, perquè són dades complementàries al missatge principal"
+      ],
+      "es": [
+        "En el párrafo de apertura, porque define el motivo de la comunicación",
+        "En el párrafo final, junto con la fecha límite y el contacto",
+        "En los anexos, porque son datos complementarios al mensaje principal"
+      ]
+    },
+    "uf0518-b1-049": {
+      "ca": [
+        "La fórmula de salutació i el tractament inicial",
+        "La relació completa dels productes o serveis amb totes les especificacions tècniques",
+        "Les dades identificatives del remitent i del destinatari"
+      ],
+      "es": [
+        "La fórmula de saludo y el tratamiento inicial",
+        "La relación completa de los productos o servicios con todas las especificaciones técnicas",
+        "Los datos identificativos del remitente y del destinatario"
+      ]
+    },
+    "uf0518-b1-050": {
+      "ca": [
+        "La salutació que inicia el cos de la carta",
+        "La signatura que identifica la persona remitent",
+        "El paràgraf final que fixa la data límit de resposta"
+      ],
+      "es": [
+        "El saludo que inicia el cuerpo de la carta",
+        "La firma que identifica a la persona remitente",
+        "El párrafo final que fija la fecha límite de respuesta"
+      ]
+    },
+    "uf0518-b1-051": {
+      "ca": [
+        "El nom i l’adreça del destinatari i la referència del document",
+        "El nom del remitent i la data de redacció, sense necessitat de càrrec",
+        "El càrrec de la persona remitent i els documents annexos que s’adjunten"
+      ],
+      "es": [
+        "El nombre y la dirección del destinatario y la referencia del documento",
+        "El nombre del remitente y la fecha de redacción, sin necesidad de cargo",
+        "El cargo de la persona remitente y los documentos anexos que se adjuntan"
+      ]
+    },
+    "uf0518-b1-052": {
+      "ca": [
+        "Referències internes que identifiquen la carta dins l’arxiu",
+        "Informació addicional breu afegida després de la signatura",
+        "Documents que formen part del cos perquè són necessaris per entendre el motiu"
+      ],
+      "es": [
+        "Referencias internas que identifican la carta dentro del archivo",
+        "Información adicional breve añadida después de la firma",
+        "Documentos que forman parte del cuerpo porque son necesarios para entender el motivo"
+      ]
+    },
+    "uf0518-b1-053": {
+      "ca": [
+        "Capçalera → comiat → cos",
+        "Cos → comiat → capçalera",
+        "Capçalera → signatura → cos"
+      ],
+      "es": [
+        "Encabezamiento → despedida → cuerpo",
+        "Cuerpo → despedida → encabezamiento",
+        "Encabezamiento → firma → cuerpo"
+      ]
+    },
+    "uf0518-b1-054": {
+      "ca": [
+        "Carta d’oferta, perquè presenta una proposta comercial",
+        "Carta de reclamació, perquè comunica una incidència",
+        "Carta de cobrament, perquè requereix un import pendent"
+      ],
+      "es": [
+        "Carta de oferta, porque presenta una propuesta comercial",
+        "Carta de reclamación, porque comunica una incidencia",
+        "Carta de cobro, porque requiere un importe pendiente"
+      ]
+    },
+    "uf0518-b1-055": {
+      "ca": [
+        "Carta de comanda, perquè sol·licita productes o serveis",
+        "Carta de reclamació, perquè comunica una incidència",
+        "Carta de cobrament, perquè exigeix el pagament d’un deute"
+      ],
+      "es": [
+        "Carta de pedido, porque solicita productos o servicios",
+        "Carta de reclamación, porque comunica una incidencia",
+        "Carta de cobro, porque exige el pago de una deuda"
+      ]
+    },
+    "uf0518-b1-056": {
+      "ca": [
+        "Carta de comanda, perquè formalitza una petició de productes",
+        "Carta d’oferta, perquè presenta una proposta al client",
+        "Carta de cobrament, perquè reclama un import pendent"
+      ],
+      "es": [
+        "Carta de pedido, porque formaliza una solicitud de productos",
+        "Carta de oferta, porque presenta una propuesta al cliente",
+        "Carta de cobro, porque reclama un importe pendiente"
+      ]
+    },
+    "uf0518-b1-057": {
+      "ca": [
+        "Carta de comanda, perquè sol·licita productes a un proveïdor",
+        "Carta d’oferta, perquè presenta una proposta comercial",
+        "Carta de reclamació, perquè comunica una incidència o disconformitat"
+      ],
+      "es": [
+        "Carta de pedido, porque solicita productos a un proveedor",
+        "Carta de oferta, porque presenta una propuesta comercial",
+        "Carta de reclamación, porque comunica una incidencia o disconformidad"
+      ]
+    },
+    "uf0518-b1-058": {
+      "ca": [
+        "Una comunicació interna àgil adreçada a una persona, departament o grup concret",
+        "Un document que transmet el mateix missatge simultàniament a múltiples destinataris",
+        "Una petició formal d’una persona física o jurídica davant d’una administració o entitat"
+      ],
+      "es": [
+        "Una comunicación interna ágil dirigida a una persona, departamento o grupo concreto",
+        "Un documento que transmite el mismo mensaje simultáneamente a múltiples destinatarios",
+        "Una petición formal de una persona física o jurídica ante una administración o entidad"
+      ]
+    },
+    "uf0518-b1-059": {
+      "ca": [
+        "Per notificar formalment una resolució administrativa amb validesa legal",
+        "Per comunicar el mateix missatge a tots els clients o a tota la plantilla simultàniament",
+        "Per formular una petició formal davant d’una administració o entitat"
+      ],
+      "es": [
+        "Para notificar formalmente una resolución administrativa con validez legal",
+        "Para comunicar el mismo mensaje a todos los clientes o a toda la plantilla simultáneamente",
+        "Para formular una petición formal ante una administración o entidad"
+      ]
+    },
+    "uf0518-b1-060": {
+      "ca": [
+        "S’adreça principalment a una persona o departament concret dins de l’organització",
+        "Té validesa legal pròpia com a notificació administrativa formal",
+        "Serveix perquè una persona interessada demani formalment alguna cosa a una administració"
+      ],
+      "es": [
+        "Se dirige principalmente a una persona o departamento concreto dentro de la organización",
+        "Tiene validez legal propia como notificación administrativa formal",
+        "Sirve para que una persona interesada pida formalmente algo a una administración"
+      ]
+    },
+    "uf0518-b1-061": {
+      "ca": [
+        "El memoràndum s’utilitza entre departaments i la circular entre l’empresa i destinataris externs",
+        "El memoràndum té caràcter administratiu probatori i la circular un caràcter merament informatiu",
+        "La circular requereix registre formal i el memoràndum funciona com una nota sense instruccions"
+      ],
+      "es": [
+        "El memorándum se utiliza entre departamentos y la circular entre la empresa y destinatarios externos",
+        "El memorándum tiene carácter administrativo probatorio y la circular un carácter meramente informativo",
+        "La circular requiere registro formal y el memorándum funciona como una nota sin instrucciones"
+      ]
+    },
+    "uf0518-b1-062": {
+      "ca": [
+        "Un memoràndum general",
+        "Un ofici",
+        "Una carta comercial informativa"
+      ],
+      "es": [
+        "Un memorándum general",
+        "Un oficio",
+        "Una carta comercial informativa"
+      ]
+    },
+    "uf0518-b1-063": {
+      "ca": [
+        "Per comunicar simultàniament una instrucció a diversos destinataris",
+        "Per notificar un acte administratiu amb validesa legal",
+        "Per transmetre internament una política a una persona o departament concret"
+      ],
+      "es": [
+        "Para comunicar simultáneamente una instrucción a varios destinatarios",
+        "Para notificar un acto administrativo con validez legal",
+        "Para transmitir internamente una política a una persona o departamento concreto"
+      ]
+    },
+    "uf0518-b1-064": {
+      "ca": [
+        "Instància, perquè és la denominació jurídica obligatòria en qualsevol procediment",
+        "Petició, perquè substitueix els termes instància i sol·licitud en l’administració actual",
+        "Escrit, perquè qualsevol document presentat a l’Administració rep aquesta denominació"
+      ],
+      "es": [
+        "Instancia, porque es la denominación jurídica obligatoria en cualquier procedimiento",
+        "Petición, porque sustituye a los términos instancia y solicitud en la administración actual",
+        "Escrito, porque cualquier documento presentado a la Administración recibe esta denominación"
+      ]
+    },
+    "uf0518-b1-065": {
+      "ca": [
+        "Persona interessada, assumpte, fets, petició i referència, sense necessitat de signatura",
+        "Remitent, destinatari, cos, comiat i annexos, com en qualsevol carta comercial",
+        "Persona interessada, fets i petició; el mitjà de notificació i la data són opcionals"
+      ],
+      "es": [
+        "Persona interesada, asunto, hechos, petición y referencia, sin necesidad de firma",
+        "Remitente, destinatario, cuerpo, despedida y anexos, como en cualquier carta comercial",
+        "Persona interesada, hechos y petición; el medio de notificación y la fecha son opcionales"
+      ]
+    },
+    "uf0518-b1-066": {
+      "ca": [
+        "La petició concreta que es demana a l’administració",
+        "El lloc, la data i la signatura de la persona interessada",
+        "La relació de documents annexos que justifiquen la petició"
+      ],
+      "es": [
+        "La petición concreta que se solicita a la administración",
+        "El lugar, la fecha y la firma de la persona interesada",
+        "La relación de documentos anexos que justifican la petición"
+      ]
+    },
+    "uf0518-b1-067": {
+      "ca": [
+        "Els fets i antecedents que expliquen la situació",
+        "Les dades identificatives i el mitjà de notificació",
+        "La justificació documental que s’incorpora com a annex"
+      ],
+      "es": [
+        "Los hechos y antecedentes que explican la situación",
+        "Los datos identificativos y el medio de notificación",
+        "La justificación documental que se incorpora como anexo"
+      ]
+    },
+    "uf0518-b1-068": {
+      "ca": [
+        "Ordenats per importància, deixant els més antics per al final",
+        "Agrupats segons el document annex que els justifica, encara que es perdi l’ordre temporal",
+        "Resumits en un únic paràgraf sense separar antecedents per evitar repeticions"
+      ],
+      "es": [
+        "Ordenados por importancia, dejando los más antiguos para el final",
+        "Agrupados según el documento anexo que los justifica, aunque se pierda el orden temporal",
+        "Resumidos en un único párrafo sin separar antecedentes para evitar repeticiones"
+      ]
+    },
+    "uf0518-b1-069": {
+      "ca": [
+        "Per demostrar que l’Administració ja ha resolt favorablement la petició",
+        "Per substituir la signatura i acreditar la identitat de la persona interessada",
+        "Per determinar automàticament la data en què l’administració ha de resoldre"
+      ],
+      "es": [
+        "Para demostrar que la Administración ya ha resuelto favorablemente la petición",
+        "Para sustituir la firma y acreditar la identidad de la persona interesada",
+        "Para determinar automáticamente la fecha en que la administración debe resolver"
+      ]
+    },
+    "uf0518-b1-070": {
+      "ca": [
+        "Per comunicar de manera individual una instrucció interna a una persona o departament concret",
+        "Per formular peticions formals davant d’una administració o entitat",
+        "Per notificar actes administratius que requereixen validesa legal pròpia"
+      ],
+      "es": [
+        "Para comunicar de forma individual una instrucción interna a una persona o departamento concreto",
+        "Para formular peticiones formales ante una administración o entidad",
+        "Para notificar actos administrativos que requieren validez legal propia"
+      ]
+    },
+    "uf0518-b1-071": {
+      "ca": [
+        "Al personal d’una mateixa unitat o departament, mentre clients i proveïdors reben cartes comercials",
+        "A personal i clients, però no a proveïdors ni persones usuàries",
+        "A clients i proveïdors, mentre el personal intern rep memoràndums"
+      ],
+      "es": [
+        "Al personal de una misma unidad o departamento, mientras clientes y proveedores reciben cartas comerciales",
+        "A personal y clientes, pero no a proveedores ni personas usuarias",
+        "A clientes y proveedores, mientras el personal interno recibe memorándums"
+      ]
+    },
+    "uf0518-b1-072": {
+      "ca": [
+        "Detallada i extensa perquè tots els destinataris disposin de tota la informació disponible",
+        "Breu i clara, però sense indicar les persones afectades si s’envia a una llista de distribució",
+        "Formal i registrada, amb la mateixa estructura obligatòria que una sol·licitud administrativa"
+      ],
+      "es": [
+        "Detallada y extensa para que todos los destinatarios dispongan de toda la información disponible",
+        "Breve y clara, pero sin indicar las personas afectadas si se envía a una lista de distribución",
+        "Formal y registrada, con la misma estructura obligatoria que una solicitud administrativa"
+      ]
+    },
+    "uf0518-b1-073": {
+      "ca": [
+        "Assumpte, perquè resumeix el tema de la circular",
+        "Aplicació, perquè indica quan entra en vigor o a qui afecta",
+        "Tancament, perquè identifica la persona responsable"
+      ],
+      "es": [
+        "Asunto, porque resume el tema de la circular",
+        "Aplicación, porque indica cuándo entra en vigor o a quién afecta",
+        "Cierre, porque identifica a la persona responsable"
+      ]
+    },
+    "uf0518-b1-074": {
+      "ca": [
+        "Capçalera, perquè recull empresa, departament i destinataris",
+        "Aplicació, perquè indica vigència i persones afectades",
+        "Tancament, perquè identifica responsable, càrrec i contacte"
+      ],
+      "es": [
+        "Encabezamiento, porque recoge empresa, departamento y destinatarios",
+        "Aplicación, porque indica vigencia y personas afectadas",
+        "Cierre, porque identifica responsable, cargo y contacto"
+      ]
+    },
+    "uf0518-b1-075": {
+      "ca": [
+        "Capçalera, perquè identifica empresa, departament i destinataris",
+        "Assumpte, perquè concreta el tema de la circular",
+        "Tancament, perquè identifica la persona responsable i el contacte"
+      ],
+      "es": [
+        "Encabezamiento, porque identifica empresa, departamento y destinatarios",
+        "Asunto, porque concreta el tema de la circular",
+        "Cierre, porque identifica a la persona responsable y el contacto"
+      ]
+    },
+    "uf0518-b1-076": {
+      "ca": [
+        "Capçalera, perquè identifica empresa, departament i destinataris",
+        "Assumpte, perquè resumeix el tema de la circular",
+        "Aplicació, perquè indica vigència o persones afectades"
+      ],
+      "es": [
+        "Encabezamiento, porque identifica empresa, departamento y destinatarios",
+        "Asunto, porque resume el tema de la circular",
+        "Aplicación, porque indica vigencia o personas afectadas"
+      ]
+    }
+  }
+}

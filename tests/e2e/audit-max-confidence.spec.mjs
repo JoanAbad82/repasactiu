@@ -33,7 +33,7 @@ test('un examen de 10 preguntas llega a resultados y contabiliza blancos',async(
   await page.goto('/');
   await waitForHome(page);
   await page.locator('[data-selection="bloc-1"]').click();
-  await page.getByLabel('Mode Examen').check();
+  await page.getByLabel('Mode Examen',{exact:true}).check();
   await page.getByLabel('10 preguntes').check();
   await page.getByRole('button',{name:'Començar'}).click();
 
