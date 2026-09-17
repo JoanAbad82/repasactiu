@@ -15,10 +15,10 @@ export async function runBilingualContractAudit(){
   const memory=new Map();
   const errors=[];
 
-  for(const block of course.blocks){
+  for(const block of course.blocks||[]){
     for(const file of [block.file,block.extraFile,...(block.additionalFiles||[])].filter(Boolean)){
       const bank=await readJson(file);
-      canonical.push(...bank.questions);
+      canonical.push(...(bank.questions||[]));
     }
     for(const file of [block.translationFile,...(block.additionalTranslationFiles||[])].filter(Boolean)){
       const translated=await readJson(file);
@@ -37,7 +37,7 @@ export async function runBilingualContractAudit(){
   }
 
   const ids=new Set(canonical.map(q=>q.id));
-  if(canonical.length!==450||ids.size!==450)errors.push(`canonical ids/count invalid: ${canonical.length}/${ids.size}`);
+  if(ids.size!==canonical.length)errors.push(`canonical ids are not unique: ${canonical.length}/${ids.size}`);
 
   for(const q of canonical){
     const correction=corrections.questions?.[q.id]||{};
@@ -78,6 +78,8 @@ export async function runBilingualContractAudit(){
   for(const id of translations.keys())if(!ids.has(id))errors.push(`${id}: orphan Spanish translation`);
   for(const id of memory.keys())if(!ids.has(id))errors.push(`${id}: orphan memory aid`);
   for(const id of Object.keys(corrections.questions||{}))if(!ids.has(id))errors.push(`${id}: correction for unknown question`);
+  if(translations.size!==canonical.length)errors.push(`Spanish translation count mismatch: ${translations.size}/${canonical.length}`);
+  if(memory.size!==canonical.length)errors.push(`memory aid count mismatch: ${memory.size}/${canonical.length}`);
 
   return {questions:canonical.length,translations:translations.size,memoryAids:memory.size,corrections:Object.keys(corrections.questions||{}).length,errors};
 }
