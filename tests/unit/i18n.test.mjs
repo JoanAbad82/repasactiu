@@ -57,3 +57,38 @@ test("les traduccions castellanes cobreixen exactament les 526 preguntes sense d
   }
   assert.equal(total,526);
 });
+
+test("els topics UF0518 es tradueixen íntegrament al castellà",async()=>{
+  const topicEs={
+    "Comunicació escrita":"Comunicación escrita",
+    "Utilitat de la comunicació escrita":"Utilidad de la comunicación escrita",
+    "Elements de la comunicació":"Elementos de la comunicación",
+    "Empresa pública i privada":"Empresa pública y privada",
+    "Funcions del llenguatge":"Funciones del lenguaje",
+    "Qualitat del text professional":"Calidad del texto profesional",
+    "Registre i tractament":"Registro y tratamiento",
+    "Errors habituals":"Errores habituales",
+    "Recomanacions lingüístiques":"Recomendaciones lingüísticas",
+    "Carta comercial":"Carta comercial",
+    "Formalitat de les cartes":"Formalidad de las cartas",
+    "Estructura de la carta":"Estructura de la carta",
+    "Tipus de cartes comercials":"Tipos de cartas comerciales",
+    "Documents administratius":"Documentos administrativos",
+    "Instància o sol·licitud":"Instancia o solicitud",
+    "Estructura de la sol·licitud":"Estructura de la solicitud",
+    "Circular":"Circular",
+    "Estructura de la circular":"Estructura de la circular"
+  };
+  const course=await readJson("course.json");
+  const block=course.blocks.find(b=>b.id==="uf0518-bloc-1");
+  const originals=[];
+  for(const file of bankFiles(block))originals.push(...(await readJson(file.replace(/^data\//,""))).questions);
+  const translated={};
+  for(const file of translationFiles(block)){
+    const data=await readJson(file.replace(/^data\//,""));
+    Object.assign(translated,data.questions);
+  }
+  for(const q of originals){
+    assert.equal(translated[q.id].topic,topicEs[q.topic],`${q.id}: topic castellà incorrecte`);
+  }
+});
