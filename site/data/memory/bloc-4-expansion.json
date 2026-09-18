@@ -1,1 +1,155 @@
-{"blockId":"bloc-4","questions":{"b4-041":{"type":"idea","ca":"Fiscal = financer/comptable/admin; Legal assessora si hi ha qüestió jurídica.","es":"Fiscal = financiero/contabilidad/admin; Legal asesora si hay cuestión jurídica."},"b4-042":{"type":"idea","ca":"Mercantil: Administració porta el tràmit; Legal hi entra quan cal assessorament.","es":"Mercantil: Administración lleva el trámite; Legal entra cuando hace falta asesoramiento."},"b4-043":{"type":"idea","ca":"Entrades + sortides de producte ajuden a veure l’equilibri de l’estoc.","es":"Entradas + salidas de producto ayudan a ver el equilibrio del stock."},"b4-044":{"type":"idea","ca":"Personal: RRHH/Admin; pagaments: Financer; prevenció: documentació preventiva.","es":"Personal: RRHH/Admin; pagos: Financiero; prevención: documentación preventiva."},"b4-045":{"type":"idea","ca":"Un departament pot acumular funcions: l’estructura depèn de cada organització.","es":"Un departamento puede acumular funciones: la estructura depende de cada organización."},"b4-046":{"type":"idea","ca":"Atenció al Client = relació i informació del client; no és només el moment de venda.","es":"Atención al Cliente = relación e información del cliente; no es solo el momento de venta."},"b4-047":{"type":"idea","ca":"En serveis, «producció» pot aparèixer com operacions o prestació de serveis.","es":"En servicios, «producción» puede aparecer como operaciones o prestación de servicios."},"b4-048":{"type":"idea","ca":"Qualitat és una funció: pot ser departament, responsable o una altra unitat.","es":"Calidad es una función: puede ser departamento, responsable u otra unidad."},"b4-049":{"type":"idea","ca":"Diverses seus: decideix què centralitzes i què deixes a cada centre.","es":"Varias sedes: decide qué centralizas y qué dejas en cada centro."},"b4-050":{"type":"idea","ca":"Productes i serveis diferents poden requerir departaments diferents.","es":"Productos y servicios distintos pueden requerir departamentos distintos."},"b4-051":{"type":"idea","ca":"Clients amb necessitats especials poden justificar equips especialitzats.","es":"Clientes con necesidades especiales pueden justificar equipos especializados."},"b4-052":{"type":"idea","ca":"Organitzar la prevenció no significa crear sempre un departament propi.","es":"Organizar la prevención no significa crear siempre un departamento propio."},"b4-053":{"type":"idea","ca":"Més volum i complexitat poden exigir més especialització i departaments.","es":"Más volumen y complejidad pueden exigir más especialización y departamentos."},"b4-054":{"type":"idea","ca":"El pressupost marca quants recursos pot sostenir l’estructura.","es":"El presupuesto marca cuántos recursos puede sostener la estructura."},"b4-055":{"type":"idea","ca":"Acollida: una bona senyalització permet saber on anar sense dependre d’improvisacions.","es":"Acogida: una buena señalización permite saber dónde ir sin depender de improvisaciones."},"b4-056":{"type":"idea","ca":"Llum, temperatura, ventilació, soroll i neteja afecten comunicació i imatge.","es":"Luz, temperatura, ventilación, ruido y limpieza afectan a comunicación e imagen."},"b4-057":{"type":"idea","ca":"Dades personals a recepció: sempre fora de l’accés de persones no autoritzades.","es":"Datos personales en recepción: siempre fuera del acceso de personas no autorizadas."},"b4-058":{"type":"idea","ca":"Registre de visites = control bàsic de qui arriba a l’espai d’acollida.","es":"Registro de visitas = control básico de quién llega al espacio de acogida."},"b4-059":{"type":"idea","ca":"Mobiliari: comoditat + seguretat + accessibilitat + ordre + eficàcia.","es":"Mobiliario: comodidad + seguridad + accesibilidad + orden + eficacia."},"b4-060":{"type":"idea","ca":"Acollida = RIO: Rebre, Informar, Orientar.","es":"Acogida = RIO: Recibir, Informar, Orientar."}}}
+{
+  "blockId": "bloc-4",
+  "questions": {
+    "b4-041": {
+      "type": "idea",
+      "ca": "Fiscal = financer/comptable/admin; Legal assessora si hi ha qüestió jurídica.",
+      "es": "Fiscal = financiero/contabilidad/admin; Legal asesora si hay cuestión jurídica."
+    },
+    "b4-042": {
+      "type": "idea",
+      "ca": "Mercantil: Administració porta el tràmit; Legal hi entra quan cal assessorament.",
+      "es": "Mercantil: Administración lleva el trámite; Legal entra cuando hace falta asesoramiento."
+    },
+    "b4-043": {
+      "type": "idea",
+      "ca": "Entrades + sortides de producte ajuden a veure l’equilibri de l’estoc.",
+      "es": "Entradas + salidas de producto ayudan a ver el equilibrio del stock."
+    },
+    "b4-044": {
+      "type": "idea",
+      "ca": "Personal: RRHH/Admin; pagaments: Financer; prevenció: documentació preventiva.",
+      "es": "Personal: RRHH/Admin; pagos: Financiero; prevención: documentación preventiva."
+    },
+    "b4-045": {
+      "type": "idea",
+      "ca": "Un departament pot acumular funcions: l’estructura depèn de cada organització.",
+      "es": "Un departamento puede acumular funciones: la estructura depende de cada organización."
+    },
+    "b4-046": {
+      "type": "idea",
+      "ca": "Atenció al Client = relació i informació del client; no és només el moment de venda.",
+      "es": "Atención al Cliente = relación e información del cliente; no es solo el momento de venta."
+    },
+    "b4-047": {
+      "type": "idea",
+      "ca": "En serveis, «producció» pot aparèixer com operacions o prestació de serveis.",
+      "es": "En servicios, «producción» puede aparecer como operaciones o prestación de servicios."
+    },
+    "b4-048": {
+      "type": "idea",
+      "ca": "Qualitat és una funció: pot ser departament, responsable o una altra unitat.",
+      "es": "Calidad es una función: puede ser departamento, responsable u otra unidad."
+    },
+    "b4-049": {
+      "type": "idea",
+      "ca": "Diverses seus: decideix què centralitzes i què deixes a cada centre.",
+      "es": "Varias sedes: decide qué centralizas y qué dejas en cada centro."
+    },
+    "b4-050": {
+      "type": "idea",
+      "ca": "Productes i serveis diferents poden requerir departaments diferents.",
+      "es": "Productos y servicios distintos pueden requerir departamentos distintos."
+    },
+    "b4-051": {
+      "type": "idea",
+      "ca": "Clients amb necessitats especials poden justificar equips especialitzats.",
+      "es": "Clientes con necesidades especiales pueden justificar equipos especializados."
+    },
+    "b4-052": {
+      "type": "idea",
+      "ca": "Organitzar la prevenció no significa crear sempre un departament propi.",
+      "es": "Organizar la prevención no significa crear siempre un departamento propio."
+    },
+    "b4-053": {
+      "type": "idea",
+      "ca": "Més volum i complexitat poden exigir més especialització i departaments.",
+      "es": "Más volumen y complejidad pueden exigir más especialización y departamentos."
+    },
+    "b4-054": {
+      "type": "idea",
+      "ca": "El pressupost marca quants recursos pot sostenir l’estructura.",
+      "es": "El presupuesto marca cuántos recursos puede sostener la estructura."
+    },
+    "b4-055": {
+      "type": "idea",
+      "ca": "Acollida: una bona senyalització permet saber on anar sense dependre d’improvisacions.",
+      "es": "Acogida: una buena señalización permite saber dónde ir sin depender de improvisaciones."
+    },
+    "b4-056": {
+      "type": "idea",
+      "ca": "Llum, temperatura, ventilació, soroll i neteja afecten comunicació i imatge.",
+      "es": "Luz, temperatura, ventilación, ruido y limpieza afectan a comunicación e imagen."
+    },
+    "b4-057": {
+      "type": "idea",
+      "ca": "Dades personals a recepció: sempre fora de l’accés de persones no autoritzades.",
+      "es": "Datos personales en recepción: siempre fuera del acceso de personas no autorizadas."
+    },
+    "b4-058": {
+      "type": "idea",
+      "ca": "Registre de visites = control bàsic de qui arriba a l’espai d’acollida.",
+      "es": "Registro de visitas = control básico de quién llega al espacio de acogida."
+    },
+    "b4-059": {
+      "type": "idea",
+      "ca": "Mobiliari: comoditat + seguretat + accessibilitat + ordre + eficàcia.",
+      "es": "Mobiliario: comodidad + seguridad + accesibilidad + orden + eficacia."
+    },
+    "b4-060": {
+      "type": "idea",
+      "ca": "Acollida = RIO: Rebre, Informar, Orientar.",
+      "es": "Acogida = RIO: Recibir, Informar, Orientar."
+    },
+    "b4-061": {
+      "type": "idea",
+      "ca": "Departament = àrea funcional que agrupa activitats relacionades.",
+      "es": "Departamento = área funcional que agrupa actividades relacionadas."
+    },
+    "b4-062": {
+      "type": "example",
+      "ca": "Compres decideix què adquirir; Finances/Administració comprova recursos i tramitació.",
+      "es": "Compras decide qué adquirir; Finanzas/Administración comprueba recursos y tramitación."
+    },
+    "b4-063": {
+      "type": "idea",
+      "ca": "Contractes laborals, formació i absències → Recursos Humans.",
+      "es": "Contratos laborales, formación y ausencias → Recursos Humanos."
+    },
+    "b4-064": {
+      "type": "idea",
+      "ca": "Qualitat és una funció; no obliga a tenir un departament propi.",
+      "es": "Calidad es una función; no obliga a tener un departamento propio."
+    },
+    "b4-065": {
+      "type": "idea",
+      "ca": "Obligació de prevenir ≠ obligació general de crear un departament propi.",
+      "es": "Obligación de prevenir ≠ obligación general de crear un departamento propio."
+    },
+    "b4-066": {
+      "type": "idea",
+      "ca": "Fiscal/tributari → Financer-Comptabilitat-Administració; dubte jurídic → suport Legal.",
+      "es": "Fiscal/tributario → Financiero-Contabilidad-Administración; duda jurídica → apoyo Legal."
+    },
+    "b4-067": {
+      "type": "example",
+      "ca": "Venda feta + incidència del client → Atenció al Client.",
+      "es": "Venta realizada + incidencia del cliente → Atención al Cliente."
+    },
+    "b4-068": {
+      "type": "idea",
+      "ca": "Més volum i complexitat poden exigir més especialització i departaments.",
+      "es": "Más volumen y complejidad pueden exigir más especialización y departamentos."
+    },
+    "b4-069": {
+      "type": "idea",
+      "ca": "Procés que passa per diverses àrees → coordinació i informació compartida.",
+      "es": "Proceso que pasa por varias áreas → coordinación e información compartida."
+    },
+    "b4-070": {
+      "type": "idea",
+      "ca": "Pressupost disponible → límit o ampliació possible de l’estructura.",
+      "es": "Presupuesto disponible → límite o ampliación posible de la estructura."
+    }
+  }
+}
