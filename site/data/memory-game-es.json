@@ -1,0 +1,590 @@
+{
+  "version": 1,
+  "language": "es",
+  "levels": {
+    "easy": {
+      "pairs": 8
+    },
+    "difficult": {
+      "pairs": 18
+    }
+  },
+  "sources": {
+    "B1": {
+      "file": "1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf",
+      "pages": 19
+    },
+    "B2": {
+      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf",
+      "pages": 33
+    },
+    "B3": {
+      "file": "3_Lestructura_empresa_organigrames_BLOC_3.pdf",
+      "pages": 35
+    },
+    "B4": {
+      "file": "Els departaments_BLOC 4.pdf",
+      "pages": 34
+    },
+    "B5": {
+      "file": "5 .Organització bàsica de lEstat i la Unió Europea_BLOC_5.pdf",
+      "pages": 24
+    },
+    "U2B1": {
+      "file": "Unitat 2_Lorganització dels RRHH.pdf",
+      "pages": 119
+    },
+    "UF0518_B1": {
+      "file": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf",
+      "pages": 28
+    }
+  },
+  "pairs": [
+    {
+      "id": "mc-b1-01",
+      "blockId": "bloc-1",
+      "left": "¿Qué canal deja constancia escrita y permite responder sin coincidir en el mismo momento?",
+      "right": "Correo electrónico",
+      "source": {
+        "id": "B1",
+        "pages": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "id": "mc-b1-02",
+      "blockId": "bloc-1",
+      "left": "¿Qué canal permite resolver una incidencia de forma directa y rápida?",
+      "right": "Atención telefónica",
+      "source": {
+        "id": "B1",
+        "pages": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "id": "mc-b1-03",
+      "blockId": "bloc-1",
+      "left": "Recursos procedentes de impuestos, tasas o presupuestos de las administraciones",
+      "right": "Fondos públicos",
+      "source": {
+        "id": "B1",
+        "pages": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "mc-b1-04",
+      "blockId": "bloc-1",
+      "left": "Puede tener finalidad lucrativa o no lucrativa y se gestiona por particulares",
+      "right": "Entidad privada",
+      "source": {
+        "id": "B1",
+        "pages": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "mc-b1-05",
+      "blockId": "bloc-1",
+      "left": "Gestiona contratación, formación y organización de las personas trabajadoras",
+      "right": "Recursos Humanos",
+      "source": {
+        "id": "B1",
+        "pages": [
+          11,
+          13
+        ]
+      }
+    },
+    {
+      "id": "mc-b1-06",
+      "blockId": "bloc-1",
+      "left": "Dar a conocer y promocionar productos o servicios antes de concretar la venta",
+      "right": "Comercialización",
+      "source": {
+        "id": "B1",
+        "pages": [
+          11,
+          13
+        ]
+      }
+    },
+    {
+      "id": "mc-b2-01",
+      "blockId": "bloc-2",
+      "left": "Capital social dividido en participaciones",
+      "right": "Sociedad Limitada (S. L.)",
+      "source": {
+        "id": "B2",
+        "pages": [
+          11,
+          11
+        ]
+      }
+    },
+    {
+      "id": "mc-b2-02",
+      "blockId": "bloc-2",
+      "left": "Los posibles beneficios se destinan a los objetivos de la organización y no se reparten",
+      "right": "Entidad sin ánimo de lucro",
+      "source": {
+        "id": "B2",
+        "pages": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "mc-b2-03",
+      "blockId": "bloc-2",
+      "left": "Experiencia, antigüedad o prestigio que dan influencia sin ocupar un mando",
+      "right": "Jerarquía de rango",
+      "source": {
+        "id": "B2",
+        "pages": [
+          24,
+          24
+        ]
+      }
+    },
+    {
+      "id": "mc-b2-04",
+      "blockId": "bloc-2",
+      "left": "Definir objetivos y decidir las acciones necesarias para alcanzarlos",
+      "right": "Planificar",
+      "source": {
+        "id": "B2",
+        "pages": [
+          29,
+          30
+        ]
+      }
+    },
+    {
+      "id": "mc-b2-05",
+      "blockId": "bloc-2",
+      "left": "Distribuir tareas, recursos y responsabilidades",
+      "right": "Organizar",
+      "source": {
+        "id": "B2",
+        "pages": [
+          29,
+          31
+        ]
+      }
+    },
+    {
+      "id": "mc-b2-06",
+      "blockId": "bloc-2",
+      "left": "Revisar y verificar actividades, procedimientos y resultados",
+      "right": "Auditar",
+      "source": {
+        "id": "B2",
+        "pages": [
+          31,
+          31
+        ]
+      }
+    },
+    {
+      "id": "mc-b3-01",
+      "blockId": "bloc-3",
+      "left": "Evita errores, duplicidades y fallos de comunicación entre personas y departamentos",
+      "right": "Coordinación",
+      "source": {
+        "id": "B3",
+        "pages": [
+          11,
+          13
+        ]
+      }
+    },
+    {
+      "id": "mc-b3-02",
+      "blockId": "bloc-3",
+      "left": "Asignar tareas o capacidad de decisión manteniendo la responsabilidad general",
+      "right": "Delegación",
+      "source": {
+        "id": "B3",
+        "pages": [
+          12,
+          14
+        ]
+      }
+    },
+    {
+      "id": "mc-b3-03",
+      "blockId": "bloc-3",
+      "left": "Distribuir la capacidad de decidir entre distintos niveles o áreas",
+      "right": "Descentralización",
+      "source": {
+        "id": "B3",
+        "pages": [
+          14,
+          17
+        ]
+      }
+    },
+    {
+      "id": "mc-b3-04",
+      "blockId": "bloc-3",
+      "left": "Asignar tareas según conocimientos, habilidades y experiencia",
+      "right": "Especialización",
+      "source": {
+        "id": "B3",
+        "pages": [
+          9,
+          11
+        ]
+      }
+    },
+    {
+      "id": "mc-b3-05",
+      "blockId": "bloc-3",
+      "left": "Relaciones espontáneas que nacen entre personas y no figuran oficialmente",
+      "right": "Organización informal",
+      "source": {
+        "id": "B3",
+        "pages": [
+          6,
+          9
+        ]
+      }
+    },
+    {
+      "id": "mc-b3-06",
+      "blockId": "bloc-3",
+      "left": "Debe modificarse cuando cambian cargos, áreas o dependencias",
+      "right": "Organigrama actualizado",
+      "source": {
+        "id": "B3",
+        "pages": [
+          25,
+          34
+        ]
+      }
+    },
+    {
+      "id": "mc-b4-01",
+      "blockId": "bloc-4",
+      "left": "Gestiona proveedores, pedidos y aprovisionamiento de materiales",
+      "right": "Departamento de Compras",
+      "source": {
+        "id": "B4",
+        "pages": [
+          7,
+          12
+        ]
+      }
+    },
+    {
+      "id": "mc-b4-02",
+      "blockId": "bloc-4",
+      "left": "Controla recursos económicos, presupuesto y financiación",
+      "right": "Departamento Financiero",
+      "source": {
+        "id": "B4",
+        "pages": [
+          12,
+          17
+        ]
+      }
+    },
+    {
+      "id": "mc-b4-03",
+      "blockId": "bloc-4",
+      "left": "Contratos laborales, formación y ausencias del personal",
+      "right": "Recursos Humanos y Administración",
+      "source": {
+        "id": "B4",
+        "pages": [
+          16,
+          21
+        ]
+      }
+    },
+    {
+      "id": "mc-b4-04",
+      "blockId": "bloc-4",
+      "left": "Revisa productos, servicios y procesos para comprobar que cumplen los criterios previstos",
+      "right": "Función de Calidad",
+      "source": {
+        "id": "B4",
+        "pages": [
+          20,
+          24
+        ]
+      }
+    },
+    {
+      "id": "mc-b4-05",
+      "blockId": "bloc-4",
+      "left": "Asesora sobre contratos, normativa y cuestiones jurídicas",
+      "right": "Área Legal",
+      "source": {
+        "id": "B4",
+        "pages": [
+          23,
+          27
+        ]
+      }
+    },
+    {
+      "id": "mc-b4-06",
+      "blockId": "bloc-4",
+      "left": "Más volumen y complejidad de actividad suelen exigir...",
+      "right": "Más especialización departamental",
+      "source": {
+        "id": "B4",
+        "pages": [
+          28,
+          33
+        ]
+      }
+    },
+    {
+      "id": "mc-b5-01",
+      "blockId": "bloc-5",
+      "left": "Congreso de los Diputados + Senado",
+      "right": "Cortes Generales",
+      "source": {
+        "id": "B5",
+        "pages": [
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "id": "mc-b5-02",
+      "blockId": "bloc-5",
+      "left": "Dirige la política interior y exterior y ejerce la función ejecutiva",
+      "right": "Gobierno",
+      "source": {
+        "id": "B5",
+        "pages": [
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "id": "mc-b5-03",
+      "blockId": "bloc-5",
+      "left": "Juzgar y hacer ejecutar lo juzgado",
+      "right": "Poder Judicial",
+      "source": {
+        "id": "B5",
+        "pages": [
+          7,
+          9
+        ]
+      }
+    },
+    {
+      "id": "mc-b5-04",
+      "blockId": "bloc-5",
+      "left": "Alcalde y concejales",
+      "right": "Ayuntamiento",
+      "source": {
+        "id": "B5",
+        "pages": [
+          10,
+          13
+        ]
+      }
+    },
+    {
+      "id": "mc-b5-05",
+      "blockId": "bloc-5",
+      "left": "Propone legislación y vela por la aplicación del derecho de la UE",
+      "right": "Comisión Europea",
+      "source": {
+        "id": "B5",
+        "pages": [
+          15,
+          18
+        ]
+      }
+    },
+    {
+      "id": "mc-b5-06",
+      "blockId": "bloc-5",
+      "left": "Define las orientaciones y prioridades políticas generales de la UE",
+      "right": "Consejo Europeo",
+      "source": {
+        "id": "B5",
+        "pages": [
+          18,
+          18
+        ]
+      }
+    },
+    {
+      "id": "mc-u2-01",
+      "blockId": "unitat-2-bloc-1",
+      "left": "Coordinación mediante comunicación directa y ajustes recíprocos",
+      "right": "Adaptación mutua",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          6,
+          11
+        ]
+      }
+    },
+    {
+      "id": "mc-u2-02",
+      "blockId": "unitat-2-bloc-1",
+      "left": "Un responsable da instrucciones y controla la ejecución",
+      "right": "Supervisión directa",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          6,
+          11
+        ]
+      }
+    },
+    {
+      "id": "mc-u2-03",
+      "blockId": "unitat-2-bloc-1",
+      "left": "Una única secuencia de pasos en el orden establecido",
+      "right": "Procedimiento lineal",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          13,
+          15
+        ]
+      }
+    },
+    {
+      "id": "mc-u2-04",
+      "blockId": "unitat-2-bloc-1",
+      "left": "Recorridos distintos según una decisión o condición",
+      "right": "Procedimiento ramificado",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          13,
+          15
+        ]
+      }
+    },
+    {
+      "id": "mc-u2-05",
+      "blockId": "unitat-2-bloc-1",
+      "left": "Fase del equipo con roles claros, más confianza y cooperación",
+      "right": "Normalización",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          62,
+          62
+        ]
+      }
+    },
+    {
+      "id": "mc-u2-06",
+      "blockId": "unitat-2-bloc-1",
+      "left": "Posición o rango reconocido de una persona dentro del grupo",
+      "right": "Estatus",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          48,
+          58
+        ]
+      }
+    },
+    {
+      "id": "mc-uf-01",
+      "blockId": "uf0518-bloc-1",
+      "left": "Permite consultar, archivar, justificar y probar una comunicación",
+      "right": "Constancia documental",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "mc-uf-02",
+      "blockId": "uf0518-bloc-1",
+      "left": "Persona o área que redacta el documento o mensaje",
+      "right": "Emisor",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "mc-uf-03",
+      "blockId": "uf0518-bloc-1",
+      "left": "Medio utilizado para enviar el mensaje",
+      "right": "Canal",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "mc-uf-04",
+      "blockId": "uf0518-bloc-1",
+      "left": "Comunicación general para informar de cambios, instrucciones, horarios o avisos",
+      "right": "Circular",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          25,
+          26
+        ]
+      }
+    },
+    {
+      "id": "mc-uf-05",
+      "blockId": "uf0518-bloc-1",
+      "left": "Fórmula de cortesía que cierra una carta",
+      "right": "Despedida",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "id": "mc-uf-06",
+      "blockId": "uf0518-bloc-1",
+      "left": "Documentos que se adjuntan a una carta",
+      "right": "Anexos",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          17,
+          18
+        ]
+      }
+    }
+  ]
+}
