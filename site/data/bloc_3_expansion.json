@@ -286,7 +286,7 @@
       "id": "b3-077",
       "block": "bloc-3",
       "topic": "Requisits de l’organigrama",
-      "question": "Després d’una reestructuració, dues àrees han canviat de dependència però el gràfic continua mostrant l’esquema anterior. Quin requisit d’un bon organigrama falla?",
+      "question": "Quin requisit d’un bon organigrama estableix que s’ha de modificar quan canvien càrrecs, àrees o dependències?",
       "options": [
         "Claredat",
         "Uniformitat",
@@ -294,7 +294,7 @@
         "Especialització"
       ],
       "correct": 2,
-      "explanation": "Un organigrama s’ha d’actualitzar quan canvien càrrecs, àrees o dependències perquè continuï representant l’estructura real."
+      "explanation": "El requisit d’actualització exigeix modificar l’organigrama quan canvien càrrecs, àrees o dependències."
     },
     {
       "id": "b3-078",

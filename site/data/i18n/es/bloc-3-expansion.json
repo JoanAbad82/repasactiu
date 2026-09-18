@@ -224,14 +224,14 @@
     },
     "b3-077": {
       "topic": "Requisitos del organigrama",
-      "question": "Después de una reestructuración, dos áreas han cambiado de dependencia pero el gráfico sigue mostrando el esquema anterior. ¿Qué requisito de un buen organigrama falla?",
+      "question": "¿Qué requisito de un buen organigrama establece que debe modificarse cuando cambian cargos, áreas o dependencias?",
       "options": [
         "Claridad",
         "Uniformidad",
         "Actualización",
         "Especialización"
       ],
-      "explanation": "Un organigrama debe actualizarse cuando cambian cargos, áreas o dependencias para que siga representando la estructura real."
+      "explanation": "El requisito de actualización exige modificar el organigrama cuando cambian cargos, áreas o dependencias."
     },
     "b3-078": {
       "topic": "Principio de unidad de dirección",

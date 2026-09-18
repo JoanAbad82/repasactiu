@@ -314,15 +314,15 @@
       "id": "b4-063",
       "block": "bloc-4",
       "topic": "Recursos Humans",
-      "question": "Cal gestionar contractes laborals, formació i absències del personal. Quin departament assumeix principalment aquesta informació segons el temari?",
+      "question": "Cal gestionar contractes laborals, formació i absències del personal. Quines àrees assumeixen principalment aquesta informació segons el temari?",
       "options": [
-        "Producció",
-        "Vendes",
-        "Recursos Humans",
-        "Qualitat"
+        "Producció i Qualitat",
+        "Vendes i Compres",
+        "Recursos Humans i Administració",
+        "Direcció i Atenció al Client"
       ],
       "correct": 2,
-      "explanation": "La informació relacionada amb personal i recursos humans correspon principalment a Recursos Humans i, en part, a Administració."
+      "explanation": "La informació relacionada amb el personal correspon principalment als departaments de Recursos Humans i Administració."
     },
     {
       "id": "b4-064",

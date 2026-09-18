@@ -747,14 +747,14 @@
     },
     "b4-063": {
       "ca": [
-        "Administració, perquè tota documentació laboral és burocràtica",
-        "Financer, perquè nòmines i pressupost de personal tenen impacte econòmic",
-        "Prevenció, perquè qualsevol informació del personal forma part de la documentació preventiva"
+        "Financer i Comptabilitat, perquè contractes i absències tenen efecte econòmic",
+        "Prevenció i Qualitat, perquè formació i absències són indicadors de seguretat",
+        "Direcció i Vendes, perquè l’organització del personal depèn de l’activitat comercial"
       ],
       "es": [
-        "Administración, porque toda documentación laboral es burocrática",
-        "Financiero, porque nóminas y presupuesto de personal tienen impacto económico",
-        "Prevención, porque cualquier información del personal forma parte de la documentación preventiva"
+        "Financiero y Contabilidad, porque contratos y ausencias tienen efecto económico",
+        "Prevención y Calidad, porque formación y ausencias son indicadores de seguridad",
+        "Dirección y Ventas, porque la organización del personal depende de la actividad comercial"
       ]
     },
     "b4-064": {

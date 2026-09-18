@@ -246,14 +246,14 @@
     },
     "b4-063": {
       "topic": "Recursos Humanos",
-      "question": "Hay que gestionar contratos laborales, formación y ausencias del personal. ¿Qué departamento asume principalmente esta información según el temario?",
+      "question": "Hay que gestionar contratos laborales, formación y ausencias del personal. ¿Qué áreas asumen principalmente esta información según el temario?",
       "options": [
-        "Producción",
-        "Ventas",
-        "Recursos Humanos",
-        "Calidad"
+        "Producción y Calidad",
+        "Ventas y Compras",
+        "Recursos Humanos y Administración",
+        "Dirección y Atención al Cliente"
       ],
-      "explanation": "La información relacionada con personal y recursos humanos corresponde principalmente a Recursos Humanos y, en parte, a Administración."
+      "explanation": "La información relacionada con el personal corresponde principalmente a los departamentos de Recursos Humanos y Administración."
     },
     "b4-064": {
       "topic": "Calidad",

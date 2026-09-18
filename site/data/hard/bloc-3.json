@@ -915,14 +915,14 @@
     },
     "b3-077": {
       "ca": [
-        "Exactitud, perquè el problema principal és el tipus de línia utilitzat",
-        "Uniformitat, perquè dues àrees no poden representar-se amb criteris diferents",
-        "Claredat, perquè qualsevol canvi organitzatiu fa el gràfic més difícil de llegir"
+        "Exactitud, perquè exigeix representar l’estructura real en el moment de consultar-la",
+        "Uniformitat, perquè els canvis d’àrea obliguen a mantenir els mateixos criteris gràfics",
+        "Claredat, perquè una modificació de dependències pot dificultar la lectura del gràfic"
       ],
       "es": [
-        "Exactitud, porque el problema principal es el tipo de línea utilizado",
-        "Uniformidad, porque dos áreas no pueden representarse con criterios distintos",
-        "Claridad, porque cualquier cambio organizativo hace el gráfico más difícil de leer"
+        "Exactitud, porque exige representar la estructura real en el momento de consultarla",
+        "Uniformidad, porque los cambios de área obligan a mantener los mismos criterios gráficos",
+        "Claridad, porque una modificación de dependencias puede dificultar la lectura del gráfico"
       ]
     },
     "b3-078": {
