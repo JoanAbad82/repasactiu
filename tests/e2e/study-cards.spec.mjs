@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 
 test('Tarjetas de memoria mostra selector bilingüe amb 638 targetes',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Tarjetas de memoria'}).click();
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await expect(page.locator('html')).toHaveAttribute('lang','ca');
   await expect(page.getByRole('heading',{name:'Targetes de memòria'})).toBeVisible();
   await expect(page.getByText('638 targetes disponibles')).toBeVisible();
@@ -18,7 +18,7 @@ test('Tarjetas de memoria mostra selector bilingüe amb 638 targetes',async({pag
 
 test('els recomptes per bloc inclouen test + extra',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Tarjetas de memoria'}).click();
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
   const expected={
     'bloc-1':'66','bloc-2':'86','bloc-3':'86','bloc-4':'76','bloc-5':'76',
     'unitat-2-bloc-1':'156','uf0518-bloc-1':'92'
@@ -30,7 +30,7 @@ test('els recomptes per bloc inclouen test + extra',async({page})=>{
 
 test('Tot el temari selecciona 638 targetes i inicia una baralla mixta',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Tarjetas de memoria'}).click();
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await page.getByRole('button',{name:'Tot el temari'}).click();
   await expect(page.locator('#study-selected-count')).toHaveText('638');
   await page.getByRole('button',{name:'Començar repàs'}).click();
@@ -41,7 +41,7 @@ test('Tot el temari selecciona 638 targetes i inicia una baralla mixta',async({p
 
 test('es poden seleccionar diversos blocs i barrejar-los',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Tarjetas de memoria'}).click();
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await page.locator('[data-study-block="bloc-1"] input').check();
   await page.locator('[data-study-block="uf0518-bloc-1"] input').check();
   await expect(page.locator('#study-selected-count')).toHaveText('158');
@@ -53,7 +53,7 @@ test('es poden seleccionar diversos blocs i barrejar-los',async({page})=>{
 
 test('seleccionar una unitat marca tots els seus blocs',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Tarjetas de memoria'}).click();
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await page.getByRole('button',{name:'Seleccionar Unitat 1'}).click();
   await expect(page.locator('#study-selected-count')).toHaveText('390');
   for(const id of ['bloc-1','bloc-2','bloc-3','bloc-4','bloc-5']){
@@ -63,7 +63,7 @@ test('seleccionar una unitat marca tots els seus blocs',async({page})=>{
 
 test('la flashcard mostra pregunta, resposta i mnemotècnia en català',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Tarjetas de memoria'}).click();
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await page.locator('[data-study-block="bloc-1"] input').check();
   await page.getByRole('button',{name:'Començar repàs'}).click();
   const card=page.locator('[data-study-card]');
@@ -76,7 +76,7 @@ test('la flashcard mostra pregunta, resposta i mnemotècnia en català',async({p
 
 test('canviar CA/ES durant el repàs conserva la mateixa targeta',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Tarjetas de memoria'}).click();
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await page.locator('[data-study-block="bloc-1"] input').check();
   await page.getByRole('button',{name:'Començar repàs'}).click();
   const id=await page.locator('[data-study-card]').getAttribute('data-study-id');
@@ -90,7 +90,7 @@ test('canviar CA/ES durant el repàs conserva la mateixa targeta',async({page})=
 
 test('siguiente canvia de targeta i sempre torna a la pregunta',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Tarjetas de memoria'}).click();
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await page.locator('[data-study-block="bloc-1"] input').check();
   await page.getByRole('button',{name:'Començar repàs'}).click();
   const card=page.locator('[data-study-card]');
@@ -102,7 +102,7 @@ test('siguiente canvia de targeta i sempre torna a la pregunta',async({page})=>{
 
 test('Enter gira la targeta amb teclat',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Tarjetas de memoria'}).click();
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await page.locator('[data-study-block="bloc-1"] input').check();
   await page.getByRole('button',{name:'Començar repàs'}).click();
   const card=page.locator('[data-study-card]');
@@ -114,7 +114,7 @@ test('Enter gira la targeta amb teclat',async({page})=>{
 test('el selector i la targeta no desborden en mòbil',async({browser})=>{
   const page=await browser.newPage({viewport:{width:390,height:844}});
   await page.goto('/');
-  await page.getByRole('button',{name:'Tarjetas de memoria'}).click();
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
   await page.getByRole('button',{name:'Tot el temari'}).click();
   await page.getByRole('button',{name:'Començar repàs'}).click();
