@@ -1,0 +1,22 @@
+{
+  "title": "Repàs Actiu — Tarjetas de memoria / flashcards — trazabilidad",
+  "date": "2026-09-19",
+  "language": "es",
+  "cardCount": 42,
+  "format": "pregunta → respuesta → mnemotecnia",
+  "policy": "Cada tarjeta se apoya exclusivamente en uno de los siete PDF autorizados. La pregunta no duplica literalmente ninguna de las 596 preguntas de test. La mnemotecnia es solo una ayuda de recuerdo y no introduce contenido académico nuevo.",
+  "sources": {
+    "B1": "1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf",
+    "B2": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf",
+    "B3": "3_Lestructura_empresa_organigrames_BLOC_3.pdf",
+    "B4": "Els departaments_BLOC 4.pdf",
+    "B5": "5 .Organització bàsica de lEstat i la Unió Europea_BLOC_5.pdf",
+    "U2B1": "Unitat 2_Lorganització dels RRHH.pdf",
+    "UF0518_B1": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf"
+  },
+  "review": {
+    "distribution": "6 tarjetas por cada uno de los 7 bloques",
+    "interaction": "una tarjeta visible; clic para girar; anterior/siguiente; barajar",
+    "sourceAuthority": "solo PDF docentes autorizados"
+  }
+}
