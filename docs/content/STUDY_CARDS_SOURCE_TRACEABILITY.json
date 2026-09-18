@@ -1,0 +1,36 @@
+{
+  "title": "Repàs Actiu — Targetes de memòria / Tarjetas de memoria — trazabilidad",
+  "date": "2026-09-19",
+  "languages": [
+    "ca",
+    "es"
+  ],
+  "coreCards": 596,
+  "extraCards": 42,
+  "totalCards": 638,
+  "architecture": "Las 596 tarjetas principales se generan dinámicamente desde los bancos de preguntas, sus traducciones certificadas y sus ayudas de memoria. Las 42 tarjetas extra viven en study-cards-extra.json.",
+  "distribution": {
+    "bloc-1": 66,
+    "bloc-2": 86,
+    "bloc-3": 86,
+    "bloc-4": 76,
+    "bloc-5": 76,
+    "unitat-2-bloc-1": 156,
+    "uf0518-bloc-1": 92
+  },
+  "policy": [
+    "Cada una de las 596 preguntas publicadas genera una flashcard en catalán y castellano usando el índice de respuesta correcta certificado.",
+    "La mnemotecnia de cada tarjeta principal reutiliza la ayuda de memoria bilingüe certificada de la pregunta.",
+    "Las 42 tarjetas extra se apoyan exclusivamente en los siete PDF autorizados y no duplican literalmente preguntas del banco de tests.",
+    "La selección puede combinar bloques de distintas unidades y barajarse en una única sesión."
+  ],
+  "extraSources": {
+    "B1": "1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf",
+    "B2": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf",
+    "B3": "3_Lestructura_empresa_organigrames_BLOC_3.pdf",
+    "B4": "Els departaments_BLOC 4.pdf",
+    "B5": "5 .Organització bàsica de lEstat i la Unió Europea_BLOC_5.pdf",
+    "U2B1": "Unitat 2_Lorganització dels RRHH.pdf",
+    "UF0518_B1": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf"
+  }
+}
