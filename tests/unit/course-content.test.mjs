@@ -16,7 +16,7 @@ const preservedBankBlobShas={
   "bloc_5.json":"144a26b8d513f0ec1c5494e20af0068063ebde4a","bloc_5_extra.json":"281df4a24381a77ac7495523804beb76e2b9783b",
   "unitat_2_bloc_1.json":"beccc885747411bc10bc2b41ed63e6f17f8a68f6","unitat_2_bloc_1_extra.json":"e2dd987115e7643b3b00c89d963626ff9bcea59c"
 };
-const uf0517FinalCounts={"bloc-1":50,"bloc-2":70,"bloc-3":70,"bloc-4":60,"bloc-5":60,"unitat-2-bloc-1":140};
+const uf0517FinalCounts={"bloc-1":60,"bloc-2":80,"bloc-3":80,"bloc-4":70,"bloc-5":70,"unitat-2-bloc-1":150};
 const gitBlobSha=text=>{const bytes=Buffer.from(text,"utf8");return createHash("sha1").update(`blob ${bytes.length}\0`).update(bytes).digest("hex");};
 
 test("les 320 preguntes prèvies es mantenen byte per byte",async()=>{
@@ -26,7 +26,7 @@ test("les 320 preguntes prèvies es mantenen byte per byte",async()=>{
   }
 });
 
-test("UF0517 conserva 450 preguntes i UF0518 s'afegeix com a grup separat",async()=>{
+test("UF0517 arriba a 510 preguntes i UF0518 arriba a 86 com a grup separat",async()=>{
   const course=await readJson("course.json");
   assert.equal(course.blocks.length,7);
   assert.deepEqual([...new Set(course.blocks.map(b=>b.unitId))],["unitat-1","unitat-2","uf0518"]);
@@ -35,7 +35,7 @@ test("UF0517 conserva 450 preguntes i UF0518 s'afegeix com a grup separat",async
     let count=0;
     for(const file of bankFiles(block))count+=(await readJson(file.replace(/^data\//,""))).questions.length;
     if(block.id==='uf0518-bloc-1'){
-      assert.equal(count,76);
+      assert.equal(count,86);
       assert.equal(block.unitId,'uf0518');
       uf0518+=count;
     }else{
@@ -43,12 +43,12 @@ test("UF0517 conserva 450 preguntes i UF0518 s'afegeix com a grup separat",async
       uf0517+=count;
     }
   }
-  assert.equal(uf0517,450);
-  assert.equal(uf0518,76);
-  assert.equal(uf0517+uf0518,526);
+  assert.equal(uf0517,510);
+  assert.equal(uf0518,86);
+  assert.equal(uf0517+uf0518,596);
 });
 
-test("les 526 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
+test("les 596 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
   const course=await readJson("course.json");
   let total=0;
   for(const block of course.blocks){
@@ -71,5 +71,5 @@ test("les 526 preguntes tenen una ajuda de memòria bilingüe de màxim 144 car�
       total++;
     }
   }
-  assert.equal(total,526);
+  assert.equal(total,596);
 });

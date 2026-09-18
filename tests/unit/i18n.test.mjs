@@ -21,7 +21,7 @@ test("el catàleg declara metadades castellanes i traduccions per a tots els blo
   }
 });
 
-test("les traduccions castellanes cobreixen exactament les 526 preguntes sense duplicar la lògica",async()=>{
+test("les traduccions castellanes cobreixen exactament les 596 preguntes sense duplicar la lògica",async()=>{
   const course=await readJson("course.json");
   let total=0;
   for(const block of course.blocks){
@@ -55,7 +55,7 @@ test("les traduccions castellanes cobreixen exactament les 526 preguntes sense d
       total++;
     }
   }
-  assert.equal(total,526);
+  assert.equal(total,596);
 });
 
 test("els topics UF0518 es tradueixen íntegrament al castellà",async()=>{
@@ -66,7 +66,11 @@ test("els topics UF0518 es tradueixen íntegrament al castellà",async()=>{
     "Empresa pública i privada":"Empresa pública y privada",
     "Funcions del llenguatge":"Funciones del lenguaje",
     "Qualitat del text professional":"Calidad del texto profesional",
+    "Precisió":"Precisión",
+    "Comunicació en l’Administració pública":"Comunicación en la Administración pública",
+    "Constància documental":"Constancia documental",
     "Registre i tractament":"Registro y tratamiento",
+    "Registre lingüístic":"Registro lingüístico",
     "Errors habituals":"Errores habituales",
     "Recomanacions lingüístiques":"Recomendaciones lingüísticas",
     "Carta comercial":"Carta comercial",
@@ -75,6 +79,7 @@ test("els topics UF0518 es tradueixen íntegrament al castellà",async()=>{
     "Tipus de cartes comercials":"Tipos de cartas comerciales",
     "Documents administratius":"Documentos administrativos",
     "Instància o sol·licitud":"Instancia o solicitud",
+    "Sol·licitud administrativa":"Solicitud administrativa",
     "Estructura de la sol·licitud":"Estructura de la solicitud",
     "Circular":"Circular",
     "Estructura de la circular":"Estructura de la circular"
