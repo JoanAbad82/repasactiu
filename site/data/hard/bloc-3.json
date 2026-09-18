@@ -840,6 +840,126 @@
         "Pueden simplificar demasiado una organización compleja",
         "No explican por sí solos las funciones detalladas de cada puesto"
       ]
+    },
+    "b3-071": {
+      "ca": [
+        "Descentralització, perquè la decisió deixa de concentrar-se en la responsable",
+        "Participació, perquè una altra persona intervé en l’organització del torn",
+        "Autoritat, perquè la persona experimentada pot donar instruccions durant el torn"
+      ],
+      "es": [
+        "Descentralización, porque la decisión deja de concentrarse en la responsable",
+        "Participación, porque otra persona interviene en la organización del turno",
+        "Autoridad, porque la persona experimentada puede dar instrucciones durante el turno"
+      ]
+    },
+    "b3-072": {
+      "ca": [
+        "Delegació, perquè cada oficina rep una tasca concreta de la seu central",
+        "Participació, perquè les oficines aporten criteris propis a la gestió",
+        "Coordinació, perquè totes les oficines continuen compartint unes normes comunes"
+      ],
+      "es": [
+        "Delegación, porque cada oficina recibe una tarea concreta de la sede central",
+        "Participación, porque las oficinas aportan criterios propios a la gestión",
+        "Coordinación, porque todas las oficinas siguen compartiendo unas normas comunes"
+      ]
+    },
+    "b3-073": {
+      "ca": [
+        "Augmentar l’autonomia de decisió de cada especialista sobre tota l’organització",
+        "Reduir el nombre de funcions perquè cada persona assumeixi una sola tasca concreta",
+        "Substituir la coordinació per criteris tècnics individuals"
+      ],
+      "es": [
+        "Aumentar la autonomía de decisión de cada especialista sobre toda la organización",
+        "Reducir el número de funciones para que cada persona asuma una sola tarea concreta",
+        "Sustituir la coordinación por criterios técnicos individuales"
+      ]
+    },
+    "b3-074": {
+      "ca": [
+        "Coordinació formal, perquè la consulta millora la comunicació entre departaments",
+        "Participació, perquè totes dues persones aporten coneixement a la resolució del problema",
+        "Delegació, perquè una persona confia en el criteri de l’altra"
+      ],
+      "es": [
+        "Coordinación formal, porque la consulta mejora la comunicación entre departamentos",
+        "Participación, porque ambas personas aportan conocimiento a la resolución del problema",
+        "Delegación, porque una persona confía en el criterio de la otra"
+      ]
+    },
+    "b3-075": {
+      "ca": [
+        "Organització informal, perquè les relacions jeràrquiques també depenen de la confiança",
+        "Unitat de direcció, perquè el document crea una orientació comuna",
+        "Principi d’autoritat, perquè definir càrrecs és assignar poder de decisió"
+      ],
+      "es": [
+        "Organización informal, porque las relaciones jerárquicas también dependen de la confianza",
+        "Unidad de dirección, porque el documento crea una orientación común",
+        "Principio de autoridad, porque definir cargos es asignar poder de decisión"
+      ]
+    },
+    "b3-076": {
+      "ca": [
+        "Pot mostrar dependències, però no permet identificar quins llocs estan al mateix nivell",
+        "Representa càrrecs i àrees, però les línies no indiquen relacions de dependència",
+        "Serveix per descriure funcions, però no permet detectar problemes d’organització"
+      ],
+      "es": [
+        "Puede mostrar dependencias, pero no permite identificar qué puestos están al mismo nivel",
+        "Representa cargos y áreas, pero las líneas no indican relaciones de dependencia",
+        "Sirve para describir funciones, pero no permite detectar problemas de organización"
+      ]
+    },
+    "b3-077": {
+      "ca": [
+        "Exactitud, perquè exigeix representar l’estructura real en el moment de consultar-la",
+        "Uniformitat, perquè els canvis d’àrea obliguen a mantenir els mateixos criteris gràfics",
+        "Claredat, perquè una modificació de dependències pot dificultar la lectura del gràfic"
+      ],
+      "es": [
+        "Exactitud, porque exige representar la estructura real en el momento de consultarla",
+        "Uniformidad, porque los cambios de área obligan a mantener los mismos criterios gráficos",
+        "Claridad, porque una modificación de dependencias puede dificultar la lectura del gráfico"
+      ]
+    },
+    "b3-078": {
+      "ca": [
+        "Coordinació, perquè qualsevol treball conjunt equival a tenir una única planificació",
+        "Autoritat, perquè evitar contradiccions exigeix que una persona decideixi per tots els departaments",
+        "Descentralització, perquè cada departament ha d’adaptar el pla al seu àmbit"
+      ],
+      "es": [
+        "Coordinación, porque cualquier trabajo conjunto equivale a tener una única planificación",
+        "Autoridad, porque evitar contradicciones exige que una persona decida por todos los departamentos",
+        "Descentralización, porque cada departamento debe adaptar el plan a su ámbito"
+      ]
+    },
+    "b3-079": {
+      "ca": [
+        "Coordinació, perquè informar tothom permet sincronitzar els torns",
+        "Unitat de direcció, perquè l’horari ha de ser comú a l’organització",
+        "Participació, perquè les persones afectades reben informació sobre la decisió"
+      ],
+      "es": [
+        "Coordinación, porque informar a todos permite sincronizar los turnos",
+        "Unidad de dirección, porque el horario debe ser común a la organización",
+        "Participación, porque las personas afectadas reciben información sobre la decisión"
+      ]
+    },
+    "b3-080": {
+      "ca": [
+        "Descentralització, perquè els conductors intervenen en decisions del seu àmbit",
+        "Delegació, perquè la direcció trasllada als conductors la responsabilitat del procediment",
+        "Coordinació, perquè escoltar propostes facilita que les rutes funcionin conjuntament"
+      ],
+      "es": [
+        "Descentralización, porque los conductores intervienen en decisiones de su ámbito",
+        "Delegación, porque la dirección traslada a los conductores la responsabilidad del procedimiento",
+        "Coordinación, porque escuchar propuestas facilita que las rutas funcionen conjuntamente"
+      ]
     }
   }
 }

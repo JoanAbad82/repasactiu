@@ -1,20 +1,270 @@
 {
-  "blockId":"bloc-2",
-  "blockTitle":"Clases de empresas, jerarquía empresarial y función administrativa",
-  "questions":{
-    "b2-057":{"topic":"Empresas lucrativas","question":"Una empresa con beneficios decide destinar una parte a comprar nuevos equipos. Según el temario, ¿es un destino posible del beneficio?","options":["Sí, los beneficios se pueden reinvertir o destinar a nuevos equipos y recursos","No, todos los beneficios deben repartirse entre los propietarios","No, los beneficios solo pueden guardarse sin utilizar","Sí, pero solo si la empresa deja de tener finalidad lucrativa"],"explanation":"El material indica que los beneficios de una empresa lucrativa se pueden reinvertir, destinar a nuevos equipos, ampliar la actividad o mejorar productos y servicios."},
-    "b2-058":{"topic":"Entidades sin ánimo de lucro","question":"Una entidad sin ánimo de lucro obtiene ingresos en una actividad propia. ¿Qué debe ocurrir con los posibles beneficios según el temario?","options":["Deben repartirse necesariamente entre los miembros","Deben destinarse al cumplimiento de los objetivos de la organización","Deben convertirse automáticamente en capital público","No puede haber ningún ingreso ni beneficio en ningún caso"],"explanation":"Las entidades sin ánimo de lucro pueden obtener ingresos, pero los posibles beneficios se destinan a los objetivos de la organización y no se reparten entre los miembros."},
-    "b2-059":{"topic":"Clasificación de empresas","question":"¿Por qué una misma empresa puede aparecer en varias categorías a la vez?","options":["Porque cada empresa debe cambiar de categoría cada año","Porque la clasificación depende solo del número de trabajadores","Porque se pueden aplicar criterios diferentes, como forma jurídica, capital o actividad","Porque todas las empresas son simultáneamente públicas y privadas"],"explanation":"Una misma empresa puede clasificarse simultáneamente según distintos criterios: motivo de creación, estructura jurídica, capital y actividad económica."},
-    "b2-060":{"topic":"Empresas individuales","question":"¿Qué situación describe mejor una empresa individual según el material?","options":["Varias personas crean una sociedad con personalidad propia","Un conjunto de socios gestiona democráticamente una cooperativa","Una administración e inversores privados comparten el capital","Una única persona física es propietaria y desarrolla la actividad en nombre propio"],"explanation":"En una empresa individual, una única persona física es propietaria de la empresa y desarrolla la actividad empresarial en nombre propio."},
-    "b2-061":{"topic":"Sociedades","question":"¿Qué característica diferencia a una sociedad de las personas socias en las formas societarias habituales descritas en el temario?","options":["La sociedad dispone de personalidad jurídica propia diferenciada de la de los socios","La sociedad no puede recibir aportaciones de capital ni bienes","Los beneficios nunca se pueden reinvertir","La gestión solo puede ser ejercida por personas externas"],"explanation":"El material señala que, en las formas societarias habituales, la sociedad tiene personalidad jurídica propia diferenciada de la de sus socios."},
-    "b2-062":{"topic":"Cooperativas","question":"En una cooperativa, ¿qué rasgo se ajusta a la forma de tomar decisiones indicada en el material?","options":["Las decisiones dependen siempre de un propietario único","La gestión se basa en participación y funcionamiento democrático","Las personas socias solo pueden aportar dinero","Los resultados se reparten sin seguir ninguna norma cooperativa"],"explanation":"Las cooperativas se basan en la participación de las personas socias y en un funcionamiento democrático a través de sus órganos."},
-    "b2-063":{"topic":"Tipo de capital","question":"Una empresa tiene aportaciones de capital procedentes del sector público y del sector privado. ¿Cómo se clasifica según el tipo de capital?","options":["Pública","Privada","Mixta","Sin ánimo de lucro"],"explanation":"Una empresa mixta combina capital público y capital privado."},
-    "b2-064":{"topic":"Actividad económica","question":"Una empresa se dedica principalmente a prestar asesoramiento a clientes, sin que su actividad principal sea fabricar o distribuir productos. ¿Qué tipo es?","options":["Fabricante","Distribuidora","Mixta por el tipo de capital","Empresa de servicios"],"explanation":"Según la actividad económica, las empresas pueden ser fabricantes, distribuidoras o de servicios; la prestación de servicios corresponde al tercer grupo."},
-    "b2-065":{"topic":"Jerarquía empresarial","question":"Una persona veterana tiene mucha influencia entre sus compañeros por su experiencia, pero no ocupa ningún cargo de mando. ¿Qué tipo de jerarquía refleja?","options":["Jerarquía de rango","Jerarquía dada por el cargo","Jerarquía por remuneración","Jerarquía administrativa"],"explanation":"El rango puede derivar de la experiencia, antigüedad, prestigio o reconocimiento y no siempre coincide con la jerarquía oficial."},
-    "b2-066":{"topic":"Jerarquía empresarial","question":"Una técnica es referente del equipo porque tiene conocimientos especializados y resuelve problemas complejos, sin ser la jefa. ¿Qué tipo de jerarquía representa?","options":["Jerarquía de rango","Jerarquía por capacidad","Jerarquía por remuneración","Jerarquía dada por el cargo"],"explanation":"La jerarquía por capacidad se relaciona con los conocimientos, habilidades o competencia profesional que dan influencia dentro de la organización."},
-    "b2-067":{"topic":"Jerarquía empresarial","question":"Un especialista recibe una retribución superior por sus funciones, pero no dirige a otras personas. ¿Qué criterio jerárquico destaca en este caso?","options":["Cargo","Rango","Remuneración","Antigüedad como estructura jurídica"],"explanation":"La jerarquía por remuneración relaciona la posición con el nivel retributivo, que no implica necesariamente mando sobre otras personas."},
-    "b2-068":{"topic":"Función administrativa","question":"La dirección define qué quiere conseguir durante los próximos años y determina las acciones necesarias. ¿Qué acción administrativa está realizando?","options":["Auditar","Controlar","Coordinar","Planificar"],"explanation":"Planificar consiste en definir objetivos y determinar las acciones necesarias para alcanzarlos; los objetivos pueden ser a corto, medio o largo plazo."},
-    "b2-069":{"topic":"Función administrativa","question":"Hay que repartir personal, materiales y recursos económicos entre varias actividades. ¿Qué acción de la función administrativa corresponde a esta decisión?","options":["Organizar","Auditar","Dirigir","Controlar"],"explanation":"Organizar implica distribuir los recursos humanos, materiales y económicos, así como las tareas y responsabilidades."},
-    "b2-070":{"topic":"Función administrativa","question":"Una responsable revisa y verifica actividades, procedimientos y resultados de la organización. ¿Qué acción administrativa describe el temario?","options":["Coordinar","Auditar","Planificar","Organizar"],"explanation":"Auditar consiste en revisar y verificar las actividades, los procedimientos y los resultados de la organización."}
+  "blockId": "bloc-2",
+  "blockTitle": "Clases de empresas, jerarquía empresarial y función administrativa",
+  "questions": {
+    "b2-057": {
+      "topic": "Empresas lucrativas",
+      "question": "Una empresa con beneficios decide destinar una parte a comprar nuevos equipos. Según el temario, ¿es un destino posible del beneficio?",
+      "options": [
+        "Sí, los beneficios se pueden reinvertir o destinar a nuevos equipos y recursos",
+        "No, todos los beneficios deben repartirse entre los propietarios",
+        "No, los beneficios solo pueden guardarse sin utilizar",
+        "Sí, pero solo si la empresa deja de tener finalidad lucrativa"
+      ],
+      "explanation": "El material indica que los beneficios de una empresa lucrativa se pueden reinvertir, destinar a nuevos equipos, ampliar la actividad o mejorar productos y servicios."
+    },
+    "b2-058": {
+      "topic": "Entidades sin ánimo de lucro",
+      "question": "Una entidad sin ánimo de lucro obtiene ingresos en una actividad propia. ¿Qué debe ocurrir con los posibles beneficios según el temario?",
+      "options": [
+        "Deben repartirse necesariamente entre los miembros",
+        "Deben destinarse al cumplimiento de los objetivos de la organización",
+        "Deben convertirse automáticamente en capital público",
+        "No puede haber ningún ingreso ni beneficio en ningún caso"
+      ],
+      "explanation": "Las entidades sin ánimo de lucro pueden obtener ingresos, pero los posibles beneficios se destinan a los objetivos de la organización y no se reparten entre los miembros."
+    },
+    "b2-059": {
+      "topic": "Clasificación de empresas",
+      "question": "¿Por qué una misma empresa puede aparecer en varias categorías a la vez?",
+      "options": [
+        "Porque cada empresa debe cambiar de categoría cada año",
+        "Porque la clasificación depende solo del número de trabajadores",
+        "Porque se pueden aplicar criterios diferentes, como forma jurídica, capital o actividad",
+        "Porque todas las empresas son simultáneamente públicas y privadas"
+      ],
+      "explanation": "Una misma empresa puede clasificarse simultáneamente según distintos criterios: motivo de creación, estructura jurídica, capital y actividad económica."
+    },
+    "b2-060": {
+      "topic": "Empresas individuales",
+      "question": "¿Qué situación describe mejor una empresa individual según el material?",
+      "options": [
+        "Varias personas crean una sociedad con personalidad propia",
+        "Un conjunto de socios gestiona democráticamente una cooperativa",
+        "Una administración e inversores privados comparten el capital",
+        "Una única persona física es propietaria y desarrolla la actividad en nombre propio"
+      ],
+      "explanation": "En una empresa individual, una única persona física es propietaria de la empresa y desarrolla la actividad empresarial en nombre propio."
+    },
+    "b2-061": {
+      "topic": "Sociedades",
+      "question": "¿Qué característica diferencia a una sociedad de las personas socias en las formas societarias habituales descritas en el temario?",
+      "options": [
+        "La sociedad dispone de personalidad jurídica propia diferenciada de la de los socios",
+        "La sociedad no puede recibir aportaciones de capital ni bienes",
+        "Los beneficios nunca se pueden reinvertir",
+        "La gestión solo puede ser ejercida por personas externas"
+      ],
+      "explanation": "El material señala que, en las formas societarias habituales, la sociedad tiene personalidad jurídica propia diferenciada de la de sus socios."
+    },
+    "b2-062": {
+      "topic": "Cooperativas",
+      "question": "En una cooperativa, ¿qué rasgo se ajusta a la forma de tomar decisiones indicada en el material?",
+      "options": [
+        "Las decisiones dependen siempre de un propietario único",
+        "La gestión se basa en participación y funcionamiento democrático",
+        "Las personas socias solo pueden aportar dinero",
+        "Los resultados se reparten sin seguir ninguna norma cooperativa"
+      ],
+      "explanation": "Las cooperativas se basan en la participación de las personas socias y en un funcionamiento democrático a través de sus órganos."
+    },
+    "b2-063": {
+      "topic": "Tipo de capital",
+      "question": "Una empresa tiene aportaciones de capital procedentes del sector público y del sector privado. ¿Cómo se clasifica según el tipo de capital?",
+      "options": [
+        "Pública",
+        "Privada",
+        "Mixta",
+        "Sin ánimo de lucro"
+      ],
+      "explanation": "Una empresa mixta combina capital público y capital privado."
+    },
+    "b2-064": {
+      "topic": "Actividad económica",
+      "question": "Una empresa se dedica principalmente a prestar asesoramiento a clientes, sin que su actividad principal sea fabricar o distribuir productos. ¿Qué tipo es?",
+      "options": [
+        "Fabricante",
+        "Distribuidora",
+        "Mixta por el tipo de capital",
+        "Empresa de servicios"
+      ],
+      "explanation": "Según la actividad económica, las empresas pueden ser fabricantes, distribuidoras o de servicios; la prestación de servicios corresponde al tercer grupo."
+    },
+    "b2-065": {
+      "topic": "Jerarquía empresarial",
+      "question": "Una persona veterana tiene mucha influencia entre sus compañeros por su experiencia, pero no ocupa ningún cargo de mando. ¿Qué tipo de jerarquía refleja?",
+      "options": [
+        "Jerarquía de rango",
+        "Jerarquía dada por el cargo",
+        "Jerarquía por remuneración",
+        "Jerarquía administrativa"
+      ],
+      "explanation": "El rango puede derivar de la experiencia, antigüedad, prestigio o reconocimiento y no siempre coincide con la jerarquía oficial."
+    },
+    "b2-066": {
+      "topic": "Jerarquía empresarial",
+      "question": "Una técnica es referente del equipo porque tiene conocimientos especializados y resuelve problemas complejos, sin ser la jefa. ¿Qué tipo de jerarquía representa?",
+      "options": [
+        "Jerarquía de rango",
+        "Jerarquía por capacidad",
+        "Jerarquía por remuneración",
+        "Jerarquía dada por el cargo"
+      ],
+      "explanation": "La jerarquía por capacidad se relaciona con los conocimientos, habilidades o competencia profesional que dan influencia dentro de la organización."
+    },
+    "b2-067": {
+      "topic": "Jerarquía empresarial",
+      "question": "Un especialista recibe una retribución superior por sus funciones, pero no dirige a otras personas. ¿Qué criterio jerárquico destaca en este caso?",
+      "options": [
+        "Cargo",
+        "Rango",
+        "Remuneración",
+        "Antigüedad como estructura jurídica"
+      ],
+      "explanation": "La jerarquía por remuneración relaciona la posición con el nivel retributivo, que no implica necesariamente mando sobre otras personas."
+    },
+    "b2-068": {
+      "topic": "Función administrativa",
+      "question": "La dirección define qué quiere conseguir durante los próximos años y determina las acciones necesarias. ¿Qué acción administrativa está realizando?",
+      "options": [
+        "Auditar",
+        "Controlar",
+        "Coordinar",
+        "Planificar"
+      ],
+      "explanation": "Planificar consiste en definir objetivos y determinar las acciones necesarias para alcanzarlos; los objetivos pueden ser a corto, medio o largo plazo."
+    },
+    "b2-069": {
+      "topic": "Función administrativa",
+      "question": "Hay que repartir personal, materiales y recursos económicos entre varias actividades. ¿Qué acción de la función administrativa corresponde a esta decisión?",
+      "options": [
+        "Organizar",
+        "Auditar",
+        "Dirigir",
+        "Controlar"
+      ],
+      "explanation": "Organizar implica distribuir los recursos humanos, materiales y económicos, así como las tareas y responsabilidades."
+    },
+    "b2-070": {
+      "topic": "Función administrativa",
+      "question": "Una responsable revisa y verifica actividades, procedimientos y resultados de la organización. ¿Qué acción administrativa describe el temario?",
+      "options": [
+        "Coordinar",
+        "Auditar",
+        "Planificar",
+        "Organizar"
+      ],
+      "explanation": "Auditar consiste en revisar y verificar las actividades, los procedimientos y los resultados de la organización."
+    },
+    "b2-071": {
+      "topic": "Clasificación de empresas",
+      "question": "Una sociedad privada que fabrica mobiliario puede describirse a la vez por la forma jurídica, el tipo de capital y la actividad económica. ¿Qué idea explica esta situación?",
+      "options": [
+        "Una empresa puede clasificarse simultáneamente según criterios diferentes",
+        "La forma jurídica sustituye cualquier otra clasificación",
+        "El tipo de capital determina automáticamente la actividad",
+        "Cada empresa debe pertenecer a una sola categoría"
+      ],
+      "explanation": "El temario aplica varios criterios de clasificación —creación, estructura jurídica, capital y actividad— que pueden describir simultáneamente una misma empresa."
+    },
+    "b2-072": {
+      "topic": "Empresas privadas",
+      "question": "¿Qué conjunto contiene fuentes de financiación compatibles con una empresa privada según el temario?",
+      "options": [
+        "Impuestos, tasas y presupuestos públicos como fuentes principales",
+        "Aportaciones de socios, ventas, préstamos, inversiones privadas y beneficios generados",
+        "Transferencias públicas como único recurso y cuotas obligatorias",
+        "Recursos del presupuesto general y aportaciones de otras administraciones"
+      ],
+      "explanation": "Las empresas privadas pueden financiarse con aportaciones de los propietarios o socios, ventas, préstamos y créditos, inversiones privadas y beneficios generados."
+    },
+    "b2-073": {
+      "topic": "Jerarquía empresarial",
+      "question": "La responsable de un departamento puede dar instrucciones porque ocupa oficialmente ese puesto, aunque otra persona tenga más antigüedad. ¿Qué tipo de jerarquía destaca?",
+      "options": [
+        "Jerarquía de rango",
+        "Jerarquía por capacidad",
+        "Jerarquía dada por el cargo",
+        "Jerarquía por remuneración"
+      ],
+      "explanation": "La jerarquía dada por el cargo deriva de la posición formal que una persona ocupa dentro de la estructura de la empresa."
+    },
+    "b2-074": {
+      "topic": "Jerarquía empresarial",
+      "question": "Un trabajador sin cargo directivo es especialmente escuchado por su larga experiencia y el prestigio que tiene dentro del equipo. ¿Qué criterio jerárquico refleja?",
+      "options": [
+        "Jerarquía por remuneración",
+        "Jerarquía de rango",
+        "Jerarquía dada por el cargo",
+        "Jerarquía administrativa"
+      ],
+      "explanation": "La jerarquía de rango puede derivar de la experiencia, la antigüedad, el prestigio o el reconocimiento, sin coincidir con la autoridad formal."
+    },
+    "b2-075": {
+      "topic": "Función administrativa",
+      "question": "Antes de iniciar un proyecto, el equipo directivo fija qué quiere conseguir y decide qué acciones serán necesarias. ¿Qué acción administrativa está realizando?",
+      "options": [
+        "Planificar",
+        "Controlar",
+        "Auditar",
+        "Coordinar"
+      ],
+      "explanation": "Planificar consiste en definir los objetivos y determinar las acciones necesarias para alcanzarlos."
+    },
+    "b2-076": {
+      "topic": "Función administrativa",
+      "question": "Ya se han fijado los objetivos y ahora hay que repartir personas, materiales y presupuesto entre las actividades previstas. ¿Qué acción corresponde?",
+      "options": [
+        "Auditar",
+        "Organizar",
+        "Planificar",
+        "Controlar"
+      ],
+      "explanation": "Organizar implica distribuir los recursos humanos, materiales y económicos, así como las tareas y responsabilidades."
+    },
+    "b2-077": {
+      "topic": "Función administrativa",
+      "question": "Compras, almacén y administración tienen tareas diferentes, pero hay que asegurar que trabajen en una misma dirección y compartan la información necesaria. ¿Qué acción administrativa es clave?",
+      "options": [
+        "Dirigir",
+        "Auditar",
+        "Coordinar",
+        "Planificar"
+      ],
+      "explanation": "Coordinar busca que los distintos departamentos y actividades trabajen en una misma dirección."
+    },
+    "b2-078": {
+      "topic": "Función administrativa",
+      "question": "Al terminar el mes, una responsable compara los resultados obtenidos con los objetivos establecidos e identifica desviaciones. ¿Qué acción está realizando?",
+      "options": [
+        "Coordinar",
+        "Controlar",
+        "Organizar",
+        "Auditar"
+      ],
+      "explanation": "Controlar consiste en comprobar que las actividades y los resultados se ajustan a los objetivos establecidos."
+    },
+    "b2-079": {
+      "topic": "Función administrativa",
+      "question": "Una revisión comprueba si los procedimientos se han aplicado correctamente y verifica los resultados registrados. ¿Qué acción del temario describe mejor esta revisión?",
+      "options": [
+        "Auditar",
+        "Dirigir",
+        "Organizar",
+        "Coordinar"
+      ],
+      "explanation": "Auditar es revisar y verificar las actividades, los procedimientos y los resultados de la organización."
+    },
+    "b2-080": {
+      "topic": "Función administrativa",
+      "question": "Ante una incidencia importante, la responsable elige una alternativa y orienta al equipo sobre cómo continuar. ¿Qué acción administrativa predomina?",
+      "options": [
+        "Controlar",
+        "Dirigir",
+        "Auditar",
+        "Organizar"
+      ],
+      "explanation": "Dirigir consiste en tomar decisiones y orientar la actividad de la organización."
+    }
   }
 }

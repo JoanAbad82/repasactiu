@@ -600,6 +600,126 @@
         "Atención al cliente promociona y ventas gestiona el pedido",
         "Recursos Humanos promociona y comercialización tramita la venta"
       ]
+    },
+    "b1-051": {
+      "ca": [
+        "Entitat privada de serveis perquè presta una activitat concreta",
+        "Entitat mixta perquè cobra taxes als usuaris",
+        "Entitat privada no lucrativa perquè la finalitat és d’interès general"
+      ],
+      "es": [
+        "Entidad privada de servicios porque presta una actividad concreta",
+        "Entidad mixta porque cobra tasas a los usuarios",
+        "Entidad privada no lucrativa porque la finalidad es de interés general"
+      ]
+    },
+    "b1-052": {
+      "ca": [
+        "Funció administrativa, perquè registra les instruccions rebudes",
+        "Recursos Humans, perquè organitza les funcions del personal",
+        "Funció financera, perquè controla els recursos de cada departament"
+      ],
+      "es": [
+        "Función administrativa, porque registra las instrucciones recibidas",
+        "Recursos Humanos, porque organiza las funciones del personal",
+        "Función financiera, porque controla los recursos de cada departamento"
+      ]
+    },
+    "b1-053": {
+      "ca": [
+        "Funció de direcció, perquè decideix com registrar el pagament",
+        "Funció administrativa, perquè determina la font de finançament",
+        "Funció de vendes, perquè calcula els recursos econòmics disponibles"
+      ],
+      "es": [
+        "Función de dirección, porque decide cómo registrar el pago",
+        "Función administrativa, porque determina la fuente de financiación",
+        "Función de ventas, porque calcula los recursos económicos disponibles"
+      ]
+    },
+    "b1-054": {
+      "ca": [
+        "Funció administrativa, perquè el programa s’utilitzarà a l’oficina",
+        "Funció de direcció, perquè qualsevol formació és una decisió estratègica",
+        "Comercialització, perquè la formació dona a conèixer un producte intern"
+      ],
+      "es": [
+        "Función administrativa, porque el programa se utilizará en la oficina",
+        "Función de dirección, porque cualquier formación es una decisión estratégica",
+        "Comercialización, porque la formación da a conocer un producto interno"
+      ]
+    },
+    "b1-055": {
+      "ca": [
+        "Vendes, perquè tota acció dirigida a futurs clients forma part de la venda",
+        "Atenció al client, perquè la campanya informa persones usuàries",
+        "Direcció, perquè decideix el contingut de la promoció"
+      ],
+      "es": [
+        "Ventas, porque toda acción dirigida a futuros clientes forma parte de la venta",
+        "Atención al cliente, porque la campaña informa a personas usuarias",
+        "Dirección, porque decide el contenido de la promoción"
+      ]
+    },
+    "b1-056": {
+      "ca": [
+        "Comercialització, perquè qualsevol opinió del client és informació de mercat",
+        "Vendes, perquè les incidències formen part de la comanda",
+        "Administració, perquè és qui decideix les millores del servei"
+      ],
+      "es": [
+        "Comercialización, porque cualquier opinión del cliente es información de mercado",
+        "Ventas, porque las incidencias forman parte del pedido",
+        "Administración, porque es quien decide las mejoras del servicio"
+      ]
+    },
+    "b1-057": {
+      "ca": [
+        "Funció financera, perquè els contractes poden tenir valor econòmic",
+        "Recursos Humans, perquè actualitzar dades és gestionar persones",
+        "Direcció, perquè localitzar documentació facilita la presa de decisions"
+      ],
+      "es": [
+        "Función financiera, porque los contratos pueden tener valor económico",
+        "Recursos Humanos, porque actualizar datos es gestionar personas",
+        "Dirección, porque localizar documentación facilita la toma de decisiones"
+      ]
+    },
+    "b1-058": {
+      "ca": [
+        "Control de l’organització, perquè el problema és que no s’ha revisat el resultat final",
+        "Direcció, perquè qualsevol tasca sense fer és una decisió directiva",
+        "Administració, perquè faltava registrar formalment qui faria la tasca"
+      ],
+      "es": [
+        "Control de la organización, porque el problema es que no se ha revisado el resultado final",
+        "Dirección, porque cualquier tarea sin hacer es una decisión directiva",
+        "Administración, porque faltaba registrar formalmente quién haría la tarea"
+      ]
+    },
+    "b1-059": {
+      "ca": [
+        "Correu electrònic, perquè deixa constància escrita de la incidència",
+        "Pàgina web, perquè permet consultar informació sense intermediació",
+        "Correu postal, perquè és un canal formal per enviar documentació"
+      ],
+      "es": [
+        "Correo electrónico, porque deja constancia escrita de la incidencia",
+        "Página web, porque permite consultar información sin intermediación",
+        "Correo postal, porque es un canal formal para enviar documentación"
+      ]
+    },
+    "b1-060": {
+      "ca": [
+        "Principi de responsabilitat, perquè cada equip respon de la seva feina",
+        "Funció de direcció, perquè revisar tasques equival a prendre decisions estratègiques",
+        "Funció administrativa, perquè qualsevol seguiment de tasques és gestió documental"
+      ],
+      "es": [
+        "Principio de responsabilidad, porque cada equipo responde de su trabajo",
+        "Función de dirección, porque revisar tareas equivale a tomar decisiones estratégicas",
+        "Función administrativa, porque cualquier seguimiento de tareas es gestión documental"
+      ]
     }
   }
 }

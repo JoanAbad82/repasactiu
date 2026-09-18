@@ -1,1 +1,986 @@
-{"blockId":"unitat-2-bloc-1","blockTitle":"L’organització d’activitats de suport administratiu","questions":[{"id":"u2b1-081","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Dues persones d’una oficina ajusten entre elles el repartiment d’una feina parlant i ajudant-se, sense esperar instruccions constants. Quin mecanisme predomina?","options":["Adaptació mútua","Supervisió directa","Normalització de resultats","Normalització d’habilitats"],"correct":0,"explanation":"L’adaptació mútua coordina les persones mitjançant comunicació directa i ajuda recíproca, sense supervisió constant."},{"id":"u2b1-082","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Un responsable assigna les tasques, dona instruccions i comprova com les executa l’equip. Quin mecanisme descriu millor aquesta situació?","options":["Adaptació mútua","Supervisió directa","Normalització d’habilitats","Normalització de resultats"],"correct":1,"explanation":"En la supervisió directa una persona organitza, dona instruccions i controla el treball de les altres."},{"id":"u2b1-083","block":"unitat-2-bloc-1","topic":"Coordinació","question":"L’empresa fixa els passos exactes per tramitar una factura, però en una altra tasca només fixa l’objectiu final. Quin mecanisme s’aplica al primer cas?","options":["Normalització d’habilitats","Adaptació mútua","Normalització dels processos de treball","Normalització de resultats"],"correct":2,"explanation":"Quan s’estableix prèviament com s’ha de fer la feina mitjançant passos, normes o instruccions, es normalitza el procés."},{"id":"u2b1-084","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Una persona pot començar una tasca professional sense que li expliquin cada pas perquè ja disposa de la formació i l’experiència exigides. Què s’ha normalitzat?","options":["El resultat final","La supervisió","El procés detallat","Les habilitats"],"correct":3,"explanation":"La normalització d’habilitats estandarditza la preparació, els coneixements i les competències prèvies de les persones treballadores."},{"id":"u2b1-085","block":"unitat-2-bloc-1","topic":"Procediments de treball","question":"Quina característica és essencial perquè una seqüència d’actuacions sigui un procediment de treball segons la unitat?","options":["Que els passos siguin clars i coherents i orientats als objectius establerts","Que cada persona improvisi un ordre diferent","Que només indiqui el resultat sense cap seqüència","Que serveixi exclusivament per a tasques excepcionals"],"correct":0,"explanation":"Un procediment és una sèrie de passos definits de manera clara i coherent que permeten treballar i coordinar-se per assolir objectius."},{"id":"u2b1-086","block":"unitat-2-bloc-1","topic":"Procediments de treball","question":"Un tràmit segueix sempre A → B → C → D, sense bifurcacions segons les respostes. Quin tipus de procediment és?","options":["Ramificat","Lineal","Participatiu","Informal"],"correct":1,"explanation":"Un procediment lineal segueix una única seqüència de passos en un ordre establert."},{"id":"u2b1-087","block":"unitat-2-bloc-1","topic":"Procediments de treball","question":"En un procés, si falta documentació es demana una esmena i, si és completa, es continua directament. Quin tipus de procediment representa millor aquesta lògica?","options":["Lineal","Normalitzat per habilitats","Ramificat","Supervisió directa"],"correct":2,"explanation":"Un procediment ramificat ofereix recorreguts diferents segons les decisions o condicions que apareixen durant el procés."},{"id":"u2b1-088","block":"unitat-2-bloc-1","topic":"Procediments de treball","question":"Per què pot ser útil formalitzar un procediment en una activitat administrativa repetitiva?","options":["Per eliminar qualsevol objectiu previ","Per evitar que el treball sigui controlable","Per substituir tota coordinació humana","Per reduir errors, millorar la qualitat i prevenir riscos quan sigui necessari"],"correct":3,"explanation":"Els procediments fan el treball més ordenat, coherent i controlable, i poden reduir errors, millorar la qualitat i prevenir riscos."},{"id":"u2b1-089","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Una oficina vol implantar un control de qualitat. Quin pas ha de fer primer segons la seqüència de la unitat?","options":["Triar què vol controlar i aclarir els objectius","Mesurar immediatament qualsevol dada disponible","Aplicar millores abans de saber què falla","Canviar els estàndards sense haver definit el control"],"correct":0,"explanation":"El primer pas és decidir què es vol controlar per saber quins objectius es volen aconseguir."},{"id":"u2b1-090","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Després de decidir què es controlarà i quins objectius es busquen, quin pas ve a continuació?","options":["Adoptar mesures correctores","Determinar les formes de mesurament","Eliminar l’estàndard de referència","Valorar només opinions informals"],"correct":1,"explanation":"El segon pas del control de qualitat és determinar les formes de mesurament adequades per obtenir els resultats desitjats."},{"id":"u2b1-091","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Abans de realitzar el mesurament real, què indica la seqüència del temari que s’ha d’haver establert?","options":["Un sistema de recompenses individuals","Un nou organigrama","Un sistema de mesurament eficient","Una estructura autocràtica"],"correct":2,"explanation":"La unitat situa l’establiment d’un sistema de mesurament eficient abans de realitzar el control mitjançant el mesurament."},{"id":"u2b1-092","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Una oficina pregunta als usuaris quina imatge tenen del servei i de l’atenció rebuda. Quin tipus d’indicador està utilitzant principalment?","options":["Indicador de procés o funcions","Indicador d’eficiència temporal","Indicador de servei exclusivament","Indicador de percepció"],"correct":3,"explanation":"Els indicadors de percepció recullen com veuen les persones usuàries o visitants l’oficina o el servei."},{"id":"u2b1-093","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Quin conjunt de característiques han de tenir els objectius segons les pautes de gestió del temps de la unitat?","options":["Específics, compatibles amb altres objectius i assequibles","Molt nombrosos, genèrics i difícils","Exclusivament econòmics i immediats","Imprecisos per permetre qualsevol interpretació"],"correct":0,"explanation":"El material recomana objectius específics, concurrents amb altres fins i assequibles per facilitar constància i organització."},{"id":"u2b1-094","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Quina pràctica reforça el compromís amb els objectius i ajuda a gestionar el temps segons el temari?","options":["Mantenir tots els objectius només de memòria","Registrar-los per escrit i limitar-los a un nombre raonable","Canviar-los cada dia encara que no sigui necessari","Evitar prioritzar-los per no condicionar la feina"],"correct":1,"explanation":"Registrar els objectius per escrit ajuda al compromís i el material recomana seleccionar-ne un nombre limitat i raonable."},{"id":"u2b1-095","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Quan el temari parla de tenir en compte l’entorn laboral per obtenir bons resultats, a què es refereix?","options":["Només a la decoració de l’oficina","Només al salari de cada persona","A les condicions de treball, la relació amb els companys i l’organització de l’empresa","Exclusivament al nombre de clients"],"correct":2,"explanation":"L’entorn laboral inclou les condicions de treball, les relacions amb els companys i la manera com s’organitza l’empresa."},{"id":"u2b1-096","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Quina combinació recull actituds personals que la unitat relaciona amb una millor productivitat?","options":["Improvisació, desordre i retard","Competència, jerarquia i salari","Autonomia, risc i centralització","Responsabilitat, motivació, ordre i puntualitat"],"correct":3,"explanation":"La unitat destaca responsabilitat, motivació, ordre i puntualitat com a actituds que ajuden a treballar millor i ser més productius."},{"id":"u2b1-097","block":"unitat-2-bloc-1","topic":"Classificació de tasques","question":"Una tasca és imprescindible per assolir un objectiu i només la persona responsable pot abordar-la. Com la classifica el temari?","options":["Important","Normal","Poc important","Rutinària necessàriament"],"correct":0,"explanation":"Les tasques importants són imprescindibles per als objectius i només les pot abordar la persona corresponent."},{"id":"u2b1-098","block":"unitat-2-bloc-1","topic":"Classificació de tasques","question":"Una activitat és rellevant, però es pot posposar una mica o delegar en una altra persona. Com es classifica?","options":["Poc important","Normal","Projecte en curs","Planificació i desenvolupament"],"correct":1,"explanation":"Les tasques normals són importants, però es poden ajornar un curt període o delegar-se."},{"id":"u2b1-099","block":"unitat-2-bloc-1","topic":"Durada de tasques","question":"Una feina té un termini d’execució aproximadament fix i exigeix planificació i organització personal. A quin tipus correspon?","options":["Tasca poc important","Tasca rutinària","Projecte en curs","Adaptació mútua"],"correct":2,"explanation":"Els projectes en curs tenen un termini més o menys fix i requereixen planificació i organització personal."},{"id":"u2b1-100","block":"unitat-2-bloc-1","topic":"Durada de tasques","question":"Quina categoria inclou tasques destinades a millorar el treball personal de cara al futur?","options":["Tasques rutinàries","Projectes en curs","Tasques normals","Planificació i desenvolupament"],"correct":3,"explanation":"El material denomina planificació i desenvolupament les tasques que ajudaran a millorar el treball personal."},{"id":"u2b1-101","block":"unitat-2-bloc-1","topic":"Elements del grup","question":"Quin element és bàsic perquè diverses persones funcionin com un grup de treball i no només coincideixin en un mateix espai?","options":["Compartir un objectiu comú","Tenir exactament el mateix estatus","Fer totes la mateixa tasca","Dependre sempre del mateix cap"],"correct":0,"explanation":"El resum de la unitat defineix el grup de treball com persones que col·laboren per assolir un objectiu comú."},{"id":"u2b1-102","block":"unitat-2-bloc-1","topic":"Elements del grup","question":"Quina combinació afavoreix especialment que un grup funcioni bé segons el resum de la unitat?","options":["Objectius individuals secrets i poca comunicació","Objectius compartits, normes clares i comunicació oberta","Canvis constants de rols i absència de normes","Competència interna i informació restringida"],"correct":1,"explanation":"El material destaca objectius compartits, normes clares, comunicació oberta, bon repartiment de rols, cohesió i bon clima."},{"id":"u2b1-103","block":"unitat-2-bloc-1","topic":"Elements del grup","question":"Una persona ocupa una posició reconeguda dins del grup i d’aquesta posició s’esperen determinats comportaments. Quins conceptes descriuen, respectivament, aquests dos elements?","options":["Norma i cohesió","Poder i mida","Estatus i rol","Rol i estatus"],"correct":2,"explanation":"L’estatus és la posició o rang reconegut; el rol és el conjunt de comportaments esperats associats a una posició."},{"id":"u2b1-104","block":"unitat-2-bloc-1","topic":"Normes del grup","question":"Quina afirmació sobre les normes del grup és coherent amb la unitat?","options":["Només existeixen si estan escrites en un reglament","Sempre les fixa exclusivament la direcció","No influeixen en el comportament dels membres","Poden ser formals o informals, explícites o implícites"],"correct":3,"explanation":"Les normes són estàndards compartits de comportament i poden ser formals o informals, explícites o implícites."},{"id":"u2b1-105","block":"unitat-2-bloc-1","topic":"Cohesió","question":"Si la direcció vol reforçar la cohesió d’un equip, quina política de recompenses és més coherent amb el material?","options":["Reconèixer i recompensar el grup sencer","Premiar sempre només una persona","Eliminar qualsevol reconeixement dels resultats","Canviar sovint els membres premiats"],"correct":0,"explanation":"El temari proposa donar recompenses al grup en lloc de fer-ho només individualment per afavorir la cohesió."},{"id":"u2b1-106","block":"unitat-2-bloc-1","topic":"Cohesió","question":"Quina mesura física o organitzativa pot facilitar la col·laboració i reforçar la cohesió?","options":["Separar els membres en espais sense contacte","Crear espais de treball compartits o propis per al grup","Canviar l’equip de lloc cada dia","Evitar que els membres es relacionin"],"correct":1,"explanation":"El material recomana crear espais de treball que afavoreixin la col·laboració del grup."},{"id":"u2b1-107","block":"unitat-2-bloc-1","topic":"Cohesió","question":"Quina pràctica tendeix a debilitar la cohesió perquè dificulta que es consolidin els vincles del grup?","options":["Reconèixer l’esforç conjunt","Fomentar la confiança","Separar o canviar sovint els membres","Acordar objectius compartits"],"correct":2,"explanation":"Separar o canviar sovint els membres figura entre els factors que redueixen la cohesió."},{"id":"u2b1-108","block":"unitat-2-bloc-1","topic":"Cohesió","question":"Quina situació pot reduir la cohesió encara que els membres continuïn treballant junts?","options":["Compartir espais de treball","Reconèixer resultats col·lectius","Afavorir la comunicació","Mantenir desacords sobre els objectius del grup"],"correct":3,"explanation":"Crear o mantenir desacords sobre les metes del grup és un factor que el material associa amb una menor cohesió."},{"id":"u2b1-109","block":"unitat-2-bloc-1","topic":"Estructures de grup","question":"El responsable decideix pràcticament tot, fixa instruccions i controla l’activitat, mentre l’equip té poca autonomia. Quina estructura és?","options":["Autocràtica","Paternalista","Permissiva","Participativa"],"correct":0,"explanation":"L’estructura autocràtica concentra decisions, instruccions i control en el líder i deixa poca autonomia als membres."},{"id":"u2b1-110","block":"unitat-2-bloc-1","topic":"Estructures de grup","question":"Un líder adopta una actitud protectora i decideix què considera millor per al grup, però la participació dels membres és limitada. Quina estructura descriu?","options":["Participativa","Paternalista","Permissiva","Autocràtica sense matisos"],"correct":1,"explanation":"En l’estructura paternalista el líder actua de manera protectora però concentra responsabilitat i decisió."},{"id":"u2b1-111","block":"unitat-2-bloc-1","topic":"Estructures de grup","question":"L’equip disposa de molta autonomia i el líder gairebé no intervé; si no s’acorden responsabilitats, la coordinació i la planificació poden fallar. Quin model és?","options":["Autocràtic","Paternalista","Permissiu o laissez-faire","Participatiu"],"correct":2,"explanation":"L’estructura permissiva dona molta autonomia i poca supervisió; pot tenir problemes de coordinació si el grup necessita orientació."},{"id":"u2b1-112","block":"unitat-2-bloc-1","topic":"Estructures de grup","question":"Els membres intervenen en les decisions, cooperen i mantenen una comunicació oberta, mentre el líder facilita i coordina. Quina estructura és?","options":["Autocràtica","Paternalista","Permissiva","Participativa"],"correct":3,"explanation":"La participativa combina implicació dels membres, cooperació, comunicació oberta i coordinació facilitada pel líder."},{"id":"u2b1-113","block":"unitat-2-bloc-1","topic":"Fases del treball en equip","question":"Un equip acaba de constituir-se: les persones es coneixen, intenten entendre els objectius i la comunicació encara és prudent. En quina fase es troba?","options":["Formació","Conflicte","Normalització","Rendiment"],"correct":0,"explanation":"La formació és l’etapa inicial, en què el grup es coneix, defineix tasques i objectius i encara pot mostrar inseguretat."},{"id":"u2b1-114","block":"unitat-2-bloc-1","topic":"Fases del treball en equip","question":"Apareixen desacords sobre responsabilitats i lideratge. Segons la unitat, quina resposta és més adequada en aquesta fase?","options":["Evitar qualsevol conversa sobre el problema","Escoltar, dialogar i resoldre el conflicte de manera constructiva","Dissoldre necessàriament l’equip","Passar directament a treball autònom sense aclarir rols"],"correct":1,"explanation":"El conflicte és una fase normal; el material recomana escolta, diàleg i resolució constructiva de les tensions."},{"id":"u2b1-115","block":"unitat-2-bloc-1","topic":"Fases del treball en equip","question":"Després dels desacords inicials, el grup consolida normes, rols i una manera compartida de treballar. Quina fase descriu?","options":["Formació","Conflicte","Normalització","Rendiment"],"correct":2,"explanation":"En la normalització es consoliden rols i normes, augmenten la confiança i la cooperació i es defineix una forma comuna de treballar."},{"id":"u2b1-116","block":"unitat-2-bloc-1","topic":"Fases del treball en equip","question":"L’equip ja és estable, treballa amb autonomia, es coordina bé i se centra en resultats i qualitat. Quina fase representa?","options":["Formació","Conflicte","Normalització inicial","Rendiment"],"correct":3,"explanation":"En la fase de rendiment l’equip està consolidat i pot treballar amb coordinació, autonomia i orientació als resultats."},{"id":"u2b1-117","block":"unitat-2-bloc-1","topic":"Rols dins del grup","question":"Una persona guia l’equip, facilita decisions, reparteix tasques, representa el grup i fa seguiment del treball. Quin rol exerceix principalment?","options":["Rol de lideratge","Rol creatiu","Rol tècnic o analític","Rol avaluador"],"correct":0,"explanation":"El rol de lideratge guia el grup, ajuda a prendre decisions, reparteix tasques, orienta els objectius i pot representar l’equip."},{"id":"u2b1-118","block":"unitat-2-bloc-1","topic":"Rols dins del grup","question":"Davant d’un expedient complex, una persona aporta coneixements, resol dubtes i ajuda a analitzar documents i procediments. Quin rol és?","options":["Rol dinamitzador","Rol tècnic o analític","Rol creatiu","Rol de lideratge"],"correct":1,"explanation":"El rol tècnic o analític aporta coneixements i ajuda a resoldre problemes i analitzar informació o procediments complexos."},{"id":"u2b1-119","block":"unitat-2-bloc-1","topic":"Rols dins del grup","question":"Una persona proposa alternatives noves per millorar una presentació i trobar una solució diferent a un problema administratiu. Quin rol destaca?","options":["Rol avaluador","Rol organitzador","Rol creatiu","Rol tècnic"],"correct":2,"explanation":"El rol creatiu aporta idees noves, proposa alternatives i ajuda a trobar solucions diferents davant de tasques o problemes."},{"id":"u2b1-120","block":"unitat-2-bloc-1","topic":"Rols dins del grup","question":"Després d’acabar una feina, una persona revisa el resultat, detecta errors, qüestiona decisions i comprova si s’han complert els objectius. Quin rol és?","options":["Rol creatiu","Rol de lideratge","Rol dinamitzador","Rol avaluador"],"correct":3,"explanation":"El rol avaluador revisa el treball, detecta errors i comprova l’assoliment dels objectius per millorar la qualitat."},{"id":"u2b1-121","block":"unitat-2-bloc-1","topic":"Classificació de grups","question":"L’empresa crea un equip específic per ordenar una nova tasca administrativa i orientar-lo als objectius de l’organització. Quin tipus general de grup és?","options":["Formal","Informal","D’amics","D’interès necessàriament"],"correct":0,"explanation":"Els grups formals són creats per l’empresa o organització per realitzar tasques concretes i orientar-se als seus objectius."},{"id":"u2b1-122","block":"unitat-2-bloc-1","topic":"Classificació de grups","question":"Persones de diferents àrees comencen a relacionar-se espontàniament perquè tenen afinitat personal, sense que l’empresa hagi creat el grup. Quin tipus general és?","options":["Formal de comandament","Informal","Formal de tasques","Estructura autocràtica"],"correct":1,"explanation":"Els grups informals apareixen de manera natural per relacions personals o socials, no perquè els creï l’organització."},{"id":"u2b1-123","block":"unitat-2-bloc-1","topic":"Classificació de grups","question":"Treballadors de diferents àrees s’uneixen perquè comparteixen la necessitat de proposar una millora en l’organització de l’horari. Quin tipus és?","options":["Grup de comandament","Grup d’amics","Grup d’interès","Grup de tasques imposat per l’organigrama"],"correct":2,"explanation":"Un grup d’interès reuneix persones que comparteixen un objectiu o necessitat i volen defensar o aconseguir una millora comuna."},{"id":"u2b1-124","block":"unitat-2-bloc-1","topic":"Classificació de grups","question":"Un conjunt de companys manté la relació principalment per afinitat personal i acostuma a compartir el temps de descans. Quin tipus de grup descriu millor?","options":["Grup de comandament","Grup formal de tasques","Grup d’interès professional","Grup d’amics"],"correct":3,"explanation":"Els grups d’amics sorgeixen de l’afinitat i les relacions personals entre els membres."},{"id":"u2b1-125","block":"unitat-2-bloc-1","topic":"Treball en equip","question":"Quina conducta reflecteix millor la col·laboració pròpia d’un bon equip segons la unitat?","options":["Ajudar-se i compartir informació entre els membres","Treballar sempre de manera aïllada","Reservar la informació només al líder","Evitar qualsevol relació entre tasques"],"correct":0,"explanation":"La unitat destaca que l’equip funciona quan els membres s’ajuden i comparteixen informació, no només quan reparteixen tasques."},{"id":"u2b1-126","block":"unitat-2-bloc-1","topic":"Treball en equip","question":"Quina afirmació diferencia millor un equip coordinat d’una simple suma de treballs individuals?","options":["Totes les persones han de fer exactament la mateixa funció","Hi ha relació, coordinació i col·laboració entre els membres","El líder ha d’assumir totes les decisions","No cal compartir objectius"],"correct":1,"explanation":"Un bon equip no es basa només en repartir feina: necessita relació, coordinació, ajuda i col·laboració entre els membres."},{"id":"u2b1-127","block":"unitat-2-bloc-1","topic":"Treball en equip","question":"Quina situació exemplifica millor la sinergia?","options":["Cada membre fa la seva part sense comunicar-se","El resultat conjunt és exactament igual al de treballar separadament","La col·laboració genera un resultat millor que la simple suma dels esforços individuals","El grup redueix els objectius perquè hi ha més persones"],"correct":2,"explanation":"La sinergia apareix quan la col·laboració fa que el resultat conjunt superi la simple suma dels esforços individuals."},{"id":"u2b1-128","block":"unitat-2-bloc-1","topic":"Treball en equip","question":"En una decisió col·lectiva, els membres perceben menys responsabilitat individual i accepten una opció més arriscada. Quin inconvenient descriu el material?","options":["Excés de normalització de processos","Manca de formació professional","Augment automàtic de la cohesió","Assumpció de riscos més elevats en la presa de decisions grupal"],"correct":3,"explanation":"El temari adverteix que la responsabilitat percebuda pot diluir-se en grup i afavorir decisions més arriscades."},{"id":"u2b1-129","block":"unitat-2-bloc-1","topic":"Dinàmiques de grup","question":"Una dinàmica inclou un debat i una posada en comú per analitzar com s’ha treballat individualment i en grup. Quina finalitat predomina?","options":["Didàctica","Social","Exclusivament econòmica","De supervisió directa"],"correct":0,"explanation":"La finalitat didàctica permet analitzar el treball individual i grupal mitjançant debats, posades en comú, discussions guiades o valoracions."},{"id":"u2b1-130","block":"unitat-2-bloc-1","topic":"Dinàmiques de grup","question":"Una activitat busca reforçar seguretat personal, autoconeixement, escolta activa i coneixement dels altres membres. Quina finalitat té?","options":["Finalitat exclusivament social","Desenvolupament personal i professional","Finalitat organitzativa","Control de qualitat"],"correct":1,"explanation":"El material associa aquestes capacitats amb la finalitat de desenvolupament personal i professional de les dinàmiques."},{"id":"u2b1-131","block":"unitat-2-bloc-1","topic":"Dinàmiques de grup","question":"Una dinàmica s’utilitza per facilitar decisions, establir normes, repartir tasques i definir pautes d’actuació. Quina finalitat és?","options":["Didàctica","Social","Organitzativa","Recreativa sense objectiu"],"correct":2,"explanation":"La finalitat organitzativa facilita la presa de decisions, l’establiment de normes, la distribució de tasques i les pautes d’actuació."},{"id":"u2b1-132","block":"unitat-2-bloc-1","topic":"Dinàmiques de grup","question":"Quin criteri indica que allò après en una dinàmica pot utilitzar-se després en altres situacions reals?","options":["La mida del grup","La durada de la sessió","La supervisió directa","La transferibilitat"],"correct":3,"explanation":"Una dinàmica és transferible quan els aprenentatges es poden aplicar a altres situacions fora de l’activitat concreta."},{"id":"u2b1-133","block":"unitat-2-bloc-1","topic":"Coordinació de grups","question":"Quina actuació correspon a una bona persona coordinadora segons el resum de la unitat?","options":["Guiar l’activitat i explicar les instruccions amb claredat","Evitar explicar la tasca perquè el grup improvisi","Reservar la participació a una sola persona","Ignorar el clima del grup mentre es completi la feina"],"correct":0,"explanation":"La persona coordinadora ha de guiar l’activitat i explicar les instruccions de manera clara."},{"id":"u2b1-134","block":"unitat-2-bloc-1","topic":"Coordinació de grups","question":"Si durant una activitat només intervenen dues persones i la resta queda al marge, què hauria de fer la persona coordinadora?","options":["Mantenir la situació si la tasca avança","Afavorir la participació del conjunt del grup","Eliminar qualsevol intercanvi entre membres","Passar totes les decisions al membre més antic"],"correct":1,"explanation":"Una funció de la persona coordinadora és afavorir la participació dels membres del grup."},{"id":"u2b1-135","block":"unitat-2-bloc-1","topic":"Coordinació de grups","question":"Quina acció de la persona coordinadora permet comprovar que el treball avança segons el previst?","options":["Canviar les normes constantment","Deixar de comunicar-se amb el grup","Fer el seguiment de les tasques","Centrar-se només en les relacions personals"],"correct":2,"explanation":"El resum de la unitat inclou entre les funcions de coordinació fer el seguiment de les tasques."},{"id":"u2b1-136","block":"unitat-2-bloc-1","topic":"Coordinació de grups","question":"A més d’orientar la tasca, quina responsabilitat relacional destaca el material per a la persona coordinadora?","options":["Evitar que els membres es comuniquin","Atendre només els terminis","Premiar sempre individualment","Cuidar el clima del grup i prevenir conflictes"],"correct":3,"explanation":"La coordinació també ha de cuidar el clima del grup i prevenir conflictes, no només controlar la tasca."},{"id":"u2b1-137","block":"unitat-2-bloc-1","topic":"Suport administratiu","question":"Quina orientació caracteritza especialment un grup de treball de suport administratiu?","options":["Donar servei a les necessitats de l’organització","Treballar exclusivament per objectius comercials","Evitar donar suport a altres departaments","Limitar-se a una única tasca repetitiva"],"correct":0,"explanation":"El material destaca l’orientació al servei i a les necessitats de l’organització com una característica del suport administratiu."},{"id":"u2b1-138","block":"unitat-2-bloc-1","topic":"Suport administratiu","question":"Un auxiliar pot registrar informació, preparar arxius, atendre comunicacions i donar suport a altres àrees. Quina característica explica aquesta varietat?","options":["Centralització absoluta","Versatilitat per assumir diferents tasques administratives","Especialització en una sola operació","Absència de procediments"],"correct":1,"explanation":"Els grups de suport administratiu han de mostrar versatilitat per assumir diferents tasques d’organització, gestió i suport."},{"id":"u2b1-139","block":"unitat-2-bloc-1","topic":"Suport administratiu","question":"Quina combinació és especialment important quan el grup gestiona documentació i informació interna?","options":["Improvisació, rapidesa i autonomia total","Competència interna i rotació constant","Qualitat, ordre i confidencialitat","Publicitat de tota la informació"],"correct":2,"explanation":"La unitat destaca la cura de la qualitat, l’ordre i la confidencialitat en el treball de suport administratiu."},{"id":"u2b1-140","block":"unitat-2-bloc-1","topic":"Suport administratiu","question":"Un grup administratiu compleix terminis però no comparteix informació amb altres departaments i això genera duplicitats. Quina característica necessita reforçar?","options":["La reducció de l’esforç individual","La presa de riscos col·lectiva","La centralització de totes les decisions","La coordinació entre persones i departaments"],"correct":3,"explanation":"El suport administratiu requereix coordinació entre les persones i els departaments, a més de procediments, terminis, ordre i confidencialitat."}]}
+{
+  "blockId": "unitat-2-bloc-1",
+  "blockTitle": "L’organització d’activitats de suport administratiu",
+  "questions": [
+    {
+      "id": "u2b1-081",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Dues persones d’una oficina ajusten entre elles el repartiment d’una feina parlant i ajudant-se, sense esperar instruccions constants. Quin mecanisme predomina?",
+      "options": [
+        "Adaptació mútua",
+        "Supervisió directa",
+        "Normalització de resultats",
+        "Normalització d’habilitats"
+      ],
+      "correct": 0,
+      "explanation": "L’adaptació mútua coordina les persones mitjançant comunicació directa i ajuda recíproca, sense supervisió constant."
+    },
+    {
+      "id": "u2b1-082",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Un responsable assigna les tasques, dona instruccions i comprova com les executa l’equip. Quin mecanisme descriu millor aquesta situació?",
+      "options": [
+        "Adaptació mútua",
+        "Supervisió directa",
+        "Normalització d’habilitats",
+        "Normalització de resultats"
+      ],
+      "correct": 1,
+      "explanation": "En la supervisió directa una persona organitza, dona instruccions i controla el treball de les altres."
+    },
+    {
+      "id": "u2b1-083",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "L’empresa fixa els passos exactes per tramitar una factura, però en una altra tasca només fixa l’objectiu final. Quin mecanisme s’aplica al primer cas?",
+      "options": [
+        "Normalització d’habilitats",
+        "Adaptació mútua",
+        "Normalització dels processos de treball",
+        "Normalització de resultats"
+      ],
+      "correct": 2,
+      "explanation": "Quan s’estableix prèviament com s’ha de fer la feina mitjançant passos, normes o instruccions, es normalitza el procés."
+    },
+    {
+      "id": "u2b1-084",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Una persona pot començar una tasca professional sense que li expliquin cada pas perquè ja disposa de la formació i l’experiència exigides. Què s’ha normalitzat?",
+      "options": [
+        "El resultat final",
+        "La supervisió",
+        "El procés detallat",
+        "Les habilitats"
+      ],
+      "correct": 3,
+      "explanation": "La normalització d’habilitats estandarditza la preparació, els coneixements i les competències prèvies de les persones treballadores."
+    },
+    {
+      "id": "u2b1-085",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Quina característica és essencial perquè una seqüència d’actuacions sigui un procediment de treball segons la unitat?",
+      "options": [
+        "Que els passos siguin clars i coherents i orientats als objectius establerts",
+        "Que cada persona improvisi un ordre diferent",
+        "Que només indiqui el resultat sense cap seqüència",
+        "Que serveixi exclusivament per a tasques excepcionals"
+      ],
+      "correct": 0,
+      "explanation": "Un procediment és una sèrie de passos definits de manera clara i coherent que permeten treballar i coordinar-se per assolir objectius."
+    },
+    {
+      "id": "u2b1-086",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Un tràmit segueix sempre A → B → C → D, sense bifurcacions segons les respostes. Quin tipus de procediment és?",
+      "options": [
+        "Ramificat",
+        "Lineal",
+        "Participatiu",
+        "Informal"
+      ],
+      "correct": 1,
+      "explanation": "Un procediment lineal segueix una única seqüència de passos en un ordre establert."
+    },
+    {
+      "id": "u2b1-087",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "En un procés, si falta documentació es demana una esmena i, si és completa, es continua directament. Quin tipus de procediment representa millor aquesta lògica?",
+      "options": [
+        "Lineal",
+        "Normalitzat per habilitats",
+        "Ramificat",
+        "Supervisió directa"
+      ],
+      "correct": 2,
+      "explanation": "Un procediment ramificat ofereix recorreguts diferents segons les decisions o condicions que apareixen durant el procés."
+    },
+    {
+      "id": "u2b1-088",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Per què pot ser útil formalitzar un procediment en una activitat administrativa repetitiva?",
+      "options": [
+        "Per eliminar qualsevol objectiu previ",
+        "Per evitar que el treball sigui controlable",
+        "Per substituir tota coordinació humana",
+        "Per reduir errors, millorar la qualitat i prevenir riscos quan sigui necessari"
+      ],
+      "correct": 3,
+      "explanation": "Els procediments fan el treball més ordenat, coherent i controlable, i poden reduir errors, millorar la qualitat i prevenir riscos."
+    },
+    {
+      "id": "u2b1-089",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Una oficina vol implantar un control de qualitat. Quin pas ha de fer primer segons la seqüència de la unitat?",
+      "options": [
+        "Triar què vol controlar i aclarir els objectius",
+        "Mesurar immediatament qualsevol dada disponible",
+        "Aplicar millores abans de saber què falla",
+        "Canviar els estàndards sense haver definit el control"
+      ],
+      "correct": 0,
+      "explanation": "El primer pas és decidir què es vol controlar per saber quins objectius es volen aconseguir."
+    },
+    {
+      "id": "u2b1-090",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Després de decidir què es controlarà i quins objectius es busquen, quin pas ve a continuació?",
+      "options": [
+        "Adoptar mesures correctores",
+        "Determinar les formes de mesurament",
+        "Eliminar l’estàndard de referència",
+        "Valorar només opinions informals"
+      ],
+      "correct": 1,
+      "explanation": "El segon pas del control de qualitat és determinar les formes de mesurament adequades per obtenir els resultats desitjats."
+    },
+    {
+      "id": "u2b1-091",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Abans de realitzar el mesurament real, què indica la seqüència del temari que s’ha d’haver establert?",
+      "options": [
+        "Un sistema de recompenses individuals",
+        "Un nou organigrama",
+        "Un sistema de mesurament eficient",
+        "Una estructura autocràtica"
+      ],
+      "correct": 2,
+      "explanation": "La unitat situa l’establiment d’un sistema de mesurament eficient abans de realitzar el control mitjançant el mesurament."
+    },
+    {
+      "id": "u2b1-092",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Una oficina pregunta als usuaris quina imatge tenen del servei i de l’atenció rebuda. Quin tipus d’indicador està utilitzant principalment?",
+      "options": [
+        "Indicador de procés o funcions",
+        "Indicador d’eficiència temporal",
+        "Indicador de servei exclusivament",
+        "Indicador de percepció"
+      ],
+      "correct": 3,
+      "explanation": "Els indicadors de percepció recullen com veuen les persones usuàries o visitants l’oficina o el servei."
+    },
+    {
+      "id": "u2b1-093",
+      "block": "unitat-2-bloc-1",
+      "topic": "Obtenció de resultats",
+      "question": "Quin conjunt de característiques han de tenir els objectius segons les pautes de gestió del temps de la unitat?",
+      "options": [
+        "Específics, compatibles amb altres objectius i assequibles",
+        "Molt nombrosos, genèrics i difícils",
+        "Exclusivament econòmics i immediats",
+        "Imprecisos per permetre qualsevol interpretació"
+      ],
+      "correct": 0,
+      "explanation": "El material recomana objectius específics, concurrents amb altres fins i assequibles per facilitar constància i organització."
+    },
+    {
+      "id": "u2b1-094",
+      "block": "unitat-2-bloc-1",
+      "topic": "Obtenció de resultats",
+      "question": "Quina pràctica reforça el compromís amb els objectius i ajuda a gestionar el temps segons el temari?",
+      "options": [
+        "Mantenir tots els objectius només de memòria",
+        "Registrar-los per escrit i limitar-los a un nombre raonable",
+        "Canviar-los cada dia encara que no sigui necessari",
+        "Evitar prioritzar-los per no condicionar la feina"
+      ],
+      "correct": 1,
+      "explanation": "Registrar els objectius per escrit ajuda al compromís i el material recomana seleccionar-ne un nombre limitat i raonable."
+    },
+    {
+      "id": "u2b1-095",
+      "block": "unitat-2-bloc-1",
+      "topic": "Obtenció de resultats",
+      "question": "Quan el temari parla de tenir en compte l’entorn laboral per obtenir bons resultats, a què es refereix?",
+      "options": [
+        "Només a la decoració de l’oficina",
+        "Només al salari de cada persona",
+        "A les condicions de treball, la relació amb els companys i l’organització de l’empresa",
+        "Exclusivament al nombre de clients"
+      ],
+      "correct": 2,
+      "explanation": "L’entorn laboral inclou les condicions de treball, les relacions amb els companys i la manera com s’organitza l’empresa."
+    },
+    {
+      "id": "u2b1-096",
+      "block": "unitat-2-bloc-1",
+      "topic": "Obtenció de resultats",
+      "question": "Quina combinació recull actituds personals que la unitat relaciona amb una millor productivitat?",
+      "options": [
+        "Improvisació, desordre i retard",
+        "Competència, jerarquia i salari",
+        "Autonomia, risc i centralització",
+        "Responsabilitat, motivació, ordre i puntualitat"
+      ],
+      "correct": 3,
+      "explanation": "La unitat destaca responsabilitat, motivació, ordre i puntualitat com a actituds que ajuden a treballar millor i ser més productius."
+    },
+    {
+      "id": "u2b1-097",
+      "block": "unitat-2-bloc-1",
+      "topic": "Classificació de tasques",
+      "question": "Una tasca és imprescindible per assolir un objectiu i només la persona responsable pot abordar-la. Com la classifica el temari?",
+      "options": [
+        "Important",
+        "Normal",
+        "Poc important",
+        "Rutinària necessàriament"
+      ],
+      "correct": 0,
+      "explanation": "Les tasques importants són imprescindibles per als objectius i només les pot abordar la persona corresponent."
+    },
+    {
+      "id": "u2b1-098",
+      "block": "unitat-2-bloc-1",
+      "topic": "Classificació de tasques",
+      "question": "Una activitat és rellevant, però es pot posposar una mica o delegar en una altra persona. Com es classifica?",
+      "options": [
+        "Poc important",
+        "Normal",
+        "Projecte en curs",
+        "Planificació i desenvolupament"
+      ],
+      "correct": 1,
+      "explanation": "Les tasques normals són importants, però es poden ajornar un curt període o delegar-se."
+    },
+    {
+      "id": "u2b1-099",
+      "block": "unitat-2-bloc-1",
+      "topic": "Durada de tasques",
+      "question": "Una feina té un termini d’execució aproximadament fix i exigeix planificació i organització personal. A quin tipus correspon?",
+      "options": [
+        "Tasca poc important",
+        "Tasca rutinària",
+        "Projecte en curs",
+        "Adaptació mútua"
+      ],
+      "correct": 2,
+      "explanation": "Els projectes en curs tenen un termini més o menys fix i requereixen planificació i organització personal."
+    },
+    {
+      "id": "u2b1-100",
+      "block": "unitat-2-bloc-1",
+      "topic": "Durada de tasques",
+      "question": "Quina categoria inclou tasques destinades a millorar el treball personal de cara al futur?",
+      "options": [
+        "Tasques rutinàries",
+        "Projectes en curs",
+        "Tasques normals",
+        "Planificació i desenvolupament"
+      ],
+      "correct": 3,
+      "explanation": "El material denomina planificació i desenvolupament les tasques que ajudaran a millorar el treball personal."
+    },
+    {
+      "id": "u2b1-101",
+      "block": "unitat-2-bloc-1",
+      "topic": "Elements del grup",
+      "question": "Quin element és bàsic perquè diverses persones funcionin com un grup de treball i no només coincideixin en un mateix espai?",
+      "options": [
+        "Compartir un objectiu comú",
+        "Tenir exactament el mateix estatus",
+        "Fer totes la mateixa tasca",
+        "Dependre sempre del mateix cap"
+      ],
+      "correct": 0,
+      "explanation": "El resum de la unitat defineix el grup de treball com persones que col·laboren per assolir un objectiu comú."
+    },
+    {
+      "id": "u2b1-102",
+      "block": "unitat-2-bloc-1",
+      "topic": "Elements del grup",
+      "question": "Quina combinació afavoreix especialment que un grup funcioni bé segons el resum de la unitat?",
+      "options": [
+        "Objectius individuals secrets i poca comunicació",
+        "Objectius compartits, normes clares i comunicació oberta",
+        "Canvis constants de rols i absència de normes",
+        "Competència interna i informació restringida"
+      ],
+      "correct": 1,
+      "explanation": "El material destaca objectius compartits, normes clares, comunicació oberta, bon repartiment de rols, cohesió i bon clima."
+    },
+    {
+      "id": "u2b1-103",
+      "block": "unitat-2-bloc-1",
+      "topic": "Elements del grup",
+      "question": "Una persona ocupa una posició reconeguda dins del grup i d’aquesta posició s’esperen determinats comportaments. Quins conceptes descriuen, respectivament, aquests dos elements?",
+      "options": [
+        "Norma i cohesió",
+        "Poder i mida",
+        "Estatus i rol",
+        "Rol i estatus"
+      ],
+      "correct": 2,
+      "explanation": "L’estatus és la posició o rang reconegut; el rol és el conjunt de comportaments esperats associats a una posició."
+    },
+    {
+      "id": "u2b1-104",
+      "block": "unitat-2-bloc-1",
+      "topic": "Normes del grup",
+      "question": "Quina afirmació sobre les normes del grup és coherent amb la unitat?",
+      "options": [
+        "Només existeixen si estan escrites en un reglament",
+        "Sempre les fixa exclusivament la direcció",
+        "No influeixen en el comportament dels membres",
+        "Poden ser formals o informals, explícites o implícites"
+      ],
+      "correct": 3,
+      "explanation": "Les normes són estàndards compartits de comportament i poden ser formals o informals, explícites o implícites."
+    },
+    {
+      "id": "u2b1-105",
+      "block": "unitat-2-bloc-1",
+      "topic": "Cohesió",
+      "question": "Si la direcció vol reforçar la cohesió d’un equip, quina política de recompenses és més coherent amb el material?",
+      "options": [
+        "Reconèixer i recompensar el grup sencer",
+        "Premiar sempre només una persona",
+        "Eliminar qualsevol reconeixement dels resultats",
+        "Canviar sovint els membres premiats"
+      ],
+      "correct": 0,
+      "explanation": "El temari proposa donar recompenses al grup en lloc de fer-ho només individualment per afavorir la cohesió."
+    },
+    {
+      "id": "u2b1-106",
+      "block": "unitat-2-bloc-1",
+      "topic": "Cohesió",
+      "question": "Quina mesura física o organitzativa pot facilitar la col·laboració i reforçar la cohesió?",
+      "options": [
+        "Separar els membres en espais sense contacte",
+        "Crear espais de treball compartits o propis per al grup",
+        "Canviar l’equip de lloc cada dia",
+        "Evitar que els membres es relacionin"
+      ],
+      "correct": 1,
+      "explanation": "El material recomana crear espais de treball que afavoreixin la col·laboració del grup."
+    },
+    {
+      "id": "u2b1-107",
+      "block": "unitat-2-bloc-1",
+      "topic": "Cohesió",
+      "question": "Quina pràctica tendeix a debilitar la cohesió perquè dificulta que es consolidin els vincles del grup?",
+      "options": [
+        "Reconèixer l’esforç conjunt",
+        "Fomentar la confiança",
+        "Separar o canviar sovint els membres",
+        "Acordar objectius compartits"
+      ],
+      "correct": 2,
+      "explanation": "Separar o canviar sovint els membres figura entre els factors que redueixen la cohesió."
+    },
+    {
+      "id": "u2b1-108",
+      "block": "unitat-2-bloc-1",
+      "topic": "Cohesió",
+      "question": "Quina situació pot reduir la cohesió encara que els membres continuïn treballant junts?",
+      "options": [
+        "Compartir espais de treball",
+        "Reconèixer resultats col·lectius",
+        "Afavorir la comunicació",
+        "Mantenir desacords sobre els objectius del grup"
+      ],
+      "correct": 3,
+      "explanation": "Crear o mantenir desacords sobre les metes del grup és un factor que el material associa amb una menor cohesió."
+    },
+    {
+      "id": "u2b1-109",
+      "block": "unitat-2-bloc-1",
+      "topic": "Estructures de grup",
+      "question": "El responsable decideix pràcticament tot, fixa instruccions i controla l’activitat, mentre l’equip té poca autonomia. Quina estructura és?",
+      "options": [
+        "Autocràtica",
+        "Paternalista",
+        "Permissiva",
+        "Participativa"
+      ],
+      "correct": 0,
+      "explanation": "L’estructura autocràtica concentra decisions, instruccions i control en el líder i deixa poca autonomia als membres."
+    },
+    {
+      "id": "u2b1-110",
+      "block": "unitat-2-bloc-1",
+      "topic": "Estructures de grup",
+      "question": "Un líder adopta una actitud protectora i decideix què considera millor per al grup, però la participació dels membres és limitada. Quina estructura descriu?",
+      "options": [
+        "Participativa",
+        "Paternalista",
+        "Permissiva",
+        "Autocràtica sense matisos"
+      ],
+      "correct": 1,
+      "explanation": "En l’estructura paternalista el líder actua de manera protectora però concentra responsabilitat i decisió."
+    },
+    {
+      "id": "u2b1-111",
+      "block": "unitat-2-bloc-1",
+      "topic": "Estructures de grup",
+      "question": "L’equip disposa de molta autonomia i el líder gairebé no intervé; si no s’acorden responsabilitats, la coordinació i la planificació poden fallar. Quin model és?",
+      "options": [
+        "Autocràtic",
+        "Paternalista",
+        "Permissiu o laissez-faire",
+        "Participatiu"
+      ],
+      "correct": 2,
+      "explanation": "L’estructura permissiva dona molta autonomia i poca supervisió; pot tenir problemes de coordinació si el grup necessita orientació."
+    },
+    {
+      "id": "u2b1-112",
+      "block": "unitat-2-bloc-1",
+      "topic": "Estructures de grup",
+      "question": "Els membres intervenen en les decisions, cooperen i mantenen una comunicació oberta, mentre el líder facilita i coordina. Quina estructura és?",
+      "options": [
+        "Autocràtica",
+        "Paternalista",
+        "Permissiva",
+        "Participativa"
+      ],
+      "correct": 3,
+      "explanation": "La participativa combina implicació dels membres, cooperació, comunicació oberta i coordinació facilitada pel líder."
+    },
+    {
+      "id": "u2b1-113",
+      "block": "unitat-2-bloc-1",
+      "topic": "Fases del treball en equip",
+      "question": "Un equip acaba de constituir-se: les persones es coneixen, intenten entendre els objectius i la comunicació encara és prudent. En quina fase es troba?",
+      "options": [
+        "Formació",
+        "Conflicte",
+        "Normalització",
+        "Rendiment"
+      ],
+      "correct": 0,
+      "explanation": "La formació és l’etapa inicial, en què el grup es coneix, defineix tasques i objectius i encara pot mostrar inseguretat."
+    },
+    {
+      "id": "u2b1-114",
+      "block": "unitat-2-bloc-1",
+      "topic": "Fases del treball en equip",
+      "question": "Apareixen desacords sobre responsabilitats i lideratge. Segons la unitat, quina resposta és més adequada en aquesta fase?",
+      "options": [
+        "Evitar qualsevol conversa sobre el problema",
+        "Escoltar, dialogar i resoldre el conflicte de manera constructiva",
+        "Dissoldre necessàriament l’equip",
+        "Passar directament a treball autònom sense aclarir rols"
+      ],
+      "correct": 1,
+      "explanation": "El conflicte és una fase normal; el material recomana escolta, diàleg i resolució constructiva de les tensions."
+    },
+    {
+      "id": "u2b1-115",
+      "block": "unitat-2-bloc-1",
+      "topic": "Fases del treball en equip",
+      "question": "Després dels desacords inicials, el grup consolida normes, rols i una manera compartida de treballar. Quina fase descriu?",
+      "options": [
+        "Formació",
+        "Conflicte",
+        "Normalització",
+        "Rendiment"
+      ],
+      "correct": 2,
+      "explanation": "En la normalització es consoliden rols i normes, augmenten la confiança i la cooperació i es defineix una forma comuna de treballar."
+    },
+    {
+      "id": "u2b1-116",
+      "block": "unitat-2-bloc-1",
+      "topic": "Fases del treball en equip",
+      "question": "L’equip ja és estable, treballa amb autonomia, es coordina bé i se centra en resultats i qualitat. Quina fase representa?",
+      "options": [
+        "Formació",
+        "Conflicte",
+        "Normalització inicial",
+        "Rendiment"
+      ],
+      "correct": 3,
+      "explanation": "En la fase de rendiment l’equip està consolidat i pot treballar amb coordinació, autonomia i orientació als resultats."
+    },
+    {
+      "id": "u2b1-117",
+      "block": "unitat-2-bloc-1",
+      "topic": "Rols dins del grup",
+      "question": "Una persona guia l’equip, facilita decisions, reparteix tasques, representa el grup i fa seguiment del treball. Quin rol exerceix principalment?",
+      "options": [
+        "Rol de lideratge",
+        "Rol creatiu",
+        "Rol tècnic o analític",
+        "Rol avaluador"
+      ],
+      "correct": 0,
+      "explanation": "El rol de lideratge guia el grup, ajuda a prendre decisions, reparteix tasques, orienta els objectius i pot representar l’equip."
+    },
+    {
+      "id": "u2b1-118",
+      "block": "unitat-2-bloc-1",
+      "topic": "Rols dins del grup",
+      "question": "Davant d’un expedient complex, una persona aporta coneixements, resol dubtes i ajuda a analitzar documents i procediments. Quin rol és?",
+      "options": [
+        "Rol dinamitzador",
+        "Rol tècnic o analític",
+        "Rol creatiu",
+        "Rol de lideratge"
+      ],
+      "correct": 1,
+      "explanation": "El rol tècnic o analític aporta coneixements i ajuda a resoldre problemes i analitzar informació o procediments complexos."
+    },
+    {
+      "id": "u2b1-119",
+      "block": "unitat-2-bloc-1",
+      "topic": "Rols dins del grup",
+      "question": "Una persona proposa alternatives noves per millorar una presentació i trobar una solució diferent a un problema administratiu. Quin rol destaca?",
+      "options": [
+        "Rol avaluador",
+        "Rol organitzador",
+        "Rol creatiu",
+        "Rol tècnic"
+      ],
+      "correct": 2,
+      "explanation": "El rol creatiu aporta idees noves, proposa alternatives i ajuda a trobar solucions diferents davant de tasques o problemes."
+    },
+    {
+      "id": "u2b1-120",
+      "block": "unitat-2-bloc-1",
+      "topic": "Rols dins del grup",
+      "question": "Després d’acabar una feina, una persona revisa el resultat, detecta errors, qüestiona decisions i comprova si s’han complert els objectius. Quin rol és?",
+      "options": [
+        "Rol creatiu",
+        "Rol de lideratge",
+        "Rol dinamitzador",
+        "Rol avaluador"
+      ],
+      "correct": 3,
+      "explanation": "El rol avaluador revisa el treball, detecta errors i comprova l’assoliment dels objectius per millorar la qualitat."
+    },
+    {
+      "id": "u2b1-121",
+      "block": "unitat-2-bloc-1",
+      "topic": "Classificació de grups",
+      "question": "L’empresa crea un equip específic per ordenar una nova tasca administrativa i orientar-lo als objectius de l’organització. Quin tipus general de grup és?",
+      "options": [
+        "Formal",
+        "Informal",
+        "D’amics",
+        "D’interès necessàriament"
+      ],
+      "correct": 0,
+      "explanation": "Els grups formals són creats per l’empresa o organització per realitzar tasques concretes i orientar-se als seus objectius."
+    },
+    {
+      "id": "u2b1-122",
+      "block": "unitat-2-bloc-1",
+      "topic": "Classificació de grups",
+      "question": "Persones de diferents àrees comencen a relacionar-se espontàniament perquè tenen afinitat personal, sense que l’empresa hagi creat el grup. Quin tipus general és?",
+      "options": [
+        "Formal de comandament",
+        "Informal",
+        "Formal de tasques",
+        "Estructura autocràtica"
+      ],
+      "correct": 1,
+      "explanation": "Els grups informals apareixen de manera natural per relacions personals o socials, no perquè els creï l’organització."
+    },
+    {
+      "id": "u2b1-123",
+      "block": "unitat-2-bloc-1",
+      "topic": "Classificació de grups",
+      "question": "Treballadors de diferents àrees s’uneixen perquè comparteixen la necessitat de proposar una millora en l’organització de l’horari. Quin tipus és?",
+      "options": [
+        "Grup de comandament",
+        "Grup d’amics",
+        "Grup d’interès",
+        "Grup de tasques imposat per l’organigrama"
+      ],
+      "correct": 2,
+      "explanation": "Un grup d’interès reuneix persones que comparteixen un objectiu o necessitat i volen defensar o aconseguir una millora comuna."
+    },
+    {
+      "id": "u2b1-124",
+      "block": "unitat-2-bloc-1",
+      "topic": "Classificació de grups",
+      "question": "Un conjunt de companys manté la relació principalment per afinitat personal i acostuma a compartir el temps de descans. Quin tipus de grup descriu millor?",
+      "options": [
+        "Grup de comandament",
+        "Grup formal de tasques",
+        "Grup d’interès professional",
+        "Grup d’amics"
+      ],
+      "correct": 3,
+      "explanation": "Els grups d’amics sorgeixen de l’afinitat i les relacions personals entre els membres."
+    },
+    {
+      "id": "u2b1-125",
+      "block": "unitat-2-bloc-1",
+      "topic": "Treball en equip",
+      "question": "Quina conducta reflecteix millor la col·laboració pròpia d’un bon equip segons la unitat?",
+      "options": [
+        "Ajudar-se i compartir informació entre els membres",
+        "Treballar sempre de manera aïllada",
+        "Reservar la informació només al líder",
+        "Evitar qualsevol relació entre tasques"
+      ],
+      "correct": 0,
+      "explanation": "La unitat destaca que l’equip funciona quan els membres s’ajuden i comparteixen informació, no només quan reparteixen tasques."
+    },
+    {
+      "id": "u2b1-126",
+      "block": "unitat-2-bloc-1",
+      "topic": "Treball en equip",
+      "question": "Quina afirmació diferencia millor un equip coordinat d’una simple suma de treballs individuals?",
+      "options": [
+        "Totes les persones han de fer exactament la mateixa funció",
+        "Hi ha relació, coordinació i col·laboració entre els membres",
+        "El líder ha d’assumir totes les decisions",
+        "No cal compartir objectius"
+      ],
+      "correct": 1,
+      "explanation": "Un bon equip no es basa només en repartir feina: necessita relació, coordinació, ajuda i col·laboració entre els membres."
+    },
+    {
+      "id": "u2b1-127",
+      "block": "unitat-2-bloc-1",
+      "topic": "Treball en equip",
+      "question": "Quina situació exemplifica millor la sinergia?",
+      "options": [
+        "Cada membre fa la seva part sense comunicar-se",
+        "El resultat conjunt és exactament igual al de treballar separadament",
+        "La col·laboració genera un resultat millor que la simple suma dels esforços individuals",
+        "El grup redueix els objectius perquè hi ha més persones"
+      ],
+      "correct": 2,
+      "explanation": "La sinergia apareix quan la col·laboració fa que el resultat conjunt superi la simple suma dels esforços individuals."
+    },
+    {
+      "id": "u2b1-128",
+      "block": "unitat-2-bloc-1",
+      "topic": "Treball en equip",
+      "question": "En una decisió col·lectiva, els membres perceben menys responsabilitat individual i accepten una opció més arriscada. Quin inconvenient descriu el material?",
+      "options": [
+        "Excés de normalització de processos",
+        "Manca de formació professional",
+        "Augment automàtic de la cohesió",
+        "Assumpció de riscos més elevats en la presa de decisions grupal"
+      ],
+      "correct": 3,
+      "explanation": "El temari adverteix que la responsabilitat percebuda pot diluir-se en grup i afavorir decisions més arriscades."
+    },
+    {
+      "id": "u2b1-129",
+      "block": "unitat-2-bloc-1",
+      "topic": "Dinàmiques de grup",
+      "question": "Una dinàmica inclou un debat i una posada en comú per analitzar com s’ha treballat individualment i en grup. Quina finalitat predomina?",
+      "options": [
+        "Didàctica",
+        "Social",
+        "Exclusivament econòmica",
+        "De supervisió directa"
+      ],
+      "correct": 0,
+      "explanation": "La finalitat didàctica permet analitzar el treball individual i grupal mitjançant debats, posades en comú, discussions guiades o valoracions."
+    },
+    {
+      "id": "u2b1-130",
+      "block": "unitat-2-bloc-1",
+      "topic": "Dinàmiques de grup",
+      "question": "Una activitat busca reforçar seguretat personal, autoconeixement, escolta activa i coneixement dels altres membres. Quina finalitat té?",
+      "options": [
+        "Finalitat exclusivament social",
+        "Desenvolupament personal i professional",
+        "Finalitat organitzativa",
+        "Control de qualitat"
+      ],
+      "correct": 1,
+      "explanation": "El material associa aquestes capacitats amb la finalitat de desenvolupament personal i professional de les dinàmiques."
+    },
+    {
+      "id": "u2b1-131",
+      "block": "unitat-2-bloc-1",
+      "topic": "Dinàmiques de grup",
+      "question": "Una dinàmica s’utilitza per facilitar decisions, establir normes, repartir tasques i definir pautes d’actuació. Quina finalitat és?",
+      "options": [
+        "Didàctica",
+        "Social",
+        "Organitzativa",
+        "Recreativa sense objectiu"
+      ],
+      "correct": 2,
+      "explanation": "La finalitat organitzativa facilita la presa de decisions, l’establiment de normes, la distribució de tasques i les pautes d’actuació."
+    },
+    {
+      "id": "u2b1-132",
+      "block": "unitat-2-bloc-1",
+      "topic": "Dinàmiques de grup",
+      "question": "Quin criteri indica que allò après en una dinàmica pot utilitzar-se després en altres situacions reals?",
+      "options": [
+        "La mida del grup",
+        "La durada de la sessió",
+        "La supervisió directa",
+        "La transferibilitat"
+      ],
+      "correct": 3,
+      "explanation": "Una dinàmica és transferible quan els aprenentatges es poden aplicar a altres situacions fora de l’activitat concreta."
+    },
+    {
+      "id": "u2b1-133",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació de grups",
+      "question": "Quina actuació correspon a una bona persona coordinadora segons el resum de la unitat?",
+      "options": [
+        "Guiar l’activitat i explicar les instruccions amb claredat",
+        "Evitar explicar la tasca perquè el grup improvisi",
+        "Reservar la participació a una sola persona",
+        "Ignorar el clima del grup mentre es completi la feina"
+      ],
+      "correct": 0,
+      "explanation": "La persona coordinadora ha de guiar l’activitat i explicar les instruccions de manera clara."
+    },
+    {
+      "id": "u2b1-134",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació de grups",
+      "question": "Si durant una activitat només intervenen dues persones i la resta queda al marge, què hauria de fer la persona coordinadora?",
+      "options": [
+        "Mantenir la situació si la tasca avança",
+        "Afavorir la participació del conjunt del grup",
+        "Eliminar qualsevol intercanvi entre membres",
+        "Passar totes les decisions al membre més antic"
+      ],
+      "correct": 1,
+      "explanation": "Una funció de la persona coordinadora és afavorir la participació dels membres del grup."
+    },
+    {
+      "id": "u2b1-135",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació de grups",
+      "question": "Quina acció de la persona coordinadora permet comprovar que el treball avança segons el previst?",
+      "options": [
+        "Canviar les normes constantment",
+        "Deixar de comunicar-se amb el grup",
+        "Fer el seguiment de les tasques",
+        "Centrar-se només en les relacions personals"
+      ],
+      "correct": 2,
+      "explanation": "El resum de la unitat inclou entre les funcions de coordinació fer el seguiment de les tasques."
+    },
+    {
+      "id": "u2b1-136",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació de grups",
+      "question": "A més d’orientar la tasca, quina responsabilitat relacional destaca el material per a la persona coordinadora?",
+      "options": [
+        "Evitar que els membres es comuniquin",
+        "Atendre només els terminis",
+        "Premiar sempre individualment",
+        "Cuidar el clima del grup i prevenir conflictes"
+      ],
+      "correct": 3,
+      "explanation": "La coordinació també ha de cuidar el clima del grup i prevenir conflictes, no només controlar la tasca."
+    },
+    {
+      "id": "u2b1-137",
+      "block": "unitat-2-bloc-1",
+      "topic": "Suport administratiu",
+      "question": "Quina orientació caracteritza especialment un grup de treball de suport administratiu?",
+      "options": [
+        "Donar servei a les necessitats de l’organització",
+        "Treballar exclusivament per objectius comercials",
+        "Evitar donar suport a altres departaments",
+        "Limitar-se a una única tasca repetitiva"
+      ],
+      "correct": 0,
+      "explanation": "El material destaca l’orientació al servei i a les necessitats de l’organització com una característica del suport administratiu."
+    },
+    {
+      "id": "u2b1-138",
+      "block": "unitat-2-bloc-1",
+      "topic": "Suport administratiu",
+      "question": "Un auxiliar pot registrar informació, preparar arxius, atendre comunicacions i donar suport a altres àrees. Quina característica explica aquesta varietat?",
+      "options": [
+        "Centralització absoluta",
+        "Versatilitat per assumir diferents tasques administratives",
+        "Especialització en una sola operació",
+        "Absència de procediments"
+      ],
+      "correct": 1,
+      "explanation": "Els grups de suport administratiu han de mostrar versatilitat per assumir diferents tasques d’organització, gestió i suport."
+    },
+    {
+      "id": "u2b1-139",
+      "block": "unitat-2-bloc-1",
+      "topic": "Suport administratiu",
+      "question": "Quina combinació és especialment important quan el grup gestiona documentació i informació interna?",
+      "options": [
+        "Improvisació, rapidesa i autonomia total",
+        "Competència interna i rotació constant",
+        "Qualitat, ordre i confidencialitat",
+        "Publicitat de tota la informació"
+      ],
+      "correct": 2,
+      "explanation": "La unitat destaca la cura de la qualitat, l’ordre i la confidencialitat en el treball de suport administratiu."
+    },
+    {
+      "id": "u2b1-140",
+      "block": "unitat-2-bloc-1",
+      "topic": "Suport administratiu",
+      "question": "Un grup administratiu compleix terminis però no comparteix informació amb altres departaments i això genera duplicitats. Quina característica necessita reforçar?",
+      "options": [
+        "La reducció de l’esforç individual",
+        "La presa de riscos col·lectiva",
+        "La centralització de totes les decisions",
+        "La coordinació entre persones i departaments"
+      ],
+      "correct": 3,
+      "explanation": "El suport administratiu requereix coordinació entre les persones i els departaments, a més de procediments, terminis, ordre i confidencialitat."
+    },
+    {
+      "id": "u2b1-141",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Dues auxiliars detecten una acumulació inesperada de feina i, parlant directament, redistribueixen entre elles les tasques sense esperar una instrucció del responsable. Quin mecanisme de coordinació predomina?",
+      "options": [
+        "Adaptació mútua",
+        "Supervisió directa",
+        "Normalització de resultats",
+        "Normalització d’habilitats"
+      ],
+      "correct": 0,
+      "explanation": "L’adaptació mútua coordina el treball mitjançant comunicació directa i ajustos recíprocs entre les persones."
+    },
+    {
+      "id": "u2b1-142",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Un responsable indica qui tramita cada expedient, explica les prioritats i comprova personalment que el treball s’executi. Quin mecanisme està utilitzant?",
+      "options": [
+        "Adaptació mútua",
+        "Supervisió directa",
+        "Normalització d’habilitats",
+        "Normalització de resultats"
+      ],
+      "correct": 1,
+      "explanation": "La supervisió directa apareix quan una persona assigna tasques, dona instruccions i controla l’execució del treball."
+    },
+    {
+      "id": "u2b1-143",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Un registre segueix els passos recepció → comprovació → anotació → arxiu i no preveu cap decisió intermèdia que canviï el recorregut. Quin tipus de procediment és?",
+      "options": [
+        "Ramificat",
+        "Participatiu",
+        "Lineal",
+        "Informal"
+      ],
+      "correct": 2,
+      "explanation": "Un procediment lineal segueix una única seqüència ordenada de passos sense bifurcacions."
+    },
+    {
+      "id": "u2b1-144",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "En revisar una sol·licitud, si falta documentació es demana esmena i, si és completa, es continua amb la tramitació. Quin tipus de procediment representa?",
+      "options": [
+        "Lineal",
+        "Normalització d’habilitats",
+        "Supervisió directa",
+        "Ramificat"
+      ],
+      "correct": 3,
+      "explanation": "Un procediment ramificat ofereix recorreguts diferents segons una condició o decisió apareguda durant el procés."
+    },
+    {
+      "id": "u2b1-145",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Una oficina vol iniciar un control de qualitat sobre l’atenció administrativa. Quin és el primer pas lògic indicat a la unitat?",
+      "options": [
+        "Decidir què es vol controlar i quins objectius es volen assolir",
+        "Aplicar mesures correctores abans de mesurar",
+        "Recollir qualsevol dada disponible sense criteri previ",
+        "Modificar els procediments abans de definir el problema"
+      ],
+      "correct": 0,
+      "explanation": "La seqüència de control de qualitat comença decidint què es vol controlar i aclarint els objectius que es volen aconseguir."
+    },
+    {
+      "id": "u2b1-146",
+      "block": "unitat-2-bloc-1",
+      "topic": "Indicadors de qualitat",
+      "question": "Una enquesta pregunta a les persones usuàries si perceben l’oficina com a ordenada, clara i accessible. Quin tipus d’indicador està recollint?",
+      "options": [
+        "Indicador de procés",
+        "Indicador de servei quantitatiu",
+        "Indicador de percepció",
+        "Indicador de supervisió"
+      ],
+      "correct": 2,
+      "explanation": "Els indicadors de percepció mostren com les persones usuàries o visitants perceben l’oficina o el servei."
+    },
+    {
+      "id": "u2b1-147",
+      "block": "unitat-2-bloc-1",
+      "topic": "Classificació de tasques",
+      "question": "Una tasca és important, però pot esperar una mica o ser delegada sense comprometre l’objectiu general. Com la classifica el temari?",
+      "options": [
+        "Important",
+        "Normal",
+        "Poc important",
+        "Projecte en curs"
+      ],
+      "correct": 1,
+      "explanation": "Les tasques normals són importants, però es poden ajornar durant un període curt o delegar en una altra persona."
+    },
+    {
+      "id": "u2b1-148",
+      "block": "unitat-2-bloc-1",
+      "topic": "Elements del grup",
+      "question": "En un equip, una persona té una posició reconeguda com a coordinadora i s’espera que organitzi reunions, orienti el treball i faci seguiment. Quins conceptes corresponen a la posició i als comportaments esperats?",
+      "options": [
+        "Rol i norma",
+        "Cohesió i rol",
+        "Norma i estatus",
+        "Estatus i rol"
+      ],
+      "correct": 3,
+      "explanation": "L’estatus és la posició o rang reconegut dins del grup, mentre que el rol és el conjunt de comportaments esperats associats a aquella posició."
+    },
+    {
+      "id": "u2b1-149",
+      "block": "unitat-2-bloc-1",
+      "topic": "Cohesió",
+      "question": "Un equip comparteix objectius, es dona suport, manté confiança i els membres volen continuar treballant junts. Quin element del grup descriu millor aquesta força d’unió?",
+      "options": [
+        "Cohesió",
+        "Estatus",
+        "Supervisió directa",
+        "Normalització de resultats"
+      ],
+      "correct": 0,
+      "explanation": "La cohesió expressa el grau d’unió i vinculació entre els membres d’un grup i afavoreix la cooperació i el bon clima."
+    },
+    {
+      "id": "u2b1-150",
+      "block": "unitat-2-bloc-1",
+      "topic": "Conflictes en el grup",
+      "question": "Dues persones discrepen sobre el repartiment de responsabilitats i la tensió comença a afectar l’equip. Quina resposta és més coherent amb la unitat?",
+      "options": [
+        "Evitar el tema fins que desaparegui la tensió",
+        "Escoltar les parts, dialogar i buscar una solució constructiva compartida",
+        "Assignar la decisió a la persona amb més antiguitat sense debat",
+        "Separar les persones i eliminar la coordinació entre les seves tasques"
+      ],
+      "correct": 1,
+      "explanation": "La unitat tracta el conflicte com una fase o situació que s’ha d’afrontar amb escolta, diàleg i resolució constructiva."
+    }
+  ]
+}

@@ -2,13 +2,257 @@
   "blockId": "bloc-1",
   "blockTitle": "Entitats públiques i privades",
   "questions": [
-    {"id":"b1-043","block":"bloc-1","topic":"Entitats públiques i privades","question":"Un organisme creat per una administració presta un servei d’interès general i es finança sobretot amb impostos i taxes. Quina classificació encaixa amb el material?","options":["Entitat pública","Entitat privada lucrativa","Entitat privada no lucrativa","Empresa privada finançada només amb vendes"],"correct":0,"explanation":"Les entitats públiques són creades o gestionades per una administració, es financen principalment amb recursos públics i presten serveis d’interès general."},
-    {"id":"b1-044","block":"bloc-1","topic":"Entitats públiques i privades","question":"Una fundació creada per particulars es finança amb aportacions privades i no reparteix beneficis. Quin fet és compatible amb el temari?","options":["Per no tenir lucre, ha de ser pública","Pot ser una entitat privada sense finalitat lucrativa","Només pot existir si la gestiona una administració","Ha de finançar-se principalment amb impostos"],"correct":1,"explanation":"El material indica que les entitats privades poden tenir finalitat lucrativa o no lucrativa i es financen principalment amb recursos privats."},
-    {"id":"b1-045","block":"bloc-1","topic":"Atenció al client","question":"Els clients envien suggeriments sobre un servei i l’empresa els utilitza per introduir millores. Quina funció empresarial hi té un paper directe?","options":["Funció financera","Funció de direcció","Atenció al client","Recursos Humans"],"correct":2,"explanation":"L’atenció al client recull informació, opinions i suggeriments que poden servir per millorar els productes i serveis."},
-    {"id":"b1-046","block":"bloc-1","topic":"Direcció i funció financera","question":"La direcció vol fer una inversió i necessita saber si hi ha recursos econòmics suficients. Quina combinació de funcions descriu millor la situació?","options":["Recursos Humans contracta i vendes fixa els objectius","Administració decideix la inversió i atenció al client la finança","Comercialització aprova la inversió i direcció arxiva els documents","Direcció pren la decisió i la funció financera gestiona els recursos econòmics"],"correct":3,"explanation":"La direcció coordina i pren decisions, mentre que la funció financera gestiona els recursos econòmics i el finançament."},
-    {"id":"b1-047","block":"bloc-1","topic":"Funció administrativa","question":"En una oficina cal ordenar factures, actualitzar informació i mantenir la documentació localitzable. Quina funció concentra aquestes tasques?","options":["Funció administrativa","Comercialització","Vendes","Funció financera"],"correct":0,"explanation":"La funció administrativa agrupa activitats relacionades amb l’organització de documents, informació i tasques administratives."},
-    {"id":"b1-048","block":"bloc-1","topic":"Recursos Humans i comercialització","question":"L’empresa prepara una formació per al personal i, per separat, una campanya per donar a conèixer un servei. Quines funcions intervenen respectivament?","options":["Vendes i administració","Recursos Humans i comercialització","Financera i atenció al client","Direcció i Recursos Humans"],"correct":1,"explanation":"Recursos Humans gestiona la formació dels treballadors, mentre que la comercialització dona a conèixer i promociona productes o serveis."},
-    {"id":"b1-049","block":"bloc-1","topic":"Control i responsabilitat","question":"Una responsable comprova si la feina s’ha fet segons el que estava previst i detecta desviacions. Quin principi funcional està aplicant?","options":["Comercialització","Atenció al client","Control","Finançament privat"],"correct":2,"explanation":"El control permet comprovar si les activitats es desenvolupen d’acord amb els objectius i criteris establerts i detectar desviacions."},
-    {"id":"b1-050","block":"bloc-1","topic":"Comercialització i vendes","question":"Una empresa primer fa una campanya per donar a conèixer un producte i després gestiona la seva venda als clients. Quina relació descriu millor les dues funcions?","options":["Administració promociona i Recursos Humans ven","Finances promociona i direcció atén reclamacions","Vendes dona a conèixer i administració fixa preus","Comercialització promociona i vendes gestiona l’operació de venda"],"correct":3,"explanation":"La comercialització s’orienta a donar a conèixer i promocionar l’oferta, mentre que vendes s’ocupa de l’activitat de venda."}
+    {
+      "id": "b1-043",
+      "block": "bloc-1",
+      "topic": "Entitats públiques i privades",
+      "question": "Un organisme creat per una administració presta un servei d’interès general i es finança sobretot amb impostos i taxes. Quina classificació encaixa amb el material?",
+      "options": [
+        "Entitat pública",
+        "Entitat privada lucrativa",
+        "Entitat privada no lucrativa",
+        "Empresa privada finançada només amb vendes"
+      ],
+      "correct": 0,
+      "explanation": "Les entitats públiques són creades o gestionades per una administració, es financen principalment amb recursos públics i presten serveis d’interès general."
+    },
+    {
+      "id": "b1-044",
+      "block": "bloc-1",
+      "topic": "Entitats públiques i privades",
+      "question": "Una fundació creada per particulars es finança amb aportacions privades i no reparteix beneficis. Quin fet és compatible amb el temari?",
+      "options": [
+        "Per no tenir lucre, ha de ser pública",
+        "Pot ser una entitat privada sense finalitat lucrativa",
+        "Només pot existir si la gestiona una administració",
+        "Ha de finançar-se principalment amb impostos"
+      ],
+      "correct": 1,
+      "explanation": "El material indica que les entitats privades poden tenir finalitat lucrativa o no lucrativa i es financen principalment amb recursos privats."
+    },
+    {
+      "id": "b1-045",
+      "block": "bloc-1",
+      "topic": "Atenció al client",
+      "question": "Els clients envien suggeriments sobre un servei i l’empresa els utilitza per introduir millores. Quina funció empresarial hi té un paper directe?",
+      "options": [
+        "Funció financera",
+        "Funció de direcció",
+        "Atenció al client",
+        "Recursos Humans"
+      ],
+      "correct": 2,
+      "explanation": "L’atenció al client recull informació, opinions i suggeriments que poden servir per millorar els productes i serveis."
+    },
+    {
+      "id": "b1-046",
+      "block": "bloc-1",
+      "topic": "Direcció i funció financera",
+      "question": "La direcció vol fer una inversió i necessita saber si hi ha recursos econòmics suficients. Quina combinació de funcions descriu millor la situació?",
+      "options": [
+        "Recursos Humans contracta i vendes fixa els objectius",
+        "Administració decideix la inversió i atenció al client la finança",
+        "Comercialització aprova la inversió i direcció arxiva els documents",
+        "Direcció pren la decisió i la funció financera gestiona els recursos econòmics"
+      ],
+      "correct": 3,
+      "explanation": "La direcció coordina i pren decisions, mentre que la funció financera gestiona els recursos econòmics i el finançament."
+    },
+    {
+      "id": "b1-047",
+      "block": "bloc-1",
+      "topic": "Funció administrativa",
+      "question": "En una oficina cal ordenar factures, actualitzar informació i mantenir la documentació localitzable. Quina funció concentra aquestes tasques?",
+      "options": [
+        "Funció administrativa",
+        "Comercialització",
+        "Vendes",
+        "Funció financera"
+      ],
+      "correct": 0,
+      "explanation": "La funció administrativa agrupa activitats relacionades amb l’organització de documents, informació i tasques administratives."
+    },
+    {
+      "id": "b1-048",
+      "block": "bloc-1",
+      "topic": "Recursos Humans i comercialització",
+      "question": "L’empresa prepara una formació per al personal i, per separat, una campanya per donar a conèixer un servei. Quines funcions intervenen respectivament?",
+      "options": [
+        "Vendes i administració",
+        "Recursos Humans i comercialització",
+        "Financera i atenció al client",
+        "Direcció i Recursos Humans"
+      ],
+      "correct": 1,
+      "explanation": "Recursos Humans gestiona la formació dels treballadors, mentre que la comercialització dona a conèixer i promociona productes o serveis."
+    },
+    {
+      "id": "b1-049",
+      "block": "bloc-1",
+      "topic": "Control i responsabilitat",
+      "question": "Una responsable comprova si la feina s’ha fet segons el que estava previst i detecta desviacions. Quin principi funcional està aplicant?",
+      "options": [
+        "Comercialització",
+        "Atenció al client",
+        "Control",
+        "Finançament privat"
+      ],
+      "correct": 2,
+      "explanation": "El control permet comprovar si les activitats es desenvolupen d’acord amb els objectius i criteris establerts i detectar desviacions."
+    },
+    {
+      "id": "b1-050",
+      "block": "bloc-1",
+      "topic": "Comercialització i vendes",
+      "question": "Una empresa primer fa una campanya per donar a conèixer un producte i després gestiona la seva venda als clients. Quina relació descriu millor les dues funcions?",
+      "options": [
+        "Administració promociona i Recursos Humans ven",
+        "Finances promociona i direcció atén reclamacions",
+        "Vendes dona a conèixer i administració fixa preus",
+        "Comercialització promociona i vendes gestiona l’operació de venda"
+      ],
+      "correct": 3,
+      "explanation": "La comercialització s’orienta a donar a conèixer i promocionar l’oferta, mentre que vendes s’ocupa de l’activitat de venda."
+    },
+    {
+      "id": "b1-051",
+      "block": "bloc-1",
+      "topic": "Entitats públiques i privades",
+      "question": "Un servei és creat i gestionat per un ajuntament, presta una activitat d’interès general i es finança principalment amb taxes i pressupost públic. Com s’ha de classificar?",
+      "options": [
+        "Entitat pública",
+        "Entitat privada lucrativa",
+        "Entitat privada no lucrativa",
+        "Cooperativa privada"
+      ],
+      "correct": 0,
+      "explanation": "Una entitat creada o gestionada per una administració, finançada principalment amb recursos públics i orientada a l’interès general és una entitat pública."
+    },
+    {
+      "id": "b1-052",
+      "block": "bloc-1",
+      "topic": "Funció de direcció",
+      "question": "Dos departaments reben instruccions incompatibles sobre una mateixa prioritat. Quina funció empresarial ha d’intervenir principalment per coordinar-los i prendre una decisió?",
+      "options": [
+        "Funció financera",
+        "Funció de direcció",
+        "Atenció al client",
+        "Funció de vendes"
+      ],
+      "correct": 1,
+      "explanation": "La direcció coordina els diferents departaments i pren decisions importants per al funcionament de l’empresa."
+    },
+    {
+      "id": "b1-053",
+      "block": "bloc-1",
+      "topic": "Funció financera",
+      "question": "Abans d’autoritzar una despesa elevada, l’empresa necessita saber quins diners té disponibles i com es pot finançar. Quina funció aporta aquesta informació?",
+      "options": [
+        "Comercialització",
+        "Recursos Humans",
+        "Funció financera",
+        "Atenció al client"
+      ],
+      "correct": 2,
+      "explanation": "La funció financera gestiona els diners, el finançament i el control dels recursos econòmics de l’empresa."
+    },
+    {
+      "id": "b1-054",
+      "block": "bloc-1",
+      "topic": "Recursos Humans",
+      "question": "L’empresa implanta un programa nou i prepara una formació perquè la plantilla aprengui a utilitzar-lo. Quina funció empresarial assumeix principalment aquesta tasca?",
+      "options": [
+        "Vendes",
+        "Administració",
+        "Comercialització",
+        "Recursos Humans"
+      ],
+      "correct": 3,
+      "explanation": "Recursos Humans gestiona, entre altres aspectes, la formació i l’organització de les persones treballadores."
+    },
+    {
+      "id": "b1-055",
+      "block": "bloc-1",
+      "topic": "Comercialització i vendes",
+      "question": "Una empresa encara no ha rebut cap comanda, però inicia una campanya per donar a conèixer un servei nou. Quina funció actua en aquesta fase?",
+      "options": [
+        "Comercialització",
+        "Vendes",
+        "Funció financera",
+        "Administració"
+      ],
+      "correct": 0,
+      "explanation": "La comercialització s’encarrega de donar a conèixer i promocionar productes o serveis; vendes gestiona posteriorment les operacions de venda i les comandes."
+    },
+    {
+      "id": "b1-056",
+      "block": "bloc-1",
+      "topic": "Atenció al client",
+      "question": "Diversos clients comuniquen la mateixa incidència i l’empresa utilitza aquests avisos per modificar el servei. Quina funció ha aportat la informació clau per a la millora?",
+      "options": [
+        "Funció financera",
+        "Atenció al client",
+        "Recursos Humans",
+        "Vendes"
+      ],
+      "correct": 1,
+      "explanation": "Atenció al client recull informació, opinions i suggeriments que poden ajudar a millorar productes i serveis."
+    },
+    {
+      "id": "b1-057",
+      "block": "bloc-1",
+      "topic": "Funció administrativa",
+      "question": "Una auxiliar ordena contractes, actualitza dades i comprova que la documentació es pugui localitzar quan calgui. Quina funció està desenvolupant principalment?",
+      "options": [
+        "Direcció",
+        "Funció financera",
+        "Funció administrativa",
+        "Comercialització"
+      ],
+      "correct": 2,
+      "explanation": "La funció administrativa inclou organitzar documents, gestionar informació, coordinar tasques i facilitar el funcionament de l’empresa."
+    },
+    {
+      "id": "b1-058",
+      "block": "bloc-1",
+      "topic": "Principi de responsabilitat",
+      "question": "Una tasca important queda sense fer perquè dues persones pensaven que corresponia a l’altra. Quin principi de les funcions empresarials s’ha aplicat malament?",
+      "options": [
+        "Control de l’organització",
+        "Comercialització",
+        "Finançament",
+        "Responsabilitat"
+      ],
+      "correct": 3,
+      "explanation": "El principi de responsabilitat exigeix que cada persona assumeixi les seves funcions i responsabilitats i treballi coordinadament amb l’equip."
+    },
+    {
+      "id": "b1-059",
+      "block": "bloc-1",
+      "topic": "Canals d’atenció al client",
+      "question": "Un client necessita resoldre una incidència urgent i obtenir una resposta directa en aquell moment. Quin canal del temari encaixa millor?",
+      "options": [
+        "Atenció telefònica",
+        "Correu postal",
+        "Pàgina web informativa",
+        "Arxiu administratiu"
+      ],
+      "correct": 0,
+      "explanation": "L’atenció telefònica permet resoldre dubtes i incidències de manera directa i ràpida."
+    },
+    {
+      "id": "b1-060",
+      "block": "bloc-1",
+      "topic": "Principi de control de l’organització",
+      "question": "Una responsable revisa si les activitats dels equips segueixen l’organització prevista i corregeix desajustos entre tasques. Quin principi està aplicant?",
+      "options": [
+        "Principi de responsabilitat",
+        "Principi de control de l’organització",
+        "Funció de comercialització",
+        "Funció de vendes"
+      ],
+      "correct": 1,
+      "explanation": "El principi de control de l’organització permet supervisar, coordinar i organitzar les activitats perquè l’empresa funcioni correctament."
+    }
   ]
 }

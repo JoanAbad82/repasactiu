@@ -720,6 +720,126 @@
         "Informar y registrar en un espacio centrado sobre todo en el archivo administrativo",
         "Orientar y gestionar incidencias en un espacio reservado solo al personal interno"
       ]
+    },
+    "b4-061": {
+      "ca": [
+        "Especialització individual, perquè cada àrea concentra persones amb tasques similars",
+        "Jerarquia funcional, perquè cada departament ocupa un nivell diferent d’autoritat",
+        "Coordinació informal, perquè les àrees comparteixen informació per completar els processos"
+      ],
+      "es": [
+        "Especialización individual, porque cada área concentra personas con tareas similares",
+        "Jerarquía funcional, porque cada departamento ocupa un nivel distinto de autoridad",
+        "Coordinación informal, porque las áreas comparten información para completar los procesos"
+      ]
+    },
+    "b4-062": {
+      "ca": [
+        "Compres amb Producció, perquè qualsevol compra forma part del procés productiu",
+        "Compres amb Vendes, perquè les comandes a proveïdors i clients comparteixen documentació",
+        "Compres amb Qualitat, perquè el pressupost és un criteri de control de qualitat"
+      ],
+      "es": [
+        "Compras con Producción, porque cualquier compra forma parte del proceso productivo",
+        "Compras con Ventas, porque los pedidos a proveedores y clientes comparten documentación",
+        "Compras con Calidad, porque el presupuesto es un criterio de control de calidad"
+      ]
+    },
+    "b4-063": {
+      "ca": [
+        "Financer i Comptabilitat, perquè contractes i absències tenen efecte econòmic",
+        "Prevenció i Qualitat, perquè formació i absències són indicadors de seguretat",
+        "Direcció i Vendes, perquè l’organització del personal depèn de l’activitat comercial"
+      ],
+      "es": [
+        "Financiero y Contabilidad, porque contratos y ausencias tienen efecto económico",
+        "Prevención y Calidad, porque formación y ausencias son indicadores de seguridad",
+        "Dirección y Ventas, porque la organización del personal depende de la actividad comercial"
+      ]
+    },
+    "b4-064": {
+      "ca": [
+        "Sí, si la persona responsable depèn directament de Direcció",
+        "No, perquè comprovar productes, serveis i processos requereix tres unitats diferents",
+        "Sí, però en empreses de serveis la funció ha d’integrar-se en Operacions"
+      ],
+      "es": [
+        "Sí, si la persona responsable depende directamente de Dirección",
+        "No, porque comprobar productos, servicios y procesos requiere tres unidades diferentes",
+        "Sí, pero en empresas de servicios la función debe integrarse en Operaciones"
+      ]
+    },
+    "b4-065": {
+      "ca": [
+        "La modalitat preventiva depèn principalment del nombre de departaments de l’empresa",
+        "La prevenció pot integrar-se en Administració quan la documentació de riscos està actualitzada",
+        "La presència de riscos determina una estructura preventiva interna independent de la mida i activitat"
+      ],
+      "es": [
+        "La modalidad preventiva depende principalmente del número de departamentos de la empresa",
+        "La prevención puede integrarse en Administración cuando la documentación de riesgos está actualizada",
+        "La presencia de riesgos determina una estructura preventiva interna independiente del tamaño y actividad"
+      ]
+    },
+    "b4-066": {
+      "ca": [
+        "Administració registra la notificació i Direcció assumeix la interpretació jurídica",
+        "Comptabilitat interpreta la norma i Legal es limita a arxivar la documentació",
+        "Financer calcula l’impacte i Recursos Humans resol la qüestió normativa"
+      ],
+      "es": [
+        "Administración registra la notificación y Dirección asume la interpretación jurídica",
+        "Contabilidad interpreta la norma y Legal se limita a archivar la documentación",
+        "Financiero calcula el impacto y Recursos Humanos resuelve la cuestión normativa"
+      ]
+    },
+    "b4-067": {
+      "ca": [
+        "Vendes, perquè la relació amb el client continua mentre l’operació estigui oberta",
+        "Qualitat, perquè tota incidència és un defecte de qualitat",
+        "Administració, perquè la reclamació genera documentació que s’ha de tramitar"
+      ],
+      "es": [
+        "Ventas, porque la relación con el cliente continúa mientras la operación esté abierta",
+        "Calidad, porque toda incidencia es un defecto de calidad",
+        "Administración, porque la reclamación genera documentación que debe tramitarse"
+      ]
+    },
+    "b4-068": {
+      "ca": [
+        "Centralitzar totes les funcions per mantenir una única línia de comandament",
+        "Crear departaments segons el salari dels responsables de cada àrea",
+        "Augmentar el nombre de nivells jeràrquics encara que les funcions no canviïn"
+      ],
+      "es": [
+        "Centralizar todas las funciones para mantener una única línea de mando",
+        "Crear departamentos según el salario de los responsables de cada área",
+        "Aumentar el número de niveles jerárquicos aunque las funciones no cambien"
+      ]
+    },
+    "b4-069": {
+      "ca": [
+        "Centralitzar el procés en Administració perquè és qui gestiona la documentació",
+        "Assignar un responsable únic de Vendes perquè la comanda prové del client",
+        "Separar les fases perquè cada departament controli el seu resultat sense dependències"
+      ],
+      "es": [
+        "Centralizar el proceso en Administración porque es quien gestiona la documentación",
+        "Asignar un responsable único de Ventas porque el pedido procede del cliente",
+        "Separar las fases para que cada departamento controle su resultado sin dependencias"
+      ]
+    },
+    "b4-070": {
+      "ca": [
+        "L’estructura física, perquè menys pressupost implica menys espai disponible",
+        "El volum de producció, perquè els recursos econòmics depenen directament de l’activitat",
+        "La mida de l’empresa, perquè el pressupost és una conseqüència del nombre de persones"
+      ],
+      "es": [
+        "La estructura física, porque menos presupuesto implica menos espacio disponible",
+        "El volumen de producción, porque los recursos económicos dependen directamente de la actividad",
+        "El tamaño de la empresa, porque el presupuesto es una consecuencia del número de personas"
+      ]
     }
   }
 }

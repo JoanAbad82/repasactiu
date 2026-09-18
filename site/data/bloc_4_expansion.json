@@ -2,25 +2,425 @@
   "blockId": "bloc-4",
   "blockTitle": "Els departaments",
   "questions": [
-    {"id":"b4-041","block":"bloc-4","topic":"Coordinació entre departaments","question":"Una notificació tributària arriba a l’empresa i, a més de tramitar-la, cal interpretar-ne una qüestió jurídica. Quin repartiment és més coherent amb el temari?","options":["Financer, comptable o administració la gestionen, amb assessorament legal si cal","Atenció al Client la resol i Producció la registra","Vendes la tramita i Qualitat n’assumeix la responsabilitat","Recursos Humans la gestiona sempre sense suport"],"correct":0,"explanation":"La informació tributària i fiscal correspon principalment a financer, comptable i administració; Legal hi assessora quan és necessari."},
-    {"id":"b4-042","block":"bloc-4","topic":"Informació mercantil","question":"S’ha de preparar una escriptura societària i fer un tràmit davant del Registre Mercantil. Quins àmbits hi intervenen principalment?","options":["Compres i Vendes","Administració i, quan cal, Legal","Producció i Qualitat","Recursos Humans i Atenció al Client"],"correct":1,"explanation":"El material atribueix la informació mercantil a Administració i, quan és necessari, al departament Legal."},
-    {"id":"b4-043","block":"bloc-4","topic":"Informació de vendes i compres","question":"Compres registra entrades de producte i Vendes registra sortides. Quin altre ús d’aquesta informació destaca el material?","options":["Calcular exclusivament nòmines","Substituir la informació fiscal","Ajudar a controlar l’equilibri de l’estoc","Determinar la forma jurídica de l’empresa"],"correct":2,"explanation":"La informació de vendes i compres permet seguir el flux d’entrada i sortida i contribueix al control de l’estoc."},
-    {"id":"b4-044","block":"bloc-4","topic":"Informació de personal","question":"L’empresa prepara nòmines, controla absències i manté documentació preventiva. Quina afirmació descriu millor la gestió d’aquesta informació?","options":["Només la gestiona el departament Legal","Només la gestiona Financer","Correspon exclusivament a Direcció","RRHH i Administració són principals, amb Financer i Prevenció en funcions específiques"],"correct":3,"explanation":"RRHH i Administració gestionen principalment la informació de personal; Financer gestiona pagaments i pressupost, i Prevenció la documentació preventiva."},
-    {"id":"b4-045","block":"bloc-4","topic":"Tipologia departamental","question":"Una petita empresa concentra administració i finances en una mateixa unitat. És compatible amb el temari?","options":["Sí; cada organització és diferent i un departament pot assumir més d’una funció","No; cada funció ha de tenir sempre un departament independent","Només si és una empresa industrial","Només si no té personal contractat"],"correct":0,"explanation":"El material indica que cada organització pot tenir departaments diferents i que un mateix departament pot assumir més d’una funció."},
-    {"id":"b4-046","block":"bloc-4","topic":"Departaments de l’empresa","question":"Un equip estudia reclamacions i opinions per mantenir una relació positiva amb els clients. Quin departament encaixa millor?","options":["Producció","Atenció al Client","Compres","Administració"],"correct":1,"explanation":"Atenció al Client busca obtenir la informació necessària per crear i mantenir relacions positives amb els clients."},
-    {"id":"b4-047","block":"bloc-4","topic":"Departaments de l’empresa","question":"Una empresa de consultoria no fabrica béns, però necessita planificar i controlar com presta el servei. A quina funció equival aquesta activitat?","options":["A Legal, perquè presta assessorament","A Recursos Humans, perquè hi intervenen persones","A Producció, que en serveis pot adoptar la forma d’operacions o prestació de serveis","A Vendes, perquè tot servei acaba en una venda"],"correct":2,"explanation":"En empreses de serveis, la funció de producció pot correspondre a operacions o a la prestació de serveis."},
-    {"id":"b4-048","block":"bloc-4","topic":"Qualitat","question":"En una empresa no existeix un departament anomenat «Qualitat», però una persona revisa i millora criteris de processos i serveis. Quina conclusió és correcta?","options":["La funció de qualitat no existeix si no hi ha departament","La tasca correspon necessàriament a Compres","La persona només pot revisar productes físics","La funció de qualitat pot recaure en una persona responsable o una altra unitat"],"correct":3,"explanation":"La funció de qualitat pot correspondre a un departament, a una persona responsable o a una altra unitat de l’empresa."},
-    {"id":"b4-049","block":"bloc-4","topic":"Criteris d’assignació","question":"Una empresa obre diverses delegacions i vol evitar que totes repeteixin exactament les mateixes tasques administratives. Quin criteri ha de considerar especialment?","options":["L’àrea geogràfica i la decisió sobre quines funcions centralitzar o distribuir","Només el color de la imatge corporativa","Exclusivament l’antiguitat del personal","Només la superfície de recepció"],"correct":0,"explanation":"L’àrea geogràfica d’actuació obliga a decidir quines funcions es centralitzen i quines es desenvolupen a cada centre."},
-    {"id":"b4-050","block":"bloc-4","topic":"Criteris d’assignació","question":"Dues empreses tenen la mateixa mida, però una ofereix serveis molt especialitzats i l’altra productes senzills. Quin criteri pot justificar estructures diferents?","options":["El nombre de logotips","La tipologia de productes o serveis","El dia de pagament de nòmines","La ubicació del Registre Mercantil"],"correct":1,"explanation":"La tipologia dels productes o serveis és un criteri que influeix en les unitats i departaments que necessita cada empresa."},
-    {"id":"b4-051","block":"bloc-4","topic":"Criteris d’assignació","question":"Una part de la clientela requereix seguiment i tractament específics. Quina decisió organitzativa pot justificar aquesta situació?","options":["Eliminar Atenció al Client","Centralitzar obligatòriament tota l’empresa","Crear equips o unitats especialitzades per a aquests clients","Suprimir qualsevol especialització"],"correct":2,"explanation":"La tipologia de clients pot justificar equips o unitats especialitzades per oferir el seguiment i l’atenció necessaris."},
-    {"id":"b4-052","block":"bloc-4","topic":"Criteris d’assignació","question":"Una activitat presenta riscos específics, però l’empresa no crea automàticament un departament propi de prevenció. Quina idea del temari ho explica?","options":["La prevenció és opcional si hi ha riscos","La prevenció correspon sempre a Vendes","Només existeix prevenció en empreses públiques","Cal organitzar la prevenció de manera adequada, però no sempre mitjançant un departament propi"],"correct":3,"explanation":"L’obligació d’organitzar la prevenció no implica necessàriament crear un departament independent en tots els casos."},
-    {"id":"b4-053","block":"bloc-4","topic":"Criteris d’assignació","question":"Quan augmenten molt el volum i la complexitat de l’activitat, quin efecte organitzatiu pot aparèixer segons el material?","options":["Pot ser necessària més especialització i una estructura departamental més àmplia","Cal reduir sempre el nombre de departaments","S’ha d’eliminar la coordinació","Totes les funcions passen a Direcció"],"correct":0,"explanation":"Un volum i una complexitat més grans poden exigir més especialització i més departaments."},
-    {"id":"b4-054","block":"bloc-4","topic":"Criteris d’assignació","question":"Una empresa té pressupost limitat per organitzar les seves àrees. Quin efecte pot tenir aquest factor?","options":["Cap; el pressupost no influeix en l’estructura","Pot limitar els recursos i l’amplitud de l’estructura departamental","Obliga sempre a eliminar Administració","Només afecta les promocions comercials"],"correct":1,"explanation":"El pressupost determina els recursos disponibles i pot limitar o ampliar l’estructura de l’organització."},
-    {"id":"b4-055","block":"bloc-4","topic":"Espai d’acollida","question":"Una persona arriba per primera vegada a una oficina i no sap on dirigir-se. Quin element de l’espai d’acollida l’hauria d’ajudar especialment?","options":["La documentació interna visible","El pressupost del departament","La senyalització i la informació clara","Els arxius de personal"],"correct":2,"explanation":"Un bon espai d’acollida ha de facilitar orientació mitjançant senyalització i informació adequades."},
-    {"id":"b4-056","block":"bloc-4","topic":"Espai d’acollida","question":"A recepció hi ha molt soroll, poca ventilació i una temperatura incòmoda. Quin efecte assenyala el temari sobre aquestes condicions?","options":["No afecten l’atenció si hi ha ordinador","Només afecten el personal i mai els visitants","Milloren la rapidesa de la comunicació","Dificulten una atenció adequada; un entorn agradable facilita la comunicació i la imatge de l’empresa"],"correct":3,"explanation":"Il·luminació, temperatura, ventilació, soroll, neteja i ordre formen part de les condicions ambientals d’una bona acollida."},
-    {"id":"b4-057","block":"bloc-4","topic":"Espai d’acollida","question":"A recepció queda una llista amb dades personals a la vista de qualsevol visitant. Quin criteri s’està incomplint?","options":["La protecció de documentació i dades davant de persones no autoritzades","La relació comercial amb proveïdors","La planificació de producció","La gestió de promocions"],"correct":0,"explanation":"La documentació i les dades personals de l’espai d’acollida s’han de protegir de l’accés de persones no autoritzades."},
-    {"id":"b4-058","block":"bloc-4","topic":"Espai d’acollida","question":"Quin recurs és coherent amb el control de les persones que arriben a l’espai d’acollida?","options":["Un llibre de comptes anual","Una agenda o registre de visites","Una màquina de producció","Un llibre mercantil com a únic recurs"],"correct":1,"explanation":"Entre els materials auxiliars de l’espai d’acollida, el temari inclou una agenda o registre de visites."},
-    {"id":"b4-059","block":"bloc-4","topic":"Espai d’acollida","question":"En redissenyar recepció, es vol facilitar l’accés, mantenir l’ordre i treballar amb comoditat i seguretat. Quin criteri resumeix millor la decisió?","options":["Prioritzar només la decoració","Reduir l’espai d’espera a qualsevol preu","Escollir mobiliari i distribució adequats a ergonomia, accessibilitat i eficàcia","Substituir la senyalització per documentació interna"],"correct":2,"explanation":"El mobiliari i la distribució han de facilitar comoditat, seguretat, eficàcia, accessibilitat i ordre."},
-    {"id":"b4-060","block":"bloc-4","topic":"Espai d’acollida","question":"Quina combinació descriu millor la finalitat de l’espai d’acollida i la manera de prestar el servei?","options":["Arxivar, facturar i produir","Comprar, vendre i auditar","Només fer esperar fins que arribi un responsable","Rebre, informar i orientar en un entorn accessible, ordenat i segur"],"correct":3,"explanation":"L’espai d’acollida està destinat a rebre, informar i orientar, i ha de reunir condicions d’accessibilitat, ordre, comoditat i seguretat."}
+    {
+      "id": "b4-041",
+      "block": "bloc-4",
+      "topic": "Coordinació entre departaments",
+      "question": "Una notificació tributària arriba a l’empresa i, a més de tramitar-la, cal interpretar-ne una qüestió jurídica. Quin repartiment és més coherent amb el temari?",
+      "options": [
+        "Financer, comptable o administració la gestionen, amb assessorament legal si cal",
+        "Atenció al Client la resol i Producció la registra",
+        "Vendes la tramita i Qualitat n’assumeix la responsabilitat",
+        "Recursos Humans la gestiona sempre sense suport"
+      ],
+      "correct": 0,
+      "explanation": "La informació tributària i fiscal correspon principalment a financer, comptable i administració; Legal hi assessora quan és necessari."
+    },
+    {
+      "id": "b4-042",
+      "block": "bloc-4",
+      "topic": "Informació mercantil",
+      "question": "S’ha de preparar una escriptura societària i fer un tràmit davant del Registre Mercantil. Quins àmbits hi intervenen principalment?",
+      "options": [
+        "Compres i Vendes",
+        "Administració i, quan cal, Legal",
+        "Producció i Qualitat",
+        "Recursos Humans i Atenció al Client"
+      ],
+      "correct": 1,
+      "explanation": "El material atribueix la informació mercantil a Administració i, quan és necessari, al departament Legal."
+    },
+    {
+      "id": "b4-043",
+      "block": "bloc-4",
+      "topic": "Informació de vendes i compres",
+      "question": "Compres registra entrades de producte i Vendes registra sortides. Quin altre ús d’aquesta informació destaca el material?",
+      "options": [
+        "Calcular exclusivament nòmines",
+        "Substituir la informació fiscal",
+        "Ajudar a controlar l’equilibri de l’estoc",
+        "Determinar la forma jurídica de l’empresa"
+      ],
+      "correct": 2,
+      "explanation": "La informació de vendes i compres permet seguir el flux d’entrada i sortida i contribueix al control de l’estoc."
+    },
+    {
+      "id": "b4-044",
+      "block": "bloc-4",
+      "topic": "Informació de personal",
+      "question": "L’empresa prepara nòmines, controla absències i manté documentació preventiva. Quina afirmació descriu millor la gestió d’aquesta informació?",
+      "options": [
+        "Només la gestiona el departament Legal",
+        "Només la gestiona Financer",
+        "Correspon exclusivament a Direcció",
+        "RRHH i Administració són principals, amb Financer i Prevenció en funcions específiques"
+      ],
+      "correct": 3,
+      "explanation": "RRHH i Administració gestionen principalment la informació de personal; Financer gestiona pagaments i pressupost, i Prevenció la documentació preventiva."
+    },
+    {
+      "id": "b4-045",
+      "block": "bloc-4",
+      "topic": "Tipologia departamental",
+      "question": "Una petita empresa concentra administració i finances en una mateixa unitat. És compatible amb el temari?",
+      "options": [
+        "Sí; cada organització és diferent i un departament pot assumir més d’una funció",
+        "No; cada funció ha de tenir sempre un departament independent",
+        "Només si és una empresa industrial",
+        "Només si no té personal contractat"
+      ],
+      "correct": 0,
+      "explanation": "El material indica que cada organització pot tenir departaments diferents i que un mateix departament pot assumir més d’una funció."
+    },
+    {
+      "id": "b4-046",
+      "block": "bloc-4",
+      "topic": "Departaments de l’empresa",
+      "question": "Un equip estudia reclamacions i opinions per mantenir una relació positiva amb els clients. Quin departament encaixa millor?",
+      "options": [
+        "Producció",
+        "Atenció al Client",
+        "Compres",
+        "Administració"
+      ],
+      "correct": 1,
+      "explanation": "Atenció al Client busca obtenir la informació necessària per crear i mantenir relacions positives amb els clients."
+    },
+    {
+      "id": "b4-047",
+      "block": "bloc-4",
+      "topic": "Departaments de l’empresa",
+      "question": "Una empresa de consultoria no fabrica béns, però necessita planificar i controlar com presta el servei. A quina funció equival aquesta activitat?",
+      "options": [
+        "A Legal, perquè presta assessorament",
+        "A Recursos Humans, perquè hi intervenen persones",
+        "A Producció, que en serveis pot adoptar la forma d’operacions o prestació de serveis",
+        "A Vendes, perquè tot servei acaba en una venda"
+      ],
+      "correct": 2,
+      "explanation": "En empreses de serveis, la funció de producció pot correspondre a operacions o a la prestació de serveis."
+    },
+    {
+      "id": "b4-048",
+      "block": "bloc-4",
+      "topic": "Qualitat",
+      "question": "En una empresa no existeix un departament anomenat «Qualitat», però una persona revisa i millora criteris de processos i serveis. Quina conclusió és correcta?",
+      "options": [
+        "La funció de qualitat no existeix si no hi ha departament",
+        "La tasca correspon necessàriament a Compres",
+        "La persona només pot revisar productes físics",
+        "La funció de qualitat pot recaure en una persona responsable o una altra unitat"
+      ],
+      "correct": 3,
+      "explanation": "La funció de qualitat pot correspondre a un departament, a una persona responsable o a una altra unitat de l’empresa."
+    },
+    {
+      "id": "b4-049",
+      "block": "bloc-4",
+      "topic": "Criteris d’assignació",
+      "question": "Una empresa obre diverses delegacions i vol evitar que totes repeteixin exactament les mateixes tasques administratives. Quin criteri ha de considerar especialment?",
+      "options": [
+        "L’àrea geogràfica i la decisió sobre quines funcions centralitzar o distribuir",
+        "Només el color de la imatge corporativa",
+        "Exclusivament l’antiguitat del personal",
+        "Només la superfície de recepció"
+      ],
+      "correct": 0,
+      "explanation": "L’àrea geogràfica d’actuació obliga a decidir quines funcions es centralitzen i quines es desenvolupen a cada centre."
+    },
+    {
+      "id": "b4-050",
+      "block": "bloc-4",
+      "topic": "Criteris d’assignació",
+      "question": "Dues empreses tenen la mateixa mida, però una ofereix serveis molt especialitzats i l’altra productes senzills. Quin criteri pot justificar estructures diferents?",
+      "options": [
+        "El nombre de logotips",
+        "La tipologia de productes o serveis",
+        "El dia de pagament de nòmines",
+        "La ubicació del Registre Mercantil"
+      ],
+      "correct": 1,
+      "explanation": "La tipologia dels productes o serveis és un criteri que influeix en les unitats i departaments que necessita cada empresa."
+    },
+    {
+      "id": "b4-051",
+      "block": "bloc-4",
+      "topic": "Criteris d’assignació",
+      "question": "Una part de la clientela requereix seguiment i tractament específics. Quina decisió organitzativa pot justificar aquesta situació?",
+      "options": [
+        "Eliminar Atenció al Client",
+        "Centralitzar obligatòriament tota l’empresa",
+        "Crear equips o unitats especialitzades per a aquests clients",
+        "Suprimir qualsevol especialització"
+      ],
+      "correct": 2,
+      "explanation": "La tipologia de clients pot justificar equips o unitats especialitzades per oferir el seguiment i l’atenció necessaris."
+    },
+    {
+      "id": "b4-052",
+      "block": "bloc-4",
+      "topic": "Criteris d’assignació",
+      "question": "Una activitat presenta riscos específics, però l’empresa no crea automàticament un departament propi de prevenció. Quina idea del temari ho explica?",
+      "options": [
+        "La prevenció és opcional si hi ha riscos",
+        "La prevenció correspon sempre a Vendes",
+        "Només existeix prevenció en empreses públiques",
+        "Cal organitzar la prevenció de manera adequada, però no sempre mitjançant un departament propi"
+      ],
+      "correct": 3,
+      "explanation": "L’obligació d’organitzar la prevenció no implica necessàriament crear un departament independent en tots els casos."
+    },
+    {
+      "id": "b4-053",
+      "block": "bloc-4",
+      "topic": "Criteris d’assignació",
+      "question": "Quan augmenten molt el volum i la complexitat de l’activitat, quin efecte organitzatiu pot aparèixer segons el material?",
+      "options": [
+        "Pot ser necessària més especialització i una estructura departamental més àmplia",
+        "Cal reduir sempre el nombre de departaments",
+        "S’ha d’eliminar la coordinació",
+        "Totes les funcions passen a Direcció"
+      ],
+      "correct": 0,
+      "explanation": "Un volum i una complexitat més grans poden exigir més especialització i més departaments."
+    },
+    {
+      "id": "b4-054",
+      "block": "bloc-4",
+      "topic": "Criteris d’assignació",
+      "question": "Una empresa té pressupost limitat per organitzar les seves àrees. Quin efecte pot tenir aquest factor?",
+      "options": [
+        "Cap; el pressupost no influeix en l’estructura",
+        "Pot limitar els recursos i l’amplitud de l’estructura departamental",
+        "Obliga sempre a eliminar Administració",
+        "Només afecta les promocions comercials"
+      ],
+      "correct": 1,
+      "explanation": "El pressupost determina els recursos disponibles i pot limitar o ampliar l’estructura de l’organització."
+    },
+    {
+      "id": "b4-055",
+      "block": "bloc-4",
+      "topic": "Espai d’acollida",
+      "question": "Una persona arriba per primera vegada a una oficina i no sap on dirigir-se. Quin element de l’espai d’acollida l’hauria d’ajudar especialment?",
+      "options": [
+        "La documentació interna visible",
+        "El pressupost del departament",
+        "La senyalització i la informació clara",
+        "Els arxius de personal"
+      ],
+      "correct": 2,
+      "explanation": "Un bon espai d’acollida ha de facilitar orientació mitjançant senyalització i informació adequades."
+    },
+    {
+      "id": "b4-056",
+      "block": "bloc-4",
+      "topic": "Espai d’acollida",
+      "question": "A recepció hi ha molt soroll, poca ventilació i una temperatura incòmoda. Quin efecte assenyala el temari sobre aquestes condicions?",
+      "options": [
+        "No afecten l’atenció si hi ha ordinador",
+        "Només afecten el personal i mai els visitants",
+        "Milloren la rapidesa de la comunicació",
+        "Dificulten una atenció adequada; un entorn agradable facilita la comunicació i la imatge de l’empresa"
+      ],
+      "correct": 3,
+      "explanation": "Il·luminació, temperatura, ventilació, soroll, neteja i ordre formen part de les condicions ambientals d’una bona acollida."
+    },
+    {
+      "id": "b4-057",
+      "block": "bloc-4",
+      "topic": "Espai d’acollida",
+      "question": "A recepció queda una llista amb dades personals a la vista de qualsevol visitant. Quin criteri s’està incomplint?",
+      "options": [
+        "La protecció de documentació i dades davant de persones no autoritzades",
+        "La relació comercial amb proveïdors",
+        "La planificació de producció",
+        "La gestió de promocions"
+      ],
+      "correct": 0,
+      "explanation": "La documentació i les dades personals de l’espai d’acollida s’han de protegir de l’accés de persones no autoritzades."
+    },
+    {
+      "id": "b4-058",
+      "block": "bloc-4",
+      "topic": "Espai d’acollida",
+      "question": "Quin recurs és coherent amb el control de les persones que arriben a l’espai d’acollida?",
+      "options": [
+        "Un llibre de comptes anual",
+        "Una agenda o registre de visites",
+        "Una màquina de producció",
+        "Un llibre mercantil com a únic recurs"
+      ],
+      "correct": 1,
+      "explanation": "Entre els materials auxiliars de l’espai d’acollida, el temari inclou una agenda o registre de visites."
+    },
+    {
+      "id": "b4-059",
+      "block": "bloc-4",
+      "topic": "Espai d’acollida",
+      "question": "En redissenyar recepció, es vol facilitar l’accés, mantenir l’ordre i treballar amb comoditat i seguretat. Quin criteri resumeix millor la decisió?",
+      "options": [
+        "Prioritzar només la decoració",
+        "Reduir l’espai d’espera a qualsevol preu",
+        "Escollir mobiliari i distribució adequats a ergonomia, accessibilitat i eficàcia",
+        "Substituir la senyalització per documentació interna"
+      ],
+      "correct": 2,
+      "explanation": "El mobiliari i la distribució han de facilitar comoditat, seguretat, eficàcia, accessibilitat i ordre."
+    },
+    {
+      "id": "b4-060",
+      "block": "bloc-4",
+      "topic": "Espai d’acollida",
+      "question": "Quina combinació descriu millor la finalitat de l’espai d’acollida i la manera de prestar el servei?",
+      "options": [
+        "Arxivar, facturar i produir",
+        "Comprar, vendre i auditar",
+        "Només fer esperar fins que arribi un responsable",
+        "Rebre, informar i orientar en un entorn accessible, ordenat i segur"
+      ],
+      "correct": 3,
+      "explanation": "L’espai d’acollida està destinat a rebre, informar i orientar, i ha de reunir condicions d’accessibilitat, ordre, comoditat i seguretat."
+    },
+    {
+      "id": "b4-061",
+      "block": "bloc-4",
+      "topic": "Departaments",
+      "question": "Una empresa agrupa les activitats de compres, vendes, administració i Recursos Humans en àrees diferenciades segons la funció que desenvolupen. Quina idea organitzativa reflecteix?",
+      "options": [
+        "Divisió del treball en departaments funcionals",
+        "Classificació de l’empresa pel tipus de capital",
+        "Jerarquia basada en la remuneració",
+        "Organització informal entre treballadors"
+      ],
+      "correct": 0,
+      "explanation": "Els departaments són àrees funcionals en què es divideix el treball de l’empresa per agrupar activitats relacionades."
+    },
+    {
+      "id": "b4-062",
+      "block": "bloc-4",
+      "topic": "Compres i finances",
+      "question": "Compres vol fer una comanda important i abans necessita confirmar que hi ha pressupost disponible. Quina coordinació és la més coherent?",
+      "options": [
+        "Compres amb Atenció al Client",
+        "Compres amb Finances o Administració",
+        "Producció amb Recursos Humans",
+        "Qualitat amb Vendes"
+      ],
+      "correct": 1,
+      "explanation": "La informació de compres i la disponibilitat econòmica poden requerir coordinació entre Compres i els departaments financer o d’administració."
+    },
+    {
+      "id": "b4-063",
+      "block": "bloc-4",
+      "topic": "Recursos Humans",
+      "question": "Cal gestionar contractes laborals, formació i absències del personal. Quines àrees assumeixen principalment aquesta informació segons el temari?",
+      "options": [
+        "Producció i Qualitat",
+        "Vendes i Compres",
+        "Recursos Humans i Administració",
+        "Direcció i Atenció al Client"
+      ],
+      "correct": 2,
+      "explanation": "La informació relacionada amb el personal correspon principalment als departaments de Recursos Humans i Administració."
+    },
+    {
+      "id": "b4-064",
+      "block": "bloc-4",
+      "topic": "Qualitat",
+      "question": "Una empresa petita assigna la funció de qualitat a una persona responsable en lloc de crear un departament independent. És compatible amb el material?",
+      "options": [
+        "No, qualitat exigeix una unitat separada",
+        "No, qualitat correspon a Producció",
+        "Sí, però la persona no pot revisar processos",
+        "Sí, la funció pot recaure en un departament, una persona responsable o una altra unitat"
+      ],
+      "correct": 3,
+      "explanation": "El temari indica que la funció de qualitat pot correspondre a un departament, a una persona responsable o a una altra unitat de l’empresa."
+    },
+    {
+      "id": "b4-065",
+      "block": "bloc-4",
+      "topic": "Prevenció de riscos laborals",
+      "question": "Una activitat comporta riscos específics. Quina afirmació recull millor el criteri del temari sobre l’organització de la prevenció?",
+      "options": [
+        "L’empresa ha d’organitzar una modalitat preventiva adequada, sense que això impliqui en tots els casos crear un departament propi",
+        "La prevenció passa automàticament a Recursos Humans",
+        "Qualsevol risc obliga a crear un servei propi",
+        "La prevenció és opcional si l’empresa és petita"
+      ],
+      "correct": 0,
+      "explanation": "Quan hi ha riscos, l’empresa ha d’organitzar la prevenció mitjançant una modalitat adequada; això no implica en tots els casos crear un departament propi."
+    },
+    {
+      "id": "b4-066",
+      "block": "bloc-4",
+      "topic": "Informació tributària i fiscal",
+      "question": "Arriba una notificació tributària que, a més de tramitar-se, planteja un dubte jurídic. Quin repartiment de funcions és més coherent?",
+      "options": [
+        "Vendes la tramita i Qualitat l’interpreta",
+        "Financer, Comptabilitat o Administració la gestionen i Legal assessora si cal",
+        "Recursos Humans la registra i Producció respon",
+        "Atenció al Client la gestiona perquè prové d’un organisme extern"
+      ],
+      "correct": 1,
+      "explanation": "La informació tributària i fiscal és gestionada principalment per Financer, Comptabilitat i Administració; Legal hi assessora quan és necessari."
+    },
+    {
+      "id": "b4-067",
+      "block": "bloc-4",
+      "topic": "Atenció al Client",
+      "question": "Després d’una venda, un client comunica una incidència amb el servei i demana una solució. Quin departament té una funció directa en aquesta relació posterior?",
+      "options": [
+        "Compres",
+        "Producció",
+        "Atenció al Client",
+        "Comptabilitat"
+      ],
+      "correct": 2,
+      "explanation": "Atenció al Client manté la relació amb clients i usuaris, resol dubtes i incidències i recull informació útil per millorar el servei."
+    },
+    {
+      "id": "b4-068",
+      "block": "bloc-4",
+      "topic": "Criteris d’estructura departamental",
+      "question": "Una empresa creix molt i passa d’una activitat senzilla a un volum alt i complex. Quin efecte organitzatiu pot tenir segons el temari?",
+      "options": [
+        "Reduir el nombre d’àrees per simplificar la jerarquia",
+        "Eliminar funcions de suport",
+        "Augmentar l’especialització i la necessitat de més departaments",
+        "Substituir els departaments per relacions informals"
+      ],
+      "correct": 2,
+      "explanation": "Com més volum i complexitat tingui l’activitat, més especialització i més departaments poden ser necessaris."
+    },
+    {
+      "id": "b4-069",
+      "block": "bloc-4",
+      "topic": "Coordinació departamental",
+      "question": "Una comanda de client exigeix comprovar estoc, comprar material i preparar la facturació. Quina idea organitzativa és essencial perquè el procés no es trenqui entre àrees?",
+      "options": [
+        "Separar completament la informació de cada departament",
+        "Coordinar els departaments implicats i compartir la informació necessària",
+        "Traslladar tot el procés al departament de Vendes",
+        "Fer que Qualitat assumeixi la gestió econòmica"
+      ],
+      "correct": 1,
+      "explanation": "Els processos que travessen diverses àrees necessiten coordinació i circulació adequada de la informació entre els departaments implicats."
+    },
+    {
+      "id": "b4-070",
+      "block": "bloc-4",
+      "topic": "Criteris d’estructura departamental",
+      "question": "Una empresa disposa de recursos econòmics limitats per ampliar la seva estructura. Quin criteri està condicionant directament el nombre i l’amplitud dels departaments?",
+      "options": [
+        "L’antiguitat del personal",
+        "El pressupost",
+        "La formalitat de les comunicacions",
+        "El tipus d’organigrama"
+      ],
+      "correct": 1,
+      "explanation": "El pressupost determina els recursos disponibles i pot condicionar l’amplitud de l’estructura departamental."
+    }
   ]
 }

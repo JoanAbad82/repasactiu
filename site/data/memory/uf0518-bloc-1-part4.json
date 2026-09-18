@@ -1,1 +1,150 @@
-{"blockId":"uf0518-bloc-1","questions":{"uf0518-b1-058":{"type":"example","ca":"Un ofici pot comunicar formalment una decisió o notificació administrativa.","es":"Un oficio puede comunicar formalmente una decisión o notificación administrativa."},"uf0518-b1-059":{"type":"example","ca":"RRHH pot enviar un memoràndum a Comptabilitat sobre un canvi de procediment.","es":"RR. HH. puede enviar un memorándum a Contabilidad sobre un cambio de procedimiento."},"uf0518-b1-060":{"type":"example","ca":"Un nou horari comunicat a tota la plantilla és un cas típic de circular.","es":"Un nuevo horario comunicado a toda la plantilla es un caso típico de circular."},"uf0518-b1-061":{"type":"example","ca":"Memoràndum: destinatari concret. Circular: mateix missatge per a molts.","es":"Memorándum: destinatario concreto. Circular: mismo mensaje para muchos."},"uf0518-b1-062":{"type":"example","ca":"Si el mateix avís va a tota la plantilla, pensa en circular.","es":"Si el mismo aviso va a toda la plantilla, piensa en circular."},"uf0518-b1-063":{"type":"example","ca":"Demanar formalment un tràmit a una administració es fa mitjançant una sol·licitud.","es":"Pedir formalmente un trámite a una administración se hace mediante una solicitud."},"uf0518-b1-064":{"type":"example","ca":"“Sol·licitud” és el terme preferit; “instància” encara s’usa molt.","es":"“Solicitud” es el término preferido; “instancia” aún se usa mucho."},"uf0518-b1-065":{"type":"example","ca":"Una petició formal ha de dir qui demana, què demana, per què, on i quan, i anar signada.","es":"Una petición formal debe decir quién pide, qué pide, por qué, dónde y cuándo, y llevar firma."},"uf0518-b1-066":{"type":"example","ca":"EXPOSO = què ha passat; SOL·LICITO = què demano.","es":"EXPONGO = qué ha pasado; SOLICITO = qué pido."},"uf0518-b1-067":{"type":"example","ca":"Després d’explicar els fets, formula clarament què demanes.","es":"Después de explicar los hechos, formula claramente qué pides."},"uf0518-b1-068":{"type":"example","ca":"Explica primer el fet més antic i continua fins al més recent.","es":"Explica primero el hecho más antiguo y continúa hasta el más reciente."},"uf0518-b1-069":{"type":"example","ca":"El registre deixa constància que la sol·licitud va entrar formalment.","es":"El registro deja constancia de que la solicitud entró formalmente."},"uf0518-b1-070":{"type":"example","ca":"Un canvi d’horari enviat a tot el personal encaixa en una circular.","es":"Un cambio de horario enviado a todo el personal encaja en una circular."},"uf0518-b1-071":{"type":"example","ca":"Una circular pot ser interna per al personal o externa per a clients o proveïdors.","es":"Una circular puede ser interna para el personal o externa para clientes o proveedores."},"uf0518-b1-072":{"type":"example","ca":"Una circular útil diu què canvia, des de quan i a qui afecta.","es":"Una circular útil dice qué cambia, desde cuándo y a quién afecta."},"uf0518-b1-073":{"type":"idea","ca":"Capçalera: empresa, departament, data i destinatariat.","es":"Encabezamiento: empresa, departamento, fecha y destinatarios."},"uf0518-b1-074":{"type":"idea","ca":"Assumpte: tema concret de la circular.","es":"Asunto: tema concreto de la circular."},"uf0518-b1-075":{"type":"idea","ca":"Aplicació: data d’entrada en vigor o persones afectades.","es":"Aplicación: fecha de entrada en vigor o personas afectadas."},"uf0518-b1-076":{"type":"idea","ca":"Tancament: persona responsable, càrrec i contacte.","es":"Cierre: persona responsable, cargo y contacto."}}}
+{
+  "blockId": "uf0518-bloc-1",
+  "questions": {
+    "uf0518-b1-058": {
+      "type": "example",
+      "ca": "Un ofici pot comunicar formalment una decisió o notificació administrativa.",
+      "es": "Un oficio puede comunicar formalmente una decisión o notificación administrativa."
+    },
+    "uf0518-b1-059": {
+      "type": "example",
+      "ca": "RRHH pot enviar un memoràndum a Comptabilitat sobre un canvi de procediment.",
+      "es": "RR. HH. puede enviar un memorándum a Contabilidad sobre un cambio de procedimiento."
+    },
+    "uf0518-b1-060": {
+      "type": "example",
+      "ca": "Un nou horari comunicat a tota la plantilla és un cas típic de circular.",
+      "es": "Un nuevo horario comunicado a toda la plantilla es un caso típico de circular."
+    },
+    "uf0518-b1-061": {
+      "type": "example",
+      "ca": "Memoràndum: destinatari concret. Circular: mateix missatge per a molts.",
+      "es": "Memorándum: destinatario concreto. Circular: mismo mensaje para muchos."
+    },
+    "uf0518-b1-062": {
+      "type": "example",
+      "ca": "Si el mateix avís va a tota la plantilla, pensa en circular.",
+      "es": "Si el mismo aviso va a toda la plantilla, piensa en circular."
+    },
+    "uf0518-b1-063": {
+      "type": "example",
+      "ca": "Demanar formalment un tràmit a una administració es fa mitjançant una sol·licitud.",
+      "es": "Pedir formalmente un trámite a una administración se hace mediante una solicitud."
+    },
+    "uf0518-b1-064": {
+      "type": "example",
+      "ca": "“Sol·licitud” és el terme preferit; “instància” encara s’usa molt.",
+      "es": "“Solicitud” es el término preferido; “instancia” aún se usa mucho."
+    },
+    "uf0518-b1-065": {
+      "type": "example",
+      "ca": "Una petició formal ha de dir qui demana, què demana, per què, on i quan, i anar signada.",
+      "es": "Una petición formal debe decir quién pide, qué pide, por qué, dónde y cuándo, y llevar firma."
+    },
+    "uf0518-b1-066": {
+      "type": "example",
+      "ca": "EXPOSO = què ha passat; SOL·LICITO = què demano.",
+      "es": "EXPONGO = qué ha pasado; SOLICITO = qué pido."
+    },
+    "uf0518-b1-067": {
+      "type": "example",
+      "ca": "Després d’explicar els fets, formula clarament què demanes.",
+      "es": "Después de explicar los hechos, formula claramente qué pides."
+    },
+    "uf0518-b1-068": {
+      "type": "example",
+      "ca": "Explica primer el fet més antic i continua fins al més recent.",
+      "es": "Explica primero el hecho más antiguo y continúa hasta el más reciente."
+    },
+    "uf0518-b1-069": {
+      "type": "example",
+      "ca": "El registre deixa constància que la sol·licitud va entrar formalment.",
+      "es": "El registro deja constancia de que la solicitud entró formalmente."
+    },
+    "uf0518-b1-070": {
+      "type": "example",
+      "ca": "Un canvi d’horari enviat a tot el personal encaixa en una circular.",
+      "es": "Un cambio de horario enviado a todo el personal encaja en una circular."
+    },
+    "uf0518-b1-071": {
+      "type": "example",
+      "ca": "Una circular pot ser interna per al personal o externa per a clients o proveïdors.",
+      "es": "Una circular puede ser interna para el personal o externa para clientes o proveedores."
+    },
+    "uf0518-b1-072": {
+      "type": "example",
+      "ca": "Una circular útil diu què canvia, des de quan i a qui afecta.",
+      "es": "Una circular útil dice qué cambia, desde cuándo y a quién afecta."
+    },
+    "uf0518-b1-073": {
+      "type": "idea",
+      "ca": "Capçalera: empresa, departament, data i destinatariat.",
+      "es": "Encabezamiento: empresa, departamento, fecha y destinatarios."
+    },
+    "uf0518-b1-074": {
+      "type": "idea",
+      "ca": "Assumpte: tema concret de la circular.",
+      "es": "Asunto: tema concreto de la circular."
+    },
+    "uf0518-b1-075": {
+      "type": "idea",
+      "ca": "Aplicació: data d’entrada en vigor o persones afectades.",
+      "es": "Aplicación: fecha de entrada en vigor o personas afectadas."
+    },
+    "uf0518-b1-076": {
+      "type": "idea",
+      "ca": "Tancament: persona responsable, càrrec i contacte.",
+      "es": "Cierre: persona responsable, cargo y contacto."
+    },
+    "uf0518-b1-077": {
+      "type": "idea",
+      "ca": "Claredat = entendre fàcilment què diu el text i com està ordenat.",
+      "es": "Claridad = entender fácilmente qué dice el texto y cómo está ordenado."
+    },
+    "uf0518-b1-078": {
+      "type": "idea",
+      "ca": "Precisió = dades exactes i verificades.",
+      "es": "Precisión = datos exactos y verificados."
+    },
+    "uf0518-b1-079": {
+      "type": "idea",
+      "ca": "Tria el registre segons el destinatari i mantén-lo de principi a fi.",
+      "es": "Elige el registro según el destinatario y mantenlo de principio a fin."
+    },
+    "uf0518-b1-080": {
+      "type": "idea",
+      "ca": "Administració pública: formalitat + registre + traçabilitat + conservació.",
+      "es": "Administración pública: formalidad + registro + trazabilidad + conservación."
+    },
+    "uf0518-b1-081": {
+      "type": "example",
+      "ca": "Demanar preus i condicions a un proveïdor és una sol·licitud comercial.",
+      "es": "Pedir precios y condiciones a un proveedor es una solicitud comercial."
+    },
+    "uf0518-b1-082": {
+      "type": "idea",
+      "ca": "Document adjunt? Indica’l a Annexos.",
+      "es": "¿Documento adjunto? Indícalo en Anexos."
+    },
+    "uf0518-b1-083": {
+      "type": "idea",
+      "ca": "Obertura del cos = per què escric aquesta carta?",
+      "es": "Apertura del cuerpo = ¿por qué escribo esta carta?"
+    },
+    "uf0518-b1-084": {
+      "type": "idea",
+      "ca": "EXPOSO = fets; SOL·LICITO = què demano.",
+      "es": "EXPONGO = hechos; SOLICITO = qué pido."
+    },
+    "uf0518-b1-085": {
+      "type": "idea",
+      "ca": "Mateix missatge per a moltes persones → circular.",
+      "es": "Mismo mensaje para muchas personas → circular."
+    },
+    "uf0518-b1-086": {
+      "type": "idea",
+      "ca": "Si pot servir de prova, conserva evidència.",
+      "es": "Si puede servir de prueba, conserva evidencia."
+    }
+  }
+}

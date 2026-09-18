@@ -840,6 +840,126 @@
         "Coordinar",
         "Dirigir"
       ]
+    },
+    "b2-071": {
+      "ca": [
+        "La classificació principal és la jurídica i les altres només descriuen característiques secundàries",
+        "L’activitat econòmica determina el tipus de capital quan l’empresa és privada",
+        "Els criteris es poden combinar, però la forma jurídica i el capital han de coincidir en categoria"
+      ],
+      "es": [
+        "La clasificación principal es la jurídica y las demás solo describen características secundarias",
+        "La actividad económica determina el tipo de capital cuando la empresa es privada",
+        "Los criterios se pueden combinar, pero la forma jurídica y el capital deben coincidir en categoría"
+      ]
+    },
+    "b2-072": {
+      "ca": [
+        "Aportacions de socis i ingressos de vendes, però sense recórrer a crèdit bancari",
+        "Préstecs bancaris i beneficis, sempre que la propietat continuï en mans de l’entitat financera",
+        "Ingressos de l’activitat i subvencions, amb la gestió transferida a l’administració que aporta recursos"
+      ],
+      "es": [
+        "Aportaciones de socios e ingresos de ventas, pero sin recurrir a crédito bancario",
+        "Préstamos bancarios y beneficios, siempre que la propiedad continúe en manos de la entidad financiera",
+        "Ingresos de la actividad y subvenciones, con la gestión transferida a la administración que aporta recursos"
+      ]
+    },
+    "b2-073": {
+      "ca": [
+        "Jerarquia de rang, perquè el càrrec reconeix el prestigi acumulat",
+        "Jerarquia per capacitat, perquè dirigir un departament exigeix coneixements",
+        "Jerarquia per remuneració, perquè el comandament acostuma a tenir un nivell salarial diferent"
+      ],
+      "es": [
+        "Jerarquía de rango, porque el cargo reconoce el prestigio acumulado",
+        "Jerarquía por capacidad, porque dirigir un departamento exige conocimientos",
+        "Jerarquía por remuneración, porque el mando suele tener un nivel salarial diferente"
+      ]
+    },
+    "b2-074": {
+      "ca": [
+        "Jerarquia per capacitat, perquè l’experiència equival a especialització tècnica",
+        "Jerarquia donada pel càrrec, perquè el grup li reconeix una posició superior",
+        "Jerarquia per remuneració, perquè el prestigi acostuma a traduir-se en un salari més alt"
+      ],
+      "es": [
+        "Jerarquía por capacidad, porque la experiencia equivale a especialización técnica",
+        "Jerarquía dada por el cargo, porque el grupo le reconoce una posición superior",
+        "Jerarquía por remuneración, porque el prestigio suele traducirse en un salario más alto"
+      ]
+    },
+    "b2-075": {
+      "ca": [
+        "Organitzar, perquè anticipar accions equival a repartir recursos",
+        "Dirigir, perquè fixar objectius és orientar el treball diari",
+        "Controlar, perquè els objectius serveixen com a referència posterior"
+      ],
+      "es": [
+        "Organizar, porque anticipar acciones equivale a repartir recursos",
+        "Dirigir, porque fijar objetivos es orientar el trabajo diario",
+        "Controlar, porque los objetivos sirven como referencia posterior"
+      ]
+    },
+    "b2-076": {
+      "ca": [
+        "Coordinar, perquè distribuir recursos posa les àrees en relació",
+        "Dirigir, perquè assignar persones implica exercir autoritat",
+        "Planificar, perquè el pressupost forma part de la previsió del projecte"
+      ],
+      "es": [
+        "Coordinar, porque distribuir recursos pone las áreas en relación",
+        "Dirigir, porque asignar personas implica ejercer autoridad",
+        "Planificar, porque el presupuesto forma parte de la previsión del proyecto"
+      ]
+    },
+    "b2-077": {
+      "ca": [
+        "Organitzar, perquè departaments diferents impliquen un repartiment previ de recursos",
+        "Controlar, perquè compartir informació permet comprovar els resultats",
+        "Dirigir, perquè una mateixa direcció exigeix instruccions d’un únic responsable"
+      ],
+      "es": [
+        "Organizar, porque departamentos distintos implican un reparto previo de recursos",
+        "Controlar, porque compartir información permite comprobar los resultados",
+        "Dirigir, porque una misma dirección exige instrucciones de un único responsable"
+      ]
+    },
+    "b2-078": {
+      "ca": [
+        "Auditar, perquè qualsevol revisió posterior és una auditoria",
+        "Planificar, perquè comparar amb objectius ajuda a redefinir-los",
+        "Coordinar, perquè detectar desviacions permet alinear departaments"
+      ],
+      "es": [
+        "Auditar, porque cualquier revisión posterior es una auditoría",
+        "Planificar, porque comparar con objetivos ayuda a redefinirlos",
+        "Coordinar, porque detectar desviaciones permite alinear departamentos"
+      ]
+    },
+    "b2-079": {
+      "ca": [
+        "Controlar, perquè verificar procediments és comparar-los amb un objectiu",
+        "Planificar, perquè la revisió determina què cal fer després",
+        "Dirigir, perquè la persona revisora orienta l’activitat de l’organització"
+      ],
+      "es": [
+        "Controlar, porque verificar procedimientos es compararlos con un objetivo",
+        "Planificar, porque la revisión determina qué hay que hacer después",
+        "Dirigir, porque la persona revisora orienta la actividad de la organización"
+      ]
+    },
+    "b2-080": {
+      "ca": [
+        "Coordinar, perquè orientar l’equip significa alinear les persones",
+        "Planificar, perquè escollir una alternativa defineix una acció futura",
+        "Controlar, perquè una incidència exigeix comprovar què s’ha desviat"
+      ],
+      "es": [
+        "Coordinar, porque orientar al equipo significa alinear a las personas",
+        "Planificar, porque elegir una alternativa define una acción futura",
+        "Controlar, porque una incidencia exige comprobar qué se ha desviado"
+      ]
     }
   }
 }

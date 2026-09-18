@@ -1,1 +1,336 @@
-{"blockId":"bloc-4","blockTitle":"Los departamentos","questions":{"b4-041":{"topic":"Coordinación entre departamentos","question":"Una notificación tributaria llega a la empresa y, además de tramitarla, hay que interpretar una cuestión jurídica. ¿Qué reparto es más coherente con el temario?","options":["Financiero, contabilidad o administración la gestionan, con asesoramiento legal si hace falta","Atención al Cliente la resuelve y Producción la registra","Ventas la tramita y Calidad asume la responsabilidad","Recursos Humanos la gestiona siempre sin apoyo"],"explanation":"La información tributaria y fiscal corresponde principalmente a financiero, contabilidad y administración; Legal asesora cuando es necesario."},"b4-042":{"topic":"Información mercantil","question":"Hay que preparar una escritura societaria y realizar un trámite ante el Registro Mercantil. ¿Qué ámbitos intervienen principalmente?","options":["Compras y Ventas","Administración y, cuando hace falta, Legal","Producción y Calidad","Recursos Humanos y Atención al Cliente"],"explanation":"El material atribuye la información mercantil a Administración y, cuando es necesario, al departamento Legal."},"b4-043":{"topic":"Información de ventas y compras","question":"Compras registra entradas de producto y Ventas registra salidas. ¿Qué otro uso de esta información destaca el material?","options":["Calcular exclusivamente nóminas","Sustituir la información fiscal","Ayudar a controlar el equilibrio del stock","Determinar la forma jurídica de la empresa"],"explanation":"La información de ventas y compras permite seguir el flujo de entrada y salida y contribuye al control del stock."},"b4-044":{"topic":"Información de personal","question":"La empresa prepara nóminas, controla ausencias y mantiene documentación preventiva. ¿Qué afirmación describe mejor la gestión de esta información?","options":["Solo la gestiona el departamento Legal","Solo la gestiona Financiero","Corresponde exclusivamente a Dirección","RRHH y Administración son principales, con Financiero y Prevención en funciones específicas"],"explanation":"RRHH y Administración gestionan principalmente la información de personal; Financiero gestiona pagos y presupuesto, y Prevención la documentación preventiva."},"b4-045":{"topic":"Tipología departamental","question":"Una pequeña empresa concentra administración y finanzas en una misma unidad. ¿Es compatible con el temario?","options":["Sí; cada organización es diferente y un departamento puede asumir más de una función","No; cada función debe tener siempre un departamento independiente","Solo si es una empresa industrial","Solo si no tiene personal contratado"],"explanation":"El material indica que cada organización puede tener departamentos diferentes y que un mismo departamento puede asumir más de una función."},"b4-046":{"topic":"Departamentos de la empresa","question":"Un equipo estudia reclamaciones y opiniones para mantener una relación positiva con los clientes. ¿Qué departamento encaja mejor?","options":["Producción","Atención al Cliente","Compras","Administración"],"explanation":"Atención al Cliente busca obtener la información necesaria para crear y mantener relaciones positivas con los clientes."},"b4-047":{"topic":"Departamentos de la empresa","question":"Una empresa de consultoría no fabrica bienes, pero necesita planificar y controlar cómo presta el servicio. ¿A qué función equivale esta actividad?","options":["A Legal, porque presta asesoramiento","A Recursos Humanos, porque intervienen personas","A Producción, que en servicios puede adoptar la forma de operaciones o prestación de servicios","A Ventas, porque todo servicio acaba en una venta"],"explanation":"En empresas de servicios, la función de producción puede corresponder a operaciones o a la prestación de servicios."},"b4-048":{"topic":"Calidad","question":"En una empresa no existe un departamento llamado «Calidad», pero una persona revisa y mejora criterios de procesos y servicios. ¿Qué conclusión es correcta?","options":["La función de calidad no existe si no hay departamento","La tarea corresponde necesariamente a Compras","La persona solo puede revisar productos físicos","La función de calidad puede recaer en una persona responsable u otra unidad"],"explanation":"La función de calidad puede corresponder a un departamento, a una persona responsable o a otra unidad de la empresa."},"b4-049":{"topic":"Criterios de asignación","question":"Una empresa abre varias delegaciones y quiere evitar que todas repitan exactamente las mismas tareas administrativas. ¿Qué criterio debe considerar especialmente?","options":["El área geográfica y la decisión sobre qué funciones centralizar o distribuir","Solo el color de la imagen corporativa","Exclusivamente la antigüedad del personal","Solo la superficie de recepción"],"explanation":"El área geográfica de actuación obliga a decidir qué funciones se centralizan y cuáles se desarrollan en cada centro."},"b4-050":{"topic":"Criterios de asignación","question":"Dos empresas tienen el mismo tamaño, pero una ofrece servicios muy especializados y la otra productos sencillos. ¿Qué criterio puede justificar estructuras diferentes?","options":["El número de logotipos","La tipología de productos o servicios","El día de pago de nóminas","La ubicación del Registro Mercantil"],"explanation":"La tipología de los productos o servicios es un criterio que influye en las unidades y departamentos que necesita cada empresa."},"b4-051":{"topic":"Criterios de asignación","question":"Una parte de la clientela requiere seguimiento y tratamiento específicos. ¿Qué decisión organizativa puede justificar esta situación?","options":["Eliminar Atención al Cliente","Centralizar obligatoriamente toda la empresa","Crear equipos o unidades especializadas para estos clientes","Suprimir cualquier especialización"],"explanation":"La tipología de clientes puede justificar equipos o unidades especializadas para ofrecer el seguimiento y la atención necesarios."},"b4-052":{"topic":"Criterios de asignación","question":"Una actividad presenta riesgos específicos, pero la empresa no crea automáticamente un departamento propio de prevención. ¿Qué idea del temario lo explica?","options":["La prevención es opcional si hay riesgos","La prevención corresponde siempre a Ventas","Solo existe prevención en empresas públicas","Hay que organizar la prevención de forma adecuada, pero no siempre mediante un departamento propio"],"explanation":"La obligación de organizar la prevención no implica necesariamente crear un departamento independiente en todos los casos."},"b4-053":{"topic":"Criterios de asignación","question":"Cuando aumentan mucho el volumen y la complejidad de la actividad, ¿qué efecto organizativo puede aparecer según el material?","options":["Puede ser necesaria más especialización y una estructura departamental más amplia","Hay que reducir siempre el número de departamentos","Se debe eliminar la coordinación","Todas las funciones pasan a Dirección"],"explanation":"Un volumen y una complejidad mayores pueden exigir más especialización y más departamentos."},"b4-054":{"topic":"Criterios de asignación","question":"Una empresa tiene presupuesto limitado para organizar sus áreas. ¿Qué efecto puede tener este factor?","options":["Ninguno; el presupuesto no influye en la estructura","Puede limitar los recursos y la amplitud de la estructura departamental","Obliga siempre a eliminar Administración","Solo afecta a las promociones comerciales"],"explanation":"El presupuesto determina los recursos disponibles y puede limitar o ampliar la estructura de la organización."},"b4-055":{"topic":"Espacio de acogida","question":"Una persona llega por primera vez a una oficina y no sabe dónde dirigirse. ¿Qué elemento del espacio de acogida debería ayudarla especialmente?","options":["La documentación interna visible","El presupuesto del departamento","La señalización y la información clara","Los archivos de personal"],"explanation":"Un buen espacio de acogida debe facilitar orientación mediante señalización e información adecuadas."},"b4-056":{"topic":"Espacio de acogida","question":"En recepción hay mucho ruido, poca ventilación y una temperatura incómoda. ¿Qué efecto señala el temario sobre estas condiciones?","options":["No afectan a la atención si hay ordenador","Solo afectan al personal y nunca a los visitantes","Mejoran la rapidez de la comunicación","Dificultan una atención adecuada; un entorno agradable facilita la comunicación y la imagen de la empresa"],"explanation":"Iluminación, temperatura, ventilación, ruido, limpieza y orden forman parte de las condiciones ambientales de una buena acogida."},"b4-057":{"topic":"Espacio de acogida","question":"En recepción queda una lista con datos personales a la vista de cualquier visitante. ¿Qué criterio se está incumpliendo?","options":["La protección de documentación y datos frente a personas no autorizadas","La relación comercial con proveedores","La planificación de producción","La gestión de promociones"],"explanation":"La documentación y los datos personales del espacio de acogida deben protegerse del acceso de personas no autorizadas."},"b4-058":{"topic":"Espacio de acogida","question":"¿Qué recurso es coherente con el control de las personas que llegan al espacio de acogida?","options":["Un libro de cuentas anual","Una agenda o registro de visitas","Una máquina de producción","Un libro mercantil como único recurso"],"explanation":"Entre los materiales auxiliares del espacio de acogida, el temario incluye una agenda o registro de visitas."},"b4-059":{"topic":"Espacio de acogida","question":"Al rediseñar recepción, se quiere facilitar el acceso, mantener el orden y trabajar con comodidad y seguridad. ¿Qué criterio resume mejor la decisión?","options":["Priorizar solo la decoración","Reducir el espacio de espera a cualquier precio","Escoger mobiliario y distribución adecuados a ergonomía, accesibilidad y eficacia","Sustituir la señalización por documentación interna"],"explanation":"El mobiliario y la distribución deben facilitar comodidad, seguridad, eficacia, accesibilidad y orden."},"b4-060":{"topic":"Espacio de acogida","question":"¿Qué combinación describe mejor la finalidad del espacio de acogida y la forma de prestar el servicio?","options":["Archivar, facturar y producir","Comprar, vender y auditar","Solo hacer esperar hasta que llegue un responsable","Recibir, informar y orientar en un entorno accesible, ordenado y seguro"],"explanation":"El espacio de acogida está destinado a recibir, informar y orientar, y debe reunir condiciones de accesibilidad, orden, comodidad y seguridad."}}}
+{
+  "blockId": "bloc-4",
+  "blockTitle": "Los departamentos",
+  "questions": {
+    "b4-041": {
+      "topic": "Coordinación entre departamentos",
+      "question": "Una notificación tributaria llega a la empresa y, además de tramitarla, hay que interpretar una cuestión jurídica. ¿Qué reparto es más coherente con el temario?",
+      "options": [
+        "Financiero, contabilidad o administración la gestionan, con asesoramiento legal si hace falta",
+        "Atención al Cliente la resuelve y Producción la registra",
+        "Ventas la tramita y Calidad asume la responsabilidad",
+        "Recursos Humanos la gestiona siempre sin apoyo"
+      ],
+      "explanation": "La información tributaria y fiscal corresponde principalmente a financiero, contabilidad y administración; Legal asesora cuando es necesario."
+    },
+    "b4-042": {
+      "topic": "Información mercantil",
+      "question": "Hay que preparar una escritura societaria y realizar un trámite ante el Registro Mercantil. ¿Qué ámbitos intervienen principalmente?",
+      "options": [
+        "Compras y Ventas",
+        "Administración y, cuando hace falta, Legal",
+        "Producción y Calidad",
+        "Recursos Humanos y Atención al Cliente"
+      ],
+      "explanation": "El material atribuye la información mercantil a Administración y, cuando es necesario, al departamento Legal."
+    },
+    "b4-043": {
+      "topic": "Información de ventas y compras",
+      "question": "Compras registra entradas de producto y Ventas registra salidas. ¿Qué otro uso de esta información destaca el material?",
+      "options": [
+        "Calcular exclusivamente nóminas",
+        "Sustituir la información fiscal",
+        "Ayudar a controlar el equilibrio del stock",
+        "Determinar la forma jurídica de la empresa"
+      ],
+      "explanation": "La información de ventas y compras permite seguir el flujo de entrada y salida y contribuye al control del stock."
+    },
+    "b4-044": {
+      "topic": "Información de personal",
+      "question": "La empresa prepara nóminas, controla ausencias y mantiene documentación preventiva. ¿Qué afirmación describe mejor la gestión de esta información?",
+      "options": [
+        "Solo la gestiona el departamento Legal",
+        "Solo la gestiona Financiero",
+        "Corresponde exclusivamente a Dirección",
+        "RRHH y Administración son principales, con Financiero y Prevención en funciones específicas"
+      ],
+      "explanation": "RRHH y Administración gestionan principalmente la información de personal; Financiero gestiona pagos y presupuesto, y Prevención la documentación preventiva."
+    },
+    "b4-045": {
+      "topic": "Tipología departamental",
+      "question": "Una pequeña empresa concentra administración y finanzas en una misma unidad. ¿Es compatible con el temario?",
+      "options": [
+        "Sí; cada organización es diferente y un departamento puede asumir más de una función",
+        "No; cada función debe tener siempre un departamento independiente",
+        "Solo si es una empresa industrial",
+        "Solo si no tiene personal contratado"
+      ],
+      "explanation": "El material indica que cada organización puede tener departamentos diferentes y que un mismo departamento puede asumir más de una función."
+    },
+    "b4-046": {
+      "topic": "Departamentos de la empresa",
+      "question": "Un equipo estudia reclamaciones y opiniones para mantener una relación positiva con los clientes. ¿Qué departamento encaja mejor?",
+      "options": [
+        "Producción",
+        "Atención al Cliente",
+        "Compras",
+        "Administración"
+      ],
+      "explanation": "Atención al Cliente busca obtener la información necesaria para crear y mantener relaciones positivas con los clientes."
+    },
+    "b4-047": {
+      "topic": "Departamentos de la empresa",
+      "question": "Una empresa de consultoría no fabrica bienes, pero necesita planificar y controlar cómo presta el servicio. ¿A qué función equivale esta actividad?",
+      "options": [
+        "A Legal, porque presta asesoramiento",
+        "A Recursos Humanos, porque intervienen personas",
+        "A Producción, que en servicios puede adoptar la forma de operaciones o prestación de servicios",
+        "A Ventas, porque todo servicio acaba en una venta"
+      ],
+      "explanation": "En empresas de servicios, la función de producción puede corresponder a operaciones o a la prestación de servicios."
+    },
+    "b4-048": {
+      "topic": "Calidad",
+      "question": "En una empresa no existe un departamento llamado «Calidad», pero una persona revisa y mejora criterios de procesos y servicios. ¿Qué conclusión es correcta?",
+      "options": [
+        "La función de calidad no existe si no hay departamento",
+        "La tarea corresponde necesariamente a Compras",
+        "La persona solo puede revisar productos físicos",
+        "La función de calidad puede recaer en una persona responsable u otra unidad"
+      ],
+      "explanation": "La función de calidad puede corresponder a un departamento, a una persona responsable o a otra unidad de la empresa."
+    },
+    "b4-049": {
+      "topic": "Criterios de asignación",
+      "question": "Una empresa abre varias delegaciones y quiere evitar que todas repitan exactamente las mismas tareas administrativas. ¿Qué criterio debe considerar especialmente?",
+      "options": [
+        "El área geográfica y la decisión sobre qué funciones centralizar o distribuir",
+        "Solo el color de la imagen corporativa",
+        "Exclusivamente la antigüedad del personal",
+        "Solo la superficie de recepción"
+      ],
+      "explanation": "El área geográfica de actuación obliga a decidir qué funciones se centralizan y cuáles se desarrollan en cada centro."
+    },
+    "b4-050": {
+      "topic": "Criterios de asignación",
+      "question": "Dos empresas tienen el mismo tamaño, pero una ofrece servicios muy especializados y la otra productos sencillos. ¿Qué criterio puede justificar estructuras diferentes?",
+      "options": [
+        "El número de logotipos",
+        "La tipología de productos o servicios",
+        "El día de pago de nóminas",
+        "La ubicación del Registro Mercantil"
+      ],
+      "explanation": "La tipología de los productos o servicios es un criterio que influye en las unidades y departamentos que necesita cada empresa."
+    },
+    "b4-051": {
+      "topic": "Criterios de asignación",
+      "question": "Una parte de la clientela requiere seguimiento y tratamiento específicos. ¿Qué decisión organizativa puede justificar esta situación?",
+      "options": [
+        "Eliminar Atención al Cliente",
+        "Centralizar obligatoriamente toda la empresa",
+        "Crear equipos o unidades especializadas para estos clientes",
+        "Suprimir cualquier especialización"
+      ],
+      "explanation": "La tipología de clientes puede justificar equipos o unidades especializadas para ofrecer el seguimiento y la atención necesarios."
+    },
+    "b4-052": {
+      "topic": "Criterios de asignación",
+      "question": "Una actividad presenta riesgos específicos, pero la empresa no crea automáticamente un departamento propio de prevención. ¿Qué idea del temario lo explica?",
+      "options": [
+        "La prevención es opcional si hay riesgos",
+        "La prevención corresponde siempre a Ventas",
+        "Solo existe prevención en empresas públicas",
+        "Hay que organizar la prevención de forma adecuada, pero no siempre mediante un departamento propio"
+      ],
+      "explanation": "La obligación de organizar la prevención no implica necesariamente crear un departamento independiente en todos los casos."
+    },
+    "b4-053": {
+      "topic": "Criterios de asignación",
+      "question": "Cuando aumentan mucho el volumen y la complejidad de la actividad, ¿qué efecto organizativo puede aparecer según el material?",
+      "options": [
+        "Puede ser necesaria más especialización y una estructura departamental más amplia",
+        "Hay que reducir siempre el número de departamentos",
+        "Se debe eliminar la coordinación",
+        "Todas las funciones pasan a Dirección"
+      ],
+      "explanation": "Un volumen y una complejidad mayores pueden exigir más especialización y más departamentos."
+    },
+    "b4-054": {
+      "topic": "Criterios de asignación",
+      "question": "Una empresa tiene presupuesto limitado para organizar sus áreas. ¿Qué efecto puede tener este factor?",
+      "options": [
+        "Ninguno; el presupuesto no influye en la estructura",
+        "Puede limitar los recursos y la amplitud de la estructura departamental",
+        "Obliga siempre a eliminar Administración",
+        "Solo afecta a las promociones comerciales"
+      ],
+      "explanation": "El presupuesto determina los recursos disponibles y puede limitar o ampliar la estructura de la organización."
+    },
+    "b4-055": {
+      "topic": "Espacio de acogida",
+      "question": "Una persona llega por primera vez a una oficina y no sabe dónde dirigirse. ¿Qué elemento del espacio de acogida debería ayudarla especialmente?",
+      "options": [
+        "La documentación interna visible",
+        "El presupuesto del departamento",
+        "La señalización y la información clara",
+        "Los archivos de personal"
+      ],
+      "explanation": "Un buen espacio de acogida debe facilitar orientación mediante señalización e información adecuadas."
+    },
+    "b4-056": {
+      "topic": "Espacio de acogida",
+      "question": "En recepción hay mucho ruido, poca ventilación y una temperatura incómoda. ¿Qué efecto señala el temario sobre estas condiciones?",
+      "options": [
+        "No afectan a la atención si hay ordenador",
+        "Solo afectan al personal y nunca a los visitantes",
+        "Mejoran la rapidez de la comunicación",
+        "Dificultan una atención adecuada; un entorno agradable facilita la comunicación y la imagen de la empresa"
+      ],
+      "explanation": "Iluminación, temperatura, ventilación, ruido, limpieza y orden forman parte de las condiciones ambientales de una buena acogida."
+    },
+    "b4-057": {
+      "topic": "Espacio de acogida",
+      "question": "En recepción queda una lista con datos personales a la vista de cualquier visitante. ¿Qué criterio se está incumpliendo?",
+      "options": [
+        "La protección de documentación y datos frente a personas no autorizadas",
+        "La relación comercial con proveedores",
+        "La planificación de producción",
+        "La gestión de promociones"
+      ],
+      "explanation": "La documentación y los datos personales del espacio de acogida deben protegerse del acceso de personas no autorizadas."
+    },
+    "b4-058": {
+      "topic": "Espacio de acogida",
+      "question": "¿Qué recurso es coherente con el control de las personas que llegan al espacio de acogida?",
+      "options": [
+        "Un libro de cuentas anual",
+        "Una agenda o registro de visitas",
+        "Una máquina de producción",
+        "Un libro mercantil como único recurso"
+      ],
+      "explanation": "Entre los materiales auxiliares del espacio de acogida, el temario incluye una agenda o registro de visitas."
+    },
+    "b4-059": {
+      "topic": "Espacio de acogida",
+      "question": "Al rediseñar recepción, se quiere facilitar el acceso, mantener el orden y trabajar con comodidad y seguridad. ¿Qué criterio resume mejor la decisión?",
+      "options": [
+        "Priorizar solo la decoración",
+        "Reducir el espacio de espera a cualquier precio",
+        "Escoger mobiliario y distribución adecuados a ergonomía, accesibilidad y eficacia",
+        "Sustituir la señalización por documentación interna"
+      ],
+      "explanation": "El mobiliario y la distribución deben facilitar comodidad, seguridad, eficacia, accesibilidad y orden."
+    },
+    "b4-060": {
+      "topic": "Espacio de acogida",
+      "question": "¿Qué combinación describe mejor la finalidad del espacio de acogida y la forma de prestar el servicio?",
+      "options": [
+        "Archivar, facturar y producir",
+        "Comprar, vender y auditar",
+        "Solo hacer esperar hasta que llegue un responsable",
+        "Recibir, informar y orientar en un entorno accesible, ordenado y seguro"
+      ],
+      "explanation": "El espacio de acogida está destinado a recibir, informar y orientar, y debe reunir condiciones de accesibilidad, orden, comodidad y seguridad."
+    },
+    "b4-061": {
+      "topic": "Departamentos",
+      "question": "Una empresa agrupa las actividades de compras, ventas, administración y Recursos Humanos en áreas diferenciadas según la función que desarrollan. ¿Qué idea organizativa refleja?",
+      "options": [
+        "División del trabajo en departamentos funcionales",
+        "Clasificación de la empresa por el tipo de capital",
+        "Jerarquía basada en la remuneración",
+        "Organización informal entre trabajadores"
+      ],
+      "explanation": "Los departamentos son áreas funcionales en las que se divide el trabajo de la empresa para agrupar actividades relacionadas."
+    },
+    "b4-062": {
+      "topic": "Compras y finanzas",
+      "question": "Compras quiere realizar un pedido importante y antes necesita confirmar que hay presupuesto disponible. ¿Qué coordinación es la más coherente?",
+      "options": [
+        "Compras con Atención al Cliente",
+        "Compras con Finanzas o Administración",
+        "Producción con Recursos Humanos",
+        "Calidad con Ventas"
+      ],
+      "explanation": "La información de compras y la disponibilidad económica pueden requerir coordinación entre Compras y los departamentos financiero o de administración."
+    },
+    "b4-063": {
+      "topic": "Recursos Humanos",
+      "question": "Hay que gestionar contratos laborales, formación y ausencias del personal. ¿Qué áreas asumen principalmente esta información según el temario?",
+      "options": [
+        "Producción y Calidad",
+        "Ventas y Compras",
+        "Recursos Humanos y Administración",
+        "Dirección y Atención al Cliente"
+      ],
+      "explanation": "La información relacionada con el personal corresponde principalmente a los departamentos de Recursos Humanos y Administración."
+    },
+    "b4-064": {
+      "topic": "Calidad",
+      "question": "Una empresa pequeña asigna la función de calidad a una persona responsable en lugar de crear un departamento independiente. ¿Es compatible con el material?",
+      "options": [
+        "No, calidad exige una unidad separada",
+        "No, calidad corresponde a Producción",
+        "Sí, pero la persona no puede revisar procesos",
+        "Sí, la función puede recaer en un departamento, una persona responsable u otra unidad"
+      ],
+      "explanation": "El temario indica que la función de calidad puede corresponder a un departamento, a una persona responsable o a otra unidad de la empresa."
+    },
+    "b4-065": {
+      "topic": "Prevención de riesgos laborales",
+      "question": "Una actividad comporta riesgos específicos. ¿Qué afirmación recoge mejor el criterio del temario sobre la organización de la prevención?",
+      "options": [
+        "La empresa debe organizar una modalidad preventiva adecuada, sin que eso implique en todos los casos crear un departamento propio",
+        "La prevención pasa automáticamente a Recursos Humanos",
+        "Cualquier riesgo obliga a crear un servicio propio",
+        "La prevención es opcional si la empresa es pequeña"
+      ],
+      "explanation": "Cuando existen riesgos, la empresa debe organizar la prevención mediante una modalidad adecuada; eso no implica en todos los casos crear un departamento propio."
+    },
+    "b4-066": {
+      "topic": "Información tributaria y fiscal",
+      "question": "Llega una notificación tributaria que, además de tramitarse, plantea una duda jurídica. ¿Qué reparto de funciones es más coherente?",
+      "options": [
+        "Ventas la tramita y Calidad la interpreta",
+        "Financiero, Contabilidad o Administración la gestionan y Legal asesora si hace falta",
+        "Recursos Humanos la registra y Producción responde",
+        "Atención al Cliente la gestiona porque procede de un organismo externo"
+      ],
+      "explanation": "La información tributaria y fiscal es gestionada principalmente por Financiero, Contabilidad y Administración; Legal asesora cuando es necesario."
+    },
+    "b4-067": {
+      "topic": "Atención al Cliente",
+      "question": "Después de una venta, un cliente comunica una incidencia con el servicio y pide una solución. ¿Qué departamento tiene una función directa en esta relación posterior?",
+      "options": [
+        "Compras",
+        "Producción",
+        "Atención al Cliente",
+        "Contabilidad"
+      ],
+      "explanation": "Atención al Cliente mantiene la relación con clientes y usuarios, resuelve dudas e incidencias y recoge información útil para mejorar el servicio."
+    },
+    "b4-068": {
+      "topic": "Criterios de estructura departamental",
+      "question": "Una empresa crece mucho y pasa de una actividad sencilla a un volumen alto y complejo. ¿Qué efecto organizativo puede tener según el temario?",
+      "options": [
+        "Reducir el número de áreas para simplificar la jerarquía",
+        "Eliminar funciones de apoyo",
+        "Aumentar la especialización y la necesidad de más departamentos",
+        "Sustituir los departamentos por relaciones informales"
+      ],
+      "explanation": "Cuanto mayor sea el volumen y la complejidad de la actividad, más especialización y más departamentos pueden ser necesarios."
+    },
+    "b4-069": {
+      "topic": "Coordinación departamental",
+      "question": "Un pedido de cliente exige comprobar stock, comprar material y preparar la facturación. ¿Qué idea organizativa es esencial para que el proceso no se rompa entre áreas?",
+      "options": [
+        "Separar completamente la información de cada departamento",
+        "Coordinar los departamentos implicados y compartir la información necesaria",
+        "Trasladar todo el proceso al departamento de Ventas",
+        "Hacer que Calidad asuma la gestión económica"
+      ],
+      "explanation": "Los procesos que atraviesan varias áreas necesitan coordinación y circulación adecuada de la información entre los departamentos implicados."
+    },
+    "b4-070": {
+      "topic": "Criterios de estructura departamental",
+      "question": "Una empresa dispone de recursos económicos limitados para ampliar su estructura. ¿Qué criterio está condicionando directamente el número y la amplitud de los departamentos?",
+      "options": [
+        "La antigüedad del personal",
+        "El presupuesto",
+        "La formalidad de las comunicaciones",
+        "El tipo de organigrama"
+      ],
+      "explanation": "El presupuesto determina los recursos disponibles y puede condicionar la amplitud de la estructura departamental."
+    }
+  }
+}

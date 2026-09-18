@@ -720,6 +720,126 @@
         "Potestad reglamentaria del Gobierno",
         "Control de constitucionalidad"
       ]
+    },
+    "b5-061": {
+      "ca": [
+        "El Govern, perquè també aprova normes i dirigeix l’Administració",
+        "El Congrés dels Diputats, perquè és la cambra amb funció legislativa principal",
+        "El Tribunal Constitucional, perquè controla la conformitat de les lleis amb la Constitució"
+      ],
+      "es": [
+        "El Gobierno, porque también aprueba normas y dirige la Administración",
+        "El Congreso de los Diputados, porque es la cámara con función legislativa principal",
+        "El Tribunal Constitucional, porque controla la conformidad de las leyes con la Constitución"
+      ]
+    },
+    "b5-062": {
+      "ca": [
+        "Les Corts Generals, perquè controlen l’acció del Govern i aproven pressupostos",
+        "L’Administració General de l’Estat, perquè executa polítiques en l’àmbit estatal",
+        "El Consell de Ministres com a institució separada del Govern"
+      ],
+      "es": [
+        "Las Cortes Generales, porque controlan la acción del Gobierno y aprueban presupuestos",
+        "La Administración General del Estado, porque ejecuta políticas en el ámbito estatal",
+        "El Consejo de Ministros como institución separada del Gobierno"
+      ]
+    },
+    "b5-063": {
+      "ca": [
+        "Interpretar de manera general la Constitució com a funció ordinària del Poder Judicial",
+        "Controlar políticament l’acció del Govern mitjançant resolucions judicials",
+        "Dirigir l’Administració de justícia i aprovar les lleis processals"
+      ],
+      "es": [
+        "Interpretar de forma general la Constitución como función ordinaria del Poder Judicial",
+        "Controlar políticamente la acción del Gobierno mediante resoluciones judiciales",
+        "Dirigir la Administración de justicia y aprobar las leyes procesales"
+      ]
+    },
+    "b5-064": {
+      "ca": [
+        "Municipis, diputacions i administracions autonòmiques",
+        "Ajuntaments, províncies i comunitats autònomes",
+        "Municipis, comarques i comunitats autònomes"
+      ],
+      "es": [
+        "Municipios, diputaciones y administraciones autonómicas",
+        "Ayuntamientos, provincias y comunidades autónomas",
+        "Municipios, comarcas y comunidades autónomas"
+      ]
+    },
+    "b5-065": {
+      "ca": [
+        "A la diputació, perquè coordina serveis de diversos municipis",
+        "A l’alcaldia com a òrgan separat de l’ajuntament",
+        "A l’administració autonòmica, perquè els municipis formen part de la comunitat autònoma"
+      ],
+      "es": [
+        "A la diputación, porque coordina servicios de varios municipios",
+        "A la alcaldía como órgano separado del ayuntamiento",
+        "A la administración autonómica, porque los municipios forman parte de la comunidad autónoma"
+      ]
+    },
+    "b5-066": {
+      "ca": [
+        "Consell de la UE, perquè representa els governs i participa en l’aprovació de normes",
+        "Comissió Europea, perquè proposa legislació i defensa l’interès general de la Unió",
+        "Consell Europeu, perquè fixa les grans orientacions polítiques de la UE"
+      ],
+      "es": [
+        "Consejo de la UE, porque representa a los gobiernos y participa en la aprobación de normas",
+        "Comisión Europea, porque propone legislación y defiende el interés general de la Unión",
+        "Consejo Europeo, porque fija las grandes orientaciones políticas de la UE"
+      ]
+    },
+    "b5-067": {
+      "ca": [
+        "Coordinar els governs estatals mitjançant reunions de ministres per aprovar normes",
+        "Representar directament la ciutadania europea en el procediment legislatiu",
+        "Definir les prioritats polítiques generals i adoptar directament la major part de la legislació"
+      ],
+      "es": [
+        "Coordinar a los gobiernos estatales mediante reuniones de ministros para aprobar normas",
+        "Representar directamente a la ciudadanía europea en el procedimiento legislativo",
+        "Definir las prioridades políticas generales y adoptar directamente la mayor parte de la legislación"
+      ]
+    },
+    "b5-068": {
+      "ca": [
+        "Consell Europeu, perquè agrupa representants dels governs dels Estats membres",
+        "Comissió Europea, perquè els comissaris representen els seus governs d’origen",
+        "Parlament Europeu, perquè la legislació requereix representants elegits"
+      ],
+      "es": [
+        "Consejo Europeo, porque agrupa a representantes de los gobiernos de los Estados miembros",
+        "Comisión Europea, porque los comisarios representan a sus gobiernos de origen",
+        "Parlamento Europeo, porque la legislación requiere representantes elegidos"
+      ]
+    },
+    "b5-069": {
+      "ca": [
+        "El reglament i la directiva són igualment directes, però difereixen en l’òrgan que els aprova",
+        "La directiva s’aplica directament quan fixa un termini i el reglament es transposa quan afecta competències estatals",
+        "El reglament obliga els governs i la directiva obliga únicament els parlaments nacionals"
+      ],
+      "es": [
+        "El reglamento y la directiva son igualmente directos, pero difieren en el órgano que los aprueba",
+        "La directiva se aplica directamente cuando fija un plazo y el reglamento se transpone cuando afecta a competencias estatales",
+        "El reglamento obliga a los gobiernos y la directiva obliga únicamente a los parlamentos nacionales"
+      ]
+    },
+    "b5-070": {
+      "ca": [
+        "Controlar la gestió dels recursos econòmics de la UE com a òrgan auditor",
+        "Vetllar pel compliment polític dels tractats mitjançant orientacions als governs",
+        "Revisar la constitucionalitat de les lleis dels Estats membres segons les seves constitucions"
+      ],
+      "es": [
+        "Controlar la gestión de los recursos económicos de la UE como órgano auditor",
+        "Velar por el cumplimiento político de los tratados mediante orientaciones a los gobiernos",
+        "Revisar la constitucionalidad de las leyes de los Estados miembros según sus constituciones"
+      ]
     }
   }
 }
