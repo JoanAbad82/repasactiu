@@ -1680,6 +1680,126 @@
         "La confidencialidad, restringiendo el intercambio de información entre departamentos para evitar accesos innecesarios",
         "El cumplimiento estricto de cada procedimiento departamental aunque se generen tareas duplicadas"
       ]
+    },
+    "u2b1-141": {
+      "ca": [
+        "Normalització de processos, perquè les dues persones acorden una manera comuna de treballar",
+        "Participació, perquè totes dues intervenen en el repartiment de la feina",
+        "Descentralització, perquè prenen una decisió sense consultar el responsable"
+      ],
+      "es": [
+        "Normalización de procesos, porque ambas personas acuerdan una forma común de trabajar",
+        "Participación, porque ambas intervienen en el reparto del trabajo",
+        "Descentralización, porque toman una decisión sin consultar al responsable"
+      ]
+    },
+    "u2b1-142": {
+      "ca": [
+        "Normalització de processos, perquè el responsable fixa com s’han d’executar els expedients",
+        "Coordinació per resultats, perquè comprova el treball acabat",
+        "Jerarquia formal, perquè tenir un responsable és suficient per definir el mecanisme"
+      ],
+      "es": [
+        "Normalización de procesos, porque el responsable fija cómo deben ejecutarse los expedientes",
+        "Coordinación por resultados, porque comprueba el trabajo terminado",
+        "Jerarquía formal, porque tener un responsable es suficiente para definir el mecanismo"
+      ]
+    },
+    "u2b1-143": {
+      "ca": [
+        "Normalitzat, perquè els passos estan definits i es repeteixen",
+        "Seqüencial ramificat, perquè cada pas depèn de completar l’anterior",
+        "Supervisat, perquè el control del registre pot correspondre a una persona responsable"
+      ],
+      "es": [
+        "Normalizado, porque los pasos están definidos y se repiten",
+        "Secuencial ramificado, porque cada paso depende de completar el anterior",
+        "Supervisado, porque el control del registro puede corresponder a una persona responsable"
+      ]
+    },
+    "u2b1-144": {
+      "ca": [
+        "Lineal, perquè totes les sol·licituds comencen amb la mateixa comprovació",
+        "Normalitzat per resultats, perquè el resultat final és completar la tramitació",
+        "Adaptació mútua, perquè la persona tramitadora adapta el recorregut segons el cas"
+      ],
+      "es": [
+        "Lineal, porque todas las solicitudes empiezan con la misma comprobación",
+        "Normalizado por resultados, porque el resultado final es completar la tramitación",
+        "Adaptación mutua, porque la persona tramitadora adapta el recorrido según el caso"
+      ]
+    },
+    "u2b1-145": {
+      "ca": [
+        "Seleccionar un indicador disponible i convertir-lo en l’objectiu del control",
+        "Mesurar el rendiment actual i definir després què es considera correcte",
+        "Establir una mesura correctora provisional per poder comparar-ne l’efecte"
+      ],
+      "es": [
+        "Seleccionar un indicador disponible y convertirlo en el objetivo del control",
+        "Medir el rendimiento actual y definir después qué se considera correcto",
+        "Establecer una medida correctora provisional para poder comparar su efecto"
+      ]
+    },
+    "u2b1-146": {
+      "ca": [
+        "Indicador de servei, perquè qualsevol opinió d’un usuari mesura satisfacció",
+        "Indicador de procés, perquè l’ordre de l’oficina depèn dels procediments interns",
+        "Indicador d’eficiència, perquè una bona percepció pressuposa ús adequat dels recursos"
+      ],
+      "es": [
+        "Indicador de servicio, porque cualquier opinión de un usuario mide satisfacción",
+        "Indicador de proceso, porque el orden de la oficina depende de los procedimientos internos",
+        "Indicador de eficiencia, porque una buena percepción presupone uso adecuado de los recursos"
+      ]
+    },
+    "u2b1-147": {
+      "ca": [
+        "Poc important, perquè si es pot ajornar no és essencial per al resultat",
+        "Important, perquè formar part de l’objectiu obliga a assumir-la personalment",
+        "Projecte en curs, perquè qualsevol tasca amb marge temporal requereix planificació"
+      ],
+      "es": [
+        "Poco importante, porque si se puede aplazar no es esencial para el resultado",
+        "Importante, porque formar parte del objetivo obliga a asumirla personalmente",
+        "Proyecto en curso, porque cualquier tarea con margen temporal requiere planificación"
+      ]
+    },
+    "u2b1-148": {
+      "ca": [
+        "Rol i estatus, perquè primer es defineix la funció i després la posició",
+        "Autoritat i norma, perquè coordinar implica poder i regles de grup",
+        "Estatus i norma, perquè els comportaments esperats són estàndards compartits"
+      ],
+      "es": [
+        "Rol y estatus, porque primero se define la función y después la posición",
+        "Autoridad y norma, porque coordinar implica poder y reglas de grupo",
+        "Estatus y norma, porque los comportamientos esperados son estándares compartidos"
+      ]
+    },
+    "u2b1-149": {
+      "ca": [
+        "Clima laboral, perquè la confiança i l’ajuda defineixen per si soles l’ambient de treball",
+        "Participació, perquè compartir objectius implica intervenir en totes les decisions",
+        "Sinergia, perquè qualsevol grup unit produeix un resultat superior a la suma individual"
+      ],
+      "es": [
+        "Clima laboral, porque la confianza y la ayuda definen por sí solas el ambiente de trabajo",
+        "Participación, porque compartir objetivos implica intervenir en todas las decisiones",
+        "Sinergia, porque cualquier grupo unido produce un resultado superior a la suma individual"
+      ]
+    },
+    "u2b1-150": {
+      "ca": [
+        "Aplicar supervisió directa perquè un responsable imposi la solució i tanqui el desacord",
+        "Redistribuir les tasques sense abordar les causes per recuperar el ritme de treball",
+        "Posposar la decisió i deixar que el grup normalitzi espontàniament les responsabilitats"
+      ],
+      "es": [
+        "Aplicar supervisión directa para que un responsable imponga la solución y cierre el desacuerdo",
+        "Redistribuir las tareas sin abordar las causas para recuperar el ritmo de trabajo",
+        "Aplazar la decisión y dejar que el grupo normalice espontáneamente las responsabilidades"
+      ]
     }
   }
 }
