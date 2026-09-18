@@ -46,7 +46,7 @@ function blockLabel(){if(selection==='all')return t().all;const bank=banks.find(
 function renderHome(){syncLanguageChrome();els.home.innerHTML=renderHomeHtml(course,banks,computeProgress(banks,state),language());displayScreen('home-screen');}
 function askLeave(){return !session||session.finished||window.confirm(t().leave);}
 function goHome(){if(!askLeave())return;session=null;lastResult=null;if(memoryGame){memoryGame.destroy();memoryGame=null;}renderHome();}
-function openMemoryGame(){if(!askLeave())return;session=null;lastResult=null;if(memoryGame)memoryGame.destroy();memoryGame=createMemoryGame({screen:els.memory,live:els.live,bank:memoryBank});displayScreen('memory-game-screen');els.memory.querySelector('[data-memory-action="home"]')?.addEventListener('click',goHome,{once:true});}
+function openMemoryGame(){if(!askLeave())return;session=null;lastResult=null;if(memoryGame)memoryGame.destroy();memoryGame=createMemoryGame({screen:els.memory,live:els.live,bank:memoryBank,onHome:goHome});displayScreen('memory-game-screen');}
 
 function setupContext(){
  const base=setup.review?allQuestions():selectedQuestions();const pool=setup.review?rankReviewQuestions(base,state.errorScores):base;const pendingReview=base.filter(q=>(state.errorScores[q.id]||0)>0).length;
