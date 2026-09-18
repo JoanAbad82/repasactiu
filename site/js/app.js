@@ -119,5 +119,5 @@ async function init(){try{syncTheme();syncLanguageChrome();[course,memoryBank]=a
  if(bank.blockId!==meta.id)throw new Error('El banc no correspon al bloc declarat al curs.');
  bank=applyContentCorrections(bank,corrections);
  return {...bank,hardDistractors:hard.questions,blockTitleEs:meta.titleEs||bank.blockTitleEs,unitId:meta.unitId,unitTitle:meta.unitTitle,unitTitleEs:meta.unitTitleEs,blockNumber:meta.blockNumber};
-}));bindGlobal();renderHome();}catch(error){syncLanguageChrome();els.home.innerHTML=`<div class="error-message"><strong>${t().loadError}</strong><p>${t().retry}</p></div>`;console.error(error);}}
+}));bindGlobal();els.memoryLink.disabled=false;els.memoryLink.setAttribute('aria-disabled','false');renderHome();}catch(error){syncLanguageChrome();els.home.innerHTML=`<div class="error-message"><strong>${t().loadError}</strong><p>${t().retry}</p></div>`;console.error(error);}}
 init();
