@@ -7,13 +7,13 @@ test('Tarjetas de memoria mostra selector bilingüe amb 638 targetes',async({pag
   await expect(page.getByRole('heading',{name:'Targetes de memòria'})).toBeVisible();
   await expect(page.getByText('638 targetes disponibles')).toBeVisible();
   await expect(page.locator('[data-study-block]')).toHaveCount(7);
-  await expect(page.getByText('Unitat 1 — Organització empresarial',{exact:true})).toBeVisible();
+  await expect(page.locator('[data-study-unit="unitat-1"] h2')).toHaveText('Unitat 1 — Organització empresarial');
 
   await page.locator('#language-es').click();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.getByRole('heading',{name:'Tarjetas de memoria'})).toBeVisible();
   await expect(page.getByText('638 tarjetas disponibles')).toBeVisible();
-  await expect(page.getByText('Unidad 1 — Organización empresarial',{exact:true})).toBeVisible();
+  await expect(page.locator('[data-study-unit="unitat-1"] h2')).toHaveText('Unidad 1 — Organización empresarial');
 });
 
 test('els recomptes per bloc inclouen test + extra',async({page})=>{
@@ -85,7 +85,7 @@ test('canviar CA/ES durant el repàs conserva la mateixa targeta',async({page})=
   await expect(page.locator('[data-study-card]')).toHaveAttribute('data-study-id',id);
   const esQuestion=await page.locator('[data-study-question]').textContent();
   expect(esQuestion).not.toBe(caQuestion);
-  await expect(page.getByText('RESPUESTA',{exact:true})).toHaveCount(0);
+  await expect(page.locator('[data-study-card]')).toHaveAttribute('aria-pressed','false');
 });
 
 test('siguiente canvia de targeta i sempre torna a la pregunta',async({page})=>{
