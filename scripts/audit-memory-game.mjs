@@ -11,7 +11,7 @@ const normalize=value=>String(value??'')
   .replace(/[^\p{L}\p{N}]+/gu,' ')
   .trim().toLocaleLowerCase('es');
 
-const catalanLeak=/\b(?:què|aquest|aquesta|aquests|aquestes|amb|perquè|dins|treball|funció|preguntes|persones|organització|empresa pública|empresa privada|ajuntament)\b/iu;
+const catalanLeak=/(?<!\\p{L})(?:què|aquest|aquesta|aquests|aquestes|amb|perquè|dins|treball|funció|preguntes|persones|organització|ajuntament)(?!\\p{L})/iu;
 
 export async function runMemoryGameAudit(){
   const bank=await readJson('memory-game-es.json');
