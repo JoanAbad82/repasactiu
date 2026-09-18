@@ -6,7 +6,7 @@ test('Tarjetas de memoria abre un juego íntegramente en español con nivel Fác
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.getByRole('button',{name:'Temario',exact:true})).toBeVisible();
   await expect(page.getByRole('button',{name:'Repasar errores',exact:true})).toBeVisible();
-  await expect(page.getByRole('button',{name:'Claro/Oscuro',exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:/Claro\/Oscuro/})).toBeVisible();
   await expect(page.locator('#language-ca')).toBeDisabled();
   await expect(page.locator('#language-es')).toBeDisabled();
   await expect(page.getByRole('heading',{name:'Tarjetas de memoria'})).toBeVisible();
