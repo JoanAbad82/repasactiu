@@ -86,7 +86,7 @@ function cardHtml(card){
   </button>`;
 }
 
-export function createMemoryGame({screen,live,bank,random=Math.random}){
+export function createMemoryGame({screen,live,bank,random=Math.random,onHome=()=>{}}){
   let level='easy';
   let cards=[];
   let firstId=null;
@@ -217,7 +217,6 @@ export function createMemoryGame({screen,live,bank,random=Math.random}){
       return;
     }
     lock=true;
-    second.classList;
     sound(false);
     syncAll();
     live.textContent='No coinciden.';
@@ -258,6 +257,7 @@ export function createMemoryGame({screen,live,bank,random=Math.random}){
     const cardButton=event.target.closest('[data-memory-card]');
     if(cardButton){choose(cardButton.dataset.cardId);return;}
     const action=event.target.closest('[data-memory-action]')?.dataset.memoryAction;
+    if(action==='home'){onHome();return;}
     if(action==='restart'){newRound();return;}
     if(action==='level'){level=level==='easy'?'difficult':'easy';newRound();return;}
     if(action==='hint'){hint();return;}
