@@ -2,13 +2,203 @@
   "blockId": "bloc-1",
   "blockTitle": "Entidades públicas y privadas",
   "questions": {
-    "b1-043":{"topic":"Entidades públicas y privadas","question":"Un organismo creado por una administración presta un servicio de interés general y se financia sobre todo con impuestos y tasas. ¿Qué clasificación encaja con el material?","options":["Entidad pública","Entidad privada lucrativa","Entidad privada no lucrativa","Empresa privada financiada solo con ventas"],"explanation":"Las entidades públicas son creadas o gestionadas por una administración, se financian principalmente con recursos públicos y prestan servicios de interés general."},
-    "b1-044":{"topic":"Entidades públicas y privadas","question":"Una fundación creada por particulares se financia con aportaciones privadas y no reparte beneficios. ¿Qué hecho es compatible con el temario?","options":["Por no tener lucro, debe ser pública","Puede ser una entidad privada sin finalidad lucrativa","Solo puede existir si la gestiona una administración","Debe financiarse principalmente con impuestos"],"explanation":"El material indica que las entidades privadas pueden tener finalidad lucrativa o no lucrativa y se financian principalmente con recursos privados."},
-    "b1-045":{"topic":"Atención al cliente","question":"Los clientes envían sugerencias sobre un servicio y la empresa las utiliza para introducir mejoras. ¿Qué función empresarial tiene un papel directo?","options":["Función financiera","Función de dirección","Atención al cliente","Recursos Humanos"],"explanation":"La atención al cliente recoge información, opiniones y sugerencias que pueden servir para mejorar los productos y servicios."},
-    "b1-046":{"topic":"Dirección y función financiera","question":"La dirección quiere realizar una inversión y necesita saber si hay recursos económicos suficientes. ¿Qué combinación de funciones describe mejor la situación?","options":["Recursos Humanos contrata y ventas fija los objetivos","Administración decide la inversión y atención al cliente la financia","Comercialización aprueba la inversión y dirección archiva los documentos","Dirección toma la decisión y la función financiera gestiona los recursos económicos"],"explanation":"La dirección coordina y toma decisiones, mientras que la función financiera gestiona los recursos económicos y la financiación."},
-    "b1-047":{"topic":"Función administrativa","question":"En una oficina hay que ordenar facturas, actualizar información y mantener la documentación localizable. ¿Qué función concentra estas tareas?","options":["Función administrativa","Comercialización","Ventas","Función financiera"],"explanation":"La función administrativa agrupa actividades relacionadas con la organización de documentos, información y tareas administrativas."},
-    "b1-048":{"topic":"Recursos Humanos y comercialización","question":"La empresa prepara una formación para el personal y, por separado, una campaña para dar a conocer un servicio. ¿Qué funciones intervienen respectivamente?","options":["Ventas y administración","Recursos Humanos y comercialización","Financiera y atención al cliente","Dirección y Recursos Humanos"],"explanation":"Recursos Humanos gestiona la formación de los trabajadores, mientras que la comercialización da a conocer y promociona productos o servicios."},
-    "b1-049":{"topic":"Control y responsabilidad","question":"Una responsable comprueba si el trabajo se ha realizado según lo previsto y detecta desviaciones. ¿Qué principio funcional está aplicando?","options":["Comercialización","Atención al cliente","Control","Financiación privada"],"explanation":"El control permite comprobar si las actividades se desarrollan de acuerdo con los objetivos y criterios establecidos y detectar desviaciones."},
-    "b1-050":{"topic":"Comercialización y ventas","question":"Una empresa primero hace una campaña para dar a conocer un producto y después gestiona su venta a los clientes. ¿Qué relación describe mejor las dos funciones?","options":["Administración promociona y Recursos Humanos vende","Finanzas promociona y dirección atiende reclamaciones","Ventas da a conocer y administración fija precios","Comercialización promociona y ventas gestiona la operación de venta"],"explanation":"La comercialización se orienta a dar a conocer y promocionar la oferta, mientras que ventas se ocupa de la actividad de venta."}
+    "b1-043": {
+      "topic": "Entidades públicas y privadas",
+      "question": "Un organismo creado por una administración presta un servicio de interés general y se financia sobre todo con impuestos y tasas. ¿Qué clasificación encaja con el material?",
+      "options": [
+        "Entidad pública",
+        "Entidad privada lucrativa",
+        "Entidad privada no lucrativa",
+        "Empresa privada financiada solo con ventas"
+      ],
+      "explanation": "Las entidades públicas son creadas o gestionadas por una administración, se financian principalmente con recursos públicos y prestan servicios de interés general."
+    },
+    "b1-044": {
+      "topic": "Entidades públicas y privadas",
+      "question": "Una fundación creada por particulares se financia con aportaciones privadas y no reparte beneficios. ¿Qué hecho es compatible con el temario?",
+      "options": [
+        "Por no tener lucro, debe ser pública",
+        "Puede ser una entidad privada sin finalidad lucrativa",
+        "Solo puede existir si la gestiona una administración",
+        "Debe financiarse principalmente con impuestos"
+      ],
+      "explanation": "El material indica que las entidades privadas pueden tener finalidad lucrativa o no lucrativa y se financian principalmente con recursos privados."
+    },
+    "b1-045": {
+      "topic": "Atención al cliente",
+      "question": "Los clientes envían sugerencias sobre un servicio y la empresa las utiliza para introducir mejoras. ¿Qué función empresarial tiene un papel directo?",
+      "options": [
+        "Función financiera",
+        "Función de dirección",
+        "Atención al cliente",
+        "Recursos Humanos"
+      ],
+      "explanation": "La atención al cliente recoge información, opiniones y sugerencias que pueden servir para mejorar los productos y servicios."
+    },
+    "b1-046": {
+      "topic": "Dirección y función financiera",
+      "question": "La dirección quiere realizar una inversión y necesita saber si hay recursos económicos suficientes. ¿Qué combinación de funciones describe mejor la situación?",
+      "options": [
+        "Recursos Humanos contrata y ventas fija los objetivos",
+        "Administración decide la inversión y atención al cliente la financia",
+        "Comercialización aprueba la inversión y dirección archiva los documentos",
+        "Dirección toma la decisión y la función financiera gestiona los recursos económicos"
+      ],
+      "explanation": "La dirección coordina y toma decisiones, mientras que la función financiera gestiona los recursos económicos y la financiación."
+    },
+    "b1-047": {
+      "topic": "Función administrativa",
+      "question": "En una oficina hay que ordenar facturas, actualizar información y mantener la documentación localizable. ¿Qué función concentra estas tareas?",
+      "options": [
+        "Función administrativa",
+        "Comercialización",
+        "Ventas",
+        "Función financiera"
+      ],
+      "explanation": "La función administrativa agrupa actividades relacionadas con la organización de documentos, información y tareas administrativas."
+    },
+    "b1-048": {
+      "topic": "Recursos Humanos y comercialización",
+      "question": "La empresa prepara una formación para el personal y, por separado, una campaña para dar a conocer un servicio. ¿Qué funciones intervienen respectivamente?",
+      "options": [
+        "Ventas y administración",
+        "Recursos Humanos y comercialización",
+        "Financiera y atención al cliente",
+        "Dirección y Recursos Humanos"
+      ],
+      "explanation": "Recursos Humanos gestiona la formación de los trabajadores, mientras que la comercialización da a conocer y promociona productos o servicios."
+    },
+    "b1-049": {
+      "topic": "Control y responsabilidad",
+      "question": "Una responsable comprueba si el trabajo se ha realizado según lo previsto y detecta desviaciones. ¿Qué principio funcional está aplicando?",
+      "options": [
+        "Comercialización",
+        "Atención al cliente",
+        "Control",
+        "Financiación privada"
+      ],
+      "explanation": "El control permite comprobar si las actividades se desarrollan de acuerdo con los objetivos y criterios establecidos y detectar desviaciones."
+    },
+    "b1-050": {
+      "topic": "Comercialización y ventas",
+      "question": "Una empresa primero hace una campaña para dar a conocer un producto y después gestiona su venta a los clientes. ¿Qué relación describe mejor las dos funciones?",
+      "options": [
+        "Administración promociona y Recursos Humanos vende",
+        "Finanzas promociona y dirección atiende reclamaciones",
+        "Ventas da a conocer y administración fija precios",
+        "Comercialización promociona y ventas gestiona la operación de venta"
+      ],
+      "explanation": "La comercialización se orienta a dar a conocer y promocionar la oferta, mientras que ventas se ocupa de la actividad de venta."
+    },
+    "b1-051": {
+      "topic": "Entidades públicas y privadas",
+      "question": "Un servicio es creado y gestionado por un ayuntamiento, presta una actividad de interés general y se financia principalmente con tasas y presupuesto público. ¿Cómo debe clasificarse?",
+      "options": [
+        "Entidad pública",
+        "Entidad privada lucrativa",
+        "Entidad privada no lucrativa",
+        "Cooperativa privada"
+      ],
+      "explanation": "Una entidad creada o gestionada por una administración, financiada principalmente con recursos públicos y orientada al interés general es una entidad pública."
+    },
+    "b1-052": {
+      "topic": "Función de dirección",
+      "question": "Dos departamentos reciben instrucciones incompatibles sobre una misma prioridad. ¿Qué función empresarial debe intervenir principalmente para coordinarlos y tomar una decisión?",
+      "options": [
+        "Función financiera",
+        "Función de dirección",
+        "Atención al cliente",
+        "Función de ventas"
+      ],
+      "explanation": "La dirección coordina los distintos departamentos y toma decisiones importantes para el funcionamiento de la empresa."
+    },
+    "b1-053": {
+      "topic": "Función financiera",
+      "question": "Antes de autorizar un gasto elevado, la empresa necesita saber qué dinero tiene disponible y cómo puede financiarse. ¿Qué función aporta esta información?",
+      "options": [
+        "Comercialización",
+        "Recursos Humanos",
+        "Función financiera",
+        "Atención al cliente"
+      ],
+      "explanation": "La función financiera gestiona el dinero, la financiación y el control de los recursos económicos de la empresa."
+    },
+    "b1-054": {
+      "topic": "Recursos Humanos",
+      "question": "La empresa implanta un programa nuevo y prepara una formación para que la plantilla aprenda a utilizarlo. ¿Qué función empresarial asume principalmente esta tarea?",
+      "options": [
+        "Ventas",
+        "Administración",
+        "Comercialización",
+        "Recursos Humanos"
+      ],
+      "explanation": "Recursos Humanos gestiona, entre otros aspectos, la formación y la organización de las personas trabajadoras."
+    },
+    "b1-055": {
+      "topic": "Comercialización y ventas",
+      "question": "Una empresa todavía no ha recibido ningún pedido, pero inicia una campaña para dar a conocer un servicio nuevo. ¿Qué función actúa en esta fase?",
+      "options": [
+        "Comercialización",
+        "Ventas",
+        "Función financiera",
+        "Administración"
+      ],
+      "explanation": "La comercialización se encarga de dar a conocer y promocionar productos o servicios; ventas gestiona posteriormente las operaciones de venta y los pedidos."
+    },
+    "b1-056": {
+      "topic": "Atención al cliente",
+      "question": "Varios clientes comunican la misma incidencia y la empresa utiliza esos avisos para modificar el servicio. ¿Qué función ha aportado la información clave para la mejora?",
+      "options": [
+        "Función financiera",
+        "Atención al cliente",
+        "Recursos Humanos",
+        "Ventas"
+      ],
+      "explanation": "Atención al cliente recoge información, opiniones y sugerencias que pueden ayudar a mejorar productos y servicios."
+    },
+    "b1-057": {
+      "topic": "Función administrativa",
+      "question": "Una auxiliar ordena contratos, actualiza datos y comprueba que la documentación pueda localizarse cuando sea necesario. ¿Qué función está desarrollando principalmente?",
+      "options": [
+        "Dirección",
+        "Función financiera",
+        "Función administrativa",
+        "Comercialización"
+      ],
+      "explanation": "La función administrativa incluye organizar documentos, gestionar información, coordinar tareas y facilitar el funcionamiento de la empresa."
+    },
+    "b1-058": {
+      "topic": "Principio de responsabilidad",
+      "question": "Una tarea importante queda sin hacer porque dos personas pensaban que correspondía a la otra. ¿Qué principio de las funciones empresariales se ha aplicado mal?",
+      "options": [
+        "Control de la organización",
+        "Comercialización",
+        "Financiación",
+        "Responsabilidad"
+      ],
+      "explanation": "El principio de responsabilidad exige que cada persona asuma sus funciones y responsabilidades y trabaje coordinadamente con el equipo."
+    },
+    "b1-059": {
+      "topic": "Canales de atención al cliente",
+      "question": "Un cliente necesita resolver una incidencia urgente y obtener una respuesta directa en ese momento. ¿Qué canal del temario encaja mejor?",
+      "options": [
+        "Atención telefónica",
+        "Correo postal",
+        "Página web informativa",
+        "Archivo administrativo"
+      ],
+      "explanation": "La atención telefónica permite resolver dudas e incidencias de manera directa y rápida."
+    },
+    "b1-060": {
+      "topic": "Principio de control de la organización",
+      "question": "Una responsable revisa si las actividades de los equipos siguen la organización prevista y corrige desajustes entre tareas. ¿Qué principio está aplicando?",
+      "options": [
+        "Principio de responsabilidad",
+        "Principio de control de la organización",
+        "Función de comercialización",
+        "Función de ventas"
+      ],
+      "explanation": "El principio de control de la organización permite supervisar, coordinar y organizar las actividades para que la empresa funcione correctamente."
+    }
   }
 }

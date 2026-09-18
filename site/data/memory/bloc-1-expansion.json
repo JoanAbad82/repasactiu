@@ -1,13 +1,95 @@
 {
   "blockId": "bloc-1",
   "questions": {
-    "b1-043":{"type":"example","ca":"Ajuntament o hospital públic: gestió pública, recursos públics i servei d’interès general.","es":"Ayuntamiento u hospital público: gestión pública, recursos públicos y servicio de interés general."},
-    "b1-044":{"type":"example","ca":"Una fundació privada pot no repartir beneficis i continuar sent una entitat privada.","es":"Una fundación privada puede no repartir beneficios y seguir siendo una entidad privada."},
-    "b1-045":{"type":"example","ca":"Una queixa ben recollida pot convertir-se en una millora del servei.","es":"Una queja bien recogida puede convertirse en una mejora del servicio."},
-    "b1-046":{"type":"example","ca":"Direcció decideix comprar una màquina; finances comprova i gestiona els diners disponibles.","es":"Dirección decide comprar una máquina; finanzas comprueba y gestiona el dinero disponible."},
-    "b1-047":{"type":"example","ca":"Arxivar factures i mantenir dades ordenades són tasques administratives.","es":"Archivar facturas y mantener datos ordenados son tareas administrativas."},
-    "b1-048":{"type":"example","ca":"Formar personal és RRHH; anunciar un nou servei és comercialització.","es":"Formar al personal es RR. HH.; anunciar un nuevo servicio es comercialización."},
-    "b1-049":{"type":"idea","ca":"Controlar és comparar el que es fa amb el que s’havia previst i detectar desviacions.","es":"Controlar es comparar lo realizado con lo previsto y detectar desviaciones."},
-    "b1-050":{"type":"example","ca":"Un anunci dona a conèixer el producte; després, la venda concreta l’operació amb el client.","es":"Un anuncio da a conocer el producto; después, la venta concreta la operación con el cliente."}
+    "b1-043": {
+      "type": "example",
+      "ca": "Ajuntament o hospital públic: gestió pública, recursos públics i servei d’interès general.",
+      "es": "Ayuntamiento u hospital público: gestión pública, recursos públicos y servicio de interés general."
+    },
+    "b1-044": {
+      "type": "example",
+      "ca": "Una fundació privada pot no repartir beneficis i continuar sent una entitat privada.",
+      "es": "Una fundación privada puede no repartir beneficios y seguir siendo una entidad privada."
+    },
+    "b1-045": {
+      "type": "example",
+      "ca": "Una queixa ben recollida pot convertir-se en una millora del servei.",
+      "es": "Una queja bien recogida puede convertirse en una mejora del servicio."
+    },
+    "b1-046": {
+      "type": "example",
+      "ca": "Direcció decideix comprar una màquina; finances comprova i gestiona els diners disponibles.",
+      "es": "Dirección decide comprar una máquina; finanzas comprueba y gestiona el dinero disponible."
+    },
+    "b1-047": {
+      "type": "example",
+      "ca": "Arxivar factures i mantenir dades ordenades són tasques administratives.",
+      "es": "Archivar facturas y mantener datos ordenados son tareas administrativas."
+    },
+    "b1-048": {
+      "type": "example",
+      "ca": "Formar personal és RRHH; anunciar un nou servei és comercialització.",
+      "es": "Formar al personal es RR. HH.; anunciar un nuevo servicio es comercialización."
+    },
+    "b1-049": {
+      "type": "idea",
+      "ca": "Controlar és comparar el que es fa amb el que s’havia previst i detectar desviacions.",
+      "es": "Controlar es comparar lo realizado con lo previsto y detectar desviaciones."
+    },
+    "b1-050": {
+      "type": "example",
+      "ca": "Un anunci dona a conèixer el producte; després, la venda concreta l’operació amb el client.",
+      "es": "Un anuncio da a conocer el producto; después, la venta concreta la operación con el cliente."
+    },
+    "b1-051": {
+      "type": "example",
+      "ca": "Ajuntament + recursos públics + interès general → entitat pública.",
+      "es": "Ayuntamiento + recursos públicos + interés general → entidad pública."
+    },
+    "b1-052": {
+      "type": "idea",
+      "ca": "Direcció = coordinar departaments + prendre decisions importants.",
+      "es": "Dirección = coordinar departamentos + tomar decisiones importantes."
+    },
+    "b1-053": {
+      "type": "idea",
+      "ca": "Finances respon: quins recursos econòmics tenim i com els financem?",
+      "es": "Finanzas responde: ¿qué recursos económicos tenemos y cómo los financiamos?"
+    },
+    "b1-054": {
+      "type": "example",
+      "ca": "Contractar, formar i organitzar persones → Recursos Humans.",
+      "es": "Contratar, formar y organizar personas → Recursos Humanos."
+    },
+    "b1-055": {
+      "type": "idea",
+      "ca": "Comercialització promociona; vendes concreta la venda i la comanda.",
+      "es": "Comercialización promociona; ventas concreta la venta y el pedido."
+    },
+    "b1-056": {
+      "type": "example",
+      "ca": "Una incidència repetida pot convertir-se en informació útil per millorar el servei.",
+      "es": "Una incidencia repetida puede convertirse en información útil para mejorar el servicio."
+    },
+    "b1-057": {
+      "type": "idea",
+      "ca": "Documents + informació + coordinació de tasques = funció administrativa.",
+      "es": "Documentos + información + coordinación de tareas = función administrativa."
+    },
+    "b1-058": {
+      "type": "idea",
+      "ca": "Responsabilitat: cadascú sap què li correspon i n’assumeix el resultat.",
+      "es": "Responsabilidad: cada persona sabe qué le corresponde y asume el resultado."
+    },
+    "b1-059": {
+      "type": "example",
+      "ca": "Urgència + resposta directa = telèfon.",
+      "es": "Urgencia + respuesta directa = teléfono."
+    },
+    "b1-060": {
+      "type": "idea",
+      "ca": "Control de l’organització = supervisar + coordinar + organitzar el conjunt.",
+      "es": "Control de la organización = supervisar + coordinar + organizar el conjunto."
+    }
   }
 }
