@@ -16,7 +16,7 @@ const chromeCopy={
  es:{syllabus:'Temario',review:'Repasar errores',theme:'Claro/Oscuro',themeAria:'Claro/Oscuro — cambiar modo de color',nav:'Navegación principal',language:'Idioma',all:'Todo el temario disponible',syllabusFallback:'Temario',block:'Bloque',leave:'¿Quieres abandonar el test en curso?',correct:'Respuesta correcta',incorrect:'Respuesta incorrecta',back:'← Volver',emptyTitle:'Todavía no tienes preguntas pendientes de repaso',emptyText:'Cuando falles alguna pregunta, aparecerá aquí para reforzarla.',reset:'¿Quieres borrar el historial, las estadísticas y los errores pendientes?',loadError:'No se ha podido cargar el temario.',retry:'Vuelve a intentarlo.'}
 };
 
-let course=null,banks=[],memoryBank=null,memoryGame=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
+let course=null,banks=[],memoryBank=null,memoryGame=null,memoryPreviousLanguage=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
 const prefersDark=()=>window.matchMedia?.('(prefers-color-scheme: dark)').matches??false;
 const language=()=>state.language==='es'?'es':'ca';
 const t=()=>chromeCopy[language()];
@@ -45,15 +45,36 @@ function bankLabel(bank,lang=language()){const word=lang==='es'?'Bloque':'Bloc';
 function blockLabel(){if(selection==='all')return t().all;const bank=banks.find(x=>x.blockId===selection);return bank?bankLabel(bank):t().syllabusFallback;}
 function renderHome(){syncLanguageChrome();els.home.innerHTML=renderHomeHtml(course,banks,computeProgress(banks,state),language());displayScreen('home-screen');}
 function askLeave(){return !session||session.finished||window.confirm(t().leave);}
-function goHome(){if(!askLeave())return;session=null;lastResult=null;if(memoryGame){memoryGame.destroy();memoryGame=null;}renderHome();}
-function openMemoryGame(){if(!askLeave())return;session=null;lastResult=null;if(memoryGame)memoryGame.destroy();memoryGame=createMemoryGame({screen:els.memory,live:els.live,bank:memoryBank,onHome:goHome});displayScreen('memory-game-screen');}
+function exitMemoryMode(){
+ if(memoryGame){memoryGame.destroy();memoryGame=null;}
+ if(memoryPreviousLanguage!==null){
+  state.language=memoryPreviousLanguage;
+  memoryPreviousLanguage=null;
+ }
+ els.langCa.disabled=false;
+ els.langEs.disabled=false;
+ syncLanguageChrome();
+}
+function goHome(){if(!askLeave())return;session=null;lastResult=null;exitMemoryMode();renderHome();}
+function openMemoryGame(){
+ if(!askLeave())return;
+ session=null;lastResult=null;
+ if(memoryGame)memoryGame.destroy();
+ if(memoryPreviousLanguage===null)memoryPreviousLanguage=state.language;
+ state.language='es';
+ els.langCa.disabled=true;
+ els.langEs.disabled=true;
+ syncLanguageChrome();
+ memoryGame=createMemoryGame({screen:els.memory,live:els.live,bank:memoryBank,onHome:goHome});
+ displayScreen('memory-game-screen');
+}
 
 function setupContext(){
  const base=setup.review?allQuestions():selectedQuestions();const pool=setup.review?rankReviewQuestions(base,state.errorScores):base;const pendingReview=base.filter(q=>(state.errorScores[q.id]||0)>0).length;
  return {base,pool,pendingReview};
 }
 function renderSetupScreen(){const {pool,pendingReview}=setupContext();els.setup.innerHTML=renderSetupHtml({label:setup.review?t().review:blockLabel(),...setup,available:pool.length,pendingReview},language());displayScreen('setup-screen');bindSetup();}
-function openSetup(sel,review=false){if(!askLeave())return;selection=sel;setup={mode:'study',count:10,penaltyEnabled:false,review};renderSetupScreen();}
+function openSetup(sel,review=false){if(!askLeave())return;exitMemoryMode();selection=sel;setup={mode:'study',count:10,penaltyEnabled:false,review};renderSetupScreen();}
 function bindSetup(){
  els.setup.querySelector('[data-action="home"]')?.addEventListener('click',goHome);
  els.setup.onchange=e=>{if(e.target.name==='mode'){setup.mode=e.target.value;const field=els.setup.querySelector('#penalty-field');if(field)field.hidden=!isExamMode(setup.mode);}if(e.target.name==='count')setup.count=e.target.value==='all'?'all':Number(e.target.value);if(e.target.name==='penalty')setup.penaltyEnabled=e.target.value==='on';};
