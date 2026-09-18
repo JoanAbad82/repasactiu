@@ -1,0 +1,624 @@
+{
+  "version": 2,
+  "language": "es",
+  "sources": {
+    "B1": {
+      "file": "1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf",
+      "pages": 19
+    },
+    "B2": {
+      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf",
+      "pages": 33
+    },
+    "B3": {
+      "file": "3_Lestructura_empresa_organigrames_BLOC_3.pdf",
+      "pages": 35
+    },
+    "B4": {
+      "file": "Els departaments_BLOC 4.pdf",
+      "pages": 34
+    },
+    "B5": {
+      "file": "5 .Organització bàsica de lEstat i la Unió Europea_BLOC_5.pdf",
+      "pages": 24
+    },
+    "U2B1": {
+      "file": "Unitat 2_Lorganització dels RRHH.pdf",
+      "pages": 119
+    },
+    "UF0518_B1": {
+      "file": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf",
+      "pages": 28
+    }
+  },
+  "cards": [
+    {
+      "id": "sc-b1-01",
+      "blockId": "bloc-1",
+      "question": "¿Qué canal deja constancia escrita y permite responder sin coincidir en el mismo momento?",
+      "answer": "Correo electrónico",
+      "mnemonic": "Email = escrito + no hace falta coincidir.",
+      "source": {
+        "id": "B1",
+        "pages": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "id": "sc-b1-02",
+      "blockId": "bloc-1",
+      "question": "¿Qué canal permite resolver una incidencia de forma directa y rápida?",
+      "answer": "Atención telefónica",
+      "mnemonic": "Urgente y directo → teléfono.",
+      "source": {
+        "id": "B1",
+        "pages": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "id": "sc-b1-03",
+      "blockId": "bloc-1",
+      "question": "¿Cómo se llaman los recursos procedentes de impuestos, tasas o presupuestos de las administraciones?",
+      "answer": "Fondos públicos",
+      "mnemonic": "Impuestos y tasas = dinero público.",
+      "source": {
+        "id": "B1",
+        "pages": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "sc-b1-04",
+      "blockId": "bloc-1",
+      "question": "¿Qué tipo de entidad puede tener finalidad lucrativa o no lucrativa y está gestionada por particulares?",
+      "answer": "Entidad privada",
+      "mnemonic": "Particulares → entidad privada.",
+      "source": {
+        "id": "B1",
+        "pages": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "sc-b1-05",
+      "blockId": "bloc-1",
+      "question": "¿Qué área gestiona la contratación, la formación y la organización de las personas trabajadoras?",
+      "answer": "Recursos Humanos",
+      "mnemonic": "Personas → Recursos Humanos.",
+      "source": {
+        "id": "B1",
+        "pages": [
+          11,
+          13
+        ]
+      }
+    },
+    {
+      "id": "sc-b1-06",
+      "blockId": "bloc-1",
+      "question": "¿Qué función da a conocer y promociona productos o servicios antes de concretar la venta?",
+      "answer": "Comercialización",
+      "mnemonic": "Primero promociona; después vende.",
+      "source": {
+        "id": "B1",
+        "pages": [
+          11,
+          13
+        ]
+      }
+    },
+    {
+      "id": "sc-b2-01",
+      "blockId": "bloc-2",
+      "question": "¿Qué tipo de sociedad tiene el capital social dividido en participaciones?",
+      "answer": "Sociedad Limitada (S. L.)",
+      "mnemonic": "Participaciones → Sociedad Limitada.",
+      "source": {
+        "id": "B2",
+        "pages": [
+          11,
+          11
+        ]
+      }
+    },
+    {
+      "id": "sc-b2-02",
+      "blockId": "bloc-2",
+      "question": "¿Cómo se denomina una entidad cuyos posibles beneficios se destinan a sus objetivos y no se reparten?",
+      "answer": "Entidad sin ánimo de lucro",
+      "mnemonic": "No reparte beneficios → sin ánimo de lucro.",
+      "source": {
+        "id": "B2",
+        "pages": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "sc-b2-03",
+      "blockId": "bloc-2",
+      "question": "¿Qué tipo de jerarquía se basa en la experiencia, la antigüedad o el prestigio sin depender de un cargo de mando?",
+      "answer": "Jerarquía de rango",
+      "mnemonic": "Prestigio y antigüedad → rango.",
+      "source": {
+        "id": "B2",
+        "pages": [
+          24,
+          24
+        ]
+      }
+    },
+    {
+      "id": "sc-b2-04",
+      "blockId": "bloc-2",
+      "question": "¿Qué acción administrativa consiste en definir objetivos y decidir las acciones necesarias para alcanzarlos?",
+      "answer": "Planificar",
+      "mnemonic": "Objetivo + acciones → planificar.",
+      "source": {
+        "id": "B2",
+        "pages": [
+          29,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sc-b2-05",
+      "blockId": "bloc-2",
+      "question": "¿Qué acción administrativa consiste en distribuir tareas, recursos y responsabilidades?",
+      "answer": "Organizar",
+      "mnemonic": "Repartir recursos y tareas → organizar.",
+      "source": {
+        "id": "B2",
+        "pages": [
+          29,
+          31
+        ]
+      }
+    },
+    {
+      "id": "sc-b2-06",
+      "blockId": "bloc-2",
+      "question": "¿Qué acción administrativa consiste en revisar y verificar actividades, procedimientos y resultados?",
+      "answer": "Auditar",
+      "mnemonic": "Revisar y verificar → auditar.",
+      "source": {
+        "id": "B2",
+        "pages": [
+          31,
+          31
+        ]
+      }
+    },
+    {
+      "id": "sc-b3-01",
+      "blockId": "bloc-3",
+      "question": "¿Qué principio ayuda a evitar errores, duplicidades y fallos de comunicación entre personas y departamentos?",
+      "answer": "Coordinación",
+      "mnemonic": "Coordinar = hacer que las piezas encajen.",
+      "source": {
+        "id": "B3",
+        "pages": [
+          11,
+          13
+        ]
+      }
+    },
+    {
+      "id": "sc-b3-02",
+      "blockId": "bloc-3",
+      "question": "¿Qué principio consiste en asignar tareas o capacidad de decisión manteniendo la responsabilidad general?",
+      "answer": "Delegación",
+      "mnemonic": "Delego la tarea, no la responsabilidad final.",
+      "source": {
+        "id": "B3",
+        "pages": [
+          12,
+          14
+        ]
+      }
+    },
+    {
+      "id": "sc-b3-03",
+      "blockId": "bloc-3",
+      "question": "¿Qué principio distribuye la capacidad de decidir entre distintos niveles o áreas?",
+      "answer": "Descentralización",
+      "mnemonic": "Decisiones repartidas → descentralización.",
+      "source": {
+        "id": "B3",
+        "pages": [
+          14,
+          17
+        ]
+      }
+    },
+    {
+      "id": "sc-b3-04",
+      "blockId": "bloc-3",
+      "question": "¿Qué principio asigna tareas según conocimientos, habilidades y experiencia?",
+      "answer": "Especialización",
+      "mnemonic": "Cada cual en lo que mejor domina.",
+      "source": {
+        "id": "B3",
+        "pages": [
+          9,
+          11
+        ]
+      }
+    },
+    {
+      "id": "sc-b3-05",
+      "blockId": "bloc-3",
+      "question": "¿Cómo se llama la red de relaciones espontáneas que no figura oficialmente en la estructura de la empresa?",
+      "answer": "Organización informal",
+      "mnemonic": "Espontáneo y no oficial → informal.",
+      "source": {
+        "id": "B3",
+        "pages": [
+          6,
+          9
+        ]
+      }
+    },
+    {
+      "id": "sc-b3-06",
+      "blockId": "bloc-3",
+      "question": "¿Qué requisito exige modificar el organigrama cuando cambian cargos, áreas o dependencias?",
+      "answer": "Organigrama actualizado",
+      "mnemonic": "Si cambia la empresa, cambia el organigrama.",
+      "source": {
+        "id": "B3",
+        "pages": [
+          25,
+          34
+        ]
+      }
+    },
+    {
+      "id": "sc-b4-01",
+      "blockId": "bloc-4",
+      "question": "¿Qué departamento gestiona proveedores, pedidos y aprovisionamiento de materiales?",
+      "answer": "Departamento de Compras",
+      "mnemonic": "Proveedor y pedido → Compras.",
+      "source": {
+        "id": "B4",
+        "pages": [
+          7,
+          12
+        ]
+      }
+    },
+    {
+      "id": "sc-b4-02",
+      "blockId": "bloc-4",
+      "question": "¿Qué departamento controla los recursos económicos, el presupuesto y la financiación?",
+      "answer": "Departamento Financiero",
+      "mnemonic": "Dinero y presupuesto → Financiero.",
+      "source": {
+        "id": "B4",
+        "pages": [
+          12,
+          17
+        ]
+      }
+    },
+    {
+      "id": "sc-b4-03",
+      "blockId": "bloc-4",
+      "question": "¿Qué áreas gestionan principalmente contratos laborales, formación y ausencias del personal?",
+      "answer": "Recursos Humanos y Administración",
+      "mnemonic": "Personal = RR. HH.; trámite = Administración.",
+      "source": {
+        "id": "B4",
+        "pages": [
+          16,
+          21
+        ]
+      }
+    },
+    {
+      "id": "sc-b4-04",
+      "blockId": "bloc-4",
+      "question": "¿Qué función revisa productos, servicios y procesos para comprobar que cumplen los criterios previstos?",
+      "answer": "Función de Calidad",
+      "mnemonic": "Comprobar que cumple → Calidad.",
+      "source": {
+        "id": "B4",
+        "pages": [
+          20,
+          24
+        ]
+      }
+    },
+    {
+      "id": "sc-b4-05",
+      "blockId": "bloc-4",
+      "question": "¿Qué área asesora sobre contratos, normativa y cuestiones jurídicas?",
+      "answer": "Área Legal",
+      "mnemonic": "Norma y contrato → Legal.",
+      "source": {
+        "id": "B4",
+        "pages": [
+          23,
+          27
+        ]
+      }
+    },
+    {
+      "id": "sc-b4-06",
+      "blockId": "bloc-4",
+      "question": "¿Qué suele exigir un aumento del volumen y la complejidad de la actividad de una empresa?",
+      "answer": "Más especialización departamental",
+      "mnemonic": "Más complejidad → más especialización.",
+      "source": {
+        "id": "B4",
+        "pages": [
+          28,
+          33
+        ]
+      }
+    },
+    {
+      "id": "sc-b5-01",
+      "blockId": "bloc-5",
+      "question": "¿Qué institución forman conjuntamente el Congreso de los Diputados y el Senado?",
+      "answer": "Cortes Generales",
+      "mnemonic": "Congreso + Senado = Cortes Generales.",
+      "source": {
+        "id": "B5",
+        "pages": [
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "id": "sc-b5-02",
+      "blockId": "bloc-5",
+      "question": "¿Qué órgano dirige la política interior y exterior y ejerce la función ejecutiva del Estado?",
+      "answer": "Gobierno",
+      "mnemonic": "Ejecutar la política → Gobierno.",
+      "source": {
+        "id": "B5",
+        "pages": [
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "id": "sc-b5-03",
+      "blockId": "bloc-5",
+      "question": "¿Qué poder del Estado tiene la función de juzgar y hacer ejecutar lo juzgado?",
+      "answer": "Poder Judicial",
+      "mnemonic": "Juzgar → Judicial.",
+      "source": {
+        "id": "B5",
+        "pages": [
+          7,
+          9
+        ]
+      }
+    },
+    {
+      "id": "sc-b5-04",
+      "blockId": "bloc-5",
+      "question": "¿Qué órgano municipal está formado por el alcalde y los concejales?",
+      "answer": "Ayuntamiento",
+      "mnemonic": "Alcalde + concejales = Ayuntamiento.",
+      "source": {
+        "id": "B5",
+        "pages": [
+          10,
+          13
+        ]
+      }
+    },
+    {
+      "id": "sc-b5-05",
+      "blockId": "bloc-5",
+      "question": "¿Qué institución de la UE propone legislación y vela por la aplicación del derecho de la Unión?",
+      "answer": "Comisión Europea",
+      "mnemonic": "La Comisión propone y vigila.",
+      "source": {
+        "id": "B5",
+        "pages": [
+          15,
+          18
+        ]
+      }
+    },
+    {
+      "id": "sc-b5-06",
+      "blockId": "bloc-5",
+      "question": "¿Qué institución de la UE define las orientaciones y prioridades políticas generales?",
+      "answer": "Consejo Europeo",
+      "mnemonic": "Rumbo político general → Consejo Europeo.",
+      "source": {
+        "id": "B5",
+        "pages": [
+          18,
+          18
+        ]
+      }
+    },
+    {
+      "id": "sc-u2-01",
+      "blockId": "unitat-2-bloc-1",
+      "question": "¿Qué mecanismo de coordinación se basa en la comunicación directa y los ajustes recíprocos entre personas?",
+      "answer": "Adaptación mutua",
+      "mnemonic": "Nos ajustamos hablando → adaptación mutua.",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          6,
+          11
+        ]
+      }
+    },
+    {
+      "id": "sc-u2-02",
+      "blockId": "unitat-2-bloc-1",
+      "question": "¿Qué mecanismo de coordinación aparece cuando un responsable da instrucciones y controla la ejecución?",
+      "answer": "Supervisión directa",
+      "mnemonic": "Uno dirige y controla → supervisión directa.",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          6,
+          11
+        ]
+      }
+    },
+    {
+      "id": "sc-u2-03",
+      "blockId": "unitat-2-bloc-1",
+      "question": "¿Cómo se llama el procedimiento que sigue una única secuencia de pasos en un orden establecido?",
+      "answer": "Procedimiento lineal",
+      "mnemonic": "Una línea, una sola ruta.",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          13,
+          15
+        ]
+      }
+    },
+    {
+      "id": "sc-u2-04",
+      "blockId": "unitat-2-bloc-1",
+      "question": "¿Cómo se llama el procedimiento que ofrece recorridos distintos según una decisión o condición?",
+      "answer": "Procedimiento ramificado",
+      "mnemonic": "Si aparecen ramas, es ramificado.",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          13,
+          15
+        ]
+      }
+    },
+    {
+      "id": "sc-u2-05",
+      "blockId": "unitat-2-bloc-1",
+      "question": "¿Cómo se llama la fase del equipo en la que los roles están más claros y aumentan la confianza y la cooperación?",
+      "answer": "Normalización",
+      "mnemonic": "Normas y roles claros → normalización.",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          62,
+          62
+        ]
+      }
+    },
+    {
+      "id": "sc-u2-06",
+      "blockId": "unitat-2-bloc-1",
+      "question": "¿Qué concepto indica la posición o rango reconocido de una persona dentro de un grupo?",
+      "answer": "Estatus",
+      "mnemonic": "Posición dentro del grupo → estatus.",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          48,
+          58
+        ]
+      }
+    },
+    {
+      "id": "sc-uf-01",
+      "blockId": "uf0518-bloc-1",
+      "question": "¿Qué permite consultar, archivar, justificar y probar una comunicación escrita?",
+      "answer": "Constancia documental",
+      "mnemonic": "Si queda constancia, queda prueba.",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "sc-uf-02",
+      "blockId": "uf0518-bloc-1",
+      "question": "¿Cómo se llama la persona o el área que redacta y emite un documento o mensaje?",
+      "answer": "Emisor",
+      "mnemonic": "Emisor = quien emite.",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "sc-uf-03",
+      "blockId": "uf0518-bloc-1",
+      "question": "¿Cómo se llama el medio utilizado para enviar un mensaje?",
+      "answer": "Canal",
+      "mnemonic": "Por dónde viaja el mensaje → canal.",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "sc-uf-04",
+      "blockId": "uf0518-bloc-1",
+      "question": "¿Qué documento comunica el mismo aviso, cambio o instrucción a múltiples destinatarios?",
+      "answer": "Circular",
+      "mnemonic": "El mismo mensaje circula para muchos → circular.",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          25,
+          26
+        ]
+      }
+    },
+    {
+      "id": "sc-uf-05",
+      "blockId": "uf0518-bloc-1",
+      "question": "¿Cómo se llama la fórmula de cortesía que cierra una carta?",
+      "answer": "Despedida",
+      "mnemonic": "Cerrar la carta = despedirse.",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "id": "sc-uf-06",
+      "blockId": "uf0518-bloc-1",
+      "question": "¿Cómo se llaman los documentos que se adjuntan a una carta?",
+      "answer": "Anexos",
+      "mnemonic": "Adjunto = anexo.",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          17,
+          18
+        ]
+      }
+    }
+  ]
+}
