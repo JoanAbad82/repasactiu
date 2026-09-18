@@ -245,6 +245,14 @@ export function createStudyCards({screen,live,banks,extraBank,language='ca',rand
     screen.innerHTML=selectorHtml(catalog(),selectedBlocks,lang);
   }
 
+  function syncSelectionSummary(){
+    const count=selectedCount(catalog(),selectedBlocks);
+    const countNode=screen.querySelector('#study-selected-count');
+    const startButton=screen.querySelector('[data-study-action="start"]');
+    if(countNode)countNode.textContent=String(count);
+    if(startButton)startButton.disabled=!count;
+  }
+
   function renderReview(){
     mode='review';
     const map=localizedMap();
@@ -335,7 +343,7 @@ export function createStudyCards({screen,live,banks,extraBank,language='ca',rand
     if(!input)return;
     if(input.checked)selectedBlocks.add(input.value);
     else selectedBlocks.delete(input.value);
-    renderSelector();
+    syncSelectionSummary();
   }
 
   screen.addEventListener('click',handleClick);
