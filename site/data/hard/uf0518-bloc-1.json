@@ -912,6 +912,126 @@
         "Asunto, porque resume el tema de la circular",
         "Aplicación, porque indica vigencia o personas afectadas"
       ]
+    },
+    "uf0518-b1-077": {
+      "ca": [
+        "Coherència, perquè l’ordre de les idees garanteix el sentit global",
+        "Concisió, perquè les frases comprensibles tendeixen a ser curtes",
+        "Correcció, perquè una estructura visible és part del registre professional"
+      ],
+      "es": [
+        "Coherencia, porque el orden de las ideas garantiza el sentido global",
+        "Concisión, porque las frases comprensibles tienden a ser cortas",
+        "Corrección, porque una estructura visible forma parte del registro profesional"
+      ]
+    },
+    "uf0518-b1-078": {
+      "ca": [
+        "Correcció, perquè revisar dades forma part de la revisió final del document",
+        "Claredat, perquè dades exactes eviten interpretacions diferents",
+        "Coherència, perquè les dades han de coincidir amb la resta del text"
+      ],
+      "es": [
+        "Corrección, porque revisar datos forma parte de la revisión final del documento",
+        "Claridad, porque los datos exactos evitan interpretaciones distintas",
+        "Coherencia, porque los datos deben coincidir con el resto del texto"
+      ]
+    },
+    "uf0518-b1-079": {
+      "ca": [
+        "Adaptar el tractament al destinatari, perquè el problema és haver triat un to formal al principi",
+        "Evitar abreviatures, perquè el llenguatge col·loquial introdueix formes no normalitzades",
+        "Aplicar concisió, perquè el canvi de registre acostuma a allargar el document"
+      ],
+      "es": [
+        "Adaptar el tratamiento al destinatario, porque el problema es haber elegido un tono formal al principio",
+        "Evitar abreviaturas, porque el lenguaje coloquial introduce formas no normalizadas",
+        "Aplicar concisión, porque el cambio de registro suele alargar el documento"
+      ]
+    },
+    "uf0518-b1-080": {
+      "ca": [
+        "Aplicar el mateix procediment documental que una empresa privada, amb més formalitat de llenguatge",
+        "Conservar els documents fiscals i mercantils com a principal exigència administrativa",
+        "Utilitzar formularis oficials sense necessitat de conservar evidència del tràmit"
+      ],
+      "es": [
+        "Aplicar el mismo procedimiento documental que una empresa privada, con mayor formalidad de lenguaje",
+        "Conservar los documentos fiscales y mercantiles como principal exigencia administrativa",
+        "Utilizar formularios oficiales sin necesidad de conservar evidencia del trámite"
+      ]
+    },
+    "uf0518-b1-081": {
+      "ca": [
+        "Formalitzar una comanda definitiva, perquè qualsevol petició a un proveïdor crea l’obligació de compra",
+        "Emetre una oferta, perquè el remitent proposa les condicions que vol rebre",
+        "Fer una reclamació, perquè demanar terminis implica corregir una manca d’informació"
+      ],
+      "es": [
+        "Formalizar un pedido definitivo, porque cualquier petición a un proveedor crea la obligación de compra",
+        "Emitir una oferta, porque el remitente propone las condiciones que quiere recibir",
+        "Hacer una reclamación, porque pedir plazos implica corregir una falta de información"
+      ]
+    },
+    "uf0518-b1-082": {
+      "ca": [
+        "A la referència, perquè identifica tota la documentació vinculada a la carta",
+        "Al paràgraf final, perquè els documents formen part del tancament del cos",
+        "A la signatura, perquè els annexos han de quedar validats pel remitent"
+      ],
+      "es": [
+        "En la referencia, porque identifica toda la documentación vinculada a la carta",
+        "En el párrafo final, porque los documentos forman parte del cierre del cuerpo",
+        "En la firma, porque los anexos deben quedar validados por el remitente"
+      ]
+    },
+    "uf0518-b1-083": {
+      "ca": [
+        "Presentar les dades del remitent i del destinatari abans del missatge",
+        "Resumir les condicions finals i la data límit de resposta",
+        "Introduir la salutació formal que precedeix la identificació del destinatari"
+      ],
+      "es": [
+        "Presentar los datos del remitente y del destinatario antes del mensaje",
+        "Resumir las condiciones finales y la fecha límite de respuesta",
+        "Introducir el saludo formal que precede a la identificación del destinatario"
+      ]
+    },
+    "uf0518-b1-084": {
+      "ca": [
+        "La justificació jurídica dels fets exposats, separada de la petició final",
+        "El mitjà de notificació escollit per la persona interessada",
+        "La relació d’annexos que acrediten els antecedents"
+      ],
+      "es": [
+        "La justificación jurídica de los hechos expuestos, separada de la petición final",
+        "El medio de notificación elegido por la persona interesada",
+        "La relación de anexos que acreditan los antecedentes"
+      ]
+    },
+    "uf0518-b1-085": {
+      "ca": [
+        "Memoràndum, perquè és una comunicació interna i el destinatari és la plantilla",
+        "Ofici, perquè el canvi d’horari és una instrucció formal de la direcció",
+        "Carta comercial, perquè qualsevol comunicació escrita de l’empresa pot dirigir-se a diversos destinataris"
+      ],
+      "es": [
+        "Memorándum, porque es una comunicación interna y el destinatario es la plantilla",
+        "Oficio, porque el cambio de horario es una instrucción formal de la dirección",
+        "Carta comercial, porque cualquier comunicación escrita de la empresa puede dirigirse a varios destinatarios"
+      ]
+    },
+    "uf0518-b1-086": {
+      "ca": [
+        "Conservar únicament la confirmació de recepció, perquè acredita que la comunicació va existir",
+        "Arxivar un resum intern del contingut per evitar duplicar documentació",
+        "Mantenir la còpia fins que finalitzi la relació amb el destinatari i després substituir-la per una anotació"
+      ],
+      "es": [
+        "Conservar únicamente la confirmación de recepción, porque acredita que la comunicación existió",
+        "Archivar un resumen interno del contenido para evitar duplicar documentación",
+        "Mantener la copia hasta que finalice la relación con el destinatario y después sustituirla por una anotación"
+      ]
     }
   }
 }
