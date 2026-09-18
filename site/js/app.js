@@ -12,11 +12,11 @@ const els={
  syllabus:document.querySelector('#syllabus-link'),reviewErrors:document.querySelector('#review-errors-link'),studyLink:document.querySelector('#study-cards-link'),theme:document.querySelector('#theme-toggle'),langCa:document.querySelector('#language-ca'),langEs:document.querySelector('#language-es'),nav:document.querySelector('.site-header nav'),languageGroup:document.querySelector('.language-switcher')
 };
 const chromeCopy={
- ca:{syllabus:'Temari',review:'Repassar errors',theme:'Clar/Fosc',themeAria:'Clar/Fosc — canviar mode de color',nav:'Navegació principal',language:'Idioma',all:'Tot el temari disponible',syllabusFallback:'Temari',block:'Bloc',leave:'Vols abandonar el test en curs?',correct:'Resposta correcta',incorrect:'Resposta incorrecta',back:'← Tornar',emptyTitle:'Encara no tens preguntes pendents de repàs',emptyText:'Quan fallis alguna pregunta, apareixerà aquí per reforçar-la.',reset:'Vols esborrar l’historial, les estadístiques i els errors pendents?',loadError:'No s’ha pogut carregar el temari.',retry:'Torna-ho a provar.'},
- es:{syllabus:'Temario',review:'Repasar errores',theme:'Claro/Oscuro',themeAria:'Claro/Oscuro — cambiar modo de color',nav:'Navegación principal',language:'Idioma',all:'Todo el temario disponible',syllabusFallback:'Temario',block:'Bloque',leave:'¿Quieres abandonar el test en curso?',correct:'Respuesta correcta',incorrect:'Respuesta incorrecta',back:'← Volver',emptyTitle:'Todavía no tienes preguntas pendientes de repaso',emptyText:'Cuando falles alguna pregunta, aparecerá aquí para reforzarla.',reset:'¿Quieres borrar el historial, las estadísticas y los errores pendientes?',loadError:'No se ha podido cargar el temario.',retry:'Vuelve a intentarlo.'}
+ ca:{syllabus:'Temari',review:'Repassar errors',study:'Targetes de memòria',theme:'Clar/Fosc',themeAria:'Clar/Fosc — canviar mode de color',nav:'Navegació principal',language:'Idioma',all:'Tot el temari disponible',syllabusFallback:'Temari',block:'Bloc',leave:'Vols abandonar el test en curs?',correct:'Resposta correcta',incorrect:'Resposta incorrecta',back:'← Tornar',emptyTitle:'Encara no tens preguntes pendents de repàs',emptyText:'Quan fallis alguna pregunta, apareixerà aquí per reforçar-la.',reset:'Vols esborrar l’historial, les estadístiques i els errors pendents?',loadError:'No s’ha pogut carregar el temari.',retry:'Torna-ho a provar.'},
+ es:{syllabus:'Temario',review:'Repasar errores',study:'Tarjetas de memoria',theme:'Claro/Oscuro',themeAria:'Claro/Oscuro — cambiar modo de color',nav:'Navegación principal',language:'Idioma',all:'Todo el temario disponible',syllabusFallback:'Temario',block:'Bloque',leave:'¿Quieres abandonar el test en curso?',correct:'Respuesta correcta',incorrect:'Respuesta incorrecta',back:'← Volver',emptyTitle:'Todavía no tienes preguntas pendientes de repaso',emptyText:'Cuando falles alguna pregunta, aparecerá aquí para reforzarla.',reset:'¿Quieres borrar el historial, las estadísticas y los errores pendientes?',loadError:'No se ha podido cargar el temario.',retry:'Vuelve a intentarlo.'}
 };
 
-let course=null,banks=[],studyBank=null,studyCards=null,studyPreviousLanguage=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
+let course=null,banks=[],studyBank=null,studyCards=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
 const prefersDark=()=>window.matchMedia?.('(prefers-color-scheme: dark)').matches??false;
 const language=()=>state.language==='es'?'es':'ca';
 const t=()=>chromeCopy[language()];
@@ -25,7 +25,7 @@ function syncTheme(){applyTheme(resolveTheme(state.theme,prefersDark()));}
 function syncLanguageChrome(){
  const lang=language(); document.documentElement.lang=state.language=lang;
  els.langCa.setAttribute('aria-pressed',String(lang==='ca')); els.langEs.setAttribute('aria-pressed',String(lang==='es'));
- els.syllabus.textContent=t().syllabus; els.reviewErrors.textContent=t().review; els.studyLink.textContent='Tarjetas de memoria'; els.theme.textContent=t().theme; els.theme.setAttribute('aria-label',t().themeAria); els.nav.setAttribute('aria-label',t().nav); els.languageGroup.setAttribute('aria-label',t().language);
+ els.syllabus.textContent=t().syllabus; els.reviewErrors.textContent=t().review; els.studyLink.textContent=t().study; els.theme.textContent=t().theme; els.theme.setAttribute('aria-label',t().themeAria); els.nav.setAttribute('aria-label',t().nav); els.languageGroup.setAttribute('aria-label',t().language);
 }
 function displayScreen(id){currentScreen=id;showScreen(id);}
 function allQuestions(){return banks.flatMap(b=>b.questions);}
@@ -47,25 +47,13 @@ function renderHome(){syncLanguageChrome();els.home.innerHTML=renderHomeHtml(cou
 function askLeave(){return !session||session.finished||window.confirm(t().leave);}
 function exitStudyMode(){
  if(studyCards){studyCards.destroy();studyCards=null;}
- if(studyPreviousLanguage!==null){
-  state.language=studyPreviousLanguage;
-  studyPreviousLanguage=null;
- }
- els.langCa.disabled=false;
- els.langEs.disabled=false;
- syncLanguageChrome();
 }
 function goHome(){if(!askLeave())return;session=null;lastResult=null;exitStudyMode();renderHome();}
 function openStudyCards(){
  if(!askLeave())return;
  session=null;lastResult=null;
  if(studyCards)studyCards.destroy();
- if(studyPreviousLanguage===null)studyPreviousLanguage=state.language;
- state.language='es';
- els.langCa.disabled=true;
- els.langEs.disabled=true;
- syncLanguageChrome();
- studyCards=createStudyCards({screen:els.study,live:els.live,bank:studyBank,onHome:goHome});
+ studyCards=createStudyCards({screen:els.study,live:els.live,banks,extraBank:studyBank,language:language(),onHome:goHome});
  displayScreen('study-cards-screen');
 }
 
@@ -101,7 +89,7 @@ function currentResult(){return {...lastResult,breakdown:buildBreakdown(localize
 function renderResultsScreen(){els.results.innerHTML=renderResultsHtml(currentResult(),language());displayScreen('results-screen');els.results.querySelector('#review-answers').addEventListener('click',renderReviewScreen);els.results.querySelector('[data-action="home"]').addEventListener('click',()=>{session=null;lastResult=null;renderHome();});}
 function renderReviewScreen(){const items=session.questions.map(q=>({question:localizedQuestion(q),selected:session.answers[q.id]??null}));els.review.innerHTML=renderReviewHtml(items,language());displayScreen('review-screen');els.review.querySelector('[data-action="results"]').addEventListener('click',renderResultsScreen);}
 function finishQuiz(){if(isExamMode(session.mode)){for(const q of session.questions){const selected=session.answers[q.id];const outcome=selected==null?'blank':selected===q.correct?'correct':'incorrect';state=recordAttempt(state,q.id,outcome);}}const score=scoreQuiz(session.questions,session.answers,session.penaltyEnabled);state=appendHistory(state,{id:crypto.randomUUID?.()||String(Date.now()),completedAt:new Date().toISOString(),selection:(setup.review||setup.mode==='review')?'review':selection,mode:session.mode,requestedCount:setup.count,penaltyEnabled:session.penaltyEnabled,...score});saveState(state);session.finished=true;lastResult={score,breakdown:{byBlock:{},byTopic:{}},penaltyEnabled:session.penaltyEnabled};renderResultsScreen();}
-function rerenderCurrentScreen(){syncLanguageChrome();if(currentScreen==='home-screen')renderHome();else if(currentScreen==='setup-screen'){if(els.setup.querySelector('.empty-state'))renderEmptyReview();else renderSetupScreen();}else if(currentScreen==='quiz-screen'&&session)renderCurrent();else if(currentScreen==='results-screen'&&lastResult)renderResultsScreen();else if(currentScreen==='review-screen'&&session)renderReviewScreen();else if(currentScreen==='study-cards-screen'){syncLanguageChrome();}}
+function rerenderCurrentScreen(){syncLanguageChrome();if(currentScreen==='home-screen')renderHome();else if(currentScreen==='setup-screen'){if(els.setup.querySelector('.empty-state'))renderEmptyReview();else renderSetupScreen();}else if(currentScreen==='quiz-screen'&&session)renderCurrent();else if(currentScreen==='results-screen'&&lastResult)renderResultsScreen();else if(currentScreen==='review-screen'&&session)renderReviewScreen();else if(currentScreen==='study-cards-screen'){studyCards?.setLanguage(language());}}
 function setLanguage(lang){if(lang!=='ca'&&lang!=='es')return;if(state.language===lang){syncLanguageChrome();return;}state.language=lang;saveState(state);rerenderCurrentScreen();}
 
 function bindGlobal(){
