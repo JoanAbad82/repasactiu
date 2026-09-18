@@ -14,11 +14,11 @@ test('la portada mostra UF0517, UF0518 i 596 preguntes', async ({ page }) => {
   await expect(page.locator('[data-unit-group]')).toHaveCount(3);
   await expect(page.locator('[data-block-card]')).toHaveCount(8);
   await expect(page.getByText('596 preguntes')).toBeVisible();
-  await expect(page.locator('[data-selection="bloc-1"]')).toContainText('70 preguntes');
+  await expect(page.locator('[data-selection="bloc-1"]')).toContainText('60 preguntes');
   await expect(page.locator('[data-selection="bloc-2"]')).toContainText('80 preguntes');
   await expect(page.locator('[data-selection="bloc-3"]')).toContainText('80 preguntes');
   await expect(page.locator('[data-selection="bloc-4"]')).toContainText('70 preguntes');
-  await expect(page.locator('[data-selection="bloc-5"]')).toContainText('60 preguntes');
+  await expect(page.locator('[data-selection="bloc-5"]')).toContainText('70 preguntes');
   await expect(page.locator('[data-selection="unitat-2-bloc-1"]')).toContainText('150 preguntes');
   await expect(page.locator('[data-selection="uf0518-bloc-1"]')).toContainText('86 preguntes');
   await expect(page.locator('[href*="openutilitylab"]')).toHaveCount(0);
