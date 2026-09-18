@@ -1,20 +1,270 @@
 {
-  "blockId":"bloc-3",
-  "blockTitle":"Estructura de la empresa y organigramas",
-  "questions":{
-    "b3-057":{"topic":"Principio de coordinación","question":"En un hotel, recepción y limpieza deben intercambiar información sobre las habitaciones disponibles para evitar esperas y errores. ¿Qué principio se está aplicando?","options":["Coordinación","Delegación","Especialización","Gestión del gasto"],"explanation":"La coordinación hace que personas, tareas y departamentos trabajen de forma conjunta y ayuda a evitar errores, duplicidades y problemas de comunicación."},
-    "b3-058":{"topic":"Principio de delegación","question":"Un responsable encarga a una trabajadora experimentada la organización de las reservas, pero continúa supervisando el resultado. ¿Qué principio describe la situación?","options":["Descentralización","Delegación","Publicidad y transparencia","Unidad de dirección"],"explanation":"Delegar es asignar tareas, responsabilidades o capacidad de decisión a otra persona, mientras quien delega mantiene la responsabilidad general sobre el resultado."},
-    "b3-059":{"topic":"Principio de descentralización","question":"La dirección de una cadena fija las normas generales, pero cada responsable de tienda puede adaptar algunas promociones a las necesidades locales. ¿Qué principio hay?","options":["Autoridad","Coordinación","Descentralización","Gestión del gasto"],"explanation":"La descentralización distribuye la capacidad de decidir entre distintos niveles o áreas y permite actuar con mayor rapidez y autonomía."},
-    "b3-060":{"topic":"Gestión del gasto","question":"Una oficina reduce el consumo de papel, digitaliza documentos e imprime solo cuando hace falta, sin perjudicar la calidad. ¿Qué principio aplica?","options":["Participación","Unidad de dirección","Especialización","Gestión del gasto"],"explanation":"La gestión del gasto busca utilizar bien los recursos económicos, evitar costes innecesarios y mantener la calidad del trabajo."},
-    "b3-061":{"topic":"Principio de participación","question":"Los repartidores proponen cambios en las rutas porque conocen los problemas del día a día y la dirección escucha sus ideas. ¿Qué principio destaca?","options":["Participación","Autoridad","Descentralización","Publicidad y transparencia"],"explanation":"La participación implica tener en cuenta las ideas, opiniones y propuestas de las personas trabajadoras en aspectos relacionados con su trabajo."},
-    "b3-062":{"topic":"Publicidad y transparencia","question":"La empresa cambia los horarios y comunica oficialmente la fecha de entrada en vigor a todas las personas afectadas. ¿Qué principio refleja mejor?","options":["Eficiencia","Publicidad y transparencia","Delegación","Especialización"],"explanation":"La publicidad y transparencia exigen comunicar de forma clara y accesible las decisiones e informaciones que afectan a las personas de la organización."},
-    "b3-063":{"topic":"Unidad de dirección","question":"Producción, ventas y administración trabajan por un mismo objetivo y siguen una planificación común para evitar instrucciones contradictorias. ¿Qué principio es?","options":["Autoridad","Gestión del gasto","Unidad de dirección","Participación"],"explanation":"La unidad de dirección establece que personas y departamentos que persiguen un mismo objetivo deben seguir una dirección y planificación comunes."},
-    "b3-064":{"topic":"Principio de autoridad","question":"Una supervisora distribuye las tareas, da instrucciones y responde por las decisiones y resultados de su equipo. ¿Qué principio describe esta situación?","options":["Coordinación","Participación","Especialización","Autoridad"],"explanation":"La autoridad permite dar instrucciones, tomar decisiones y dirigir el trabajo de otras personas, y comporta responsabilidad sobre decisiones y resultados."},
-    "b3-065":{"topic":"Organización formal e informal","question":"El organigrama establece oficialmente que los auxiliares dependen de la responsable de Administración. ¿A qué tipo de organización corresponde esta relación?","options":["Organización formal","Organización informal","Relación espontánea","Grupo de amistad"],"explanation":"La organización formal es la estructura oficial de la empresa y define cargos, responsabilidades, niveles jerárquicos y relaciones de dependencia."},
-    "b3-066":{"topic":"Organización formal e informal","question":"Dos personas de departamentos distintos se ayudan habitualmente porque tienen buena relación, aunque esa colaboración no aparece en el organigrama. ¿Qué es?","options":["Una dependencia jerárquica formal","Una relación de organización informal","Una unidad de dirección obligatoria","Una descentralización de la autoridad"],"explanation":"La organización informal nace espontáneamente de las relaciones personales y sociales y no está establecida oficialmente en la estructura de la empresa."},
-    "b3-067":{"topic":"Organigramas","question":"Una persona nueva quiere entender rápidamente los niveles de la empresa, las responsabilidades y de quién depende cada puesto. ¿Qué herramienta es especialmente útil?","options":["Un inventario de material","Una factura","Un organigrama","Un presupuesto"],"explanation":"El organigrama representa gráficamente la estructura de la organización y ayuda a entender niveles, responsabilidades y relaciones de dependencia."},
-    "b3-068":{"topic":"Requisitos de un organigrama","question":"La empresa ha reestructurado dos departamentos, pero el organigrama todavía muestra la estructura antigua. ¿Qué requisito de un buen organigrama no se cumple?","options":["Uniformidad","Claridad","Exactitud gráfica de los colores","Actualización"],"explanation":"Un buen organigrama debe actualizarse cuando cambian cargos, áreas o dependencias para seguir representando la estructura real."},
-    "b3-069":{"topic":"Tipos de organigrama","question":"En un organigrama la dirección aparece a la izquierda y las unidades dependientes avanzan hacia la derecha. ¿Qué tipo de representación es?","options":["Radial","Horizontal","Mixto","Vertical"],"explanation":"En el organigrama horizontal, la jerarquía se representa de izquierda a derecha, con la dirección situada a la izquierda."},
-    "b3-070":{"topic":"Ventajas y limitaciones de los organigramas","question":"¿Qué afirmación señala una limitación real de los organigramas según el temario?","options":["Impiden conocer cualquier dependencia","No pueden ayudar en la acogida de personas nuevas","No muestran todas las relaciones informales de la organización","Siempre explican con detalle todas las funciones de cada puesto"],"explanation":"Entre las limitaciones, el material indica que un organigrama no muestra todas las relaciones informales y puede simplificar demasiado estructuras complejas."}
+  "blockId": "bloc-3",
+  "blockTitle": "Estructura de la empresa y organigramas",
+  "questions": {
+    "b3-057": {
+      "topic": "Principio de coordinación",
+      "question": "En un hotel, recepción y limpieza deben intercambiar información sobre las habitaciones disponibles para evitar esperas y errores. ¿Qué principio se está aplicando?",
+      "options": [
+        "Coordinación",
+        "Delegación",
+        "Especialización",
+        "Gestión del gasto"
+      ],
+      "explanation": "La coordinación hace que personas, tareas y departamentos trabajen de forma conjunta y ayuda a evitar errores, duplicidades y problemas de comunicación."
+    },
+    "b3-058": {
+      "topic": "Principio de delegación",
+      "question": "Un responsable encarga a una trabajadora experimentada la organización de las reservas, pero continúa supervisando el resultado. ¿Qué principio describe la situación?",
+      "options": [
+        "Descentralización",
+        "Delegación",
+        "Publicidad y transparencia",
+        "Unidad de dirección"
+      ],
+      "explanation": "Delegar es asignar tareas, responsabilidades o capacidad de decisión a otra persona, mientras quien delega mantiene la responsabilidad general sobre el resultado."
+    },
+    "b3-059": {
+      "topic": "Principio de descentralización",
+      "question": "La dirección de una cadena fija las normas generales, pero cada responsable de tienda puede adaptar algunas promociones a las necesidades locales. ¿Qué principio hay?",
+      "options": [
+        "Autoridad",
+        "Coordinación",
+        "Descentralización",
+        "Gestión del gasto"
+      ],
+      "explanation": "La descentralización distribuye la capacidad de decidir entre distintos niveles o áreas y permite actuar con mayor rapidez y autonomía."
+    },
+    "b3-060": {
+      "topic": "Gestión del gasto",
+      "question": "Una oficina reduce el consumo de papel, digitaliza documentos e imprime solo cuando hace falta, sin perjudicar la calidad. ¿Qué principio aplica?",
+      "options": [
+        "Participación",
+        "Unidad de dirección",
+        "Especialización",
+        "Gestión del gasto"
+      ],
+      "explanation": "La gestión del gasto busca utilizar bien los recursos económicos, evitar costes innecesarios y mantener la calidad del trabajo."
+    },
+    "b3-061": {
+      "topic": "Principio de participación",
+      "question": "Los repartidores proponen cambios en las rutas porque conocen los problemas del día a día y la dirección escucha sus ideas. ¿Qué principio destaca?",
+      "options": [
+        "Participación",
+        "Autoridad",
+        "Descentralización",
+        "Publicidad y transparencia"
+      ],
+      "explanation": "La participación implica tener en cuenta las ideas, opiniones y propuestas de las personas trabajadoras en aspectos relacionados con su trabajo."
+    },
+    "b3-062": {
+      "topic": "Publicidad y transparencia",
+      "question": "La empresa cambia los horarios y comunica oficialmente la fecha de entrada en vigor a todas las personas afectadas. ¿Qué principio refleja mejor?",
+      "options": [
+        "Eficiencia",
+        "Publicidad y transparencia",
+        "Delegación",
+        "Especialización"
+      ],
+      "explanation": "La publicidad y transparencia exigen comunicar de forma clara y accesible las decisiones e informaciones que afectan a las personas de la organización."
+    },
+    "b3-063": {
+      "topic": "Unidad de dirección",
+      "question": "Producción, ventas y administración trabajan por un mismo objetivo y siguen una planificación común para evitar instrucciones contradictorias. ¿Qué principio es?",
+      "options": [
+        "Autoridad",
+        "Gestión del gasto",
+        "Unidad de dirección",
+        "Participación"
+      ],
+      "explanation": "La unidad de dirección establece que personas y departamentos que persiguen un mismo objetivo deben seguir una dirección y planificación comunes."
+    },
+    "b3-064": {
+      "topic": "Principio de autoridad",
+      "question": "Una supervisora distribuye las tareas, da instrucciones y responde por las decisiones y resultados de su equipo. ¿Qué principio describe esta situación?",
+      "options": [
+        "Coordinación",
+        "Participación",
+        "Especialización",
+        "Autoridad"
+      ],
+      "explanation": "La autoridad permite dar instrucciones, tomar decisiones y dirigir el trabajo de otras personas, y comporta responsabilidad sobre decisiones y resultados."
+    },
+    "b3-065": {
+      "topic": "Organización formal e informal",
+      "question": "El organigrama establece oficialmente que los auxiliares dependen de la responsable de Administración. ¿A qué tipo de organización corresponde esta relación?",
+      "options": [
+        "Organización formal",
+        "Organización informal",
+        "Relación espontánea",
+        "Grupo de amistad"
+      ],
+      "explanation": "La organización formal es la estructura oficial de la empresa y define cargos, responsabilidades, niveles jerárquicos y relaciones de dependencia."
+    },
+    "b3-066": {
+      "topic": "Organización formal e informal",
+      "question": "Dos personas de departamentos distintos se ayudan habitualmente porque tienen buena relación, aunque esa colaboración no aparece en el organigrama. ¿Qué es?",
+      "options": [
+        "Una dependencia jerárquica formal",
+        "Una relación de organización informal",
+        "Una unidad de dirección obligatoria",
+        "Una descentralización de la autoridad"
+      ],
+      "explanation": "La organización informal nace espontáneamente de las relaciones personales y sociales y no está establecida oficialmente en la estructura de la empresa."
+    },
+    "b3-067": {
+      "topic": "Organigramas",
+      "question": "Una persona nueva quiere entender rápidamente los niveles de la empresa, las responsabilidades y de quién depende cada puesto. ¿Qué herramienta es especialmente útil?",
+      "options": [
+        "Un inventario de material",
+        "Una factura",
+        "Un organigrama",
+        "Un presupuesto"
+      ],
+      "explanation": "El organigrama representa gráficamente la estructura de la organización y ayuda a entender niveles, responsabilidades y relaciones de dependencia."
+    },
+    "b3-068": {
+      "topic": "Requisitos de un organigrama",
+      "question": "La empresa ha reestructurado dos departamentos, pero el organigrama todavía muestra la estructura antigua. ¿Qué requisito de un buen organigrama no se cumple?",
+      "options": [
+        "Uniformidad",
+        "Claridad",
+        "Exactitud gráfica de los colores",
+        "Actualización"
+      ],
+      "explanation": "Un buen organigrama debe actualizarse cuando cambian cargos, áreas o dependencias para seguir representando la estructura real."
+    },
+    "b3-069": {
+      "topic": "Tipos de organigrama",
+      "question": "En un organigrama la dirección aparece a la izquierda y las unidades dependientes avanzan hacia la derecha. ¿Qué tipo de representación es?",
+      "options": [
+        "Radial",
+        "Horizontal",
+        "Mixto",
+        "Vertical"
+      ],
+      "explanation": "En el organigrama horizontal, la jerarquía se representa de izquierda a derecha, con la dirección situada a la izquierda."
+    },
+    "b3-070": {
+      "topic": "Ventajas y limitaciones de los organigramas",
+      "question": "¿Qué afirmación señala una limitación real de los organigramas según el temario?",
+      "options": [
+        "Impiden conocer cualquier dependencia",
+        "No pueden ayudar en la acogida de personas nuevas",
+        "No muestran todas las relaciones informales de la organización",
+        "Siempre explican con detalle todas las funciones de cada puesto"
+      ],
+      "explanation": "Entre las limitaciones, el material indica que un organigrama no muestra todas las relaciones informales y puede simplificar demasiado estructuras complejas."
+    },
+    "b3-071": {
+      "topic": "Principio de delegación",
+      "question": "Una responsable encarga a una persona experimentada que organice un turno y le permite tomar decisiones operativas, pero continúa respondiendo por el resultado final. ¿Qué principio aplica?",
+      "options": [
+        "Delegación",
+        "Descentralización",
+        "Especialización",
+        "Publicidad y transparencia"
+      ],
+      "explanation": "Delegar es asignar tareas, responsabilidades o capacidad de decisión a otra persona manteniendo la responsabilidad general sobre el resultado."
+    },
+    "b3-072": {
+      "topic": "Principio de descentralización",
+      "question": "La sede central fija criterios comunes, pero cada oficina territorial puede resolver determinadas decisiones sin pedir autorización a la dirección central. ¿Qué principio describe esta estructura?",
+      "options": [
+        "Unidad de dirección",
+        "Descentralización",
+        "Delegación puntual",
+        "Especialización"
+      ],
+      "explanation": "La descentralización distribuye la capacidad de tomar decisiones entre distintos niveles o áreas y facilita mayor rapidez y autonomía."
+    },
+    "b3-073": {
+      "topic": "Principio de especialización",
+      "question": "En una empresa, cada persona trabaja principalmente en tareas adaptadas a sus conocimientos y habilidades. ¿Qué ventaja asocia el temario a este criterio?",
+      "options": [
+        "Reducir la necesidad de coordinación entre áreas",
+        "Eliminar las responsabilidades compartidas",
+        "Mejorar la productividad y la calidad del trabajo",
+        "Concentrar todas las decisiones en la dirección"
+      ],
+      "explanation": "La especialización asigna tareas según conocimientos, habilidades y experiencia, y puede mejorar la productividad y la calidad."
+    },
+    "b3-074": {
+      "topic": "Organización informal",
+      "question": "Dos personas de departamentos distintos se consultan habitualmente porque confían la una en la otra, aunque esa relación no figura en ningún procedimiento ni organigrama. ¿Qué representa?",
+      "options": [
+        "Una relación jerárquica formal",
+        "Una delegación de funciones",
+        "Una unidad de dirección",
+        "Organización informal"
+      ],
+      "explanation": "La organización informal nace de relaciones personales y espontáneas que no están establecidas oficialmente ni suelen aparecer en el organigrama."
+    },
+    "b3-075": {
+      "topic": "Organización formal",
+      "question": "La dirección aprueba un documento que define cargos, responsabilidades y dependencias jerárquicas. ¿Qué tipo de organización está estableciendo?",
+      "options": [
+        "Organización formal",
+        "Organización informal",
+        "Relación espontánea",
+        "Participación voluntaria"
+      ],
+      "explanation": "La organización formal es la estructura oficial que define cargos, funciones, responsabilidades y relaciones jerárquicas."
+    },
+    "b3-076": {
+      "topic": "Organigramas",
+      "question": "Una persona consulta el organigrama para saber de quién depende un puesto, pero quiere conocer también todas las tareas concretas que deberá realizar. ¿Qué limitación debe tener presente?",
+      "options": [
+        "El organigrama no puede mostrar niveles jerárquicos",
+        "El organigrama no explica por sí solo todas las funciones detalladas de cada puesto",
+        "El organigrama representa únicamente relaciones informales",
+        "El organigrama deja de ser útil cuando hay más de un departamento"
+      ],
+      "explanation": "El organigrama ayuda a entender la estructura y las dependencias, pero no explica por sí solo las funciones detalladas de cada puesto."
+    },
+    "b3-077": {
+      "topic": "Requisitos del organigrama",
+      "question": "Después de una reestructuración, dos áreas han cambiado de dependencia pero el gráfico sigue mostrando el esquema anterior. ¿Qué requisito de un buen organigrama falla?",
+      "options": [
+        "Claridad",
+        "Uniformidad",
+        "Actualización",
+        "Especialización"
+      ],
+      "explanation": "Un organigrama debe actualizarse cuando cambian cargos, áreas o dependencias para que siga representando la estructura real."
+    },
+    "b3-078": {
+      "topic": "Principio de unidad de dirección",
+      "question": "Producción, ventas y administración participan en el mismo lanzamiento y necesitan objetivos y planificación comunes para evitar instrucciones contradictorias. ¿Qué principio es especialmente relevante?",
+      "options": [
+        "Participación",
+        "Delegación",
+        "Descentralización",
+        "Unidad de dirección"
+      ],
+      "explanation": "La unidad de dirección establece que personas y departamentos que persiguen un mismo objetivo deben seguir una dirección y planificación comunes."
+    },
+    "b3-079": {
+      "topic": "Publicidad y transparencia",
+      "question": "La empresa modifica el horario y publica una comunicación clara con la fecha de entrada en vigor para todas las personas afectadas. ¿Qué principio aplica principalmente?",
+      "options": [
+        "Publicidad y transparencia",
+        "Gestión del gasto",
+        "Especialización",
+        "Delegación"
+      ],
+      "explanation": "Publicidad y transparencia implica comunicar de forma clara y accesible las decisiones e informaciones que afectan a las personas de la organización."
+    },
+    "b3-080": {
+      "topic": "Principio de participación",
+      "question": "Antes de cambiar un procedimiento de reparto, la dirección pide propuestas a los conductores que lo aplican cada día. ¿Qué principio está promoviendo?",
+      "options": [
+        "Autoridad",
+        "Participación",
+        "Delegación",
+        "Gestión del gasto"
+      ],
+      "explanation": "La participación permite que las personas trabajadoras aporten ideas, opiniones y propuestas de mejora relacionadas con su trabajo."
+    }
   }
 }

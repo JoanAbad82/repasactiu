@@ -1,19 +1,125 @@
 {
-  "blockId":"bloc-3",
-  "questions":{
-    "b3-057":{"type":"example","ca":"Recepció avisa neteja i neteja confirma quan acaba: coordinar evita errors i esperes.","es":"Recepción avisa a limpieza y limpieza confirma al acabar: coordinar evita errores y esperas."},
-    "b3-058":{"type":"idea","ca":"Delegar traspassa una tasca o decisió, però no elimina la responsabilitat general de qui delega.","es":"Delegar transfiere una tarea o decisión, pero no elimina la responsabilidad general de quien delega."},
-    "b3-059":{"type":"example","ca":"La central fixa normes i cada botiga adapta algunes decisions: això és descentralitzar.","es":"La central fija normas y cada tienda adapta algunas decisiones: eso es descentralizar."},
-    "b3-060":{"type":"example","ca":"Digitalitzar i imprimir només quan cal redueix despesa sense perjudicar la qualitat.","es":"Digitalizar e imprimir solo cuando hace falta reduce gasto sin perjudicar la calidad."},
-    "b3-061":{"type":"example","ca":"Escoltar propostes dels qui fan la feina cada dia és aplicar participació.","es":"Escuchar propuestas de quienes hacen el trabajo cada día es aplicar participación."},
-    "b3-062":{"type":"example","ca":"Un canvi d’horari s’ha de comunicar clarament a tothom, no deixar-lo en rumors.","es":"Un cambio de horario debe comunicarse claramente a todos, no dejarlo en rumores."},
-    "b3-063":{"type":"idea","ca":"Mateix objectiu + mateixa direcció i planificació = unitat de direcció.","es":"Mismo objetivo + misma dirección y planificación = unidad de dirección."},
-    "b3-064":{"type":"idea","ca":"L’autoritat permet dirigir i decidir, però també obliga a respondre pels resultats.","es":"La autoridad permite dirigir y decidir, pero también obliga a responder por los resultados."},
-    "b3-065":{"type":"example","ca":"Si una dependència figura a l’organigrama, forma part de l’organització formal.","es":"Si una dependencia figura en el organigrama, forma parte de la organización formal."},
-    "b3-066":{"type":"example","ca":"Dos companys que s’ajuden per confiança personal formen una relació informal.","es":"Dos compañeros que se ayudan por confianza personal forman una relación informal."},
-    "b3-067":{"type":"idea","ca":"L’organigrama és el mapa de qui és qui, qui depèn de qui i com s’estructura l’empresa.","es":"El organigrama es el mapa de quién es quién, quién depende de quién y cómo se estructura la empresa."},
-    "b3-068":{"type":"idea","ca":"Si canvia l’empresa, l’organigrama també ha de canviar: si no, queda desactualitzat.","es":"Si cambia la empresa, el organigrama también debe cambiar: si no, queda desactualizado."},
-    "b3-069":{"type":"idea","ca":"Horitzontal: la direcció comença a l’esquerra i la jerarquia avança cap a la dreta.","es":"Horizontal: la dirección empieza a la izquierda y la jerarquía avanza hacia la derecha."},
-    "b3-070":{"type":"idea","ca":"Un organigrama mostra l’estructura oficial, però no totes les relacions informals reals.","es":"Un organigrama muestra la estructura oficial, pero no todas las relaciones informales reales."}
+  "blockId": "bloc-3",
+  "questions": {
+    "b3-057": {
+      "type": "example",
+      "ca": "Recepció avisa neteja i neteja confirma quan acaba: coordinar evita errors i esperes.",
+      "es": "Recepción avisa a limpieza y limpieza confirma al acabar: coordinar evita errores y esperas."
+    },
+    "b3-058": {
+      "type": "idea",
+      "ca": "Delegar traspassa una tasca o decisió, però no elimina la responsabilitat general de qui delega.",
+      "es": "Delegar transfiere una tarea o decisión, pero no elimina la responsabilidad general de quien delega."
+    },
+    "b3-059": {
+      "type": "example",
+      "ca": "La central fixa normes i cada botiga adapta algunes decisions: això és descentralitzar.",
+      "es": "La central fija normas y cada tienda adapta algunas decisiones: eso es descentralizar."
+    },
+    "b3-060": {
+      "type": "example",
+      "ca": "Digitalitzar i imprimir només quan cal redueix despesa sense perjudicar la qualitat.",
+      "es": "Digitalizar e imprimir solo cuando hace falta reduce gasto sin perjudicar la calidad."
+    },
+    "b3-061": {
+      "type": "example",
+      "ca": "Escoltar propostes dels qui fan la feina cada dia és aplicar participació.",
+      "es": "Escuchar propuestas de quienes hacen el trabajo cada día es aplicar participación."
+    },
+    "b3-062": {
+      "type": "example",
+      "ca": "Un canvi d’horari s’ha de comunicar clarament a tothom, no deixar-lo en rumors.",
+      "es": "Un cambio de horario debe comunicarse claramente a todos, no dejarlo en rumores."
+    },
+    "b3-063": {
+      "type": "idea",
+      "ca": "Mateix objectiu + mateixa direcció i planificació = unitat de direcció.",
+      "es": "Mismo objetivo + misma dirección y planificación = unidad de dirección."
+    },
+    "b3-064": {
+      "type": "idea",
+      "ca": "L’autoritat permet dirigir i decidir, però també obliga a respondre pels resultats.",
+      "es": "La autoridad permite dirigir y decidir, pero también obliga a responder por los resultados."
+    },
+    "b3-065": {
+      "type": "example",
+      "ca": "Si una dependència figura a l’organigrama, forma part de l’organització formal.",
+      "es": "Si una dependencia figura en el organigrama, forma parte de la organización formal."
+    },
+    "b3-066": {
+      "type": "example",
+      "ca": "Dos companys que s’ajuden per confiança personal formen una relació informal.",
+      "es": "Dos compañeros que se ayudan por confianza personal forman una relación informal."
+    },
+    "b3-067": {
+      "type": "idea",
+      "ca": "L’organigrama és el mapa de qui és qui, qui depèn de qui i com s’estructura l’empresa.",
+      "es": "El organigrama es el mapa de quién es quién, quién depende de quién y cómo se estructura la empresa."
+    },
+    "b3-068": {
+      "type": "idea",
+      "ca": "Si canvia l’empresa, l’organigrama també ha de canviar: si no, queda desactualitzat.",
+      "es": "Si cambia la empresa, el organigrama también debe cambiar: si no, queda desactualizado."
+    },
+    "b3-069": {
+      "type": "idea",
+      "ca": "Horitzontal: la direcció comença a l’esquerra i la jerarquia avança cap a la dreta.",
+      "es": "Horizontal: la dirección empieza a la izquierda y la jerarquía avanza hacia la derecha."
+    },
+    "b3-070": {
+      "type": "idea",
+      "ca": "Un organigrama mostra l’estructura oficial, però no totes les relacions informals reals.",
+      "es": "Un organigrama muestra la estructura oficial, pero no todas las relaciones informales reales."
+    },
+    "b3-071": {
+      "type": "idea",
+      "ca": "Delegar no és desentendre’s: es transfereix capacitat, però es manté responsabilitat general.",
+      "es": "Delegar no es desentenderse: se transfiere capacidad, pero se mantiene responsabilidad general."
+    },
+    "b3-072": {
+      "type": "idea",
+      "ca": "Descentralitzar = repartir capacitat de decisió entre nivells o àrees.",
+      "es": "Descentralizar = repartir capacidad de decisión entre niveles o áreas."
+    },
+    "b3-073": {
+      "type": "idea",
+      "ca": "Especialització: tasca adequada a coneixements i habilitats → més qualitat i productivitat.",
+      "es": "Especialización: tarea adecuada a conocimientos y habilidades → más calidad y productividad."
+    },
+    "b3-074": {
+      "type": "example",
+      "ca": "Ajuda espontània entre companys que no apareix a l’organigrama = organització informal.",
+      "es": "Ayuda espontánea entre compañeros que no aparece en el organigrama = organización informal."
+    },
+    "b3-075": {
+      "type": "idea",
+      "ca": "Formal = estructura oficial: càrrecs, funcions, responsabilitats i dependències.",
+      "es": "Formal = estructura oficial: cargos, funciones, responsabilidades y dependencias."
+    },
+    "b3-076": {
+      "type": "idea",
+      "ca": "Organigrama = mapa de l’estructura; no és una fitxa completa de funcions.",
+      "es": "Organigrama = mapa de la estructura; no es una ficha completa de funciones."
+    },
+    "b3-077": {
+      "type": "idea",
+      "ca": "Si canvia l’empresa, ha de canviar l’organigrama: actualització.",
+      "es": "Si cambia la empresa, debe cambiar el organigrama: actualización."
+    },
+    "b3-078": {
+      "type": "idea",
+      "ca": "Mateix objectiu → mateixa direcció i planificació.",
+      "es": "Mismo objetivo → misma dirección y planificación."
+    },
+    "b3-079": {
+      "type": "example",
+      "ca": "Canvi d’horari: comunicació oficial, clara i amb data → transparència.",
+      "es": "Cambio de horario: comunicación oficial, clara y con fecha → transparencia."
+    },
+    "b3-080": {
+      "type": "idea",
+      "ca": "Participar = aportar idees i propostes sobre la feina que es coneix de primera mà.",
+      "es": "Participar = aportar ideas y propuestas sobre el trabajo que se conoce de primera mano."
+    }
   }
 }
