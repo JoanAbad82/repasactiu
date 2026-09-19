@@ -65,28 +65,40 @@ export async function runStudyCardsAudit(){
   if(coreCards!==596)errors.push('nucli: '+coreCards+'/596 targetes');
 
   const coreOverrides=extra.coreOverrides||{};
-  const standaloneRiskPhrases=[
+  const standaloneRiskPhrasesCa=[
     'quina d’aquestes','quina d\'aquestes','quin d’aquests','quin d\'aquests',
     'quina opció','quina afirmació','quina combinació','quin conjunt',
     'quina parella','quina conclusió','quina lectura','quina relació'
   ];
-  const hasStandaloneRisk=value=>{
-    const text=String(value??'').toLocaleLowerCase('ca');
-    return standaloneRiskPhrases.some(phrase=>text.includes(phrase));
+  const standaloneRiskPhrasesEs=[
+    'cuál de estas','cual de estas','cuál de estos','cual de estos',
+    'qué opción','que opción','qué afirmación','que afirmación',
+    'qué combinación','que combinación','qué conjunto','que conjunto',
+    'qué pareja','que pareja','qué conclusión','que conclusión',
+    'qué lectura','que lectura','qué relación','que relación'
+  ];
+  const hasStandaloneRisk=(value,lang)=>{
+    const text=String(value??'').toLocaleLowerCase(lang==='es'?'es':'ca');
+    const phrases=lang==='es'?standaloneRiskPhrasesEs:standaloneRiskPhrasesCa;
+    return phrases.some(phrase=>text.includes(phrase));
   };
+  const isQuestion=value=>String(value??'').trim().endsWith('?');
 
   for(const [id,record] of coreById){
     const override=coreOverrides[id];
-    if(hasStandaloneRisk(record.ca?.question)&&!override?.ca?.question){
+    if(hasStandaloneRisk(record.ca?.question,'ca')&&!override?.ca?.question){
       errors.push(id+': la pregunta de test depèn de les opcions i necessita pregunta pròpia de flashcard CA');
     }
-    if(hasStandaloneRisk(record.ca?.question)&&!override?.es?.question){
+    if(hasStandaloneRisk(record.ca?.question,'ca')&&!override?.es?.question){
       errors.push(id+': la pregunta de test depèn de les opcions i necessita pregunta pròpia de flashcard ES');
     }
     const caQuestion=override?.ca?.question||record.ca?.question||'';
     const esQuestion=override?.es?.question||record.es?.question||'';
     if(!String(caQuestion).trim()||!String(esQuestion).trim())errors.push(id+': pregunta efectiva de flashcard buida');
-    if(hasStandaloneRisk(caQuestion))errors.push(id+': la flashcard CA continua depenent de les opcions');
+    if(hasStandaloneRisk(caQuestion,'ca'))errors.push(id+': la flashcard CA continua depenent de les opcions');
+    if(hasStandaloneRisk(esQuestion,'es'))errors.push(id+': la flashcard ES continua depenent de les opcions');
+    if(!isQuestion(caQuestion))errors.push(id+': la flashcard CA ha de ser una pregunta completa');
+    if(!isQuestion(esQuestion))errors.push(id+': la flashcard ES ha de ser una pregunta completa');
   }
 
   for(const [id,override] of Object.entries(coreOverrides)){
@@ -115,6 +127,7 @@ export async function runStudyCardsAudit(){
     for(const lang of ['ca','es']){
       const loc=card[lang]||{};
       if(!String(loc.question||'').trim())errors.push(card.id+': pregunta '+lang+' buida');
+      else if(!isQuestion(loc.question))errors.push(card.id+': la pregunta extra '+lang+' ha de ser interrogativa');
       if(!String(loc.answer||'').trim())errors.push(card.id+': resposta '+lang+' buida');
       if(!String(loc.mnemonic||'').trim())errors.push(card.id+': mnemotècnia '+lang+' buida');
       if([...String(loc.mnemonic||'')].length>110)errors.push(card.id+': mnemotècnia '+lang+' massa llarga');

@@ -1338,6 +1338,70 @@
       "es": {
         "question": "¿Qué criterios son especialmente importantes en la gestión de documentación e información interna?"
       }
+    },
+    "b1-006": {
+      "ca": {
+        "question": "Quines finalitats pot tenir una entitat privada?"
+      },
+      "es": {
+        "question": "¿Qué finalidades puede tener una entidad privada?"
+      }
+    },
+    "b1-010": {
+      "ca": {
+        "question": "En què posa l’accent el principi de control perquè les activitats funcionin correctament?"
+      },
+      "es": {
+        "question": "¿En qué pone el acento el principio de control para que las actividades funcionen correctamente?"
+      }
+    },
+    "b2-001": {
+      "ca": {
+        "question": "Com es classifiquen les empreses segons el motiu de creació?"
+      },
+      "es": {
+        "question": "¿Cómo se clasifican las empresas según el motivo de creación?"
+      }
+    },
+    "b2-004": {
+      "ca": {
+        "question": "Per què una mateixa empresa pot pertànyer a diverses categories?"
+      },
+      "es": {
+        "question": "¿Por qué una misma empresa puede pertenecer a varias categorías?"
+      }
+    },
+    "b2-010": {
+      "ca": {
+        "question": "En què es divideix el capital social d’una S.A.?"
+      },
+      "es": {
+        "question": "¿En qué se divide el capital social de una S.A.?"
+      }
+    },
+    "b2-011": {
+      "ca": {
+        "question": "A què queda limitada la responsabilitat dels accionistes d’una S.A.?"
+      },
+      "es": {
+        "question": "¿A qué queda limitada la responsabilidad de los accionistas de una S.A.?"
+      }
+    },
+    "b2-012": {
+      "ca": {
+        "question": "En què es divideix el capital social d’una S.L.?"
+      },
+      "es": {
+        "question": "¿En qué se divide el capital social de una S.L.?"
+      }
+    },
+    "b2-020": {
+      "ca": {
+        "question": "Entre quins sectors es reparteix la propietat d’una empresa mixta?"
+      },
+      "es": {
+        "question": "¿Entre qué sectores se reparte la propiedad de una empresa mixta?"
+      }
     }
   }
 }
