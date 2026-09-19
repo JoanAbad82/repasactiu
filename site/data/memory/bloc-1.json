@@ -1,215 +1,47 @@
 {
   "blockId": "bloc-1",
   "questions": {
-    "b1-001": {
-      "type": "example",
-      "ca": "Un ajuntament és públic perquè forma part del sector públic.",
-      "es": "Un ayuntamiento es público porque forma parte del sector público."
-    },
-    "b1-002": {
-      "type": "example",
-      "ca": "Una biblioteca municipal pot ser creada i gestionada per l’ajuntament.",
-      "es": "Una biblioteca municipal puede ser creada y gestionada por el ayuntamiento."
-    },
-    "b1-003": {
-      "type": "example",
-      "ca": "Un servei públic pot finançar-se amb impostos, taxes o pressupostos.",
-      "es": "Un servicio público puede financiarse con impuestos, tasas o presupuestos."
-    },
-    "b1-004": {
-      "type": "example",
-      "ca": "Un servei municipal d’atenció ciutadana busca cobrir una necessitat d’interès general.",
-      "es": "Un servicio municipal de atención ciudadana busca cubrir una necesidad de interés general."
-    },
-    "b1-005": {
-      "type": "example",
-      "ca": "Una botiga creada per particulars és una entitat privada.",
-      "es": "Una tienda creada por particulares es una entidad privada."
-    },
-    "b1-006": {
-      "type": "example",
-      "ca": "Una empresa pot buscar benefici; una associació privada pot no tenir ànim de lucre.",
-      "es": "Una empresa puede buscar beneficio; una asociación privada puede no tener ánimo de lucro."
-    },
-    "b1-007": {
-      "type": "example",
-      "ca": "Revisar que cada tasca es faci i es coordini correctament és aplicar control.",
-      "es": "Revisar que cada tarea se haga y coordine correctamente es aplicar control."
-    },
-    "b1-008": {
-      "type": "example",
-      "ca": "Si portes l’arxiu, ets responsable de mantenir-lo ordenat i al dia.",
-      "es": "Si llevas el archivo, eres responsable de mantenerlo ordenado y al día."
-    },
-    "b1-009": {
-      "type": "example",
-      "ca": "En una oficina, cadascú assumeix la seva tasca i tots coordinen terminis.",
-      "es": "En una oficina, cada uno asume su tarea y todos coordinan plazos."
-    },
-    "b1-010": {
-      "type": "idea",
-      "ca": "Control = supervisar + coordinar + organitzar perquè l’activitat funcioni.",
-      "es": "Control = supervisar + coordinar + organizar para que la actividad funcione."
-    },
-    "b1-011": {
-      "type": "example",
-      "ca": "Direcció pot coordinar Vendes, Administració i RRHH abans d’una decisió important.",
-      "es": "Dirección puede coordinar Ventas, Administración y RR. HH. antes de una decisión importante."
-    },
-    "b1-012": {
-      "type": "example",
-      "ca": "Abans d’una compra gran, Finances comprova diners disponibles i finançament.",
-      "es": "Antes de una compra grande, Finanzas comprueba dinero disponible y financiación."
-    },
-    "b1-013": {
-      "type": "idea",
-      "ca": "Si la pregunta parla de diners, finançament o recursos econòmics, pensa en la funció financera.",
-      "es": "Si la pregunta habla de dinero, financiación o recursos económicos, piensa en la función financiera."
-    },
-    "b1-014": {
-      "type": "example",
-      "ca": "Si dos departaments han d’actuar en la mateixa direcció, Direcció els coordina.",
-      "es": "Si dos departamentos deben actuar en la misma dirección, Dirección los coordina."
-    },
-    "b1-015": {
-      "type": "example",
-      "ca": "Contractar una persona i preparar la seva formació són tasques de RRHH.",
-      "es": "Contratar a una persona y preparar su formación son tareas de RR. HH."
-    },
-    "b1-016": {
-      "type": "example",
-      "ca": "Una campanya per donar a conèixer un nou servei és comercialització.",
-      "es": "Una campaña para dar a conocer un nuevo servicio es comercialización."
-    },
-    "b1-017": {
-      "type": "example",
-      "ca": "Quan arriba una comanda d’un client, la funció de Vendes la gestiona.",
-      "es": "Cuando llega un pedido de un cliente, la función de Ventas lo gestiona."
-    },
-    "b1-018": {
-      "type": "example",
-      "ca": "Organitzar torns o formació del personal és una tasca de Recursos Humans.",
-      "es": "Organizar turnos o formación del personal es una tarea de Recursos Humanos."
-    },
-    "b1-019": {
-      "type": "example",
-      "ca": "Respondre bé una consulta o reclamació ajuda a mantenir una bona relació amb el client.",
-      "es": "Responder bien una consulta o reclamación ayuda a mantener una buena relación con el cliente."
-    },
-    "b1-020": {
-      "type": "example",
-      "ca": "Si diversos clients repeteixen una queixa, l’empresa pot usar-la per millorar el servei.",
-      "es": "Si varios clientes repiten una queja, la empresa puede usarla para mejorar el servicio."
-    },
-    "b1-021": {
-      "type": "example",
-      "ca": "Un client pot contactar per telèfon, correu electrònic, web o correu postal.",
-      "es": "Un cliente puede contactar por teléfono, correo electrónico, web o correo postal."
-    },
-    "b1-022": {
-      "type": "example",
-      "ca": "Arxivar, gestionar informació i coordinar tasques són activitats administratives.",
-      "es": "Archivar, gestionar información y coordinar tareas son actividades administrativas."
-    },
-    "b1-023": {
-      "type": "example",
-      "ca": "Classificar factures i actualitzar una base de dades és feina administrativa.",
-      "es": "Clasificar facturas y actualizar una base de datos es trabajo administrativo."
-    },
-    "b1-024": {
-      "type": "idea",
-      "ca": "La funció administrativa posa ordre a documents, informació i tasques perquè l’empresa funcioni.",
-      "es": "La función administrativa pone orden en documentos, información y tareas para que la empresa funcione."
-    },
-    "b1-025": {
-      "type": "example",
-      "ca": "Si una entitat depèn d’una administració i de recursos públics, pensa en entitat pública.",
-      "es": "Si una entidad depende de una administración y de recursos públicos, piensa en entidad pública."
-    },
-    "b1-026": {
-      "type": "example",
-      "ca": "Una fundació creada per particulars pot ser privada encara que no reparteixi beneficis.",
-      "es": "Una fundación creada por particulares puede ser privada aunque no reparta beneficios."
-    },
-    "b1-027": {
-      "type": "idea",
-      "ca": "Per distingir pública i privada, mira sobretot qui la crea o gestiona i d’on provenen els recursos.",
-      "es": "Para distinguir pública y privada, mira sobre todo quién la crea o gestiona y de dónde vienen los recursos."
-    },
-    "b1-028": {
-      "type": "example",
-      "ca": "Un responsable que revisa tasques i coordinació està aplicant control.",
-      "es": "Un responsable que revisa tareas y coordinación está aplicando control."
-    },
-    "b1-029": {
-      "type": "example",
-      "ca": "Assumir el resultat de la teva feina i coordinar-te amb l’equip és responsabilitat.",
-      "es": "Asumir el resultado de tu trabajo y coordinarte con el equipo es responsabilidad."
-    },
-    "b1-030": {
-      "type": "example",
-      "ca": "Obrir una nova línia requereix decidir què fer i calcular com finançar-la: Direcció + Finances.",
-      "es": "Abrir una nueva línea exige decidir qué hacer y calcular cómo financiarla: Dirección + Finanzas."
-    },
-    "b1-031": {
-      "type": "example",
-      "ca": "Abans d’una despesa important, Finances comprova si l’empresa té recursos suficients.",
-      "es": "Antes de un gasto importante, Finanzas comprueba si la empresa tiene recursos suficientes."
-    },
-    "b1-032": {
-      "type": "example",
-      "ca": "Nova persona → RRHH; anunciar el servei → Comercialització; gestionar la comanda → Vendes.",
-      "es": "Nueva persona → RR. HH.; anunciar el servicio → Comercialización; gestionar el pedido → Ventas."
-    },
-    "b1-033": {
-      "type": "idea",
-      "ca": "Comercialització dona a conèixer; Vendes gestiona l’operació quan el client compra.",
-      "es": "Comercialización da a conocer; Ventas gestiona la operación cuando el cliente compra."
-    },
-    "b1-034": {
-      "type": "example",
-      "ca": "Preparar l’acollida i la formació d’un nou treballador correspon a RRHH.",
-      "es": "Preparar la acogida y formación de un nuevo trabajador corresponde a RR. HH."
-    },
-    "b1-035": {
-      "type": "example",
-      "ca": "Una reclamació repetida pot revelar un problema i orientar una millora del servei.",
-      "es": "Una reclamación repetida puede revelar un problema y orientar una mejora del servicio."
-    },
-    "b1-036": {
-      "type": "idea",
-      "ca": "Canals d’atenció: telèfon, correu electrònic, web i correu postal.",
-      "es": "Canales de atención: teléfono, correo electrónico, web y correo postal."
-    },
-    "b1-037": {
-      "type": "example",
-      "ca": "Classificar contractes, actualitzar dades i controlar terminis és funció administrativa.",
-      "es": "Clasificar contratos, actualizar datos y controlar plazos es función administrativa."
-    },
-    "b1-038": {
-      "type": "idea",
-      "ca": "Administració ordena informació; Comercialització promociona productes o serveis.",
-      "es": "Administración ordena información; Comercialización promociona productos o servicios."
-    },
-    "b1-039": {
-      "type": "example",
-      "ca": "Si una decisió afecta diversos departaments, Direcció marca una orientació comuna.",
-      "es": "Si una decisión afecta a varios departamentos, Dirección marca una orientación común."
-    },
-    "b1-040": {
-      "type": "example",
-      "ca": "El client ja coneix el producte i fa la comanda: ara entra en joc Vendes.",
-      "es": "El cliente ya conoce el producto y hace el pedido: ahora entra en juego Ventas."
-    },
-    "b1-041": {
-      "type": "idea",
-      "ca": "Privada indica qui la crea o gestiona; lucrativa indica si busca o reparteix benefici.",
-      "es": "Privada indica quién la crea o gestiona; lucrativa indica si busca o reparte beneficio."
-    },
-    "b1-042": {
-      "type": "idea",
-      "ca": "Control = supervisar i coordinar; responsabilitat = assumir la part pròpia i treballar en equip.",
-      "es": "Control = supervisar y coordinar; responsabilidad = asumir la parte propia y trabajar en equipo."
-    }
+    "b1-001":{"type":"example","ca":"Un ajuntament és públic perquè forma part del sector públic.","es":"Un ayuntamiento es público porque forma parte del sector público."},
+    "b1-002":{"type":"example","ca":"Una biblioteca municipal pot ser creada i gestionada per l’ajuntament.","es":"Una biblioteca municipal puede ser creada y gestionada por el ayuntamiento."},
+    "b1-003":{"type":"example","ca":"Un servei públic pot finançar-se amb impostos, taxes o pressupostos.","es":"Un servicio público puede financiarse con impuestos, tasas o presupuestos."},
+    "b1-004":{"type":"example","ca":"Un servei municipal d’atenció ciutadana busca cobrir una necessitat d’interès general.","es":"Un servicio municipal de atención ciudadana busca cubrir una necesidad de interés general."},
+    "b1-005":{"type":"example","ca":"Una botiga creada per particulars és una entitat privada.","es":"Una tienda creada por particulares es una entidad privada."},
+    "b1-006":{"type":"example","ca":"Una empresa pot buscar benefici; una associació privada pot no tenir ànim de lucre.","es":"Una empresa puede buscar beneficio; una asociación privada puede no tener ánimo de lucro."},
+    "b1-007":{"type":"example","ca":"Revisar que cada tasca es faci i es coordini correctament és aplicar control.","es":"Revisar que cada tarea se haga y coordine correctamente es aplicar control."},
+    "b1-008":{"type":"example","ca":"Si portes l’arxiu, ets responsable de mantenir-lo ordenat i al dia.","es":"Si llevas el archivo, eres responsable de mantenerlo ordenado y al día."},
+    "b1-009":{"type":"example","ca":"En una oficina, cadascú assumeix la seva tasca i tots coordinen terminis.","es":"En una oficina, cada uno asume su tarea y todos coordinan plazos."},
+    "b1-010":{"type":"idea","ca":"Control = supervisar + coordinar + organitzar perquè l’activitat funcioni.","es":"Control = supervisar + coordinar + organizar para que la actividad funcione."},
+    "b1-011":{"type":"example","ca":"Direcció pot coordinar Vendes, Administració i RRHH abans d’una decisió important.","es":"Dirección puede coordinar Ventas, Administración y RR. HH. antes de una decisión importante."},
+    "b1-012":{"type":"example","ca":"Abans d’una compra gran, Finances comprova diners disponibles i finançament.","es":"Antes de una compra grande, Finanzas comprueba dinero disponible y financiación."},
+    "b1-013":{"type":"idea","ca":"Si la pregunta parla de diners, finançament o recursos econòmics, pensa en la funció financera.","es":"Si la pregunta habla de dinero, financiación o recursos económicos, piensa en la función financiera."},
+    "b1-014":{"type":"example","ca":"Si dos departaments han d’actuar en la mateixa direcció, Direcció els coordina.","es":"Si dos departamentos deben actuar en la misma dirección, Dirección los coordina."},
+    "b1-015":{"type":"example","ca":"Contractar una persona i preparar la seva formació són tasques de RRHH.","es":"Contratar a una persona y preparar su formación son tareas de RR. HH."},
+    "b1-016":{"type":"example","ca":"Una campanya per donar a conèixer un nou servei és comercialització.","es":"Una campaña para dar a conocer un nuevo servicio es comercialización."},
+    "b1-017":{"type":"example","ca":"Quan arriba una comanda d’un client, la funció de Vendes la gestiona.","es":"Cuando llega un pedido de un cliente, la función de Ventas lo gestiona."},
+    "b1-018":{"type":"example","ca":"Organitzar torns o formació del personal és una tasca de Recursos Humans.","es":"Organizar turnos o formación del personal es una tarea de Recursos Humanos."},
+    "b1-019":{"type":"example","ca":"Respondre bé una consulta o reclamació ajuda a mantenir una bona relació amb el client.","es":"Responder bien una consulta o reclamación ayuda a mantener una buena relación con el cliente."},
+    "b1-020":{"type":"example","ca":"Si diversos clients repeteixen una queixa, l’empresa pot usar-la per millorar el servei.","es":"Si varios clientes repiten una queja, la empresa puede usarla para mejorar el servicio."},
+    "b1-021":{"type":"example","ca":"Un client pot contactar per telèfon, correu electrònic, web o correu postal.","es":"Un cliente puede contactar por teléfono, correo electrónico, web o correo postal."},
+    "b1-022":{"type":"example","ca":"Arxivar, gestionar informació i coordinar tasques són activitats administratives.","es":"Archivar, gestionar información y coordinar tareas son actividades administrativas."},
+    "b1-023":{"type":"example","ca":"Classificar factures i actualitzar una base de dades és feina administrativa.","es":"Clasificar facturas y actualizar una base de datos es trabajo administrativo."},
+    "b1-024":{"type":"idea","ca":"La funció administrativa posa ordre a documents, informació i tasques perquè l’empresa funcioni.","es":"La función administrativa pone orden en documentos, información y tareas para que la empresa funcione."},
+    "b1-025":{"type":"example","ca":"Si una entitat depèn d’una administració i de recursos públics, pensa en entitat pública.","es":"Si una entidad depende de una administración y de recursos públicos, piensa en entidad pública."},
+    "b1-026":{"type":"example","ca":"Una fundació creada per particulars pot ser privada encara que no reparteixi beneficis.","es":"Una fundación creada por particulares puede ser privada aunque no reparta beneficios."},
+    "b1-027":{"type":"idea","ca":"Per distingir pública i privada, mira sobretot qui la crea o gestiona i d’on provenen els recursos.","es":"Para distinguir pública y privada, mira sobre todo quién la crea o gestiona y de dónde vienen los recursos."},
+    "b1-028":{"type":"example","ca":"Un responsable que revisa tasques i coordinació està aplicant control.","es":"Un responsable que revisa tareas y coordinación está aplicando control."},
+    "b1-029":{"type":"example","ca":"Assumir el resultat de la teva feina i coordinar-te amb l’equip és responsabilitat.","es":"Asumir el resultado de tu trabajo y coordinarte con el equipo es responsabilidad."},
+    "b1-030":{"type":"example","ca":"Obrir una nova línia requereix decidir què fer i calcular com finançar-la: Direcció + Finances.","es":"Abrir una nueva línea exige decidir qué hacer y calcular cómo financiarla: Dirección + Finanzas."},
+    "b1-031":{"type":"example","ca":"Abans d’una despesa important, Finances comprova si l’empresa té recursos suficients.","es":"Antes de un gasto importante, Finanzas comprueba si la empresa tiene recursos suficientes."},
+    "b1-032":{"type":"example","ca":"Nova persona → RRHH; anunciar el servei → Comercialització; gestionar la comanda → Vendes.","es":"Nueva persona → RR. HH.; anunciar el servicio → Comercialización; gestionar el pedido → Ventas."},
+    "b1-033":{"type":"idea","ca":"Comercialització dona a conèixer; Vendes gestiona l’operació quan el client compra.","es":"Comercialización da a conocer; Ventas gestiona la operación cuando el cliente compra."},
+    "b1-034":{"type":"example","ca":"Preparar l’acollida i la formació d’un nou treballador correspon a RRHH.","es":"Preparar la acogida y formación de un nuevo trabajador corresponde a RR. HH."},
+    "b1-035":{"type":"example","ca":"Una reclamació repetida pot revelar un problema i orientar una millora del servei.","es":"Una reclamación repetida puede revelar un problema y orientar una mejora del servicio."},
+    "b1-036":{"type":"idea","ca":"Canals d’atenció: telèfon, correu electrònic, web i correu postal.","es":"Canales de atención: teléfono, correo electrónico, web y correo postal."},
+    "b1-037":{"type":"example","ca":"Classificar contractes, actualitzar dades i controlar terminis és funció administrativa.","es":"Clasificar contratos, actualizar datos y controlar plazos es función administrativa."},
+    "b1-038":{"type":"idea","ca":"Administració ordena informació; Comercialització promociona productes o serveis.","es":"Administración ordena información; Comercialización promociona productos o servicios."},
+    "b1-039":{"type":"example","ca":"Si una decisió afecta diversos departaments, Direcció marca una orientació comuna.","es":"Si una decisión afecta a varios departamentos, Dirección marca una orientación común."},
+    "b1-040":{"type":"example","ca":"El client ja coneix el producte i fa la comanda: ara entra en joc Vendes.","es":"El cliente ya conoce el producto y hace el pedido: ahora entra en juego Ventas."},
+    "b1-041":{"type":"idea","ca":"Privada indica qui la crea o gestiona; lucrativa indica si busca o reparteix benefici.","es":"Privada indica quién la crea o gestiona; lucrativa indica si busca o reparte beneficio."},
+    "b1-042":{"type":"example","ca":"El responsable supervisa; cada membre assumeix la seva part: control + responsabilitat.","es":"El responsable supervisa; cada miembro asume su parte: control + responsabilidad."}
   }
 }

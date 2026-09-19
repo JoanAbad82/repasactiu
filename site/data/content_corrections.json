@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "questions": {
     "b2-037": {
       "canonical": {
@@ -26,6 +26,34 @@
         "type": "example",
         "ca": "Capital públic + capital privat = empresa mixta.",
         "es": "Capital público + capital privado = empresa mixta."
+      }
+    },
+    "b1-042": {
+      "canonical": {
+        "question": "Quina situació aplica alhora el principi de control de l’organització i el principi de responsabilitat?",
+        "options": [
+          "La direcció supervisa i coordina les activitats, mentre que cada persona assumeix les funcions i responsabilitats que li corresponen",
+          "Cada persona assumeix les seves tasques, però no hi ha supervisió ni coordinació del conjunt",
+          "La direcció supervisa el conjunt, però les responsabilitats individuals no estan definides",
+          "Cada persona treballa de manera independent i evita coordinar-se amb la resta de l’equip"
+        ],
+        "explanation": "El principi de control implica supervisar, coordinar i organitzar les activitats; el principi de responsabilitat exigeix que cada persona assumeixi les seves funcions i responsabilitats i treballi coordinadament amb l’equip."
+      },
+      "es": {
+        "topic": "Control y responsabilidad",
+        "question": "¿Qué situación aplica a la vez el principio de control de la organización y el principio de responsabilidad?",
+        "options": [
+          "La dirección supervisa y coordina las actividades, mientras cada persona asume las funciones y responsabilidades que le corresponden",
+          "Cada persona asume sus tareas, pero no existe supervisión ni coordinación del conjunto",
+          "La dirección supervisa el conjunto, pero las responsabilidades individuales no están definidas",
+          "Cada persona trabaja de forma independiente y evita coordinarse con el resto del equipo"
+        ],
+        "explanation": "El principio de control implica supervisar, coordinar y organizar las actividades; el principio de responsabilidad exige que cada persona asuma sus funciones y responsabilidades y trabaje coordinadamente con el equipo."
+      },
+      "memoryAid": {
+        "type": "idea",
+        "ca": "Control = supervisar i coordinar; responsabilitat = assumir la part pròpia i treballar en equip.",
+        "es": "Control = supervisar y coordinar; responsabilidad = asumir la parte propia y trabajar en equipo."
       }
     }
   }
