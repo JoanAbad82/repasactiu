@@ -97,7 +97,7 @@ No se ha incorporado conocimiento externo como verdad académica: los PDF del cu
 
 ## Evidencia automática
 
-CI funcional #260 sobre `62759bd2823eb583663524d6015d1658f05812b2`:
+CI funcional #262 sobre `e4345538f05751bb473370898c4573d5a2435718`:
 
 - `QUESTION_BANK_VALIDATION=PASS`
 - `SOURCE_TRACEABILITY=PASS`
@@ -118,8 +118,21 @@ CI funcional #260 sobre `62759bd2823eb583663524d6015d1658f05812b2`:
 - unit tests: **98/98 PASS**
 - Playwright E2E: **32/32 PASS**
 
+## Verificación del preview
+
+Cloudflare Pages desplegó correctamente el árbol auditado en:
+`https://223a10d5.repasactiu.pages.dev`.
+
+Se verificó además que el preview publica:
+- `content_corrections.json` con la nueva redacción de `b1-042` en CA/ES;
+- `study-cards-extra.json` versión 4;
+- 59 `coreOverrides`, incluidos `b2-036` y `b5-046`;
+- las 42 tarjetas extra revisadas.
+
+El smoke funcional de tarjetas mantiene 596 preguntas de test, 638 flashcards, selección por bloques, giro pregunta/respuesta+mnemotecnia y cambio CA/ES sin alterar la identidad de la tarjeta.
+
 ## Criterio de cierre
 
-No se fusionará esta auditoría mientras el HEAD final no vuelva a pasar la CI completa y el preview no supere un smoke de las tarjetas corregidas, cambio CA/ES y navegación básica.
+La auditoría solo podrá fusionarse si el commit documental final vuelve a pasar CI y Cloudflare Pages sin modificar el árbol de producto auditado.
 
 La auditoría reduce de forma material el riesgo de ambigüedad editorial y añade controles permanentes para evitar la regresión. Como en cualquier material educativo, esto constituye una certificación de alta confianza basada en las fuentes disponibles, no una demostración matemática de ausencia absoluta de futuras mejoras editoriales.
