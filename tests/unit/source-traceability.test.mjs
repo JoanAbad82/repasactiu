@@ -9,7 +9,7 @@ test('les preguntes publicades tenen traçabilitat completa a les fonts autoritz
   assert.equal(result.questions,596);
   assert.equal(result.traceable,596);
   assert.equal(result.sources,7);
-  assert.equal(result.corrections,1);
+  assert.equal(result.corrections,2);
   assert.deepEqual(result.errors,[]);
 });
 
