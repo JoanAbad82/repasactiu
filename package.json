@@ -13,10 +13,10 @@
     "test:audit:content": "node scripts/content-quality-lib.mjs",
     "test:e2e": "playwright test",
     "test": "npm run test:data && npm run test:unit",
-    "audit:full": "npm run test:data && npm run test:audit:sources && npm run test:audit:bilingual && npm run test:audit:content && npm run test:audit:hard && npm run test:audit:memory && npm run test:audit:permutations && npm run test:unit && npm run test:e2e",
+    "audit:full": "npm run test:data && npm run test:audit:sources && npm run test:audit:bilingual && npm run test:audit:content && npm run test:audit:hard && npm run test:audit:study-cards && npm run test:audit:permutations && npm run test:unit && npm run test:e2e",
     "test:all": "npm run audit:full",
     "test:audit:hard": "node scripts/hard-distractor-lib.mjs",
-    "test:audit:memory": "node scripts/audit-memory-game.mjs"
+    "test:audit:study-cards": "node scripts/audit-study-cards.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0"
