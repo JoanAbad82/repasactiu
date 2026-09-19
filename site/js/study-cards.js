@@ -77,19 +77,20 @@ export async function loadStudyCardsBank(fetcher=fetch){
   return bank;
 }
 
-export function buildCoreStudyCards(banks,lang='ca'){
+export function buildCoreStudyCards(banks,lang='ca',overrides={}){
   const language=lang==='es'?'es':'ca';
   return banks.flatMap(bank=>bank.questions.map(question=>{
     const localized=language==='es'?(question.translations?.es||question):question;
     const options=localized.options||question.options;
-    const answer=options?.[question.correct];
-    const mnemonic=question.memoryAid?.[language]||'';
+    const override=overrides?.[question.id]?.[language]||{};
+    const answer=override.answer||options?.[question.correct];
+    const mnemonic=override.mnemonic||question.memoryAid?.[language]||'';
     return {
       id:'test-'+question.id,
       sourceType:'test',
       blockId:bank.blockId,
       unitId:bank.unitId,
-      question:localized.question,
+      question:override.question||localized.question,
       answer,
       mnemonic
     };
@@ -230,7 +231,7 @@ export function createStudyCards({screen,live,banks,extraBank,language='ca',rand
   let flipped=false;
 
   const allCards=currentLang=>[
-    ...buildCoreStudyCards(banks,currentLang),
+    ...buildCoreStudyCards(banks,currentLang,extraBank.coreOverrides||{}),
     ...buildExtraStudyCards(extraBank,currentLang)
   ];
   const idsForSelection=()=>{

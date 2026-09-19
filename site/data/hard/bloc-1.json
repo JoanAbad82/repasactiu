@@ -495,14 +495,14 @@
     },
     "b1-042": {
       "ca": [
-        "Cada persona assumeix la seva tasca, però no hi ha supervisió ni coordinació del conjunt",
-        "La direcció supervisa el conjunt, però les responsabilitats individuals queden sense definir",
-        "La funció financera controla recursos i Recursos Humans distribueix les tasques del personal"
+        "La direcció coordina les activitats, però cada persona espera que el responsable assumeixi també la seva responsabilitat individual",
+        "Cada persona compleix la seva funció, però els equips treballen sense supervisió ni coordinació entre ells",
+        "La direcció distribueix les tasques i centralitza totes les responsabilitats perquè la resta de persones només les executin"
       ],
       "es": [
-        "Cada persona asume su tarea, pero no hay supervisión ni coordinación del conjunto",
-        "La dirección supervisa el conjunto, pero las responsabilidades individuales quedan sin definir",
-        "La función financiera controla recursos y Recursos Humanos distribuye las tareas del personal"
+        "La dirección coordina las actividades, pero cada persona espera que el responsable asuma también su responsabilidad individual",
+        "Cada persona cumple su función, pero los equipos trabajan sin supervisión ni coordinación entre ellos",
+        "La dirección distribuye las tareas y centraliza todas las responsabilidades para que el resto de personas solo las ejecuten"
       ]
     },
     "b1-043": {
@@ -579,14 +579,14 @@
     },
     "b1-049": {
       "ca": [
-        "Planificació",
-        "Organització",
-        "Coordinació"
+        "Responsabilitat, perquè cada persona ha d’assumir les funcions que li corresponen",
+        "Funció de direcció, perquè coordina departaments i pren decisions importants",
+        "Funció administrativa, perquè organitza documents, informació i tasques administratives"
       ],
       "es": [
-        "Planificación",
-        "Organización",
-        "Coordinación"
+        "Responsabilidad, porque cada persona debe asumir las funciones que le corresponden",
+        "Función de dirección, porque coordina departamentos y toma decisiones importantes",
+        "Función administrativa, porque organiza documentos, información y tareas administrativas"
       ]
     },
     "b1-050": {

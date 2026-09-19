@@ -79,3 +79,20 @@ test('wrapIndex permet navegació circular',()=>{
   assert.equal(wrapIndex(638,638),0);
   assert.equal(wrapIndex(-1,638),637);
 });
+
+
+test('buildCoreStudyCards aplica overrides editorials sense alterar el banc de test',()=>{
+  const overrides={
+    q1:{
+      ca:{question:'Pregunta CA autònoma?',answer:'Resposta CA polida'},
+      es:{question:'¿Pregunta ES autónoma?',answer:'Respuesta ES pulida'}
+    }
+  };
+  const ca=buildCoreStudyCards(mockBanks,'ca',overrides);
+  const es=buildCoreStudyCards(mockBanks,'es',overrides);
+  assert.equal(ca[0].question,'Pregunta CA autònoma?');
+  assert.equal(ca[0].answer,'Resposta CA polida');
+  assert.equal(es[0].question,'¿Pregunta ES autónoma?');
+  assert.equal(es[0].answer,'Respuesta ES pulida');
+  assert.equal(mockBanks[0].questions[0].question,'Pregunta CA?');
+});

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "auditDate": "2026-09-16",
+  "auditDate": "2026-09-19",
   "scope": "UF0517",
   "academicPolicy": "Only the six original course PDFs are authoritative. No web or general-knowledge source is accepted for academic validation.",
   "sources": {
@@ -100,13 +100,13 @@
   "sourceOverrides": [
     {
       "id": "b1-049",
-      "source": "B2",
+      "source": "B1",
       "pageRange": [
-        29,
-        29
+        10,
+        10
       ],
-      "status": "PASS",
-      "reason": "The wording about comparing work with what was planned and detecting deviations is supported by the administrative-control definition in Bloc 2. It remains course-grounded even though the question is stored in Bloc 1."
+      "status": "CORRECTED",
+      "reason": "The previous wording imported the administrative-control idea of comparing results with plans from Bloc 2. The question was rewritten to the Bloc 1 definition: supervising, coordinating and organizing activities so the organization works correctly."
     }
   ],
   "corrections": [
@@ -119,12 +119,22 @@
       ],
       "status": "CORRECTED",
       "reason": "The former 60% public / 40% private example overlapped two definitions in the source: public when capital is total or majority public, and mixed when public and private capital are combined. Percentages were removed so only the mixed-capital definition is tested."
+    },
+    {
+      "id": "b1-042",
+      "source": "B1",
+      "pageRange": [
+        10,
+        10
+      ],
+      "status": "CORRECTED",
+      "reason": "The former wording referred vaguely to 'the two principles worked on in the block'. It now names the principle of organizational control and the principle of responsibility explicitly while preserving the same source-backed correct meaning."
     }
   ],
   "review": {
     "questionCount": 510,
-    "method": "Question, marked correct option and explanation reviewed against the authorized PDF for its block/topic; the 2026-09-18 expansion adds 10 source-grounded items per published block and preserves explicit cross-source overrides.",
-    "semanticCorrections": 1,
+    "method": "Question, marked correct option and explanation reviewed against the authorized PDF for its block/topic; the 2026-09-19 editorial audit also verifies self-contained wording for study-card reuse and records source-backed corrections explicitly.",
+    "semanticCorrections": 2,
     "residualGuarantee": "Technical invariants are exhaustive. Academic correctness is source-audited to high assurance but is not a mathematical proof of zero interpretation error."
   }
 }

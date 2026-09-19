@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "languages": [
     "ca",
     "es"
@@ -39,14 +39,14 @@
       "id": "sc-b1-01",
       "blockId": "bloc-1",
       "ca": {
-        "question": "Quin canal deixa constància escrita i permet respondre sense coincidir en el mateix moment?",
+        "question": "Quin canal facilita la comunicació escrita entre l’empresa i els clients?",
         "answer": "Correu electrònic",
-        "mnemonic": "Email = escrit + no cal coincidir."
+        "mnemonic": "Comunicació escrita amb clients → correu electrònic."
       },
       "es": {
-        "question": "¿Qué canal deja constancia escrita y permite responder sin coincidir en el mismo momento?",
+        "question": "¿Qué canal facilita la comunicación escrita entre la empresa y los clientes?",
         "answer": "Correo electrónico",
-        "mnemonic": "Email = escrito + no hace falta coincidir."
+        "mnemonic": "Comunicación escrita con clientes → correo electrónico."
       },
       "source": {
         "id": "B1",
@@ -144,14 +144,14 @@
       "id": "sc-b1-06",
       "blockId": "bloc-1",
       "ca": {
-        "question": "Quina funció dona a conèixer i promociona productes o serveis abans de concretar la venda?",
+        "question": "Quina funció dona a conèixer i promociona productes o serveis?",
         "answer": "Comercialització",
-        "mnemonic": "Primer promociona; després ven."
+        "mnemonic": "Promocionar i donar a conèixer → Comercialització."
       },
       "es": {
-        "question": "¿Qué función da a conocer y promociona productos o servicios antes de concretar la venta?",
+        "question": "¿Qué función da a conocer y promociona productos o servicios?",
         "answer": "Comercialización",
-        "mnemonic": "Primero promociona; después vende."
+        "mnemonic": "Promocionar y dar a conocer → Comercialización."
       },
       "source": {
         "id": "B1",
@@ -522,14 +522,14 @@
       "id": "sc-b4-06",
       "blockId": "bloc-4",
       "ca": {
-        "question": "Què sol exigir un augment del volum i la complexitat de l’activitat d’una empresa?",
-        "answer": "Més especialització departamental",
-        "mnemonic": "Més complexitat → més especialització."
+        "question": "Quin efecte pot tenir un augment del volum i la complexitat de l’activitat d’una empresa?",
+        "answer": "Més especialització i una estructura departamental més àmplia",
+        "mnemonic": "Més volum i complexitat → pot caldre més especialització."
       },
       "es": {
-        "question": "¿Qué suele exigir un aumento del volumen y la complejidad de la actividad de una empresa?",
-        "answer": "Más especialización departamental",
-        "mnemonic": "Más complejidad → más especialización."
+        "question": "¿Qué efecto puede tener un aumento del volumen y la complejidad de la actividad de una empresa?",
+        "answer": "Más especialización y una estructura departamental más amplia",
+        "mnemonic": "Más volumen y complejidad → puede hacer falta más especialización."
       },
       "source": {
         "id": "B4",
@@ -627,14 +627,14 @@
       "id": "sc-b5-05",
       "blockId": "bloc-5",
       "ca": {
-        "question": "Quina institució de la UE proposa legislació i vetlla per l’aplicació del dret de la Unió?",
+        "question": "Quina institució de la UE proposa legislació en la majoria d’àmbits i vetlla per l’aplicació del dret de la Unió?",
         "answer": "Comissió Europea",
-        "mnemonic": "La Comissió proposa i vigila."
+        "mnemonic": "La Comissió proposa en la majoria d’àmbits i vetlla pel dret de la UE."
       },
       "es": {
-        "question": "¿Qué institución de la UE propone legislación y vela por la aplicación del derecho de la Unión?",
+        "question": "¿Qué institución de la UE propone legislación en la mayoría de ámbitos y vela por la aplicación del derecho de la Unión?",
         "answer": "Comisión Europea",
-        "mnemonic": "La Comisión propone y vigila."
+        "mnemonic": "La Comisión propone en la mayoría de ámbitos y vela por el derecho de la UE."
       },
       "source": {
         "id": "B5",
@@ -917,5 +917,511 @@
         ]
       }
     }
-  ]
+  ],
+  "coreOverrides": {
+    "b1-005": {
+      "ca": {
+        "question": "Com es caracteritza una entitat privada pel que fa a qui la crea i gestiona?"
+      },
+      "es": {
+        "question": "¿Cómo se caracteriza una entidad privada respecto a quién la crea y gestiona?"
+      }
+    },
+    "b1-018": {
+      "ca": {
+        "question": "Quina tasca de gestió del personal correspon a Recursos Humans?"
+      },
+      "es": {
+        "question": "¿Qué tarea de gestión del personal corresponde a Recursos Humanos?"
+      }
+    },
+    "b1-026": {
+      "ca": {
+        "question": "Una fundació creada per particulars, finançada amb aportacions privades i que no reparteix beneficis: com es classifica?",
+        "answer": "És una entitat privada i pot tenir finalitat no lucrativa"
+      },
+      "es": {
+        "question": "Una fundación creada por particulares, financiada con aportaciones privadas y que no reparte beneficios: ¿cómo se clasifica?",
+        "answer": "Es una entidad privada y puede tener finalidad no lucrativa"
+      }
+    },
+    "b1-036": {
+      "ca": {
+        "question": "Quins canals d’atenció al client cita el temari?"
+      },
+      "es": {
+        "question": "¿Qué canales de atención al cliente cita el temario?"
+      }
+    },
+    "b1-038": {
+      "ca": {
+        "question": "Quina diferència hi ha entre la funció administrativa i la comercialització?",
+        "answer": "La funció administrativa organitza informació; la comercialització promociona productes o serveis"
+      },
+      "es": {
+        "question": "¿Qué diferencia hay entre la función administrativa y la comercialización?",
+        "answer": "La función administrativa organiza información; la comercialización promociona productos o servicios"
+      }
+    },
+    "b1-041": {
+      "ca": {
+        "question": "Una entitat privada ha de tenir necessàriament finalitat lucrativa?",
+        "answer": "No. Pot ser lucrativa o no lucrativa"
+      },
+      "es": {
+        "question": "¿Una entidad privada debe tener necesariamente finalidad lucrativa?",
+        "answer": "No. Puede ser lucrativa o no lucrativa"
+      }
+    },
+    "b1-046": {
+      "ca": {
+        "question": "En una inversió empresarial, què correspon a Direcció i què correspon a la funció financera?"
+      },
+      "es": {
+        "question": "En una inversión empresarial, ¿qué corresponde a Dirección y qué corresponde a la función financiera?"
+      }
+    },
+    "b1-050": {
+      "ca": {
+        "question": "Quina diferència hi ha entre comercialització i vendes?",
+        "answer": "La comercialització promociona; vendes gestiona l’operació de venda"
+      },
+      "es": {
+        "question": "¿Qué diferencia hay entre comercialización y ventas?",
+        "answer": "La comercialización promociona; ventas gestiona la operación de venta"
+      }
+    },
+    "b2-005": {
+      "ca": {
+        "question": "Quin criteri classifica una empresa com a fabricant, distribuïdora o de serveis?"
+      },
+      "es": {
+        "question": "¿Qué criterio clasifica una empresa como fabricante, distribuidora o de servicios?"
+      }
+    },
+    "b2-035": {
+      "ca": {
+        "question": "Quina forma jurídica es basa en l’associació voluntària de persones, interessos comuns i funcionament participatiu i democràtic?"
+      },
+      "es": {
+        "question": "¿Qué forma jurídica se basa en la asociación voluntaria de personas, intereses comunes y funcionamiento participativo y democrático?"
+      }
+    },
+    "b2-038": {
+      "ca": {
+        "question": "Com es caracteritza el capital d’una empresa privada i quines fonts poden complementar-ne el finançament?"
+      },
+      "es": {
+        "question": "¿Cómo se caracteriza el capital de una empresa privada y qué fuentes pueden complementar su financiación?"
+      }
+    },
+    "b2-045": {
+      "ca": {
+        "question": "Cobrar més implica necessàriament tenir més autoritat jeràrquica?",
+        "answer": "No. La remuneració no equival necessàriament a més autoritat jeràrquica"
+      },
+      "es": {
+        "question": "¿Cobrar más implica necesariamente tener más autoridad jerárquica?",
+        "answer": "No. La remuneración no equivale necesariamente a más autoridad jerárquica"
+      }
+    },
+    "b2-055": {
+      "ca": {
+        "question": "Quina diferència hi ha entre «cooperativa» i «entitat sense ànim de lucre» com a criteris de classificació?"
+      },
+      "es": {
+        "question": "¿Qué diferencia hay entre «cooperativa» y «entidad sin ánimo de lucro» como criterios de clasificación?"
+      }
+    },
+    "b2-060": {
+      "ca": {
+        "question": "Com es caracteritza una empresa individual segons el material?"
+      },
+      "es": {
+        "question": "¿Cómo se caracteriza una empresa individual según el material?"
+      }
+    },
+    "b2-072": {
+      "ca": {
+        "question": "Quines fonts de finançament d’una empresa privada cita el temari?"
+      },
+      "es": {
+        "question": "¿Qué fuentes de financiación de una empresa privada cita el temario?"
+      }
+    },
+    "b3-045": {
+      "ca": {
+        "question": "Com poden coexistir l’organització formal i la informal dins de l’empresa?"
+      },
+      "es": {
+        "question": "¿Cómo pueden coexistir la organización formal y la informal dentro de la empresa?"
+      }
+    },
+    "b3-056": {
+      "ca": {
+        "question": "Pot coexistir una dependència jeràrquica formal amb una relació informal de confiança entre departaments?",
+        "answer": "Sí. La dependència formal i la relació informal poden coexistir"
+      },
+      "es": {
+        "question": "¿Puede coexistir una dependencia jerárquica formal con una relación informal de confianza entre departamentos?",
+        "answer": "Sí. La dependencia formal y la relación informal pueden coexistir"
+      }
+    },
+    "b3-070": {
+      "ca": {
+        "question": "Quina limitació dels organigrames afecta les relacions informals?"
+      },
+      "es": {
+        "question": "¿Qué limitación de los organigramas afecta a las relaciones informales?"
+      }
+    },
+    "b4-007": {
+      "ca": {
+        "question": "Quina tasca del departament comercial cita el material en relació amb el producte?"
+      },
+      "es": {
+        "question": "¿Qué tarea del departamento comercial cita el material en relación con el producto?"
+      }
+    },
+    "b4-010": {
+      "ca": {
+        "question": "On pot recaure la funció de qualitat dins d’una empresa?"
+      },
+      "es": {
+        "question": "¿Dónde puede recaer la función de calidad dentro de una empresa?"
+      }
+    },
+    "b4-019": {
+      "ca": {
+        "question": "Quins exemples d’informació relacionada amb el personal cita el temari?"
+      },
+      "es": {
+        "question": "¿Qué ejemplos de información relacionada con el personal cita el temario?"
+      }
+    },
+    "b4-021": {
+      "ca": {
+        "question": "Quins departaments intervenen principalment en un tràmit al Registre Mercantil?"
+      },
+      "es": {
+        "question": "¿Qué departamentos intervienen principalmente en un trámite ante el Registro Mercantil?"
+      }
+    },
+    "b4-022": {
+      "ca": {
+        "question": "Quines àrees participen en la gestió de la informació financera?"
+      },
+      "es": {
+        "question": "¿Qué áreas participan en la gestión de la información financiera?"
+      }
+    },
+    "b4-029": {
+      "ca": {
+        "question": "La manca d’espai obliga necessàriament una empresa a subcontractar funcions?",
+        "answer": "No. L’espai pot condicionar l’estructura, però no obliga necessàriament a subcontractar funcions"
+      },
+      "es": {
+        "question": "¿La falta de espacio obliga necesariamente a una empresa a subcontratar funciones?",
+        "answer": "No. El espacio puede condicionar la estructura, pero no obliga necesariamente a subcontratar funciones"
+      }
+    },
+    "b4-033": {
+      "ca": {
+        "question": "Tenir riscos específics obliga sempre a crear un departament propi de prevenció?",
+        "answer": "No. Cal organitzar una modalitat preventiva adequada, però no sempre mitjançant un departament propi"
+      },
+      "es": {
+        "question": "¿Tener riesgos específicos obliga siempre a crear un departamento propio de prevención?",
+        "answer": "No. Hay que organizar una modalidad preventiva adecuada, pero no siempre mediante un departamento propio"
+      }
+    },
+    "b4-036": {
+      "ca": {
+        "question": "Quins criteris bàsics ha de complir un bon espai d’acollida?"
+      },
+      "es": {
+        "question": "¿Qué criterios básicos debe cumplir un buen espacio de acogida?"
+      }
+    },
+    "b4-038": {
+      "ca": {
+        "question": "Quins materials auxiliars pot incloure l’espai d’acollida?"
+      },
+      "es": {
+        "question": "¿Qué materiales auxiliares puede incluir el espacio de acogida?"
+      }
+    },
+    "b4-044": {
+      "ca": {
+        "question": "Com es reparteix principalment la gestió de nòmines, absències i documentació preventiva?"
+      },
+      "es": {
+        "question": "¿Cómo se reparte principalmente la gestión de nóminas, ausencias y documentación preventiva?"
+      }
+    },
+    "b4-048": {
+      "ca": {
+        "question": "Cal que existeixi un departament anomenat «Qualitat» perquè hi hagi funció de qualitat?",
+        "answer": "No. La funció de qualitat pot recaure en una persona responsable o en una altra unitat"
+      },
+      "es": {
+        "question": "¿Debe existir un departamento llamado «Calidad» para que haya función de calidad?",
+        "answer": "No. La función de calidad puede recaer en una persona responsable o en otra unidad"
+      }
+    },
+    "b4-060": {
+      "ca": {
+        "question": "Quina és la finalitat de l’espai d’acollida i en quin tipus d’entorn s’ha de prestar?"
+      },
+      "es": {
+        "question": "¿Cuál es la finalidad del espacio de acogida y en qué tipo de entorno debe prestarse?"
+      }
+    },
+    "b4-065": {
+      "ca": {
+        "question": "Com s’ha d’organitzar la prevenció quan una activitat comporta riscos específics?"
+      },
+      "es": {
+        "question": "¿Cómo debe organizarse la prevención cuando una actividad comporta riesgos específicos?"
+      }
+    },
+    "b5-032": {
+      "ca": {
+        "question": "El Tribunal Constitucional forma part del Poder Judicial?",
+        "answer": "No. No forma part del Poder Judicial i és l’intèrpret suprem de la Constitució"
+      },
+      "es": {
+        "question": "¿El Tribunal Constitucional forma parte del Poder Judicial?",
+        "answer": "No. No forma parte del Poder Judicial y es el intérprete supremo de la Constitución"
+      }
+    },
+    "b5-033": {
+      "ca": {
+        "answer": "Consell General del Poder Judicial (CGPJ)"
+      },
+      "es": {
+        "answer": "Consejo General del Poder Judicial (CGPJ)"
+      }
+    },
+    "b5-036": {
+      "ca": {
+        "question": "Com es relacionen província i municipis en l’organització territorial?",
+        "answer": "La província és una agrupació de municipis"
+      },
+      "es": {
+        "question": "¿Cómo se relacionan provincia y municipios en la organización territorial?",
+        "answer": "La provincia es una agrupación de municipios"
+      }
+    },
+    "b5-037": {
+      "ca": {
+        "question": "Quins òrgans d’administració insular corresponen a Canàries i a les Illes Balears?"
+      },
+      "es": {
+        "question": "¿Qué órganos de administración insular corresponden a Canarias y a las Islas Baleares?"
+      }
+    },
+    "b5-041": {
+      "ca": {
+        "answer": "Tribunal de Justícia de la Unió Europea (TJUE)"
+      },
+      "es": {
+        "answer": "Tribunal de Justicia de la Unión Europea (TJUE)"
+      }
+    },
+    "b5-043": {
+      "ca": {
+        "question": "Quina funció principal associa el temari al Banc Central Europeu (BCE)?",
+        "answer": "La política monetària de la zona euro i l’estabilitat de preus"
+      },
+      "es": {
+        "question": "¿Qué función principal asocia el temario al Banco Central Europeo (BCE)?",
+        "answer": "La política monetaria de la zona euro y la estabilidad de precios"
+      }
+    },
+    "b5-052": {
+      "ca": {
+        "question": "A qui corresponen el govern i l’administració autònoma d’una província?"
+      },
+      "es": {
+        "question": "¿A quién corresponden el gobierno y la administración autónoma de una provincia?"
+      }
+    },
+    "b5-055": {
+      "ca": {
+        "question": "Quines institucions de la UE representen, respectivament, la ciutadania i els governs dels Estats membres?"
+      },
+      "es": {
+        "question": "¿Qué instituciones de la UE representan, respectivamente, a la ciudadanía y a los gobiernos de los Estados miembros?"
+      }
+    },
+    "u2b1-011": {
+      "ca": {
+        "question": "Quins mecanismes de coordinació presenta la unitat?",
+        "answer": "Adaptació mútua, supervisió directa i normalització de processos, resultats i habilitats"
+      },
+      "es": {
+        "question": "¿Qué mecanismos de coordinación presenta la unidad?",
+        "answer": "Adaptación mutua, supervisión directa y normalización de procesos, resultados y habilidades"
+      }
+    },
+    "u2b1-026": {
+      "ca": {
+        "question": "Què mesura un indicador de servei i què mesura un indicador de percepció?"
+      },
+      "es": {
+        "question": "¿Qué mide un indicador de servicio y qué mide un indicador de percepción?"
+      }
+    },
+    "u2b1-068": {
+      "ca": {
+        "question": "Quines fonts de poder dins d’un grup cita la unitat?"
+      },
+      "es": {
+        "question": "¿Qué fuentes de poder dentro de un grupo cita la unidad?"
+      }
+    },
+    "u2b1-074": {
+      "ca": {
+        "question": "Com s’han d’entendre i escollir les tècniques grupals?"
+      },
+      "es": {
+        "question": "¿Cómo deben entenderse y escogerse las técnicas grupales?"
+      }
+    },
+    "u2b1-093": {
+      "ca": {
+        "question": "Quines característiques han de tenir els objectius en la gestió del temps?"
+      },
+      "es": {
+        "question": "¿Qué características deben tener los objetivos en la gestión del tiempo?"
+      }
+    },
+    "u2b1-096": {
+      "ca": {
+        "question": "Quines actituds personals relaciona la unitat amb una millor productivitat?"
+      },
+      "es": {
+        "question": "¿Qué actitudes personales relaciona la unidad con una mejor productividad?"
+      }
+    },
+    "u2b1-102": {
+      "ca": {
+        "question": "Quins elements afavoreixen especialment que un grup funcioni bé?"
+      },
+      "es": {
+        "question": "¿Qué elementos favorecen especialmente que un grupo funcione bien?"
+      }
+    },
+    "u2b1-104": {
+      "ca": {
+        "question": "Com poden ser les normes d’un grup?",
+        "answer": "Poden ser formals o informals, explícites o implícites"
+      },
+      "es": {
+        "question": "¿Cómo pueden ser las normas de un grupo?",
+        "answer": "Pueden ser formales o informales, explícitas o implícitas"
+      }
+    },
+    "u2b1-126": {
+      "ca": {
+        "question": "Què diferencia un equip coordinat d’una simple suma de treballs individuals?"
+      },
+      "es": {
+        "question": "¿Qué diferencia un equipo coordinado de una simple suma de trabajos individuales?"
+      }
+    },
+    "u2b1-139": {
+      "ca": {
+        "question": "Quins criteris són especialment importants en la gestió de documentació i informació interna?"
+      },
+      "es": {
+        "question": "¿Qué criterios son especialmente importantes en la gestión de documentación e información interna?"
+      }
+    },
+    "b1-006": {
+      "ca": {
+        "question": "Quines finalitats pot tenir una entitat privada?"
+      },
+      "es": {
+        "question": "¿Qué finalidades puede tener una entidad privada?"
+      }
+    },
+    "b1-010": {
+      "ca": {
+        "question": "En què posa l’accent el principi de control perquè les activitats funcionin correctament?"
+      },
+      "es": {
+        "question": "¿En qué pone el acento el principio de control para que las actividades funcionen correctamente?"
+      }
+    },
+    "b2-001": {
+      "ca": {
+        "question": "Com es classifiquen les empreses segons el motiu de creació?"
+      },
+      "es": {
+        "question": "¿Cómo se clasifican las empresas según el motivo de creación?"
+      }
+    },
+    "b2-004": {
+      "ca": {
+        "question": "Per què una mateixa empresa pot pertànyer a diverses categories?"
+      },
+      "es": {
+        "question": "¿Por qué una misma empresa puede pertenecer a varias categorías?"
+      }
+    },
+    "b2-010": {
+      "ca": {
+        "question": "En què es divideix el capital social d’una S.A.?"
+      },
+      "es": {
+        "question": "¿En qué se divide el capital social de una S.A.?"
+      }
+    },
+    "b2-011": {
+      "ca": {
+        "question": "A què queda limitada la responsabilitat dels accionistes d’una S.A.?"
+      },
+      "es": {
+        "question": "¿A qué queda limitada la responsabilidad de los accionistas de una S.A.?"
+      }
+    },
+    "b2-012": {
+      "ca": {
+        "question": "En què es divideix el capital social d’una S.L.?"
+      },
+      "es": {
+        "question": "¿En qué se divide el capital social de una S.L.?"
+      }
+    },
+    "b2-020": {
+      "ca": {
+        "question": "Entre quins sectors es reparteix la propietat d’una empresa mixta?"
+      },
+      "es": {
+        "question": "¿Entre qué sectores se reparte la propiedad de una empresa mixta?"
+      }
+    },
+    "b2-036": {
+      "ca": {
+        "question": "Com es diferencien una S.A. i una S.L. pel tipus de participació en què es divideix el capital?",
+        "answer": "La S.A. divideix el capital en accions i la S.L. en participacions socials"
+      },
+      "es": {
+        "question": "¿Cómo se diferencian una S.A. y una S.L. por el tipo de participación en que se divide el capital?",
+        "answer": "La S.A. divide el capital en acciones y la S.L. en participaciones sociales"
+      }
+    },
+    "b5-046": {
+      "ca": {
+        "question": "Quin tipus de norma de la UE fixa objectius que l’Estat ha d’incorporar al seu ordenament intern, i com s’anomena aquest procés?",
+        "answer": "Una directiva; el procés s’anomena transposició"
+      },
+      "es": {
+        "question": "¿Qué tipo de norma de la UE fija objetivos que el Estado debe incorporar a su ordenamiento interno y cómo se llama ese proceso?",
+        "answer": "Una directiva; el proceso se llama transposición"
+      }
+    }
+  }
 }
