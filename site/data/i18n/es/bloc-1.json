@@ -2,47 +2,467 @@
   "blockId": "bloc-1",
   "blockTitle": "Entidades públicas y privadas",
   "questions": {
-    "b1-001":{"topic":"Entidades públicas y privadas","question":"¿Qué característica define una entidad pública según el temario?","options":["Forma parte del sector público","Es creada exclusivamente por particulares","Se financia solo con ventas","Siempre tiene finalidad lucrativa"],"explanation":"Las entidades públicas forman parte del sector público y son creadas o gestionadas por una administración pública."},
-    "b1-002":{"topic":"Entidades públicas y privadas","question":"¿Quién crea o gestiona una entidad pública?","options":["Una administración pública","Solo sus clientes","Exclusivamente inversores privados","Siempre una cooperativa"],"explanation":"El material indica que las entidades públicas son creadas o gestionadas por una administración pública."},
-    "b1-003":{"topic":"Entidades públicas y privadas","question":"¿De dónde proceden principalmente los recursos de una entidad pública?","options":["De recursos públicos, como impuestos, tasas o presupuestos","Solo de donaciones particulares","Exclusivamente de préstamos bancarios","Solo de la venta de productos"],"explanation":"Las entidades públicas se financian principalmente con recursos públicos."},
-    "b1-004":{"topic":"Entidades públicas y privadas","question":"¿Cuál es la finalidad principal de una entidad pública según el material?","options":["Prestar servicios de interés general a la ciudadanía","Repartir beneficios entre accionistas","Vender acciones en bolsa","Evitar cualquier control externo"],"explanation":"La finalidad principal que se le atribuye es prestar servicios de interés general."},
-    "b1-005":{"topic":"Entidades públicas y privadas","question":"¿Qué afirmación corresponde a una entidad privada?","options":["Es creada y gestionada por personas particulares o empresas","Forma necesariamente parte del sector público","Solo se financia con impuestos","No puede ser una asociación"],"explanation":"Las entidades privadas son creadas y gestionadas por personas particulares o empresas."},
-    "b1-006":{"topic":"Entidades públicas y privadas","question":"Una entidad privada puede tener finalidad...","options":["Lucrativa o no lucrativa","Solo lucrativa","Solo pública","Exclusivamente administrativa"],"explanation":"El temario señala que las entidades privadas pueden tener finalidad lucrativa o no lucrativa."},
-    "b1-007":{"topic":"Control y responsabilidad","question":"¿Qué permite el principio de control de la organización?","options":["Supervisar, coordinar y organizar las actividades de la empresa","Eliminar todas las responsabilidades individuales","Sustituir la dirección por clientes","Evitar la coordinación entre equipos"],"explanation":"Este principio sirve para que las actividades estén supervisadas, coordinadas y organizadas."},
-    "b1-008":{"topic":"Control y responsabilidad","question":"¿Qué exige el principio de responsabilidad?","options":["Que cada persona asuma sus funciones y responsabilidades","Que nadie tenga funciones definidas","Que todas las decisiones las tomen los clientes","Que las tareas se hagan sin coordinación"],"explanation":"Cada persona debe asumir sus funciones y responsabilidades y trabajar coordinadamente con el equipo."},
-    "b1-009":{"topic":"Control y responsabilidad","question":"¿Qué acción encaja con los principios de control y responsabilidad?","options":["Coordinar tareas y asumir responsabilidades","Evitar definir tareas","Trabajar siempre de manera aislada","Suprimir cualquier organización"],"explanation":"El material asocia estos principios con coordinar, organizar el trabajo, asumir responsabilidades y trabajar en equipo."},
-    "b1-010":{"topic":"Control y responsabilidad","question":"Para que todo funcione correctamente, el principio de control pone el acento en...","options":["La supervisión y coordinación de las actividades","La promoción publicitaria","La transmisión de acciones","La política monetaria"],"explanation":"El principio de control se centra en supervisar, coordinar y organizar las actividades de la empresa."},
-    "b1-011":{"topic":"Dirección y finanzas","question":"¿Cuál es una función de dirección?","options":["Coordinar departamentos y tomar decisiones importantes","Gestionar exclusivamente el correo postal","Convertir materias primas en productos","Elegir concejales municipales"],"explanation":"Las funciones de dirección coordinan los distintos departamentos y toman decisiones importantes."},
-    "b1-012":{"topic":"Dirección y finanzas","question":"¿Qué gestionan principalmente las funciones financieras?","options":["El dinero, la financiación y los recursos económicos","Los organigramas municipales","Las elecciones europeas","Solo la publicidad"],"explanation":"Las funciones financieras gestionan el dinero de la empresa, la financiación y el control de los recursos económicos."},
-    "b1-013":{"topic":"Dirección y finanzas","question":"¿Qué función empresarial se encarga del control de los recursos económicos?","options":["La función financiera","La atención al cliente","La comercialización","La función de ventas"],"explanation":"El control de los recursos económicos forma parte de la función financiera."},
-    "b1-014":{"topic":"Dirección y finanzas","question":"¿Qué función coordina los distintos departamentos de la empresa?","options":["La función de dirección","La función postal","La función de producción legislativa","La función jurisdiccional"],"explanation":"La dirección coordina los departamentos y toma decisiones importantes para el funcionamiento de la empresa."},
-    "b1-015":{"topic":"RR. HH., comercialización y ventas","question":"¿Qué función gestiona la contratación, la formación y la organización de los trabajadores?","options":["Recursos Humanos","Comercialización","Ventas","Atención postal"],"explanation":"Recursos Humanos gestiona el personal, incluyendo contratación, formación y organización."},
-    "b1-016":{"topic":"RR. HH., comercialización y ventas","question":"¿Qué función da a conocer productos y servicios mediante marketing y publicidad?","options":["Comercialización","Financiera","Judicial","Administración local"],"explanation":"La comercialización promociona y da a conocer productos y servicios."},
-    "b1-017":{"topic":"RR. HH., comercialización y ventas","question":"¿Qué función gestiona las ventas y los pedidos de los clientes?","options":["Ventas","Recursos Humanos","Financiera","Dirección pública"],"explanation":"La función de ventas se encarga de las ventas y de los pedidos de los clientes."},
-    "b1-018":{"topic":"RR. HH., comercialización y ventas","question":"¿Cuál de estas tareas corresponde a Recursos Humanos?","options":["Organizar a los trabajadores","Aprobar los Presupuestos del Estado","Gestionar la política monetaria","Transmitir acciones de una S.A."],"explanation":"La gestión y organización del personal es una función de Recursos Humanos."},
-    "b1-019":{"topic":"Atención al cliente","question":"¿Para qué sirve la atención al cliente?","options":["Para mantener una buena relación con clientes y usuarios","Para sustituir la función financiera","Para eliminar todos los canales de comunicación","Para dividir el capital en acciones"],"explanation":"La atención al cliente ayuda a mantener una buena relación con clientes y usuarios."},
-    "b1-020":{"topic":"Atención al cliente","question":"¿Por qué son importantes las opiniones y sugerencias de los clientes?","options":["Porque pueden ayudar a mejorar productos y servicios","Porque sustituyen los presupuestos","Porque determinan la forma jurídica","Porque eliminan la necesidad de coordinación"],"explanation":"El material destaca que la información, las opiniones y las sugerencias sirven para mejorar productos y servicios."},
-    "b1-021":{"topic":"Atención al cliente","question":"¿Cuál es un canal de atención al cliente indicado en el temario?","options":["El correo electrónico","El Tribunal Supremo","La junta de accionistas","El Banco Central Europeo"],"explanation":"Entre los canales citados están el teléfono, el correo electrónico, la página web y el correo postal."},
-    "b1-022":{"topic":"Función administrativa","question":"¿Qué incluye la función administrativa de la empresa?","options":["Tareas de gestión y organización de la empresa","Solo campañas publicitarias","Solo contratación de personal","Únicamente control judicial"],"explanation":"La función administrativa incluye tareas relacionadas con la gestión y la organización de la empresa."},
-    "b1-023":{"topic":"Función administrativa","question":"¿Qué tarea es propia de la función administrativa?","options":["Organizar documentos y gestionar información","Definir la política monetaria de la zona euro","Elegir diputados","Fabricar necesariamente productos físicos"],"explanation":"El temario incluye organizar documentos y gestionar información dentro de las funciones administrativas."},
-    "b1-024":{"topic":"Función administrativa","question":"¿Qué efecto buscan las funciones administrativas?","options":["Facilitar el buen funcionamiento de la empresa","Suprimir la coordinación de tareas","Eliminar la gestión de información","Convertir toda empresa en una S.A."],"explanation":"Organizar documentos, información y tareas ayuda al buen funcionamiento de la empresa."},
-    "b1-025":{"topic":"Entidades públicas y privadas","question":"Una organización es gestionada por una administración y se financia principalmente con impuestos y presupuestos. ¿Qué clasificación es la más precisa?","options":["Entidad privada con financiación pública","Entidad pública","Entidad privada no lucrativa","Empresa privada de servicios"],"explanation":"El temario define las entidades públicas como las creadas o gestionadas por una administración pública y financiadas principalmente con recursos públicos."},
-    "b1-026":{"topic":"Entidades públicas y privadas","question":"Una fundación es creada por particulares, obtiene recursos de aportaciones privadas y no reparte beneficios. ¿Qué afirmación es correcta según el temario?","options":["Es privada y puede tener finalidad no lucrativa","Es pública porque no reparte beneficios","Es pública si presta un servicio de interés general","Es privada solo si vende productos"],"explanation":"Una entidad privada es creada y gestionada por particulares o empresas y puede tener finalidad lucrativa o no lucrativa."},
-    "b1-027":{"topic":"Entidades públicas y privadas","question":"¿Qué criterio permite distinguir mejor una entidad pública de una privada en el material?","options":["La cantidad de trabajadores que tiene","Quién la crea o gestiona y el origen principal de los recursos","Si utiliza correo electrónico","Si dispone de departamento administrativo"],"explanation":"El bloque diferencia las entidades por el tipo de gestión y por la financiación principal: pública o privada."},
-    "b1-028":{"topic":"Control y responsabilidad","question":"En un equipo, la responsable comprueba que las tareas estén coordinadas y que el trabajo siga la organización prevista. ¿Qué principio aplica principalmente?","options":["Responsabilidad","Control de la organización","Atención al cliente","Comercialización"],"explanation":"El principio de control permite supervisar, coordinar y organizar las actividades para que funcionen correctamente."},
-    "b1-029":{"topic":"Control y responsabilidad","question":"Un trabajador conoce su función, asume sus resultados y se coordina con el resto del equipo. ¿Qué principio describe mejor la situación?","options":["Control de la organización","Responsabilidad","Dirección","Financiación"],"explanation":"El principio de responsabilidad exige asumir las propias funciones y responsabilidades y trabajar coordinadamente con el equipo."},
-    "b1-030":{"topic":"Dirección y finanzas","question":"La gerencia debe decidir si abre una nueva línea de negocio y, paralelamente, calcular cómo se financiará. ¿Qué dos funciones intervienen de manera más directa?","options":["Dirección y financiera","Recursos Humanos y ventas","Administración y atención al cliente","Comercialización y ventas"],"explanation":"La dirección coordina y toma decisiones importantes; la función financiera gestiona los recursos económicos y la financiación."},
-    "b1-031":{"topic":"Dirección y finanzas","question":"Una empresa necesita controlar los recursos económicos disponibles antes de asumir un gasto importante. ¿Qué función tiene la responsabilidad principal?","options":["Dirección","Financiera","Comercialización","Atención al cliente"],"explanation":"La función financiera gestiona el dinero, la financiación y el control de los recursos económicos."},
-    "b1-032":{"topic":"RR. HH., comercialización y ventas","question":"Una empresa contrata a una persona nueva, prepara una campaña para dar a conocer un servicio y después tramita los pedidos recibidos. ¿Qué orden de funciones corresponde a estas tres acciones?","options":["Recursos Humanos → comercialización → ventas","Ventas → Recursos Humanos → administración","Comercialización → financiera → ventas","Administración → dirección → Recursos Humanos"],"explanation":"La contratación corresponde a Recursos Humanos; la promoción, a comercialización; y la gestión de pedidos, a ventas."},
-    "b1-033":{"topic":"RR. HH., comercialización y ventas","question":"¿Qué situación corresponde mejor a comercialización y no a ventas?","options":["Registrar un pedido ya aceptado","Preparar una campaña para dar a conocer un nuevo servicio","Contratar a una persona para la campaña","Archivar la factura de la campaña"],"explanation":"La comercialización da a conocer y promociona productos o servicios; la venta gestiona las operaciones y pedidos de los clientes."},
-    "b1-034":{"topic":"RR. HH., comercialización y ventas","question":"Una persona especialista organiza la formación interna y la incorporación de los nuevos trabajadores. ¿A qué función pertenece esta actividad?","options":["Recursos Humanos","Dirección","Ventas","Comercialización"],"explanation":"La contratación, la formación y la organización de los trabajadores forman parte de Recursos Humanos."},
-    "b1-035":{"topic":"Atención al cliente","question":"Una empresa recibe muchas reclamaciones sobre un servicio. ¿Qué uso de la información encaja mejor con lo que explica el temario?","options":["Ignorarlas porque no forman parte de las ventas","Utilizar opiniones y sugerencias para mejorar el servicio","Trasladarlas exclusivamente a Recursos Humanos","Convertirlas en una decisión de financiación"],"explanation":"Las opiniones, sugerencias y reclamaciones de los clientes pueden servir para mejorar productos y servicios."},
-    "b1-036":{"topic":"Atención al cliente","question":"¿Qué combinación contiene solo canales de atención al cliente citados en el temario?","options":["Teléfono, correo electrónico, web y correo postal","Teléfono, organigrama, web y presupuesto","Correo electrónico, nómina, web y factura","Web, junta de accionistas, teléfono y almacén"],"explanation":"El material cita como canales el teléfono, el correo electrónico, la página web y el correo postal."},
-    "b1-037":{"topic":"Función administrativa","question":"Una auxiliar clasifica contratos, actualiza una base de información y coordina plazos de varias tareas. ¿Qué función concentra estas actividades?","options":["Comercialización","Administrativa","Financiera","Ventas"],"explanation":"La función administrativa incluye organizar documentos, gestionar información y coordinar tareas."},
-    "b1-038":{"topic":"Función administrativa","question":"¿Qué pareja diferencia mejor la función administrativa de la comercialización?","options":["Organizar información / promocionar productos o servicios","Contratar personal / controlar dinero","Gestionar pedidos / decidir inversiones","Coordinar departamentos / gestionar financiación"],"explanation":"La administración organiza documentos e información; la comercialización da a conocer y promociona productos o servicios."},
-    "b1-039":{"topic":"Dirección y finanzas","question":"Si una decisión afecta a varios departamentos y hay que establecer una orientación común, ¿qué función es la más directamente responsable?","options":["Financiera","Dirección","Atención al cliente","Ventas"],"explanation":"La función de dirección coordina la empresa y sus departamentos y toma decisiones importantes."},
-    "b1-040":{"topic":"RR. HH., comercialización y ventas","question":"Una empresa ya ha conseguido que un cliente conozca el producto. Ahora recibe su petición y debe gestionar el pedido. ¿Qué función pasa a ser central?","options":["Comercialización","Ventas","Recursos Humanos","Financiera"],"explanation":"La comercialización promociona; la función de ventas gestiona las ventas y los pedidos de los clientes."},
-    "b1-041":{"topic":"Entidades públicas y privadas","question":"¿Qué afirmación evita una confusión habitual entre «privada» y «lucrativa»?","options":["Toda entidad privada tiene obligatoriamente ánimo de lucro","Una entidad privada puede ser lucrativa o no lucrativa","Una entidad no lucrativa siempre forma parte del sector público","La finalidad lucrativa depende exclusivamente del número de trabajadores"],"explanation":"El material indica expresamente que las entidades privadas pueden tener finalidad lucrativa o no lucrativa."},
-    "b1-042":{"topic":"Control y responsabilidad","question":"¿Qué situación combina correctamente los dos principios trabajados en el bloque?","options":["La dirección supervisa el conjunto y cada persona asume las tareas que le corresponden","Todo el mundo toma decisiones sin funciones definidas","Solo se controla el resultado final y nadie asume responsabilidades individuales","Cada persona trabaja de manera independiente para evitar coordinación"],"explanation":"El control implica supervisar y coordinar; la responsabilidad implica asumir las propias funciones trabajando de manera coordinada."}
+    "b1-001": {
+      "topic": "Entidades públicas y privadas",
+      "question": "¿Qué característica define una entidad pública según el temario?",
+      "options": [
+        "Forma parte del sector público",
+        "Es creada exclusivamente por particulares",
+        "Se financia solo con ventas",
+        "Siempre tiene finalidad lucrativa"
+      ],
+      "explanation": "Las entidades públicas forman parte del sector público y son creadas o gestionadas por una administración pública."
+    },
+    "b1-002": {
+      "topic": "Entidades públicas y privadas",
+      "question": "¿Quién crea o gestiona una entidad pública?",
+      "options": [
+        "Una administración pública",
+        "Solo sus clientes",
+        "Exclusivamente inversores privados",
+        "Siempre una cooperativa"
+      ],
+      "explanation": "El material indica que las entidades públicas son creadas o gestionadas por una administración pública."
+    },
+    "b1-003": {
+      "topic": "Entidades públicas y privadas",
+      "question": "¿De dónde proceden principalmente los recursos de una entidad pública?",
+      "options": [
+        "De recursos públicos, como impuestos, tasas o presupuestos",
+        "Solo de donaciones particulares",
+        "Exclusivamente de préstamos bancarios",
+        "Solo de la venta de productos"
+      ],
+      "explanation": "Las entidades públicas se financian principalmente con recursos públicos."
+    },
+    "b1-004": {
+      "topic": "Entidades públicas y privadas",
+      "question": "¿Cuál es la finalidad principal de una entidad pública según el material?",
+      "options": [
+        "Prestar servicios de interés general a la ciudadanía",
+        "Repartir beneficios entre accionistas",
+        "Vender acciones en bolsa",
+        "Evitar cualquier control externo"
+      ],
+      "explanation": "La finalidad principal que se le atribuye es prestar servicios de interés general."
+    },
+    "b1-005": {
+      "topic": "Entidades públicas y privadas",
+      "question": "¿Qué afirmación corresponde a una entidad privada?",
+      "options": [
+        "Es creada y gestionada por personas particulares o empresas",
+        "Forma necesariamente parte del sector público",
+        "Solo se financia con impuestos",
+        "No puede ser una asociación"
+      ],
+      "explanation": "Las entidades privadas son creadas y gestionadas por personas particulares o empresas."
+    },
+    "b1-006": {
+      "topic": "Entidades públicas y privadas",
+      "question": "Una entidad privada puede tener finalidad...",
+      "options": [
+        "Lucrativa o no lucrativa",
+        "Solo lucrativa",
+        "Solo pública",
+        "Exclusivamente administrativa"
+      ],
+      "explanation": "El temario señala que las entidades privadas pueden tener finalidad lucrativa o no lucrativa."
+    },
+    "b1-007": {
+      "topic": "Control y responsabilidad",
+      "question": "¿Qué permite el principio de control de la organización?",
+      "options": [
+        "Supervisar, coordinar y organizar las actividades de la empresa",
+        "Eliminar todas las responsabilidades individuales",
+        "Sustituir la dirección por clientes",
+        "Evitar la coordinación entre equipos"
+      ],
+      "explanation": "Este principio sirve para que las actividades estén supervisadas, coordinadas y organizadas."
+    },
+    "b1-008": {
+      "topic": "Control y responsabilidad",
+      "question": "¿Qué exige el principio de responsabilidad?",
+      "options": [
+        "Que cada persona asuma sus funciones y responsabilidades",
+        "Que nadie tenga funciones definidas",
+        "Que todas las decisiones las tomen los clientes",
+        "Que las tareas se hagan sin coordinación"
+      ],
+      "explanation": "Cada persona debe asumir sus funciones y responsabilidades y trabajar coordinadamente con el equipo."
+    },
+    "b1-009": {
+      "topic": "Control y responsabilidad",
+      "question": "¿Qué acción encaja con los principios de control y responsabilidad?",
+      "options": [
+        "Coordinar tareas y asumir responsabilidades",
+        "Evitar definir tareas",
+        "Trabajar siempre de manera aislada",
+        "Suprimir cualquier organización"
+      ],
+      "explanation": "El material asocia estos principios con coordinar, organizar el trabajo, asumir responsabilidades y trabajar en equipo."
+    },
+    "b1-010": {
+      "topic": "Control y responsabilidad",
+      "question": "Para que todo funcione correctamente, el principio de control pone el acento en...",
+      "options": [
+        "La supervisión y coordinación de las actividades",
+        "La promoción publicitaria",
+        "La transmisión de acciones",
+        "La política monetaria"
+      ],
+      "explanation": "El principio de control se centra en supervisar, coordinar y organizar las actividades de la empresa."
+    },
+    "b1-011": {
+      "topic": "Dirección y finanzas",
+      "question": "¿Cuál es una función de dirección?",
+      "options": [
+        "Coordinar departamentos y tomar decisiones importantes",
+        "Gestionar exclusivamente el correo postal",
+        "Convertir materias primas en productos",
+        "Elegir concejales municipales"
+      ],
+      "explanation": "Las funciones de dirección coordinan los distintos departamentos y toman decisiones importantes."
+    },
+    "b1-012": {
+      "topic": "Dirección y finanzas",
+      "question": "¿Qué gestionan principalmente las funciones financieras?",
+      "options": [
+        "El dinero, la financiación y los recursos económicos",
+        "Los organigramas municipales",
+        "Las elecciones europeas",
+        "Solo la publicidad"
+      ],
+      "explanation": "Las funciones financieras gestionan el dinero de la empresa, la financiación y el control de los recursos económicos."
+    },
+    "b1-013": {
+      "topic": "Dirección y finanzas",
+      "question": "¿Qué función empresarial se encarga del control de los recursos económicos?",
+      "options": [
+        "La función financiera",
+        "La atención al cliente",
+        "La comercialización",
+        "La función de ventas"
+      ],
+      "explanation": "El control de los recursos económicos forma parte de la función financiera."
+    },
+    "b1-014": {
+      "topic": "Dirección y finanzas",
+      "question": "¿Qué función coordina los distintos departamentos de la empresa?",
+      "options": [
+        "La función de dirección",
+        "La función postal",
+        "La función de producción legislativa",
+        "La función jurisdiccional"
+      ],
+      "explanation": "La dirección coordina los departamentos y toma decisiones importantes para el funcionamiento de la empresa."
+    },
+    "b1-015": {
+      "topic": "RR. HH., comercialización y ventas",
+      "question": "¿Qué función gestiona la contratación, la formación y la organización de los trabajadores?",
+      "options": [
+        "Recursos Humanos",
+        "Comercialización",
+        "Ventas",
+        "Atención postal"
+      ],
+      "explanation": "Recursos Humanos gestiona el personal, incluyendo contratación, formación y organización."
+    },
+    "b1-016": {
+      "topic": "RR. HH., comercialización y ventas",
+      "question": "¿Qué función da a conocer productos y servicios mediante marketing y publicidad?",
+      "options": [
+        "Comercialización",
+        "Financiera",
+        "Judicial",
+        "Administración local"
+      ],
+      "explanation": "La comercialización promociona y da a conocer productos y servicios."
+    },
+    "b1-017": {
+      "topic": "RR. HH., comercialización y ventas",
+      "question": "¿Qué función gestiona las ventas y los pedidos de los clientes?",
+      "options": [
+        "Ventas",
+        "Recursos Humanos",
+        "Financiera",
+        "Dirección pública"
+      ],
+      "explanation": "La función de ventas se encarga de las ventas y de los pedidos de los clientes."
+    },
+    "b1-018": {
+      "topic": "RR. HH., comercialización y ventas",
+      "question": "¿Cuál de estas tareas corresponde a Recursos Humanos?",
+      "options": [
+        "Organizar a los trabajadores",
+        "Aprobar los Presupuestos del Estado",
+        "Gestionar la política monetaria",
+        "Transmitir acciones de una S.A."
+      ],
+      "explanation": "La gestión y organización del personal es una función de Recursos Humanos."
+    },
+    "b1-019": {
+      "topic": "Atención al cliente",
+      "question": "¿Para qué sirve la atención al cliente?",
+      "options": [
+        "Para mantener una buena relación con clientes y usuarios",
+        "Para sustituir la función financiera",
+        "Para eliminar todos los canales de comunicación",
+        "Para dividir el capital en acciones"
+      ],
+      "explanation": "La atención al cliente ayuda a mantener una buena relación con clientes y usuarios."
+    },
+    "b1-020": {
+      "topic": "Atención al cliente",
+      "question": "¿Por qué son importantes las opiniones y sugerencias de los clientes?",
+      "options": [
+        "Porque pueden ayudar a mejorar productos y servicios",
+        "Porque sustituyen los presupuestos",
+        "Porque determinan la forma jurídica",
+        "Porque eliminan la necesidad de coordinación"
+      ],
+      "explanation": "El material destaca que la información, las opiniones y las sugerencias sirven para mejorar productos y servicios."
+    },
+    "b1-021": {
+      "topic": "Atención al cliente",
+      "question": "¿Cuál es un canal de atención al cliente indicado en el temario?",
+      "options": [
+        "El correo electrónico",
+        "El Tribunal Supremo",
+        "La junta de accionistas",
+        "El Banco Central Europeo"
+      ],
+      "explanation": "Entre los canales citados están el teléfono, el correo electrónico, la página web y el correo postal."
+    },
+    "b1-022": {
+      "topic": "Función administrativa",
+      "question": "¿Qué incluye la función administrativa de la empresa?",
+      "options": [
+        "Tareas de gestión y organización de la empresa",
+        "Solo campañas publicitarias",
+        "Solo contratación de personal",
+        "Únicamente control judicial"
+      ],
+      "explanation": "La función administrativa incluye tareas relacionadas con la gestión y la organización de la empresa."
+    },
+    "b1-023": {
+      "topic": "Función administrativa",
+      "question": "¿Qué tarea es propia de la función administrativa?",
+      "options": [
+        "Organizar documentos y gestionar información",
+        "Definir la política monetaria de la zona euro",
+        "Elegir diputados",
+        "Fabricar necesariamente productos físicos"
+      ],
+      "explanation": "El temario incluye organizar documentos y gestionar información dentro de las funciones administrativas."
+    },
+    "b1-024": {
+      "topic": "Función administrativa",
+      "question": "¿Qué efecto buscan las funciones administrativas?",
+      "options": [
+        "Facilitar el buen funcionamiento de la empresa",
+        "Suprimir la coordinación de tareas",
+        "Eliminar la gestión de información",
+        "Convertir toda empresa en una S.A."
+      ],
+      "explanation": "Organizar documentos, información y tareas ayuda al buen funcionamiento de la empresa."
+    },
+    "b1-025": {
+      "topic": "Entidades públicas y privadas",
+      "question": "Una organización es gestionada por una administración y se financia principalmente con impuestos y presupuestos. ¿Qué clasificación es la más precisa?",
+      "options": [
+        "Entidad privada con financiación pública",
+        "Entidad pública",
+        "Entidad privada no lucrativa",
+        "Empresa privada de servicios"
+      ],
+      "explanation": "El temario define las entidades públicas como las creadas o gestionadas por una administración pública y financiadas principalmente con recursos públicos."
+    },
+    "b1-026": {
+      "topic": "Entidades públicas y privadas",
+      "question": "Una fundación es creada por particulares, obtiene recursos de aportaciones privadas y no reparte beneficios. ¿Qué afirmación es correcta según el temario?",
+      "options": [
+        "Es privada y puede tener finalidad no lucrativa",
+        "Es pública porque no reparte beneficios",
+        "Es pública si presta un servicio de interés general",
+        "Es privada solo si vende productos"
+      ],
+      "explanation": "Una entidad privada es creada y gestionada por particulares o empresas y puede tener finalidad lucrativa o no lucrativa."
+    },
+    "b1-027": {
+      "topic": "Entidades públicas y privadas",
+      "question": "¿Qué criterio permite distinguir mejor una entidad pública de una privada en el material?",
+      "options": [
+        "La cantidad de trabajadores que tiene",
+        "Quién la crea o gestiona y el origen principal de los recursos",
+        "Si utiliza correo electrónico",
+        "Si dispone de departamento administrativo"
+      ],
+      "explanation": "El bloque diferencia las entidades por el tipo de gestión y por la financiación principal: pública o privada."
+    },
+    "b1-028": {
+      "topic": "Control y responsabilidad",
+      "question": "En un equipo, la responsable comprueba que las tareas estén coordinadas y que el trabajo siga la organización prevista. ¿Qué principio aplica principalmente?",
+      "options": [
+        "Responsabilidad",
+        "Control de la organización",
+        "Atención al cliente",
+        "Comercialización"
+      ],
+      "explanation": "El principio de control permite supervisar, coordinar y organizar las actividades para que funcionen correctamente."
+    },
+    "b1-029": {
+      "topic": "Control y responsabilidad",
+      "question": "Un trabajador conoce su función, asume sus resultados y se coordina con el resto del equipo. ¿Qué principio describe mejor la situación?",
+      "options": [
+        "Control de la organización",
+        "Responsabilidad",
+        "Dirección",
+        "Financiación"
+      ],
+      "explanation": "El principio de responsabilidad exige asumir las propias funciones y responsabilidades y trabajar coordinadamente con el equipo."
+    },
+    "b1-030": {
+      "topic": "Dirección y finanzas",
+      "question": "La gerencia debe decidir si abre una nueva línea de negocio y, paralelamente, calcular cómo se financiará. ¿Qué dos funciones intervienen de manera más directa?",
+      "options": [
+        "Dirección y financiera",
+        "Recursos Humanos y ventas",
+        "Administración y atención al cliente",
+        "Comercialización y ventas"
+      ],
+      "explanation": "La dirección coordina y toma decisiones importantes; la función financiera gestiona los recursos económicos y la financiación."
+    },
+    "b1-031": {
+      "topic": "Dirección y finanzas",
+      "question": "Una empresa necesita controlar los recursos económicos disponibles antes de asumir un gasto importante. ¿Qué función tiene la responsabilidad principal?",
+      "options": [
+        "Dirección",
+        "Financiera",
+        "Comercialización",
+        "Atención al cliente"
+      ],
+      "explanation": "La función financiera gestiona el dinero, la financiación y el control de los recursos económicos."
+    },
+    "b1-032": {
+      "topic": "RR. HH., comercialización y ventas",
+      "question": "Una empresa contrata a una persona nueva, prepara una campaña para dar a conocer un servicio y después tramita los pedidos recibidos. ¿Qué orden de funciones corresponde a estas tres acciones?",
+      "options": [
+        "Recursos Humanos → comercialización → ventas",
+        "Ventas → Recursos Humanos → administración",
+        "Comercialización → financiera → ventas",
+        "Administración → dirección → Recursos Humanos"
+      ],
+      "explanation": "La contratación corresponde a Recursos Humanos; la promoción, a comercialización; y la gestión de pedidos, a ventas."
+    },
+    "b1-033": {
+      "topic": "RR. HH., comercialización y ventas",
+      "question": "¿Qué situación corresponde mejor a comercialización y no a ventas?",
+      "options": [
+        "Registrar un pedido ya aceptado",
+        "Preparar una campaña para dar a conocer un nuevo servicio",
+        "Contratar a una persona para la campaña",
+        "Archivar la factura de la campaña"
+      ],
+      "explanation": "La comercialización da a conocer y promociona productos o servicios; la venta gestiona las operaciones y pedidos de los clientes."
+    },
+    "b1-034": {
+      "topic": "RR. HH., comercialización y ventas",
+      "question": "Una persona especialista organiza la formación interna y la incorporación de los nuevos trabajadores. ¿A qué función pertenece esta actividad?",
+      "options": [
+        "Recursos Humanos",
+        "Dirección",
+        "Ventas",
+        "Comercialización"
+      ],
+      "explanation": "La contratación, la formación y la organización de los trabajadores forman parte de Recursos Humanos."
+    },
+    "b1-035": {
+      "topic": "Atención al cliente",
+      "question": "Una empresa recibe muchas reclamaciones sobre un servicio. ¿Qué uso de la información encaja mejor con lo que explica el temario?",
+      "options": [
+        "Ignorarlas porque no forman parte de las ventas",
+        "Utilizar opiniones y sugerencias para mejorar el servicio",
+        "Trasladarlas exclusivamente a Recursos Humanos",
+        "Convertirlas en una decisión de financiación"
+      ],
+      "explanation": "Las opiniones, sugerencias y reclamaciones de los clientes pueden servir para mejorar productos y servicios."
+    },
+    "b1-036": {
+      "topic": "Atención al cliente",
+      "question": "¿Qué combinación contiene solo canales de atención al cliente citados en el temario?",
+      "options": [
+        "Teléfono, correo electrónico, web y correo postal",
+        "Teléfono, organigrama, web y presupuesto",
+        "Correo electrónico, nómina, web y factura",
+        "Web, junta de accionistas, teléfono y almacén"
+      ],
+      "explanation": "El material cita como canales el teléfono, el correo electrónico, la página web y el correo postal."
+    },
+    "b1-037": {
+      "topic": "Función administrativa",
+      "question": "Una auxiliar clasifica contratos, actualiza una base de información y coordina plazos de varias tareas. ¿Qué función concentra estas actividades?",
+      "options": [
+        "Comercialización",
+        "Administrativa",
+        "Financiera",
+        "Ventas"
+      ],
+      "explanation": "La función administrativa incluye organizar documentos, gestionar información y coordinar tareas."
+    },
+    "b1-038": {
+      "topic": "Función administrativa",
+      "question": "¿Qué pareja diferencia mejor la función administrativa de la comercialización?",
+      "options": [
+        "Organizar información / promocionar productos o servicios",
+        "Contratar personal / controlar dinero",
+        "Gestionar pedidos / decidir inversiones",
+        "Coordinar departamentos / gestionar financiación"
+      ],
+      "explanation": "La administración organiza documentos e información; la comercialización da a conocer y promociona productos o servicios."
+    },
+    "b1-039": {
+      "topic": "Dirección y finanzas",
+      "question": "Si una decisión afecta a varios departamentos y hay que establecer una orientación común, ¿qué función es la más directamente responsable?",
+      "options": [
+        "Financiera",
+        "Dirección",
+        "Atención al cliente",
+        "Ventas"
+      ],
+      "explanation": "La función de dirección coordina la empresa y sus departamentos y toma decisiones importantes."
+    },
+    "b1-040": {
+      "topic": "RR. HH., comercialización y ventas",
+      "question": "Una empresa ya ha conseguido que un cliente conozca el producto. Ahora recibe su petición y debe gestionar el pedido. ¿Qué función pasa a ser central?",
+      "options": [
+        "Comercialización",
+        "Ventas",
+        "Recursos Humanos",
+        "Financiera"
+      ],
+      "explanation": "La comercialización promociona; la función de ventas gestiona las ventas y los pedidos de los clientes."
+    },
+    "b1-041": {
+      "topic": "Entidades públicas y privadas",
+      "question": "¿Qué afirmación evita una confusión habitual entre «privada» y «lucrativa»?",
+      "options": [
+        "Toda entidad privada tiene obligatoriamente ánimo de lucro",
+        "Una entidad privada puede ser lucrativa o no lucrativa",
+        "Una entidad no lucrativa siempre forma parte del sector público",
+        "La finalidad lucrativa depende exclusivamente del número de trabajadores"
+      ],
+      "explanation": "El material indica expresamente que las entidades privadas pueden tener finalidad lucrativa o no lucrativa."
+    },
+    "b1-042": {
+      "topic": "Control y responsabilidad",
+      "question": "¿Qué situación aplica a la vez el principio de control de la organización y el principio de responsabilidad?",
+      "options": [
+        "La dirección supervisa y coordina las actividades, mientras cada persona asume las funciones y responsabilidades que le corresponden",
+        "Cada persona asume sus tareas, pero no existe supervisión ni coordinación del conjunto",
+        "La dirección supervisa el conjunto, pero las responsabilidades individuales no están definidas",
+        "Cada persona trabaja de forma independiente y evita coordinarse con el resto del equipo"
+      ],
+      "explanation": "El principio de control implica supervisar, coordinar y organizar las actividades; el principio de responsabilidad exige que cada persona asuma sus funciones y responsabilidades y trabaje coordinadamente con el equipo."
+    }
   }
 }
