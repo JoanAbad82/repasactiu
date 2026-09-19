@@ -1405,22 +1405,22 @@
     },
     "b2-036": {
       "ca": {
-        "question": "Quina forma jurídica divideix el capital en accions i quina el divideix en participacions menys lliurement transmissibles?",
-        "answer": "S.A. / S.L."
+        "question": "Com es diferencien una S.A. i una S.L. pel tipus de participació en què es divideix el capital?",
+        "answer": "La S.A. divideix el capital en accions i la S.L. en participacions socials"
       },
       "es": {
-        "question": "¿Qué forma jurídica divide el capital en acciones y cuál lo divide en participaciones menos libremente transmisibles?",
-        "answer": "S.A. / S.L."
+        "question": "¿Cómo se diferencian una S.A. y una S.L. por el tipo de participación en que se divide el capital?",
+        "answer": "La S.A. divide el capital en acciones y la S.L. en participaciones sociales"
       }
     },
     "b5-046": {
       "ca": {
-        "question": "Quin tipus de norma de la UE fixa objectius que l’Estat ha d’incorporar al dret intern, i com s’anomena aquest procés?",
-        "answer": "Directiva — transposició"
+        "question": "Quin tipus de norma de la UE fixa objectius que l’Estat ha d’incorporar al seu ordenament intern, i com s’anomena aquest procés?",
+        "answer": "Una directiva; el procés s’anomena transposició"
       },
       "es": {
-        "question": "¿Qué tipo de norma de la UE fija objetivos que el Estado debe incorporar al derecho interno y cómo se llama ese proceso?",
-        "answer": "Directiva — transposición"
+        "question": "¿Qué tipo de norma de la UE fija objetivos que el Estado debe incorporar a su ordenamiento interno y cómo se llama ese proceso?",
+        "answer": "Una directiva; el proceso se llama transposición"
       }
     }
   }
