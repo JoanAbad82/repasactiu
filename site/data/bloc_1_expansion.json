@@ -90,15 +90,15 @@
       "id": "b1-049",
       "block": "bloc-1",
       "topic": "Control i responsabilitat",
-      "question": "Una responsable comprova si la feina s’ha fet segons el que estava previst i detecta desviacions. Quin principi funcional està aplicant?",
+      "question": "Una responsable supervisa diverses activitats, coordina les tasques relacionades i reorganitza el treball perquè el conjunt funcioni correctament. Quin principi funcional està aplicant?",
       "options": [
         "Comercialització",
         "Atenció al client",
         "Control",
-        "Finançament privat"
+        "Responsabilitat"
       ],
       "correct": 2,
-      "explanation": "El control permet comprovar si les activitats es desenvolupen d’acord amb els objectius i criteris establerts i detectar desviacions."
+      "explanation": "El principi de control de l’organització permet supervisar, coordinar i organitzar les diferents activitats de l’empresa perquè tot funcioni correctament."
     },
     {
       "id": "b1-050",
