@@ -1402,6 +1402,26 @@
       "es": {
         "question": "¿Entre qué sectores se reparte la propiedad de una empresa mixta?"
       }
+    },
+    "b2-036": {
+      "ca": {
+        "question": "Quina forma jurídica divideix el capital en accions i quina el divideix en participacions menys lliurement transmissibles?",
+        "answer": "S.A. / S.L."
+      },
+      "es": {
+        "question": "¿Qué forma jurídica divide el capital en acciones y cuál lo divide en participaciones menos libremente transmisibles?",
+        "answer": "S.A. / S.L."
+      }
+    },
+    "b5-046": {
+      "ca": {
+        "question": "Quin tipus de norma de la UE fixa objectius que l’Estat ha d’incorporar al dret intern, i com s’anomena aquest procés?",
+        "answer": "Directiva — transposició"
+      },
+      "es": {
+        "question": "¿Qué tipo de norma de la UE fija objetivos que el Estado debe incorporar al derecho interno y cómo se llama ese proceso?",
+        "answer": "Directiva — transposición"
+      }
     }
   }
 }

@@ -68,7 +68,7 @@ export async function runStudyCardsAudit(){
   const standaloneRiskPhrasesCa=[
     'quina d’aquestes','quina d\'aquestes','quin d’aquests','quin d\'aquests',
     'quina opció','quina afirmació','quina combinació','quin conjunt',
-    'quina parella','quina conclusió','quina lectura','quina relació'
+    'quina parella','quin parell','quina conclusió','quina lectura','quina relació'
   ];
   const standaloneRiskPhrasesEs=[
     'cuál de estas','cual de estas','cuál de estos','cual de estos',
