@@ -3,7 +3,7 @@ const esc=value=>String(value).replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;"
 const COPY={
   ca:{
     title:'Diccionari de conceptes clau',
-    subtitle:'Només els conceptes que més ajuden a entendre, diferenciar i memoritzar el temari.',
+    subtitle:'Conceptes connectats per famílies per entendre millor les relacions i memoritzar amb menys esforç.',
     back:'← Tornar al temari',
     search:'Cerca un concepte',
     searchPlaceholder:'Ex.: delegació, directiva, sinergia…',
@@ -12,12 +12,13 @@ const COPY={
     results:'conceptes',
     memory:'Recorda',
     source:'Font',
+    family:'Família conceptual',
     emptyTitle:'No hi ha coincidències',
     emptyText:'Prova una altra paraula o selecciona un altre bloc.'
   },
   es:{
     title:'Diccionario de conceptos clave',
-    subtitle:'Solo los conceptos que más ayudan a entender, diferenciar y memorizar el temario.',
+    subtitle:'Conceptos conectados por familias para entender mejor las relaciones y memorizar con menos esfuerzo.',
     back:'← Volver al temario',
     search:'Busca un concepto',
     searchPlaceholder:'Ej.: delegación, directiva, sinergia…',
@@ -26,6 +27,7 @@ const COPY={
     results:'conceptos',
     memory:'Recuerda',
     source:'Fuente',
+    family:'Familia conceptual',
     emptyTitle:'No hay coincidencias',
     emptyText:'Prueba otra palabra o selecciona otro bloque.'
   }
@@ -37,6 +39,16 @@ const normalize=value=>String(value??'')
   .toLocaleLowerCase('ca')
   .trim();
 
+function familyEntryOrder(bank){
+  const map=new Map();
+  for(const [familyIndex,family] of (bank?.families||[]).entries()){
+    for(const [entryIndex,id] of (family.entryIds||[]).entries()){
+      map.set(id,{familyIndex,entryIndex});
+    }
+  }
+  return map;
+}
+
 export async function loadConceptDictionary(fetcher=fetch){
   const response=await fetcher('data/concept-dictionary-v1.json');
   if(!response.ok)throw new Error('No s’ha pogut carregar el diccionari de conceptes.');
@@ -46,6 +58,9 @@ export async function loadConceptDictionary(fetcher=fetch){
   }
   if(!Array.isArray(bank.languages)||!bank.languages.includes('ca')||!bank.languages.includes('es')){
     throw new Error('Diccionari de conceptes sense contracte bilingüe.');
+  }
+  if(!Array.isArray(bank.families)||!bank.families.length){
+    throw new Error('Diccionari de conceptes sense famílies conceptuals.');
   }
   const ids=new Set();
   for(const entry of bank.entries){
@@ -57,12 +72,17 @@ export async function loadConceptDictionary(fetcher=fetch){
       throw new Error('Diccionari de conceptes amb una entrada incompleta.');
     }
   }
+  const assigned=(bank.families||[]).flatMap(family=>family.entryIds||[]);
+  if(assigned.length!==bank.entries.length||new Set(assigned).size!==bank.entries.length||assigned.some(id=>!ids.has(id))){
+    throw new Error('Diccionari de conceptes amb famílies incompletes o duplicades.');
+  }
   return bank;
 }
 
 export function filterConceptEntries(bank,{language='ca',query='',blockId='all'}={}){
   const lang=language==='es'?'es':'ca';
   const q=normalize(query);
+  const order=familyEntryOrder(bank);
   return (bank?.entries||[])
     .filter(entry=>blockId==='all'||entry.blockId===blockId)
     .filter(entry=>{
@@ -71,19 +91,62 @@ export function filterConceptEntries(bank,{language='ca',query='',blockId='all'}
       return normalize([localized.term,localized.definition,localized.memory].join(' ')).includes(q);
     })
     .slice()
-    .sort((a,b)=>(a[lang]?.term||'').localeCompare(b[lang]?.term||'',lang,{sensitivity:'base'}));
+    .sort((a,b)=>{
+      const ao=order.get(a.id)||{familyIndex:Number.MAX_SAFE_INTEGER,entryIndex:Number.MAX_SAFE_INTEGER};
+      const bo=order.get(b.id)||{familyIndex:Number.MAX_SAFE_INTEGER,entryIndex:Number.MAX_SAFE_INTEGER};
+      if(ao.familyIndex!==bo.familyIndex)return ao.familyIndex-bo.familyIndex;
+      if(ao.entryIndex!==bo.entryIndex)return ao.entryIndex-bo.entryIndex;
+      return (a[lang]?.term||'').localeCompare(b[lang]?.term||'',lang,{sensitivity:'base'});
+    });
+}
+
+export function groupConceptEntriesByFamily(bank,entries){
+  const byId=new Map((entries||[]).map(entry=>[entry.id,entry]));
+  return (bank?.families||[])
+    .map(family=>({
+      family,
+      entries:(family.entryIds||[]).map(id=>byId.get(id)).filter(Boolean)
+    }))
+    .filter(group=>group.entries.length);
 }
 
 export function sourceLabel(source,language='ca'){
   const pages=source?.pages||[];
   if(!source?.id||!pages.length)return '';
   const [start,end=start]=pages;
-  const pageWord=language==='es'?(start===end?'p.':'pp.'):(start===end?'p.':'pp.');
+  const pageWord=start===end?'p.':'pp.';
   return start===end?`${source.id} · ${pageWord} ${start}`:`${source.id} · ${pageWord} ${start}–${end}`;
 }
 
 function groupLabel(group,lang){
   return group?.[lang]||group?.ca||group?.id||'';
+}
+
+function conceptEntryHtml(entry,lang,c){
+  const item=entry[lang];
+  return `<article class="concept-entry" data-concept-id="${esc(entry.id)}">
+    <div class="concept-entry-head">
+      <h3>${esc(item.term)}</h3>
+      <span class="concept-source" title="${esc(c.source)}">${esc(sourceLabel(entry.source,lang))}</span>
+    </div>
+    <p class="concept-definition">${esc(item.definition)}</p>
+    <p class="concept-memory"><strong>${esc(c.memory)}:</strong> ${esc(item.memory)}</p>
+  </article>`;
+}
+
+function conceptListHtml(bank,entries,lang,c){
+  if(!entries.length)return `<div class="dictionary-empty"><strong>${esc(c.emptyTitle)}</strong><p>${esc(c.emptyText)}</p></div>`;
+  return groupConceptEntriesByFamily(bank,entries).map(({family,entries:familyEntries})=>`
+    <section class="concept-family" data-concept-family="${esc(family.id)}">
+      <div class="concept-family-head">
+        <p class="eyebrow">${esc(c.family)}</p>
+        <h2>${esc(groupLabel(family,lang))}</h2>
+        <span>${familyEntries.length}</span>
+      </div>
+      <div class="concept-family-list">
+        ${familyEntries.map(entry=>conceptEntryHtml(entry,lang,c)).join('')}
+      </div>
+    </section>`).join('');
 }
 
 export function renderConceptDictionaryHtml(bank,{language='ca',query='',blockId='all'}={}){
@@ -94,17 +157,6 @@ export function renderConceptDictionaryHtml(bank,{language='ca',query='',blockId
     `<option value="all" ${blockId==='all'?'selected':''}>${esc(c.all)}</option>`,
     ...(bank.groups||[]).map(group=>`<option value="${esc(group.id)}" ${blockId===group.id?'selected':''}>${esc(groupLabel(group,lang))}</option>`)
   ].join('');
-  const list=entries.length?entries.map(entry=>{
-    const item=entry[lang];
-    return `<article class="concept-entry" data-concept-id="${esc(entry.id)}">
-      <div class="concept-entry-head">
-        <h2>${esc(item.term)}</h2>
-        <span class="concept-source" title="${esc(c.source)}">${esc(sourceLabel(entry.source,lang))}</span>
-      </div>
-      <p class="concept-definition">${esc(item.definition)}</p>
-      <p class="concept-memory"><strong>${esc(c.memory)}:</strong> ${esc(item.memory)}</p>
-    </article>`;
-  }).join(''):`<div class="dictionary-empty"><strong>${esc(c.emptyTitle)}</strong><p>${esc(c.emptyText)}</p></div>`;
 
   return `<div class="concept-dictionary-shell">
     <div class="dictionary-toolbar">
@@ -126,7 +178,7 @@ export function renderConceptDictionaryHtml(bank,{language='ca',query='',blockId
       </label>
     </div>
     <p class="dictionary-count"><strong data-dictionary-count>${entries.length}</strong> ${esc(c.results)}</p>
-    <div class="concept-list" data-concept-list>${list}</div>
+    <div class="concept-list" data-concept-list>${conceptListHtml(bank,entries,lang,c)}</div>
   </div>`;
 }
 
@@ -139,19 +191,20 @@ export function createConceptDictionary({screen,bank,language='ca',onHome=()=>{}
     screen.innerHTML=renderConceptDictionaryHtml(bank,{language:lang,query,blockId});
   }
 
+  function refreshList(){
+    const entries=filterConceptEntries(bank,{language:lang,query,blockId});
+    const c=COPY[lang];
+    const count=screen.querySelector('[data-dictionary-count]');
+    const list=screen.querySelector('[data-concept-list]');
+    if(count)count.textContent=String(entries.length);
+    if(list)list.innerHTML=conceptListHtml(bank,entries,lang,c);
+  }
+
   function handleInput(event){
     const search=event.target.closest('[data-dictionary-search]');
     if(!search)return;
     query=search.value;
-    const next=filterConceptEntries(bank,{language:lang,query,blockId});
-    const count=screen.querySelector('[data-dictionary-count]');
-    const list=screen.querySelector('[data-concept-list]');
-    if(count)count.textContent=String(next.length);
-    if(list){
-      const temp=document.createElement('div');
-      temp.innerHTML=renderConceptDictionaryHtml(bank,{language:lang,query,blockId});
-      list.innerHTML=temp.querySelector('[data-concept-list]')?.innerHTML||'';
-    }
+    refreshList();
   }
 
   function handleChange(event){
