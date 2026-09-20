@@ -1,0 +1,1183 @@
+{
+  "version": 1,
+  "date": "2026-09-20",
+  "policy": "Curated learning dictionary: only high-value concepts that improve comprehension, discrimination or memorisation. Source material is authoritative.",
+  "languages": [
+    "ca",
+    "es"
+  ],
+  "count": 54,
+  "groups": [
+    {
+      "id": "bloc-1",
+      "ca": "Bloc 1 — Entitats i funcions de l’empresa",
+      "es": "Bloque 1 — Entidades y funciones de la empresa"
+    },
+    {
+      "id": "bloc-2",
+      "ca": "Bloc 2 — Empreses, jerarquia i administració",
+      "es": "Bloque 2 — Empresas, jerarquía y administración"
+    },
+    {
+      "id": "bloc-3",
+      "ca": "Bloc 3 — Estructura i organització",
+      "es": "Bloque 3 — Estructura y organización"
+    },
+    {
+      "id": "bloc-4",
+      "ca": "Bloc 4 — Departaments i informació",
+      "es": "Bloque 4 — Departamentos e información"
+    },
+    {
+      "id": "bloc-5",
+      "ca": "Bloc 5 — Estat i Unió Europea",
+      "es": "Bloque 5 — Estado y Unión Europea"
+    },
+    {
+      "id": "unitat-2-bloc-1",
+      "ca": "Unitat 2 — Recursos humans i treball en equip",
+      "es": "Unidad 2 — Recursos humanos y trabajo en equipo"
+    },
+    {
+      "id": "uf0518-bloc-1",
+      "ca": "UF0518 — Comunicació escrita",
+      "es": "UF0518 — Comunicación escrita"
+    }
+  ],
+  "entries": [
+    {
+      "id": "b1-entitat-publica",
+      "blockId": "bloc-1",
+      "source": {
+        "id": "B1",
+        "pages": [
+          17,
+          17
+        ]
+      },
+      "ca": {
+        "term": "Entitat pública",
+        "definition": "Organització creada o gestionada per una administració pública i finançada principalment amb recursos públics.",
+        "memory": "Pública = administració + recursos públics."
+      },
+      "es": {
+        "term": "Entidad pública",
+        "definition": "Organización creada o gestionada por una administración pública y financiada principalmente con recursos públicos.",
+        "memory": "Pública = administración + recursos públicos."
+      }
+    },
+    {
+      "id": "b1-entitat-privada",
+      "blockId": "bloc-1",
+      "source": {
+        "id": "B1",
+        "pages": [
+          17,
+          17
+        ]
+      },
+      "ca": {
+        "term": "Entitat privada",
+        "definition": "Organització creada i gestionada per persones o empreses privades i finançada principalment amb recursos privats.",
+        "memory": "Privada = particulars + recursos privats."
+      },
+      "es": {
+        "term": "Entidad privada",
+        "definition": "Organización creada y gestionada por personas o empresas privadas y financiada principalmente con recursos privados.",
+        "memory": "Privada = particulares + recursos privados."
+      }
+    },
+    {
+      "id": "b1-funcio-direccio",
+      "blockId": "bloc-1",
+      "source": {
+        "id": "B1",
+        "pages": [
+          17,
+          17
+        ]
+      },
+      "ca": {
+        "term": "Funció de direcció",
+        "definition": "Funció encarregada de coordinar l’empresa i prendre decisions.",
+        "memory": "Direcció = coordinar + decidir."
+      },
+      "es": {
+        "term": "Función de dirección",
+        "definition": "Función encargada de coordinar la empresa y tomar decisiones.",
+        "memory": "Dirección = coordinar + decidir."
+      }
+    },
+    {
+      "id": "b1-funcio-financera",
+      "blockId": "bloc-1",
+      "source": {
+        "id": "B1",
+        "pages": [
+          17,
+          17
+        ]
+      },
+      "ca": {
+        "term": "Funció financera",
+        "definition": "Gestió dels recursos econòmics i del finançament de l’empresa.",
+        "memory": "Financera = diners i finançament."
+      },
+      "es": {
+        "term": "Función financiera",
+        "definition": "Gestión de los recursos económicos y de la financiación de la empresa.",
+        "memory": "Financiera = dinero y financiación."
+      }
+    },
+    {
+      "id": "b1-recursos-humans",
+      "blockId": "bloc-1",
+      "source": {
+        "id": "B1",
+        "pages": [
+          17,
+          17
+        ]
+      },
+      "ca": {
+        "term": "Recursos Humans",
+        "definition": "Funció relacionada amb la gestió, contractació, formació i organització dels treballadors.",
+        "memory": "RRHH = persones: contractar, formar i organitzar."
+      },
+      "es": {
+        "term": "Recursos Humanos",
+        "definition": "Función relacionada con la gestión, contratación, formación y organización de los trabajadores.",
+        "memory": "RR. HH. = personas: contratar, formar y organizar."
+      }
+    },
+    {
+      "id": "b1-funcio-administrativa",
+      "blockId": "bloc-1",
+      "source": {
+        "id": "B1",
+        "pages": [
+          17,
+          17
+        ]
+      },
+      "ca": {
+        "term": "Funció administrativa",
+        "definition": "Activitats relacionades amb l’organització de documents, informació i tasques administratives.",
+        "memory": "Administrar = ordenar documents, informació i tasques."
+      },
+      "es": {
+        "term": "Función administrativa",
+        "definition": "Actividades relacionadas con la organización de documentos, información y tareas administrativas.",
+        "memory": "Administrar = ordenar documentos, información y tareas."
+      }
+    },
+    {
+      "id": "b2-lucrativa-no-lucrativa",
+      "blockId": "bloc-2",
+      "source": {
+        "id": "B2",
+        "pages": [
+          6,
+          7
+        ]
+      },
+      "ca": {
+        "term": "Lucrativa vs. sense ànim de lucre",
+        "definition": "L’empresa lucrativa busca obtenir beneficis; l’entitat sense ànim de lucre destina els possibles beneficis als objectius de l’organització.",
+        "memory": "Lucrativa = benefici per repartir o reinvertir; no lucrativa = benefici per a la finalitat."
+      },
+      "es": {
+        "term": "Lucrativa vs. sin ánimo de lucro",
+        "definition": "La empresa lucrativa busca obtener beneficios; la entidad sin ánimo de lucro destina los posibles beneficios a los objetivos de la organización.",
+        "memory": "Lucrativa = beneficio para repartir o reinvertir; no lucrativa = beneficio para la finalidad."
+      }
+    },
+    {
+      "id": "b2-empresa-individual",
+      "blockId": "bloc-2",
+      "source": {
+        "id": "B2",
+        "pages": [
+          8,
+          8
+        ]
+      },
+      "ca": {
+        "term": "Empresa individual",
+        "definition": "Empresa en què una única persona física és propietària i desenvolupa l’activitat en nom propi.",
+        "memory": "Individual = una persona física + nom propi."
+      },
+      "es": {
+        "term": "Empresa individual",
+        "definition": "Empresa en la que una única persona física es propietaria y desarrolla la actividad en nombre propio.",
+        "memory": "Individual = una persona física + nombre propio."
+      }
+    },
+    {
+      "id": "b2-societat",
+      "blockId": "bloc-2",
+      "source": {
+        "id": "B2",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "term": "Societat",
+        "definition": "Empresa constituïda per una o més persones sòcies que aporten capital, béns o altres recursos per desenvolupar una activitat empresarial.",
+        "memory": "Societat = socis + aportacions + activitat."
+      },
+      "es": {
+        "term": "Sociedad",
+        "definition": "Empresa constituida por una o más personas socias que aportan capital, bienes u otros recursos para desarrollar una actividad empresarial.",
+        "memory": "Sociedad = socios + aportaciones + actividad."
+      }
+    },
+    {
+      "id": "b2-personalitat-juridica",
+      "blockId": "bloc-2",
+      "source": {
+        "id": "B2",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "term": "Personalitat jurídica pròpia",
+        "definition": "La societat té una personalitat jurídica diferenciada de la de les persones sòcies.",
+        "memory": "La societat és jurídicament diferent dels socis."
+      },
+      "es": {
+        "term": "Personalidad jurídica propia",
+        "definition": "La sociedad tiene una personalidad jurídica diferenciada de la de las personas socias.",
+        "memory": "La sociedad es jurídicamente distinta de los socios."
+      }
+    },
+    {
+      "id": "b2-sa-sl",
+      "blockId": "bloc-2",
+      "source": {
+        "id": "B2",
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "ca": {
+        "term": "S.A. vs. S.L.",
+        "definition": "A la S.A. el capital social es divideix en accions; a la S.L., en participacions socials.",
+        "memory": "S.A. = accions; S.L. = participacions."
+      },
+      "es": {
+        "term": "S.A. vs. S.L.",
+        "definition": "En la S.A. el capital social se divide en acciones; en la S.L., en participaciones sociales.",
+        "memory": "S.A. = acciones; S.L. = participaciones."
+      }
+    },
+    {
+      "id": "b2-cooperativa",
+      "blockId": "bloc-2",
+      "source": {
+        "id": "B2",
+        "pages": [
+          12,
+          12
+        ]
+      },
+      "ca": {
+        "term": "Cooperativa",
+        "definition": "Societat formada per persones que s’associen voluntàriament per satisfer necessitats i interessos comuns.",
+        "memory": "Cooperativa = associació voluntària + interès comú."
+      },
+      "es": {
+        "term": "Cooperativa",
+        "definition": "Sociedad formada por personas que se asocian voluntariamente para satisfacer necesidades e intereses comunes.",
+        "memory": "Cooperativa = asociación voluntaria + interés común."
+      }
+    },
+    {
+      "id": "b2-jerarquia-rang",
+      "blockId": "bloc-2",
+      "source": {
+        "id": "B2",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "term": "Jerarquia de rang",
+        "definition": "Posició o consideració d’una persona dins l’organització, relacionada amb experiència, antiguitat, prestigi o reconeixement; no sempre implica comandament.",
+        "memory": "Rang = reconeixement; no sempre = autoritat."
+      },
+      "es": {
+        "term": "Jerarquía de rango",
+        "definition": "Posición o consideración de una persona dentro de la organización, relacionada con experiencia, antigüedad, prestigio o reconocimiento; no siempre implica mando.",
+        "memory": "Rango = reconocimiento; no siempre = autoridad."
+      }
+    },
+    {
+      "id": "b2-jerarquia-capacitat",
+      "blockId": "bloc-2",
+      "source": {
+        "id": "B2",
+        "pages": [
+          25,
+          25
+        ]
+      },
+      "ca": {
+        "term": "Jerarquia per capacitat",
+        "definition": "Es basa en coneixements, competències i especialització professional; una gran capacitat tècnica no implica necessàriament autoritat.",
+        "memory": "Capacitat = saber fer; no necessàriament manar."
+      },
+      "es": {
+        "term": "Jerarquía por capacidad",
+        "definition": "Se basa en conocimientos, competencias y especialización profesional; una gran capacidad técnica no implica necesariamente autoridad.",
+        "memory": "Capacidad = saber hacer; no necesariamente mandar."
+      }
+    },
+    {
+      "id": "b2-planificar-organitzar",
+      "blockId": "bloc-2",
+      "source": {
+        "id": "B2",
+        "pages": [
+          31,
+          31
+        ]
+      },
+      "ca": {
+        "term": "Planificar vs. organitzar",
+        "definition": "Planificar és definir objectius i accions; organitzar és distribuir els recursos humans, materials i econòmics.",
+        "memory": "Planificar = què i com; organitzar = repartir recursos."
+      },
+      "es": {
+        "term": "Planificar vs. organizar",
+        "definition": "Planificar es definir objetivos y acciones; organizar es distribuir los recursos humanos, materiales y económicos.",
+        "memory": "Planificar = qué y cómo; organizar = repartir recursos."
+      }
+    },
+    {
+      "id": "b2-controlar-auditar",
+      "blockId": "bloc-2",
+      "source": {
+        "id": "B2",
+        "pages": [
+          31,
+          31
+        ]
+      },
+      "ca": {
+        "term": "Controlar vs. auditar",
+        "definition": "Controlar és comprovar si activitats i resultats s’ajusten als objectius; auditar és revisar i verificar activitats, procediments i resultats.",
+        "memory": "Control = comparar amb objectius; auditoria = revisar i verificar."
+      },
+      "es": {
+        "term": "Controlar vs. auditar",
+        "definition": "Controlar es comprobar si actividades y resultados se ajustan a los objetivos; auditar es revisar y verificar actividades, procedimientos y resultados.",
+        "memory": "Control = comparar con objetivos; auditoría = revisar y verificar."
+      }
+    },
+    {
+      "id": "b3-autoritat",
+      "blockId": "bloc-3",
+      "source": {
+        "id": "B3",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "term": "Autoritat",
+        "definition": "Capacitat per donar instruccions, prendre decisions i dirigir el treball d’altres persones, assumint responsabilitat pels resultats.",
+        "memory": "Autoritat = instruir + decidir + respondre."
+      },
+      "es": {
+        "term": "Autoridad",
+        "definition": "Capacidad para dar instrucciones, tomar decisiones y dirigir el trabajo de otras personas, asumiendo responsabilidad por los resultados.",
+        "memory": "Autoridad = instruir + decidir + responder."
+      }
+    },
+    {
+      "id": "b3-unitat-direccio",
+      "blockId": "bloc-3",
+      "source": {
+        "id": "B3",
+        "pages": [
+          11,
+          11
+        ]
+      },
+      "ca": {
+        "term": "Unitat de direcció",
+        "definition": "Les persones i departaments amb un mateix objectiu han de seguir una direcció i una planificació comunes.",
+        "memory": "Un objectiu → una direcció comuna."
+      },
+      "es": {
+        "term": "Unidad de dirección",
+        "definition": "Las personas y departamentos con un mismo objetivo deben seguir una dirección y una planificación comunes.",
+        "memory": "Un objetivo → una dirección común."
+      }
+    },
+    {
+      "id": "b3-coordinacio",
+      "blockId": "bloc-3",
+      "source": {
+        "id": "B3",
+        "pages": [
+          12,
+          12
+        ]
+      },
+      "ca": {
+        "term": "Coordinació",
+        "definition": "Fa que persones, tasques i departaments treballin de manera organitzada i conjunta.",
+        "memory": "Coordinar = encaixar el treball de tots."
+      },
+      "es": {
+        "term": "Coordinación",
+        "definition": "Hace que personas, tareas y departamentos trabajen de forma organizada y conjunta.",
+        "memory": "Coordinar = encajar el trabajo de todos."
+      }
+    },
+    {
+      "id": "b3-delegacio",
+      "blockId": "bloc-3",
+      "source": {
+        "id": "B3",
+        "pages": [
+          13,
+          13
+        ]
+      },
+      "ca": {
+        "term": "Delegació",
+        "definition": "Assignar a una altra persona determinades tasques, responsabilitats o capacitat de decisió, mantenint la responsabilitat general.",
+        "memory": "Delegar ≠ desentendre’s."
+      },
+      "es": {
+        "term": "Delegación",
+        "definition": "Asignar a otra persona determinadas tareas, responsabilidades o capacidad de decisión, manteniendo la responsabilidad general.",
+        "memory": "Delegar ≠ desentenderse."
+      }
+    },
+    {
+      "id": "b3-descentralitzacio",
+      "blockId": "bloc-3",
+      "source": {
+        "id": "B3",
+        "pages": [
+          14,
+          14
+        ]
+      },
+      "ca": {
+        "term": "Descentralització",
+        "definition": "Distribuir la capacitat de prendre decisions entre diferents nivells o àrees de l’organització.",
+        "memory": "Descentralitzar = repartir decisions."
+      },
+      "es": {
+        "term": "Descentralización",
+        "definition": "Distribuir la capacidad de tomar decisiones entre distintos niveles o áreas de la organización.",
+        "memory": "Descentralizar = repartir decisiones."
+      }
+    },
+    {
+      "id": "b3-especialitzacio",
+      "blockId": "bloc-3",
+      "source": {
+        "id": "B3",
+        "pages": [
+          16,
+          16
+        ]
+      },
+      "ca": {
+        "term": "Especialització",
+        "definition": "Assignar les tasques segons els coneixements, habilitats i experiència de cada persona.",
+        "memory": "Especialitzar = cada tasca a qui millor la domina."
+      },
+      "es": {
+        "term": "Especialización",
+        "definition": "Asignar las tareas según los conocimientos, habilidades y experiencia de cada persona.",
+        "memory": "Especializar = cada tarea a quien mejor la domina."
+      }
+    },
+    {
+      "id": "b3-participacio",
+      "blockId": "bloc-3",
+      "source": {
+        "id": "B3",
+        "pages": [
+          17,
+          17
+        ]
+      },
+      "ca": {
+        "term": "Participació",
+        "definition": "Permet que els treballadors aportin idees, opinions i propostes de millora relacionades amb la feina.",
+        "memory": "Participar = aportar idees i millores."
+      },
+      "es": {
+        "term": "Participación",
+        "definition": "Permite que los trabajadores aporten ideas, opiniones y propuestas de mejora relacionadas con el trabajo.",
+        "memory": "Participar = aportar ideas y mejoras."
+      }
+    },
+    {
+      "id": "b3-publicitat-transparencia",
+      "blockId": "bloc-3",
+      "source": {
+        "id": "B3",
+        "pages": [
+          18,
+          18
+        ]
+      },
+      "ca": {
+        "term": "Publicitat i transparència",
+        "definition": "Comunicar de manera clara i accessible les decisions i informacions que afecten les persones de l’organització.",
+        "memory": "Transparència = informació clara, accessible i a temps."
+      },
+      "es": {
+        "term": "Publicidad y transparencia",
+        "definition": "Comunicar de forma clara y accesible las decisiones e informaciones que afectan a las personas de la organización.",
+        "memory": "Transparencia = información clara, accesible y a tiempo."
+      }
+    },
+    {
+      "id": "b3-formal-informal",
+      "blockId": "bloc-3",
+      "source": {
+        "id": "B3",
+        "pages": [
+          20,
+          22
+        ]
+      },
+      "ca": {
+        "term": "Organització formal vs. informal",
+        "definition": "La formal és l’estructura oficial definida per l’empresa; la informal neix espontàniament de les relacions personals.",
+        "memory": "Formal = oficial; informal = espontània."
+      },
+      "es": {
+        "term": "Organización formal vs. informal",
+        "definition": "La formal es la estructura oficial definida por la empresa; la informal nace espontáneamente de las relaciones personales.",
+        "memory": "Formal = oficial; informal = espontánea."
+      }
+    },
+    {
+      "id": "b3-organigrama",
+      "blockId": "bloc-3",
+      "source": {
+        "id": "B3",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "term": "Organigrama",
+        "definition": "Representació gràfica de l’estructura d’una organització: departaments, nivells de responsabilitat i relacions de dependència.",
+        "memory": "Organigrama = qui fa què i qui depèn de qui."
+      },
+      "es": {
+        "term": "Organigrama",
+        "definition": "Representación gráfica de la estructura de una organización: departamentos, niveles de responsabilidad y relaciones de dependencia.",
+        "memory": "Organigrama = quién hace qué y quién depende de quién."
+      }
+    },
+    {
+      "id": "b4-info-fiscal",
+      "blockId": "bloc-4",
+      "source": {
+        "id": "B4",
+        "pages": [
+          15,
+          19
+        ]
+      },
+      "ca": {
+        "term": "Informació tributària i fiscal",
+        "definition": "Dades i documents necessaris per complir obligacions tributàries, com impostos, declaracions, liquidacions i terminis.",
+        "memory": "Fiscal = impostos, declaracions i terminis."
+      },
+      "es": {
+        "term": "Información tributaria y fiscal",
+        "definition": "Datos y documentos necesarios para cumplir obligaciones tributarias, como impuestos, declaraciones, liquidaciones y plazos.",
+        "memory": "Fiscal = impuestos, declaraciones y plazos."
+      }
+    },
+    {
+      "id": "b4-info-mercantil",
+      "blockId": "bloc-4",
+      "source": {
+        "id": "B4",
+        "pages": [
+          15,
+          20
+        ]
+      },
+      "ca": {
+        "term": "Informació mercantil",
+        "definition": "Informació jurídica i societària, com contractes mercantils, escriptures, llibres mercantils i tràmits registrals.",
+        "memory": "Mercantil = societat, contractes i registre."
+      },
+      "es": {
+        "term": "Información mercantil",
+        "definition": "Información jurídica y societaria, como contratos mercantiles, escrituras, libros mercantiles y trámites registrales.",
+        "memory": "Mercantil = sociedad, contratos y registro."
+      }
+    },
+    {
+      "id": "b4-info-financera",
+      "blockId": "bloc-4",
+      "source": {
+        "id": "B4",
+        "pages": [
+          16,
+          21
+        ]
+      },
+      "ca": {
+        "term": "Informació financera",
+        "definition": "Informació que permet conèixer la situació econòmica i financera de l’empresa, com balanços, canvis del patrimoni net o inventaris.",
+        "memory": "Financera = estat dels recursos econòmics."
+      },
+      "es": {
+        "term": "Información financiera",
+        "definition": "Información que permite conocer la situación económica y financiera de la empresa, como balances, cambios del patrimonio neto o inventarios.",
+        "memory": "Financiera = estado de los recursos económicos."
+      }
+    },
+    {
+      "id": "b4-info-personal",
+      "blockId": "bloc-4",
+      "source": {
+        "id": "B4",
+        "pages": [
+          17,
+          23
+        ]
+      },
+      "ca": {
+        "term": "Informació de personal / RRHH",
+        "definition": "Dades i documents relacionats amb els empleats, com contractes, nòmines, formació, absències i avaluacions.",
+        "memory": "Personal = documents de les persones treballadores."
+      },
+      "es": {
+        "term": "Información de personal / RR. HH.",
+        "definition": "Datos y documentos relacionados con los empleados, como contratos, nóminas, formación, ausencias y evaluaciones.",
+        "memory": "Personal = documentos de las personas trabajadoras."
+      }
+    },
+    {
+      "id": "b5-poders-estat",
+      "blockId": "bloc-5",
+      "source": {
+        "id": "B5",
+        "pages": [
+          7,
+          9
+        ]
+      },
+      "ca": {
+        "term": "Poders de l’Estat",
+        "definition": "Legislatiu: elabora i aprova lleis; executiu: dirigeix la política i executa; judicial: jutja i fa executar allò jutjat.",
+        "memory": "L-E-J = lleis, executar, jutjar."
+      },
+      "es": {
+        "term": "Poderes del Estado",
+        "definition": "Legislativo: elabora y aprueba leyes; ejecutivo: dirige la política y ejecuta; judicial: juzga y hace ejecutar lo juzgado.",
+        "memory": "L-E-J = leyes, ejecutar, juzgar."
+      }
+    },
+    {
+      "id": "b5-ts-tc",
+      "blockId": "bloc-5",
+      "source": {
+        "id": "B5",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "term": "Tribunal Suprem vs. Tribunal Constitucional",
+        "definition": "El Tribunal Suprem és l’òrgan jurisdiccional superior, excepte en garanties constitucionals; el Tribunal Constitucional no forma part del Poder Judicial.",
+        "memory": "Suprem = jurisdicció; Constitucional = Constitució."
+      },
+      "es": {
+        "term": "Tribunal Supremo vs. Tribunal Constitucional",
+        "definition": "El Tribunal Supremo es el órgano jurisdiccional superior, salvo en garantías constitucionales; el Tribunal Constitucional no forma parte del Poder Judicial.",
+        "memory": "Supremo = jurisdicción; Constitucional = Constitución."
+      }
+    },
+    {
+      "id": "b5-comunitat-autonoma",
+      "blockId": "bloc-5",
+      "source": {
+        "id": "B5",
+        "pages": [
+          10,
+          10
+        ]
+      },
+      "ca": {
+        "term": "Comunitat autònoma",
+        "definition": "Entitat territorial amb autonomia política i competències atribuïdes per la Constitució i el seu Estatut d’Autonomia.",
+        "memory": "Autònoma = autogovern dins les seves competències."
+      },
+      "es": {
+        "term": "Comunidad autónoma",
+        "definition": "Entidad territorial con autonomía política y competencias atribuidas por la Constitución y su Estatuto de Autonomía.",
+        "memory": "Autónoma = autogobierno dentro de sus competencias."
+      }
+    },
+    {
+      "id": "b5-administracio-local",
+      "blockId": "bloc-5",
+      "source": {
+        "id": "B5",
+        "pages": [
+          11,
+          14
+        ]
+      },
+      "ca": {
+        "term": "Administració local",
+        "definition": "Administració pública integrada principalment pels municipis i les províncies, amb administració insular pròpia als arxipèlags.",
+        "memory": "Local = municipis, províncies i illes."
+      },
+      "es": {
+        "term": "Administración local",
+        "definition": "Administración pública integrada principalmente por los municipios y las provincias, con administración insular propia en los archipiélagos.",
+        "memory": "Local = municipios, provincias e islas."
+      }
+    },
+    {
+      "id": "b5-ue",
+      "blockId": "bloc-5",
+      "source": {
+        "id": "B5",
+        "pages": [
+          15,
+          15
+        ]
+      },
+      "ca": {
+        "term": "Unió Europea (UE)",
+        "definition": "Organització supranacional formada per 27 Estats membres i amb institucions pròpies.",
+        "memory": "UE = 27 Estats + institucions comunes."
+      },
+      "es": {
+        "term": "Unión Europea (UE)",
+        "definition": "Organización supranacional formada por 27 Estados miembros y con instituciones propias.",
+        "memory": "UE = 27 Estados + instituciones comunes."
+      }
+    },
+    {
+      "id": "b5-parlament-consell-comissio",
+      "blockId": "bloc-5",
+      "source": {
+        "id": "B5",
+        "pages": [
+          15,
+          17
+        ]
+      },
+      "ca": {
+        "term": "Parlament / Consell UE / Comissió",
+        "definition": "El Parlament representa la ciutadania; el Consell de la UE representa els governs; la Comissió és l’òrgan executiu i proposa legislació en la majoria d’àmbits.",
+        "memory": "Ciutadans → Parlament; governs → Consell; executar/proposar → Comissió."
+      },
+      "es": {
+        "term": "Parlamento / Consejo UE / Comisión",
+        "definition": "El Parlamento representa a la ciudadanía; el Consejo de la UE representa a los gobiernos; la Comisión es el órgano ejecutivo y propone legislación en la mayoría de ámbitos.",
+        "memory": "Ciudadanos → Parlamento; gobiernos → Consejo; ejecutar/proponer → Comisión."
+      }
+    },
+    {
+      "id": "b5-tjue",
+      "blockId": "bloc-5",
+      "source": {
+        "id": "B5",
+        "pages": [
+          17,
+          17
+        ]
+      },
+      "ca": {
+        "term": "TJUE",
+        "definition": "Tribunal que garanteix la interpretació i l’aplicació correcta del dret de la Unió Europea.",
+        "memory": "TJUE = interpretar i aplicar el dret de la UE."
+      },
+      "es": {
+        "term": "TJUE",
+        "definition": "Tribunal que garantiza la interpretación y la aplicación correcta del Derecho de la Unión Europea.",
+        "memory": "TJUE = interpretar y aplicar el Derecho de la UE."
+      }
+    },
+    {
+      "id": "b5-consell-europeu",
+      "blockId": "bloc-5",
+      "source": {
+        "id": "B5",
+        "pages": [
+          18,
+          18
+        ]
+      },
+      "ca": {
+        "term": "Consell Europeu",
+        "definition": "Institució que defineix les orientacions i prioritats polítiques generals de la UE i, en general, no legisla.",
+        "memory": "Consell Europeu = grans prioritats, no lleis."
+      },
+      "es": {
+        "term": "Consejo Europeo",
+        "definition": "Institución que define las orientaciones y prioridades políticas generales de la UE y, en general, no legisla.",
+        "memory": "Consejo Europeo = grandes prioridades, no leyes."
+      }
+    },
+    {
+      "id": "b5-reglament-directiva",
+      "blockId": "bloc-5",
+      "source": {
+        "id": "B5",
+        "pages": [
+          19,
+          19
+        ]
+      },
+      "ca": {
+        "term": "Reglament vs. directiva",
+        "definition": "El reglament és directament aplicable; la directiva fixa objectius que, amb caràcter general, s’han d’incorporar al dret intern.",
+        "memory": "Reglament = directe; directiva = transposició."
+      },
+      "es": {
+        "term": "Reglamento vs. directiva",
+        "definition": "El reglamento es directamente aplicable; la directiva fija objetivos que, con carácter general, deben incorporarse al Derecho interno.",
+        "memory": "Reglamento = directo; directiva = transposición."
+      }
+    },
+    {
+      "id": "b5-transposicio",
+      "blockId": "bloc-5",
+      "source": {
+        "id": "B5",
+        "pages": [
+          19,
+          19
+        ]
+      },
+      "ca": {
+        "term": "Transposició",
+        "definition": "Procés mitjançant el qual una directiva europea s’incorpora al dret intern d’un Estat membre.",
+        "memory": "Transposar = portar la directiva al dret intern."
+      },
+      "es": {
+        "term": "Transposición",
+        "definition": "Proceso mediante el cual una directiva europea se incorpora al Derecho interno de un Estado miembro.",
+        "memory": "Transponer = llevar la directiva al Derecho interno."
+      }
+    },
+    {
+      "id": "u2-estatus",
+      "blockId": "unitat-2-bloc-1",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          40,
+          40
+        ]
+      },
+      "ca": {
+        "term": "Estatus",
+        "definition": "Posició definida socialment o rang que el grup atribueix a una persona o als seus membres.",
+        "memory": "Estatus = posició reconeguda dins del grup."
+      },
+      "es": {
+        "term": "Estatus",
+        "definition": "Posición definida socialmente o rango que el grupo atribuye a una persona o a sus miembros.",
+        "memory": "Estatus = posición reconocida dentro del grupo."
+      }
+    },
+    {
+      "id": "u2-rol",
+      "blockId": "unitat-2-bloc-1",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          41,
+          41
+        ]
+      },
+      "ca": {
+        "term": "Rol",
+        "definition": "Conjunt de patrons de comportament esperats d’una persona que ocupa una posició determinada dins del grup.",
+        "memory": "Rol = què s’espera que facis."
+      },
+      "es": {
+        "term": "Rol",
+        "definition": "Conjunto de patrones de comportamiento esperados de una persona que ocupa una posición determinada dentro del grupo.",
+        "memory": "Rol = qué se espera que hagas."
+      }
+    },
+    {
+      "id": "u2-cohesio",
+      "blockId": "unitat-2-bloc-1",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          42,
+          42
+        ]
+      },
+      "ca": {
+        "term": "Cohesió",
+        "definition": "Força d’unió que atrau els membres cap al grup i afavoreix que hi romanguin.",
+        "memory": "Cohesió = força que manté unit el grup."
+      },
+      "es": {
+        "term": "Cohesión",
+        "definition": "Fuerza de unión que atrae a los miembros hacia el grupo y favorece que permanezcan en él.",
+        "memory": "Cohesión = fuerza que mantiene unido al grupo."
+      }
+    },
+    {
+      "id": "u2-interes-amics",
+      "blockId": "unitat-2-bloc-1",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          57,
+          58
+        ]
+      },
+      "ca": {
+        "term": "Grup d’interès vs. grup d’amics",
+        "definition": "El grup d’interès es forma per un objectiu o necessitat comuna; el grup d’amics, per afinitat personal i relació social.",
+        "memory": "Interès = objectiu; amics = afinitat."
+      },
+      "es": {
+        "term": "Grupo de interés vs. grupo de amigos",
+        "definition": "El grupo de interés se forma por un objetivo o necesidad común; el grupo de amigos, por afinidad personal y relación social.",
+        "memory": "Interés = objetivo; amigos = afinidad."
+      }
+    },
+    {
+      "id": "u2-fases-equip",
+      "blockId": "unitat-2-bloc-1",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          60,
+          63
+        ]
+      },
+      "ca": {
+        "term": "Fases del treball en equip",
+        "definition": "L’equip evoluciona habitualment per formació, conflicte, normalització i rendiment.",
+        "memory": "F-C-N-R: formar, conflicte, normalitzar, rendir."
+      },
+      "es": {
+        "term": "Fases del trabajo en equipo",
+        "definition": "El equipo evoluciona habitualmente por formación, conflicto, normalización y rendimiento.",
+        "memory": "F-C-N-R: formar, conflicto, normalizar, rendir."
+      }
+    },
+    {
+      "id": "u2-sinergia",
+      "blockId": "unitat-2-bloc-1",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          108,
+          108
+        ]
+      },
+      "ca": {
+        "term": "Sinergia",
+        "definition": "Es produeix quan la col·laboració permet obtenir un resultat millor que la suma dels treballs individuals.",
+        "memory": "Sinergia = junts, més que la suma."
+      },
+      "es": {
+        "term": "Sinergia",
+        "definition": "Se produce cuando la colaboración permite obtener un resultado mejor que la suma de los trabajos individuales.",
+        "memory": "Sinergia = juntos, más que la suma."
+      }
+    },
+    {
+      "id": "u2-valors-etics",
+      "blockId": "unitat-2-bloc-1",
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          109,
+          109
+        ]
+      },
+      "ca": {
+        "term": "Valors ètics professionals",
+        "definition": "Responsabilitat, respecte, honestedat, confidencialitat i compromís orienten el comportament professional dins l’organització.",
+        "memory": "R-R-H-C-C: responsabilitat, respecte, honestedat, confidencialitat, compromís."
+      },
+      "es": {
+        "term": "Valores éticos profesionales",
+        "definition": "Responsabilidad, respeto, honestidad, confidencialidad y compromiso orientan el comportamiento profesional dentro de la organización.",
+        "memory": "R-R-H-C-C: responsabilidad, respeto, honestidad, confidencialidad, compromiso."
+      }
+    },
+    {
+      "id": "uf-emissor-receptor",
+      "blockId": "uf0518-bloc-1",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          6,
+          6
+        ]
+      },
+      "ca": {
+        "term": "Emissor vs. receptor",
+        "definition": "L’emissor redacta o envia el missatge; el receptor el rep i el llegeix.",
+        "memory": "Emissor envia; receptor rep."
+      },
+      "es": {
+        "term": "Emisor vs. receptor",
+        "definition": "El emisor redacta o envía el mensaje; el receptor lo recibe y lo lee.",
+        "memory": "Emisor envía; receptor recibe."
+      }
+    },
+    {
+      "id": "uf-missatge",
+      "blockId": "uf0518-bloc-1",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          6,
+          6
+        ]
+      },
+      "ca": {
+        "term": "Missatge",
+        "definition": "Informació específica que es comunica entre emissor i receptor.",
+        "memory": "Missatge = què es comunica."
+      },
+      "es": {
+        "term": "Mensaje",
+        "definition": "Información específica que se comunica entre emisor y receptor.",
+        "memory": "Mensaje = qué se comunica."
+      }
+    },
+    {
+      "id": "uf-canal-codi",
+      "blockId": "uf0518-bloc-1",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          6,
+          6
+        ]
+      },
+      "ca": {
+        "term": "Canal vs. codi",
+        "definition": "El canal és el mitjà utilitzat per enviar el missatge; el codi és el llenguatge o les normes que permeten entendre’l.",
+        "memory": "Canal = per on; codi = amb quin llenguatge."
+      },
+      "es": {
+        "term": "Canal vs. código",
+        "definition": "El canal es el medio utilizado para enviar el mensaje; el código es el lenguaje o las normas que permiten entenderlo.",
+        "memory": "Canal = por dónde; código = con qué lenguaje."
+      }
+    },
+    {
+      "id": "uf-qualitat-text",
+      "blockId": "uf0518-bloc-1",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "term": "Qualitat del text professional",
+        "definition": "Un bon text professional ha de tenir claredat, precisió, concisió, correcció i coherència/cohesió.",
+        "memory": "5 C: claredat, precisió, concisió, correcció, coherència."
+      },
+      "es": {
+        "term": "Calidad del texto profesional",
+        "definition": "Un buen texto profesional debe tener claridad, precisión, concisión, corrección y coherencia/cohesión.",
+        "memory": "5 C: claridad, precisión, concisión, corrección, coherencia."
+      }
+    },
+    {
+      "id": "uf-memo-circular",
+      "blockId": "uf0518-bloc-1",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          22,
+          22
+        ]
+      },
+      "ca": {
+        "term": "Memoràndum vs. circular",
+        "definition": "El memoràndum és una comunicació interna adreçada a una persona, departament o grup concret; la circular transmet el mateix missatge a múltiples destinataris.",
+        "memory": "Memoràndum = concret; circular = molts destinataris."
+      },
+      "es": {
+        "term": "Memorándum vs. circular",
+        "definition": "El memorándum es una comunicación interna dirigida a una persona, departamento o grupo concreto; la circular transmite el mismo mensaje a múltiples destinatarios.",
+        "memory": "Memorándum = concreto; circular = muchos destinatarios."
+      }
+    },
+    {
+      "id": "uf-sollicitud",
+      "blockId": "uf0518-bloc-1",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          23,
+          23
+        ]
+      },
+      "ca": {
+        "term": "Sol·licitud / instància",
+        "definition": "Document mitjançant el qual una persona física o jurídica demana formalment alguna cosa a una administració o entitat.",
+        "memory": "Sol·licitud = petició formal."
+      },
+      "es": {
+        "term": "Solicitud / instancia",
+        "definition": "Documento mediante el cual una persona física o jurídica pide formalmente algo a una administración o entidad.",
+        "memory": "Solicitud = petición formal."
+      }
+    },
+    {
+      "id": "uf-exposo-sollicito",
+      "blockId": "uf0518-bloc-1",
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "term": "EXPOSO vs. SOL·LICITO",
+        "definition": "EXPOSO recull els fets i antecedents; SOL·LICITO formula la petició concreta.",
+        "memory": "EXPOSO = què ha passat; SOL·LICITO = què demano."
+      },
+      "es": {
+        "term": "EXPONGO vs. SOLICITO",
+        "definition": "EXPONGO recoge los hechos y antecedentes; SOLICITO formula la petición concreta.",
+        "memory": "EXPONGO = qué ha pasado; SOLICITO = qué pido."
+      }
+    }
+  ]
+}
