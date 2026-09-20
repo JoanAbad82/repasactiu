@@ -14,6 +14,19 @@ const EXPECTED={
   'unitat-2-bloc-1':7,
   'uf0518-bloc-1':7
 };
+
+const EXPECTED_FAMILIES={
+  'entity-company-forms':['b2-lucrativa-no-lucrativa','b2-empresa-individual','b2-societat','b2-personalitat-juridica','b2-sa-sl','b2-cooperativa'],
+  'organization-structure-authority':['b3-formal-informal','b3-organigrama','b3-autoritat','b3-unitat-direccio','b3-coordinacio','b3-delegacio','b3-descentralitzacio','b3-especialitzacio','b3-participacio','b3-publicitat-transparencia'],
+  'management-administration':['b1-funcio-direccio','b2-planificar-organitzar','b1-funcio-administrativa','b1-funcio-financera','b1-recursos-humans','b2-controlar-auditar'],
+  'hierarchy-position':['u2-estatus','u2-rol','b2-jerarquia-rang','b2-jerarquia-capacitat'],
+  'business-information':['b4-info-financera','b4-info-fiscal','b4-info-mercantil','b4-info-personal'],
+  'public-administration-state':['b1-entitat-publica','b1-entitat-privada','b5-poders-estat','b5-ts-tc','b5-comunitat-autonoma','b5-administracio-local'],
+  'european-union':['b5-ue','b5-parlament-consell-comissio','b5-consell-europeu','b5-tjue','b5-reglament-directiva','b5-transposicio'],
+  'team-groups':['u2-interes-amics','u2-cohesio','u2-fases-equip','u2-sinergia','u2-valors-etics'],
+  'written-communication':['uf-emissor-receptor','uf-missatge','uf-canal-codi','uf-qualitat-text','uf-memo-circular','uf-sollicitud','uf-exposo-sollicito']
+};
+
 const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:28};
 const errors=[];
 
@@ -21,6 +34,7 @@ if(bank.version!==1)errors.push('version != 1');
 if(bank.count!==54)errors.push('count != 54');
 if(!Array.isArray(bank.entries)||bank.entries.length!==54)errors.push('entries != 54');
 if(!Array.isArray(bank.groups)||bank.groups.length!==7)errors.push('groups != 7');
+if(!Array.isArray(bank.families)||bank.families.length!==9)errors.push('families != 9');
 if(!Array.isArray(bank.languages)||bank.languages.join(',')!=='ca,es')errors.push('languages must be ca,es');
 
 const ids=new Set();
@@ -55,6 +69,30 @@ for(const entry of bank.entries||[]){
   }
 }
 
+
+const assigned=[];
+for(const family of bank.families||[]){
+  if(!family.id||!family.ca||!family.es||!Array.isArray(family.entryIds)||!family.entryIds.length){
+    errors.push('invalid family '+String(family.id));
+    continue;
+  }
+  const expected=EXPECTED_FAMILIES[family.id];
+  if(!expected)errors.push('unexpected family '+family.id);
+  else if(JSON.stringify(family.entryIds)!==JSON.stringify(expected))errors.push('family order/membership mismatch '+family.id);
+  assigned.push(...family.entryIds);
+}
+if(assigned.length!==54)errors.push('family assignments != 54');
+if(new Set(assigned).size!==54)errors.push('family assignments contain duplicates');
+for(const id of ids){
+  if(!assigned.includes(id))errors.push('unassigned concept '+id);
+}
+for(const id of assigned){
+  if(!ids.has(id))errors.push('family references unknown concept '+id);
+}
+if((bank.families||[]).map(x=>x.id).join(',')!==Object.keys(EXPECTED_FAMILIES).join(',')){
+  errors.push('family sequence mismatch');
+}
+
 for(const [blockId,count] of Object.entries(EXPECTED)){
   if(counts[blockId]!==count)errors.push(blockId+': '+(counts[blockId]||0)+'/'+count);
 }
@@ -67,3 +105,5 @@ console.log('CONCEPT_DICTIONARY_AUDIT=PASS');
 console.log('CONCEPTS=54');
 console.log('BLOCK_COUNTS='+JSON.stringify(counts));
 console.log('LANGUAGES=ca,es');
+console.log('CONCEPT_FAMILIES=9');
+console.log('FAMILY_ORDER='+bank.families.map(x=>x.id).join(' > '));

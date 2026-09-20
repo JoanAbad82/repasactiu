@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   loadConceptDictionary,
   filterConceptEntries,
+  groupConceptEntriesByFamily,
   renderConceptDictionaryHtml,
   sourceLabel
 } from '../../site/js/concept-dictionary.js';
@@ -14,6 +15,10 @@ const bank={
   groups:[
     {id:'bloc-1',ca:'Bloc 1',es:'Bloque 1'},
     {id:'bloc-3',ca:'Bloc 3',es:'Bloque 3'}
+  ],
+  families:[
+    {id:'entities',ca:'Entitats',es:'Entidades',entryIds:['entitat-publica']},
+    {id:'organization',ca:'Organització',es:'Organización',entryIds:['delegacio']}
   ],
   entries:[
     {
@@ -29,12 +34,13 @@ const bank={
   ]
 };
 
-test('loadConceptDictionary valida el contracte de 54 conceptes',async()=>{
-  const full={...bank,entries:Array.from({length:54},(_,i)=>({
+test('loadConceptDictionary valida 54 conceptes i una partició completa en famílies',async()=>{
+  const entries=Array.from({length:54},(_,i)=>({
     id:'c'+i,blockId:'bloc-1',source:{id:'B1',pages:[17,17]},
     ca:{term:'Terme '+i,definition:'Definició '+i,memory:'Recorda '+i},
     es:{term:'Término '+i,definition:'Definición '+i,memory:'Recuerda '+i}
-  }))};
+  }));
+  const full={...bank,entries,families:[{id:'all',ca:'Família',es:'Familia',entryIds:entries.map(x=>x.id)}]};
   const loaded=await loadConceptDictionary(async()=>({ok:true,json:async()=>full}));
   assert.equal(loaded.entries.length,54);
 });
@@ -46,9 +52,16 @@ test('filterConceptEntries cerca sense accents i filtra per bloc',()=>{
   assert.deepEqual(byBlock.map(x=>x.id),['entitat-publica']);
 });
 
-test('filterConceptEntries ordena alfabèticament en l’idioma actiu',()=>{
+test('filterConceptEntries segueix l’ordre pedagògic de famílies, no l’alfabètic',()=>{
   const result=filterConceptEntries(bank,{language:'ca'});
-  assert.deepEqual(result.map(x=>x.id),['delegacio','entitat-publica']);
+  assert.deepEqual(result.map(x=>x.id),['entitat-publica','delegacio']);
+});
+
+test('groupConceptEntriesByFamily conserva famílies i ordre intern',()=>{
+  const entries=filterConceptEntries(bank,{language:'ca'});
+  const grouped=groupConceptEntriesByFamily(bank,entries);
+  assert.deepEqual(grouped.map(x=>x.family.id),['entities','organization']);
+  assert.deepEqual(grouped.map(x=>x.entries.map(e=>e.id)),[['entitat-publica'],['delegacio']]);
 });
 
 test('sourceLabel mostra pàgina o rang de pàgines',()=>{
@@ -56,14 +69,17 @@ test('sourceLabel mostra pàgina o rang de pàgines',()=>{
   assert.equal(sourceLabel({id:'B2',pages:[6,7]},'es'),'B2 · pp. 6–7');
 });
 
-test('renderConceptDictionaryHtml és bilingüe i mostra recordatori i font',()=>{
-  const ca=renderConceptDictionaryHtml(bank,{language:'ca',query:'delegacio'});
+test('renderConceptDictionaryHtml és bilingüe i mostra famílies, recordatori i font',()=>{
+  const ca=renderConceptDictionaryHtml(bank,{language:'ca'});
   assert.match(ca,/Diccionari de conceptes clau/);
-  assert.match(ca,/Delegació/);
+  assert.match(ca,/Família conceptual/);
+  assert.match(ca,/Entitats/);
+  assert.match(ca,/Organització/);
   assert.match(ca,/Recorda:/);
   assert.match(ca,/B3 · p. 13/);
   const es=renderConceptDictionaryHtml(bank,{language:'es',query:'delegacion'});
   assert.match(es,/Diccionario de conceptos clave/);
+  assert.match(es,/Familia conceptual/);
   assert.match(es,/Delegación/);
   assert.match(es,/Recuerda:/);
 });

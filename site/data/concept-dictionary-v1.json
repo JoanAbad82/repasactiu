@@ -1179,5 +1179,125 @@
         "memory": "EXPONGO = qué ha pasado; SOLICITO = qué pido."
       }
     }
+  ],
+  "familyPolicy": "Order by conceptual families and learning dependency, not alphabetically. Keep contrasts and strongly related concepts adjacent to improve retrieval and memorisation.",
+  "families": [
+    {
+      "id": "entity-company-forms",
+      "ca": "Formes d’empresa i estructura jurídica",
+      "es": "Formas de empresa y estructura jurídica",
+      "entryIds": [
+        "b2-lucrativa-no-lucrativa",
+        "b2-empresa-individual",
+        "b2-societat",
+        "b2-personalitat-juridica",
+        "b2-sa-sl",
+        "b2-cooperativa"
+      ]
+    },
+    {
+      "id": "organization-structure-authority",
+      "ca": "Organització, estructura i autoritat",
+      "es": "Organización, estructura y autoridad",
+      "entryIds": [
+        "b3-formal-informal",
+        "b3-organigrama",
+        "b3-autoritat",
+        "b3-unitat-direccio",
+        "b3-coordinacio",
+        "b3-delegacio",
+        "b3-descentralitzacio",
+        "b3-especialitzacio",
+        "b3-participacio",
+        "b3-publicitat-transparencia"
+      ]
+    },
+    {
+      "id": "management-administration",
+      "ca": "Direcció i gestió administrativa",
+      "es": "Dirección y gestión administrativa",
+      "entryIds": [
+        "b1-funcio-direccio",
+        "b2-planificar-organitzar",
+        "b1-funcio-administrativa",
+        "b1-funcio-financera",
+        "b1-recursos-humans",
+        "b2-controlar-auditar"
+      ]
+    },
+    {
+      "id": "hierarchy-position",
+      "ca": "Jerarquia i posició dins del grup",
+      "es": "Jerarquía y posición dentro del grupo",
+      "entryIds": [
+        "u2-estatus",
+        "u2-rol",
+        "b2-jerarquia-rang",
+        "b2-jerarquia-capacitat"
+      ]
+    },
+    {
+      "id": "business-information",
+      "ca": "Informació empresarial",
+      "es": "Información empresarial",
+      "entryIds": [
+        "b4-info-financera",
+        "b4-info-fiscal",
+        "b4-info-mercantil",
+        "b4-info-personal"
+      ]
+    },
+    {
+      "id": "public-administration-state",
+      "ca": "Sector públic, privat i Administracions",
+      "es": "Sector público, privado y Administraciones",
+      "entryIds": [
+        "b1-entitat-publica",
+        "b1-entitat-privada",
+        "b5-poders-estat",
+        "b5-ts-tc",
+        "b5-comunitat-autonoma",
+        "b5-administracio-local"
+      ]
+    },
+    {
+      "id": "european-union",
+      "ca": "Unió Europea",
+      "es": "Unión Europea",
+      "entryIds": [
+        "b5-ue",
+        "b5-parlament-consell-comissio",
+        "b5-consell-europeu",
+        "b5-tjue",
+        "b5-reglament-directiva",
+        "b5-transposicio"
+      ]
+    },
+    {
+      "id": "team-groups",
+      "ca": "Treball en equip i dinàmica de grups",
+      "es": "Trabajo en equipo y dinámica de grupos",
+      "entryIds": [
+        "u2-interes-amics",
+        "u2-cohesio",
+        "u2-fases-equip",
+        "u2-sinergia",
+        "u2-valors-etics"
+      ]
+    },
+    {
+      "id": "written-communication",
+      "ca": "Comunicació escrita i documents administratius",
+      "es": "Comunicación escrita y documentos administrativos",
+      "entryIds": [
+        "uf-emissor-receptor",
+        "uf-missatge",
+        "uf-canal-codi",
+        "uf-qualitat-text",
+        "uf-memo-circular",
+        "uf-sollicitud",
+        "uf-exposo-sollicito"
+      ]
+    }
   ]
 }
