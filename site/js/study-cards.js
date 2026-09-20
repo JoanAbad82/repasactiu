@@ -99,6 +99,20 @@ function deriveConceptId(blockId,topic,canonicalAnswer,explicit){
   return [String(blockId||'block').toUpperCase(),conceptPart(topic),conceptPart(canonicalAnswer)].join('.');
 }
 
+function traceForCore(traceability,blockId,questionId,topic){
+  const exact=traceability?.questionRanges?.[questionId];
+  if(exact?.source&&Array.isArray(exact.pageRange)){
+    return {id:exact.source,pageRange:exact.pageRange,precision:'question'};
+  }
+  const range=traceability?.topicRanges?.[blockId]?.[topic];
+  const sourceId=traceability?.blockSources?.[blockId]||SOURCE_RANGES[blockId]?.id||null;
+  if(sourceId&&Array.isArray(range)){
+    return {id:sourceId,pageRange:range,precision:'section'};
+  }
+  const fallback=SOURCE_RANGES[blockId];
+  return fallback?{...fallback,precision:'block'}:null;
+}
+
 export function shuffleCards(cards,random=Math.random){
   const copy=cards.slice();
   for(let i=copy.length-1;i>0;i--){
@@ -114,23 +128,28 @@ export function wrapIndex(index,length){
 }
 
 export async function loadStudyCardsBank(fetcher=fetch){
-  const [response,semanticResponse]=await Promise.all([
+  const [response,semanticResponse,traceResponse]=await Promise.all([
     fetcher('data/study-cards-extra.json'),
-    fetcher('data/study-cards-semantic-v2.json')
+    fetcher('data/study-cards-semantic-v2.json'),
+    fetcher('data/study-cards-traceability-v2.json')
   ]);
   if(!response.ok)throw new Error('No s’ha pogut carregar el banc extra de targetes de memòria.');
   if(!semanticResponse.ok)throw new Error('No s’ha pogut carregar el manifest semàntic de targetes de memòria.');
-  const [bank,semanticV2]=await Promise.all([response.json(),semanticResponse.json()]);
+  if(!traceResponse.ok)throw new Error('No s’ha pogut carregar la traçabilitat de targetes de memòria.');
+  const [bank,semanticV2,traceabilityV2]=await Promise.all([response.json(),semanticResponse.json(),traceResponse.json()]);
   if(!Array.isArray(bank.languages)||!bank.languages.includes('ca')||!bank.languages.includes('es')||!Array.isArray(bank.cards)){
     throw new Error('Banc extra de targetes de memòria invàlid.');
   }
   if(!Array.isArray(semanticV2.changes)||semanticV2.changes.length!==84){
     throw new Error('Manifest semàntic de targetes de memòria invàlid.');
   }
-  return {...bank,semanticV2};
+  if(traceabilityV2.version!==2||!traceabilityV2.topicRanges||!traceabilityV2.questionRanges){
+    throw new Error('Traçabilitat de targetes de memòria invàlida.');
+  }
+  return {...bank,semanticV2,traceabilityV2};
 }
 
-export function buildCoreStudyCards(banks,lang='ca',overrides={},semanticManifest={}){
+export function buildCoreStudyCards(banks,lang='ca',overrides={},semanticManifest={},traceability={}){
   const language=lang==='es'?'es':'ca';
   const semantic=semanticChangeMap(semanticManifest);
   return banks.flatMap(bank=>bank.questions.map(question=>{
@@ -149,7 +168,7 @@ export function buildCoreStudyCards(banks,lang='ca',overrides={},semanticManifes
       blockId:bank.blockId,
       unitId:bank.unitId,
       conceptId:deriveConceptId(bank.blockId,question.topic,canonicalAnswer,semanticRecord?.concept_id),
-      sourceRef:parseSourceLabel(semanticRecord?.source,bank.blockId),
+      sourceRef:semanticRecord?.source?parseSourceLabel(semanticRecord.source,bank.blockId):traceForCore(traceability,bank.blockId,question.id,question.topic),
       question:semanticText.question||baseOverride.question||localized.question,
       answer,
       mnemonic
@@ -301,7 +320,7 @@ export function createStudyCards({screen,live,banks,extraBank,language='ca',rand
   let flipped=false;
 
   const allCards=currentLang=>[
-    ...buildCoreStudyCards(banks,currentLang,extraBank.coreOverrides||{},extraBank.semanticV2||{}),
+    ...buildCoreStudyCards(banks,currentLang,extraBank.coreOverrides||{},extraBank.semanticV2||{},extraBank.traceabilityV2||{}),
     ...buildExtraStudyCards(extraBank,currentLang)
   ];
   const idsForSelection=()=>{
