@@ -172,7 +172,7 @@ export function buildExtraStudyCards(extraBank,lang='ca'){
       blockId:card.blockId,
       unitId:null,
       conceptId:deriveConceptId(card.blockId,'extra',canonicalAnswer,semanticRecord?.concept_id),
-      sourceRef:parseSourceLabel(semanticRecord?.source,card.blockId)||originalSource,
+      sourceRef:semanticRecord?.source?parseSourceLabel(semanticRecord.source,card.blockId):(originalSource||parseSourceLabel(null,card.blockId)),
       question:effective.question||'',
       answer:effective.answer||'',
       mnemonic:effective.mnemonic||''
