@@ -15,13 +15,24 @@ test('l’ordre inicial és conceptual i manté junts els conceptes relacionats'
   await page.getByRole('button',{name:'Diccionari',exact:true}).click();
   const firstFamily=page.locator('[data-concept-family]').first();
   await expect(firstFamily).toHaveAttribute('data-concept-family','entity-company-forms');
-  await expect(firstFamily.getByRole('heading',{name:'Tipus d’entitat i formes d’empresa'})).toBeVisible();
-  await expect(firstFamily.locator('[data-concept-id]')).toHaveCount(8);
-  await expect(firstFamily.locator('[data-concept-id]').nth(0)).toHaveAttribute('data-concept-id','b1-entitat-publica');
-  await expect(firstFamily.locator('[data-concept-id]').nth(1)).toHaveAttribute('data-concept-id','b1-entitat-privada');
-  await expect(firstFamily.locator('[data-concept-id]').nth(4)).toHaveAttribute('data-concept-id','b2-societat');
-  await expect(firstFamily.locator('[data-concept-id]').nth(5)).toHaveAttribute('data-concept-id','b2-personalitat-juridica');
-  await expect(firstFamily.locator('[data-concept-id]').nth(6)).toHaveAttribute('data-concept-id','b2-sa-sl');
+  await expect(firstFamily.getByRole('heading',{name:'Formes d’empresa i estructura jurídica'})).toBeVisible();
+  await expect(firstFamily.locator('[data-concept-id]')).toHaveCount(6);
+  await expect(firstFamily.locator('[data-concept-id]').nth(0)).toHaveAttribute('data-concept-id','b2-lucrativa-no-lucrativa');
+  await expect(firstFamily.locator('[data-concept-id]').nth(1)).toHaveAttribute('data-concept-id','b2-empresa-individual');
+  await expect(firstFamily.locator('[data-concept-id]').nth(2)).toHaveAttribute('data-concept-id','b2-societat');
+  await expect(firstFamily.locator('[data-concept-id]').nth(3)).toHaveAttribute('data-concept-id','b2-personalitat-juridica');
+  await expect(firstFamily.locator('[data-concept-id]').nth(4)).toHaveAttribute('data-concept-id','b2-sa-sl');
+});
+
+test('entitat pública i privada queden connectades amb Administracions i Estat',async({page})=>{
+  await page.goto('/');
+  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  const family=page.locator('[data-concept-family="public-administration-state"]');
+  await expect(family.getByRole('heading',{name:'Sector públic, privat i Administracions'})).toBeVisible();
+  await expect(family.locator('[data-concept-id]')).toHaveCount(6);
+  await expect(family.locator('[data-concept-id]').nth(0)).toHaveAttribute('data-concept-id','b1-entitat-publica');
+  await expect(family.locator('[data-concept-id]').nth(1)).toHaveAttribute('data-concept-id','b1-entitat-privada');
+  await expect(family.locator('[data-concept-id]').nth(2)).toHaveAttribute('data-concept-id','b5-poders-estat');
 });
 
 test('la cerca troba conceptes sense exigir accents i conserva la família',async({page})=>{
