@@ -194,6 +194,7 @@ export async function runSemanticStudyCardsAudit(){
   if(errors.length)throw new Error('Semantic study-card audit FAIL\n- '+errors.join('\n- '));
   console.log('Semantic study-card audit PASS');
   console.log('cards='+cards.length+' rewrite='+rewriteCount+' replace='+replaceCount+' high_similarity_pairs='+candidatePairs+' warnings='+warnings.length);
+  for(const warning of warnings)console.log('SEMANTIC_WARNING='+warning);
   return {cards:cards.length,rewriteCount,replaceCount,candidatePairs,warnings};
 }
 
