@@ -173,9 +173,12 @@ export async function runSemanticStudyCardsAudit(){
         const qsim=jaccard(a.ca.question,b.ca.question);
         const sameAnswer=normalize(a.ca.answer)===normalize(b.ca.answer);
         if(exact)errors.push(blockId+': pregunta CA duplicada '+a.id+' / '+b.id);
-        if((sameAnswer&&qsim>=0.78)||qsim>=0.90){
+        if(qsim>=0.93){
           candidatePairs++;
-          errors.push(blockId+': duplicació semàntica alta '+a.id+' / '+b.id+' (qsim='+qsim.toFixed(2)+')');
+          errors.push(blockId+': duplicació semàntica gairebé idèntica '+a.id+' / '+b.id+' (qsim='+qsim.toFixed(2)+')');
+        }else if((sameAnswer&&qsim>=0.78)||qsim>=0.82){
+          candidatePairs++;
+          warnings.push(blockId+': parell semàntic per revisió '+a.id+' / '+b.id+' (qsim='+qsim.toFixed(2)+')');
         }
       }
     }
