@@ -510,17 +510,17 @@
       "status": "MERGE/REPLACE",
       "reason": "Surplus member of a high-confidence semantic cluster; keep two pedagogically distinct variants and reuse this slot.",
       "replacement": {
-        "concept_id": "B3.ORGANITZACIO.FORMAL_VS_INFORMAL",
-        "source": "B3 pp.20–22",
+        "concept_id": "B3.ORGANIGRAMA.CLAREDAT",
+        "source": "B3 p.22",
         "ca": {
-          "question": "Quina diferència bàsica hi ha entre organització formal i informal?",
-          "answer": "La formal és oficial i definida per l’empresa; la informal sorgeix espontàniament de relacions personals i de confiança.",
-          "mnemonic": "Formal = oficial; informal = espontània."
+          "question": "Quin requisit d’un bon organigrama exigeix que s’entengui fàcilment i eviti informació innecessària?",
+          "answer": "La claredat.",
+          "mnemonic": "Claredat = entendre l’organigrama fàcilment, sense informació innecessària."
         },
         "es": {
-          "question": "¿Qué diferencia básica hay entre organización formal e informal?",
-          "answer": "La formal es oficial y definida por la empresa; la informal surge espontáneamente de relaciones personales y de confianza.",
-          "mnemonic": "Formal = oficial; informal = espontánea."
+          "question": "¿Qué requisito de un buen organigrama exige que se entienda fácilmente y evite información innecesaria?",
+          "answer": "La claridad.",
+          "mnemonic": "Claridad = entender el organigrama fácilmente, sin información innecesaria."
         }
       }
     },
