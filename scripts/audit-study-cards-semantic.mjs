@@ -24,7 +24,16 @@ const normalize=value=>String(value??'')
   .trim().toLocaleLowerCase('ca');
 
 const STOP=new Set('que com quin quina quins quines què una unes un uns les els del dels amb per segons sobre aquest aquesta aquests aquestes seva seu seus seves empresa empreses temari material cuál cuales qué una unas uno unos las los según este esta estos estas'.split(' '));
-const tokens=value=>new Set(normalize(value).split(' ').filter(token=>token.length>2&&!STOP.has(token)));
+const tokens=value=>{
+  const raw=String(value??'');
+  const abbreviations=[...raw.matchAll(/\b(?:[\p{L}]\.){2,}/gu)]
+    .map(match=>normalize(match[0]).replace(/\s+/g,''))
+    .filter(Boolean);
+  return new Set([
+    ...normalize(raw).split(' ').filter(token=>token.length>2&&!STOP.has(token)),
+    ...abbreviations
+  ]);
+};
 const jaccard=(a,b)=>{
   const A=tokens(a),B=tokens(b);
   if(!A.size||!B.size)return 0;
