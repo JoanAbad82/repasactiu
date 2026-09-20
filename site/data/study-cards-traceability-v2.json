@@ -1,0 +1,1114 @@
+{
+  "version": 2,
+  "date": "2026-09-20",
+  "policy": "Flashcard source traceability. UF0517 core cards use section/topic page ranges; UF0518 core cards use per-question page ranges; semantic V2 changes override these with their audited page source; extra cards preserve their own page ranges.",
+  "sources": {
+    "B1": {
+      "file": "1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf",
+      "pages": 19
+    },
+    "B2": {
+      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf",
+      "pages": 33
+    },
+    "B3": {
+      "file": "3_Lestructura_empresa_organigrames_BLOC_3.pdf",
+      "pages": 35
+    },
+    "B4": {
+      "file": "Els departaments_BLOC 4.pdf",
+      "pages": 34
+    },
+    "B5": {
+      "file": "5 .Organització bàsica de lEstat i la Unió Europea_BLOC_5.pdf",
+      "pages": 24
+    },
+    "U2B1": {
+      "file": "Unitat 2_Lorganització dels RRHH.pdf",
+      "pages": 119
+    },
+    "UF0518_B1": {
+      "file": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf",
+      "pages": 28
+    }
+  },
+  "blockSources": {
+    "bloc-1": "B1",
+    "bloc-2": "B2",
+    "bloc-3": "B3",
+    "bloc-4": "B4",
+    "bloc-5": "B5",
+    "unitat-2-bloc-1": "U2B1",
+    "uf0518-bloc-1": "UF0518_B1"
+  },
+  "topicRanges": {
+    "bloc-1": {
+      "Entitats públiques i privades": [
+        5,
+        8
+      ],
+      "Control i responsabilitat": [
+        11,
+        11
+      ],
+      "Direcció i finances": [
+        12,
+        12
+      ],
+      "RRHH, comercialització i vendes": [
+        13,
+        13
+      ],
+      "Atenció al client": [
+        14,
+        15
+      ],
+      "Funció administrativa": [
+        16,
+        16
+      ],
+      "Direcció i funció financera": [
+        12,
+        12
+      ],
+      "Recursos Humans i comercialització": [
+        13,
+        13
+      ],
+      "Comercialització i vendes": [
+        13,
+        13
+      ],
+      "Funció de direcció": [
+        12,
+        12
+      ],
+      "Funció financera": [
+        12,
+        12
+      ],
+      "Recursos Humans": [
+        13,
+        13
+      ],
+      "Principi de responsabilitat": [
+        11,
+        11
+      ],
+      "Canals d’atenció al client": [
+        15,
+        15
+      ],
+      "Principi de control de l’organització": [
+        11,
+        11
+      ]
+    },
+    "bloc-2": {
+      "Activitat econòmica": [
+        16,
+        18
+      ],
+      "Capital de l’empresa": [
+        13,
+        15
+      ],
+      "Classificació de les empreses": [
+        5,
+        19
+      ],
+      "Classificació d’empreses": [
+        5,
+        19
+      ],
+      "Cooperatives": [
+        12,
+        12
+      ],
+      "Empreses individuals": [
+        8,
+        8
+      ],
+      "Empreses lucratives": [
+        6,
+        6
+      ],
+      "Empreses privades": [
+        15,
+        15
+      ],
+      "Entitats sense ànim de lucre": [
+        7,
+        7
+      ],
+      "Estructura jurídica": [
+        8,
+        12
+      ],
+      "Funció administrativa": [
+        29,
+        31
+      ],
+      "Jerarquia empresarial": [
+        22,
+        26
+      ],
+      "Motiu de creació": [
+        6,
+        7
+      ],
+      "Objectius administratius": [
+        30,
+        30
+      ],
+      "Societats": [
+        9,
+        12
+      ],
+      "Tipus de capital": [
+        13,
+        15
+      ]
+    },
+    "bloc-3": {
+      "Estructura i organització": [
+        5,
+        6
+      ],
+      "Principis d’organització": [
+        8,
+        18
+      ],
+      "Principi d’autoritat": [
+        9,
+        9
+      ],
+      "Unitat de direcció": [
+        11,
+        11
+      ],
+      "Principi d’unitat de direcció": [
+        11,
+        11
+      ],
+      "Principi de coordinació": [
+        12,
+        12
+      ],
+      "Principi de delegació": [
+        13,
+        13
+      ],
+      "Principi de descentralització": [
+        14,
+        14
+      ],
+      "Gestió de la despesa": [
+        15,
+        15
+      ],
+      "Principi d’especialització": [
+        16,
+        16
+      ],
+      "Principi de participació": [
+        17,
+        17
+      ],
+      "Publicitat i transparència": [
+        18,
+        18
+      ],
+      "Organització formal i informal": [
+        20,
+        22
+      ],
+      "Organització formal": [
+        20,
+        22
+      ],
+      "Organització informal": [
+        21,
+        22
+      ],
+      "Organigrames": [
+        24,
+        32
+      ],
+      "Requisits d’un organigrama": [
+        26,
+        26
+      ],
+      "Requisits de l’organigrama": [
+        26,
+        26
+      ],
+      "Tipus d’organigrama": [
+        27,
+        30
+      ],
+      "Avantatges i limitacions dels organigrames": [
+        32,
+        32
+      ]
+    },
+    "bloc-4": {
+      "Departaments de l’empresa": [
+        5,
+        12
+      ],
+      "Departaments": [
+        5,
+        12
+      ],
+      "Tipologia departamental": [
+        6,
+        12
+      ],
+      "Qualitat": [
+        9,
+        9
+      ],
+      "Recursos Humans": [
+        8,
+        8
+      ],
+      "Atenció al Client": [
+        10,
+        12
+      ],
+      "Compres i finances": [
+        10,
+        22
+      ],
+      "Informació generada": [
+        14,
+        17
+      ],
+      "Informació tributària i fiscal": [
+        15,
+        19
+      ],
+      "Informació mercantil": [
+        15,
+        20
+      ],
+      "Informació de vendes i compres": [
+        16,
+        22
+      ],
+      "Informació de personal": [
+        17,
+        23
+      ],
+      "Gestió de la informació": [
+        18,
+        23
+      ],
+      "Coordinació entre departaments": [
+        18,
+        23
+      ],
+      "Coordinació departamental": [
+        18,
+        23
+      ],
+      "Criteris d’assignació": [
+        25,
+        29
+      ],
+      "Criteris d’estructura departamental": [
+        25,
+        29
+      ],
+      "Prevenció de riscos laborals": [
+        29,
+        29
+      ],
+      "Espai d’acollida": [
+        30,
+        33
+      ]
+    },
+    "bloc-5": {
+      "Organització bàsica de l’Estat": [
+        5,
+        6
+      ],
+      "Organització de l’Estat": [
+        5,
+        9
+      ],
+      "Poders de l’Estat": [
+        7,
+        9
+      ],
+      "Poder legislatiu": [
+        7,
+        7
+      ],
+      "Poder executiu": [
+        8,
+        8
+      ],
+      "Poder judicial": [
+        9,
+        9
+      ],
+      "Administració autonòmica": [
+        10,
+        10
+      ],
+      "Administració autonòmica i local": [
+        10,
+        14
+      ],
+      "Administració local": [
+        11,
+        14
+      ],
+      "Organització territorial": [
+        10,
+        14
+      ],
+      "Espanya i la UE": [
+        15,
+        19
+      ],
+      "Institucions de la UE": [
+        15,
+        18
+      ],
+      "Parlament Europeu": [
+        15,
+        15
+      ],
+      "Consell de la Unió Europea": [
+        16,
+        16
+      ],
+      "Comissió Europea": [
+        17,
+        17
+      ],
+      "Tribunal de Justícia de la Unió Europea": [
+        17,
+        17
+      ],
+      "Relació Espanya-UE": [
+        19,
+        19
+      ],
+      "Dret de la Unió Europea": [
+        19,
+        19
+      ],
+      "Administració General de l’Estat": [
+        21,
+        21
+      ]
+    },
+    "unitat-2-bloc-1": {
+      "Recursos Humans": [
+        4,
+        4
+      ],
+      "Coordinació": [
+        5,
+        11
+      ],
+      "Procediments de treball": [
+        12,
+        15
+      ],
+      "Qualitat": [
+        16,
+        23
+      ],
+      "Indicadors de qualitat": [
+        23,
+        23
+      ],
+      "Obtenció de resultats": [
+        24,
+        32
+      ],
+      "Classificació de tasques": [
+        27,
+        27
+      ],
+      "Durada de tasques": [
+        28,
+        28
+      ],
+      "Grups de treball": [
+        33,
+        37
+      ],
+      "Elements del grup": [
+        38,
+        43
+      ],
+      "Cohesió": [
+        42,
+        43
+      ],
+      "Estructures de grup": [
+        44,
+        49
+      ],
+      "Classificació de grups": [
+        50,
+        58
+      ],
+      "Fases del treball en equip": [
+        59,
+        63
+      ],
+      "Equip de treball": [
+        64,
+        66
+      ],
+      "Normes del grup": [
+        67,
+        68
+      ],
+      "Rols dins del grup": [
+        69,
+        74
+      ],
+      "Poder i cohesió": [
+        75,
+        79
+      ],
+      "Treball en equip": [
+        80,
+        86
+      ],
+      "Dinàmiques de grup": [
+        87,
+        97
+      ],
+      "Coordinació de grups": [
+        98,
+        103
+      ],
+      "Suport administratiu": [
+        104,
+        105
+      ],
+      "Equip i sinergia": [
+        108,
+        108
+      ],
+      "Conflictes en el grup": [
+        61,
+        61
+      ]
+    }
+  },
+  "questionRanges": {
+    "uf0518-b1-001": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    "uf0518-b1-002": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    "uf0518-b1-003": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    "uf0518-b1-004": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        4,
+        4
+      ]
+    },
+    "uf0518-b1-005": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        4,
+        4
+      ]
+    },
+    "uf0518-b1-006": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        5,
+        5
+      ]
+    },
+    "uf0518-b1-007": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        5,
+        5
+      ]
+    },
+    "uf0518-b1-008": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        5,
+        5
+      ]
+    },
+    "uf0518-b1-009": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        6,
+        6
+      ]
+    },
+    "uf0518-b1-010": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        6,
+        6
+      ]
+    },
+    "uf0518-b1-011": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        6,
+        6
+      ]
+    },
+    "uf0518-b1-012": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        6,
+        6
+      ]
+    },
+    "uf0518-b1-013": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        6,
+        6
+      ]
+    },
+    "uf0518-b1-014": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        7,
+        7
+      ]
+    },
+    "uf0518-b1-015": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        7,
+        7
+      ]
+    },
+    "uf0518-b1-016": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        7,
+        7
+      ]
+    },
+    "uf0518-b1-017": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        7,
+        7
+      ]
+    },
+    "uf0518-b1-018": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        8,
+        8
+      ]
+    },
+    "uf0518-b1-019": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        8,
+        8
+      ]
+    },
+    "uf0518-b1-020": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        8,
+        8
+      ]
+    },
+    "uf0518-b1-021": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        8,
+        8
+      ]
+    },
+    "uf0518-b1-022": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        8,
+        8
+      ]
+    },
+    "uf0518-b1-023": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0518-b1-024": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0518-b1-025": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0518-b1-026": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0518-b1-027": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0518-b1-028": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        10,
+        10
+      ]
+    },
+    "uf0518-b1-029": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        10,
+        10
+      ]
+    },
+    "uf0518-b1-030": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        10,
+        10
+      ]
+    },
+    "uf0518-b1-031": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        11,
+        11
+      ]
+    },
+    "uf0518-b1-032": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        11,
+        11
+      ]
+    },
+    "uf0518-b1-033": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        11,
+        11
+      ]
+    },
+    "uf0518-b1-034": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        12,
+        12
+      ]
+    },
+    "uf0518-b1-035": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        12,
+        12
+      ]
+    },
+    "uf0518-b1-036": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        12,
+        12
+      ]
+    },
+    "uf0518-b1-037": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        13,
+        13
+      ]
+    },
+    "uf0518-b1-038": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        13,
+        13
+      ]
+    },
+    "uf0518-b1-039": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        13,
+        13
+      ]
+    },
+    "uf0518-b1-040": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        14,
+        14
+      ]
+    },
+    "uf0518-b1-041": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        14,
+        14
+      ]
+    },
+    "uf0518-b1-042": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    "uf0518-b1-043": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    "uf0518-b1-044": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    "uf0518-b1-045": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    "uf0518-b1-046": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    "uf0518-b1-047": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        16,
+        16
+      ]
+    },
+    "uf0518-b1-048": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        16,
+        16
+      ]
+    },
+    "uf0518-b1-049": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        16,
+        16
+      ]
+    },
+    "uf0518-b1-050": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        17,
+        17
+      ]
+    },
+    "uf0518-b1-051": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        17,
+        17
+      ]
+    },
+    "uf0518-b1-052": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        17,
+        17
+      ]
+    },
+    "uf0518-b1-053": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        17,
+        17
+      ]
+    },
+    "uf0518-b1-054": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0518-b1-055": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0518-b1-056": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0518-b1-057": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0518-b1-058": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        22,
+        22
+      ]
+    },
+    "uf0518-b1-059": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        22,
+        22
+      ]
+    },
+    "uf0518-b1-060": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        22,
+        22
+      ]
+    },
+    "uf0518-b1-061": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        22,
+        22
+      ]
+    },
+    "uf0518-b1-062": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        22,
+        22
+      ]
+    },
+    "uf0518-b1-063": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        23,
+        23
+      ]
+    },
+    "uf0518-b1-064": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        23,
+        23
+      ]
+    },
+    "uf0518-b1-065": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        23,
+        23
+      ]
+    },
+    "uf0518-b1-066": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        24,
+        24
+      ]
+    },
+    "uf0518-b1-067": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        24,
+        24
+      ]
+    },
+    "uf0518-b1-068": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        24,
+        24
+      ]
+    },
+    "uf0518-b1-069": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        24,
+        24
+      ]
+    },
+    "uf0518-b1-070": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        25,
+        25
+      ]
+    },
+    "uf0518-b1-071": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        25,
+        25
+      ]
+    },
+    "uf0518-b1-072": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        25,
+        25
+      ]
+    },
+    "uf0518-b1-073": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        26,
+        26
+      ]
+    },
+    "uf0518-b1-074": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        26,
+        26
+      ]
+    },
+    "uf0518-b1-075": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        26,
+        26
+      ]
+    },
+    "uf0518-b1-076": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        26,
+        26
+      ]
+    },
+    "uf0518-b1-077": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0518-b1-078": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0518-b1-079": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        10,
+        10
+      ]
+    },
+    "uf0518-b1-080": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        7,
+        7
+      ]
+    },
+    "uf0518-b1-081": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        13,
+        13
+      ]
+    },
+    "uf0518-b1-082": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        17,
+        17
+      ]
+    },
+    "uf0518-b1-083": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        16,
+        16
+      ]
+    },
+    "uf0518-b1-084": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        24,
+        24
+      ]
+    },
+    "uf0518-b1-085": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        25,
+        25
+      ]
+    },
+    "uf0518-b1-086": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        11,
+        11
+      ]
+    }
+  }
+}

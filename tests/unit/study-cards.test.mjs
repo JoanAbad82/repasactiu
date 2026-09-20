@@ -38,10 +38,16 @@ test('buildCoreStudyCards converteix preguntes certificades a flashcards biling�
   const es=buildCoreStudyCards(mockBanks,'es');
   assert.equal(ca.length,2);
   assert.equal(es.length,2);
-  assert.deepEqual(ca[0],{
-    id:'test-q1',sourceType:'test',blockId:'bloc-1',unitId:'unitat-1',
-    question:'Pregunta CA?',answer:'Correcta CA',mnemonic:'Memòria CA'
-  });
+  assert.equal(ca[0].id,'test-q1');
+  assert.equal(ca[0].sourceId,'q1');
+  assert.equal(ca[0].sourceType,'test');
+  assert.equal(ca[0].blockId,'bloc-1');
+  assert.equal(ca[0].unitId,'unitat-1');
+  assert.equal(ca[0].question,'Pregunta CA?');
+  assert.equal(ca[0].answer,'Correcta CA');
+  assert.equal(ca[0].mnemonic,'Memòria CA');
+  assert.ok(ca[0].conceptId.startsWith('BLOC-1.'));
+  assert.deepEqual(ca[0].sourceRef,{id:'B1',pageRange:[1,19],precision:'block'});
   assert.equal(es[0].question,'¿Pregunta ES?');
   assert.equal(es[0].answer,'Correcta ES');
   assert.equal(es[0].mnemonic,'Memoria ES');
@@ -95,4 +101,38 @@ test('buildCoreStudyCards aplica overrides editorials sense alterar el banc de t
   assert.equal(es[0].question,'¿Pregunta ES autónoma?');
   assert.equal(es[0].answer,'Respuesta ES pulida');
   assert.equal(mockBanks[0].questions[0].question,'Pregunta CA?');
+});
+
+
+test('manifest semàntic V2 aplica REWRITE i MERGE/REPLACE només a les flashcards',()=>{
+  const manifest={changes:[
+    {
+      id:'q1',status:'REWRITE',source:'B1 p.6',
+      ca:{question:'Pregunta CA revisada?',answer:'Resposta CA revisada',mnemonic:'Mnemotècnia CA revisada'},
+      es:{question:'¿Pregunta ES revisada?',answer:'Respuesta ES revisada',mnemonic:'Mnemotecnia ES revisada'}
+    },
+    {
+      id:'e1',status:'MERGE/REPLACE',
+      replacement:{
+        concept_id:'B1.TEST.NOU',source:'B1 p.7',
+        ca:{question:'Extra CA nova?',answer:'Resposta extra nova',mnemonic:'Truc extra nou'},
+        es:{question:'¿Extra ES nueva?',answer:'Respuesta extra nueva',mnemonic:'Truco extra nuevo'}
+      }
+    }
+  ]};
+  const ca=buildCoreStudyCards(mockBanks,'ca',{},manifest);
+  const es=buildCoreStudyCards(mockBanks,'es',{},manifest);
+  assert.equal(ca[0].question,'Pregunta CA revisada?');
+  assert.equal(ca[0].answer,'Resposta CA revisada');
+  assert.equal(ca[0].mnemonic,'Mnemotècnia CA revisada');
+  assert.deepEqual(ca[0].sourceRef,{id:'B1',pageRange:[6,6],precision:'page'});
+  assert.equal(es[0].question,'¿Pregunta ES revisada?');
+  assert.equal(mockBanks[0].questions[0].question,'Pregunta CA?');
+
+  const extraBank={...extras,semanticV2:manifest};
+  const extra=buildExtraStudyCards(extraBank,'ca').find(card=>card.id==='e1');
+  assert.equal(extra.question,'Extra CA nova?');
+  assert.equal(extra.answer,'Resposta extra nova');
+  assert.equal(extra.conceptId,'B1.TEST.NOU');
+  assert.deepEqual(extra.sourceRef,{id:'B1',pageRange:[7,7],precision:'page'});
 });

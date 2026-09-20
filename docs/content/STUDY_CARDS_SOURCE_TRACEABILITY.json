@@ -1,6 +1,6 @@
 {
   "title": "Repàs Actiu — Targetes de memòria / Tarjetas de memoria — trazabilidad",
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "languages": [
     "ca",
     "es"
@@ -8,7 +8,7 @@
   "coreCards": 596,
   "extraCards": 42,
   "totalCards": 638,
-  "architecture": "Las 596 tarjetas principales se generan dinámicamente desde los bancos de preguntas, sus traducciones certificadas y sus ayudas de memoria. Las 42 tarjetas extra viven en study-cards-extra.json.",
+  "architecture": "Las 596 tarjetas principales siguen naciendo de los bancos de preguntas, pero una capa semántica exclusiva de flashcards aplica 84 decisiones auditadas (37 REWRITE y 47 MERGE/REPLACE) sin modificar los tests. Las 42 tarjetas extra permanecen como plazas estables y pueden ser reescritas por la misma capa.",
   "distribution": {
     "bloc-1": 66,
     "bloc-2": 86,
@@ -19,9 +19,11 @@
     "uf0518-bloc-1": 92
   },
   "policy": [
-    "Cada una de las 596 preguntas publicadas genera una flashcard en catalán y castellano usando el índice de respuesta correcta certificado.",
-    "La mnemotecnia de cada tarjeta principal reutiliza la ayuda de memoria bilingüe certificada de la pregunta.",
-    "Las 42 tarjetas extra se apoyan exclusivamente en los siete PDF autorizados y no duplican literalmente preguntas del banco de tests.",
+    "El catalán sigue siendo la versión académica canónica y el castellano debe conservar equivalencia semántica.",
+    "Las correcciones semánticas afectan únicamente a flashcards: el banco de tests no se modifica.",
+    "Cada tarjeta efectiva debe tener conceptId, sourceId y sourceRef con rango de página; no se acepta ya una traza exclusiva al bloque completo.",
+    "Los 84 cambios de la auditoría V2 requieren trazabilidad de página y pregunta/respuesta/mnemotecnia bilingües.",
+    "La auditoría semántica bloquea duplicados exactos y pares de similitud muy alta en el banco efectivo.",
     "La selección puede combinar bloques de distintas unidades y barajarse en una única sesión."
   ],
   "extraSources": {
@@ -32,5 +34,16 @@
     "B5": "5 .Organització bàsica de lEstat i la Unió Europea_BLOC_5.pdf",
     "U2B1": "Unitat 2_Lorganització dels RRHH.pdf",
     "UF0518_B1": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf"
+  },
+  "semanticLayer": {
+    "file": "site/data/study-cards-semantic-v2.json",
+    "auditedHead": "c94c617aa7a35a8da1c024abc57fb005288ede29",
+    "changes": 84,
+    "rewrite": 37,
+    "mergeReplace": 47,
+    "testsUnchanged": true,
+    "conceptId": "Cada tarjeta efectiva expone conceptId; las sustituciones auditadas usan IDs canónicos explícitos y el resto usa un ID determinista derivado de bloque, tema y respuesta canónica.",
+    "traceability": "Todas las tarjetas efectivas exponen sourceRef con rango de página: UF0517 core usa rangos de sección/tema, UF0518 core usa trazas por pregunta, las 42 extras conservan sus rangos y los 84 cambios auditados usan su referencia de página específica.",
+    "traceabilityFile": "site/data/study-cards-traceability-v2.json"
   }
 }

@@ -53,6 +53,66 @@ const COPY={
   }
 };
 
+
+const SOURCE_RANGES={
+  'bloc-1':{id:'B1',pageRange:[1,19]},
+  'bloc-2':{id:'B2',pageRange:[1,33]},
+  'bloc-3':{id:'B3',pageRange:[1,35]},
+  'bloc-4':{id:'B4',pageRange:[1,34]},
+  'bloc-5':{id:'B5',pageRange:[1,24]},
+  'unitat-2-bloc-1':{id:'U2B1',pageRange:[1,119]},
+  'uf0518-bloc-1':{id:'UF0518_B1',pageRange:[1,28]}
+};
+
+const conceptPart=value=>String(value??'')
+  .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  .replace(/[^\p{L}\p{N}]+/gu,'-')
+  .replace(/^-+|-+$/g,'')
+  .toLocaleLowerCase('ca')||'sense-etiqueta';
+
+export function semanticChangeMap(manifest={}){
+  return new Map((manifest?.changes||[]).map(change=>[change.id,change]));
+}
+
+function effectiveSemantic(change){
+  if(!change)return null;
+  return change.status==='MERGE/REPLACE'?(change.replacement||null):change;
+}
+
+function parseSourceLabel(label,blockId){
+  const fallback=SOURCE_RANGES[blockId]||null;
+  const text=String(label||'').trim();
+  if(!text)return fallback?{...fallback,precision:'block'}:null;
+  const sourceId=(text.match(/^(UF0518|U2|B[1-5])/i)?.[1]||fallback?.id||'SOURCE').toUpperCase()
+    .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1');
+  const pageMatch=text.match(/pp?\.?\s*(\d+)(?:\s*(?:[-–—]|i|y)\s*(\d+))?/i);
+  if(pageMatch){
+    const start=Number(pageMatch[1]);
+    const end=Number(pageMatch[2]||pageMatch[1]);
+    return {id:sourceId,pageRange:[start,end],precision:'page'};
+  }
+  return fallback?{...fallback,id:sourceId,precision:'block'}:{id:sourceId,pageRange:null,precision:'label'};
+}
+
+function deriveConceptId(blockId,topic,canonicalAnswer,explicit){
+  if(explicit)return explicit;
+  return [String(blockId||'block').toUpperCase(),conceptPart(topic),conceptPart(canonicalAnswer)].join('.');
+}
+
+function traceForCore(traceability,blockId,questionId,topic){
+  const exact=traceability?.questionRanges?.[questionId];
+  if(exact?.source&&Array.isArray(exact.pageRange)){
+    return {id:exact.source,pageRange:exact.pageRange,precision:'question'};
+  }
+  const range=traceability?.topicRanges?.[blockId]?.[topic];
+  const sourceId=traceability?.blockSources?.[blockId]||SOURCE_RANGES[blockId]?.id||null;
+  if(sourceId&&Array.isArray(range)){
+    return {id:sourceId,pageRange:range,precision:'section'};
+  }
+  const fallback=SOURCE_RANGES[blockId];
+  return fallback?{...fallback,precision:'block'}:null;
+}
+
 export function shuffleCards(cards,random=Math.random){
   const copy=cards.slice();
   for(let i=copy.length-1;i>0;i--){
@@ -68,29 +128,48 @@ export function wrapIndex(index,length){
 }
 
 export async function loadStudyCardsBank(fetcher=fetch){
-  const response=await fetcher('data/study-cards-extra.json');
+  const [response,semanticResponse,traceResponse]=await Promise.all([
+    fetcher('data/study-cards-extra.json'),
+    fetcher('data/study-cards-semantic-v2.json'),
+    fetcher('data/study-cards-traceability-v2.json')
+  ]);
   if(!response.ok)throw new Error('No s’ha pogut carregar el banc extra de targetes de memòria.');
-  const bank=await response.json();
+  if(!semanticResponse.ok)throw new Error('No s’ha pogut carregar el manifest semàntic de targetes de memòria.');
+  if(!traceResponse.ok)throw new Error('No s’ha pogut carregar la traçabilitat de targetes de memòria.');
+  const [bank,semanticV2,traceabilityV2]=await Promise.all([response.json(),semanticResponse.json(),traceResponse.json()]);
   if(!Array.isArray(bank.languages)||!bank.languages.includes('ca')||!bank.languages.includes('es')||!Array.isArray(bank.cards)){
     throw new Error('Banc extra de targetes de memòria invàlid.');
   }
-  return bank;
+  if(!Array.isArray(semanticV2.changes)||semanticV2.changes.length!==84){
+    throw new Error('Manifest semàntic de targetes de memòria invàlid.');
+  }
+  if(traceabilityV2.version!==2||!traceabilityV2.topicRanges||!traceabilityV2.questionRanges){
+    throw new Error('Traçabilitat de targetes de memòria invàlida.');
+  }
+  return {...bank,semanticV2,traceabilityV2};
 }
 
-export function buildCoreStudyCards(banks,lang='ca',overrides={}){
+export function buildCoreStudyCards(banks,lang='ca',overrides={},semanticManifest={},traceability={}){
   const language=lang==='es'?'es':'ca';
+  const semantic=semanticChangeMap(semanticManifest);
   return banks.flatMap(bank=>bank.questions.map(question=>{
     const localized=language==='es'?(question.translations?.es||question):question;
     const options=localized.options||question.options;
-    const override=overrides?.[question.id]?.[language]||{};
-    const answer=override.answer||options?.[question.correct];
-    const mnemonic=override.mnemonic||question.memoryAid?.[language]||'';
+    const baseOverride=overrides?.[question.id]?.[language]||{};
+    const semanticRecord=effectiveSemantic(semantic.get(question.id));
+    const semanticText=semanticRecord?.[language]||{};
+    const answer=semanticText.answer||baseOverride.answer||options?.[question.correct];
+    const mnemonic=semanticText.mnemonic||baseOverride.mnemonic||question.memoryAid?.[language]||'';
+    const canonicalAnswer=semanticRecord?.ca?.answer||overrides?.[question.id]?.ca?.answer||question.options?.[question.correct]||'';
     return {
       id:'test-'+question.id,
+      sourceId:question.id,
       sourceType:'test',
       blockId:bank.blockId,
       unitId:bank.unitId,
-      question:override.question||localized.question,
+      conceptId:deriveConceptId(bank.blockId,question.topic,canonicalAnswer,semanticRecord?.concept_id),
+      sourceRef:semanticRecord?.source?parseSourceLabel(semanticRecord.source,bank.blockId):traceForCore(traceability,bank.blockId,question.id,question.topic),
+      question:semanticText.question||baseOverride.question||localized.question,
       answer,
       mnemonic
     };
@@ -99,15 +178,25 @@ export function buildCoreStudyCards(banks,lang='ca',overrides={}){
 
 export function buildExtraStudyCards(extraBank,lang='ca'){
   const language=lang==='es'?'es':'ca';
-  return (extraBank.cards||[]).map(card=>({
-    id:card.id,
-    sourceType:'extra',
-    blockId:card.blockId,
-    unitId:null,
-    question:card[language]?.question||'',
-    answer:card[language]?.answer||'',
-    mnemonic:card[language]?.mnemonic||''
-  }));
+  const semantic=semanticChangeMap(extraBank.semanticV2||{});
+  return (extraBank.cards||[]).map(card=>{
+    const semanticRecord=effectiveSemantic(semantic.get(card.id));
+    const effective=semanticRecord?.[language]||card[language]||{};
+    const canonicalAnswer=semanticRecord?.ca?.answer||card.ca?.answer||'';
+    const originalSource=card.source?{id:card.source.id,pageRange:card.source.pages,precision:'page'}:null;
+    return {
+      id:card.id,
+      sourceId:card.id,
+      sourceType:'extra',
+      blockId:card.blockId,
+      unitId:null,
+      conceptId:deriveConceptId(card.blockId,'extra',canonicalAnswer,semanticRecord?.concept_id),
+      sourceRef:semanticRecord?.source?parseSourceLabel(semanticRecord.source,card.blockId):(originalSource||parseSourceLabel(null,card.blockId)),
+      question:effective.question||'',
+      answer:effective.answer||'',
+      mnemonic:effective.mnemonic||''
+    };
+  });
 }
 
 export function selectCardsByBlocks(cards,selectedBlocks){
@@ -231,7 +320,7 @@ export function createStudyCards({screen,live,banks,extraBank,language='ca',rand
   let flipped=false;
 
   const allCards=currentLang=>[
-    ...buildCoreStudyCards(banks,currentLang,extraBank.coreOverrides||{}),
+    ...buildCoreStudyCards(banks,currentLang,extraBank.coreOverrides||{},extraBank.semanticV2||{},extraBank.traceabilityV2||{}),
     ...buildExtraStudyCards(extraBank,currentLang)
   ];
   const idsForSelection=()=>{
