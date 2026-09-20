@@ -16,12 +16,12 @@ const EXPECTED={
 };
 
 const EXPECTED_FAMILIES={
-  'entity-company-forms':['b1-entitat-publica','b1-entitat-privada','b2-lucrativa-no-lucrativa','b2-empresa-individual','b2-societat','b2-personalitat-juridica','b2-sa-sl','b2-cooperativa'],
+  'entity-company-forms':['b2-lucrativa-no-lucrativa','b2-empresa-individual','b2-societat','b2-personalitat-juridica','b2-sa-sl','b2-cooperativa'],
   'organization-structure-authority':['b3-formal-informal','b3-organigrama','b3-autoritat','b3-unitat-direccio','b3-coordinacio','b3-delegacio','b3-descentralitzacio','b3-especialitzacio','b3-participacio','b3-publicitat-transparencia'],
   'management-administration':['b1-funcio-direccio','b2-planificar-organitzar','b1-funcio-administrativa','b1-funcio-financera','b1-recursos-humans','b2-controlar-auditar'],
   'hierarchy-position':['u2-estatus','u2-rol','b2-jerarquia-rang','b2-jerarquia-capacitat'],
   'business-information':['b4-info-financera','b4-info-fiscal','b4-info-mercantil','b4-info-personal'],
-  'public-administration-state':['b5-poders-estat','b5-ts-tc','b5-comunitat-autonoma','b5-administracio-local'],
+  'public-administration-state':['b1-entitat-publica','b1-entitat-privada','b5-poders-estat','b5-ts-tc','b5-comunitat-autonoma','b5-administracio-local'],
   'european-union':['b5-ue','b5-parlament-consell-comissio','b5-consell-europeu','b5-tjue','b5-reglament-directiva','b5-transposicio'],
   'team-groups':['u2-interes-amics','u2-cohesio','u2-fases-equip','u2-sinergia','u2-valors-etics'],
   'written-communication':['uf-emissor-receptor','uf-missatge','uf-canal-codi','uf-qualitat-text','uf-memo-circular','uf-sollicitud','uf-exposo-sollicito']
