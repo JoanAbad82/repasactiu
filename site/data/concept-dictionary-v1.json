@@ -1184,11 +1184,9 @@
   "families": [
     {
       "id": "entity-company-forms",
-      "ca": "Tipus d’entitat i formes d’empresa",
-      "es": "Tipos de entidad y formas de empresa",
+      "ca": "Formes d’empresa i estructura jurídica",
+      "es": "Formas de empresa y estructura jurídica",
       "entryIds": [
-        "b1-entitat-publica",
-        "b1-entitat-privada",
         "b2-lucrativa-no-lucrativa",
         "b2-empresa-individual",
         "b2-societat",
@@ -1251,9 +1249,11 @@
     },
     {
       "id": "public-administration-state",
-      "ca": "Administracions públiques i Estat",
-      "es": "Administraciones públicas y Estado",
+      "ca": "Sector públic, privat i Administracions",
+      "es": "Sector público, privado y Administraciones",
       "entryIds": [
+        "b1-entitat-publica",
+        "b1-entitat-privada",
         "b5-poders-estat",
         "b5-ts-tc",
         "b5-comunitat-autonoma",
