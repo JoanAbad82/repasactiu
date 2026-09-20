@@ -85,11 +85,11 @@ function parseSourceLabel(label,blockId){
   if(!text)return fallback?{...fallback,precision:'block'}:null;
   const sourceId=(text.match(/^(UF0518|U2|B[1-5])/i)?.[1]||fallback?.id||'SOURCE').toUpperCase()
     .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1');
-  const nums=[...text.matchAll(/\d+/g)].map(match=>Number(match[0]));
-  if(nums.length){
-    const tail=nums.slice(-2);
-    const pageRange=tail.length===1?[tail[0],tail[0]]:[tail[0],tail[1]];
-    return {id:sourceId,pageRange,precision:'page'};
+  const pageMatch=text.match(/pp?\.?\s*(\d+)(?:\s*(?:[-–—]|i|y)\s*(\d+))?/i);
+  if(pageMatch){
+    const start=Number(pageMatch[1]);
+    const end=Number(pageMatch[2]||pageMatch[1]);
+    return {id:sourceId,pageRange:[start,end],precision:'page'};
   }
   return fallback?{...fallback,id:sourceId,precision:'block'}:{id:sourceId,pageRange:null,precision:'label'};
 }
