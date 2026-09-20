@@ -21,7 +21,7 @@
   "policy": [
     "El catalán sigue siendo la versión académica canónica y el castellano debe conservar equivalencia semántica.",
     "Las correcciones semánticas afectan únicamente a flashcards: el banco de tests no se modifica.",
-    "Cada tarjeta efectiva debe tener conceptId, sourceId y sourceRef.",
+    "Cada tarjeta efectiva debe tener conceptId, sourceId y sourceRef con rango de página; no se acepta ya una traza exclusiva al bloque completo.",
     "Los 84 cambios de la auditoría V2 requieren trazabilidad de página y pregunta/respuesta/mnemotecnia bilingües.",
     "La auditoría semántica bloquea duplicados exactos y pares de similitud muy alta en el banco efectivo.",
     "La selección puede combinar bloques de distintas unidades y barajarse en una única sesión."
@@ -43,6 +43,7 @@
     "mergeReplace": 47,
     "testsUnchanged": true,
     "conceptId": "Cada tarjeta efectiva expone conceptId; las sustituciones auditadas usan IDs canónicos explícitos y el resto usa un ID determinista derivado de bloque, tema y respuesta canónica.",
-    "traceability": "Cada tarjeta efectiva expone sourceRef con nivel de precisión. Los 84 cambios auditados tienen referencia de página; las 42 extra conservan su rango de páginas; el legado UF0517 no corregido conserva de momento la cobertura por bloque."
+    "traceability": "Todas las tarjetas efectivas exponen sourceRef con rango de página: UF0517 core usa rangos de sección/tema, UF0518 core usa trazas por pregunta, las 42 extras conservan sus rangos y los 84 cambios auditados usan su referencia de página específica.",
+    "traceabilityFile": "site/data/study-cards-traceability-v2.json"
   }
 }
