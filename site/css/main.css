@@ -76,3 +76,34 @@ main:has(#study-cards-screen:not([hidden])){width:min(900px,calc(100% - 2rem))}
  .study-selector-footer>div{justify-content:space-between}
  .study-selector-footer .primary{width:100%}
 }
+
+
+/* Diccionari de conceptes clau */
+main:has(#concept-dictionary-screen:not([hidden])){width:min(900px,calc(100% - 2rem))}
+.concept-dictionary-shell{display:grid;gap:1.15rem}
+.dictionary-toolbar{display:flex;justify-content:flex-start}
+.dictionary-head{display:grid;gap:.35rem}
+.dictionary-head h1{font-size:clamp(1.8rem,4vw,2.45rem);line-height:1.1;letter-spacing:-.035em;margin:.1rem 0 .4rem}
+.dictionary-head p:not(.eyebrow){margin:0;color:var(--muted);max-width:68ch}
+.dictionary-controls{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(220px,.8fr);gap:.8rem;padding:1rem;border:1px solid var(--border);background:var(--surface);border-radius:1rem;box-shadow:var(--shadow)}
+.dictionary-field{display:grid;gap:.35rem;font-size:.9rem;font-weight:700}
+.dictionary-field input,.dictionary-field select{width:100%;min-height:46px;border:1px solid var(--border);border-radius:.75rem;background:var(--bg);color:var(--text);padding:.65rem .8rem}
+.dictionary-field input:focus-visible,.dictionary-field select:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.dictionary-count{margin:.1rem 0;color:var(--muted);font-size:.92rem}
+.concept-list{display:grid;gap:.7rem}
+.concept-entry{border:1px solid var(--border);background:var(--surface);border-radius:1rem;padding:1rem 1.1rem;box-shadow:var(--shadow)}
+.concept-entry-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem}
+.concept-entry h2{font-size:1.08rem;line-height:1.3;margin:0}
+.concept-source{flex:0 0 auto;color:var(--muted);font-size:.8rem;border:1px solid var(--border);border-radius:999px;padding:.12rem .45rem}
+.concept-definition{margin:.55rem 0 .45rem}
+.concept-memory{margin:0;padding-top:.55rem;border-top:1px solid var(--border);color:var(--muted);font-size:.92rem}
+.concept-memory strong{color:var(--text)}
+.dictionary-empty{text-align:center;padding:2.5rem 1rem;border:1px dashed var(--border);border-radius:1rem;color:var(--muted)}
+.dictionary-empty p{margin:.35rem 0 0}
+@media(max-width:620px){
+ main:has(#concept-dictionary-screen:not([hidden])){width:min(100% - 1rem,900px);padding-top:1.2rem}
+ .dictionary-controls{grid-template-columns:1fr;padding:.8rem}
+ .concept-entry{padding:.9rem}
+ .concept-entry-head{display:grid;gap:.45rem}
+ .concept-source{justify-self:start}
+}
