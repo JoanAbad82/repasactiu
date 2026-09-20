@@ -1338,7 +1338,7 @@
       "id": "u2b1-093",
       "block": "U2",
       "status": "REWRITE",
-      "source": "U2, gestió del temps i objectius",
+      "source": "U2 p.27",
       "reason": "The pair u2b1-028/u2b1-093 has answer-scope drift; isolate the omitted criterion.",
       "ca": {
         "question": "A més de ser específics, compatibles i assequibles, quin criteri quantitatiu han de complir els objectius segons el material?",
@@ -1355,7 +1355,7 @@
       "id": "u2b1-097",
       "block": "U2",
       "status": "REWRITE",
-      "source": "U2, classificació de tasques",
+      "source": "U2 p.27",
       "reason": "Near-duplicate of u2b1-029; ask explicitly for the two criteria.",
       "ca": {
         "question": "Quines dues condicions fan que una tasca sigui «important» segons el temari?",
@@ -1392,7 +1392,7 @@
       "id": "u2b1-113",
       "block": "U2",
       "status": "REWRITE",
-      "source": "U2, fase de formació",
+      "source": "U2 p.60",
       "reason": "Near-duplicate of u2b1-057; focus on the communication pattern during formation.",
       "ca": {
         "question": "Com acostuma a ser la comunicació en la fase de formació d’un equip?",
@@ -1409,7 +1409,7 @@
       "id": "u2b1-116",
       "block": "U2",
       "status": "REWRITE",
-      "source": "U2, fases del treball en equip",
+      "source": "U2 p.63",
       "reason": "Near-duplicate of u2b1-060; test the sequence instead of repeating the same description.",
       "ca": {
         "question": "Quina fase del treball en equip segueix la normalització?",
@@ -1426,7 +1426,7 @@
       "id": "u2b1-123",
       "block": "U2",
       "status": "REWRITE",
-      "source": "U2, classificació de grups",
+      "source": "U2 p.58",
       "reason": "Near-duplicate of u2b1-055; make the distinction with a friendship group explicit.",
       "ca": {
         "question": "Què diferencia un grup d’interès d’un grup d’amics?",
@@ -1443,7 +1443,7 @@
       "id": "u2b1-124",
       "block": "U2",
       "status": "REWRITE",
-      "source": "U2, classificació de grups",
+      "source": "U2 p.58",
       "reason": "Near-duplicate of u2b1-056; focus on what creates the group rather than naming it from another lunch example.",
       "ca": {
         "question": "Quina base origina principalment un grup d’amics dins de l’organització?",
@@ -1460,7 +1460,7 @@
       "id": "u2b1-127",
       "block": "U2",
       "status": "REWRITE",
-      "source": "U2, esperit d’equip i sinergia",
+      "source": "U2 p.108",
       "reason": "Near-duplicate of u2b1-080; convert it from another example into a definition.",
       "ca": {
         "question": "Què significa que en un equip hi hagi sinergia?",
@@ -1477,7 +1477,7 @@
       "id": "u2b1-148",
       "block": "U2",
       "status": "REWRITE",
-      "source": "U2, elements del grup",
+      "source": "U2 pp.40–41",
       "reason": "Near-duplicate of u2b1-103; turn it into a direct conceptual distinction.",
       "ca": {
         "question": "Quina diferència hi ha entre estatus i rol dins d’un grup?",
