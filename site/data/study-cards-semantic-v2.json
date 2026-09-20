@@ -744,17 +744,17 @@
       "status": "MERGE/REPLACE",
       "reason": "Surplus member of a high-confidence semantic cluster; keep two pedagogically distinct variants and reuse this slot.",
       "replacement": {
-        "concept_id": "B3.ORGANIGRAMA.FINALITAT_ACOLLIDA",
-        "source": "B3 p.21",
+        "concept_id": "B3.ORGANIGRAMA.AVANTATGE_RESPONSABILITATS",
+        "source": "B3 p.28",
         "ca": {
-          "question": "Quina finalitat de l’organigrama ajuda les noves incorporacions a situar-se dins de l’empresa?",
-          "answer": "Facilitar l’acollida.",
-          "mnemonic": "Nou a l’empresa → organigrama per situar-se."
+          "question": "Quin avantatge de l’organigrama ajuda a saber millor qui assumeix cada responsabilitat i de qui depèn cada lloc?",
+          "answer": "Aclareix responsabilitats i dependències.",
+          "mnemonic": "Organigrama clar → responsabilitats i dependències més fàcils d’identificar."
         },
         "es": {
-          "question": "¿Qué finalidad del organigrama ayuda a las nuevas incorporaciones a situarse dentro de la empresa?",
-          "answer": "Facilitar la acogida.",
-          "mnemonic": "Nuevo en la empresa → organigrama para situarse."
+          "question": "¿Qué ventaja del organigrama ayuda a saber mejor quién asume cada responsabilidad y de quién depende cada puesto?",
+          "answer": "Aclara responsabilidades y dependencias.",
+          "mnemonic": "Organigrama claro → responsabilidades y dependencias más fáciles de identificar."
         }
       }
     },
