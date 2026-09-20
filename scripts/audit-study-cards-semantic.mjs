@@ -60,11 +60,11 @@ function pageSource(label){
 }
 
 export async function runSemanticStudyCardsAudit(){
-  const [course,extra,manifest,uf0518Trace]=await Promise.all([
+  const [course,extra,manifest,traceability]=await Promise.all([
     readData('course.json'),
     readData('study-cards-extra.json'),
     readData('study-cards-semantic-v2.json'),
-    readDocs('UF0518_SOURCE_TRACEABILITY.json')
+    readData('study-cards-traceability-v2.json')
   ]);
   const errors=[];
   const warnings=[];
@@ -78,7 +78,14 @@ export async function runSemanticStudyCardsAudit(){
   const semantic=semanticMap(manifest);
   const seenChanges=new Set();
   const cards=[];
-  const ufTrace=new Map((uf0518Trace.questionTraces||[]).map(x=>[x.id,x]));
+  const sourceFor=(blockId,id,topic)=>{
+    const exact=traceability.questionRanges?.[id];
+    if(exact?.source&&Array.isArray(exact.pageRange))return {source:exact.source,pageRange:exact.pageRange,precision:'question'};
+    const range=traceability.topicRanges?.[blockId]?.[topic];
+    const source=traceability.blockSources?.[blockId]||null;
+    if(source&&Array.isArray(range))return {source,pageRange:range,precision:'section'};
+    return {source,pageRange:null,precision:'missing'};
+  };
 
   for(const block of course.blocks){
     const bankFiles=[block.file,block.extraFile,...(block.additionalFiles||[])].filter(Boolean);
@@ -103,8 +110,7 @@ export async function runSemanticStudyCardsAudit(){
       const esQuestion=esText.question||es.question||'';
       const caMnemonic=caText.mnemonic||baseOverride.ca?.mnemonic||memory.ca||'';
       const esMnemonic=esText.mnemonic||baseOverride.es?.mnemonic||memory.es||'';
-      const source=semanticRecord?.source?pageSource(semanticRecord.source):
-        (ufTrace.get(q.id)?{source:'UF0518_B1',pageRange:ufTrace.get(q.id).pageRange,precision:'page'}:{source:null,pageRange:null,precision:'legacy-block'});
+      const source=semanticRecord?.source?pageSource(semanticRecord.source):sourceFor(block.id,q.id,q.topic);
       cards.push({
         id:q.id,blockId:block.id,conceptId:conceptId(block.id,q.topic,caAnswer,semanticRecord?.concept_id),
         ca:{question:caQuestion,answer:caAnswer,mnemonic:caMnemonic},
@@ -147,7 +153,8 @@ export async function runSemanticStudyCardsAudit(){
       if(!String(data.mnemonic||'').trim())errors.push(card.id+': mnemotècnia '+lang+' buida');
     }
     if(!card.conceptId)errors.push(card.id+': conceptId buit');
-    if(!card.source?.source)warnings.push(card.id+': font heretada només per bloc');
+    if(!card.source?.source||!Array.isArray(card.source?.pageRange))errors.push(card.id+': traçabilitat sense rang de pàgina');
+    if(card.source?.precision==='missing'||card.source?.precision==='block')errors.push(card.id+': traçabilitat massa ampla');
   }
 
   for(const change of manifest.changes||[]){
