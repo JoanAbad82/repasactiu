@@ -33,4 +33,7 @@ if(traceability.version!==2||!traceability.topicRanges||!traceability.questionRa
 if(dictionary.version!==1||dictionary.count!==54||!Array.isArray(dictionary.entries)||dictionary.entries.length!==54){
   throw new Error('Build validation failed: concept dictionary v1 is invalid.');
 }
-console.log('Static build PASS: site/ -> dist/ with semantic manifest, traceability v2 and 54-concept dictionary');
+if(!Array.isArray(dictionary.families)||dictionary.families.length!==9||dictionary.families.flatMap(family=>family.entryIds||[]).length!==54){
+  throw new Error('Build validation failed: concept dictionary families are invalid.');
+}
+console.log('Static build PASS: site/ -> dist/ with semantic manifest, traceability v2 and 54-concept dictionary grouped into 9 learning families');
