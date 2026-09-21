@@ -1,0 +1,1216 @@
+{
+  "version": 1,
+  "languages": [
+    "ca",
+    "es"
+  ],
+  "title": {
+    "ca": "Correspondència comercial",
+    "es": "Correspondencia comercial"
+  },
+  "intro": {
+    "ca": "Guia pràctica per entendre l’estructura d’una carta comercial, consultar models habituals i utilitzar abreviatures amb criteri.",
+    "es": "Guía práctica para entender la estructura de una carta comercial, consultar modelos habituales y utilizar abreviaturas con criterio."
+  },
+  "structure": [
+    {
+      "order": 1,
+      "ca": "Capçalera: dades de l’empresa remitent",
+      "es": "Membrete: datos de la empresa remitente"
+    },
+    {
+      "order": 2,
+      "ca": "Destinació: dades de la persona o empresa destinatària",
+      "es": "Destinatario: datos de la persona o empresa destinataria"
+    },
+    {
+      "order": 3,
+      "ca": "Lloc i data",
+      "es": "Lugar y fecha"
+    },
+    {
+      "order": 4,
+      "ca": "Referència, si escau",
+      "es": "Referencia, si procede"
+    },
+    {
+      "order": 5,
+      "ca": "Assumpte",
+      "es": "Asunto"
+    },
+    {
+      "order": 6,
+      "ca": "Salutació",
+      "es": "Saludo"
+    },
+    {
+      "order": 7,
+      "ca": "Cos de la carta",
+      "es": "Cuerpo de la carta"
+    },
+    {
+      "order": 8,
+      "ca": "Comiat",
+      "es": "Despedida"
+    },
+    {
+      "order": 9,
+      "ca": "Signatura, nom i cognoms i càrrec",
+      "es": "Firma, nombre y apellidos y cargo"
+    },
+    {
+      "order": 10,
+      "ca": "Annexos o informació ocasional, si n’hi ha",
+      "es": "Anexos o información adicional, si los hay"
+    }
+  ],
+  "languageNotes": {
+    "ca": [
+      "Mantén el tractament formal de vós de manera coherent en tota la carta.",
+      "Les dades del destinatari es poden adaptar si s’utilitza un sobre amb finestra.",
+      "El lloc i la data solen aparèixer a la part superior dreta, tot i que la plantilla de l’organització pot situar-los al final."
+    ],
+    "es": [
+      "Mantén de forma coherente el tratamiento de usted o ustedes en toda la carta.",
+      "El saludo formal se cierra con dos puntos.",
+      "Los datos del destinatario pueden adaptarse si se utiliza un sobre con ventana."
+    ]
+  },
+  "groups": [
+    {
+      "id": "inici",
+      "ca": "Iniciar una relació comercial",
+      "es": "Iniciar una relación comercial",
+      "models": [
+        "presentacio",
+        "sollicitud",
+        "oferta"
+      ]
+    },
+    {
+      "id": "compra",
+      "ca": "Gestionar una compra",
+      "es": "Gestionar una compra",
+      "models": [
+        "comanda",
+        "confirmacio"
+      ]
+    },
+    {
+      "id": "incidencies",
+      "ca": "Resoldre incidències",
+      "es": "Resolver incidencias",
+      "models": [
+        "reclamacio",
+        "resposta-reclamacio"
+      ]
+    },
+    {
+      "id": "gestio",
+      "ca": "Gestió administrativa",
+      "es": "Gestión administrativa",
+      "models": [
+        "pagament"
+      ]
+    }
+  ],
+  "models": [
+    {
+      "id": "presentacio",
+      "group": "inici",
+      "sourcePages": {
+        "ca": 4,
+        "es": 3
+      },
+      "title": {
+        "ca": "Carta de presentació comercial",
+        "es": "Carta de presentación comercial"
+      },
+      "purpose": {
+        "ca": "Presentar una empresa i oferir els seus serveis a un possible client.",
+        "es": "Presentar una empresa y ofrecer sus servicios a un posible cliente."
+      },
+      "observe": {
+        "ca": [
+          "Identifica l’empresa i la seva especialitat.",
+          "Relaciona els serveis amb una necessitat possible del client.",
+          "Tanca amb una proposta concreta de reunió o contacte."
+        ],
+        "es": [
+          "Identifica la empresa y su especialidad.",
+          "Relaciona los servicios con una posible necesidad del cliente.",
+          "Cierra con una propuesta concreta de reunión o contacto."
+        ]
+      },
+      "example": {
+        "sender": [
+          "Arxiva Gestió Documental, SL",
+          "Carrer del Vall, 38",
+          "08221 Terrassa"
+        ],
+        "recipient": [
+          "Enginyeria Can Roca, SL",
+          "A l’atenció de la Sra. Laia Ferrer",
+          "Carrer de la Rasa, 16",
+          "08221 Terrassa"
+        ],
+        "recipientEs": [
+          "Enginyeria Can Roca, SL",
+          "A la atención de la Sra. Laia Ferrer",
+          "Carrer de la Rasa, 16",
+          "08221 Terrassa"
+        ],
+        "date": {
+          "ca": "Terrassa, 21 de setembre de 2026",
+          "es": "Terrassa, 21 de septiembre de 2026"
+        },
+        "subject": {
+          "ca": "Presentació dels serveis de gestió documental",
+          "es": "Presentación de los servicios de gestión documental"
+        },
+        "greeting": {
+          "ca": "Senyora Ferrer,",
+          "es": "Señora Ferrer:"
+        },
+        "paragraphs": {
+          "ca": [
+            "Ens posem en contacte amb vós per presentar-vos Arxiva Gestió Documental, SL, una empresa especialitzada en l’organització, la digitalització i la custòdia de documentació.",
+            "Treballem amb petites i mitjanes empreses que necessiten ordenar l’arxiu, reduir l’ús de paper o establir un sistema senzill de consulta documental. Si ho considereu oportú, podem concertar una reunió breu per conèixer les vostres necessitats i preparar una proposta."
+          ],
+          "es": [
+            "Nos ponemos en contacto con usted para presentarle Arxiva Gestió Documental, SL, una empresa especializada en la organización, digitalización y custodia de documentación.",
+            "Trabajamos con pequeñas y medianas empresas que necesitan ordenar el archivo, reducir el uso de papel o establecer un sistema sencillo de consulta documental. Si lo considera oportuno, podemos concertar una breve reunión para conocer sus necesidades y preparar una propuesta."
+          ]
+        },
+        "closing": {
+          "ca": "Atentament,",
+          "es": "Atentamente,"
+        },
+        "signature": [
+          "Mireia Soler",
+          {
+            "ca": "Responsable comercial",
+            "es": "Responsable comercial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sollicitud",
+      "group": "inici",
+      "sourcePages": {
+        "ca": 5,
+        "es": 4
+      },
+      "title": {
+        "ca": "Sol·licitud d’informació i pressupost",
+        "es": "Solicitud de información y presupuesto"
+      },
+      "purpose": {
+        "ca": "Demanar dades concretes abans de comprar un producte o contractar un servei.",
+        "es": "Solicitar datos concretos antes de comprar un producto o contratar un servicio."
+      },
+      "observe": {
+        "ca": [
+          "Explica breument la necessitat.",
+          "Enumera les dades que ha d’incloure el pressupost.",
+          "Fixa una data límit de resposta quan sigui necessari."
+        ],
+        "es": [
+          "Explica brevemente la necesidad.",
+          "Enumera los datos que debe incluir el presupuesto.",
+          "Fija una fecha límite de respuesta cuando sea necesario."
+        ]
+      },
+      "example": {
+        "sender": [
+          "Cafès Ronda, SL",
+          "Passeig de la Plaça Major, 12",
+          "08201 Sabadell"
+        ],
+        "recipient": [
+          "Equipaments Hostalers Ponent, SA",
+          "Departament Comercial",
+          "Carrer de la Indústria, 74",
+          "08191 Rubí"
+        ],
+        "recipientEs": [
+          "Equipaments Hostalers Ponent, SA",
+          "Departamento Comercial",
+          "Carrer de la Indústria, 74",
+          "08191 Rubí"
+        ],
+        "date": {
+          "ca": "Sabadell, 22 de setembre de 2026",
+          "es": "Sabadell, 22 de septiembre de 2026"
+        },
+        "reference": {
+          "ca": "CR 26 114",
+          "es": "CR 26 114"
+        },
+        "subject": {
+          "ca": "Sol·licitud de pressupost per a una cafetera professional",
+          "es": "Solicitud de presupuesto para una cafetera profesional"
+        },
+        "greeting": {
+          "ca": "Senyors,",
+          "es": "Señores:"
+        },
+        "paragraphs": {
+          "ca": [
+            "Estem renovant la zona de cafeteria del nostre establiment i voldríem rebre informació sobre els models de cafeteres professionals de dos grups que teniu disponibles.",
+            "El pressupost hauria d’indicar el preu, la instal·lació, el termini de lliurament, la garantia i el servei de manteniment. També ens interessa saber si oferiu formació inicial per al personal. Agrairem rebre la proposta abans del 30 de setembre."
+          ],
+          "es": [
+            "Estamos renovando la zona de cafetería de nuestro establecimiento y desearíamos recibir información sobre las cafeteras profesionales de dos grupos que tienen disponibles.",
+            "El presupuesto debería indicar el precio, la instalación, el plazo de entrega, la garantía y el servicio de mantenimiento. También nos interesa saber si ofrecen formación inicial para el personal. Agradeceremos recibir la propuesta antes del 30 de septiembre."
+          ]
+        },
+        "closing": {
+          "ca": "Gràcies per endavant. Atentament,",
+          "es": "Gracias de antemano. Atentamente,"
+        },
+        "signature": [
+          "Pau Rius",
+          {
+            "ca": "Responsable de compres",
+            "es": "Responsable de compras"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oferta",
+      "group": "inici",
+      "sourcePages": {
+        "ca": 6,
+        "es": 5
+      },
+      "title": {
+        "ca": "Oferta comercial",
+        "es": "Oferta comercial"
+      },
+      "purpose": {
+        "ca": "Presentar una proposta amb preus, condicions i termini de validesa.",
+        "es": "Presentar una propuesta con precios, condiciones y plazo de validez."
+      },
+      "observe": {
+        "ca": [
+          "Descriu què s’ofereix i l’import total.",
+          "Aclareix què inclou el preu i el termini de lliurament.",
+          "Indica fins quan és vàlida l’oferta."
+        ],
+        "es": [
+          "Describe qué se ofrece y el importe total.",
+          "Aclara qué incluye el precio y el plazo de entrega.",
+          "Indica hasta cuándo es válida la oferta."
+        ]
+      },
+      "example": {
+        "sender": [
+          "Mobles d’Oficina Tramuntana, SL",
+          "Avinguda de l’Estatut, 91",
+          "08191 Rubí"
+        ],
+        "recipient": [
+          "Assessoria Mercadal, SL",
+          "A l’atenció del Sr. Oriol Camps",
+          "Carrer de Sant Cugat, 28",
+          "08201 Sabadell"
+        ],
+        "recipientEs": [
+          "Assessoria Mercadal, SL",
+          "A la atención del Sr. Oriol Camps",
+          "Carrer de Sant Cugat, 28",
+          "08201 Sabadell"
+        ],
+        "date": {
+          "ca": "Rubí, 24 de setembre de 2026",
+          "es": "Rubí, 24 de septiembre de 2026"
+        },
+        "subject": {
+          "ca": "Oferta de mobiliari per a la nova oficina",
+          "es": "Oferta de mobiliario para la nueva oficina"
+        },
+        "greeting": {
+          "ca": "Senyor Camps,",
+          "es": "Señor Camps:"
+        },
+        "paragraphs": {
+          "ca": [
+            "D’acord amb la visita feta el 22 de setembre, us presentem la nostra oferta per al subministrament de sis taules operatives, sis cadires ergonòmiques i dos armaris amb porta corredissa. L’import total és de 4.286,40 euros, IVA inclòs.",
+            "El preu inclou el transport i el muntatge. El lliurament es faria en un termini màxim de quinze dies des de l’acceptació. L’oferta és vàlida fins al 8 d’octubre de 2026.",
+            "Quedem a la vostra disposició per resoldre qualsevol dubte."
+          ],
+          "es": [
+            "De acuerdo con la visita realizada el 22 de septiembre, le presentamos nuestra oferta para el suministro de seis mesas operativas, seis sillas ergonómicas y dos armarios con puerta corredera. El importe total es de 4.286,40 euros, IVA incluido.",
+            "El precio incluye el transporte y el montaje. La entrega se realizaría en un plazo máximo de quince días desde la aceptación. La oferta es válida hasta el 8 de octubre de 2026.",
+            "Quedamos a su disposición para resolver cualquier duda."
+          ]
+        },
+        "closing": {
+          "ca": "Cordialment,",
+          "es": "Atentamente,"
+        },
+        "signature": [
+          "Jordi Mir",
+          {
+            "ca": "Assessor comercial",
+            "es": "Asesor comercial"
+          }
+        ],
+        "annex": {
+          "ca": "Annex: pressupost detallat MOT 2026 87.",
+          "es": "Adjunto: presupuesto detallado MOT 2026 87."
+        }
+      }
+    },
+    {
+      "id": "comanda",
+      "group": "compra",
+      "sourcePages": {
+        "ca": 7,
+        "es": 6
+      },
+      "title": {
+        "ca": "Carta de comanda",
+        "es": "Carta de pedido"
+      },
+      "purpose": {
+        "ca": "Formalitzar una compra i deixar constància de les condicions acordades.",
+        "es": "Formalizar una compra y dejar constancia de las condiciones acordadas."
+      },
+      "observe": {
+        "ca": [
+          "Detalla quantitats i productes.",
+          "Relaciona la comanda amb el pressupost acordat.",
+          "Concreta lliurament, pagament i referències documentals."
+        ],
+        "es": [
+          "Detalla cantidades y productos.",
+          "Relaciona el pedido con el presupuesto acordado.",
+          "Concreta entrega, pago y referencias documentales."
+        ]
+      },
+      "example": {
+        "sender": [
+          "Llibreria Tècnica Vapor, SL",
+          "Rambla d’Ègara, 156",
+          "08221 Terrassa"
+        ],
+        "recipient": [
+          "Papereria Industrial Llevant, SA",
+          "Departament de Comandes",
+          "Carrer del Progrés, 43",
+          "08940 Cornellà de Llobregat"
+        ],
+        "recipientEs": [
+          "Papereria Industrial Llevant, SA",
+          "Departamento de Pedidos",
+          "Carrer del Progrés, 43",
+          "08940 Cornellà de Llobregat"
+        ],
+        "date": {
+          "ca": "Terrassa, 28 de setembre de 2026",
+          "es": "Terrassa, 28 de septiembre de 2026"
+        },
+        "reference": {
+          "ca": "comanda LTV 1068",
+          "es": "pedido LTV 1068"
+        },
+        "subject": {
+          "ca": "Comanda de material d’embalatge",
+          "es": "Pedido de material de embalaje"
+        },
+        "greeting": {
+          "ca": "Senyors,",
+          "es": "Señores:"
+        },
+        "paragraphs": {
+          "ca": [
+            "Us confirmem la comanda següent: 30 paquets de sobres encoixinats C4, 20 rotlles de paper kraft i 10 caixes d’etiquetes adhesives de 100 unitats.",
+            "D’acord amb el pressupost PIL 4582, el lliurament s’ha de fer abans del 5 d’octubre al nostre magatzem de Terrassa. El pagament s’efectuarà per transferència bancària a 30 dies. Feu constar la referència de la comanda a l’albarà i a la factura."
+          ],
+          "es": [
+            "Les confirmamos el siguiente pedido: 30 paquetes de sobres acolchados C4, 20 rollos de papel kraft y 10 cajas de etiquetas adhesivas de 100 unidades.",
+            "De acuerdo con el presupuesto PIL 4582, la entrega debe realizarse antes del 5 de octubre en nuestro almacén de Terrassa. El pago se efectuará mediante transferencia bancaria a 30 días. Hagan constar la referencia del pedido en el albarán y en la factura."
+          ]
+        },
+        "closing": {
+          "ca": "Atentament,",
+          "es": "Atentamente,"
+        },
+        "signature": [
+          "Alba Moreno",
+          {
+            "ca": "Administració",
+            "es": "Administración"
+          }
+        ]
+      }
+    },
+    {
+      "id": "confirmacio",
+      "group": "compra",
+      "sourcePages": {
+        "ca": 8,
+        "es": 7
+      },
+      "title": {
+        "ca": "Confirmació de comanda",
+        "es": "Confirmación de pedido"
+      },
+      "purpose": {
+        "ca": "Confirmar la recepció d’una comanda i concretar el lliurament.",
+        "es": "Confirmar la recepción de un pedido y concretar la entrega."
+      },
+      "observe": {
+        "ca": [
+          "Confirma què s’ha rebut.",
+          "Concreta data, franja horària i lloc de lliurament.",
+          "Resumeix import i serveis inclosos, i dona marge per corregir dades."
+        ],
+        "es": [
+          "Confirma qué se ha recibido.",
+          "Concreta fecha, franja horaria y lugar de entrega.",
+          "Resume importe y servicios incluidos, y da margen para corregir datos."
+        ]
+      },
+      "example": {
+        "sender": [
+          "Sistemes Informàtics Bages, SL",
+          "Carrer del Bruc, 52",
+          "08241 Manresa"
+        ],
+        "recipient": [
+          "Centre Mèdic Font Vella, SL",
+          "A l’atenció del Departament d’Administració",
+          "Carrer de Balmes, 67",
+          "08201 Sabadell"
+        ],
+        "recipientEs": [
+          "Centre Mèdic Font Vella, SL",
+          "A la atención del Departamento de Administración",
+          "Carrer de Balmes, 67",
+          "08201 Sabadell"
+        ],
+        "date": {
+          "ca": "Manresa, 2 d’octubre de 2026",
+          "es": "Manresa, 2 de octubre de 2026"
+        },
+        "reference": {
+          "ca": "CMFV 2026 39",
+          "es": "CMFV 2026 39"
+        },
+        "subject": {
+          "ca": "Confirmació de la comanda d’equips informàtics",
+          "es": "Confirmación del pedido de equipos informáticos"
+        },
+        "greeting": {
+          "ca": "Senyors,",
+          "es": "Señores:"
+        },
+        "paragraphs": {
+          "ca": [
+            "Hem rebut la vostra comanda de quatre ordinadors portàtils i quatre bases de connexió. Els equips es lliuraran el 9 d’octubre, entre les 10 i les 13 h, a l’adreça indicada.",
+            "L’import total és de 4.912,60 euros, IVA inclòs. La instal·lació del programari bàsic i la comprovació inicial estan incloses en el preu. Si detecteu alguna dada incorrecta, us agrairem que ens ho comuniqueu abans del 5 d’octubre."
+          ],
+          "es": [
+            "Hemos recibido su pedido de cuatro ordenadores portátiles y cuatro bases de conexión. Los equipos se entregarán el 9 de octubre, entre las 10 y las 13 h, en la dirección indicada.",
+            "El importe total es de 4.912,60 euros, IVA incluido. La instalación del software básico y la comprobación inicial están incluidas en el precio. Si detectan algún dato incorrecto, les agradeceremos que nos lo comuniquen antes del 5 de octubre."
+          ]
+        },
+        "closing": {
+          "ca": "Atentament,",
+          "es": "Atentamente,"
+        },
+        "signature": [
+          "Carles Prat",
+          {
+            "ca": "Gestió de comandes",
+            "es": "Gestión de pedidos"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reclamacio",
+      "group": "incidencies",
+      "sourcePages": {
+        "ca": 9,
+        "es": 8
+      },
+      "title": {
+        "ca": "Reclamació per una incidència",
+        "es": "Reclamación por una incidencia"
+      },
+      "purpose": {
+        "ca": "Comunicar un problema i demanar una solució concreta.",
+        "es": "Comunicar un problema y solicitar una solución concreta."
+      },
+      "observe": {
+        "ca": [
+          "Descriu els fets de manera objectiva.",
+          "Aporta o esmenta les proves disponibles.",
+          "Demana una solució concreta i, si cal, fixa un termini."
+        ],
+        "es": [
+          "Describe los hechos de forma objetiva.",
+          "Aporta o menciona las pruebas disponibles.",
+          "Solicita una solución concreta y, si procede, fija un plazo."
+        ]
+      },
+      "example": {
+        "sender": [
+          "Botigues Serra Blava, SL",
+          "Plaça de l’Ajuntament, 5",
+          "08172 Sant Cugat del Vallès"
+        ],
+        "recipient": [
+          "Transport i Logística Rubí, SA",
+          "Departament d’Atenció al Client",
+          "Avinguda de Can Fatjó, 110",
+          "08191 Rubí"
+        ],
+        "recipientEs": [
+          "Transport i Logística Rubí, SA",
+          "Departamento de Atención al Cliente",
+          "Avinguda de Can Fatjó, 110",
+          "08191 Rubí"
+        ],
+        "date": {
+          "ca": "Sant Cugat del Vallès, 7 d’octubre de 2026",
+          "es": "Sant Cugat del Vallès, 7 de octubre de 2026"
+        },
+        "reference": {
+          "ca": "expedició TR 77142",
+          "es": "expedición TR 77142"
+        },
+        "subject": {
+          "ca": "Reclamació per mercaderia deteriorada",
+          "es": "Reclamación por mercancía deteriorada"
+        },
+        "greeting": {
+          "ca": "Senyors,",
+          "es": "Señores:"
+        },
+        "paragraphs": {
+          "ca": [
+            "El 6 d’octubre vam rebre l’expedició indicada. En obrir els paquets, vam comprovar que tres caixes estaven humides i que part del contingut havia quedat inutilitzable.",
+            "Adjuntem fotografies de l’estat de la mercaderia i una còpia de l’albarà amb la incidència anotada. Sol·licitem la recollida dels articles afectats i la reposició del material abans del 12 d’octubre, sense cap cost addicional.",
+            "Quedem a l’espera de la vostra resposta."
+          ],
+          "es": [
+            "El 6 de octubre recibimos la expedición indicada. Al abrir los paquetes, comprobamos que tres cajas estaban húmedas y que parte del contenido había quedado inutilizable.",
+            "Adjuntamos fotografías del estado de la mercancía y una copia del albarán con la incidencia anotada. Solicitamos la recogida de los artículos afectados y la reposición del material antes del 12 de octubre, sin ningún coste adicional.",
+            "Quedamos a la espera de su respuesta."
+          ]
+        },
+        "closing": {
+          "ca": "Atentament,",
+          "es": "Atentamente,"
+        },
+        "signature": [
+          "Nora Vidal",
+          {
+            "ca": "Responsable de botiga",
+            "es": "Responsable de tienda"
+          }
+        ],
+        "annex": {
+          "ca": "Annexos: fotografies i còpia de l’albarà.",
+          "es": "Adjuntos: fotografías y copia del albarán."
+        }
+      }
+    },
+    {
+      "id": "resposta-reclamacio",
+      "group": "incidencies",
+      "sourcePages": {
+        "ca": 10,
+        "es": 9
+      },
+      "title": {
+        "ca": "Resposta a una reclamació",
+        "es": "Respuesta a una reclamación"
+      },
+      "purpose": {
+        "ca": "Reconèixer una incidència, explicar la solució i indicar el termini.",
+        "es": "Reconocer una incidencia, explicar la solución e indicar el plazo."
+      },
+      "observe": {
+        "ca": [
+          "Confirma que s’ha revisat la reclamació.",
+          "Explica la incidència sense excuses innecessàries.",
+          "Indica una solució concreta, el termini i qualsevol compensació."
+        ],
+        "es": [
+          "Confirma que se ha revisado la reclamación.",
+          "Explica la incidencia sin excusas innecesarias.",
+          "Indica una solución concreta, el plazo y cualquier compensación."
+        ]
+      },
+      "example": {
+        "sender": [
+          "Subministraments Garbí, SL",
+          "Carrer de l’Agricultura, 19",
+          "08202 Sabadell"
+        ],
+        "recipient": [
+          "Residència Els Til·lers, SL",
+          "A l’atenció de la Sra. Marta Vives",
+          "Carrer de Montserrat, 44",
+          "08221 Terrassa"
+        ],
+        "recipientEs": [
+          "Residència Els Til·lers, SL",
+          "A la atención de la Sra. Marta Vives",
+          "Carrer de Montserrat, 44",
+          "08221 Terrassa"
+        ],
+        "date": {
+          "ca": "Sabadell, 14 d’octubre de 2026",
+          "es": "Sabadell, 14 de octubre de 2026"
+        },
+        "reference": {
+          "ca": "reclamació RET 184",
+          "es": "reclamación RET 184"
+        },
+        "subject": {
+          "ca": "Resposta sobre el retard en el lliurament",
+          "es": "Respuesta sobre el retraso en la entrega"
+        },
+        "greeting": {
+          "ca": "Senyora Vives,",
+          "es": "Señora Vives:"
+        },
+        "paragraphs": {
+          "ca": [
+            "Hem revisat la vostra reclamació i confirmem que el lliurament previst per al 12 d’octubre no es va efectuar per un error en la preparació de la ruta. Lamentem les molèsties que aquesta incidència us ha ocasionat.",
+            "La comanda sortirà avui del nostre magatzem i es lliurarà demà abans de les 12 h. No es facturarà el transport. El nostre departament de distribució es posarà en contacte amb vós per confirmar la franja horària."
+          ],
+          "es": [
+            "Hemos revisado su reclamación y confirmamos que la entrega prevista para el 12 de octubre no se realizó por un error en la preparación de la ruta. Lamentamos las molestias que esta incidencia le ha ocasionado.",
+            "El pedido saldrá hoy de nuestro almacén y se entregará mañana antes de las 12 h. No se facturará el transporte. Nuestro departamento de distribución se pondrá en contacto con usted para confirmar la franja horaria."
+          ]
+        },
+        "closing": {
+          "ca": "Atentament,",
+          "es": "Atentamente,"
+        },
+        "signature": [
+          "Raül Casas",
+          {
+            "ca": "Cap de distribució",
+            "es": "Jefe de distribución"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pagament",
+      "group": "gestio",
+      "sourcePages": {
+        "ca": 11,
+        "es": 10
+      },
+      "title": {
+        "ca": "Recordatori de pagament",
+        "es": "Recordatorio de pago"
+      },
+      "purpose": {
+        "ca": "Recordar una factura vençuda amb un to correcte i no acusatori.",
+        "es": "Recordar una factura vencida con un tono correcto y no acusatorio."
+      },
+      "observe": {
+        "ca": [
+          "Identifica factura, import i venciment.",
+          "Evita donar per fet que hi ha mala fe o impagament deliberat.",
+          "Ofereix una via clara: pagar o comunicar una incidència."
+        ],
+        "es": [
+          "Identifica factura, importe y vencimiento.",
+          "Evita dar por hecho que existe mala fe o un impago deliberado.",
+          "Ofrece una vía clara: pagar o comunicar una incidencia."
+        ]
+      },
+      "example": {
+        "sender": [
+          "Impressió Urbana Vallès, SL",
+          "Carrer de la Creueta, 31",
+          "08202 Sabadell"
+        ],
+        "recipient": [
+          "Estudi Disseny Nord, SL",
+          "Departament d’Administració",
+          "Carrer de Volta, 23",
+          "08224 Terrassa"
+        ],
+        "recipientEs": [
+          "Estudi Disseny Nord, SL",
+          "Departamento de Administración",
+          "Carrer de Volta, 23",
+          "08224 Terrassa"
+        ],
+        "date": {
+          "ca": "Sabadell, 6 de novembre de 2026",
+          "es": "Sabadell, 6 de noviembre de 2026"
+        },
+        "reference": {
+          "ca": "factura IUV 2026 804",
+          "es": "factura IUV 2026 804"
+        },
+        "subject": {
+          "ca": "Factura pendent de pagament",
+          "es": "Factura pendiente de pago"
+        },
+        "greeting": {
+          "ca": "Senyors,",
+          "es": "Señores:"
+        },
+        "paragraphs": {
+          "ca": [
+            "Segons els nostres registres, la factura IUV 2026 804, per un import de 786,50 euros i amb venciment el 30 d’octubre, consta pendent de pagament.",
+            "És possible que la transferència ja s’hagi efectuat i encara no aparegui registrada. Si és així, podeu desestimar aquest escrit. En cas contrari, us agrairem que efectueu el pagament en els pròxims cinc dies o que us poseu en contacte amb nosaltres si hi ha alguna incidència.",
+            "Gràcies per la vostra col·laboració."
+          ],
+          "es": [
+            "Según nuestros registros, la factura IUV 2026 804, por un importe de 786,50 euros y con vencimiento el 30 de octubre, consta pendiente de pago.",
+            "Es posible que la transferencia ya se haya efectuado y todavía no aparezca registrada. Si es así, pueden desestimar este escrito. En caso contrario, les agradeceremos que realicen el pago en los próximos cinco días o que contacten con nosotros si existe alguna incidencia.",
+            "Gracias por su colaboración."
+          ]
+        },
+        "closing": {
+          "ca": "Atentament,",
+          "es": "Atentamente,"
+        },
+        "signature": [
+          "Helena Bosch",
+          {
+            "ca": "Administració",
+            "es": "Administración"
+          }
+        ]
+      }
+    }
+  ],
+  "template": {
+    "ca": [
+      "[Nom de l’empresa remitent]",
+      "[Adreça]",
+      "[Codi postal i localitat]",
+      "",
+      "[Nom de la persona o empresa destinatària]",
+      "[Càrrec o departament, si escau]",
+      "[Adreça]",
+      "[Codi postal i localitat]",
+      "",
+      "[Localitat, dia de mes de any]",
+      "[Referència, si escau]",
+      "Assumpte: [motiu concret de la carta]",
+      "",
+      "[Salutació]",
+      "",
+      "[Presentació del motiu de la carta]",
+      "[Informació, dades o condicions necessàries]",
+      "[Petició, resposta o termini]",
+      "",
+      "[Comiat]",
+      "",
+      "[Espai per a la signatura]",
+      "[Nom i cognoms]",
+      "[Càrrec]",
+      "",
+      "[Annexos, si n’hi ha]"
+    ],
+    "es": [
+      "[Nombre de la empresa remitente]",
+      "[Dirección]",
+      "[Código postal y localidad]",
+      "",
+      "[Nombre de la persona o empresa destinataria]",
+      "[Cargo o departamento, si procede]",
+      "[Dirección]",
+      "[Código postal y localidad]",
+      "",
+      "[Localidad, día de mes de año]",
+      "[Referencia, si procede]",
+      "Asunto: [motivo concreto de la carta]",
+      "",
+      "[Saludo:]",
+      "",
+      "[Presentación del motivo de la carta]",
+      "[Información, datos o condiciones necesarios]",
+      "[Petición, respuesta o plazo]",
+      "",
+      "[Despedida]",
+      "",
+      "[Espacio para la firma]",
+      "[Nombre y apellidos]",
+      "[Cargo]",
+      "",
+      "[Anexos, si los hay]"
+    ]
+  },
+  "commonErrors": {
+    "ca": [
+      "Assumpte massa vague o absent.",
+      "Barrejar tractaments formals dins la mateixa carta.",
+      "No indicar una referència quan és necessària per identificar l’operació.",
+      "Reclamar sense descriure els fets o sense demanar una solució concreta.",
+      "Fer un recordatori de pagament amb un to acusatori.",
+      "Oblidar d’esmentar els annexos que s’adjunten."
+    ],
+    "es": [
+      "Asunto demasiado vago o ausente.",
+      "Mezclar tratamientos formales dentro de la misma carta.",
+      "No indicar una referencia cuando es necesaria para identificar la operación.",
+      "Reclamar sin describir los hechos o sin solicitar una solución concreta.",
+      "Hacer un recordatorio de pago con un tono acusatorio.",
+      "Olvidar mencionar los anexos que se adjuntan."
+    ]
+  },
+  "abbreviations": {
+    "ca": {
+      "count": 26,
+      "groups": [
+        {
+          "id": "tractaments",
+          "title": "Tractaments i persones",
+          "items": [
+            {
+              "abbr": "Sr.",
+              "term": "senyor",
+              "example": "Sr. Oriol Camps"
+            },
+            {
+              "abbr": "Sra.",
+              "term": "senyora",
+              "example": "Sra. Laia Ferrer"
+            },
+            {
+              "abbr": "Dr.",
+              "term": "doctor",
+              "example": "Dr. Jordi Mir"
+            },
+            {
+              "abbr": "Dra.",
+              "term": "doctora",
+              "example": "Dra. Marta Vives"
+            }
+          ]
+        },
+        {
+          "id": "adreces",
+          "title": "Adreces i contacte",
+          "items": [
+            {
+              "abbr": "a/",
+              "term": "a l’atenció de",
+              "example": "a/ Departament Comercial"
+            },
+            {
+              "abbr": "a/e",
+              "term": "adreça electrònica",
+              "example": "a/e: administracio@empresa.cat"
+            },
+            {
+              "abbr": "c/e",
+              "term": "correu electrònic",
+              "example": "c/e: compres@empresa.cat"
+            },
+            {
+              "abbr": "c. / c/",
+              "term": "carrer",
+              "example": "c. del Vall, 38"
+            },
+            {
+              "abbr": "av.",
+              "term": "avinguda",
+              "example": "av. de l’Estatut, 91"
+            },
+            {
+              "abbr": "ctra.",
+              "term": "carretera",
+              "example": "ctra. de Matadepera"
+            },
+            {
+              "abbr": "tel.",
+              "term": "telèfon",
+              "example": "tel. 937 000 000"
+            }
+          ]
+        },
+        {
+          "id": "documents",
+          "title": "Documents i gestió administrativa",
+          "items": [
+            {
+              "abbr": "adm.",
+              "term": "administració",
+              "example": "Dept. d’adm."
+            },
+            {
+              "abbr": "adj.",
+              "term": "adjunt/a",
+              "example": "Doc. adj."
+            },
+            {
+              "abbr": "dept.",
+              "term": "departament",
+              "example": "dept. de Compres"
+            },
+            {
+              "abbr": "doc.",
+              "term": "document",
+              "example": "doc. núm. 18"
+            },
+            {
+              "abbr": "exp.",
+              "term": "expedient",
+              "example": "exp. 2026/184"
+            },
+            {
+              "abbr": "fra.",
+              "term": "factura",
+              "example": "fra. 2026-804"
+            },
+            {
+              "abbr": "núm.",
+              "term": "número",
+              "example": "núm. 27"
+            },
+            {
+              "abbr": "p. / pàg.",
+              "term": "pàgina",
+              "example": "pàg. 3"
+            },
+            {
+              "abbr": "ref.",
+              "term": "referència",
+              "example": "ref. LTV 1068"
+            },
+            {
+              "abbr": "p. ex.",
+              "term": "per exemple",
+              "example": "p. ex., una factura o un albarà"
+            }
+          ]
+        },
+        {
+          "id": "comercial",
+          "title": "Ús comercial i general",
+          "items": [
+            {
+              "abbr": "aprox.",
+              "term": "aproximadament",
+              "example": "termini aprox. de 15 dies"
+            },
+            {
+              "abbr": "c/c",
+              "term": "compte corrent",
+              "example": "ingrés al c/c indicat"
+            },
+            {
+              "abbr": "dte.",
+              "term": "descompte",
+              "example": "dte. comercial del 5 %"
+            },
+            {
+              "abbr": "etc.",
+              "term": "etcètera",
+              "example": "factures, albarans, comandes, etc."
+            },
+            {
+              "abbr": "obs.",
+              "term": "observació",
+              "example": "obs.: lliurament urgent"
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Fes-ne un ús selectiu: en text seguit és preferible escriure el mot complet si no hi ha una raó clara per abreujar.",
+        "Les abreviatures acaben habitualment amb punt o amb barra; si s’utilitza la barra, no s’hi afegeix punt.",
+        "Mantén un mateix criteri dins del document i evita alternar formes diferents per al mateix concepte.",
+        "No confonguis abreviatures amb sigles o símbols: són categories diferents."
+      ],
+      "source": "Generalitat de Catalunya · Abreviacions · 3a edició revisada (2021)"
+    },
+    "es": {
+      "count": 26,
+      "groups": [
+        {
+          "id": "tratamientos",
+          "title": "Tratamientos y personas",
+          "items": [
+            {
+              "abbr": "Sr.",
+              "term": "señor",
+              "example": "Sr. Oriol Camps"
+            },
+            {
+              "abbr": "Sra.",
+              "term": "señora",
+              "example": "Sra. Laia Ferrer"
+            },
+            {
+              "abbr": "Dr.",
+              "term": "doctor",
+              "example": "Dr. Jordi Mir"
+            },
+            {
+              "abbr": "Dra.",
+              "term": "doctora",
+              "example": "Dra. Marta Vives"
+            }
+          ]
+        },
+        {
+          "id": "direcciones",
+          "title": "Direcciones y contacto",
+          "items": [
+            {
+              "abbr": "A/A",
+              "term": "a la atención",
+              "example": "A/A Departamento Comercial"
+            },
+            {
+              "abbr": "c. / c/",
+              "term": "calle",
+              "example": "c. del Vall, 38"
+            },
+            {
+              "abbr": "av. / avda.",
+              "term": "avenida",
+              "example": "avda. de l’Estatut, 91"
+            },
+            {
+              "abbr": "ctra.",
+              "term": "carretera",
+              "example": "ctra. de Matadepera"
+            },
+            {
+              "abbr": "c. e.",
+              "term": "correo electrónico",
+              "example": "c. e.: administracion@empresa.es"
+            },
+            {
+              "abbr": "tel.",
+              "term": "teléfono",
+              "example": "tel. 937 000 000"
+            },
+            {
+              "abbr": "C. P.",
+              "term": "código postal",
+              "example": "C. P. 08221"
+            }
+          ]
+        },
+        {
+          "id": "documentos",
+          "title": "Documentos y gestión administrativa",
+          "items": [
+            {
+              "abbr": "admón.",
+              "term": "administración",
+              "example": "Depto. de admón."
+            },
+            {
+              "abbr": "apdo.",
+              "term": "apartado",
+              "example": "apdo. 3 del documento"
+            },
+            {
+              "abbr": "depto. / dpto.",
+              "term": "departamento",
+              "example": "dpto. de Compras"
+            },
+            {
+              "abbr": "dir.",
+              "term": "dirección",
+              "example": "dir. de entrega"
+            },
+            {
+              "abbr": "doc.",
+              "term": "documento",
+              "example": "doc. núm. 18"
+            },
+            {
+              "abbr": "fra.",
+              "term": "factura",
+              "example": "fra. 2026-804"
+            },
+            {
+              "abbr": "núm.",
+              "term": "número",
+              "example": "núm. 27"
+            },
+            {
+              "abbr": "p. / pág.",
+              "term": "página",
+              "example": "pág. 3"
+            },
+            {
+              "abbr": "art.",
+              "term": "artículo",
+              "example": "art. 5"
+            },
+            {
+              "abbr": "p. ej.",
+              "term": "por ejemplo",
+              "example": "p. ej., una factura o un albarán"
+            }
+          ]
+        },
+        {
+          "id": "comercial",
+          "title": "Uso comercial y general",
+          "items": [
+            {
+              "abbr": "aprox.",
+              "term": "aproximadamente",
+              "example": "plazo aprox. de 15 días"
+            },
+            {
+              "abbr": "atte.",
+              "term": "atentamente",
+              "example": "Atte., Departamento Comercial"
+            },
+            {
+              "abbr": "c/c",
+              "term": "cuenta corriente",
+              "example": "ingreso en la c/c indicada"
+            },
+            {
+              "abbr": "dto.",
+              "term": "descuento",
+              "example": "dto. comercial del 5 %"
+            },
+            {
+              "abbr": "etc.",
+              "term": "etcétera",
+              "example": "facturas, albaranes, pedidos, etc."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Utiliza solo las abreviaturas que aporten claridad o ahorro de espacio; no hace falta abreviar todo.",
+        "Si una entrada admite varias formas, escoge una y mantenla de forma coherente en el documento.",
+        "Las abreviaturas de tratamientos se escriben con inicial mayúscula.",
+        "No confundas abreviaturas con siglas o símbolos: se escriben y funcionan de manera diferente."
+      ],
+      "source": "Real Academia Española · El buen uso del español · Lista de abreviaturas",
+      "url": "https://www.rae.es/buen-uso-espa%C3%B1ol/lista-de-abreviaturas"
+    }
+  },
+  "sources": {
+    "letters": {
+      "ca": "Models de cartes comercials — material complementari del curs",
+      "es": "Modelos de cartas comerciales — material complementario del curso"
+    },
+    "catalanAbbreviations": "Generalitat de Catalunya, Direcció General de Política Lingüística. Abreviacions, 3a edició revisada, 2021.",
+    "spanishAbbreviations": "Real Academia Española y ASALE. El buen uso del español: lista de abreviaturas."
+  }
+}

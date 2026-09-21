@@ -17,13 +17,16 @@ for(const rel of [
   'data/study-cards-semantic-v2.json',
   'data/study-cards-traceability-v2.json',
   'data/concept-dictionary-v1.json',
-  'js/concept-dictionary.js'
+  'js/concept-dictionary.js',
+  'data/commercial-correspondence-v1.json',
+  'js/commercial-correspondence.js'
 ]){
   await access(path.join(dist,rel));
 }
 const semantic=JSON.parse(await readFile(path.join(dist,'data','study-cards-semantic-v2.json'),'utf8'));
 const traceability=JSON.parse(await readFile(path.join(dist,'data','study-cards-traceability-v2.json'),'utf8'));
 const dictionary=JSON.parse(await readFile(path.join(dist,'data','concept-dictionary-v1.json'),'utf8'));
+const correspondence=JSON.parse(await readFile(path.join(dist,'data','commercial-correspondence-v1.json'),'utf8'));
 if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
   throw new Error('Build validation failed: semantic manifest must contain 84 changes.');
 }
@@ -36,4 +39,14 @@ if(dictionary.version!==1||dictionary.count!==63||!Array.isArray(dictionary.entr
 if(!Array.isArray(dictionary.families)||dictionary.families.length!==10||dictionary.families.flatMap(family=>family.entryIds||[]).length!==63){
   throw new Error('Build validation failed: concept dictionary families are invalid.');
 }
-console.log('Static build PASS: site/ -> dist/ with semantic manifest, traceability v2 and 63-concept dictionary grouped into 10 learning families');
+if(correspondence.version!==1||!Array.isArray(correspondence.structure)||correspondence.structure.length!==10||!Array.isArray(correspondence.models)||correspondence.models.length!==8){
+  throw new Error('Build validation failed: commercial correspondence guide is invalid.');
+}
+for(const lang of ['ca','es']){
+  const abbreviations=correspondence.abbreviations?.[lang];
+  const items=abbreviations?.groups?.flatMap(group=>group.items||[])||[];
+  if(items.length<20||items.length>30||abbreviations.count!==items.length){
+    throw new Error(`Build validation failed: commercial abbreviations for ${lang} must contain 20-30 curated entries.`);
+  }
+}
+console.log('Static build PASS: site/ -> dist/ with learning tools, 63-concept dictionary and bilingual commercial correspondence guide');
