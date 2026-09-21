@@ -81,9 +81,9 @@ test('shuffleCards conserva exactament les mateixes targetes',()=>{
 });
 
 test('wrapIndex permet navegació circular',()=>{
-  assert.equal(wrapIndex(0,638),0);
-  assert.equal(wrapIndex(638,638),0);
-  assert.equal(wrapIndex(-1,638),637);
+  assert.equal(wrapIndex(0,712),0);
+  assert.equal(wrapIndex(712,712),0);
+  assert.equal(wrapIndex(-1,712),711);
 });
 
 

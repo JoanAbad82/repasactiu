@@ -1,14 +1,14 @@
 {
   "title": "Repàs Actiu — Targetes de memòria / Tarjetas de memoria — trazabilidad",
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "languages": [
     "ca",
     "es"
   ],
-  "coreCards": 596,
-  "extraCards": 42,
-  "totalCards": 638,
-  "architecture": "Las 596 tarjetas principales siguen naciendo de los bancos de preguntas, pero una capa semántica exclusiva de flashcards aplica 84 decisiones auditadas (37 REWRITE y 47 MERGE/REPLACE) sin modificar los tests. Las 42 tarjetas extra permanecen como plazas estables y pueden ser reescritas por la misma capa.",
+  "coreCards": 664,
+  "extraCards": 48,
+  "totalCards": 712,
+  "architecture": "Las 664 tarjetas principales nacen de los bancos de preguntas; la capa semántica exclusiva de flashcards mantiene las 84 decisiones auditadas históricas (37 REWRITE y 47 MERGE/REPLACE) sin modificar los tests. Las 48 tarjetas extra aportan conceptos de alto valor, seis por bloque.",
   "distribution": {
     "bloc-1": 66,
     "bloc-2": 86,
@@ -16,7 +16,8 @@
     "bloc-4": 76,
     "bloc-5": 76,
     "unitat-2-bloc-1": 156,
-    "uf0518-bloc-1": 92
+    "uf0518-bloc-1": 92,
+    "uf0518-bloc-2": 74
   },
   "policy": [
     "El catalán sigue siendo la versión académica canónica y el castellano debe conservar equivalencia semántica.",
@@ -33,7 +34,8 @@
     "B4": "Els departaments_BLOC 4.pdf",
     "B5": "5 .Organització bàsica de lEstat i la Unió Europea_BLOC_5.pdf",
     "U2B1": "Unitat 2_Lorganització dels RRHH.pdf",
-    "UF0518_B1": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf"
+    "UF0518_B1": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf",
+    "UF0518_B2": "F0518_Bloc_2_Gestio_correspondencia_i_paqueteria.pdf"
   },
   "semanticLayer": {
     "file": "site/data/study-cards-semantic-v2.json",
@@ -43,7 +45,7 @@
     "mergeReplace": 47,
     "testsUnchanged": true,
     "conceptId": "Cada tarjeta efectiva expone conceptId; las sustituciones auditadas usan IDs canónicos explícitos y el resto usa un ID determinista derivado de bloque, tema y respuesta canónica.",
-    "traceability": "Todas las tarjetas efectivas exponen sourceRef con rango de página: UF0517 core usa rangos de sección/tema, UF0518 core usa trazas por pregunta, las 42 extras conservan sus rangos y los 84 cambios auditados usan su referencia de página específica.",
+    "traceability": "Todas las tarjetas efectivas exponen sourceRef con rango de página: UF0517 core usa rangos de sección/tema, UF0518 core usa trazas por pregunta, las 48 extras conservan sus rangos y los 84 cambios auditados usan su referencia de página específica.",
     "traceabilityFile": "site/data/study-cards-traceability-v2.json"
   }
 }

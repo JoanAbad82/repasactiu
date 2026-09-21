@@ -3,12 +3,194 @@
   "title": "Operacions auxiliars de serveis administratius i generals",
   "titleEs": "Operaciones auxiliares de servicios administrativos y generales",
   "blocks": [
-    {"id":"bloc-1","unitId":"unitat-1","unitTitle":"Unitat 1 — Organització empresarial","unitTitleEs":"Unidad 1 — Organización empresarial","blockNumber":1,"title":"Entitats públiques i privades","titleEs":"Entidades públicas y privadas","file":"data/bloc_1.json","extraFile":"data/bloc_1_extra.json","additionalFiles":["data/bloc_1_expansion.json"],"translationFile":"data/i18n/es/bloc-1.json","additionalTranslationFiles":["data/i18n/es/bloc-1-expansion.json"],"memoryAidFile":"data/memory/bloc-1.json","additionalMemoryAidFiles":["data/memory/bloc-1-expansion.json"],"hardDistractorFile":"data/hard/bloc-1.json"},
-    {"id":"bloc-2","unitId":"unitat-1","unitTitle":"Unitat 1 — Organització empresarial","unitTitleEs":"Unidad 1 — Organización empresarial","blockNumber":2,"title":"Classes d’empreses, jerarquia empresarial i funció administrativa","titleEs":"Clases de empresas, jerarquía empresarial y función administrativa","file":"data/bloc_2.json","extraFile":"data/bloc_2_extra.json","additionalFiles":["data/bloc_2_expansion.json"],"translationFile":"data/i18n/es/bloc-2.json","additionalTranslationFiles":["data/i18n/es/bloc-2-expansion.json"],"memoryAidFile":"data/memory/bloc-2.json","additionalMemoryAidFiles":["data/memory/bloc-2-expansion.json"],"hardDistractorFile":"data/hard/bloc-2.json"},
-    {"id":"bloc-3","unitId":"unitat-1","unitTitle":"Unitat 1 — Organització empresarial","unitTitleEs":"Unidad 1 — Organización empresarial","blockNumber":3,"title":"Estructura de l’empresa i organigrames","titleEs":"Estructura de la empresa y organigramas","file":"data/bloc_3.json","extraFile":"data/bloc_3_extra.json","additionalFiles":["data/bloc_3_expansion.json"],"translationFile":"data/i18n/es/bloc-3.json","additionalTranslationFiles":["data/i18n/es/bloc-3-expansion.json"],"memoryAidFile":"data/memory/bloc-3.json","additionalMemoryAidFiles":["data/memory/bloc-3-expansion.json"],"hardDistractorFile":"data/hard/bloc-3.json"},
-    {"id":"bloc-4","unitId":"unitat-1","unitTitle":"Unitat 1 — Organització empresarial","unitTitleEs":"Unidad 1 — Organización empresarial","blockNumber":4,"title":"Els departaments","titleEs":"Los departamentos","file":"data/bloc_4.json","extraFile":"data/bloc_4_extra.json","additionalFiles":["data/bloc_4_expansion.json"],"translationFile":"data/i18n/es/bloc-4.json","additionalTranslationFiles":["data/i18n/es/bloc-4-expansion.json"],"memoryAidFile":"data/memory/bloc-4.json","additionalMemoryAidFiles":["data/memory/bloc-4-expansion.json"],"hardDistractorFile":"data/hard/bloc-4.json"},
-    {"id":"bloc-5","unitId":"unitat-1","unitTitle":"Unitat 1 — Organització empresarial","unitTitleEs":"Unidad 1 — Organización empresarial","blockNumber":5,"title":"Organització de l’Estat i la Unió Europea","titleEs":"Organización del Estado y la Unión Europea","file":"data/bloc_5.json","extraFile":"data/bloc_5_extra.json","additionalFiles":["data/bloc_5_expansion.json"],"translationFile":"data/i18n/es/bloc-5.json","additionalTranslationFiles":["data/i18n/es/bloc-5-expansion.json"],"memoryAidFile":"data/memory/bloc-5.json","additionalMemoryAidFiles":["data/memory/bloc-5-expansion.json"],"hardDistractorFile":"data/hard/bloc-5.json"},
-    {"id":"unitat-2-bloc-1","unitId":"unitat-2","unitTitle":"Unitat 2 — L’organització dels recursos humans","unitTitleEs":"Unidad 2 — La organización de los recursos humanos","blockNumber":1,"title":"L’organització d’activitats de suport administratiu","titleEs":"La organización de actividades de apoyo administrativo","file":"data/unitat_2_bloc_1.json","extraFile":"data/unitat_2_bloc_1_extra.json","additionalFiles":["data/unitat_2_bloc_1_expansion.json"],"translationFile":"data/i18n/es/unitat-2-bloc-1.json","additionalTranslationFiles":["data/i18n/es/unitat-2-bloc-1-expansion.json"],"memoryAidFile":"data/memory/unitat-2-bloc-1.json","additionalMemoryAidFiles":["data/memory/unitat-2-bloc-1-expansion.json"],"hardDistractorFile":"data/hard/unitat-2-bloc-1.json"},
-    {"id":"uf0518-bloc-1","unitId":"uf0518","unitTitle":"UF0518 — Gestió auxiliar de la correspondència i paqueteria a l’empresa","unitTitleEs":"UF0518 — Gestión auxiliar de la correspondencia y paquetería en la empresa","blockNumber":1,"title":"La comunicació escrita, cartes comercials i documents administratius","titleEs":"La comunicación escrita, cartas comerciales y documentos administrativos","file":"data/uf0518_bloc_1.json","additionalFiles":["data/uf0518_bloc_1_part2.json","data/uf0518_bloc_1_part3.json","data/uf0518_bloc_1_part4.json"],"translationFile":"data/i18n/es/uf0518-bloc-1.json","additionalTranslationFiles":["data/i18n/es/uf0518-bloc-1-part2.json","data/i18n/es/uf0518-bloc-1-part3.json","data/i18n/es/uf0518-bloc-1-part4.json"],"memoryAidFile":"data/memory/uf0518-bloc-1.json","additionalMemoryAidFiles":["data/memory/uf0518-bloc-1-part2.json","data/memory/uf0518-bloc-1-part3.json","data/memory/uf0518-bloc-1-part4.json"],"hardDistractorFile":"data/hard/uf0518-bloc-1.json"}
+    {
+      "id": "bloc-1",
+      "unitId": "unitat-1",
+      "unitTitle": "Unitat 1 — Organització empresarial",
+      "unitTitleEs": "Unidad 1 — Organización empresarial",
+      "blockNumber": 1,
+      "title": "Entitats públiques i privades",
+      "titleEs": "Entidades públicas y privadas",
+      "file": "data/bloc_1.json",
+      "extraFile": "data/bloc_1_extra.json",
+      "additionalFiles": [
+        "data/bloc_1_expansion.json"
+      ],
+      "translationFile": "data/i18n/es/bloc-1.json",
+      "additionalTranslationFiles": [
+        "data/i18n/es/bloc-1-expansion.json"
+      ],
+      "memoryAidFile": "data/memory/bloc-1.json",
+      "additionalMemoryAidFiles": [
+        "data/memory/bloc-1-expansion.json"
+      ],
+      "hardDistractorFile": "data/hard/bloc-1.json"
+    },
+    {
+      "id": "bloc-2",
+      "unitId": "unitat-1",
+      "unitTitle": "Unitat 1 — Organització empresarial",
+      "unitTitleEs": "Unidad 1 — Organización empresarial",
+      "blockNumber": 2,
+      "title": "Classes d’empreses, jerarquia empresarial i funció administrativa",
+      "titleEs": "Clases de empresas, jerarquía empresarial y función administrativa",
+      "file": "data/bloc_2.json",
+      "extraFile": "data/bloc_2_extra.json",
+      "additionalFiles": [
+        "data/bloc_2_expansion.json"
+      ],
+      "translationFile": "data/i18n/es/bloc-2.json",
+      "additionalTranslationFiles": [
+        "data/i18n/es/bloc-2-expansion.json"
+      ],
+      "memoryAidFile": "data/memory/bloc-2.json",
+      "additionalMemoryAidFiles": [
+        "data/memory/bloc-2-expansion.json"
+      ],
+      "hardDistractorFile": "data/hard/bloc-2.json"
+    },
+    {
+      "id": "bloc-3",
+      "unitId": "unitat-1",
+      "unitTitle": "Unitat 1 — Organització empresarial",
+      "unitTitleEs": "Unidad 1 — Organización empresarial",
+      "blockNumber": 3,
+      "title": "Estructura de l’empresa i organigrames",
+      "titleEs": "Estructura de la empresa y organigramas",
+      "file": "data/bloc_3.json",
+      "extraFile": "data/bloc_3_extra.json",
+      "additionalFiles": [
+        "data/bloc_3_expansion.json"
+      ],
+      "translationFile": "data/i18n/es/bloc-3.json",
+      "additionalTranslationFiles": [
+        "data/i18n/es/bloc-3-expansion.json"
+      ],
+      "memoryAidFile": "data/memory/bloc-3.json",
+      "additionalMemoryAidFiles": [
+        "data/memory/bloc-3-expansion.json"
+      ],
+      "hardDistractorFile": "data/hard/bloc-3.json"
+    },
+    {
+      "id": "bloc-4",
+      "unitId": "unitat-1",
+      "unitTitle": "Unitat 1 — Organització empresarial",
+      "unitTitleEs": "Unidad 1 — Organización empresarial",
+      "blockNumber": 4,
+      "title": "Els departaments",
+      "titleEs": "Los departamentos",
+      "file": "data/bloc_4.json",
+      "extraFile": "data/bloc_4_extra.json",
+      "additionalFiles": [
+        "data/bloc_4_expansion.json"
+      ],
+      "translationFile": "data/i18n/es/bloc-4.json",
+      "additionalTranslationFiles": [
+        "data/i18n/es/bloc-4-expansion.json"
+      ],
+      "memoryAidFile": "data/memory/bloc-4.json",
+      "additionalMemoryAidFiles": [
+        "data/memory/bloc-4-expansion.json"
+      ],
+      "hardDistractorFile": "data/hard/bloc-4.json"
+    },
+    {
+      "id": "bloc-5",
+      "unitId": "unitat-1",
+      "unitTitle": "Unitat 1 — Organització empresarial",
+      "unitTitleEs": "Unidad 1 — Organización empresarial",
+      "blockNumber": 5,
+      "title": "Organització de l’Estat i la Unió Europea",
+      "titleEs": "Organización del Estado y la Unión Europea",
+      "file": "data/bloc_5.json",
+      "extraFile": "data/bloc_5_extra.json",
+      "additionalFiles": [
+        "data/bloc_5_expansion.json"
+      ],
+      "translationFile": "data/i18n/es/bloc-5.json",
+      "additionalTranslationFiles": [
+        "data/i18n/es/bloc-5-expansion.json"
+      ],
+      "memoryAidFile": "data/memory/bloc-5.json",
+      "additionalMemoryAidFiles": [
+        "data/memory/bloc-5-expansion.json"
+      ],
+      "hardDistractorFile": "data/hard/bloc-5.json"
+    },
+    {
+      "id": "unitat-2-bloc-1",
+      "unitId": "unitat-2",
+      "unitTitle": "Unitat 2 — L’organització dels recursos humans",
+      "unitTitleEs": "Unidad 2 — La organización de los recursos humanos",
+      "blockNumber": 1,
+      "title": "L’organització d’activitats de suport administratiu",
+      "titleEs": "La organización de actividades de apoyo administrativo",
+      "file": "data/unitat_2_bloc_1.json",
+      "extraFile": "data/unitat_2_bloc_1_extra.json",
+      "additionalFiles": [
+        "data/unitat_2_bloc_1_expansion.json"
+      ],
+      "translationFile": "data/i18n/es/unitat-2-bloc-1.json",
+      "additionalTranslationFiles": [
+        "data/i18n/es/unitat-2-bloc-1-expansion.json"
+      ],
+      "memoryAidFile": "data/memory/unitat-2-bloc-1.json",
+      "additionalMemoryAidFiles": [
+        "data/memory/unitat-2-bloc-1-expansion.json"
+      ],
+      "hardDistractorFile": "data/hard/unitat-2-bloc-1.json"
+    },
+    {
+      "id": "uf0518-bloc-1",
+      "unitId": "uf0518",
+      "unitTitle": "UF0518 — Gestió auxiliar de la correspondència i paqueteria a l’empresa",
+      "unitTitleEs": "UF0518 — Gestión auxiliar de la correspondencia y paquetería en la empresa",
+      "blockNumber": 1,
+      "title": "La comunicació escrita, cartes comercials i documents administratius",
+      "titleEs": "La comunicación escrita, cartas comerciales y documentos administrativos",
+      "file": "data/uf0518_bloc_1.json",
+      "additionalFiles": [
+        "data/uf0518_bloc_1_part2.json",
+        "data/uf0518_bloc_1_part3.json",
+        "data/uf0518_bloc_1_part4.json"
+      ],
+      "translationFile": "data/i18n/es/uf0518-bloc-1.json",
+      "additionalTranslationFiles": [
+        "data/i18n/es/uf0518-bloc-1-part2.json",
+        "data/i18n/es/uf0518-bloc-1-part3.json",
+        "data/i18n/es/uf0518-bloc-1-part4.json"
+      ],
+      "memoryAidFile": "data/memory/uf0518-bloc-1.json",
+      "additionalMemoryAidFiles": [
+        "data/memory/uf0518-bloc-1-part2.json",
+        "data/memory/uf0518-bloc-1-part3.json",
+        "data/memory/uf0518-bloc-1-part4.json"
+      ],
+      "hardDistractorFile": "data/hard/uf0518-bloc-1.json"
+    },
+    {
+      "id": "uf0518-bloc-2",
+      "unitId": "uf0518",
+      "unitTitle": "UF0518 — Gestió auxiliar de la correspondència i paqueteria a l’empresa",
+      "unitTitleEs": "UF0518 — Gestión auxiliar de la correspondencia y paquetería en la empresa",
+      "blockNumber": 2,
+      "title": "Gestió de les operacions de distribució de la correspondència i paqueteria",
+      "titleEs": "Gestión de las operaciones de distribución de la correspondencia y paquetería",
+      "file": "data/uf0518_bloc_2.json",
+      "additionalFiles": [
+        "data/uf0518_bloc_2_part2.json",
+        "data/uf0518_bloc_2_part3.json",
+        "data/uf0518_bloc_2_part4.json"
+      ],
+      "translationFile": "data/i18n/es/uf0518-bloc-2.json",
+      "additionalTranslationFiles": [
+        "data/i18n/es/uf0518-bloc-2-part2.json",
+        "data/i18n/es/uf0518-bloc-2-part3.json",
+        "data/i18n/es/uf0518-bloc-2-part4.json"
+      ],
+      "memoryAidFile": "data/memory/uf0518-bloc-2.json",
+      "hardDistractorFile": "data/hard/uf0518-bloc-2.json"
+    }
   ]
 }

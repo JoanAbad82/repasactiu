@@ -1,18 +1,18 @@
 import {test,expect} from '@playwright/test';
 
-test('Tarjetas de memoria mostra selector bilingüe amb 638 targetes',async({page})=>{
+test('Tarjetas de memoria mostra selector bilingüe amb 712 targetes',async({page})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await expect(page.locator('html')).toHaveAttribute('lang','ca');
   await expect(page.getByRole('heading',{name:'Targetes de memòria'})).toBeVisible();
-  await expect(page.getByText('638 targetes disponibles')).toBeVisible();
-  await expect(page.locator('[data-study-block]')).toHaveCount(7);
+  await expect(page.getByText('712 targetes disponibles')).toBeVisible();
+  await expect(page.locator('[data-study-block]')).toHaveCount(8);
   await expect(page.locator('[data-study-unit="unitat-1"] h2')).toHaveText('Unitat 1 — Organització empresarial');
 
   await page.locator('#language-es').click();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.getByRole('heading',{name:'Tarjetas de memoria'})).toBeVisible();
-  await expect(page.getByText('638 tarjetas disponibles')).toBeVisible();
+  await expect(page.getByText('712 tarjetas disponibles')).toBeVisible();
   await expect(page.locator('[data-study-unit="unitat-1"] h2')).toHaveText('Unidad 1 — Organización empresarial');
 });
 
@@ -21,21 +21,21 @@ test('els recomptes per bloc inclouen test + extra',async({page})=>{
   await page.getByRole('button',{name:'Targetes de memòria'}).click();
   const expected={
     'bloc-1':'66','bloc-2':'86','bloc-3':'86','bloc-4':'76','bloc-5':'76',
-    'unitat-2-bloc-1':'156','uf0518-bloc-1':'92'
+    'unitat-2-bloc-1':'156','uf0518-bloc-1':'92','uf0518-bloc-2':'74'
   };
   for(const [id,count] of Object.entries(expected)){
     await expect(page.locator('[data-study-block="'+id+'"] [data-study-count]')).toHaveText(count);
   }
 });
 
-test('Tot el temari selecciona 638 targetes i inicia una baralla mixta',async({page})=>{
+test('Tot el temari selecciona 712 targetes i inicia una baralla mixta',async({page})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await page.getByRole('button',{name:'Tot el temari'}).click();
-  await expect(page.locator('#study-selected-count')).toHaveText('638');
+  await expect(page.locator('#study-selected-count')).toHaveText('712');
   await page.getByRole('button',{name:'Començar repàs'}).click();
   await expect(page.locator('[data-study-card]')).toHaveCount(1);
-  await expect(page.locator('#study-card-progress')).toHaveText('1 / 638');
+  await expect(page.locator('#study-card-progress')).toHaveText('1 / 712');
   await expect(page.getByRole('button',{name:'Barrejar'})).toBeVisible();
 });
 
@@ -59,6 +59,16 @@ test('seleccionar una unitat marca tots els seus blocs',async({page})=>{
   for(const id of ['bloc-1','bloc-2','bloc-3','bloc-4','bloc-5']){
     await expect(page.locator('[data-study-block="'+id+'"] input')).toBeChecked();
   }
+});
+
+
+test('seleccionar UF0518 agrupa els dos blocs en una baralla de 166 targetes',async({page})=>{
+  await page.goto('/');
+  await page.getByRole('button',{name:'Targetes de memòria'}).click();
+  await page.getByRole('button',{name:'Seleccionar UF0518 — Gestió auxiliar de la correspondència i paqueteria a l’empresa'}).click();
+  await expect(page.locator('#study-selected-count')).toHaveText('166');
+  await expect(page.locator('[data-study-block="uf0518-bloc-1"] input')).toBeChecked();
+  await expect(page.locator('[data-study-block="uf0518-bloc-2"] input')).toBeChecked();
 });
 
 test('la flashcard mostra pregunta, resposta i mnemotècnia en català',async({page})=>{

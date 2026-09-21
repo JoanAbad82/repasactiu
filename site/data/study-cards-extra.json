@@ -32,6 +32,10 @@
     "UF0518_B1": {
       "file": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf",
       "pages": 28
+    },
+    "UF0518_B2": {
+      "file": "F0518_Bloc_2_Gestio_correspondencia_i_paqueteria.pdf",
+      "pages": 39
     }
   },
   "cards": [
@@ -916,6 +920,132 @@
           18
         ]
       }
+    },
+    {
+      "id": "sc-uf2-01",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          3,
+          3
+        ]
+      },
+      "ca": {
+        "question": "Quins cinc passos resumeixen el circuit complet de correspondència i paqueteria?",
+        "answer": "Identificar, registrar, distribuir, preparar la sortida i conservar evidències.",
+        "mnemonic": "I-R-D-P-E: identifica, registra, distribueix, prepara, evidencia."
+      },
+      "es": {
+        "question": "¿Qué cinco pasos resumen el circuito completo de correspondencia y paquetería?",
+        "answer": "Identificar, registrar, distribuir, preparar la salida y conservar evidencias.",
+        "mnemonic": "I-R-D-P-E: identifica, registra, distribuye, prepara, evidencia."
+      }
+    },
+    {
+      "id": "sc-uf2-02",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          6,
+          6
+        ]
+      },
+      "ca": {
+        "question": "Quina idea guia la classificació d’un enviament més enllà de saber què és?",
+        "answer": "Decidir què cal fer amb l’enviament segons departament, urgència, confidencialitat, format o resposta.",
+        "mnemonic": "Classificar = decidir l’acció següent."
+      },
+      "es": {
+        "question": "¿Qué idea guía la clasificación de un envío más allá de saber qué es?",
+        "answer": "Decidir qué hacer con el envío según departamento, urgencia, confidencialidad, formato o respuesta.",
+        "mnemonic": "Clasificar = decidir la acción siguiente."
+      }
+    },
+    {
+      "id": "sc-uf2-03",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "question": "Quines tres proves pot caldre conservar en un burofax?",
+        "answer": "La tramesa, el contingut i el lliurament.",
+        "mnemonic": "T-C-L: tramesa, contingut, lliurament."
+      },
+      "es": {
+        "question": "¿Qué tres pruebas puede ser necesario conservar en un burofax?",
+        "answer": "El envío, el contenido y la entrega.",
+        "mnemonic": "E-C-L: envío, contenido, entrega."
+      }
+    },
+    {
+      "id": "sc-uf2-04",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          13,
+          13
+        ]
+      },
+      "ca": {
+        "question": "Com es diferencien els tres nivells d’embalatge?",
+        "answer": "Primari: contacte directe; secundari: agrupa primaris; terciari: transport i grans quantitats.",
+        "mnemonic": "P-S-T = producte, suma, transport."
+      },
+      "es": {
+        "question": "¿Cómo se diferencian los tres niveles de embalaje?",
+        "answer": "Primario: contacto directo; secundario: agrupa primarios; terciario: transporte y grandes cantidades.",
+        "mnemonic": "P-S-T = producto, suma, transporte."
+      }
+    },
+    {
+      "id": "sc-uf2-05",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "question": "Quina triple comprovació resumeix la seguretat abans d’enviar un correu?",
+        "answer": "A qui l’envio, què envio i amb quin adjunt.",
+        "mnemonic": "Qui + què + adjunt."
+      },
+      "es": {
+        "question": "¿Qué triple comprobación resume la seguridad antes de enviar un correo?",
+        "answer": "A quién lo envío, qué envío y con qué adjunto.",
+        "mnemonic": "Quién + qué + adjunto."
+      }
+    },
+    {
+      "id": "sc-uf2-06",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          33,
+          33
+        ]
+      },
+      "ca": {
+        "question": "Quina regla operativa resumeix la protecció de dades en la correspondència?",
+        "answer": "Accés mínim, temps mínim i dades mínimes.",
+        "mnemonic": "Tres mínims: accés, temps i dades."
+      },
+      "es": {
+        "question": "¿Qué regla operativa resume la protección de datos en la correspondencia?",
+        "answer": "Acceso mínimo, tiempo mínimo y datos mínimos.",
+        "mnemonic": "Tres mínimos: acceso, tiempo y datos."
+      }
     }
   ],
   "coreOverrides": {
@@ -1421,6 +1551,22 @@
       "es": {
         "question": "¿Qué tipo de norma de la UE fija objetivos que el Estado debe incorporar a su ordenamiento interno y cómo se llama ese proceso?",
         "answer": "Una directiva; el proceso se llama transposición"
+      }
+    },
+    "uf0518-b2-030": {
+      "ca": {
+        "question": "Segons el temari, quins criteris s’han de considerar per triar el material d’embalatge?"
+      },
+      "es": {
+        "question": "Según el material, ¿qué criterios deben considerarse para elegir el material de embalaje?"
+      }
+    },
+    "uf0518-b2-051": {
+      "ca": {
+        "question": "Com descriu el material la situació actual del fax o telefax?"
+      },
+      "es": {
+        "question": "¿Cómo describe el material la situación actual del fax o telefax?"
       }
     }
   }

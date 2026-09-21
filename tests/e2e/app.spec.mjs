@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
 
 async function waitForHomeReady(page){
-  await expect(page.getByText('596 preguntes')).toBeVisible();
+  await expect(page.getByText('664 preguntes')).toBeVisible();
 }
 
-test('la portada mostra UF0517, UF0518 i 596 preguntes', async ({ page }) => {
+test('la portada mostra UF0517, UF0518 i 664 preguntes', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByText('Repàs Actiu').first()).toBeVisible();
   await expect(page.getByText('Operacions auxiliars de serveis administratius i generals')).toBeVisible();
@@ -12,8 +12,8 @@ test('la portada mostra UF0517, UF0518 i 596 preguntes', async ({ page }) => {
   await expect(page.getByText('Unitat 2 — L’organització dels recursos humans')).toBeVisible();
   await expect(page.getByText('UF0518 — Gestió auxiliar de la correspondència i paqueteria a l’empresa')).toBeVisible();
   await expect(page.locator('[data-unit-group]')).toHaveCount(3);
-  await expect(page.locator('[data-block-card]')).toHaveCount(8);
-  await expect(page.getByText('596 preguntes')).toBeVisible();
+  await expect(page.locator('[data-block-card]')).toHaveCount(9);
+  await expect(page.getByText('664 preguntes')).toBeVisible();
   await expect(page.locator('[data-selection="bloc-1"]')).toContainText('60 preguntes');
   await expect(page.locator('[data-selection="bloc-2"]')).toContainText('80 preguntes');
   await expect(page.locator('[data-selection="bloc-3"]')).toContainText('80 preguntes');
@@ -21,6 +21,7 @@ test('la portada mostra UF0517, UF0518 i 596 preguntes', async ({ page }) => {
   await expect(page.locator('[data-selection="bloc-5"]')).toContainText('70 preguntes');
   await expect(page.locator('[data-selection="unitat-2-bloc-1"]')).toContainText('150 preguntes');
   await expect(page.locator('[data-selection="uf0518-bloc-1"]')).toContainText('86 preguntes');
+  await expect(page.locator('[data-selection="uf0518-bloc-2"]')).toContainText('68 preguntes');
   await expect(page.locator('[href*="openutilitylab"]')).toHaveCount(0);
 });
 
@@ -35,11 +36,11 @@ test('tota la interfície canvia a castellà i la preferència persisteix', asyn
   await expect(page.getByText('Unidad 1 — Organización empresarial')).toBeVisible();
   await expect(page.getByText('Unidad 2 — La organización de los recursos humanos')).toBeVisible();
   await expect(page.getByText('UF0518 — Gestión auxiliar de la correspondencia y paquetería en la empresa')).toBeVisible();
-  await expect(page.getByText('596 preguntas')).toBeVisible();
+  await expect(page.getByText('664 preguntas')).toBeVisible();
   await expect(page.getByRole('button',{name:'Temario',exact:true})).toBeVisible();
   await expect(page.getByRole('button',{name:'Repasar errores',exact:true})).toBeVisible();
   await page.reload();
-  await expect(page.getByText('596 preguntas')).toBeVisible();
+  await expect(page.getByText('664 preguntas')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.locator('#language-es')).toHaveAttribute('aria-pressed','true');
 });
@@ -103,6 +104,22 @@ test('UF0518 funciona en català i conserva l’alineació en canviar a castell�
   await expect(page.locator('#study-feedback')).toContainText(/Respuesta correcta|Respuesta incorrecta/);
   await expect(page.locator('.memory-aid strong')).toHaveText(/Ejemplo para recordar|Idea para recordar/);
   await expect(page.locator('.memory-aid p')).not.toHaveText('');
+});
+
+
+test('UF0518 Bloc 2 es pot practicar de manera independent', async ({ page }) => {
+  await page.goto('/');
+  await waitForHomeReady(page);
+  await page.locator('[data-selection="uf0518-bloc-2"]').click();
+  await expect(page.locator('#setup-screen .eyebrow')).toContainText('Bloc 2');
+  await page.getByLabel('Mode Estudi').check();
+  await page.getByLabel('10 preguntes').check();
+  await page.getByRole('button',{name:'Començar'}).click();
+  await expect(page.locator('[data-answer-option]')).toHaveCount(4);
+  await page.locator('[data-answer-option]').first().click();
+  await expect(page.locator('.memory-aid')).toBeVisible();
+  await page.locator('#language-es').click();
+  await expect(page.locator('#study-feedback')).toContainText(/Respuesta correcta|Respuesta incorrecta/);
 });
 
 test('el canvi d’idioma durant un test conserva la resposta seleccionada', async ({ page }) => {
@@ -184,7 +201,7 @@ test('el mode de color es conserva després de recarregar', async ({ page }) => 
   const after = await page.locator('html').getAttribute('data-theme');
   expect(after).not.toBe(before);
   await page.reload();
-  await expect(page.getByText('596 preguntes')).toBeVisible();
+  await expect(page.getByText('664 preguntes')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('data-theme', after);
 });
 
