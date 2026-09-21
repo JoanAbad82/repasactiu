@@ -1552,6 +1552,14 @@
         "question": "¿Qué tipo de norma de la UE fija objetivos que el Estado debe incorporar a su ordenamiento interno y cómo se llama ese proceso?",
         "answer": "Una directiva; el proceso se llama transposición"
       }
+    },
+    "uf0518-b2-030": {
+      "ca": {
+        "question": "Segons el temari, quins criteris s’han de considerar per triar el material d’embalatge?"
+      },
+      "es": {
+        "question": "Según el material, ¿qué criterios deben considerarse para elegir el material de embalaje?"
+      }
     }
   }
 }
