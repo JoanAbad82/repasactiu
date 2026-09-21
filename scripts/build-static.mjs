@@ -30,10 +30,10 @@ if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
 if(traceability.version!==2||!traceability.topicRanges||!traceability.questionRanges){
   throw new Error('Build validation failed: traceability v2 is invalid.');
 }
-if(dictionary.version!==1||dictionary.count!==54||!Array.isArray(dictionary.entries)||dictionary.entries.length!==54){
+if(dictionary.version!==1||dictionary.count!==63||!Array.isArray(dictionary.entries)||dictionary.entries.length!==63){
   throw new Error('Build validation failed: concept dictionary v1 is invalid.');
 }
-if(!Array.isArray(dictionary.families)||dictionary.families.length!==9||dictionary.families.flatMap(family=>family.entryIds||[]).length!==54){
+if(!Array.isArray(dictionary.families)||dictionary.families.length!==10||dictionary.families.flatMap(family=>family.entryIds||[]).length!==63){
   throw new Error('Build validation failed: concept dictionary families are invalid.');
 }
-console.log('Static build PASS: site/ -> dist/ with semantic manifest, traceability v2 and 54-concept dictionary grouped into 9 learning families');
+console.log('Static build PASS: site/ -> dist/ with semantic manifest, traceability v2 and 63-concept dictionary grouped into 10 learning families');
