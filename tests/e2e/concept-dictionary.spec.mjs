@@ -1,13 +1,13 @@
 import {test,expect} from '@playwright/test';
 
-test('el diccionari mostra 54 conceptes agrupats en 9 famílies pedagògiques',async({page})=>{
+test('el diccionari mostra 63 conceptes agrupats en 10 famílies pedagògiques',async({page})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Diccionari',exact:true}).click();
   await expect(page.getByRole('heading',{name:'Diccionari de conceptes clau'})).toBeVisible();
-  await expect(page.locator('[data-concept-id]')).toHaveCount(54);
-  await expect(page.locator('[data-concept-family]')).toHaveCount(9);
-  await expect(page.locator('[data-dictionary-count]')).toHaveText('54');
-  await expect(page.getByText('54 conceptes')).toBeVisible();
+  await expect(page.locator('[data-concept-id]')).toHaveCount(63);
+  await expect(page.locator('[data-concept-family]')).toHaveCount(10);
+  await expect(page.locator('[data-dictionary-count]')).toHaveText('63');
+  await expect(page.getByText('63 conceptes')).toBeVisible();
 });
 
 test('l’ordre inicial és conceptual i manté junts els conceptes relacionats',async({page})=>{
@@ -76,6 +76,18 @@ test('el diccionari mostra la traçabilitat de pàgina',async({page})=>{
   await page.getByRole('button',{name:'Diccionari',exact:true}).click();
   await page.locator('[data-dictionary-search]').fill('transposició');
   await expect(page.locator('[data-concept-id="b5-transposicio"] .concept-source')).toHaveText('B5 · p. 19');
+});
+
+
+test('el nou bloc UF0518 B2 aporta 9 conceptes connectats en dues famílies',async({page})=>{
+  await page.goto('/');
+  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('[data-dictionary-filter]').selectOption('uf0518-bloc-2');
+  await expect(page.locator('[data-concept-id]')).toHaveCount(9);
+  await expect(page.locator('[data-dictionary-count]')).toHaveText('9');
+  await expect(page.locator('[data-concept-family="written-communication"] [data-concept-id="uf2-cc-cco"]')).toBeVisible();
+  await expect(page.locator('[data-concept-family="correspondence-shipping-security"] [data-concept-id]')).toHaveCount(8);
+  await expect(page.locator('[data-concept-id="uf2-tracabilitat"]')).toContainText('Traçabilitat');
 });
 
 test('el diccionari no desborda en mòbil',async({browser})=>{
