@@ -14,11 +14,12 @@ const expected={
   'bloc-4':{count:70,last:'b4-070'},
   'bloc-5':{count:70,last:'b5-070'},
   'unitat-2-bloc-1':{count:150,last:'u2b1-150'},
-  'uf0518-bloc-1':{count:86,last:'uf0518-b1-086'}
+  'uf0518-bloc-1':{count:86,last:'uf0518-b1-086'},
+  'uf0518-bloc-2':{count:68,last:'uf0518-b2-068'}
 };
 const readData=async p=>JSON.parse(await readFile(path.join(dataDir,p.replace(/^data\//,'')),'utf8'));
 
-test('l ampliació publica 596 preguntes amb 10 de noves a cada bloc',async()=>{
+test('el catàleg publica 664 preguntes amb el nou UF0518 Bloc 2',async()=>{
   let total=0;
   for(const block of course.blocks){
     const questions=[];
@@ -30,10 +31,10 @@ test('l ampliació publica 596 preguntes amb 10 de noves a cada bloc',async()=>{
     assert.ok(questions.some(q=>q.id===expected[block.id].last),`${block.id}: falta ${expected[block.id].last}`);
     total+=questions.length;
   }
-  assert.equal(total,596);
+  assert.equal(total,664);
 });
 
-test('les 70 preguntes noves també existeixen al Mode Examen difícil',async()=>{
+test('totes les preguntes publicades existeixen també al Mode Examen difícil',async()=>{
   for(const block of course.blocks){
     const hard=await readData(block.hardDistractorFile);
     assert.equal(Object.keys(hard.questions).length,expected[block.id].count,block.id);
