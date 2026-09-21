@@ -95,7 +95,7 @@ test('el diccionari no desborda en mòbil',async({browser})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Diccionari',exact:true}).click();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
-  await expect(page.locator('[data-concept-family]')).toHaveCount(9);
+  await expect(page.locator('[data-concept-family]')).toHaveCount(10);
   await page.locator('[data-dictionary-search]').fill('sinergia');
   await expect(page.locator('[data-concept-id]')).toHaveCount(1);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
