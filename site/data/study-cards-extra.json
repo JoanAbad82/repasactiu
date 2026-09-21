@@ -1560,6 +1560,14 @@
       "es": {
         "question": "Según el material, ¿qué criterios deben considerarse para elegir el material de embalaje?"
       }
+    },
+    "uf0518-b2-051": {
+      "ca": {
+        "question": "Com descriu el material la situació actual del fax o telefax?"
+      },
+      "es": {
+        "question": "¿Cómo describe el material la situación actual del fax o telefax?"
+      }
     }
   }
 }
