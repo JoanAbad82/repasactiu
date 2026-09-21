@@ -6,7 +6,7 @@ const course=JSON.parse(await readFile(new URL('../../site/data/course.json',imp
 const pkg=JSON.parse(await readFile(new URL('../../package.json',import.meta.url),'utf8'));
 
 test('tots els blocs declaren exactament un overlay de distractors difícils',()=>{
-  assert.equal(course.blocks.length,7);
+  assert.equal(course.blocks.length,8);
   for(const block of course.blocks){
     assert.match(block.hardDistractorFile||'',/^data\/hard\/.+\.json$/);
   }
