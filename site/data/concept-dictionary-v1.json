@@ -6,7 +6,7 @@
     "ca",
     "es"
   ],
-  "count": 54,
+  "count": 63,
   "groups": [
     {
       "id": "bloc-1",
@@ -42,6 +42,11 @@
       "id": "uf0518-bloc-1",
       "ca": "UF0518 — Comunicació escrita",
       "es": "UF0518 — Comunicación escrita"
+    },
+    {
+      "id": "uf0518-bloc-2",
+      "ca": "UF0518 · Bloc 2 — Distribució de correspondència i paqueteria",
+      "es": "UF0518 · Bloque 2 — Distribución de correspondencia y paquetería"
     }
   ],
   "entries": [
@@ -1178,6 +1183,195 @@
         "definition": "EXPONGO recoge los hechos y antecedentes; SOLICITO formula la petición concreta.",
         "memory": "EXPONGO = qué ha pasado; SOLICITO = qué pido."
       }
+    },
+    {
+      "id": "uf2-tracabilitat",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          3,
+          3
+        ]
+      },
+      "ca": {
+        "term": "Traçabilitat",
+        "definition": "Capacitat de seguir el recorregut d’un document o enviament i conservar-ne constància durant el circuit.",
+        "memory": "Traçable = poder saber per on ha passat i què se n’ha fet."
+      },
+      "es": {
+        "term": "Trazabilidad",
+        "definition": "Capacidad de seguir el recorrido de un documento o envío y conservar constancia durante el circuito.",
+        "memory": "Trazable = poder saber por dónde ha pasado y qué se ha hecho con él."
+      }
+    },
+    {
+      "id": "uf2-registre-entrada-sortida",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          37,
+          37
+        ]
+      },
+      "ca": {
+        "term": "Registre d’entrada vs. registre de sortida",
+        "definition": "El d’entrada deixa constància del que arriba; el de sortida, del que s’envia. Tots dos faciliten terminis, localització i prova.",
+        "memory": "Entrada = arriba; sortida = s’envia; registre = queda constància."
+      },
+      "es": {
+        "term": "Registro de entrada vs. registro de salida",
+        "definition": "El de entrada deja constancia de lo que llega; el de salida, de lo que se envía. Ambos facilitan plazos, localización y prueba.",
+        "memory": "Entrada = llega; salida = se envía; registro = queda constancia."
+      }
+    },
+    {
+      "id": "uf2-embalatge-empaquetatge",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          13,
+          13
+        ]
+      },
+      "ca": {
+        "term": "Embalatge vs. empaquetatge",
+        "definition": "L’embalatge protegeix el producte; l’empaquetatge prepara l’enviament concret amb material, protecció, tancament, etiqueta i registre.",
+        "memory": "Embalatge = protegir; empaquetatge = preparar per enviar."
+      },
+      "es": {
+        "term": "Embalaje vs. empaquetado",
+        "definition": "El embalaje protege el producto; el empaquetado prepara el envío concreto con material, protección, cierre, etiqueta y registro.",
+        "memory": "Embalaje = proteger; empaquetado = preparar para enviar."
+      }
+    },
+    {
+      "id": "uf2-carta-ordinaria-certificada",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          23,
+          23
+        ]
+      },
+      "ca": {
+        "term": "Carta ordinària vs. carta certificada",
+        "definition": "L’ordinària no té seguiment individualitzat ni prova de lliurament; la certificada té admissió registrada, seguiment i lliurament sota signatura.",
+        "memory": "Ordinària = sense prova individual; certificada = registre + seguiment + signatura."
+      },
+      "es": {
+        "term": "Carta ordinaria vs. carta certificada",
+        "definition": "La ordinaria no tiene seguimiento individualizado ni prueba de entrega; la certificada tiene admisión registrada, seguimiento y entrega bajo firma.",
+        "memory": "Ordinaria = sin prueba individual; certificada = registro + seguimiento + firma."
+      }
+    },
+    {
+      "id": "uf2-burofax-valor-probatori",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "term": "Burofax i valor probatori",
+        "definition": "El burofax permet conservar constància de la tramesa; per acreditar el text exacte cal còpia certificada del contingut i, per al lliurament, la prova corresponent.",
+        "memory": "Burofax: decideix què vols provar — tramesa, contingut i/o lliurament."
+      },
+      "es": {
+        "term": "Burofax y valor probatorio",
+        "definition": "El burofax permite conservar constancia del envío; para acreditar el texto exacto hace falta copia certificada del contenido y, para la entrega, la prueba correspondiente.",
+        "memory": "Burofax: decide qué quieres probar — envío, contenido y/o entrega."
+      }
+    },
+    {
+      "id": "uf2-asseguranca-valor-declarat",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          22,
+          22
+        ]
+      },
+      "ca": {
+        "term": "Assegurança vs. valor declarat",
+        "definition": "L’assegurança és la cobertura econòmica davant pèrdua o dany; el valor declarat és l’import comunicat pel remitent que serveix de referència per a la cobertura.",
+        "memory": "Valor declarat = quant val; assegurança = què cobreix."
+      },
+      "es": {
+        "term": "Seguro vs. valor declarado",
+        "definition": "El seguro es la cobertura económica ante pérdida o daño; el valor declarado es el importe comunicado por el remitente que sirve de referencia para la cobertura.",
+        "memory": "Valor declarado = cuánto vale; seguro = qué cubre."
+      }
+    },
+    {
+      "id": "uf2-cc-cco",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "term": "CC vs. CCO",
+        "definition": "CC envia una còpia visible a persones que han d’estar informades; CCO envia una còpia oculta i protegeix les adreces en enviaments massius.",
+        "memory": "CC = còpia visible; CCO = còpia oculta."
+      },
+      "es": {
+        "term": "CC vs. CCO",
+        "definition": "CC envía una copia visible a personas que deben estar informadas; CCO envía una copia oculta y protege las direcciones en envíos masivos.",
+        "memory": "CC = copia visible; CCO = copia oculta."
+      }
+    },
+    {
+      "id": "uf2-rgpd-lopdgdd",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          32,
+          32
+        ]
+      },
+      "ca": {
+        "term": "RGPD i LOPDGDD",
+        "definition": "Són les dues normes bàsiques de protecció de dades citades al material: el Reglament (UE) 2016/679 i la Llei orgànica 3/2018.",
+        "memory": "Protecció de dades = RGPD + LOPDGDD."
+      },
+      "es": {
+        "term": "RGPD y LOPDGDD",
+        "definition": "Son las dos normas básicas de protección de datos citadas en el material: el Reglamento (UE) 2016/679 y la Ley Orgánica 3/2018.",
+        "memory": "Protección de datos = RGPD + LOPDGDD."
+      }
+    },
+    {
+      "id": "uf2-proteccio-custodia",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          32,
+          34
+        ]
+      },
+      "ca": {
+        "term": "Protecció de dades i custòdia documental",
+        "definition": "Cal accedir només a la informació necessària, minimitzar dades, limitar accessos i conservació i custodiar o destruir els documents de manera segura.",
+        "memory": "Tres mínims: accés, temps i dades; custòdia segura fins al final."
+      },
+      "es": {
+        "term": "Protección de datos y custodia documental",
+        "definition": "Hay que acceder solo a la información necesaria, minimizar datos, limitar accesos y conservación y custodiar o destruir los documentos de forma segura.",
+        "memory": "Tres mínimos: acceso, tiempo y datos; custodia segura hasta el final."
+      }
     }
   ],
   "familyPolicy": "Order by conceptual families and learning dependency, not alphabetically. Keep contrasts and strongly related concepts adjacent to improve retrieval and memorisation.",
@@ -1293,10 +1487,26 @@
         "uf-emissor-receptor",
         "uf-missatge",
         "uf-canal-codi",
+        "uf2-cc-cco",
         "uf-qualitat-text",
         "uf-memo-circular",
         "uf-sollicitud",
         "uf-exposo-sollicito"
+      ]
+    },
+    {
+      "id": "correspondence-shipping-security",
+      "ca": "Correspondència, enviaments i seguretat documental",
+      "es": "Correspondencia, envíos y seguridad documental",
+      "entryIds": [
+        "uf2-tracabilitat",
+        "uf2-registre-entrada-sortida",
+        "uf2-embalatge-empaquetatge",
+        "uf2-carta-ordinaria-certificada",
+        "uf2-burofax-valor-probatori",
+        "uf2-asseguranca-valor-declarat",
+        "uf2-rgpd-lopdgdd",
+        "uf2-proteccio-custodia"
       ]
     }
   ]
