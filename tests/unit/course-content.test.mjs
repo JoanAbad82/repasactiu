@@ -26,16 +26,16 @@ test("les 320 preguntes prèvies es mantenen byte per byte",async()=>{
   }
 });
 
-test("UF0517 arriba a 510 preguntes i UF0518 arriba a 154 en dos blocs",async()=>{
+test("UF0517 arriba a 510 preguntes i UF0518 arriba a 234 en tres blocs",async()=>{
   const course=await readJson("course.json");
-  assert.equal(course.blocks.length,8);
+  assert.equal(course.blocks.length,9);
   assert.deepEqual([...new Set(course.blocks.map(b=>b.unitId))],["unitat-1","unitat-2","uf0518"]);
   let uf0517=0,uf0518=0;
   for(const block of course.blocks){
     let count=0;
     for(const file of bankFiles(block))count+=(await readJson(file.replace(/^data\//,""))).questions.length;
     if(block.unitId==='uf0518'){
-      const expectedUf0518=block.id==='uf0518-bloc-1'?86:68;
+      const expectedUf0518=block.id==='uf0518-bloc-1'?86:block.id==='uf0518-bloc-2'?68:80;
       assert.equal(count,expectedUf0518,`${block.id}: total UF0518 incorrecte`);
       uf0518+=count;
     }else{
@@ -44,11 +44,11 @@ test("UF0517 arriba a 510 preguntes i UF0518 arriba a 154 en dos blocs",async()=
     }
   }
   assert.equal(uf0517,510);
-  assert.equal(uf0518,154);
-  assert.equal(uf0517+uf0518,664);
+  assert.equal(uf0518,234);
+  assert.equal(uf0517+uf0518,744);
 });
 
-test("les 664 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
+test("les 744 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
   const course=await readJson("course.json");
   let total=0;
   for(const block of course.blocks){
@@ -71,5 +71,5 @@ test("les 664 preguntes tenen una ajuda de memòria bilingüe de màxim 144 car�
       total++;
     }
   }
-  assert.equal(total,664);
+  assert.equal(total,744);
 });
