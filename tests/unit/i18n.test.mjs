@@ -12,7 +12,7 @@ const translationFiles=block=>[block.translationFile,...(block.additionalTransla
 test("el catàleg declara metadades castellanes i traduccions per a tots els blocs",async()=>{
   const course=await readJson("course.json");
   assert.equal(course.titleEs,"Operaciones auxiliares de servicios administrativos y generales");
-  assert.equal(course.blocks.length,8);
+  assert.equal(course.blocks.length,9);
   assert.deepEqual([...new Set(course.blocks.map(b=>b.unitId))],["unitat-1","unitat-2","uf0518"]);
   for(const block of course.blocks){
     assert.ok(block.translationFile?.startsWith("data/i18n/es/"),`${block.id}: translationFile obligatori`);
@@ -21,7 +21,7 @@ test("el catàleg declara metadades castellanes i traduccions per a tots els blo
   }
 });
 
-test("les traduccions castellanes cobreixen exactament les 664 preguntes sense duplicar la lògica",async()=>{
+test("les traduccions castellanes cobreixen exactament les 744 preguntes sense duplicar la lògica",async()=>{
   const course=await readJson("course.json");
   let total=0;
   for(const block of course.blocks){
@@ -55,7 +55,7 @@ test("les traduccions castellanes cobreixen exactament les 664 preguntes sense d
       total++;
     }
   }
-  assert.equal(total,664);
+  assert.equal(total,744);
 });
 
 test("els topics UF0518 es tradueixen íntegrament al castellà",async()=>{
