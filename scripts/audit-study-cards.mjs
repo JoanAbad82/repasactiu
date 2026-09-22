@@ -18,7 +18,8 @@ const EXPECTED={
   'bloc-5':76,
   'unitat-2-bloc-1':156,
   'uf0518-bloc-1':92,
-  'uf0518-bloc-2':74
+  'uf0518-bloc-2':74,
+  'uf0518-bloc-3':86
 };
 
 function mergeQuestionObjects(items){
@@ -63,7 +64,7 @@ export async function runStudyCardsAudit(){
     }
   }
 
-  if(coreCards!==664)errors.push('nucli: '+coreCards+'/664 targetes');
+  if(coreCards!==744)errors.push('nucli: '+coreCards+'/744 targetes');
 
   const coreOverrides=extra.coreOverrides||{};
   const standaloneRiskPhrasesCa=[
@@ -115,7 +116,7 @@ export async function runStudyCardsAudit(){
   }
 
   if(!Array.isArray(extra.languages)||!extra.languages.includes('ca')||!extra.languages.includes('es'))errors.push('extra: idiomes CA/ES incomplets');
-  if(extra.cards?.length!==48)errors.push('extra: '+(extra.cards?.length||0)+'/48 targetes');
+  if(extra.cards?.length!==54)errors.push('extra: '+(extra.cards?.length||0)+'/54 targetes');
 
   const ids=new Set();
   const extraQuestions={ca:new Set(),es:new Set()};
@@ -135,7 +136,7 @@ export async function runStudyCardsAudit(){
       const key=normalize(loc.question);
       if(extraQuestions[lang].has(key))errors.push(card.id+': pregunta extra '+lang+' duplicada');
       extraQuestions[lang].add(key);
-      if(canonicalQuestions[lang].has(key))errors.push(card.id+': duplica literalment una pregunta dels 596 tests en '+lang);
+      if(canonicalQuestions[lang].has(key))errors.push(card.id+': duplica literalment una pregunta dels tests en '+lang);
     }
 
     const source=extra.sources?.[card.source?.id];
@@ -153,7 +154,7 @@ export async function runStudyCardsAudit(){
     if(combined!==EXPECTED[block.id])errors.push(block.id+': '+combined+'/'+EXPECTED[block.id]+' targetes totals');
   }
 
-  if(totalCards!==712)errors.push('total: '+totalCards+'/712 targetes');
+  if(totalCards!==798)errors.push('total: '+totalCards+'/798 targetes');
 
   return {
     coreCards,
