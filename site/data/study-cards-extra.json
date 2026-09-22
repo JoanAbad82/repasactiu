@@ -1698,6 +1698,22 @@
       "es": {
         "question": "¿Cómo describe el material la situación actual del fax o telefax?"
       }
+    },
+    "uf0518-b3-009": {
+      "ca": {
+        "question": "Quines mesures bàsiques destaca el material per gestionar correctament un arxiu digital?"
+      },
+      "es": {
+        "question": "¿Qué medidas básicas destaca el material para gestionar correctamente un archivo digital?"
+      }
+    },
+    "uf0518-b3-032": {
+      "ca": {
+        "question": "Quins tres elements resumeixen el principi bàsic de protecció de dades en l’arxiu?"
+      },
+      "es": {
+        "question": "¿Qué tres elementos resumen el principio básico de protección de datos en el archivo?"
+      }
     }
   }
 }
