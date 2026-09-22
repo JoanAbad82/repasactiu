@@ -9,6 +9,10 @@
     "UF0518_B2": {
       "file": "F0518_Bloc_2_Gestio_correspondencia_i_paqueteria.pdf",
       "pages": 39
+    },
+    "UF0518_B3": {
+      "file": "UF0518_Bloc3_L’arxiu i les comunicacions escrites.pdf",
+      "pages": 50
     }
   },
   "questionTraces": [
@@ -1397,11 +1401,731 @@
         34
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-001",
+      "source": "UF0518_B3",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-002",
+      "source": "UF0518_B3",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-003",
+      "source": "UF0518_B3",
+      "pageRange": [
+        5,
+        5
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-004",
+      "source": "UF0518_B3",
+      "pageRange": [
+        5,
+        5
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-005",
+      "source": "UF0518_B3",
+      "pageRange": [
+        6,
+        6
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-006",
+      "source": "UF0518_B3",
+      "pageRange": [
+        6,
+        6
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-007",
+      "source": "UF0518_B3",
+      "pageRange": [
+        8,
+        8
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-008",
+      "source": "UF0518_B3",
+      "pageRange": [
+        8,
+        8
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-009",
+      "source": "UF0518_B3",
+      "pageRange": [
+        8,
+        8
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-010",
+      "source": "UF0518_B3",
+      "pageRange": [
+        9,
+        9
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-011",
+      "source": "UF0518_B3",
+      "pageRange": [
+        9,
+        9
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-012",
+      "source": "UF0518_B3",
+      "pageRange": [
+        9,
+        9
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-013",
+      "source": "UF0518_B3",
+      "pageRange": [
+        10,
+        10
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-014",
+      "source": "UF0518_B3",
+      "pageRange": [
+        10,
+        10
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-015",
+      "source": "UF0518_B3",
+      "pageRange": [
+        11,
+        11
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-016",
+      "source": "UF0518_B3",
+      "pageRange": [
+        11,
+        11
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-017",
+      "source": "UF0518_B3",
+      "pageRange": [
+        13,
+        13
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-018",
+      "source": "UF0518_B3",
+      "pageRange": [
+        13,
+        13
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-019",
+      "source": "UF0518_B3",
+      "pageRange": [
+        13,
+        13
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-020",
+      "source": "UF0518_B3",
+      "pageRange": [
+        13,
+        13
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-021",
+      "source": "UF0518_B3",
+      "pageRange": [
+        14,
+        14
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-022",
+      "source": "UF0518_B3",
+      "pageRange": [
+        14,
+        14
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-023",
+      "source": "UF0518_B3",
+      "pageRange": [
+        14,
+        14
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-024",
+      "source": "UF0518_B3",
+      "pageRange": [
+        15,
+        15
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-025",
+      "source": "UF0518_B3",
+      "pageRange": [
+        15,
+        15
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-026",
+      "source": "UF0518_B3",
+      "pageRange": [
+        16,
+        16
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-027",
+      "source": "UF0518_B3",
+      "pageRange": [
+        16,
+        16
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-028",
+      "source": "UF0518_B3",
+      "pageRange": [
+        16,
+        16
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-029",
+      "source": "UF0518_B3",
+      "pageRange": [
+        17,
+        17
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-030",
+      "source": "UF0518_B3",
+      "pageRange": [
+        17,
+        17
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-031",
+      "source": "UF0518_B3",
+      "pageRange": [
+        17,
+        17
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-032",
+      "source": "UF0518_B3",
+      "pageRange": [
+        18,
+        18
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-033",
+      "source": "UF0518_B3",
+      "pageRange": [
+        18,
+        18
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-034",
+      "source": "UF0518_B3",
+      "pageRange": [
+        19,
+        19
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-035",
+      "source": "UF0518_B3",
+      "pageRange": [
+        19,
+        19
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-036",
+      "source": "UF0518_B3",
+      "pageRange": [
+        20,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-037",
+      "source": "UF0518_B3",
+      "pageRange": [
+        20,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-038",
+      "source": "UF0518_B3",
+      "pageRange": [
+        22,
+        22
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-039",
+      "source": "UF0518_B3",
+      "pageRange": [
+        23,
+        23
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-040",
+      "source": "UF0518_B3",
+      "pageRange": [
+        23,
+        23
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-041",
+      "source": "UF0518_B3",
+      "pageRange": [
+        24,
+        24
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-042",
+      "source": "UF0518_B3",
+      "pageRange": [
+        24,
+        24
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-043",
+      "source": "UF0518_B3",
+      "pageRange": [
+        25,
+        25
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-044",
+      "source": "UF0518_B3",
+      "pageRange": [
+        26,
+        26
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-045",
+      "source": "UF0518_B3",
+      "pageRange": [
+        27,
+        27
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-046",
+      "source": "UF0518_B3",
+      "pageRange": [
+        27,
+        27
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-047",
+      "source": "UF0518_B3",
+      "pageRange": [
+        28,
+        28
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-048",
+      "source": "UF0518_B3",
+      "pageRange": [
+        28,
+        28
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-049",
+      "source": "UF0518_B3",
+      "pageRange": [
+        29,
+        29
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-050",
+      "source": "UF0518_B3",
+      "pageRange": [
+        29,
+        29
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-051",
+      "source": "UF0518_B3",
+      "pageRange": [
+        30,
+        30
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-052",
+      "source": "UF0518_B3",
+      "pageRange": [
+        30,
+        30
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-053",
+      "source": "UF0518_B3",
+      "pageRange": [
+        31,
+        31
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-054",
+      "source": "UF0518_B3",
+      "pageRange": [
+        31,
+        31
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-055",
+      "source": "UF0518_B3",
+      "pageRange": [
+        32,
+        32
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-056",
+      "source": "UF0518_B3",
+      "pageRange": [
+        32,
+        32
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-057",
+      "source": "UF0518_B3",
+      "pageRange": [
+        34,
+        34
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-058",
+      "source": "UF0518_B3",
+      "pageRange": [
+        34,
+        34
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-059",
+      "source": "UF0518_B3",
+      "pageRange": [
+        35,
+        35
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-060",
+      "source": "UF0518_B3",
+      "pageRange": [
+        36,
+        36
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-061",
+      "source": "UF0518_B3",
+      "pageRange": [
+        36,
+        36
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-062",
+      "source": "UF0518_B3",
+      "pageRange": [
+        37,
+        37
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-063",
+      "source": "UF0518_B3",
+      "pageRange": [
+        37,
+        37
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-064",
+      "source": "UF0518_B3",
+      "pageRange": [
+        37,
+        37
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-065",
+      "source": "UF0518_B3",
+      "pageRange": [
+        38,
+        38
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-066",
+      "source": "UF0518_B3",
+      "pageRange": [
+        38,
+        38
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-067",
+      "source": "UF0518_B3",
+      "pageRange": [
+        39,
+        39
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-068",
+      "source": "UF0518_B3",
+      "pageRange": [
+        39,
+        39
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-069",
+      "source": "UF0518_B3",
+      "pageRange": [
+        39,
+        39
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-070",
+      "source": "UF0518_B3",
+      "pageRange": [
+        40,
+        40
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-071",
+      "source": "UF0518_B3",
+      "pageRange": [
+        40,
+        40
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-072",
+      "source": "UF0518_B3",
+      "pageRange": [
+        40,
+        40
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-073",
+      "source": "UF0518_B3",
+      "pageRange": [
+        41,
+        41
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-074",
+      "source": "UF0518_B3",
+      "pageRange": [
+        41,
+        41
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-075",
+      "source": "UF0518_B3",
+      "pageRange": [
+        42,
+        42
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-076",
+      "source": "UF0518_B3",
+      "pageRange": [
+        42,
+        42
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-077",
+      "source": "UF0518_B3",
+      "pageRange": [
+        43,
+        43
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-078",
+      "source": "UF0518_B3",
+      "pageRange": [
+        44,
+        44
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-079",
+      "source": "UF0518_B3",
+      "pageRange": [
+        45,
+        45
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b3-080",
+      "source": "UF0518_B3",
+      "pageRange": [
+        46,
+        46
+      ],
+      "status": "PASS"
     }
   ],
   "corrections": [],
   "review": {
-    "questionCount": 154,
-    "method": "Question, correct option and explanation reviewed against the assigned page of the uploaded UF0518 Bloc 1 and Bloc 2 PDFs; all published UF0518 questions have page-level traceability."
+    "questionCount": 234,
+    "method": "Question, correct option and explanation reviewed against the assigned page of the uploaded UF0518 Bloc 1, Bloc 2 and Bloc 3 PDFs; all published UF0518 questions have page-level traceability."
   }
 }
