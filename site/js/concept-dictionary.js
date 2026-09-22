@@ -53,7 +53,7 @@ export async function loadConceptDictionary(fetcher=fetch){
   const response=await fetcher('data/concept-dictionary-v1.json');
   if(!response.ok)throw new Error('No s’ha pogut carregar el diccionari de conceptes.');
   const bank=await response.json();
-  if(bank?.version!==1||bank?.count!==63||!Array.isArray(bank.entries)||bank.entries.length!==63){
+  if(bank?.version!==1||!Array.isArray(bank.entries)||!bank.entries.length||bank?.count!==bank.entries.length){
     throw new Error('Diccionari de conceptes invàlid.');
   }
   if(!Array.isArray(bank.languages)||!bank.languages.includes('ca')||!bank.languages.includes('es')){
