@@ -6,3 +6,34 @@
 html[lang="es"] .material-notice-ca{display:none}
 html[lang="es"] .material-notice-es{display:inline}
 @media(max-width:760px){.site-footer{padding-bottom:2rem}.site-footer p{font-size:.88rem}}
+
+
+.official-material-warning{
+  width:100%;
+  border-bottom:1px solid color-mix(in srgb,#c62828 28%,var(--border));
+  background:color-mix(in srgb,#c62828 7%,var(--bg));
+  color:#b42318;
+}
+:root[data-theme="dark"] .official-material-warning{
+  background:color-mix(in srgb,#ef5350 10%,var(--bg));
+  color:#ff8f87;
+}
+.official-material-warning-inner{
+  width:min(1180px,calc(100% - 2rem));
+  margin:0 auto;
+  padding:.42rem 0;
+  font-size:.82rem;
+  line-height:1.35;
+  text-align:center;
+}
+.official-material-warning strong{
+  font-weight:800;
+}
+@media(max-width:760px){
+  .official-material-warning-inner{
+    width:min(100% - 1.25rem,1180px);
+    padding:.38rem 0;
+    font-size:.76rem;
+    line-height:1.32;
+  }
+}
