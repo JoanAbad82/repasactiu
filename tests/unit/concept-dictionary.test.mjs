@@ -10,7 +10,7 @@ import {
 
 const bank={
   version:1,
-  count:63,
+  count:75,
   languages:['ca','es'],
   groups:[
     {id:'bloc-1',ca:'Bloc 1',es:'Bloque 1'},
@@ -34,15 +34,15 @@ const bank={
   ]
 };
 
-test('loadConceptDictionary valida 63 conceptes i una partició completa en famílies',async()=>{
-  const entries=Array.from({length:63},(_,i)=>({
+test('loadConceptDictionary valida 75 conceptes i una partició completa en famílies',async()=>{
+  const entries=Array.from({length:75},(_,i)=>({
     id:'c'+i,blockId:'bloc-1',source:{id:'B1',pages:[17,17]},
     ca:{term:'Terme '+i,definition:'Definició '+i,memory:'Recorda '+i},
     es:{term:'Término '+i,definition:'Definición '+i,memory:'Recuerda '+i}
   }));
   const full={...bank,entries,families:[{id:'all',ca:'Família',es:'Familia',entryIds:entries.map(x=>x.id)}]};
   const loaded=await loadConceptDictionary(async()=>({ok:true,json:async()=>full}));
-  assert.equal(loaded.entries.length,63);
+  assert.equal(loaded.entries.length,75);
 });
 
 test('filterConceptEntries cerca sense accents i filtra per bloc',()=>{

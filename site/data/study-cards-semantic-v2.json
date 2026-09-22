@@ -1582,7 +1582,7 @@
     "canonicalLanguage": "ca",
     "applyTo": "study-cards-only",
     "testsUnchanged": true,
-    "expectedCards": 638,
+    "expectedCards": 798,
     "expectedRewrite": 37,
     "expectedReplace": 47
   }

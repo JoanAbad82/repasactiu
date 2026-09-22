@@ -191,6 +191,29 @@
       ],
       "memoryAidFile": "data/memory/uf0518-bloc-2.json",
       "hardDistractorFile": "data/hard/uf0518-bloc-2.json"
+    },
+    {
+      "id": "uf0518-bloc-3",
+      "unitId": "uf0518",
+      "unitTitle": "UF0518 — Gestió auxiliar de la correspondència i paqueteria a l’empresa",
+      "unitTitleEs": "UF0518 — Gestión auxiliar de la correspondencia y paquetería en la empresa",
+      "blockNumber": 3,
+      "title": "L’arxiu de comunicacions escrites i correspondència",
+      "titleEs": "El archivo de comunicaciones escritas y correspondencia",
+      "file": "data/uf0518_bloc_3.json",
+      "additionalFiles": [
+        "data/uf0518_bloc_3_part2.json",
+        "data/uf0518_bloc_3_part3.json",
+        "data/uf0518_bloc_3_part4.json"
+      ],
+      "translationFile": "data/i18n/es/uf0518-bloc-3.json",
+      "additionalTranslationFiles": [
+        "data/i18n/es/uf0518-bloc-3-part2.json",
+        "data/i18n/es/uf0518-bloc-3-part3.json",
+        "data/i18n/es/uf0518-bloc-3-part4.json"
+      ],
+      "memoryAidFile": "data/memory/uf0518-bloc-3.json",
+      "hardDistractorFile": "data/hard/uf0518-bloc-3.json"
     }
   ]
 }

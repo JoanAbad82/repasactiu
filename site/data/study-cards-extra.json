@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "languages": [
     "ca",
     "es"
@@ -36,6 +36,10 @@
     "UF0518_B2": {
       "file": "F0518_Bloc_2_Gestio_correspondencia_i_paqueteria.pdf",
       "pages": 39
+    },
+    "UF0518_B3": {
+      "file": "UF0518_Bloc3_L’arxiu i les comunicacions escrites.pdf",
+      "pages": 50
     }
   },
   "cards": [
@@ -1046,6 +1050,132 @@
         "answer": "Acceso mínimo, tiempo mínimo y datos mínimos.",
         "mnemonic": "Tres mínimos: acceso, tiempo y datos."
       }
+    },
+    {
+      "id": "sc-uf3-01",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          47,
+          47
+        ]
+      },
+      "ca": {
+        "question": "Quines sis fases resumeixen el cicle administratiu d’un document a l’arxiu?",
+        "answer": "Document, registre, classificació, custòdia, consulta i conservació o eliminació.",
+        "mnemonic": "D-R-C-C-C-C: document, registre, classifica, custodia, consulta, conserva."
+      },
+      "es": {
+        "question": "¿Qué seis fases resumen el ciclo administrativo de un documento en el archivo?",
+        "answer": "Documento, registro, clasificación, custodia, consulta y conservación o eliminación.",
+        "mnemonic": "D-R-C-C-C-C: documento, registra, clasifica, custodia, consulta, conserva."
+      }
+    },
+    {
+      "id": "sc-uf3-02",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          23,
+          30
+        ]
+      },
+      "ca": {
+        "question": "Quins sis sistemes bàsics de classificació documental presenta el material?",
+        "answer": "Alfabètic, cronològic, numèric, geogràfic, per matèries i alfanumèric.",
+        "mnemonic": "A-C-N-G-M-A: nom, data, número, territori, tema, codi mixt."
+      },
+      "es": {
+        "question": "¿Qué seis sistemas básicos de clasificación documental presenta el material?",
+        "answer": "Alfabético, cronológico, numérico, geográfico, por materias y alfanumérico.",
+        "mnemonic": "A-C-N-G-M-A: nombre, fecha, número, territorio, tema, código mixto."
+      }
+    },
+    {
+      "id": "sc-uf3-03",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          13,
+          17
+        ]
+      },
+      "ca": {
+        "question": "Quina parella de terminis generals convé recordar per a documentació mercantil i prescripció tributària?",
+        "answer": "Sis anys en l’àmbit mercantil i quatre anys com a prescripció tributària general, amb possibles terminis especials.",
+        "mnemonic": "Mercantil 6; fiscal general 4."
+      },
+      "es": {
+        "question": "¿Qué pareja de plazos generales conviene recordar para documentación mercantil y prescripción tributaria?",
+        "answer": "Seis años en el ámbito mercantil y cuatro años como prescripción tributaria general, con posibles plazos especiales.",
+        "mnemonic": "Mercantil 6; fiscal general 4."
+      }
+    },
+    {
+      "id": "sc-uf3-04",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "ca": {
+        "question": "Quina regla mental resumeix la protecció de dades dins l’arxiu?",
+        "answer": "Minimitzar les dades, mantenir la confidencialitat, controlar l’accés i respectar els drets de les persones.",
+        "mnemonic": "M-C-A-D: minimitza, confidencialitat, accés, drets."
+      },
+      "es": {
+        "question": "¿Qué regla mental resume la protección de datos dentro del archivo?",
+        "answer": "Minimizar los datos, mantener la confidencialidad, controlar el acceso y respetar los derechos de las personas.",
+        "mnemonic": "M-C-A-D: minimiza, confidencialidad, acceso, derechos."
+      }
+    },
+    {
+      "id": "sc-uf3-05",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          35,
+          37
+        ]
+      },
+      "ca": {
+        "question": "Com es connecten pàgina web, lloc web i portal dins del temari?",
+        "answer": "Una pàgina és un document; un lloc web agrupa pàgines d’un domini; un portal organitza informació o serveis per a un públic o necessitat.",
+        "mnemonic": "Pàgina = peça; lloc = conjunt; portal = porta a serveis."
+      },
+      "es": {
+        "question": "¿Cómo se conectan página web, sitio web y portal dentro del temario?",
+        "answer": "Una página es un documento; un sitio web agrupa páginas de un dominio; un portal organiza información o servicios para un público o necesidad.",
+        "mnemonic": "Página = pieza; sitio = conjunto; portal = puerta a servicios."
+      }
+    },
+    {
+      "id": "sc-uf3-06",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          41,
+          46
+        ]
+      },
+      "ca": {
+        "question": "Quina regla ajuda a triar entre email ordinari i un canal fefaent?",
+        "answer": "Email per a comunicació habitual; canal certificat o burofax quan cal acreditar formalment enviament, recepció o contingut.",
+        "mnemonic": "Comunicació habitual = email; prova formal = canal fefaent."
+      },
+      "es": {
+        "question": "¿Qué regla ayuda a elegir entre email ordinario y un canal fehaciente?",
+        "answer": "Email para comunicación habitual; canal certificado o burofax cuando hay que acreditar formalmente envío, recepción o contenido.",
+        "mnemonic": "Comunicación habitual = email; prueba formal = canal fehaciente."
+      }
     }
   ],
   "coreOverrides": {
@@ -1567,6 +1697,22 @@
       },
       "es": {
         "question": "¿Cómo describe el material la situación actual del fax o telefax?"
+      }
+    },
+    "uf0518-b3-009": {
+      "ca": {
+        "question": "Quines mesures bàsiques destaca el material per gestionar correctament un arxiu digital?"
+      },
+      "es": {
+        "question": "¿Qué medidas básicas destaca el material para gestionar correctamente un archivo digital?"
+      }
+    },
+    "uf0518-b3-032": {
+      "ca": {
+        "question": "Quins tres elements resumeixen el principi bàsic de protecció de dades en l’arxiu?"
+      },
+      "es": {
+        "question": "¿Qué tres elementos resumen el principio básico de protección de datos en el archivo?"
       }
     }
   }

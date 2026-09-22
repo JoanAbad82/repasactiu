@@ -62,7 +62,8 @@ const SOURCE_RANGES={
   'bloc-5':{id:'B5',pageRange:[1,24]},
   'unitat-2-bloc-1':{id:'U2B1',pageRange:[1,119]},
   'uf0518-bloc-1':{id:'UF0518_B1',pageRange:[1,28]},
-  'uf0518-bloc-2':{id:'UF0518_B2',pageRange:[1,39]}
+  'uf0518-bloc-2':{id:'UF0518_B2',pageRange:[1,39]},
+  'uf0518-bloc-3':{id:'UF0518_B3',pageRange:[1,50]}
 };
 
 const conceptPart=value=>String(value??'')

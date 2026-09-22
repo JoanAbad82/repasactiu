@@ -6,7 +6,7 @@
     "ca",
     "es"
   ],
-  "count": 63,
+  "count": 75,
   "groups": [
     {
       "id": "bloc-1",
@@ -47,6 +47,11 @@
       "id": "uf0518-bloc-2",
       "ca": "UF0518 · Bloc 2 — Distribució de correspondència i paqueteria",
       "es": "UF0518 · Bloque 2 — Distribución de correspondencia y paquetería"
+    },
+    {
+      "id": "uf0518-bloc-3",
+      "ca": "UF0518 · Bloc 3 — Arxiu i comunicacions digitals",
+      "es": "UF0518 · Bloque 3 — Archivo y comunicaciones digitales"
     }
   ],
   "entries": [
@@ -1372,6 +1377,258 @@
         "definition": "Hay que acceder solo a la información necesaria, minimizar datos, limitar accesos y conservación y custodiar o destruir los documentos de forma segura.",
         "memory": "Tres mínimos: acceso, tiempo y datos; custodia segura hasta el final."
       }
+    },
+    {
+      "id": "uf3-arxiu-documental",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          4,
+          4
+        ]
+      },
+      "ca": {
+        "term": "Arxiu documental",
+        "definition": "Conjunt organitzat de documents rebuts o generats per una organització, conservats per deixar constància de l’activitat i facilitar-ne la consulta.",
+        "memory": "Arxiu = constància + consulta."
+      },
+      "es": {
+        "term": "Archivo documental",
+        "definition": "Conjunto organizado de documentos recibidos o generados por una organización, conservados para dejar constancia de la actividad y facilitar su consulta.",
+        "memory": "Archivo = constancia + consulta."
+      }
+    },
+    {
+      "id": "uf3-control-arxiu",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "ca": {
+        "term": "Control d’arxiu",
+        "definition": "Mesures i normes internes que asseguren la conservació, consulta, retorn, accés i revisió correcta dels documents.",
+        "memory": "Control = conservar, consultar i retornar amb regles."
+      },
+      "es": {
+        "term": "Control de archivo",
+        "definition": "Medidas y normas internas que aseguran la conservación, consulta, devolución, acceso y revisión correcta de los documentos.",
+        "memory": "Control = conservar, consultar y devolver con reglas."
+      }
+    },
+    {
+      "id": "uf3-classificar-arxivar",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          22,
+          22
+        ]
+      },
+      "ca": {
+        "term": "Classificar vs. arxivar",
+        "definition": "Classificar és decidir el criteri que ordena els documents; arxivar és guardar-los al lloc corresponent per conservar-los, consultar-los i recuperar-los.",
+        "memory": "Classificar = criteri; arxivar = lloc."
+      },
+      "es": {
+        "term": "Clasificar vs. archivar",
+        "definition": "Clasificar es decidir el criterio que ordena los documentos; archivar es guardarlos en el lugar correspondiente para conservarlos, consultarlos y recuperarlos.",
+        "memory": "Clasificar = criterio; archivar = lugar."
+      }
+    },
+    {
+      "id": "uf3-sistemes-classificacio",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          23,
+          30
+        ]
+      },
+      "ca": {
+        "term": "Sistemes de classificació documental",
+        "definition": "El material distingeix sis sistemes: alfabètic, cronològic, numèric, geogràfic, per matèries o funcions i alfanumèric.",
+        "memory": "A-C-N-G-M-A: nom, data, número, territori, tema i codi mixt."
+      },
+      "es": {
+        "term": "Sistemas de clasificación documental",
+        "definition": "El material distingue seis sistemas: alfabético, cronológico, numérico, geográfico, por materias o funciones y alfanumérico.",
+        "memory": "A-C-N-G-M-A: nombre, fecha, número, territorio, tema y código mixto."
+      }
+    },
+    {
+      "id": "uf3-metadades",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "term": "Metadades",
+        "definition": "Dades sobre un document digital, com autor, data, tipus, estat, client, expedient, versió o permisos, que n’ajuden la gestió i localització.",
+        "memory": "Metadades = dades sobre el document."
+      },
+      "es": {
+        "term": "Metadatos",
+        "definition": "Datos sobre un documento digital, como autor, fecha, tipo, estado, cliente, expediente, versión o permisos, que ayudan a gestionarlo y localizarlo.",
+        "memory": "Metadatos = datos sobre el documento."
+      }
+    },
+    {
+      "id": "uf3-conservacio-mercantil-fiscal",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          13,
+          17
+        ]
+      },
+      "ca": {
+        "term": "Conservació mercantil vs. prescripció tributària",
+        "definition": "El criteri general del material és sis anys per a llibres i documentació mercantil i quatre anys com a termini general de prescripció tributària, amb possibles terminis especials.",
+        "memory": "Mercantil 6; fiscal general 4."
+      },
+      "es": {
+        "term": "Conservación mercantil vs. prescripción tributaria",
+        "definition": "El criterio general del material es seis años para libros y documentación mercantil y cuatro años como plazo general de prescripción tributaria, con posibles plazos especiales.",
+        "memory": "Mercantil 6; fiscal general 4."
+      }
+    },
+    {
+      "id": "uf3-drets-persones",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          19,
+          19
+        ]
+      },
+      "ca": {
+        "term": "Drets de les persones interessades",
+        "definition": "Inclouen accés, rectificació, supressió, oposició, limitació, portabilitat i protecció davant determinades decisions únicament automatitzades.",
+        "memory": "A-R-S-O-L-P + decisions automatitzades."
+      },
+      "es": {
+        "term": "Derechos de las personas interesadas",
+        "definition": "Incluyen acceso, rectificación, supresión, oposición, limitación, portabilidad y protección frente a determinadas decisiones únicamente automatizadas.",
+        "memory": "A-R-S-O-L-P + decisiones automatizadas."
+      }
+    },
+    {
+      "id": "uf3-pagina-lloc-web",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          35,
+          35
+        ]
+      },
+      "ca": {
+        "term": "Pàgina web vs. lloc web",
+        "definition": "Una pàgina web és un document digital consultable amb navegador; un lloc web és un conjunt de pàgines relacionades accessibles des d’un mateix domini.",
+        "memory": "Pàgina = peça; lloc web = conjunt."
+      },
+      "es": {
+        "term": "Página web vs. sitio web",
+        "definition": "Una página web es un documento digital consultable con navegador; un sitio web es un conjunto de páginas relacionadas accesibles desde un mismo dominio.",
+        "memory": "Página = pieza; sitio web = conjunto."
+      }
+    },
+    {
+      "id": "uf3-estatica-dinamica",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          36,
+          36
+        ]
+      },
+      "ca": {
+        "term": "Pàgina estàtica vs. dinàmica",
+        "definition": "L’estàtica mostra contingut gairebé fix; la dinàmica genera o adapta el contingut segons dades, usuari, cerca, formularis, perfil, permisos o bases de dades.",
+        "memory": "Estàtica = fixa; dinàmica = s’adapta."
+      },
+      "es": {
+        "term": "Página estática vs. dinámica",
+        "definition": "La estática muestra contenido casi fijo; la dinámica genera o adapta el contenido según datos, usuario, búsqueda, formularios, perfil, permisos o bases de datos.",
+        "memory": "Estática = fija; dinámica = se adapta."
+      }
+    },
+    {
+      "id": "uf3-portals-web",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          37,
+          37
+        ]
+      },
+      "ca": {
+        "term": "Portals horitzontal, vertical i diagonal",
+        "definition": "L’horitzontal és generalista; el vertical s’especialitza en un sector o necessitat; el diagonal ofereix un servei específic a públics diversos.",
+        "memory": "H = general; V = sector; D = servei."
+      },
+      "es": {
+        "term": "Portales horizontal, vertical y diagonal",
+        "definition": "El horizontal es generalista; el vertical se especializa en un sector o necesidad; el diagonal ofrece un servicio específico a públicos diversos.",
+        "memory": "H = general; V = sector; D = servicio."
+      }
+    },
+    {
+      "id": "uf3-transferencia-fitxers",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          38,
+          40
+        ]
+      },
+      "ca": {
+        "term": "Transferència segura de fitxers",
+        "definition": "Enviar, rebre, copiar o compartir fitxers exigeix comprovar destinatari, document i confidencialitat i triar canals, permisos o xifrat adequats al risc.",
+        "memory": "Abans de compartir: qui, quin fitxer i quin risc."
+      },
+      "es": {
+        "term": "Transferencia segura de archivos",
+        "definition": "Enviar, recibir, copiar o compartir archivos exige comprobar destinatario, documento y confidencialidad y elegir canales, permisos o cifrado adecuados al riesgo.",
+        "memory": "Antes de compartir: quién, qué archivo y qué riesgo."
+      }
+    },
+    {
+      "id": "uf3-phishing",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          45,
+          45
+        ]
+      },
+      "ca": {
+        "term": "Phishing",
+        "definition": "Intent de frau per correu que pot imitar missatges legítims; cal verificar remitent i domini i no obrir enllaços o adjunts si l’origen no és fiable.",
+        "memory": "Phishing = aparença legítima; verifica abans d’actuar."
+      },
+      "es": {
+        "term": "Phishing",
+        "definition": "Intento de fraude por correo que puede imitar mensajes legítimos; hay que verificar remitente y dominio y no abrir enlaces o adjuntos si el origen no es fiable.",
+        "memory": "Phishing = apariencia legítima; verifica antes de actuar."
+      }
     }
   ],
   "familyPolicy": "Order by conceptual families and learning dependency, not alphabetically. Keep contrasts and strongly related concepts adjacent to improve retrieval and memorisation.",
@@ -1487,7 +1744,6 @@
         "uf-emissor-receptor",
         "uf-missatge",
         "uf-canal-codi",
-        "uf2-cc-cco",
         "uf-qualitat-text",
         "uf-memo-circular",
         "uf-sollicitud",
@@ -1504,9 +1760,36 @@
         "uf2-embalatge-empaquetatge",
         "uf2-carta-ordinaria-certificada",
         "uf2-burofax-valor-probatori",
-        "uf2-asseguranca-valor-declarat",
+        "uf2-asseguranca-valor-declarat"
+      ]
+    },
+    {
+      "id": "document-archive-management",
+      "ca": "Arxiu, classificació i conservació documental",
+      "es": "Archivo, clasificación y conservación documental",
+      "entryIds": [
+        "uf3-arxiu-documental",
+        "uf3-control-arxiu",
+        "uf3-classificar-arxivar",
+        "uf3-sistemes-classificacio",
+        "uf3-metadades",
+        "uf3-conservacio-mercantil-fiscal",
         "uf2-rgpd-lopdgdd",
-        "uf2-proteccio-custodia"
+        "uf2-proteccio-custodia",
+        "uf3-drets-persones"
+      ]
+    },
+    {
+      "id": "digital-office-communication",
+      "ca": "Internet, fitxers i correu electrònic",
+      "es": "Internet, archivos y correo electrónico",
+      "entryIds": [
+        "uf3-pagina-lloc-web",
+        "uf3-estatica-dinamica",
+        "uf3-portals-web",
+        "uf3-transferencia-fitxers",
+        "uf2-cc-cco",
+        "uf3-phishing"
       ]
     }
   ]
