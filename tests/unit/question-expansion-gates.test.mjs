@@ -15,11 +15,12 @@ const expected={
   'bloc-5':{count:70,last:'b5-070'},
   'unitat-2-bloc-1':{count:150,last:'u2b1-150'},
   'uf0518-bloc-1':{count:86,last:'uf0518-b1-086'},
-  'uf0518-bloc-2':{count:68,last:'uf0518-b2-068'}
+  'uf0518-bloc-2':{count:68,last:'uf0518-b2-068'},
+  'uf0518-bloc-3':{count:80,last:'uf0518-b3-080'}
 };
 const readData=async p=>JSON.parse(await readFile(path.join(dataDir,p.replace(/^data\//,'')),'utf8'));
 
-test('el catàleg publica 664 preguntes amb el nou UF0518 Bloc 2',async()=>{
+test('el catàleg publica 744 preguntes amb UF0518 fins al Bloc 3',async()=>{
   let total=0;
   for(const block of course.blocks){
     const questions=[];
@@ -31,7 +32,7 @@ test('el catàleg publica 664 preguntes amb el nou UF0518 Bloc 2',async()=>{
     assert.ok(questions.some(q=>q.id===expected[block.id].last),`${block.id}: falta ${expected[block.id].last}`);
     total+=questions.length;
   }
-  assert.equal(total,664);
+  assert.equal(total,744);
 });
 
 test('totes les preguntes publicades existeixen també al Mode Examen difícil',async()=>{
