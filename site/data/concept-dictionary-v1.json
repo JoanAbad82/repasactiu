@@ -6,7 +6,7 @@
     "ca",
     "es"
   ],
-  "count": 75,
+  "count": 100,
   "groups": [
     {
       "id": "bloc-1",
@@ -52,6 +52,31 @@
       "id": "uf0518-bloc-3",
       "ca": "UF0518 · Bloc 3 — Arxiu i comunicacions digitals",
       "es": "UF0518 · Bloque 3 — Archivo y comunicaciones digitales"
+    },
+    {
+      "id": "uf0519-bloc-1",
+      "ca": "UF0519 · Bloc 1 — Documents administratius",
+      "es": "UF0519 · Bloque 1 — Documentos administrativos"
+    },
+    {
+      "id": "uf0519-bloc-2",
+      "ca": "UF0519 · Bloc 2 — Compravenda i facturació",
+      "es": "UF0519 · Bloque 2 — Compraventa y facturación"
+    },
+    {
+      "id": "uf0519-bloc-3",
+      "ca": "UF0519 · Bloc 3 — Gestió productiva i de personal",
+      "es": "UF0519 · Bloque 3 — Gestión productiva y de personal"
+    },
+    {
+      "id": "uf0519-bloc-4",
+      "ca": "UF0519 · Bloc 4 — Altres documents",
+      "es": "UF0519 · Bloque 4 — Otros documentos"
+    },
+    {
+      "id": "uf0519-bloc-5",
+      "ca": "UF0519 · Bloc 5 — Operacions informàtiques",
+      "es": "UF0519 · Bloque 5 — Operaciones informáticas"
     }
   ],
   "entries": [
@@ -1629,6 +1654,531 @@
         "definition": "Intento de fraude por correo que puede imitar mensajes legítimos; hay que verificar remitente y dominio y no abrir enlaces o adjuntos si el origen no es fiable.",
         "memory": "Phishing = apariencia legítima; verifica antes de actuar."
       }
+    },
+    {
+      "id": "uf519-document-administratiu",
+      "blockId": "uf0519-bloc-1",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          5,
+          5
+        ]
+      },
+      "ca": {
+        "term": "Document administratiu",
+        "definition": "Suport físic o digital que deixa constància d’un fet, comunicació, decisió o actuació.",
+        "memory": "Document = suport + constància."
+      },
+      "es": {
+        "term": "Documento administrativo",
+        "definition": "Soporte físico o digital que deja constancia de un hecho, comunicación, decisión o actuación.",
+        "memory": "Documento = soporte + constancia."
+      }
+    },
+    {
+      "id": "uf519-circuit-documental",
+      "blockId": "uf0519-bloc-1",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          8,
+          8
+        ]
+      },
+      "ca": {
+        "term": "Circuit documental",
+        "definition": "Procés pel qual un document passa per creació, validació, registre, tramitació i arxiu.",
+        "memory": "C-V-R-T-A."
+      },
+      "es": {
+        "term": "Circuito documental",
+        "definition": "Proceso por el que un documento pasa por creación, validación, registro, tramitación y archivo.",
+        "memory": "C-V-R-T-A."
+      }
+    },
+    {
+      "id": "uf519-registre-general-auxiliar",
+      "blockId": "uf0519-bloc-1",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          13,
+          13
+        ]
+      },
+      "ca": {
+        "term": "Registre general vs. auxiliar",
+        "definition": "El general centralitza entrades i sortides; l’auxiliar facilita recepció descentralitzada i integra la informació al general.",
+        "memory": "General centralitza; auxiliar ajuda."
+      },
+      "es": {
+        "term": "Registro general vs. auxiliar",
+        "definition": "El general centraliza entradas y salidas; el auxiliar facilita recepción descentralizada e integra la información en el general.",
+        "memory": "General centraliza; auxiliar ayuda."
+      }
+    },
+    {
+      "id": "uf519-silenci-administratiu",
+      "blockId": "uf0519-bloc-1",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          11,
+          11
+        ]
+      },
+      "ca": {
+        "term": "Silenci administratiu",
+        "definition": "Efecte que es produeix quan l’Administració no notifica una resolució dins del termini establert; el sentit depèn de la norma aplicable.",
+        "memory": "Sense notificació en termini → mira l’efecte legal aplicable."
+      },
+      "es": {
+        "term": "Silencio administrativo",
+        "definition": "Efecto que se produce cuando la Administración no notifica una resolución dentro del plazo establecido; el sentido depende de la norma aplicable.",
+        "memory": "Sin notificación en plazo → mira el efecto legal aplicable."
+      }
+    },
+    {
+      "id": "uf519-resolucio-administrativa",
+      "blockId": "uf0519-bloc-1",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          15,
+          15
+        ]
+      },
+      "ca": {
+        "term": "Resolució administrativa",
+        "definition": "Decisió que resol les qüestions del procediment i informa, entre altres elements, dels recursos possibles, òrgan i terminis.",
+        "memory": "Resolució = decisió + vies de recurs."
+      },
+      "es": {
+        "term": "Resolución administrativa",
+        "definition": "Decisión que resuelve las cuestiones del procedimiento e informa, entre otros elementos, de los recursos posibles, órgano y plazos.",
+        "memory": "Resolución = decisión + vías de recurso."
+      }
+    },
+    {
+      "id": "uf519-pressupost",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "ca": {
+        "term": "Pressupost",
+        "definition": "Document previ que informa del cost i de les condicions d’un producte o servei abans de contractar-lo.",
+        "memory": "Abans de comprar: cost + condicions."
+      },
+      "es": {
+        "term": "Presupuesto",
+        "definition": "Documento previo que informa del coste y de las condiciones de un producto o servicio antes de contratarlo.",
+        "memory": "Antes de comprar: coste + condiciones."
+      }
+    },
+    {
+      "id": "uf519-comanda",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          23,
+          23
+        ]
+      },
+      "ca": {
+        "term": "Comanda",
+        "definition": "Document que formalitza la petició del client d’una mercaderia, producte o servei.",
+        "memory": "Comanda = encàrrec formal."
+      },
+      "es": {
+        "term": "Pedido",
+        "definition": "Documento que formaliza la petición del cliente de una mercancía, producto o servicio.",
+        "memory": "Pedido = encargo formal."
+      }
+    },
+    {
+      "id": "uf519-albara",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          25,
+          28
+        ]
+      },
+      "ca": {
+        "term": "Albarà",
+        "definition": "Document que acompanya el lliurament i acredita què s’ha entregat o rebut, en quina quantitat i estat.",
+        "memory": "Albarà = prova del lliurament."
+      },
+      "es": {
+        "term": "Albarán",
+        "definition": "Documento que acompaña la entrega y acredita qué se ha entregado o recibido, en qué cantidad y estado.",
+        "memory": "Albarán = prueba de entrega."
+      }
+    },
+    {
+      "id": "uf519-factura-rectificativa",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          31,
+          31
+        ]
+      },
+      "ca": {
+        "term": "Factura rectificativa",
+        "definition": "Factura que corregeix una factura anterior per errors, devolucions, descomptes o altres circumstàncies previstes.",
+        "memory": "Rectificativa = corregeix."
+      },
+      "es": {
+        "term": "Factura rectificativa",
+        "definition": "Factura que corrige una factura anterior por errores, devoluciones, descuentos u otras circunstancias previstas.",
+        "memory": "Rectificativa = corrige."
+      }
+    },
+    {
+      "id": "uf519-factura-recapitulativa",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          31,
+          31
+        ]
+      },
+      "ca": {
+        "term": "Factura recapitulativa",
+        "definition": "Factura que agrupa diverses operacions d’un mateix destinatari durant un període determinat.",
+        "memory": "Recapitula diverses operacions."
+      },
+      "es": {
+        "term": "Factura recapitulativa",
+        "definition": "Factura que agrupa varias operaciones de un mismo destinatario durante un período determinado.",
+        "memory": "Recapitula varias operaciones."
+      }
+    },
+    {
+      "id": "uf519-verifactu",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          35,
+          36
+        ]
+      },
+      "ca": {
+        "term": "VERI*FACTU",
+        "definition": "Denominació utilitzada al material per als sistemes que permeten remetre registres de facturació a l’AEAT segons la normativa aplicable.",
+        "memory": "VERI*FACTU = registres cap a l’AEAT."
+      },
+      "es": {
+        "term": "VERI*FACTU",
+        "definition": "Denominación utilizada en el material para los sistemas que permiten remitir registros de facturación a la AEAT según la normativa aplicable.",
+        "memory": "VERI*FACTU = registros hacia la AEAT."
+      }
+    },
+    {
+      "id": "uf519-iva-repercutit-suportat",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          41,
+          42
+        ]
+      },
+      "ca": {
+        "term": "IVA repercutit vs. suportat deduïble",
+        "definition": "El repercutit es cobra als clients; el suportat deduïble és la part pagada en compres que compleix requisits per restar-se.",
+        "memory": "Venda repercuteix; compra suporta."
+      },
+      "es": {
+        "term": "IVA repercutido vs. soportado deducible",
+        "definition": "El repercutido se cobra a clientes; el soportado deducible es la parte pagada en compras que cumple requisitos para restarse.",
+        "memory": "Venta repercute; compra soporta."
+      }
+    },
+    {
+      "id": "uf519-rebut",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          48,
+          48
+        ]
+      },
+      "ca": {
+        "term": "Rebut",
+        "definition": "Document que acredita que s’ha pagat una quantitat determinada; no substitueix la factura quan és obligatòria.",
+        "memory": "Rebut = prova de pagament."
+      },
+      "es": {
+        "term": "Recibo",
+        "definition": "Documento que acredita que se ha pagado una cantidad determinada; no sustituye a la factura cuando es obligatoria.",
+        "memory": "Recibo = prueba de pago."
+      }
+    },
+    {
+      "id": "uf519-nomina",
+      "blockId": "uf0519-bloc-3",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          53,
+          55
+        ]
+      },
+      "ca": {
+        "term": "Nòmina",
+        "definition": "Document justificatiu de les retribucions i deduccions aplicades a una persona treballadora.",
+        "memory": "Nòmina = meritacions − deduccions → líquid."
+      },
+      "es": {
+        "term": "Nómina",
+        "definition": "Documento justificativo de las retribuciones y deducciones aplicadas a una persona trabajadora.",
+        "memory": "Nómina = devengos − deducciones → líquido."
+      }
+    },
+    {
+      "id": "uf519-meritacions",
+      "blockId": "uf0519-bloc-3",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          55,
+          56
+        ]
+      },
+      "ca": {
+        "term": "Meritacions",
+        "definition": "Conceptes que sumen a la nòmina, siguin retribucions salarials o no salarials.",
+        "memory": "Meritacions sumen."
+      },
+      "es": {
+        "term": "Devengos",
+        "definition": "Conceptos que suman en la nómina, sean retribuciones salariales o no salariales.",
+        "memory": "Devengos suman."
+      }
+    },
+    {
+      "id": "uf519-deduccions",
+      "blockId": "uf0519-bloc-3",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          55,
+          57
+        ]
+      },
+      "ca": {
+        "term": "Deduccions de nòmina",
+        "definition": "Imports que resten del salari brut, com cotitzacions, IRPF i altres deduccions que corresponguin.",
+        "memory": "Deduccions resten."
+      },
+      "es": {
+        "term": "Deducciones de nómina",
+        "definition": "Importes que restan del salario bruto, como cotizaciones, IRPF y otras deducciones que correspondan.",
+        "memory": "Deducciones restan."
+      }
+    },
+    {
+      "id": "uf519-base-cotitzacio",
+      "blockId": "uf0519-bloc-3",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          58,
+          58
+        ]
+      },
+      "ca": {
+        "term": "Base de cotització",
+        "definition": "Quantitat sobre la qual es calculen les aportacions a la Seguretat Social.",
+        "memory": "Base = quantitat de càlcul."
+      },
+      "es": {
+        "term": "Base de cotización",
+        "definition": "Cantidad sobre la que se calculan las aportaciones a la Seguridad Social.",
+        "memory": "Base = cantidad de cálculo."
+      }
+    },
+    {
+      "id": "uf519-salari-brut-net",
+      "blockId": "uf0519-bloc-3",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          60,
+          60
+        ]
+      },
+      "ca": {
+        "term": "Salari brut vs. salari net",
+        "definition": "El brut és el total de meritacions abans de deduccions; el net és el brut menys les deduccions.",
+        "memory": "Net = brut − deduccions."
+      },
+      "es": {
+        "term": "Salario bruto vs. salario neto",
+        "definition": "El bruto es el total de devengos antes de deducciones; el neto es el bruto menos las deducciones.",
+        "memory": "Neto = bruto − deducciones."
+      }
+    },
+    {
+      "id": "uf519-ordre-treball",
+      "blockId": "uf0519-bloc-3",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          62,
+          63
+        ]
+      },
+      "ca": {
+        "term": "Ordre de treball",
+        "definition": "Document formal o intern que assigna una tasca i n’indica responsable, recursos, termini i seguiment.",
+        "memory": "Tasca + qui + recursos + termini."
+      },
+      "es": {
+        "term": "Orden de trabajo",
+        "definition": "Documento formal o interno que asigna una tarea e indica responsable, recursos, plazo y seguimiento.",
+        "memory": "Tarea + quién + recursos + plazo."
+      }
+    },
+    {
+      "id": "uf519-informe",
+      "blockId": "uf0519-bloc-4",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          67
+        ]
+      },
+      "ca": {
+        "term": "Informe",
+        "definition": "Document que analitza o exposa fets, dades o valoracions de manera ordenada.",
+        "memory": "Informe = analitzar o exposar."
+      },
+      "es": {
+        "term": "Informe",
+        "definition": "Documento que analiza o expone hechos, datos o valoraciones de forma ordenada.",
+        "memory": "Informe = analizar o exponer."
+      }
+    },
+    {
+      "id": "uf519-acta",
+      "blockId": "uf0519-bloc-4",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          67
+        ]
+      },
+      "ca": {
+        "term": "Acta",
+        "definition": "Document que deixa constància dels assistents, acords i decisions d’una reunió.",
+        "memory": "Acta = reunió registrada."
+      },
+      "es": {
+        "term": "Acta",
+        "definition": "Documento que deja constancia de asistentes, acuerdos y decisiones de una reunión.",
+        "memory": "Acta = reunión registrada."
+      }
+    },
+    {
+      "id": "uf519-certificat",
+      "blockId": "uf0519-bloc-4",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          67
+        ]
+      },
+      "ca": {
+        "term": "Certificat",
+        "definition": "Document que acredita oficialment una informació concreta.",
+        "memory": "Certificat = acreditar."
+      },
+      "es": {
+        "term": "Certificado",
+        "definition": "Documento que acredita oficialmente una información concreta.",
+        "memory": "Certificado = acreditar."
+      }
+    },
+    {
+      "id": "uf519-memoria",
+      "blockId": "uf0519-bloc-4",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          67
+        ]
+      },
+      "ca": {
+        "term": "Memòria",
+        "definition": "Document que recull les activitats i els resultats d’un període.",
+        "memory": "Memòria = període + activitats + resultats."
+      },
+      "es": {
+        "term": "Memoria",
+        "definition": "Documento que recoge las actividades y los resultados de un período.",
+        "memory": "Memoria = período + actividades + resultados."
+      }
+    },
+    {
+      "id": "uf519-programari-facturacio",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          70,
+          70
+        ]
+      },
+      "ca": {
+        "term": "Programari de facturació",
+        "definition": "Eina per gestionar fitxes mestres, documents comercials, impostos, venciments, numeració, sèries i arxiu de factures.",
+        "memory": "Facturació digital = dades + documents + controls."
+      },
+      "es": {
+        "term": "Software de facturación",
+        "definition": "Herramienta para gestionar fichas maestras, documentos comerciales, impuestos, vencimientos, numeración, series y archivo de facturas.",
+        "memory": "Facturación digital = datos + documentos + controles."
+      }
+    },
+    {
+      "id": "uf519-programari-nomines",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          71,
+          71
+        ]
+      },
+      "ca": {
+        "term": "Programari de nòmines",
+        "definition": "Eina de suport per mantenir dades laborals, generar rebuts de salari i registrar incidències, sota criteri laboral responsable.",
+        "memory": "Programari ajuda; el criteri laboral no s’automatitza."
+      },
+      "es": {
+        "term": "Software de nóminas",
+        "definition": "Herramienta de apoyo para mantener datos laborales, generar recibos de salario y registrar incidencias, bajo criterio laboral responsable.",
+        "memory": "El software ayuda; el criterio laboral no se automatiza."
+      }
     }
   ],
   "familyPolicy": "Order by conceptual families and learning dependency, not alphabetically. Keep contrasts and strongly related concepts adjacent to improve retrieval and memorisation.",
@@ -1790,6 +2340,59 @@
         "uf3-transferencia-fitxers",
         "uf2-cc-cco",
         "uf3-phishing"
+      ]
+    },
+    {
+      "id": "administrative-documents-procedure",
+      "ca": "Documents i procediment administratiu",
+      "es": "Documentos y procedimiento administrativo",
+      "entryIds": [
+        "uf519-document-administratiu",
+        "uf519-circuit-documental",
+        "uf519-registre-general-auxiliar",
+        "uf519-silenci-administratiu",
+        "uf519-resolucio-administrativa",
+        "uf519-informe",
+        "uf519-acta",
+        "uf519-certificat",
+        "uf519-memoria"
+      ]
+    },
+    {
+      "id": "commercial-documents-invoicing",
+      "ca": "Compravenda, facturació i IVA",
+      "es": "Compraventa, facturación e IVA",
+      "entryIds": [
+        "uf519-pressupost",
+        "uf519-comanda",
+        "uf519-albara",
+        "uf519-factura-rectificativa",
+        "uf519-factura-recapitulativa",
+        "uf519-verifactu",
+        "uf519-iva-repercutit-suportat",
+        "uf519-rebut"
+      ]
+    },
+    {
+      "id": "payroll-labour",
+      "ca": "Nòmina i gestió laboral",
+      "es": "Nómina y gestión laboral",
+      "entryIds": [
+        "uf519-nomina",
+        "uf519-meritacions",
+        "uf519-deduccions",
+        "uf519-base-cotitzacio",
+        "uf519-salari-brut-net",
+        "uf519-ordre-treball"
+      ]
+    },
+    {
+      "id": "administrative-software",
+      "ca": "Programari administratiu",
+      "es": "Software administrativo",
+      "entryIds": [
+        "uf519-programari-facturacio",
+        "uf519-programari-nomines"
       ]
     }
   ]
