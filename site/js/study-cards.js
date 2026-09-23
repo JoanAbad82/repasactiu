@@ -63,7 +63,12 @@ const SOURCE_RANGES={
   'unitat-2-bloc-1':{id:'U2B1',pageRange:[1,119]},
   'uf0518-bloc-1':{id:'UF0518_B1',pageRange:[1,28]},
   'uf0518-bloc-2':{id:'UF0518_B2',pageRange:[1,39]},
-  'uf0518-bloc-3':{id:'UF0518_B3',pageRange:[1,50]}
+  'uf0518-bloc-3':{id:'UF0518_B3',pageRange:[1,50]},
+  'uf0519-bloc-1':{id:'UF0519_U1',pageRange:[1,76]},
+  'uf0519-bloc-2':{id:'UF0519_U1',pageRange:[1,76]},
+  'uf0519-bloc-3':{id:'UF0519_U1',pageRange:[1,76]},
+  'uf0519-bloc-4':{id:'UF0519_U1',pageRange:[1,76]},
+  'uf0519-bloc-5':{id:'UF0519_U1',pageRange:[1,76]}
 };
 
 const conceptPart=value=>String(value??'')
