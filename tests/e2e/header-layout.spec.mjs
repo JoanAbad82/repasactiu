@@ -3,7 +3,7 @@ import {test,expect} from "@playwright/test";
 test("la capçalera d'escriptori manté marca, navegació i utilitats en tres zones sense salts de línia",async({page})=>{
   await page.setViewportSize({width:1600,height:900});
   await page.goto("/");
-  await expect(page.getByText("744 preguntes")).toBeVisible();
+  await expect(page.getByText("830 preguntes")).toBeVisible();
 
   const header=page.locator(".site-header-inner");
   const brand=page.locator("#home-link");
@@ -36,7 +36,7 @@ test("la capçalera d'escriptori manté marca, navegació i utilitats en tres zo
 test("la capçalera continua sent usable en mòbil sense desbordar la pàgina",async({browser})=>{
   const page=await browser.newPage({viewport:{width:390,height:844}});
   await page.goto("/");
-  await expect(page.getByText("744 preguntes")).toBeVisible();
+  await expect(page.getByText("830 preguntes")).toBeVisible();
   await expect(page.locator("#home-link")).toBeVisible();
   await expect(page.locator(".language-switcher")).toBeVisible();
   await expect(page.locator("#theme-toggle")).toBeVisible();
