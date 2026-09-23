@@ -20,8 +20,8 @@ test('la traçabilitat combina UF0517, UF0518 i UF0519 sense fixar el total a 45
     path.join(root,'docs','content','UF0518_SOURCE_TRACEABILITY.json'),
     path.join(root,'docs','content','UF0519_SOURCE_TRACEABILITY.json')
   ]});
-  assert.equal(result.manifests,2);
-  assert.equal(result.questions,744);
+  assert.equal(result.manifests,3);
+  assert.equal(result.questions,830);
   assert.equal(result.traceable,result.questions);
   assert.deepEqual(result.errors,[]);
 });
