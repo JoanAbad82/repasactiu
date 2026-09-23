@@ -50,7 +50,7 @@ if(new Set(assigned).size!==53)errors.push('family assignments contain duplicate
 if(assigned.some(id=>!ids.has(id)))errors.push('family assignment points to unknown list');
 
 const ordered=(bank.entries||[]).filter(entry=>entry.ordered).length;
-if(ordered!==9)errors.push(`ordered lists: ${ordered}/9`);
+if(ordered!==8)errors.push(`ordered lists: ${ordered}/8`);
 
 if(errors.length){
   console.error('KEY_LIST_AUDIT=FAIL');
@@ -60,4 +60,4 @@ if(errors.length){
 console.log('KEY_LIST_AUDIT=PASS');
 console.log('KEY_LISTS=53');
 console.log('KEY_LIST_FAMILIES=6');
-console.log('ORDERED_LISTS=9');
+console.log('ORDERED_LISTS=8');

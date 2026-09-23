@@ -279,7 +279,7 @@
     {
       "id": "b2-funcions-administratives",
       "blockId": "bloc-2",
-      "ordered": true,
+      "ordered": false,
       "source": {
         "id": "B2",
         "pages": [

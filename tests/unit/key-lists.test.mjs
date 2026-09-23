@@ -16,7 +16,7 @@ test('el banc publica 53 llistes bilingües distribuïdes en sis famílies',()=>
   assert.equal(validated.entries.length,53);
   assert.equal(validated.families.length,6);
   assert.equal(validated.families.flatMap(f=>f.entryIds).length,53);
-  assert.equal(validated.entries.filter(entry=>entry.ordered).length,9);
+  assert.equal(validated.entries.filter(entry=>entry.ordered).length,8);
   for(const entry of validated.entries){
     assert.equal(entry.ca.items.length,entry.es.items.length);
     assert.ok(entry.ca.items.length>=3);
