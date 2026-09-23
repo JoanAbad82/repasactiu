@@ -69,8 +69,8 @@ function conceptId(blockId,topic,answer,explicit){
 
 function pageSource(label){
   const text=String(label||'').trim();
-  const source=(text.match(/^(UF0518|U2|B[1-5])/i)?.[1]||'SOURCE').toUpperCase()
-    .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1');
+  const source=(text.match(/^(UF0519|UF0518|U2|B[1-5])/i)?.[1]||'SOURCE').toUpperCase()
+    .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1').replace(/^UF0519$/,'UF0519_U1');
   const m=text.match(/pp?\.?\s*(\d+)(?:\s*(?:[-–—]|i|y)\s*(\d+))?/i);
   return m?{source,pageRange:[Number(m[1]),Number(m[2]||m[1])],precision:'page'}:{source,pageRange:null,precision:'label'};
 }
