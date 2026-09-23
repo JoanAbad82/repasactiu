@@ -214,6 +214,71 @@
       ],
       "memoryAidFile": "data/memory/uf0518-bloc-3.json",
       "hardDistractorFile": "data/hard/uf0518-bloc-3.json"
+    },
+    {
+      "id": "uf0519-bloc-1",
+      "unitId": "uf0519-unitat-1",
+      "unitTitle": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 1",
+      "unitTitleEs": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 1",
+      "blockNumber": 1,
+      "title": "Documents administratius en entitats públiques i privades",
+      "titleEs": "Documentos administrativos en entidades públicas y privadas",
+      "file": "data/uf0519_bloc_1.json",
+      "translationFile": "data/i18n/es/uf0519-bloc-1.json",
+      "memoryAidFile": "data/memory/uf0519-bloc-1.json",
+      "hardDistractorFile": "data/hard/uf0519-bloc-1.json"
+    },
+    {
+      "id": "uf0519-bloc-2",
+      "unitId": "uf0519-unitat-1",
+      "unitTitle": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 1",
+      "unitTitleEs": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 1",
+      "blockNumber": 2,
+      "title": "Documents administratius en la gestió de la compravenda",
+      "titleEs": "Documentos administrativos en la gestión de la compraventa",
+      "file": "data/uf0519_bloc_2.json",
+      "translationFile": "data/i18n/es/uf0519-bloc-2.json",
+      "memoryAidFile": "data/memory/uf0519-bloc-2.json",
+      "hardDistractorFile": "data/hard/uf0519-bloc-2.json"
+    },
+    {
+      "id": "uf0519-bloc-3",
+      "unitId": "uf0519-unitat-1",
+      "unitTitle": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 1",
+      "unitTitleEs": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 1",
+      "blockNumber": 3,
+      "title": "Documents administratius en la gestió productiva i de personal",
+      "titleEs": "Documentos administrativos en la gestión productiva y de personal",
+      "file": "data/uf0519_bloc_3.json",
+      "translationFile": "data/i18n/es/uf0519-bloc-3.json",
+      "memoryAidFile": "data/memory/uf0519-bloc-3.json",
+      "hardDistractorFile": "data/hard/uf0519-bloc-3.json"
+    },
+    {
+      "id": "uf0519-bloc-4",
+      "unitId": "uf0519-unitat-1",
+      "unitTitle": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 1",
+      "unitTitleEs": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 1",
+      "blockNumber": 4,
+      "title": "Altres documents administratius i empresarials",
+      "titleEs": "Otros documentos administrativos y empresariales",
+      "file": "data/uf0519_bloc_4.json",
+      "translationFile": "data/i18n/es/uf0519-bloc-4.json",
+      "memoryAidFile": "data/memory/uf0519-bloc-4.json",
+      "hardDistractorFile": "data/hard/uf0519-bloc-4.json"
+    },
+    {
+      "id": "uf0519-bloc-5",
+      "unitId": "uf0519-unitat-1",
+      "unitTitle": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 1",
+      "unitTitleEs": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 1",
+      "blockNumber": 5,
+      "title": "Operacions informàtiques de facturació i nòmines",
+      "titleEs": "Operaciones informáticas de facturación y nóminas",
+      "file": "data/uf0519_bloc_5.json",
+      "translationFile": "data/i18n/es/uf0519-bloc-5.json",
+      "memoryAidFile": "data/memory/uf0519-bloc-5.json",
+      "hardDistractorFile": "data/hard/uf0519-bloc-5.json"
     }
   ]
 }
