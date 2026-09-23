@@ -6,7 +6,7 @@ import {resolveTheme,applyTheme} from './theme.js';
 import {computeProgress} from './progress.js';
 import {renderHomeHtml,renderSetupHtml,renderQuestionHtml,renderResultsHtml,renderReviewHtml,showScreen} from './ui.js';
 import {loadStudyCardsBank,createStudyCards} from './study-cards.js';
-import {loadConceptDictionary,createConceptDictionary} from './concept-dictionary.js';
+import {loadConceptDictionary,loadKeyLists,createConceptDictionary} from './concept-dictionary.js';
 import {loadCommercialCorrespondence,createCommercialCorrespondence} from './commercial-correspondence.js';
 
 const els={
@@ -18,7 +18,7 @@ const chromeCopy={
  es:{syllabus:'Temario',review:'Repasar errores',study:'Tarjetas de memoria',dictionary:'Diccionario',correspondence:'Correspondencia',theme:'Claro/Oscuro',themeAria:'Claro/Oscuro — cambiar modo de color',nav:'Navegación principal',language:'Idioma',all:'Todo el temario disponible',syllabusFallback:'Temario',block:'Bloque',leave:'¿Quieres abandonar el test en curso?',correct:'Respuesta correcta',incorrect:'Respuesta incorrecta',back:'← Volver',emptyTitle:'Todavía no tienes preguntas pendientes de repaso',emptyText:'Cuando falles alguna pregunta, aparecerá aquí para reforzarla.',reset:'¿Quieres borrar el historial, las estadísticas y los errores pendientes?',loadError:'No se ha podido cargar el temario.',retry:'Vuelve a intentarlo.'}
 };
 
-let course=null,banks=[],studyBank=null,studyCards=null,dictionaryBank=null,dictionaryView=null,correspondenceBank=null,correspondenceView=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
+let course=null,banks=[],studyBank=null,studyCards=null,dictionaryBank=null,keyListsBank=null,dictionaryView=null,correspondenceBank=null,correspondenceView=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
 const prefersDark=()=>window.matchMedia?.('(prefers-color-scheme: dark)').matches??false;
 const language=()=>state.language==='es'?'es':'ca';
 const t=()=>chromeCopy[language()];
@@ -77,7 +77,7 @@ function openConceptDictionary(){
  exitStudyMode();
  exitCorrespondenceMode();
  if(dictionaryView)dictionaryView.destroy();
- dictionaryView=createConceptDictionary({screen:els.dictionary,bank:dictionaryBank,language:language(),onHome:goHome});
+ dictionaryView=createConceptDictionary({screen:els.dictionary,bank:dictionaryBank,keyLists:keyListsBank,language:language(),onHome:goHome});
  displayScreen('concept-dictionary-screen');
 }
 function openCommercialCorrespondence(){
@@ -131,7 +131,7 @@ function bindGlobal(){
  els.theme.addEventListener('click',()=>{const current=resolveTheme(state.theme,prefersDark());state.theme=current==='dark'?'light':'dark';saveState(state);syncTheme();});
  els.home.addEventListener('click',e=>{const card=e.target.closest('[data-block-card]');if(card)openSetup(card.dataset.selection,false);if(e.target.closest('#reset-progress')){if(window.confirm(t().reset)){resetProgress();state=loadState();syncTheme();syncLanguageChrome();renderHome();}}});
 }
-async function init(){try{syncTheme();syncLanguageChrome();[course,studyBank,dictionaryBank,correspondenceBank]=await Promise.all([loadCourse(),loadStudyCardsBank(),loadConceptDictionary(),loadCommercialCorrespondence()]);const corrections=await loadContentCorrections();banks=await Promise.all(course.blocks.map(async meta=>{
+async function init(){try{syncTheme();syncLanguageChrome();[course,studyBank,dictionaryBank,keyListsBank,correspondenceBank]=await Promise.all([loadCourse(),loadStudyCardsBank(),loadConceptDictionary(),loadKeyLists(),loadCommercialCorrespondence()]);const corrections=await loadContentCorrections();banks=await Promise.all(course.blocks.map(async meta=>{
  const [loadedBank,hard]=await Promise.all([
   loadBlockBundle(meta.file,meta.extraFile,fetch,meta.translationFile,meta.memoryAidFile,meta.additionalFiles||[],meta.additionalTranslationFiles||[],meta.additionalMemoryAidFiles||[]),
   loadHardDistractors(meta.hardDistractorFile,meta.id,fetch)
