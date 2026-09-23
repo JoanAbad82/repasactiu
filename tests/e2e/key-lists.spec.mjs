@@ -2,17 +2,17 @@ import {test,expect} from '@playwright/test';
 
 async function openLists(page){
   await page.goto('/');
-  await expect(page.getByText('744 preguntes')).toBeVisible();
+  await expect(page.getByText('830 preguntes')).toBeVisible();
   await page.getByRole('button',{name:'Diccionari',exact:true}).click();
   await page.getByRole('button',{name:'Llistes clau',exact:true}).click();
 }
 
-test('el diccionari publica 53 llistes clau agrupades en sis famílies',async({page})=>{
+test('el diccionari publica 74 llistes clau agrupades en deu famílies',async({page})=>{
   await openLists(page);
-  await expect(page.locator('[data-key-list-id]')).toHaveCount(53);
-  await expect(page.locator('[data-key-list-family]')).toHaveCount(6);
-  await expect(page.locator('[data-dictionary-count]')).toHaveText('53');
-  await expect(page.getByText('53 llistes')).toBeVisible();
+  await expect(page.locator('[data-key-list-id]')).toHaveCount(74);
+  await expect(page.locator('[data-key-list-family]')).toHaveCount(10);
+  await expect(page.locator('[data-dictionary-count]')).toHaveText('74');
+  await expect(page.getByText('74 llistes')).toBeVisible();
   await expect(page.locator('[data-key-list-id="uf2-criteris-canal"]')).toContainText('Contingut');
   await expect(page.locator('[data-key-list-id="uf2-criteris-canal"]')).toContainText('Traçabilitat');
   await expect(page.locator('[data-key-list-id="uf2-criteris-canal"] .concept-source')).toHaveText('UF0518_B2 · p. 21');
@@ -57,4 +57,15 @@ test('les llistes clau no desborden en mòbil',async({browser})=>{
   await page.locator('[data-dictionary-search]').fill('classificació');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
   await page.close();
+});
+
+
+test('UF0519 publica les seqüències documentals noves amb traçabilitat',async({page})=>{
+  await openLists(page);
+  await page.locator('[data-dictionary-filter]').selectOption('uf0519-bloc-1');
+  await expect(page.locator('[data-key-list-id]')).toHaveCount(6);
+  const circuit=page.locator('[data-key-list-id="uf519-circuit-documental-list"]');
+  await expect(circuit).toContainText('Ordre important');
+  await expect(circuit.locator('ol li')).toHaveCount(5);
+  await expect(circuit.locator('.concept-source')).toHaveText('UF0519_U1 · p. 8');
 });
