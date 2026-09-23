@@ -19,7 +19,12 @@ const EXPECTED={
   'unitat-2-bloc-1':156,
   'uf0518-bloc-1':92,
   'uf0518-bloc-2':74,
-  'uf0518-bloc-3':86
+  'uf0518-bloc-3':86,
+  'uf0519-bloc-1':22,
+  'uf0519-bloc-2':39,
+  'uf0519-bloc-3':25,
+  'uf0519-bloc-4':14,
+  'uf0519-bloc-5':16
 };
 
 function mergeQuestionObjects(items){
@@ -64,7 +69,7 @@ export async function runStudyCardsAudit(){
     }
   }
 
-  if(coreCards!==744)errors.push('nucli: '+coreCards+'/744 targetes');
+  if(coreCards!==830)errors.push('nucli: '+coreCards+'/830 targetes');
 
   const coreOverrides=extra.coreOverrides||{};
   const standaloneRiskPhrasesCa=[
@@ -116,7 +121,7 @@ export async function runStudyCardsAudit(){
   }
 
   if(!Array.isArray(extra.languages)||!extra.languages.includes('ca')||!extra.languages.includes('es'))errors.push('extra: idiomes CA/ES incomplets');
-  if(extra.cards?.length!==54)errors.push('extra: '+(extra.cards?.length||0)+'/54 targetes');
+  if(extra.cards?.length!==84)errors.push('extra: '+(extra.cards?.length||0)+'/84 targetes');
 
   const ids=new Set();
   const extraQuestions={ca:new Set(),es:new Set()};
@@ -154,7 +159,7 @@ export async function runStudyCardsAudit(){
     if(combined!==EXPECTED[block.id])errors.push(block.id+': '+combined+'/'+EXPECTED[block.id]+' targetes totals');
   }
 
-  if(totalCards!==798)errors.push('total: '+totalCards+'/798 targetes');
+  if(totalCards!==914)errors.push('total: '+totalCards+'/914 targetes');
 
   return {
     coreCards,
