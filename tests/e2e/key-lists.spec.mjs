@@ -52,7 +52,7 @@ test('les llistes canvien a castellà mantenint la pestanya activa',async({page}
 test('les llistes clau no desborden en mòbil',async({browser})=>{
   const page=await browser.newPage({viewport:{width:390,height:844}});
   await openLists(page);
-  await expect(page.locator('[data-key-list-id]')).toHaveCount(53);
+  await expect(page.locator('[data-key-list-id]')).toHaveCount(74);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
   await page.locator('[data-dictionary-search]').fill('classificació');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
