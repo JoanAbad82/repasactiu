@@ -90,8 +90,8 @@ function parseSourceLabel(label,blockId){
   const fallback=SOURCE_RANGES[blockId]||null;
   const text=String(label||'').trim();
   if(!text)return fallback?{...fallback,precision:'block'}:null;
-  const sourceId=(text.match(/^(UF0518|U2|B[1-5])/i)?.[1]||fallback?.id||'SOURCE').toUpperCase()
-    .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1');
+  const sourceId=(text.match(/^(UF0519|UF0518|U2|B[1-5])/i)?.[1]||fallback?.id||'SOURCE').toUpperCase()
+    .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1').replace(/^UF0519$/,'UF0519_U1');
   const pageMatch=text.match(/pp?\.?\s*(\d+)(?:\s*(?:[-–—]|i|y)\s*(\d+))?/i);
   if(pageMatch){
     const start=Number(pageMatch[1]);
