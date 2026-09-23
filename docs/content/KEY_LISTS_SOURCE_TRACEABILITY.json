@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "date": "2026-09-23",
+  "purpose": "Inventari pedagògic de llistes, classificacions i seqüències que convé recordar com a conjunt complet.",
+  "selectionPolicy": {
+    "include": [
+      "Enumeracions explícites del temari que defineixen parts, tipus, criteris, funcions o drets.",
+      "Seqüències o procediments en què l’ordre aporta significat.",
+      "Conjunts que poden aparèixer com una resposta múltiple o que és útil recuperar sencers."
+    ],
+    "exclude": [
+      "Exemples merament il·lustratius.",
+      "Llistes accidentals de noms, ciutats o casos que no formen una categoria docent.",
+      "Enumeracions redundants quan una altra llista del mateix concepte és més canònica o útil."
+    ]
+  },
+  "totals": {
+    "lists": 53,
+    "families": 6,
+    "orderedSequences": 9
+  },
+  "distribution": {
+    "bloc-1": 2,
+    "bloc-2": 5,
+    "bloc-3": 5,
+    "bloc-4": 4,
+    "bloc-5": 4,
+    "unitat-2-bloc-1": 10,
+    "uf0518-bloc-1": 6,
+    "uf0518-bloc-2": 9,
+    "uf0518-bloc-3": 8
+  },
+  "sources": {
+    "B1": {
+      "file": "1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf",
+      "pages": 19
+    },
+    "B2": {
+      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf",
+      "pages": 33
+    },
+    "B3": {
+      "file": "3_Lestructura_empresa_organigrames_BLOC_3.pdf",
+      "pages": 35
+    },
+    "B4": {
+      "file": "Els departaments_BLOC 4.pdf",
+      "pages": 34
+    },
+    "B5": {
+      "file": "5 .Organització bàsica de lEstat i la Unió Europea_BLOC_5.pdf",
+      "pages": 24
+    },
+    "U2B1": {
+      "file": "Unitat 2_Lorganització dels RRHH.pdf",
+      "pages": 119
+    },
+    "UF0518_B1": {
+      "file": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf",
+      "pages": 28
+    },
+    "UF0518_B2": {
+      "file": "F0518_Bloc_2_Gestio_correspondencia_i_paqueteria.pdf",
+      "pages": 39
+    },
+    "UF0518_B3": {
+      "file": "UF0518_Bloc3_L’arxiu i les comunicacions escrites.pdf",
+      "pages": 50
+    }
+  },
+  "traceability": "Cada entrada de site/data/key-lists-v1.json declara source.id i source.pages. L’auditoria automàtica valida la font, el rang de pàgina, la partició per famílies, el contracte bilingüe i el recompte per bloc."
+}
