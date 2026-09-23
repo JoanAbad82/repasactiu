@@ -1,0 +1,1872 @@
+{
+  "version": 1,
+  "count": 53,
+  "languages": [
+    "ca",
+    "es"
+  ],
+  "groups": [
+    {
+      "id": "bloc-1",
+      "ca": "Unitat 1 · Bloc 1 — Entitats públiques i privades",
+      "es": "Unidad 1 · Bloque 1 — Entidades públicas y privadas"
+    },
+    {
+      "id": "bloc-2",
+      "ca": "Unitat 1 · Bloc 2 — Classes d’empreses i funció administrativa",
+      "es": "Unidad 1 · Bloque 2 — Clases de empresas y función administrativa"
+    },
+    {
+      "id": "bloc-3",
+      "ca": "Unitat 1 · Bloc 3 — Estructura i organigrames",
+      "es": "Unidad 1 · Bloque 3 — Estructura y organigramas"
+    },
+    {
+      "id": "bloc-4",
+      "ca": "Unitat 1 · Bloc 4 — Els departaments",
+      "es": "Unidad 1 · Bloque 4 — Los departamentos"
+    },
+    {
+      "id": "bloc-5",
+      "ca": "Unitat 1 · Bloc 5 — Estat i Unió Europea",
+      "es": "Unidad 1 · Bloque 5 — Estado y Unión Europea"
+    },
+    {
+      "id": "unitat-2-bloc-1",
+      "ca": "Unitat 2 · Bloc 1 — Organització dels RRHH",
+      "es": "Unidad 2 · Bloque 1 — Organización de RR. HH."
+    },
+    {
+      "id": "uf0518-bloc-1",
+      "ca": "UF0518 · Bloc 1 — Comunicació escrita",
+      "es": "UF0518 · Bloque 1 — Comunicación escrita"
+    },
+    {
+      "id": "uf0518-bloc-2",
+      "ca": "UF0518 · Bloc 2 — Correspondència i paqueteria",
+      "es": "UF0518 · Bloque 2 — Correspondencia y paquetería"
+    },
+    {
+      "id": "uf0518-bloc-3",
+      "ca": "UF0518 · Bloc 3 — Arxiu i comunicacions digitals",
+      "es": "UF0518 · Bloque 3 — Archivo y comunicaciones digitales"
+    }
+  ],
+  "families": [
+    {
+      "id": "empresa-organitzacio",
+      "ca": "Empresa, estructura i organització",
+      "es": "Empresa, estructura y organización",
+      "entryIds": [
+        "b1-funcions-empresa",
+        "b1-canals-atencio-client",
+        "b2-classificacio-empreses",
+        "b2-tipus-jerarquia",
+        "b2-funcions-administratives",
+        "b2-fases-fabricacio",
+        "b2-funcions-atencio-client",
+        "b3-principis-organitzacio",
+        "b3-finalitats-organigrama",
+        "b3-requisits-organigrama",
+        "b3-tipus-organigrama",
+        "b3-interpretar-organigrama",
+        "b4-departaments",
+        "b4-tipus-informacio",
+        "b4-criteris-assignacio",
+        "b4-condicions-acollida"
+      ]
+    },
+    {
+      "id": "administracio-publica-ue",
+      "ca": "Administracions públiques i Unió Europea",
+      "es": "Administraciones públicas y Unión Europea",
+      "entryIds": [
+        "b5-organitzacio-publica",
+        "b5-poders-estat",
+        "b5-institucions-autonomiques",
+        "b5-institucions-ue"
+      ]
+    },
+    {
+      "id": "qualitat-equips",
+      "ca": "Qualitat, coordinació i treball en equip",
+      "es": "Calidad, coordinación y trabajo en equipo",
+      "entryIds": [
+        "u2-mecanismes-coordinacio",
+        "u2-procediment-tres-questions",
+        "u2-qualitat-conceptes",
+        "u2-control-qualitat",
+        "u2-tipus-indicadors",
+        "u2-prioritat-tasques",
+        "u2-elements-grup",
+        "u2-estructures-grup",
+        "u2-fases-equip",
+        "u2-criteris-dinamica"
+      ]
+    },
+    {
+      "id": "comunicacio-escrita",
+      "ca": "Comunicació escrita i documents",
+      "es": "Comunicación escrita y documentos",
+      "entryIds": [
+        "uf1-elements-comunicacio",
+        "uf1-bon-text",
+        "uf1-formalitat-cartes",
+        "uf1-tipus-cartes-comercials",
+        "uf1-documents-administratius",
+        "uf1-estructura-sollicitud"
+      ]
+    },
+    {
+      "id": "correspondencia-paqueteria",
+      "ca": "Correspondència, paqueteria i enviaments",
+      "es": "Correspondencia, paquetería y envíos",
+      "entryIds": [
+        "uf2-circuit-correspondencia",
+        "uf2-criteris-classificacio",
+        "uf2-registre-entrada",
+        "uf2-tipus-embalatge",
+        "uf2-criteris-embalatge",
+        "uf2-procediment-embalatge",
+        "uf2-comprovacions-sortida",
+        "uf2-registre-sortida",
+        "uf2-criteris-canal"
+      ]
+    },
+    {
+      "id": "arxiu-digital",
+      "ca": "Arxiu, dades i seguretat digital",
+      "es": "Archivo, datos y seguridad digital",
+      "entryIds": [
+        "uf3-proces-arxiu",
+        "uf3-pautes-arxiu",
+        "uf3-normes-internes-arxiu",
+        "uf3-llibres-iva",
+        "uf3-drets-persones",
+        "uf3-sistemes-classificacio",
+        "uf3-tipus-portals",
+        "uf3-phishing"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "b1-funcions-empresa",
+      "blockId": "bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "B1",
+        "pages": [
+          12,
+          16
+        ]
+      },
+      "ca": {
+        "title": "Funcions principals de l’empresa",
+        "items": [
+          "Direcció",
+          "Financera",
+          "Recursos Humans",
+          "Comercialització",
+          "Vendes",
+          "Atenció al Client",
+          "Administració"
+        ]
+      },
+      "es": {
+        "title": "Funciones principales de la empresa",
+        "items": [
+          "Dirección",
+          "Financiera",
+          "Recursos Humanos",
+          "Comercialización",
+          "Ventas",
+          "Atención al Cliente",
+          "Administración"
+        ]
+      }
+    },
+    {
+      "id": "b1-canals-atencio-client",
+      "blockId": "bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "B1",
+        "pages": [
+          15,
+          15
+        ]
+      },
+      "ca": {
+        "title": "Canals habituals d’atenció al client",
+        "items": [
+          "Atenció telefònica",
+          "Correu electrònic",
+          "Pàgina web",
+          "Correu postal"
+        ]
+      },
+      "es": {
+        "title": "Canales habituales de atención al cliente",
+        "items": [
+          "Atención telefónica",
+          "Correo electrónico",
+          "Página web",
+          "Correo postal"
+        ]
+      }
+    },
+    {
+      "id": "b2-classificacio-empreses",
+      "blockId": "bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "B2",
+        "pages": [
+          5,
+          5
+        ]
+      },
+      "ca": {
+        "title": "Criteris de classificació de les empreses",
+        "items": [
+          "Motiu de creació — lucratives / sense ànim de lucre",
+          "Estructura jurídica — individuals / societats / S.L. / S.A. / cooperatives",
+          "Tipus de capital — públiques / privades / mixtes",
+          "Activitat econòmica — fabricants / distribuïdores / serveis"
+        ]
+      },
+      "es": {
+        "title": "Criterios de clasificación de las empresas",
+        "items": [
+          "Motivo de creación — lucrativas / sin ánimo de lucro",
+          "Estructura jurídica — individuales / sociedades / S.L. / S.A. / cooperativas",
+          "Tipo de capital — públicas / privadas / mixtas",
+          "Actividad económica — fabricantes / distribuidoras / servicios"
+        ]
+      }
+    },
+    {
+      "id": "b2-tipus-jerarquia",
+      "blockId": "bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "B2",
+        "pages": [
+          23,
+          26
+        ]
+      },
+      "ca": {
+        "title": "Tipus de jerarquia empresarial",
+        "items": [
+          "Donada pel càrrec",
+          "De rang",
+          "Per capacitat",
+          "Per remuneració"
+        ]
+      },
+      "es": {
+        "title": "Tipos de jerarquía empresarial",
+        "items": [
+          "Dada por el cargo",
+          "De rango",
+          "Por capacidad",
+          "Por remuneración"
+        ]
+      }
+    },
+    {
+      "id": "b2-funcions-administratives",
+      "blockId": "bloc-2",
+      "ordered": true,
+      "source": {
+        "id": "B2",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "title": "Funcions administratives bàsiques",
+        "items": [
+          "Planificar",
+          "Organitzar",
+          "Coordinar",
+          "Controlar"
+        ],
+        "memory": "P-O-C-C: planificar, organitzar, coordinar, controlar."
+      },
+      "es": {
+        "title": "Funciones administrativas básicas",
+        "items": [
+          "Planificar",
+          "Organizar",
+          "Coordinar",
+          "Controlar"
+        ],
+        "memory": "P-O-C-C: planificar, organizar, coordinar, controlar."
+      }
+    },
+    {
+      "id": "b2-fases-fabricacio",
+      "blockId": "bloc-2",
+      "ordered": true,
+      "source": {
+        "id": "B2",
+        "pages": [
+          16,
+          16
+        ]
+      },
+      "ca": {
+        "title": "Fases bàsiques del procés de fabricació",
+        "items": [
+          "Recepció de matèries primeres",
+          "Transformació o fabricació",
+          "Control de qualitat",
+          "Emmagatzematge dels productes acabats",
+          "Preparació per a la distribució"
+        ]
+      },
+      "es": {
+        "title": "Fases básicas del proceso de fabricación",
+        "items": [
+          "Recepción de materias primas",
+          "Transformación o fabricación",
+          "Control de calidad",
+          "Almacenamiento de los productos acabados",
+          "Preparación para la distribución"
+        ]
+      }
+    },
+    {
+      "id": "b2-funcions-atencio-client",
+      "blockId": "bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "B2",
+        "pages": [
+          18,
+          18
+        ]
+      },
+      "ca": {
+        "title": "Funcions de l’atenció al client",
+        "items": [
+          "Informar i orientar",
+          "Resoldre dubtes i consultes",
+          "Gestionar peticions i incidències",
+          "Atendre queixes i reclamacions",
+          "Facilitar informació sobre els serveis",
+          "Fer seguiment de les necessitats dels clients"
+        ]
+      },
+      "es": {
+        "title": "Funciones de la atención al cliente",
+        "items": [
+          "Informar y orientar",
+          "Resolver dudas y consultas",
+          "Gestionar peticiones e incidencias",
+          "Atender quejas y reclamaciones",
+          "Facilitar información sobre los servicios",
+          "Hacer seguimiento de las necesidades de los clientes"
+        ]
+      }
+    },
+    {
+      "id": "b3-principis-organitzacio",
+      "blockId": "bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "B3",
+        "pages": [
+          8,
+          8
+        ]
+      },
+      "ca": {
+        "title": "Principis d’organització",
+        "items": [
+          "Autoritat",
+          "Eficiència",
+          "Unitat de direcció",
+          "Coordinació",
+          "Delegació",
+          "Descentralització",
+          "Gestió de la despesa",
+          "Especialització",
+          "Participació",
+          "Publicitat i transparència"
+        ]
+      },
+      "es": {
+        "title": "Principios de organización",
+        "items": [
+          "Autoridad",
+          "Eficiencia",
+          "Unidad de dirección",
+          "Coordinación",
+          "Delegación",
+          "Descentralización",
+          "Gestión del gasto",
+          "Especialización",
+          "Participación",
+          "Publicidad y transparencia"
+        ]
+      }
+    },
+    {
+      "id": "b3-finalitats-organigrama",
+      "blockId": "bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "B3",
+        "pages": [
+          25,
+          25
+        ]
+      },
+      "ca": {
+        "title": "Finalitats de l’organigrama",
+        "items": [
+          "Informar",
+          "Coordinar",
+          "Detectar errors",
+          "Facilitar l’acollida"
+        ]
+      },
+      "es": {
+        "title": "Finalidades del organigrama",
+        "items": [
+          "Informar",
+          "Coordinar",
+          "Detectar errores",
+          "Facilitar la acogida"
+        ]
+      }
+    },
+    {
+      "id": "b3-requisits-organigrama",
+      "blockId": "bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "B3",
+        "pages": [
+          26,
+          26
+        ]
+      },
+      "ca": {
+        "title": "Requisits d’un bon organigrama",
+        "items": [
+          "Exactitud",
+          "Actualització",
+          "Claredat",
+          "Uniformitat"
+        ],
+        "memory": "E-A-C-U: exacte, actualitzat, clar i uniforme."
+      },
+      "es": {
+        "title": "Requisitos de un buen organigrama",
+        "items": [
+          "Exactitud",
+          "Actualización",
+          "Claridad",
+          "Uniformidad"
+        ],
+        "memory": "E-A-C-U: exacto, actualizado, claro y uniforme."
+      }
+    },
+    {
+      "id": "b3-tipus-organigrama",
+      "blockId": "bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "B3",
+        "pages": [
+          27,
+          30
+        ]
+      },
+      "ca": {
+        "title": "Tipus d’organigrama",
+        "items": [
+          "Vertical",
+          "Horitzontal",
+          "Radial o circular",
+          "Mixt"
+        ]
+      },
+      "es": {
+        "title": "Tipos de organigrama",
+        "items": [
+          "Vertical",
+          "Horizontal",
+          "Radial o circular",
+          "Mixto"
+        ]
+      }
+    },
+    {
+      "id": "b3-interpretar-organigrama",
+      "blockId": "bloc-3",
+      "ordered": true,
+      "source": {
+        "id": "B3",
+        "pages": [
+          31,
+          31
+        ]
+      },
+      "ca": {
+        "title": "Passos per interpretar un organigrama",
+        "items": [
+          "Localitzar el nivell de màxima responsabilitat",
+          "Identificar els departaments o unitats",
+          "Observar les línies de dependència jeràrquica",
+          "Detectar els llocs situats al mateix nivell",
+          "Comprovar de qui depèn cada persona o unitat"
+        ]
+      },
+      "es": {
+        "title": "Pasos para interpretar un organigrama",
+        "items": [
+          "Localizar el nivel de máxima responsabilidad",
+          "Identificar los departamentos o unidades",
+          "Observar las líneas de dependencia jerárquica",
+          "Detectar los puestos situados al mismo nivel",
+          "Comprobar de quién depende cada persona o unidad"
+        ]
+      }
+    },
+    {
+      "id": "b4-departaments",
+      "blockId": "bloc-4",
+      "ordered": false,
+      "source": {
+        "id": "B4",
+        "pages": [
+          7,
+          11
+        ]
+      },
+      "ca": {
+        "title": "Departaments principals que pot tenir una empresa",
+        "items": [
+          "Direcció",
+          "Producció / operacions",
+          "Recursos Humans",
+          "Comercial",
+          "Atenció al Client",
+          "Qualitat",
+          "Administració",
+          "Compres",
+          "Vendes",
+          "Legal"
+        ]
+      },
+      "es": {
+        "title": "Departamentos principales que puede tener una empresa",
+        "items": [
+          "Dirección",
+          "Producción / operaciones",
+          "Recursos Humanos",
+          "Comercial",
+          "Atención al Cliente",
+          "Calidad",
+          "Administración",
+          "Compras",
+          "Ventas",
+          "Legal"
+        ]
+      }
+    },
+    {
+      "id": "b4-tipus-informacio",
+      "blockId": "bloc-4",
+      "ordered": false,
+      "source": {
+        "id": "B4",
+        "pages": [
+          15,
+          17
+        ]
+      },
+      "ca": {
+        "title": "Tipus d’informació bàsica generada als departaments",
+        "items": [
+          "Tributària i fiscal",
+          "Mercantil",
+          "Financera",
+          "Vendes i compres",
+          "Personal i Recursos Humans"
+        ]
+      },
+      "es": {
+        "title": "Tipos de información básica generada en los departamentos",
+        "items": [
+          "Tributaria y fiscal",
+          "Mercantil",
+          "Financiera",
+          "Ventas y compras",
+          "Personal y Recursos Humanos"
+        ]
+      }
+    },
+    {
+      "id": "b4-criteris-assignacio",
+      "blockId": "bloc-4",
+      "ordered": false,
+      "source": {
+        "id": "B4",
+        "pages": [
+          25,
+          29
+        ]
+      },
+      "ca": {
+        "title": "Criteris per assignar activitats als departaments",
+        "items": [
+          "Mida de l’empresa",
+          "Volum de producció",
+          "Pressupost",
+          "Estructura física",
+          "Àrea geogràfica d’actuació",
+          "Tipologia de clients",
+          "Tipologia de productes o serveis",
+          "Característiques dels llocs de treball"
+        ]
+      },
+      "es": {
+        "title": "Criterios para asignar actividades a los departamentos",
+        "items": [
+          "Tamaño de la empresa",
+          "Volumen de producción",
+          "Presupuesto",
+          "Estructura física",
+          "Área geográfica de actuación",
+          "Tipología de clientes",
+          "Tipología de productos o servicios",
+          "Características de los puestos de trabajo"
+        ]
+      }
+    },
+    {
+      "id": "b4-condicions-acollida",
+      "blockId": "bloc-4",
+      "ordered": false,
+      "source": {
+        "id": "B4",
+        "pages": [
+          31,
+          31
+        ]
+      },
+      "ca": {
+        "title": "Condicions ambientals de l’espai d’acollida",
+        "items": [
+          "Il·luminació suficient i agradable",
+          "Temperatura confortable",
+          "Bona ventilació",
+          "Nivell de soroll adequat",
+          "Neteja i ordre"
+        ]
+      },
+      "es": {
+        "title": "Condiciones ambientales del espacio de acogida",
+        "items": [
+          "Iluminación suficiente y agradable",
+          "Temperatura confortable",
+          "Buena ventilación",
+          "Nivel de ruido adecuado",
+          "Limpieza y orden"
+        ]
+      }
+    },
+    {
+      "id": "b5-organitzacio-publica",
+      "blockId": "bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "B5",
+        "pages": [
+          6,
+          6
+        ]
+      },
+      "ca": {
+        "title": "Tres dimensions de l’organització pública a Espanya",
+        "items": [
+          "Organització constitucional — poders legislatiu, executiu i judicial",
+          "Organització administrativa — AGE, comunitats autònomes i administració local",
+          "Organització territorial — municipis, províncies i comunitats autònomes"
+        ]
+      },
+      "es": {
+        "title": "Tres dimensiones de la organización pública en España",
+        "items": [
+          "Organización constitucional — poderes legislativo, ejecutivo y judicial",
+          "Organización administrativa — AGE, comunidades autónomas y administración local",
+          "Organización territorial — municipios, provincias y comunidades autónomas"
+        ]
+      }
+    },
+    {
+      "id": "b5-poders-estat",
+      "blockId": "bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "B5",
+        "pages": [
+          7,
+          9
+        ]
+      },
+      "ca": {
+        "title": "Poders de l’Estat",
+        "items": [
+          "Legislatiu",
+          "Executiu",
+          "Judicial"
+        ]
+      },
+      "es": {
+        "title": "Poderes del Estado",
+        "items": [
+          "Legislativo",
+          "Ejecutivo",
+          "Judicial"
+        ]
+      }
+    },
+    {
+      "id": "b5-institucions-autonomiques",
+      "blockId": "bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "B5",
+        "pages": [
+          10,
+          10
+        ]
+      },
+      "ca": {
+        "title": "Institucions pròpies d’autogovern de les comunitats autònomes",
+        "items": [
+          "President autonòmic",
+          "Assemblea legislativa autonòmica",
+          "Consell de Govern"
+        ]
+      },
+      "es": {
+        "title": "Instituciones propias de autogobierno de las comunidades autónomas",
+        "items": [
+          "Presidente autonómico",
+          "Asamblea legislativa autonómica",
+          "Consejo de Gobierno"
+        ]
+      }
+    },
+    {
+      "id": "b5-institucions-ue",
+      "blockId": "bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "B5",
+        "pages": [
+          15,
+          18
+        ]
+      },
+      "ca": {
+        "title": "Set institucions de la Unió Europea",
+        "items": [
+          "Parlament Europeu",
+          "Consell de la Unió Europea",
+          "Comissió Europea",
+          "Tribunal de Justícia de la Unió Europea",
+          "Consell Europeu",
+          "Banc Central Europeu",
+          "Tribunal de Comptes Europeu"
+        ]
+      },
+      "es": {
+        "title": "Siete instituciones de la Unión Europea",
+        "items": [
+          "Parlamento Europeo",
+          "Consejo de la Unión Europea",
+          "Comisión Europea",
+          "Tribunal de Justicia de la Unión Europea",
+          "Consejo Europeo",
+          "Banco Central Europeo",
+          "Tribunal de Cuentas Europeo"
+        ]
+      }
+    },
+    {
+      "id": "u2-mecanismes-coordinacio",
+      "blockId": "unitat-2-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          6,
+          6
+        ]
+      },
+      "ca": {
+        "title": "Mecanismes de coordinació",
+        "items": [
+          "Adaptació mútua",
+          "Supervisió directa",
+          "Normalització de procediments",
+          "Normalització de resultats",
+          "Normalització d’habilitats"
+        ]
+      },
+      "es": {
+        "title": "Mecanismos de coordinación",
+        "items": [
+          "Adaptación mutua",
+          "Supervisión directa",
+          "Normalización de procedimientos",
+          "Normalización de resultados",
+          "Normalización de habilidades"
+        ]
+      }
+    },
+    {
+      "id": "u2-procediment-tres-questions",
+      "blockId": "unitat-2-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          14,
+          14
+        ]
+      },
+      "ca": {
+        "title": "Tres qüestions d’un procediment de treball",
+        "items": [
+          "Accions que es realitzaran",
+          "Protocol que se seguirà",
+          "Regles que delimitaran les accions"
+        ]
+      },
+      "es": {
+        "title": "Tres cuestiones de un procedimiento de trabajo",
+        "items": [
+          "Acciones que se realizarán",
+          "Protocolo que se seguirá",
+          "Reglas que delimitarán las acciones"
+        ]
+      }
+    },
+    {
+      "id": "u2-qualitat-conceptes",
+      "blockId": "unitat-2-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          18,
+          18
+        ]
+      },
+      "ca": {
+        "title": "Tres conceptes bàsics de qualitat",
+        "items": [
+          "Eficiència",
+          "Eficàcia",
+          "Efectivitat"
+        ],
+        "memory": "Eficiència = recursos; eficàcia = objectiu; efectivitat = equilibri."
+      },
+      "es": {
+        "title": "Tres conceptos básicos de calidad",
+        "items": [
+          "Eficiencia",
+          "Eficacia",
+          "Efectividad"
+        ],
+        "memory": "Eficiencia = recursos; eficacia = objetivo; efectividad = equilibrio."
+      }
+    },
+    {
+      "id": "u2-control-qualitat",
+      "blockId": "unitat-2-bloc-1",
+      "ordered": true,
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          19,
+          20
+        ]
+      },
+      "ca": {
+        "title": "Passos per implementar el control de qualitat",
+        "items": [
+          "Triar què controlar",
+          "Determinar les formes de mesurament",
+          "Establir un sistema de mesurament eficient",
+          "Realitzar el control mitjançant el mesurament",
+          "Interpretar el resultat real i comparar-lo amb l’estàndard",
+          "Prendre accions de millora i revisar els controls si cal"
+        ]
+      },
+      "es": {
+        "title": "Pasos para implantar el control de calidad",
+        "items": [
+          "Elegir qué controlar",
+          "Determinar las formas de medición",
+          "Establecer un sistema de medición eficiente",
+          "Realizar el control mediante la medición",
+          "Interpretar el resultado real y compararlo con el estándar",
+          "Tomar acciones de mejora y revisar los controles si es necesario"
+        ]
+      }
+    },
+    {
+      "id": "u2-tipus-indicadors",
+      "blockId": "unitat-2-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          23,
+          23
+        ]
+      },
+      "ca": {
+        "title": "Tipus d’indicadors de qualitat",
+        "items": [
+          "De procés o funcions",
+          "De servei",
+          "De percepció"
+        ]
+      },
+      "es": {
+        "title": "Tipos de indicadores de calidad",
+        "items": [
+          "De proceso o funciones",
+          "De servicio",
+          "De percepción"
+        ]
+      }
+    },
+    {
+      "id": "u2-prioritat-tasques",
+      "blockId": "unitat-2-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "title": "Classificació de les tasques per prioritat",
+        "items": [
+          "Importants",
+          "Normals",
+          "Poc importants"
+        ]
+      },
+      "es": {
+        "title": "Clasificación de las tareas por prioridad",
+        "items": [
+          "Importantes",
+          "Normales",
+          "Poco importantes"
+        ]
+      }
+    },
+    {
+      "id": "u2-elements-grup",
+      "blockId": "unitat-2-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          39,
+          42
+        ]
+      },
+      "ca": {
+        "title": "Elements principals d’un grup",
+        "items": [
+          "Grandària",
+          "Caràcter formal o informal",
+          "Estatus",
+          "Rols",
+          "Normes",
+          "Cohesió o unió grupal"
+        ]
+      },
+      "es": {
+        "title": "Elementos principales de un grupo",
+        "items": [
+          "Tamaño",
+          "Carácter formal o informal",
+          "Estatus",
+          "Roles",
+          "Normas",
+          "Cohesión o unión grupal"
+        ]
+      }
+    },
+    {
+      "id": "u2-estructures-grup",
+      "blockId": "unitat-2-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          46,
+          49
+        ]
+      },
+      "ca": {
+        "title": "Estructures de funcionament del grup",
+        "items": [
+          "Autocràtica",
+          "Paternalista",
+          "Permissiva o laissez-faire",
+          "Participativa"
+        ]
+      },
+      "es": {
+        "title": "Estructuras de funcionamiento del grupo",
+        "items": [
+          "Autocrática",
+          "Paternalista",
+          "Permisiva o laissez-faire",
+          "Participativa"
+        ]
+      }
+    },
+    {
+      "id": "u2-fases-equip",
+      "blockId": "unitat-2-bloc-1",
+      "ordered": true,
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          60,
+          63
+        ]
+      },
+      "ca": {
+        "title": "Fases del treball en equip",
+        "items": [
+          "Formació",
+          "Conflicte",
+          "Normalització",
+          "Rendiment"
+        ],
+        "memory": "F-C-N-R: formació, conflicte, normalització, rendiment."
+      },
+      "es": {
+        "title": "Fases del trabajo en equipo",
+        "items": [
+          "Formación",
+          "Conflicto",
+          "Normalización",
+          "Rendimiento"
+        ],
+        "memory": "F-C-N-R: formación, conflicto, normalización, rendimiento."
+      }
+    },
+    {
+      "id": "u2-criteris-dinamica",
+      "blockId": "unitat-2-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "U2B1",
+        "pages": [
+          97,
+          97
+        ]
+      },
+      "ca": {
+        "title": "Criteris per saber si una dinàmica de grup és adequada",
+        "items": [
+          "Que sigui viable",
+          "Que respongui a l’objectiu d’aprenentatge",
+          "Que sigui adequada al grup",
+          "Que sigui transferible"
+        ]
+      },
+      "es": {
+        "title": "Criterios para saber si una dinámica de grupo es adecuada",
+        "items": [
+          "Que sea viable",
+          "Que responda al objetivo de aprendizaje",
+          "Que sea adecuada al grupo",
+          "Que sea transferible"
+        ]
+      }
+    },
+    {
+      "id": "uf1-elements-comunicacio",
+      "blockId": "uf0518-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          6,
+          6
+        ]
+      },
+      "ca": {
+        "title": "Elements de la comunicació escrita",
+        "items": [
+          "Emissor",
+          "Receptor",
+          "Missatge",
+          "Canal",
+          "Codi"
+        ],
+        "memory": "E-R-M-C-C: qui envia, qui rep, què, per on i amb quin codi."
+      },
+      "es": {
+        "title": "Elementos de la comunicación escrita",
+        "items": [
+          "Emisor",
+          "Receptor",
+          "Mensaje",
+          "Canal",
+          "Código"
+        ],
+        "memory": "E-R-M-C-C: quién envía, quién recibe, qué, por dónde y con qué código."
+      }
+    },
+    {
+      "id": "uf1-bon-text",
+      "blockId": "uf0518-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "title": "Característiques d’un bon text professional",
+        "items": [
+          "Claredat",
+          "Precisió",
+          "Concisió",
+          "Correcció",
+          "Coherència i cohesió"
+        ]
+      },
+      "es": {
+        "title": "Características de un buen texto profesional",
+        "items": [
+          "Claridad",
+          "Precisión",
+          "Concisión",
+          "Corrección",
+          "Coherencia y cohesión"
+        ]
+      }
+    },
+    {
+      "id": "uf1-formalitat-cartes",
+      "blockId": "uf0518-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          14,
+          14
+        ]
+      },
+      "ca": {
+        "title": "Tipus de carta segons el grau de formalitat",
+        "items": [
+          "Formal",
+          "Molt formal",
+          "Informal o familiar"
+        ]
+      },
+      "es": {
+        "title": "Tipos de carta según el grado de formalidad",
+        "items": [
+          "Formal",
+          "Muy formal",
+          "Informal o familiar"
+        ]
+      }
+    },
+    {
+      "id": "uf1-tipus-cartes-comercials",
+      "blockId": "uf0518-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          20,
+          20
+        ]
+      },
+      "ca": {
+        "title": "Tipus de cartes comercials treballades al temari",
+        "items": [
+          "Comanda",
+          "Oferta",
+          "Reclamació",
+          "Cobrament"
+        ]
+      },
+      "es": {
+        "title": "Tipos de cartas comerciales trabajadas en el temario",
+        "items": [
+          "Pedido",
+          "Oferta",
+          "Reclamación",
+          "Cobro"
+        ]
+      }
+    },
+    {
+      "id": "uf1-documents-administratius",
+      "blockId": "uf0518-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          22,
+          23
+        ]
+      },
+      "ca": {
+        "title": "Documents administratius treballats al temari",
+        "items": [
+          "Ofici",
+          "Memoràndum",
+          "Circular",
+          "Sol·licitud o instància"
+        ]
+      },
+      "es": {
+        "title": "Documentos administrativos trabajados en el temario",
+        "items": [
+          "Oficio",
+          "Memorándum",
+          "Circular",
+          "Solicitud o instancia"
+        ]
+      }
+    },
+    {
+      "id": "uf1-estructura-sollicitud",
+      "blockId": "uf0518-bloc-1",
+      "ordered": true,
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "title": "Estructura habitual d’una sol·licitud",
+        "items": [
+          "Dades de la persona interessada",
+          "Òrgan o entitat destinatària",
+          "EXPOSO: fets i antecedents",
+          "SOL·LICITO: petició concreta",
+          "Documents annexos",
+          "Lloc, data i signatura"
+        ]
+      },
+      "es": {
+        "title": "Estructura habitual de una solicitud",
+        "items": [
+          "Datos de la persona interesada",
+          "Órgano o entidad destinataria",
+          "EXPONGO: hechos y antecedentes",
+          "SOLICITO: petición concreta",
+          "Documentos anexos",
+          "Lugar, fecha y firma"
+        ]
+      }
+    },
+    {
+      "id": "uf2-circuit-correspondencia",
+      "blockId": "uf0518-bloc-2",
+      "ordered": true,
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          3,
+          3
+        ]
+      },
+      "ca": {
+        "title": "Circuit complet de correspondència i paqueteria",
+        "items": [
+          "Identificar el tipus d’enviament i el destinatari intern",
+          "Registrar quan cal deixar constància o controlar terminis",
+          "Distribuir sense exposar dades personals o documentació reservada",
+          "Preparar la sortida amb annexos, signatura i servei adequat",
+          "Conservar evidències: còpia, justificant, prova de lliurament o certificació"
+        ]
+      },
+      "es": {
+        "title": "Circuito completo de correspondencia y paquetería",
+        "items": [
+          "Identificar el tipo de envío y el destinatario interno",
+          "Registrar cuando sea necesario dejar constancia o controlar plazos",
+          "Distribuir sin exponer datos personales o documentación reservada",
+          "Preparar la salida con anexos, firma y servicio adecuado",
+          "Conservar evidencias: copia, justificante, prueba de entrega o certificación"
+        ]
+      }
+    },
+    {
+      "id": "uf2-criteris-classificacio",
+      "blockId": "uf0518-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          6,
+          6
+        ]
+      },
+      "ca": {
+        "title": "Criteris per seleccionar i classificar correspondència",
+        "items": [
+          "Departament",
+          "Urgència",
+          "Confidencialitat",
+          "Format",
+          "Necessitat de resposta"
+        ]
+      },
+      "es": {
+        "title": "Criterios para seleccionar y clasificar correspondencia",
+        "items": [
+          "Departamento",
+          "Urgencia",
+          "Confidencialidad",
+          "Formato",
+          "Necesidad de respuesta"
+        ]
+      }
+    },
+    {
+      "id": "uf2-registre-entrada",
+      "blockId": "uf0518-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          8,
+          8
+        ]
+      },
+      "ca": {
+        "title": "Dades bàsiques del registre d’entrada",
+        "items": [
+          "Número d’entrada",
+          "Data i hora",
+          "Remitent",
+          "Tipus",
+          "Destinatari intern",
+          "Assumpte i observacions"
+        ]
+      },
+      "es": {
+        "title": "Datos básicos del registro de entrada",
+        "items": [
+          "Número de entrada",
+          "Fecha y hora",
+          "Remitente",
+          "Tipo",
+          "Destinatario interno",
+          "Asunto y observaciones"
+        ]
+      }
+    },
+    {
+      "id": "uf2-tipus-embalatge",
+      "blockId": "uf0518-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          13,
+          13
+        ]
+      },
+      "ca": {
+        "title": "Tipus d’embalatge",
+        "items": [
+          "Primari",
+          "Secundari",
+          "Terciari"
+        ]
+      },
+      "es": {
+        "title": "Tipos de embalaje",
+        "items": [
+          "Primario",
+          "Secundario",
+          "Terciario"
+        ]
+      }
+    },
+    {
+      "id": "uf2-criteris-embalatge",
+      "blockId": "uf0518-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          14,
+          14
+        ]
+      },
+      "ca": {
+        "title": "Criteris per triar l’embalatge",
+        "items": [
+          "Naturalesa del producte",
+          "Pes i dimensions",
+          "Valor econòmic",
+          "Risc de deteriorament",
+          "Restriccions",
+          "Sostenibilitat",
+          "Cost"
+        ]
+      },
+      "es": {
+        "title": "Criterios para elegir el embalaje",
+        "items": [
+          "Naturaleza del producto",
+          "Peso y dimensiones",
+          "Valor económico",
+          "Riesgo de deterioro",
+          "Restricciones",
+          "Sostenibilidad",
+          "Coste"
+        ]
+      }
+    },
+    {
+      "id": "uf2-procediment-embalatge",
+      "blockId": "uf0518-bloc-2",
+      "ordered": true,
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          15,
+          15
+        ]
+      },
+      "ca": {
+        "title": "Procediment d’embalatge i etiquetatge",
+        "items": [
+          "Identificar el contingut i comprovar-ne l’admissibilitat",
+          "Escollir el tipus d’enviament",
+          "Triar l’embalatge segons pes, mida, fragilitat i valor",
+          "Protegir i tancar",
+          "Etiquetar amb destinatari i remitent complets",
+          "Registrar la sortida i conservar el justificant"
+        ]
+      },
+      "es": {
+        "title": "Procedimiento de embalaje y etiquetado",
+        "items": [
+          "Identificar el contenido y comprobar su admisibilidad",
+          "Elegir el tipo de envío",
+          "Elegir el embalaje según peso, tamaño, fragilidad y valor",
+          "Proteger y cerrar",
+          "Etiquetar con destinatario y remitente completos",
+          "Registrar la salida y conservar el justificante"
+        ]
+      }
+    },
+    {
+      "id": "uf2-comprovacions-sortida",
+      "blockId": "uf0518-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          17,
+          17
+        ]
+      },
+      "ca": {
+        "title": "Comprovacions imprescindibles abans d’enviar",
+        "items": [
+          "Document complet, revisat i signat",
+          "Data i referències correctes",
+          "Dades del destinatari completes i actualitzades",
+          "Annexos inclosos i coherents",
+          "Mitjà adequat a urgència, confidencialitat i valor probatori",
+          "Còpia i justificant conservats quan cal"
+        ]
+      },
+      "es": {
+        "title": "Comprobaciones imprescindibles antes de enviar",
+        "items": [
+          "Documento completo, revisado y firmado",
+          "Fecha y referencias correctas",
+          "Datos del destinatario completos y actualizados",
+          "Anexos incluidos y coherentes",
+          "Medio adecuado a urgencia, confidencialidad y valor probatorio",
+          "Copia y justificante conservados cuando proceda"
+        ]
+      }
+    },
+    {
+      "id": "uf2-registre-sortida",
+      "blockId": "uf0518-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          18,
+          18
+        ]
+      },
+      "ca": {
+        "title": "Dades bàsiques del registre de sortida",
+        "items": [
+          "Número de sortida",
+          "Data",
+          "Destinatari",
+          "Tipus d’enviament",
+          "Servei utilitzat",
+          "Observacions"
+        ]
+      },
+      "es": {
+        "title": "Datos básicos del registro de salida",
+        "items": [
+          "Número de salida",
+          "Fecha",
+          "Destinatario",
+          "Tipo de envío",
+          "Servicio utilizado",
+          "Observaciones"
+        ]
+      }
+    },
+    {
+      "id": "uf2-criteris-canal",
+      "blockId": "uf0518-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          21,
+          21
+        ]
+      },
+      "ca": {
+        "title": "Criteris principals per escollir un canal d’enviament",
+        "items": [
+          "Contingut",
+          "Termini",
+          "Prova necessària",
+          "Cost",
+          "Cobertura",
+          "Traçabilitat"
+        ],
+        "memory": "Canal = contingut + termini + prova + cost + cobertura + traça."
+      },
+      "es": {
+        "title": "Criterios principales para elegir un canal de envío",
+        "items": [
+          "Contenido",
+          "Plazo",
+          "Prueba necesaria",
+          "Coste",
+          "Cobertura",
+          "Trazabilidad"
+        ],
+        "memory": "Canal = contenido + plazo + prueba + coste + cobertura + trazabilidad."
+      }
+    },
+    {
+      "id": "uf3-proces-arxiu",
+      "blockId": "uf0518-bloc-3",
+      "ordered": true,
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          8,
+          8
+        ]
+      },
+      "ca": {
+        "title": "Procés general d’arxiu",
+        "items": [
+          "Rebre o generar el document",
+          "Comprovar dades i annexos",
+          "Registrar si correspon",
+          "Classificar segons criteri intern",
+          "Guardar, custodiar i recuperar"
+        ],
+        "memory": "R-C-R-C-G: rebre, comprovar, registrar, classificar, guardar."
+      },
+      "es": {
+        "title": "Proceso general de archivo",
+        "items": [
+          "Recibir o generar el documento",
+          "Comprobar datos y anexos",
+          "Registrar si corresponde",
+          "Clasificar según criterio interno",
+          "Guardar, custodiar y recuperar"
+        ],
+        "memory": "R-C-R-C-G: recibir, comprobar, registrar, clasificar, guardar."
+      }
+    },
+    {
+      "id": "uf3-pautes-arxiu",
+      "blockId": "uf0518-bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "title": "Pautes per a un procés d’arxiu correcte",
+        "items": [
+          "Respectar l’organigrama",
+          "Mantenir la traçabilitat",
+          "Evitar duplicitats",
+          "Informatitzar amb criteri",
+          "Revisar periòdicament",
+          "Documentar el sistema"
+        ]
+      },
+      "es": {
+        "title": "Pautas para un proceso de archivo correcto",
+        "items": [
+          "Respetar el organigrama",
+          "Mantener la trazabilidad",
+          "Evitar duplicidades",
+          "Informatizar con criterio",
+          "Revisar periódicamente",
+          "Documentar el sistema"
+        ]
+      }
+    },
+    {
+      "id": "uf3-normes-internes-arxiu",
+      "blockId": "uf0518-bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          11,
+          11
+        ]
+      },
+      "ca": {
+        "title": "Aspectes mínims de les normes internes d’arxiu",
+        "items": [
+          "Responsable",
+          "Ubicació",
+          "Classificació",
+          "Accés",
+          "Conservació"
+        ]
+      },
+      "es": {
+        "title": "Aspectos mínimos de las normas internas de archivo",
+        "items": [
+          "Responsable",
+          "Ubicación",
+          "Clasificación",
+          "Acceso",
+          "Conservación"
+        ]
+      }
+    },
+    {
+      "id": "uf3-llibres-iva",
+      "blockId": "uf0518-bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          16,
+          16
+        ]
+      },
+      "ca": {
+        "title": "Llibres registre d’IVA",
+        "items": [
+          "Factures expedides",
+          "Factures rebudes",
+          "Béns d’inversió",
+          "Operacions intracomunitàries"
+        ]
+      },
+      "es": {
+        "title": "Libros registro de IVA",
+        "items": [
+          "Facturas expedidas",
+          "Facturas recibidas",
+          "Bienes de inversión",
+          "Operaciones intracomunitarias"
+        ]
+      }
+    },
+    {
+      "id": "uf3-drets-persones",
+      "blockId": "uf0518-bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          19,
+          19
+        ]
+      },
+      "ca": {
+        "title": "Drets de les persones interessades en protecció de dades",
+        "items": [
+          "Accés",
+          "Rectificació",
+          "Supressió",
+          "Oposició",
+          "Limitació",
+          "Portabilitat",
+          "Protecció davant determinades decisions únicament automatitzades"
+        ],
+        "memory": "A-R-S-O-L-P + decisions automatitzades."
+      },
+      "es": {
+        "title": "Derechos de las personas interesadas en protección de datos",
+        "items": [
+          "Acceso",
+          "Rectificación",
+          "Supresión",
+          "Oposición",
+          "Limitación",
+          "Portabilidad",
+          "Protección frente a determinadas decisiones únicamente automatizadas"
+        ],
+        "memory": "A-R-S-O-L-P + decisiones automatizadas."
+      }
+    },
+    {
+      "id": "uf3-sistemes-classificacio",
+      "blockId": "uf0518-bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          23,
+          28
+        ]
+      },
+      "ca": {
+        "title": "Sistemes de classificació documental",
+        "items": [
+          "Alfabètic",
+          "Cronològic",
+          "Numèric",
+          "Geogràfic",
+          "Per matèries o funcions",
+          "Alfanumèric"
+        ],
+        "memory": "A-C-N-G-M-A: nom, data, número, territori, tema, codi mixt."
+      },
+      "es": {
+        "title": "Sistemas de clasificación documental",
+        "items": [
+          "Alfabético",
+          "Cronológico",
+          "Numérico",
+          "Geográfico",
+          "Por materias o funciones",
+          "Alfanumérico"
+        ],
+        "memory": "A-C-N-G-M-A: nombre, fecha, número, territorio, tema, código mixto."
+      }
+    },
+    {
+      "id": "uf3-tipus-portals",
+      "blockId": "uf0518-bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          37,
+          37
+        ]
+      },
+      "ca": {
+        "title": "Tipus de portals web",
+        "items": [
+          "Horitzontal",
+          "Vertical",
+          "Diagonal"
+        ],
+        "memory": "Horitzontal = general; vertical = sector; diagonal = servei."
+      },
+      "es": {
+        "title": "Tipos de portales web",
+        "items": [
+          "Horizontal",
+          "Vertical",
+          "Diagonal"
+        ],
+        "memory": "Horizontal = general; vertical = sector; diagonal = servicio."
+      }
+    },
+    {
+      "id": "uf3-phishing",
+      "blockId": "uf0518-bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          45,
+          45
+        ]
+      },
+      "ca": {
+        "title": "Precaucions davant correus sospitosos i phishing",
+        "items": [
+          "Desconfiar de missatges urgents, amenaces, premis o sol·licituds de credencials",
+          "Revisar el remitent real i el domini",
+          "No obrir adjunts ni enllaços si l’origen no es pot verificar",
+          "No facilitar contrasenyes, codis o dades bancàries per correu",
+          "Avisar la persona responsable o el departament corresponent"
+        ]
+      },
+      "es": {
+        "title": "Precauciones ante correos sospechosos y phishing",
+        "items": [
+          "Desconfiar de mensajes urgentes, amenazas, premios o solicitudes de credenciales",
+          "Revisar el remitente real y el dominio",
+          "No abrir adjuntos ni enlaces si el origen no puede verificarse",
+          "No facilitar contraseñas, códigos o datos bancarios por correo",
+          "Avisar a la persona responsable o al departamento correspondiente"
+        ]
+      }
+    }
+  ],
+  "policy": {
+    "ca": "Selecció pedagògica de conjunts que convé recordar complets. S’exclouen enumeracions merament exemplificatives o accidentals.",
+    "es": "Selección pedagógica de conjuntos que conviene recordar completos. Se excluyen enumeraciones meramente ejemplificativas o accidentales."
+  }
+}
