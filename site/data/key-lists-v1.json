@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 53,
+  "count": 74,
   "languages": [
     "ca",
     "es"
@@ -50,6 +50,31 @@
       "id": "uf0518-bloc-3",
       "ca": "UF0518 · Bloc 3 — Arxiu i comunicacions digitals",
       "es": "UF0518 · Bloque 3 — Archivo y comunicaciones digitales"
+    },
+    {
+      "id": "uf0519-bloc-1",
+      "ca": "UF0519 · Bloc 1 — Documents administratius",
+      "es": "UF0519 · Bloque 1 — Documentos administrativos"
+    },
+    {
+      "id": "uf0519-bloc-2",
+      "ca": "UF0519 · Bloc 2 — Compravenda i facturació",
+      "es": "UF0519 · Bloque 2 — Compraventa y facturación"
+    },
+    {
+      "id": "uf0519-bloc-3",
+      "ca": "UF0519 · Bloc 3 — Gestió productiva i de personal",
+      "es": "UF0519 · Bloque 3 — Gestión productiva y de personal"
+    },
+    {
+      "id": "uf0519-bloc-4",
+      "ca": "UF0519 · Bloc 4 — Altres documents",
+      "es": "UF0519 · Bloque 4 — Otros documentos"
+    },
+    {
+      "id": "uf0519-bloc-5",
+      "ca": "UF0519 · Bloc 5 — Operacions informàtiques",
+      "es": "UF0519 · Bloque 5 — Operaciones informáticas"
     }
   ],
   "families": [
@@ -146,6 +171,55 @@
         "uf3-sistemes-classificacio",
         "uf3-tipus-portals",
         "uf3-phishing"
+      ]
+    },
+    {
+      "id": "documents-administratius",
+      "ca": "Documents i procediment administratiu",
+      "es": "Documentos y procedimiento administrativo",
+      "entryIds": [
+        "uf519-funcions-documents",
+        "uf519-circuit-documental-list",
+        "uf519-qualitat-documental",
+        "uf519-fases-procediment",
+        "uf519-contingut-resolucio",
+        "uf519-bones-practiques-dades",
+        "uf519-altres-documents"
+      ]
+    },
+    {
+      "id": "compravenda-facturacio",
+      "ca": "Compravenda, facturació i impostos",
+      "es": "Compraventa, facturación e impuestos",
+      "entryIds": [
+        "uf519-sequencia-venda",
+        "uf519-dades-pressupost",
+        "uf519-dades-comanda",
+        "uf519-copies-albara",
+        "uf519-tipus-factura",
+        "uf519-garanties-facturacio",
+        "uf519-documents-comercials-moment"
+      ]
+    },
+    {
+      "id": "nomina-personal",
+      "ca": "Nòmina i gestió de personal",
+      "es": "Nómina y gestión de personal",
+      "entryIds": [
+        "uf519-estructura-nomina",
+        "uf519-retribucions-salarials",
+        "uf519-deduccions-nomina-list",
+        "uf519-proces-ordre-treball"
+      ]
+    },
+    {
+      "id": "operacions-informatiques",
+      "ca": "Operacions informàtiques i control final",
+      "es": "Operaciones informáticas y control final",
+      "entryIds": [
+        "uf519-operacions-facturacio",
+        "uf519-seguretat-arxiu-digital",
+        "uf519-checklist-enviament"
       ]
     }
   ],
@@ -1861,6 +1935,690 @@
           "No abrir adjuntos ni enlaces si el origen no puede verificarse",
           "No facilitar contraseñas, códigos o datos bancarios por correo",
           "Avisar a la persona responsable o al departamento correspondiente"
+        ]
+      }
+    },
+    {
+      "id": "uf519-funcions-documents",
+      "blockId": "uf0519-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          7,
+          7
+        ]
+      },
+      "ca": {
+        "title": "Funcions dels documents administratius",
+        "items": [
+          "Constatar fets",
+          "Provar operacions",
+          "Comunicar informació",
+          "Organitzar processos",
+          "Facilitar inspeccions, auditories i verificacions"
+        ]
+      },
+      "es": {
+        "title": "Funciones de los documentos administrativos",
+        "items": [
+          "Constatar hechos",
+          "Probar operaciones",
+          "Comunicar información",
+          "Organizar procesos",
+          "Facilitar inspecciones, auditorías y verificaciones"
+        ]
+      }
+    },
+    {
+      "id": "uf519-circuit-documental-list",
+      "blockId": "uf0519-bloc-1",
+      "ordered": true,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          8,
+          8
+        ]
+      },
+      "ca": {
+        "title": "Circuit documental",
+        "items": [
+          "Creació",
+          "Validació",
+          "Registre",
+          "Tramitació",
+          "Arxiu"
+        ],
+        "memory": "C-V-R-T-A."
+      },
+      "es": {
+        "title": "Circuito documental",
+        "items": [
+          "Creación",
+          "Validación",
+          "Registro",
+          "Tramitación",
+          "Archivo"
+        ],
+        "memory": "C-V-R-T-A."
+      }
+    },
+    {
+      "id": "uf519-qualitat-documental",
+      "blockId": "uf0519-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          10,
+          10
+        ]
+      },
+      "ca": {
+        "title": "Criteris de qualitat documental",
+        "items": [
+          "Claredat",
+          "Precisió",
+          "Concisió",
+          "Correcció",
+          "Traçabilitat"
+        ]
+      },
+      "es": {
+        "title": "Criterios de calidad documental",
+        "items": [
+          "Claridad",
+          "Precisión",
+          "Concisión",
+          "Corrección",
+          "Trazabilidad"
+        ]
+      }
+    },
+    {
+      "id": "uf519-fases-procediment",
+      "blockId": "uf0519-bloc-1",
+      "ordered": true,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "ca": {
+        "title": "Fases del procediment administratiu",
+        "items": [
+          "Iniciació",
+          "Ordenació",
+          "Instrucció",
+          "Finalització",
+          "Execució"
+        ],
+        "memory": "I-O-I-F-E."
+      },
+      "es": {
+        "title": "Fases del procedimiento administrativo",
+        "items": [
+          "Iniciación",
+          "Ordenación",
+          "Instrucción",
+          "Finalización",
+          "Ejecución"
+        ],
+        "memory": "I-O-I-F-E."
+      }
+    },
+    {
+      "id": "uf519-contingut-resolucio",
+      "blockId": "uf0519-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          15,
+          15
+        ]
+      },
+      "ca": {
+        "title": "Contingut clau d’una resolució administrativa",
+        "items": [
+          "Decidir les qüestions plantejades i derivades del procediment",
+          "Ser congruent amb la sol·licitud quan correspon",
+          "Estar motivada quan la normativa ho exigeix",
+          "Indicar recursos, òrgan i terminis",
+          "Garantir identitat, autenticitat i integritat"
+        ]
+      },
+      "es": {
+        "title": "Contenido clave de una resolución administrativa",
+        "items": [
+          "Decidir las cuestiones planteadas y derivadas del procedimiento",
+          "Ser congruente con la solicitud cuando corresponda",
+          "Estar motivada cuando la normativa lo exige",
+          "Indicar recursos, órgano y plazos",
+          "Garantizar identidad, autenticidad e integridad"
+        ]
+      }
+    },
+    {
+      "id": "uf519-bones-practiques-dades",
+      "blockId": "uf0519-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          16,
+          16
+        ]
+      },
+      "ca": {
+        "title": "Bones pràctiques de protecció de dades en documents",
+        "items": [
+          "Accedir només a dades necessàries",
+          "No deixar documents sensibles a la vista",
+          "Utilitzar CCO quan correspongui",
+          "Bloquejar pantalla i custodiar arxius",
+          "Seguir instruccions de destrucció documental"
+        ]
+      },
+      "es": {
+        "title": "Buenas prácticas de protección de datos en documentos",
+        "items": [
+          "Acceder solo a datos necesarios",
+          "No dejar documentos sensibles a la vista",
+          "Utilizar CCO cuando corresponda",
+          "Bloquear pantalla y custodiar archivos",
+          "Seguir instrucciones de destrucción documental"
+        ]
+      }
+    },
+    {
+      "id": "uf519-sequencia-venda",
+      "blockId": "uf0519-bloc-2",
+      "ordered": true,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          18,
+          18
+        ]
+      },
+      "ca": {
+        "title": "Seqüència documental habitual d’una venda",
+        "items": [
+          "Pressupost",
+          "Comanda",
+          "Albarà",
+          "Factura",
+          "Pagament"
+        ],
+        "memory": "P-C-A-F-P."
+      },
+      "es": {
+        "title": "Secuencia documental habitual de una venta",
+        "items": [
+          "Presupuesto",
+          "Pedido",
+          "Albarán",
+          "Factura",
+          "Pago"
+        ],
+        "memory": "P-P-A-F-P."
+      }
+    },
+    {
+      "id": "uf519-dades-pressupost",
+      "blockId": "uf0519-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          21,
+          21
+        ]
+      },
+      "ca": {
+        "title": "Dades recomanables d’un pressupost",
+        "items": [
+          "Identificació",
+          "Data i número",
+          "Descripció",
+          "Import",
+          "Validesa",
+          "Acceptació"
+        ]
+      },
+      "es": {
+        "title": "Datos recomendables de un presupuesto",
+        "items": [
+          "Identificación",
+          "Fecha y número",
+          "Descripción",
+          "Importe",
+          "Validez",
+          "Aceptación"
+        ]
+      }
+    },
+    {
+      "id": "uf519-dades-comanda",
+      "blockId": "uf0519-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          23,
+          23
+        ]
+      },
+      "ca": {
+        "title": "Dades operatives d’una comanda",
+        "items": [
+          "Comprador i venedor",
+          "Data i número de comanda",
+          "Quantitat i descripció",
+          "Referència i preu unitari",
+          "Condicions i termini",
+          "Forma de pagament"
+        ]
+      },
+      "es": {
+        "title": "Datos operativos de un pedido",
+        "items": [
+          "Comprador y vendedor",
+          "Fecha y número de pedido",
+          "Cantidad y descripción",
+          "Referencia y precio unitario",
+          "Condiciones y plazo",
+          "Forma de pago"
+        ]
+      }
+    },
+    {
+      "id": "uf519-copies-albara",
+      "blockId": "uf0519-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          26,
+          26
+        ]
+      },
+      "ca": {
+        "title": "Còpies habituals de l’albarà",
+        "items": [
+          "Client",
+          "Empresa emissora",
+          "Transportista",
+          "Digital"
+        ]
+      },
+      "es": {
+        "title": "Copias habituales del albarán",
+        "items": [
+          "Cliente",
+          "Empresa emisora",
+          "Transportista",
+          "Digital"
+        ]
+      }
+    },
+    {
+      "id": "uf519-tipus-factura",
+      "blockId": "uf0519-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          31,
+          31
+        ]
+      },
+      "ca": {
+        "title": "Tipus de factura",
+        "items": [
+          "Ordinària o completa",
+          "Simplificada",
+          "Rectificativa",
+          "Recapitulativa"
+        ]
+      },
+      "es": {
+        "title": "Tipos de factura",
+        "items": [
+          "Ordinaria o completa",
+          "Simplificada",
+          "Rectificativa",
+          "Recapitulativa"
+        ]
+      }
+    },
+    {
+      "id": "uf519-garanties-facturacio",
+      "blockId": "uf0519-bloc-2",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          35,
+          35
+        ]
+      },
+      "ca": {
+        "title": "Garanties dels sistemes informàtics de facturació",
+        "items": [
+          "Integritat",
+          "Conservació",
+          "Accessibilitat",
+          "Llegibilitat",
+          "Traçabilitat",
+          "Inalterabilitat"
+        ]
+      },
+      "es": {
+        "title": "Garantías de los sistemas informáticos de facturación",
+        "items": [
+          "Integridad",
+          "Conservación",
+          "Accesibilidad",
+          "Legibilidad",
+          "Trazabilidad",
+          "Inalterabilidad"
+        ]
+      }
+    },
+    {
+      "id": "uf519-documents-comercials-moment",
+      "blockId": "uf0519-bloc-2",
+      "ordered": true,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          50,
+          50
+        ]
+      },
+      "ca": {
+        "title": "Documents comercials segons el moment de l’operació",
+        "items": [
+          "Pressupost — abans de l’operació",
+          "Comanda — quan el client sol·licita",
+          "Albarà — en el lliurament",
+          "Factura — en o després de l’operació",
+          "Rebut — quan es paga"
+        ]
+      },
+      "es": {
+        "title": "Documentos comerciales según el momento de la operación",
+        "items": [
+          "Presupuesto — antes de la operación",
+          "Pedido — cuando el cliente solicita",
+          "Albarán — en la entrega",
+          "Factura — en o después de la operación",
+          "Recibo — cuando se paga"
+        ]
+      }
+    },
+    {
+      "id": "uf519-estructura-nomina",
+      "blockId": "uf0519-bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          55,
+          55
+        ]
+      },
+      "ca": {
+        "title": "Parts principals de la nòmina",
+        "items": [
+          "Dades de l’empresa",
+          "Dades de la persona treballadora",
+          "Meritacions",
+          "Deduccions",
+          "Líquid a percebre"
+        ]
+      },
+      "es": {
+        "title": "Partes principales de la nómina",
+        "items": [
+          "Datos de la empresa",
+          "Datos de la persona trabajadora",
+          "Devengos",
+          "Deducciones",
+          "Líquido a percibir"
+        ]
+      }
+    },
+    {
+      "id": "uf519-retribucions-salarials",
+      "blockId": "uf0519-bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          56,
+          56
+        ]
+      },
+      "ca": {
+        "title": "Retribucions salarials habituals",
+        "items": [
+          "Salari base",
+          "Complements salarials",
+          "Hores extraordinàries",
+          "Incentius o variables",
+          "Salari en espècie dins dels límits legals"
+        ]
+      },
+      "es": {
+        "title": "Retribuciones salariales habituales",
+        "items": [
+          "Salario base",
+          "Complementos salariales",
+          "Horas extraordinarias",
+          "Incentivos o variables",
+          "Salario en especie dentro de los límites legales"
+        ]
+      }
+    },
+    {
+      "id": "uf519-deduccions-nomina-list",
+      "blockId": "uf0519-bloc-3",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          57,
+          57
+        ]
+      },
+      "ca": {
+        "title": "Deduccions de la nòmina",
+        "items": [
+          "Cotització a la Seguretat Social",
+          "Retenció a compte de l’IRPF",
+          "Bestretes, embargaments, quotes o regularitzacions quan corresponguin"
+        ]
+      },
+      "es": {
+        "title": "Deducciones de la nómina",
+        "items": [
+          "Cotización a la Seguridad Social",
+          "Retención a cuenta del IRPF",
+          "Anticipos, embargos, cuotas o regularizaciones cuando correspondan"
+        ]
+      }
+    },
+    {
+      "id": "uf519-proces-ordre-treball",
+      "blockId": "uf0519-bloc-3",
+      "ordered": true,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          63,
+          63
+        ]
+      },
+      "ca": {
+        "title": "Gestió d’una ordre de treball",
+        "items": [
+          "Creació",
+          "Aprovació",
+          "Assignació",
+          "Execució",
+          "Tancament"
+        ],
+        "memory": "C-A-A-E-T."
+      },
+      "es": {
+        "title": "Gestión de una orden de trabajo",
+        "items": [
+          "Creación",
+          "Aprobación",
+          "Asignación",
+          "Ejecución",
+          "Cierre"
+        ],
+        "memory": "C-A-A-E-C."
+      }
+    },
+    {
+      "id": "uf519-altres-documents",
+      "blockId": "uf0519-bloc-4",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          67
+        ]
+      },
+      "ca": {
+        "title": "Altres documents administratius i empresarials",
+        "items": [
+          "Informe",
+          "Acta",
+          "Certificat",
+          "Circular",
+          "Comunicació interna",
+          "Sol·licitud o instància",
+          "Memòria"
+        ]
+      },
+      "es": {
+        "title": "Otros documentos administrativos y empresariales",
+        "items": [
+          "Informe",
+          "Acta",
+          "Certificado",
+          "Circular",
+          "Comunicación interna",
+          "Solicitud o instancia",
+          "Memoria"
+        ]
+      }
+    },
+    {
+      "id": "uf519-operacions-facturacio",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          70,
+          70
+        ]
+      },
+      "ca": {
+        "title": "Operacions informàtiques de facturació",
+        "items": [
+          "Crear fitxes de clients, proveïdors, productes o serveis",
+          "Emetre pressupostos, comandes, albarans i factures",
+          "Aplicar impostos, descomptes, venciments i formes de pagament",
+          "Controlar numeració, sèries, rectificatives i informes",
+          "Exportar, arxivar o enviar respectant confidencialitat i normativa"
+        ]
+      },
+      "es": {
+        "title": "Operaciones informáticas de facturación",
+        "items": [
+          "Crear fichas de clientes, proveedores, productos o servicios",
+          "Emitir presupuestos, pedidos, albaranes y facturas",
+          "Aplicar impuestos, descuentos, vencimientos y formas de pago",
+          "Controlar numeración, series, rectificativas e informes",
+          "Exportar, archivar o enviar respetando confidencialidad y normativa"
+        ]
+      }
+    },
+    {
+      "id": "uf519-seguretat-arxiu-digital",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          72,
+          72
+        ]
+      },
+      "ca": {
+        "title": "Criteris de seguretat i arxiu digital",
+        "items": [
+          "Control d’accessos",
+          "Còpies de seguretat i recuperació",
+          "Traçabilitat",
+          "Noms de fitxer clars i carpetes ordenades",
+          "Eliminació segura quan correspon"
+        ]
+      },
+      "es": {
+        "title": "Criterios de seguridad y archivo digital",
+        "items": [
+          "Control de accesos",
+          "Copias de seguridad y recuperación",
+          "Trazabilidad",
+          "Nombres de archivo claros y carpetas ordenadas",
+          "Eliminación segura cuando corresponde"
+        ]
+      }
+    },
+    {
+      "id": "uf519-checklist-enviament",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          73,
+          73
+        ]
+      },
+      "ca": {
+        "title": "Checklist abans d’enviar un document",
+        "items": [
+          "Destinatari correcte",
+          "Document complet i signat o validat",
+          "Dates, imports, referències i annexos coherents",
+          "Sense dades innecessàries o sensibles injustificades",
+          "Canal adequat",
+          "Còpia, registre o arxiu intern previst"
+        ]
+      },
+      "es": {
+        "title": "Checklist antes de enviar un documento",
+        "items": [
+          "Destinatario correcto",
+          "Documento completo y firmado o validado",
+          "Fechas, importes, referencias y anexos coherentes",
+          "Sin datos innecesarios o sensibles injustificados",
+          "Canal adecuado",
+          "Copia, registro o archivo interno previsto"
         ]
       }
     }

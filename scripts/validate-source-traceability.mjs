@@ -6,7 +6,8 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const dataDir=path.join(root,'site','data');
 const defaultTracePaths=[
   path.join(root,'docs','content','UF0517_SOURCE_TRACEABILITY.json'),
-  path.join(root,'docs','content','UF0518_SOURCE_TRACEABILITY.json')
+  path.join(root,'docs','content','UF0518_SOURCE_TRACEABILITY.json'),
+  path.join(root,'docs','content','UF0519_SOURCE_TRACEABILITY.json')
 ];
 const readJson=async p=>JSON.parse(await readFile(p,'utf8'));
 const readData=async p=>readJson(path.join(dataDir,p.replace(/^data\//,'')));

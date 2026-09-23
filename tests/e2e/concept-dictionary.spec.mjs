@@ -1,13 +1,13 @@
 import {test,expect} from '@playwright/test';
 
-test('el diccionari mostra 75 conceptes agrupats en 12 famílies pedagògiques',async({page})=>{
+test('el diccionari mostra 100 conceptes agrupats en 16 famílies pedagògiques',async({page})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Diccionari',exact:true}).click();
   await expect(page.getByRole('heading',{name:'Diccionari de conceptes clau'})).toBeVisible();
-  await expect(page.locator('[data-concept-id]')).toHaveCount(75);
-  await expect(page.locator('[data-concept-family]')).toHaveCount(12);
-  await expect(page.locator('[data-dictionary-count]')).toHaveText('75');
-  await expect(page.getByText('75 conceptes')).toBeVisible();
+  await expect(page.locator('[data-concept-id]')).toHaveCount(100);
+  await expect(page.locator('[data-concept-family]')).toHaveCount(16);
+  await expect(page.locator('[data-dictionary-count]')).toHaveText('100');
+  await expect(page.getByText('100 conceptes')).toBeVisible();
 });
 
 test('l’ordre inicial és conceptual i manté junts els conceptes relacionats',async({page})=>{
@@ -108,9 +108,21 @@ test('el diccionari no desborda en mòbil',async({browser})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Diccionari',exact:true}).click();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
-  await expect(page.locator('[data-concept-family]')).toHaveCount(12);
+  await expect(page.locator('[data-concept-family]')).toHaveCount(16);
   await page.locator('[data-dictionary-search]').fill('sinergia');
   await expect(page.locator('[data-concept-id]')).toHaveCount(1);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
   await page.close();
+});
+
+
+test('UF0519 incorpora conceptes de documents, facturació i nòmina',async({page})=>{
+  await page.goto('/');
+  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('[data-dictionary-filter]').selectOption('uf0519-bloc-2');
+  await expect(page.locator('[data-concept-id]')).toHaveCount(8);
+  await expect(page.locator('[data-concept-id="uf519-albara"]')).toContainText('Albarà');
+  await expect(page.locator('[data-concept-id="uf519-iva-repercutit-suportat"]')).toBeVisible();
+  await page.locator('#language-es').click();
+  await expect(page.locator('[data-concept-id="uf519-albara"]')).toContainText('Albarán');
 });

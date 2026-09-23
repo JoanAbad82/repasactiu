@@ -63,7 +63,12 @@ const SOURCE_RANGES={
   'unitat-2-bloc-1':{id:'U2B1',pageRange:[1,119]},
   'uf0518-bloc-1':{id:'UF0518_B1',pageRange:[1,28]},
   'uf0518-bloc-2':{id:'UF0518_B2',pageRange:[1,39]},
-  'uf0518-bloc-3':{id:'UF0518_B3',pageRange:[1,50]}
+  'uf0518-bloc-3':{id:'UF0518_B3',pageRange:[1,50]},
+  'uf0519-bloc-1':{id:'UF0519_U1',pageRange:[1,76]},
+  'uf0519-bloc-2':{id:'UF0519_U1',pageRange:[1,76]},
+  'uf0519-bloc-3':{id:'UF0519_U1',pageRange:[1,76]},
+  'uf0519-bloc-4':{id:'UF0519_U1',pageRange:[1,76]},
+  'uf0519-bloc-5':{id:'UF0519_U1',pageRange:[1,76]}
 };
 
 const conceptPart=value=>String(value??'')
@@ -85,8 +90,8 @@ function parseSourceLabel(label,blockId){
   const fallback=SOURCE_RANGES[blockId]||null;
   const text=String(label||'').trim();
   if(!text)return fallback?{...fallback,precision:'block'}:null;
-  const sourceId=(text.match(/^(UF0518|U2|B[1-5])/i)?.[1]||fallback?.id||'SOURCE').toUpperCase()
-    .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1');
+  const sourceId=(text.match(/^(UF0519|UF0518|U2|B[1-5])/i)?.[1]||fallback?.id||'SOURCE').toUpperCase()
+    .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1').replace(/^UF0519$/,'UF0519_U1');
   const pageMatch=text.match(/pp?\.?\s*(\d+)(?:\s*(?:[-–—]|i|y)\s*(\d+))?/i);
   if(pageMatch){
     const start=Number(pageMatch[1]);

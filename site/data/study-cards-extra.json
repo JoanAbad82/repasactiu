@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "languages": [
     "ca",
     "es"
@@ -40,6 +40,10 @@
     "UF0518_B3": {
       "file": "UF0518_Bloc3_L’arxiu i les comunicacions escrites.pdf",
       "pages": 50
+    },
+    "UF0519_U1": {
+      "file": "UF0519_1.Gestió_auxiliar_documentació_administrativa_bàsica.pdf",
+      "pages": 76
     }
   },
   "cards": [
@@ -1175,6 +1179,636 @@
         "question": "¿Qué regla ayuda a elegir entre email ordinario y un canal fehaciente?",
         "answer": "Email para comunicación habitual; canal certificado o burofax cuando hay que acreditar formalmente envío, recepción o contenido.",
         "mnemonic": "Comunicación habitual = email; prueba formal = canal fehaciente."
+      }
+    },
+    {
+      "id": "sc-uf0519-b1-01",
+      "blockId": "uf0519-bloc-1",
+      "ca": {
+        "question": "Quina fase del circuit documental comprova, signa o autoritza el document?",
+        "answer": "Validació",
+        "mnemonic": "Validar = revisar i autoritzar."
+      },
+      "es": {
+        "question": "¿Qué fase del circuito documental revisa, firma o autoriza el documento?",
+        "answer": "Validación",
+        "mnemonic": "Validar = revisar y autorizar."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b1-02",
+      "blockId": "uf0519-bloc-1",
+      "ca": {
+        "question": "Quina fase del procediment administratiu inclou al·legacions, proves i informes?",
+        "answer": "Instrucció",
+        "mnemonic": "Instrucció = investigar i donar audiència."
+      },
+      "es": {
+        "question": "¿Qué fase del procedimiento administrativo incluye alegaciones, pruebas e informes?",
+        "answer": "Instrucción",
+        "mnemonic": "Instrucción = investigar y dar audiencia."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          11,
+          11
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b1-03",
+      "blockId": "uf0519-bloc-1",
+      "ca": {
+        "question": "Què diferencia el registre auxiliar del registre general?",
+        "answer": "El registre auxiliar dona suport i integra o remet la informació al registre general",
+        "mnemonic": "Auxiliar ajuda; general centralitza."
+      },
+      "es": {
+        "question": "¿Qué diferencia al registro auxiliar del registro general?",
+        "answer": "El registro auxiliar apoya e integra o remite la información al registro general",
+        "mnemonic": "Auxiliar ayuda; general centraliza."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          13,
+          13
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b1-04",
+      "blockId": "uf0519-bloc-1",
+      "ca": {
+        "question": "Quina llei regula el procediment administratiu comú de les administracions públiques?",
+        "answer": "Llei 39/2015",
+        "mnemonic": "39/2015 = procediment administratiu comú."
+      },
+      "es": {
+        "question": "¿Qué ley regula el procedimiento administrativo común de las administraciones públicas?",
+        "answer": "Ley 39/2015",
+        "mnemonic": "39/2015 = procedimiento administrativo común."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b1-05",
+      "blockId": "uf0519-bloc-1",
+      "ca": {
+        "question": "Què ha d’indicar una resolució sobre els recursos possibles?",
+        "answer": "L’òrgan davant el qual es presenten i els terminis",
+        "mnemonic": "Recurs = quin, davant qui i quan."
+      },
+      "es": {
+        "question": "¿Qué debe indicar una resolución sobre los recursos posibles?",
+        "answer": "El órgano ante el que se presentan y los plazos",
+        "mnemonic": "Recurso = cuál, ante quién y cuándo."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          15,
+          15
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b1-06",
+      "blockId": "uf0519-bloc-1",
+      "ca": {
+        "question": "Quina pràctica protegeix dades quan s’envia un correu massiu?",
+        "answer": "Utilitzar CCO quan correspongui",
+        "mnemonic": "CCO protegeix adreces visibles."
+      },
+      "es": {
+        "question": "¿Qué práctica protege datos al enviar un correo masivo?",
+        "answer": "Utilizar CCO cuando corresponda",
+        "mnemonic": "CCO protege direcciones visibles."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b2-01",
+      "blockId": "uf0519-bloc-2",
+      "ca": {
+        "question": "Quin document va habitualment després de la comanda i abans de la factura?",
+        "answer": "L’albarà",
+        "mnemonic": "Comanda → albarà → factura."
+      },
+      "es": {
+        "question": "¿Qué documento va habitualmente después del pedido y antes de la factura?",
+        "answer": "El albarán",
+        "mnemonic": "Pedido → albarán → factura."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          18,
+          18
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b2-02",
+      "blockId": "uf0519-bloc-2",
+      "ca": {
+        "question": "Què afegeix un albarà valorat respecte d’un albarà sense valorar?",
+        "answer": "Preus unitaris, descomptes i import total",
+        "mnemonic": "Valorat = també hi ha diners."
+      },
+      "es": {
+        "question": "¿Qué añade un albarán valorado respecto de uno sin valorar?",
+        "answer": "Precios unitarios, descuentos e importe total",
+        "mnemonic": "Valorado = también hay dinero."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b2-03",
+      "blockId": "uf0519-bloc-2",
+      "ca": {
+        "question": "Quina factura corregeix errors o devolucions d’una factura anterior?",
+        "answer": "Factura rectificativa",
+        "mnemonic": "Rectificativa = rectifica."
+      },
+      "es": {
+        "question": "¿Qué factura corrige errores o devoluciones de una factura anterior?",
+        "answer": "Factura rectificativa",
+        "mnemonic": "Rectificativa = rectifica."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          31,
+          31
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b2-04",
+      "blockId": "uf0519-bloc-2",
+      "ca": {
+        "question": "Quina factura agrupa diverses operacions del mateix destinatari en un període?",
+        "answer": "Factura recapitulativa",
+        "mnemonic": "Recapitula diverses operacions."
+      },
+      "es": {
+        "question": "¿Qué factura agrupa varias operaciones del mismo destinatario en un período?",
+        "answer": "Factura recapitulativa",
+        "mnemonic": "Recapitula varias operaciones."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          31,
+          31
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b2-05",
+      "blockId": "uf0519-bloc-2",
+      "ca": {
+        "question": "Com es calcula el resultat de la liquidació de l’IVA?",
+        "answer": "IVA repercutit − IVA suportat deduïble",
+        "mnemonic": "Venda menys compra deduïble."
+      },
+      "es": {
+        "question": "¿Cómo se calcula el resultado de la liquidación del IVA?",
+        "answer": "IVA repercutido − IVA soportado deducible",
+        "mnemonic": "Venta menos compra deducible."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          42,
+          42
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b2-06",
+      "blockId": "uf0519-bloc-2",
+      "ca": {
+        "question": "Quin document acredita el pagament d’una quantitat, però no substitueix la factura quan és obligatòria?",
+        "answer": "El rebut",
+        "mnemonic": "Rebut = prova de pagament."
+      },
+      "es": {
+        "question": "¿Qué documento acredita el pago de una cantidad, pero no sustituye a la factura cuando es obligatoria?",
+        "answer": "El recibo",
+        "mnemonic": "Recibo = prueba de pago."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b3-01",
+      "blockId": "uf0519-bloc-3",
+      "ca": {
+        "question": "Quins dos grans grups de percepcions diferencia el material a les meritacions?",
+        "answer": "Retribucions salarials i no salarials",
+        "mnemonic": "Meritacions: salarials / no salarials."
+      },
+      "es": {
+        "question": "¿Qué dos grandes grupos de percepciones distingue el material en los devengos?",
+        "answer": "Retribuciones salariales y no salariales",
+        "mnemonic": "Devengos: salariales / no salariales."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          56,
+          56
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b3-02",
+      "blockId": "uf0519-bloc-3",
+      "ca": {
+        "question": "Quina retenció fiscal apareix habitualment entre les deduccions de la nòmina?",
+        "answer": "IRPF",
+        "mnemonic": "IRPF = deducció fiscal de nòmina."
+      },
+      "es": {
+        "question": "¿Qué retención fiscal aparece habitualmente entre las deducciones de la nómina?",
+        "answer": "IRPF",
+        "mnemonic": "IRPF = deducción fiscal de nómina."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          57,
+          57
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b3-03",
+      "blockId": "uf0519-bloc-3",
+      "ca": {
+        "question": "Quina base de cotització s’utilitza per accidents de treball i malalties professionals?",
+        "answer": "Base de contingències professionals",
+        "mnemonic": "Professional = accident o malaltia professional."
+      },
+      "es": {
+        "question": "¿Qué base de cotización se utiliza para accidentes de trabajo y enfermedades profesionales?",
+        "answer": "Base de contingencias profesionales",
+        "mnemonic": "Profesional = accidente o enfermedad profesional."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          58,
+          58
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b3-04",
+      "blockId": "uf0519-bloc-3",
+      "ca": {
+        "question": "Quina fórmula relaciona salari brut, deduccions i salari net?",
+        "answer": "Salari net = salari brut − deduccions",
+        "mnemonic": "Net = brut menys deduccions."
+      },
+      "es": {
+        "question": "¿Qué fórmula relaciona salario bruto, deducciones y salario neto?",
+        "answer": "Salario neto = salario bruto − deducciones",
+        "mnemonic": "Neto = bruto menos deducciones."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          60,
+          60
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b3-05",
+      "blockId": "uf0519-bloc-3",
+      "ca": {
+        "question": "Quines persones han d’accedir a una nòmina?",
+        "answer": "Només el personal autoritzat",
+        "mnemonic": "Nòmina sensible = accés limitat."
+      },
+      "es": {
+        "question": "¿Qué personas deben acceder a una nómina?",
+        "answer": "Solo el personal autorizado",
+        "mnemonic": "Nómina sensible = acceso limitado."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          61,
+          61
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b3-06",
+      "blockId": "uf0519-bloc-3",
+      "ca": {
+        "question": "Quina és la fase final de la gestió d’una ordre de treball?",
+        "answer": "Tancament",
+        "mnemonic": "Tancar = revisar, registrar i arxivar."
+      },
+      "es": {
+        "question": "¿Cuál es la fase final de la gestión de una orden de trabajo?",
+        "answer": "Cierre",
+        "mnemonic": "Cerrar = revisar, registrar y archivar."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          63,
+          63
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b4-01",
+      "blockId": "uf0519-bloc-4",
+      "ca": {
+        "question": "Quin document deixa constància d’una reunió?",
+        "answer": "L’acta",
+        "mnemonic": "Acta = reunió registrada."
+      },
+      "es": {
+        "question": "¿Qué documento deja constancia de una reunión?",
+        "answer": "El acta",
+        "mnemonic": "Acta = reunión registrada."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          66
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b4-02",
+      "blockId": "uf0519-bloc-4",
+      "ca": {
+        "question": "Quin document acredita oficialment una informació concreta?",
+        "answer": "El certificat",
+        "mnemonic": "Certificat = acreditar."
+      },
+      "es": {
+        "question": "¿Qué documento acredita oficialmente una información concreta?",
+        "answer": "El certificado",
+        "mnemonic": "Certificado = acreditar."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          66
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b4-03",
+      "blockId": "uf0519-bloc-4",
+      "ca": {
+        "question": "Quin document informa un col·lectiu amb una instrucció o informació comuna?",
+        "answer": "La circular",
+        "mnemonic": "Circular = missatge col·lectiu."
+      },
+      "es": {
+        "question": "¿Qué documento informa a un colectivo con una instrucción o información común?",
+        "answer": "La circular",
+        "mnemonic": "Circular = mensaje colectivo."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          66
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b4-04",
+      "blockId": "uf0519-bloc-4",
+      "ca": {
+        "question": "Quin document recull activitats i resultats d’un període?",
+        "answer": "La memòria",
+        "mnemonic": "Memòria = període resumit."
+      },
+      "es": {
+        "question": "¿Qué documento recoge actividades y resultados de un período?",
+        "answer": "La memoria",
+        "mnemonic": "Memoria = período resumido."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          66
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b4-05",
+      "blockId": "uf0519-bloc-4",
+      "ca": {
+        "question": "Quin document s’utilitza per formular formalment una petició?",
+        "answer": "La sol·licitud o instància",
+        "mnemonic": "Sol·licitar = demanar formalment."
+      },
+      "es": {
+        "question": "¿Qué documento se utiliza para formular formalmente una petición?",
+        "answer": "La solicitud o instancia",
+        "mnemonic": "Solicitar = pedir formalmente."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          66
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b4-06",
+      "blockId": "uf0519-bloc-4",
+      "ca": {
+        "question": "Quina pràctica facilita l’arxiu quan un document tracta diversos assumptes?",
+        "answer": "No barrejar temes diferents si dificulta l’arxiu",
+        "mnemonic": "Un document, un tema coherent."
+      },
+      "es": {
+        "question": "¿Qué práctica facilita el archivo cuando un documento trata varios asuntos?",
+        "answer": "No mezclar temas distintos si dificulta el archivo",
+        "mnemonic": "Un documento, un tema coherente."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          68,
+          68
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-01",
+      "blockId": "uf0519-bloc-5",
+      "ca": {
+        "question": "Quines quatre fitxes mestres destaca el programari de facturació?",
+        "answer": "Clients, proveïdors, productes i serveis",
+        "mnemonic": "Dades mestres abans de facturar."
+      },
+      "es": {
+        "question": "¿Qué cuatro fichas maestras destaca el software de facturación?",
+        "answer": "Clientes, proveedores, productos y servicios",
+        "mnemonic": "Datos maestros antes de facturar."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          70,
+          70
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-02",
+      "blockId": "uf0519-bloc-5",
+      "ca": {
+        "question": "Què s’ha de controlar en la numeració de factures?",
+        "answer": "La numeració i les sèries",
+        "mnemonic": "Factura controlada = número + sèrie."
+      },
+      "es": {
+        "question": "¿Qué debe controlarse en la numeración de facturas?",
+        "answer": "La numeración y las series",
+        "mnemonic": "Factura controlada = número + serie."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          70,
+          70
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-03",
+      "blockId": "uf0519-bloc-5",
+      "ca": {
+        "question": "A qui s’han de derivar els dubtes laborals jurídics o càlculs complexos?",
+        "answer": "A la persona responsable laboral o a l’assessoria",
+        "mnemonic": "Complex = escalar, no improvisar."
+      },
+      "es": {
+        "question": "¿A quién deben derivarse las dudas laborales jurídicas o cálculos complejos?",
+        "answer": "A la persona responsable laboral o a la asesoría",
+        "mnemonic": "Complejo = escalar, no improvisar."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          71,
+          71
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-04",
+      "blockId": "uf0519-bloc-5",
+      "ca": {
+        "question": "Què permet una còpia de seguretat?",
+        "answer": "Recuperar informació si es perd o es danya",
+        "mnemonic": "Còpia = recuperació."
+      },
+      "es": {
+        "question": "¿Qué permite una copia de seguridad?",
+        "answer": "Recuperar información si se pierde o se daña",
+        "mnemonic": "Copia = recuperación."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          72,
+          72
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-05",
+      "blockId": "uf0519-bloc-5",
+      "ca": {
+        "question": "Què vol dir eliminar de manera segura documentació digital?",
+        "answer": "Eliminar-la quan acaba el termini de conservació i ho permet el procediment intern",
+        "mnemonic": "Eliminar segur = quan toca i segons procediment."
+      },
+      "es": {
+        "question": "¿Qué significa eliminar de forma segura documentación digital?",
+        "answer": "Eliminarla cuando termina el plazo de conservación y lo permite el procedimiento interno",
+        "mnemonic": "Eliminar seguro = cuando toca y según procedimiento."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          72,
+          72
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-06",
+      "blockId": "uf0519-bloc-5",
+      "ca": {
+        "question": "Què s’ha de comprovar dels annexos abans d’enviar un document?",
+        "answer": "Que coincideixin amb el document i estiguin inclosos",
+        "mnemonic": "Annex anunciat = annex comprovat."
+      },
+      "es": {
+        "question": "¿Qué debe comprobarse de los anexos antes de enviar un documento?",
+        "answer": "Que coincidan con el documento y estén incluidos",
+        "mnemonic": "Anexo anunciado = anexo comprobado."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          73,
+          73
+        ]
       }
     }
   ],

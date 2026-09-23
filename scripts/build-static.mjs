@@ -35,16 +35,16 @@ if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
 if(traceability.version!==2||!traceability.topicRanges||!traceability.questionRanges){
   throw new Error('Build validation failed: traceability v2 is invalid.');
 }
-if(dictionary.version!==1||dictionary.count!==75||!Array.isArray(dictionary.entries)||dictionary.entries.length!==75){
+if(dictionary.version!==1||dictionary.count!==100||!Array.isArray(dictionary.entries)||dictionary.entries.length!==100){
   throw new Error('Build validation failed: concept dictionary v1 is invalid.');
 }
-if(!Array.isArray(dictionary.families)||dictionary.families.length!==12||dictionary.families.flatMap(family=>family.entryIds||[]).length!==75){
+if(!Array.isArray(dictionary.families)||dictionary.families.length!==16||dictionary.families.flatMap(family=>family.entryIds||[]).length!==100){
   throw new Error('Build validation failed: concept dictionary families are invalid.');
 }
-if(keyLists.version!==1||keyLists.count!==53||!Array.isArray(keyLists.entries)||keyLists.entries.length!==53){
+if(keyLists.version!==1||keyLists.count!==74||!Array.isArray(keyLists.entries)||keyLists.entries.length!==74){
   throw new Error('Build validation failed: key-list bank is invalid.');
 }
-if(!Array.isArray(keyLists.families)||keyLists.families.length!==6||keyLists.families.flatMap(family=>family.entryIds||[]).length!==53){
+if(!Array.isArray(keyLists.families)||keyLists.families.length!==10||keyLists.families.flatMap(family=>family.entryIds||[]).length!==74){
   throw new Error('Build validation failed: key-list families are invalid.');
 }
 if(correspondence.version!==1||!Array.isArray(correspondence.structure)||correspondence.structure.length!==10||!Array.isArray(correspondence.models)||correspondence.models.length!==8){
@@ -57,4 +57,4 @@ for(const lang of ['ca','es']){
     throw new Error(`Build validation failed: commercial abbreviations for ${lang} must contain 20-30 curated entries.`);
   }
 }
-console.log('Static build PASS: site/ -> dist/ with learning tools, 75-concept dictionary, 53 key lists and bilingual commercial correspondence guide');
+console.log('Static build PASS: site/ -> dist/ with learning tools, 100-concept dictionary, 74 key lists and bilingual commercial correspondence guide');

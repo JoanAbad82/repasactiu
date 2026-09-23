@@ -17,7 +17,12 @@ const EXPECTED={
   'unitat-2-bloc-1':156,
   'uf0518-bloc-1':92,
   'uf0518-bloc-2':74,
-  'uf0518-bloc-3':86
+  'uf0518-bloc-3':86,
+  'uf0519-bloc-1':22,
+  'uf0519-bloc-2':39,
+  'uf0519-bloc-3':25,
+  'uf0519-bloc-4':14,
+  'uf0519-bloc-5':16
 };
 
 const normalize=value=>String(value??'')
@@ -64,8 +69,8 @@ function conceptId(blockId,topic,answer,explicit){
 
 function pageSource(label){
   const text=String(label||'').trim();
-  const source=(text.match(/^(UF0518|U2|B[1-5])/i)?.[1]||'SOURCE').toUpperCase()
-    .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1');
+  const source=(text.match(/^(UF0519|UF0518|U2|B[1-5])/i)?.[1]||'SOURCE').toUpperCase()
+    .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1').replace(/^UF0519$/,'UF0519_U1');
   const m=text.match(/pp?\.?\s*(\d+)(?:\s*(?:[-–—]|i|y)\s*(\d+))?/i);
   return m?{source,pageRange:[Number(m[1]),Number(m[2]||m[1])],precision:'page'}:{source,pageRange:null,precision:'label'};
 }
@@ -148,7 +153,7 @@ export async function runSemanticStudyCardsAudit(){
 
   const missingChanges=(manifest.changes||[]).map(x=>x.id).filter(id=>!seenChanges.has(id));
   if(missingChanges.length)errors.push('manifest IDs inexistents: '+missingChanges.join(', '));
-  if(cards.length!==798)errors.push('targetes efectives: '+cards.length+'/798');
+  if(cards.length!==914)errors.push('targetes efectives: '+cards.length+'/914');
   if(new Set(cards.map(c=>c.id)).size!==cards.length)errors.push('IDs efectius duplicats');
 
   const countByBlock={};

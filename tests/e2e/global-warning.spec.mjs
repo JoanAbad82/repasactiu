@@ -5,7 +5,7 @@ const esWarning="Contrasta siempre las respuestas con los apuntes y materiales o
 
 test("l'avís global es mostra a dalt i es manté en navegar per la web",async({page})=>{
   await page.goto("/");
-  await expect(page.getByText("744 preguntes")).toBeVisible();
+  await expect(page.getByText("830 preguntes")).toBeVisible();
   const warning=page.locator(".official-material-warning");
   await expect(warning).toBeVisible();
   await expect(warning).toContainText("MOLT IMPORTANT:");
@@ -24,7 +24,7 @@ test("l'avís global es mostra a dalt i es manté en navegar per la web",async({
 
 test("l'avís canvia completament a castellà amb el selector d'idioma",async({page})=>{
   await page.goto("/");
-  await expect(page.getByText("744 preguntes")).toBeVisible();
+  await expect(page.getByText("830 preguntes")).toBeVisible();
   const warning=page.locator(".official-material-warning");
   await page.locator("#language-es").click();
   await expect(page.locator("html")).toHaveAttribute("lang","es");
@@ -38,7 +38,7 @@ test("l'avís canvia completament a castellà amb el selector d'idioma",async({p
 test("l'avís és compacte i no provoca desbordament en mòbil",async({browser})=>{
   const page=await browser.newPage({viewport:{width:390,height:844}});
   await page.goto("/");
-  await expect(page.getByText("744 preguntes")).toBeVisible();
+  await expect(page.getByText("830 preguntes")).toBeVisible();
   const warning=page.locator(".official-material-warning");
   await expect(warning).toBeVisible();
   const box=await warning.boundingBox();
