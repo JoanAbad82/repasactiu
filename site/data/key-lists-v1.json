@@ -319,7 +319,9 @@
           "Estructura jurídica — individuals / societats / S.L. / S.A. / cooperatives",
           "Tipus de capital — públiques / privades / mixtes",
           "Activitat econòmica — fabricants / distribuïdores / serveis"
-        ]
+        ],
+        "technique": "Acrònim MECA",
+        "memory": "MECA: Motiu, Estructura jurídica, Capital, Activitat."
       },
       "es": {
         "title": "Criterios de clasificación de las empresas",
@@ -328,7 +330,9 @@
           "Estructura jurídica — individuales / sociedades / S.L. / S.A. / cooperativas",
           "Tipo de capital — públicas / privadas / mixtas",
           "Actividad económica — fabricantes / distribuidoras / servicios"
-        ]
+        ],
+        "technique": "Acrónimo MECA",
+        "memory": "MECA: Motivo, Estructura jurídica, Capital, Actividad."
       }
     },
     {
@@ -349,7 +353,9 @@
           "De rang",
           "Per capacitat",
           "Per remuneració"
-        ]
+        ],
+        "technique": "Patró CRCR",
+        "memory": "CRCR: Càrrec, Rang, Capacitat, Remuneració."
       },
       "es": {
         "title": "Tipos de jerarquía empresarial",
@@ -358,7 +364,9 @@
           "De rango",
           "Por capacidad",
           "Por remuneración"
-        ]
+        ],
+        "technique": "Patrón CRCR",
+        "memory": "CRCR: Cargo, Rango, Capacidad, Remuneración."
       }
     },
     {
@@ -412,7 +420,9 @@
           "Control de qualitat",
           "Emmagatzematge dels productes acabats",
           "Preparació per a la distribució"
-        ]
+        ],
+        "technique": "Cadena",
+        "memory": "Rebre → transformar → controlar → emmagatzemar → preparar distribució."
       },
       "es": {
         "title": "Fases básicas del proceso de fabricación",
@@ -422,7 +432,9 @@
           "Control de calidad",
           "Almacenamiento de los productos acabados",
           "Preparación para la distribución"
-        ]
+        ],
+        "technique": "Cadena",
+        "memory": "Recibir → transformar → controlar → almacenar → preparar distribución."
       }
     },
     {
@@ -612,7 +624,9 @@
           "Observar les línies de dependència jeràrquica",
           "Detectar els llocs situats al mateix nivell",
           "Comprovar de qui depèn cada persona o unitat"
-        ]
+        ],
+        "technique": "Recorregut visual",
+        "memory": "Dalt → unitats → línies → mateix nivell → dependència."
       },
       "es": {
         "title": "Pasos para interpretar un organigrama",
@@ -622,7 +636,9 @@
           "Observar las líneas de dependencia jerárquica",
           "Detectar los puestos situados al mismo nivel",
           "Comprobar de quién depende cada persona o unidad"
-        ]
+        ],
+        "technique": "Recorrido visual",
+        "memory": "Arriba → unidades → líneas → mismo nivel → dependencia."
       }
     },
     {
@@ -814,7 +830,9 @@
           "Legislatiu",
           "Executiu",
           "Judicial"
-        ]
+        ],
+        "technique": "Acrònim LEJ",
+        "memory": "LEJ: Lleis — Executar — Jutjar."
       },
       "es": {
         "title": "Poderes del Estado",
@@ -822,7 +840,9 @@
           "Legislativo",
           "Ejecutivo",
           "Judicial"
-        ]
+        ],
+        "technique": "Acrónimo LEJ",
+        "memory": "LEJ: Legislar — Ejecutar — Juzgar."
       }
     },
     {
@@ -908,7 +928,9 @@
           "Normalització de procediments",
           "Normalització de resultats",
           "Normalització d’habilitats"
-        ]
+        ],
+        "technique": "A-S-NNN",
+        "memory": "Adaptació, Supervisió i 3 Normalitzacions: procediments, resultats, habilitats."
       },
       "es": {
         "title": "Mecanismos de coordinación",
@@ -918,7 +940,9 @@
           "Normalización de procedimientos",
           "Normalización de resultados",
           "Normalización de habilidades"
-        ]
+        ],
+        "technique": "A-S-NNN",
+        "memory": "Adaptación, Supervisión y 3 Normalizaciones: procedimientos, resultados, habilidades."
       }
     },
     {
@@ -999,7 +1023,9 @@
           "Realitzar el control mitjançant el mesurament",
           "Interpretar el resultat real i comparar-lo amb l’estàndard",
           "Prendre accions de millora i revisar els controls si cal"
-        ]
+        ],
+        "technique": "6 preguntes",
+        "memory": "Què? → com? → sistema → mesurar → comparar → millorar."
       },
       "es": {
         "title": "Pasos para implantar el control de calidad",
@@ -1010,7 +1036,9 @@
           "Realizar el control mediante la medición",
           "Interpretar el resultado real y compararlo con el estándar",
           "Tomar acciones de mejora y revisar los controles si es necesario"
-        ]
+        ],
+        "technique": "6 preguntas",
+        "memory": "¿Qué? → ¿cómo? → sistema → medir → comparar → mejorar."
       }
     },
     {
@@ -1058,7 +1086,9 @@
           "Importants",
           "Normals",
           "Poc importants"
-        ]
+        ],
+        "technique": "Escala INP",
+        "memory": "INP: Importants → Normals → Poc importants."
       },
       "es": {
         "title": "Clasificación de las tareas por prioridad",
@@ -1066,7 +1096,9 @@
           "Importantes",
           "Normales",
           "Poco importantes"
-        ]
+        ],
+        "technique": "Escala INP",
+        "memory": "INP: Importantes → Normales → Poco importantes."
       }
     },
     {
@@ -1202,8 +1234,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          6,
-          6
+          9,
+          9
         ]
       },
       "ca": {
@@ -1236,8 +1268,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          9,
-          9
+          12,
+          12
         ]
       },
       "ca": {
@@ -1248,7 +1280,9 @@
           "Concisió",
           "Correcció",
           "Coherència i cohesió"
-        ]
+        ],
+        "technique": "4C + P",
+        "memory": "4C + P: claredat, concisió, correcció, coherència/cohesió + precisió."
       },
       "es": {
         "title": "Características de un buen texto profesional",
@@ -1258,7 +1292,9 @@
           "Concisión",
           "Corrección",
           "Coherencia y cohesión"
-        ]
+        ],
+        "technique": "4C + P",
+        "memory": "4C + P: claridad, concisión, corrección, coherencia/cohesión + precisión."
       }
     },
     {
@@ -1268,8 +1304,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          14,
-          14
+          17,
+          17
         ]
       },
       "ca": {
@@ -1296,8 +1332,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          20,
-          20
+          23,
+          23
         ]
       },
       "ca": {
@@ -1326,8 +1362,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          22,
-          23
+          25,
+          26
         ]
       },
       "ca": {
@@ -1356,8 +1392,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          24,
-          24
+          27,
+          27
         ]
       },
       "ca": {
@@ -1369,7 +1405,9 @@
           "SOL·LICITO: petició concreta",
           "Documents annexos",
           "Lloc, data i signatura"
-        ]
+        ],
+        "technique": "Cadena de preguntes",
+        "memory": "Qui? → a qui? → EXPOSO → SOL·LICITO → annexos → data/signatura."
       },
       "es": {
         "title": "Estructura habitual de una solicitud",
@@ -1380,7 +1418,9 @@
           "SOLICITO: petición concreta",
           "Documentos anexos",
           "Lugar, fecha y firma"
-        ]
+        ],
+        "technique": "Cadena de preguntas",
+        "memory": "¿Quién? → ¿a quién? → EXPONGO → SOLICITO → anexos → fecha/firma."
       }
     },
     {
@@ -1402,7 +1442,9 @@
           "Distribuir sense exposar dades personals o documentació reservada",
           "Preparar la sortida amb annexos, signatura i servei adequat",
           "Conservar evidències: còpia, justificant, prova de lliurament o certificació"
-        ]
+        ],
+        "technique": "Acrònim IRDPC",
+        "memory": "Identificar → Registrar → Distribuir → Preparar → Conservar proves."
       },
       "es": {
         "title": "Circuito completo de correspondencia y paquetería",
@@ -1412,7 +1454,9 @@
           "Distribuir sin exponer datos personales o documentación reservada",
           "Preparar la salida con anexos, firma y servicio adecuado",
           "Conservar evidencias: copia, justificante, prueba de entrega o certificación"
-        ]
+        ],
+        "technique": "Acrónimo IRDPC",
+        "memory": "Identificar → Registrar → Distribuir → Preparar → Conservar pruebas."
       }
     },
     {
@@ -1467,7 +1511,9 @@
           "Tipus",
           "Destinatari intern",
           "Assumpte i observacions"
-        ]
+        ],
+        "technique": "Agrupació 2+2+2",
+        "memory": "Quan? número/data · Qui? remitent/destinatari · Què? tipus/assumpte."
       },
       "es": {
         "title": "Datos básicos del registro de entrada",
@@ -1478,7 +1524,9 @@
           "Tipo",
           "Destinatario interno",
           "Asunto y observaciones"
-        ]
+        ],
+        "technique": "Agrupación 2+2+2",
+        "memory": "¿Cuándo? número/fecha · ¿Quién? remitente/destinatario · ¿Qué? tipo/asunto."
       }
     },
     {
@@ -1565,7 +1613,9 @@
           "Protegir i tancar",
           "Etiquetar amb destinatari i remitent complets",
           "Registrar la sortida i conservar el justificant"
-        ]
+        ],
+        "technique": "Cadena",
+        "memory": "Identifica → enviament → embalatge → protegeix → etiqueta → registra."
       },
       "es": {
         "title": "Procedimiento de embalaje y etiquetado",
@@ -1576,7 +1626,9 @@
           "Proteger y cerrar",
           "Etiquetar con destinatario y remitente completos",
           "Registrar la salida y conservar el justificante"
-        ]
+        ],
+        "technique": "Cadena",
+        "memory": "Identifica → envío → embalaje → protege → etiqueta → registra."
       }
     },
     {
@@ -1599,7 +1651,9 @@
           "Annexos inclosos i coherents",
           "Mitjà adequat a urgència, confidencialitat i valor probatori",
           "Còpia i justificant conservats quan cal"
-        ]
+        ],
+        "technique": "Checklist 6",
+        "memory": "Document · dades · destinatari · annexos · mitjà · prova."
       },
       "es": {
         "title": "Comprobaciones imprescindibles antes de enviar",
@@ -1610,7 +1664,9 @@
           "Anexos incluidos y coherentes",
           "Medio adecuado a urgencia, confidencialidad y valor probatorio",
           "Copia y justificante conservados cuando proceda"
-        ]
+        ],
+        "technique": "Checklist 6",
+        "memory": "Documento · datos · destinatario · anexos · medio · prueba."
       }
     },
     {
@@ -1770,7 +1826,9 @@
           "Classificació",
           "Accés",
           "Conservació"
-        ]
+        ],
+        "technique": "5 preguntes",
+        "memory": "Qui? On? Com s’ordena? Qui hi accedeix? Fins quan?"
       },
       "es": {
         "title": "Aspectos mínimos de las normas internas de archivo",
@@ -1780,7 +1838,9 @@
           "Clasificación",
           "Acceso",
           "Conservación"
-        ]
+        ],
+        "technique": "5 preguntas",
+        "memory": "¿Quién? ¿Dónde? ¿Cómo se ordena? ¿Quién accede? ¿Hasta cuándo?"
       }
     },
     {
@@ -1936,7 +1996,9 @@
           "No obrir adjunts ni enllaços si l’origen no es pot verificar",
           "No facilitar contrasenyes, codis o dades bancàries per correu",
           "Avisar la persona responsable o el departament corresponent"
-        ]
+        ],
+        "technique": "5D",
+        "memory": "Desconfia · Domini · no Descarreguis · no donis Dades · Deriva/avisa."
       },
       "es": {
         "title": "Precauciones ante correos sospechosos y phishing",
@@ -1946,7 +2008,9 @@
           "No abrir adjuntos ni enlaces si el origen no puede verificarse",
           "No facilitar contraseñas, códigos o datos bancarios por correo",
           "Avisar a la persona responsable o al departamento correspondiente"
-        ]
+        ],
+        "technique": "5D",
+        "memory": "Desconfía · Dominio · no Descargues · no des Datos · Deriva/avisa."
       }
     },
     {
@@ -1968,7 +2032,9 @@
           "Comunicar informació",
           "Organitzar processos",
           "Facilitar inspeccions, auditories i verificacions"
-        ]
+        ],
+        "technique": "5 verbs",
+        "memory": "Constatar · provar · comunicar · organitzar · facilitar verificacions."
       },
       "es": {
         "title": "Funciones de los documentos administrativos",
@@ -1978,7 +2044,9 @@
           "Comunicar información",
           "Organizar procesos",
           "Facilitar inspecciones, auditorías y verificaciones"
-        ]
+        ],
+        "technique": "5 verbos",
+        "memory": "Constatar · probar · comunicar · organizar · facilitar verificaciones."
       }
     },
     {
@@ -2199,7 +2267,9 @@
           "Import",
           "Validesa",
           "Acceptació"
-        ]
+        ],
+        "technique": "Agrupació ID-DIVA",
+        "memory": "ID: identificació/data · DI: descripció/import · VA: validesa/acceptació."
       },
       "es": {
         "title": "Datos recomendables de un presupuesto",
@@ -2210,7 +2280,9 @@
           "Importe",
           "Validez",
           "Aceptación"
-        ]
+        ],
+        "technique": "Agrupación ID-DIVA",
+        "memory": "ID: identificación/fecha · DI: descripción/importe · VA: validez/aceptación."
       }
     },
     {
@@ -2233,7 +2305,9 @@
           "Referència i preu unitari",
           "Condicions i termini",
           "Forma de pagament"
-        ]
+        ],
+        "technique": "6 preguntes",
+        "memory": "Qui? quan? què? a quin preu? en quines condicions? com es paga?"
       },
       "es": {
         "title": "Datos operativos de un pedido",
@@ -2244,7 +2318,9 @@
           "Referencia y precio unitario",
           "Condiciones y plazo",
           "Forma de pago"
-        ]
+        ],
+        "technique": "6 preguntas",
+        "memory": "¿Quién? ¿cuándo? ¿qué? ¿a qué precio? ¿en qué condiciones? ¿cómo se paga?"
       }
     },
     {
@@ -2392,7 +2468,9 @@
           "Meritacions",
           "Deduccions",
           "Líquid a percebre"
-        ]
+        ],
+        "technique": "Equació visual",
+        "memory": "Empresa + persona | suma meritacions | resta deduccions | = líquid."
       },
       "es": {
         "title": "Partes principales de la nómina",
@@ -2402,7 +2480,9 @@
           "Devengos",
           "Deducciones",
           "Líquido a percibir"
-        ]
+        ],
+        "technique": "Ecuación visual",
+        "memory": "Empresa + persona | suma devengos | resta deducciones | = líquido."
       }
     },
     {
@@ -2454,7 +2534,9 @@
           "Cotització a la Seguretat Social",
           "Retenció a compte de l’IRPF",
           "Bestretes, embargaments, quotes o regularitzacions quan corresponguin"
-        ]
+        ],
+        "technique": "3 blocs",
+        "memory": "Seguretat Social + IRPF + altres deduccions aplicables."
       },
       "es": {
         "title": "Deducciones de la nómina",
@@ -2462,7 +2544,9 @@
           "Cotización a la Seguridad Social",
           "Retención a cuenta del IRPF",
           "Anticipos, embargos, cuotas o regularizaciones cuando correspondan"
-        ]
+        ],
+        "technique": "3 bloques",
+        "memory": "Seguridad Social + IRPF + otras deducciones aplicables."
       }
     },
     {
@@ -2554,7 +2638,9 @@
           "Aplicar impostos, descomptes, venciments i formes de pagament",
           "Controlar numeració, sèries, rectificatives i informes",
           "Exportar, arxivar o enviar respectant confidencialitat i normativa"
-        ]
+        ],
+        "technique": "Cadena 5",
+        "memory": "Fitxes → documents → càlcul → control → exportar/arxivar/enviar."
       },
       "es": {
         "title": "Operaciones informáticas de facturación",
@@ -2564,7 +2650,9 @@
           "Aplicar impuestos, descuentos, vencimientos y formas de pago",
           "Controlar numeración, series, rectificativas e informes",
           "Exportar, archivar o enviar respetando confidencialidad y normativa"
-        ]
+        ],
+        "technique": "Cadena 5",
+        "memory": "Fichas → documentos → cálculo → control → exportar/archivar/enviar."
       }
     },
     {
@@ -2586,7 +2674,9 @@
           "Traçabilitat",
           "Noms de fitxer clars i carpetes ordenades",
           "Eliminació segura quan correspon"
-        ]
+        ],
+        "technique": "Cadena 5",
+        "memory": "Accés → còpia → traça → noms/ordre → eliminació segura."
       },
       "es": {
         "title": "Criterios de seguridad y archivo digital",
@@ -2596,7 +2686,9 @@
           "Trazabilidad",
           "Nombres de archivo claros y carpetas ordenadas",
           "Eliminación segura cuando corresponde"
-        ]
+        ],
+        "technique": "Cadena 5",
+        "memory": "Acceso → copia → traza → nombres/orden → eliminación segura."
       }
     },
     {
@@ -2773,5 +2865,9 @@
   "policy": {
     "ca": "Selecció pedagògica de conjunts que convé recordar complets. S’exclouen enumeracions merament exemplificatives o accidentals.",
     "es": "Selección pedagógica de conjuntos que conviene recordar completos. Se excluyen enumeraciones meramente ejemplificativas o accidentales."
+  },
+  "memoryPolicy": {
+    "ca": "Acrònims només quan són fidels a la llista; si no, es prioritzen cadenes, contrastos, agrupacions i preguntes guia.",
+    "es": "Acrónimos solo cuando son fieles a la lista; si no, se priorizan cadenas, contrastes, agrupaciones y preguntas guía."
   }
 }
