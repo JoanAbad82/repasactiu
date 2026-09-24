@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "policy": "Flashcard source traceability. UF0517 core cards use section/topic page ranges; UF0518 and UF0519 core cards use per-question page ranges; semantic V2 changes override these with their audited page source; extra cards preserve their own page ranges.",
   "sources": {
     "B1": {
@@ -42,6 +42,10 @@
     "UF0519_U1": {
       "file": "UF0519_1.Gestió_auxiliar_documentació_administrativa_bàsica.pdf",
       "pages": 76
+    },
+    "MF0969_PRESENTACIO": {
+      "file": "Presentació del mòdul_MF0969_1.pdf",
+      "pages": 22
     }
   },
   "blockSources": {
@@ -3005,6 +3009,90 @@
       "pageRange": [
         73,
         73
+      ]
+    },
+    "uf0519-b5-011": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        19,
+        19
+      ]
+    },
+    "uf0519-b5-012": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        19,
+        19
+      ]
+    },
+    "uf0519-b5-013": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        19,
+        19
+      ]
+    },
+    "uf0519-b5-014": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        19,
+        19
+      ]
+    },
+    "uf0519-b5-015": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0519-b5-016": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0519-b5-017": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0519-b5-018": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0519-b5-019": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        21,
+        21
+      ]
+    },
+    "uf0519-b5-020": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        21,
+        21
+      ]
+    },
+    "uf0519-b5-021": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        21,
+        21
+      ]
+    },
+    "uf0519-b5-022": {
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        21,
+        21
       ]
     }
   }
