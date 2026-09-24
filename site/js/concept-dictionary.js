@@ -139,7 +139,7 @@ export function filterConceptEntries(bank,{language='ca',query='',blockId='all'}
     .filter(entry=>{
       if(!q)return true;
       const localized=entry[lang]||{};
-      return normalize([localized.term,localized.definition,localized.memory].join(' ')).includes(q);
+      return normalize([localized.term,localized.definition,localized.memory,localized.technique].join(' ')).includes(q);
     })
     .slice()
     .sort((a,b)=>{
@@ -160,7 +160,7 @@ export function filterKeyListEntries(bank,{language='ca',query='',blockId='all'}
     .filter(entry=>{
       if(!q)return true;
       const localized=entry[lang]||{};
-      return normalize([localized.title,...(localized.items||[]),localized.memory||''].join(' ')).includes(q);
+      return normalize([localized.title,...(localized.items||[]),localized.memory||'',localized.technique||''].join(' ')).includes(q);
     })
     .slice()
     .sort((a,b)=>{
