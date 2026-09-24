@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "date": "2026-09-21",
+  "date": "2026-09-24",
   "policy": "Curated learning dictionary: only high-value concepts that improve comprehension, discrimination or memorisation. Source material is authoritative.",
   "languages": [
     "ca",
     "es"
   ],
-  "count": 100,
+  "count": 106,
   "groups": [
     {
       "id": "bloc-1",
@@ -2179,6 +2179,132 @@
         "definition": "Herramienta de apoyo para mantener datos laborales, generar recibos de salario y registrar incidencias, bajo criterio laboral responsable.",
         "memory": "El software ayuda; el criterio laboral no se automatiza."
       }
+    },
+    {
+      "id": "uf519-tresoreria",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "MF0969_PRESENTACIO",
+        "pages": [
+          19,
+          19
+        ]
+      },
+      "ca": {
+        "term": "Tresoreria",
+        "definition": "Funció que controla totes les entrades i sortides de diners de l’empresa.",
+        "memory": "Tresoreria = entra i surt diner."
+      },
+      "es": {
+        "term": "Tesorería",
+        "definition": "Función que controla todas las entradas y salidas de dinero de la empresa.",
+        "memory": "Tesorería = entra y sale dinero."
+      }
+    },
+    {
+      "id": "uf519-mitjans-pagament",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "MF0969_PRESENTACIO",
+        "pages": [
+          19,
+          19
+        ]
+      },
+      "ca": {
+        "term": "Mitjans de pagament",
+        "definition": "Formes de pagament indicades al material: efectiu, xecs, rebuts, transferències, ingressos en compte, targetes, pagarés i lletres de canvi.",
+        "memory": "Pagament = efectiu/xec/rebut/transferència + targeta/pagaré/lletra."
+      },
+      "es": {
+        "term": "Medios de pago",
+        "definition": "Formas de pago indicadas en el material: efectivo, cheques, recibos, transferencias, ingresos en cuenta, tarjetas, pagarés y letras de cambio.",
+        "memory": "Pago = efectivo/cheque/recibo/transferencia + tarjeta/pagaré/letra."
+      }
+    },
+    {
+      "id": "uf519-arqueig-caixa",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "MF0969_PRESENTACIO",
+        "pages": [
+          20,
+          20
+        ]
+      },
+      "ca": {
+        "term": "Arqueig de caixa",
+        "definition": "Comparació dels diners reals presents a caixa amb el saldo registrat per verificar que coincideixin.",
+        "memory": "Arqueig = real vs. registrat."
+      },
+      "es": {
+        "term": "Arqueo de caja",
+        "definition": "Comparación del dinero real presente en caja con el saldo registrado para verificar que coincidan.",
+        "memory": "Arqueo = real vs. registrado."
+      }
+    },
+    {
+      "id": "uf519-conciliacio-bancaria",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "MF0969_PRESENTACIO",
+        "pages": [
+          20,
+          20
+        ]
+      },
+      "ca": {
+        "term": "Conciliació bancària",
+        "definition": "Comparació dels registres interns de l’empresa amb l’extracte bancari per identificar diferències.",
+        "memory": "Conciliació = empresa vs. banc."
+      },
+      "es": {
+        "term": "Conciliación bancaria",
+        "definition": "Comparación de los registros internos de la empresa con el extracto bancario para identificar diferencias.",
+        "memory": "Conciliación = empresa vs. banco."
+      }
+    },
+    {
+      "id": "uf519-fungible-no-fungible",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "MF0969_PRESENTACIO",
+        "pages": [
+          21,
+          21
+        ]
+      },
+      "ca": {
+        "term": "Material fungible vs. no fungible",
+        "definition": "El material fungible és consumible; el no fungible és durador o correspon a equips d’oficina.",
+        "memory": "Fungible = es gasta; no fungible = dura."
+      },
+      "es": {
+        "term": "Material fungible vs. no fungible",
+        "definition": "El material fungible es consumible; el no fungible es duradero o corresponde a equipos de oficina.",
+        "memory": "Fungible = se gasta; no fungible = dura."
+      }
+    },
+    {
+      "id": "uf519-stock-seguretat",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "MF0969_PRESENTACIO",
+        "pages": [
+          21,
+          21
+        ]
+      },
+      "ca": {
+        "term": "Stock de seguretat",
+        "definition": "Nivell de reserva que es controla per preparar la reposició a temps i evitar ruptures d’estoc.",
+        "memory": "Stock de seguretat = marge abans de quedar-se sense material."
+      },
+      "es": {
+        "term": "Stock de seguridad",
+        "definition": "Nivel de reserva que se controla para preparar la reposición a tiempo y evitar roturas de stock.",
+        "memory": "Stock de seguridad = margen antes de quedarse sin material."
+      }
     }
   ],
   "familyPolicy": "Order by conceptual families and learning dependency, not alphabetically. Keep contrasts and strongly related concepts adjacent to improve retrieval and memorisation.",
@@ -2393,6 +2519,19 @@
       "entryIds": [
         "uf519-programari-facturacio",
         "uf519-programari-nomines"
+      ]
+    },
+    {
+      "id": "treasury-cash-inventory",
+      "ca": "Tresoreria, caixa, bancs i existències",
+      "es": "Tesorería, caja, bancos y existencias",
+      "entryIds": [
+        "uf519-tresoreria",
+        "uf519-mitjans-pagament",
+        "uf519-arqueig-caixa",
+        "uf519-conciliacio-bancaria",
+        "uf519-fungible-no-fungible",
+        "uf519-stock-seguretat"
       ]
     }
   ]
