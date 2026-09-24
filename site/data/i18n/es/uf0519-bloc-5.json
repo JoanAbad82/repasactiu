@@ -1,1 +1,248 @@
-{"blockId":"uf0519-bloc-5","blockTitle":"Operaciones informáticas de facturación y nóminas","questions":{"uf0519-b5-001":{"topic":"Software de facturación","question":"¿Qué fichas básicas debe saber crear el personal auxiliar en un programa de facturación?","options":["Fichas de clientes, proveedores, productos o servicios","Solo fichas de vacaciones","Únicamente fichas de archivo muerto","Solo fichas de reuniones"],"explanation":"El material incluye la creación de fichas maestras de clientes, proveedores, productos y servicios."},"uf0519-b5-002":{"topic":"Software de facturación","question":"¿Qué documentos comerciales debe poder emitir el software de facturación según el material?","options":["Nóminas, convenios y contratos","Presupuestos, pedidos, albaranes y facturas","Actas, certificados y sentencias","Solo recibos de salario"],"explanation":"El material enumera estos cuatro documentos en las operaciones informáticas de facturación."},"uf0519-b5-003":{"topic":"Software de facturación","question":"¿Qué elementos económicos debe gestionar el personal auxiliar en facturación informática?","options":["Solo turnos de vacaciones","Únicamente actas de reunión","Impuestos, descuentos, vencimientos y formas de pago","Solo accesos a carpetas"],"explanation":"El material señala la aplicación de impuestos, descuentos, vencimientos y formas de pago."},"uf0519-b5-004":{"topic":"Control de facturación","question":"¿Qué controles documentales destaca el material en un programa de facturación?","options":["Solo contraseñas de correo","Únicamente asistencia a reuniones","Solo inventario de mobiliario","Numeración, series, facturas rectificativas e informes"],"explanation":"El material destaca el control de numeración, series, rectificativas e informes."},"uf0519-b5-005":{"topic":"Software de nóminas","question":"¿Qué tarea de apoyo realiza el personal auxiliar con los datos laborales en un programa de nóminas?","options":["Introducir y actualizar datos básicos de personas trabajadoras y contratos según instrucciones","Modificar unilateralmente cualquier condición laboral","Decidir sin supervisión los criterios jurídicos","Eliminar los contratos después de generar la nómina"],"explanation":"El material limita la función a tareas de apoyo según instrucciones y no sustituye el criterio laboral."},"uf0519-b5-006":{"topic":"Software de nóminas","question":"¿Qué indica el material que debe hacerse con dudas jurídicas o cálculos laborales complejos?","options":["Resolverlos sin consultar a nadie","Derivarlos a la persona responsable laboral o a la asesoría","Ignorarlos y continuar el proceso","Convertirlos en una factura"],"explanation":"El material diferencia el apoyo administrativo del criterio laboral especializado."},"uf0519-b5-007":{"topic":"Seguridad digital","question":"¿Qué significa control de accesos en la documentación administrativa digital?","options":["Que cualquier persona pueda editar los archivos","Que los documentos no tengan contraseña","Que solo accedan personas autorizadas","Que todas las carpetas sean públicas"],"explanation":"El material sitúa el control de accesos como primer criterio de seguridad digital."},"uf0519-b5-008":{"topic":"Trazabilidad digital","question":"¿Qué permite la trazabilidad en el archivo digital?","options":["Eliminar el nombre del archivo","Evitar cualquier registro de cambios","Compartir el documento sin control","Saber quién crea, modifica, envía o valida un documento"],"explanation":"La trazabilidad identifica las acciones y las personas que intervienen en el documento."},"uf0519-b5-009":{"topic":"Archivo digital","question":"¿Qué práctica de organización de archivos recomienda el material?","options":["Utilizar nombres de archivo claros y carpetas ordenadas","Usar nombres aleatorios","Guardarlo todo en el escritorio","Duplicar cada archivo en carpetas sin criterio"],"explanation":"Los nombres claros y las carpetas ordenadas facilitan la localización y la gestión documental."},"uf0519-b5-010":{"topic":"Control antes de enviar","question":"¿Qué comprobaciones finales resume el material antes de enviar un documento?","options":["Solo comprobar el color del documento","Destinatario correcto, documento completo y validado, datos coherentes, datos mínimos, canal adecuado y previsión de copia o archivo","Enviar primero y revisar después","Eliminar anexos para reducir tamaño"],"explanation":"La lista final agrupa comprobaciones de destinatario, integridad, coherencia, protección de datos, canal y trazabilidad."}}}
+{
+  "blockId": "uf0519-bloc-5",
+  "blockTitle": "Operaciones informáticas, tesorería, caja y control de material",
+  "questions": {
+    "uf0519-b5-001": {
+      "topic": "Software de facturación",
+      "question": "¿Qué fichas básicas debe saber crear el personal auxiliar en un programa de facturación?",
+      "options": [
+        "Fichas de clientes, proveedores, productos o servicios",
+        "Solo fichas de vacaciones",
+        "Únicamente fichas de archivo muerto",
+        "Solo fichas de reuniones"
+      ],
+      "explanation": "El material incluye la creación de fichas maestras de clientes, proveedores, productos y servicios."
+    },
+    "uf0519-b5-002": {
+      "topic": "Software de facturación",
+      "question": "¿Qué documentos comerciales debe poder emitir el software de facturación según el material?",
+      "options": [
+        "Nóminas, convenios y contratos",
+        "Presupuestos, pedidos, albaranes y facturas",
+        "Actas, certificados y sentencias",
+        "Solo recibos de salario"
+      ],
+      "explanation": "El material enumera estos cuatro documentos en las operaciones informáticas de facturación."
+    },
+    "uf0519-b5-003": {
+      "topic": "Software de facturación",
+      "question": "¿Qué elementos económicos debe gestionar el personal auxiliar en facturación informática?",
+      "options": [
+        "Solo turnos de vacaciones",
+        "Únicamente actas de reunión",
+        "Impuestos, descuentos, vencimientos y formas de pago",
+        "Solo accesos a carpetas"
+      ],
+      "explanation": "El material señala la aplicación de impuestos, descuentos, vencimientos y formas de pago."
+    },
+    "uf0519-b5-004": {
+      "topic": "Control de facturación",
+      "question": "¿Qué controles documentales destaca el material en un programa de facturación?",
+      "options": [
+        "Solo contraseñas de correo",
+        "Únicamente asistencia a reuniones",
+        "Solo inventario de mobiliario",
+        "Numeración, series, facturas rectificativas e informes"
+      ],
+      "explanation": "El material destaca el control de numeración, series, rectificativas e informes."
+    },
+    "uf0519-b5-005": {
+      "topic": "Software de nóminas",
+      "question": "¿Qué tarea de apoyo realiza el personal auxiliar con los datos laborales en un programa de nóminas?",
+      "options": [
+        "Introducir y actualizar datos básicos de personas trabajadoras y contratos según instrucciones",
+        "Modificar unilateralmente cualquier condición laboral",
+        "Decidir sin supervisión los criterios jurídicos",
+        "Eliminar los contratos después de generar la nómina"
+      ],
+      "explanation": "El material limita la función a tareas de apoyo según instrucciones y no sustituye el criterio laboral."
+    },
+    "uf0519-b5-006": {
+      "topic": "Software de nóminas",
+      "question": "¿Qué indica el material que debe hacerse con dudas jurídicas o cálculos laborales complejos?",
+      "options": [
+        "Resolverlos sin consultar a nadie",
+        "Derivarlos a la persona responsable laboral o a la asesoría",
+        "Ignorarlos y continuar el proceso",
+        "Convertirlos en una factura"
+      ],
+      "explanation": "El material diferencia el apoyo administrativo del criterio laboral especializado."
+    },
+    "uf0519-b5-007": {
+      "topic": "Seguridad digital",
+      "question": "¿Qué significa control de accesos en la documentación administrativa digital?",
+      "options": [
+        "Que cualquier persona pueda editar los archivos",
+        "Que los documentos no tengan contraseña",
+        "Que solo accedan personas autorizadas",
+        "Que todas las carpetas sean públicas"
+      ],
+      "explanation": "El material sitúa el control de accesos como primer criterio de seguridad digital."
+    },
+    "uf0519-b5-008": {
+      "topic": "Trazabilidad digital",
+      "question": "¿Qué permite la trazabilidad en el archivo digital?",
+      "options": [
+        "Eliminar el nombre del archivo",
+        "Evitar cualquier registro de cambios",
+        "Compartir el documento sin control",
+        "Saber quién crea, modifica, envía o valida un documento"
+      ],
+      "explanation": "La trazabilidad identifica las acciones y las personas que intervienen en el documento."
+    },
+    "uf0519-b5-009": {
+      "topic": "Archivo digital",
+      "question": "¿Qué práctica de organización de archivos recomienda el material?",
+      "options": [
+        "Utilizar nombres de archivo claros y carpetas ordenadas",
+        "Usar nombres aleatorios",
+        "Guardarlo todo en el escritorio",
+        "Duplicar cada archivo en carpetas sin criterio"
+      ],
+      "explanation": "Los nombres claros y las carpetas ordenadas facilitan la localización y la gestión documental."
+    },
+    "uf0519-b5-010": {
+      "topic": "Control antes de enviar",
+      "question": "¿Qué comprobaciones finales resume el material antes de enviar un documento?",
+      "options": [
+        "Solo comprobar el color del documento",
+        "Destinatario correcto, documento completo y validado, datos coherentes, datos mínimos, canal adecuado y previsión de copia o archivo",
+        "Enviar primero y revisar después",
+        "Eliminar anexos para reducir tamaño"
+      ],
+      "explanation": "La lista final agrupa comprobaciones de destinatario, integridad, coherencia, protección de datos, canal y trazabilidad."
+    },
+    "uf0519-b5-011": {
+      "topic": "Tesorería",
+      "question": "¿Qué función tiene la tesorería según el material?",
+      "options": [
+        "Controlar todas las entradas y salidas de dinero de la empresa",
+        "Gestionar exclusivamente el archivo histórico",
+        "Redactar solo contratos laborales",
+        "Controlar únicamente las existencias de almacén"
+      ],
+      "explanation": "La presentación define la tesorería como la función que controla todas las entradas y salidas de dinero de la empresa."
+    },
+    "uf0519-b5-012": {
+      "topic": "Medios de pago",
+      "question": "¿Qué medios de pago enumera el material como habituales?",
+      "options": [
+        "Solo tarjetas de crédito y débito",
+        "Efectivo, cheques, recibos, transferencias e ingresos en cuenta",
+        "Únicamente pagarés y letras de cambio",
+        "Solo domiciliaciones bancarias"
+      ],
+      "explanation": "El material enumera efectivo, cheques, recibos, transferencias e ingresos en cuenta."
+    },
+    "uf0519-b5-013": {
+      "topic": "Medios de pago",
+      "question": "¿Qué otros medios de pago o crédito aparecen en la presentación?",
+      "options": [
+        "Solo efectivo y recibos",
+        "Solo transferencias e ingresos en cuenta",
+        "Tarjetas de crédito o débito, pagarés y letras de cambio",
+        "Solo cheques nominativos"
+      ],
+      "explanation": "La presentación añade las tarjetas de crédito o débito, los pagarés y las letras de cambio."
+    },
+    "uf0519-b5-014": {
+      "topic": "Justificantes de pago",
+      "question": "¿Qué requiere cada operación de pago o cobro según el material?",
+      "options": [
+        "Un cambio de contraseña",
+        "Una nueva ficha de cliente",
+        "Una copia de todos los correos",
+        "Un justificante y una comprobación del importe"
+      ],
+      "explanation": "Cada operación de pago o cobro necesita un justificante y una comprobación del importe."
+    },
+    "uf0519-b5-015": {
+      "topic": "Control de caja y bancos",
+      "question": "¿Para qué sirven los registros de caja y bancos?",
+      "options": [
+        "Para conocer y comprobar el saldo disponible en todo momento",
+        "Para sustituir las facturas emitidas",
+        "Para eliminar los justificantes antiguos",
+        "Para determinar el organigrama de la empresa"
+      ],
+      "explanation": "Los registros de caja y bancos permiten conocer y comprobar el saldo disponible en todo momento."
+    },
+    "uf0519-b5-016": {
+      "topic": "Arqueo de caja",
+      "question": "¿En qué consiste el arqueo de caja?",
+      "options": [
+        "En comparar facturas con pedidos",
+        "En comparar el dinero real presente con el saldo registrado",
+        "En comprobar solo los movimientos bancarios",
+        "En revisar el inventario del almacén"
+      ],
+      "explanation": "El arqueo de caja compara el dinero real presente con el saldo registrado para verificar la concordancia."
+    },
+    "uf0519-b5-017": {
+      "topic": "Conciliación bancaria",
+      "question": "¿Qué compara la conciliación bancaria?",
+      "options": [
+        "Las existencias físicas con los pedidos",
+        "Los recibos con las nóminas",
+        "Los registros internos de la empresa con el extracto bancario",
+        "Los precios de venta con los salarios"
+      ],
+      "explanation": "La conciliación bancaria compara los registros internos de la empresa con el extracto bancario para identificar diferencias."
+    },
+    "uf0519-b5-018": {
+      "topic": "Seguridad económica",
+      "question": "¿Qué medida de seguridad destaca el material en la gestión de caja y bancos?",
+      "options": [
+        "Compartir las claves entre todo el personal",
+        "Eliminar los justificantes después de cada pago",
+        "Hacer públicos los saldos por transparencia interna",
+        "Proteger claves, datos económicos y justificantes para evitar fraudes o accesos no autorizados"
+      ],
+      "explanation": "El material considera fundamental proteger claves, datos económicos y justificantes."
+    },
+    "uf0519-b5-019": {
+      "topic": "Control de existencias",
+      "question": "¿Qué finalidad tiene el control de existencias?",
+      "options": [
+        "Asegurar que el material necesario esté siempre disponible para la actividad",
+        "Sustituir el registro de caja",
+        "Evitar cualquier reposición",
+        "Eliminar el material no utilizado cada día"
+      ],
+      "explanation": "El control de existencias asegura que el material necesario esté disponible para la actividad."
+    },
+    "uf0519-b5-020": {
+      "topic": "Material fungible y no fungible",
+      "question": "¿Qué distinción hace el material entre material fungible y no fungible?",
+      "options": [
+        "Fungible es el material duradero y no fungible el consumible",
+        "Fungible es el material consumible y no fungible el material duradero o los equipos de oficina",
+        "Fungible es solo material informático y no fungible solo papel",
+        "No hay ninguna diferencia entre ambos"
+      ],
+      "explanation": "El material diferencia el material fungible, que es consumible, del no fungible, que es duradero o corresponde a equipos de oficina."
+    },
+    "uf0519-b5-021": {
+      "topic": "Ficha de almacén",
+      "question": "¿Qué datos básicos permiten mantener un control preciso en la ficha de almacén?",
+      "options": [
+        "Solo la fecha de compra",
+        "Solo el nombre del proveedor",
+        "Las entradas, las salidas y el saldo actualizado",
+        "Solo el precio unitario"
+      ],
+      "explanation": "Registrar las entradas, salidas y el saldo actualizado en la ficha de almacén permite un control preciso."
+    },
+    "uf0519-b5-022": {
+      "topic": "Stock e inventario",
+      "question": "¿Qué actuaciones ayudan a evitar roturas de stock y mantener la precisión de las existencias?",
+      "options": [
+        "Eliminar el stock de seguridad",
+        "Reponer solo cuando ya no queda ninguna unidad",
+        "Evitar los inventarios para no alterar el registro",
+        "Controlar el stock de seguridad, preparar la reposición y hacer inventarios periódicos corrigiendo diferencias"
+      ],
+      "explanation": "El material recomienda controlar el stock de seguridad, preparar la reposición y hacer inventarios periódicos corrigiendo las diferencias detectadas."
+    }
+  }
+}
