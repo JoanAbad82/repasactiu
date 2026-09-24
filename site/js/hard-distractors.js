@@ -48,6 +48,8 @@ export function composePracticeQuestion(question,hardRecord,rng=Math.random){
   const retainedEs=normalizeOption(es[retainedIndex]);
   const correctCaNormalized=normalizeOption(correctCa);
   const correctEsNormalized=normalizeOption(correctEs);
+  const practiceWrongCa=new Set(wrongIndices.map(index=>normalizeOption(ca[index])));
+  const practiceWrongEs=new Set(wrongIndices.map(index=>normalizeOption(es[index])));
 
   const candidates=hardRecord.ca.map((value,index)=>({
     ca:value,
@@ -58,7 +60,8 @@ export function composePracticeQuestion(question,hardRecord,rng=Math.random){
     const candidateCa=normalizeOption(candidate.ca);
     const candidateEs=normalizeOption(candidate.es);
     return candidateCa!==correctCaNormalized&&candidateEs!==correctEsNormalized&&
-      candidateCa!==retainedCa&&candidateEs!==retainedEs;
+      candidateCa!==retainedCa&&candidateEs!==retainedEs&&
+      !practiceWrongCa.has(candidateCa)&&!practiceWrongEs.has(candidateEs);
   }).sort((a,b)=>Number(a.absolute)-Number(b.absolute) || a.tie-b.tie);
 
   const selected=[];
