@@ -203,7 +203,7 @@ function conceptEntryHtml(entry,lang,c){
       <span class="concept-source" title="${esc(c.source)}">${esc(sourceLabel(entry.source,lang))}</span>
     </div>
     <p class="concept-definition">${esc(item.definition)}</p>
-    <p class="concept-memory"><strong>${esc(c.memory)}:</strong> ${esc(item.memory)}</p>
+    <p class="concept-memory"><strong>${esc(item.technique?`${c.memory} · ${item.technique}`:c.memory)}:</strong> ${esc(item.memory)}</p>
   </article>`;
 }
 
