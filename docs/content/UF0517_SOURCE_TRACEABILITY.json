@@ -9,7 +9,7 @@
       "pages": 19
     },
     "B2": {
-      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf",
+      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2 (1).pdf",
       "pages": 33
     },
     "B3": {
@@ -17,7 +17,7 @@
       "pages": 35
     },
     "B4": {
-      "file": "Els departaments_BLOC 4.pdf",
+      "file": "4.Els departaments_Bloc_4.pdf",
       "pages": 34
     },
     "B5": {
@@ -25,7 +25,7 @@
       "pages": 24
     },
     "U2B1": {
-      "file": "Unitat 2_Lorganització dels RRHH.pdf",
+      "file": "Unitat 2_Lorganització dels RRHH (1).pdf",
       "pages": 119
     }
   },
@@ -135,6 +135,7 @@
     "questionCount": 510,
     "method": "Question, marked correct option and explanation reviewed against the authorized PDF for its block/topic; the 2026-09-19 editorial audit also verifies self-contained wording for study-card reuse and records source-backed corrections explicitly.",
     "semanticCorrections": 2,
-    "residualGuarantee": "Technical invariants are exhaustive. Academic correctness is source-audited to high assurance but is not a mathematical proof of zero interpretation error."
+    "residualGuarantee": "Technical invariants are exhaustive. Academic correctness is source-audited to high assurance but is not a mathematical proof of zero interpretation error.",
+    "teacherValidatedSourcesDate": "2026-09-24"
   }
 }
