@@ -1,6 +1,8 @@
 const normalizeOption=value=>String(value??'')
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g,'')
+  .replace(/\+/g,' plus ')
+  .replace(/−/g,' minus ')
   .replace(/[’'\`´]/g,' ')
   .replace(/[^\p{L}\p{N}]+/gu,' ')
   .trim()
@@ -39,39 +41,62 @@ export function composePracticeQuestion(question,hardRecord,rng=Math.random){
   const wrongIndices=[0,1,2,3].filter(index=>index!==question.correct);
   const correctCa=ca[question.correct];
   const correctEs=es[question.correct];
-
-  const retainedIndex=wrongIndices
-    .slice()
-    .sort((a,b)=>editorialScore(ca[a],correctCa)-editorialScore(ca[b],correctCa) || a-b)[0];
-
-  const retainedCa=normalizeOption(ca[retainedIndex]);
-  const retainedEs=normalizeOption(es[retainedIndex]);
   const correctCaNormalized=normalizeOption(correctCa);
   const correctEsNormalized=normalizeOption(correctEs);
   const practiceWrongCa=new Set(wrongIndices.map(index=>normalizeOption(ca[index])));
   const practiceWrongEs=new Set(wrongIndices.map(index=>normalizeOption(es[index])));
 
-  const candidates=hardRecord.ca.map((value,index)=>({
-    ca:value,
-    es:hardRecord.es[index],
-    absolute:hasGiveawayAbsolute(value)||hasGiveawayAbsolute(hardRecord.es[index]),
-    tie:rng()
-  })).filter(candidate=>{
-    const candidateCa=normalizeOption(candidate.ca);
-    const candidateEs=normalizeOption(candidate.es);
-    return candidateCa!==correctCaNormalized&&candidateEs!==correctEsNormalized&&
-      candidateCa!==retainedCa&&candidateEs!==retainedEs&&
-      !practiceWrongCa.has(candidateCa)&&!practiceWrongEs.has(candidateEs);
-  }).sort((a,b)=>Number(a.absolute)-Number(b.absolute) || a.tie-b.tie);
+  const tokenSet=value=>new Set(normalizeOption(value).split(' ').filter(Boolean));
+  const conceptTooClose=(left,right)=>{
+    const a=tokenSet(left),b=tokenSet(right);
+    if(!a.size||!b.size)return false;
+    let intersection=0;
+    for(const token of a)if(b.has(token))intersection++;
+    const containment=intersection/Math.min(a.size,b.size);
+    return Math.min(a.size,b.size)>=3&&containment>=0.8;
+  };
 
-  const selected=[];
-  for(const candidate of candidates){
-    if(selected.some(item=>normalizeOption(item.ca)===normalizeOption(candidate.ca)||normalizeOption(item.es)===normalizeOption(candidate.es)))continue;
-    selected.push(candidate);
-    if(selected.length===2)break;
+  const configurations=[];
+  for(const retainedIndex of wrongIndices){
+    const retainedCa=ca[retainedIndex];
+    const retainedEs=es[retainedIndex];
+    const retainedCaNormalized=normalizeOption(retainedCa);
+    const retainedEsNormalized=normalizeOption(retainedEs);
+
+    const candidates=hardRecord.ca.map((value,index)=>({
+      ca:value,
+      es:hardRecord.es[index],
+      absolute:hasGiveawayAbsolute(value)||hasGiveawayAbsolute(hardRecord.es[index]),
+      editorial:editorialScore(value,correctCa)+editorialScore(hardRecord.es[index],correctEs),
+      tie:rng()
+    })).filter(candidate=>{
+      const candidateCa=normalizeOption(candidate.ca);
+      const candidateEs=normalizeOption(candidate.es);
+      return candidateCa!==correctCaNormalized&&candidateEs!==correctEsNormalized&&
+        candidateCa!==retainedCaNormalized&&candidateEs!==retainedEsNormalized&&
+        !practiceWrongCa.has(candidateCa)&&!practiceWrongEs.has(candidateEs)&&
+        !conceptTooClose(candidate.ca,retainedCa)&&!conceptTooClose(candidate.es,retainedEs);
+    }).sort((a,b)=>Number(a.absolute)-Number(b.absolute) || a.editorial-b.editorial || a.tie-b.tie);
+
+    const selected=[];
+    for(const candidate of candidates){
+      if(selected.some(item=>
+        normalizeOption(item.ca)===normalizeOption(candidate.ca)||
+        normalizeOption(item.es)===normalizeOption(candidate.es)
+      ))continue;
+      selected.push(candidate);
+      if(selected.length===2)break;
+    }
+    if(selected.length!==2)continue;
+
+    const score=editorialScore(retainedCa,correctCa)+editorialScore(retainedEs,correctEs)+
+      selected.reduce((sum,item)=>sum+item.editorial+(item.absolute?1000:0),0);
+    configurations.push({retainedIndex,selected,score,tie:rng()});
   }
-  if(selected.length!==2)throw new Error(`${question.id}: not enough distinct distractors for practice composition`);
 
+  if(!configurations.length)throw new Error(`${question.id}: not enough conceptually distinct distractors for practice composition`);
+  configurations.sort((a,b)=>a.score-b.score || a.tie-b.tie);
+  const {retainedIndex,selected}=configurations[0];
   const replaceIndices=wrongIndices.filter(index=>index!==retainedIndex);
   for(const [position,index] of replaceIndices.entries()){
     ca[index]=selected[position].ca;
