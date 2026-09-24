@@ -2,7 +2,7 @@ import {test,expect} from "@playwright/test";
 
 async function openGuide(page){
   await page.goto("/");
-  await expect(page.getByText("830 preguntes")).toBeVisible();
+  await expect(page.getByText("842 preguntes")).toBeVisible();
   await page.getByRole("button",{name:"Correspondència",exact:true}).click();
 }
 
