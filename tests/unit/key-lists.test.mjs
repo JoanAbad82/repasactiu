@@ -11,11 +11,11 @@ import {
 const concepts=JSON.parse(await readFile(new URL('../../site/data/concept-dictionary-v1.json',import.meta.url),'utf8'));
 const keyLists=JSON.parse(await readFile(new URL('../../site/data/key-lists-v1.json',import.meta.url),'utf8'));
 
-test('el banc publica 74 llistes bilingües distribuïdes en deu famílies',()=>{
+test('el banc publica 78 llistes bilingües distribuïdes en onze famílies',()=>{
   const validated=validateKeyLists(keyLists);
-  assert.equal(validated.entries.length,74);
-  assert.equal(validated.families.length,10);
-  assert.equal(validated.families.flatMap(f=>f.entryIds).length,74);
+  assert.equal(validated.entries.length,78);
+  assert.equal(validated.families.length,11);
+  assert.equal(validated.families.flatMap(f=>f.entryIds).length,78);
   assert.equal(validated.entries.filter(entry=>entry.ordered).length,13);
   for(const entry of validated.entries){
     assert.equal(entry.ca.items.length,entry.es.items.length);
@@ -36,17 +36,17 @@ test('la cerca troba una llista pels seus elements i el filtre conserva el bloc'
 test('les llistes es mantenen agrupades pedagògicament',()=>{
   const entries=filterKeyListEntries(keyLists,{language:'ca'});
   const grouped=groupKeyListEntriesByFamily(keyLists,entries);
-  assert.equal(grouped.length,10);
+  assert.equal(grouped.length,11);
   assert.equal(grouped[0].family.id,'empresa-organitzacio');
   assert.equal(grouped[0].entries.length,16);
-  assert.equal(grouped.at(-1).family.id,'operacions-informatiques');
-  assert.equal(grouped.at(-1).entries.length,3);
+  assert.equal(grouped.at(-1).family.id,'tresoreria-material');
+  assert.equal(grouped.at(-1).entries.length,4);
 });
 
 test('la pestanya de llistes mostra conjunts, seqüències, font i mnemotècnia',()=>{
   const html=renderConceptDictionaryHtml(concepts,{language:'ca',keyLists,mode:'lists'});
   assert.match(html,/Llistes clau/);
-  assert.match(html,/74<\/strong> llistes/);
+  assert.match(html,/78<\/strong> llistes/);
   assert.match(html,/Criteris principals per escollir un canal d’enviament/);
   assert.match(html,/Contingut/);
   assert.match(html,/Traçabilitat/);
