@@ -1,5 +1,5 @@
 import {loadCourse,loadContentCorrections,loadBlockBundle,loadHardDistractors,applyContentCorrections} from './catalog.js';
-import {buildQuiz,buildHardQuiz,rankReviewQuestions,buildReviewQuiz} from './quiz-engine.js';
+import {buildPracticeQuiz,buildHardQuiz,rankReviewQuestions,buildPracticeReviewQuiz} from './quiz-engine.js';
 import {scoreQuiz,buildBreakdown} from './scoring.js';
 import {loadState,saveState,recordAttempt,appendHistory,resetProgress} from './storage.js';
 import {resolveTheme,applyTheme} from './theme.js';
@@ -108,9 +108,9 @@ function startQuiz(){
  const pool=reviewMode?rankReviewQuestions(base,state.errorScores):base;
  if(!pool.length){renderEmptyReview();return;}
  let questions;
- if(reviewMode)questions=buildReviewQuiz(base,state.errorScores,setup.count);
+ if(reviewMode)questions=buildPracticeReviewQuiz(base,selectedHardDistractors(),state.errorScores,setup.count);
  else if(setup.mode==='hard-exam')questions=buildHardQuiz(pool,selectedHardDistractors(),setup.count);
- else questions=buildQuiz(pool,setup.count);
+ else questions=buildPracticeQuiz(pool,selectedHardDistractors(),setup.count);
  session={questions,index:0,answers:{},mode:reviewMode?'review':setup.mode,penaltyEnabled:isExamMode(setup.mode)&&setup.penaltyEnabled,revealed:false,finished:false,recorded:new Set()};
  renderCurrent();
 }
