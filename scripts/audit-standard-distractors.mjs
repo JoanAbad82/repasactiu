@@ -46,9 +46,11 @@ export async function runStandardDistractorAudit(){
         const wrong=shown.filter((_,i)=>i!==q.correct);
         const sourceWrong=new Set(source.filter((_,i)=>i!==q.correct).map(normalize));
         const hardSet=new Set(hardValues.map(normalize));
-        const hardCount=wrong.filter(v=>hardSet.has(normalize(v))).length;
+        const novel=wrong.filter(v=>!sourceWrong.has(normalize(v)));
+        const hardNovelCount=novel.filter(v=>hardSet.has(normalize(v))).length;
         const originalWrongCount=wrong.filter(v=>sourceWrong.has(normalize(v))).length;
-        if(hardCount!==2)errors.push(`${q.id}: ${lang} hard distractors ${hardCount}/2`);
+        if(novel.length!==2)errors.push(`${q.id}: ${lang} novel distractors ${novel.length}/2`);
+        if(hardNovelCount!==2)errors.push(`${q.id}: ${lang} novel hard distractors ${hardNovelCount}/2`);
         if(originalWrongCount!==1)errors.push(`${q.id}: ${lang} original distractors ${originalWrongCount}/1`);
         if(countGiveawayAbsoluteDistractors(wrong,lang)>1)errors.push(`${q.id}: ${lang} too many giveaway absolutes in standard mode`);
       }
