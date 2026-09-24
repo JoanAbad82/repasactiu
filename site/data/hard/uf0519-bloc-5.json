@@ -123,14 +123,14 @@
     },
     "uf0519-b5-011": {
       "ca": [
-        "Controlar només cobraments, sense registrar pagaments",
-        "Gestionar exclusivament les existències del magatzem",
-        "Registrar únicament factures pendents"
+        "Registrar cobraments sense integrar els pagaments",
+        "Gestionar el moviment econòmic del magatzem",
+        "Controlar factures pendents i venciments comercials"
       ],
       "es": [
-        "Controlar solo cobros, sin registrar pagos",
-        "Gestionar exclusivamente las existencias del almacén",
-        "Registrar únicamente facturas pendientes"
+        "Registrar cobros sin integrar los pagos",
+        "Gestionar el movimiento económico del almacén",
+        "Controlar facturas pendientes y vencimientos comerciales"
       ]
     },
     "uf0519-b5-012": {
@@ -171,14 +171,14 @@
     },
     "uf0519-b5-015": {
       "ca": [
-        "Per substituir l’arqueig i la conciliació",
-        "Per registrar només les operacions en efectiu",
-        "Per controlar exclusivament el material fungible"
+        "Substituir l’arqueig i la conciliació per un saldo de referència",
+        "Registrar preferentment les operacions en efectiu",
+        "Controlar el material fungible i la seva reposició"
       ],
       "es": [
-        "Para sustituir el arqueo y la conciliación",
-        "Para registrar solo las operaciones en efectivo",
-        "Para controlar exclusivamente el material fungible"
+        "Sustituir el arqueo y la conciliación por un saldo de referencia",
+        "Registrar preferentemente las operaciones en efectivo",
+        "Controlar el material fungible y su reposición"
       ]
     },
     "uf0519-b5-016": {
@@ -219,38 +219,38 @@
     },
     "uf0519-b5-019": {
       "ca": [
-        "Mantenir el magatzem sempre al màxim de capacitat",
-        "Evitar qualsevol registre d’entrades i sortides",
-        "Controlar només els equips no fungibles"
+        "Mantenir un nivell elevat de material amb independència del consum",
+        "Prioritzar el material disponible sense registrar-ne els moviments",
+        "Controlar els equips duradors i deixar el consumible fora del registre"
       ],
       "es": [
-        "Mantener el almacén siempre al máximo de capacidad",
-        "Evitar cualquier registro de entradas y salidas",
-        "Controlar solo los equipos no fungibles"
+        "Mantener un nivel elevado de material con independencia del consumo",
+        "Priorizar el material disponible sin registrar sus movimientos",
+        "Controlar los equipos duraderos y dejar el consumible fuera del registro"
       ]
     },
     "uf0519-b5-020": {
       "ca": [
         "Fungible = durador; no fungible = consumible",
-        "Tots dos són sempre consumibles",
-        "Tots dos són sempre equips duradors"
+        "Els dos tipus es consumeixen amb l’ús habitual",
+        "Els dos tipus corresponen a equips duradors"
       ],
       "es": [
         "Fungible = duradero; no fungible = consumible",
-        "Ambos son siempre consumibles",
-        "Ambos son siempre equipos duraderos"
+        "Los dos tipos se consumen con el uso habitual",
+        "Los dos tipos corresponden a equipos duraderos"
       ]
     },
     "uf0519-b5-021": {
       "ca": [
-        "Només el valor econòmic total",
-        "Només les sortides sense saldo",
-        "Només les entrades sense registrar consum"
+        "El valor econòmic total i la data de compra",
+        "Les sortides i la previsió de reposició",
+        "Les entrades i el consum previst"
       ],
       "es": [
-        "Solo el valor económico total",
-        "Solo las salidas sin saldo",
-        "Solo las entradas sin registrar consumo"
+        "El valor económico total y la fecha de compra",
+        "Las salidas y la previsión de reposición",
+        "Las entradas y el consumo previsto"
       ]
     },
     "uf0519-b5-022": {
