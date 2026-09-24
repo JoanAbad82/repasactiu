@@ -1,14 +1,14 @@
 {
   "version": 2,
   "date": "2026-09-24",
-  "policy": "Flashcard source traceability. UF0517 core cards use section/topic page ranges; UF0518 and UF0519 core cards use per-question page ranges; semantic V2 changes override these with their audited page source; extra cards preserve their own page ranges.",
+  "policy": "Flashcard source traceability. UF0517 core cards use section/topic page ranges; UF0518 and UF0519 core cards use per-question page ranges; semantic V2 changes override these with their audited page source; extra cards preserve their own page ranges. Teacher-validated ZIP sources from 2026-09-24 are canonical and take precedence.",
   "sources": {
     "B1": {
       "file": "1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf",
       "pages": 19
     },
     "B2": {
-      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf",
+      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2 (1).pdf",
       "pages": 33
     },
     "B3": {
@@ -16,7 +16,7 @@
       "pages": 35
     },
     "B4": {
-      "file": "Els departaments_BLOC 4.pdf",
+      "file": "4.Els departaments_Bloc_4.pdf",
       "pages": 34
     },
     "B5": {
@@ -24,12 +24,12 @@
       "pages": 24
     },
     "U2B1": {
-      "file": "Unitat 2_Lorganització dels RRHH.pdf",
+      "file": "Unitat 2_Lorganització dels RRHH (1).pdf",
       "pages": 119
     },
     "UF0518_B1": {
-      "file": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf",
-      "pages": 28
+      "file": "1. La comunicació escrita i els documents empresarials.pdf",
+      "pages": 31
     },
     "UF0518_B2": {
       "file": "F0518_Bloc_2_Gestio_correspondencia_i_paqueteria.pdf",
@@ -774,603 +774,603 @@
     "uf0518-b1-001": {
       "source": "UF0518_B1",
       "pageRange": [
-        3,
-        3
+        6,
+        6
       ]
     },
     "uf0518-b1-002": {
       "source": "UF0518_B1",
       "pageRange": [
-        3,
-        3
+        6,
+        6
       ]
     },
     "uf0518-b1-003": {
       "source": "UF0518_B1",
       "pageRange": [
-        3,
-        3
+        6,
+        6
       ]
     },
     "uf0518-b1-004": {
       "source": "UF0518_B1",
       "pageRange": [
-        4,
-        4
+        7,
+        7
       ]
     },
     "uf0518-b1-005": {
       "source": "UF0518_B1",
       "pageRange": [
-        4,
-        4
+        7,
+        7
       ]
     },
     "uf0518-b1-006": {
       "source": "UF0518_B1",
       "pageRange": [
-        5,
-        5
+        8,
+        8
       ]
     },
     "uf0518-b1-007": {
       "source": "UF0518_B1",
       "pageRange": [
-        5,
-        5
+        8,
+        8
       ]
     },
     "uf0518-b1-008": {
       "source": "UF0518_B1",
       "pageRange": [
-        5,
-        5
+        8,
+        8
       ]
     },
     "uf0518-b1-009": {
       "source": "UF0518_B1",
       "pageRange": [
-        6,
-        6
+        9,
+        9
       ]
     },
     "uf0518-b1-010": {
       "source": "UF0518_B1",
       "pageRange": [
-        6,
-        6
+        9,
+        9
       ]
     },
     "uf0518-b1-011": {
       "source": "UF0518_B1",
       "pageRange": [
-        6,
-        6
+        9,
+        9
       ]
     },
     "uf0518-b1-012": {
       "source": "UF0518_B1",
       "pageRange": [
-        6,
-        6
+        9,
+        9
       ]
     },
     "uf0518-b1-013": {
       "source": "UF0518_B1",
       "pageRange": [
-        6,
-        6
+        9,
+        9
       ]
     },
     "uf0518-b1-014": {
       "source": "UF0518_B1",
       "pageRange": [
-        7,
-        7
+        10,
+        10
       ]
     },
     "uf0518-b1-015": {
       "source": "UF0518_B1",
       "pageRange": [
-        7,
-        7
+        10,
+        10
       ]
     },
     "uf0518-b1-016": {
       "source": "UF0518_B1",
       "pageRange": [
-        7,
-        7
+        10,
+        10
       ]
     },
     "uf0518-b1-017": {
       "source": "UF0518_B1",
       "pageRange": [
-        7,
-        7
+        10,
+        10
       ]
     },
     "uf0518-b1-018": {
       "source": "UF0518_B1",
       "pageRange": [
-        8,
-        8
+        11,
+        11
       ]
     },
     "uf0518-b1-019": {
       "source": "UF0518_B1",
       "pageRange": [
-        8,
-        8
+        11,
+        11
       ]
     },
     "uf0518-b1-020": {
       "source": "UF0518_B1",
       "pageRange": [
-        8,
-        8
+        11,
+        11
       ]
     },
     "uf0518-b1-021": {
       "source": "UF0518_B1",
       "pageRange": [
-        8,
-        8
+        11,
+        11
       ]
     },
     "uf0518-b1-022": {
       "source": "UF0518_B1",
       "pageRange": [
-        8,
-        8
+        11,
+        11
       ]
     },
     "uf0518-b1-023": {
       "source": "UF0518_B1",
       "pageRange": [
-        9,
-        9
+        12,
+        12
       ]
     },
     "uf0518-b1-024": {
       "source": "UF0518_B1",
       "pageRange": [
-        9,
-        9
+        12,
+        12
       ]
     },
     "uf0518-b1-025": {
       "source": "UF0518_B1",
       "pageRange": [
-        9,
-        9
+        12,
+        12
       ]
     },
     "uf0518-b1-026": {
       "source": "UF0518_B1",
       "pageRange": [
-        9,
-        9
+        12,
+        12
       ]
     },
     "uf0518-b1-027": {
       "source": "UF0518_B1",
       "pageRange": [
-        9,
-        9
+        12,
+        12
       ]
     },
     "uf0518-b1-028": {
       "source": "UF0518_B1",
       "pageRange": [
-        10,
-        10
+        13,
+        13
       ]
     },
     "uf0518-b1-029": {
       "source": "UF0518_B1",
       "pageRange": [
-        10,
-        10
+        13,
+        13
       ]
     },
     "uf0518-b1-030": {
       "source": "UF0518_B1",
       "pageRange": [
-        10,
-        10
+        13,
+        13
       ]
     },
     "uf0518-b1-031": {
       "source": "UF0518_B1",
       "pageRange": [
-        11,
-        11
+        14,
+        14
       ]
     },
     "uf0518-b1-032": {
       "source": "UF0518_B1",
       "pageRange": [
-        11,
-        11
+        14,
+        14
       ]
     },
     "uf0518-b1-033": {
       "source": "UF0518_B1",
       "pageRange": [
-        11,
-        11
+        14,
+        14
       ]
     },
     "uf0518-b1-034": {
       "source": "UF0518_B1",
       "pageRange": [
-        12,
-        12
+        15,
+        15
       ]
     },
     "uf0518-b1-035": {
       "source": "UF0518_B1",
       "pageRange": [
-        12,
-        12
+        15,
+        15
       ]
     },
     "uf0518-b1-036": {
       "source": "UF0518_B1",
       "pageRange": [
-        12,
-        12
+        15,
+        15
       ]
     },
     "uf0518-b1-037": {
       "source": "UF0518_B1",
       "pageRange": [
-        13,
-        13
+        16,
+        16
       ]
     },
     "uf0518-b1-038": {
       "source": "UF0518_B1",
       "pageRange": [
-        13,
-        13
+        16,
+        16
       ]
     },
     "uf0518-b1-039": {
       "source": "UF0518_B1",
       "pageRange": [
-        13,
-        13
+        16,
+        16
       ]
     },
     "uf0518-b1-040": {
       "source": "UF0518_B1",
       "pageRange": [
-        14,
-        14
+        17,
+        17
       ]
     },
     "uf0518-b1-041": {
       "source": "UF0518_B1",
       "pageRange": [
-        14,
-        14
+        17,
+        17
       ]
     },
     "uf0518-b1-042": {
       "source": "UF0518_B1",
       "pageRange": [
-        15,
-        15
+        18,
+        18
       ]
     },
     "uf0518-b1-043": {
       "source": "UF0518_B1",
       "pageRange": [
-        15,
-        15
+        18,
+        18
       ]
     },
     "uf0518-b1-044": {
       "source": "UF0518_B1",
       "pageRange": [
-        15,
-        15
+        18,
+        18
       ]
     },
     "uf0518-b1-045": {
       "source": "UF0518_B1",
       "pageRange": [
-        15,
-        15
+        18,
+        18
       ]
     },
     "uf0518-b1-046": {
       "source": "UF0518_B1",
       "pageRange": [
-        15,
-        15
+        18,
+        18
       ]
     },
     "uf0518-b1-047": {
       "source": "UF0518_B1",
       "pageRange": [
-        16,
-        16
+        19,
+        19
       ]
     },
     "uf0518-b1-048": {
       "source": "UF0518_B1",
       "pageRange": [
-        16,
-        16
+        19,
+        19
       ]
     },
     "uf0518-b1-049": {
       "source": "UF0518_B1",
       "pageRange": [
-        16,
-        16
+        19,
+        19
       ]
     },
     "uf0518-b1-050": {
       "source": "UF0518_B1",
       "pageRange": [
-        17,
-        17
+        20,
+        20
       ]
     },
     "uf0518-b1-051": {
       "source": "UF0518_B1",
       "pageRange": [
-        17,
-        17
+        20,
+        20
       ]
     },
     "uf0518-b1-052": {
       "source": "UF0518_B1",
       "pageRange": [
-        17,
-        17
+        20,
+        20
       ]
     },
     "uf0518-b1-053": {
       "source": "UF0518_B1",
       "pageRange": [
-        17,
-        17
+        20,
+        20
       ]
     },
     "uf0518-b1-054": {
       "source": "UF0518_B1",
       "pageRange": [
-        20,
-        20
+        23,
+        23
       ]
     },
     "uf0518-b1-055": {
       "source": "UF0518_B1",
       "pageRange": [
-        20,
-        20
+        23,
+        23
       ]
     },
     "uf0518-b1-056": {
       "source": "UF0518_B1",
       "pageRange": [
-        20,
-        20
+        23,
+        23
       ]
     },
     "uf0518-b1-057": {
       "source": "UF0518_B1",
       "pageRange": [
-        20,
-        20
+        23,
+        23
       ]
     },
     "uf0518-b1-058": {
       "source": "UF0518_B1",
       "pageRange": [
-        22,
-        22
+        25,
+        25
       ]
     },
     "uf0518-b1-059": {
       "source": "UF0518_B1",
       "pageRange": [
-        22,
-        22
+        25,
+        25
       ]
     },
     "uf0518-b1-060": {
       "source": "UF0518_B1",
       "pageRange": [
-        22,
-        22
+        25,
+        25
       ]
     },
     "uf0518-b1-061": {
       "source": "UF0518_B1",
       "pageRange": [
-        22,
-        22
+        25,
+        25
       ]
     },
     "uf0518-b1-062": {
       "source": "UF0518_B1",
       "pageRange": [
-        22,
-        22
+        25,
+        25
       ]
     },
     "uf0518-b1-063": {
       "source": "UF0518_B1",
       "pageRange": [
-        23,
-        23
+        26,
+        26
       ]
     },
     "uf0518-b1-064": {
       "source": "UF0518_B1",
       "pageRange": [
-        23,
-        23
+        26,
+        26
       ]
     },
     "uf0518-b1-065": {
       "source": "UF0518_B1",
       "pageRange": [
-        23,
-        23
+        26,
+        26
       ]
     },
     "uf0518-b1-066": {
       "source": "UF0518_B1",
       "pageRange": [
-        24,
-        24
+        27,
+        27
       ]
     },
     "uf0518-b1-067": {
       "source": "UF0518_B1",
       "pageRange": [
-        24,
-        24
+        27,
+        27
       ]
     },
     "uf0518-b1-068": {
       "source": "UF0518_B1",
       "pageRange": [
-        24,
-        24
+        27,
+        27
       ]
     },
     "uf0518-b1-069": {
       "source": "UF0518_B1",
       "pageRange": [
-        24,
-        24
+        27,
+        27
       ]
     },
     "uf0518-b1-070": {
       "source": "UF0518_B1",
       "pageRange": [
-        25,
-        25
+        28,
+        28
       ]
     },
     "uf0518-b1-071": {
       "source": "UF0518_B1",
       "pageRange": [
-        25,
-        25
+        28,
+        28
       ]
     },
     "uf0518-b1-072": {
       "source": "UF0518_B1",
       "pageRange": [
-        25,
-        25
+        28,
+        28
       ]
     },
     "uf0518-b1-073": {
       "source": "UF0518_B1",
       "pageRange": [
-        26,
-        26
+        29,
+        29
       ]
     },
     "uf0518-b1-074": {
       "source": "UF0518_B1",
       "pageRange": [
-        26,
-        26
+        29,
+        29
       ]
     },
     "uf0518-b1-075": {
       "source": "UF0518_B1",
       "pageRange": [
-        26,
-        26
+        29,
+        29
       ]
     },
     "uf0518-b1-076": {
       "source": "UF0518_B1",
       "pageRange": [
-        26,
-        26
+        29,
+        29
       ]
     },
     "uf0518-b1-077": {
       "source": "UF0518_B1",
       "pageRange": [
-        9,
-        9
+        12,
+        12
       ]
     },
     "uf0518-b1-078": {
       "source": "UF0518_B1",
       "pageRange": [
-        9,
-        9
+        12,
+        12
       ]
     },
     "uf0518-b1-079": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        13,
+        13
+      ]
+    },
+    "uf0518-b1-080": {
       "source": "UF0518_B1",
       "pageRange": [
         10,
         10
       ]
     },
-    "uf0518-b1-080": {
-      "source": "UF0518_B1",
-      "pageRange": [
-        7,
-        7
-      ]
-    },
     "uf0518-b1-081": {
-      "source": "UF0518_B1",
-      "pageRange": [
-        13,
-        13
-      ]
-    },
-    "uf0518-b1-082": {
-      "source": "UF0518_B1",
-      "pageRange": [
-        17,
-        17
-      ]
-    },
-    "uf0518-b1-083": {
       "source": "UF0518_B1",
       "pageRange": [
         16,
         16
       ]
     },
+    "uf0518-b1-082": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0518-b1-083": {
+      "source": "UF0518_B1",
+      "pageRange": [
+        19,
+        19
+      ]
+    },
     "uf0518-b1-084": {
       "source": "UF0518_B1",
       "pageRange": [
-        24,
-        24
+        27,
+        27
       ]
     },
     "uf0518-b1-085": {
       "source": "UF0518_B1",
       "pageRange": [
-        25,
-        25
+        28,
+        28
       ]
     },
     "uf0518-b1-086": {
       "source": "UF0518_B1",
       "pageRange": [
-        11,
-        11
+        14,
+        14
       ]
     },
     "uf0518-b2-001": {
