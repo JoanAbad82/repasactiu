@@ -5,6 +5,10 @@
     "UF0519_U1": {
       "file": "UF0519_1.Gestió_auxiliar_documentació_administrativa_bàsica.pdf",
       "pages": 76
+    },
+    "MF0969_PRESENTACIO": {
+      "file": "Presentació del mòdul_MF0969_1.pdf",
+      "pages": 22
     }
   },
   "questionTraces": [
@@ -781,12 +785,120 @@
         73
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-011",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        19,
+        19
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-012",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        19,
+        19
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-013",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        19,
+        19
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-014",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        19,
+        19
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-015",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        20,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-016",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        20,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-017",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        20,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-018",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        20,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-019",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        21,
+        21
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-020",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        21,
+        21
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-021",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        21,
+        21
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-022",
+      "source": "MF0969_PRESENTACIO",
+      "pageRange": [
+        21,
+        21
+      ],
+      "status": "PASS"
     }
   ],
   "review": {
-    "date": "2026-09-23",
-    "questionCount": 86,
-    "method": "Revisió sistemàtica del material font per blocs; cada pregunta queda vinculada a la pàgina que sosté la resposta correcta.",
+    "date": "2026-09-24",
+    "questionCount": 98,
+    "method": "Revisió sistemàtica del material font per blocs; cada pregunta queda vinculada a la pàgina que sosté la resposta correcta. S’hi incorpora també la presentació MF0969_1 com a font suplementària.",
     "result": "PASS"
   },
   "corrections": []
