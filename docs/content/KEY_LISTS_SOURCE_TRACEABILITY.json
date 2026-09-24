@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "purpose": "Inventari pedagògic de llistes, classificacions i seqüències que convé recordar com a conjunt complet.",
   "selectionPolicy": {
     "include": [
@@ -15,8 +15,8 @@
     ]
   },
   "totals": {
-    "lists": 74,
-    "families": 10,
+    "lists": 78,
+    "families": 11,
     "orderedSequences": 13
   },
   "distribution": {
@@ -33,7 +33,7 @@
     "uf0519-bloc-2": 7,
     "uf0519-bloc-3": 4,
     "uf0519-bloc-4": 1,
-    "uf0519-bloc-5": 3
+    "uf0519-bloc-5": 7
   },
   "sources": {
     "B1": {
@@ -41,7 +41,7 @@
       "pages": 19
     },
     "B2": {
-      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf",
+      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2 (1).pdf",
       "pages": 33
     },
     "B3": {
@@ -49,7 +49,7 @@
       "pages": 35
     },
     "B4": {
-      "file": "Els departaments_BLOC 4.pdf",
+      "file": "4.Els departaments_Bloc_4.pdf",
       "pages": 34
     },
     "B5": {
@@ -57,12 +57,12 @@
       "pages": 24
     },
     "U2B1": {
-      "file": "Unitat 2_Lorganització dels RRHH.pdf",
+      "file": "Unitat 2_Lorganització dels RRHH (1).pdf",
       "pages": 119
     },
     "UF0518_B1": {
-      "file": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf",
-      "pages": 28
+      "file": "1. La comunicació escrita i els documents empresarials.pdf",
+      "pages": 31
     },
     "UF0518_B2": {
       "file": "F0518_Bloc_2_Gestio_correspondencia_i_paqueteria.pdf",
@@ -77,5 +77,5 @@
       "pages": 76
     }
   },
-  "traceability": "Cada entrada de site/data/key-lists-v1.json declara source.id i source.pages. L’auditoria automàtica valida la font, el rang de pàgina, la partició per famílies, el contracte bilingüe i el recompte per bloc."
+  "traceability": "Cada entrada de site/data/key-lists-v1.json declara source.id i source.pages. L’auditoria valida font, rang, famílies, contracte bilingüe i recompte; les fonts validades per la professora el 2026-09-24 tenen prioritat canònica."
 }
