@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 74,
+  "count": 78,
   "languages": [
     "ca",
     "es"
@@ -214,12 +214,23 @@
     },
     {
       "id": "operacions-informatiques",
-      "ca": "Operacions informàtiques i control final",
-      "es": "Operaciones informáticas y control final",
+      "ca": "Operacions informàtiques, tresoreria i control de material",
+      "es": "Operaciones informáticas, tesorería y control de material",
       "entryIds": [
         "uf519-operacions-facturacio",
         "uf519-seguretat-arxiu-digital",
         "uf519-checklist-enviament"
+      ]
+    },
+    {
+      "id": "tresoreria-material",
+      "ca": "Tresoreria, caixa, bancs i material",
+      "es": "Tesorería, caja, bancos y material",
+      "entryIds": [
+        "uf519-mitjans-pagament-list",
+        "uf519-control-caixa-bancs",
+        "uf519-control-material",
+        "uf519-seguretat-operacions"
       ]
     }
   ],
@@ -2619,6 +2630,142 @@
           "Sin datos innecesarios o sensibles injustificados",
           "Canal adecuado",
           "Copia, registro o archivo interno previsto"
+        ]
+      }
+    },
+    {
+      "id": "uf519-mitjans-pagament-list",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "MF0969_PRESENTACIO",
+        "pages": [
+          19,
+          19
+        ]
+      },
+      "ca": {
+        "title": "Mitjans de pagament i crèdit",
+        "items": [
+          "Efectiu",
+          "Xecs",
+          "Rebuts",
+          "Transferències",
+          "Ingressos en compte",
+          "Targetes de crèdit o dèbit",
+          "Pagarés",
+          "Lletres de canvi"
+        ],
+        "memory": "E-X-R-T-I + T-P-L."
+      },
+      "es": {
+        "title": "Medios de pago y crédito",
+        "items": [
+          "Efectivo",
+          "Cheques",
+          "Recibos",
+          "Transferencias",
+          "Ingresos en cuenta",
+          "Tarjetas de crédito o débito",
+          "Pagarés",
+          "Letras de cambio"
+        ],
+        "memory": "E-C-R-T-I + T-P-L."
+      }
+    },
+    {
+      "id": "uf519-control-caixa-bancs",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "MF0969_PRESENTACIO",
+        "pages": [
+          20,
+          20
+        ]
+      },
+      "ca": {
+        "title": "Controls de caixa i bancs",
+        "items": [
+          "Registres de caixa i bancs",
+          "Arqueig de caixa",
+          "Conciliació bancària",
+          "Protecció de claus, dades econòmiques i justificants",
+          "Comprovació de destinatari i import"
+        ]
+      },
+      "es": {
+        "title": "Controles de caja y bancos",
+        "items": [
+          "Registros de caja y bancos",
+          "Arqueo de caja",
+          "Conciliación bancaria",
+          "Protección de claves, datos económicos y justificantes",
+          "Comprobación de destinatario e importe"
+        ]
+      }
+    },
+    {
+      "id": "uf519-control-material",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "MF0969_PRESENTACIO",
+        "pages": [
+          21,
+          21
+        ]
+      },
+      "ca": {
+        "title": "Control de material i existències",
+        "items": [
+          "Distingir material fungible i no fungible",
+          "Registrar entrades, sortides i saldo actualitzat",
+          "Controlar el stock de seguretat",
+          "Preparar la reposició a temps",
+          "Fer inventaris periòdics i corregir diferències"
+        ]
+      },
+      "es": {
+        "title": "Control de material y existencias",
+        "items": [
+          "Distinguir material fungible y no fungible",
+          "Registrar entradas, salidas y saldo actualizado",
+          "Controlar el stock de seguridad",
+          "Preparar la reposición a tiempo",
+          "Hacer inventarios periódicos y corregir diferencias"
+        ]
+      }
+    },
+    {
+      "id": "uf519-seguretat-operacions",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "MF0969_PRESENTACIO",
+        "pages": [
+          19,
+          20
+        ]
+      },
+      "ca": {
+        "title": "Seguretat en cobraments i pagaments",
+        "items": [
+          "Conservar un justificant",
+          "Comprovar l’import",
+          "Protegir claus i dades econòmiques",
+          "Evitar accessos no autoritzats",
+          "Comprovar destinatari i import abans d’una operació electrònica"
+        ]
+      },
+      "es": {
+        "title": "Seguridad en cobros y pagos",
+        "items": [
+          "Conservar un justificante",
+          "Comprobar el importe",
+          "Proteger claves y datos económicos",
+          "Evitar accesos no autorizados",
+          "Comprobar destinatario e importe antes de una operación electrónica"
         ]
       }
     }
