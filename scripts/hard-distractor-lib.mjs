@@ -12,6 +12,8 @@ const hardDir=path.join(dataDir,'hard');
 const normalize=value=>String(value??'')
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g,'')
+  .replace(/\+/g,' plus ')
+  .replace(/−/g,' minus ')
   .replace(/[’'\`´]/g,' ')
   .replace(/[^\p{L}\p{N}]+/gu,' ')
   .trim()
