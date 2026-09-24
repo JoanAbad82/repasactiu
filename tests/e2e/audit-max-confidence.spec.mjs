@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 
 async function waitForHome(page,language='ca'){
-  await expect(page.getByText(language==='es'?'830 preguntas':'830 preguntes')).toBeVisible();
+  await expect(page.getByText(language==='es'?'842 preguntas':'842 preguntes')).toBeVisible();
 }
 
 test('un error pendent persisteix i es pot obrir en mode de repàs',async({page})=>{
