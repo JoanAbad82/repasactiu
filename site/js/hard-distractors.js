@@ -46,14 +46,13 @@ export function composePracticeQuestion(question,hardRecord,rng=Math.random){
   const practiceWrongCa=new Set(wrongIndices.map(index=>normalizeOption(ca[index])));
   const practiceWrongEs=new Set(wrongIndices.map(index=>normalizeOption(es[index])));
 
-  const tokenSet=value=>new Set(normalizeOption(value).split(' ').filter(Boolean));
   const conceptTooClose=(left,right)=>{
-    const a=tokenSet(left),b=tokenSet(right);
-    if(!a.size||!b.size)return false;
-    let intersection=0;
-    for(const token of a)if(b.has(token))intersection++;
-    const containment=intersection/Math.min(a.size,b.size);
-    return Math.min(a.size,b.size)>=3&&containment>=0.8;
+    const a=normalizeOption(left);
+    const b=normalizeOption(right);
+    if(!a||!b)return false;
+    if(a===b)return true;
+    const [shorter,longer]=a.length<=b.length?[a,b]:[b,a];
+    return shorter.length>=12&&longer.includes(shorter);
   };
 
   const configurations=[];
