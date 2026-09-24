@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  composePracticeQuestion,
   composeHardQuestion,
   validateHardRecord,
   countGiveawayAbsoluteDistractors
@@ -25,6 +26,24 @@ const hard={
   ca:['CA-H1','CA-H2','CA-H3'],
   es:['ES-H1','ES-H2','ES-H3']
 };
+
+for(const correct of [0,1,2,3]){
+  test(`composePracticeQuestion conserva la correcta i incorpora dos distractors difícils amb correct=${correct}`,()=>{
+    const q=baseQuestion(correct);
+    const before=structuredClone(q);
+    const result=composePracticeQuestion(q,hard,()=>0);
+    assert.equal(result.correct,correct);
+    assert.equal(result.options[correct],q.options[correct]);
+    assert.equal(result.translations.es.options[correct],q.translations.es.options[correct]);
+    const hardCa=new Set(hard.ca);
+    const hardEs=new Set(hard.es);
+    assert.equal(result.options.filter(value=>hardCa.has(value)).length,2);
+    assert.equal(result.translations.es.options.filter(value=>hardEs.has(value)).length,2);
+    assert.equal(result.options.filter((value,index)=>index!==correct&&q.options.includes(value)).length,1);
+    assert.equal(result.translations.es.options.filter((value,index)=>index!==correct&&q.translations.es.options.includes(value)).length,1);
+    assert.deepEqual(q,before);
+  });
+}
 
 for(const correct of [0,1,2,3]){
   test(`composeHardQuestion conserva la resposta correcta amb correct=${correct}`,()=>{
