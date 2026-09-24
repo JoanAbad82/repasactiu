@@ -55,8 +55,8 @@ test('rebutja traçabilitat fora dels límits físics de la font',()=>{
 
 test('auditoria editorial completa cobreix totes les preguntes publicades',async()=>{
   const result=await runContentQualityAudit();
-  assert.equal(result.questions,830);
-  assert.equal(result.translations,830);
-  assert.equal(result.traceable,830);
+  assert.equal(result.questions,842);
+  assert.equal(result.translations,842);
+  assert.equal(result.traceable,842);
   assert.deepEqual(result.errors,[]);
 });
