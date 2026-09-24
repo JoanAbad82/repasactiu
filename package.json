@@ -13,14 +13,15 @@
     "test:audit:content": "node scripts/content-quality-lib.mjs",
     "test:e2e": "playwright test",
     "test": "npm run test:data && npm run test:unit",
-    "audit:full": "npm run test:data && npm run test:audit:sources && npm run test:audit:bilingual && npm run test:audit:content && npm run test:audit:hard && npm run test:audit:study-cards && npm run test:audit:semantic && npm run test:audit:dictionary && npm run test:audit:key-lists && npm run test:audit:permutations && npm run test:unit && npm run test:e2e",
+    "audit:full": "npm run test:data && npm run test:audit:sources && npm run test:audit:bilingual && npm run test:audit:content && npm run test:audit:hard && npm run test:audit:standard-distractors && npm run test:audit:study-cards && npm run test:audit:semantic && npm run test:audit:dictionary && npm run test:audit:key-lists && npm run test:audit:permutations && npm run test:unit && npm run test:e2e",
     "test:all": "npm run audit:full",
     "test:audit:hard": "node scripts/hard-distractor-lib.mjs",
     "test:audit:study-cards": "node scripts/audit-study-cards.mjs",
     "test:audit:semantic": "node scripts/audit-study-cards-semantic.mjs",
     "build": "node scripts/build-static.mjs",
     "test:audit:dictionary": "node scripts/audit-concept-dictionary.mjs",
-    "test:audit:key-lists": "node scripts/audit-key-lists.mjs"
+    "test:audit:key-lists": "node scripts/audit-key-lists.mjs",
+    "test:audit:standard-distractors": "node scripts/audit-standard-distractors.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0"
