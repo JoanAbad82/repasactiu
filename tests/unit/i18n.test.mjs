@@ -21,7 +21,7 @@ test("el catàleg declara metadades castellanes i traduccions per a tots els blo
   }
 });
 
-test("les traduccions castellanes cobreixen exactament les 830 preguntes sense duplicar la lògica",async()=>{
+test("les traduccions castellanes cobreixen exactament les 842 preguntes sense duplicar la lògica",async()=>{
   const course=await readJson("course.json");
   let total=0;
   for(const block of course.blocks){
@@ -55,7 +55,7 @@ test("les traduccions castellanes cobreixen exactament les 830 preguntes sense d
       total++;
     }
   }
-  assert.equal(total,830);
+  assert.equal(total,842);
 });
 
 test("els topics UF0518 es tradueixen íntegrament al castellà",async()=>{
