@@ -68,7 +68,7 @@ test('el diccionari canvia íntegrament a castellà i conserva el filtre',async(
   await expect(page.locator('[data-concept-id]')).toHaveCount(7);
   await expect(page.locator('[data-concept-family="written-communication"]')).toBeVisible();
   await expect(page.locator('[data-concept-id="uf-canal-codi"]')).toContainText('Canal vs. código');
-  await expect(page.locator('[data-concept-id="uf-canal-codi"]')).toContainText('Recuerda:');
+  await expect(page.locator('[data-concept-id="uf-canal-codi"]')).toContainText('Recuerda');
 });
 
 test('el diccionari mostra la traçabilitat de pàgina',async({page})=>{
