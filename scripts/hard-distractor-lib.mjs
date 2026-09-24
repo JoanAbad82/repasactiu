@@ -72,7 +72,7 @@ export function validateHardRecord(question,hardRecord){
   return errors;
 }
 
-async function loadEffectiveQuestions(){
+export async function loadEffectiveQuestions(){
   const course=await readJson('course.json');
   const corrections=await readJson('content_corrections.json');
   const questionsByBlock=new Map();
