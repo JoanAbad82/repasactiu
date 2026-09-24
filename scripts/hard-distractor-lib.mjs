@@ -2,8 +2,8 @@ import {readFile,readdir} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {detectCatalanLeakageInSpanish} from './content-quality-lib.mjs';
-import {composeHardQuestion} from '../site/js/hard-distractors.js';
-export {composeHardQuestion};
+import {composePracticeQuestion,composeHardQuestion} from '../site/js/hard-distractors.js';
+export {composePracticeQuestion,composeHardQuestion};
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const dataDir=path.join(root,'site','data');
@@ -12,6 +12,8 @@ const hardDir=path.join(dataDir,'hard');
 const normalize=value=>String(value??'')
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g,'')
+  .replace(/\+/g,' plus ')
+  .replace(/−/g,' minus ')
   .replace(/[’'\`´]/g,' ')
   .replace(/[^\p{L}\p{N}]+/gu,' ')
   .trim()
@@ -72,7 +74,7 @@ export function validateHardRecord(question,hardRecord){
   return errors;
 }
 
-async function loadEffectiveQuestions(){
+export async function loadEffectiveQuestions(){
   const course=await readJson('course.json');
   const corrections=await readJson('content_corrections.json');
   const questionsByBlock=new Map();

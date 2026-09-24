@@ -10,7 +10,7 @@
       "pages": 19
     },
     "B2": {
-      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2.pdf",
+      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2 (1).pdf",
       "pages": 33
     },
     "B3": {
@@ -18,7 +18,7 @@
       "pages": 35
     },
     "B4": {
-      "file": "Els departaments_BLOC 4.pdf",
+      "file": "4.Els departaments_Bloc_4.pdf",
       "pages": 34
     },
     "B5": {
@@ -26,12 +26,12 @@
       "pages": 24
     },
     "U2B1": {
-      "file": "Unitat 2_Lorganització dels RRHH.pdf",
+      "file": "Unitat 2_Lorganització dels RRHH (1).pdf",
       "pages": 119
     },
     "UF0518_B1": {
-      "file": "1. La comunicació escrita cartes comercials i documents administratius (1).pdf",
-      "pages": 28
+      "file": "1. La comunicació escrita i els documents empresarials.pdf",
+      "pages": 31
     },
     "UF0518_B2": {
       "file": "F0518_Bloc_2_Gestio_correspondencia_i_paqueteria.pdf",
@@ -95,12 +95,12 @@
       "ca": {
         "question": "Com s’anomenen els recursos procedents d’impostos, taxes o pressupostos de les administracions?",
         "answer": "Fons públics",
-        "mnemonic": "Impostos i taxes = diners públics."
+        "mnemonic": "P de públic: Pressupost, impostos i taxes → fons públics."
       },
       "es": {
         "question": "¿Cómo se llaman los recursos procedentes de impuestos, tasas o presupuestos de las administraciones?",
         "answer": "Fondos públicos",
-        "mnemonic": "Impuestos y tasas = dinero público."
+        "mnemonic": "P de público: Presupuesto, impuestos y tasas → fondos públicos."
       },
       "source": {
         "id": "B1",
@@ -137,12 +137,12 @@
       "ca": {
         "question": "Quina àrea gestiona la contractació, la formació i l’organització de les persones treballadores?",
         "answer": "Recursos Humans",
-        "mnemonic": "Persones → Recursos Humans."
+        "mnemonic": "RRHH segueix la persona: entra (contractació), creix (formació), s’organitza."
       },
       "es": {
         "question": "¿Qué área gestiona la contratación, la formación y la organización de las personas trabajadoras?",
         "answer": "Recursos Humanos",
-        "mnemonic": "Personas → Recursos Humanos."
+        "mnemonic": "RR. HH. sigue a la persona: entra (contratación), crece (formación), se organiza."
       },
       "source": {
         "id": "B1",
@@ -179,12 +179,12 @@
       "ca": {
         "question": "Quin tipus de societat té el capital social dividit en participacions?",
         "answer": "Societat Limitada (S. L.)",
-        "mnemonic": "Participacions → Societat Limitada."
+        "mnemonic": "S.A. = Accions; S.L. = participacions. Contrasta A vs. P."
       },
       "es": {
         "question": "¿Qué tipo de sociedad tiene el capital social dividido en participaciones?",
         "answer": "Sociedad Limitada (S. L.)",
-        "mnemonic": "Participaciones → Sociedad Limitada."
+        "mnemonic": "S.A. = Acciones; S.L. = participaciones. Contrasta A vs. P."
       },
       "source": {
         "id": "B2",
@@ -242,12 +242,12 @@
       "ca": {
         "question": "Quina acció administrativa consisteix a definir objectius i decidir les accions necessàries per assolir-los?",
         "answer": "Planificar",
-        "mnemonic": "Objectiu + accions → planificar."
+        "mnemonic": "PLANificar = dibuixar el PLA abans d’actuar."
       },
       "es": {
         "question": "¿Qué acción administrativa consiste en definir objetivos y decidir las acciones necesarias para alcanzarlos?",
         "answer": "Planificar",
-        "mnemonic": "Objetivo + acciones → planificar."
+        "mnemonic": "PLANificar = dibujar el PLAN antes de actuar."
       },
       "source": {
         "id": "B2",
@@ -263,12 +263,12 @@
       "ca": {
         "question": "Quina acció administrativa consisteix a distribuir tasques, recursos i responsabilitats?",
         "answer": "Organitzar",
-        "mnemonic": "Repartir recursos i tasques → organitzar."
+        "mnemonic": "Organitzar = repartir les peces: tasques, recursos i responsabilitats."
       },
       "es": {
         "question": "¿Qué acción administrativa consiste en distribuir tareas, recursos y responsabilidades?",
         "answer": "Organizar",
-        "mnemonic": "Repartir recursos y tareas → organizar."
+        "mnemonic": "Organizar = repartir las piezas: tareas, recursos y responsabilidades."
       },
       "source": {
         "id": "B2",
@@ -305,12 +305,12 @@
       "ca": {
         "question": "Quin principi ajuda a evitar errors, duplicitats i fallades de comunicació entre persones i departaments?",
         "answer": "Coordinació",
-        "mnemonic": "Coordinar = fer que les peces encaixin."
+        "mnemonic": "Coordinar = fer que les peces encaixin i no es dupliquin."
       },
       "es": {
         "question": "¿Qué principio ayuda a evitar errores, duplicidades y fallos de comunicación entre personas y departamentos?",
         "answer": "Coordinación",
-        "mnemonic": "Coordinar = hacer que las piezas encajen."
+        "mnemonic": "Coordinar = hacer que las piezas encajen y no se dupliquen."
       },
       "source": {
         "id": "B3",
@@ -389,12 +389,12 @@
       "ca": {
         "question": "Com s’anomena la xarxa de relacions espontànies que no figura oficialment en l’estructura de l’empresa?",
         "answer": "Organització informal",
-        "mnemonic": "Espontani i no oficial → informal."
+        "mnemonic": "INformal = neix entre persones; FORMAL = figura oficialment."
       },
       "es": {
         "question": "¿Cómo se llama la red de relaciones espontáneas que no figura oficialmente en la estructura de la empresa?",
         "answer": "Organización informal",
-        "mnemonic": "Espontáneo y no oficial → informal."
+        "mnemonic": "INformal = nace entre personas; FORMAL = figura oficialmente."
       },
       "source": {
         "id": "B3",
@@ -452,12 +452,12 @@
       "ca": {
         "question": "Quin departament controla els recursos econòmics, el pressupost i el finançament?",
         "answer": "Departament Financer",
-        "mnemonic": "Diners i pressupost → Financer."
+        "mnemonic": "Financer = la caixa de l’empresa: recursos, pressupost i finançament."
       },
       "es": {
         "question": "¿Qué departamento controla los recursos económicos, el presupuesto y la financiación?",
         "answer": "Departamento Financiero",
-        "mnemonic": "Dinero y presupuesto → Financiero."
+        "mnemonic": "Financiero = la caja de la empresa: recursos, presupuesto y financiación."
       },
       "source": {
         "id": "B4",
@@ -599,12 +599,12 @@
       "ca": {
         "question": "Quin poder de l’Estat té la funció de jutjar i fer executar allò jutjat?",
         "answer": "Poder Judicial",
-        "mnemonic": "Jutjar → Judicial."
+        "mnemonic": "LEJ: Legislatiu-Lleis, Executiu-Executa, Judicial-Jutja."
       },
       "es": {
         "question": "¿Qué poder del Estado tiene la función de juzgar y hacer ejecutar lo juzgado?",
         "answer": "Poder Judicial",
-        "mnemonic": "Juzgar → Judicial."
+        "mnemonic": "LEJ: Legislativo-Leyes, Ejecutivo-Ejecuta, Judicial-Juzga."
       },
       "source": {
         "id": "B5",
@@ -683,12 +683,12 @@
       "ca": {
         "question": "Quin mecanisme de coordinació es basa en la comunicació directa i els ajustos recíprocs entre persones?",
         "answer": "Adaptació mútua",
-        "mnemonic": "Ens ajustem parlant → adaptació mútua."
+        "mnemonic": "Adaptació mútua = ens ajustem parlant entre nosaltres."
       },
       "es": {
         "question": "¿Qué mecanismo de coordinación se basa en la comunicación directa y los ajustes recíprocos entre personas?",
         "answer": "Adaptación mutua",
-        "mnemonic": "Nos ajustamos hablando → adaptación mutua."
+        "mnemonic": "Adaptación mutua = nos ajustamos hablando entre nosotros."
       },
       "source": {
         "id": "U2B1",
@@ -767,12 +767,12 @@
       "ca": {
         "question": "Com s’anomena la fase de l’equip en què els rols són més clars i augmenten la confiança i la cooperació?",
         "answer": "Normalització",
-        "mnemonic": "Normes i rols clars → normalització."
+        "mnemonic": "F-C-N-R: després del Conflicte, les Normes s’aclareixen i arriba el Rendiment."
       },
       "es": {
         "question": "¿Cómo se llama la fase del equipo en la que los roles están más claros y aumentan la confianza y la cooperación?",
         "answer": "Normalización",
-        "mnemonic": "Normas y roles claros → normalización."
+        "mnemonic": "F-C-N-R: tras el Conflicto, las Normas se aclaran y llega el Rendimiento."
       },
       "source": {
         "id": "U2B1",
@@ -819,8 +819,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          3,
-          3
+          6,
+          6
         ]
       }
     },
@@ -830,18 +830,18 @@
       "ca": {
         "question": "Com s’anomena la persona o l’àrea que redacta i emet un document o missatge?",
         "answer": "Emissor",
-        "mnemonic": "Emissor = qui emet."
+        "mnemonic": "EMissor EMET; REceptor REP."
       },
       "es": {
         "question": "¿Cómo se llama la persona o el área que redacta y emite un documento o mensaje?",
         "answer": "Emisor",
-        "mnemonic": "Emisor = quien emite."
+        "mnemonic": "EMisor EMITE; REceptor RECIBE."
       },
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          7,
-          7
+          10,
+          10
         ]
       }
     },
@@ -851,18 +851,18 @@
       "ca": {
         "question": "Com s’anomena el mitjà utilitzat per enviar un missatge?",
         "answer": "Canal",
-        "mnemonic": "Per on viatja el missatge → canal."
+        "mnemonic": "Canal = camí del missatge; codi = clau per entendre’l."
       },
       "es": {
         "question": "¿Cómo se llama el medio utilizado para enviar un mensaje?",
         "answer": "Canal",
-        "mnemonic": "Por dónde viaja el mensaje → canal."
+        "mnemonic": "Canal = camino del mensaje; código = clave para entenderlo."
       },
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          7,
-          7
+          10,
+          10
         ]
       }
     },
@@ -872,18 +872,18 @@
       "ca": {
         "question": "Quin document comunica el mateix avís, canvi o instrucció a múltiples destinataris?",
         "answer": "Circular",
-        "mnemonic": "El mateix missatge circula per a molts → circular."
+        "mnemonic": "CIRCULAR: el mateix missatge CIRCULA entre molts destinataris."
       },
       "es": {
         "question": "¿Qué documento comunica el mismo aviso, cambio o instrucción a múltiples destinatarios?",
         "answer": "Circular",
-        "mnemonic": "El mismo mensaje circula para muchos → circular."
+        "mnemonic": "CIRCULAR: el mismo mensaje CIRCULA entre muchos destinatarios."
       },
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          25,
-          26
+          28,
+          29
         ]
       }
     },
@@ -903,8 +903,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          17,
-          18
+          20,
+          21
         ]
       }
     },
@@ -924,8 +924,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          17,
-          18
+          20,
+          21
         ]
       }
     },

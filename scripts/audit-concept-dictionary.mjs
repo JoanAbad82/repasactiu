@@ -42,7 +42,7 @@ const EXPECTED_FAMILIES={
   'treasury-cash-inventory':['uf519-tresoreria','uf519-mitjans-pagament','uf519-arqueig-caixa','uf519-conciliacio-bancaria','uf519-fungible-no-fungible','uf519-stock-seguretat']
 };
 
-const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:28,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22};
+const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:31,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22};
 const errors=[];
 
 if(bank.version!==1)errors.push('version != 1');

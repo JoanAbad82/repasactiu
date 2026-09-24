@@ -289,3 +289,22 @@ test('UF0519 es pot practicar per blocs i conserva la traducció',async({page})=
   await page.locator('#language-es').click();
   await expect(page.locator('#study-feedback')).toContainText(/Respuesta correcta|Respuesta incorrecta/);
 });
+
+
+test('Mode Estudi reforça el test normal amb dos distractors de l overlay difícil', async ({ page }) => {
+  await page.addInitScript(() => { Math.random = () => 0; });
+  await page.goto('/');
+  await page.locator('[data-selection="bloc-1"]').click();
+  await page.getByLabel('Mode Estudi').check();
+  await page.getByLabel('10 preguntes').check();
+  await page.getByRole('button',{name:'Començar'}).click();
+  const card=page.locator('.question-card');
+  const questionId=await card.getAttribute('data-question-id');
+  const overlay=await page.evaluate(async()=>{
+    const response=await fetch('data/hard/bloc-1.json');
+    return response.json();
+  });
+  const hard=new Set(overlay.questions[questionId].ca);
+  const shown=await card.locator('[data-answer-option] > span:nth-child(2)').allInnerTexts();
+  expect(shown.filter(option=>hard.has(option)).length).toBeGreaterThanOrEqual(2);
+});

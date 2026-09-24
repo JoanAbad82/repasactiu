@@ -139,7 +139,7 @@ export function filterConceptEntries(bank,{language='ca',query='',blockId='all'}
     .filter(entry=>{
       if(!q)return true;
       const localized=entry[lang]||{};
-      return normalize([localized.term,localized.definition,localized.memory].join(' ')).includes(q);
+      return normalize([localized.term,localized.definition,localized.memory,localized.technique].join(' ')).includes(q);
     })
     .slice()
     .sort((a,b)=>{
@@ -160,7 +160,7 @@ export function filterKeyListEntries(bank,{language='ca',query='',blockId='all'}
     .filter(entry=>{
       if(!q)return true;
       const localized=entry[lang]||{};
-      return normalize([localized.title,...(localized.items||[]),localized.memory||''].join(' ')).includes(q);
+      return normalize([localized.title,...(localized.items||[]),localized.memory||'',localized.technique||''].join(' ')).includes(q);
     })
     .slice()
     .sort((a,b)=>{
@@ -203,7 +203,7 @@ function conceptEntryHtml(entry,lang,c){
       <span class="concept-source" title="${esc(c.source)}">${esc(sourceLabel(entry.source,lang))}</span>
     </div>
     <p class="concept-definition">${esc(item.definition)}</p>
-    <p class="concept-memory"><strong>${esc(c.memory)}:</strong> ${esc(item.memory)}</p>
+    <p class="concept-memory"><strong>${esc(item.technique?`${c.memory} · ${item.technique}`:c.memory)}:</strong> ${esc(item.memory)}</p>
   </article>`;
 }
 
@@ -236,7 +236,7 @@ function keyListEntryHtml(entry,lang,c){
       <span class="concept-source" title="${esc(c.source)}">${esc(sourceLabel(entry.source,lang))}</span>
     </div>
     ${items}
-    ${item.memory?`<p class="concept-memory key-list-memory"><strong>${esc(c.memory)}:</strong> ${esc(item.memory)}</p>`:''}
+    ${item.memory?`<p class="concept-memory key-list-memory"><strong>${esc(item.technique?`${c.memory} · ${item.technique}`:c.memory)}:</strong> ${esc(item.memory)}</p>`:''}
   </article>`;
 }
 

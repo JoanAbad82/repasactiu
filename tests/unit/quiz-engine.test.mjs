@@ -1,5 +1,5 @@
 import test from "node:test"; import assert from "node:assert/strict";
-import {shuffleArray,shuffleQuestionOptions,buildQuiz,buildHardQuiz,rankReviewQuestions} from "../../site/js/quiz-engine.js";
+import {shuffleArray,shuffleQuestionOptions,buildQuiz,buildPracticeQuiz,buildHardQuiz,buildPracticeReviewQuiz,rankReviewQuestions} from "../../site/js/quiz-engine.js";
 const rngZero=()=>0;
 test("shuffleArray no muta",()=>{const input=[1,2,3,4]; const out=shuffleArray(input,rngZero); assert.deepEqual(input,[1,2,3,4]); assert.notStrictEqual(out,input);});
 test("shuffleQuestionOptions conserva correcta",()=>{const q={id:"q1",options:["A","B","C","D"],correct:2}; const s=shuffleQuestionOptions(q,rngZero); assert.equal(s.options[s.correct],"C");});
@@ -47,4 +47,23 @@ test("buildHardQuiz substitueix només els distractors abans de barrejar",()=>{
 test("buildHardQuiz falla si falta el registre difícil d'una pregunta seleccionada",()=>{
   const q={id:"q1",block:"bloc-1",options:["A","B","C","D"],correct:0,translations:{es:{options:["A","B","C","D"]}}};
   assert.throws(()=>buildHardQuiz([q],{},1,()=>0),/hard distractor record absent/);
+});
+
+
+test("buildPracticeQuiz usa dos distractors difícils i conserva un distractor de pràctica",()=>{
+  const q={id:"q1",block:"bloc-1",options:["Correcta","P1","P2","P3"],correct:0,translations:{es:{options:["Correcta ES","P1 ES","P2 ES","P3 ES"]}}};
+  const hard={q1:{ca:["H1","H2","H3"],es:["H1 ES","H2 ES","H3 ES"]}};
+  const out=buildPracticeQuiz([q],hard,1,()=>0)[0];
+  assert.equal(out.options[out.correct],"Correcta");
+  assert.equal(out.translations.es.options[out.correct],"Correcta ES");
+  assert.equal(out.options.filter(value=>new Set(hard.q1.ca).has(value)).length,2);
+  assert.equal(out.options.filter(value=>new Set(q.options.slice(1)).has(value)).length,1);
+});
+
+test("buildPracticeReviewQuiz manté la prioritat d'errors amb distractors reforçats",()=>{
+  const qs=["a","b","c"].map(id=>({id,block:"bloc-1",options:["Correcta",`${id}-P1`,`${id}-P2`,`${id}-P3`],correct:0,translations:{es:{options:["Correcta ES",`${id}-P1 ES`,`${id}-P2 ES`,`${id}-P3 ES`]}}}));
+  const hard=Object.fromEntries(qs.map(q=>[q.id,{ca:[`${q.id}-H1`,`${q.id}-H2`,`${q.id}-H3`],es:[`${q.id}-H1 ES`,`${q.id}-H2 ES`,`${q.id}-H3 ES`]}]));
+  const out=buildPracticeReviewQuiz(qs,hard,{a:1,b:5,c:3},2,()=>0);
+  assert.deepEqual(new Set(out.map(q=>q.id)),new Set(["b","c"]));
+  for(const q of out)assert.equal(q.options.filter(value=>new Set(hard[q.id].ca).has(value)).length,2);
 });

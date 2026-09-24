@@ -68,7 +68,7 @@ test('el diccionari canvia íntegrament a castellà i conserva el filtre',async(
   await expect(page.locator('[data-concept-id]')).toHaveCount(7);
   await expect(page.locator('[data-concept-family="written-communication"]')).toBeVisible();
   await expect(page.locator('[data-concept-id="uf-canal-codi"]')).toContainText('Canal vs. código');
-  await expect(page.locator('[data-concept-id="uf-canal-codi"]')).toContainText('Recuerda:');
+  await expect(page.locator('[data-concept-id="uf-canal-codi"]')).toContainText('Recuerda');
 });
 
 test('el diccionari mostra la traçabilitat de pàgina',async({page})=>{
@@ -125,4 +125,17 @@ test('UF0519 incorpora conceptes de documents, facturació i nòmina',async({pag
   await expect(page.locator('[data-concept-id="uf519-iva-repercutit-suportat"]')).toBeVisible();
   await page.locator('#language-es').click();
   await expect(page.locator('[data-concept-id="uf519-albara"]')).toContainText('Albarán');
+});
+
+
+test('el diccionari identifica la tècnica mnemotècnica quan està definida',async({page})=>{
+  await page.goto('/');
+  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('[data-dictionary-search]').fill('qualitat del text');
+  const entry=page.locator('[data-concept-id="uf-qualitat-text"]');
+  await expect(entry).toContainText('Recorda · 4C + P');
+  await expect(entry).toContainText('claredat, concisió, correcció, coherència/cohesió + precisió');
+  await page.locator('[data-dictionary-mode="lists"]').click();
+  await page.locator('[data-dictionary-search]').fill('bon text professional');
+  await expect(page.locator('[data-key-list-id="uf1-bon-text"]')).toContainText('Recorda · 4C + P');
 });

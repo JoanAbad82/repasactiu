@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  composePracticeQuestion,
   composeHardQuestion,
   validateHardRecord,
   countGiveawayAbsoluteDistractors
@@ -25,6 +26,24 @@ const hard={
   ca:['CA-H1','CA-H2','CA-H3'],
   es:['ES-H1','ES-H2','ES-H3']
 };
+
+for(const correct of [0,1,2,3]){
+  test(`composePracticeQuestion conserva la correcta i incorpora dos distractors difícils amb correct=${correct}`,()=>{
+    const q=baseQuestion(correct);
+    const before=structuredClone(q);
+    const result=composePracticeQuestion(q,hard,()=>0);
+    assert.equal(result.correct,correct);
+    assert.equal(result.options[correct],q.options[correct]);
+    assert.equal(result.translations.es.options[correct],q.translations.es.options[correct]);
+    const hardCa=new Set(hard.ca);
+    const hardEs=new Set(hard.es);
+    assert.equal(result.options.filter(value=>hardCa.has(value)).length,2);
+    assert.equal(result.translations.es.options.filter(value=>hardEs.has(value)).length,2);
+    assert.equal(result.options.filter((value,index)=>index!==correct&&q.options.includes(value)).length,1);
+    assert.equal(result.translations.es.options.filter((value,index)=>index!==correct&&q.translations.es.options.includes(value)).length,1);
+    assert.deepEqual(q,before);
+  });
+}
 
 for(const correct of [0,1,2,3]){
   test(`composeHardQuestion conserva la resposta correcta amb correct=${correct}`,()=>{
@@ -73,4 +92,45 @@ test('limita els absoluts que poden convertir-se en pistes evidents',()=>{
   });
   assert.ok(errors.some(x=>x.includes('ca conté massa distractors amb absoluts')));
   assert.ok(errors.some(x=>x.includes('es conté massa distractors amb absoluts')));
+});
+
+
+test('composePracticeQuestion evita repetir la mateixa confusió en fórmules + i −',()=>{
+  const q={
+    id:'formula-1',
+    block:'uf0519-bloc-3',
+    question:'Quina fórmula és correcta?',
+    options:[
+      'Salari net = salari brut + deduccions',
+      'Salari net = IVA repercutit − IVA suportat',
+      'Salari net = factura − albarà',
+      'Salari net = salari brut − deduccions'
+    ],
+    correct:3,
+    translations:{es:{question:'¿Qué fórmula es correcta?',options:[
+      'Salario neto = salario bruto + deducciones',
+      'Salario neto = IVA repercutido − IVA soportado',
+      'Salario neto = factura − albarán',
+      'Salario neto = salario bruto − deducciones'
+    ]}}
+  };
+  const hardRecord={
+    ca:[
+      'Salari net = salari brut + deduccions com a criteri general',
+      'Salari net = IVA repercutit − IVA suportat en la gestió habitual',
+      'Salari net = factura − albarà'
+    ],
+    es:[
+      'Salario neto = salario bruto + deducciones como criterio general',
+      'Salario neto = IVA repercutido − IVA soportado en la gestión habitual',
+      'Salario neto = factura − albarán'
+    ]
+  };
+  const result=composePracticeQuestion(q,hardRecord,()=>0);
+  assert.equal(result.options[result.correct],q.options[q.correct]);
+  assert.equal(new Set(result.options).size,4);
+  assert.ok(result.options.includes('Salari net = factura − albarà'));
+  assert.ok(result.options.includes('Salari net = salari brut + deduccions com a criteri general'));
+  assert.ok(result.options.includes('Salari net = IVA repercutit − IVA suportat en la gestió habitual'));
+  assert.ok(!result.options.includes('Salari net = salari brut + deduccions'));
 });

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "date": "2026-09-24",
+  "status": "CANONICAL_TEACHER_VALIDATED",
+  "sourceArchive": "Temari(2).zip",
+  "policy": "These 11 PDFs are the canonical academic sources for Repàs Actiu because the user states they were validated by the course teacher. When a prior project copy differs, this manifest version has priority.",
+  "files": [
+    {
+      "sourceId": "UF0518_B1",
+      "file": "1. La comunicació escrita i els documents empresarials.pdf",
+      "pages": 31,
+      "sizeBytes": 1141308,
+      "sha256": "ead926021953f015a2bc6b4b60bf13f0ca31ac0c9e8717f6c7cf312e73b991ca"
+    },
+    {
+      "sourceId": "B1",
+      "file": "1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf",
+      "pages": 19,
+      "sizeBytes": 341692,
+      "sha256": "845b7f7d50046e9e1fce611e668623af6cb6e8982ec1f99ded0880a7e89c56cc"
+    },
+    {
+      "sourceId": "B2",
+      "file": "2. Classes d’empreses, jerarquia empresarial i funció administrativa_BLOC_2 (1).pdf",
+      "pages": 33,
+      "sizeBytes": 396100,
+      "sha256": "b3f076c64c8b948f0879c6763da86f66398983ead37fcb05d1764ce549feca12"
+    },
+    {
+      "sourceId": "B3",
+      "file": "3_Lestructura_empresa_organigrames_BLOC_3.pdf",
+      "pages": 35,
+      "sizeBytes": 626522,
+      "sha256": "4669f6dbd47964460ddbcb7ad1afaddf803bddf60d260ce1ad8d08470ce29b04"
+    },
+    {
+      "sourceId": "B4",
+      "file": "4.Els departaments_Bloc_4.pdf",
+      "pages": 34,
+      "sizeBytes": 783668,
+      "sha256": "f7a185971daef81ee0e43201e7d2e5f33222b1f6e12f4b917dec8f6a4109fd85"
+    },
+    {
+      "sourceId": "B5",
+      "file": "5 .Organització bàsica de lEstat i la Unió Europea_BLOC_5.pdf",
+      "pages": 24,
+      "sizeBytes": 366575,
+      "sha256": "a2f447d3626e53015697575292af4e11d0e58a6f918634e2a2b48fd95e07a35f"
+    },
+    {
+      "sourceId": "UF0518_B2",
+      "file": "F0518_Bloc_2_Gestio_correspondencia_i_paqueteria.pdf",
+      "pages": 39,
+      "sizeBytes": 1396066,
+      "sha256": "4ea24485bea3d950072359f945e28ebc47d693eff8e1ea55d91aaf7d79824bd2"
+    },
+    {
+      "sourceId": "MF0969_PRESENTACIO",
+      "file": "Presentació del mòdul_MF0969_1.pdf",
+      "pages": 22,
+      "sizeBytes": 3317031,
+      "sha256": "b7da5ffd4ff471a97206be22c4060f6721b491834cfd69be1b01b8521914feda"
+    },
+    {
+      "sourceId": "UF0518_B3",
+      "file": "UF0518_Bloc3_L’arxiu i les comunicacions escrites.pdf",
+      "pages": 50,
+      "sizeBytes": 457922,
+      "sha256": "c85421dabd77b5d2fc6c5426eb6610968b5af7b3d25e5eba743cad1d38d4179f"
+    },
+    {
+      "sourceId": "UF0519_U1",
+      "file": "UF0519_1.Gestió_auxiliar_documentació_administrativa_bàsica.pdf",
+      "pages": 76,
+      "sizeBytes": 487554,
+      "sha256": "e6b1f4cbc95716a2fd01aff0be2cfe7b1a9d3b4f9ab324efc115d3911d112311"
+    },
+    {
+      "sourceId": "U2B1",
+      "file": "Unitat 2_Lorganització dels RRHH (1).pdf",
+      "pages": 119,
+      "sizeBytes": 1005678,
+      "sha256": "f2abc6e6f78fd4abff4a0d6929441ae4e1d0f54ce909cd52e1ff9ffb426b5e1f"
+    }
+  ],
+  "notes": {
+    "UF0518_B1": "This teacher-validated 31-page version supersedes the prior 28-page project copy. Old page 1 remains page 1; old pages 2–28 map to new pages 5–31.",
+    "B4": "Teacher-validated 34-page version supersedes the prior project copy with a different filename/bytes while keeping the same pagination."
+  }
+}
