@@ -5,10 +5,10 @@
     "ca",
     "es"
   ],
-  "coreCards": 830,
+  "coreCards": 842,
   "extraCards": 84,
-  "totalCards": 914,
-  "architecture": "Las 830 tarjetas principales nacen de los bancos de preguntas; la capa semántica exclusiva de flashcards mantiene las 84 decisiones auditadas históricas (37 REWRITE y 47 MERGE/REPLACE) sin modificar los tests. Las 84 tarjetas extra aportan conceptos de alto valor, seis por bloque.",
+  "totalCards": 926,
+  "architecture": "Las 842 tarjetas principales nacen de los bancos de preguntas; la capa semántica exclusiva de flashcards mantiene las 84 decisiones auditadas históricas (37 REWRITE y 47 MERGE/REPLACE). Las 84 tarjetas extra aportan seis conceptos de alto valor por bloque.",
   "distribution": {
     "bloc-1": 66,
     "bloc-2": 86,
@@ -23,7 +23,7 @@
     "uf0519-bloc-2": 39,
     "uf0519-bloc-3": 25,
     "uf0519-bloc-4": 14,
-    "uf0519-bloc-5": 16
+    "uf0519-bloc-5": 28
   },
   "policy": [
     "El catalán sigue siendo la versión académica canónica y el castellano debe conservar equivalencia semántica.",
