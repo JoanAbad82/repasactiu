@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
 
 async function waitForHomeReady(page){
-  await expect(page.getByText('830 preguntes')).toBeVisible();
+  await expect(page.getByText('842 preguntes')).toBeVisible();
 }
 
-test('la portada mostra UF0517, UF0518 i 830 preguntes', async ({ page }) => {
+test('la portada mostra UF0517, UF0518 i 842 preguntes', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByText('Repàs Actiu').first()).toBeVisible();
   await expect(page.getByText('Operacions auxiliars de serveis administratius i generals')).toBeVisible();
@@ -14,7 +14,7 @@ test('la portada mostra UF0517, UF0518 i 830 preguntes', async ({ page }) => {
   await expect(page.getByText('UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 1')).toBeVisible();
   await expect(page.locator('[data-unit-group]')).toHaveCount(4);
   await expect(page.locator('[data-block-card]')).toHaveCount(15);
-  await expect(page.getByText('830 preguntes')).toBeVisible();
+  await expect(page.getByText('842 preguntes')).toBeVisible();
   await expect(page.locator('[data-selection="bloc-1"]')).toContainText('60 preguntes');
   await expect(page.locator('[data-selection="bloc-2"]')).toContainText('80 preguntes');
   await expect(page.locator('[data-selection="bloc-3"]')).toContainText('80 preguntes');
@@ -28,7 +28,7 @@ test('la portada mostra UF0517, UF0518 i 830 preguntes', async ({ page }) => {
   await expect(page.locator('[data-selection="uf0519-bloc-2"]')).toContainText('33 preguntes');
   await expect(page.locator('[data-selection="uf0519-bloc-3"]')).toContainText('19 preguntes');
   await expect(page.locator('[data-selection="uf0519-bloc-4"]')).toContainText('8 preguntes');
-  await expect(page.locator('[data-selection="uf0519-bloc-5"]')).toContainText('10 preguntes');
+  await expect(page.locator('[data-selection="uf0519-bloc-5"]')).toContainText('22 preguntes');
   await expect(page.locator('[href*="openutilitylab"]')).toHaveCount(0);
 });
 
@@ -44,11 +44,11 @@ test('tota la interfície canvia a castellà i la preferència persisteix', asyn
   await expect(page.getByText('Unidad 2 — La organización de los recursos humanos')).toBeVisible();
   await expect(page.getByText('UF0518 — Gestión auxiliar de la correspondencia y paquetería en la empresa')).toBeVisible();
   await expect(page.getByText('UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 1')).toBeVisible();
-  await expect(page.getByText('830 preguntas')).toBeVisible();
+  await expect(page.getByText('842 preguntas')).toBeVisible();
   await expect(page.getByRole('button',{name:'Temario',exact:true})).toBeVisible();
   await expect(page.getByRole('button',{name:'Repasar errores',exact:true})).toBeVisible();
   await page.reload();
-  await expect(page.getByText('830 preguntas')).toBeVisible();
+  await expect(page.getByText('842 preguntas')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.locator('#language-es')).toHaveAttribute('aria-pressed','true');
 });
@@ -224,7 +224,7 @@ test('el mode de color es conserva després de recarregar', async ({ page }) => 
   const after = await page.locator('html').getAttribute('data-theme');
   expect(after).not.toBe(before);
   await page.reload();
-  await expect(page.getByText('830 preguntes')).toBeVisible();
+  await expect(page.getByText('842 preguntes')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('data-theme', after);
 });
 
