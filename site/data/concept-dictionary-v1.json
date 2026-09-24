@@ -93,12 +93,14 @@
       "ca": {
         "term": "Entitat pública",
         "definition": "Organització creada o gestionada per una administració pública i finançada principalment amb recursos públics.",
-        "memory": "Pública = administració + recursos públics."
+        "memory": "PÚBLICA: P de poder públic + P de pressupost públic.",
+        "technique": "Contrast"
       },
       "es": {
         "term": "Entidad pública",
         "definition": "Organización creada o gestionada por una administración pública y financiada principalmente con recursos públicos.",
-        "memory": "Pública = administración + recursos públicos."
+        "memory": "PÚBLICA: P de poder público + P de presupuesto público.",
+        "technique": "Contraste"
       }
     },
     {
@@ -114,12 +116,14 @@
       "ca": {
         "term": "Entitat privada",
         "definition": "Organització creada i gestionada per persones o empreses privades i finançada principalment amb recursos privats.",
-        "memory": "Privada = particulars + recursos privats."
+        "memory": "PRIVADA: pensa en particulars que creen i gestionen l’entitat.",
+        "technique": "Contrast"
       },
       "es": {
         "term": "Entidad privada",
         "definition": "Organización creada y gestionada por personas o empresas privadas y financiada principalmente con recursos privados.",
-        "memory": "Privada = particulares + recursos privados."
+        "memory": "PRIVADA: piensa en particulares que crean y gestionan la entidad.",
+        "technique": "Contraste"
       }
     },
     {
@@ -135,12 +139,14 @@
       "ca": {
         "term": "Funció de direcció",
         "definition": "Funció encarregada de coordinar l’empresa i prendre decisions.",
-        "memory": "Direcció = coordinar + decidir."
+        "memory": "Direcció = brúixola: marca el rumb i coordina.",
+        "technique": "Imatge mental"
       },
       "es": {
         "term": "Función de dirección",
         "definition": "Función encargada de coordinar la empresa y tomar decisiones.",
-        "memory": "Dirección = coordinar + decidir."
+        "memory": "Dirección = brújula: marca el rumbo y coordina.",
+        "technique": "Imagen mental"
       }
     },
     {
@@ -177,12 +183,14 @@
       "ca": {
         "term": "Recursos Humans",
         "definition": "Funció relacionada amb la gestió, contractació, formació i organització dels treballadors.",
-        "memory": "RRHH = persones: contractar, formar i organitzar."
+        "memory": "RRHH: entrar (contractar) → créixer (formar) → organitzar.",
+        "technique": "Cadena"
       },
       "es": {
         "term": "Recursos Humanos",
         "definition": "Función relacionada con la gestión, contratación, formación y organización de los trabajadores.",
-        "memory": "RR. HH. = personas: contratar, formar y organizar."
+        "memory": "RR. HH.: entrar (contratar) → crecer (formar) → organizar.",
+        "technique": "Cadena"
       }
     },
     {
@@ -240,12 +248,14 @@
       "ca": {
         "term": "Empresa individual",
         "definition": "Empresa en què una única persona física és propietària i desenvolupa l’activitat en nom propi.",
-        "memory": "Individual = una persona física + nom propi."
+        "memory": "Individual = 1 persona física, 1 titular, activitat en nom propi.",
+        "technique": "Regla d’1"
       },
       "es": {
         "term": "Empresa individual",
         "definition": "Empresa en la que una única persona física es propietaria y desarrolla la actividad en nombre propio.",
-        "memory": "Individual = una persona física + nombre propio."
+        "memory": "Individual = 1 persona física, 1 titular, actividad en nombre propio.",
+        "technique": "Regla del 1"
       }
     },
     {
@@ -303,12 +313,14 @@
       "ca": {
         "term": "S.A. vs. S.L.",
         "definition": "A la S.A. el capital social es divideix en accions; a la S.L., en participacions socials.",
-        "memory": "S.A. = accions; S.L. = participacions."
+        "memory": "S.A. → ACCIONS; S.L. → PARTICIPACIONS.",
+        "technique": "Contrast"
       },
       "es": {
         "term": "S.A. vs. S.L.",
         "definition": "En la S.A. el capital social se divide en acciones; en la S.L., en participaciones sociales.",
-        "memory": "S.A. = acciones; S.L. = participaciones."
+        "memory": "S.A. → ACCIONES; S.L. → PARTICIPACIONES.",
+        "technique": "Contraste"
       }
     },
     {
@@ -387,12 +399,14 @@
       "ca": {
         "term": "Planificar vs. organitzar",
         "definition": "Planificar és definir objectius i accions; organitzar és distribuir els recursos humans, materials i econòmics.",
-        "memory": "Planificar = què i com; organitzar = repartir recursos."
+        "memory": "Planificar dibuixa el pla; organitzar reparteix les peces.",
+        "technique": "Contrast"
       },
       "es": {
         "term": "Planificar vs. organizar",
         "definition": "Planificar es definir objetivos y acciones; organizar es distribuir los recursos humanos, materiales y económicos.",
-        "memory": "Planificar = qué y cómo; organizar = repartir recursos."
+        "memory": "Planificar dibuja el plan; organizar reparte las piezas.",
+        "technique": "Contraste"
       }
     },
     {
@@ -450,12 +464,14 @@
       "ca": {
         "term": "Unitat de direcció",
         "definition": "Les persones i departaments amb un mateix objectiu han de seguir una direcció i una planificació comunes.",
-        "memory": "Un objectiu → una direcció comuna."
+        "memory": "1 objectiu compartit → 1 direcció comuna.",
+        "technique": "Regla 1→1"
       },
       "es": {
         "term": "Unidad de dirección",
         "definition": "Las personas y departamentos con un mismo objetivo deben seguir una dirección y una planificación comunes.",
-        "memory": "Un objetivo → una dirección común."
+        "memory": "1 objetivo compartido → 1 dirección común.",
+        "technique": "Regla 1→1"
       }
     },
     {
@@ -597,12 +613,14 @@
       "ca": {
         "term": "Organització formal vs. informal",
         "definition": "La formal és l’estructura oficial definida per l’empresa; la informal neix espontàniament de les relacions personals.",
-        "memory": "Formal = oficial; informal = espontània."
+        "memory": "Formal = figura oficial; informal = neix entre persones.",
+        "technique": "Contrast"
       },
       "es": {
         "term": "Organización formal vs. informal",
         "definition": "La formal es la estructura oficial definida por la empresa; la informal nace espontáneamente de las relaciones personales.",
-        "memory": "Formal = oficial; informal = espontánea."
+        "memory": "Formal = figura oficial; informal = nace entre personas.",
+        "technique": "Contraste"
       }
     },
     {
@@ -723,12 +741,14 @@
       "ca": {
         "term": "Poders de l’Estat",
         "definition": "Legislatiu: elabora i aprova lleis; executiu: dirigeix la política i executa; judicial: jutja i fa executar allò jutjat.",
-        "memory": "L-E-J = lleis, executar, jutjar."
+        "memory": "LEJ: Legislatiu fa Lleis; Executiu Executa; Judicial Jutja.",
+        "technique": "Acrònim LEJ"
       },
       "es": {
         "term": "Poderes del Estado",
         "definition": "Legislativo: elabora y aprueba leyes; ejecutivo: dirige la política y ejecuta; judicial: juzga y hace ejecutar lo juzgado.",
-        "memory": "L-E-J = leyes, ejecutar, juzgar."
+        "memory": "LEJ: Legislativo legisla; Ejecutivo ejecuta; Judicial juzga.",
+        "technique": "Acrónimo LEJ"
       }
     },
     {
@@ -828,12 +848,14 @@
       "ca": {
         "term": "Parlament / Consell UE / Comissió",
         "definition": "El Parlament representa la ciutadania; el Consell de la UE representa els governs; la Comissió és l’òrgan executiu i proposa legislació en la majoria d’àmbits.",
-        "memory": "Ciutadans → Parlament; governs → Consell; executar/proposar → Comissió."
+        "memory": "Ciutadania→Parlament; governs→Consell UE; proposta/executa→Comissió.",
+        "technique": "Associació"
       },
       "es": {
         "term": "Parlamento / Consejo UE / Comisión",
         "definition": "El Parlamento representa a la ciudadanía; el Consejo de la UE representa a los gobiernos; la Comisión es el órgano ejecutivo y propone legislación en la mayoría de ámbitos.",
-        "memory": "Ciudadanos → Parlamento; gobiernos → Consejo; ejecutar/proponer → Comisión."
+        "memory": "Ciudadanía→Parlamento; gobiernos→Consejo UE; propone/ejecuta→Comisión.",
+        "technique": "Asociación"
       }
     },
     {
@@ -912,12 +934,14 @@
       "ca": {
         "term": "Transposició",
         "definition": "Procés mitjançant el qual una directiva europea s’incorpora al dret intern d’un Estat membre.",
-        "memory": "Transposar = portar la directiva al dret intern."
+        "memory": "Directiva UE → dret intern: aquest trasllat és la transposició.",
+        "technique": "Imatge de trasllat"
       },
       "es": {
         "term": "Transposición",
         "definition": "Proceso mediante el cual una directiva europea se incorpora al Derecho interno de un Estado miembro.",
-        "memory": "Transponer = llevar la directiva al Derecho interno."
+        "memory": "Directiva UE → Derecho interno: ese traslado es la transposición.",
+        "technique": "Imagen de traslado"
       }
     },
     {
@@ -996,12 +1020,14 @@
       "ca": {
         "term": "Grup d’interès vs. grup d’amics",
         "definition": "El grup d’interès es forma per un objectiu o necessitat comuna; el grup d’amics, per afinitat personal i relació social.",
-        "memory": "Interès = objectiu; amics = afinitat."
+        "memory": "Interès = objectiu compartit; amistat = afinitat personal.",
+        "technique": "Contrast"
       },
       "es": {
         "term": "Grupo de interés vs. grupo de amigos",
         "definition": "El grupo de interés se forma por un objetivo o necesidad común; el grupo de amigos, por afinidad personal y relación social.",
-        "memory": "Interés = objetivo; amigos = afinidad."
+        "memory": "Interés = objetivo compartido; amistad = afinidad personal.",
+        "technique": "Contraste"
       }
     },
     {
@@ -1059,12 +1085,14 @@
       "ca": {
         "term": "Valors ètics professionals",
         "definition": "Responsabilitat, respecte, honestedat, confidencialitat i compromís orienten el comportament professional dins l’organització.",
-        "memory": "R-R-H-C-C: responsabilitat, respecte, honestedat, confidencialitat, compromís."
+        "memory": "RR + HCC: responsabilitat, respecte | honestedat, confidencialitat, compromís.",
+        "technique": "Agrupació 2+3"
       },
       "es": {
         "term": "Valores éticos profesionales",
         "definition": "Responsabilidad, respeto, honestidad, confidencialidad y compromiso orientan el comportamiento profesional dentro de la organización.",
-        "memory": "R-R-H-C-C: responsabilidad, respeto, honestidad, confidencialidad, compromiso."
+        "memory": "RR + HCC: responsabilidad, respeto | honestidad, confidencialidad, compromiso.",
+        "technique": "Agrupación 2+3"
       }
     },
     {
@@ -1073,19 +1101,21 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          6,
-          6
+          9,
+          9
         ]
       },
       "ca": {
         "term": "Emissor vs. receptor",
         "definition": "L’emissor redacta o envia el missatge; el receptor el rep i el llegeix.",
-        "memory": "Emissor envia; receptor rep."
+        "memory": "EMissor EMET; REceptor REP.",
+        "technique": "Arrel de paraula"
       },
       "es": {
         "term": "Emisor vs. receptor",
         "definition": "El emisor redacta o envía el mensaje; el receptor lo recibe y lo lee.",
-        "memory": "Emisor envía; receptor recibe."
+        "memory": "EMisor EMITE; REceptor RECIBE.",
+        "technique": "Raíz de palabra"
       }
     },
     {
@@ -1094,8 +1124,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          6,
-          6
+          9,
+          9
         ]
       },
       "ca": {
@@ -1115,19 +1145,21 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          6,
-          6
+          9,
+          9
         ]
       },
       "ca": {
         "term": "Canal vs. codi",
         "definition": "El canal és el mitjà utilitzat per enviar el missatge; el codi és el llenguatge o les normes que permeten entendre’l.",
-        "memory": "Canal = per on; codi = amb quin llenguatge."
+        "memory": "Canal = per on viatja? Codi = amb quin llenguatge s’entén?",
+        "technique": "Dues preguntes"
       },
       "es": {
         "term": "Canal vs. código",
         "definition": "El canal es el medio utilizado para enviar el mensaje; el código es el lenguaje o las normas que permiten entenderlo.",
-        "memory": "Canal = por dónde; código = con qué lenguaje."
+        "memory": "Canal = ¿por dónde viaja? Código = ¿con qué lenguaje se entiende?",
+        "technique": "Dos preguntas"
       }
     },
     {
@@ -1136,19 +1168,21 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          9,
-          9
+          12,
+          12
         ]
       },
       "ca": {
         "term": "Qualitat del text professional",
         "definition": "Un bon text professional ha de tenir claredat, precisió, concisió, correcció i coherència/cohesió.",
-        "memory": "5 C: claredat, precisió, concisió, correcció, coherència."
+        "memory": "4C + P: claredat, concisió, correcció, coherència/cohesió + precisió.",
+        "technique": "4C + P"
       },
       "es": {
         "term": "Calidad del texto profesional",
         "definition": "Un buen texto profesional debe tener claridad, precisión, concisión, corrección y coherencia/cohesión.",
-        "memory": "5 C: claridad, precisión, concisión, corrección, coherencia."
+        "memory": "4C + P: claridad, concisión, corrección, coherencia/cohesión + precisión.",
+        "technique": "4C + P"
       }
     },
     {
@@ -1157,19 +1191,21 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          22,
-          22
+          25,
+          25
         ]
       },
       "ca": {
         "term": "Memoràndum vs. circular",
         "definition": "El memoràndum és una comunicació interna adreçada a una persona, departament o grup concret; la circular transmet el mateix missatge a múltiples destinataris.",
-        "memory": "Memoràndum = concret; circular = molts destinataris."
+        "memory": "Memo = destinatari concret; circular = el mateix missatge circula a molts.",
+        "technique": "Contrast"
       },
       "es": {
         "term": "Memorándum vs. circular",
         "definition": "El memorándum es una comunicación interna dirigida a una persona, departamento o grupo concreto; la circular transmite el mismo mensaje a múltiples destinatarios.",
-        "memory": "Memorándum = concreto; circular = muchos destinatarios."
+        "memory": "Memo = destinatario concreto; circular = el mismo mensaje circula a muchos.",
+        "technique": "Contraste"
       }
     },
     {
@@ -1178,8 +1214,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          23,
-          23
+          26,
+          26
         ]
       },
       "ca": {
@@ -1199,8 +1235,8 @@
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          24,
-          24
+          27,
+          27
         ]
       },
       "ca": {
@@ -1248,12 +1284,14 @@
       "ca": {
         "term": "Registre d’entrada vs. registre de sortida",
         "definition": "El d’entrada deixa constància del que arriba; el de sortida, del que s’envia. Tots dos faciliten terminis, localització i prova.",
-        "memory": "Entrada = arriba; sortida = s’envia; registre = queda constància."
+        "memory": "E entra; S surt; si es registra, deixa rastre.",
+        "technique": "Direcció"
       },
       "es": {
         "term": "Registro de entrada vs. registro de salida",
         "definition": "El de entrada deja constancia de lo que llega; el de salida, de lo que se envía. Ambos facilitan plazos, localización y prueba.",
-        "memory": "Entrada = llega; salida = se envía; registro = queda constancia."
+        "memory": "E entra; S sale; si se registra, deja rastro.",
+        "technique": "Dirección"
       }
     },
     {
@@ -1290,12 +1328,14 @@
       "ca": {
         "term": "Carta ordinària vs. carta certificada",
         "definition": "L’ordinària no té seguiment individualitzat ni prova de lliurament; la certificada té admissió registrada, seguiment i lliurament sota signatura.",
-        "memory": "Ordinària = sense prova individual; certificada = registre + seguiment + signatura."
+        "memory": "CERTificada = més CERTesa: admissió, seguiment i signatura.",
+        "technique": "Associació"
       },
       "es": {
         "term": "Carta ordinaria vs. carta certificada",
         "definition": "La ordinaria no tiene seguimiento individualizado ni prueba de entrega; la certificada tiene admisión registrada, seguimiento y entrega bajo firma.",
-        "memory": "Ordinaria = sin prueba individual; certificada = registro + seguimiento + firma."
+        "memory": "CERTificada = más CERTEza: admisión, seguimiento y firma.",
+        "technique": "Asociación"
       }
     },
     {
@@ -1311,12 +1351,14 @@
       "ca": {
         "term": "Burofax i valor probatori",
         "definition": "El burofax permet conservar constància de la tramesa; per acreditar el text exacte cal còpia certificada del contingut i, per al lliurament, la prova corresponent.",
-        "memory": "Burofax: decideix què vols provar — tramesa, contingut i/o lliurament."
+        "memory": "Burofax: què vols provar? tramesa, contingut i/o lliurament.",
+        "technique": "3 preguntes"
       },
       "es": {
         "term": "Burofax y valor probatorio",
         "definition": "El burofax permite conservar constancia del envío; para acreditar el texto exacto hace falta copia certificada del contenido y, para la entrega, la prueba correspondiente.",
-        "memory": "Burofax: decide qué quieres probar — envío, contenido y/o entrega."
+        "memory": "Burofax: ¿qué quieres probar? envío, contenido y/o entrega.",
+        "technique": "3 preguntas"
       }
     },
     {
@@ -1458,12 +1500,14 @@
       "ca": {
         "term": "Classificar vs. arxivar",
         "definition": "Classificar és decidir el criteri que ordena els documents; arxivar és guardar-los al lloc corresponent per conservar-los, consultar-los i recuperar-los.",
-        "memory": "Classificar = criteri; arxivar = lloc."
+        "memory": "Classificar decideix el criteri; arxivar decideix on queda guardat.",
+        "technique": "Contrast"
       },
       "es": {
         "term": "Clasificar vs. archivar",
         "definition": "Clasificar es decidir el criterio que ordena los documentos; archivar es guardarlos en el lugar correspondiente para conservarlos, consultarlos y recuperarlos.",
-        "memory": "Clasificar = criterio; archivar = lugar."
+        "memory": "Clasificar decide el criterio; archivar decide dónde queda guardado.",
+        "technique": "Contraste"
       }
     },
     {
@@ -1500,12 +1544,14 @@
       "ca": {
         "term": "Metadades",
         "definition": "Dades sobre un document digital, com autor, data, tipus, estat, client, expedient, versió o permisos, que n’ajuden la gestió i localització.",
-        "memory": "Metadades = dades sobre el document."
+        "memory": "Metadades = dades SOBRE el document, no el contingut del document.",
+        "technique": "Meta = sobre"
       },
       "es": {
         "term": "Metadatos",
         "definition": "Datos sobre un documento digital, como autor, fecha, tipo, estado, cliente, expediente, versión o permisos, que ayudan a gestionarlo y localizarlo.",
-        "memory": "Metadatos = datos sobre el documento."
+        "memory": "Metadatos = datos SOBRE el documento, no el contenido del documento.",
+        "technique": "Meta = sobre"
       }
     },
     {
@@ -1521,12 +1567,14 @@
       "ca": {
         "term": "Conservació mercantil vs. prescripció tributària",
         "definition": "El criteri general del material és sis anys per a llibres i documentació mercantil i quatre anys com a termini general de prescripció tributària, amb possibles terminis especials.",
-        "memory": "Mercantil 6; fiscal general 4."
+        "memory": "6M / 4F: mercantil 6 anys; fiscal general 4 anys.",
+        "technique": "Parell numèric"
       },
       "es": {
         "term": "Conservación mercantil vs. prescripción tributaria",
         "definition": "El criterio general del material es seis años para libros y documentación mercantil y cuatro años como plazo general de prescripción tributaria, con posibles plazos especiales.",
-        "memory": "Mercantil 6; fiscal general 4."
+        "memory": "6M / 4F: mercantil 6 años; fiscal general 4 años.",
+        "technique": "Par numérico"
       }
     },
     {
@@ -1542,12 +1590,14 @@
       "ca": {
         "term": "Drets de les persones interessades",
         "definition": "Inclouen accés, rectificació, supressió, oposició, limitació, portabilitat i protecció davant determinades decisions únicament automatitzades.",
-        "memory": "A-R-S-O-L-P + decisions automatitzades."
+        "memory": "A-R-S-O-L-P + protecció davant determinades decisions automatitzades.",
+        "technique": "Acrònim"
       },
       "es": {
         "term": "Derechos de las personas interesadas",
         "definition": "Incluyen acceso, rectificación, supresión, oposición, limitación, portabilidad y protección frente a determinadas decisiones únicamente automatizadas.",
-        "memory": "A-R-S-O-L-P + decisiones automatizadas."
+        "memory": "A-R-S-O-L-P + protección ante determinadas decisiones automatizadas.",
+        "technique": "Acrónimo"
       }
     },
     {
@@ -1689,12 +1739,14 @@
       "ca": {
         "term": "Circuit documental",
         "definition": "Procés pel qual un document passa per creació, validació, registre, tramitació i arxiu.",
-        "memory": "C-V-R-T-A."
+        "memory": "Crea → Valida → Registra → Tramita → Arxiva.",
+        "technique": "Cadena CVRTA"
       },
       "es": {
         "term": "Circuito documental",
         "definition": "Proceso por el que un documento pasa por creación, validación, registro, tramitación y archivo.",
-        "memory": "C-V-R-T-A."
+        "memory": "Crea → Valida → Registra → Tramita → Archiva.",
+        "technique": "Cadena CVRTA"
       }
     },
     {
@@ -1710,12 +1762,14 @@
       "ca": {
         "term": "Registre general vs. auxiliar",
         "definition": "El general centralitza entrades i sortides; l’auxiliar facilita recepció descentralitzada i integra la informació al general.",
-        "memory": "General centralitza; auxiliar ajuda."
+        "memory": "General = centralitza; auxiliar = rep a prop i integra al general.",
+        "technique": "Contrast"
       },
       "es": {
         "term": "Registro general vs. auxiliar",
         "definition": "El general centraliza entradas y salidas; el auxiliar facilita recepción descentralizada e integra la información en el general.",
-        "memory": "General centraliza; auxiliar ayuda."
+        "memory": "General = centraliza; auxiliar = recibe cerca e integra en el general.",
+        "technique": "Contraste"
       }
     },
     {
@@ -1941,12 +1995,14 @@
       "ca": {
         "term": "Nòmina",
         "definition": "Document justificatiu de les retribucions i deduccions aplicades a una persona treballadora.",
-        "memory": "Nòmina = meritacions − deduccions → líquid."
+        "memory": "Nòmina: meritacions − deduccions = líquid.",
+        "technique": "Equació"
       },
       "es": {
         "term": "Nómina",
         "definition": "Documento justificativo de las retribuciones y deducciones aplicadas a una persona trabajadora.",
-        "memory": "Nómina = devengos − deducciones → líquido."
+        "memory": "Nómina: devengos − deducciones = líquido.",
+        "technique": "Ecuación"
       }
     },
     {
@@ -2025,12 +2081,14 @@
       "ca": {
         "term": "Salari brut vs. salari net",
         "definition": "El brut és el total de meritacions abans de deduccions; el net és el brut menys les deduccions.",
-        "memory": "Net = brut − deduccions."
+        "memory": "NET = BRUT − deduccions.",
+        "technique": "Equació"
       },
       "es": {
         "term": "Salario bruto vs. salario neto",
         "definition": "El bruto es el total de devengos antes de deducciones; el neto es el bruto menos las deducciones.",
-        "memory": "Neto = bruto − deducciones."
+        "memory": "NETO = BRUTO − deducciones.",
+        "technique": "Ecuación"
       }
     },
     {
@@ -2235,12 +2293,14 @@
       "ca": {
         "term": "Arqueig de caixa",
         "definition": "Comparació dels diners reals presents a caixa amb el saldo registrat per verificar que coincideixin.",
-        "memory": "Arqueig = real vs. registrat."
+        "memory": "Arqueig: diners reals de caixa ↔ saldo registrat.",
+        "technique": "Comparació"
       },
       "es": {
         "term": "Arqueo de caja",
         "definition": "Comparación del dinero real presente en caja con el saldo registrado para verificar que coincidan.",
-        "memory": "Arqueo = real vs. registrado."
+        "memory": "Arqueo: dinero real de caja ↔ saldo registrado.",
+        "technique": "Comparación"
       }
     },
     {
@@ -2256,12 +2316,14 @@
       "ca": {
         "term": "Conciliació bancària",
         "definition": "Comparació dels registres interns de l’empresa amb l’extracte bancari per identificar diferències.",
-        "memory": "Conciliació = empresa vs. banc."
+        "memory": "Conciliació: registres de l’empresa ↔ extracte del banc.",
+        "technique": "Comparació"
       },
       "es": {
         "term": "Conciliación bancaria",
         "definition": "Comparación de los registros internos de la empresa con el extracto bancario para identificar diferencias.",
-        "memory": "Conciliación = empresa vs. banco."
+        "memory": "Conciliación: registros de la empresa ↔ extracto del banco.",
+        "technique": "Comparación"
       }
     },
     {
@@ -2277,12 +2339,14 @@
       "ca": {
         "term": "Material fungible vs. no fungible",
         "definition": "El material fungible és consumible; el no fungible és durador o correspon a equips d’oficina.",
-        "memory": "Fungible = es gasta; no fungible = dura."
+        "memory": "Fungible = es consumeix; no fungible = dura.",
+        "technique": "Contrast"
       },
       "es": {
         "term": "Material fungible vs. no fungible",
         "definition": "El material fungible es consumible; el no fungible es duradero o corresponde a equipos de oficina.",
-        "memory": "Fungible = se gasta; no fungible = dura."
+        "memory": "Fungible = se consume; no fungible = dura.",
+        "technique": "Contraste"
       }
     },
     {
@@ -2534,5 +2598,9 @@
         "uf519-stock-seguretat"
       ]
     }
-  ]
+  ],
+  "memoryPolicy": {
+    "ca": "La mnemotècnia ha de distingir, agrupar o crear una pista real; no repetir simplement la definició.",
+    "es": "La mnemotecnia debe distinguir, agrupar o crear una pista real; no repetir simplemente la definición."
+  }
 }
