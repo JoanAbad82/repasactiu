@@ -1,1 +1,314 @@
-{"blockId":"uf0519-bloc-5","blockTitle":"Operacions informàtiques de facturació i nòmines","questions":[{"id":"uf0519-b5-001","block":"uf0519-bloc-5","topic":"Programari de facturació","question":"Quines fitxes bàsiques ha de saber crear el personal auxiliar en un programa de facturació?","options":["Fitxes de clients, proveïdors, productes o serveis","Només fitxes de vacances","Únicament fitxes d’arxiu mort","Només fitxes de reunions"],"correct":0,"explanation":"El material inclou la creació de fitxes mestres de clients, proveïdors, productes i serveis."},{"id":"uf0519-b5-002","block":"uf0519-bloc-5","topic":"Programari de facturació","question":"Quins documents comercials ha de poder emetre el programari de facturació segons el material?","options":["Nòmines, convenis i contractes","Pressupostos, comandes, albarans i factures","Actes, certificats i sentències","Només rebuts de salari"],"correct":1,"explanation":"El material enumera aquests quatre documents en les operacions informàtiques de facturació."},{"id":"uf0519-b5-003","block":"uf0519-bloc-5","topic":"Programari de facturació","question":"Quins elements econòmics ha de gestionar el personal auxiliar en facturació informàtica?","options":["Només torns de vacances","Únicament actes de reunió","Impostos, descomptes, venciments i formes de pagament","Només accessos a carpetes"],"correct":2,"explanation":"El material assenyala l’aplicació d’impostos, descomptes, venciments i formes de pagament."},{"id":"uf0519-b5-004","block":"uf0519-bloc-5","topic":"Control de facturació","question":"Quins controls documentals destaca el material en un programa de facturació?","options":["Només contrasenyes de correu","Únicament assistència a reunions","Només inventari de mobiliari","Numeració, sèries, factures rectificatives i informes"],"correct":3,"explanation":"El material destaca el control de numeració, sèries, rectificatives i informes."},{"id":"uf0519-b5-005","block":"uf0519-bloc-5","topic":"Programari de nòmines","question":"Quina tasca de suport fa el personal auxiliar amb les dades laborals en un programa de nòmines?","options":["Introduir i actualitzar dades bàsiques de persones treballadores i contractes segons instruccions","Modificar unilateralment qualsevol condició laboral","Decidir sense supervisió els criteris jurídics","Eliminar els contractes després de generar la nòmina"],"correct":0,"explanation":"El material limita la funció a tasques de suport segons instruccions i no substitueix el criteri laboral."},{"id":"uf0519-b5-006","block":"uf0519-bloc-5","topic":"Programari de nòmines","question":"Què indica el material que s’ha de fer amb dubtes jurídics o càlculs laborals complexos?","options":["Resoldre’ls sense consultar ningú","Derivar-los a la persona responsable laboral o a l’assessoria","Ignorar-los i continuar el procés","Convertir-los en una factura"],"correct":1,"explanation":"El material diferencia el suport administratiu del criteri laboral especialitzat."},{"id":"uf0519-b5-007","block":"uf0519-bloc-5","topic":"Seguretat digital","question":"Què significa control d’accessos en la documentació administrativa digital?","options":["Que qualsevol persona pugui editar els fitxers","Que els documents no tinguin contrasenya","Que només hi accedeixin persones autoritzades","Que totes les carpetes siguin públiques"],"correct":2,"explanation":"El material posa el control d’accessos com a primer criteri de seguretat digital."},{"id":"uf0519-b5-008","block":"uf0519-bloc-5","topic":"Traçabilitat digital","question":"Què permet la traçabilitat en l’arxiu digital?","options":["Eliminar el nom del fitxer","Evitar qualsevol registre de canvis","Compartir el document sense control","Saber qui crea, modifica, envia o valida un document"],"correct":3,"explanation":"La traçabilitat identifica les accions i les persones que intervenen en el document."},{"id":"uf0519-b5-009","block":"uf0519-bloc-5","topic":"Arxiu digital","question":"Quina pràctica d’organització de fitxers recomana el material?","options":["Utilitzar noms de fitxer clars i carpetes ordenades","Fer servir noms aleatoris","Guardar-ho tot a l’escriptori","Duplicar cada fitxer en carpetes sense criteri"],"correct":0,"explanation":"Els noms clars i les carpetes ordenades faciliten localització i gestió documental."},{"id":"uf0519-b5-010","block":"uf0519-bloc-5","topic":"Control abans d’enviar","question":"Quines comprovacions finals resumeix el material abans d’enviar un document?","options":["Només comprovar el color del document","Destinatari correcte, document complet i validat, dades coherents, dades mínimes, canal adequat i previsió de còpia o arxiu","Enviar primer i revisar després","Eliminar annexos per reduir mida"],"correct":1,"explanation":"La checklist final agrupa comprovacions de destinatari, completitud, coherència, protecció de dades, canal i traçabilitat."}]}
+{
+  "blockId": "uf0519-bloc-5",
+  "blockTitle": "Operacions informàtiques, tresoreria, caixa i control de material",
+  "questions": [
+    {
+      "id": "uf0519-b5-001",
+      "block": "uf0519-bloc-5",
+      "topic": "Programari de facturació",
+      "question": "Quines fitxes bàsiques ha de saber crear el personal auxiliar en un programa de facturació?",
+      "options": [
+        "Fitxes de clients, proveïdors, productes o serveis",
+        "Només fitxes de vacances",
+        "Únicament fitxes d’arxiu mort",
+        "Només fitxes de reunions"
+      ],
+      "correct": 0,
+      "explanation": "El material inclou la creació de fitxes mestres de clients, proveïdors, productes i serveis."
+    },
+    {
+      "id": "uf0519-b5-002",
+      "block": "uf0519-bloc-5",
+      "topic": "Programari de facturació",
+      "question": "Quins documents comercials ha de poder emetre el programari de facturació segons el material?",
+      "options": [
+        "Nòmines, convenis i contractes",
+        "Pressupostos, comandes, albarans i factures",
+        "Actes, certificats i sentències",
+        "Només rebuts de salari"
+      ],
+      "correct": 1,
+      "explanation": "El material enumera aquests quatre documents en les operacions informàtiques de facturació."
+    },
+    {
+      "id": "uf0519-b5-003",
+      "block": "uf0519-bloc-5",
+      "topic": "Programari de facturació",
+      "question": "Quins elements econòmics ha de gestionar el personal auxiliar en facturació informàtica?",
+      "options": [
+        "Només torns de vacances",
+        "Únicament actes de reunió",
+        "Impostos, descomptes, venciments i formes de pagament",
+        "Només accessos a carpetes"
+      ],
+      "correct": 2,
+      "explanation": "El material assenyala l’aplicació d’impostos, descomptes, venciments i formes de pagament."
+    },
+    {
+      "id": "uf0519-b5-004",
+      "block": "uf0519-bloc-5",
+      "topic": "Control de facturació",
+      "question": "Quins controls documentals destaca el material en un programa de facturació?",
+      "options": [
+        "Només contrasenyes de correu",
+        "Únicament assistència a reunions",
+        "Només inventari de mobiliari",
+        "Numeració, sèries, factures rectificatives i informes"
+      ],
+      "correct": 3,
+      "explanation": "El material destaca el control de numeració, sèries, rectificatives i informes."
+    },
+    {
+      "id": "uf0519-b5-005",
+      "block": "uf0519-bloc-5",
+      "topic": "Programari de nòmines",
+      "question": "Quina tasca de suport fa el personal auxiliar amb les dades laborals en un programa de nòmines?",
+      "options": [
+        "Introduir i actualitzar dades bàsiques de persones treballadores i contractes segons instruccions",
+        "Modificar unilateralment qualsevol condició laboral",
+        "Decidir sense supervisió els criteris jurídics",
+        "Eliminar els contractes després de generar la nòmina"
+      ],
+      "correct": 0,
+      "explanation": "El material limita la funció a tasques de suport segons instruccions i no substitueix el criteri laboral."
+    },
+    {
+      "id": "uf0519-b5-006",
+      "block": "uf0519-bloc-5",
+      "topic": "Programari de nòmines",
+      "question": "Què indica el material que s’ha de fer amb dubtes jurídics o càlculs laborals complexos?",
+      "options": [
+        "Resoldre’ls sense consultar ningú",
+        "Derivar-los a la persona responsable laboral o a l’assessoria",
+        "Ignorar-los i continuar el procés",
+        "Convertir-los en una factura"
+      ],
+      "correct": 1,
+      "explanation": "El material diferencia el suport administratiu del criteri laboral especialitzat."
+    },
+    {
+      "id": "uf0519-b5-007",
+      "block": "uf0519-bloc-5",
+      "topic": "Seguretat digital",
+      "question": "Què significa control d’accessos en la documentació administrativa digital?",
+      "options": [
+        "Que qualsevol persona pugui editar els fitxers",
+        "Que els documents no tinguin contrasenya",
+        "Que només hi accedeixin persones autoritzades",
+        "Que totes les carpetes siguin públiques"
+      ],
+      "correct": 2,
+      "explanation": "El material posa el control d’accessos com a primer criteri de seguretat digital."
+    },
+    {
+      "id": "uf0519-b5-008",
+      "block": "uf0519-bloc-5",
+      "topic": "Traçabilitat digital",
+      "question": "Què permet la traçabilitat en l’arxiu digital?",
+      "options": [
+        "Eliminar el nom del fitxer",
+        "Evitar qualsevol registre de canvis",
+        "Compartir el document sense control",
+        "Saber qui crea, modifica, envia o valida un document"
+      ],
+      "correct": 3,
+      "explanation": "La traçabilitat identifica les accions i les persones que intervenen en el document."
+    },
+    {
+      "id": "uf0519-b5-009",
+      "block": "uf0519-bloc-5",
+      "topic": "Arxiu digital",
+      "question": "Quina pràctica d’organització de fitxers recomana el material?",
+      "options": [
+        "Utilitzar noms de fitxer clars i carpetes ordenades",
+        "Fer servir noms aleatoris",
+        "Guardar-ho tot a l’escriptori",
+        "Duplicar cada fitxer en carpetes sense criteri"
+      ],
+      "correct": 0,
+      "explanation": "Els noms clars i les carpetes ordenades faciliten localització i gestió documental."
+    },
+    {
+      "id": "uf0519-b5-010",
+      "block": "uf0519-bloc-5",
+      "topic": "Control abans d’enviar",
+      "question": "Quines comprovacions finals resumeix el material abans d’enviar un document?",
+      "options": [
+        "Només comprovar el color del document",
+        "Destinatari correcte, document complet i validat, dades coherents, dades mínimes, canal adequat i previsió de còpia o arxiu",
+        "Enviar primer i revisar després",
+        "Eliminar annexos per reduir mida"
+      ],
+      "correct": 1,
+      "explanation": "La checklist final agrupa comprovacions de destinatari, completitud, coherència, protecció de dades, canal i traçabilitat."
+    },
+    {
+      "id": "uf0519-b5-011",
+      "block": "uf0519-bloc-5",
+      "topic": "Tresoreria",
+      "question": "Quina funció té la tresoreria segons el material?",
+      "options": [
+        "Controlar totes les entrades i sortides de diners de l’empresa",
+        "Gestionar exclusivament l’arxiu històric",
+        "Redactar només contractes laborals",
+        "Controlar únicament les existències de magatzem"
+      ],
+      "correct": 0,
+      "explanation": "La presentació defineix la tresoreria com la funció que controla totes les entrades i sortides de diners de l’empresa."
+    },
+    {
+      "id": "uf0519-b5-012",
+      "block": "uf0519-bloc-5",
+      "topic": "Mitjans de pagament",
+      "question": "Quins mitjans de pagament enumera el material com a habituals?",
+      "options": [
+        "Només targetes de crèdit i dèbit",
+        "Efectiu, xecs, rebuts, transferències i ingressos en compte",
+        "Únicament pagarés i lletres de canvi",
+        "Només domiciliacions bancàries"
+      ],
+      "correct": 1,
+      "explanation": "El material enumera efectiu, xecs, rebuts, transferències i ingressos en compte."
+    },
+    {
+      "id": "uf0519-b5-013",
+      "block": "uf0519-bloc-5",
+      "topic": "Mitjans de pagament",
+      "question": "Quins altres mitjans de pagament o crèdit apareixen a la presentació?",
+      "options": [
+        "Només efectiu i rebuts",
+        "Només transferències i ingressos en compte",
+        "Targetes de crèdit o dèbit, pagarés i lletres de canvi",
+        "Només xecs nominatius"
+      ],
+      "correct": 2,
+      "explanation": "La presentació afegeix les targetes de crèdit o dèbit, els pagarés i les lletres de canvi."
+    },
+    {
+      "id": "uf0519-b5-014",
+      "block": "uf0519-bloc-5",
+      "topic": "Justificants de pagament",
+      "question": "Què requereix cada operació de pagament o cobrament segons el material?",
+      "options": [
+        "Un canvi de contrasenya",
+        "Una nova fitxa de client",
+        "Una còpia de tots els correus",
+        "Un justificant i una comprovació de l’import"
+      ],
+      "correct": 3,
+      "explanation": "Cada operació de pagament o cobrament necessita un justificant i una comprovació de l’import."
+    },
+    {
+      "id": "uf0519-b5-015",
+      "block": "uf0519-bloc-5",
+      "topic": "Control de caixa i bancs",
+      "question": "Per a què serveixen els registres de caixa i bancs?",
+      "options": [
+        "Per conèixer i comprovar el saldo disponible en tot moment",
+        "Per substituir les factures emeses",
+        "Per eliminar els justificants antics",
+        "Per determinar l’organigrama de l’empresa"
+      ],
+      "correct": 0,
+      "explanation": "Els registres de caixa i bancs permeten conèixer i comprovar el saldo disponible en tot moment."
+    },
+    {
+      "id": "uf0519-b5-016",
+      "block": "uf0519-bloc-5",
+      "topic": "Arqueig de caixa",
+      "question": "En què consisteix l’arqueig de caixa?",
+      "options": [
+        "En comparar factures amb comandes",
+        "En comparar els diners reals presents amb el saldo registrat",
+        "En comprovar només els moviments bancaris",
+        "En revisar l’inventari del magatzem"
+      ],
+      "correct": 1,
+      "explanation": "L’arqueig de caixa compara els diners reals presents amb el saldo registrat per verificar la concordança."
+    },
+    {
+      "id": "uf0519-b5-017",
+      "block": "uf0519-bloc-5",
+      "topic": "Conciliació bancària",
+      "question": "Què compara la conciliació bancària?",
+      "options": [
+        "Les existències físiques amb les comandes",
+        "Els rebuts amb les nòmines",
+        "Els registres interns de l’empresa amb l’extracte bancari",
+        "Els preus de venda amb els salaris"
+      ],
+      "correct": 2,
+      "explanation": "La conciliació bancària compara els registres interns de l’empresa amb l’extracte bancari per identificar diferències."
+    },
+    {
+      "id": "uf0519-b5-018",
+      "block": "uf0519-bloc-5",
+      "topic": "Seguretat econòmica",
+      "question": "Quina mesura de seguretat destaca el material en la gestió de caixa i bancs?",
+      "options": [
+        "Compartir les claus entre tot el personal",
+        "Eliminar els justificants després de cada pagament",
+        "Fer públics els saldos per transparència interna",
+        "Protegir claus, dades econòmiques i justificants per evitar fraus o accessos no autoritzats"
+      ],
+      "correct": 3,
+      "explanation": "El material considera fonamental protegir claus, dades econòmiques i justificants."
+    },
+    {
+      "id": "uf0519-b5-019",
+      "block": "uf0519-bloc-5",
+      "topic": "Control d’existències",
+      "question": "Quina finalitat té el control d’existències?",
+      "options": [
+        "Assegurar que el material necessari estigui sempre disponible per a l’activitat",
+        "Substituir el registre de caixa",
+        "Evitar qualsevol reposició",
+        "Eliminar el material no utilitzat cada dia"
+      ],
+      "correct": 0,
+      "explanation": "El control d’existències assegura que el material necessari estigui disponible per a l’activitat."
+    },
+    {
+      "id": "uf0519-b5-020",
+      "block": "uf0519-bloc-5",
+      "topic": "Material fungible i no fungible",
+      "question": "Quina distinció fa el material entre material fungible i no fungible?",
+      "options": [
+        "Fungible és el material durador i no fungible el consumible",
+        "Fungible és el material consumible i no fungible el material durador o els equips d’oficina",
+        "Fungible és només material informàtic i no fungible només paper",
+        "No hi ha cap diferència entre tots dos"
+      ],
+      "correct": 1,
+      "explanation": "El material diferencia el material fungible, que és consumible, del no fungible, que és durador o correspon a equips d’oficina."
+    },
+    {
+      "id": "uf0519-b5-021",
+      "block": "uf0519-bloc-5",
+      "topic": "Fitxa de magatzem",
+      "question": "Quines dades bàsiques permeten mantenir un control precís a la fitxa de magatzem?",
+      "options": [
+        "Només la data de compra",
+        "Només el nom del proveïdor",
+        "Les entrades, les sortides i el saldo actualitzat",
+        "Només el preu unitari"
+      ],
+      "correct": 2,
+      "explanation": "Registrar les entrades, sortides i el saldo actualitzat a la fitxa de magatzem permet un control precís."
+    },
+    {
+      "id": "uf0519-b5-022",
+      "block": "uf0519-bloc-5",
+      "topic": "Stock i inventari",
+      "question": "Quines actuacions ajuden a evitar ruptures d’estoc i mantenir la precisió de les existències?",
+      "options": [
+        "Eliminar el stock de seguretat",
+        "Reposar només quan ja no queda cap unitat",
+        "Evitar els inventaris per no alterar el registre",
+        "Controlar el stock de seguretat, preparar la reposició i fer inventaris periòdics corregint diferències"
+      ],
+      "correct": 3,
+      "explanation": "El material recomana controlar el stock de seguretat, preparar la reposició i fer inventaris periòdics corregint les diferències detectades."
+    }
+  ]
+}
