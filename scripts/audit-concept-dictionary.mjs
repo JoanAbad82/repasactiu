@@ -19,7 +19,7 @@ const EXPECTED={
   'uf0519-bloc-2':8,
   'uf0519-bloc-3':6,
   'uf0519-bloc-4':4,
-  'uf0519-bloc-5':2
+  'uf0519-bloc-5':8
 };
 
 const EXPECTED_FAMILIES={
@@ -38,17 +38,18 @@ const EXPECTED_FAMILIES={
   'administrative-documents-procedure':['uf519-document-administratiu','uf519-circuit-documental','uf519-registre-general-auxiliar','uf519-silenci-administratiu','uf519-resolucio-administrativa','uf519-informe','uf519-acta','uf519-certificat','uf519-memoria'],
   'commercial-documents-invoicing':['uf519-pressupost','uf519-comanda','uf519-albara','uf519-factura-rectificativa','uf519-factura-recapitulativa','uf519-verifactu','uf519-iva-repercutit-suportat','uf519-rebut'],
   'payroll-labour':['uf519-nomina','uf519-meritacions','uf519-deduccions','uf519-base-cotitzacio','uf519-salari-brut-net','uf519-ordre-treball'],
-  'administrative-software':['uf519-programari-facturacio','uf519-programari-nomines']
+  'administrative-software':['uf519-programari-facturacio','uf519-programari-nomines'],
+  'treasury-cash-inventory':['uf519-tresoreria','uf519-mitjans-pagament','uf519-arqueig-caixa','uf519-conciliacio-bancaria','uf519-fungible-no-fungible','uf519-stock-seguretat']
 };
 
-const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:28,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76};
+const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:28,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22};
 const errors=[];
 
 if(bank.version!==1)errors.push('version != 1');
-if(bank.count!==100)errors.push('count != 100');
-if(!Array.isArray(bank.entries)||bank.entries.length!==100)errors.push('entries != 100');
+if(bank.count!==106)errors.push('count != 106');
+if(!Array.isArray(bank.entries)||bank.entries.length!==106)errors.push('entries != 106');
 if(!Array.isArray(bank.groups)||bank.groups.length!==14)errors.push('groups != 14');
-if(!Array.isArray(bank.families)||bank.families.length!==16)errors.push('families != 16');
+if(!Array.isArray(bank.families)||bank.families.length!==17)errors.push('families != 17');
 if(!Array.isArray(bank.languages)||bank.languages.join(',')!=='ca,es')errors.push('languages must be ca,es');
 
 const ids=new Set();
@@ -95,8 +96,8 @@ for(const family of bank.families||[]){
   else if(JSON.stringify(family.entryIds)!==JSON.stringify(expected))errors.push('family order/membership mismatch '+family.id);
   assigned.push(...family.entryIds);
 }
-if(assigned.length!==100)errors.push('family assignments != 100');
-if(new Set(assigned).size!==100)errors.push('family assignments contain duplicates');
+if(assigned.length!==106)errors.push('family assignments != 106');
+if(new Set(assigned).size!==106)errors.push('family assignments contain duplicates');
 for(const id of ids){
   if(!assigned.includes(id))errors.push('unassigned concept '+id);
 }
@@ -116,8 +117,8 @@ for(const blockId of Object.keys(counts)){
 
 if(errors.length)throw new Error('CONCEPT_DICTIONARY_AUDIT=FAIL\n- '+errors.join('\n- '));
 console.log('CONCEPT_DICTIONARY_AUDIT=PASS');
-console.log('CONCEPTS=100');
+console.log('CONCEPTS=106');
 console.log('BLOCK_COUNTS='+JSON.stringify(counts));
 console.log('LANGUAGES=ca,es');
-console.log('CONCEPT_FAMILIES=16');
+console.log('CONCEPT_FAMILIES=17');
 console.log('FAMILY_ORDER='+bank.families.map(x=>x.id).join(' > '));
