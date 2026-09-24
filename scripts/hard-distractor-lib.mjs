@@ -2,8 +2,8 @@ import {readFile,readdir} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {detectCatalanLeakageInSpanish} from './content-quality-lib.mjs';
-import {composeHardQuestion} from '../site/js/hard-distractors.js';
-export {composeHardQuestion};
+import {composePracticeQuestion,composeHardQuestion} from '../site/js/hard-distractors.js';
+export {composePracticeQuestion,composeHardQuestion};
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const dataDir=path.join(root,'site','data');
