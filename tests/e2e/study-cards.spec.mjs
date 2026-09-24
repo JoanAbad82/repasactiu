@@ -1,18 +1,18 @@
 import {test,expect} from '@playwright/test';
 
-test('Tarjetas de memoria mostra selector bilingüe amb 914 targetes',async({page})=>{
+test('Tarjetas de memoria mostra selector bilingüe amb 926 targetes',async({page})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await expect(page.locator('html')).toHaveAttribute('lang','ca');
   await expect(page.getByRole('heading',{name:'Targetes de memòria'})).toBeVisible();
-  await expect(page.getByText('914 targetes disponibles')).toBeVisible();
+  await expect(page.getByText('926 targetes disponibles')).toBeVisible();
   await expect(page.locator('[data-study-block]')).toHaveCount(14);
   await expect(page.locator('[data-study-unit="unitat-1"] h2')).toHaveText('Unitat 1 — Organització empresarial');
 
   await page.locator('#language-es').click();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.getByRole('heading',{name:'Tarjetas de memoria'})).toBeVisible();
-  await expect(page.getByText('914 tarjetas disponibles')).toBeVisible();
+  await expect(page.getByText('926 tarjetas disponibles')).toBeVisible();
   await expect(page.locator('[data-study-unit="unitat-1"] h2')).toHaveText('Unidad 1 — Organización empresarial');
 });
 
@@ -22,21 +22,21 @@ test('els recomptes per bloc inclouen test + extra',async({page})=>{
   const expected={
     'bloc-1':'66','bloc-2':'86','bloc-3':'86','bloc-4':'76','bloc-5':'76',
     'unitat-2-bloc-1':'156','uf0518-bloc-1':'92','uf0518-bloc-2':'74','uf0518-bloc-3':'86',
-    'uf0519-bloc-1':'22','uf0519-bloc-2':'39','uf0519-bloc-3':'25','uf0519-bloc-4':'14','uf0519-bloc-5':'16'
+    'uf0519-bloc-1':'22','uf0519-bloc-2':'39','uf0519-bloc-3':'25','uf0519-bloc-4':'14','uf0519-bloc-5':'28'
   };
   for(const [id,count] of Object.entries(expected)){
     await expect(page.locator('[data-study-block="'+id+'"] [data-study-count]')).toHaveText(count);
   }
 });
 
-test('Tot el temari selecciona 914 targetes i inicia una baralla mixta',async({page})=>{
+test('Tot el temari selecciona 926 targetes i inicia una baralla mixta',async({page})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Targetes de memòria'}).click();
   await page.getByRole('button',{name:'Tot el temari'}).click();
-  await expect(page.locator('#study-selected-count')).toHaveText('914');
+  await expect(page.locator('#study-selected-count')).toHaveText('926');
   await page.getByRole('button',{name:'Començar repàs'}).click();
   await expect(page.locator('[data-study-card]')).toHaveCount(1);
-  await expect(page.locator('#study-card-progress')).toHaveText('1 / 914');
+  await expect(page.locator('#study-card-progress')).toHaveText('1 / 926');
   await expect(page.getByRole('button',{name:'Barrejar'})).toBeVisible();
 });
 
