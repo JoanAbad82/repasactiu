@@ -22,7 +22,7 @@ const EXPECTED={
   'uf0519-bloc-2':39,
   'uf0519-bloc-3':25,
   'uf0519-bloc-4':14,
-  'uf0519-bloc-5':16
+  'uf0519-bloc-5':28
 };
 
 const normalize=value=>String(value??'')
@@ -153,7 +153,7 @@ export async function runSemanticStudyCardsAudit(){
 
   const missingChanges=(manifest.changes||[]).map(x=>x.id).filter(id=>!seenChanges.has(id));
   if(missingChanges.length)errors.push('manifest IDs inexistents: '+missingChanges.join(', '));
-  if(cards.length!==914)errors.push('targetes efectives: '+cards.length+'/914');
+  if(cards.length!==926)errors.push('targetes efectives: '+cards.length+'/926');
   if(new Set(cards.map(c=>c.id)).size!==cards.length)errors.push('IDs efectius duplicats');
 
   const countByBlock={};
