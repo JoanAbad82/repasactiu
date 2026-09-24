@@ -1,1 +1,269 @@
-{"blockId":"uf0519-bloc-5","questions":{"uf0519-b5-001":{"ca":["Fitxes de vacances com a criteri general","Únicament fitxes d’arxiu mort en la gestió habitual","Fitxes de reunions"],"es":["Fichas de vacaciones como criterio general","Únicamente fichas de archivo muerto en la gestión habitual","Fichas de reuniones"]},"uf0519-b5-002":{"ca":["Nòmines, convenis i contractes com a criteri general","Actes, certificats i sentències en la gestió habitual","Rebuts de salari"],"es":["Nóminas, convenios y contratos como criterio general","Actas, certificados y sentencias en la gestión habitual","Recibos de salario"]},"uf0519-b5-003":{"ca":["Torns de vacances com a criteri general","Únicament actes de reunió en la gestió habitual","Accessos a carpetes"],"es":["Turnos de vacaciones como criterio general","Únicamente actas de reunión en la gestión habitual","Accesos a carpetas"]},"uf0519-b5-004":{"ca":["Contrasenyes de correu com a criteri general","Únicament assistència a reunions en la gestió habitual","Inventari de mobiliari"],"es":["Contraseñas de correo como criterio general","Únicamente asistencia a reuniones en la gestión habitual","Inventario de mobiliario"]},"uf0519-b5-005":{"ca":["Modificar unilateralment qualsevol condició laboral com a criteri general","Decidir sense supervisió els criteris jurídics en la gestió habitual","Eliminar els contractes després de generar la nòmina"],"es":["Modificar unilateralmente cualquier condición laboral como criterio general","Decidir sin supervisión los criterios jurídicos en la gestión habitual","Eliminar los contratos después de generar la nómina"]},"uf0519-b5-006":{"ca":["Resoldre’ls sense consultar ningú com a criteri general","Ignorar-los i continuar el procés en la gestió habitual","Convertir-los en una factura"],"es":["Resolverlos sin consultar a nadie como criterio general","Ignorarlos y continuar el proceso en la gestión habitual","Convertirlos en una factura"]},"uf0519-b5-007":{"ca":["Que qualsevol persona pugui editar els fitxers com a criteri general","Que els documents no tinguin contrasenya en la gestió habitual","Que totes les carpetes siguin públiques"],"es":["Que cualquier persona pueda editar los archivos como criterio general","Que los documentos no tengan contraseña en la gestión habitual","Que todas las carpetas sean públicas"]},"uf0519-b5-008":{"ca":["Eliminar el nom del fitxer com a criteri general","Evitar qualsevol registre de canvis en la gestió habitual","Compartir el document sense control"],"es":["Eliminar el nombre del archivo como criterio general","Evitar cualquier registro de cambios en la gestión habitual","Compartir el documento sin control"]},"uf0519-b5-009":{"ca":["Fer servir noms aleatoris com a criteri general","Guardar-ho tot a l’escriptori en la gestió habitual","Duplicar cada fitxer en carpetes sense criteri"],"es":["Usar nombres aleatorios como criterio general","Guardarlo todo en el escritorio en la gestión habitual","Duplicar cada archivo en carpetas sin criterio"]},"uf0519-b5-010":{"ca":["Comprovar el color del document com a criteri general","Enviar primer i revisar després en la gestió habitual","Eliminar annexos per reduir mida"],"es":["Comprobar el color del documento como criterio general","Enviar primero y revisar después en la gestión habitual","Eliminar anexos para reducir tamaño"]}}}
+{
+  "blockId": "uf0519-bloc-5",
+  "questions": {
+    "uf0519-b5-001": {
+      "ca": [
+        "Fitxes de vacances com a criteri general",
+        "Únicament fitxes d’arxiu mort en la gestió habitual",
+        "Fitxes de reunions"
+      ],
+      "es": [
+        "Fichas de vacaciones como criterio general",
+        "Únicamente fichas de archivo muerto en la gestión habitual",
+        "Fichas de reuniones"
+      ]
+    },
+    "uf0519-b5-002": {
+      "ca": [
+        "Nòmines, convenis i contractes com a criteri general",
+        "Actes, certificats i sentències en la gestió habitual",
+        "Rebuts de salari"
+      ],
+      "es": [
+        "Nóminas, convenios y contratos como criterio general",
+        "Actas, certificados y sentencias en la gestión habitual",
+        "Recibos de salario"
+      ]
+    },
+    "uf0519-b5-003": {
+      "ca": [
+        "Torns de vacances com a criteri general",
+        "Únicament actes de reunió en la gestió habitual",
+        "Accessos a carpetes"
+      ],
+      "es": [
+        "Turnos de vacaciones como criterio general",
+        "Únicamente actas de reunión en la gestión habitual",
+        "Accesos a carpetas"
+      ]
+    },
+    "uf0519-b5-004": {
+      "ca": [
+        "Contrasenyes de correu com a criteri general",
+        "Únicament assistència a reunions en la gestió habitual",
+        "Inventari de mobiliari"
+      ],
+      "es": [
+        "Contraseñas de correo como criterio general",
+        "Únicamente asistencia a reuniones en la gestión habitual",
+        "Inventario de mobiliario"
+      ]
+    },
+    "uf0519-b5-005": {
+      "ca": [
+        "Modificar unilateralment qualsevol condició laboral com a criteri general",
+        "Decidir sense supervisió els criteris jurídics en la gestió habitual",
+        "Eliminar els contractes després de generar la nòmina"
+      ],
+      "es": [
+        "Modificar unilateralmente cualquier condición laboral como criterio general",
+        "Decidir sin supervisión los criterios jurídicos en la gestión habitual",
+        "Eliminar los contratos después de generar la nómina"
+      ]
+    },
+    "uf0519-b5-006": {
+      "ca": [
+        "Resoldre’ls sense consultar ningú com a criteri general",
+        "Ignorar-los i continuar el procés en la gestió habitual",
+        "Convertir-los en una factura"
+      ],
+      "es": [
+        "Resolverlos sin consultar a nadie como criterio general",
+        "Ignorarlos y continuar el proceso en la gestión habitual",
+        "Convertirlos en una factura"
+      ]
+    },
+    "uf0519-b5-007": {
+      "ca": [
+        "Que qualsevol persona pugui editar els fitxers com a criteri general",
+        "Que els documents no tinguin contrasenya en la gestió habitual",
+        "Que totes les carpetes siguin públiques"
+      ],
+      "es": [
+        "Que cualquier persona pueda editar los archivos como criterio general",
+        "Que los documentos no tengan contraseña en la gestión habitual",
+        "Que todas las carpetas sean públicas"
+      ]
+    },
+    "uf0519-b5-008": {
+      "ca": [
+        "Eliminar el nom del fitxer com a criteri general",
+        "Evitar qualsevol registre de canvis en la gestió habitual",
+        "Compartir el document sense control"
+      ],
+      "es": [
+        "Eliminar el nombre del archivo como criterio general",
+        "Evitar cualquier registro de cambios en la gestión habitual",
+        "Compartir el documento sin control"
+      ]
+    },
+    "uf0519-b5-009": {
+      "ca": [
+        "Fer servir noms aleatoris com a criteri general",
+        "Guardar-ho tot a l’escriptori en la gestió habitual",
+        "Duplicar cada fitxer en carpetes sense criteri"
+      ],
+      "es": [
+        "Usar nombres aleatorios como criterio general",
+        "Guardarlo todo en el escritorio en la gestión habitual",
+        "Duplicar cada archivo en carpetas sin criterio"
+      ]
+    },
+    "uf0519-b5-010": {
+      "ca": [
+        "Comprovar el color del document com a criteri general",
+        "Enviar primer i revisar després en la gestió habitual",
+        "Eliminar annexos per reduir mida"
+      ],
+      "es": [
+        "Comprobar el color del documento como criterio general",
+        "Enviar primero y revisar después en la gestión habitual",
+        "Eliminar anexos para reducir tamaño"
+      ]
+    },
+    "uf0519-b5-011": {
+      "ca": [
+        "Controlar només cobraments, sense registrar pagaments",
+        "Gestionar exclusivament les existències del magatzem",
+        "Registrar únicament factures pendents"
+      ],
+      "es": [
+        "Controlar solo cobros, sin registrar pagos",
+        "Gestionar exclusivamente las existencias del almacén",
+        "Registrar únicamente facturas pendientes"
+      ]
+    },
+    "uf0519-b5-012": {
+      "ca": [
+        "Targetes, pagarés i lletres de canvi exclusivament",
+        "Factures, albarans i comandes",
+        "Nòmines, certificats i informes"
+      ],
+      "es": [
+        "Tarjetas, pagarés y letras de cambio exclusivamente",
+        "Facturas, albaranes y pedidos",
+        "Nóminas, certificados e informes"
+      ]
+    },
+    "uf0519-b5-013": {
+      "ca": [
+        "Efectiu, xecs i rebuts com a únics mitjans",
+        "Factures rectificatives, comandes i albarans",
+        "Certificats, actes i informes"
+      ],
+      "es": [
+        "Efectivo, cheques y recibos como únicos medios",
+        "Facturas rectificativas, pedidos y albaranes",
+        "Certificados, actas e informes"
+      ]
+    },
+    "uf0519-b5-014": {
+      "ca": [
+        "Només una anotació interna sense import",
+        "Una còpia de l’organigrama",
+        "Una fitxa de magatzem"
+      ],
+      "es": [
+        "Solo una anotación interna sin importe",
+        "Una copia del organigrama",
+        "Una ficha de almacén"
+      ]
+    },
+    "uf0519-b5-015": {
+      "ca": [
+        "Per substituir l’arqueig i la conciliació",
+        "Per registrar només les operacions en efectiu",
+        "Per controlar exclusivament el material fungible"
+      ],
+      "es": [
+        "Para sustituir el arqueo y la conciliación",
+        "Para registrar solo las operaciones en efectivo",
+        "Para controlar exclusivamente el material fungible"
+      ]
+    },
+    "uf0519-b5-016": {
+      "ca": [
+        "Comparar l’extracte bancari amb els registres interns",
+        "Comprovar entrades i sortides de magatzem",
+        "Revisar els justificants sense comptar els diners"
+      ],
+      "es": [
+        "Comparar el extracto bancario con los registros internos",
+        "Comprobar entradas y salidas de almacén",
+        "Revisar los justificantes sin contar el dinero"
+      ]
+    },
+    "uf0519-b5-017": {
+      "ca": [
+        "Els diners reals de caixa amb el saldo registrat",
+        "Les entrades de magatzem amb les factures",
+        "Els pagarés amb les lletres de canvi"
+      ],
+      "es": [
+        "El dinero real de caja con el saldo registrado",
+        "Las entradas de almacén con las facturas",
+        "Los pagarés con las letras de cambio"
+      ]
+    },
+    "uf0519-b5-018": {
+      "ca": [
+        "Deixar les claus visibles per agilitzar el treball",
+        "Compartir justificants sense restriccions",
+        "Comprovar només el saldo al final de l’any"
+      ],
+      "es": [
+        "Dejar las claves visibles para agilizar el trabajo",
+        "Compartir justificantes sin restricciones",
+        "Comprobar solo el saldo al final del año"
+      ]
+    },
+    "uf0519-b5-019": {
+      "ca": [
+        "Mantenir el magatzem sempre al màxim de capacitat",
+        "Evitar qualsevol registre d’entrades i sortides",
+        "Controlar només els equips no fungibles"
+      ],
+      "es": [
+        "Mantener el almacén siempre al máximo de capacidad",
+        "Evitar cualquier registro de entradas y salidas",
+        "Controlar solo los equipos no fungibles"
+      ]
+    },
+    "uf0519-b5-020": {
+      "ca": [
+        "Fungible = durador; no fungible = consumible",
+        "Tots dos són sempre consumibles",
+        "Tots dos són sempre equips duradors"
+      ],
+      "es": [
+        "Fungible = duradero; no fungible = consumible",
+        "Ambos son siempre consumibles",
+        "Ambos son siempre equipos duraderos"
+      ]
+    },
+    "uf0519-b5-021": {
+      "ca": [
+        "Només el valor econòmic total",
+        "Només les sortides sense saldo",
+        "Només les entrades sense registrar consum"
+      ],
+      "es": [
+        "Solo el valor económico total",
+        "Solo las salidas sin saldo",
+        "Solo las entradas sin registrar consumo"
+      ]
+    },
+    "uf0519-b5-022": {
+      "ca": [
+        "Eliminar el stock de seguretat i reposar tard",
+        "Fer inventari només quan hi ha una ruptura d’estoc",
+        "No corregir diferències per conservar l’històric"
+      ],
+      "es": [
+        "Eliminar el stock de seguridad y reponer tarde",
+        "Hacer inventario solo cuando hay una rotura de stock",
+        "No corregir diferencias para conservar el histórico"
+      ]
+    }
+  }
+}
