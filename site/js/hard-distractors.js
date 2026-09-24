@@ -52,13 +52,14 @@ export function composePracticeQuestion(question,hardRecord,rng=Math.random){
   const candidates=hardRecord.ca.map((value,index)=>({
     ca:value,
     es:hardRecord.es[index],
+    absolute:hasGiveawayAbsolute(value)||hasGiveawayAbsolute(hardRecord.es[index]),
     tie:rng()
   })).filter(candidate=>{
     const candidateCa=normalizeOption(candidate.ca);
     const candidateEs=normalizeOption(candidate.es);
     return candidateCa!==correctCaNormalized&&candidateEs!==correctEsNormalized&&
       candidateCa!==retainedCa&&candidateEs!==retainedEs;
-  }).sort((a,b)=>a.tie-b.tie);
+  }).sort((a,b)=>Number(a.absolute)-Number(b.absolute) || a.tie-b.tie);
 
   const selected=[];
   for(const candidate of candidates){
