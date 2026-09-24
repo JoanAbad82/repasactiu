@@ -17,3 +17,9 @@ test('audit:full executa explícitament l auditoria hard',()=>{
   assert.equal(pkg.scripts['test:audit:hard'],'node scripts/hard-distractor-lib.mjs');
   assert.match(pkg.scripts['audit:full'],/npm run test:audit:hard/);
 });
+
+
+test('audit:full inclou l auditoria del nivell estàndard reforçat',()=>{
+  assert.equal(pkg.scripts['test:audit:standard-distractors'],'node scripts/audit-standard-distractors.mjs');
+  assert.match(pkg.scripts['audit:full'],/npm run test:audit:standard-distractors/);
+});
