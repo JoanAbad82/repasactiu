@@ -1,1 +1,370 @@
-{"blockId":"bloc-3","blockTitle":"Estructura de l’empresa i organigrames","questions":[{"id":"b3-031","block":"bloc-3","topic":"Estructura i organització","question":"En una empresa ningú té clar qui decideix, qui és responsable de cada activitat ni de qui depèn cada equip. Quin element organitzatiu està especialment mal definit?","options":["L’estructura de l’empresa","La comercialització","La política de preus","La forma jurídica"],"correct":0,"explanation":"L’estructura defineix la distribució de tasques, responsabilitats i autoritat, incloent qui decideix i les relacions de dependència."},{"id":"b3-032","block":"bloc-3","topic":"Estructura i organització","question":"Una pastisseria distribueix elaboració, atenció al client i gestió de comandes entre persones diferents per evitar confusions. Quin concepte aplica principalment?","options":["Organització","Descentralització necessàriament","Jerarquia de rang","Publicitat"],"correct":0,"explanation":"Organitzar és ordenar i coordinar el treball, assignant tasques i responsabilitats i distribuint recursos."},{"id":"b3-033","block":"bloc-3","topic":"Principis d’organització","question":"Un supervisor pot donar instruccions, prendre decisions i dirigir el treball de l’equip, assumint responsabilitat pels resultats. Quin principi és?","options":["Participació","Autoritat","Especialització","Coordinació"],"correct":1,"explanation":"El principi d’autoritat vincula la capacitat de dirigir i decidir amb la responsabilitat sobre les decisions i resultats."},{"id":"b3-034","block":"bloc-3","topic":"Principis d’organització","question":"Una empresa reorganitza processos per assolir els objectius utilitzant millor el temps i els recursos disponibles. Quin principi descriu millor aquesta orientació?","options":["Eficiència","Delegació","Publicitat i transparència","Unitat de direcció"],"correct":0,"explanation":"El principi d’eficiència busca assolir els objectius aprofitant adequadament els recursos disponibles."},{"id":"b3-035","block":"bloc-3","topic":"Principis d’organització","question":"Diversos equips reben instruccions contradictòries sobre el mateix projecte. Quin principi pretén evitar especialment aquesta situació?","options":["Especialització","Unitat de direcció","Gestió de la despesa","Participació"],"correct":1,"explanation":"La unitat de direcció busca que les activitats orientades a un mateix objectiu segueixin una direcció coherent."},{"id":"b3-036","block":"bloc-3","topic":"Principis d’organització","question":"Recepció i neteja d’un hotel intercanvien informació perquè les habitacions lliures es preparin i puguin tornar a assignar-se sense errors. Quin principi és central?","options":["Coordinació","Descentralització","Autoritat","Publicitat"],"correct":0,"explanation":"La coordinació fa que persones, tasques i departaments treballin de manera conjunta i ajuda a evitar errors, duplicitats i problemes de comunicació."},{"id":"b3-037","block":"bloc-3","topic":"Principis d’organització","question":"Un responsable encarrega a una persona experimentada l’organització de les reserves, però continua supervisant el resultat general. Què ha fet?","options":["Descentralitzar tota l’empresa","Delegar una tasca","Eliminar la seva responsabilitat","Aplicar exclusivament participació"],"correct":1,"explanation":"Delegar és assignar tasques, responsabilitats o capacitat de decisió, però qui delega manté la responsabilitat general."},{"id":"b3-038","block":"bloc-3","topic":"Principis d’organització","question":"Una direcció permet que responsables de diferents àrees prenguin determinades decisions sense haver d’esperar sempre l’autorització del nivell central. Quin principi aplica?","options":["Descentralització","Delegació puntual necessàriament","Unitat de direcció","Publicitat"],"correct":0,"explanation":"La descentralització reparteix capacitat de decisió entre diferents nivells o àrees de l’organització."},{"id":"b3-039","block":"bloc-3","topic":"Principis d’organització","question":"Abans d’una compra, un departament comprova que la despesa sigui necessària i adequada als recursos disponibles. Quin principi hi està més relacionat?","options":["Gestió de la despesa","Participació","Autoritat","Especialització"],"correct":0,"explanation":"La gestió de la despesa implica utilitzar i controlar de manera adequada els recursos econòmics."},{"id":"b3-040","block":"bloc-3","topic":"Principis d’organització","question":"Una tasca tècnica complexa s’assigna a la persona amb més coneixements i experiència específica. Quin principi es reflecteix?","options":["Especialització","Coordinació","Publicitat i transparència","Descentralització"],"correct":0,"explanation":"L’especialització assigna funcions tenint en compte coneixements, preparació i competències específiques."},{"id":"b3-041","block":"bloc-3","topic":"Principis d’organització","question":"Els conductors proposen canviar rutes perquè coneixen de primera mà els desplaçaments innecessaris. La direcció incorpora les seves idees al procés de millora. Quin principi és?","options":["Autoritat","Participació","Delegació","Unitat de direcció"],"correct":1,"explanation":"La participació permet als treballadors aportar idees, opinions i propostes de millora relacionades amb la seva feina."},{"id":"b3-042","block":"bloc-3","topic":"Principis d’organització","question":"Una organització facilita que la informació rellevant sobre la seva actuació sigui accessible i comprensible. Quin principi representa?","options":["Publicitat i transparència","Eficiència","Especialització","Delegació"],"correct":0,"explanation":"El principi de publicitat i transparència està relacionat amb facilitar informació i actuar de manera clara."},{"id":"b3-043","block":"bloc-3","topic":"Organització formal i informal","question":"Dues persones de departaments diferents s’ajuden habitualment perquè han creat una relació de confiança, tot i que aquesta relació no figura a l’organigrama. Quin tipus d’organització és?","options":["Formal","Informal","Vertical","Descentralitzada necessàriament"],"correct":1,"explanation":"L’organització informal sorgeix espontàniament de relacions personals i de confiança i no queda definida oficialment ni sol aparèixer a l’organigrama."},{"id":"b3-044","block":"bloc-3","topic":"Organització formal i informal","question":"Quina informació és pròpia de l’organització formal?","options":["Relacions personals espontànies","Càrrecs, funcions, responsabilitats i jerarquia oficial","Afinitats entre companys","Xarxes de confiança no definides"],"correct":1,"explanation":"L’organització formal defineix oficialment llocs, funcions, responsabilitats i relacions jeràrquiques."},{"id":"b3-045","block":"bloc-3","topic":"Organització formal i informal","question":"Quina afirmació descriu millor la relació entre organització formal i informal?","options":["La informal substitueix sempre la formal","Poden coexistir; la informal pot facilitar comunicació i cooperació sense formar part de l’estructura oficial","La formal només existeix en empreses públiques","La informal s’ha de representar obligatòriament a l’organigrama"],"correct":1,"explanation":"Les dues poden coexistir: la formal és l’estructura oficial i la informal pot afavorir comunicació, cooperació i resolució de problemes."},{"id":"b3-046","block":"bloc-3","topic":"Organigrames","question":"Una persona nova vol saber quins departaments existeixen, els nivells jeràrquics i de qui depèn cada lloc. Quin instrument li serà més útil?","options":["Organigrama","Factura","Pressupost","Pla de màrqueting"],"correct":0,"explanation":"L’organigrama representa gràficament l’estructura, els departaments, els nivells i les relacions de dependència."},{"id":"b3-047","block":"bloc-3","topic":"Organigrames","question":"Un organigrama representa una estructura de fa tres anys i ja no coincideix amb els departaments actuals. Quin requisit d’un bon organigrama incompleix principalment?","options":["Actualització","Uniformitat tipogràfica exclusivament","Participació","Descentralització"],"correct":0,"explanation":"Un bon organigrama ha de ser clar, exacte, uniforme i estar actualitzat."},{"id":"b3-048","block":"bloc-3","topic":"Organigrames","question":"En quin tipus d’organigrama els nivells jeràrquics es disposen habitualment de dalt cap avall?","options":["Horitzontal","Radial","Vertical","Mixt"],"correct":2,"explanation":"L’organigrama vertical representa els nivells de superior a inferior, habitualment de dalt cap avall."},{"id":"b3-049","block":"bloc-3","topic":"Organigrames","question":"Si la jerarquia principal es representa d’esquerra a dreta, quin tipus d’organigrama és?","options":["Vertical","Horitzontal","Radial","Circular només si no hi ha jerarquia"],"correct":1,"explanation":"L’organigrama horitzontal disposa els nivells jeràrquics d’esquerra a dreta."},{"id":"b3-050","block":"bloc-3","topic":"Organigrames","question":"La direcció apareix al centre i els altres nivells es distribueixen al seu voltant. Quin tipus és?","options":["Mixt","Horitzontal","Radial","Vertical"],"correct":2,"explanation":"L’organigrama radial o circular situa l’autoritat principal al centre i distribueix els altres nivells al voltant."},{"id":"b3-051","block":"bloc-3","topic":"Organigrames","question":"Una empresa combina una estructura vertical en una àrea amb una representació horitzontal en una altra. Quin tipus d’organigrama descriu millor el conjunt?","options":["Mixt","Radial","Vertical pur","Informal"],"correct":0,"explanation":"L’organigrama mixt combina característiques de més d’un tipus de representació."},{"id":"b3-052","block":"bloc-3","topic":"Organigrames","question":"Quina és una limitació real de l’organigrama, encara que estigui ben dissenyat?","options":["No pot mostrar cap departament","No reflecteix necessàriament les relacions informals","No pot representar dependències","No pot tenir més d’un nivell"],"correct":1,"explanation":"Els organigrames representen l’estructura formal i poden ometre relacions informals que existeixen en la pràctica."},{"id":"b3-053","block":"bloc-3","topic":"Organigrames","question":"Per què un organigrama pot resultar insuficient per entendre exactament què fa cada lloc?","options":["Perquè resumeix l’estructura i no explica amb detall totes les funcions de cada lloc","Perquè no mostra mai cap relació jeràrquica","Perquè només serveix per representar clients","Perquè representa exclusivament relacions informals"],"correct":0,"explanation":"Una limitació de l’organigrama és que simplifica l’organització i no detalla totes les funcions específiques de cada lloc."},{"id":"b3-054","block":"bloc-3","topic":"Estructura i organització","question":"Quina seqüència reflecteix millor una organització ben definida?","options":["Assignar responsabilitats → distribuir recursos → coordinar persones i departaments → facilitar objectius","Eliminar dependències → duplicar tasques → evitar coordinació → repartir recursos al final","Definir només salaris → crear relacions informals → eliminar autoritat → fixar publicitat","Centralitzar tota decisió → suprimir especialització → evitar informació → augmentar nivells"],"correct":0,"explanation":"Una bona organització assigna tasques i responsabilitats, distribueix recursos, coordina persones i departaments i facilita el compliment dels objectius."},{"id":"b3-055","block":"bloc-3","topic":"Principis d’organització","question":"Un responsable assigna una decisió concreta a una persona, però conserva la responsabilitat general. En canvi, l’empresa reparteix de manera estable decisions entre diferents nivells. Quins conceptes corresponen, respectivament?","options":["Descentralització i delegació","Delegació i descentralització","Coordinació i especialització","Autoritat i participació"],"correct":1,"explanation":"La delegació transfereix tasques o capacitat de decisió mantenint la responsabilitat general; la descentralització distribueix capacitat de decisió entre nivells o àrees."},{"id":"b3-056","block":"bloc-3","topic":"Organització formal i informal","question":"Un organigrama mostra una dependència jeràrquica, però a la pràctica una persona consulta sovint una companya d’un altre departament per confiança i experiència. Quina lectura és més correcta?","options":["L’organigrama és necessàriament erroni","La dependència formal i la relació informal poden coexistir","La relació informal passa automàticament a ser jeràrquica","La companya d’un altre departament adquireix autoritat formal"],"correct":1,"explanation":"L’organigrama representa les relacions formals; les relacions informals poden coexistir sense modificar per si soles l’estructura oficial."}]}
+{
+  "blockId": "bloc-3",
+  "blockTitle": "Estructura de l’empresa i organigrames",
+  "questions": [
+    {
+      "id": "b3-063",
+      "block": "bloc-3",
+      "topic": "Unitat de direcció",
+      "question": "Producció, vendes i administració treballen per un mateix objectiu i segueixen una planificació comuna per evitar instruccions contradictòries. Quin principi és?",
+      "options": [
+        "Autoritat",
+        "Gestió de la despesa",
+        "Unitat de direcció",
+        "Participació"
+      ],
+      "correct": 2,
+      "explanation": "La unitat de direcció estableix que persones i departaments que persegueixen un mateix objectiu han de seguir una direcció i planificació comunes."
+    },
+    {
+      "id": "b3-057",
+      "block": "bloc-3",
+      "topic": "Principi de coordinació",
+      "question": "En un hotel, recepció i neteja han d’intercanviar informació sobre les habitacions disponibles per evitar esperes i errors. Quin principi s’està aplicant?",
+      "options": [
+        "Coordinació",
+        "Delegació",
+        "Especialització",
+        "Gestió de la despesa"
+      ],
+      "correct": 0,
+      "explanation": "La coordinació fa que persones, tasques i departaments treballin de manera conjunta i ajuda a evitar errors, duplicitats i problemes de comunicació."
+    },
+    {
+      "id": "b3-058",
+      "block": "bloc-3",
+      "topic": "Principi de delegació",
+      "question": "Un responsable encarrega a una treballadora experimentada l’organització de les reserves, però continua supervisant el resultat. Quin principi descriu la situació?",
+      "options": [
+        "Descentralització",
+        "Delegació",
+        "Publicitat i transparència",
+        "Unitat de direcció"
+      ],
+      "correct": 1,
+      "explanation": "Delegar és assignar tasques, responsabilitats o capacitat de decisió a una altra persona, mentre qui delega manté la responsabilitat general sobre el resultat."
+    },
+    {
+      "id": "b3-071",
+      "block": "bloc-3",
+      "topic": "Principi de delegació",
+      "question": "Una responsable encarrega a una persona experimentada que organitzi un torn i li permeti prendre decisions operatives, però continua responent pel resultat final. Quin principi aplica?",
+      "options": [
+        "Delegació",
+        "Descentralització",
+        "Especialització",
+        "Publicitat i transparència"
+      ],
+      "correct": 0,
+      "explanation": "Delegar és assignar tasques, responsabilitats o capacitat de decisió a una altra persona mantenint la responsabilitat general sobre el resultat."
+    },
+    {
+      "id": "b3-059",
+      "block": "bloc-3",
+      "topic": "Principi de descentralització",
+      "question": "La direcció d’una cadena fixa les normes generals, però cada responsable de botiga pot adaptar algunes promocions a les necessitats locals. Quin principi hi ha?",
+      "options": [
+        "Autoritat",
+        "Coordinació",
+        "Descentralització",
+        "Gestió de la despesa"
+      ],
+      "correct": 2,
+      "explanation": "La descentralització distribueix la capacitat de decidir entre diferents nivells o àrees i permet actuar amb més rapidesa i autonomia."
+    },
+    {
+      "id": "b3-072",
+      "block": "bloc-3",
+      "topic": "Principi de descentralització",
+      "question": "La seu central fixa criteris comuns, però cada oficina territorial pot resoldre determinades decisions sense demanar autorització a la direcció central. Quin principi descriu aquesta estructura?",
+      "options": [
+        "Unitat de direcció",
+        "Descentralització",
+        "Delegació puntual",
+        "Especialització"
+      ],
+      "correct": 1,
+      "explanation": "La descentralització distribueix la capacitat de prendre decisions entre diferents nivells o àrees i facilita més rapidesa i autonomia."
+    },
+    {
+      "id": "b3-060",
+      "block": "bloc-3",
+      "topic": "Gestió de la despesa",
+      "question": "Una oficina redueix el consum de paper, digitalitza documents i imprimeix només quan cal, sense perjudicar la qualitat. Quin principi aplica?",
+      "options": [
+        "Participació",
+        "Unitat de direcció",
+        "Especialització",
+        "Gestió de la despesa"
+      ],
+      "correct": 3,
+      "explanation": "La gestió de la despesa busca utilitzar bé els recursos econòmics, evitar costos innecessaris i mantenir la qualitat del treball."
+    },
+    {
+      "id": "b3-073",
+      "block": "bloc-3",
+      "topic": "Principi d’especialització",
+      "question": "En una empresa, cada persona treballa principalment en tasques adaptades als seus coneixements i habilitats. Quin avantatge associa el temari a aquest criteri?",
+      "options": [
+        "Reduir la necessitat de coordinació entre àrees",
+        "Eliminar les responsabilitats compartides",
+        "Millorar la productivitat i la qualitat del treball",
+        "Concentrar totes les decisions en la direcció"
+      ],
+      "correct": 2,
+      "explanation": "L’especialització assigna tasques segons coneixements, habilitats i experiència, i pot millorar la productivitat i la qualitat."
+    },
+    {
+      "id": "b3-061",
+      "block": "bloc-3",
+      "topic": "Principi de participació",
+      "question": "Els repartidors proposen canvis en les rutes perquè coneixen els problemes del dia a dia i la direcció escolta les seves idees. Quin principi destaca?",
+      "options": [
+        "Participació",
+        "Autoritat",
+        "Descentralització",
+        "Publicitat i transparència"
+      ],
+      "correct": 0,
+      "explanation": "La participació implica tenir en compte les idees, opinions i propostes de les persones treballadores en aspectes relacionats amb la seva feina."
+    },
+    {
+      "id": "b3-080",
+      "block": "bloc-3",
+      "topic": "Principi de participació",
+      "question": "Abans de canviar un procediment de repartiment, la direcció demana propostes als conductors que l’apliquen cada dia. Quin principi està promovent?",
+      "options": [
+        "Autoritat",
+        "Participació",
+        "Delegació",
+        "Gestió de la despesa"
+      ],
+      "correct": 1,
+      "explanation": "La participació permet que les persones treballadores aportin idees, opinions i propostes de millora relacionades amb la seva feina."
+    },
+    {
+      "id": "b3-062",
+      "block": "bloc-3",
+      "topic": "Publicitat i transparència",
+      "question": "L’empresa canvia els horaris i comunica oficialment la data d’entrada en vigor a totes les persones afectades. Quin principi reflecteix millor?",
+      "options": [
+        "Eficiència",
+        "Publicitat i transparència",
+        "Delegació",
+        "Especialització"
+      ],
+      "correct": 1,
+      "explanation": "La publicitat i transparència exigeixen comunicar de manera clara i accessible les decisions i informacions que afecten les persones de l’organització."
+    },
+    {
+      "id": "b3-079",
+      "block": "bloc-3",
+      "topic": "Publicitat i transparència",
+      "question": "L’empresa modifica l’horari i publica una comunicació clara amb la data d’entrada en vigor per a totes les persones afectades. Quin principi aplica principalment?",
+      "options": [
+        "Publicitat i transparència",
+        "Gestió de la despesa",
+        "Especialització",
+        "Delegació"
+      ],
+      "correct": 0,
+      "explanation": "Publicitat i transparència implica comunicar de manera clara i accessible les decisions i informacions que afecten les persones de l’organització."
+    },
+    {
+      "id": "b3-075",
+      "block": "bloc-3",
+      "topic": "Organització formal",
+      "question": "La direcció aprova un document que defineix càrrecs, responsabilitats i dependències jeràrquiques. Quin tipus d’organització està establint?",
+      "options": [
+        "Organització formal",
+        "Organització informal",
+        "Relació espontània",
+        "Participació voluntària"
+      ],
+      "correct": 0,
+      "explanation": "L’organització formal és l’estructura oficial que defineix càrrecs, funcions, responsabilitats i relacions jeràrquiques."
+    },
+    {
+      "id": "b3-006",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Quina diferència bàsica hi ha entre organització formal i informal?",
+      "options": [
+        "La formal és oficial i planificada; la informal sorgeix espontàniament de les relacions personals",
+        "La formal és sempre temporal i la informal sempre legal",
+        "La formal només existeix en empreses públiques",
+        "La informal sempre apareix a l’organigrama"
+      ],
+      "correct": 0,
+      "explanation": "La formal correspon a l’estructura oficial de l’empresa; la informal neix de relacions personals i de confiança."
+    },
+    {
+      "id": "b3-017",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Què és l’organització formal?",
+      "options": [
+        "L’estructura oficial definida per l’empresa, amb càrrecs, funcions, responsabilitats i jerarquia",
+        "Les relacions espontànies d’amistat",
+        "Una xarxa social externa",
+        "Un grup sense cap relació laboral"
+      ],
+      "correct": 0,
+      "explanation": "La formal és l’organització oficial i planificada de l’empresa."
+    },
+    {
+      "id": "b3-018",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "On es representa habitualment l’organització formal?",
+      "options": [
+        "En l’organigrama",
+        "Només en converses informals",
+        "En el correu personal dels treballadors",
+        "En anuncis publicitaris"
+      ],
+      "correct": 0,
+      "explanation": "L’organigrama és la representació gràfica habitual de l’estructura formal."
+    },
+    {
+      "id": "b3-019",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Com sorgeix l’organització informal?",
+      "options": [
+        "De manera espontània a partir de relacions personals, confiança i afinitats",
+        "Per decret en l’organigrama",
+        "Només per decisió judicial",
+        "Sempre per contracte escrit"
+      ],
+      "correct": 0,
+      "explanation": "La informal sorgeix espontàniament de les relacions personals entre membres de l’organització."
+    },
+    {
+      "id": "b3-020",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Quin efecte positiu pot tenir l’organització informal?",
+      "options": [
+        "Facilitar la comunicació, la cooperació i la resolució de problemes",
+        "Eliminar la comunicació",
+        "Substituir obligatòriament l’organització formal",
+        "Impedir qualsevol cooperació"
+      ],
+      "correct": 0,
+      "explanation": "Les relacions informals poden facilitar comunicació, cooperació i solució de problemes."
+    },
+    {
+      "id": "b3-021",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "L’organització informal apareix normalment a l’organigrama oficial?",
+      "options": [
+        "No",
+        "Sí, sempre i completament",
+        "Només si és una S.A.",
+        "Només en empreses públiques"
+      ],
+      "correct": 0,
+      "explanation": "L’organigrama reflecteix sobretot l’organització formal, no totes les relacions informals."
+    },
+    {
+      "id": "b3-043",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Dues persones de departaments diferents s’ajuden habitualment perquè han creat una relació de confiança, tot i que aquesta relació no figura a l’organigrama. Quin tipus d’organització és?",
+      "options": [
+        "Formal",
+        "Informal",
+        "Vertical",
+        "Descentralitzada necessàriament"
+      ],
+      "correct": 1,
+      "explanation": "L’organització informal sorgeix espontàniament de relacions personals i de confiança i no queda definida oficialment ni sol aparèixer a l’organigrama."
+    },
+    {
+      "id": "b3-044",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Quina informació és pròpia de l’organització formal?",
+      "options": [
+        "Relacions personals espontànies",
+        "Càrrecs, funcions, responsabilitats i jerarquia oficial",
+        "Afinitats entre companys",
+        "Xarxes de confiança no definides"
+      ],
+      "correct": 1,
+      "explanation": "L’organització formal defineix oficialment llocs, funcions, responsabilitats i relacions jeràrquiques."
+    },
+    {
+      "id": "b3-045",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Quina afirmació descriu millor la relació entre organització formal i informal?",
+      "options": [
+        "La informal substitueix sempre la formal",
+        "Poden coexistir; la informal pot facilitar comunicació i cooperació sense formar part de l’estructura oficial",
+        "La formal només existeix en empreses públiques",
+        "La informal s’ha de representar obligatòriament a l’organigrama"
+      ],
+      "correct": 1,
+      "explanation": "Les dues poden coexistir: la formal és l’estructura oficial i la informal pot afavorir comunicació, cooperació i resolució de problemes."
+    },
+    {
+      "id": "b3-056",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Un organigrama mostra una dependència jeràrquica, però a la pràctica una persona consulta sovint una companya d’un altre departament per confiança i experiència. Quina lectura és més correcta?",
+      "options": [
+        "L’organigrama és necessàriament erroni",
+        "La dependència formal i la relació informal poden coexistir",
+        "La relació informal passa automàticament a ser jeràrquica",
+        "La companya d’un altre departament adquireix autoritat formal"
+      ],
+      "correct": 1,
+      "explanation": "L’organigrama representa les relacions formals; les relacions informals poden coexistir sense modificar per si soles l’estructura oficial."
+    },
+    {
+      "id": "b3-065",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "L’organigrama estableix oficialment que els auxiliars depenen de la responsable d’Administració. A quin tipus d’organització correspon aquesta relació?",
+      "options": [
+        "Organització formal",
+        "Organització informal",
+        "Relació espontània",
+        "Grup d’amistat"
+      ],
+      "correct": 0,
+      "explanation": "L’organització formal és l’estructura oficial de l’empresa i defineix càrrecs, responsabilitats, nivells jeràrquics i relacions de dependència."
+    },
+    {
+      "id": "b3-066",
+      "block": "bloc-3",
+      "topic": "Organització formal i informal",
+      "question": "Dues persones de departaments diferents s’ajuden habitualment perquè tenen bona relació, encara que aquesta col·laboració no apareix a l’organigrama. Què és?",
+      "options": [
+        "Una dependència jeràrquica formal",
+        "Una relació d’organització informal",
+        "Una unitat de direcció obligatòria",
+        "Una descentralització de l’autoritat"
+      ],
+      "correct": 1,
+      "explanation": "L’organització informal neix espontàniament de les relacions personals i socials i no està establerta oficialment en l’estructura de l’empresa."
+    },
+    {
+      "id": "b3-074",
+      "block": "bloc-3",
+      "topic": "Organització informal",
+      "question": "Dues persones de departaments diferents es consulten habitualment perquè confien l’una en l’altra, tot i que aquesta relació no figura en cap procediment ni organigrama. Què representa?",
+      "options": [
+        "Una relació jeràrquica formal",
+        "Una delegació de funcions",
+        "Una unitat de direcció",
+        "Organització informal"
+      ],
+      "correct": 3,
+      "explanation": "L’organització informal neix de relacions personals i espontànies que no estan establertes oficialment ni acostumen a aparèixer a l’organigrama."
+    }
+  ]
+}
