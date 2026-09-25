@@ -87,6 +87,57 @@ function payrollHtml(b,l,t){
  <section class="payroll-memory"><h3>${t.memory}</h3><p>${t.memoryText}</p></section><p class="payroll-dynamic-note">${t.note}</p></section>`;
 }
 
+
+function practiceSteps(b,l){
+ const a=b.assumptions,c=b.calculations,p=P[l];
+ const byId=Object.fromEntries(c.workerContributions.map(x=>[x.id,x]));
+ const contribution=(key,id)=>({key,label:p.fields[key],expected:byId[id].amount,hint:p.hints.contribution,formula:`${money(c.contributionBase)} × ${pct(byId[id].rate)} = ${money(byId[id].amount)}`});
+ return [
+  {key:"prorata",label:p.fields.prorata,expected:c.proratedExtraMonthly,hint:p.hints.prorata,formula:`(${money(a.extraPayAmount)} × ${a.extraPays}) ÷ 12 = ${money(c.proratedExtraMonthly)}`},
+  {key:"devengos",label:p.fields.devengos,expected:c.monthlyEarnings,hint:p.hints.devengos,formula:`${money(a.baseSalary)} + ${money(c.proratedExtraMonthly)} = ${money(c.monthlyEarnings)}`},
+  {key:"base",label:p.fields.base,expected:c.contributionBase,hint:p.hints.base,formula:`${money(c.monthlyEarnings)} = ${money(c.contributionBase)}`},
+  contribution("common","common"),
+  contribution("unemployment","unemployment"),
+  contribution("training","training"),
+  contribution("mei","mei"),
+  {key:"contribTotal",label:p.fields.contribTotal,expected:c.workerContributionsTotal,hint:p.hints.contribTotal,formula:`${c.workerContributions.map(x=>money(x.amount)).join(" + ")} = ${money(c.workerContributionsTotal)}`},
+  {key:"irpf",label:p.fields.irpf,expected:c.irpfAmount,hint:p.hints.irpf,formula:`${money(c.monthlyEarnings)} × ${pct(a.irpfRate)} = ${money(c.irpfAmount)}`},
+  {key:"deductions",label:p.fields.deductions,expected:c.totalDeductions,hint:p.hints.deductions,formula:`${money(c.workerContributionsTotal)} + ${money(c.irpfAmount)} = ${money(c.totalDeductions)}`},
+  {key:"net",label:p.fields.net,expected:c.netPay,hint:p.hints.net,formula:`${money(c.monthlyEarnings)} − ${money(c.totalDeductions)} = ${money(c.netPay)}`}
+ ];
+}
+
+function practiceCaseFacts(b,l,t){
+ const a=b.assumptions;
+ return `<dl class="payroll-facts practice-facts"><div><dt>${t.salary}</dt><dd>${money(a.baseSalary)}</dd></div><div><dt>${t.extras}</dt><dd>${a.extraPays} × ${money(a.extraPayAmount)} · ${l==="ca"?"prorratejades":"prorrateadas"}</dd></div><div><dt>${t.contract}</dt><dd>${esc(a.contract[l])}</dd></div><div><dt>${t.workday}</dt><dd>${esc(a.workday[l])}</dd></div><div><dt>${t.irpf}</dt><dd>${pct(a.irpfRate)}</dd></div></dl>`;
+}
+
+function practiceHtml(b,l,t,state){
+ const p=P[l],steps=practiceSteps(b,l),safe=state||createPayrollPracticeState();
+ if(safe.index>=steps.length){
+  const rows=steps.map(step=>`<li><span>${esc(step.label)}</span><strong>${money(step.expected)}</strong></li>`).join("");
+  return `<section class="payroll-practice"><header class="payroll-head"><p class="eyebrow">${t.case}</p><h2>${p.finished}</h2><p>${safe.firstTry.length}/${steps.length} ${p.firstTry}.</p></header><section class="practice-finish"><h3>${p.completeResult}</h3><ul>${rows}</ul><div class="practice-actions"><button class="primary" type="button" data-practice-restart>${p.tryAgain}</button><button class="back-button" type="button" data-payroll-view="resolved">${p.resolvedAfter}</button></div></section><section class="payroll-memory"><h3>${t.memory}</h3><p>${t.memoryText}</p></section></section>`;
+ }
+ const current=steps[safe.index],attempts=safe.attempts[current.key]||0;
+ const completed=steps.slice(0,safe.index).map(step=>`<li><span aria-hidden="true">✓</span><span>${esc(step.label)}</span><strong>${money(step.expected)}</strong></li>`).join("");
+ const feedback=safe.feedback?.type==="invalid"?`<p class="practice-feedback practice-feedback-wrong" role="status">${p.invalid}</p>`
+  :safe.feedback?.type==="wrong"?`<div class="practice-feedback practice-feedback-wrong" role="status"><strong>${p.wrong}</strong><p><b>${p.hint}:</b> ${esc(current.hint)}</p>${attempts>=2?`<p class="practice-solution"><b>${p.solution}:</b> ${esc(current.formula)}</p><button type="button" class="text-button" data-use-practice-solution>${p.useSolution}</button>`:""}</div>`
+  :safe.feedback?.type==="correct"?`<p class="practice-feedback practice-feedback-correct" role="status">${p.correct}</p>`
+  :safe.feedback?.type==="solution"?`<p class="practice-feedback" role="status">${p.usedSolution}</p>`:"";
+ return `<section class="payroll-practice"><header class="payroll-head"><p class="eyebrow">${t.case}</p><h2>${p.practiceTitle}</h2><p>${p.practiceIntro}</p><p class="practical-source"><strong>${t.source}:</strong> ${l==="ca"?"Material de classe":"Material de clase"} CECOT · UF0519</p></header>
+ <section class="payroll-section"><h3>${t.data}</h3>${practiceCaseFacts(b,l,t)}</section>
+ <section class="practice-work"><div class="practice-progress"><div><strong>${p.step} ${safe.index+1} ${p.of} ${steps.length}</strong><span>${esc(current.label)}</span></div><progress value="${safe.index}" max="${steps.length}"></progress></div>
+ ${completed?`<ol class="practice-completed">${completed}</ol>`:""}
+ ${feedback}
+ <form class="practice-form" data-payroll-practice-form novalidate><label for="payroll-practice-value">${esc(current.label)}</label><div class="practice-input-row"><input id="payroll-practice-value" name="amount" data-payroll-practice-input type="text" inputmode="decimal" autocomplete="off" placeholder="0,00 €" aria-describedby="practice-format-help"><button class="primary" type="submit">${p.check}</button></div><small id="practice-format-help">${p.formatHelp}</small></form>
+ <button class="text-button practice-restart" type="button" data-practice-restart>${p.restart}</button></section></section>`;
+}
+
+function payrollAreaHtml(b,l,t,view,state){
+ const p=P[l],active=view==="practice"?"practice":"resolved";
+ return `<div class="payroll-area"><nav class="payroll-mode-tabs" aria-label="${t.pay}"><button type="button" data-payroll-view="resolved" aria-pressed="${String(active==="resolved")}">${p.resolved}</button><button type="button" data-payroll-view="practice" aria-pressed="${String(active==="practice")}">${p.practice}</button></nav>${active==="practice"?practiceHtml(b,l,t,state):payrollHtml(b,l,t)}</div>`;
+}
+
 export function renderPracticalExamplesHtml({correspondenceBank,payrollBank,language="ca",category="correspondence",correspondenceTab="guide"}){
  validateCommercialCorrespondenceData(correspondenceBank);validatePayrollExampleData(payrollBank);const l=language==="es"?"es":"ca",t=C[l],active=category==="payroll"?"payroll":"correspondence";
  const body=active==="payroll"?payrollHtml(payrollBank,l,t):renderCommercialCorrespondenceHtml(correspondenceBank,l,correspondenceTab,{showBack:false});
