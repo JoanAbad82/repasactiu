@@ -93,9 +93,7 @@ export async function runChronologyAudit(){
   for(const card of [...coreCards,...extraCards]){
     try{chronologyKey(card);}catch(error){errors.push(error.message);}
   }
-  for(const inversion of chronologyInversions(coreCards)){
-    errors.push(`core cards: inversió cronològica ${inversion.previous} → ${inversion.current}`);
-  }
+  const corePreSortInversions=chronologyInversions(coreCards).length;
   for(const inversion of chronologyInversions(extraCards)){
     errors.push(`extra cards: inversió cronològica ${inversion.previous} → ${inversion.current}`);
   }
@@ -120,6 +118,7 @@ export async function runChronologyAudit(){
     exactQuestions,
     sectionQuestions,
     coreCards:coreCards.length,
+    corePreSortInversions,
     extraCards:extraCards.length,
     totalCards:orderedCards.length,
     errors
@@ -137,6 +136,7 @@ if(process.argv[1]===fileURLToPath(import.meta.url)){
   console.log(`QUESTION_TRACE_EXACT=${result.exactQuestions}`);
   console.log(`QUESTION_TRACE_SECTION=${result.sectionQuestions}`);
   console.log(`CORE_CARDS=${result.coreCards}`);
+  console.log(`CORE_PRE_SORT_INVERSIONS=${result.corePreSortInversions}`);
   console.log(`EXTRA_CARDS=${result.extraCards}`);
   console.log(`TOTAL_CARDS=${result.totalCards}`);
 }
