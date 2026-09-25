@@ -1,1 +1,272 @@
-{"blockId":"uf0519-bloc-3","blockTitle":"Documents administratius en la gestió productiva i de personal","questions":[{"id":"uf0519-b3-001","block":"uf0519-bloc-3","topic":"Nòmina","question":"Què és una nòmina segons el material?","options":["El document justificatiu de les retribucions i deduccions aplicades a la persona treballadora","Un comprovant de lliurament de mercaderia","Un pressupost de serveis","Una acta de reunió"],"correct":0,"explanation":"La nòmina justifica el salari i mostra les retribucions i deduccions aplicades."},{"id":"uf0519-b3-002","block":"uf0519-bloc-3","topic":"Nòmina","question":"Quines grans dades inclou la nòmina que descriu el material?","options":["Només número de comanda i transportista","Dades d’empresa i treballador, període, meritacions, deduccions i líquid a percebre","Únicament preus i descomptes comercials","Només data i número d’albarà"],"correct":1,"explanation":"El material enumera aquests grans blocs d’informació de la nòmina."},{"id":"uf0519-b3-003","block":"uf0519-bloc-3","topic":"Marc laboral","question":"Quina norma regula els drets i obligacions bàsiques de la relació laboral segons el material?","options":["El Reglament de facturació","La Llei 39/2015","L’Estatut dels Treballadors","El Codi postal"],"correct":2,"explanation":"El material situa l’Estatut dels Treballadors com a norma bàsica de la relació laboral."},{"id":"uf0519-b3-004","block":"uf0519-bloc-3","topic":"Marc laboral","question":"Què concreten els convenis col·lectius segons el material?","options":["Tipus de factura i número d’albarà","Fases del procediment administratiu","Només terminis d’arxiu mercantil","Salaris, complements, categories i condicions segons el sector"],"correct":3,"explanation":"Els convenis col·lectius concreten condicions laborals aplicables segons el sector."},{"id":"uf0519-b3-005","block":"uf0519-bloc-3","topic":"Estructura de la nòmina","question":"Què conté l’apartat de dades de l’empresa en una nòmina?","options":["Raó social, NIF, domicili i codi de compte de cotització","IBAN del client i número d’albarà","Base imposable i quota d’IVA","Referència de comanda i transportista"],"correct":0,"explanation":"La taula de la pàgina 55 enumera aquestes dades de l’empresa."},{"id":"uf0519-b3-006","block":"uf0519-bloc-3","topic":"Estructura de la nòmina","question":"Què són les meritacions d’una nòmina?","options":["Els documents que acrediten una venda","Els conceptes que sumen a la retribució","Els impostos de totes les factures","Les fases de registre administratiu"],"correct":1,"explanation":"El material defineix les meritacions com els conceptes que sumen a la nòmina."},{"id":"uf0519-b3-007","block":"uf0519-bloc-3","topic":"Estructura de la nòmina","question":"Què són les deduccions d’una nòmina?","options":["Els documents previs a una compra","Les dades que identifiquen un albarà","Els conceptes que resten de la retribució bruta","Els imports que sempre s’afegeixen al salari"],"correct":2,"explanation":"Les deduccions inclouen cotitzacions, IRPF i altres imports que resten."},{"id":"uf0519-b3-008","block":"uf0519-bloc-3","topic":"Estructura de la nòmina","question":"Què representa el líquid a percebre en una nòmina?","options":["La base imposable d’una factura","El preu unitari d’una comanda","El total d’un pressupost sense impostos","L’import net que finalment cobra la persona treballadora"],"correct":3,"explanation":"El líquid a percebre és l’import net final després de les deduccions."},{"id":"uf0519-b3-009","block":"uf0519-bloc-3","topic":"Meritacions","question":"Quins conceptes posa el material com a retribucions salarials?","options":["Salari base, complements, hores extraordinàries, incentius o variables i salari en espècie dins dels límits legals","Factures, albarans i rebuts","Pressupostos, comandes i certificats","Només dietes i indemnitzacions"],"correct":0,"explanation":"El material separa les retribucions salarials de les no salarials i enumera aquests exemples."},{"id":"uf0519-b3-010","block":"uf0519-bloc-3","topic":"Meritacions","question":"Quin exemple dona el material de retribució no salarial?","options":["Salari base i complements","Indemnitzacions, despeses suplertes, dietes o quilometratge segons condicions","Hores extraordinàries i incentius","Base de cotització i IRPF"],"correct":1,"explanation":"Aquestes percepcions poden compensar despeses o situacions i no retribueixen directament el treball de la mateixa manera."},{"id":"uf0519-b3-011","block":"uf0519-bloc-3","topic":"Deduccions","question":"Quines deduccions bàsiques enumera el material?","options":["IVA repercutit, albarà i comanda","Pressupost, factura i rebut","Cotització a la Seguretat Social, retenció d’IRPF i altres deduccions que corresponguin","Salari base, complements i incentius"],"correct":2,"explanation":"La pàgina de deduccions enumera Seguretat Social, IRPF i altres imports com bestretes o embargaments."},{"id":"uf0519-b3-012","block":"uf0519-bloc-3","topic":"Bases de cotització","question":"Per a què serveixen les bases de cotització?","options":["Per calcular el preu d’una comanda","Per decidir el termini d’un albarà","Per registrar l’IVA d’una venda","Per calcular les aportacions a la Seguretat Social"],"correct":3,"explanation":"El material defineix les bases com les quantitats sobre les quals es calculen les aportacions a la Seguretat Social."},{"id":"uf0519-b3-013","block":"uf0519-bloc-3","topic":"Bases de cotització","question":"Per a quines prestacions s’utilitza la base de contingències comunes segons el material?","options":["Per prestacions com malaltia comuna, naixement i cura de menor o jubilació","Per calcular descomptes comercials","Per acreditar lliuraments de mercaderia","Per emetre pressupostos"],"correct":0,"explanation":"La base de contingències comunes es relaciona amb prestacions comunes de la Seguretat Social."},{"id":"uf0519-b3-014","block":"uf0519-bloc-3","topic":"Bases de cotització","question":"Què indica el material sobre les hores extraordinàries i la cotització?","options":["Que no apareixen mai a la nòmina","Que cotitzen de manera diferenciada","Que substitueixen l’IRPF","Que formen part d’un albarà"],"correct":1,"explanation":"El material assenyala expressament que les hores extraordinàries cotitzen de manera diferenciada."},{"id":"uf0519-b3-015","block":"uf0519-bloc-3","topic":"Cotització 2026","question":"Qui assumeix el FOGASA en la taula orientativa de cotització 2026 del material?","options":["Només la persona treballadora","El client que paga la factura","L’empresa","El transportista"],"correct":2,"explanation":"A la taula del material, FOGASA figura a càrrec de l’empresa."},{"id":"uf0519-b3-016","block":"uf0519-bloc-3","topic":"Salari brut i net","question":"Quina fórmula bàsica dona el material per calcular el salari net?","options":["Salari net = salari brut + deduccions","Salari net = IVA repercutit − IVA suportat","Salari net = factura − albarà","Salari net = salari brut − deduccions"],"correct":3,"explanation":"El material defineix el brut com el total de meritacions i el net com el brut menys les deduccions."},{"id":"uf0519-b3-017","block":"uf0519-bloc-3","topic":"Protecció de dades laborals","question":"Per què la nòmina requereix especial confidencialitat?","options":["Perquè conté dades identificatives, laborals, salarials, fiscals i de Seguretat Social","Perquè només conté informació comercial pública","Perquè no identifica cap persona","Perquè és un document sense dades econòmiques"],"correct":0,"explanation":"El material qualifica la nòmina de document especialment sensible i limita l’accés al personal autoritzat."},{"id":"uf0519-b3-018","block":"uf0519-bloc-3","topic":"Ordre de treball","question":"Què és una ordre de treball segons el material?","options":["Una factura simplificada","Un document formal o intern que indica una tasca a realitzar","Un comprovant de pagament bancari","Una resolució administrativa"],"correct":1,"explanation":"L’ordre de treball assigna i controla tasques i defineix què s’ha de fer, qui ho farà, recursos i termini."},{"id":"uf0519-b3-019","block":"uf0519-bloc-3","topic":"Ordre de treball","question":"Quin ordre segueix el procés administratiu d’una ordre de treball?","options":["Assignació → creació → tancament → aprovació → execució","Execució → creació → aprovació → tancament → assignació","Creació → aprovació → assignació → execució → tancament","Tancament → execució → assignació → creació → aprovació"],"correct":2,"explanation":"El diagrama del material presenta aquestes cinc fases en aquest ordre."}]}
+{
+  "blockId": "uf0519-bloc-3",
+  "blockTitle": "Documents administratius en la gestió productiva i de personal",
+  "questions": [
+    {
+      "id": "uf0519-b3-001",
+      "block": "uf0519-bloc-3",
+      "topic": "Nòmina",
+      "question": "Què és una nòmina segons el material?",
+      "options": [
+        "El document justificatiu de les retribucions i deduccions aplicades a la persona treballadora",
+        "Un comprovant de lliurament de mercaderia",
+        "Un pressupost de serveis",
+        "Una acta de reunió"
+      ],
+      "correct": 0,
+      "explanation": "La nòmina justifica el salari i mostra les retribucions i deduccions aplicades."
+    },
+    {
+      "id": "uf0519-b3-002",
+      "block": "uf0519-bloc-3",
+      "topic": "Nòmina",
+      "question": "Quines grans dades inclou la nòmina que descriu el material?",
+      "options": [
+        "Només número de comanda i transportista",
+        "Dades d’empresa i treballador, període, meritacions, deduccions i líquid a percebre",
+        "Únicament preus i descomptes comercials",
+        "Només data i número d’albarà"
+      ],
+      "correct": 1,
+      "explanation": "El material enumera aquests grans blocs d’informació de la nòmina."
+    },
+    {
+      "id": "uf0519-b3-003",
+      "block": "uf0519-bloc-3",
+      "topic": "Marc laboral",
+      "question": "Quina norma regula els drets i obligacions bàsiques de la relació laboral segons el material?",
+      "options": [
+        "El Reglament de facturació",
+        "La Llei 39/2015",
+        "L’Estatut dels Treballadors",
+        "El Codi postal"
+      ],
+      "correct": 2,
+      "explanation": "El material situa l’Estatut dels Treballadors com a norma bàsica de la relació laboral."
+    },
+    {
+      "id": "uf0519-b3-004",
+      "block": "uf0519-bloc-3",
+      "topic": "Marc laboral",
+      "question": "Què concreten els convenis col·lectius segons el material?",
+      "options": [
+        "Tipus de factura i número d’albarà",
+        "Fases del procediment administratiu",
+        "Només terminis d’arxiu mercantil",
+        "Salaris, complements, categories i condicions segons el sector"
+      ],
+      "correct": 3,
+      "explanation": "Els convenis col·lectius concreten condicions laborals aplicables segons el sector."
+    },
+    {
+      "id": "uf0519-b3-005",
+      "block": "uf0519-bloc-3",
+      "topic": "Estructura de la nòmina",
+      "question": "Què conté l’apartat de dades de l’empresa en una nòmina?",
+      "options": [
+        "Raó social, NIF, domicili i codi de compte de cotització",
+        "IBAN del client i número d’albarà",
+        "Base imposable i quota d’IVA",
+        "Referència de comanda i transportista"
+      ],
+      "correct": 0,
+      "explanation": "La taula de la pàgina 55 enumera aquestes dades de l’empresa."
+    },
+    {
+      "id": "uf0519-b3-006",
+      "block": "uf0519-bloc-3",
+      "topic": "Estructura de la nòmina",
+      "question": "Què són les meritacions d’una nòmina?",
+      "options": [
+        "Els documents que acrediten una venda",
+        "Els conceptes que sumen a la retribució",
+        "Els impostos de totes les factures",
+        "Les fases de registre administratiu"
+      ],
+      "correct": 1,
+      "explanation": "El material defineix les meritacions com els conceptes que sumen a la nòmina."
+    },
+    {
+      "id": "uf0519-b3-007",
+      "block": "uf0519-bloc-3",
+      "topic": "Estructura de la nòmina",
+      "question": "Què són les deduccions d’una nòmina?",
+      "options": [
+        "Els documents previs a una compra",
+        "Les dades que identifiquen un albarà",
+        "Els conceptes que resten de la retribució bruta",
+        "Els imports que sempre s’afegeixen al salari"
+      ],
+      "correct": 2,
+      "explanation": "Les deduccions inclouen cotitzacions, IRPF i altres imports que resten."
+    },
+    {
+      "id": "uf0519-b3-008",
+      "block": "uf0519-bloc-3",
+      "topic": "Estructura de la nòmina",
+      "question": "Què representa el líquid a percebre en una nòmina?",
+      "options": [
+        "La base imposable d’una factura",
+        "El preu unitari d’una comanda",
+        "El total d’un pressupost sense impostos",
+        "L’import net que finalment cobra la persona treballadora"
+      ],
+      "correct": 3,
+      "explanation": "El líquid a percebre és l’import net final després de les deduccions."
+    },
+    {
+      "id": "uf0519-b3-009",
+      "block": "uf0519-bloc-3",
+      "topic": "Meritacions",
+      "question": "Quins conceptes posa el material com a retribucions salarials?",
+      "options": [
+        "Salari base, complements, hores extraordinàries, incentius o variables i salari en espècie dins dels límits legals",
+        "Factures, albarans i rebuts",
+        "Pressupostos, comandes i certificats",
+        "Només dietes i indemnitzacions"
+      ],
+      "correct": 0,
+      "explanation": "El material separa les retribucions salarials de les no salarials i enumera aquests exemples."
+    },
+    {
+      "id": "uf0519-b3-010",
+      "block": "uf0519-bloc-3",
+      "topic": "Meritacions",
+      "question": "Quin exemple dona el material de retribució no salarial?",
+      "options": [
+        "Salari base i complements",
+        "Indemnitzacions, despeses suplertes, dietes o quilometratge segons condicions",
+        "Hores extraordinàries i incentius",
+        "Base de cotització i IRPF"
+      ],
+      "correct": 1,
+      "explanation": "Aquestes percepcions poden compensar despeses o situacions i no retribueixen directament el treball de la mateixa manera."
+    },
+    {
+      "id": "uf0519-b3-011",
+      "block": "uf0519-bloc-3",
+      "topic": "Deduccions",
+      "question": "Quines deduccions bàsiques enumera el material?",
+      "options": [
+        "IVA repercutit, albarà i comanda",
+        "Pressupost, factura i rebut",
+        "Cotització a la Seguretat Social, retenció d’IRPF i altres deduccions que corresponguin",
+        "Salari base, complements i incentius"
+      ],
+      "correct": 2,
+      "explanation": "La pàgina de deduccions enumera Seguretat Social, IRPF i altres imports com bestretes o embargaments."
+    },
+    {
+      "id": "uf0519-b3-012",
+      "block": "uf0519-bloc-3",
+      "topic": "Bases de cotització",
+      "question": "Per a què serveixen les bases de cotització?",
+      "options": [
+        "Per calcular el preu d’una comanda",
+        "Per decidir el termini d’un albarà",
+        "Per registrar l’IVA d’una venda",
+        "Per calcular les aportacions a la Seguretat Social"
+      ],
+      "correct": 3,
+      "explanation": "El material defineix les bases com les quantitats sobre les quals es calculen les aportacions a la Seguretat Social."
+    },
+    {
+      "id": "uf0519-b3-013",
+      "block": "uf0519-bloc-3",
+      "topic": "Bases de cotització",
+      "question": "Per a quines prestacions s’utilitza la base de contingències comunes segons el material?",
+      "options": [
+        "Per prestacions com malaltia comuna, naixement i cura de menor o jubilació",
+        "Per calcular descomptes comercials",
+        "Per acreditar lliuraments de mercaderia",
+        "Per emetre pressupostos"
+      ],
+      "correct": 0,
+      "explanation": "La base de contingències comunes es relaciona amb prestacions comunes de la Seguretat Social."
+    },
+    {
+      "id": "uf0519-b3-014",
+      "block": "uf0519-bloc-3",
+      "topic": "Bases de cotització",
+      "question": "Què indica el material sobre les hores extraordinàries i la cotització?",
+      "options": [
+        "Que no apareixen mai a la nòmina",
+        "Que cotitzen de manera diferenciada",
+        "Que substitueixen l’IRPF",
+        "Que formen part d’un albarà"
+      ],
+      "correct": 1,
+      "explanation": "El material assenyala expressament que les hores extraordinàries cotitzen de manera diferenciada."
+    },
+    {
+      "id": "uf0519-b3-015",
+      "block": "uf0519-bloc-3",
+      "topic": "Cotització 2026",
+      "question": "Qui assumeix el FOGASA en la taula orientativa de cotització 2026 del material?",
+      "options": [
+        "Només la persona treballadora",
+        "El client que paga la factura",
+        "L’empresa",
+        "El transportista"
+      ],
+      "correct": 2,
+      "explanation": "A la taula del material, FOGASA figura a càrrec de l’empresa."
+    },
+    {
+      "id": "uf0519-b3-016",
+      "block": "uf0519-bloc-3",
+      "topic": "Salari brut i net",
+      "question": "Quina fórmula bàsica dona el material per calcular el salari net?",
+      "options": [
+        "Salari net = salari brut + deduccions",
+        "Salari net = IVA repercutit − IVA suportat",
+        "Salari net = factura − albarà",
+        "Salari net = salari brut − deduccions"
+      ],
+      "correct": 3,
+      "explanation": "El material defineix el brut com el total de meritacions i el net com el brut menys les deduccions."
+    },
+    {
+      "id": "uf0519-b3-017",
+      "block": "uf0519-bloc-3",
+      "topic": "Protecció de dades laborals",
+      "question": "Per què la nòmina requereix especial confidencialitat?",
+      "options": [
+        "Perquè conté dades identificatives, laborals, salarials, fiscals i de Seguretat Social",
+        "Perquè només conté informació comercial pública",
+        "Perquè no identifica cap persona",
+        "Perquè és un document sense dades econòmiques"
+      ],
+      "correct": 0,
+      "explanation": "El material qualifica la nòmina de document especialment sensible i limita l’accés al personal autoritzat."
+    },
+    {
+      "id": "uf0519-b3-018",
+      "block": "uf0519-bloc-3",
+      "topic": "Ordre de treball",
+      "question": "Què és una ordre de treball segons el material?",
+      "options": [
+        "Una factura simplificada",
+        "Un document formal o intern que indica una tasca a realitzar",
+        "Un comprovant de pagament bancari",
+        "Una resolució administrativa"
+      ],
+      "correct": 1,
+      "explanation": "L’ordre de treball assigna i controla tasques i defineix què s’ha de fer, qui ho farà, recursos i termini."
+    },
+    {
+      "id": "uf0519-b3-019",
+      "block": "uf0519-bloc-3",
+      "topic": "Ordre de treball",
+      "question": "Quin ordre segueix el procés administratiu d’una ordre de treball?",
+      "options": [
+        "Assignació → creació → tancament → aprovació → execució",
+        "Execució → creació → aprovació → tancament → assignació",
+        "Creació → aprovació → assignació → execució → tancament",
+        "Tancament → execució → assignació → creació → aprovació"
+      ],
+      "correct": 2,
+      "explanation": "El diagrama del material presenta aquestes cinc fases en aquest ordre."
+    }
+  ]
+}
