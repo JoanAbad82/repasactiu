@@ -1,1 +1,286 @@
-{"blockId":"uf0518-bloc-3","blockTitle":"L’arxiu de comunicacions escrites i correspondència","questions":[{"id":"uf0518-b3-001","block":"uf0518-bloc-3","topic":"Arxiu documental","question":"Quina definició descriu millor un arxiu documental?","options":["Un conjunt organitzat de documents rebuts o generats, conservats per deixar constància i facilitar-ne la consulta","Una carpeta que només conté documents impresos antics","Un sistema destinat exclusivament a eliminar documentació duplicada","Un registre que només conserva factures i contractes"],"correct":0,"explanation":"L’arxiu documental conserva de manera organitzada els documents de l’activitat perquè es puguin demostrar i consultar posteriorment."},{"id":"uf0518-b3-002","block":"uf0518-bloc-3","topic":"Arxiu documental","question":"Quina és la finalitat administrativa de l’arxiu segons el material?","options":["Acumular el màxim nombre possible de papers","Poder demostrar, localitzar i protegir la informació quan sigui necessari","Substituir els registres d’entrada i sortida","Eliminar qualsevol document que ja s’hagi llegit"],"correct":1,"explanation":"La finalitat no és simplement guardar papers, sinó poder demostrar, localitzar i protegir la informació."},{"id":"uf0518-b3-003","block":"uf0518-bloc-3","topic":"Utilitat de l’arxiu","question":"Quin benefici de l’arxiu permet saber quan ha entrat o sortit un document, qui l’ha rebut i on es conserva?","options":["Continuïtat de negoci","Eficiència","Traçabilitat","Confidencialitat"],"correct":2,"explanation":"La traçabilitat permet seguir el recorregut del document, la recepció i la ubicació."},{"id":"uf0518-b3-004","block":"uf0518-bloc-3","topic":"Utilitat de l’arxiu","question":"Quina utilitat de l’arxiu redueix duplicitats, documents extraviats i errors de gestió?","options":["Compliment legal","Seguretat","Continuïtat de negoci","Eficiència"],"correct":3,"explanation":"Un arxiu ben organitzat millora l’eficiència perquè redueix temps de cerca, duplicitats, pèrdues i errors."},{"id":"uf0518-b3-005","block":"uf0518-bloc-3","topic":"Abast de l’arxiu","question":"Quin criteri general determina què s’ha d’arxivar?","options":["Que el document pugui tenir valor administratiu, jurídic, econòmic, fiscal, organitzatiu o probatori","Que el document sigui necessàriament en paper","Que hagi estat enviat per correu postal","Que contingui una signatura manuscrita"],"correct":0,"explanation":"S’ha d’arxivar allò que pot tenir valor administratiu, jurídic, econòmic, fiscal, organitzatiu o probatori."},{"id":"uf0518-b3-006","block":"uf0518-bloc-3","topic":"Abast de l’arxiu","question":"Quin dels següents conjunts està format només per exemples de comunicacions digitals que el material indica que es poden arxivar?","options":["Cartes, albarans i contractes","Correus electrònics, formularis web, justificants electrònics i fitxers adjunts","Actes, circulars i notes de servei","Certificats, burofaxos i paquets documentals"],"correct":1,"explanation":"El material inclou correus electrònics, formularis web, justificants electrònics i fitxers adjunts com a comunicacions digitals arxivables."},{"id":"uf0518-b3-007","block":"uf0518-bloc-3","topic":"Procés d’arxiu","question":"Quin és l’ordre correcte del procés general d’arxiu?","options":["Classificar → registrar → rebre → guardar → comprovar","Guardar → comprovar → registrar → classificar → rebre","Rebre o generar → comprovar dades i annexos → registrar si correspon → classificar → guardar, custodiar i recuperar","Registrar → destruir → classificar → rebre → guardar"],"correct":2,"explanation":"El flux del material segueix cinc passos: rebre o generar, comprovar, registrar si correspon, classificar i guardar/custodiar/recuperar."},{"id":"uf0518-b3-008","block":"uf0518-bloc-3","topic":"Procés d’arxiu","question":"Què significa que el procés d’arxiu ha de ser homogeni?","options":["Que cada persona pugui aplicar un criteri diferent","Que només s’arxivin documents digitals","Que els documents es guardin sempre al mateix lloc físic","Que la mateixa documentació es tracti sempre amb el mateix criteri"],"correct":3,"explanation":"Homogeneïtat significa aplicar el mateix criteri de tractament a la mateixa documentació."},{"id":"uf0518-b3-009","block":"uf0518-bloc-3","topic":"Arxiu digital","question":"Quin conjunt de mesures destaca el material per als arxius digitals?","options":["Permisos d’accés, còpies de seguretat i criteris de nomenclatura","Només una contrasenya comuna per a tothom","Imprimir tots els documents com a còpia de seguretat","Eliminar les metadades dels fitxers"],"correct":0,"explanation":"En arxius digitals cal mantenir permisos d’accés, còpies de seguretat i criteris de nomenclatura."},{"id":"uf0518-b3-010","block":"uf0518-bloc-3","topic":"Organització de l’arxiu","question":"Quina pauta ajuda a mantenir la traçabilitat d’un document?","options":["Separar sempre el document del seu expedient","Relacionar-lo amb el registre, expedient, factura, client o proveïdor corresponent","Eliminar les referències una vegada arxivat","Canviar-ne el nom cada vegada que es consulta"],"correct":1,"explanation":"La traçabilitat es manté relacionant el document amb les referències que permeten seguir-lo: registre, expedient, factura, client o proveïdor."},{"id":"uf0518-b3-011","block":"uf0518-bloc-3","topic":"Control de versions","question":"Quina pràctica evita duplicitats i confusions de versió?","options":["Guardar totes les còpies amb el mateix nom","Eliminar sempre l’original","Treballar amb versions controlades: original, còpia, esborrany, signada o definitiva","Desar cada versió en una carpeta personal diferent"],"correct":2,"explanation":"El material recomana treballar amb versions controlades i distingir original, còpia, esborrany, versió signada o definitiva."},{"id":"uf0518-b3-012","block":"uf0518-bloc-3","topic":"Documentació del sistema","question":"Què hauria de recollir una instrucció interna senzilla d’arxiu?","options":["Només el nom dels responsables","Només els terminis legals","Només les carpetes digitals","Responsables, carpetes, codis, terminis, accés i préstec de documents"],"correct":3,"explanation":"Documentar el sistema implica definir responsables, carpetes, codis, terminis, accés i préstec."},{"id":"uf0518-b3-013","block":"uf0518-bloc-3","topic":"Control d’arxiu","question":"Què és el control d’arxiu?","options":["El conjunt de mesures que asseguren que els documents es conserven, es consulten i es retornen correctament","Un registre reservat exclusivament a documents comptables","Un sistema que impedeix qualsevol préstec de documentació","La classificació alfabètica de tots els expedients"],"correct":0,"explanation":"El control d’arxiu assegura conservació, consulta i retorn correctes dels documents."},{"id":"uf0518-b3-014","block":"uf0518-bloc-3","topic":"Préstec documental","question":"Quina dada NO forma part de l’exemple de control de préstec que presenta el material?","options":["Qui demana el document","El preu de compra del document","Quan surt i quan es retorna","Amb quina finalitat es consulta"],"correct":1,"explanation":"L’exemple controla qui demana el document, quan surt, amb quina finalitat, quan es retorna i quina versió queda arxivada; no parla del preu."},{"id":"uf0518-b3-015","block":"uf0518-bloc-3","topic":"Normes internes","question":"Quin aspecte de les normes internes defineix qui pot consultar, copiar, descarregar, reenviar o destruir documents?","options":["Ubicació","Conservació","Accés","Classificació"],"correct":2,"explanation":"L’apartat d’accés defineix qui pot consultar, copiar, descarregar, reenviar o destruir documents."},{"id":"uf0518-b3-016","block":"uf0518-bloc-3","topic":"Normes internes","question":"Què s’ha de definir dins l’aspecte «Conservació» de les normes internes?","options":["Només el departament responsable","El criteri alfabètic o numèric","La ubicació física de l’armari","El termini legal o intern i l’acció final: conservar, bloquejar, eliminar o anonimitzar"],"correct":3,"explanation":"La norma de conservació ha de fixar el termini i què es farà al final: conservar, bloquejar, eliminar o anonimitzar."},{"id":"uf0518-b3-017","block":"uf0518-bloc-3","topic":"Marc mercantil","question":"Quins llibres exigeix en tot cas l’article 25 del Codi de Comerç segons el material?","options":["Llibre d’inventaris i comptes anuals i llibre diari","Llibre d’actes i llibre de socis","Llibre de factures i llibre de caixa","Registre d’IVA i registre de personal"],"correct":0,"explanation":"L’article 25 exigeix una comptabilitat ordenada i, en tot cas, llibre d’inventaris i comptes anuals i llibre diari."},{"id":"uf0518-b3-018","block":"uf0518-bloc-3","topic":"Conservació mercantil","question":"Durant quant temps s’han de conservar, amb caràcter mercantil general, llibres, correspondència, documentació i justificants relacionats amb el negoci?","options":["Quatre anys","Sis anys","Deu anys","Indefinidament"],"correct":1,"explanation":"L’article 30 estableix un termini mercantil general de sis anys, comptat des de la darrera anotació comptable."},{"id":"uf0518-b3-019","block":"uf0518-bloc-3","topic":"Conservació mercantil","question":"Des de quin moment es compta el termini mercantil general de sis anys que indica el material?","options":["Des de la data de constitució de l’empresa","Des de la data d’emissió del primer document","Des de la darrera anotació comptable feta en els llibres","Des del tancament de l’any natural següent"],"correct":2,"explanation":"El material indica que els sis anys es compten des de la darrera anotació comptable feta en els llibres."},{"id":"uf0518-b3-020","block":"uf0518-bloc-3","topic":"Marc mercantil","question":"Quina precisió acompanya el termini mercantil general de sis anys?","options":["Sempre substitueix qualsevol altre termini","Només s’aplica a documents en paper","Només s’aplica a societats anònimes","Altres normes poden establir terminis diferents"],"correct":3,"explanation":"El material adverteix que els sis anys són el termini mercantil general i que altres normes poden establir terminis diferents."}]}
+{
+  "blockId": "uf0518-bloc-3",
+  "blockTitle": "L’arxiu de comunicacions escrites i correspondència",
+  "questions": [
+    {
+      "id": "uf0518-b3-001",
+      "block": "uf0518-bloc-3",
+      "topic": "Arxiu documental",
+      "question": "Quina definició descriu millor un arxiu documental?",
+      "options": [
+        "Un conjunt organitzat de documents rebuts o generats, conservats per deixar constància i facilitar-ne la consulta",
+        "Una carpeta que només conté documents impresos antics",
+        "Un sistema destinat exclusivament a eliminar documentació duplicada",
+        "Un registre que només conserva factures i contractes"
+      ],
+      "correct": 0,
+      "explanation": "L’arxiu documental conserva de manera organitzada els documents de l’activitat perquè es puguin demostrar i consultar posteriorment."
+    },
+    {
+      "id": "uf0518-b3-002",
+      "block": "uf0518-bloc-3",
+      "topic": "Arxiu documental",
+      "question": "Quina és la finalitat administrativa de l’arxiu segons el material?",
+      "options": [
+        "Acumular el màxim nombre possible de papers",
+        "Poder demostrar, localitzar i protegir la informació quan sigui necessari",
+        "Substituir els registres d’entrada i sortida",
+        "Eliminar qualsevol document que ja s’hagi llegit"
+      ],
+      "correct": 1,
+      "explanation": "La finalitat no és simplement guardar papers, sinó poder demostrar, localitzar i protegir la informació."
+    },
+    {
+      "id": "uf0518-b3-003",
+      "block": "uf0518-bloc-3",
+      "topic": "Utilitat de l’arxiu",
+      "question": "Quin benefici de l’arxiu permet saber quan ha entrat o sortit un document, qui l’ha rebut i on es conserva?",
+      "options": [
+        "Continuïtat de negoci",
+        "Eficiència",
+        "Traçabilitat",
+        "Confidencialitat"
+      ],
+      "correct": 2,
+      "explanation": "La traçabilitat permet seguir el recorregut del document, la recepció i la ubicació."
+    },
+    {
+      "id": "uf0518-b3-004",
+      "block": "uf0518-bloc-3",
+      "topic": "Utilitat de l’arxiu",
+      "question": "Quina utilitat de l’arxiu redueix duplicitats, documents extraviats i errors de gestió?",
+      "options": [
+        "Compliment legal",
+        "Seguretat",
+        "Continuïtat de negoci",
+        "Eficiència"
+      ],
+      "correct": 3,
+      "explanation": "Un arxiu ben organitzat millora l’eficiència perquè redueix temps de cerca, duplicitats, pèrdues i errors."
+    },
+    {
+      "id": "uf0518-b3-005",
+      "block": "uf0518-bloc-3",
+      "topic": "Abast de l’arxiu",
+      "question": "Quin criteri general determina què s’ha d’arxivar?",
+      "options": [
+        "Que el document pugui tenir valor administratiu, jurídic, econòmic, fiscal, organitzatiu o probatori",
+        "Que el document sigui necessàriament en paper",
+        "Que hagi estat enviat per correu postal",
+        "Que contingui una signatura manuscrita"
+      ],
+      "correct": 0,
+      "explanation": "S’ha d’arxivar allò que pot tenir valor administratiu, jurídic, econòmic, fiscal, organitzatiu o probatori."
+    },
+    {
+      "id": "uf0518-b3-006",
+      "block": "uf0518-bloc-3",
+      "topic": "Abast de l’arxiu",
+      "question": "Quin dels següents conjunts està format només per exemples de comunicacions digitals que el material indica que es poden arxivar?",
+      "options": [
+        "Cartes, albarans i contractes",
+        "Correus electrònics, formularis web, justificants electrònics i fitxers adjunts",
+        "Actes, circulars i notes de servei",
+        "Certificats, burofaxos i paquets documentals"
+      ],
+      "correct": 1,
+      "explanation": "El material inclou correus electrònics, formularis web, justificants electrònics i fitxers adjunts com a comunicacions digitals arxivables."
+    },
+    {
+      "id": "uf0518-b3-009",
+      "block": "uf0518-bloc-3",
+      "topic": "Arxiu digital",
+      "question": "Quin conjunt de mesures destaca el material per als arxius digitals?",
+      "options": [
+        "Permisos d’accés, còpies de seguretat i criteris de nomenclatura",
+        "Només una contrasenya comuna per a tothom",
+        "Imprimir tots els documents com a còpia de seguretat",
+        "Eliminar les metadades dels fitxers"
+      ],
+      "correct": 0,
+      "explanation": "En arxius digitals cal mantenir permisos d’accés, còpies de seguretat i criteris de nomenclatura."
+    },
+    {
+      "id": "uf0518-b3-007",
+      "block": "uf0518-bloc-3",
+      "topic": "Procés d’arxiu",
+      "question": "Quin és l’ordre correcte del procés general d’arxiu?",
+      "options": [
+        "Classificar → registrar → rebre → guardar → comprovar",
+        "Guardar → comprovar → registrar → classificar → rebre",
+        "Rebre o generar → comprovar dades i annexos → registrar si correspon → classificar → guardar, custodiar i recuperar",
+        "Registrar → destruir → classificar → rebre → guardar"
+      ],
+      "correct": 2,
+      "explanation": "El flux del material segueix cinc passos: rebre o generar, comprovar, registrar si correspon, classificar i guardar/custodiar/recuperar."
+    },
+    {
+      "id": "uf0518-b3-008",
+      "block": "uf0518-bloc-3",
+      "topic": "Procés d’arxiu",
+      "question": "Què significa que el procés d’arxiu ha de ser homogeni?",
+      "options": [
+        "Que cada persona pugui aplicar un criteri diferent",
+        "Que només s’arxivin documents digitals",
+        "Que els documents es guardin sempre al mateix lloc físic",
+        "Que la mateixa documentació es tracti sempre amb el mateix criteri"
+      ],
+      "correct": 3,
+      "explanation": "Homogeneïtat significa aplicar el mateix criteri de tractament a la mateixa documentació."
+    },
+    {
+      "id": "uf0518-b3-011",
+      "block": "uf0518-bloc-3",
+      "topic": "Control de versions",
+      "question": "Quina pràctica evita duplicitats i confusions de versió?",
+      "options": [
+        "Guardar totes les còpies amb el mateix nom",
+        "Eliminar sempre l’original",
+        "Treballar amb versions controlades: original, còpia, esborrany, signada o definitiva",
+        "Desar cada versió en una carpeta personal diferent"
+      ],
+      "correct": 2,
+      "explanation": "El material recomana treballar amb versions controlades i distingir original, còpia, esborrany, versió signada o definitiva."
+    },
+    {
+      "id": "uf0518-b3-012",
+      "block": "uf0518-bloc-3",
+      "topic": "Documentació del sistema",
+      "question": "Què hauria de recollir una instrucció interna senzilla d’arxiu?",
+      "options": [
+        "Només el nom dels responsables",
+        "Només els terminis legals",
+        "Només les carpetes digitals",
+        "Responsables, carpetes, codis, terminis, accés i préstec de documents"
+      ],
+      "correct": 3,
+      "explanation": "Documentar el sistema implica definir responsables, carpetes, codis, terminis, accés i préstec."
+    },
+    {
+      "id": "uf0518-b3-010",
+      "block": "uf0518-bloc-3",
+      "topic": "Organització de l’arxiu",
+      "question": "Quina pauta ajuda a mantenir la traçabilitat d’un document?",
+      "options": [
+        "Separar sempre el document del seu expedient",
+        "Relacionar-lo amb el registre, expedient, factura, client o proveïdor corresponent",
+        "Eliminar les referències una vegada arxivat",
+        "Canviar-ne el nom cada vegada que es consulta"
+      ],
+      "correct": 1,
+      "explanation": "La traçabilitat es manté relacionant el document amb les referències que permeten seguir-lo: registre, expedient, factura, client o proveïdor."
+    },
+    {
+      "id": "uf0518-b3-013",
+      "block": "uf0518-bloc-3",
+      "topic": "Control d’arxiu",
+      "question": "Què és el control d’arxiu?",
+      "options": [
+        "El conjunt de mesures que asseguren que els documents es conserven, es consulten i es retornen correctament",
+        "Un registre reservat exclusivament a documents comptables",
+        "Un sistema que impedeix qualsevol préstec de documentació",
+        "La classificació alfabètica de tots els expedients"
+      ],
+      "correct": 0,
+      "explanation": "El control d’arxiu assegura conservació, consulta i retorn correctes dels documents."
+    },
+    {
+      "id": "uf0518-b3-014",
+      "block": "uf0518-bloc-3",
+      "topic": "Préstec documental",
+      "question": "Quina dada NO forma part de l’exemple de control de préstec que presenta el material?",
+      "options": [
+        "Qui demana el document",
+        "El preu de compra del document",
+        "Quan surt i quan es retorna",
+        "Amb quina finalitat es consulta"
+      ],
+      "correct": 1,
+      "explanation": "L’exemple controla qui demana el document, quan surt, amb quina finalitat, quan es retorna i quina versió queda arxivada; no parla del preu."
+    },
+    {
+      "id": "uf0518-b3-015",
+      "block": "uf0518-bloc-3",
+      "topic": "Normes internes",
+      "question": "Quin aspecte de les normes internes defineix qui pot consultar, copiar, descarregar, reenviar o destruir documents?",
+      "options": [
+        "Ubicació",
+        "Conservació",
+        "Accés",
+        "Classificació"
+      ],
+      "correct": 2,
+      "explanation": "L’apartat d’accés defineix qui pot consultar, copiar, descarregar, reenviar o destruir documents."
+    },
+    {
+      "id": "uf0518-b3-016",
+      "block": "uf0518-bloc-3",
+      "topic": "Normes internes",
+      "question": "Què s’ha de definir dins l’aspecte «Conservació» de les normes internes?",
+      "options": [
+        "Només el departament responsable",
+        "El criteri alfabètic o numèric",
+        "La ubicació física de l’armari",
+        "El termini legal o intern i l’acció final: conservar, bloquejar, eliminar o anonimitzar"
+      ],
+      "correct": 3,
+      "explanation": "La norma de conservació ha de fixar el termini i què es farà al final: conservar, bloquejar, eliminar o anonimitzar."
+    },
+    {
+      "id": "uf0518-b3-018",
+      "block": "uf0518-bloc-3",
+      "topic": "Conservació mercantil",
+      "question": "Durant quant temps s’han de conservar, amb caràcter mercantil general, llibres, correspondència, documentació i justificants relacionats amb el negoci?",
+      "options": [
+        "Quatre anys",
+        "Sis anys",
+        "Deu anys",
+        "Indefinidament"
+      ],
+      "correct": 1,
+      "explanation": "L’article 30 estableix un termini mercantil general de sis anys, comptat des de la darrera anotació comptable."
+    },
+    {
+      "id": "uf0518-b3-019",
+      "block": "uf0518-bloc-3",
+      "topic": "Conservació mercantil",
+      "question": "Des de quin moment es compta el termini mercantil general de sis anys que indica el material?",
+      "options": [
+        "Des de la data de constitució de l’empresa",
+        "Des de la data d’emissió del primer document",
+        "Des de la darrera anotació comptable feta en els llibres",
+        "Des del tancament de l’any natural següent"
+      ],
+      "correct": 2,
+      "explanation": "El material indica que els sis anys es compten des de la darrera anotació comptable feta en els llibres."
+    },
+    {
+      "id": "uf0518-b3-017",
+      "block": "uf0518-bloc-3",
+      "topic": "Marc mercantil",
+      "question": "Quins llibres exigeix en tot cas l’article 25 del Codi de Comerç segons el material?",
+      "options": [
+        "Llibre d’inventaris i comptes anuals i llibre diari",
+        "Llibre d’actes i llibre de socis",
+        "Llibre de factures i llibre de caixa",
+        "Registre d’IVA i registre de personal"
+      ],
+      "correct": 0,
+      "explanation": "L’article 25 exigeix una comptabilitat ordenada i, en tot cas, llibre d’inventaris i comptes anuals i llibre diari."
+    },
+    {
+      "id": "uf0518-b3-020",
+      "block": "uf0518-bloc-3",
+      "topic": "Marc mercantil",
+      "question": "Quina precisió acompanya el termini mercantil general de sis anys?",
+      "options": [
+        "Sempre substitueix qualsevol altre termini",
+        "Només s’aplica a documents en paper",
+        "Només s’aplica a societats anònimes",
+        "Altres normes poden establir terminis diferents"
+      ],
+      "correct": 3,
+      "explanation": "El material adverteix que els sis anys són el termini mercantil general i que altres normes poden establir terminis diferents."
+    }
+  ]
+}
