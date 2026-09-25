@@ -1,1 +1,272 @@
-{"blockId":"uf0518-bloc-1","blockTitle":"La comunicació escrita, cartes comercials i documents administratius","questions":[{"id":"uf0518-b1-020","block":"uf0518-bloc-1","topic":"Funcions del llenguatge","question":"Quina funció del llenguatge escrit mostra actitud o valoració?","options":["Referencial","Apel·lativa","Fàtica","Expressiva"],"correct":3,"explanation":"La funció expressiva mostra actitud o valoració."},{"id":"uf0518-b1-021","block":"uf0518-bloc-1","topic":"Funcions del llenguatge","question":"Quina funció del llenguatge escrit manté o comprova el contacte?","options":["Fàtica","Referencial","Apel·lativa","Expressiva"],"correct":0,"explanation":"La funció fàtica manté o comprova el contacte."},{"id":"uf0518-b1-022","block":"uf0518-bloc-1","topic":"Funcions del llenguatge","question":"Quina funció del llenguatge escrit aclareix el significat d’un terme?","options":["Referencial","Metalingüística","Apel·lativa","Expressiva"],"correct":1,"explanation":"La funció metalingüística aclareix el significat d’un terme."},{"id":"uf0518-b1-023","block":"uf0518-bloc-1","topic":"Qualitat del text professional","question":"Quin criteri d’un bon text professional correspon a idees ordenades, frases comprensibles i estructura visible?","options":["Precisió","Concisió","Claredat","Correcció"],"correct":2,"explanation":"El material defineix claredat amb aquest criteri."},{"id":"uf0518-b1-024","block":"uf0518-bloc-1","topic":"Qualitat del text professional","question":"Quin criteri d’un bon text professional correspon a dades exactes com dates, imports, noms, referències i annexos?","options":["Claredat","Concisió","Correcció","Precisió"],"correct":3,"explanation":"El material defineix precisió amb aquest criteri."},{"id":"uf0518-b1-025","block":"uf0518-bloc-1","topic":"Qualitat del text professional","question":"Quin criteri d’un bon text professional correspon a només la informació necessària, sense repeticions ni frases buides?","options":["Concisió","Claredat","Precisió","Correcció"],"correct":0,"explanation":"El material defineix concisió amb aquest criteri."},{"id":"uf0518-b1-026","block":"uf0518-bloc-1","topic":"Qualitat del text professional","question":"Quin criteri d’un bon text professional correspon a ortografia, puntuació, registre lingüístic i tractament adequat?","options":["Claredat","Correcció","Precisió","Concisió"],"correct":1,"explanation":"El material defineix correcció amb aquest criteri."},{"id":"uf0518-b1-027","block":"uf0518-bloc-1","topic":"Qualitat del text professional","question":"Quin criteri d’un bon text professional correspon a sentit global i connexió entre introducció, desenvolupament i tancament?","options":["Claredat","Precisió","Coherència i cohesió","Concisió"],"correct":2,"explanation":"El material defineix coherència i cohesió amb aquest criteri."},{"id":"uf0518-b1-028","block":"uf0518-bloc-1","topic":"Registre i tractament","question":"Quina salutació és coherent amb un tractament formal?","options":["Ei!","Què tal?","Hola, colla!","Benvolgut/uda"],"correct":3,"explanation":"El material posa fórmules com «Benvolgut/uda», «Senyor/a», «Atentament» o «Cordialment» com a tractament formal."},{"id":"uf0518-b1-029","block":"uf0518-bloc-1","topic":"Registre i tractament","question":"Quina pràctica ajuda a mantenir un document professional coherent?","options":["Mantenir el mateix registre durant tot el document","Canviar de formal a col·loquial a mig text","Usar sempre expressions molt col·loquials","Ignorar qui és el destinatari"],"correct":0,"explanation":"El material recomana mantenir el mateix registre lingüístic durant tot el document."},{"id":"uf0518-b1-030","block":"uf0518-bloc-1","topic":"Registre i tractament","question":"De què depèn el to adequat d’una comunicació professional?","options":["Només de la longitud del document","Del destinatari: client, proveïdor, administració, company/a o direcció","Només del programa utilitzat","Del nombre de pàgines"],"correct":1,"explanation":"El material indica que el to s’ha d’adaptar al destinatari i al context."},{"id":"uf0518-b1-031","block":"uf0518-bloc-1","topic":"Errors habituals","question":"Quin error s’ha de detectar abans d’enviar un document?","options":["Un assumpte concret","Una referència correcta","Un assumpte massa genèric o inexistent","Una signatura present"],"correct":2,"explanation":"El material inclou l’assumpte massa genèric o inexistent entre els errors habituals."},{"id":"uf0518-b1-032","block":"uf0518-bloc-1","topic":"Errors habituals","question":"Quina revisió evita un error habitual de dades?","options":["Eliminar totes les referències","Fer el text més llarg","Ometre el destinatari","Comprovar nom, import, data, número de document i adreça"],"correct":3,"explanation":"El material assenyala les dades incorrectes com un error habitual."},{"id":"uf0518-b1-033","block":"uf0518-bloc-1","topic":"Errors habituals","question":"Quin risc de confidencialitat destaca el material?","options":["Enviar informació confidencial a destinataris equivocats","Guardar una còpia quan té valor probatori","Afegir la signatura necessària","Revisar els annexos"],"correct":0,"explanation":"Enviar informació confidencial al destinatari equivocat és un error que cal prevenir."},{"id":"uf0518-b1-034","block":"uf0518-bloc-1","topic":"Recomanacions lingüístiques","question":"Quina estructura de paràgraf recomana el material?","options":["Moltes idees diferents en un sol paràgraf","Frases curtes i una idea principal per paràgraf","Frases tan llargues com sigui possible","Paràgrafs sense puntuació"],"correct":1,"explanation":"El material recomana frases curtes i una idea principal per paràgraf."},{"id":"uf0518-b1-035","block":"uf0518-bloc-1","topic":"Recomanacions lingüístiques","question":"Què s’ha d’evitar en cartes, correus i documents professionals?","options":["Puntuació correcta","Revisió de noms propis","Abreviatures no normalitzades i expressions ambigües","Identificació dels annexos"],"correct":2,"explanation":"El material recomana evitar abreviatures no normalitzades i expressions ambigües."},{"id":"uf0518-b1-036","block":"uf0518-bloc-1","topic":"Recomanacions lingüístiques","question":"Quina pràctica lingüística desaconsella el material?","options":["Revisar dates i imports","Puntuar correctament","Comprovar referències i annexos","Barrejar català i castellà en el mateix document, excepte noms oficials o cites literals"],"correct":3,"explanation":"El material recomana no barrejar català i castellà dins del mateix document, amb les excepcions indicades."},{"id":"uf0518-b1-037","block":"uf0518-bloc-1","topic":"Carta comercial","question":"Què és una carta comercial segons el material?","options":["Una comunicació escrita professional no presencial entre una empresa i una altra persona o entitat","Una conversa oral entre treballadors","Un document exclusivament intern de nòmines","Una nota familiar sense finalitat professional"],"correct":0,"explanation":"La carta comercial és una comunicació professional escrita i no presencial."},{"id":"uf0518-b1-038","block":"uf0518-bloc-1","topic":"Carta comercial","question":"Per a quines finalitats pot servir una carta comercial?","options":["Només saludar informalment","Informar, sol·licitar, reclamar, confirmar, oferir o respondre","Només arxivar factures","Únicament substituir una reunió interna"],"correct":1,"explanation":"El material enumera aquestes finalitats per a la carta comercial."}]}
+{
+  "blockId": "uf0518-bloc-1",
+  "blockTitle": "La comunicació escrita, cartes comercials i documents administratius",
+  "questions": [
+    {
+      "id": "uf0518-b1-019",
+      "block": "uf0518-bloc-1",
+      "topic": "Funcions del llenguatge",
+      "question": "Quina funció del llenguatge escrit demana una acció al receptor?",
+      "options": [
+        "Referencial",
+        "Expressiva",
+        "Apel·lativa",
+        "Fàtica"
+      ],
+      "correct": 2,
+      "explanation": "La funció apel·lativa demana una acció al receptor."
+    },
+    {
+      "id": "uf0518-b1-020",
+      "block": "uf0518-bloc-1",
+      "topic": "Funcions del llenguatge",
+      "question": "Quina funció del llenguatge escrit mostra actitud o valoració?",
+      "options": [
+        "Referencial",
+        "Apel·lativa",
+        "Fàtica",
+        "Expressiva"
+      ],
+      "correct": 3,
+      "explanation": "La funció expressiva mostra actitud o valoració."
+    },
+    {
+      "id": "uf0518-b1-021",
+      "block": "uf0518-bloc-1",
+      "topic": "Funcions del llenguatge",
+      "question": "Quina funció del llenguatge escrit manté o comprova el contacte?",
+      "options": [
+        "Fàtica",
+        "Referencial",
+        "Apel·lativa",
+        "Expressiva"
+      ],
+      "correct": 0,
+      "explanation": "La funció fàtica manté o comprova el contacte."
+    },
+    {
+      "id": "uf0518-b1-022",
+      "block": "uf0518-bloc-1",
+      "topic": "Funcions del llenguatge",
+      "question": "Quina funció del llenguatge escrit aclareix el significat d’un terme?",
+      "options": [
+        "Referencial",
+        "Metalingüística",
+        "Apel·lativa",
+        "Expressiva"
+      ],
+      "correct": 1,
+      "explanation": "La funció metalingüística aclareix el significat d’un terme."
+    },
+    {
+      "id": "uf0518-b1-078",
+      "block": "uf0518-bloc-1",
+      "topic": "Precisió",
+      "question": "Abans d’enviar una carta, es comproven el nom del destinatari, l’import, la data i la referència. Quin criteri s’està reforçant especialment?",
+      "options": [
+        "Concisió",
+        "Precisió",
+        "Funció fàtica",
+        "Formalitat molt alta"
+      ],
+      "correct": 1,
+      "explanation": "La precisió requereix dades exactes, com noms, dates, imports, referències i annexos."
+    },
+    {
+      "id": "uf0518-b1-023",
+      "block": "uf0518-bloc-1",
+      "topic": "Qualitat del text professional",
+      "question": "Quin criteri d’un bon text professional correspon a idees ordenades, frases comprensibles i estructura visible?",
+      "options": [
+        "Precisió",
+        "Concisió",
+        "Claredat",
+        "Correcció"
+      ],
+      "correct": 2,
+      "explanation": "El material defineix claredat amb aquest criteri."
+    },
+    {
+      "id": "uf0518-b1-024",
+      "block": "uf0518-bloc-1",
+      "topic": "Qualitat del text professional",
+      "question": "Quin criteri d’un bon text professional correspon a dades exactes com dates, imports, noms, referències i annexos?",
+      "options": [
+        "Claredat",
+        "Concisió",
+        "Correcció",
+        "Precisió"
+      ],
+      "correct": 3,
+      "explanation": "El material defineix precisió amb aquest criteri."
+    },
+    {
+      "id": "uf0518-b1-025",
+      "block": "uf0518-bloc-1",
+      "topic": "Qualitat del text professional",
+      "question": "Quin criteri d’un bon text professional correspon a només la informació necessària, sense repeticions ni frases buides?",
+      "options": [
+        "Concisió",
+        "Claredat",
+        "Precisió",
+        "Correcció"
+      ],
+      "correct": 0,
+      "explanation": "El material defineix concisió amb aquest criteri."
+    },
+    {
+      "id": "uf0518-b1-026",
+      "block": "uf0518-bloc-1",
+      "topic": "Qualitat del text professional",
+      "question": "Quin criteri d’un bon text professional correspon a ortografia, puntuació, registre lingüístic i tractament adequat?",
+      "options": [
+        "Claredat",
+        "Correcció",
+        "Precisió",
+        "Concisió"
+      ],
+      "correct": 1,
+      "explanation": "El material defineix correcció amb aquest criteri."
+    },
+    {
+      "id": "uf0518-b1-027",
+      "block": "uf0518-bloc-1",
+      "topic": "Qualitat del text professional",
+      "question": "Quin criteri d’un bon text professional correspon a sentit global i connexió entre introducció, desenvolupament i tancament?",
+      "options": [
+        "Claredat",
+        "Precisió",
+        "Coherència i cohesió",
+        "Concisió"
+      ],
+      "correct": 2,
+      "explanation": "El material defineix coherència i cohesió amb aquest criteri."
+    },
+    {
+      "id": "uf0518-b1-077",
+      "block": "uf0518-bloc-1",
+      "topic": "Qualitat del text professional",
+      "question": "Un escrit utilitza frases comprensibles, idees ordenades i una estructura visible. Quin criteri de qualitat destaca principalment?",
+      "options": [
+        "Claredat",
+        "Precisió",
+        "Concisió",
+        "Correcció"
+      ],
+      "correct": 0,
+      "explanation": "La claredat exigeix idees ordenades, frases comprensibles i una estructura que faciliti entendre el text."
+    },
+    {
+      "id": "uf0518-b1-028",
+      "block": "uf0518-bloc-1",
+      "topic": "Registre i tractament",
+      "question": "Quina salutació és coherent amb un tractament formal?",
+      "options": [
+        "Ei!",
+        "Què tal?",
+        "Hola, colla!",
+        "Benvolgut/uda"
+      ],
+      "correct": 3,
+      "explanation": "El material posa fórmules com «Benvolgut/uda», «Senyor/a», «Atentament» o «Cordialment» com a tractament formal."
+    },
+    {
+      "id": "uf0518-b1-029",
+      "block": "uf0518-bloc-1",
+      "topic": "Registre i tractament",
+      "question": "Quina pràctica ajuda a mantenir un document professional coherent?",
+      "options": [
+        "Mantenir el mateix registre durant tot el document",
+        "Canviar de formal a col·loquial a mig text",
+        "Usar sempre expressions molt col·loquials",
+        "Ignorar qui és el destinatari"
+      ],
+      "correct": 0,
+      "explanation": "El material recomana mantenir el mateix registre lingüístic durant tot el document."
+    },
+    {
+      "id": "uf0518-b1-030",
+      "block": "uf0518-bloc-1",
+      "topic": "Registre i tractament",
+      "question": "De què depèn el to adequat d’una comunicació professional?",
+      "options": [
+        "Només de la longitud del document",
+        "Del destinatari: client, proveïdor, administració, company/a o direcció",
+        "Només del programa utilitzat",
+        "Del nombre de pàgines"
+      ],
+      "correct": 1,
+      "explanation": "El material indica que el to s’ha d’adaptar al destinatari i al context."
+    },
+    {
+      "id": "uf0518-b1-079",
+      "block": "uf0518-bloc-1",
+      "topic": "Registre lingüístic",
+      "question": "Una comunicació comença amb un tractament formal, però a mig text passa a expressions molt col·loquials. Quina recomanació del temari s’incompleix?",
+      "options": [
+        "Utilitzar annexos quan calgui",
+        "Escriure una idea principal per paràgraf",
+        "Mantenir el mateix registre durant tot el document",
+        "Incloure una referència numèrica en qualsevol escrit"
+      ],
+      "correct": 2,
+      "explanation": "El registre ha d’adaptar-se al destinatari i mantenir-se coherent durant tot el document, evitant canvis impropis de to."
+    },
+    {
+      "id": "uf0518-b1-086",
+      "block": "uf0518-bloc-1",
+      "topic": "Constància documental",
+      "question": "Un document pot tenir valor probatori en una reclamació posterior. Quina pràctica recomana el material abans de donar per tancada la gestió?",
+      "options": [
+        "Eliminar l’original quan el destinatari confirmi la recepció",
+        "Conservar una còpia o evidència de la comunicació",
+        "Substituir-lo per una nota verbal interna",
+        "Guardar únicament l’assumpte i la data"
+      ],
+      "correct": 1,
+      "explanation": "El material assenyala com a error no conservar còpia quan el document pot tenir valor probatori; la constància documental permet consultar, arxivar, justificar i provar comunicacions."
+    },
+    {
+      "id": "uf0518-b1-031",
+      "block": "uf0518-bloc-1",
+      "topic": "Errors habituals",
+      "question": "Quin error s’ha de detectar abans d’enviar un document?",
+      "options": [
+        "Un assumpte concret",
+        "Una referència correcta",
+        "Un assumpte massa genèric o inexistent",
+        "Una signatura present"
+      ],
+      "correct": 2,
+      "explanation": "El material inclou l’assumpte massa genèric o inexistent entre els errors habituals."
+    },
+    {
+      "id": "uf0518-b1-032",
+      "block": "uf0518-bloc-1",
+      "topic": "Errors habituals",
+      "question": "Quina revisió evita un error habitual de dades?",
+      "options": [
+        "Eliminar totes les referències",
+        "Fer el text més llarg",
+        "Ometre el destinatari",
+        "Comprovar nom, import, data, número de document i adreça"
+      ],
+      "correct": 3,
+      "explanation": "El material assenyala les dades incorrectes com un error habitual."
+    },
+    {
+      "id": "uf0518-b1-033",
+      "block": "uf0518-bloc-1",
+      "topic": "Errors habituals",
+      "question": "Quin risc de confidencialitat destaca el material?",
+      "options": [
+        "Enviar informació confidencial a destinataris equivocats",
+        "Guardar una còpia quan té valor probatori",
+        "Afegir la signatura necessària",
+        "Revisar els annexos"
+      ],
+      "correct": 0,
+      "explanation": "Enviar informació confidencial al destinatari equivocat és un error que cal prevenir."
+    }
+  ]
+}

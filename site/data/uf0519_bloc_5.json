@@ -3,6 +3,20 @@
   "blockTitle": "Operacions informàtiques, tresoreria, caixa i control de material",
   "questions": [
     {
+      "id": "uf0519-b5-004",
+      "block": "uf0519-bloc-5",
+      "topic": "Control de facturació",
+      "question": "Quins controls documentals destaca el material en un programa de facturació?",
+      "options": [
+        "Només contrasenyes de correu",
+        "Únicament assistència a reunions",
+        "Només inventari de mobiliari",
+        "Numeració, sèries, factures rectificatives i informes"
+      ],
+      "correct": 3,
+      "explanation": "El material destaca el control de numeració, sèries, rectificatives i informes."
+    },
+    {
       "id": "uf0519-b5-001",
       "block": "uf0519-bloc-5",
       "topic": "Programari de facturació",
@@ -45,20 +59,6 @@
       "explanation": "El material assenyala l’aplicació d’impostos, descomptes, venciments i formes de pagament."
     },
     {
-      "id": "uf0519-b5-004",
-      "block": "uf0519-bloc-5",
-      "topic": "Control de facturació",
-      "question": "Quins controls documentals destaca el material en un programa de facturació?",
-      "options": [
-        "Només contrasenyes de correu",
-        "Únicament assistència a reunions",
-        "Només inventari de mobiliari",
-        "Numeració, sèries, factures rectificatives i informes"
-      ],
-      "correct": 3,
-      "explanation": "El material destaca el control de numeració, sèries, rectificatives i informes."
-    },
-    {
       "id": "uf0519-b5-005",
       "block": "uf0519-bloc-5",
       "topic": "Programari de nòmines",
@@ -85,6 +85,20 @@
       ],
       "correct": 1,
       "explanation": "El material diferencia el suport administratiu del criteri laboral especialitzat."
+    },
+    {
+      "id": "uf0519-b5-009",
+      "block": "uf0519-bloc-5",
+      "topic": "Arxiu digital",
+      "question": "Quina pràctica d’organització de fitxers recomana el material?",
+      "options": [
+        "Utilitzar noms de fitxer clars i carpetes ordenades",
+        "Fer servir noms aleatoris",
+        "Guardar-ho tot a l’escriptori",
+        "Duplicar cada fitxer en carpetes sense criteri"
+      ],
+      "correct": 0,
+      "explanation": "Els noms clars i les carpetes ordenades faciliten localització i gestió documental."
     },
     {
       "id": "uf0519-b5-007",
@@ -115,20 +129,6 @@
       "explanation": "La traçabilitat identifica les accions i les persones que intervenen en el document."
     },
     {
-      "id": "uf0519-b5-009",
-      "block": "uf0519-bloc-5",
-      "topic": "Arxiu digital",
-      "question": "Quina pràctica d’organització de fitxers recomana el material?",
-      "options": [
-        "Utilitzar noms de fitxer clars i carpetes ordenades",
-        "Fer servir noms aleatoris",
-        "Guardar-ho tot a l’escriptori",
-        "Duplicar cada fitxer en carpetes sense criteri"
-      ],
-      "correct": 0,
-      "explanation": "Els noms clars i les carpetes ordenades faciliten localització i gestió documental."
-    },
-    {
       "id": "uf0519-b5-010",
       "block": "uf0519-bloc-5",
       "topic": "Control abans d’enviar",
@@ -143,18 +143,18 @@
       "explanation": "La checklist final agrupa comprovacions de destinatari, completitud, coherència, protecció de dades, canal i traçabilitat."
     },
     {
-      "id": "uf0519-b5-011",
+      "id": "uf0519-b5-014",
       "block": "uf0519-bloc-5",
-      "topic": "Tresoreria",
-      "question": "Quina funció té la tresoreria segons el material?",
+      "topic": "Justificants de pagament",
+      "question": "Què requereix cada operació de pagament o cobrament segons el material?",
       "options": [
-        "Controlar totes les entrades i sortides de diners de l’empresa",
-        "Gestionar exclusivament l’arxiu històric",
-        "Redactar només contractes laborals",
-        "Controlar únicament les existències de magatzem"
+        "Un canvi de contrasenya",
+        "Una nova fitxa de client",
+        "Una còpia de tots els correus",
+        "Un justificant i una comprovació de l’import"
       ],
-      "correct": 0,
-      "explanation": "La presentació defineix la tresoreria com la funció que controla totes les entrades i sortides de diners de l’empresa."
+      "correct": 3,
+      "explanation": "Cada operació de pagament o cobrament necessita un justificant i una comprovació de l’import."
     },
     {
       "id": "uf0519-b5-012",
@@ -185,32 +185,18 @@
       "explanation": "La presentació afegeix les targetes de crèdit o dèbit, els pagarés i les lletres de canvi."
     },
     {
-      "id": "uf0519-b5-014",
+      "id": "uf0519-b5-011",
       "block": "uf0519-bloc-5",
-      "topic": "Justificants de pagament",
-      "question": "Què requereix cada operació de pagament o cobrament segons el material?",
+      "topic": "Tresoreria",
+      "question": "Quina funció té la tresoreria segons el material?",
       "options": [
-        "Un canvi de contrasenya",
-        "Una nova fitxa de client",
-        "Una còpia de tots els correus",
-        "Un justificant i una comprovació de l’import"
-      ],
-      "correct": 3,
-      "explanation": "Cada operació de pagament o cobrament necessita un justificant i una comprovació de l’import."
-    },
-    {
-      "id": "uf0519-b5-015",
-      "block": "uf0519-bloc-5",
-      "topic": "Control de caixa i bancs",
-      "question": "Per a què serveixen els registres de caixa i bancs?",
-      "options": [
-        "Per conèixer i comprovar el saldo disponible en tot moment",
-        "Per substituir les factures emeses",
-        "Per eliminar els justificants antics",
-        "Per determinar l’organigrama de l’empresa"
+        "Controlar totes les entrades i sortides de diners de l’empresa",
+        "Gestionar exclusivament l’arxiu històric",
+        "Redactar només contractes laborals",
+        "Controlar únicament les existències de magatzem"
       ],
       "correct": 0,
-      "explanation": "Els registres de caixa i bancs permeten conèixer i comprovar el saldo disponible en tot moment."
+      "explanation": "La presentació defineix la tresoreria com la funció que controla totes les entrades i sortides de diners de l’empresa."
     },
     {
       "id": "uf0519-b5-016",
@@ -241,6 +227,20 @@
       "explanation": "La conciliació bancària compara els registres interns de l’empresa amb l’extracte bancari per identificar diferències."
     },
     {
+      "id": "uf0519-b5-015",
+      "block": "uf0519-bloc-5",
+      "topic": "Control de caixa i bancs",
+      "question": "Per a què serveixen els registres de caixa i bancs?",
+      "options": [
+        "Per conèixer i comprovar el saldo disponible en tot moment",
+        "Per substituir les factures emeses",
+        "Per eliminar els justificants antics",
+        "Per determinar l’organigrama de l’empresa"
+      ],
+      "correct": 0,
+      "explanation": "Els registres de caixa i bancs permeten conèixer i comprovar el saldo disponible en tot moment."
+    },
+    {
       "id": "uf0519-b5-018",
       "block": "uf0519-bloc-5",
       "topic": "Seguretat econòmica",
@@ -269,20 +269,6 @@
       "explanation": "El control d’existències assegura que el material necessari estigui disponible per a l’activitat."
     },
     {
-      "id": "uf0519-b5-020",
-      "block": "uf0519-bloc-5",
-      "topic": "Material fungible i no fungible",
-      "question": "Quina distinció fa el material entre material fungible i no fungible?",
-      "options": [
-        "Fungible és el material durador i no fungible el consumible",
-        "Fungible és el material consumible i no fungible el material durador o els equips d’oficina",
-        "Fungible és només material informàtic i no fungible només paper",
-        "No hi ha cap diferència entre tots dos"
-      ],
-      "correct": 1,
-      "explanation": "El material diferencia el material fungible, que és consumible, del no fungible, que és durador o correspon a equips d’oficina."
-    },
-    {
       "id": "uf0519-b5-021",
       "block": "uf0519-bloc-5",
       "topic": "Fitxa de magatzem",
@@ -295,6 +281,20 @@
       ],
       "correct": 2,
       "explanation": "Registrar les entrades, sortides i el saldo actualitzat a la fitxa de magatzem permet un control precís."
+    },
+    {
+      "id": "uf0519-b5-020",
+      "block": "uf0519-bloc-5",
+      "topic": "Material fungible i no fungible",
+      "question": "Quina distinció fa el material entre material fungible i no fungible?",
+      "options": [
+        "Fungible és el material durador i no fungible el consumible",
+        "Fungible és el material consumible i no fungible el material durador o els equips d’oficina",
+        "Fungible és només material informàtic i no fungible només paper",
+        "No hi ha cap diferència entre tots dos"
+      ],
+      "correct": 1,
+      "explanation": "El material diferencia el material fungible, que és consumible, del no fungible, que és durador o correspon a equips d’oficina."
     },
     {
       "id": "uf0519-b5-022",

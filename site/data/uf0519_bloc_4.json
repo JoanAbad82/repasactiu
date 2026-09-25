@@ -1,1 +1,118 @@
-{"blockId":"uf0519-bloc-4","blockTitle":"Altres documents administratius i empresarials","questions":[{"id":"uf0519-b4-001","block":"uf0519-bloc-4","topic":"Informe","question":"Quina funció té un informe segons el material?","options":["Exposar fets, dades o valoracions de manera ordenada","Acreditar un pagament","Formalitzar una comanda","Calcular una nòmina"],"correct":0,"explanation":"L’informe serveix per analitzar o exposar informació ordenadament."},{"id":"uf0519-b4-002","block":"uf0519-bloc-4","topic":"Acta","question":"Què recull una acta?","options":["Preus i descomptes d’una venda","Acords, assistents i decisions d’una reunió","Meritacions i deduccions salarials","Només dades bancàries"],"correct":1,"explanation":"L’acta deixa constància del desenvolupament i dels acords d’una reunió."},{"id":"uf0519-b4-003","block":"uf0519-bloc-4","topic":"Certificat","question":"Quina funció té un certificat?","options":["Proposar el preu d’un servei","Registrar una venda al comptat","Acreditar oficialment una informació concreta","Assignar recursos a una ordre de treball"],"correct":2,"explanation":"El certificat serveix per acreditar oficialment una informació determinada."},{"id":"uf0519-b4-004","block":"uf0519-bloc-4","topic":"Circular","question":"Per a què serveix una circular?","options":["Per justificar fiscalment una venda","Per calcular cotitzacions","Per acreditar un pagament individual","Per comunicar una instrucció o informació a un grup de persones"],"correct":3,"explanation":"La circular informa un col·lectiu amb el mateix missatge."},{"id":"uf0519-b4-005","block":"uf0519-bloc-4","topic":"Comunicació interna","question":"Quina finalitat té una comunicació interna?","options":["Transmetre avisos, procediments o canvis dins de l’organització","Emetre una factura recapitulativa","Acreditar el lliurament d’un paquet","Substituir una resolució administrativa"],"correct":0,"explanation":"La comunicació interna coordina tasques o informa de canvis i procediments dins l’organització."},{"id":"uf0519-b4-006","block":"uf0519-bloc-4","topic":"Sol·licitud","question":"Quina funció té una sol·licitud o instància?","options":["Acreditar un pagament","Formular formalment una petició","Calcular el salari net","Confirmar la recepció d’una mercaderia"],"correct":1,"explanation":"La sol·licitud o instància permet demanar formalment una actuació, tràmit o resposta."},{"id":"uf0519-b4-007","block":"uf0519-bloc-4","topic":"Memòria","question":"Què recull una memòria segons el material?","options":["Només les factures d’un dia","Únicament els pagaments en efectiu","Les activitats i els resultats d’un període","Les incidències d’un sol lliurament"],"correct":2,"explanation":"La memòria sintetitza activitats i resultats d’un període determinat."},{"id":"uf0519-b4-008","block":"uf0519-bloc-4","topic":"Bones pràctiques documentals","question":"Quina bona pràctica comuna recomana el material per protegir dades personals?","options":["Incloure totes les dades disponibles per precaució","Enviar còpies a qualsevol departament","Guardar dades personals en el títol del fitxer","Evitar dades personals que no siguin imprescindibles per a la finalitat del document"],"correct":3,"explanation":"La minimització de dades és una de les bones pràctiques comunes del material."}]}
+{
+  "blockId": "uf0519-bloc-4",
+  "blockTitle": "Altres documents administratius i empresarials",
+  "questions": [
+    {
+      "id": "uf0519-b4-002",
+      "block": "uf0519-bloc-4",
+      "topic": "Acta",
+      "question": "Què recull una acta?",
+      "options": [
+        "Preus i descomptes d’una venda",
+        "Acords, assistents i decisions d’una reunió",
+        "Meritacions i deduccions salarials",
+        "Només dades bancàries"
+      ],
+      "correct": 1,
+      "explanation": "L’acta deixa constància del desenvolupament i dels acords d’una reunió."
+    },
+    {
+      "id": "uf0519-b4-003",
+      "block": "uf0519-bloc-4",
+      "topic": "Certificat",
+      "question": "Quina funció té un certificat?",
+      "options": [
+        "Proposar el preu d’un servei",
+        "Registrar una venda al comptat",
+        "Acreditar oficialment una informació concreta",
+        "Assignar recursos a una ordre de treball"
+      ],
+      "correct": 2,
+      "explanation": "El certificat serveix per acreditar oficialment una informació determinada."
+    },
+    {
+      "id": "uf0519-b4-004",
+      "block": "uf0519-bloc-4",
+      "topic": "Circular",
+      "question": "Per a què serveix una circular?",
+      "options": [
+        "Per justificar fiscalment una venda",
+        "Per calcular cotitzacions",
+        "Per acreditar un pagament individual",
+        "Per comunicar una instrucció o informació a un grup de persones"
+      ],
+      "correct": 3,
+      "explanation": "La circular informa un col·lectiu amb el mateix missatge."
+    },
+    {
+      "id": "uf0519-b4-005",
+      "block": "uf0519-bloc-4",
+      "topic": "Comunicació interna",
+      "question": "Quina finalitat té una comunicació interna?",
+      "options": [
+        "Transmetre avisos, procediments o canvis dins de l’organització",
+        "Emetre una factura recapitulativa",
+        "Acreditar el lliurament d’un paquet",
+        "Substituir una resolució administrativa"
+      ],
+      "correct": 0,
+      "explanation": "La comunicació interna coordina tasques o informa de canvis i procediments dins l’organització."
+    },
+    {
+      "id": "uf0519-b4-001",
+      "block": "uf0519-bloc-4",
+      "topic": "Informe",
+      "question": "Quina funció té un informe segons el material?",
+      "options": [
+        "Exposar fets, dades o valoracions de manera ordenada",
+        "Acreditar un pagament",
+        "Formalitzar una comanda",
+        "Calcular una nòmina"
+      ],
+      "correct": 0,
+      "explanation": "L’informe serveix per analitzar o exposar informació ordenadament."
+    },
+    {
+      "id": "uf0519-b4-007",
+      "block": "uf0519-bloc-4",
+      "topic": "Memòria",
+      "question": "Què recull una memòria segons el material?",
+      "options": [
+        "Només les factures d’un dia",
+        "Únicament els pagaments en efectiu",
+        "Les activitats i els resultats d’un període",
+        "Les incidències d’un sol lliurament"
+      ],
+      "correct": 2,
+      "explanation": "La memòria sintetitza activitats i resultats d’un període determinat."
+    },
+    {
+      "id": "uf0519-b4-006",
+      "block": "uf0519-bloc-4",
+      "topic": "Sol·licitud",
+      "question": "Quina funció té una sol·licitud o instància?",
+      "options": [
+        "Acreditar un pagament",
+        "Formular formalment una petició",
+        "Calcular el salari net",
+        "Confirmar la recepció d’una mercaderia"
+      ],
+      "correct": 1,
+      "explanation": "La sol·licitud o instància permet demanar formalment una actuació, tràmit o resposta."
+    },
+    {
+      "id": "uf0519-b4-008",
+      "block": "uf0519-bloc-4",
+      "topic": "Bones pràctiques documentals",
+      "question": "Quina bona pràctica comuna recomana el material per protegir dades personals?",
+      "options": [
+        "Incloure totes les dades disponibles per precaució",
+        "Enviar còpies a qualsevol departament",
+        "Guardar dades personals en el títol del fitxer",
+        "Evitar dades personals que no siguin imprescindibles per a la finalitat del document"
+      ],
+      "correct": 3,
+      "explanation": "La minimització de dades és una de les bones pràctiques comunes del material."
+    }
+  ]
+}

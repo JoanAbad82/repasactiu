@@ -1,1 +1,566 @@
-{"blockId":"unitat-2-bloc-1","blockTitle":"L’organització d’activitats de suport administratiu","questions":[{"id":"u2b1-001","block":"unitat-2-bloc-1","topic":"Recursos Humans","question":"Com defineix el material els Recursos Humans?","options":["El conjunt de persones que integren una organització i contribueixen al seu funcionament amb el seu esforç i treball","El conjunt de documents laborals arxivats per l’empresa","Només l’equip directiu que pren decisions","El pressupost destinat a salaris i formació"],"correct":0,"explanation":"La unitat presenta els Recursos Humans com la part humana de l’organització: les persones que la integren."},{"id":"u2b1-002","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Què és la coordinació segons el material?","options":["Una decisió individual del responsable sense comunicació","Accions col·lectives desenvolupades mitjançant la comunicació i el consens entre les persones implicades","Un sistema que elimina qualsevol dependència entre treballadors","Una tècnica reservada exclusivament als grups informals"],"correct":1,"explanation":"La coordinació es defineix com accions col·lectives que es duen a terme a través de comunicació i consens."},{"id":"u2b1-003","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Dos companys s’organitzen parlant i ajudant-se sense que un cap els indiqui constantment què han de fer. Quin mecanisme utilitzen?","options":["Supervisió directa","Normalització de resultats","Adaptació mútua","Normalització d’habilitats"],"correct":2,"explanation":"En l’adaptació mútua, les persones es coordinen directament entre elles mitjançant comunicació i ajuda."},{"id":"u2b1-004","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Un encarregat reparteix tasques, dona instruccions i controla el treball de l’equip. Quin mecanisme predomina?","options":["Adaptació mútua","Normalització d’habilitats","Normalització de resultats","Supervisió directa"],"correct":3,"explanation":"La supervisió directa implica que una persona organitza, dona instruccions i controla la feina dels altres."},{"id":"u2b1-005","block":"unitat-2-bloc-1","topic":"Coordinació","question":"En una oficina, tothom segueix els mateixos passos predefinits per registrar una factura. Quin mecanisme de coordinació és?","options":["Normalització dels processos de treball","Normalització de resultats","Adaptació mútua","Normalització d’habilitats"],"correct":0,"explanation":"Quan abans de començar ja està decidit com s’ha de fer la tasca mitjançant normes, passos o procediments, es normalitza el procés."},{"id":"u2b1-006","block":"unitat-2-bloc-1","topic":"Coordinació","question":"A un comercial se li exigeix una xifra de vendes mensual però pot decidir com contactar amb els clients. Què s’ha normalitzat?","options":["El procés de treball","El resultat","Les habilitats","La supervisió directa"],"correct":1,"explanation":"La normalització de resultats fixa què s’ha d’aconseguir, no exactament com s’ha de fer."},{"id":"u2b1-007","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Una professió exigeix formació específica abans d’exercir i no cal explicar cada pas de la feina. Quin mecanisme descriu millor la situació?","options":["Supervisió directa","Normalització de resultats","Normalització d’habilitats","Adaptació mútua"],"correct":2,"explanation":"En la normalització d’habilitats s’estandarditza la preparació, formació o experiència prèvia del treballador."},{"id":"u2b1-008","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Quina comparació entre normalització de processos i de resultats és correcta?","options":["La primera fixa la formació; la segona fixa les normes de convivència","La primera elimina procediments; la segona obliga a seguir passos idèntics","Totes dues exigeixen exactament el mateix mètode de treball","La primera fixa com fer la feina; la segona fixa què s’ha d’aconseguir"],"correct":3,"explanation":"La diferència clau és entre especificar el procediment i especificar l’objectiu final."},{"id":"u2b1-009","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Què s’estandarditza principalment en la normalització d’habilitats?","options":["La preparació i competència de les persones treballadores","La quantitat exacta de vendes mensuals","Els passos concrets de cada tasca","La relació afectiva entre els membres del grup"],"correct":0,"explanation":"Aquest mecanisme parteix de la formació, coneixements i habilitats previs dels treballadors."},{"id":"u2b1-010","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Quin cas depèn menys d’un cap que doni ordres constants?","options":["Un equip sotmès a supervisió directa","Un equip que es coordina per adaptació mútua","Un grup en què un responsable decideix i controla totes les tasques","Una estructura autocràtica amb poca autonomia"],"correct":1,"explanation":"L’adaptació mútua permet coordinar-se parlant i ajudant-se sense supervisió constant."},{"id":"u2b1-011","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Quina opció conté només mecanismes de coordinació citats a la unitat?","options":["Centralització, subcontractació i auditoria","Cohesió, sanció i jerarquia externa","Adaptació mútua, supervisió directa i normalització de resultats","Planificació, recepció i inventari"],"correct":2,"explanation":"La unitat enumera adaptació mútua, supervisió directa i normalitzacions de procediments, resultats i habilitats."},{"id":"u2b1-012","block":"unitat-2-bloc-1","topic":"Coordinació","question":"Si l’empresa vol reduir errors fent que una tasca repetitiva es realitzi sempre de manera semblant, quin mecanisme és especialment adequat?","options":["Fixar només un objectiu final sense indicar cap procediment","Augmentar la mida del grup","Substituir la coordinació per una relació informal","Normalitzar el procés de treball"],"correct":3,"explanation":"La normalització de processos estableix passos i instruccions comuns i ajuda a evitar errors."},{"id":"u2b1-013","block":"unitat-2-bloc-1","topic":"Procediments de treball","question":"Què és un procediment de treball?","options":["Una sèrie de passos clars i coherents per treballar i coordinar-se fins a assolir els objectius","Una llista d’objectius sense indicar accions","Una norma que només descriu sancions","Un document reservat a tasques que no es repeteixen"],"correct":0,"explanation":"El material defineix el procediment com una sèrie de passos definits de manera clara i coherent."},{"id":"u2b1-014","block":"unitat-2-bloc-1","topic":"Procediments de treball","question":"Quin benefici atribueix el material als procediments de treball?","options":["Eliminar la necessitat de qualsevol coordinació","Ordenar i controlar la feina, reduir errors, millorar la qualitat i prevenir riscos quan cal","Garantir que totes les tasques tinguin una única solució","Fer innecessaris els objectius inicials"],"correct":1,"explanation":"Els procediments ajuden a fer el treball ordenat, coherent i controlable, i poden reduir errors i riscos."},{"id":"u2b1-015","block":"unitat-2-bloc-1","topic":"Procediments de treball","question":"Quines tres qüestions cal considerar en un procediment?","options":["Pressupost, organigrama i publicitat","Lideratge, cohesió i recompenses","Accions, protocol i regles que delimiten les accions","Clients, proveïdors i competidors"],"correct":2,"explanation":"La unitat assenyala les accions, el protocol que se seguirà i les regles que delimiten les accions."},{"id":"u2b1-016","block":"unitat-2-bloc-1","topic":"Procediments de treball","question":"Un procediment té una única seqüència de passos en un ordre establert. De quin tipus és?","options":["Ramificat","Participatiu","Informal","Lineal"],"correct":3,"explanation":"Els procediments lineals segueixen una seqüència única i ordenada."},{"id":"u2b1-017","block":"unitat-2-bloc-1","topic":"Procediments de treball","question":"Un procediment ofereix recorreguts diferents segons la resposta obtinguda en cada pas. De quin tipus és?","options":["Ramificat","Lineal","Autocràtic","Normalitzat per habilitats"],"correct":0,"explanation":"Els procediments ramificats canvien el recorregut segons decisions o condicions."},{"id":"u2b1-018","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Què significa qualitat en una empresa segons la unitat?","options":["Produir el màxim possible encara que augmentin els errors","Fer bé la feina i organitzar-se per millorar processos i satisfer els clients","Complir només els objectius econòmics","Evitar qualsevol mesurament per donar autonomia"],"correct":1,"explanation":"La qualitat combina bon treball, organització, millora contínua i satisfacció dels clients."},{"id":"u2b1-019","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Quina diferència hi ha entre eficiència i eficàcia?","options":["Eficiència és assolir objectius; eficàcia és reduir personal","Eficiència és satisfacció; eficàcia és percepció","Eficiència és usar el mínim de recursos; eficàcia és assolir els objectius","Són exactament el mateix concepte"],"correct":2,"explanation":"La unitat defineix eficiència per l’ús de recursos i eficàcia per l’assoliment dels objectius."},{"id":"u2b1-020","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Què és l’efectivitat segons el material?","options":["Aconseguir objectius sense tenir en compte els recursos","Reduir recursos encara que no s’assoleixin objectius","Mesurar només la satisfacció dels clients","Obtenir bons resultats combinant de manera equilibrada eficàcia i eficiència"],"correct":3,"explanation":"L’efectivitat integra eficàcia i eficiència."},{"id":"u2b1-021","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Quin és el primer pas per implementar elements de control de qualitat?","options":["Triar què es vol controlar i quins objectius es volen aconseguir","Prendre accions de millora abans de mesurar","Comparar directament el resultat real amb l’estàndard sense definir què es mesura","Substituir el sistema de mesurament"],"correct":0,"explanation":"La seqüència comença triant què controlar i aclarint els objectius."},{"id":"u2b1-022","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Després d’establir un sistema de mesurament, què cal fer segons la seqüència del material?","options":["Eliminar els estàndards","Realitzar el control mitjançant el mesurament","Passar directament a una auditoria externa","Canviar els objectius abans de tenir dades"],"correct":1,"explanation":"La unitat situa el mesurament real després d’escollir què i com mesurar i d’establir el sistema."},{"id":"u2b1-023","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Què implica interpretar un mesurament de qualitat?","options":["Substituir les dades per opinions personals","Mesurar només els errors dels treballadors","Diferenciar el resultat real de l’estàndard previst","Eliminar qualsevol desviació de l’informe"],"correct":2,"explanation":"El cinquè pas és interpretar el mesurament diferenciant el real i l’estàndard."},{"id":"u2b1-024","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Què correspon fer si el control mostra una desviació que cal corregir?","options":["Ignorar el resultat fins al següent exercici","Eliminar els indicadors de qualitat","Canviar només la percepció dels clients sense actuar sobre el procés","Prendre accions de millora i, si escau, modificar els controls de qualitat"],"correct":3,"explanation":"L’últim pas del control és adoptar millores i, si és necessari, revisar els controls."},{"id":"u2b1-025","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Quin indicador mesura si les tasques es desenvolupen correctament?","options":["Indicador de procés o funcions","Indicador de servei","Indicador de percepció","Indicador de cohesió"],"correct":0,"explanation":"Els indicadors de procés o funcions mesuren el desenvolupament correcte de les tasques."},{"id":"u2b1-026","block":"unitat-2-bloc-1","topic":"Qualitat","question":"Quina relació és correcta?","options":["Servei → ús de recursos; percepció → compliment de terminis","Servei → satisfacció dels clients; percepció → com veuen l’oficina o servei les persones usuàries","Servei → normes del grup; percepció → jerarquia","Servei → resultats comptables; percepció → formació professional"],"correct":1,"explanation":"La unitat diferencia indicadors de servei i de percepció amb aquestes funcions."},{"id":"u2b1-027","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Quin principi general ajuda a obtenir bons resultats a la feina?","options":["Fer totes les tasques al mateix temps","Prioritzar sempre les tasques poc importants","Equilibrar la quantitat de feina amb el temps disponible","Evitar planificar perquè redueix la flexibilitat"],"correct":2,"explanation":"La unitat destaca l’organització del temps i l’equilibri entre càrrega de treball i temps disponible."},{"id":"u2b1-028","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Quines característiques han de tenir els objectius segons el material?","options":["Ser molt nombrosos i deliberadament difícils","Ser genèrics i no quedar mai per escrit","Canviar diàriament encara que no variï la feina","Ser específics, compatibles amb altres objectius, assequibles i en un nombre limitat i raonable"],"correct":3,"explanation":"La unitat recomana objectius concrets, compatibles, assolibles i limitats; escriure’ls reforça el compromís."},{"id":"u2b1-029","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Una tasca és imprescindible per assolir l’objectiu i només nosaltres la podem abordar. Com es classifica?","options":["Important","Normal","Poc important","Rutinària per definició"],"correct":0,"explanation":"Les tasques importants són imprescindibles per als objectius i, segons el material, només nosaltres les podem abordar."},{"id":"u2b1-030","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Una tasca és rellevant però es pot posposar breument o delegar. Com es classifica?","options":["Important","Normal","Poc important","Projecte en curs"],"correct":1,"explanation":"Les tasques normals són importants però admeten un ajornament curt o delegació."},{"id":"u2b1-031","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Quina característica associa el material a les tasques poc importants?","options":["Sempre són imprescindibles i indelegables","Tenen necessàriament una data final fixa","Són menys vitals per a objectius concrets però poden consumir gran part del temps","Només es realitzen en equip"],"correct":2,"explanation":"El material adverteix que tasques menys vitals poden consumir molt de temps."},{"id":"u2b1-032","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Quina tasca encaixa millor amb la categoria de rutina?","options":["Un projecte amb termini fix que exigeix planificació","Una tasca destinada a millorar el treball personal a llarg termini","Una decisió excepcional de la direcció","Una activitat quotidiana que es fa sense gran esforç intel·lectual"],"correct":3,"explanation":"Les tasques rutinàries són quotidianes i requereixen poc esforç intel·lectual."},{"id":"u2b1-033","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Què diferencia un projecte en curs d’una tasca rutinària?","options":["Té un termini més o menys fix i requereix planificació i organització personal","No té cap objectiu definit","Sempre es pot delegar sense seguiment","Es repeteix diàriament sense planificació"],"correct":0,"explanation":"Els projectes en curs tenen termini d’execució i exigeixen certa planificació."},{"id":"u2b1-034","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Quan sorgeix un problema en el treball de grup, quina pauta recomana el material per enriquir la tasca?","options":["Evitar que els membres comparteixin opinions","Fer una pluja d’idees i aportar propostes","Deixar la decisió sempre per a una sola persona","Ajornar qualsevol comunicació fins al final del projecte"],"correct":1,"explanation":"La pluja d’idees facilita que el grup aporti propostes davant dels problemes."},{"id":"u2b1-035","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Per què convé preparar i estructurar les reunions periòdiques?","options":["Per substituir totes les altres formes de comunicació","Per evitar que els membres participin en les decisions","Per coordinar el grup i aprofitar millor les reunions","Perquè una reunió improvisada sempre redueix els errors"],"correct":2,"explanation":"Les reunions periòdiques poden millorar resultats si es preparen amb temps i estan ben estructurades."},{"id":"u2b1-036","block":"unitat-2-bloc-1","topic":"Obtenció de resultats","question":"Quina actuació és més coherent quan es detecta un error que pot afectar la resta del grup?","options":["Esperar al final del projecte encara que l’error es propagui","Ocultar-lo per evitar tensions","Traslladar-lo a un altre membre sense comunicar-lo","Reconèixer-lo i corregir-lo tan aviat com sigui possible"],"correct":3,"explanation":"La unitat recomana rectificar aviat perquè una fallada individual pot afectar la resta del grup."},{"id":"u2b1-037","block":"unitat-2-bloc-1","topic":"Grups de treball","question":"Què és un grup de treball segons el material?","options":["Un petit grup de persones que col·laboren i realitzen un treball coordinat","Qualsevol conjunt de persones que comparteixen edifici","Només les persones que depenen d’un mateix cap","Un grup que ha de ser necessàriament informal"],"correct":0,"explanation":"La unitat defineix els grups de treball per la col·laboració i el treball coordinat."},{"id":"u2b1-038","block":"unitat-2-bloc-1","topic":"Grups de treball","question":"Quin objectiu contribueix a un bon grup de treball?","options":["Que cada persona treballi sense conèixer l’objectiu comú","Que tots coneguin un objectiu compartit i hi contribueixin","Que només el líder tingui informació sobre les metes","Que s’evitin opinions diferents"],"correct":1,"explanation":"Els objectius compartits són un dels elements que es busquen en la creació de grups."},{"id":"u2b1-039","block":"unitat-2-bloc-1","topic":"Grups de treball","question":"Quina actuació reforça la confiança i el bon ambient?","options":["Castigar qualsevol desacord","Limitar la comunicació als missatges del líder","Crear un entorn de respecte on les persones puguin participar i aportar idees","Evitar que els membres demanin ajuda"],"correct":2,"explanation":"La confiança i el respecte faciliten participació, aprenentatge i aportació d’idees."},{"id":"u2b1-040","block":"unitat-2-bloc-1","topic":"Grups de treball","question":"Com s’han de tractar els desacords dins d’un grup segons el material?","options":["Ignorant-los sempre","Expulsant qui presenti una opinió diferent","Convertint-los en competència individual","Mitjançant comunicació oberta i una resolució positiva"],"correct":3,"explanation":"La comunicació oberta i honesta implica expressar opinions, escoltar-se i resoldre desacords de manera positiva."}]}
+{
+  "blockId": "unitat-2-bloc-1",
+  "blockTitle": "L’organització d’activitats de suport administratiu",
+  "questions": [
+    {
+      "id": "u2b1-001",
+      "block": "unitat-2-bloc-1",
+      "topic": "Recursos Humans",
+      "question": "Com defineix el material els Recursos Humans?",
+      "options": [
+        "El conjunt de persones que integren una organització i contribueixen al seu funcionament amb el seu esforç i treball",
+        "El conjunt de documents laborals arxivats per l’empresa",
+        "Només l’equip directiu que pren decisions",
+        "El pressupost destinat a salaris i formació"
+      ],
+      "correct": 0,
+      "explanation": "La unitat presenta els Recursos Humans com la part humana de l’organització: les persones que la integren."
+    },
+    {
+      "id": "u2b1-002",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Què és la coordinació segons el material?",
+      "options": [
+        "Una decisió individual del responsable sense comunicació",
+        "Accions col·lectives desenvolupades mitjançant la comunicació i el consens entre les persones implicades",
+        "Un sistema que elimina qualsevol dependència entre treballadors",
+        "Una tècnica reservada exclusivament als grups informals"
+      ],
+      "correct": 1,
+      "explanation": "La coordinació es defineix com accions col·lectives que es duen a terme a través de comunicació i consens."
+    },
+    {
+      "id": "u2b1-003",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Dos companys s’organitzen parlant i ajudant-se sense que un cap els indiqui constantment què han de fer. Quin mecanisme utilitzen?",
+      "options": [
+        "Supervisió directa",
+        "Normalització de resultats",
+        "Adaptació mútua",
+        "Normalització d’habilitats"
+      ],
+      "correct": 2,
+      "explanation": "En l’adaptació mútua, les persones es coordinen directament entre elles mitjançant comunicació i ajuda."
+    },
+    {
+      "id": "u2b1-004",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Un encarregat reparteix tasques, dona instruccions i controla el treball de l’equip. Quin mecanisme predomina?",
+      "options": [
+        "Adaptació mútua",
+        "Normalització d’habilitats",
+        "Normalització de resultats",
+        "Supervisió directa"
+      ],
+      "correct": 3,
+      "explanation": "La supervisió directa implica que una persona organitza, dona instruccions i controla la feina dels altres."
+    },
+    {
+      "id": "u2b1-005",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "En una oficina, tothom segueix els mateixos passos predefinits per registrar una factura. Quin mecanisme de coordinació és?",
+      "options": [
+        "Normalització dels processos de treball",
+        "Normalització de resultats",
+        "Adaptació mútua",
+        "Normalització d’habilitats"
+      ],
+      "correct": 0,
+      "explanation": "Quan abans de començar ja està decidit com s’ha de fer la tasca mitjançant normes, passos o procediments, es normalitza el procés."
+    },
+    {
+      "id": "u2b1-006",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "A un comercial se li exigeix una xifra de vendes mensual però pot decidir com contactar amb els clients. Què s’ha normalitzat?",
+      "options": [
+        "El procés de treball",
+        "El resultat",
+        "Les habilitats",
+        "La supervisió directa"
+      ],
+      "correct": 1,
+      "explanation": "La normalització de resultats fixa què s’ha d’aconseguir, no exactament com s’ha de fer."
+    },
+    {
+      "id": "u2b1-007",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Una professió exigeix formació específica abans d’exercir i no cal explicar cada pas de la feina. Quin mecanisme descriu millor la situació?",
+      "options": [
+        "Supervisió directa",
+        "Normalització de resultats",
+        "Normalització d’habilitats",
+        "Adaptació mútua"
+      ],
+      "correct": 2,
+      "explanation": "En la normalització d’habilitats s’estandarditza la preparació, formació o experiència prèvia del treballador."
+    },
+    {
+      "id": "u2b1-008",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Quina comparació entre normalització de processos i de resultats és correcta?",
+      "options": [
+        "La primera fixa la formació; la segona fixa les normes de convivència",
+        "La primera elimina procediments; la segona obliga a seguir passos idèntics",
+        "Totes dues exigeixen exactament el mateix mètode de treball",
+        "La primera fixa com fer la feina; la segona fixa què s’ha d’aconseguir"
+      ],
+      "correct": 3,
+      "explanation": "La diferència clau és entre especificar el procediment i especificar l’objectiu final."
+    },
+    {
+      "id": "u2b1-009",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Què s’estandarditza principalment en la normalització d’habilitats?",
+      "options": [
+        "La preparació i competència de les persones treballadores",
+        "La quantitat exacta de vendes mensuals",
+        "Els passos concrets de cada tasca",
+        "La relació afectiva entre els membres del grup"
+      ],
+      "correct": 0,
+      "explanation": "Aquest mecanisme parteix de la formació, coneixements i habilitats previs dels treballadors."
+    },
+    {
+      "id": "u2b1-010",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Quin cas depèn menys d’un cap que doni ordres constants?",
+      "options": [
+        "Un equip sotmès a supervisió directa",
+        "Un equip que es coordina per adaptació mútua",
+        "Un grup en què un responsable decideix i controla totes les tasques",
+        "Una estructura autocràtica amb poca autonomia"
+      ],
+      "correct": 1,
+      "explanation": "L’adaptació mútua permet coordinar-se parlant i ajudant-se sense supervisió constant."
+    },
+    {
+      "id": "u2b1-011",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Quina opció conté només mecanismes de coordinació citats a la unitat?",
+      "options": [
+        "Centralització, subcontractació i auditoria",
+        "Cohesió, sanció i jerarquia externa",
+        "Adaptació mútua, supervisió directa i normalització de resultats",
+        "Planificació, recepció i inventari"
+      ],
+      "correct": 2,
+      "explanation": "La unitat enumera adaptació mútua, supervisió directa i normalitzacions de procediments, resultats i habilitats."
+    },
+    {
+      "id": "u2b1-012",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Si l’empresa vol reduir errors fent que una tasca repetitiva es realitzi sempre de manera semblant, quin mecanisme és especialment adequat?",
+      "options": [
+        "Fixar només un objectiu final sense indicar cap procediment",
+        "Augmentar la mida del grup",
+        "Substituir la coordinació per una relació informal",
+        "Normalitzar el procés de treball"
+      ],
+      "correct": 3,
+      "explanation": "La normalització de processos estableix passos i instruccions comuns i ajuda a evitar errors."
+    },
+    {
+      "id": "u2b1-081",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Dues persones d’una oficina ajusten entre elles el repartiment d’una feina parlant i ajudant-se, sense esperar instruccions constants. Quin mecanisme predomina?",
+      "options": [
+        "Adaptació mútua",
+        "Supervisió directa",
+        "Normalització de resultats",
+        "Normalització d’habilitats"
+      ],
+      "correct": 0,
+      "explanation": "L’adaptació mútua coordina les persones mitjançant comunicació directa i ajuda recíproca, sense supervisió constant."
+    },
+    {
+      "id": "u2b1-082",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Un responsable assigna les tasques, dona instruccions i comprova com les executa l’equip. Quin mecanisme descriu millor aquesta situació?",
+      "options": [
+        "Adaptació mútua",
+        "Supervisió directa",
+        "Normalització d’habilitats",
+        "Normalització de resultats"
+      ],
+      "correct": 1,
+      "explanation": "En la supervisió directa una persona organitza, dona instruccions i controla el treball de les altres."
+    },
+    {
+      "id": "u2b1-083",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "L’empresa fixa els passos exactes per tramitar una factura, però en una altra tasca només fixa l’objectiu final. Quin mecanisme s’aplica al primer cas?",
+      "options": [
+        "Normalització d’habilitats",
+        "Adaptació mútua",
+        "Normalització dels processos de treball",
+        "Normalització de resultats"
+      ],
+      "correct": 2,
+      "explanation": "Quan s’estableix prèviament com s’ha de fer la feina mitjançant passos, normes o instruccions, es normalitza el procés."
+    },
+    {
+      "id": "u2b1-084",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Una persona pot començar una tasca professional sense que li expliquin cada pas perquè ja disposa de la formació i l’experiència exigides. Què s’ha normalitzat?",
+      "options": [
+        "El resultat final",
+        "La supervisió",
+        "El procés detallat",
+        "Les habilitats"
+      ],
+      "correct": 3,
+      "explanation": "La normalització d’habilitats estandarditza la preparació, els coneixements i les competències prèvies de les persones treballadores."
+    },
+    {
+      "id": "u2b1-141",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Dues auxiliars detecten una acumulació inesperada de feina i, parlant directament, redistribueixen entre elles les tasques sense esperar una instrucció del responsable. Quin mecanisme de coordinació predomina?",
+      "options": [
+        "Adaptació mútua",
+        "Supervisió directa",
+        "Normalització de resultats",
+        "Normalització d’habilitats"
+      ],
+      "correct": 0,
+      "explanation": "L’adaptació mútua coordina el treball mitjançant comunicació directa i ajustos recíprocs entre les persones."
+    },
+    {
+      "id": "u2b1-142",
+      "block": "unitat-2-bloc-1",
+      "topic": "Coordinació",
+      "question": "Un responsable indica qui tramita cada expedient, explica les prioritats i comprova personalment que el treball s’executi. Quin mecanisme està utilitzant?",
+      "options": [
+        "Adaptació mútua",
+        "Supervisió directa",
+        "Normalització d’habilitats",
+        "Normalització de resultats"
+      ],
+      "correct": 1,
+      "explanation": "La supervisió directa apareix quan una persona assigna tasques, dona instruccions i controla l’execució del treball."
+    },
+    {
+      "id": "u2b1-013",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Què és un procediment de treball?",
+      "options": [
+        "Una sèrie de passos clars i coherents per treballar i coordinar-se fins a assolir els objectius",
+        "Una llista d’objectius sense indicar accions",
+        "Una norma que només descriu sancions",
+        "Un document reservat a tasques que no es repeteixen"
+      ],
+      "correct": 0,
+      "explanation": "El material defineix el procediment com una sèrie de passos definits de manera clara i coherent."
+    },
+    {
+      "id": "u2b1-014",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Quin benefici atribueix el material als procediments de treball?",
+      "options": [
+        "Eliminar la necessitat de qualsevol coordinació",
+        "Ordenar i controlar la feina, reduir errors, millorar la qualitat i prevenir riscos quan cal",
+        "Garantir que totes les tasques tinguin una única solució",
+        "Fer innecessaris els objectius inicials"
+      ],
+      "correct": 1,
+      "explanation": "Els procediments ajuden a fer el treball ordenat, coherent i controlable, i poden reduir errors i riscos."
+    },
+    {
+      "id": "u2b1-015",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Quines tres qüestions cal considerar en un procediment?",
+      "options": [
+        "Pressupost, organigrama i publicitat",
+        "Lideratge, cohesió i recompenses",
+        "Accions, protocol i regles que delimiten les accions",
+        "Clients, proveïdors i competidors"
+      ],
+      "correct": 2,
+      "explanation": "La unitat assenyala les accions, el protocol que se seguirà i les regles que delimiten les accions."
+    },
+    {
+      "id": "u2b1-016",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Un procediment té una única seqüència de passos en un ordre establert. De quin tipus és?",
+      "options": [
+        "Ramificat",
+        "Participatiu",
+        "Informal",
+        "Lineal"
+      ],
+      "correct": 3,
+      "explanation": "Els procediments lineals segueixen una seqüència única i ordenada."
+    },
+    {
+      "id": "u2b1-017",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Un procediment ofereix recorreguts diferents segons la resposta obtinguda en cada pas. De quin tipus és?",
+      "options": [
+        "Ramificat",
+        "Lineal",
+        "Autocràtic",
+        "Normalitzat per habilitats"
+      ],
+      "correct": 0,
+      "explanation": "Els procediments ramificats canvien el recorregut segons decisions o condicions."
+    },
+    {
+      "id": "u2b1-085",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Quina característica és essencial perquè una seqüència d’actuacions sigui un procediment de treball segons la unitat?",
+      "options": [
+        "Que els passos siguin clars i coherents i orientats als objectius establerts",
+        "Que cada persona improvisi un ordre diferent",
+        "Que només indiqui el resultat sense cap seqüència",
+        "Que serveixi exclusivament per a tasques excepcionals"
+      ],
+      "correct": 0,
+      "explanation": "Un procediment és una sèrie de passos definits de manera clara i coherent que permeten treballar i coordinar-se per assolir objectius."
+    },
+    {
+      "id": "u2b1-086",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Un tràmit segueix sempre A → B → C → D, sense bifurcacions segons les respostes. Quin tipus de procediment és?",
+      "options": [
+        "Ramificat",
+        "Lineal",
+        "Participatiu",
+        "Informal"
+      ],
+      "correct": 1,
+      "explanation": "Un procediment lineal segueix una única seqüència de passos en un ordre establert."
+    },
+    {
+      "id": "u2b1-087",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "En un procés, si falta documentació es demana una esmena i, si és completa, es continua directament. Quin tipus de procediment representa millor aquesta lògica?",
+      "options": [
+        "Lineal",
+        "Normalitzat per habilitats",
+        "Ramificat",
+        "Supervisió directa"
+      ],
+      "correct": 2,
+      "explanation": "Un procediment ramificat ofereix recorreguts diferents segons les decisions o condicions que apareixen durant el procés."
+    },
+    {
+      "id": "u2b1-088",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Per què pot ser útil formalitzar un procediment en una activitat administrativa repetitiva?",
+      "options": [
+        "Per eliminar qualsevol objectiu previ",
+        "Per evitar que el treball sigui controlable",
+        "Per substituir tota coordinació humana",
+        "Per reduir errors, millorar la qualitat i prevenir riscos quan sigui necessari"
+      ],
+      "correct": 3,
+      "explanation": "Els procediments fan el treball més ordenat, coherent i controlable, i poden reduir errors, millorar la qualitat i prevenir riscos."
+    },
+    {
+      "id": "u2b1-143",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Un registre segueix els passos recepció → comprovació → anotació → arxiu i no preveu cap decisió intermèdia que canviï el recorregut. Quin tipus de procediment és?",
+      "options": [
+        "Ramificat",
+        "Participatiu",
+        "Lineal",
+        "Informal"
+      ],
+      "correct": 2,
+      "explanation": "Un procediment lineal segueix una única seqüència ordenada de passos sense bifurcacions."
+    },
+    {
+      "id": "u2b1-144",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "En revisar una sol·licitud, si falta documentació es demana esmena i, si és completa, es continua amb la tramitació. Quin tipus de procediment representa?",
+      "options": [
+        "Lineal",
+        "Normalització d’habilitats",
+        "Supervisió directa",
+        "Ramificat"
+      ],
+      "correct": 3,
+      "explanation": "Un procediment ramificat ofereix recorreguts diferents segons una condició o decisió apareguda durant el procés."
+    },
+    {
+      "id": "u2b1-018",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Què significa qualitat en una empresa segons la unitat?",
+      "options": [
+        "Produir el màxim possible encara que augmentin els errors",
+        "Fer bé la feina i organitzar-se per millorar processos i satisfer els clients",
+        "Complir només els objectius econòmics",
+        "Evitar qualsevol mesurament per donar autonomia"
+      ],
+      "correct": 1,
+      "explanation": "La qualitat combina bon treball, organització, millora contínua i satisfacció dels clients."
+    },
+    {
+      "id": "u2b1-019",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Quina diferència hi ha entre eficiència i eficàcia?",
+      "options": [
+        "Eficiència és assolir objectius; eficàcia és reduir personal",
+        "Eficiència és satisfacció; eficàcia és percepció",
+        "Eficiència és usar el mínim de recursos; eficàcia és assolir els objectius",
+        "Són exactament el mateix concepte"
+      ],
+      "correct": 2,
+      "explanation": "La unitat defineix eficiència per l’ús de recursos i eficàcia per l’assoliment dels objectius."
+    },
+    {
+      "id": "u2b1-020",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Què és l’efectivitat segons el material?",
+      "options": [
+        "Aconseguir objectius sense tenir en compte els recursos",
+        "Reduir recursos encara que no s’assoleixin objectius",
+        "Mesurar només la satisfacció dels clients",
+        "Obtenir bons resultats combinant de manera equilibrada eficàcia i eficiència"
+      ],
+      "correct": 3,
+      "explanation": "L’efectivitat integra eficàcia i eficiència."
+    },
+    {
+      "id": "u2b1-021",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Quin és el primer pas per implementar elements de control de qualitat?",
+      "options": [
+        "Triar què es vol controlar i quins objectius es volen aconseguir",
+        "Prendre accions de millora abans de mesurar",
+        "Comparar directament el resultat real amb l’estàndard sense definir què es mesura",
+        "Substituir el sistema de mesurament"
+      ],
+      "correct": 0,
+      "explanation": "La seqüència comença triant què controlar i aclarint els objectius."
+    },
+    {
+      "id": "u2b1-022",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Després d’establir un sistema de mesurament, què cal fer segons la seqüència del material?",
+      "options": [
+        "Eliminar els estàndards",
+        "Realitzar el control mitjançant el mesurament",
+        "Passar directament a una auditoria externa",
+        "Canviar els objectius abans de tenir dades"
+      ],
+      "correct": 1,
+      "explanation": "La unitat situa el mesurament real després d’escollir què i com mesurar i d’establir el sistema."
+    },
+    {
+      "id": "u2b1-023",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Què implica interpretar un mesurament de qualitat?",
+      "options": [
+        "Substituir les dades per opinions personals",
+        "Mesurar només els errors dels treballadors",
+        "Diferenciar el resultat real de l’estàndard previst",
+        "Eliminar qualsevol desviació de l’informe"
+      ],
+      "correct": 2,
+      "explanation": "El cinquè pas és interpretar el mesurament diferenciant el real i l’estàndard."
+    },
+    {
+      "id": "u2b1-024",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Què correspon fer si el control mostra una desviació que cal corregir?",
+      "options": [
+        "Ignorar el resultat fins al següent exercici",
+        "Eliminar els indicadors de qualitat",
+        "Canviar només la percepció dels clients sense actuar sobre el procés",
+        "Prendre accions de millora i, si escau, modificar els controls de qualitat"
+      ],
+      "correct": 3,
+      "explanation": "L’últim pas del control és adoptar millores i, si és necessari, revisar els controls."
+    },
+    {
+      "id": "u2b1-025",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Quin indicador mesura si les tasques es desenvolupen correctament?",
+      "options": [
+        "Indicador de procés o funcions",
+        "Indicador de servei",
+        "Indicador de percepció",
+        "Indicador de cohesió"
+      ],
+      "correct": 0,
+      "explanation": "Els indicadors de procés o funcions mesuren el desenvolupament correcte de les tasques."
+    },
+    {
+      "id": "u2b1-026",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Quina relació és correcta?",
+      "options": [
+        "Servei → ús de recursos; percepció → compliment de terminis",
+        "Servei → satisfacció dels clients; percepció → com veuen l’oficina o servei les persones usuàries",
+        "Servei → normes del grup; percepció → jerarquia",
+        "Servei → resultats comptables; percepció → formació professional"
+      ],
+      "correct": 1,
+      "explanation": "La unitat diferencia indicadors de servei i de percepció amb aquestes funcions."
+    },
+    {
+      "id": "u2b1-089",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Una oficina vol implantar un control de qualitat. Quin pas ha de fer primer segons la seqüència de la unitat?",
+      "options": [
+        "Triar què vol controlar i aclarir els objectius",
+        "Mesurar immediatament qualsevol dada disponible",
+        "Aplicar millores abans de saber què falla",
+        "Canviar els estàndards sense haver definit el control"
+      ],
+      "correct": 0,
+      "explanation": "El primer pas és decidir què es vol controlar per saber quins objectius es volen aconseguir."
+    },
+    {
+      "id": "u2b1-090",
+      "block": "unitat-2-bloc-1",
+      "topic": "Qualitat",
+      "question": "Després de decidir què es controlarà i quins objectius es busquen, quin pas ve a continuació?",
+      "options": [
+        "Adoptar mesures correctores",
+        "Determinar les formes de mesurament",
+        "Eliminar l’estàndard de referència",
+        "Valorar només opinions informals"
+      ],
+      "correct": 1,
+      "explanation": "El segon pas del control de qualitat és determinar les formes de mesurament adequades per obtenir els resultats desitjats."
+    }
+  ]
+}

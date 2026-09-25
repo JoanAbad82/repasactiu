@@ -20,9 +20,9 @@ test('b1-042 queda corregida a la capa auditada sense mutar el banc històric',a
 
 
 test('b1-049 usa la definició font del control de l’organització',async()=>{
-  const ca=await read('bloc_1_expansion.json');
+  const banks=await Promise.all(['bloc_1.json','bloc_1_extra.json','bloc_1_expansion.json'].map(read));
   const es=await read('i18n/es/bloc-1-expansion.json');
-  const q=ca.questions.find(item=>item.id==='b1-049');
+  const q=banks.flatMap(bank=>bank.questions).find(item=>item.id==='b1-049');
   assert.ok(q);
   assert.match(q.question,/supervisa/iu);
   assert.match(q.question,/coordina/iu);

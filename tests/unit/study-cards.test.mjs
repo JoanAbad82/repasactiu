@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   buildCoreStudyCards,
   buildExtraStudyCards,
+  buildOrderedStudyCards,
   selectCardsByBlocks,
   buildStudyCatalog,
   shuffleCards,
@@ -135,4 +136,24 @@ test('manifest semàntic V2 aplica REWRITE i MERGE/REPLACE només a les flashcar
   assert.equal(extra.answer,'Resposta extra nova');
   assert.equal(extra.conceptId,'B1.TEST.NOU');
   assert.deepEqual(extra.sourceRef,{id:'B1',pageRange:[7,7],precision:'page'});
+});
+
+
+test('buildOrderedStudyCards ordena targetes per font, pàgina i concepte',()=>{
+  const traceability={
+    blockSources:{'bloc-1':'B1','bloc-2':'B2'},
+    topicRanges:{'bloc-1':{undefined:[8,8]},'bloc-2':{undefined:[2,2]}},
+    questionRanges:{q1:{source:'B1',pageRange:[8,8]},q2:{source:'B2',pageRange:[2,2]}}
+  };
+  const extraBank={
+    ...extras,
+    semanticV2:{changes:[]},
+    traceabilityV2:traceability,
+    cards:[
+      {...extras.cards[0],source:{id:'B1',pages:[4,4]}},
+      {...extras.cards[1],source:{id:'B2',pages:[1,1]}}
+    ]
+  };
+  const ordered=buildOrderedStudyCards(mockBanks,extraBank,'ca');
+  assert.deepEqual(ordered.map(card=>card.id),['e1','test-q1','e2','test-q2']);
 });

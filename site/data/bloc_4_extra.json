@@ -1,1 +1,230 @@
-{"blockId":"bloc-4","blockTitle":"Els departaments","questions":[{"id":"b4-025","block":"bloc-4","topic":"Gestió de la informació","question":"En relació amb la informació del personal, quin repartiment és correcte?","options":["Financer gestiona pagaments i pressupost de personal, i prevenció gestiona documentació preventiva","Vendes gestiona nòmines i Compres gestiona contractes laborals","Qualitat gestiona salaris i Comercial gestiona absències","Legal gestiona sempre tota la informació i RRHH només la consulta"],"correct":0,"explanation":"El material especifica aquests dos papers complementaris dins la gestió de la informació de personal."},{"id":"b4-026","block":"bloc-4","topic":"Criteris d’assignació","question":"Abans de determinar l’estructura departamental, quin factor es destaca com un dels principals per elaborar l’organigrama?","options":["El color corporatiu","La mida de l’empresa","L’antiguitat de l’edifici","El nombre de campanyes publicitàries"],"correct":1,"explanation":"El material indica expressament que la mida de l’empresa és un dels principals criteris a considerar."},{"id":"b4-027","block":"bloc-4","topic":"Criteris d’assignació","question":"Si augmenten molt el volum i la complexitat de l’activitat, què pot ser necessari?","options":["Eliminar la coordinació entre àrees","Reduir obligatòriament el nombre de funcions","Més especialització i més departaments","Substituir els departaments per un únic lloc de treball"],"correct":2,"explanation":"Com més volum i complexitat, més especialització i departaments poden ser necessaris."},{"id":"b4-028","block":"bloc-4","topic":"Criteris d’assignació","question":"Com influeix el pressupost en l’estructura departamental?","options":["Només afecta la publicitat i no l’organització","Obliga sempre a externalitzar les funcions administratives","Determina únicament la ubicació física de la recepció","Determina els recursos disponibles i pot limitar o ampliar l’estructura"],"correct":3,"explanation":"El pressupost condiciona els recursos disponibles i, per tant, l’amplitud de l’estructura departamental."},{"id":"b4-029","block":"bloc-4","topic":"Criteris d’assignació","question":"Una empresa disposa de poc espai. Quina conclusió és més ajustada al material?","options":["L’espai pot condicionar l’estructura, però la manca d’espai no obliga necessàriament a subcontractar funcions","La manca d’espai obliga sempre a subcontractar","L’estructura física no influeix mai en l’organització","Cal eliminar qualsevol departament que no tingui despatx propi"],"correct":0,"explanation":"L’estructura física és un criteri, però el material rebutja que la manca d’espai impliqui necessàriament subcontractació."},{"id":"b4-030","block":"bloc-4","topic":"Criteris d’assignació","question":"Una empresa té diverses delegacions. Quina decisió organitzativa és especialment important?","options":["Duplicar totes les funcions a cada delegació","Definir quines funcions es centralitzen i quines es fan a cada centre per evitar duplicitats","Centralitzar sempre totes les funcions sense excepció","Fer que cada centre actuï sense criteris comuns"],"correct":1,"explanation":"L’àrea geogràfica d’actuació obliga a decidir centralització i distribució de funcions per evitar duplicitats."},{"id":"b4-031","block":"bloc-4","topic":"Criteris d’assignació","question":"Quan alguns clients necessiten un seguiment específic, què pot justificar aquesta necessitat?","options":["Eliminar el departament d’Atenció al Client","Concentrar totes les funcions en Compres","Crear equips o unitats especialitzades","Prescindir de l’estructura departamental"],"correct":2,"explanation":"La tipologia de clients pot justificar equips o unitats especialitzades per oferir l’atenció necessària."},{"id":"b4-032","block":"bloc-4","topic":"Criteris d’assignació","question":"Per què un concessionari pot tenir un departament de finançament que no tindria sentit en una llibreria de barri?","options":["Perquè totes les empreses han de copiar l’estructura del seu sector","Perquè el finançament només depèn de la mida física del local","Perquè la normativa obliga qualsevol concessionari a tenir exactament els mateixos departaments","Perquè l’estructura ha d’adaptar-se als productes i serveis que ofereix cada empresa"],"correct":3,"explanation":"La tipologia de productes o serveis és un criteri per decidir quines unitats tenen sentit en cada empresa."},{"id":"b4-033","block":"bloc-4","topic":"Criteris d’assignació","question":"Si una activitat comporta riscos específics, quina afirmació és correcta?","options":["L’empresa ha d’organitzar la prevenció amb una modalitat adequada, però això no implica sempre crear un departament propi","Sempre és obligatori crear un departament de prevenció independent","Només cal actuar si hi ha més de 500 persones treballadores","La prevenció passa automàticament al departament comercial"],"correct":0,"explanation":"El material separa l’obligació d’organitzar la prevenció de l’obligació de crear un departament propi."},{"id":"b4-034","block":"bloc-4","topic":"Criteris d’assignació","question":"En quin cas cita el material l’obligació de constituir un servei de prevenció propi?","options":["Sempre que hi hagi més de 50 persones, sense cap altre criteri","Amb més de 500 persones treballadores, o entre 250 i 500 si es fan activitats de l’annex I, entre altres supòsits legals","Només quan l’empresa tingui diverses delegacions","Quan qualsevol lloc de treball utilitzi un ordinador"],"correct":1,"explanation":"La diapositiva cita aquests llindars del Reglament dels serveis de prevenció i recorda que hi ha altres supòsits previstos legalment."},{"id":"b4-035","block":"bloc-4","topic":"Espai d’acollida","question":"Quina és la funció principal de l’espai d’acollida?","options":["Emmagatzemar exclusivament documentació interna","Centralitzar la producció de béns","Rebre, informar i orientar persones usuàries, clients o visitants","Substituir tots els canals d’atenció no presencial"],"correct":2,"explanation":"L’espai d’acollida és la zona destinada a rebre, informar i orientar les persones que arriben a l’organització."},{"id":"b4-036","block":"bloc-4","topic":"Espai d’acollida","question":"Quina combinació recull criteris bàsics d’un bon espai d’acollida?","options":["Aïllament, poca informació, soroll elevat i mobiliari mínim","Només decoració corporativa i publicitat","Accés restringit, poca il·luminació i absència de directoris","Accessibilitat, ordre, neteja, comoditat, seguretat i bona senyalització"],"correct":3,"explanation":"El material destaca ubicació i accessibilitat, ordre i neteja, comoditat i seguretat, senyalització i informació."},{"id":"b4-037","block":"bloc-4","topic":"Espai d’acollida","question":"Quina condició ambiental afavoreix una atenció adequada?","options":["Il·luminació suficient, temperatura confortable, ventilació, soroll adequat i neteja","Temperatura elevada i soroll constant per mantenir l’activitat","Il·luminació mínima per reduir costos encara que dificulti l’atenció","Ventilació nul·la per evitar distraccions"],"correct":0,"explanation":"Les condicions ambientals adequades faciliten la comunicació i milloren la imatge de l’empresa."},{"id":"b4-038","block":"bloc-4","topic":"Espai d’acollida","question":"Quin conjunt inclou materials auxiliars previstos per a l’espai d’acollida?","options":["Maquinària industrial, eines de producció i inventari de fàbrica","Ordinador, telèfon, material d’oficina, formularis i registre de visites","Només mobiliari decoratiu i cartells publicitaris","Equip de protecció industrial com a únic material"],"correct":1,"explanation":"El material cita ordinador i telèfon, material d’oficina, formularis, fullets, agenda o registre de visites i senyalització."},{"id":"b4-039","block":"bloc-4","topic":"Espai d’acollida","question":"Com s’ha de tractar la documentació i les dades personals a l’espai d’acollida?","options":["Deixant-les visibles perquè qualsevol visitant les pugui consultar","Guardant-les només si són documents en paper","Protegint-les i mantenint-les fora de l’accés de persones no autoritzades","Compartint-les amb qualsevol persona que esperi a recepció"],"correct":2,"explanation":"El material exigeix protegir la documentació i les dades personals de l’accés no autoritzat."},{"id":"b4-040","block":"bloc-4","topic":"Espai d’acollida","question":"Quina idea resumeix millor la relació entre mobiliari, ergonomia i atenció?","options":["L’ergonomia només importa per als visitants i no per al personal","El mobiliari no influeix en la imatge professional de l’organització","Els seients d’espera substitueixen la necessitat d’accessibilitat","Un mobiliari adequat ha de facilitar comoditat, seguretat, eficàcia, accessibilitat i ordre"],"correct":3,"explanation":"Un espai ben organitzat, accessible i amb mobiliari adequat facilita l’atenció i transmet una imatge professional."}]}
+{
+  "blockId": "bloc-4",
+  "blockTitle": "Els departaments",
+  "questions": [
+    {
+      "id": "b4-016",
+      "block": "bloc-4",
+      "topic": "Informació generada",
+      "question": "Contractes mercantils, escriptures societàries, llibres mercantils i tràmits registrals formen principalment quin tipus d’informació?",
+      "options": [
+        "Informació financera",
+        "Informació tributària i fiscal",
+        "Informació de personal",
+        "Informació mercantil"
+      ],
+      "correct": 3,
+      "explanation": "El material classifica aquests documents com a informació jurídica i societària de caràcter mercantil."
+    },
+    {
+      "id": "b4-017",
+      "block": "bloc-4",
+      "topic": "Informació generada",
+      "question": "Quin tipus d’informació permet conèixer l’estat dels comptes de l’empresa?",
+      "options": [
+        "Informació financera",
+        "Informació comercial de clients",
+        "Informació preventiva",
+        "Informació de recursos humans"
+      ],
+      "correct": 0,
+      "explanation": "La informació financera serveix per conèixer l’estat dels comptes de l’empresa o organització."
+    },
+    {
+      "id": "b4-018",
+      "block": "bloc-4",
+      "topic": "Informació generada",
+      "question": "Una empresa analitza l’entrada i la sortida de productes per controlar l’equilibri de l’estoc. Quin tipus d’informació està utilitzant?",
+      "options": [
+        "Informació mercantil",
+        "Informació de vendes i compres",
+        "Informació tributària",
+        "Informació de personal"
+      ],
+      "correct": 1,
+      "explanation": "El material vincula la informació de vendes i compres amb l’equilibri de l’estoc i el flux d’entrada i sortida de productes."
+    },
+    {
+      "id": "b4-019",
+      "block": "bloc-4",
+      "topic": "Informació generada",
+      "question": "Quina combinació conté només exemples d’informació relacionada amb el personal?",
+      "options": [
+        "Escriptures, llibres mercantils, nòmines i impostos",
+        "Inventaris, contractes mercantils, absències i vendes",
+        "Contractes laborals, nòmines, formació i avaluacions",
+        "Declaracions fiscals, promocions, terminis i formació"
+      ],
+      "correct": 2,
+      "explanation": "El bloc inclou contractes laborals, nòmines, formació, absències, avaluacions i beneficis laborals dins la informació de personal i RRHH."
+    },
+    {
+      "id": "b4-066",
+      "block": "bloc-4",
+      "topic": "Informació tributària i fiscal",
+      "question": "Arriba una notificació tributària que, a més de tramitar-se, planteja un dubte jurídic. Quin repartiment de funcions és més coherent?",
+      "options": [
+        "Vendes la tramita i Qualitat l’interpreta",
+        "Financer, Comptabilitat o Administració la gestionen i Legal assessora si cal",
+        "Recursos Humans la registra i Producció respon",
+        "Atenció al Client la gestiona perquè prové d’un organisme extern"
+      ],
+      "correct": 1,
+      "explanation": "La informació tributària i fiscal és gestionada principalment per Financer, Comptabilitat i Administració; Legal hi assessora quan és necessari."
+    },
+    {
+      "id": "b4-042",
+      "block": "bloc-4",
+      "topic": "Informació mercantil",
+      "question": "S’ha de preparar una escriptura societària i fer un tràmit davant del Registre Mercantil. Quins àmbits hi intervenen principalment?",
+      "options": [
+        "Compres i Vendes",
+        "Administració i, quan cal, Legal",
+        "Producció i Qualitat",
+        "Recursos Humans i Atenció al Client"
+      ],
+      "correct": 1,
+      "explanation": "El material atribueix la informació mercantil a Administració i, quan és necessari, al departament Legal."
+    },
+    {
+      "id": "b4-043",
+      "block": "bloc-4",
+      "topic": "Informació de vendes i compres",
+      "question": "Compres registra entrades de producte i Vendes registra sortides. Quin altre ús d’aquesta informació destaca el material?",
+      "options": [
+        "Calcular exclusivament nòmines",
+        "Substituir la informació fiscal",
+        "Ajudar a controlar l’equilibri de l’estoc",
+        "Determinar la forma jurídica de l’empresa"
+      ],
+      "correct": 2,
+      "explanation": "La informació de vendes i compres permet seguir el flux d’entrada i sortida i contribueix al control de l’estoc."
+    },
+    {
+      "id": "b4-044",
+      "block": "bloc-4",
+      "topic": "Informació de personal",
+      "question": "L’empresa prepara nòmines, controla absències i manté documentació preventiva. Quina afirmació descriu millor la gestió d’aquesta informació?",
+      "options": [
+        "Només la gestiona el departament Legal",
+        "Només la gestiona Financer",
+        "Correspon exclusivament a Direcció",
+        "RRHH i Administració són principals, amb Financer i Prevenció en funcions específiques"
+      ],
+      "correct": 3,
+      "explanation": "RRHH i Administració gestionen principalment la informació de personal; Financer gestiona pagaments i pressupost, i Prevenció la documentació preventiva."
+    },
+    {
+      "id": "b4-069",
+      "block": "bloc-4",
+      "topic": "Coordinació departamental",
+      "question": "Una comanda de client exigeix comprovar estoc, comprar material i preparar la facturació. Quina idea organitzativa és essencial perquè el procés no es trenqui entre àrees?",
+      "options": [
+        "Separar completament la informació de cada departament",
+        "Coordinar els departaments implicats i compartir la informació necessària",
+        "Traslladar tot el procés al departament de Vendes",
+        "Fer que Qualitat assumeixi la gestió econòmica"
+      ],
+      "correct": 1,
+      "explanation": "Els processos que travessen diverses àrees necessiten coordinació i circulació adequada de la informació entre els departaments implicats."
+    },
+    {
+      "id": "b4-041",
+      "block": "bloc-4",
+      "topic": "Coordinació entre departaments",
+      "question": "Una notificació tributària arriba a l’empresa i, a més de tramitar-la, cal interpretar-ne una qüestió jurídica. Quin repartiment és més coherent amb el temari?",
+      "options": [
+        "Financer, comptable o administració la gestionen, amb assessorament legal si cal",
+        "Atenció al Client la resol i Producció la registra",
+        "Vendes la tramita i Qualitat n’assumeix la responsabilitat",
+        "Recursos Humans la gestiona sempre sense suport"
+      ],
+      "correct": 0,
+      "explanation": "La informació tributària i fiscal correspon principalment a financer, comptable i administració; Legal hi assessora quan és necessari."
+    },
+    {
+      "id": "b4-020",
+      "block": "bloc-4",
+      "topic": "Gestió de la informació",
+      "question": "Qui gestiona principalment la informació tributària i fiscal?",
+      "options": [
+        "Només el departament comercial",
+        "Principalment vendes i Atenció al Client",
+        "Només Recursos Humans i prevenció",
+        "Els departaments financer, comptable i d’administració, amb assessorament legal quan cal"
+      ],
+      "correct": 3,
+      "explanation": "El material atribueix principalment aquesta informació als àmbits financer, comptable i administratiu, amb suport legal si és necessari."
+    },
+    {
+      "id": "b4-021",
+      "block": "bloc-4",
+      "topic": "Gestió de la informació",
+      "question": "Davant d’un tràmit al Registre Mercantil, quina combinació de departaments és la més coherent amb el material?",
+      "options": [
+        "Administració i, quan cal, Legal",
+        "Producció i Recursos Humans",
+        "Vendes i Atenció al Client",
+        "Qualitat i Comercial"
+      ],
+      "correct": 0,
+      "explanation": "La informació mercantil és gestionada per Administració i, quan és necessari, pel departament Legal."
+    },
+    {
+      "id": "b4-022",
+      "block": "bloc-4",
+      "topic": "Gestió de la informació",
+      "question": "Quina combinació participa en la gestió de la informació financera segons el material?",
+      "options": [
+        "Compres, Qualitat i Atenció al Client",
+        "Financer, Administració i Direcció",
+        "Recursos Humans, Legal i Vendes",
+        "Producció, Comercial i Prevenció"
+      ],
+      "correct": 1,
+      "explanation": "El material assigna la informació financera als departaments financer, d’administració i de direcció."
+    },
+    {
+      "id": "b4-023",
+      "block": "bloc-4",
+      "topic": "Gestió de la informació",
+      "question": "En la informació de vendes i compres, quin paper poden tenir Producció i Qualitat?",
+      "options": [
+        "En són sempre els únics responsables",
+        "No hi poden accedir en cap cas",
+        "Poden consultar o generar part d’aquesta informació",
+        "La converteixen automàticament en informació fiscal"
+      ],
+      "correct": 2,
+      "explanation": "El material diu que Compres, Vendes, Administració i Financer són principals, mentre Producció i Qualitat poden consultar o generar-ne part."
+    },
+    {
+      "id": "b4-024",
+      "block": "bloc-4",
+      "topic": "Gestió de la informació",
+      "question": "Qui gestiona principalment la informació del personal i els recursos humans?",
+      "options": [
+        "Vendes i Comercial",
+        "Producció i Compres",
+        "Direcció i Atenció al Client exclusivament",
+        "Recursos Humans i Administració"
+      ],
+      "correct": 3,
+      "explanation": "La informació de personal correspon principalment a RRHH i Administració."
+    },
+    {
+      "id": "b4-025",
+      "block": "bloc-4",
+      "topic": "Gestió de la informació",
+      "question": "En relació amb la informació del personal, quin repartiment és correcte?",
+      "options": [
+        "Financer gestiona pagaments i pressupost de personal, i prevenció gestiona documentació preventiva",
+        "Vendes gestiona nòmines i Compres gestiona contractes laborals",
+        "Qualitat gestiona salaris i Comercial gestiona absències",
+        "Legal gestiona sempre tota la informació i RRHH només la consulta"
+      ],
+      "correct": 0,
+      "explanation": "El material especifica aquests dos papers complementaris dins la gestió de la informació de personal."
+    }
+  ]
+}

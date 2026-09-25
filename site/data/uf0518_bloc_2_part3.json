@@ -1,1 +1,244 @@
-{"blockId":"uf0518-bloc-2","blockTitle":"Gestió de les operacions de distribució de la correspondència i paqueteria","questions":[{"id":"uf0518-b2-035","block":"uf0518-bloc-2","topic":"Gestió de la sortida","question":"Quin risc comporta no guardar un justificant d’un enviament important?","options":["Que el document ocupi més espai","Que el destinatari rebi dues còpies","No poder acreditar l’enviament","Que el número d’expedient canviï"],"correct":2,"explanation":"El material associa la manca de justificant amb la impossibilitat d’acreditar l’enviament."},{"id":"uf0518-b2-036","block":"uf0518-bloc-2","topic":"Gestió de la sortida","question":"Què ha d’incloure el registre de sortida?","options":["Només el nom del remitent intern","Només el cost del servei","Únicament la data","Número, data, destinatari, tipus d’enviament, servei i observacions"],"correct":3,"explanation":"El registre de sortida inclou número correlatiu, data, destinatari, tipus d’enviament, servei utilitzat i observacions."},{"id":"uf0518-b2-037","block":"uf0518-bloc-2","topic":"Gestió de la sortida","question":"Quina finalitat té el número de sortida?","options":["Identificar l’enviament amb un número correlatiu","Indicar el contingut confidencial","Substituir la prova de lliurament","Marcar el cost de l’enviament"],"correct":0,"explanation":"El número de sortida identifica correlativament l’enviament registrat."},{"id":"uf0518-b2-038","block":"uf0518-bloc-2","topic":"Gestió de la sortida","question":"Quines evidències convé guardar en enviaments importants?","options":["Només una captura de pantalla sense dades","Justificant d’admissió, número de seguiment i prova de lliurament","Només el nom del destinatari","Una nota interna sense data"],"correct":1,"explanation":"El material recomana conservar justificant d’admissió, número de seguiment i prova de lliurament."},{"id":"uf0518-b2-039","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Quin criteri general proposa el material per triar un servei d’enviament?","options":["Escollir sempre el més ràpid","Escollir sempre el més barat","Triar el que aporta la prova adequada al risc de l’enviament","Utilitzar sempre el mateix servei"],"correct":2,"explanation":"El material remarca que la millor opció és la que aporta la prova adequada al risc, no necessàriament la més ràpida."},{"id":"uf0518-b2-040","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Quin servei és orientatiu si es vol acreditar l’enviament i la recepció d’una carta?","options":["Carta ordinària","Paquet comercial sense seguiment","Correu electrònic sense certificació","Carta certificada amb avís de recepció"],"correct":3,"explanation":"Per acreditar enviament i recepció, el material proposa una carta certificada amb avís de recepció."},{"id":"uf0518-b2-041","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Quin servei pot acreditar també el contingut exacte enviat, si es contracta la modalitat adequada?","options":["Burofax amb còpia certificada del contingut","Carta ordinària","Fax sense justificant","Paquet sense registre"],"correct":0,"explanation":"El burofax amb còpia certificada del contingut permet acreditar el text enviat."},{"id":"uf0518-b2-042","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Què caracteritza l’enviament contra reemborsament?","options":["El remitent paga al destinatari","El transportista cobra al destinatari l’import indicat abans de lliurar l’enviament","El paquet es lliura sense cap pagament","Només es pot utilitzar amb documents administratius"],"correct":1,"explanation":"En el contra reemborsament, el transportista cobra al destinatari l’import indicat pel remitent abans del lliurament."},{"id":"uf0518-b2-043","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Quins grans canals d’enviament recull el material?","options":["Només servei postal","Només canals digitals","Servei postal, missatgeria privada i canals digitals","Només missatgeria internacional"],"correct":2,"explanation":"El material diferencia servei postal, missatgeria privada i canals digitals."},{"id":"uf0518-b2-044","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Quins factors formen el criteri principal per escollir un canal d’enviament?","options":["Només el disseny de l’embolcall","Només la proximitat del destinatari","El nombre d’empleats de l’empresa","Contingut, termini, prova necessària, cost, cobertura i traçabilitat"],"correct":3,"explanation":"El material enumera contingut, termini, prova, cost, cobertura i traçabilitat com a criteris principals."},{"id":"uf0518-b2-045","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Què és l’assegurança d’un enviament?","options":["Una cobertura econòmica en cas de pèrdua o danys durant el transport","El valor que el remitent declara del contingut","Una prova automàtica del text enviat","Un tipus de registre d’entrada"],"correct":0,"explanation":"El material defineix l’assegurança com una cobertura econòmica davant pèrdua o danys durant el transport."},{"id":"uf0518-b2-046","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Què és el valor declarat?","options":["La indemnització que sempre paga l’operador","L’import que el remitent comunica i que serveix de referència per a la cobertura contractada","El cost del transport","El preu del segell"],"correct":1,"explanation":"El valor declarat és l’import comunicat pel remitent que serveix de referència per a la cobertura."},{"id":"uf0518-b2-047","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Quina característica diferencia una carta certificada d’una carta ordinària?","options":["La certificada no es registra","La ordinària exigeix signatura del receptor","La certificada té admissió registrada, seguiment i lliurament sota signatura","La ordinària acredita el contingut exacte"],"correct":2,"explanation":"La carta certificada ofereix admissió registrada, seguiment i lliurament sota signatura."},{"id":"uf0518-b2-048","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Què NO acredita per si sola una carta certificada?","options":["Que l’enviament ha estat admès","Que hi pot haver seguiment","Que el lliurament pot quedar sota signatura","El text exacte que hi havia dins del sobre"],"correct":3,"explanation":"El material adverteix que la carta certificada, per si sola, no acredita el text que contenia el sobre."},{"id":"uf0518-b2-049","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Per a què s’utilitza habitualment un burofax amb valor probatori?","options":["Per a reclamacions formals, requeriments de pagament o comunicacions contractuals","Per substituir qualsevol correu informal","Només per enviar publicitat","Per evitar conservar proves"],"correct":0,"explanation":"El material posa com a exemples les reclamacions formals, els requeriments de pagament i les comunicacions contractuals."},{"id":"uf0518-b2-050","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Quines proves s’han de decidir abans d’enviar un burofax?","options":["Només el cost final","Si cal conservar prova de tramesa, contingut i/o lliurament","Només el nom del missatger","El color del document"],"correct":1,"explanation":"Abans d’enviar un burofax cal decidir quines proves es necessiten: tramesa, contingut i/o lliurament."},{"id":"uf0518-b2-051","block":"uf0518-bloc-2","topic":"Serveis d’enviament","question":"Quina afirmació descriu millor l’ús actual del fax segons el material?","options":["És el canal principal per a tot tràmit","Ha substituït el correu electrònic","Ha estat substituït per canals digitals en la majoria de casos","No permet conservar cap justificant"],"correct":2,"explanation":"El material indica que el fax ha estat substituït per canals digitals en la majoria de casos."}]}
+{
+  "blockId": "uf0518-bloc-2",
+  "blockTitle": "Gestió de les operacions de distribució de la correspondència i paqueteria",
+  "questions": [
+    {
+      "id": "uf0518-b2-035",
+      "block": "uf0518-bloc-2",
+      "topic": "Gestió de la sortida",
+      "question": "Quin risc comporta no guardar un justificant d’un enviament important?",
+      "options": [
+        "Que el document ocupi més espai",
+        "Que el destinatari rebi dues còpies",
+        "No poder acreditar l’enviament",
+        "Que el número d’expedient canviï"
+      ],
+      "correct": 2,
+      "explanation": "El material associa la manca de justificant amb la impossibilitat d’acreditar l’enviament."
+    },
+    {
+      "id": "uf0518-b2-036",
+      "block": "uf0518-bloc-2",
+      "topic": "Gestió de la sortida",
+      "question": "Què ha d’incloure el registre de sortida?",
+      "options": [
+        "Només el nom del remitent intern",
+        "Només el cost del servei",
+        "Únicament la data",
+        "Número, data, destinatari, tipus d’enviament, servei i observacions"
+      ],
+      "correct": 3,
+      "explanation": "El registre de sortida inclou número correlatiu, data, destinatari, tipus d’enviament, servei utilitzat i observacions."
+    },
+    {
+      "id": "uf0518-b2-037",
+      "block": "uf0518-bloc-2",
+      "topic": "Gestió de la sortida",
+      "question": "Quina finalitat té el número de sortida?",
+      "options": [
+        "Identificar l’enviament amb un número correlatiu",
+        "Indicar el contingut confidencial",
+        "Substituir la prova de lliurament",
+        "Marcar el cost de l’enviament"
+      ],
+      "correct": 0,
+      "explanation": "El número de sortida identifica correlativament l’enviament registrat."
+    },
+    {
+      "id": "uf0518-b2-038",
+      "block": "uf0518-bloc-2",
+      "topic": "Gestió de la sortida",
+      "question": "Quines evidències convé guardar en enviaments importants?",
+      "options": [
+        "Només una captura de pantalla sense dades",
+        "Justificant d’admissió, número de seguiment i prova de lliurament",
+        "Només el nom del destinatari",
+        "Una nota interna sense data"
+      ],
+      "correct": 1,
+      "explanation": "El material recomana conservar justificant d’admissió, número de seguiment i prova de lliurament."
+    },
+    {
+      "id": "uf0518-b2-039",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Quin criteri general proposa el material per triar un servei d’enviament?",
+      "options": [
+        "Escollir sempre el més ràpid",
+        "Escollir sempre el més barat",
+        "Triar el que aporta la prova adequada al risc de l’enviament",
+        "Utilitzar sempre el mateix servei"
+      ],
+      "correct": 2,
+      "explanation": "El material remarca que la millor opció és la que aporta la prova adequada al risc, no necessàriament la més ràpida."
+    },
+    {
+      "id": "uf0518-b2-040",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Quin servei és orientatiu si es vol acreditar l’enviament i la recepció d’una carta?",
+      "options": [
+        "Carta ordinària",
+        "Paquet comercial sense seguiment",
+        "Correu electrònic sense certificació",
+        "Carta certificada amb avís de recepció"
+      ],
+      "correct": 3,
+      "explanation": "Per acreditar enviament i recepció, el material proposa una carta certificada amb avís de recepció."
+    },
+    {
+      "id": "uf0518-b2-041",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Quin servei pot acreditar també el contingut exacte enviat, si es contracta la modalitat adequada?",
+      "options": [
+        "Burofax amb còpia certificada del contingut",
+        "Carta ordinària",
+        "Fax sense justificant",
+        "Paquet sense registre"
+      ],
+      "correct": 0,
+      "explanation": "El burofax amb còpia certificada del contingut permet acreditar el text enviat."
+    },
+    {
+      "id": "uf0518-b2-042",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Què caracteritza l’enviament contra reemborsament?",
+      "options": [
+        "El remitent paga al destinatari",
+        "El transportista cobra al destinatari l’import indicat abans de lliurar l’enviament",
+        "El paquet es lliura sense cap pagament",
+        "Només es pot utilitzar amb documents administratius"
+      ],
+      "correct": 1,
+      "explanation": "En el contra reemborsament, el transportista cobra al destinatari l’import indicat pel remitent abans del lliurament."
+    },
+    {
+      "id": "uf0518-b2-043",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Quins grans canals d’enviament recull el material?",
+      "options": [
+        "Només servei postal",
+        "Només canals digitals",
+        "Servei postal, missatgeria privada i canals digitals",
+        "Només missatgeria internacional"
+      ],
+      "correct": 2,
+      "explanation": "El material diferencia servei postal, missatgeria privada i canals digitals."
+    },
+    {
+      "id": "uf0518-b2-044",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Quins factors formen el criteri principal per escollir un canal d’enviament?",
+      "options": [
+        "Només el disseny de l’embolcall",
+        "Només la proximitat del destinatari",
+        "El nombre d’empleats de l’empresa",
+        "Contingut, termini, prova necessària, cost, cobertura i traçabilitat"
+      ],
+      "correct": 3,
+      "explanation": "El material enumera contingut, termini, prova, cost, cobertura i traçabilitat com a criteris principals."
+    },
+    {
+      "id": "uf0518-b2-045",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Què és l’assegurança d’un enviament?",
+      "options": [
+        "Una cobertura econòmica en cas de pèrdua o danys durant el transport",
+        "El valor que el remitent declara del contingut",
+        "Una prova automàtica del text enviat",
+        "Un tipus de registre d’entrada"
+      ],
+      "correct": 0,
+      "explanation": "El material defineix l’assegurança com una cobertura econòmica davant pèrdua o danys durant el transport."
+    },
+    {
+      "id": "uf0518-b2-046",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Què és el valor declarat?",
+      "options": [
+        "La indemnització que sempre paga l’operador",
+        "L’import que el remitent comunica i que serveix de referència per a la cobertura contractada",
+        "El cost del transport",
+        "El preu del segell"
+      ],
+      "correct": 1,
+      "explanation": "El valor declarat és l’import comunicat pel remitent que serveix de referència per a la cobertura."
+    },
+    {
+      "id": "uf0518-b2-047",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Quina característica diferencia una carta certificada d’una carta ordinària?",
+      "options": [
+        "La certificada no es registra",
+        "La ordinària exigeix signatura del receptor",
+        "La certificada té admissió registrada, seguiment i lliurament sota signatura",
+        "La ordinària acredita el contingut exacte"
+      ],
+      "correct": 2,
+      "explanation": "La carta certificada ofereix admissió registrada, seguiment i lliurament sota signatura."
+    },
+    {
+      "id": "uf0518-b2-048",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Què NO acredita per si sola una carta certificada?",
+      "options": [
+        "Que l’enviament ha estat admès",
+        "Que hi pot haver seguiment",
+        "Que el lliurament pot quedar sota signatura",
+        "El text exacte que hi havia dins del sobre"
+      ],
+      "correct": 3,
+      "explanation": "El material adverteix que la carta certificada, per si sola, no acredita el text que contenia el sobre."
+    },
+    {
+      "id": "uf0518-b2-049",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Per a què s’utilitza habitualment un burofax amb valor probatori?",
+      "options": [
+        "Per a reclamacions formals, requeriments de pagament o comunicacions contractuals",
+        "Per substituir qualsevol correu informal",
+        "Només per enviar publicitat",
+        "Per evitar conservar proves"
+      ],
+      "correct": 0,
+      "explanation": "El material posa com a exemples les reclamacions formals, els requeriments de pagament i les comunicacions contractuals."
+    },
+    {
+      "id": "uf0518-b2-050",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Quines proves s’han de decidir abans d’enviar un burofax?",
+      "options": [
+        "Només el cost final",
+        "Si cal conservar prova de tramesa, contingut i/o lliurament",
+        "Només el nom del missatger",
+        "El color del document"
+      ],
+      "correct": 1,
+      "explanation": "Abans d’enviar un burofax cal decidir quines proves es necessiten: tramesa, contingut i/o lliurament."
+    },
+    {
+      "id": "uf0518-b2-051",
+      "block": "uf0518-bloc-2",
+      "topic": "Serveis d’enviament",
+      "question": "Quina afirmació descriu millor l’ús actual del fax segons el material?",
+      "options": [
+        "És el canal principal per a tot tràmit",
+        "Ha substituït el correu electrònic",
+        "Ha estat substituït per canals digitals en la majoria de casos",
+        "No permet conservar cap justificant"
+      ],
+      "correct": 2,
+      "explanation": "El material indica que el fax ha estat substituït per canals digitals en la majoria de casos."
+    }
+  ]
+}

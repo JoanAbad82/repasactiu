@@ -1,1 +1,286 @@
-{"blockId":"uf0518-bloc-3","blockTitle":"L’arxiu de comunicacions escrites i correspondència","questions":[{"id":"uf0518-b3-061","block":"uf0518-bloc-3","topic":"Web estàtica i dinàmica","question":"Quin exemple presenta el material com a habitualment dinàmic?","options":["Una botiga en línia, un campus virtual o una seu electrònica","Una fitxa informativa simple sense canvis","Un document PDF local","Una imatge guardada al disc"],"correct":0,"explanation":"El material posa com a exemples habitualment dinàmics una botiga en línia, un campus virtual o una seu electrònica."},{"id":"uf0518-b3-062","block":"uf0518-bloc-3","topic":"Portals web","question":"Quin tipus de portal està especialitzat en un sector o necessitat concreta, com ocupació, salut o educació?","options":["Horitzontal","Vertical","Diagonal","Estàtic"],"correct":1,"explanation":"El portal vertical s’especialitza en un sector o necessitat concreta."},{"id":"uf0518-b3-063","block":"uf0518-bloc-3","topic":"Portals web","question":"Quin tipus de portal ofereix un servei específic adreçat a públics diversos, com comerç electrònic o reserves?","options":["Vertical","Horitzontal","Diagonal","Corporatiu"],"correct":2,"explanation":"El material anomena portal diagonal el que ofereix un servei específic a públics diversos."},{"id":"uf0518-b3-064","block":"uf0518-bloc-3","topic":"Portals web","question":"Què caracteritza un portal horitzontal?","options":["Està especialitzat en una sola professió","Només permet tràmits administratius","Ofereix un únic servei molt concret","Ofereix informació o serveis generals per a un públic ampli"],"correct":3,"explanation":"El portal horitzontal és generalista i s’adreça a un públic ampli."},{"id":"uf0518-b3-065","block":"uf0518-bloc-3","topic":"Transferència de fitxers","question":"Què és una transferència de fitxers segons el material?","options":["Enviar, rebre, copiar o compartir un arxiu digital d’un lloc a un altre","Modificar el contingut d’un document sense moure’l","Classificar documents per ordre alfabètic","Crear una còpia impresa d’un fitxer"],"correct":0,"explanation":"Transferir fitxers és enviar, rebre, copiar o compartir un arxiu digital d’un lloc a un altre."},{"id":"uf0518-b3-066","block":"uf0518-bloc-3","topic":"Transferència de fitxers","question":"Què cal comprovar abans d’enviar o compartir un fitxer?","options":["Només la mida del fitxer","El destinatari, que el document sigui el correcte i si conté informació confidencial","Només l’extensió del fitxer","Que el nom sigui curt"],"correct":1,"explanation":"Abans de compartir cal revisar destinatari, document correcte i possible confidencialitat."},{"id":"uf0518-b3-067","block":"uf0518-bloc-3","topic":"Canals de fitxers","question":"Quin canal permet compartir enllaços amb permisos, caducitat, control de versions i còpies de seguretat?","options":["Correu electrònic ordinari","Suport físic","Núvol corporatiu","Carta certificada"],"correct":2,"explanation":"El núvol corporatiu ofereix permisos, caducitat, control de versions i còpies de seguretat."},{"id":"uf0518-b3-068","block":"uf0518-bloc-3","topic":"Canals de fitxers","question":"Quin canal recomana el material per a tràmits administratius perquè deixa registre, justificant i traçabilitat?","options":["USB personal","Correu sense confirmació","Carpeta local","Seu electrònica o portal"],"correct":3,"explanation":"Per a tràmits administratius, la seu electrònica o portal deixa registre, justificant i traçabilitat."},{"id":"uf0518-b3-069","block":"uf0518-bloc-3","topic":"Canals de fitxers","question":"Quan és especialment útil SFTP o una plataforma segura?","options":["Quan cal més control tècnic o un intercanvi recurrent de fitxers amb tercers","Quan només s’envia un missatge sense fitxers","Per substituir qualsevol còpia de seguretat","Només per fitxers públics sense restriccions"],"correct":0,"explanation":"SFTP o plataformes segures són útils quan cal més control tècnic o intercanvi recurrent amb tercers."},{"id":"uf0518-b3-070","block":"uf0518-bloc-3","topic":"Seguretat de fitxers","question":"Quina mesura és adequada quan un fitxer conté informació sensible?","options":["Enviar-lo per qualsevol canal si és urgent","Utilitzar contrasenya o xifrat i canals autoritzats","Publicar-lo en un enllaç sense permisos","Compartir-lo des d’un compte personal"],"correct":1,"explanation":"El material recomana contrasenya o xifrat per contingut sensible i evitar canals no autoritzats."},{"id":"uf0518-b3-071","block":"uf0518-bloc-3","topic":"Seguretat de fitxers","question":"Quina pràctica redueix el risc d’accés prolongat a un fitxer compartit?","options":["No revisar mai els permisos","Fer l’enllaç públic","Utilitzar enllaços amb caducitat i permisos limitats","Reenviar l’enllaç a tota la plantilla"],"correct":2,"explanation":"Els enllaços amb caducitat i permisos limitats redueixen l’exposició innecessària."},{"id":"uf0518-b3-072","block":"uf0518-bloc-3","topic":"Seguretat de fitxers","question":"Quina idea resumeix el recordatori del material sobre la transferència de fitxers?","options":["La rapidesa és sempre prioritària","La còpia local evita qualsevol risc","Els fitxers petits no necessiten protecció","La comoditat no pot substituir la seguretat"],"correct":3,"explanation":"El material recorda que un fitxer mal compartit pot provocar una bretxa de dades i que la comoditat no substitueix la seguretat."},{"id":"uf0518-b3-073","block":"uf0518-bloc-3","topic":"Correu electrònic","question":"Quin ús administratiu del correu electrònic destaca el material?","options":["Confirmar gestions, enviar documents, coordinar equips, demanar informació i conservar evidències de comunicació","Substituir sempre qualsevol notificació fefaent","Compartir contrasenyes entre departaments","Eliminar tota evidència de les comunicacions"],"correct":0,"explanation":"El correu electrònic és un canal habitual per confirmar gestions, enviar documents, coordinar equips, demanar informació i conservar evidències."},{"id":"uf0518-b3-074","block":"uf0518-bloc-3","topic":"Valor probatori","question":"Quina limitació del correu electrònic ordinari assenyala el material?","options":["No pot adjuntar fitxers","No tots els correus tenen el mateix valor probatori que una notificació fefaent","No pot utilitzar-se en empreses","No permet conservar evidències"],"correct":1,"explanation":"El material diferencia l’email ordinari dels canals fefaents quan cal acreditar formalment contingut, enviament i recepció."},{"id":"uf0518-b3-075","block":"uf0518-bloc-3","topic":"Parts del correu","question":"Quina funció té el camp CCO?","options":["Fer visible una còpia a totes les persones","Indicar el destinatari principal","Enviar una còpia oculta i protegir adreces en enviaments a moltes persones","Adjuntar fitxers confidencials automàticament"],"correct":2,"explanation":"CCO envia còpia oculta i és útil per protegir adreces en enviaments a moltes persones."},{"id":"uf0518-b3-076","block":"uf0518-bloc-3","topic":"Parts del correu","question":"Què cal comprovar especialment als fitxers adjunts abans d’enviar un correu?","options":["Només el color de la icona","Només el nom del remitent","Només la data de creació","Mida, format, versió i confidencialitat"],"correct":3,"explanation":"El material indica revisar mida, format, versió i confidencialitat dels adjunts."},{"id":"uf0518-b3-077","block":"uf0518-bloc-3","topic":"Netiqueta professional","question":"Quina pauta forma part de la redacció professional d’un email?","options":["Indicar clarament què es demana, el termini i els documents adjunts","Utilitzar majúscules per destacar urgència","Afegir emoticones en excés","Respondre impulsivament per agilitzar"],"correct":0,"explanation":"El material recomana missatges clars, breus i ordenats que indiquin petició, termini i adjunts."},{"id":"uf0518-b3-078","block":"uf0518-bloc-3","topic":"Arxiu del correu","question":"Quina pràctica recomana el material per arxivar correus importants que formen part d’un expedient?","options":["Deixar-los indefinidament a la safata d’entrada","Guardar-los o exportar-los amb els seus adjunts i integrar-los al sistema documental","Reenviar-los a un compte personal","Eliminar els adjunts i conservar només l’assumpte"],"correct":1,"explanation":"Els correus importants s’han de guardar o exportar amb els adjunts quan formen part d’un expedient."},{"id":"uf0518-b3-079","block":"uf0518-bloc-3","topic":"Phishing","question":"Quina és una actuació correcta davant d’un correu sospitós?","options":["Obrir l’adjunt per comprovar si és segur","Respondre demanant les credencials del remitent","Revisar el remitent real i el domini, no obrir adjunts o enllaços no verificats i avisar la persona responsable","Introduir la contrasenya si el missatge sembla urgent"],"correct":2,"explanation":"El material recomana verificar remitent i domini, evitar adjunts/enllaços dubtosos i escalar el missatge sospitós."},{"id":"uf0518-b3-080","block":"uf0518-bloc-3","topic":"Valor probatori","question":"Quina diferència destaca el material entre carta certificada i burofax quan cal acreditar el contingut?","options":["La carta certificada sempre acredita el text exacte","El burofax només acredita el cost","Tots dos tenen exactament la mateixa prova en qualsevol modalitat","La carta certificada acredita enviament i recepció però no sempre el contingut concret; el burofax és útil quan cal acreditar també el contingut enviat"],"correct":3,"explanation":"El material diferencia la prova d’enviament/recepció de la prova del contingut i situa el burofax com a opció útil quan també cal acreditar aquest contingut."}]}
+{
+  "blockId": "uf0518-bloc-3",
+  "blockTitle": "L’arxiu de comunicacions escrites i correspondència",
+  "questions": [
+    {
+      "id": "uf0518-b3-061",
+      "block": "uf0518-bloc-3",
+      "topic": "Web estàtica i dinàmica",
+      "question": "Quin exemple presenta el material com a habitualment dinàmic?",
+      "options": [
+        "Una botiga en línia, un campus virtual o una seu electrònica",
+        "Una fitxa informativa simple sense canvis",
+        "Un document PDF local",
+        "Una imatge guardada al disc"
+      ],
+      "correct": 0,
+      "explanation": "El material posa com a exemples habitualment dinàmics una botiga en línia, un campus virtual o una seu electrònica."
+    },
+    {
+      "id": "uf0518-b3-062",
+      "block": "uf0518-bloc-3",
+      "topic": "Portals web",
+      "question": "Quin tipus de portal està especialitzat en un sector o necessitat concreta, com ocupació, salut o educació?",
+      "options": [
+        "Horitzontal",
+        "Vertical",
+        "Diagonal",
+        "Estàtic"
+      ],
+      "correct": 1,
+      "explanation": "El portal vertical s’especialitza en un sector o necessitat concreta."
+    },
+    {
+      "id": "uf0518-b3-063",
+      "block": "uf0518-bloc-3",
+      "topic": "Portals web",
+      "question": "Quin tipus de portal ofereix un servei específic adreçat a públics diversos, com comerç electrònic o reserves?",
+      "options": [
+        "Vertical",
+        "Horitzontal",
+        "Diagonal",
+        "Corporatiu"
+      ],
+      "correct": 2,
+      "explanation": "El material anomena portal diagonal el que ofereix un servei específic a públics diversos."
+    },
+    {
+      "id": "uf0518-b3-064",
+      "block": "uf0518-bloc-3",
+      "topic": "Portals web",
+      "question": "Què caracteritza un portal horitzontal?",
+      "options": [
+        "Està especialitzat en una sola professió",
+        "Només permet tràmits administratius",
+        "Ofereix un únic servei molt concret",
+        "Ofereix informació o serveis generals per a un públic ampli"
+      ],
+      "correct": 3,
+      "explanation": "El portal horitzontal és generalista i s’adreça a un públic ampli."
+    },
+    {
+      "id": "uf0518-b3-065",
+      "block": "uf0518-bloc-3",
+      "topic": "Transferència de fitxers",
+      "question": "Què és una transferència de fitxers segons el material?",
+      "options": [
+        "Enviar, rebre, copiar o compartir un arxiu digital d’un lloc a un altre",
+        "Modificar el contingut d’un document sense moure’l",
+        "Classificar documents per ordre alfabètic",
+        "Crear una còpia impresa d’un fitxer"
+      ],
+      "correct": 0,
+      "explanation": "Transferir fitxers és enviar, rebre, copiar o compartir un arxiu digital d’un lloc a un altre."
+    },
+    {
+      "id": "uf0518-b3-066",
+      "block": "uf0518-bloc-3",
+      "topic": "Transferència de fitxers",
+      "question": "Què cal comprovar abans d’enviar o compartir un fitxer?",
+      "options": [
+        "Només la mida del fitxer",
+        "El destinatari, que el document sigui el correcte i si conté informació confidencial",
+        "Només l’extensió del fitxer",
+        "Que el nom sigui curt"
+      ],
+      "correct": 1,
+      "explanation": "Abans de compartir cal revisar destinatari, document correcte i possible confidencialitat."
+    },
+    {
+      "id": "uf0518-b3-067",
+      "block": "uf0518-bloc-3",
+      "topic": "Canals de fitxers",
+      "question": "Quin canal permet compartir enllaços amb permisos, caducitat, control de versions i còpies de seguretat?",
+      "options": [
+        "Correu electrònic ordinari",
+        "Suport físic",
+        "Núvol corporatiu",
+        "Carta certificada"
+      ],
+      "correct": 2,
+      "explanation": "El núvol corporatiu ofereix permisos, caducitat, control de versions i còpies de seguretat."
+    },
+    {
+      "id": "uf0518-b3-068",
+      "block": "uf0518-bloc-3",
+      "topic": "Canals de fitxers",
+      "question": "Quin canal recomana el material per a tràmits administratius perquè deixa registre, justificant i traçabilitat?",
+      "options": [
+        "USB personal",
+        "Correu sense confirmació",
+        "Carpeta local",
+        "Seu electrònica o portal"
+      ],
+      "correct": 3,
+      "explanation": "Per a tràmits administratius, la seu electrònica o portal deixa registre, justificant i traçabilitat."
+    },
+    {
+      "id": "uf0518-b3-069",
+      "block": "uf0518-bloc-3",
+      "topic": "Canals de fitxers",
+      "question": "Quan és especialment útil SFTP o una plataforma segura?",
+      "options": [
+        "Quan cal més control tècnic o un intercanvi recurrent de fitxers amb tercers",
+        "Quan només s’envia un missatge sense fitxers",
+        "Per substituir qualsevol còpia de seguretat",
+        "Només per fitxers públics sense restriccions"
+      ],
+      "correct": 0,
+      "explanation": "SFTP o plataformes segures són útils quan cal més control tècnic o intercanvi recurrent amb tercers."
+    },
+    {
+      "id": "uf0518-b3-070",
+      "block": "uf0518-bloc-3",
+      "topic": "Seguretat de fitxers",
+      "question": "Quina mesura és adequada quan un fitxer conté informació sensible?",
+      "options": [
+        "Enviar-lo per qualsevol canal si és urgent",
+        "Utilitzar contrasenya o xifrat i canals autoritzats",
+        "Publicar-lo en un enllaç sense permisos",
+        "Compartir-lo des d’un compte personal"
+      ],
+      "correct": 1,
+      "explanation": "El material recomana contrasenya o xifrat per contingut sensible i evitar canals no autoritzats."
+    },
+    {
+      "id": "uf0518-b3-071",
+      "block": "uf0518-bloc-3",
+      "topic": "Seguretat de fitxers",
+      "question": "Quina pràctica redueix el risc d’accés prolongat a un fitxer compartit?",
+      "options": [
+        "No revisar mai els permisos",
+        "Fer l’enllaç públic",
+        "Utilitzar enllaços amb caducitat i permisos limitats",
+        "Reenviar l’enllaç a tota la plantilla"
+      ],
+      "correct": 2,
+      "explanation": "Els enllaços amb caducitat i permisos limitats redueixen l’exposició innecessària."
+    },
+    {
+      "id": "uf0518-b3-072",
+      "block": "uf0518-bloc-3",
+      "topic": "Seguretat de fitxers",
+      "question": "Quina idea resumeix el recordatori del material sobre la transferència de fitxers?",
+      "options": [
+        "La rapidesa és sempre prioritària",
+        "La còpia local evita qualsevol risc",
+        "Els fitxers petits no necessiten protecció",
+        "La comoditat no pot substituir la seguretat"
+      ],
+      "correct": 3,
+      "explanation": "El material recorda que un fitxer mal compartit pot provocar una bretxa de dades i que la comoditat no substitueix la seguretat."
+    },
+    {
+      "id": "uf0518-b3-073",
+      "block": "uf0518-bloc-3",
+      "topic": "Correu electrònic",
+      "question": "Quin ús administratiu del correu electrònic destaca el material?",
+      "options": [
+        "Confirmar gestions, enviar documents, coordinar equips, demanar informació i conservar evidències de comunicació",
+        "Substituir sempre qualsevol notificació fefaent",
+        "Compartir contrasenyes entre departaments",
+        "Eliminar tota evidència de les comunicacions"
+      ],
+      "correct": 0,
+      "explanation": "El correu electrònic és un canal habitual per confirmar gestions, enviar documents, coordinar equips, demanar informació i conservar evidències."
+    },
+    {
+      "id": "uf0518-b3-074",
+      "block": "uf0518-bloc-3",
+      "topic": "Valor probatori",
+      "question": "Quina limitació del correu electrònic ordinari assenyala el material?",
+      "options": [
+        "No pot adjuntar fitxers",
+        "No tots els correus tenen el mateix valor probatori que una notificació fefaent",
+        "No pot utilitzar-se en empreses",
+        "No permet conservar evidències"
+      ],
+      "correct": 1,
+      "explanation": "El material diferencia l’email ordinari dels canals fefaents quan cal acreditar formalment contingut, enviament i recepció."
+    },
+    {
+      "id": "uf0518-b3-075",
+      "block": "uf0518-bloc-3",
+      "topic": "Parts del correu",
+      "question": "Quina funció té el camp CCO?",
+      "options": [
+        "Fer visible una còpia a totes les persones",
+        "Indicar el destinatari principal",
+        "Enviar una còpia oculta i protegir adreces en enviaments a moltes persones",
+        "Adjuntar fitxers confidencials automàticament"
+      ],
+      "correct": 2,
+      "explanation": "CCO envia còpia oculta i és útil per protegir adreces en enviaments a moltes persones."
+    },
+    {
+      "id": "uf0518-b3-076",
+      "block": "uf0518-bloc-3",
+      "topic": "Parts del correu",
+      "question": "Què cal comprovar especialment als fitxers adjunts abans d’enviar un correu?",
+      "options": [
+        "Només el color de la icona",
+        "Només el nom del remitent",
+        "Només la data de creació",
+        "Mida, format, versió i confidencialitat"
+      ],
+      "correct": 3,
+      "explanation": "El material indica revisar mida, format, versió i confidencialitat dels adjunts."
+    },
+    {
+      "id": "uf0518-b3-077",
+      "block": "uf0518-bloc-3",
+      "topic": "Netiqueta professional",
+      "question": "Quina pauta forma part de la redacció professional d’un email?",
+      "options": [
+        "Indicar clarament què es demana, el termini i els documents adjunts",
+        "Utilitzar majúscules per destacar urgència",
+        "Afegir emoticones en excés",
+        "Respondre impulsivament per agilitzar"
+      ],
+      "correct": 0,
+      "explanation": "El material recomana missatges clars, breus i ordenats que indiquin petició, termini i adjunts."
+    },
+    {
+      "id": "uf0518-b3-078",
+      "block": "uf0518-bloc-3",
+      "topic": "Arxiu del correu",
+      "question": "Quina pràctica recomana el material per arxivar correus importants que formen part d’un expedient?",
+      "options": [
+        "Deixar-los indefinidament a la safata d’entrada",
+        "Guardar-los o exportar-los amb els seus adjunts i integrar-los al sistema documental",
+        "Reenviar-los a un compte personal",
+        "Eliminar els adjunts i conservar només l’assumpte"
+      ],
+      "correct": 1,
+      "explanation": "Els correus importants s’han de guardar o exportar amb els adjunts quan formen part d’un expedient."
+    },
+    {
+      "id": "uf0518-b3-079",
+      "block": "uf0518-bloc-3",
+      "topic": "Phishing",
+      "question": "Quina és una actuació correcta davant d’un correu sospitós?",
+      "options": [
+        "Obrir l’adjunt per comprovar si és segur",
+        "Respondre demanant les credencials del remitent",
+        "Revisar el remitent real i el domini, no obrir adjunts o enllaços no verificats i avisar la persona responsable",
+        "Introduir la contrasenya si el missatge sembla urgent"
+      ],
+      "correct": 2,
+      "explanation": "El material recomana verificar remitent i domini, evitar adjunts/enllaços dubtosos i escalar el missatge sospitós."
+    },
+    {
+      "id": "uf0518-b3-080",
+      "block": "uf0518-bloc-3",
+      "topic": "Valor probatori",
+      "question": "Quina diferència destaca el material entre carta certificada i burofax quan cal acreditar el contingut?",
+      "options": [
+        "La carta certificada sempre acredita el text exacte",
+        "El burofax només acredita el cost",
+        "Tots dos tenen exactament la mateixa prova en qualsevol modalitat",
+        "La carta certificada acredita enviament i recepció però no sempre el contingut concret; el burofax és útil quan cal acreditar també el contingut enviat"
+      ],
+      "correct": 3,
+      "explanation": "El material diferencia la prova d’enviament/recepció de la prova del contingut i situa el burofax com a opció útil quan també cal acreditar aquest contingut."
+    }
+  ]
+}

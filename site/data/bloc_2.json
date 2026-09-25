@@ -3,6 +3,48 @@
   "blockTitle": "Classes d’empreses, jerarquia empresarial i funció administrativa",
   "questions": [
     {
+      "id": "b2-054",
+      "block": "bloc-2",
+      "topic": "Classificació d’empreses",
+      "question": "Una S.L. privada que fabrica envasos amb finalitat lucrativa pot pertànyer simultàniament a quines categories?",
+      "options": [
+        "Només a la categoria S.L.",
+        "S.L., privada, fabricant i lucrativa",
+        "Pública, distribuïdora i no lucrativa",
+        "Cooperativa, mixta i de serveis"
+      ],
+      "correct": 1,
+      "explanation": "Una mateixa empresa pot classificar-se alhora segons motiu de creació, estructura jurídica, capital i activitat econòmica."
+    },
+    {
+      "id": "b2-059",
+      "block": "bloc-2",
+      "topic": "Classificació d’empreses",
+      "question": "Per què una mateixa empresa pot aparèixer en diverses categories alhora?",
+      "options": [
+        "Perquè cada empresa ha de canviar de categoria cada any",
+        "Perquè la classificació depèn només del nombre de treballadors",
+        "Perquè es poden aplicar criteris diferents, com forma jurídica, capital o activitat",
+        "Perquè totes les empreses són simultàniament públiques i privades"
+      ],
+      "correct": 2,
+      "explanation": "Una mateixa empresa es pot classificar simultàniament segons diferents criteris: motiu de creació, estructura jurídica, capital i activitat econòmica."
+    },
+    {
+      "id": "b2-071",
+      "block": "bloc-2",
+      "topic": "Classificació d’empreses",
+      "question": "Una societat privada que fabrica mobiliari pot descriure’s alhora per la forma jurídica, el tipus de capital i l’activitat econòmica. Quina idea explica aquesta situació?",
+      "options": [
+        "Una empresa pot classificar-se simultàniament segons criteris diferents",
+        "La forma jurídica substitueix qualsevol altra classificació",
+        "El tipus de capital determina automàticament l’activitat",
+        "Cada empresa ha de pertànyer a una sola categoria"
+      ],
+      "correct": 0,
+      "explanation": "El temari aplica diversos criteris de classificació —creació, estructura jurídica, capital i activitat— que poden descriure simultàniament una mateixa empresa."
+    },
+    {
       "id": "b2-001",
       "block": "bloc-2",
       "topic": "Classificació de les empreses",
@@ -73,6 +115,76 @@
       "explanation": "L’activitat econòmica és un dels criteris: fabricants, distribuïdores o serveis."
     },
     {
+      "id": "b2-057",
+      "block": "bloc-2",
+      "topic": "Empreses lucratives",
+      "question": "Una empresa amb beneficis decideix destinar-ne una part a comprar nous equips. Segons el temari, és una destinació possible del benefici?",
+      "options": [
+        "Sí, els beneficis es poden reinvertir o destinar a nous equips i recursos",
+        "No, tots els beneficis s’han de repartir entre els propietaris",
+        "No, els beneficis només es poden guardar sense utilitzar",
+        "Sí, però només si l’empresa deixa de tenir finalitat lucrativa"
+      ],
+      "correct": 0,
+      "explanation": "El material indica que els beneficis d’una empresa lucrativa es poden reinvertir, destinar a nous equips, ampliar l’activitat o millorar productes i serveis."
+    },
+    {
+      "id": "b2-031",
+      "block": "bloc-2",
+      "topic": "Motiu de creació",
+      "question": "Una entitat obté ingressos mitjançant activitats pròpies, però qualsevol excedent es destina als objectius de l’organització i no es reparteix entre els membres. Com es classifica pel motiu de creació?",
+      "options": [
+        "Empresa lucrativa",
+        "Entitat sense ànim de lucre",
+        "Empresa pública",
+        "Cooperativa necessàriament"
+      ],
+      "correct": 1,
+      "explanation": "Les entitats sense ànim de lucre poden obtenir ingressos, però els possibles beneficis es destinen als objectius de l’organització."
+    },
+    {
+      "id": "b2-032",
+      "block": "bloc-2",
+      "topic": "Motiu de creació",
+      "question": "Quina situació és compatible amb una entitat sense ànim de lucre segons el temari?",
+      "options": [
+        "Obtenir ingressos d’activitats pròpies i destinar-los als seus objectius",
+        "Repartir obligatòriament tots els beneficis entre els membres",
+        "Finançar-se exclusivament amb impostos",
+        "No poder rebre donacions ni subvencions"
+      ],
+      "correct": 0,
+      "explanation": "Una entitat sense ànim de lucre pot obtenir ingressos i finançar-se amb quotes, donacions, subvencions, aportacions o activitats pròpies."
+    },
+    {
+      "id": "b2-058",
+      "block": "bloc-2",
+      "topic": "Entitats sense ànim de lucre",
+      "question": "Una entitat sense ànim de lucre obté ingressos en una activitat pròpia. Què ha de passar amb els possibles beneficis segons el temari?",
+      "options": [
+        "S’han de repartir necessàriament entre els membres",
+        "S’han de destinar al compliment dels objectius de l’organització",
+        "S’han de convertir automàticament en capital públic",
+        "No pot haver-hi cap ingrés ni benefici en cap cas"
+      ],
+      "correct": 1,
+      "explanation": "Les entitats sense ànim de lucre poden obtenir ingressos, però els possibles beneficis es destinen als objectius de l’organització i no es reparteixen entre els membres."
+    },
+    {
+      "id": "b2-060",
+      "block": "bloc-2",
+      "topic": "Empreses individuals",
+      "question": "Quina situació descriu millor una empresa individual segons el material?",
+      "options": [
+        "Diverses persones creen una societat amb personalitat pròpia",
+        "Un conjunt de socis gestiona democràticament una cooperativa",
+        "Una administració i inversors privats comparteixen el capital",
+        "Una única persona física és propietària i desenvolupa l’activitat en nom propi"
+      ],
+      "correct": 3,
+      "explanation": "En una empresa individual, una única persona física és propietària de l’empresa i desenvolupa l’activitat empresarial en nom propi."
+    },
+    {
       "id": "b2-006",
       "block": "bloc-2",
       "topic": "Estructura jurídica",
@@ -113,20 +225,6 @@
       ],
       "correct": 0,
       "explanation": "El material indica que, amb caràcter general, respon personalment dels deutes i obligacions de l’activitat."
-    },
-    {
-      "id": "b2-009",
-      "block": "bloc-2",
-      "topic": "Funció administrativa",
-      "question": "Com es poden planificar els objectius de l’empresa segons el període de temps?",
-      "options": [
-        "A curt, mitjà i llarg termini",
-        "Només a curt termini",
-        "Només per departaments, sense termini",
-        "Exclusivament cada deu anys"
-      ],
-      "correct": 0,
-      "explanation": "El temari diferencia objectius a curt, mitjà i llarg termini segons l’horitzó temporal."
     },
     {
       "id": "b2-010",
@@ -199,18 +297,102 @@
       "explanation": "Les cooperatives agrupen voluntàriament persones per desenvolupar una activitat destinada a necessitats i interessos comuns."
     },
     {
-      "id": "b2-015",
+      "id": "b2-033",
       "block": "bloc-2",
-      "topic": "Funció administrativa",
-      "question": "Què significa auditar dins les accions de la funció administrativa?",
+      "topic": "Estructura jurídica",
+      "question": "Una sola persona física és propietària del negoci, actua en nom propi i pren les decisions principals. Quina forma descriu millor el cas?",
       "options": [
-        "Revisar i verificar activitats, procediments i resultats",
-        "Promocionar productes mitjançant publicitat",
-        "Elegir els representants dels treballadors",
-        "Dividir el capital en accions"
+        "Societat anònima",
+        "Empresa individual",
+        "Cooperativa",
+        "Societat limitada"
+      ],
+      "correct": 1,
+      "explanation": "L’empresa individual té una única persona física propietària que desenvolupa l’activitat en nom propi."
+    },
+    {
+      "id": "b2-034",
+      "block": "bloc-2",
+      "topic": "Estructura jurídica",
+      "question": "Quina característica permet diferenciar amb més precisió una S.A. d’una S.L. segons el material?",
+      "options": [
+        "La S.A. divideix el capital en accions i la S.L. en participacions",
+        "La S.A. sempre és pública i la S.L. sempre privada",
+        "La S.L. no té personalitat jurídica",
+        "La S.A. no limita la responsabilitat dels accionistes"
       ],
       "correct": 0,
-      "explanation": "Auditar consisteix a revisar i verificar les activitats, els procediments i els resultats de l’organització."
+      "explanation": "En la S.A. el capital es divideix en accions; en la S.L., en participacions. En ambdues, la responsabilitat és limitada en els termes explicats al temari."
+    },
+    {
+      "id": "b2-035",
+      "block": "bloc-2",
+      "topic": "Estructura jurídica",
+      "question": "Un grup vol una societat basada en l’associació voluntària, interessos comuns i funcionament participatiu i democràtic. Quina opció encaixa millor?",
+      "options": [
+        "Empresa individual",
+        "Societat anònima",
+        "Cooperativa",
+        "Empresa mixta"
+      ],
+      "correct": 2,
+      "explanation": "Les cooperatives associen voluntàriament persones per satisfer necessitats o interessos comuns i es basen en participació i funcionament democràtic."
+    },
+    {
+      "id": "b2-036",
+      "block": "bloc-2",
+      "topic": "Estructura jurídica",
+      "question": "Dos projectes tenen responsabilitat limitada, però en un el capital està representat per accions i en l’altre per participacions menys lliurement transmissibles. Quin parell és correcte?",
+      "options": [
+        "S.L. / S.A.",
+        "S.A. / S.L.",
+        "Cooperativa / empresa individual",
+        "Empresa individual / S.A."
+      ],
+      "correct": 1,
+      "explanation": "La S.A. divideix el capital en accions; la S.L. en participacions, que tenen una transmissió més restringida."
+    },
+    {
+      "id": "b2-055",
+      "block": "bloc-2",
+      "topic": "Estructura jurídica",
+      "question": "Quina afirmació evita confondre cooperativa amb entitat sense ànim de lucre?",
+      "options": [
+        "Cooperativa és una forma jurídica; ànim de lucre és un criteri diferent de classificació",
+        "Tota cooperativa és necessàriament sense ànim de lucre",
+        "Cap cooperativa pot desenvolupar activitat empresarial",
+        "Cooperativa i empresa pública són sinònims"
+      ],
+      "correct": 0,
+      "explanation": "El temari classifica per criteris diferents: cooperativa és una estructura jurídica, mentre que lucrativa/no lucrativa respon al motiu de creació."
+    },
+    {
+      "id": "b2-061",
+      "block": "bloc-2",
+      "topic": "Societats",
+      "question": "Quina característica diferencia una societat de les persones sòcies en les formes societàries habituals descrites al temari?",
+      "options": [
+        "La societat disposa de personalitat jurídica pròpia diferenciada de la dels socis",
+        "La societat no pot rebre aportacions de capital ni béns",
+        "Els beneficis mai es poden reinvertir",
+        "La gestió només pot ser exercida per persones externes"
+      ],
+      "correct": 0,
+      "explanation": "El material assenyala que, en les formes societàries habituals, la societat té personalitat jurídica pròpia diferenciada de la dels seus socis."
+    },
+    {
+      "id": "b2-062",
+      "block": "bloc-2",
+      "topic": "Cooperatives",
+      "question": "En una cooperativa, quin tret s’ajusta a la manera de prendre decisions indicada al material?",
+      "options": [
+        "Les decisions depenen sempre d’un propietari únic",
+        "La gestió es basa en participació i funcionament democràtic",
+        "Les persones sòcies només poden aportar diners",
+        "Els resultats es reparteixen sense seguir cap norma cooperativa"
+      ],
+      "correct": 1,
+      "explanation": "Les cooperatives es basen en la participació de les persones sòcies i en un funcionament democràtic a través dels seus òrgans."
     },
     {
       "id": "b2-016",
@@ -239,188 +421,6 @@
       ],
       "correct": 0,
       "explanation": "Una empresa mixta combina capital del sector públic i del sector privat."
-    },
-    {
-      "id": "b2-018",
-      "block": "bloc-2",
-      "topic": "Capital de l’empresa",
-      "question": "D’on prové principalment el capital d’una empresa privada?",
-      "options": [
-        "De persones, socis, empreses o inversors privats",
-        "Exclusivament dels pressupostos públics",
-        "Només d’impostos",
-        "Sempre del BCE"
-      ],
-      "correct": 0,
-      "explanation": "El capital de l’empresa privada prové principalment de fonts privades."
-    },
-    {
-      "id": "b2-019",
-      "block": "bloc-2",
-      "topic": "Capital de l’empresa",
-      "question": "Quina font de finançament pot utilitzar una empresa privada segons el temari?",
-      "options": [
-        "Ingressos per la venda de productes o serveis",
-        "Només taxes municipals",
-        "Únicament pressupostos de l’Estat",
-        "Exclusivament subvencions públiques"
-      ],
-      "correct": 0,
-      "explanation": "El material cita aportacions, vendes, préstecs/crèdits, inversions privades i beneficis generats."
-    },
-    {
-      "id": "b2-020",
-      "block": "bloc-2",
-      "topic": "Capital de l’empresa",
-      "question": "En una empresa mixta, la propietat es reparteix entre...",
-      "options": [
-        "El sector públic i el sector privat",
-        "Només accionistes estrangers",
-        "Només l’Estat",
-        "Només treballadors individuals"
-      ],
-      "correct": 0,
-      "explanation": "La propietat d’una empresa mixta es reparteix entre sector públic i privat."
-    },
-    {
-      "id": "b2-021",
-      "block": "bloc-2",
-      "topic": "Activitat econòmica",
-      "question": "Què fa una empresa fabricant?",
-      "options": [
-        "Transforma matèries primeres o materials en productes elaborats",
-        "Només redistribueix productes sense transformar-los",
-        "Només presta serveis immaterials",
-        "Exerceix funcions legislatives"
-      ],
-      "correct": 0,
-      "explanation": "Les fabricants transformen matèries primeres o altres materials en productes elaborats."
-    },
-    {
-      "id": "b2-022",
-      "block": "bloc-2",
-      "topic": "Activitat econòmica",
-      "question": "Quina fase pot formar part del procés d’una empresa fabricant?",
-      "options": [
-        "Control de qualitat",
-        "Elecció de senadors",
-        "Transposició de directives",
-        "Formació del Consell Europeu"
-      ],
-      "correct": 0,
-      "explanation": "El procés de fabricació pot incloure recepció, transformació, control de qualitat, emmagatzematge i preparació per distribuir."
-    },
-    {
-      "id": "b2-023",
-      "block": "bloc-2",
-      "topic": "Activitat econòmica",
-      "question": "Quina funció identifica principalment una empresa distribuïdora?",
-      "options": [
-        "Fer arribar productes des dels fabricants als punts de venda o clients",
-        "Transformar necessàriament matèries primeres",
-        "Aprovar lleis",
-        "Gestionar tribunals"
-      ],
-      "correct": 0,
-      "explanation": "La distribució fa arribar els productes des de fabricants fins als punts de venda o clients."
-    },
-    {
-      "id": "b2-024",
-      "block": "bloc-2",
-      "topic": "Activitat econòmica",
-      "question": "Què caracteritza una empresa de serveis?",
-      "options": [
-        "Ofereix activitats o prestacions als clients en lloc de centrar-se en un producte material",
-        "Sempre fabrica béns físics",
-        "Sempre és pública",
-        "Divideix necessàriament capital en accions"
-      ],
-      "correct": 0,
-      "explanation": "Les empreses de serveis proporcionen activitats o prestacions als clients."
-    },
-    {
-      "id": "b2-025",
-      "block": "bloc-2",
-      "topic": "Jerarquia empresarial",
-      "question": "Què determina la jerarquia donada pel càrrec?",
-      "options": [
-        "La posició oficial, amb funcions, responsabilitat i autoritat",
-        "Només l’antiguitat informal",
-        "Exclusivament el salari",
-        "Només el prestigi personal"
-      ],
-      "correct": 0,
-      "explanation": "El càrrec és una posició formal que assigna funcions, responsabilitat i autoritat."
-    },
-    {
-      "id": "b2-026",
-      "block": "bloc-2",
-      "topic": "Jerarquia empresarial",
-      "question": "En què es pot basar la jerarquia de rang?",
-      "options": [
-        "En experiència, antiguitat, prestigi o reconeixement",
-        "Només en el càrrec formal",
-        "En el nombre d’accions de la UE",
-        "En la política monetària"
-      ],
-      "correct": 0,
-      "explanation": "El rang pot derivar del reconeixement, experiència, antiguitat o prestigi i no equival necessàriament al càrrec oficial."
-    },
-    {
-      "id": "b2-027",
-      "block": "bloc-2",
-      "topic": "Jerarquia empresarial",
-      "question": "Què expressa la jerarquia per capacitat?",
-      "options": [
-        "Coneixements, habilitats o especialització d’una persona",
-        "Necessàriament autoritat formal sobre altres",
-        "Només remuneració alta",
-        "Propietat pública de l’empresa"
-      ],
-      "correct": 0,
-      "explanation": "La capacitat es relaciona amb coneixements, habilitats i especialització; no implica necessàriament autoritat."
-    },
-    {
-      "id": "b2-028",
-      "block": "bloc-2",
-      "topic": "Jerarquia empresarial",
-      "question": "Una remuneració més alta implica necessàriament més autoritat jeràrquica?",
-      "options": [
-        "No, la remuneració no equival necessàriament a jerarquia formal",
-        "Sí, sempre",
-        "Sí, però només en cooperatives",
-        "Només en empreses públiques"
-      ],
-      "correct": 0,
-      "explanation": "El material diferencia jerarquia per remuneració de l’autoritat formal del càrrec."
-    },
-    {
-      "id": "b2-029",
-      "block": "bloc-2",
-      "topic": "Funció administrativa",
-      "question": "Quines quatre accions bàsiques resumeixen la funció administrativa?",
-      "options": [
-        "Planificar, organitzar, coordinar i controlar",
-        "Fabricar, distribuir, legislar i jutjar",
-        "Contractar, votar, sancionar i exportar",
-        "Auditar, vendre, invertir i legislar"
-      ],
-      "correct": 0,
-      "explanation": "El bloc resumeix la funció administrativa en planificar, organitzar, coordinar i controlar."
-    },
-    {
-      "id": "b2-030",
-      "block": "bloc-2",
-      "topic": "Funció administrativa",
-      "question": "Quina és la finalitat general de la funció administrativa?",
-      "options": [
-        "Organitzar, gestionar i coordinar recursos i activitats per assolir objectius amb ordre i eficiència",
-        "Eliminar objectius de l’empresa",
-        "Substituir totes les altres funcions",
-        "Evitar qualsevol control"
-      ],
-      "correct": 0,
-      "explanation": "La funció administrativa ordena i coordina recursos i activitats per facilitar l’assoliment dels objectius."
     }
   ]
 }

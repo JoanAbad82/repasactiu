@@ -48,48 +48,6 @@
   },
   "cards": [
     {
-      "id": "sc-b1-01",
-      "blockId": "bloc-1",
-      "ca": {
-        "question": "Quin canal facilita la comunicació escrita entre l’empresa i els clients?",
-        "answer": "Correu electrònic",
-        "mnemonic": "Comunicació escrita amb clients → correu electrònic."
-      },
-      "es": {
-        "question": "¿Qué canal facilita la comunicación escrita entre la empresa y los clientes?",
-        "answer": "Correo electrónico",
-        "mnemonic": "Comunicación escrita con clientes → correo electrónico."
-      },
-      "source": {
-        "id": "B1",
-        "pages": [
-          13,
-          14
-        ]
-      }
-    },
-    {
-      "id": "sc-b1-02",
-      "blockId": "bloc-1",
-      "ca": {
-        "question": "Quin canal permet resoldre una incidència de manera directa i ràpida?",
-        "answer": "Atenció telefònica",
-        "mnemonic": "Urgent i directe → telèfon."
-      },
-      "es": {
-        "question": "¿Qué canal permite resolver una incidencia de forma directa y rápida?",
-        "answer": "Atención telefónica",
-        "mnemonic": "Urgente y directo → teléfono."
-      },
-      "source": {
-        "id": "B1",
-        "pages": [
-          13,
-          14
-        ]
-      }
-    },
-    {
       "id": "sc-b1-03",
       "blockId": "bloc-1",
       "ca": {
@@ -174,23 +132,44 @@
       }
     },
     {
-      "id": "sc-b2-01",
-      "blockId": "bloc-2",
+      "id": "sc-b1-01",
+      "blockId": "bloc-1",
       "ca": {
-        "question": "Quin tipus de societat té el capital social dividit en participacions?",
-        "answer": "Societat Limitada (S. L.)",
-        "mnemonic": "S.A. = Accions; S.L. = participacions. Contrasta A vs. P."
+        "question": "Quin canal facilita la comunicació escrita entre l’empresa i els clients?",
+        "answer": "Correu electrònic",
+        "mnemonic": "Comunicació escrita amb clients → correu electrònic."
       },
       "es": {
-        "question": "¿Qué tipo de sociedad tiene el capital social dividido en participaciones?",
-        "answer": "Sociedad Limitada (S. L.)",
-        "mnemonic": "S.A. = Acciones; S.L. = participaciones. Contrasta A vs. P."
+        "question": "¿Qué canal facilita la comunicación escrita entre la empresa y los clientes?",
+        "answer": "Correo electrónico",
+        "mnemonic": "Comunicación escrita con clientes → correo electrónico."
       },
       "source": {
-        "id": "B2",
+        "id": "B1",
         "pages": [
-          11,
-          11
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "id": "sc-b1-02",
+      "blockId": "bloc-1",
+      "ca": {
+        "question": "Quin canal permet resoldre una incidència de manera directa i ràpida?",
+        "answer": "Atenció telefònica",
+        "mnemonic": "Urgent i directe → telèfon."
+      },
+      "es": {
+        "question": "¿Qué canal permite resolver una incidencia de forma directa y rápida?",
+        "answer": "Atención telefónica",
+        "mnemonic": "Urgente y directo → teléfono."
+      },
+      "source": {
+        "id": "B1",
+        "pages": [
+          13,
+          14
         ]
       }
     },
@@ -212,6 +191,27 @@
         "pages": [
           7,
           7
+        ]
+      }
+    },
+    {
+      "id": "sc-b2-01",
+      "blockId": "bloc-2",
+      "ca": {
+        "question": "Quin tipus de societat té el capital social dividit en participacions?",
+        "answer": "Societat Limitada (S. L.)",
+        "mnemonic": "S.A. = Accions; S.L. = participacions. Contrasta A vs. P."
+      },
+      "es": {
+        "question": "¿Qué tipo de sociedad tiene el capital social dividido en participaciones?",
+        "answer": "Sociedad Limitada (S. L.)",
+        "mnemonic": "S.A. = Acciones; S.L. = participaciones. Contrasta A vs. P."
+      },
+      "source": {
+        "id": "B2",
+        "pages": [
+          11,
+          11
         ]
       }
     },
@@ -300,23 +300,44 @@
       }
     },
     {
-      "id": "sc-b3-01",
+      "id": "sc-b3-05",
       "blockId": "bloc-3",
       "ca": {
-        "question": "Quin principi ajuda a evitar errors, duplicitats i fallades de comunicació entre persones i departaments?",
-        "answer": "Coordinació",
-        "mnemonic": "Coordinar = fer que les peces encaixin i no es dupliquin."
+        "question": "Com s’anomena la xarxa de relacions espontànies que no figura oficialment en l’estructura de l’empresa?",
+        "answer": "Organització informal",
+        "mnemonic": "INformal = neix entre persones; FORMAL = figura oficialment."
       },
       "es": {
-        "question": "¿Qué principio ayuda a evitar errores, duplicidades y fallos de comunicación entre personas y departamentos?",
-        "answer": "Coordinación",
-        "mnemonic": "Coordinar = hacer que las piezas encajen y no se dupliquen."
+        "question": "¿Cómo se llama la red de relaciones espontáneas que no figura oficialmente en la estructura de la empresa?",
+        "answer": "Organización informal",
+        "mnemonic": "INformal = nace entre personas; FORMAL = figura oficialmente."
       },
       "source": {
         "id": "B3",
         "pages": [
-          11,
-          13
+          6,
+          9
+        ]
+      }
+    },
+    {
+      "id": "sc-b3-06",
+      "blockId": "bloc-3",
+      "ca": {
+        "question": "Quin requisit exigeix modificar l’organigrama quan canvien càrrecs, àrees o dependències?",
+        "answer": "Organigrama actualitzat",
+        "mnemonic": "Si canvia l’empresa, canvia l’organigrama."
+      },
+      "es": {
+        "question": "¿Qué requisito exige modificar el organigrama cuando cambian cargos, áreas o dependencias?",
+        "answer": "Organigrama actualizado",
+        "mnemonic": "Si cambia la empresa, cambia el organigrama."
+      },
+      "source": {
+        "id": "B3",
+        "pages": [
+          25,
+          34
         ]
       }
     },
@@ -363,6 +384,27 @@
       }
     },
     {
+      "id": "sc-b3-01",
+      "blockId": "bloc-3",
+      "ca": {
+        "question": "Quin principi ajuda a evitar errors, duplicitats i fallades de comunicació entre persones i departaments?",
+        "answer": "Coordinació",
+        "mnemonic": "Coordinar = fer que les peces encaixin i no es dupliquin."
+      },
+      "es": {
+        "question": "¿Qué principio ayuda a evitar errores, duplicidades y fallos de comunicación entre personas y departamentos?",
+        "answer": "Coordinación",
+        "mnemonic": "Coordinar = hacer que las piezas encajen y no se dupliquen."
+      },
+      "source": {
+        "id": "B3",
+        "pages": [
+          11,
+          13
+        ]
+      }
+    },
+    {
       "id": "sc-b3-04",
       "blockId": "bloc-3",
       "ca": {
@@ -380,48 +422,6 @@
         "pages": [
           9,
           11
-        ]
-      }
-    },
-    {
-      "id": "sc-b3-05",
-      "blockId": "bloc-3",
-      "ca": {
-        "question": "Com s’anomena la xarxa de relacions espontànies que no figura oficialment en l’estructura de l’empresa?",
-        "answer": "Organització informal",
-        "mnemonic": "INformal = neix entre persones; FORMAL = figura oficialment."
-      },
-      "es": {
-        "question": "¿Cómo se llama la red de relaciones espontáneas que no figura oficialmente en la estructura de la empresa?",
-        "answer": "Organización informal",
-        "mnemonic": "INformal = nace entre personas; FORMAL = figura oficialmente."
-      },
-      "source": {
-        "id": "B3",
-        "pages": [
-          6,
-          9
-        ]
-      }
-    },
-    {
-      "id": "sc-b3-06",
-      "blockId": "bloc-3",
-      "ca": {
-        "question": "Quin requisit exigeix modificar l’organigrama quan canvien càrrecs, àrees o dependències?",
-        "answer": "Organigrama actualitzat",
-        "mnemonic": "Si canvia l’empresa, canvia l’organigrama."
-      },
-      "es": {
-        "question": "¿Qué requisito exige modificar el organigrama cuando cambian cargos, áreas o dependencias?",
-        "answer": "Organigrama actualizado",
-        "mnemonic": "Si cambia la empresa, cambia el organigrama."
-      },
-      "source": {
-        "id": "B3",
-        "pages": [
-          25,
-          34
         ]
       }
     },
@@ -468,27 +468,6 @@
       }
     },
     {
-      "id": "sc-b4-03",
-      "blockId": "bloc-4",
-      "ca": {
-        "question": "Quines àrees gestionen principalment contractes laborals, formació i absències del personal?",
-        "answer": "Recursos Humans i Administració",
-        "mnemonic": "Personal = RR. HH.; tràmit = Administració."
-      },
-      "es": {
-        "question": "¿Qué áreas gestionan principalmente contratos laborales, formación y ausencias del personal?",
-        "answer": "Recursos Humanos y Administración",
-        "mnemonic": "Personal = RR. HH.; trámite = Administración."
-      },
-      "source": {
-        "id": "B4",
-        "pages": [
-          16,
-          21
-        ]
-      }
-    },
-    {
       "id": "sc-b4-04",
       "blockId": "bloc-4",
       "ca": {
@@ -510,23 +489,23 @@
       }
     },
     {
-      "id": "sc-b4-05",
+      "id": "sc-b4-03",
       "blockId": "bloc-4",
       "ca": {
-        "question": "Quina àrea assessora sobre contractes, normativa i qüestions jurídiques?",
-        "answer": "Àrea Legal",
-        "mnemonic": "Norma i contracte → Legal."
+        "question": "Quines àrees gestionen principalment contractes laborals, formació i absències del personal?",
+        "answer": "Recursos Humans i Administració",
+        "mnemonic": "Personal = RR. HH.; tràmit = Administració."
       },
       "es": {
-        "question": "¿Qué área asesora sobre contratos, normativa y cuestiones jurídicas?",
-        "answer": "Área Legal",
-        "mnemonic": "Norma y contrato → Legal."
+        "question": "¿Qué áreas gestionan principalmente contratos laborales, formación y ausencias del personal?",
+        "answer": "Recursos Humanos y Administración",
+        "mnemonic": "Personal = RR. HH.; trámite = Administración."
       },
       "source": {
         "id": "B4",
         "pages": [
-          23,
-          27
+          16,
+          21
         ]
       }
     },
@@ -552,6 +531,27 @@
       }
     },
     {
+      "id": "sc-b4-05",
+      "blockId": "bloc-4",
+      "ca": {
+        "question": "Quina àrea assessora sobre contractes, normativa i qüestions jurídiques?",
+        "answer": "Àrea Legal",
+        "mnemonic": "Norma i contracte → Legal."
+      },
+      "es": {
+        "question": "¿Qué área asesora sobre contratos, normativa y cuestiones jurídicas?",
+        "answer": "Área Legal",
+        "mnemonic": "Norma y contrato → Legal."
+      },
+      "source": {
+        "id": "B4",
+        "pages": [
+          23,
+          27
+        ]
+      }
+    },
+    {
       "id": "sc-b5-01",
       "blockId": "bloc-5",
       "ca": {
@@ -573,27 +573,6 @@
       }
     },
     {
-      "id": "sc-b5-02",
-      "blockId": "bloc-5",
-      "ca": {
-        "question": "Quin òrgan dirigeix la política interior i exterior i exerceix la funció executiva de l’Estat?",
-        "answer": "El Govern",
-        "mnemonic": "Executar la política → Govern."
-      },
-      "es": {
-        "question": "¿Qué órgano dirige la política interior y exterior y ejerce la función ejecutiva del Estado?",
-        "answer": "Gobierno",
-        "mnemonic": "Ejecutar la política → Gobierno."
-      },
-      "source": {
-        "id": "B5",
-        "pages": [
-          6,
-          8
-        ]
-      }
-    },
-    {
       "id": "sc-b5-03",
       "blockId": "bloc-5",
       "ca": {
@@ -611,6 +590,27 @@
         "pages": [
           7,
           9
+        ]
+      }
+    },
+    {
+      "id": "sc-b5-02",
+      "blockId": "bloc-5",
+      "ca": {
+        "question": "Quin òrgan dirigeix la política interior i exterior i exerceix la funció executiva de l’Estat?",
+        "answer": "El Govern",
+        "mnemonic": "Executar la política → Govern."
+      },
+      "es": {
+        "question": "¿Qué órgano dirige la política interior y exterior y ejerce la función ejecutiva del Estado?",
+        "answer": "Gobierno",
+        "mnemonic": "Ejecutar la política → Gobierno."
+      },
+      "source": {
+        "id": "B5",
+        "pages": [
+          6,
+          8
         ]
       }
     },
@@ -678,27 +678,6 @@
       }
     },
     {
-      "id": "sc-u2-01",
-      "blockId": "unitat-2-bloc-1",
-      "ca": {
-        "question": "Quin mecanisme de coordinació es basa en la comunicació directa i els ajustos recíprocs entre persones?",
-        "answer": "Adaptació mútua",
-        "mnemonic": "Adaptació mútua = ens ajustem parlant entre nosaltres."
-      },
-      "es": {
-        "question": "¿Qué mecanismo de coordinación se basa en la comunicación directa y los ajustes recíprocos entre personas?",
-        "answer": "Adaptación mutua",
-        "mnemonic": "Adaptación mutua = nos ajustamos hablando entre nosotros."
-      },
-      "source": {
-        "id": "U2B1",
-        "pages": [
-          6,
-          11
-        ]
-      }
-    },
-    {
       "id": "sc-u2-02",
       "blockId": "unitat-2-bloc-1",
       "ca": {
@@ -720,23 +699,23 @@
       }
     },
     {
-      "id": "sc-u2-03",
+      "id": "sc-u2-01",
       "blockId": "unitat-2-bloc-1",
       "ca": {
-        "question": "Com s’anomena el procediment que segueix una única seqüència de passos en un ordre establert?",
-        "answer": "Procediment lineal",
-        "mnemonic": "Una línia, una sola ruta."
+        "question": "Quin mecanisme de coordinació es basa en la comunicació directa i els ajustos recíprocs entre persones?",
+        "answer": "Adaptació mútua",
+        "mnemonic": "Adaptació mútua = ens ajustem parlant entre nosaltres."
       },
       "es": {
-        "question": "¿Cómo se llama el procedimiento que sigue una única secuencia de pasos en un orden establecido?",
-        "answer": "Procedimiento lineal",
-        "mnemonic": "Una línea, una sola ruta."
+        "question": "¿Qué mecanismo de coordinación se basa en la comunicación directa y los ajustes recíprocos entre personas?",
+        "answer": "Adaptación mutua",
+        "mnemonic": "Adaptación mutua = nos ajustamos hablando entre nosotros."
       },
       "source": {
         "id": "U2B1",
         "pages": [
-          13,
-          15
+          6,
+          11
         ]
       }
     },
@@ -762,23 +741,23 @@
       }
     },
     {
-      "id": "sc-u2-05",
+      "id": "sc-u2-03",
       "blockId": "unitat-2-bloc-1",
       "ca": {
-        "question": "Com s’anomena la fase de l’equip en què els rols són més clars i augmenten la confiança i la cooperació?",
-        "answer": "Normalització",
-        "mnemonic": "F-C-N-R: després del Conflicte, les Normes s’aclareixen i arriba el Rendiment."
+        "question": "Com s’anomena el procediment que segueix una única seqüència de passos en un ordre establert?",
+        "answer": "Procediment lineal",
+        "mnemonic": "Una línia, una sola ruta."
       },
       "es": {
-        "question": "¿Cómo se llama la fase del equipo en la que los roles están más claros y aumentan la confianza y la cooperación?",
-        "answer": "Normalización",
-        "mnemonic": "F-C-N-R: tras el Conflicto, las Normas se aclaran y llega el Rendimiento."
+        "question": "¿Cómo se llama el procedimiento que sigue una única secuencia de pasos en un orden establecido?",
+        "answer": "Procedimiento lineal",
+        "mnemonic": "Una línea, una sola ruta."
       },
       "source": {
         "id": "U2B1",
         "pages": [
-          62,
-          62
+          13,
+          15
         ]
       }
     },
@@ -804,44 +783,23 @@
       }
     },
     {
-      "id": "sc-uf-01",
-      "blockId": "uf0518-bloc-1",
+      "id": "sc-u2-05",
+      "blockId": "unitat-2-bloc-1",
       "ca": {
-        "question": "Què permet consultar, arxivar, justificar i provar una comunicació escrita?",
-        "answer": "Constància documental",
-        "mnemonic": "Si queda constància, queda prova."
+        "question": "Com s’anomena la fase de l’equip en què els rols són més clars i augmenten la confiança i la cooperació?",
+        "answer": "Normalització",
+        "mnemonic": "F-C-N-R: després del Conflicte, les Normes s’aclareixen i arriba el Rendiment."
       },
       "es": {
-        "question": "¿Qué permite consultar, archivar, justificar y probar una comunicación escrita?",
-        "answer": "Constancia documental",
-        "mnemonic": "Si queda constancia, queda prueba."
+        "question": "¿Cómo se llama la fase del equipo en la que los roles están más claros y aumentan la confianza y la cooperación?",
+        "answer": "Normalización",
+        "mnemonic": "F-C-N-R: tras el Conflicto, las Normas se aclaran y llega el Rendimiento."
       },
       "source": {
-        "id": "UF0518_B1",
+        "id": "U2B1",
         "pages": [
-          6,
-          6
-        ]
-      }
-    },
-    {
-      "id": "sc-uf-02",
-      "blockId": "uf0518-bloc-1",
-      "ca": {
-        "question": "Com s’anomena la persona o l’àrea que redacta i emet un document o missatge?",
-        "answer": "Emissor",
-        "mnemonic": "EMissor EMET; REceptor REP."
-      },
-      "es": {
-        "question": "¿Cómo se llama la persona o el área que redacta y emite un documento o mensaje?",
-        "answer": "Emisor",
-        "mnemonic": "EMisor EMITE; REceptor RECIBE."
-      },
-      "source": {
-        "id": "UF0518_B1",
-        "pages": [
-          10,
-          10
+          62,
+          62
         ]
       }
     },
@@ -867,23 +825,44 @@
       }
     },
     {
-      "id": "sc-uf-04",
+      "id": "sc-uf-02",
       "blockId": "uf0518-bloc-1",
       "ca": {
-        "question": "Quin document comunica el mateix avís, canvi o instrucció a múltiples destinataris?",
-        "answer": "Circular",
-        "mnemonic": "CIRCULAR: el mateix missatge CIRCULA entre molts destinataris."
+        "question": "Com s’anomena la persona o l’àrea que redacta i emet un document o missatge?",
+        "answer": "Emissor",
+        "mnemonic": "EMissor EMET; REceptor REP."
       },
       "es": {
-        "question": "¿Qué documento comunica el mismo aviso, cambio o instrucción a múltiples destinatarios?",
-        "answer": "Circular",
-        "mnemonic": "CIRCULAR: el mismo mensaje CIRCULA entre muchos destinatarios."
+        "question": "¿Cómo se llama la persona o el área que redacta y emite un documento o mensaje?",
+        "answer": "Emisor",
+        "mnemonic": "EMisor EMITE; REceptor RECIBE."
       },
       "source": {
         "id": "UF0518_B1",
         "pages": [
-          28,
-          29
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "id": "sc-uf-01",
+      "blockId": "uf0518-bloc-1",
+      "ca": {
+        "question": "Què permet consultar, arxivar, justificar i provar una comunicació escrita?",
+        "answer": "Constància documental",
+        "mnemonic": "Si queda constància, queda prova."
+      },
+      "es": {
+        "question": "¿Qué permite consultar, archivar, justificar y probar una comunicación escrita?",
+        "answer": "Constancia documental",
+        "mnemonic": "Si queda constancia, queda prueba."
+      },
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          6,
+          6
         ]
       }
     },
@@ -930,6 +909,27 @@
       }
     },
     {
+      "id": "sc-uf-04",
+      "blockId": "uf0518-bloc-1",
+      "ca": {
+        "question": "Quin document comunica el mateix avís, canvi o instrucció a múltiples destinataris?",
+        "answer": "Circular",
+        "mnemonic": "CIRCULAR: el mateix missatge CIRCULA entre molts destinataris."
+      },
+      "es": {
+        "question": "¿Qué documento comunica el mismo aviso, cambio o instrucción a múltiples destinatarios?",
+        "answer": "Circular",
+        "mnemonic": "CIRCULAR: el mismo mensaje CIRCULA entre muchos destinatarios."
+      },
+      "source": {
+        "id": "UF0518_B1",
+        "pages": [
+          28,
+          29
+        ]
+      }
+    },
+    {
       "id": "sc-uf2-01",
       "blockId": "uf0518-bloc-2",
       "source": {
@@ -972,27 +972,6 @@
       }
     },
     {
-      "id": "sc-uf2-03",
-      "blockId": "uf0518-bloc-2",
-      "source": {
-        "id": "UF0518_B2",
-        "pages": [
-          24,
-          24
-        ]
-      },
-      "ca": {
-        "question": "Quines tres proves pot caldre conservar en un burofax?",
-        "answer": "La tramesa, el contingut i el lliurament.",
-        "mnemonic": "T-C-L: tramesa, contingut, lliurament."
-      },
-      "es": {
-        "question": "¿Qué tres pruebas puede ser necesario conservar en un burofax?",
-        "answer": "El envío, el contenido y la entrega.",
-        "mnemonic": "E-C-L: envío, contenido, entrega."
-      }
-    },
-    {
       "id": "sc-uf2-04",
       "blockId": "uf0518-bloc-2",
       "source": {
@@ -1011,6 +990,27 @@
         "question": "¿Cómo se diferencian los tres niveles de embalaje?",
         "answer": "Primario: contacto directo; secundario: agrupa primarios; terciario: transporte y grandes cantidades.",
         "mnemonic": "P-S-T = producto, suma, transporte."
+      }
+    },
+    {
+      "id": "sc-uf2-03",
+      "blockId": "uf0518-bloc-2",
+      "source": {
+        "id": "UF0518_B2",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "question": "Quines tres proves pot caldre conservar en un burofax?",
+        "answer": "La tramesa, el contingut i el lliurament.",
+        "mnemonic": "T-C-L: tramesa, contingut, lliurament."
+      },
+      "es": {
+        "question": "¿Qué tres pruebas puede ser necesario conservar en un burofax?",
+        "answer": "El envío, el contenido y la entrega.",
+        "mnemonic": "E-C-L: envío, contenido, entrega."
       }
     },
     {
@@ -1056,48 +1056,6 @@
       }
     },
     {
-      "id": "sc-uf3-01",
-      "blockId": "uf0518-bloc-3",
-      "source": {
-        "id": "UF0518_B3",
-        "pages": [
-          47,
-          47
-        ]
-      },
-      "ca": {
-        "question": "Quines sis fases resumeixen el cicle administratiu d’un document a l’arxiu?",
-        "answer": "Document, registre, classificació, custòdia, consulta i conservació o eliminació.",
-        "mnemonic": "D-R-C-C-C-C: document, registre, classifica, custodia, consulta, conserva."
-      },
-      "es": {
-        "question": "¿Qué seis fases resumen el ciclo administrativo de un documento en el archivo?",
-        "answer": "Documento, registro, clasificación, custodia, consulta y conservación o eliminación.",
-        "mnemonic": "D-R-C-C-C-C: documento, registra, clasifica, custodia, consulta, conserva."
-      }
-    },
-    {
-      "id": "sc-uf3-02",
-      "blockId": "uf0518-bloc-3",
-      "source": {
-        "id": "UF0518_B3",
-        "pages": [
-          23,
-          30
-        ]
-      },
-      "ca": {
-        "question": "Quins sis sistemes bàsics de classificació documental presenta el material?",
-        "answer": "Alfabètic, cronològic, numèric, geogràfic, per matèries i alfanumèric.",
-        "mnemonic": "A-C-N-G-M-A: nom, data, número, territori, tema, codi mixt."
-      },
-      "es": {
-        "question": "¿Qué seis sistemas básicos de clasificación documental presenta el material?",
-        "answer": "Alfabético, cronológico, numérico, geográfico, por materias y alfanumérico.",
-        "mnemonic": "A-C-N-G-M-A: nombre, fecha, número, territorio, tema, código mixto."
-      }
-    },
-    {
       "id": "sc-uf3-03",
       "blockId": "uf0518-bloc-3",
       "source": {
@@ -1140,6 +1098,27 @@
       }
     },
     {
+      "id": "sc-uf3-02",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          23,
+          30
+        ]
+      },
+      "ca": {
+        "question": "Quins sis sistemes bàsics de classificació documental presenta el material?",
+        "answer": "Alfabètic, cronològic, numèric, geogràfic, per matèries i alfanumèric.",
+        "mnemonic": "A-C-N-G-M-A: nom, data, número, territori, tema, codi mixt."
+      },
+      "es": {
+        "question": "¿Qué seis sistemas básicos de clasificación documental presenta el material?",
+        "answer": "Alfabético, cronológico, numérico, geográfico, por materias y alfanumérico.",
+        "mnemonic": "A-C-N-G-M-A: nombre, fecha, número, territorio, tema, código mixto."
+      }
+    },
+    {
       "id": "sc-uf3-05",
       "blockId": "uf0518-bloc-3",
       "source": {
@@ -1179,6 +1158,27 @@
         "question": "¿Qué regla ayuda a elegir entre email ordinario y un canal fehaciente?",
         "answer": "Email para comunicación habitual; canal certificado o burofax cuando hay que acreditar formalmente envío, recepción o contenido.",
         "mnemonic": "Comunicación habitual = email; prueba formal = canal fehaciente."
+      }
+    },
+    {
+      "id": "sc-uf3-01",
+      "blockId": "uf0518-bloc-3",
+      "source": {
+        "id": "UF0518_B3",
+        "pages": [
+          47,
+          47
+        ]
+      },
+      "ca": {
+        "question": "Quines sis fases resumeixen el cicle administratiu d’un document a l’arxiu?",
+        "answer": "Document, registre, classificació, custòdia, consulta i conservació o eliminació.",
+        "mnemonic": "D-R-C-C-C-C: document, registre, classifica, custodia, consulta, conserva."
+      },
+      "es": {
+        "question": "¿Qué seis fases resumen el ciclo administrativo de un documento en el archivo?",
+        "answer": "Documento, registro, clasificación, custodia, consulta y conservación o eliminación.",
+        "mnemonic": "D-R-C-C-C-C: documento, registra, clasifica, custodia, consulta, conserva."
       }
     },
     {
@@ -1350,27 +1350,6 @@
       }
     },
     {
-      "id": "sc-uf0519-b2-03",
-      "blockId": "uf0519-bloc-2",
-      "ca": {
-        "question": "Quina factura corregeix errors o devolucions d’una factura anterior?",
-        "answer": "Factura rectificativa",
-        "mnemonic": "Rectificativa = rectifica."
-      },
-      "es": {
-        "question": "¿Qué factura corrige errores o devoluciones de una factura anterior?",
-        "answer": "Factura rectificativa",
-        "mnemonic": "Rectificativa = rectifica."
-      },
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          31,
-          31
-        ]
-      }
-    },
-    {
       "id": "sc-uf0519-b2-04",
       "blockId": "uf0519-bloc-2",
       "ca": {
@@ -1382,6 +1361,27 @@
         "question": "¿Qué factura agrupa varias operaciones del mismo destinatario en un período?",
         "answer": "Factura recapitulativa",
         "mnemonic": "Recapitula varias operaciones."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          31,
+          31
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b2-03",
+      "blockId": "uf0519-bloc-2",
+      "ca": {
+        "question": "Quina factura corregeix errors o devolucions d’una factura anterior?",
+        "answer": "Factura rectificativa",
+        "mnemonic": "Rectificativa = rectifica."
+      },
+      "es": {
+        "question": "¿Qué factura corrige errores o devoluciones de una factura anterior?",
+        "answer": "Factura rectificativa",
+        "mnemonic": "Rectificativa = rectifica."
       },
       "source": {
         "id": "UF0519_U1",
@@ -1560,27 +1560,6 @@
       }
     },
     {
-      "id": "sc-uf0519-b4-01",
-      "blockId": "uf0519-bloc-4",
-      "ca": {
-        "question": "Quin document deixa constància d’una reunió?",
-        "answer": "L’acta",
-        "mnemonic": "Acta = reunió registrada."
-      },
-      "es": {
-        "question": "¿Qué documento deja constancia de una reunión?",
-        "answer": "El acta",
-        "mnemonic": "Acta = reunión registrada."
-      },
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          66,
-          66
-        ]
-      }
-    },
-    {
       "id": "sc-uf0519-b4-02",
       "blockId": "uf0519-bloc-4",
       "ca": {
@@ -1592,6 +1571,27 @@
         "question": "¿Qué documento acredita oficialmente una información concreta?",
         "answer": "El certificado",
         "mnemonic": "Certificado = acreditar."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          66,
+          66
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b4-01",
+      "blockId": "uf0519-bloc-4",
+      "ca": {
+        "question": "Quin document deixa constància d’una reunió?",
+        "answer": "L’acta",
+        "mnemonic": "Acta = reunió registrada."
+      },
+      "es": {
+        "question": "¿Qué documento deja constancia de una reunión?",
+        "answer": "El acta",
+        "mnemonic": "Acta = reunión registrada."
       },
       "source": {
         "id": "UF0519_U1",
@@ -1686,27 +1686,6 @@
       }
     },
     {
-      "id": "sc-uf0519-b5-01",
-      "blockId": "uf0519-bloc-5",
-      "ca": {
-        "question": "Quines quatre fitxes mestres destaca el programari de facturació?",
-        "answer": "Clients, proveïdors, productes i serveis",
-        "mnemonic": "Dades mestres abans de facturar."
-      },
-      "es": {
-        "question": "¿Qué cuatro fichas maestras destaca el software de facturación?",
-        "answer": "Clientes, proveedores, productos y servicios",
-        "mnemonic": "Datos maestros antes de facturar."
-      },
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          70,
-          70
-        ]
-      }
-    },
-    {
       "id": "sc-uf0519-b5-02",
       "blockId": "uf0519-bloc-5",
       "ca": {
@@ -1718,6 +1697,27 @@
         "question": "¿Qué debe controlarse en la numeración de facturas?",
         "answer": "La numeración y las series",
         "mnemonic": "Factura controlada = número + serie."
+      },
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          70,
+          70
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-01",
+      "blockId": "uf0519-bloc-5",
+      "ca": {
+        "question": "Quines quatre fitxes mestres destaca el programari de facturació?",
+        "answer": "Clients, proveïdors, productes i serveis",
+        "mnemonic": "Dades mestres abans de facturar."
+      },
+      "es": {
+        "question": "¿Qué cuatro fichas maestras destaca el software de facturación?",
+        "answer": "Clientes, proveedores, productos y servicios",
+        "mnemonic": "Datos maestros antes de facturar."
       },
       "source": {
         "id": "UF0519_U1",

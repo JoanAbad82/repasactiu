@@ -1,1 +1,314 @@
-{"blockId":"bloc-5","blockTitle":"Organització de l’Estat i la Unió Europea","questions":[{"id":"b5-025","block":"bloc-5","topic":"Organització de l’Estat","question":"Si una pregunta tracta de la separació entre legislatiu, executiu i judicial, a quin nivell d’organització de l’Estat es refereix?","options":["Organització territorial","Organització administrativa","Organització constitucional","Administració local"],"correct":2,"explanation":"L’organització constitucional de l’Estat es basa en els poders legislatiu, executiu i judicial."},{"id":"b5-026","block":"bloc-5","topic":"Organització de l’Estat","question":"AGE, administracions autonòmiques i administració local formen part de quina perspectiva de l’organització pública?","options":["Organització administrativa","Organització constitucional","Organització territorial exclusivament","Poder judicial"],"correct":0,"explanation":"L’organització administrativa comprèn l’Administració General de l’Estat, les administracions autonòmiques i l’administració local."},{"id":"b5-027","block":"bloc-5","topic":"Organització de l’Estat","question":"Municipis, províncies i comunitats autònomes corresponen principalment a quin concepte?","options":["Organització administrativa","Organització territorial","Organització judicial","Organització pressupostària"],"correct":1,"explanation":"La Constitució estableix l’organització territorial de l’Estat en municipis, províncies i comunitats autònomes."},{"id":"b5-028","block":"bloc-5","topic":"Poders de l’Estat","question":"Un òrgan aprova lleis i pressupostos i controla l’acció del Govern. De quin òrgan es tracta?","options":["Govern","Corts Generals","Tribunal Constitucional","Consell General del Poder Judicial"],"correct":1,"explanation":"Les Corts Generals exerceixen la potestat legislativa, aproven els pressupostos i controlen l’acció del Govern."},{"id":"b5-029","block":"bloc-5","topic":"Poders de l’Estat","question":"Quina diferència entre Congrés i Senat destaca el material?","options":["El Congrés forma part del Govern i el Senat del Poder Judicial","El Senat és cambra de representació territorial; tots dos participen en el procediment legislatiu","Només el Senat aprova lleis","Només el Congrés forma part de les Corts Generals"],"correct":1,"explanation":"Les Corts Generals inclouen Congrés i Senat; el Senat es defineix específicament com a cambra de representació territorial."},{"id":"b5-030","block":"bloc-5","topic":"Poders de l’Estat","question":"Qui dirigeix la política interior i exterior, l’Administració civil i militar i la defensa de l’Estat?","options":["Les Corts Generals","El Govern","El Tribunal Suprem","El Consell Europeu"],"correct":1,"explanation":"El Govern exerceix el poder executiu i dirigeix aquestes àrees segons el material."},{"id":"b5-031","block":"bloc-5","topic":"Poders de l’Estat","question":"Quin òrgan és superior en els ordres jurisdiccionals ordinaris, amb l’excepció indicada de les garanties constitucionals?","options":["Tribunal Constitucional","Tribunal Suprem","Audiència Nacional","CGPJ"],"correct":1,"explanation":"El Tribunal Suprem és l’òrgan jurisdiccional superior en tots els ordres, excepte en matèria de garanties constitucionals."},{"id":"b5-032","block":"bloc-5","topic":"Poders de l’Estat","question":"Quina afirmació diferencia correctament el Tribunal Constitucional del Poder Judicial?","options":["Forma part del Poder Judicial i governa els jutges","No forma part del Poder Judicial i és l’intèrpret suprem de la Constitució","És una cambra de les Corts Generals","Dirigeix l’Administració civil"],"correct":1,"explanation":"El Tribunal Constitucional no forma part del Poder Judicial i és l’intèrpret suprem de la Constitució."},{"id":"b5-033","block":"bloc-5","topic":"Poders de l’Estat","question":"Un òrgan vetlla per la independència judicial i governa el Poder Judicial, però no és un tribunal que resolgui els assumptes com a funció principal. Quin és?","options":["CGPJ","Tribunal Suprem","Audiència Nacional","Tribunal Constitucional"],"correct":0,"explanation":"El Consell General del Poder Judicial és l’òrgan de govern del Poder Judicial i vetlla per la independència judicial."},{"id":"b5-034","block":"bloc-5","topic":"Administració autonòmica i local","question":"En una comunitat autònoma, qui exerceix la potestat legislativa dins les competències autonòmiques i controla el govern?","options":["President autonòmic","Assemblea legislativa autonòmica","Consell de Govern","Diputació provincial"],"correct":1,"explanation":"L’assemblea legislativa autonòmica exerceix la potestat legislativa en l’àmbit de les competències autonòmiques i controla el govern."},{"id":"b5-035","block":"bloc-5","topic":"Administració autonòmica i local","question":"Quin òrgan exerceix funcions executives i administratives dins d’una comunitat autònoma?","options":["Consell de Govern","Senat","Diputació","CGPJ"],"correct":0,"explanation":"El Consell de Govern exerceix funcions executives i administratives en l’àmbit de la comunitat autònoma."},{"id":"b5-036","block":"bloc-5","topic":"Administració autonòmica i local","question":"Quina relació territorial és correcta?","options":["Província → agrupació de municipis","Municipi → agrupació de comunitats autònomes","Comunitat autònoma → agrupació de províncies obligatòriament","Cabildo → govern municipal de qualsevol territori"],"correct":0,"explanation":"La província és una entitat local determinada per l’agrupació de diversos municipis."},{"id":"b5-037","block":"bloc-5","topic":"Administració autonòmica i local","question":"Quina parella associa correctament l’administració insular al territori?","options":["Canàries — consells insulars; Balears — cabildos","Canàries — cabildos; Balears — consells insulars","Canàries — diputacions; Balears — senats","Canàries — ajuntaments insulars; Balears — Corts Generals"],"correct":1,"explanation":"Als arxipèlags, les Canàries tenen cabildos insulars i les Illes Balears consells insulars."},{"id":"b5-038","block":"bloc-5","topic":"Institucions de la UE","question":"Una institució representa directament la ciutadania de la UE i comparteix funcions legislatives i pressupostàries amb el Consell. Quina és?","options":["Comissió Europea","Parlament Europeu","Consell Europeu","TJUE"],"correct":1,"explanation":"El Parlament Europeu representa els ciutadans i exerceix amb el Consell funcions legislatives i pressupostàries."},{"id":"b5-039","block":"bloc-5","topic":"Institucions de la UE","question":"En una reunió participen els ministres competents dels Estats membres per negociar i adoptar legislació europea. De quina institució es tracta?","options":["Consell de la Unió Europea","Consell Europeu","Comissió Europea","Parlament Europeu"],"correct":0,"explanation":"El Consell de la UE representa els governs i es reuneix en diferents formacions amb els ministres competents."},{"id":"b5-040","block":"bloc-5","topic":"Institucions de la UE","question":"Quina institució promou l’interès general de la UE, proposa nova legislació en la majoria d’àmbits i vetlla per l’aplicació del dret europeu?","options":["Consell Europeu","Comissió Europea","Tribunal de Comptes Europeu","BCE"],"correct":1,"explanation":"La Comissió Europea és l’òrgan executiu de la UE, proposa legislació en la majoria d’àmbits i vetlla per l’aplicació correcta del dret."},{"id":"b5-041","block":"bloc-5","topic":"Institucions de la UE","question":"Quina institució té com a funció central garantir la interpretació i aplicació correcta del dret de la UE?","options":["TJUE","BCE","Consell Europeu","Tribunal de Comptes Europeu"],"correct":0,"explanation":"El Tribunal de Justícia de la Unió Europea garanteix la interpretació i aplicació correcta del dret de la UE."},{"id":"b5-042","block":"bloc-5","topic":"Institucions de la UE","question":"Caps d’Estat o de Govern es reuneixen per fixar grans orientacions i prioritats polítiques, sense exercir amb caràcter general funcions legislatives. Quin òrgan és?","options":["Consell de la Unió Europea","Consell Europeu","Parlament Europeu","Comissió Europea"],"correct":1,"explanation":"El Consell Europeu defineix les grans orientacions i prioritats polítiques i, amb caràcter general, no exerceix funcions legislatives."},{"id":"b5-043","block":"bloc-5","topic":"Institucions de la UE","question":"Quina parella institució-funció és correcta?","options":["BCE — política monetària de la zona euro i estabilitat de preus","Tribunal de Comptes — proposar la majoria de la legislació","Comissió — interpretar definitivament el dret de la UE","TJUE — definir la política monetària"],"correct":0,"explanation":"El Banc Central Europeu defineix i executa la política monetària de la zona euro i té com a objectiu principal l’estabilitat de preus."},{"id":"b5-044","block":"bloc-5","topic":"Institucions de la UE","question":"Quina institució controla la correcta gestió dels recursos econòmics de la UE i contribueix a la rendició de comptes?","options":["Tribunal de Comptes Europeu","Consell de la UE","BCE","Parlament Europeu exclusivament"],"correct":0,"explanation":"El Tribunal de Comptes Europeu controla la correcta gestió dels recursos econòmics i contribueix a la rendició de comptes i la transparència."},{"id":"b5-045","block":"bloc-5","topic":"Relació Espanya-UE","question":"Una norma europea és obligatòria i s’aplica directament als Estats membres. Quin tipus de norma descriu el temari?","options":["Directiva","Reglament","Transposició","Estatut d’autonomia"],"correct":1,"explanation":"Els reglaments europeus són directament aplicables."},{"id":"b5-046","block":"bloc-5","topic":"Relació Espanya-UE","question":"Una norma de la UE fixa objectius que l’Estat ha d’incorporar al seu ordenament intern. Quin parell de conceptes és correcte?","options":["Reglament — aplicació directa","Directiva — transposició","Directiva — cap incorporació interna","Reglament — transposició obligatòria general"],"correct":1,"explanation":"Amb caràcter general, les directives s’incorporen a l’ordenament intern mitjançant la transposició."}]}
+{
+  "blockId": "bloc-5",
+  "blockTitle": "Organització de l’Estat i la Unió Europea",
+  "questions": [
+    {
+      "id": "b5-048",
+      "block": "bloc-5",
+      "topic": "Poder judicial",
+      "question": "Un assumpte correspon a un òrgan jurisdiccional amb competència en determinades matèries d’àmbit estatal. Quin òrgan identifica el temari?",
+      "options": [
+        "Tribunal Constitucional",
+        "Audiència Nacional",
+        "Consell General del Poder Judicial",
+        "Consell Europeu"
+      ],
+      "correct": 1,
+      "explanation": "El material descriu l’Audiència Nacional com un òrgan jurisdiccional competent en determinades matèries d’àmbit estatal."
+    },
+    {
+      "id": "b5-063",
+      "block": "bloc-5",
+      "topic": "Poder judicial",
+      "question": "Quina funció correspon als jutjats i tribunals dins del Poder Judicial?",
+      "options": [
+        "Aprovar els pressupostos generals",
+        "Dirigir la política exterior",
+        "Jutjar i fer executar allò jutjat",
+        "Proposar legislació europea"
+      ],
+      "correct": 2,
+      "explanation": "La potestat jurisdiccional correspon als jutjats i tribunals, que jutgen i fan executar allò jutjat d’acord amb les lleis."
+    },
+    {
+      "id": "b5-051",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica",
+      "question": "Qui dirigeix el govern d’una comunitat autònoma i n’exerceix la representació segons el temari?",
+      "options": [
+        "El president autonòmic",
+        "L’assemblea legislativa autonòmica",
+        "La diputació provincial",
+        "El Senat"
+      ],
+      "correct": 0,
+      "explanation": "El president autonòmic dirigeix el govern autonòmic i exerceix la representació de la comunitat."
+    },
+    {
+      "id": "b5-013",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Quantes comunitats autònomes indica el material que té Espanya?",
+      "options": [
+        "17",
+        "15",
+        "19",
+        "27"
+      ],
+      "correct": 0,
+      "explanation": "El bloc indica 17 comunitats autònomes i 2 ciutats autònomes, Ceuta i Melilla."
+    },
+    {
+      "id": "b5-014",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Quina institució autonòmica exerceix la potestat legislativa dins les competències autonòmiques?",
+      "options": [
+        "L’assemblea legislativa autonòmica",
+        "El Consell de Govern",
+        "La Diputació provincial",
+        "El Tribunal de Comptes Europeu"
+      ],
+      "correct": 0,
+      "explanation": "L’assemblea legislativa autonòmica legisla dins les competències autonòmiques i controla el govern."
+    },
+    {
+      "id": "b5-015",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Qui integra principalment l’Administració local?",
+      "options": [
+        "Els municipis i les províncies",
+        "Només les comunitats autònomes",
+        "Només els ministeris estatals",
+        "El Parlament Europeu"
+      ],
+      "correct": 0,
+      "explanation": "L’Administració local està integrada principalment per municipis i províncies."
+    },
+    {
+      "id": "b5-016",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Qui forma l’ajuntament?",
+      "options": [
+        "L’alcalde i els regidors",
+        "El president autonòmic i els ministres",
+        "Els jutges i magistrats",
+        "Els comissaris europeus"
+      ],
+      "correct": 0,
+      "explanation": "El govern i administració municipal corresponen als ajuntaments, integrats per alcalde i regidors."
+    },
+    {
+      "id": "b5-017",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Què és una província segons el material?",
+      "options": [
+        "Una entitat local amb personalitat jurídica pròpia determinada per l’agrupació de municipis",
+        "Una institució de la UE",
+        "Una societat mercantil",
+        "Un departament empresarial"
+      ],
+      "correct": 0,
+      "explanation": "La província és una entitat local formada per l’agrupació de municipis i amb personalitat jurídica pròpia."
+    },
+    {
+      "id": "b5-034",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "En una comunitat autònoma, qui exerceix la potestat legislativa dins les competències autonòmiques i controla el govern?",
+      "options": [
+        "President autonòmic",
+        "Assemblea legislativa autonòmica",
+        "Consell de Govern",
+        "Diputació provincial"
+      ],
+      "correct": 1,
+      "explanation": "L’assemblea legislativa autonòmica exerceix la potestat legislativa en l’àmbit de les competències autonòmiques i controla el govern."
+    },
+    {
+      "id": "b5-035",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Quin òrgan exerceix funcions executives i administratives dins d’una comunitat autònoma?",
+      "options": [
+        "Consell de Govern",
+        "Senat",
+        "Diputació",
+        "CGPJ"
+      ],
+      "correct": 0,
+      "explanation": "El Consell de Govern exerceix funcions executives i administratives en l’àmbit de la comunitat autònoma."
+    },
+    {
+      "id": "b5-036",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Quina relació territorial és correcta?",
+      "options": [
+        "Província → agrupació de municipis",
+        "Municipi → agrupació de comunitats autònomes",
+        "Comunitat autònoma → agrupació de províncies obligatòriament",
+        "Cabildo → govern municipal de qualsevol territori"
+      ],
+      "correct": 0,
+      "explanation": "La província és una entitat local determinada per l’agrupació de diversos municipis."
+    },
+    {
+      "id": "b5-037",
+      "block": "bloc-5",
+      "topic": "Administració autonòmica i local",
+      "question": "Quina parella associa correctament l’administració insular al territori?",
+      "options": [
+        "Canàries — consells insulars; Balears — cabildos",
+        "Canàries — cabildos; Balears — consells insulars",
+        "Canàries — diputacions; Balears — senats",
+        "Canàries — ajuntaments insulars; Balears — Corts Generals"
+      ],
+      "correct": 1,
+      "explanation": "Als arxipèlags, les Canàries tenen cabildos insulars i les Illes Balears consells insulars."
+    },
+    {
+      "id": "b5-064",
+      "block": "bloc-5",
+      "topic": "Organització territorial",
+      "question": "Quines tres entitats territorials estableix la Constitució com a base de l’organització territorial de l’Estat?",
+      "options": [
+        "Ministeris, delegacions i subdelegacions",
+        "Ajuntaments, diputacions i ministeris",
+        "Províncies, illes i comarques",
+        "Municipis, províncies i comunitats autònomes"
+      ],
+      "correct": 3,
+      "explanation": "La Constitució estableix que l’Estat s’organitza territorialment en municipis, províncies i comunitats autònomes."
+    },
+    {
+      "id": "b5-052",
+      "block": "bloc-5",
+      "topic": "Administració local",
+      "question": "Quina afirmació descriu correctament el govern i l’administració autònoma d’una província?",
+      "options": [
+        "Corresponen al Consell Europeu",
+        "Corresponen a diputacions o altres corporacions de caràcter representatiu",
+        "Corresponen sempre al president autonòmic",
+        "Corresponen exclusivament al Tribunal Suprem"
+      ],
+      "correct": 1,
+      "explanation": "El temari assenyala que el govern i l’administració autònoma de la província corresponen a diputacions o altres corporacions representatives."
+    },
+    {
+      "id": "b5-065",
+      "block": "bloc-5",
+      "topic": "Administració local",
+      "question": "A qui correspon el govern i l’administració d’un municipi?",
+      "options": [
+        "A l’ajuntament",
+        "A la diputació provincial",
+        "Al govern autonòmic",
+        "A la delegació del Govern"
+      ],
+      "correct": 0,
+      "explanation": "El govern i l’administració municipal corresponen a l’ajuntament, integrat per l’alcalde i els regidors."
+    },
+    {
+      "id": "b5-066",
+      "block": "bloc-5",
+      "topic": "Parlament Europeu",
+      "question": "Quina institució de la UE representa directament la ciutadania de la Unió i comparteix funcions legislatives amb el Consell?",
+      "options": [
+        "Comissió Europea",
+        "Parlament Europeu",
+        "Consell Europeu",
+        "Tribunal de Comptes Europeu"
+      ],
+      "correct": 1,
+      "explanation": "El Parlament Europeu representa la ciutadania de la UE i exerceix conjuntament amb el Consell funcions legislatives i pressupostàries."
+    },
+    {
+      "id": "b5-018",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució representa els ciutadans de la Unió Europea?",
+      "options": [
+        "El Parlament Europeu",
+        "El Consell de la UE",
+        "La Comissió Europea",
+        "El Consell Europeu"
+      ],
+      "correct": 0,
+      "explanation": "El Parlament Europeu representa els ciutadans de la Unió."
+    },
+    {
+      "id": "b5-019",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució representa els governs dels Estats membres?",
+      "options": [
+        "El Consell de la Unió Europea",
+        "El Parlament Europeu",
+        "El Tribunal de Comptes",
+        "El Banc Central Europeu"
+      ],
+      "correct": 0,
+      "explanation": "El Consell de la UE representa els governs dels Estats membres i hi participen ministres segons l’àmbit tractat."
+    },
+    {
+      "id": "b5-020",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quin és l’òrgan executiu de la UE que promou l’interès general de la Unió?",
+      "options": [
+        "La Comissió Europea",
+        "El Senat espanyol",
+        "El Consell General del Poder Judicial",
+        "La Diputació"
+      ],
+      "correct": 0,
+      "explanation": "La Comissió Europea és l’òrgan executiu de la UE i proposa legislació en la majoria d’àmbits."
+    },
+    {
+      "id": "b5-021",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució defineix les orientacions i prioritats polítiques generals de la UE?",
+      "options": [
+        "El Consell Europeu",
+        "El Consell de la UE en totes les seves formacions",
+        "El Tribunal Suprem",
+        "Els ajuntaments"
+      ],
+      "correct": 0,
+      "explanation": "El Consell Europeu fixa les orientacions i prioritats generals i, amb caràcter general, no legisla."
+    },
+    {
+      "id": "b5-022",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quin és l’objectiu principal del Banc Central Europeu indicat al temari?",
+      "options": [
+        "Mantenir l’estabilitat de preus",
+        "Aprovar directives",
+        "Controlar ajuntaments",
+        "Elegir comissaris"
+      ],
+      "correct": 0,
+      "explanation": "El BCE defineix i executa la política monetària de la zona euro i té com a objectiu principal l’estabilitat de preus."
+    },
+    {
+      "id": "b5-023",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució controla la correcta gestió dels recursos econòmics de la UE?",
+      "options": [
+        "El Tribunal de Comptes Europeu",
+        "El Parlament de Catalunya",
+        "El Tribunal Suprem espanyol",
+        "El Consell General del Poder Judicial"
+      ],
+      "correct": 0,
+      "explanation": "El Tribunal de Comptes Europeu contribueix a la rendició de comptes i transparència controlant els recursos de la UE."
+    }
+  ]
+}

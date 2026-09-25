@@ -3,158 +3,186 @@
   "blockTitle": "Classes d’empreses, jerarquia empresarial i funció administrativa",
   "questions": [
     {
-      "id": "b2-057",
-      "block": "bloc-2",
-      "topic": "Empreses lucratives",
-      "question": "Una empresa amb beneficis decideix destinar-ne una part a comprar nous equips. Segons el temari, és una destinació possible del benefici?",
-      "options": [
-        "Sí, els beneficis es poden reinvertir o destinar a nous equips i recursos",
-        "No, tots els beneficis s’han de repartir entre els propietaris",
-        "No, els beneficis només es poden guardar sense utilitzar",
-        "Sí, però només si l’empresa deixa de tenir finalitat lucrativa"
-      ],
-      "correct": 0,
-      "explanation": "El material indica que els beneficis d’una empresa lucrativa es poden reinvertir, destinar a nous equips, ampliar l’activitat o millorar productes i serveis."
-    },
-    {
-      "id": "b2-058",
-      "block": "bloc-2",
-      "topic": "Entitats sense ànim de lucre",
-      "question": "Una entitat sense ànim de lucre obté ingressos en una activitat pròpia. Què ha de passar amb els possibles beneficis segons el temari?",
-      "options": [
-        "S’han de repartir necessàriament entre els membres",
-        "S’han de destinar al compliment dels objectius de l’organització",
-        "S’han de convertir automàticament en capital públic",
-        "No pot haver-hi cap ingrés ni benefici en cap cas"
-      ],
-      "correct": 1,
-      "explanation": "Les entitats sense ànim de lucre poden obtenir ingressos, però els possibles beneficis es destinen als objectius de l’organització i no es reparteixen entre els membres."
-    },
-    {
-      "id": "b2-059",
-      "block": "bloc-2",
-      "topic": "Classificació d’empreses",
-      "question": "Per què una mateixa empresa pot aparèixer en diverses categories alhora?",
-      "options": [
-        "Perquè cada empresa ha de canviar de categoria cada any",
-        "Perquè la classificació depèn només del nombre de treballadors",
-        "Perquè es poden aplicar criteris diferents, com forma jurídica, capital o activitat",
-        "Perquè totes les empreses són simultàniament públiques i privades"
-      ],
-      "correct": 2,
-      "explanation": "Una mateixa empresa es pot classificar simultàniament segons diferents criteris: motiu de creació, estructura jurídica, capital i activitat econòmica."
-    },
-    {
-      "id": "b2-060",
-      "block": "bloc-2",
-      "topic": "Empreses individuals",
-      "question": "Quina situació descriu millor una empresa individual segons el material?",
-      "options": [
-        "Diverses persones creen una societat amb personalitat pròpia",
-        "Un conjunt de socis gestiona democràticament una cooperativa",
-        "Una administració i inversors privats comparteixen el capital",
-        "Una única persona física és propietària i desenvolupa l’activitat en nom propi"
-      ],
-      "correct": 3,
-      "explanation": "En una empresa individual, una única persona física és propietària de l’empresa i desenvolupa l’activitat empresarial en nom propi."
-    },
-    {
-      "id": "b2-061",
-      "block": "bloc-2",
-      "topic": "Societats",
-      "question": "Quina característica diferencia una societat de les persones sòcies en les formes societàries habituals descrites al temari?",
-      "options": [
-        "La societat disposa de personalitat jurídica pròpia diferenciada de la dels socis",
-        "La societat no pot rebre aportacions de capital ni béns",
-        "Els beneficis mai es poden reinvertir",
-        "La gestió només pot ser exercida per persones externes"
-      ],
-      "correct": 0,
-      "explanation": "El material assenyala que, en les formes societàries habituals, la societat té personalitat jurídica pròpia diferenciada de la dels seus socis."
-    },
-    {
-      "id": "b2-062",
-      "block": "bloc-2",
-      "topic": "Cooperatives",
-      "question": "En una cooperativa, quin tret s’ajusta a la manera de prendre decisions indicada al material?",
-      "options": [
-        "Les decisions depenen sempre d’un propietari únic",
-        "La gestió es basa en participació i funcionament democràtic",
-        "Les persones sòcies només poden aportar diners",
-        "Els resultats es reparteixen sense seguir cap norma cooperativa"
-      ],
-      "correct": 1,
-      "explanation": "Les cooperatives es basen en la participació de les persones sòcies i en un funcionament democràtic a través dels seus òrgans."
-    },
-    {
-      "id": "b2-063",
-      "block": "bloc-2",
-      "topic": "Tipus de capital",
-      "question": "Una empresa té aportacions de capital procedents del sector públic i del sector privat. Com es classifica segons el tipus de capital?",
-      "options": [
-        "Pública",
-        "Privada",
-        "Mixta",
-        "Sense ànim de lucre"
-      ],
-      "correct": 2,
-      "explanation": "Una empresa mixta combina capital públic i capital privat."
-    },
-    {
-      "id": "b2-064",
-      "block": "bloc-2",
-      "topic": "Activitat econòmica",
-      "question": "Una empresa es dedica principalment a prestar assessorament als clients, sense que la seva activitat principal sigui fabricar o distribuir productes. Quin tipus és?",
-      "options": [
-        "Fabricant",
-        "Distribuïdora",
-        "Mixta pel tipus de capital",
-        "Empresa de serveis"
-      ],
-      "correct": 3,
-      "explanation": "Segons l’activitat econòmica, les empreses poden ser fabricants, distribuïdores o de serveis; la prestació de serveis correspon al tercer grup."
-    },
-    {
-      "id": "b2-065",
+      "id": "b2-073",
       "block": "bloc-2",
       "topic": "Jerarquia empresarial",
-      "question": "Una persona veterana té molta influència entre els companys per la seva experiència, però no ocupa cap càrrec de comandament. Quin tipus de jerarquia reflecteix?",
-      "options": [
-        "Jerarquia de rang",
-        "Jerarquia donada pel càrrec",
-        "Jerarquia per remuneració",
-        "Jerarquia administrativa"
-      ],
-      "correct": 0,
-      "explanation": "El rang pot derivar de l’experiència, l’antiguitat, el prestigi o el reconeixement i no sempre coincideix amb la jerarquia oficial."
-    },
-    {
-      "id": "b2-066",
-      "block": "bloc-2",
-      "topic": "Jerarquia empresarial",
-      "question": "Una tècnica és referent de l’equip perquè té coneixements especialitzats i resol problemes complexos, sense ser la cap. Quin tipus de jerarquia representa?",
+      "question": "La responsable d’un departament pot donar instruccions perquè ocupa oficialment aquell lloc, encara que una altra persona tingui més antiguitat. Quin tipus de jerarquia destaca?",
       "options": [
         "Jerarquia de rang",
         "Jerarquia per capacitat",
-        "Jerarquia per remuneració",
-        "Jerarquia donada pel càrrec"
-      ],
-      "correct": 1,
-      "explanation": "La jerarquia per capacitat es relaciona amb els coneixements, habilitats o competència professional que donen influència dins l’organització."
-    },
-    {
-      "id": "b2-067",
-      "block": "bloc-2",
-      "topic": "Jerarquia empresarial",
-      "question": "Un especialista rep una retribució superior per les seves funcions, però no dirigeix altres persones. Quin criteri jeràrquic destaca en aquest cas?",
-      "options": [
-        "Càrrec",
-        "Rang",
-        "Remuneració",
-        "Antiguitat com a estructura jurídica"
+        "Jerarquia donada pel càrrec",
+        "Jerarquia per remuneració"
       ],
       "correct": 2,
-      "explanation": "La jerarquia per remuneració relaciona la posició amb el nivell retributiu, que no implica necessàriament comandament sobre altres persones."
+      "explanation": "La jerarquia donada pel càrrec deriva de la posició formal que una persona ocupa dins l’estructura de l’empresa."
+    },
+    {
+      "id": "b2-074",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Un treballador sense càrrec directiu és escoltat especialment per la seva llarga experiència i el prestigi que té dins l’equip. Quin criteri jeràrquic reflecteix?",
+      "options": [
+        "Jerarquia per remuneració",
+        "Jerarquia de rang",
+        "Jerarquia donada pel càrrec",
+        "Jerarquia administrativa"
+      ],
+      "correct": 1,
+      "explanation": "La jerarquia de rang pot derivar de l’experiència, l’antiguitat, el prestigi o el reconeixement, sense coincidir amb l’autoritat formal."
+    },
+    {
+      "id": "b2-009",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "Com es poden planificar els objectius de l’empresa segons el període de temps?",
+      "options": [
+        "A curt, mitjà i llarg termini",
+        "Només a curt termini",
+        "Només per departaments, sense termini",
+        "Exclusivament cada deu anys"
+      ],
+      "correct": 0,
+      "explanation": "El temari diferencia objectius a curt, mitjà i llarg termini segons l’horitzó temporal."
+    },
+    {
+      "id": "b2-015",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "Què significa auditar dins les accions de la funció administrativa?",
+      "options": [
+        "Revisar i verificar activitats, procediments i resultats",
+        "Promocionar productes mitjançant publicitat",
+        "Elegir els representants dels treballadors",
+        "Dividir el capital en accions"
+      ],
+      "correct": 0,
+      "explanation": "Auditar consisteix a revisar i verificar les activitats, els procediments i els resultats de l’organització."
+    },
+    {
+      "id": "b2-029",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "Quines quatre accions bàsiques resumeixen la funció administrativa?",
+      "options": [
+        "Planificar, organitzar, coordinar i controlar",
+        "Fabricar, distribuir, legislar i jutjar",
+        "Contractar, votar, sancionar i exportar",
+        "Auditar, vendre, invertir i legislar"
+      ],
+      "correct": 0,
+      "explanation": "El bloc resumeix la funció administrativa en planificar, organitzar, coordinar i controlar."
+    },
+    {
+      "id": "b2-030",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "Quina és la finalitat general de la funció administrativa?",
+      "options": [
+        "Organitzar, gestionar i coordinar recursos i activitats per assolir objectius amb ordre i eficiència",
+        "Eliminar objectius de l’empresa",
+        "Substituir totes les altres funcions",
+        "Evitar qualsevol control"
+      ],
+      "correct": 0,
+      "explanation": "La funció administrativa ordena i coordina recursos i activitats per facilitar l’assoliment dels objectius."
+    },
+    {
+      "id": "b2-046",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "L’equip directiu fixa una reducció del temps de resposta com a objectiu i determina les accions necessàries per aconseguir-la. Quina acció administrativa realitza?",
+      "options": [
+        "Controlar",
+        "Planificar",
+        "Auditar",
+        "Coordinar"
+      ],
+      "correct": 1,
+      "explanation": "Planificar significa definir objectius i determinar les accions necessàries per assolir-los."
+    },
+    {
+      "id": "b2-047",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "Després d’aprovar un projecte, una responsable assigna persones, materials i pressupost a cada tasca. Quina acció predomina?",
+      "options": [
+        "Organitzar",
+        "Dirigir",
+        "Controlar",
+        "Auditar"
+      ],
+      "correct": 0,
+      "explanation": "Organitzar consisteix a distribuir els recursos humans, materials i econòmics de l’empresa."
+    },
+    {
+      "id": "b2-048",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "Dos departaments fan feines relacionades però segueixen prioritats diferents. La direcció intervé perquè treballin en una mateixa direcció. Quina acció aplica?",
+      "options": [
+        "Planificar",
+        "Coordinar",
+        "Auditar",
+        "Controlar"
+      ],
+      "correct": 1,
+      "explanation": "Coordinar busca que els diferents departaments treballin en una mateixa direcció."
+    },
+    {
+      "id": "b2-049",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "Al final del trimestre, l’empresa compara els resultats reals amb els objectius que havia establert. Quina acció és?",
+      "options": [
+        "Dirigir",
+        "Organitzar",
+        "Controlar",
+        "Planificar"
+      ],
+      "correct": 2,
+      "explanation": "Controlar és comprovar que les activitats i els resultats s’ajusten als objectius establerts."
+    },
+    {
+      "id": "b2-050",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "Una revisió examina si els procediments i resultats s’han desenvolupat correctament, més enllà de comparar una xifra amb un objectiu. Quina acció descriu millor?",
+      "options": [
+        "Auditar",
+        "Coordinar",
+        "Planificar",
+        "Organitzar"
+      ],
+      "correct": 0,
+      "explanation": "Auditar consisteix a revisar i verificar activitats, procediments i resultats de l’organització."
+    },
+    {
+      "id": "b2-051",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "Una responsable pren una decisió i orienta l’activitat de l’equip per aplicar-la. Quina acció administrativa realitza principalment?",
+      "options": [
+        "Dirigir",
+        "Auditar",
+        "Controlar",
+        "Organitzar"
+      ],
+      "correct": 0,
+      "explanation": "Dirigir significa prendre decisions i orientar l’activitat de l’organització."
+    },
+    {
+      "id": "b2-056",
+      "block": "bloc-2",
+      "topic": "Funció administrativa",
+      "question": "Quin ordre descriu millor un cicle administratiu coherent: establir objectius, assignar recursos, alinear departaments i comprovar resultats?",
+      "options": [
+        "Planificar → organitzar → coordinar → controlar",
+        "Organitzar → auditar → dirigir → planificar",
+        "Controlar → coordinar → planificar → organitzar",
+        "Auditar → controlar → dirigir → coordinar"
+      ],
+      "correct": 0,
+      "explanation": "El temari treballa planificar, organitzar, coordinar i controlar com a accions complementàries de la funció administrativa."
     },
     {
       "id": "b2-068",
@@ -197,62 +225,6 @@
       ],
       "correct": 1,
       "explanation": "Auditar consisteix a revisar i verificar les activitats, els procediments i els resultats de l’organització."
-    },
-    {
-      "id": "b2-071",
-      "block": "bloc-2",
-      "topic": "Classificació d’empreses",
-      "question": "Una societat privada que fabrica mobiliari pot descriure’s alhora per la forma jurídica, el tipus de capital i l’activitat econòmica. Quina idea explica aquesta situació?",
-      "options": [
-        "Una empresa pot classificar-se simultàniament segons criteris diferents",
-        "La forma jurídica substitueix qualsevol altra classificació",
-        "El tipus de capital determina automàticament l’activitat",
-        "Cada empresa ha de pertànyer a una sola categoria"
-      ],
-      "correct": 0,
-      "explanation": "El temari aplica diversos criteris de classificació —creació, estructura jurídica, capital i activitat— que poden descriure simultàniament una mateixa empresa."
-    },
-    {
-      "id": "b2-072",
-      "block": "bloc-2",
-      "topic": "Empreses privades",
-      "question": "Quin conjunt conté fonts de finançament compatibles amb una empresa privada segons el temari?",
-      "options": [
-        "Impostos, taxes i pressupostos públics com a fonts principals",
-        "Aportacions de socis, vendes, préstecs, inversions privades i beneficis generats",
-        "Transferències públiques com a únic recurs i quotes obligatòries",
-        "Recursos del pressupost general i aportacions d’altres administracions"
-      ],
-      "correct": 1,
-      "explanation": "Les empreses privades poden finançar-se amb aportacions dels propietaris o socis, vendes, préstecs i crèdits, inversions privades i beneficis generats."
-    },
-    {
-      "id": "b2-073",
-      "block": "bloc-2",
-      "topic": "Jerarquia empresarial",
-      "question": "La responsable d’un departament pot donar instruccions perquè ocupa oficialment aquell lloc, encara que una altra persona tingui més antiguitat. Quin tipus de jerarquia destaca?",
-      "options": [
-        "Jerarquia de rang",
-        "Jerarquia per capacitat",
-        "Jerarquia donada pel càrrec",
-        "Jerarquia per remuneració"
-      ],
-      "correct": 2,
-      "explanation": "La jerarquia donada pel càrrec deriva de la posició formal que una persona ocupa dins l’estructura de l’empresa."
-    },
-    {
-      "id": "b2-074",
-      "block": "bloc-2",
-      "topic": "Jerarquia empresarial",
-      "question": "Un treballador sense càrrec directiu és escoltat especialment per la seva llarga experiència i el prestigi que té dins l’equip. Quin criteri jeràrquic reflecteix?",
-      "options": [
-        "Jerarquia per remuneració",
-        "Jerarquia de rang",
-        "Jerarquia donada pel càrrec",
-        "Jerarquia administrativa"
-      ],
-      "correct": 1,
-      "explanation": "La jerarquia de rang pot derivar de l’experiència, l’antiguitat, el prestigi o el reconeixement, sense coincidir amb l’autoritat formal."
     },
     {
       "id": "b2-075",
@@ -337,6 +309,34 @@
       ],
       "correct": 1,
       "explanation": "Dirigir consisteix a prendre decisions i orientar l’activitat de l’organització."
+    },
+    {
+      "id": "b2-052",
+      "block": "bloc-2",
+      "topic": "Objectius administratius",
+      "question": "Una empresa defineix una fita estratègica que orientarà el seu futur. Com es classifica temporalment?",
+      "options": [
+        "Curt termini",
+        "Mitjà termini",
+        "Llarg termini",
+        "No és un objectiu administratiu"
+      ],
+      "correct": 2,
+      "explanation": "Els objectius a llarg termini són estratègics i orienten el futur de l’empresa."
+    },
+    {
+      "id": "b2-053",
+      "block": "bloc-2",
+      "topic": "Objectius administratius",
+      "question": "Quin avantatge de la planificació apareix al temari?",
+      "options": [
+        "Permet anticipar necessitats i establir prioritats",
+        "Elimina la necessitat de prendre decisions",
+        "Converteix tots els objectius en immediats",
+        "Substitueix la coordinació entre departaments"
+      ],
+      "correct": 0,
+      "explanation": "Una bona planificació permet anticipar necessitats, establir prioritats i facilitar la presa de decisions."
     }
   ]
 }
