@@ -1,7 +1,7 @@
 import {renderCommercialCorrespondenceHtml,validateCommercialCorrespondenceData} from "./commercial-correspondence.js";
 
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const money=v=>new Intl.NumberFormat("es-ES",{style:"currency",currency:"EUR",minimumFractionDigits:2}).format(v);
+const money=v=>Number(v).toFixed(2).replace(".",",").replace(/\\B(?=(\\d{3})+(?!\\d))/g,".")+" €";
 const pct=v=>new Intl.NumberFormat("es-ES",{minimumFractionDigits:2,maximumFractionDigits:2}).format(v)+" %";
 const r2=v=>Math.round((v+Number.EPSILON)*100)/100;
 const C={
