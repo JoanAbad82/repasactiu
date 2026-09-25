@@ -1,1 +1,286 @@
-{"blockId":"uf0518-bloc-3","blockTitle":"L’arxiu de comunicacions escrites i correspondència","questions":[{"id":"uf0518-b3-021","block":"uf0518-bloc-3","topic":"Llibre diari","question":"Quina funció té el llibre diari?","options":["Registrar dia a dia les operacions relatives a l’activitat de l’empresa","Recollir exclusivament els acords de les juntes","Registrar només factures rebudes","Guardar còpies de tota la correspondència"],"correct":0,"explanation":"El llibre diari registra dia a dia les operacions relatives a l’activitat de l’empresa."},{"id":"uf0518-b3-022","block":"uf0518-bloc-3","topic":"Inventaris i comptes anuals","question":"Quin contingut forma part del llibre d’inventaris i comptes anuals segons el material?","options":["Només el llibre diari","Balanç inicial, balanços de comprovació, inventari de tancament i comptes anuals","Només les actes de les juntes","Únicament les factures expedides"],"correct":1,"explanation":"Aquest llibre inclou balanç inicial detallat, balanços de comprovació, inventari de tancament i comptes anuals."},{"id":"uf0518-b3-023","block":"uf0518-bloc-3","topic":"Suport electrònic","question":"Quan es poden portar els llibres mercantils en suport electrònic segons el material?","options":["Només si també s’imprimeixen cada setmana","Només si no contenen dades econòmiques","Si es garanteixen la integritat i l’accés complet","Mai; han de ser necessàriament en paper"],"correct":2,"explanation":"El material admet suport electrònic sempre que es garanteixin integritat i accés complet."},{"id":"uf0518-b3-024","block":"uf0518-bloc-3","topic":"Llibre d’actes","question":"Quin article del Codi de Comerç justifica el llibre d’actes segons el material?","options":["Article 25","Article 30","Article 28","Article 26"],"correct":3,"explanation":"El material destaca que el llibre d’actes es fonamenta en l’article 26, no en l’article 25."},{"id":"uf0518-b3-025","block":"uf0518-bloc-3","topic":"Llibre d’actes","question":"Què recull el llibre d’actes de les societats mercantils?","options":["Els acords de juntes generals, juntes especials i altres òrgans col·legiats","Les factures expedides i rebudes","Les anotacions diàries de comptabilitat","Els justificants de correu electrònic"],"correct":0,"explanation":"El llibre d’actes recull els acords adoptats pels òrgans col·legiats de la societat."},{"id":"uf0518-b3-026","block":"uf0518-bloc-3","topic":"Llibres registre d’IVA","question":"En quin llibre registre d’IVA s’inscriuen les factures emeses per operacions subjectes a IVA?","options":["Factures rebudes","Factures expedides","Béns d’inversió","Operacions intracomunitàries"],"correct":1,"explanation":"Les factures emeses s’inscriuen al llibre registre de factures expedides."},{"id":"uf0518-b3-027","block":"uf0518-bloc-3","topic":"Llibres registre d’IVA","question":"Quin llibre registre d’IVA inclou factures, justificants comptables i documents de duanes de béns i serveis rebuts?","options":["Factures expedides","Béns d’inversió","Factures rebudes","Operacions intracomunitàries"],"correct":2,"explanation":"Aquests documents s’anoten al llibre registre de factures rebudes."},{"id":"uf0518-b3-028","block":"uf0518-bloc-3","topic":"Llibres registre d’IVA","question":"Quan és necessari el llibre registre de béns d’inversió segons el material?","options":["Sempre que hi hagi factures rebudes","Només en operacions amb altres països de la UE","Només per empreses sense actius","Quan hi ha béns afectes a l’activitat amb tractament específic en IVA"],"correct":3,"explanation":"El llibre de béns d’inversió és necessari quan hi ha béns afectes a l’activitat amb tractament específic en IVA."},{"id":"uf0518-b3-029","block":"uf0518-bloc-3","topic":"Terminis de conservació","question":"Quin és el termini general de prescripció tributària que indica el material?","options":["Quatre anys","Sis anys","Vuit anys","Deu anys"],"correct":0,"explanation":"El material indica un termini general de prescripció tributària de quatre anys."},{"id":"uf0518-b3-030","block":"uf0518-bloc-3","topic":"Terminis de conservació","question":"Si un document és alhora fiscal i mercantil, quin criteri pràctic indica el material?","options":["Conservar-lo només quatre anys","Respectar el termini mercantil de sis anys, sense perjudici de terminis especials","Eliminar-lo quan prescrigui l’impost","Conservar-lo sempre indefinidament"],"correct":1,"explanation":"Quan el document també és mercantil, el material indica respectar els sis anys, tot advertint que poden existir terminis especials."},{"id":"uf0518-b3-031","block":"uf0518-bloc-3","topic":"Dades personals","question":"Com s’ha de determinar la conservació de dades personals segons el material?","options":["Conservar-les sempre sis anys","Guardar-les mentre existeixi l’empresa","Només durant el temps necessari per a la finalitat i després suprimir, bloquejar o anonimitzar segons correspongui","Eliminar-les al final de cada mes"],"correct":2,"explanation":"Les dades personals només s’han de conservar durant el temps necessari per a la finalitat prevista."},{"id":"uf0518-b3-032","block":"uf0518-bloc-3","topic":"Protecció de dades","question":"Quin conjunt resumeix el principi bàsic que presenta el material per protegir dades en l’arxiu?","options":["Publicitat + conservació indefinida + accés general","Xifrat + impressió + còpia múltiple","Rapidesa + disponibilitat + difusió","Minimització + confidencialitat + control d’accés"],"correct":3,"explanation":"El material resumeix la protecció de dades amb minimització, confidencialitat i control d’accés."},{"id":"uf0518-b3-033","block":"uf0518-bloc-3","topic":"Protecció de dades","question":"Quina pràctica contradiu les normes de protecció de dades de l’arxiu?","options":["Deixar documentació amb dades personals en una carpeta compartida oberta","Limitar l’accés a qui necessita la informació","Conservar només les dades necessàries","Bloquejar o anonimitzar quan correspongui"],"correct":0,"explanation":"El material prohibeix abandonar dades personals en impressores, taules, carpetes compartides obertes o correus sense control."},{"id":"uf0518-b3-034","block":"uf0518-bloc-3","topic":"Drets de les persones","question":"Quin dret permet corregir dades inexactes o incompletes?","options":["Accés","Rectificació","Portabilitat","Oposició"],"correct":1,"explanation":"La rectificació permet corregir dades inexactes o incompletes."},{"id":"uf0518-b3-035","block":"uf0518-bloc-3","topic":"Drets de les persones","question":"Quin dret permet rebre o transmetre dades en format estructurat?","options":["Supressió","Limitació","Portabilitat","Accés"],"correct":2,"explanation":"La portabilitat permet rebre o transmetre les dades en un format estructurat."},{"id":"uf0518-b3-036","block":"uf0518-bloc-3","topic":"Confidencialitat","question":"Quina actuació correspon abans d’arxivar documentació?","options":["Destruir els annexos si ocupen espai","Compartir-la amb tot l’equip","Guardar-la sense revisar-la","Comprovar destinatari, contingut, annexos, signatura, data i nivell de confidencialitat"],"correct":3,"explanation":"Abans d’arxivar cal revisar destinatari, contingut, annexos, signatura, data i confidencialitat."},{"id":"uf0518-b3-037","block":"uf0518-bloc-3","topic":"Confidencialitat","question":"Quina pràctica és adequada durant la destrucció de documents confidencials?","options":["Fer destrucció segura amb trituradora, servei autoritzat o eliminació digital amb garanties","Llençar-los a la paperera ordinària","Reutilitzar-los com a paper d’esborrany","Enviar-ne una còpia per correu abans de destruir-los"],"correct":0,"explanation":"La destrucció ha de ser segura, mitjançant trituradora, servei autoritzat o eliminació digital amb garanties."},{"id":"uf0518-b3-038","block":"uf0518-bloc-3","topic":"Classificació documental","question":"Quina diferència estableix el material entre classificar i arxivar?","options":["Classificar és destruir; arxivar és registrar","Classificar és decidir el criteri d’ordre; arxivar és guardar al lloc corresponent per conservar, consultar i recuperar","Classificar només s’aplica al paper; arxivar només al digital","Són exactament el mateix procés"],"correct":1,"explanation":"Classificar és decidir com s’ordena; arxivar és guardar el document al lloc que li correspon."},{"id":"uf0518-b3-039","block":"uf0518-bloc-3","topic":"Sistema alfabètic","question":"Quan és especialment útil el sistema alfabètic?","options":["Quan la data és la dada principal","Quan cal una codificació complexa","Quan la dada més coneguda és el nom de la persona, empresa o entitat","Quan només hi ha números correlatius"],"correct":2,"explanation":"El sistema alfabètic és útil quan la dada principal de cerca és el nom."},{"id":"uf0518-b3-040","block":"uf0518-bloc-3","topic":"Sistema alfabètic","question":"Quina pràctica ajuda a evitar duplicats en una classificació alfabètica?","options":["Classificar cada document amb dos noms diferents","Alternar raó social i nom comercial sense criteri","Afegir sempre la ciutat al davant","Utilitzar un nom normalitzat i un criteri únic de classificació"],"correct":3,"explanation":"El material recomana normalitzar els noms i decidir un criteri estable per evitar duplicats."}]}
+{
+  "blockId": "uf0518-bloc-3",
+  "blockTitle": "L’arxiu de comunicacions escrites i correspondència",
+  "questions": [
+    {
+      "id": "uf0518-b3-022",
+      "block": "uf0518-bloc-3",
+      "topic": "Inventaris i comptes anuals",
+      "question": "Quin contingut forma part del llibre d’inventaris i comptes anuals segons el material?",
+      "options": [
+        "Només el llibre diari",
+        "Balanç inicial, balanços de comprovació, inventari de tancament i comptes anuals",
+        "Només les actes de les juntes",
+        "Únicament les factures expedides"
+      ],
+      "correct": 1,
+      "explanation": "Aquest llibre inclou balanç inicial detallat, balanços de comprovació, inventari de tancament i comptes anuals."
+    },
+    {
+      "id": "uf0518-b3-021",
+      "block": "uf0518-bloc-3",
+      "topic": "Llibre diari",
+      "question": "Quina funció té el llibre diari?",
+      "options": [
+        "Registrar dia a dia les operacions relatives a l’activitat de l’empresa",
+        "Recollir exclusivament els acords de les juntes",
+        "Registrar només factures rebudes",
+        "Guardar còpies de tota la correspondència"
+      ],
+      "correct": 0,
+      "explanation": "El llibre diari registra dia a dia les operacions relatives a l’activitat de l’empresa."
+    },
+    {
+      "id": "uf0518-b3-023",
+      "block": "uf0518-bloc-3",
+      "topic": "Suport electrònic",
+      "question": "Quan es poden portar els llibres mercantils en suport electrònic segons el material?",
+      "options": [
+        "Només si també s’imprimeixen cada setmana",
+        "Només si no contenen dades econòmiques",
+        "Si es garanteixen la integritat i l’accés complet",
+        "Mai; han de ser necessàriament en paper"
+      ],
+      "correct": 2,
+      "explanation": "El material admet suport electrònic sempre que es garanteixin integritat i accés complet."
+    },
+    {
+      "id": "uf0518-b3-024",
+      "block": "uf0518-bloc-3",
+      "topic": "Llibre d’actes",
+      "question": "Quin article del Codi de Comerç justifica el llibre d’actes segons el material?",
+      "options": [
+        "Article 25",
+        "Article 30",
+        "Article 28",
+        "Article 26"
+      ],
+      "correct": 3,
+      "explanation": "El material destaca que el llibre d’actes es fonamenta en l’article 26, no en l’article 25."
+    },
+    {
+      "id": "uf0518-b3-025",
+      "block": "uf0518-bloc-3",
+      "topic": "Llibre d’actes",
+      "question": "Què recull el llibre d’actes de les societats mercantils?",
+      "options": [
+        "Els acords de juntes generals, juntes especials i altres òrgans col·legiats",
+        "Les factures expedides i rebudes",
+        "Les anotacions diàries de comptabilitat",
+        "Els justificants de correu electrònic"
+      ],
+      "correct": 0,
+      "explanation": "El llibre d’actes recull els acords adoptats pels òrgans col·legiats de la societat."
+    },
+    {
+      "id": "uf0518-b3-026",
+      "block": "uf0518-bloc-3",
+      "topic": "Llibres registre d’IVA",
+      "question": "En quin llibre registre d’IVA s’inscriuen les factures emeses per operacions subjectes a IVA?",
+      "options": [
+        "Factures rebudes",
+        "Factures expedides",
+        "Béns d’inversió",
+        "Operacions intracomunitàries"
+      ],
+      "correct": 1,
+      "explanation": "Les factures emeses s’inscriuen al llibre registre de factures expedides."
+    },
+    {
+      "id": "uf0518-b3-027",
+      "block": "uf0518-bloc-3",
+      "topic": "Llibres registre d’IVA",
+      "question": "Quin llibre registre d’IVA inclou factures, justificants comptables i documents de duanes de béns i serveis rebuts?",
+      "options": [
+        "Factures expedides",
+        "Béns d’inversió",
+        "Factures rebudes",
+        "Operacions intracomunitàries"
+      ],
+      "correct": 2,
+      "explanation": "Aquests documents s’anoten al llibre registre de factures rebudes."
+    },
+    {
+      "id": "uf0518-b3-028",
+      "block": "uf0518-bloc-3",
+      "topic": "Llibres registre d’IVA",
+      "question": "Quan és necessari el llibre registre de béns d’inversió segons el material?",
+      "options": [
+        "Sempre que hi hagi factures rebudes",
+        "Només en operacions amb altres països de la UE",
+        "Només per empreses sense actius",
+        "Quan hi ha béns afectes a l’activitat amb tractament específic en IVA"
+      ],
+      "correct": 3,
+      "explanation": "El llibre de béns d’inversió és necessari quan hi ha béns afectes a l’activitat amb tractament específic en IVA."
+    },
+    {
+      "id": "uf0518-b3-031",
+      "block": "uf0518-bloc-3",
+      "topic": "Dades personals",
+      "question": "Com s’ha de determinar la conservació de dades personals segons el material?",
+      "options": [
+        "Conservar-les sempre sis anys",
+        "Guardar-les mentre existeixi l’empresa",
+        "Només durant el temps necessari per a la finalitat i després suprimir, bloquejar o anonimitzar segons correspongui",
+        "Eliminar-les al final de cada mes"
+      ],
+      "correct": 2,
+      "explanation": "Les dades personals només s’han de conservar durant el temps necessari per a la finalitat prevista."
+    },
+    {
+      "id": "uf0518-b3-029",
+      "block": "uf0518-bloc-3",
+      "topic": "Terminis de conservació",
+      "question": "Quin és el termini general de prescripció tributària que indica el material?",
+      "options": [
+        "Quatre anys",
+        "Sis anys",
+        "Vuit anys",
+        "Deu anys"
+      ],
+      "correct": 0,
+      "explanation": "El material indica un termini general de prescripció tributària de quatre anys."
+    },
+    {
+      "id": "uf0518-b3-030",
+      "block": "uf0518-bloc-3",
+      "topic": "Terminis de conservació",
+      "question": "Si un document és alhora fiscal i mercantil, quin criteri pràctic indica el material?",
+      "options": [
+        "Conservar-lo només quatre anys",
+        "Respectar el termini mercantil de sis anys, sense perjudici de terminis especials",
+        "Eliminar-lo quan prescrigui l’impost",
+        "Conservar-lo sempre indefinidament"
+      ],
+      "correct": 1,
+      "explanation": "Quan el document també és mercantil, el material indica respectar els sis anys, tot advertint que poden existir terminis especials."
+    },
+    {
+      "id": "uf0518-b3-032",
+      "block": "uf0518-bloc-3",
+      "topic": "Protecció de dades",
+      "question": "Quin conjunt resumeix el principi bàsic que presenta el material per protegir dades en l’arxiu?",
+      "options": [
+        "Publicitat + conservació indefinida + accés general",
+        "Xifrat + impressió + còpia múltiple",
+        "Rapidesa + disponibilitat + difusió",
+        "Minimització + confidencialitat + control d’accés"
+      ],
+      "correct": 3,
+      "explanation": "El material resumeix la protecció de dades amb minimització, confidencialitat i control d’accés."
+    },
+    {
+      "id": "uf0518-b3-033",
+      "block": "uf0518-bloc-3",
+      "topic": "Protecció de dades",
+      "question": "Quina pràctica contradiu les normes de protecció de dades de l’arxiu?",
+      "options": [
+        "Deixar documentació amb dades personals en una carpeta compartida oberta",
+        "Limitar l’accés a qui necessita la informació",
+        "Conservar només les dades necessàries",
+        "Bloquejar o anonimitzar quan correspongui"
+      ],
+      "correct": 0,
+      "explanation": "El material prohibeix abandonar dades personals en impressores, taules, carpetes compartides obertes o correus sense control."
+    },
+    {
+      "id": "uf0518-b3-034",
+      "block": "uf0518-bloc-3",
+      "topic": "Drets de les persones",
+      "question": "Quin dret permet corregir dades inexactes o incompletes?",
+      "options": [
+        "Accés",
+        "Rectificació",
+        "Portabilitat",
+        "Oposició"
+      ],
+      "correct": 1,
+      "explanation": "La rectificació permet corregir dades inexactes o incompletes."
+    },
+    {
+      "id": "uf0518-b3-035",
+      "block": "uf0518-bloc-3",
+      "topic": "Drets de les persones",
+      "question": "Quin dret permet rebre o transmetre dades en format estructurat?",
+      "options": [
+        "Supressió",
+        "Limitació",
+        "Portabilitat",
+        "Accés"
+      ],
+      "correct": 2,
+      "explanation": "La portabilitat permet rebre o transmetre les dades en un format estructurat."
+    },
+    {
+      "id": "uf0518-b3-036",
+      "block": "uf0518-bloc-3",
+      "topic": "Confidencialitat",
+      "question": "Quina actuació correspon abans d’arxivar documentació?",
+      "options": [
+        "Destruir els annexos si ocupen espai",
+        "Compartir-la amb tot l’equip",
+        "Guardar-la sense revisar-la",
+        "Comprovar destinatari, contingut, annexos, signatura, data i nivell de confidencialitat"
+      ],
+      "correct": 3,
+      "explanation": "Abans d’arxivar cal revisar destinatari, contingut, annexos, signatura, data i confidencialitat."
+    },
+    {
+      "id": "uf0518-b3-037",
+      "block": "uf0518-bloc-3",
+      "topic": "Confidencialitat",
+      "question": "Quina pràctica és adequada durant la destrucció de documents confidencials?",
+      "options": [
+        "Fer destrucció segura amb trituradora, servei autoritzat o eliminació digital amb garanties",
+        "Llençar-los a la paperera ordinària",
+        "Reutilitzar-los com a paper d’esborrany",
+        "Enviar-ne una còpia per correu abans de destruir-los"
+      ],
+      "correct": 0,
+      "explanation": "La destrucció ha de ser segura, mitjançant trituradora, servei autoritzat o eliminació digital amb garanties."
+    },
+    {
+      "id": "uf0518-b3-038",
+      "block": "uf0518-bloc-3",
+      "topic": "Classificació documental",
+      "question": "Quina diferència estableix el material entre classificar i arxivar?",
+      "options": [
+        "Classificar és destruir; arxivar és registrar",
+        "Classificar és decidir el criteri d’ordre; arxivar és guardar al lloc corresponent per conservar, consultar i recuperar",
+        "Classificar només s’aplica al paper; arxivar només al digital",
+        "Són exactament el mateix procés"
+      ],
+      "correct": 1,
+      "explanation": "Classificar és decidir com s’ordena; arxivar és guardar el document al lloc que li correspon."
+    },
+    {
+      "id": "uf0518-b3-039",
+      "block": "uf0518-bloc-3",
+      "topic": "Sistema alfabètic",
+      "question": "Quan és especialment útil el sistema alfabètic?",
+      "options": [
+        "Quan la data és la dada principal",
+        "Quan cal una codificació complexa",
+        "Quan la dada més coneguda és el nom de la persona, empresa o entitat",
+        "Quan només hi ha números correlatius"
+      ],
+      "correct": 2,
+      "explanation": "El sistema alfabètic és útil quan la dada principal de cerca és el nom."
+    },
+    {
+      "id": "uf0518-b3-040",
+      "block": "uf0518-bloc-3",
+      "topic": "Sistema alfabètic",
+      "question": "Quina pràctica ajuda a evitar duplicats en una classificació alfabètica?",
+      "options": [
+        "Classificar cada document amb dos noms diferents",
+        "Alternar raó social i nom comercial sense criteri",
+        "Afegir sempre la ciutat al davant",
+        "Utilitzar un nom normalitzat i un criteri únic de classificació"
+      ],
+      "correct": 3,
+      "explanation": "El material recomana normalitzar els noms i decidir un criteri estable per evitar duplicats."
+    }
+  ]
+}
