@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "id": "uf0519-payroll-july-2026-basic",
+  "source": {
+    "sourceId": "UF0519_NOMINA_2026_CECOT",
+    "courseUnit": "UF0519 · Gestión auxiliar de documentación administrativa básica",
+    "title": {
+      "ca": "Exemple pràctic de nòmina",
+      "es": "Ejemplo práctico de nómina"
+    },
+    "provider": "CECOT formació i desenvolupament",
+    "pages": 3,
+    "received": "2026-09-25",
+    "caseMonth": "2026-07",
+    "note": {
+      "ca": "Material pràctic lliurat a classe. Les xifres de cotització i SMI corresponen al supòsit de 2026.",
+      "es": "Material práctico entregado en clase. Las cifras de cotización y SMI corresponden al supuesto de 2026."
+    }
+  },
+  "assumptions": {
+    "baseSalary": 1500,
+    "extraPays": 2,
+    "extraPayAmount": 1500,
+    "extraPaysProrated": true,
+    "contract": {
+      "ca": "Indefinit",
+      "es": "Indefinido"
+    },
+    "workday": {
+      "ca": "Completa",
+      "es": "Completa"
+    },
+    "overtime": false,
+    "variableComplements": false,
+    "irpfRate": 8
+  },
+  "smi2026": {
+    "monthly14": 1221,
+    "annual": 17094,
+    "monthlyEquivalent12": 1424.5
+  },
+  "calculations": {
+    "proratedExtraMonthly": 250,
+    "monthlyEarnings": 1750,
+    "annualSalary": 21000,
+    "contributionBase": 1750,
+    "workerContributions": [
+      {
+        "id": "common",
+        "label": {
+          "ca": "Contingències comunes",
+          "es": "Contingencias comunes"
+        },
+        "rate": 4.7,
+        "amount": 82.25
+      },
+      {
+        "id": "unemployment",
+        "label": {
+          "ca": "Atur",
+          "es": "Desempleo"
+        },
+        "rate": 1.55,
+        "amount": 27.13
+      },
+      {
+        "id": "training",
+        "label": {
+          "ca": "Formació professional",
+          "es": "Formación profesional"
+        },
+        "rate": 0.1,
+        "amount": 1.75
+      },
+      {
+        "id": "mei",
+        "label": {
+          "ca": "MEI",
+          "es": "MEI"
+        },
+        "rate": 0.15,
+        "amount": 2.63
+      }
+    ],
+    "workerContributionsTotal": 113.76,
+    "irpfAmount": 140,
+    "totalDeductions": 253.76,
+    "netPay": 1496.24
+  },
+  "notes": {
+    "contributionBase": {
+      "ca": "En aquest exemple tots els conceptes són salarials i cotitzen; com que no hi ha hores extraordinàries ni conceptes exclosos, la base de cotització coincideix amb els devengaments salarials.",
+      "es": "En este ejemplo todos los conceptos son salariales y cotizan; como no hay horas extraordinarias ni conceptos excluidos, la base de cotización coincide con los devengos salariales."
+    },
+    "irpf": {
+      "ca": "El 8 % és un percentatge donat per al supòsit de classe. En una nòmina real, la retenció es calcula segons la normativa fiscal aplicable i les circumstàncies de la persona treballadora.",
+      "es": "El 8 % es un porcentaje dado para el supuesto de clase. En una nómina real, la retención se calcula según la normativa fiscal aplicable y las circunstancias de la persona trabajadora."
+    },
+    "temporaryContract": {
+      "ca": "El material indica que, en un contracte de durada determinada, el percentatge d'atur a càrrec de la persona treballadora seria normalment de l'1,60 % en lloc de l'1,55 %.",
+      "es": "El material indica que, en un contrato de duración determinada, el porcentaje de desempleo a cargo de la persona trabajadora sería normalmente del 1,60 % en lugar del 1,55 %."
+    }
+  },
+  "memoryChain": {
+    "ca": [
+      "Prorrata",
+      "Devengaments",
+      "Base",
+      "Cotitzacions",
+      "IRPF",
+      "Líquid"
+    ],
+    "es": [
+      "Prorrata",
+      "Devengos",
+      "Base",
+      "Cotizaciones",
+      "IRPF",
+      "Líquido"
+    ]
+  }
+}
