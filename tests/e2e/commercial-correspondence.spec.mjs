@@ -116,6 +116,33 @@ test("la pràctica interactiva de nòmina guia els 11 imports i accepta formats 
   await expect(page.getByText("10/11 aciertos al primer intento.")).toBeVisible();
 });
 
+
+test("la pràctica ofereix percentatges i calculadora integrada per resoldre el cas sense eines externes",async({page})=>{
+  await page.goto("/");
+  await page.getByRole("button",{name:"Exemples pràctics",exact:true}).click();
+  await page.getByRole("button",{name:"Nòmines",exact:true}).click();
+  await page.getByRole("button",{name:"Practicar una nòmina",exact:true}).click();
+
+  const practice=page.locator(".payroll-practice");
+  await expect(practice.getByRole("heading",{name:"Dades i percentatges disponibles"})).toBeVisible();
+  await expect(practice).toContainText("Contingències comunes");
+  await expect(practice).toContainText("4,70 %");
+  await expect(practice).toContainText("1,55 %");
+  await expect(practice).toContainText("0,10 %");
+  await expect(practice).toContainText("0,15 %");
+  await expect(practice).toContainText("8,00 %");
+  await expect(practice.locator(".practice-guide")).toContainText("(1.500,00 € × 2) ÷ 12 = ?");
+
+  const calc=practice.locator(".practice-calculator");
+  for(const key of ["1","5","0","0","×","2","÷","1","2"])await calc.locator(`[data-calc-key="${key}"]`).click();
+  await calc.locator("[data-calc-equals]").click();
+  await expect(calc.locator("[data-calc-display]")).toHaveText("250");
+  await calc.getByRole("button",{name:"Usar resultat com a resposta",exact:true}).click();
+  await expect(practice.locator("[data-payroll-practice-input]")).toHaveValue("250");
+  await practice.getByRole("button",{name:"Comprovar",exact:true}).click();
+  await expect(page.getByText("Pas 2 de 11")).toBeVisible();
+});
+
 test("la pràctica de nòmina és usable en mòbil sense desbordament horitzontal",async({browser})=>{
   const page=await browser.newPage({viewport:{width:390,height:844}});
   await page.goto("/");

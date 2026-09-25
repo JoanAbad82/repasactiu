@@ -567,3 +567,38 @@ main:has(#commercial-correspondence-screen:not([hidden])){width:min(960px,calc(1
  .practice-actions{display:grid}
  .practice-actions>*{width:100%}
 }
+
+
+/* Eines de càlcul dins de la pràctica de nòmina */
+.practice-reference{display:grid;gap:.85rem;padding:1rem;border:1px solid var(--border);border-radius:1rem;background:var(--surface)}
+.practice-reference-head{display:grid;gap:.25rem}
+.practice-reference-head h3,.practice-rates h4,.practice-calculator h3{margin:0}
+.practice-reference-head p,.calculator-head p{margin:0;color:var(--muted);font-size:.9rem}
+.practice-rates{display:grid;gap:.55rem}
+.practice-rates ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.45rem}
+.practice-rates li{display:flex;justify-content:space-between;gap:.75rem;padding:.6rem .7rem;border:1px solid var(--border);border-radius:.65rem;background:var(--surface-2)}
+.practice-rates strong{font-variant-numeric:tabular-nums;white-space:nowrap}
+.practice-guide{display:grid;gap:.25rem;padding:.8rem .9rem;border-left:3px solid var(--text);border-radius:.4rem;background:var(--surface-2)}
+.practice-guide span{font-size:.78rem;text-transform:uppercase;letter-spacing:.055em;color:var(--muted);font-weight:750}
+.practice-guide strong{font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.practice-solver-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(260px,.85fr);gap:.85rem;align-items:start}
+.practice-calculator{display:grid;gap:.65rem;padding:1rem;border:1px solid var(--border);border-radius:1rem;background:var(--surface)}
+.calculator-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.7rem;align-items:start}
+.calculator-head>div{display:grid;gap:.2rem}
+.calculator-head .text-button{min-height:38px;padding:.4rem .55rem;border:1px solid var(--border)}
+.calculator-display{display:block;width:100%;min-height:54px;padding:.65rem .75rem;border:1px solid var(--border);border-radius:.7rem;background:var(--bg);text-align:right;font-size:1.35rem;font-weight:750;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.calculator-keys{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.4rem}
+.calculator-keys button{min-height:44px;border:1px solid var(--border);border-radius:.65rem;background:var(--surface-2);cursor:pointer;font-weight:700}
+.calculator-keys button:hover{border-color:var(--muted)}
+.calculator-equals{grid-column:span 4;background:var(--text)!important;color:var(--bg);border-color:var(--text)!important}
+.calculator-use{width:100%}
+@media(max-width:760px){
+ .practice-solver-grid{grid-template-columns:1fr}
+}
+@media(max-width:520px){
+ .practice-rates ul{grid-template-columns:1fr}
+ .practice-reference{padding:.85rem}
+ .practice-calculator{padding:.85rem}
+ .calculator-head{grid-template-columns:1fr}
+ .calculator-head .text-button{justify-self:start}
+}

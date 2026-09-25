@@ -24,14 +24,16 @@ export async function loadPayrollExample(fetcher=fetch){const r=await fetcher("d
 
 const P={
  ca:{
-  resolved:"Veure exemple resolt",practice:"Practicar una nòmina",practiceTitle:"Practica aquesta nòmina",practiceIntro:"Calcula cada import en ordre. No es mostra la fórmula fins que la necessitis.",formatHelp:"Pots escriure, per exemple, 1496,24 · 1496.24 · 1.496,24 €.",step:"Pas",of:"de",check:"Comprovar",restart:"Reiniciar pràctica",hint:"Pista",solution:"Solució del pas",useSolution:"Usar el resultat i continuar",invalid:"Introdueix un import vàlid.",wrong:"Encara no és correcte.",correct:"Correcte. Continuem.",usedSolution:"Has continuat amb la solució d’aquest pas.",finished:"Nòmina completada",firstTry:"encerts al primer intent",completeResult:"Resultat complet",tryAgain:"Tornar a practicar",resolvedAfter:"Veure l’exemple resolt",
+  resolved:"Veure exemple resolt",practice:"Practicar una nòmina",practiceTitle:"Practica aquesta nòmina",practiceIntro:"Resol el cas pas a pas amb totes les dades, percentatges, guia de càlcul i calculadora disponibles en aquesta mateixa pantalla.",formatHelp:"Pots escriure, per exemple, 1496,24 · 1496.24 · 1.496,24 €.",step:"Pas",of:"de",check:"Comprovar",restart:"Reiniciar pràctica",hint:"Pista",solution:"Solució del pas",useSolution:"Usar el resultat i continuar",invalid:"Introdueix un import vàlid.",wrong:"Encara no és correcte.",correct:"Correcte. Continuem.",usedSolution:"Has continuat amb la solució d’aquest pas.",finished:"Nòmina completada",firstTry:"encerts al primer intent",completeResult:"Resultat complet",tryAgain:"Tornar a practicar",resolvedAfter:"Veure l’exemple resolt",
+  referenceTitle:"Dades i percentatges disponibles",referenceIntro:"Aquesta és la fitxa de treball del supòsit. No cal memoritzar aquests percentatges per resoldre l’exercici.",ratesTitle:"Percentatges que necessitaràs",how:"Com es calcula aquest pas",calculator:"Calculadora",calculatorHelp:"Fes aquí les operacions i copia el resultat directament al camp de resposta.",useCalc:"Usar resultat com a resposta",clear:"Esborrar",
   fields:{prorata:"Prorrata mensual de pagues extres",devengos:"Devengaments totals",base:"Base de cotització",common:"Contingències comunes",unemployment:"Atur",training:"Formació professional",mei:"MEI",contribTotal:"Total cotitzacions",irpf:"IRPF",deductions:"Total deduccions",net:"Líquid a percebre"},
-  hints:{prorata:"Calcula el total anual de les pagues extres i divideix-lo entre 12.",devengos:"Suma el salari base i la prorrata mensual.",base:"En aquest supòsit tots els devengaments salarials cotitzen.",contribution:"Aplica el percentatge corresponent sobre la base de cotització.",contribTotal:"Suma les quatre cotitzacions de la persona treballadora.",irpf:"Aplica el 8 % als devengaments del mes.",deductions:"Suma les cotitzacions totals i la retenció d’IRPF.",net:"Resta les deduccions totals als devengaments."}
+  hints:{prorata:"Calcula el total anual de les pagues extres i divideix-lo entre 12.",devengos:"Suma el salari base i la prorrata mensual.",base:"En aquest supòsit tots els devengaments salarials cotitzen.",contribution:"Aplica el percentatge indicat sobre la base de cotització.",contribTotal:"Suma les quatre cotitzacions de la persona treballadora.",irpf:"Aplica el percentatge d’IRPF indicat als devengaments del mes.",deductions:"Suma les cotitzacions totals i la retenció d’IRPF.",net:"Resta les deduccions totals als devengaments."}
  },
  es:{
-  resolved:"Ver ejemplo resuelto",practice:"Practicar una nómina",practiceTitle:"Practica esta nómina",practiceIntro:"Calcula cada importe en orden. No se muestra la fórmula hasta que la necesites.",formatHelp:"Puedes escribir, por ejemplo, 1496,24 · 1496.24 · 1.496,24 €.",step:"Paso",of:"de",check:"Comprobar",restart:"Reiniciar práctica",hint:"Pista",solution:"Solución del paso",useSolution:"Usar el resultado y continuar",invalid:"Introduce un importe válido.",wrong:"Todavía no es correcto.",correct:"Correcto. Continuamos.",usedSolution:"Has continuado con la solución de este paso.",finished:"Nómina completada",firstTry:"aciertos al primer intento",completeResult:"Resultado completo",tryAgain:"Volver a practicar",resolvedAfter:"Ver el ejemplo resuelto",
+  resolved:"Ver ejemplo resuelto",practice:"Practicar una nómina",practiceTitle:"Practica esta nómina",practiceIntro:"Resuelve el caso paso a paso con todos los datos, porcentajes, guía de cálculo y calculadora disponibles en esta misma pantalla.",formatHelp:"Puedes escribir, por ejemplo, 1496,24 · 1496.24 · 1.496,24 €.",step:"Paso",of:"de",check:"Comprobar",restart:"Reiniciar práctica",hint:"Pista",solution:"Solución del paso",useSolution:"Usar el resultado y continuar",invalid:"Introduce un importe válido.",wrong:"Todavía no es correcto.",correct:"Correcto. Continuamos.",usedSolution:"Has continuado con la solución de este paso.",finished:"Nómina completada",firstTry:"aciertos al primer intento",completeResult:"Resultado completo",tryAgain:"Volver a practicar",resolvedAfter:"Ver el ejemplo resuelto",
+  referenceTitle:"Datos y porcentajes disponibles",referenceIntro:"Esta es la ficha de trabajo del supuesto. No necesitas memorizar estos porcentajes para resolver el ejercicio.",ratesTitle:"Porcentajes que necesitarás",how:"Cómo se calcula este paso",calculator:"Calculadora",calculatorHelp:"Haz aquí las operaciones y copia el resultado directamente al campo de respuesta.",useCalc:"Usar resultado como respuesta",clear:"Borrar",
   fields:{prorata:"Prorrata mensual de pagas extra",devengos:"Devengos totales",base:"Base de cotización",common:"Contingencias comunes",unemployment:"Desempleo",training:"Formación profesional",mei:"MEI",contribTotal:"Total cotizaciones",irpf:"IRPF",deductions:"Total deducciones",net:"Líquido a percibir"},
-  hints:{prorata:"Calcula el total anual de las pagas extra y divídelo entre 12.",devengos:"Suma el salario base y la prorrata mensual.",base:"En este supuesto todos los devengos salariales cotizan.",contribution:"Aplica el porcentaje correspondiente sobre la base de cotización.",contribTotal:"Suma las cuatro cotizaciones de la persona trabajadora.",irpf:"Aplica el 8 % a los devengos del mes.",deductions:"Suma las cotizaciones totales y la retención de IRPF.",net:"Resta las deducciones totales a los devengos."}
+  hints:{prorata:"Calcula el total anual de las pagas extra y divídelo entre 12.",devengos:"Suma el salario base y la prorrata mensual.",base:"En este supuesto todos los devengos salariales cotizan.",contribution:"Aplica el porcentaje indicado sobre la base de cotización.",contribTotal:"Suma las cuatro cotizaciones de la persona trabajadora.",irpf:"Aplica el porcentaje de IRPF indicado a los devengos del mes.",deductions:"Suma las cotizaciones totales y la retención de IRPF.",net:"Resta las deducciones totales a los devengos."}
  }
 };
 
@@ -91,25 +93,46 @@ function payrollHtml(b,l,t){
 function practiceSteps(b,l){
  const a=b.assumptions,c=b.calculations,p=P[l];
  const byId=Object.fromEntries(c.workerContributions.map(x=>[x.id,x]));
- const contribution=(key,id)=>({key,label:p.fields[key],expected:byId[id].amount,hint:p.hints.contribution,formula:`${money(c.contributionBase)} × ${pct(byId[id].rate)} = ${money(byId[id].amount)}`});
+ const contribution=(key,id)=>({key,label:p.fields[key],expected:byId[id].amount,hint:p.hints.contribution,guide:`${money(c.contributionBase)} × ${pct(byId[id].rate).replace(" %","")} ÷ 100 = ?`,formula:`${money(c.contributionBase)} × ${pct(byId[id].rate)} = ${money(byId[id].amount)}`});
  return [
-  {key:"prorata",label:p.fields.prorata,expected:c.proratedExtraMonthly,hint:p.hints.prorata,formula:`(${money(a.extraPayAmount)} × ${a.extraPays}) ÷ 12 = ${money(c.proratedExtraMonthly)}`},
-  {key:"devengos",label:p.fields.devengos,expected:c.monthlyEarnings,hint:p.hints.devengos,formula:`${money(a.baseSalary)} + ${money(c.proratedExtraMonthly)} = ${money(c.monthlyEarnings)}`},
-  {key:"base",label:p.fields.base,expected:c.contributionBase,hint:p.hints.base,formula:`${money(c.monthlyEarnings)} = ${money(c.contributionBase)}`},
+  {key:"prorata",label:p.fields.prorata,expected:c.proratedExtraMonthly,hint:p.hints.prorata,guide:`(${money(a.extraPayAmount)} × ${a.extraPays}) ÷ 12 = ?`,formula:`(${money(a.extraPayAmount)} × ${a.extraPays}) ÷ 12 = ${money(c.proratedExtraMonthly)}`},
+  {key:"devengos",label:p.fields.devengos,expected:c.monthlyEarnings,hint:p.hints.devengos,guide:`${money(a.baseSalary)} + ${money(c.proratedExtraMonthly)} = ?`,formula:`${money(a.baseSalary)} + ${money(c.proratedExtraMonthly)} = ${money(c.monthlyEarnings)}`},
+  {key:"base",label:p.fields.base,expected:c.contributionBase,hint:p.hints.base,guide:`${money(c.monthlyEarnings)} = ${l==="ca"?"base de cotització":"base de cotización"}`,formula:`${money(c.monthlyEarnings)} = ${money(c.contributionBase)}`},
   contribution("common","common"),
   contribution("unemployment","unemployment"),
   contribution("training","training"),
   contribution("mei","mei"),
-  {key:"contribTotal",label:p.fields.contribTotal,expected:c.workerContributionsTotal,hint:p.hints.contribTotal,formula:`${c.workerContributions.map(x=>money(x.amount)).join(" + ")} = ${money(c.workerContributionsTotal)}`},
-  {key:"irpf",label:p.fields.irpf,expected:c.irpfAmount,hint:p.hints.irpf,formula:`${money(c.monthlyEarnings)} × ${pct(a.irpfRate)} = ${money(c.irpfAmount)}`},
-  {key:"deductions",label:p.fields.deductions,expected:c.totalDeductions,hint:p.hints.deductions,formula:`${money(c.workerContributionsTotal)} + ${money(c.irpfAmount)} = ${money(c.totalDeductions)}`},
-  {key:"net",label:p.fields.net,expected:c.netPay,hint:p.hints.net,formula:`${money(c.monthlyEarnings)} − ${money(c.totalDeductions)} = ${money(c.netPay)}`}
+  {key:"contribTotal",label:p.fields.contribTotal,expected:c.workerContributionsTotal,hint:p.hints.contribTotal,guide:`${c.workerContributions.map(x=>money(x.amount)).join(" + ")} = ?`,formula:`${c.workerContributions.map(x=>money(x.amount)).join(" + ")} = ${money(c.workerContributionsTotal)}`},
+  {key:"irpf",label:p.fields.irpf,expected:c.irpfAmount,hint:p.hints.irpf,guide:`${money(c.monthlyEarnings)} × ${pct(a.irpfRate).replace(" %","")} ÷ 100 = ?`,formula:`${money(c.monthlyEarnings)} × ${pct(a.irpfRate)} = ${money(c.irpfAmount)}`},
+  {key:"deductions",label:p.fields.deductions,expected:c.totalDeductions,hint:p.hints.deductions,guide:`${money(c.workerContributionsTotal)} + ${money(c.irpfAmount)} = ?`,formula:`${money(c.workerContributionsTotal)} + ${money(c.irpfAmount)} = ${money(c.totalDeductions)}`},
+  {key:"net",label:p.fields.net,expected:c.netPay,hint:p.hints.net,guide:`${money(c.monthlyEarnings)} − ${money(c.totalDeductions)} = ?`,formula:`${money(c.monthlyEarnings)} − ${money(c.totalDeductions)} = ${money(c.netPay)}`}
  ];
+}
+
+function practiceReferenceHtml(b,l,t){
+ const a=b.assumptions,c=b.calculations,p=P[l];
+ const rateRows=c.workerContributions.map(x=>`<li><span>${esc(x.label[l])}</span><strong>${pct(x.rate)}</strong></li>`).join("");
+ return `<section class="practice-reference" aria-label="${p.referenceTitle}"><div class="practice-reference-head"><h3>${p.referenceTitle}</h3><p>${p.referenceIntro}</p></div>${practiceCaseFacts(b,l,t)}<div class="practice-rates"><h4>${p.ratesTitle}</h4><ul>${rateRows}<li><span>IRPF</span><strong>${pct(a.irpfRate)}</strong></li></ul></div></section>`;
 }
 
 function practiceCaseFacts(b,l,t){
  const a=b.assumptions;
- return `<dl class="payroll-facts practice-facts"><div><dt>${t.salary}</dt><dd>${money(a.baseSalary)}</dd></div><div><dt>${t.extras}</dt><dd>${a.extraPays} × ${money(a.extraPayAmount)} · ${l==="ca"?"prorratejades":"prorrateadas"}</dd></div><div><dt>${t.contract}</dt><dd>${esc(a.contract[l])}</dd></div><div><dt>${t.workday}</dt><dd>${esc(a.workday[l])}</dd></div><div><dt>${t.irpf}</dt><dd>${pct(a.irpfRate)}</dd></div></dl>`;
+ return `<dl class="payroll-facts practice-facts"><div><dt>${t.salary}</dt><dd>${money(a.baseSalary)}</dd></div><div><dt>${t.extras}</dt><dd>${a.extraPays} × ${money(a.extraPayAmount)} · ${l==="ca"?"prorratejades":"prorrateadas"}</dd></div><div><dt>${t.contract}</dt><dd>${esc(a.contract[l])}</dd></div><div><dt>${t.workday}</dt><dd>${esc(a.workday[l])}</dd></div></dl>`;
+}
+
+function calculatorHtml(p){
+ const keys=["7","8","9","÷","4","5","6","×","1","2","3","−","0",",","⌫","+"];
+ return `<aside class="practice-calculator" aria-label="${p.calculator}"><div class="calculator-head"><div><h3>${p.calculator}</h3><p>${p.calculatorHelp}</p></div><button type="button" class="text-button" data-calc-clear>${p.clear}</button></div><output class="calculator-display" data-calc-display aria-live="polite">0</output><div class="calculator-keys">${keys.map(key=>`<button type="button" data-calc-key="${key}" aria-label="${key==="⌫"?"Backspace":key}">${key}</button>`).join("")}<button type="button" class="calculator-equals" data-calc-equals>=</button></div><button type="button" class="primary calculator-use" data-calc-use>${p.useCalc}</button></aside>`;
+}
+
+export function calculatePayrollPair(a,operator,b){
+ const x=Number(a),y=Number(b);
+ if(!Number.isFinite(x)||!Number.isFinite(y))return Number.NaN;
+ if(operator==="+")return x+y;
+ if(operator==="−"||operator==="-")return x-y;
+ if(operator==="×"||operator==="*")return x*y;
+ if(operator==="÷"||operator==="/")return y===0?Number.NaN:x/y;
+ return Number.NaN;
 }
 
 function practiceHtml(b,l,t,state){
@@ -125,11 +148,12 @@ function practiceHtml(b,l,t,state){
   :safe.feedback?.type==="correct"?`<p class="practice-feedback practice-feedback-correct" role="status">${p.correct}</p>`
   :safe.feedback?.type==="solution"?`<p class="practice-feedback" role="status">${p.usedSolution}</p>`:"";
  return `<section class="payroll-practice"><header class="payroll-head"><p class="eyebrow">${t.case}</p><h2>${p.practiceTitle}</h2><p>${p.practiceIntro}</p><p class="practical-source"><strong>${t.source}:</strong> ${l==="ca"?"Material de classe":"Material de clase"} CECOT · UF0519</p></header>
- <section class="payroll-section"><h3>${t.data}</h3>${practiceCaseFacts(b,l,t)}</section>
+ ${practiceReferenceHtml(b,l,t)}
  <section class="practice-work"><div class="practice-progress"><div><strong>${p.step} ${safe.index+1} ${p.of} ${steps.length}</strong><span>${esc(current.label)}</span></div><progress value="${safe.index}" max="${steps.length}"></progress></div>
  ${completed?`<ol class="practice-completed">${completed}</ol>`:""}
  ${feedback}
- <form class="practice-form" data-payroll-practice-form novalidate><label for="payroll-practice-value">${esc(current.label)}</label><div class="practice-input-row"><input id="payroll-practice-value" name="amount" data-payroll-practice-input type="text" inputmode="decimal" autocomplete="off" placeholder="0,00 €" aria-describedby="practice-format-help"><button class="primary" type="submit">${p.check}</button></div><small id="practice-format-help">${p.formatHelp}</small></form>
+ <div class="practice-guide"><span>${p.how}</span><strong>${esc(current.guide)}</strong></div>
+ <div class="practice-solver-grid"><form class="practice-form" data-payroll-practice-form novalidate><label for="payroll-practice-value">${esc(current.label)}</label><div class="practice-input-row"><input id="payroll-practice-value" name="amount" data-payroll-practice-input type="text" inputmode="decimal" autocomplete="off" placeholder="0,00 €" aria-describedby="practice-format-help"><button class="primary" type="submit">${p.check}</button></div><small id="practice-format-help">${p.formatHelp}</small></form>${calculatorHtml(p)}</div>
  <button class="text-button practice-restart" type="button" data-practice-restart>${p.restart}</button></section></section>`;
 }
 
@@ -160,6 +184,47 @@ export function createPracticalExamples({screen,correspondenceBank,payrollBank,l
    if(!practiceState.completed.includes(current.key))practiceState.completed.push(current.key);
    practiceState.index+=1;practiceState.feedback={type:"solution"};render();
   });
+
+  const calcDisplay=screen.querySelector("[data-calc-display]");
+  if(calcDisplay){
+   let display="0",accumulator=null,operator=null,waiting=false;
+   const show=value=>{display=String(value).replace(".",",");calcDisplay.textContent=display;};
+   const currentValue=()=>Number(display.replace(",","."));
+   const apply=()=>{
+    if(accumulator===null||!operator)return currentValue();
+    const result=calculatePayrollPair(accumulator,operator,currentValue());
+    accumulator=null;operator=null;waiting=true;
+    if(!Number.isFinite(result)){show("0");return Number.NaN;}
+    show(String(r2(result)));return result;
+   };
+   for(const key of screen.querySelectorAll("[data-calc-key]"))key.addEventListener("click",()=>{
+    const value=key.dataset.calcKey;
+    if(/[0-9]/.test(value)){
+     if(waiting||display==="0"){display=value;waiting=false;}else display+=value;
+     calcDisplay.textContent=display;return;
+    }
+    if(value===","){
+     if(waiting){display="0,";waiting=false;}else if(!display.includes(","))display+=",";
+     calcDisplay.textContent=display;return;
+    }
+    if(value==="⌫"){
+     display=display.length>1?display.slice(0,-1):"0";calcDisplay.textContent=display;return;
+    }
+    const now=currentValue();
+    if(!Number.isFinite(now))return;
+    if(operator&&accumulator!==null&&!waiting){const chained=apply();if(!Number.isFinite(chained))return;accumulator=chained;}else accumulator=now;
+    operator=value;waiting=true;
+   });
+   screen.querySelector("[data-calc-equals]")?.addEventListener("click",apply);
+   screen.querySelector("[data-calc-clear]")?.addEventListener("click",()=>{display="0";accumulator=null;operator=null;waiting=false;calcDisplay.textContent="0";});
+   screen.querySelector("[data-calc-use]")?.addEventListener("click",()=>{
+    const input=screen.querySelector("[data-payroll-practice-input]");
+    if(!input)return;
+    if(operator&&accumulator!==null&&!waiting)apply();
+    input.value=display;input.focus();
+   });
+  }
+
   screen.querySelector("[data-payroll-practice-form]")?.addEventListener("submit",event=>{
    event.preventDefault();
    const steps=practiceSteps(payrollBank,l),current=steps[practiceState.index],input=event.currentTarget.querySelector("[data-payroll-practice-input]");
