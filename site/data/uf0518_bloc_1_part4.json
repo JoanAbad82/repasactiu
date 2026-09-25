@@ -3,6 +3,118 @@
   "blockTitle": "La comunicació escrita, cartes comercials i documents administratius",
   "questions": [
     {
+      "id": "uf0518-b1-051",
+      "block": "uf0518-bloc-1",
+      "topic": "Estructura de la carta",
+      "question": "Què ha d’identificar la signatura segons el material?",
+      "options": [
+        "Només la data",
+        "Només l’assumpte",
+        "El nom, el càrrec i l’empresa del remitent",
+        "El codi postal del destinatari"
+      ],
+      "correct": 2,
+      "explanation": "El material defineix la signatura amb el nom, càrrec i empresa del remitent."
+    },
+    {
+      "id": "uf0518-b1-052",
+      "block": "uf0518-bloc-1",
+      "topic": "Estructura de la carta",
+      "question": "Què són els annexos d’una carta?",
+      "options": [
+        "La fórmula de salutació",
+        "La data de redacció",
+        "El tema breu del document",
+        "Documents adjunts a la carta"
+      ],
+      "correct": 3,
+      "explanation": "Els annexos són documents que s’adjunten a la carta i convé identificar-los."
+    },
+    {
+      "id": "uf0518-b1-053",
+      "block": "uf0518-bloc-1",
+      "topic": "Estructura de la carta",
+      "question": "Quina seqüència global segueix una carta comercial?",
+      "options": [
+        "Capçalera → cos → comiat",
+        "Cos → capçalera → destinatari",
+        "Comiat → assumpte → cos",
+        "Signatura → capçalera → salutació"
+      ],
+      "correct": 0,
+      "explanation": "El material resumeix el flux lògic en capçalera, cos i comiat."
+    },
+    {
+      "id": "uf0518-b1-082",
+      "block": "uf0518-bloc-1",
+      "topic": "Estructura de la carta",
+      "question": "On s’han d’indicar els documents que s’adjunten a una carta comercial, com ara especificacions tècniques o una relació de productes?",
+      "options": [
+        "A la salutació",
+        "A l’apartat d’annexos",
+        "A la data",
+        "A la referència com a substitut de l’assumpte"
+      ],
+      "correct": 1,
+      "explanation": "Els annexos identifiquen els documents adjunts que acompanyen la carta."
+    },
+    {
+      "id": "uf0518-b1-054",
+      "block": "uf0518-bloc-1",
+      "topic": "Tipus de cartes comercials",
+      "question": "Quin tipus de carta és adequat per a sol·licitar productes a un proveïdor?",
+      "options": [
+        "Carta d’oferta",
+        "Carta de comanda",
+        "Carta de reclamació",
+        "Carta de cobrament"
+      ],
+      "correct": 1,
+      "explanation": "El material associa la carta de comanda amb la funció de sol·licitar productes a un proveïdor."
+    },
+    {
+      "id": "uf0518-b1-055",
+      "block": "uf0518-bloc-1",
+      "topic": "Tipus de cartes comercials",
+      "question": "Quin tipus de carta és adequat per a presentar una proposta a un client?",
+      "options": [
+        "Carta de comanda",
+        "Carta de reclamació",
+        "Carta d’oferta",
+        "Carta de cobrament"
+      ],
+      "correct": 2,
+      "explanation": "El material associa la carta d’oferta amb la funció de presentar una proposta a un client."
+    },
+    {
+      "id": "uf0518-b1-056",
+      "block": "uf0518-bloc-1",
+      "topic": "Tipus de cartes comercials",
+      "question": "Quin tipus de carta és adequat per a notificar una incidència, com mercaderia danyada?",
+      "options": [
+        "Carta de comanda",
+        "Carta d’oferta",
+        "Carta de cobrament",
+        "Carta de reclamació"
+      ],
+      "correct": 3,
+      "explanation": "El material associa la carta de reclamació amb la funció de notificar una incidència, com mercaderia danyada."
+    },
+    {
+      "id": "uf0518-b1-057",
+      "block": "uf0518-bloc-1",
+      "topic": "Tipus de cartes comercials",
+      "question": "Quin tipus de carta és adequat per a requerir el pagament d’un import pendent?",
+      "options": [
+        "Carta de cobrament",
+        "Carta de comanda",
+        "Carta d’oferta",
+        "Carta de reclamació"
+      ],
+      "correct": 0,
+      "explanation": "El material associa la carta de cobrament amb la funció de requerir el pagament d’un import pendent."
+    },
+    {
       "id": "uf0518-b1-058",
       "block": "uf0518-bloc-1",
       "topic": "Documents administratius",
@@ -171,6 +283,20 @@
       "explanation": "El material assenyala que el registre d’entrada és clau per acreditar que la sol·licitud s’ha presentat."
     },
     {
+      "id": "uf0518-b1-084",
+      "block": "uf0518-bloc-1",
+      "topic": "Sol·licitud administrativa",
+      "question": "En l’estructura «EXPOSO / SOL·LICITO», què ha de contenir principalment l’apartat «SOL·LICITO»?",
+      "options": [
+        "Els antecedents ordenats cronològicament",
+        "La identificació de l’òrgan destinatari",
+        "La relació de tots els documents de l’expedient",
+        "La petició concreta que es formula"
+      ],
+      "correct": 3,
+      "explanation": "En una sol·licitud, «EXPOSO» recull els fets i antecedents, mentre que «SOL·LICITO» expressa la petició concreta."
+    },
+    {
       "id": "uf0518-b1-070",
       "block": "uf0518-bloc-1",
       "topic": "Circular",
@@ -211,6 +337,20 @@
       ],
       "correct": 3,
       "explanation": "El material demana brevetat, claredat, ordre i indicació de les persones afectades."
+    },
+    {
+      "id": "uf0518-b1-085",
+      "block": "uf0518-bloc-1",
+      "topic": "Circular",
+      "question": "La direcció ha de comunicar el mateix canvi d’horari a tota la plantilla. Quin document encaixa especialment amb aquesta finalitat?",
+      "options": [
+        "Circular",
+        "Memoràndum adreçat a una sola persona",
+        "Carta de cobrament",
+        "Sol·licitud administrativa"
+      ],
+      "correct": 0,
+      "explanation": "La circular és una comunicació general adreçada a múltiples destinataris i s’utilitza per informar de canvis, instruccions, horaris, normes o avisos."
     },
     {
       "id": "uf0518-b1-073",
@@ -267,146 +407,6 @@
       ],
       "correct": 3,
       "explanation": "Segons l’estructura recomanada, tancament conté persona responsable, càrrec i contacte."
-    },
-    {
-      "id": "uf0518-b1-077",
-      "block": "uf0518-bloc-1",
-      "topic": "Qualitat del text professional",
-      "question": "Un escrit utilitza frases comprensibles, idees ordenades i una estructura visible. Quin criteri de qualitat destaca principalment?",
-      "options": [
-        "Claredat",
-        "Precisió",
-        "Concisió",
-        "Correcció"
-      ],
-      "correct": 0,
-      "explanation": "La claredat exigeix idees ordenades, frases comprensibles i una estructura que faciliti entendre el text."
-    },
-    {
-      "id": "uf0518-b1-078",
-      "block": "uf0518-bloc-1",
-      "topic": "Precisió",
-      "question": "Abans d’enviar una carta, es comproven el nom del destinatari, l’import, la data i la referència. Quin criteri s’està reforçant especialment?",
-      "options": [
-        "Concisió",
-        "Precisió",
-        "Funció fàtica",
-        "Formalitat molt alta"
-      ],
-      "correct": 1,
-      "explanation": "La precisió requereix dades exactes, com noms, dates, imports, referències i annexos."
-    },
-    {
-      "id": "uf0518-b1-079",
-      "block": "uf0518-bloc-1",
-      "topic": "Registre lingüístic",
-      "question": "Una comunicació comença amb un tractament formal, però a mig text passa a expressions molt col·loquials. Quina recomanació del temari s’incompleix?",
-      "options": [
-        "Utilitzar annexos quan calgui",
-        "Escriure una idea principal per paràgraf",
-        "Mantenir el mateix registre durant tot el document",
-        "Incloure una referència numèrica en qualsevol escrit"
-      ],
-      "correct": 2,
-      "explanation": "El registre ha d’adaptar-se al destinatari i mantenir-se coherent durant tot el document, evitant canvis impropis de to."
-    },
-    {
-      "id": "uf0518-b1-080",
-      "block": "uf0518-bloc-1",
-      "topic": "Comunicació en l’Administració pública",
-      "question": "Quina exigència és especialment pròpia de la comunicació escrita en una administració pública segons el material?",
-      "options": [
-        "Substituir els registres per comunicacions informals",
-        "Prioritzar cartes comercials i pressupostos",
-        "Reduir la conservació documental per agilitzar tràmits",
-        "Garantir traçabilitat, registre, transparència i drets de la ciutadania"
-      ],
-      "correct": 3,
-      "explanation": "En l’àmbit públic el material destaca procediment administratiu, registre, transparència, traçabilitat, drets de la ciutadania i una alta exigència de conservació documental."
-    },
-    {
-      "id": "uf0518-b1-081",
-      "block": "uf0518-bloc-1",
-      "topic": "Carta comercial",
-      "question": "Una empresa escriu a un proveïdor per demanar preus, terminis de lliurament i condicions d’un producte. Quina funció pot complir la carta comercial?",
-      "options": [
-        "Sol·licitar informació o una proposta",
-        "Emetre una resolució administrativa",
-        "Substituir una factura ja emesa",
-        "Acreditar per si mateixa el pagament d’un deute"
-      ],
-      "correct": 0,
-      "explanation": "La carta comercial pot servir per informar, sol·licitar, reclamar, confirmar, oferir o respondre dins d’una relació professional."
-    },
-    {
-      "id": "uf0518-b1-082",
-      "block": "uf0518-bloc-1",
-      "topic": "Estructura de la carta",
-      "question": "On s’han d’indicar els documents que s’adjunten a una carta comercial, com ara especificacions tècniques o una relació de productes?",
-      "options": [
-        "A la salutació",
-        "A l’apartat d’annexos",
-        "A la data",
-        "A la referència com a substitut de l’assumpte"
-      ],
-      "correct": 1,
-      "explanation": "Els annexos identifiquen els documents adjunts que acompanyen la carta."
-    },
-    {
-      "id": "uf0518-b1-083",
-      "block": "uf0518-bloc-1",
-      "topic": "Estructura de la carta",
-      "question": "Quina funció té el paràgraf d’obertura del cos d’una carta comercial?",
-      "options": [
-        "Identificar els annexos",
-        "Incloure la signatura i el càrrec",
-        "Explicar el motiu principal de la carta",
-        "Substituir l’assumpte amb una referència llarga"
-      ],
-      "correct": 2,
-      "explanation": "El paràgraf d’obertura del cos introdueix i explica el motiu de la comunicació."
-    },
-    {
-      "id": "uf0518-b1-084",
-      "block": "uf0518-bloc-1",
-      "topic": "Sol·licitud administrativa",
-      "question": "En l’estructura «EXPOSO / SOL·LICITO», què ha de contenir principalment l’apartat «SOL·LICITO»?",
-      "options": [
-        "Els antecedents ordenats cronològicament",
-        "La identificació de l’òrgan destinatari",
-        "La relació de tots els documents de l’expedient",
-        "La petició concreta que es formula"
-      ],
-      "correct": 3,
-      "explanation": "En una sol·licitud, «EXPOSO» recull els fets i antecedents, mentre que «SOL·LICITO» expressa la petició concreta."
-    },
-    {
-      "id": "uf0518-b1-085",
-      "block": "uf0518-bloc-1",
-      "topic": "Circular",
-      "question": "La direcció ha de comunicar el mateix canvi d’horari a tota la plantilla. Quin document encaixa especialment amb aquesta finalitat?",
-      "options": [
-        "Circular",
-        "Memoràndum adreçat a una sola persona",
-        "Carta de cobrament",
-        "Sol·licitud administrativa"
-      ],
-      "correct": 0,
-      "explanation": "La circular és una comunicació general adreçada a múltiples destinataris i s’utilitza per informar de canvis, instruccions, horaris, normes o avisos."
-    },
-    {
-      "id": "uf0518-b1-086",
-      "block": "uf0518-bloc-1",
-      "topic": "Constància documental",
-      "question": "Un document pot tenir valor probatori en una reclamació posterior. Quina pràctica recomana el material abans de donar per tancada la gestió?",
-      "options": [
-        "Eliminar l’original quan el destinatari confirmi la recepció",
-        "Conservar una còpia o evidència de la comunicació",
-        "Substituir-lo per una nota verbal interna",
-        "Guardar únicament l’assumpte i la data"
-      ],
-      "correct": 1,
-      "explanation": "El material assenyala com a error no conservar còpia quan el document pot tenir valor probatori; la constància documental permet consultar, arxivar, justificar i provar comunicacions."
     }
   ]
 }
