@@ -1,1 +1,244 @@
-{"blockId":"uf0518-bloc-2","blockTitle":"Gestió de les operacions de distribució de la correspondència i paqueteria","questions":[{"id":"uf0518-b2-018","block":"uf0518-bloc-2","topic":"Preparació i signatura","question":"Què s’ha de revisar abans d’enviar un document?","options":["Només la longitud del text","Destinatari, data, annexos, signatura autoritzada i absència d’errors","Només el tipus de lletra","Únicament el nom de l’empresa"],"correct":1,"explanation":"La revisió final inclou destinatari i data correctes, annexos, signatura de persona autoritzada i absència d’errors."},{"id":"uf0518-b2-019","block":"uf0518-bloc-2","topic":"Preparació i signatura","question":"Què caracteritza una signatura electrònica segons el material?","options":["És una fotografia d’una signatura manual","És una reproducció impresa sense control","Signa un document digital amb un sistema que permet verificar-la","Només es pot utilitzar en cartes en paper"],"correct":2,"explanation":"La signatura electrònica s’utilitza en documents digitals mitjançant un sistema que permet verificar-la."},{"id":"uf0518-b2-020","block":"uf0518-bloc-2","topic":"Preparació i signatura","question":"En quin cas pot utilitzar-se una signatura mecanitzada?","options":["En qualsevol document sense autorització","Només en documents manuscrits","Per substituir sempre la signatura electrònica","En comunicacions emeses en sèrie, si el procediment de l’empresa ho autoritza"],"correct":3,"explanation":"El material defineix la signatura mecanitzada com una reproducció autoritzada en comunicacions emeses en sèrie."},{"id":"uf0518-b2-021","block":"uf0518-bloc-2","topic":"Arxiu i digitalització","question":"Què s’ha de conservar quan s’envia un document important?","options":["Una còpia i, si escau, el justificant d’enviament o lliurament","Només l’embolcall exterior","Una còpia sense cap dada identificativa","Només una nota verbal del tràmit"],"correct":0,"explanation":"Per a documents importants, el material recomana guardar-ne còpia i, quan correspongui, el justificant d’enviament o lliurament."},{"id":"uf0518-b2-022","block":"uf0518-bloc-2","topic":"Arxiu i digitalització","question":"Què indica el material si es rep un document en paper?","options":["Destruir l’original després de llegir-lo","Comprovar que és llegible i digitalitzar-lo si el procediment ho preveu, conservant l’original quan correspongui","Escanejar-lo sempre i eliminar-lo","Guardar-lo sense comprovar-ne la llegibilitat"],"correct":1,"explanation":"El document en paper s’ha de comprovar i es pot digitalitzar segons el procediment, conservant l’original quan correspongui."},{"id":"uf0518-b2-023","block":"uf0518-bloc-2","topic":"Arxiu i digitalització","question":"Com s’hauria d’anomenar i desar un document digital?","options":["Amb un nom genèric com «document1»","En qualsevol carpeta disponible","Amb un nom identificable i a la carpeta que correspongui","Sense data ni referència"],"correct":2,"explanation":"El material recomana noms identificables i arxiu a la carpeta adequada, per exemple per client, proveïdor, expedient o departament."},{"id":"uf0518-b2-024","block":"uf0518-bloc-2","topic":"Arxiu i digitalització","question":"Quina mesura d’arxiu és correcta per a documents amb dades personals?","options":["Compartir-los amb tota la plantilla","Conservar-los indefinidament","Copiar-los a dispositius personals","Limitar-ne l’accés i respectar els terminis de conservació"],"correct":3,"explanation":"Per arxivar correctament cal limitar l’accés als documents sensibles i seguir els terminis de conservació aplicables."},{"id":"uf0518-b2-025","block":"uf0518-bloc-2","topic":"Embalatge i etiquetatge","question":"Quina funció té l’embalatge primari?","options":["Està en contacte directe amb el producte i el protegeix i identifica","Agrupa palets per al transport internacional","Serveix només per a grans quantitats de magatzem","Substitueix l’etiquetatge de l’enviament"],"correct":0,"explanation":"L’embalatge primari està en contacte directe amb el producte i serveix per protegir-lo i identificar-lo."},{"id":"uf0518-b2-026","block":"uf0518-bloc-2","topic":"Embalatge i etiquetatge","question":"Quina funció té l’embalatge secundari?","options":["Estar sempre en contacte directe amb el producte","Agrupar diversos embalatges primaris i facilitar la manipulació o venda","Servir exclusivament per a duanes","Identificar el remitent del correu electrònic"],"correct":1,"explanation":"L’embalatge secundari agrupa diversos embalatges primaris i facilita la manipulació o venda."},{"id":"uf0518-b2-027","block":"uf0518-bloc-2","topic":"Embalatge i etiquetatge","question":"Per a què s’utilitza principalment l’embalatge terciari?","options":["Per a cartes plegables","Per identificar el contingut d’un correu","Per al transport, magatzem i grans quantitats","Per signar documents digitals"],"correct":2,"explanation":"L’embalatge terciari s’associa al transport, l’emmagatzematge i la manipulació de grans quantitats."},{"id":"uf0518-b2-028","block":"uf0518-bloc-2","topic":"Embalatge i etiquetatge","question":"Quina diferència estableix el material entre embalatge i empaquetatge?","options":["Són exactament el mateix concepte","L’empaquetatge només protegeix el producte en origen","L’embalatge només serveix per etiquetar","L’embalatge protegeix; l’empaquetatge prepara l’enviament concret"],"correct":3,"explanation":"El material diferencia la protecció pròpia de l’embalatge de la preparació concreta de l’enviament que fa l’empaquetatge."},{"id":"uf0518-b2-029","block":"uf0518-bloc-2","topic":"Embalatge i etiquetatge","question":"Quin material és adequat per a documents que no s’han de doblegar?","options":["Sobre de cartó rígid","Sobre de paper molt carregat","Bossa oberta","Plàstic de bombolles sense suport"],"correct":0,"explanation":"El material recomana un sobre de cartó rígid per a documents que no s’han de doblegar."},{"id":"uf0518-b2-030","block":"uf0518-bloc-2","topic":"Embalatge i etiquetatge","question":"Quin conjunt de criteris ajuda a triar el material d’embalatge?","options":["Només el color del paquet","Naturalesa, pes, dimensions, valor, risc de deteriorament, restriccions, sostenibilitat i cost","Només la distància fins al destinatari","Només el tipus de lletra de l’etiqueta"],"correct":1,"explanation":"El material enumera aquests factors com a criteris de tria de l’embalatge."},{"id":"uf0518-b2-031","block":"uf0518-bloc-2","topic":"Embalatge i etiquetatge","question":"Què s’ha de fer abans d’escollir el tipus d’enviament?","options":["Tancar el paquet sense mirar el contingut","Escriure informació confidencial a l’exterior","Identificar el contingut i comprovar si és admissible pel servei triat","Registrar la sortida abans de saber què s’envia"],"correct":2,"explanation":"El procediment comença identificant el contingut i comprovant que sigui admissible pel servei que es vol utilitzar."},{"id":"uf0518-b2-032","block":"uf0518-bloc-2","topic":"Embalatge i etiquetatge","question":"Quina informació s’ha d’evitar a l’exterior d’un paquet?","options":["El destinatari","El remitent","Les dades necessàries per al lliurament","Informació confidencial sobre el contingut"],"correct":3,"explanation":"A l’exterior s’hi han d’indicar només les dades necessàries per al lliurament, no informació confidencial sobre el contingut."},{"id":"uf0518-b2-033","block":"uf0518-bloc-2","topic":"Gestió de la sortida","question":"Quina comprovació és imprescindible abans d’enviar un document?","options":["Comprovar que és complet, revisat i signat per una persona autoritzada","Enviar-lo abans de revisar els annexos","Substituir la data per una referència genèrica","Ometre el número d’expedient si és urgent"],"correct":0,"explanation":"Abans d’enviar cal comprovar que el document és complet, revisat i signat per una persona autoritzada."},{"id":"uf0518-b2-034","block":"uf0518-bloc-2","topic":"Gestió de la sortida","question":"De què ha de dependre el mitjà d’enviament triat?","options":["Només del preu més baix","De la urgència, la confidencialitat i el valor probatori necessari","Només de la mida del logotip","Del nombre de departaments de l’empresa"],"correct":1,"explanation":"El material indica que el mitjà s’ha d’adequar a la urgència, la confidencialitat i la prova necessària."}]}
+{
+  "blockId": "uf0518-bloc-2",
+  "blockTitle": "Gestió de les operacions de distribució de la correspondència i paqueteria",
+  "questions": [
+    {
+      "id": "uf0518-b2-018",
+      "block": "uf0518-bloc-2",
+      "topic": "Preparació i signatura",
+      "question": "Què s’ha de revisar abans d’enviar un document?",
+      "options": [
+        "Només la longitud del text",
+        "Destinatari, data, annexos, signatura autoritzada i absència d’errors",
+        "Només el tipus de lletra",
+        "Únicament el nom de l’empresa"
+      ],
+      "correct": 1,
+      "explanation": "La revisió final inclou destinatari i data correctes, annexos, signatura de persona autoritzada i absència d’errors."
+    },
+    {
+      "id": "uf0518-b2-019",
+      "block": "uf0518-bloc-2",
+      "topic": "Preparació i signatura",
+      "question": "Què caracteritza una signatura electrònica segons el material?",
+      "options": [
+        "És una fotografia d’una signatura manual",
+        "És una reproducció impresa sense control",
+        "Signa un document digital amb un sistema que permet verificar-la",
+        "Només es pot utilitzar en cartes en paper"
+      ],
+      "correct": 2,
+      "explanation": "La signatura electrònica s’utilitza en documents digitals mitjançant un sistema que permet verificar-la."
+    },
+    {
+      "id": "uf0518-b2-020",
+      "block": "uf0518-bloc-2",
+      "topic": "Preparació i signatura",
+      "question": "En quin cas pot utilitzar-se una signatura mecanitzada?",
+      "options": [
+        "En qualsevol document sense autorització",
+        "Només en documents manuscrits",
+        "Per substituir sempre la signatura electrònica",
+        "En comunicacions emeses en sèrie, si el procediment de l’empresa ho autoritza"
+      ],
+      "correct": 3,
+      "explanation": "El material defineix la signatura mecanitzada com una reproducció autoritzada en comunicacions emeses en sèrie."
+    },
+    {
+      "id": "uf0518-b2-021",
+      "block": "uf0518-bloc-2",
+      "topic": "Arxiu i digitalització",
+      "question": "Què s’ha de conservar quan s’envia un document important?",
+      "options": [
+        "Una còpia i, si escau, el justificant d’enviament o lliurament",
+        "Només l’embolcall exterior",
+        "Una còpia sense cap dada identificativa",
+        "Només una nota verbal del tràmit"
+      ],
+      "correct": 0,
+      "explanation": "Per a documents importants, el material recomana guardar-ne còpia i, quan correspongui, el justificant d’enviament o lliurament."
+    },
+    {
+      "id": "uf0518-b2-022",
+      "block": "uf0518-bloc-2",
+      "topic": "Arxiu i digitalització",
+      "question": "Què indica el material si es rep un document en paper?",
+      "options": [
+        "Destruir l’original després de llegir-lo",
+        "Comprovar que és llegible i digitalitzar-lo si el procediment ho preveu, conservant l’original quan correspongui",
+        "Escanejar-lo sempre i eliminar-lo",
+        "Guardar-lo sense comprovar-ne la llegibilitat"
+      ],
+      "correct": 1,
+      "explanation": "El document en paper s’ha de comprovar i es pot digitalitzar segons el procediment, conservant l’original quan correspongui."
+    },
+    {
+      "id": "uf0518-b2-023",
+      "block": "uf0518-bloc-2",
+      "topic": "Arxiu i digitalització",
+      "question": "Com s’hauria d’anomenar i desar un document digital?",
+      "options": [
+        "Amb un nom genèric com «document1»",
+        "En qualsevol carpeta disponible",
+        "Amb un nom identificable i a la carpeta que correspongui",
+        "Sense data ni referència"
+      ],
+      "correct": 2,
+      "explanation": "El material recomana noms identificables i arxiu a la carpeta adequada, per exemple per client, proveïdor, expedient o departament."
+    },
+    {
+      "id": "uf0518-b2-024",
+      "block": "uf0518-bloc-2",
+      "topic": "Arxiu i digitalització",
+      "question": "Quina mesura d’arxiu és correcta per a documents amb dades personals?",
+      "options": [
+        "Compartir-los amb tota la plantilla",
+        "Conservar-los indefinidament",
+        "Copiar-los a dispositius personals",
+        "Limitar-ne l’accés i respectar els terminis de conservació"
+      ],
+      "correct": 3,
+      "explanation": "Per arxivar correctament cal limitar l’accés als documents sensibles i seguir els terminis de conservació aplicables."
+    },
+    {
+      "id": "uf0518-b2-025",
+      "block": "uf0518-bloc-2",
+      "topic": "Embalatge i etiquetatge",
+      "question": "Quina funció té l’embalatge primari?",
+      "options": [
+        "Està en contacte directe amb el producte i el protegeix i identifica",
+        "Agrupa palets per al transport internacional",
+        "Serveix només per a grans quantitats de magatzem",
+        "Substitueix l’etiquetatge de l’enviament"
+      ],
+      "correct": 0,
+      "explanation": "L’embalatge primari està en contacte directe amb el producte i serveix per protegir-lo i identificar-lo."
+    },
+    {
+      "id": "uf0518-b2-026",
+      "block": "uf0518-bloc-2",
+      "topic": "Embalatge i etiquetatge",
+      "question": "Quina funció té l’embalatge secundari?",
+      "options": [
+        "Estar sempre en contacte directe amb el producte",
+        "Agrupar diversos embalatges primaris i facilitar la manipulació o venda",
+        "Servir exclusivament per a duanes",
+        "Identificar el remitent del correu electrònic"
+      ],
+      "correct": 1,
+      "explanation": "L’embalatge secundari agrupa diversos embalatges primaris i facilita la manipulació o venda."
+    },
+    {
+      "id": "uf0518-b2-027",
+      "block": "uf0518-bloc-2",
+      "topic": "Embalatge i etiquetatge",
+      "question": "Per a què s’utilitza principalment l’embalatge terciari?",
+      "options": [
+        "Per a cartes plegables",
+        "Per identificar el contingut d’un correu",
+        "Per al transport, magatzem i grans quantitats",
+        "Per signar documents digitals"
+      ],
+      "correct": 2,
+      "explanation": "L’embalatge terciari s’associa al transport, l’emmagatzematge i la manipulació de grans quantitats."
+    },
+    {
+      "id": "uf0518-b2-028",
+      "block": "uf0518-bloc-2",
+      "topic": "Embalatge i etiquetatge",
+      "question": "Quina diferència estableix el material entre embalatge i empaquetatge?",
+      "options": [
+        "Són exactament el mateix concepte",
+        "L’empaquetatge només protegeix el producte en origen",
+        "L’embalatge només serveix per etiquetar",
+        "L’embalatge protegeix; l’empaquetatge prepara l’enviament concret"
+      ],
+      "correct": 3,
+      "explanation": "El material diferencia la protecció pròpia de l’embalatge de la preparació concreta de l’enviament que fa l’empaquetatge."
+    },
+    {
+      "id": "uf0518-b2-029",
+      "block": "uf0518-bloc-2",
+      "topic": "Embalatge i etiquetatge",
+      "question": "Quin material és adequat per a documents que no s’han de doblegar?",
+      "options": [
+        "Sobre de cartó rígid",
+        "Sobre de paper molt carregat",
+        "Bossa oberta",
+        "Plàstic de bombolles sense suport"
+      ],
+      "correct": 0,
+      "explanation": "El material recomana un sobre de cartó rígid per a documents que no s’han de doblegar."
+    },
+    {
+      "id": "uf0518-b2-030",
+      "block": "uf0518-bloc-2",
+      "topic": "Embalatge i etiquetatge",
+      "question": "Quin conjunt de criteris ajuda a triar el material d’embalatge?",
+      "options": [
+        "Només el color del paquet",
+        "Naturalesa, pes, dimensions, valor, risc de deteriorament, restriccions, sostenibilitat i cost",
+        "Només la distància fins al destinatari",
+        "Només el tipus de lletra de l’etiqueta"
+      ],
+      "correct": 1,
+      "explanation": "El material enumera aquests factors com a criteris de tria de l’embalatge."
+    },
+    {
+      "id": "uf0518-b2-031",
+      "block": "uf0518-bloc-2",
+      "topic": "Embalatge i etiquetatge",
+      "question": "Què s’ha de fer abans d’escollir el tipus d’enviament?",
+      "options": [
+        "Tancar el paquet sense mirar el contingut",
+        "Escriure informació confidencial a l’exterior",
+        "Identificar el contingut i comprovar si és admissible pel servei triat",
+        "Registrar la sortida abans de saber què s’envia"
+      ],
+      "correct": 2,
+      "explanation": "El procediment comença identificant el contingut i comprovant que sigui admissible pel servei que es vol utilitzar."
+    },
+    {
+      "id": "uf0518-b2-032",
+      "block": "uf0518-bloc-2",
+      "topic": "Embalatge i etiquetatge",
+      "question": "Quina informació s’ha d’evitar a l’exterior d’un paquet?",
+      "options": [
+        "El destinatari",
+        "El remitent",
+        "Les dades necessàries per al lliurament",
+        "Informació confidencial sobre el contingut"
+      ],
+      "correct": 3,
+      "explanation": "A l’exterior s’hi han d’indicar només les dades necessàries per al lliurament, no informació confidencial sobre el contingut."
+    },
+    {
+      "id": "uf0518-b2-033",
+      "block": "uf0518-bloc-2",
+      "topic": "Gestió de la sortida",
+      "question": "Quina comprovació és imprescindible abans d’enviar un document?",
+      "options": [
+        "Comprovar que és complet, revisat i signat per una persona autoritzada",
+        "Enviar-lo abans de revisar els annexos",
+        "Substituir la data per una referència genèrica",
+        "Ometre el número d’expedient si és urgent"
+      ],
+      "correct": 0,
+      "explanation": "Abans d’enviar cal comprovar que el document és complet, revisat i signat per una persona autoritzada."
+    },
+    {
+      "id": "uf0518-b2-034",
+      "block": "uf0518-bloc-2",
+      "topic": "Gestió de la sortida",
+      "question": "De què ha de dependre el mitjà d’enviament triat?",
+      "options": [
+        "Només del preu més baix",
+        "De la urgència, la confidencialitat i el valor probatori necessari",
+        "Només de la mida del logotip",
+        "Del nombre de departaments de l’empresa"
+      ],
+      "correct": 1,
+      "explanation": "El material indica que el mitjà s’ha d’adequar a la urgència, la confidencialitat i la prova necessària."
+    }
+  ]
+}
