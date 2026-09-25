@@ -1,1 +1,370 @@
-{"blockId":"bloc-2","blockTitle":"Classes d’empreses, jerarquia empresarial i funció administrativa","questions":[{"id":"b2-031","block":"bloc-2","topic":"Motiu de creació","question":"Una entitat obté ingressos mitjançant activitats pròpies, però qualsevol excedent es destina als objectius de l’organització i no es reparteix entre els membres. Com es classifica pel motiu de creació?","options":["Empresa lucrativa","Entitat sense ànim de lucre","Empresa pública","Cooperativa necessàriament"],"correct":1,"explanation":"Les entitats sense ànim de lucre poden obtenir ingressos, però els possibles beneficis es destinen als objectius de l’organització."},{"id":"b2-032","block":"bloc-2","topic":"Motiu de creació","question":"Quina situació és compatible amb una entitat sense ànim de lucre segons el temari?","options":["Obtenir ingressos d’activitats pròpies i destinar-los als seus objectius","Repartir obligatòriament tots els beneficis entre els membres","Finançar-se exclusivament amb impostos","No poder rebre donacions ni subvencions"],"correct":0,"explanation":"Una entitat sense ànim de lucre pot obtenir ingressos i finançar-se amb quotes, donacions, subvencions, aportacions o activitats pròpies."},{"id":"b2-033","block":"bloc-2","topic":"Estructura jurídica","question":"Una sola persona física és propietària del negoci, actua en nom propi i pren les decisions principals. Quina forma descriu millor el cas?","options":["Societat anònima","Empresa individual","Cooperativa","Societat limitada"],"correct":1,"explanation":"L’empresa individual té una única persona física propietària que desenvolupa l’activitat en nom propi."},{"id":"b2-034","block":"bloc-2","topic":"Estructura jurídica","question":"Quina característica permet diferenciar amb més precisió una S.A. d’una S.L. segons el material?","options":["La S.A. divideix el capital en accions i la S.L. en participacions","La S.A. sempre és pública i la S.L. sempre privada","La S.L. no té personalitat jurídica","La S.A. no limita la responsabilitat dels accionistes"],"correct":0,"explanation":"En la S.A. el capital es divideix en accions; en la S.L., en participacions. En ambdues, la responsabilitat és limitada en els termes explicats al temari."},{"id":"b2-035","block":"bloc-2","topic":"Estructura jurídica","question":"Un grup vol una societat basada en l’associació voluntària, interessos comuns i funcionament participatiu i democràtic. Quina opció encaixa millor?","options":["Empresa individual","Societat anònima","Cooperativa","Empresa mixta"],"correct":2,"explanation":"Les cooperatives associen voluntàriament persones per satisfer necessitats o interessos comuns i es basen en participació i funcionament democràtic."},{"id":"b2-036","block":"bloc-2","topic":"Estructura jurídica","question":"Dos projectes tenen responsabilitat limitada, però en un el capital està representat per accions i en l’altre per participacions menys lliurement transmissibles. Quin parell és correcte?","options":["S.L. / S.A.","S.A. / S.L.","Cooperativa / empresa individual","Empresa individual / S.A."],"correct":1,"explanation":"La S.A. divideix el capital en accions; la S.L. en participacions, que tenen una transmissió més restringida."},{"id":"b2-037","block":"bloc-2","topic":"Tipus de capital","question":"Una empresa rep el 60% del capital d’una administració i el 40% d’inversors privats. Quin tipus és segons l’origen del capital?","options":["Pública, perquè la majoria és pública","Privada, perquè hi ha inversors privats","Mixta, perquè combina aportacions públiques i privades","Cooperativa, perquè hi ha més d’un aportant"],"correct":2,"explanation":"Una empresa mixta combina capital públic i privat, independentment del percentatge concret de cada part."},{"id":"b2-038","block":"bloc-2","topic":"Tipus de capital","question":"Quina afirmació descriu una empresa privada sense confondre propietat i fonts de finançament?","options":["El capital prové principalment de particulars i pot complementar-se amb ingressos, préstecs o inversions","Només pot finançar-se amb aportacions inicials dels socis","No pot utilitzar préstecs bancaris","Les decisions corresponen sempre a una administració pública"],"correct":0,"explanation":"El capital privat prové principalment de particulars, i el finançament pot incloure aportacions, vendes, préstecs, inversions i beneficis generats."},{"id":"b2-039","block":"bloc-2","topic":"Activitat econòmica","question":"Una empresa compra matèries primeres, les transforma, controla la qualitat i prepara el producte per distribuir-lo. Com es classifica per activitat?","options":["Distribuïdora","Fabricant","De serveis","Mixta"],"correct":1,"explanation":"Les empreses fabricants transformen matèries primeres o materials i inclouen processos com control de qualitat, emmagatzematge i preparació per a la distribució."},{"id":"b2-040","block":"bloc-2","topic":"Activitat econòmica","question":"Una empresa no transforma el producte: l’emmagatzema, gestiona l’estoc, prepara enviaments i el fa arribar als clients. Quina activitat predomina?","options":["Fabricació","Distribució","Servei administratiu intern","Producció jurídica"],"correct":1,"explanation":"La distribuïdora connecta productes amb punts de venda o clients mitjançant transport, emmagatzematge, estoc, comandes i lliurament."},{"id":"b2-041","block":"bloc-2","topic":"Activitat econòmica","question":"Quina característica distingeix millor una empresa de serveis d’una fabricant?","options":["La de serveis presta activitats o prestacions; la fabricant transforma materials","La de serveis no pot tenir clients","La fabricant no pot vendre","La de serveis sempre és sense ànim de lucre"],"correct":0,"explanation":"El criteri és l’activitat econòmica: la fabricant transforma materials; la de serveis ofereix activitats o prestacions."},{"id":"b2-042","block":"bloc-2","topic":"Jerarquia empresarial","question":"Una cap de departament supervisa l’equip perquè el seu lloc té assignades autoritat i responsabilitats. Quin tipus de jerarquia explica la seva posició?","options":["De rang","Per capacitat","Donada pel càrrec","Per remuneració"],"correct":2,"explanation":"La jerarquia donada pel càrrec depèn de la posició oficial, amb funcions, responsabilitats i nivell d’autoritat assignats."},{"id":"b2-043","block":"bloc-2","topic":"Jerarquia empresarial","question":"Un treballador veterà no té càrrec de comandament, però la seva experiència i prestigi fan que l’equip tingui molt en compte la seva opinió. Quin concepte ho explica?","options":["Jerarquia de rang","Jerarquia donada pel càrrec","Jerarquia per remuneració","Funció administrativa"],"correct":0,"explanation":"El rang pot derivar d’experiència, antiguitat, prestigi o reconeixement i no ha de coincidir amb la jerarquia oficial."},{"id":"b2-044","block":"bloc-2","topic":"Jerarquia empresarial","question":"Una tècnica té gran especialització i assumeix responsabilitat sobre problemes complexos, però no dirigeix ningú. Quin tipus de jerarquia encaixa millor?","options":["Per remuneració","Per capacitat","De rang","Donada pel càrrec"],"correct":1,"explanation":"La jerarquia per capacitat es basa en coneixements, competències i especialització, i no implica necessàriament autoritat sobre altres persones."},{"id":"b2-045","block":"bloc-2","topic":"Jerarquia empresarial","question":"Un especialista cobra més que la seva coordinadora per la seva qualificació, però no té personal al seu càrrec. Quina conclusió és més correcta?","options":["La remuneració sempre determina la jerarquia oficial","Cobrar més no implica necessàriament tenir més autoritat jeràrquica","La coordinadora passa automàticament a tenir jerarquia de rang","L’especialista és necessàriament propietari"],"correct":1,"explanation":"El temari diferencia remuneració i jerarquia oficial: un salari superior no implica necessàriament comandament o autoritat."},{"id":"b2-046","block":"bloc-2","topic":"Funció administrativa","question":"L’equip directiu fixa una reducció del temps de resposta com a objectiu i determina les accions necessàries per aconseguir-la. Quina acció administrativa realitza?","options":["Controlar","Planificar","Auditar","Coordinar"],"correct":1,"explanation":"Planificar significa definir objectius i determinar les accions necessàries per assolir-los."},{"id":"b2-047","block":"bloc-2","topic":"Funció administrativa","question":"Després d’aprovar un projecte, una responsable assigna persones, materials i pressupost a cada tasca. Quina acció predomina?","options":["Organitzar","Dirigir","Controlar","Auditar"],"correct":0,"explanation":"Organitzar consisteix a distribuir els recursos humans, materials i econòmics de l’empresa."},{"id":"b2-048","block":"bloc-2","topic":"Funció administrativa","question":"Dos departaments fan feines relacionades però segueixen prioritats diferents. La direcció intervé perquè treballin en una mateixa direcció. Quina acció aplica?","options":["Planificar","Coordinar","Auditar","Controlar"],"correct":1,"explanation":"Coordinar busca que els diferents departaments treballin en una mateixa direcció."},{"id":"b2-049","block":"bloc-2","topic":"Funció administrativa","question":"Al final del trimestre, l’empresa compara els resultats reals amb els objectius que havia establert. Quina acció és?","options":["Dirigir","Organitzar","Controlar","Planificar"],"correct":2,"explanation":"Controlar és comprovar que les activitats i els resultats s’ajusten als objectius establerts."},{"id":"b2-050","block":"bloc-2","topic":"Funció administrativa","question":"Una revisió examina si els procediments i resultats s’han desenvolupat correctament, més enllà de comparar una xifra amb un objectiu. Quina acció descriu millor?","options":["Auditar","Coordinar","Planificar","Organitzar"],"correct":0,"explanation":"Auditar consisteix a revisar i verificar activitats, procediments i resultats de l’organització."},{"id":"b2-051","block":"bloc-2","topic":"Funció administrativa","question":"Una responsable pren una decisió i orienta l’activitat de l’equip per aplicar-la. Quina acció administrativa realitza principalment?","options":["Dirigir","Auditar","Controlar","Organitzar"],"correct":0,"explanation":"Dirigir significa prendre decisions i orientar l’activitat de l’organització."},{"id":"b2-052","block":"bloc-2","topic":"Objectius administratius","question":"Una empresa defineix una fita estratègica que orientarà el seu futur. Com es classifica temporalment?","options":["Curt termini","Mitjà termini","Llarg termini","No és un objectiu administratiu"],"correct":2,"explanation":"Els objectius a llarg termini són estratègics i orienten el futur de l’empresa."},{"id":"b2-053","block":"bloc-2","topic":"Objectius administratius","question":"Quin avantatge de la planificació apareix al temari?","options":["Permet anticipar necessitats i establir prioritats","Elimina la necessitat de prendre decisions","Converteix tots els objectius en immediats","Substitueix la coordinació entre departaments"],"correct":0,"explanation":"Una bona planificació permet anticipar necessitats, establir prioritats i facilitar la presa de decisions."},{"id":"b2-054","block":"bloc-2","topic":"Classificació d’empreses","question":"Una S.L. privada que fabrica envasos amb finalitat lucrativa pot pertànyer simultàniament a quines categories?","options":["Només a la categoria S.L.","S.L., privada, fabricant i lucrativa","Pública, distribuïdora i no lucrativa","Cooperativa, mixta i de serveis"],"correct":1,"explanation":"Una mateixa empresa pot classificar-se alhora segons motiu de creació, estructura jurídica, capital i activitat econòmica."},{"id":"b2-055","block":"bloc-2","topic":"Estructura jurídica","question":"Quina afirmació evita confondre cooperativa amb entitat sense ànim de lucre?","options":["Cooperativa és una forma jurídica; ànim de lucre és un criteri diferent de classificació","Tota cooperativa és necessàriament sense ànim de lucre","Cap cooperativa pot desenvolupar activitat empresarial","Cooperativa i empresa pública són sinònims"],"correct":0,"explanation":"El temari classifica per criteris diferents: cooperativa és una estructura jurídica, mentre que lucrativa/no lucrativa respon al motiu de creació."},{"id":"b2-056","block":"bloc-2","topic":"Funció administrativa","question":"Quin ordre descriu millor un cicle administratiu coherent: establir objectius, assignar recursos, alinear departaments i comprovar resultats?","options":["Planificar → organitzar → coordinar → controlar","Organitzar → auditar → dirigir → planificar","Controlar → coordinar → planificar → organitzar","Auditar → controlar → dirigir → coordinar"],"correct":0,"explanation":"El temari treballa planificar, organitzar, coordinar i controlar com a accions complementàries de la funció administrativa."}]}
+{
+  "blockId": "bloc-2",
+  "blockTitle": "Classes d’empreses, jerarquia empresarial i funció administrativa",
+  "questions": [
+    {
+      "id": "b2-018",
+      "block": "bloc-2",
+      "topic": "Capital de l’empresa",
+      "question": "D’on prové principalment el capital d’una empresa privada?",
+      "options": [
+        "De persones, socis, empreses o inversors privats",
+        "Exclusivament dels pressupostos públics",
+        "Només d’impostos",
+        "Sempre del BCE"
+      ],
+      "correct": 0,
+      "explanation": "El capital de l’empresa privada prové principalment de fonts privades."
+    },
+    {
+      "id": "b2-019",
+      "block": "bloc-2",
+      "topic": "Capital de l’empresa",
+      "question": "Quina font de finançament pot utilitzar una empresa privada segons el temari?",
+      "options": [
+        "Ingressos per la venda de productes o serveis",
+        "Només taxes municipals",
+        "Únicament pressupostos de l’Estat",
+        "Exclusivament subvencions públiques"
+      ],
+      "correct": 0,
+      "explanation": "El material cita aportacions, vendes, préstecs/crèdits, inversions privades i beneficis generats."
+    },
+    {
+      "id": "b2-020",
+      "block": "bloc-2",
+      "topic": "Capital de l’empresa",
+      "question": "En una empresa mixta, la propietat es reparteix entre...",
+      "options": [
+        "El sector públic i el sector privat",
+        "Només accionistes estrangers",
+        "Només l’Estat",
+        "Només treballadors individuals"
+      ],
+      "correct": 0,
+      "explanation": "La propietat d’una empresa mixta es reparteix entre sector públic i privat."
+    },
+    {
+      "id": "b2-037",
+      "block": "bloc-2",
+      "topic": "Tipus de capital",
+      "question": "Una empresa rep el 60% del capital d’una administració i el 40% d’inversors privats. Quin tipus és segons l’origen del capital?",
+      "options": [
+        "Pública, perquè la majoria és pública",
+        "Privada, perquè hi ha inversors privats",
+        "Mixta, perquè combina aportacions públiques i privades",
+        "Cooperativa, perquè hi ha més d’un aportant"
+      ],
+      "correct": 2,
+      "explanation": "Una empresa mixta combina capital públic i privat, independentment del percentatge concret de cada part."
+    },
+    {
+      "id": "b2-038",
+      "block": "bloc-2",
+      "topic": "Tipus de capital",
+      "question": "Quina afirmació descriu una empresa privada sense confondre propietat i fonts de finançament?",
+      "options": [
+        "El capital prové principalment de particulars i pot complementar-se amb ingressos, préstecs o inversions",
+        "Només pot finançar-se amb aportacions inicials dels socis",
+        "No pot utilitzar préstecs bancaris",
+        "Les decisions corresponen sempre a una administració pública"
+      ],
+      "correct": 0,
+      "explanation": "El capital privat prové principalment de particulars, i el finançament pot incloure aportacions, vendes, préstecs, inversions i beneficis generats."
+    },
+    {
+      "id": "b2-063",
+      "block": "bloc-2",
+      "topic": "Tipus de capital",
+      "question": "Una empresa té aportacions de capital procedents del sector públic i del sector privat. Com es classifica segons el tipus de capital?",
+      "options": [
+        "Pública",
+        "Privada",
+        "Mixta",
+        "Sense ànim de lucre"
+      ],
+      "correct": 2,
+      "explanation": "Una empresa mixta combina capital públic i capital privat."
+    },
+    {
+      "id": "b2-072",
+      "block": "bloc-2",
+      "topic": "Empreses privades",
+      "question": "Quin conjunt conté fonts de finançament compatibles amb una empresa privada segons el temari?",
+      "options": [
+        "Impostos, taxes i pressupostos públics com a fonts principals",
+        "Aportacions de socis, vendes, préstecs, inversions privades i beneficis generats",
+        "Transferències públiques com a únic recurs i quotes obligatòries",
+        "Recursos del pressupost general i aportacions d’altres administracions"
+      ],
+      "correct": 1,
+      "explanation": "Les empreses privades poden finançar-se amb aportacions dels propietaris o socis, vendes, préstecs i crèdits, inversions privades i beneficis generats."
+    },
+    {
+      "id": "b2-021",
+      "block": "bloc-2",
+      "topic": "Activitat econòmica",
+      "question": "Què fa una empresa fabricant?",
+      "options": [
+        "Transforma matèries primeres o materials en productes elaborats",
+        "Només redistribueix productes sense transformar-los",
+        "Només presta serveis immaterials",
+        "Exerceix funcions legislatives"
+      ],
+      "correct": 0,
+      "explanation": "Les fabricants transformen matèries primeres o altres materials en productes elaborats."
+    },
+    {
+      "id": "b2-022",
+      "block": "bloc-2",
+      "topic": "Activitat econòmica",
+      "question": "Quina fase pot formar part del procés d’una empresa fabricant?",
+      "options": [
+        "Control de qualitat",
+        "Elecció de senadors",
+        "Transposició de directives",
+        "Formació del Consell Europeu"
+      ],
+      "correct": 0,
+      "explanation": "El procés de fabricació pot incloure recepció, transformació, control de qualitat, emmagatzematge i preparació per distribuir."
+    },
+    {
+      "id": "b2-023",
+      "block": "bloc-2",
+      "topic": "Activitat econòmica",
+      "question": "Quina funció identifica principalment una empresa distribuïdora?",
+      "options": [
+        "Fer arribar productes des dels fabricants als punts de venda o clients",
+        "Transformar necessàriament matèries primeres",
+        "Aprovar lleis",
+        "Gestionar tribunals"
+      ],
+      "correct": 0,
+      "explanation": "La distribució fa arribar els productes des de fabricants fins als punts de venda o clients."
+    },
+    {
+      "id": "b2-024",
+      "block": "bloc-2",
+      "topic": "Activitat econòmica",
+      "question": "Què caracteritza una empresa de serveis?",
+      "options": [
+        "Ofereix activitats o prestacions als clients en lloc de centrar-se en un producte material",
+        "Sempre fabrica béns físics",
+        "Sempre és pública",
+        "Divideix necessàriament capital en accions"
+      ],
+      "correct": 0,
+      "explanation": "Les empreses de serveis proporcionen activitats o prestacions als clients."
+    },
+    {
+      "id": "b2-039",
+      "block": "bloc-2",
+      "topic": "Activitat econòmica",
+      "question": "Una empresa compra matèries primeres, les transforma, controla la qualitat i prepara el producte per distribuir-lo. Com es classifica per activitat?",
+      "options": [
+        "Distribuïdora",
+        "Fabricant",
+        "De serveis",
+        "Mixta"
+      ],
+      "correct": 1,
+      "explanation": "Les empreses fabricants transformen matèries primeres o materials i inclouen processos com control de qualitat, emmagatzematge i preparació per a la distribució."
+    },
+    {
+      "id": "b2-040",
+      "block": "bloc-2",
+      "topic": "Activitat econòmica",
+      "question": "Una empresa no transforma el producte: l’emmagatzema, gestiona l’estoc, prepara enviaments i el fa arribar als clients. Quina activitat predomina?",
+      "options": [
+        "Fabricació",
+        "Distribució",
+        "Servei administratiu intern",
+        "Producció jurídica"
+      ],
+      "correct": 1,
+      "explanation": "La distribuïdora connecta productes amb punts de venda o clients mitjançant transport, emmagatzematge, estoc, comandes i lliurament."
+    },
+    {
+      "id": "b2-041",
+      "block": "bloc-2",
+      "topic": "Activitat econòmica",
+      "question": "Quina característica distingeix millor una empresa de serveis d’una fabricant?",
+      "options": [
+        "La de serveis presta activitats o prestacions; la fabricant transforma materials",
+        "La de serveis no pot tenir clients",
+        "La fabricant no pot vendre",
+        "La de serveis sempre és sense ànim de lucre"
+      ],
+      "correct": 0,
+      "explanation": "El criteri és l’activitat econòmica: la fabricant transforma materials; la de serveis ofereix activitats o prestacions."
+    },
+    {
+      "id": "b2-064",
+      "block": "bloc-2",
+      "topic": "Activitat econòmica",
+      "question": "Una empresa es dedica principalment a prestar assessorament als clients, sense que la seva activitat principal sigui fabricar o distribuir productes. Quin tipus és?",
+      "options": [
+        "Fabricant",
+        "Distribuïdora",
+        "Mixta pel tipus de capital",
+        "Empresa de serveis"
+      ],
+      "correct": 3,
+      "explanation": "Segons l’activitat econòmica, les empreses poden ser fabricants, distribuïdores o de serveis; la prestació de serveis correspon al tercer grup."
+    },
+    {
+      "id": "b2-025",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Què determina la jerarquia donada pel càrrec?",
+      "options": [
+        "La posició oficial, amb funcions, responsabilitat i autoritat",
+        "Només l’antiguitat informal",
+        "Exclusivament el salari",
+        "Només el prestigi personal"
+      ],
+      "correct": 0,
+      "explanation": "El càrrec és una posició formal que assigna funcions, responsabilitat i autoritat."
+    },
+    {
+      "id": "b2-026",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "En què es pot basar la jerarquia de rang?",
+      "options": [
+        "En experiència, antiguitat, prestigi o reconeixement",
+        "Només en el càrrec formal",
+        "En el nombre d’accions de la UE",
+        "En la política monetària"
+      ],
+      "correct": 0,
+      "explanation": "El rang pot derivar del reconeixement, experiència, antiguitat o prestigi i no equival necessàriament al càrrec oficial."
+    },
+    {
+      "id": "b2-027",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Què expressa la jerarquia per capacitat?",
+      "options": [
+        "Coneixements, habilitats o especialització d’una persona",
+        "Necessàriament autoritat formal sobre altres",
+        "Només remuneració alta",
+        "Propietat pública de l’empresa"
+      ],
+      "correct": 0,
+      "explanation": "La capacitat es relaciona amb coneixements, habilitats i especialització; no implica necessàriament autoritat."
+    },
+    {
+      "id": "b2-028",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Una remuneració més alta implica necessàriament més autoritat jeràrquica?",
+      "options": [
+        "No, la remuneració no equival necessàriament a jerarquia formal",
+        "Sí, sempre",
+        "Sí, però només en cooperatives",
+        "Només en empreses públiques"
+      ],
+      "correct": 0,
+      "explanation": "El material diferencia jerarquia per remuneració de l’autoritat formal del càrrec."
+    },
+    {
+      "id": "b2-042",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Una cap de departament supervisa l’equip perquè el seu lloc té assignades autoritat i responsabilitats. Quin tipus de jerarquia explica la seva posició?",
+      "options": [
+        "De rang",
+        "Per capacitat",
+        "Donada pel càrrec",
+        "Per remuneració"
+      ],
+      "correct": 2,
+      "explanation": "La jerarquia donada pel càrrec depèn de la posició oficial, amb funcions, responsabilitats i nivell d’autoritat assignats."
+    },
+    {
+      "id": "b2-043",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Un treballador veterà no té càrrec de comandament, però la seva experiència i prestigi fan que l’equip tingui molt en compte la seva opinió. Quin concepte ho explica?",
+      "options": [
+        "Jerarquia de rang",
+        "Jerarquia donada pel càrrec",
+        "Jerarquia per remuneració",
+        "Funció administrativa"
+      ],
+      "correct": 0,
+      "explanation": "El rang pot derivar d’experiència, antiguitat, prestigi o reconeixement i no ha de coincidir amb la jerarquia oficial."
+    },
+    {
+      "id": "b2-044",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Una tècnica té gran especialització i assumeix responsabilitat sobre problemes complexos, però no dirigeix ningú. Quin tipus de jerarquia encaixa millor?",
+      "options": [
+        "Per remuneració",
+        "Per capacitat",
+        "De rang",
+        "Donada pel càrrec"
+      ],
+      "correct": 1,
+      "explanation": "La jerarquia per capacitat es basa en coneixements, competències i especialització, i no implica necessàriament autoritat sobre altres persones."
+    },
+    {
+      "id": "b2-045",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Un especialista cobra més que la seva coordinadora per la seva qualificació, però no té personal al seu càrrec. Quina conclusió és més correcta?",
+      "options": [
+        "La remuneració sempre determina la jerarquia oficial",
+        "Cobrar més no implica necessàriament tenir més autoritat jeràrquica",
+        "La coordinadora passa automàticament a tenir jerarquia de rang",
+        "L’especialista és necessàriament propietari"
+      ],
+      "correct": 1,
+      "explanation": "El temari diferencia remuneració i jerarquia oficial: un salari superior no implica necessàriament comandament o autoritat."
+    },
+    {
+      "id": "b2-065",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Una persona veterana té molta influència entre els companys per la seva experiència, però no ocupa cap càrrec de comandament. Quin tipus de jerarquia reflecteix?",
+      "options": [
+        "Jerarquia de rang",
+        "Jerarquia donada pel càrrec",
+        "Jerarquia per remuneració",
+        "Jerarquia administrativa"
+      ],
+      "correct": 0,
+      "explanation": "El rang pot derivar de l’experiència, l’antiguitat, el prestigi o el reconeixement i no sempre coincideix amb la jerarquia oficial."
+    },
+    {
+      "id": "b2-066",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Una tècnica és referent de l’equip perquè té coneixements especialitzats i resol problemes complexos, sense ser la cap. Quin tipus de jerarquia representa?",
+      "options": [
+        "Jerarquia de rang",
+        "Jerarquia per capacitat",
+        "Jerarquia per remuneració",
+        "Jerarquia donada pel càrrec"
+      ],
+      "correct": 1,
+      "explanation": "La jerarquia per capacitat es relaciona amb els coneixements, habilitats o competència professional que donen influència dins l’organització."
+    },
+    {
+      "id": "b2-067",
+      "block": "bloc-2",
+      "topic": "Jerarquia empresarial",
+      "question": "Un especialista rep una retribució superior per les seves funcions, però no dirigeix altres persones. Quin criteri jeràrquic destaca en aquest cas?",
+      "options": [
+        "Càrrec",
+        "Rang",
+        "Remuneració",
+        "Antiguitat com a estructura jurídica"
+      ],
+      "correct": 2,
+      "explanation": "La jerarquia per remuneració relaciona la posició amb el nivell retributiu, que no implica necessàriament comandament sobre altres persones."
+    }
+  ]
+}
