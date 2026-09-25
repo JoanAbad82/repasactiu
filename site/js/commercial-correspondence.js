@@ -202,17 +202,16 @@ function renderAbbreviations(bank,lang,t){
     </section>`;
 }
 
-export function renderCommercialCorrespondenceHtml(bank,language="ca",tab="guide"){
+export function renderCommercialCorrespondenceHtml(bank,language="ca",tab="guide",options={}){
   validateCommercialCorrespondenceData(bank);
   const lang=language==="es"?"es":"ca";
   const active=["guide","models","abbreviations"].includes(tab)?tab:"guide";
   const t=copy[lang];
+  const showBack=options.showBack!==false;
   const content=active==="models"?renderModels(bank,lang,t):active==="abbreviations"?renderAbbreviations(bank,lang,t):renderStructure(bank,lang,t);
   return `
     <div class="commercial-correspondence-shell">
-      <div class="correspondence-toolbar">
-        <button class="back-button" data-action="home" type="button">${t.back}</button>
-      </div>
+      ${showBack?`<div class="correspondence-toolbar"><button class="back-button" data-action="home" type="button">${t.back}</button></div>`:""}
       <header class="correspondence-head">
         <p class="eyebrow">${t.eyebrow}</p>
         <h1>${esc(bank.title[lang])}</h1>
