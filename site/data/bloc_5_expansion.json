@@ -3,88 +3,102 @@
   "blockTitle": "Organització de l’Estat i la Unió Europea",
   "questions": [
     {
-      "id": "b5-047",
+      "id": "b5-038",
       "block": "bloc-5",
-      "topic": "Administració General de l’Estat",
-      "question": "Quina definició encaixa amb l’Administració General de l’Estat (AGE) segons el glossari del bloc?",
+      "topic": "Institucions de la UE",
+      "question": "Una institució representa directament la ciutadania de la UE i comparteix funcions legislatives i pressupostàries amb el Consell. Quina és?",
       "options": [
-        "L’administració pública que exerceix les seves competències en l’àmbit estatal",
-        "El conjunt exclusiu d’ajuntaments i diputacions",
-        "L’òrgan que interpreta de manera suprema la Constitució",
-        "La institució que representa els governs de la UE"
-      ],
-      "correct": 0,
-      "explanation": "El glossari defineix l’AGE com l’administració pública que exerceix les seves competències en l’àmbit estatal."
-    },
-    {
-      "id": "b5-048",
-      "block": "bloc-5",
-      "topic": "Poder judicial",
-      "question": "Un assumpte correspon a un òrgan jurisdiccional amb competència en determinades matèries d’àmbit estatal. Quin òrgan identifica el temari?",
-      "options": [
-        "Tribunal Constitucional",
-        "Audiència Nacional",
-        "Consell General del Poder Judicial",
-        "Consell Europeu"
+        "Comissió Europea",
+        "Parlament Europeu",
+        "Consell Europeu",
+        "TJUE"
       ],
       "correct": 1,
-      "explanation": "El material descriu l’Audiència Nacional com un òrgan jurisdiccional competent en determinades matèries d’àmbit estatal."
+      "explanation": "El Parlament Europeu representa els ciutadans i exerceix amb el Consell funcions legislatives i pressupostàries."
     },
     {
-      "id": "b5-049",
+      "id": "b5-039",
       "block": "bloc-5",
-      "topic": "Poder executiu",
-      "question": "Quina funció, a més de l’executiva, atribueix expressament el material al Govern d’acord amb la Constitució i les lleis?",
+      "topic": "Institucions de la UE",
+      "question": "En una reunió participen els ministres competents dels Estats membres per negociar i adoptar legislació europea. De quina institució es tracta?",
       "options": [
-        "La potestat jurisdiccional",
-        "La potestat legislativa estatal",
-        "La potestat reglamentària",
-        "La interpretació suprema de la Constitució"
-      ],
-      "correct": 2,
-      "explanation": "El Govern exerceix la funció executiva i la potestat reglamentària d’acord amb la Constitució i les lleis."
-    },
-    {
-      "id": "b5-050",
-      "block": "bloc-5",
-      "topic": "Poder executiu",
-      "question": "Quina composició del Govern és la que recull el temari?",
-      "options": [
-        "Congrés, Senat i Tribunal Suprem",
-        "President autonòmic, assemblea i consell de govern",
-        "Alcalde, regidors i diputació",
-        "President del Govern, vicepresidents si n’hi ha, ministres i altres membres que estableixi la llei"
-      ],
-      "correct": 3,
-      "explanation": "El material indica que el Govern està compost pel president, els vicepresidents si n’hi ha, els ministres i els altres membres que estableixi la llei."
-    },
-    {
-      "id": "b5-051",
-      "block": "bloc-5",
-      "topic": "Administració autonòmica",
-      "question": "Qui dirigeix el govern d’una comunitat autònoma i n’exerceix la representació segons el temari?",
-      "options": [
-        "El president autonòmic",
-        "L’assemblea legislativa autonòmica",
-        "La diputació provincial",
-        "El Senat"
+        "Consell de la Unió Europea",
+        "Consell Europeu",
+        "Comissió Europea",
+        "Parlament Europeu"
       ],
       "correct": 0,
-      "explanation": "El president autonòmic dirigeix el govern autonòmic i exerceix la representació de la comunitat."
+      "explanation": "El Consell de la UE representa els governs i es reuneix en diferents formacions amb els ministres competents."
     },
     {
-      "id": "b5-052",
+      "id": "b5-040",
       "block": "bloc-5",
-      "topic": "Administració local",
-      "question": "Quina afirmació descriu correctament el govern i l’administració autònoma d’una província?",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució promou l’interès general de la UE, proposa nova legislació en la majoria d’àmbits i vetlla per l’aplicació del dret europeu?",
       "options": [
-        "Corresponen al Consell Europeu",
-        "Corresponen a diputacions o altres corporacions de caràcter representatiu",
-        "Corresponen sempre al president autonòmic",
-        "Corresponen exclusivament al Tribunal Suprem"
+        "Consell Europeu",
+        "Comissió Europea",
+        "Tribunal de Comptes Europeu",
+        "BCE"
       ],
       "correct": 1,
-      "explanation": "El temari assenyala que el govern i l’administració autònoma de la província corresponen a diputacions o altres corporacions representatives."
+      "explanation": "La Comissió Europea és l’òrgan executiu de la UE, proposa legislació en la majoria d’àmbits i vetlla per l’aplicació correcta del dret."
+    },
+    {
+      "id": "b5-041",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució té com a funció central garantir la interpretació i aplicació correcta del dret de la UE?",
+      "options": [
+        "TJUE",
+        "BCE",
+        "Consell Europeu",
+        "Tribunal de Comptes Europeu"
+      ],
+      "correct": 0,
+      "explanation": "El Tribunal de Justícia de la Unió Europea garanteix la interpretació i aplicació correcta del dret de la UE."
+    },
+    {
+      "id": "b5-042",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Caps d’Estat o de Govern es reuneixen per fixar grans orientacions i prioritats polítiques, sense exercir amb caràcter general funcions legislatives. Quin òrgan és?",
+      "options": [
+        "Consell de la Unió Europea",
+        "Consell Europeu",
+        "Parlament Europeu",
+        "Comissió Europea"
+      ],
+      "correct": 1,
+      "explanation": "El Consell Europeu defineix les grans orientacions i prioritats polítiques i, amb caràcter general, no exerceix funcions legislatives."
+    },
+    {
+      "id": "b5-043",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina parella institució-funció és correcta?",
+      "options": [
+        "BCE — política monetària de la zona euro i estabilitat de preus",
+        "Tribunal de Comptes — proposar la majoria de la legislació",
+        "Comissió — interpretar definitivament el dret de la UE",
+        "TJUE — definir la política monetària"
+      ],
+      "correct": 0,
+      "explanation": "El Banc Central Europeu defineix i executa la política monetària de la zona euro i té com a objectiu principal l’estabilitat de preus."
+    },
+    {
+      "id": "b5-044",
+      "block": "bloc-5",
+      "topic": "Institucions de la UE",
+      "question": "Quina institució controla la correcta gestió dels recursos econòmics de la UE i contribueix a la rendició de comptes?",
+      "options": [
+        "Tribunal de Comptes Europeu",
+        "Consell de la UE",
+        "BCE",
+        "Parlament Europeu exclusivament"
+      ],
+      "correct": 0,
+      "explanation": "El Tribunal de Comptes Europeu controla la correcta gestió dels recursos econòmics i contribueix a la rendició de comptes i la transparència."
     },
     {
       "id": "b5-053",
@@ -171,6 +185,76 @@
       "explanation": "El Consell Europeu defineix les orientacions i prioritats polítiques generals i, amb caràcter general, no exerceix funcions legislatives."
     },
     {
+      "id": "b5-012",
+      "block": "bloc-5",
+      "topic": "Espanya i la UE",
+      "question": "Des de quina data indica el material que Espanya és membre de la Unió Europea?",
+      "options": [
+        "Des de l’1 de gener de 1986",
+        "Des de l’1 de gener de 1978",
+        "Des de l’1 de gener de 2002",
+        "Des de l’1 de gener de 1999"
+      ],
+      "correct": 0,
+      "explanation": "El material indica que Espanya és membre de la Unió Europea des de l’1 de gener de 1986."
+    },
+    {
+      "id": "b5-024",
+      "block": "bloc-5",
+      "topic": "Espanya i la UE",
+      "question": "Quina diferència assenyala el material entre reglament i directiva de la UE?",
+      "options": [
+        "El reglament és directament aplicable i la directiva generalment s’ha de transposar",
+        "La directiva és sempre directament aplicable i el reglament no",
+        "Cap dels dos pot afectar Espanya",
+        "Tots dos requereixen sempre una llei municipal"
+      ],
+      "correct": 0,
+      "explanation": "El bloc indica que els reglaments són directament aplicables i, amb caràcter general, les directives s’incorporen mitjançant transposició."
+    },
+    {
+      "id": "b5-068",
+      "block": "bloc-5",
+      "topic": "Consell de la Unió Europea",
+      "question": "Quan es reuneixen els ministres competents dels Estats membres per negociar i adoptar legislació de la UE, de quina institució formen part?",
+      "options": [
+        "Consell Europeu",
+        "Comissió Europea",
+        "Parlament Europeu",
+        "Consell de la Unió Europea"
+      ],
+      "correct": 3,
+      "explanation": "El Consell de la UE representa els governs dels Estats membres i es reuneix en diferents formacions amb els ministres competents segons la matèria."
+    },
+    {
+      "id": "b5-067",
+      "block": "bloc-5",
+      "topic": "Comissió Europea",
+      "question": "Quina funció identifica millor la Comissió Europea segons el temari?",
+      "options": [
+        "Representar els parlaments nacionals",
+        "Reunir els ministres dels Estats per adoptar legislació",
+        "Promoure l’interès general de la UE, proposar legislació en la majoria d’àmbits i vetllar per l’aplicació del dret de la UE",
+        "Jutjar recursos contra sentències dels tribunals nacionals"
+      ],
+      "correct": 2,
+      "explanation": "La Comissió és l’òrgan executiu de la UE, promou l’interès general, proposa nova legislació en la majoria d’àmbits i vetlla per l’aplicació del dret de la UE."
+    },
+    {
+      "id": "b5-070",
+      "block": "bloc-5",
+      "topic": "Tribunal de Justícia de la Unió Europea",
+      "question": "Quina funció correspon al Tribunal de Justícia de la Unió Europea?",
+      "options": [
+        "Definir la política monetària de la zona euro",
+        "Garantir la interpretació i l’aplicació correcta del dret de la UE",
+        "Proposar el pressupost general de cada Estat membre",
+        "Representar els governs estatals en el procés legislatiu"
+      ],
+      "correct": 1,
+      "explanation": "El TJUE garanteix la interpretació i l’aplicació correcta del dret de la Unió Europea."
+    },
+    {
       "id": "b5-059",
       "block": "bloc-5",
       "topic": "Dret de la Unió Europea",
@@ -199,118 +283,6 @@
       "explanation": "La transposició és el procés mitjançant el qual una directiva europea s’incorpora al dret intern d’un Estat membre."
     },
     {
-      "id": "b5-061",
-      "block": "bloc-5",
-      "topic": "Poder legislatiu",
-      "question": "Quin òrgan exerceix la potestat legislativa de l’Estat i està format pel Congrés dels Diputats i el Senat?",
-      "options": [
-        "Les Corts Generals",
-        "El Govern",
-        "El Consell General del Poder Judicial",
-        "El Tribunal Constitucional"
-      ],
-      "correct": 0,
-      "explanation": "La Constitució atribueix la potestat legislativa de l’Estat a les Corts Generals, formades pel Congrés dels Diputats i el Senat."
-    },
-    {
-      "id": "b5-062",
-      "block": "bloc-5",
-      "topic": "Poder executiu",
-      "question": "Quina institució dirigeix la política interior i exterior i exerceix la funció executiva de l’Estat?",
-      "options": [
-        "Les Corts Generals",
-        "El Govern",
-        "El Tribunal Suprem",
-        "El Senat"
-      ],
-      "correct": 1,
-      "explanation": "El Govern dirigeix la política interior i exterior, l’Administració civil i militar i exerceix la funció executiva i la potestat reglamentària."
-    },
-    {
-      "id": "b5-063",
-      "block": "bloc-5",
-      "topic": "Poder judicial",
-      "question": "Quina funció correspon als jutjats i tribunals dins del Poder Judicial?",
-      "options": [
-        "Aprovar els pressupostos generals",
-        "Dirigir la política exterior",
-        "Jutjar i fer executar allò jutjat",
-        "Proposar legislació europea"
-      ],
-      "correct": 2,
-      "explanation": "La potestat jurisdiccional correspon als jutjats i tribunals, que jutgen i fan executar allò jutjat d’acord amb les lleis."
-    },
-    {
-      "id": "b5-064",
-      "block": "bloc-5",
-      "topic": "Organització territorial",
-      "question": "Quines tres entitats territorials estableix la Constitució com a base de l’organització territorial de l’Estat?",
-      "options": [
-        "Ministeris, delegacions i subdelegacions",
-        "Ajuntaments, diputacions i ministeris",
-        "Províncies, illes i comarques",
-        "Municipis, províncies i comunitats autònomes"
-      ],
-      "correct": 3,
-      "explanation": "La Constitució estableix que l’Estat s’organitza territorialment en municipis, províncies i comunitats autònomes."
-    },
-    {
-      "id": "b5-065",
-      "block": "bloc-5",
-      "topic": "Administració local",
-      "question": "A qui correspon el govern i l’administració d’un municipi?",
-      "options": [
-        "A l’ajuntament",
-        "A la diputació provincial",
-        "Al govern autonòmic",
-        "A la delegació del Govern"
-      ],
-      "correct": 0,
-      "explanation": "El govern i l’administració municipal corresponen a l’ajuntament, integrat per l’alcalde i els regidors."
-    },
-    {
-      "id": "b5-066",
-      "block": "bloc-5",
-      "topic": "Parlament Europeu",
-      "question": "Quina institució de la UE representa directament la ciutadania de la Unió i comparteix funcions legislatives amb el Consell?",
-      "options": [
-        "Comissió Europea",
-        "Parlament Europeu",
-        "Consell Europeu",
-        "Tribunal de Comptes Europeu"
-      ],
-      "correct": 1,
-      "explanation": "El Parlament Europeu representa la ciutadania de la UE i exerceix conjuntament amb el Consell funcions legislatives i pressupostàries."
-    },
-    {
-      "id": "b5-067",
-      "block": "bloc-5",
-      "topic": "Comissió Europea",
-      "question": "Quina funció identifica millor la Comissió Europea segons el temari?",
-      "options": [
-        "Representar els parlaments nacionals",
-        "Reunir els ministres dels Estats per adoptar legislació",
-        "Promoure l’interès general de la UE, proposar legislació en la majoria d’àmbits i vetllar per l’aplicació del dret de la UE",
-        "Jutjar recursos contra sentències dels tribunals nacionals"
-      ],
-      "correct": 2,
-      "explanation": "La Comissió és l’òrgan executiu de la UE, promou l’interès general, proposa nova legislació en la majoria d’àmbits i vetlla per l’aplicació del dret de la UE."
-    },
-    {
-      "id": "b5-068",
-      "block": "bloc-5",
-      "topic": "Consell de la Unió Europea",
-      "question": "Quan es reuneixen els ministres competents dels Estats membres per negociar i adoptar legislació de la UE, de quina institució formen part?",
-      "options": [
-        "Consell Europeu",
-        "Comissió Europea",
-        "Parlament Europeu",
-        "Consell de la Unió Europea"
-      ],
-      "correct": 3,
-      "explanation": "El Consell de la UE representa els governs dels Estats membres i es reuneix en diferents formacions amb els ministres competents segons la matèria."
-    },
-    {
       "id": "b5-069",
       "block": "bloc-5",
       "topic": "Dret de la Unió Europea",
@@ -325,18 +297,46 @@
       "explanation": "Els reglaments són directament aplicables, mentre que les directives estableixen objectius que, amb caràcter general, s’han d’incorporar a l’ordenament intern mitjançant transposició."
     },
     {
-      "id": "b5-070",
+      "id": "b5-045",
       "block": "bloc-5",
-      "topic": "Tribunal de Justícia de la Unió Europea",
-      "question": "Quina funció correspon al Tribunal de Justícia de la Unió Europea?",
+      "topic": "Relació Espanya-UE",
+      "question": "Una norma europea és obligatòria i s’aplica directament als Estats membres. Quin tipus de norma descriu el temari?",
       "options": [
-        "Definir la política monetària de la zona euro",
-        "Garantir la interpretació i l’aplicació correcta del dret de la UE",
-        "Proposar el pressupost general de cada Estat membre",
-        "Representar els governs estatals en el procés legislatiu"
+        "Directiva",
+        "Reglament",
+        "Transposició",
+        "Estatut d’autonomia"
       ],
       "correct": 1,
-      "explanation": "El TJUE garanteix la interpretació i l’aplicació correcta del dret de la Unió Europea."
+      "explanation": "Els reglaments europeus són directament aplicables."
+    },
+    {
+      "id": "b5-046",
+      "block": "bloc-5",
+      "topic": "Relació Espanya-UE",
+      "question": "Una norma de la UE fixa objectius que l’Estat ha d’incorporar al seu ordenament intern. Quin parell de conceptes és correcte?",
+      "options": [
+        "Reglament — aplicació directa",
+        "Directiva — transposició",
+        "Directiva — cap incorporació interna",
+        "Reglament — transposició obligatòria general"
+      ],
+      "correct": 1,
+      "explanation": "Amb caràcter general, les directives s’incorporen a l’ordenament intern mitjançant la transposició."
+    },
+    {
+      "id": "b5-047",
+      "block": "bloc-5",
+      "topic": "Administració General de l’Estat",
+      "question": "Quina definició encaixa amb l’Administració General de l’Estat (AGE) segons el glossari del bloc?",
+      "options": [
+        "L’administració pública que exerceix les seves competències en l’àmbit estatal",
+        "El conjunt exclusiu d’ajuntaments i diputacions",
+        "L’òrgan que interpreta de manera suprema la Constitució",
+        "La institució que representa els governs de la UE"
+      ],
+      "correct": 0,
+      "explanation": "El glossari defineix l’AGE com l’administració pública que exerceix les seves competències en l’àmbit estatal."
     }
   ]
 }
