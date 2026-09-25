@@ -138,13 +138,43 @@ function payrollAreaHtml(b,l,t,view,state){
  return `<div class="payroll-area"><nav class="payroll-mode-tabs" aria-label="${t.pay}"><button type="button" data-payroll-view="resolved" aria-pressed="${String(active==="resolved")}">${p.resolved}</button><button type="button" data-payroll-view="practice" aria-pressed="${String(active==="practice")}">${p.practice}</button></nav>${active==="practice"?practiceHtml(b,l,t,state):payrollHtml(b,l,t)}</div>`;
 }
 
-export function renderPracticalExamplesHtml({correspondenceBank,payrollBank,language="ca",category="correspondence",correspondenceTab="guide"}){
+
+export function renderPracticalExamplesHtml({correspondenceBank,payrollBank,language="ca",category="correspondence",correspondenceTab="guide",payrollView="resolved",practiceState=null}){
  validateCommercialCorrespondenceData(correspondenceBank);validatePayrollExampleData(payrollBank);const l=language==="es"?"es":"ca",t=C[l],active=category==="payroll"?"payroll":"correspondence";
- const body=active==="payroll"?payrollHtml(payrollBank,l,t):renderCommercialCorrespondenceHtml(correspondenceBank,l,correspondenceTab,{showBack:false});
+ const body=active==="payroll"?payrollAreaHtml(payrollBank,l,t,payrollView,practiceState):renderCommercialCorrespondenceHtml(correspondenceBank,l,correspondenceTab,{showBack:false});
  return `<div class="practical-examples-shell"><div class="practical-toolbar"><button class="back-button" data-action="home" type="button">${t.back}</button></div><header class="practical-head"><p class="eyebrow">${l==="ca"?"Aplicació del temari":"Aplicación del temario"}</p><h1>${t.title}</h1><p>${t.intro}</p></header><nav class="practical-tabs" aria-label="${t.title}"><button type="button" data-practical-category="correspondence" aria-pressed="${String(active==="correspondence")}">${t.corr}</button><button type="button" data-practical-category="payroll" aria-pressed="${String(active==="payroll")}">${t.pay}</button></nav><div class="practical-content">${body}</div></div>`;
 }
+
 export function createPracticalExamples({screen,correspondenceBank,payrollBank,language="ca",onHome}){
- let l=language==="es"?"es":"ca",category="correspondence",correspondenceTab="guide";
- const render=()=>{screen.innerHTML=renderPracticalExamplesHtml({correspondenceBank,payrollBank,language:l,category,correspondenceTab});screen.querySelector('[data-action="home"]')?.addEventListener("click",onHome);for(const b of screen.querySelectorAll("[data-practical-category]"))b.addEventListener("click",()=>{category=b.dataset.practicalCategory==="payroll"?"payroll":"correspondence";render();});for(const b of screen.querySelectorAll("[data-correspondence-tab]"))b.addEventListener("click",()=>{correspondenceTab=b.dataset.correspondenceTab;render();});};
- render();return {setLanguage(n){l=n==="es"?"es":"ca";render();},destroy(){screen.replaceChildren();}};
+ let l=language==="es"?"es":"ca",category="correspondence",correspondenceTab="guide",payrollView="resolved",practiceState=createPayrollPracticeState();
+ const render=()=>{
+  screen.innerHTML=renderPracticalExamplesHtml({correspondenceBank,payrollBank,language:l,category,correspondenceTab,payrollView,practiceState});
+  screen.querySelector('[data-action="home"]')?.addEventListener("click",onHome);
+  for(const b of screen.querySelectorAll("[data-practical-category]"))b.addEventListener("click",()=>{category=b.dataset.practicalCategory==="payroll"?"payroll":"correspondence";render();});
+  for(const b of screen.querySelectorAll("[data-correspondence-tab]"))b.addEventListener("click",()=>{correspondenceTab=b.dataset.correspondenceTab;render();});
+  for(const b of screen.querySelectorAll("[data-payroll-view]"))b.addEventListener("click",()=>{payrollView=b.dataset.payrollView==="practice"?"practice":"resolved";render();});
+  screen.querySelector("[data-practice-restart]")?.addEventListener("click",()=>{practiceState=createPayrollPracticeState();render();});
+  screen.querySelector("[data-use-practice-solution]")?.addEventListener("click",()=>{
+   const steps=practiceSteps(payrollBank,l),current=steps[practiceState.index];
+   if(!current)return;
+   if(!practiceState.completed.includes(current.key))practiceState.completed.push(current.key);
+   practiceState.index+=1;practiceState.feedback={type:"solution"};render();
+  });
+  screen.querySelector("[data-payroll-practice-form]")?.addEventListener("submit",event=>{
+   event.preventDefault();
+   const steps=practiceSteps(payrollBank,l),current=steps[practiceState.index],input=event.currentTarget.querySelector("[data-payroll-practice-input]");
+   if(!current||!input)return;
+   const parsed=parsePayrollAmount(input.value);
+   if(!Number.isFinite(parsed)){practiceState.feedback={type:"invalid"};render();return;}
+   if(checkPayrollPracticeAnswer(input.value,current.expected)){
+    if((practiceState.attempts[current.key]||0)===0&&!practiceState.firstTry.includes(current.key))practiceState.firstTry.push(current.key);
+    if(!practiceState.completed.includes(current.key))practiceState.completed.push(current.key);
+    practiceState.index+=1;practiceState.feedback={type:"correct"};render();return;
+   }
+   practiceState.attempts[current.key]=(practiceState.attempts[current.key]||0)+1;
+   practiceState.feedback={type:"wrong"};render();
+  });
+ };
+ render();
+ return {setLanguage(n){l=n==="es"?"es":"ca";render();},destroy(){screen.replaceChildren();}};
 }
