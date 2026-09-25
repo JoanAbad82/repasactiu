@@ -28,7 +28,7 @@ test("les 320 preguntes prèvies mantenen exactament el mateix contingut encara 
   const legacy=[];
   for(const block of course.blocks.filter(block=>legacyRanges[block.id])){
     for(const file of bankFiles(block)){
-      const bank=await readJson(file.replace(/^data\\//,""));
+      const bank=await readJson(file.startsWith("data/")?file.slice(5):file);
       legacy.push(...bank.questions.filter(question=>legacyIds.has(question.id)));
     }
   }
