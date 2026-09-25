@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "date": "2026-09-25",
+  "status": "ENFORCED",
+  "rule": "source -> pageRange.start -> pageRange.end -> concept -> stable id",
+  "sourceOrder": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "U2B1",
+    "UF0518_B1",
+    "UF0518_B2",
+    "UF0518_B3",
+    "UF0519_U1",
+    "MF0969_PRESENTACIO"
+  ],
+  "scope": {
+    "questions": 842,
+    "studyCards": 926,
+    "coreStudyCards": 842,
+    "extraStudyCards": 84
+  },
+  "tracePrecision": {
+    "questionLevel": 332,
+    "sectionLevel": 510,
+    "note": "Les 332 preguntes dels blocs amb traça individual s'ordenen per la pàgina exacta declarada. Les 510 preguntes històriques d'UF0517/U2 s'ordenen per l'inici del rang de pàgines del seu concepte/tema, sense inventar una pàgina exacta."
+  },
+  "baselineCorrections": {
+    "questionAdjacentInversions": 72,
+    "extraCardAdjacentInversions": 19
+  },
+  "behavior": {
+    "quizzes": "El banc efectiu queda en ordre canònic, però les sessions de test continuen barrejant les preguntes per evitar memoritzar posicions.",
+    "studyCards": "El repàs comença en ordre cronològic. Barrejar continua disponible com a acció explícita."
+  },
+  "ci": "npm run test:audit:chronology bloqueja preguntes sense traça cronològica, inversions del banc publicat, fonts/rangs invàlids i qualsevol ordre incorrecte de les 926 targetes generades."
+}
