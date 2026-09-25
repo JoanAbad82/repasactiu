@@ -21,6 +21,56 @@ export function validatePayrollExampleData(b){
 }
 export async function loadPayrollExample(fetcher=fetch){const r=await fetcher("data/payroll-example-2026-v1.json");if(!r.ok)throw new Error("No s’ha pogut carregar l’exemple pràctic de nòmina.");return validatePayrollExampleData(await r.json());}
 
+
+const P={
+ ca:{
+  resolved:"Veure exemple resolt",practice:"Practicar una nòmina",practiceTitle:"Practica aquesta nòmina",practiceIntro:"Calcula cada import en ordre. No es mostra la fórmula fins que la necessitis.",formatHelp:"Pots escriure, per exemple, 1496,24 · 1496.24 · 1.496,24 €.",step:"Pas",of:"de",check:"Comprovar",restart:"Reiniciar pràctica",hint:"Pista",solution:"Solució del pas",useSolution:"Usar el resultat i continuar",invalid:"Introdueix un import vàlid.",wrong:"Encara no és correcte.",correct:"Correcte. Continuem.",usedSolution:"Has continuat amb la solució d’aquest pas.",finished:"Nòmina completada",firstTry:"encerts al primer intent",completeResult:"Resultat complet",tryAgain:"Tornar a practicar",resolvedAfter:"Veure l’exemple resolt",
+  fields:{prorata:"Prorrata mensual de pagues extres",devengos:"Devengaments totals",base:"Base de cotització",common:"Contingències comunes",unemployment:"Atur",training:"Formació professional",mei:"MEI",contribTotal:"Total cotitzacions",irpf:"IRPF",deductions:"Total deduccions",net:"Líquid a percebre"},
+  hints:{prorata:"Calcula el total anual de les pagues extres i divideix-lo entre 12.",devengos:"Suma el salari base i la prorrata mensual.",base:"En aquest supòsit tots els devengaments salarials cotitzen.",contribution:"Aplica el percentatge corresponent sobre la base de cotització.",contribTotal:"Suma les quatre cotitzacions de la persona treballadora.",irpf:"Aplica el 8 % als devengaments del mes.",deductions:"Suma les cotitzacions totals i la retenció d’IRPF.",net:"Resta les deduccions totals als devengaments."}
+ },
+ es:{
+  resolved:"Ver ejemplo resuelto",practice:"Practicar una nómina",practiceTitle:"Practica esta nómina",practiceIntro:"Calcula cada importe en orden. No se muestra la fórmula hasta que la necesites.",formatHelp:"Puedes escribir, por ejemplo, 1496,24 · 1496.24 · 1.496,24 €.",step:"Paso",of:"de",check:"Comprobar",restart:"Reiniciar práctica",hint:"Pista",solution:"Solución del paso",useSolution:"Usar el resultado y continuar",invalid:"Introduce un importe válido.",wrong:"Todavía no es correcto.",correct:"Correcto. Continuamos.",usedSolution:"Has continuado con la solución de este paso.",finished:"Nómina completada",firstTry:"aciertos al primer intento",completeResult:"Resultado completo",tryAgain:"Volver a practicar",resolvedAfter:"Ver el ejemplo resuelto",
+  fields:{prorata:"Prorrata mensual de pagas extra",devengos:"Devengos totales",base:"Base de cotización",common:"Contingencias comunes",unemployment:"Desempleo",training:"Formación profesional",mei:"MEI",contribTotal:"Total cotizaciones",irpf:"IRPF",deductions:"Total deducciones",net:"Líquido a percibir"},
+  hints:{prorata:"Calcula el total anual de las pagas extra y divídelo entre 12.",devengos:"Suma el salario base y la prorrata mensual.",base:"En este supuesto todos los devengos salariales cotizan.",contribution:"Aplica el porcentaje correspondiente sobre la base de cotización.",contribTotal:"Suma las cuatro cotizaciones de la persona trabajadora.",irpf:"Aplica el 8 % a los devengos del mes.",deductions:"Suma las cotizaciones totales y la retención de IRPF.",net:"Resta las deducciones totales a los devengos."}
+ }
+};
+
+export function parsePayrollAmount(value){
+ let raw=String(value??"").trim().replace(/[\s\u00A0€]/g,"").replace(/[^\d,.\-]/g,"");
+ if(!raw||!/\d/.test(raw))return Number.NaN;
+ const negative=raw.startsWith("-");
+ raw=raw.replace(/-/g,"");
+ const dots=(raw.match(/\./g)||[]).length,commas=(raw.match(/,/g)||[]).length;
+ if(dots&&commas){
+  const decimal=raw.lastIndexOf(".")>raw.lastIndexOf(",")?".":",";
+  const thousands=decimal==="."?",":".";
+  raw=raw.split(thousands).join("");
+  const pos=raw.lastIndexOf(decimal);
+  raw=raw.slice(0,pos).split(decimal).join("")+"."+raw.slice(pos+1);
+ }else{
+  const sep=dots?".":commas?",":null;
+  if(sep){
+   const parts=raw.split(sep);
+   if(parts.length===2){
+    const [whole,fraction]=parts;
+    raw=fraction.length===3&&whole.length<=3?whole+fraction:whole+"."+fraction;
+   }else{
+    const last=parts.at(-1);
+    raw=last.length>0&&last.length<=2?parts.slice(0,-1).join("")+"."+last:parts.join("");
+   }
+  }
+ }
+ const number=Number(raw);
+ return negative?-number:number;
+}
+export function checkPayrollPracticeAnswer(value,expected){
+ const parsed=parsePayrollAmount(value);
+ return Number.isFinite(parsed)&&r2(parsed)===r2(expected);
+}
+export function createPayrollPracticeState(){
+ return {index:0,attempts:{},completed:[],firstTry:[],feedback:null};
+}
+
 function payrollHtml(b,l,t){
  const a=b.assumptions,c=b.calculations,s=b.smi2026;
  const rows=c.workerContributions.map(x=>`<tr><td>${esc(x.label[l])}</td><td>${pct(x.rate)}</td><td>${money(c.contributionBase)} × ${pct(x.rate)}</td><td>${money(x.amount)}</td></tr>`).join("");
