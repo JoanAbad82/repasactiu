@@ -30,7 +30,7 @@ test("els exemples pràctics integren correspondència i nòmines en una sola en
   assert.match(es,/Correspondencia y cartas comerciales/);
   assert.match(es,/Nóminas/);
   assert.match(es,/1\.496,24/);
-  assert.match(es,/Material de classe CECOT/);
+  assert.match(es,/Material de clase CECOT/);
 });
 
 test("la categoria de correspondència manté la guia existent dins d'exemples pràctics",()=>{
