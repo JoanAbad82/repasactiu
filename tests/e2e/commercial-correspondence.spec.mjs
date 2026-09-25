@@ -78,3 +78,51 @@ test("la nòmina no desborda horitzontalment en mòbil",async({browser})=>{
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
   await page.close();
 });
+
+
+test("la pràctica interactiva de nòmina guia els 11 imports i accepta formats locals",async({page})=>{
+  await page.goto("/");
+  await expect(page.getByText("842 preguntes")).toBeVisible();
+  await page.getByRole("button",{name:"Exemples pràctics",exact:true}).click();
+  await page.getByRole("button",{name:"Nòmines",exact:true}).click();
+  await page.getByRole("button",{name:"Practicar una nòmina",exact:true}).click();
+
+  await expect(page.getByRole("heading",{name:"Practica aquesta nòmina"})).toBeVisible();
+  await expect(page.getByText("Pas 1 de 11")).toBeVisible();
+
+  const input=()=>page.locator("[data-payroll-practice-input]");
+  await input().fill("200");
+  await page.getByRole("button",{name:"Comprovar",exact:true}).click();
+  await expect(page.getByText("Pista:",{exact:false})).toBeVisible();
+  await expect(page.getByText("Solució del pas:",{exact:false})).toHaveCount(0);
+
+  await input().fill("210");
+  await page.getByRole("button",{name:"Comprovar",exact:true}).click();
+  await expect(page.getByText("Solució del pas:",{exact:false})).toBeVisible();
+  await page.getByRole("button",{name:"Usar el resultat i continuar",exact:true}).click();
+
+  const answers=["1.750,00","1750","82,25 €","27.13","1,75","2.63","113,76","140","253.76","1.496,24 €"];
+  for(const answer of answers){
+    await page.locator("[data-payroll-practice-input]").fill(answer);
+    await page.getByRole("button",{name:"Comprovar",exact:true}).click();
+  }
+
+  await expect(page.getByRole("heading",{name:"Nòmina completada"})).toBeVisible();
+  await expect(page.getByText("10/11 encerts al primer intent.")).toBeVisible();
+  await expect(page.locator(".practice-finish")).toContainText("1.496,24 €");
+
+  await page.locator("#language-es").click();
+  await expect(page.getByRole("heading",{name:"Nómina completada"})).toBeVisible();
+  await expect(page.getByText("10/11 aciertos al primer intento.")).toBeVisible();
+});
+
+test("la pràctica de nòmina és usable en mòbil sense desbordament horitzontal",async({browser})=>{
+  const page=await browser.newPage({viewport:{width:390,height:844}});
+  await page.goto("/");
+  await page.getByRole("button",{name:"Exemples pràctics",exact:true}).click();
+  await page.getByRole("button",{name:"Nòmines",exact:true}).click();
+  await page.getByRole("button",{name:"Practicar una nòmina",exact:true}).click();
+  await expect(page.locator("[data-payroll-practice-input]")).toBeVisible();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
+  await page.close();
+});
