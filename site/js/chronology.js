@@ -43,7 +43,7 @@ export function chronologyKey(item){
     sourceRank:SOURCE_RANK.get(sourceId),
     pageStart:range[0],
     pageEnd:range[1],
-    concept:normalizeChronologyConcept(item?.conceptId||item?.topic||item?.question||item?.id),
+    concept:normalizeChronologyConcept(item?.chronologyConcept||item?.topic||item?.conceptId||item?.question||item?.id),
     stableId:String(item?.id||'')
   };
 }
