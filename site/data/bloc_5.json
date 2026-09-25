@@ -59,6 +59,62 @@
       "explanation": "El bloc diferencia organització constitucional, administrativa i territorial."
     },
     {
+      "id": "b5-025",
+      "block": "bloc-5",
+      "topic": "Organització de l’Estat",
+      "question": "Si una pregunta tracta de la separació entre legislatiu, executiu i judicial, a quin nivell d’organització de l’Estat es refereix?",
+      "options": [
+        "Organització territorial",
+        "Organització administrativa",
+        "Organització constitucional",
+        "Administració local"
+      ],
+      "correct": 2,
+      "explanation": "L’organització constitucional de l’Estat es basa en els poders legislatiu, executiu i judicial."
+    },
+    {
+      "id": "b5-026",
+      "block": "bloc-5",
+      "topic": "Organització de l’Estat",
+      "question": "AGE, administracions autonòmiques i administració local formen part de quina perspectiva de l’organització pública?",
+      "options": [
+        "Organització administrativa",
+        "Organització constitucional",
+        "Organització territorial exclusivament",
+        "Poder judicial"
+      ],
+      "correct": 0,
+      "explanation": "L’organització administrativa comprèn l’Administració General de l’Estat, les administracions autonòmiques i l’administració local."
+    },
+    {
+      "id": "b5-027",
+      "block": "bloc-5",
+      "topic": "Organització de l’Estat",
+      "question": "Municipis, províncies i comunitats autònomes corresponen principalment a quin concepte?",
+      "options": [
+        "Organització administrativa",
+        "Organització territorial",
+        "Organització judicial",
+        "Organització pressupostària"
+      ],
+      "correct": 1,
+      "explanation": "La Constitució estableix l’organització territorial de l’Estat en municipis, províncies i comunitats autònomes."
+    },
+    {
+      "id": "b5-061",
+      "block": "bloc-5",
+      "topic": "Poder legislatiu",
+      "question": "Quin òrgan exerceix la potestat legislativa de l’Estat i està format pel Congrés dels Diputats i el Senat?",
+      "options": [
+        "Les Corts Generals",
+        "El Govern",
+        "El Consell General del Poder Judicial",
+        "El Tribunal Constitucional"
+      ],
+      "correct": 0,
+      "explanation": "La Constitució atribueix la potestat legislativa de l’Estat a les Corts Generals, formades pel Congrés dels Diputats i el Senat."
+    },
+    {
       "id": "b5-005",
       "block": "bloc-5",
       "topic": "Poders de l’Estat",
@@ -157,186 +213,130 @@
       "explanation": "El Tribunal Suprem és l’òrgan jurisdiccional superior en tots els ordres excepte en matèria de garanties constitucionals."
     },
     {
-      "id": "b5-012",
+      "id": "b5-028",
       "block": "bloc-5",
-      "topic": "Espanya i la UE",
-      "question": "Des de quina data indica el material que Espanya és membre de la Unió Europea?",
+      "topic": "Poders de l’Estat",
+      "question": "Un òrgan aprova lleis i pressupostos i controla l’acció del Govern. De quin òrgan es tracta?",
       "options": [
-        "Des de l’1 de gener de 1986",
-        "Des de l’1 de gener de 1978",
-        "Des de l’1 de gener de 2002",
-        "Des de l’1 de gener de 1999"
+        "Govern",
+        "Corts Generals",
+        "Tribunal Constitucional",
+        "Consell General del Poder Judicial"
       ],
-      "correct": 0,
-      "explanation": "El material indica que Espanya és membre de la Unió Europea des de l’1 de gener de 1986."
+      "correct": 1,
+      "explanation": "Les Corts Generals exerceixen la potestat legislativa, aproven els pressupostos i controlen l’acció del Govern."
     },
     {
-      "id": "b5-013",
+      "id": "b5-029",
       "block": "bloc-5",
-      "topic": "Administració autonòmica i local",
-      "question": "Quantes comunitats autònomes indica el material que té Espanya?",
+      "topic": "Poders de l’Estat",
+      "question": "Quina diferència entre Congrés i Senat destaca el material?",
       "options": [
-        "17",
-        "15",
-        "19",
-        "27"
+        "El Congrés forma part del Govern i el Senat del Poder Judicial",
+        "El Senat és cambra de representació territorial; tots dos participen en el procediment legislatiu",
+        "Només el Senat aprova lleis",
+        "Només el Congrés forma part de les Corts Generals"
       ],
-      "correct": 0,
-      "explanation": "El bloc indica 17 comunitats autònomes i 2 ciutats autònomes, Ceuta i Melilla."
+      "correct": 1,
+      "explanation": "Les Corts Generals inclouen Congrés i Senat; el Senat es defineix específicament com a cambra de representació territorial."
     },
     {
-      "id": "b5-014",
+      "id": "b5-030",
       "block": "bloc-5",
-      "topic": "Administració autonòmica i local",
-      "question": "Quina institució autonòmica exerceix la potestat legislativa dins les competències autonòmiques?",
+      "topic": "Poders de l’Estat",
+      "question": "Qui dirigeix la política interior i exterior, l’Administració civil i militar i la defensa de l’Estat?",
       "options": [
-        "L’assemblea legislativa autonòmica",
-        "El Consell de Govern",
-        "La Diputació provincial",
-        "El Tribunal de Comptes Europeu"
-      ],
-      "correct": 0,
-      "explanation": "L’assemblea legislativa autonòmica legisla dins les competències autonòmiques i controla el govern."
-    },
-    {
-      "id": "b5-015",
-      "block": "bloc-5",
-      "topic": "Administració autonòmica i local",
-      "question": "Qui integra principalment l’Administració local?",
-      "options": [
-        "Els municipis i les províncies",
-        "Només les comunitats autònomes",
-        "Només els ministeris estatals",
-        "El Parlament Europeu"
-      ],
-      "correct": 0,
-      "explanation": "L’Administració local està integrada principalment per municipis i províncies."
-    },
-    {
-      "id": "b5-016",
-      "block": "bloc-5",
-      "topic": "Administració autonòmica i local",
-      "question": "Qui forma l’ajuntament?",
-      "options": [
-        "L’alcalde i els regidors",
-        "El president autonòmic i els ministres",
-        "Els jutges i magistrats",
-        "Els comissaris europeus"
-      ],
-      "correct": 0,
-      "explanation": "El govern i administració municipal corresponen als ajuntaments, integrats per alcalde i regidors."
-    },
-    {
-      "id": "b5-017",
-      "block": "bloc-5",
-      "topic": "Administració autonòmica i local",
-      "question": "Què és una província segons el material?",
-      "options": [
-        "Una entitat local amb personalitat jurídica pròpia determinada per l’agrupació de municipis",
-        "Una institució de la UE",
-        "Una societat mercantil",
-        "Un departament empresarial"
-      ],
-      "correct": 0,
-      "explanation": "La província és una entitat local formada per l’agrupació de municipis i amb personalitat jurídica pròpia."
-    },
-    {
-      "id": "b5-018",
-      "block": "bloc-5",
-      "topic": "Institucions de la UE",
-      "question": "Quina institució representa els ciutadans de la Unió Europea?",
-      "options": [
-        "El Parlament Europeu",
-        "El Consell de la UE",
-        "La Comissió Europea",
+        "Les Corts Generals",
+        "El Govern",
+        "El Tribunal Suprem",
         "El Consell Europeu"
       ],
-      "correct": 0,
-      "explanation": "El Parlament Europeu representa els ciutadans de la Unió."
+      "correct": 1,
+      "explanation": "El Govern exerceix el poder executiu i dirigeix aquestes àrees segons el material."
     },
     {
-      "id": "b5-019",
+      "id": "b5-031",
       "block": "bloc-5",
-      "topic": "Institucions de la UE",
-      "question": "Quina institució representa els governs dels Estats membres?",
+      "topic": "Poders de l’Estat",
+      "question": "Quin òrgan és superior en els ordres jurisdiccionals ordinaris, amb l’excepció indicada de les garanties constitucionals?",
       "options": [
-        "El Consell de la Unió Europea",
-        "El Parlament Europeu",
-        "El Tribunal de Comptes",
-        "El Banc Central Europeu"
+        "Tribunal Constitucional",
+        "Tribunal Suprem",
+        "Audiència Nacional",
+        "CGPJ"
+      ],
+      "correct": 1,
+      "explanation": "El Tribunal Suprem és l’òrgan jurisdiccional superior en tots els ordres, excepte en matèria de garanties constitucionals."
+    },
+    {
+      "id": "b5-032",
+      "block": "bloc-5",
+      "topic": "Poders de l’Estat",
+      "question": "Quina afirmació diferencia correctament el Tribunal Constitucional del Poder Judicial?",
+      "options": [
+        "Forma part del Poder Judicial i governa els jutges",
+        "No forma part del Poder Judicial i és l’intèrpret suprem de la Constitució",
+        "És una cambra de les Corts Generals",
+        "Dirigeix l’Administració civil"
+      ],
+      "correct": 1,
+      "explanation": "El Tribunal Constitucional no forma part del Poder Judicial i és l’intèrpret suprem de la Constitució."
+    },
+    {
+      "id": "b5-033",
+      "block": "bloc-5",
+      "topic": "Poders de l’Estat",
+      "question": "Un òrgan vetlla per la independència judicial i governa el Poder Judicial, però no és un tribunal que resolgui els assumptes com a funció principal. Quin és?",
+      "options": [
+        "CGPJ",
+        "Tribunal Suprem",
+        "Audiència Nacional",
+        "Tribunal Constitucional"
       ],
       "correct": 0,
-      "explanation": "El Consell de la UE representa els governs dels Estats membres i hi participen ministres segons l’àmbit tractat."
+      "explanation": "El Consell General del Poder Judicial és l’òrgan de govern del Poder Judicial i vetlla per la independència judicial."
     },
     {
-      "id": "b5-020",
+      "id": "b5-049",
       "block": "bloc-5",
-      "topic": "Institucions de la UE",
-      "question": "Quin és l’òrgan executiu de la UE que promou l’interès general de la Unió?",
+      "topic": "Poder executiu",
+      "question": "Quina funció, a més de l’executiva, atribueix expressament el material al Govern d’acord amb la Constitució i les lleis?",
       "options": [
-        "La Comissió Europea",
-        "El Senat espanyol",
-        "El Consell General del Poder Judicial",
-        "La Diputació"
+        "La potestat jurisdiccional",
+        "La potestat legislativa estatal",
+        "La potestat reglamentària",
+        "La interpretació suprema de la Constitució"
       ],
-      "correct": 0,
-      "explanation": "La Comissió Europea és l’òrgan executiu de la UE i proposa legislació en la majoria d’àmbits."
+      "correct": 2,
+      "explanation": "El Govern exerceix la funció executiva i la potestat reglamentària d’acord amb la Constitució i les lleis."
     },
     {
-      "id": "b5-021",
+      "id": "b5-050",
       "block": "bloc-5",
-      "topic": "Institucions de la UE",
-      "question": "Quina institució defineix les orientacions i prioritats polítiques generals de la UE?",
+      "topic": "Poder executiu",
+      "question": "Quina composició del Govern és la que recull el temari?",
       "options": [
-        "El Consell Europeu",
-        "El Consell de la UE en totes les seves formacions",
+        "Congrés, Senat i Tribunal Suprem",
+        "President autonòmic, assemblea i consell de govern",
+        "Alcalde, regidors i diputació",
+        "President del Govern, vicepresidents si n’hi ha, ministres i altres membres que estableixi la llei"
+      ],
+      "correct": 3,
+      "explanation": "El material indica que el Govern està compost pel president, els vicepresidents si n’hi ha, els ministres i els altres membres que estableixi la llei."
+    },
+    {
+      "id": "b5-062",
+      "block": "bloc-5",
+      "topic": "Poder executiu",
+      "question": "Quina institució dirigeix la política interior i exterior i exerceix la funció executiva de l’Estat?",
+      "options": [
+        "Les Corts Generals",
+        "El Govern",
         "El Tribunal Suprem",
-        "Els ajuntaments"
+        "El Senat"
       ],
-      "correct": 0,
-      "explanation": "El Consell Europeu fixa les orientacions i prioritats generals i, amb caràcter general, no legisla."
-    },
-    {
-      "id": "b5-022",
-      "block": "bloc-5",
-      "topic": "Institucions de la UE",
-      "question": "Quin és l’objectiu principal del Banc Central Europeu indicat al temari?",
-      "options": [
-        "Mantenir l’estabilitat de preus",
-        "Aprovar directives",
-        "Controlar ajuntaments",
-        "Elegir comissaris"
-      ],
-      "correct": 0,
-      "explanation": "El BCE defineix i executa la política monetària de la zona euro i té com a objectiu principal l’estabilitat de preus."
-    },
-    {
-      "id": "b5-023",
-      "block": "bloc-5",
-      "topic": "Institucions de la UE",
-      "question": "Quina institució controla la correcta gestió dels recursos econòmics de la UE?",
-      "options": [
-        "El Tribunal de Comptes Europeu",
-        "El Parlament de Catalunya",
-        "El Tribunal Suprem espanyol",
-        "El Consell General del Poder Judicial"
-      ],
-      "correct": 0,
-      "explanation": "El Tribunal de Comptes Europeu contribueix a la rendició de comptes i transparència controlant els recursos de la UE."
-    },
-    {
-      "id": "b5-024",
-      "block": "bloc-5",
-      "topic": "Espanya i la UE",
-      "question": "Quina diferència assenyala el material entre reglament i directiva de la UE?",
-      "options": [
-        "El reglament és directament aplicable i la directiva generalment s’ha de transposar",
-        "La directiva és sempre directament aplicable i el reglament no",
-        "Cap dels dos pot afectar Espanya",
-        "Tots dos requereixen sempre una llei municipal"
-      ],
-      "correct": 0,
-      "explanation": "El bloc indica que els reglaments són directament aplicables i, amb caràcter general, les directives s’incorporen mitjançant transposició."
+      "correct": 1,
+      "explanation": "El Govern dirigeix la política interior i exterior, l’Administració civil i militar i exerceix la funció executiva i la potestat reglamentària."
     }
   ]
 }
