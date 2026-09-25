@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
-import {validatePayrollExampleData,renderPracticalExamplesHtml,parsePayrollAmount,checkPayrollPracticeAnswer,createPayrollPracticeState} from "../../site/js/practical-examples.js";
+import {validatePayrollExampleData,renderPracticalExamplesHtml,parsePayrollAmount,checkPayrollPracticeAnswer,createPayrollPracticeState,calculatePayrollPair} from "../../site/js/practical-examples.js";
 import {validateCommercialCorrespondenceData} from "../../site/js/commercial-correspondence.js";
 
 const payroll=JSON.parse(await readFile(new URL("../../site/data/payroll-example-2026-v1.json",import.meta.url),"utf8"));
@@ -51,13 +51,23 @@ test("el parser de la pràctica accepta formats monetaris habituals",()=>{
   assert.equal(checkPayrollPracticeAnswer("1490",1496.24),false);
 });
 
-test("la pràctica de nòmina oculta les fórmules inicialment i permet revelar ajuda progressiva",()=>{
+test("la pràctica mostra dades, percentatges, guia de càlcul i calculadora sense donar el resultat",()=>{
   const initial=createPayrollPracticeState();
   const first=renderPracticalExamplesHtml({correspondenceBank:correspondence,payrollBank:payroll,language:"ca",category:"payroll",payrollView:"practice",practiceState:initial});
   assert.match(first,/Practica aquesta nòmina/);
   assert.match(first,/Pas 1 de 11/);
-  assert.match(first,/Prorrata mensual de pagues extres/);
-  assert.doesNotMatch(first,/1\.500,00 € × 2/);
+  assert.match(first,/Dades i percentatges disponibles/);
+  assert.match(first,/Contingències comunes/);
+  assert.match(first,/4,70 %/);
+  assert.match(first,/Atur/);
+  assert.match(first,/1,55 %/);
+  assert.match(first,/IRPF/);
+  assert.match(first,/8,00 %/);
+  assert.match(first,/Com es calcula aquest pas/);
+  assert.match(first,/\(1\.500,00 € × 2\) ÷ 12 = \?/);
+  assert.match(first,/Calculadora/);
+  assert.match(first,/Usar resultat com a resposta/);
+  assert.doesNotMatch(first,/Solució del pas/);
 
   const hinted={...initial,attempts:{prorata:1},feedback:{type:"wrong"}};
   const oneError=renderPracticalExamplesHtml({correspondenceBank:correspondence,payrollBank:payroll,language:"ca",category:"payroll",payrollView:"practice",practiceState:hinted});
@@ -69,6 +79,14 @@ test("la pràctica de nòmina oculta les fórmules inicialment i permet revelar 
   assert.match(twoErrors,/Solució del pas/);
   assert.match(twoErrors,/250,00 €/);
   assert.match(twoErrors,/Usar el resultat i continuar/);
+});
+
+test("la calculadora de nòmina resol operacions bàsiques de manera controlada",()=>{
+  assert.equal(calculatePayrollPair(1500,"×",2),3000);
+  assert.equal(calculatePayrollPair(3000,"÷",12),250);
+  assert.equal(calculatePayrollPair(1750,"×",4.7),8225);
+  assert.equal(calculatePayrollPair(82.25,"+",27.13),109.38);
+  assert.ok(Number.isNaN(calculatePayrollPair(10,"÷",0)));
 });
 
 test("la pràctica completada mostra el recompte d'encerts i totes les respostes",()=>{
