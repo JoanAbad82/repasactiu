@@ -93,17 +93,17 @@ function payrollHtml(b,l,t){
 function practiceSteps(b,l){
  const a=b.assumptions,c=b.calculations,p=P[l];
  const byId=Object.fromEntries(c.workerContributions.map(x=>[x.id,x]));
- const contribution=(key,id)=>({key,label:p.fields[key],expected:byId[id].amount,hint:p.hints.contribution,guide:`${money(c.contributionBase)} × ${pct(byId[id].rate)} ÷ 100 = ?`,formula:`${money(c.contributionBase)} × ${pct(byId[id].rate)} = ${money(byId[id].amount)}`});
+ const contribution=(key,id)=>({key,label:p.fields[key],expected:byId[id].amount,hint:p.hints.contribution,guide:`${money(c.contributionBase)} × ${pct(byId[id].rate).replace(" %","")} ÷ 100 = ?`,formula:`${money(c.contributionBase)} × ${pct(byId[id].rate)} = ${money(byId[id].amount)}`});
  return [
   {key:"prorata",label:p.fields.prorata,expected:c.proratedExtraMonthly,hint:p.hints.prorata,guide:`(${money(a.extraPayAmount)} × ${a.extraPays}) ÷ 12 = ?`,formula:`(${money(a.extraPayAmount)} × ${a.extraPays}) ÷ 12 = ${money(c.proratedExtraMonthly)}`},
   {key:"devengos",label:p.fields.devengos,expected:c.monthlyEarnings,hint:p.hints.devengos,guide:`${money(a.baseSalary)} + ${money(c.proratedExtraMonthly)} = ?`,formula:`${money(a.baseSalary)} + ${money(c.proratedExtraMonthly)} = ${money(c.monthlyEarnings)}`},
-  {key:"base",label:p.fields.base,expected:c.contributionBase,hint:p.hints.base,guide:`${money(c.monthlyEarnings)} = base de cotització / base de cotización`,formula:`${money(c.monthlyEarnings)} = ${money(c.contributionBase)}`},
+  {key:"base",label:p.fields.base,expected:c.contributionBase,hint:p.hints.base,guide:`${money(c.monthlyEarnings)} = ${l==="ca"?"base de cotització":"base de cotización"}`,formula:`${money(c.monthlyEarnings)} = ${money(c.contributionBase)}`},
   contribution("common","common"),
   contribution("unemployment","unemployment"),
   contribution("training","training"),
   contribution("mei","mei"),
   {key:"contribTotal",label:p.fields.contribTotal,expected:c.workerContributionsTotal,hint:p.hints.contribTotal,guide:`${c.workerContributions.map(x=>money(x.amount)).join(" + ")} = ?`,formula:`${c.workerContributions.map(x=>money(x.amount)).join(" + ")} = ${money(c.workerContributionsTotal)}`},
-  {key:"irpf",label:p.fields.irpf,expected:c.irpfAmount,hint:p.hints.irpf,guide:`${money(c.monthlyEarnings)} × ${pct(a.irpfRate)} ÷ 100 = ?`,formula:`${money(c.monthlyEarnings)} × ${pct(a.irpfRate)} = ${money(c.irpfAmount)}`},
+  {key:"irpf",label:p.fields.irpf,expected:c.irpfAmount,hint:p.hints.irpf,guide:`${money(c.monthlyEarnings)} × ${pct(a.irpfRate).replace(" %","")} ÷ 100 = ?`,formula:`${money(c.monthlyEarnings)} × ${pct(a.irpfRate)} = ${money(c.irpfAmount)}`},
   {key:"deductions",label:p.fields.deductions,expected:c.totalDeductions,hint:p.hints.deductions,guide:`${money(c.workerContributionsTotal)} + ${money(c.irpfAmount)} = ?`,formula:`${money(c.workerContributionsTotal)} + ${money(c.irpfAmount)} = ${money(c.totalDeductions)}`},
   {key:"net",label:p.fields.net,expected:c.netPay,hint:p.hints.net,guide:`${money(c.monthlyEarnings)} − ${money(c.totalDeductions)} = ?`,formula:`${money(c.monthlyEarnings)} − ${money(c.totalDeductions)} = ${money(c.netPay)}`}
  ];
