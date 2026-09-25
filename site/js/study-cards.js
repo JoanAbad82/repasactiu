@@ -1,3 +1,4 @@
+import {resolveSourceId,sortChronologically} from './chronology.js';
 const esc=value=>String(value).replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
 
 const COPY={
@@ -90,8 +91,11 @@ function parseSourceLabel(label,blockId){
   const fallback=SOURCE_RANGES[blockId]||null;
   const text=String(label||'').trim();
   if(!text)return fallback?{...fallback,precision:'block'}:null;
-  const sourceId=(text.match(/^(UF0519|UF0518|U2|B[1-5])/i)?.[1]||fallback?.id||'SOURCE').toUpperCase()
-    .replace(/^U2$/,'U2B1').replace(/^UF0518$/,'UF0518_B1').replace(/^UF0519$/,'UF0519_U1');
+  const sourceId=resolveSourceId(
+    text.match(/^(MF0969|UF0519|UF0518|U2|B[1-5])/i)?.[1],
+    blockId,
+    fallback?.id||'SOURCE'
+  );
   const pageMatch=text.match(/pp?\.?\s*(\d+)(?:\s*(?:[-–—]|i|y)\s*(\d+))?/i);
   if(pageMatch){
     const start=Number(pageMatch[1]);
@@ -204,6 +208,13 @@ export function buildExtraStudyCards(extraBank,lang='ca'){
       mnemonic:effective.mnemonic||''
     };
   });
+}
+
+export function buildOrderedStudyCards(banks,extraBank,lang='ca'){
+  return sortChronologically([
+    ...buildCoreStudyCards(banks,lang,extraBank.coreOverrides||{},extraBank.semanticV2||{},extraBank.traceabilityV2||{}),
+    ...buildExtraStudyCards(extraBank,lang)
+  ]);
 }
 
 export function selectCardsByBlocks(cards,selectedBlocks){
@@ -326,10 +337,7 @@ export function createStudyCards({screen,live,banks,extraBank,language='ca',rand
   let index=0;
   let flipped=false;
 
-  const allCards=currentLang=>[
-    ...buildCoreStudyCards(banks,currentLang,extraBank.coreOverrides||{},extraBank.semanticV2||{},extraBank.traceabilityV2||{}),
-    ...buildExtraStudyCards(extraBank,currentLang)
-  ];
+  const allCards=currentLang=>buildOrderedStudyCards(banks,extraBank,currentLang);
   const idsForSelection=()=>{
     const cards=allCards('ca');
     return selectCardsByBlocks(cards,selectedBlocks).map(card=>card.id);
@@ -393,7 +401,7 @@ export function createStudyCards({screen,live,banks,extraBank,language='ca',rand
       live.textContent=COPY[lang].empty;
       return;
     }
-    orderIds=shuffleCards(ids,random);
+    orderIds=ids;
     index=0;
     flipped=false;
     renderReview();
