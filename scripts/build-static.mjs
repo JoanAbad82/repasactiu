@@ -20,7 +20,9 @@ for(const rel of [
   'data/key-lists-v1.json',
   'js/concept-dictionary.js',
   'data/commercial-correspondence-v1.json',
-  'js/commercial-correspondence.js'
+  'js/commercial-correspondence.js',
+  'data/payroll-example-2026-v1.json',
+  'js/practical-examples.js'
 ]){
   await access(path.join(dist,rel));
 }
@@ -29,6 +31,7 @@ const traceability=JSON.parse(await readFile(path.join(dist,'data','study-cards-
 const dictionary=JSON.parse(await readFile(path.join(dist,'data','concept-dictionary-v1.json'),'utf8'));
 const keyLists=JSON.parse(await readFile(path.join(dist,'data','key-lists-v1.json'),'utf8'));
 const correspondence=JSON.parse(await readFile(path.join(dist,'data','commercial-correspondence-v1.json'),'utf8'));
+const payroll=JSON.parse(await readFile(path.join(dist,'data','payroll-example-2026-v1.json'),'utf8'));
 if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
   throw new Error('Build validation failed: semantic manifest must contain 84 changes.');
 }
@@ -50,6 +53,9 @@ if(!Array.isArray(keyLists.families)||keyLists.families.length!==11||keyLists.fa
 if(correspondence.version!==1||!Array.isArray(correspondence.structure)||correspondence.structure.length!==10||!Array.isArray(correspondence.models)||correspondence.models.length!==8){
   throw new Error('Build validation failed: commercial correspondence guide is invalid.');
 }
+if(payroll.version!==1||payroll.source?.sourceId!=='UF0519_NOMINA_2026_CECOT'||payroll.source?.pages!==3||payroll.calculations?.netPay!==1496.24){
+  throw new Error('Build validation failed: payroll practical example is invalid.');
+}
 for(const lang of ['ca','es']){
   const abbreviations=correspondence.abbreviations?.[lang];
   const items=abbreviations?.groups?.flatMap(group=>group.items||[])||[];
@@ -57,4 +63,4 @@ for(const lang of ['ca','es']){
     throw new Error(`Build validation failed: commercial abbreviations for ${lang} must contain 20-30 curated entries.`);
   }
 }
-console.log('Static build PASS: site/ -> dist/ with learning tools, 106-concept dictionary, 78 key lists and bilingual commercial correspondence guide');
+console.log('Static build PASS: site/ -> dist/ with learning tools, 106-concept dictionary, 78 key lists, practical examples, payroll walkthrough and bilingual commercial correspondence guide');

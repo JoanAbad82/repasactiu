@@ -1,0 +1,41 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {readFile} from "node:fs/promises";
+import {validatePayrollExampleData,renderPracticalExamplesHtml} from "../../site/js/practical-examples.js";
+import {validateCommercialCorrespondenceData} from "../../site/js/commercial-correspondence.js";
+
+const payroll=JSON.parse(await readFile(new URL("../../site/data/payroll-example-2026-v1.json",import.meta.url),"utf8"));
+const correspondence=JSON.parse(await readFile(new URL("../../site/data/commercial-correspondence-v1.json",import.meta.url),"utf8"));
+
+test("el cas de nòmina conserva els imports del material i valida tots els càlculs",()=>{
+  const data=validatePayrollExampleData(payroll);
+  assert.equal(data.calculations.proratedExtraMonthly,250);
+  assert.equal(data.calculations.monthlyEarnings,1750);
+  assert.equal(data.calculations.workerContributionsTotal,113.76);
+  assert.equal(data.calculations.irpfAmount,140);
+  assert.equal(data.calculations.totalDeductions,253.76);
+  assert.equal(data.calculations.netPay,1496.24);
+});
+
+test("els exemples pràctics integren correspondència i nòmines en una sola entrada",()=>{
+  validateCommercialCorrespondenceData(correspondence);
+  const ca=renderPracticalExamplesHtml({correspondenceBank:correspondence,payrollBank:payroll,language:"ca",category:"payroll"});
+  const es=renderPracticalExamplesHtml({correspondenceBank:correspondence,payrollBank:payroll,language:"es",category:"payroll"});
+  assert.match(ca,/Exemples pràctics/);
+  assert.match(ca,/Correspondència i cartes comercials/);
+  assert.match(ca,/Nòmines/);
+  assert.match(ca,/1\.496,24/);
+  assert.match(ca,/P-D-B-C-I-L/);
+  assert.match(es,/Ejemplos prácticos/);
+  assert.match(es,/Correspondencia y cartas comerciales/);
+  assert.match(es,/Nóminas/);
+  assert.match(es,/1\.496,24/);
+  assert.match(es,/Material de clase CECOT/);
+});
+
+test("la categoria de correspondència manté la guia existent dins d'exemples pràctics",()=>{
+  const html=renderPracticalExamplesHtml({correspondenceBank:correspondence,payrollBank:payroll,language:"ca",category:"correspondence"});
+  assert.match(html,/Correspondència comercial/);
+  assert.match(html,/Estructura d’una carta comercial/);
+  assert.equal((html.match(/correspondence-structure-item/g)||[]).length,10);
+});
