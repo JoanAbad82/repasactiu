@@ -30,6 +30,7 @@ function chronologicalQuestion(question,blockId,traceability){
     blockId,
     topic:question.topic,
     conceptId:question.topic,
+    chronologyConcept:question.topic,
     sourceRef
   };
 }
