@@ -311,20 +311,6 @@
       "explanation": "La fase de conflicte és normal i requereix escolta, diàleg i resolució constructiva."
     },
     {
-      "id": "u2b1-059",
-      "block": "unitat-2-bloc-1",
-      "topic": "Fases del treball en equip",
-      "question": "En quina fase els rols i normes estan més clars i augmenten confiança i cooperació?",
-      "options": [
-        "Formació",
-        "Conflicte",
-        "Normalització",
-        "Rendiment inicial"
-      ],
-      "correct": 2,
-      "explanation": "En la normalització el grup supera progressivament conflictes i consolida una manera compartida de treballar."
-    },
-    {
       "id": "u2b1-060",
       "block": "unitat-2-bloc-1",
       "topic": "Fases del treball en equip",
@@ -661,20 +647,6 @@
       "explanation": "La unitat destaca que l’equip funciona quan els membres s’ajuden i comparteixen informació, no només quan reparteixen tasques."
     },
     {
-      "id": "u2b1-126",
-      "block": "unitat-2-bloc-1",
-      "topic": "Treball en equip",
-      "question": "Quina afirmació diferencia millor un equip coordinat d’una simple suma de treballs individuals?",
-      "options": [
-        "Totes les persones han de fer exactament la mateixa funció",
-        "Hi ha relació, coordinació i col·laboració entre els membres",
-        "El líder ha d’assumir totes les decisions",
-        "No cal compartir objectius"
-      ],
-      "correct": 1,
-      "explanation": "Un bon equip no es basa només en repartir feina: necessita relació, coordinació, ajuda i col·laboració entre els membres."
-    },
-    {
       "id": "u2b1-127",
       "block": "unitat-2-bloc-1",
       "topic": "Treball en equip",
@@ -969,6 +941,20 @@
       "explanation": "El suport administratiu requereix coordinació entre les persones i els departaments, a més de procediments, terminis, ordre i confidencialitat."
     },
     {
+      "id": "u2b1-126",
+      "block": "unitat-2-bloc-1",
+      "topic": "Grup i equip de treball",
+      "question": "Quina diferència descriu millor un grup de treball i un equip de treball segons el material?",
+      "options": [
+        "En un grup hi ha responsabilitat conjunta i molta interdependència, mentre que en un equip cadascú respon principalment de la seva tasca",
+        "En un grup cada persona respon principalment de la seva tasca i la coordinació pot ser menor; en un equip hi ha objectiu compartit, responsabilitat conjunta i tasques coordinades",
+        "Grup i equip funcionen de la mateixa manera perquè en tots dos el resultat depèn principalment dels treballs individuals",
+        "En un grup les habilitats es complementen i el resultat depèn del treball conjunt; en un equip la coordinació és menor"
+      ],
+      "correct": 1,
+      "explanation": "El material diferencia el grup, on cada persona respon principalment de la seva tasca i la coordinació pot ser menor, de l’equip, que comparteix objectiu i responsabilitat i coordina tasques i habilitats."
+    },
+    {
       "id": "u2b1-080",
       "block": "unitat-2-bloc-1",
       "topic": "Equip i sinergia",
@@ -981,6 +967,76 @@
       ],
       "correct": 3,
       "explanation": "La unitat defineix la sinergia com el guany que apareix quan la col·laboració produeix un resultat superior a la suma dels esforços individuals."
+    },
+    {
+      "id": "u2b1-081",
+      "block": "unitat-2-bloc-1",
+      "topic": "Valors ètics professionals",
+      "question": "Una persona tracta correctament els companys, clients i altres persones amb qui treballa. Quin valor ètic professional aplica principalment?",
+      "options": [
+        "Respecte",
+        "Honestedat",
+        "Confidencialitat",
+        "Compromís"
+      ],
+      "correct": 0,
+      "explanation": "El material defineix el respecte com tractar correctament totes les persones."
+    },
+    {
+      "id": "u2b1-086",
+      "block": "unitat-2-bloc-1",
+      "topic": "Incorporació al grup",
+      "question": "Quin conjunt d’accions facilita millor la integració d’una persona nova a l’equip segons el material?",
+      "options": [
+        "Presentar-la i deixar que aprengui per observació les normes, els procediments i les responsabilitats",
+        "Presentar-la, explicar objectius, normes i procediments, assignar funcions i responsabilitats, indicar amb qui s’ha de coordinar i oferir suport durant l’adaptació",
+        "Assignar-li totes les tasques del lloc des del primer moment i explicar els procediments quan aparegui una incidència",
+        "Explicar els objectius generals del grup i ajornar l’assignació de funcions i la coordinació fins al final de l’adaptació"
+      ],
+      "correct": 1,
+      "explanation": "La integració requereix presentació, informació sobre objectius, normes i procediments, funcions clares, referents de coordinació i suport durant l’adaptació."
+    },
+    {
+      "id": "u2b1-017",
+      "block": "unitat-2-bloc-1",
+      "topic": "Procediments de treball",
+      "question": "Un procediment ofereix recorreguts diferents segons la resposta obtinguda en cada pas. De quin tipus és?",
+      "options": [
+        "Ramificat",
+        "Lineal",
+        "Autocràtic",
+        "Normalitzat per habilitats"
+      ],
+      "correct": 0,
+      "explanation": "Els procediments ramificats canvien el recorregut segons decisions o condicions."
+    },
+    {
+      "id": "u2b1-098",
+      "block": "unitat-2-bloc-1",
+      "topic": "Control de les instruccions",
+      "question": "En quins tres moments es pot controlar l’aplicació de les instruccions segons el material?",
+      "options": [
+        "Abans de començar i en finalitzar, sense fer comprovacions durant l’execució",
+        "Abans de començar, durant la realització i en finalitzar",
+        "Durant la realització quan hi ha una incidència i després de tancar la tasca",
+        "En finalitzar, revisant el resultat quan el procés ja s’ha completat"
+      ],
+      "correct": 1,
+      "explanation": "El control pot fer-se abans de començar, durant la realització i en finalitzar."
+    },
+    {
+      "id": "u2b1-059",
+      "block": "unitat-2-bloc-1",
+      "topic": "Fases del treball en equip",
+      "question": "En quina fase els rols i normes estan més clars i augmenten confiança i cooperació?",
+      "options": [
+        "Formació",
+        "Conflicte",
+        "Normalització",
+        "Rendiment inicial"
+      ],
+      "correct": 2,
+      "explanation": "En la normalització el grup supera progressivament conflictes i consolida una manera compartida de treballar."
     }
   ]
 }

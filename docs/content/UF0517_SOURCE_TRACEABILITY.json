@@ -147,6 +147,46 @@
       ],
       "status": "CORRECTED",
       "reason": "Redundant question slot replaced with a source-backed underrepresented concept while preserving the question ID and correct-option index."
+    },
+    {
+      "id": "u2b1-086",
+      "source": "U2B1",
+      "pageRange": [
+        110,
+        110
+      ],
+      "status": "CORRECTED",
+      "reason": "Coverage-gap promotion aligned the test item with an audited late-U2 concept while preserving ID and correct-option index."
+    },
+    {
+      "id": "u2b1-098",
+      "source": "U2B1",
+      "pageRange": [
+        112,
+        112
+      ],
+      "status": "CORRECTED",
+      "reason": "Coverage-gap promotion aligned the test item with an audited late-U2 concept while preserving ID and correct-option index."
+    },
+    {
+      "id": "u2b1-081",
+      "source": "U2B1",
+      "pageRange": [
+        109,
+        109
+      ],
+      "status": "CORRECTED",
+      "reason": "Coverage-gap promotion aligned the test item with an audited late-U2 concept while preserving ID and correct-option index."
+    },
+    {
+      "id": "u2b1-126",
+      "source": "U2B1",
+      "pageRange": [
+        106,
+        106
+      ],
+      "status": "CORRECTED",
+      "reason": "Coverage-gap promotion aligned the test item with an audited late-U2 concept while preserving ID and correct-option index."
     }
   ],
   "corrections": [
@@ -239,12 +279,32 @@
       ],
       "status": "CORRECTED",
       "reason": "Protected historical question slot is replaced at the audited correction layer with a source-backed underrepresented concept; raw historical bytes and the correct-option index remain unchanged."
+    },
+    {
+      "id": "u2b1-059",
+      "source": "U2B1",
+      "pageRange": [
+        113,
+        113
+      ],
+      "status": "CORRECTED",
+      "reason": "Protected historical slot promoted through the audited correction layer to an underrepresented late-U2 concept; raw historical content remains unchanged."
+    },
+    {
+      "id": "u2b1-017",
+      "source": "U2B1",
+      "pageRange": [
+        111,
+        111
+      ],
+      "status": "CORRECTED",
+      "reason": "Protected historical slot promoted through the audited correction layer to an underrepresented late-U2 concept; raw historical content remains unchanged."
     }
   ],
   "review": {
     "questionCount": 510,
     "method": "Question, marked correct option and explanation reviewed against the authorized PDF for its block/topic; the 2026-09-19 editorial audit also verifies self-contained wording for study-card reuse and records source-backed corrections explicitly.",
-    "semanticCorrections": 9,
+    "semanticCorrections": 11,
     "residualGuarantee": "Technical invariants are exhaustive. Academic correctness is source-audited to high assurance but is not a mathematical proof of zero interpretation error.",
     "teacherValidatedSourcesDate": "2026-09-24"
   }

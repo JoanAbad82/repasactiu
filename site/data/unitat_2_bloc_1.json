@@ -171,20 +171,6 @@
       "explanation": "La normalització de processos estableix passos i instruccions comuns i ajuda a evitar errors."
     },
     {
-      "id": "u2b1-081",
-      "block": "unitat-2-bloc-1",
-      "topic": "Coordinació",
-      "question": "Dues persones d’una oficina ajusten entre elles el repartiment d’una feina parlant i ajudant-se, sense esperar instruccions constants. Quin mecanisme predomina?",
-      "options": [
-        "Adaptació mútua",
-        "Supervisió directa",
-        "Normalització de resultats",
-        "Normalització d’habilitats"
-      ],
-      "correct": 0,
-      "explanation": "L’adaptació mútua coordina les persones mitjançant comunicació directa i ajuda recíproca, sense supervisió constant."
-    },
-    {
       "id": "u2b1-082",
       "block": "unitat-2-bloc-1",
       "topic": "Coordinació",
@@ -311,20 +297,6 @@
       "explanation": "Els procediments lineals segueixen una seqüència única i ordenada."
     },
     {
-      "id": "u2b1-017",
-      "block": "unitat-2-bloc-1",
-      "topic": "Procediments de treball",
-      "question": "Un procediment ofereix recorreguts diferents segons la resposta obtinguda en cada pas. De quin tipus és?",
-      "options": [
-        "Ramificat",
-        "Lineal",
-        "Autocràtic",
-        "Normalitzat per habilitats"
-      ],
-      "correct": 0,
-      "explanation": "Els procediments ramificats canvien el recorregut segons decisions o condicions."
-    },
-    {
       "id": "u2b1-085",
       "block": "unitat-2-bloc-1",
       "topic": "Procediments de treball",
@@ -337,20 +309,6 @@
       ],
       "correct": 0,
       "explanation": "Un procediment és una sèrie de passos definits de manera clara i coherent que permeten treballar i coordinar-se per assolir objectius."
-    },
-    {
-      "id": "u2b1-086",
-      "block": "unitat-2-bloc-1",
-      "topic": "Procediments de treball",
-      "question": "Un tràmit segueix sempre A → B → C → D, sense bifurcacions segons les respostes. Quin tipus de procediment és?",
-      "options": [
-        "Ramificat",
-        "Lineal",
-        "Participatiu",
-        "Informal"
-      ],
-      "correct": 1,
-      "explanation": "Un procediment lineal segueix una única seqüència de passos en un ordre establert."
     },
     {
       "id": "u2b1-087",

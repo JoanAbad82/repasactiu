@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "questions": {
     "b2-037": {
       "canonical": {
@@ -215,6 +215,64 @@
         "type": "idea",
         "ca": "Rols diferents + equilibri + coordinació = valor per al grup.",
         "es": "Roles diferentes + equilibrio + coordinación = valor para el grupo."
+      }
+    },
+    "u2b1-059": {
+      "canonical": {
+        "topic": "Coordinació interdepartamental",
+        "question": "Què cal determinar per coordinar correctament una activitat entre departaments?",
+        "options": [
+          "El pressupost general i els horaris complets de totes les persones dels departaments implicats",
+          "La informació a compartir i el canal, deixant el termini i la responsabilitat per al desenvolupament de la tasca",
+          "La informació a compartir, qui l’envia i qui la rep, el canal, el termini i qui és responsable de cada tasca",
+          "Els noms dels departaments i la persona que inicia l’activitat, sense concretar el flux d’informació"
+        ],
+        "explanation": "La coordinació interdepartamental exigeix concretar informació, emissor i receptor, canal, termini i responsabilitat de cada tasca."
+      },
+      "es": {
+        "topic": "Coordinación interdepartamental",
+        "question": "¿Qué hay que determinar para coordinar correctamente una actividad entre departamentos?",
+        "options": [
+          "El presupuesto general y los horarios completos de todas las personas de los departamentos implicados",
+          "La información que se comparte y el canal, dejando el plazo y la responsabilidad para el desarrollo de la tarea",
+          "La información que se comparte, quién la envía y quién la recibe, el canal, el plazo y quién es responsable de cada tarea",
+          "Los nombres de los departamentos y la persona que inicia la actividad, sin concretar el flujo de información"
+        ],
+        "explanation": "La coordinación interdepartamental exige concretar información, emisor y receptor, canal, plazo y responsabilidad de cada tarea."
+      },
+      "memoryAid": {
+        "type": "idea",
+        "ca": "Coordinar departaments = informació + emissor/receptor + canal + termini + responsable.",
+        "es": "Coordinar departamentos = información + emisor/receptor + canal + plazo + responsable."
+      }
+    },
+    "u2b1-017": {
+      "canonical": {
+        "topic": "Grau d’autonomia",
+        "question": "Quina correspondència entre els graus d’autonomia és correcta?",
+        "options": [
+          "Baixa: segueix instruccions concretes i consulta incidències; mitjana: organitza algunes tasques i resol situacions habituals; alta: pren decisions dins del seu àmbit de responsabilitat",
+          "Baixa: pren decisions dins del seu àmbit; mitjana: consulta qualsevol incidència; alta: organitza tasques habituals",
+          "Baixa: organitza algunes tasques; mitjana: pren decisions sense límits; alta: segueix instruccions concretes",
+          "Baixa: resol situacions habituals; mitjana: consulta totes les incidències; alta: segueix instruccions sense decidir"
+        ],
+        "explanation": "L’autonomia baixa implica seguir instruccions i consultar incidències; la mitjana permet organitzar algunes tasques i resoldre situacions habituals; l’alta permet decidir dins del propi àmbit."
+      },
+      "es": {
+        "topic": "Grado de autonomía",
+        "question": "¿Qué correspondencia entre los grados de autonomía es correcta?",
+        "options": [
+          "Baja: sigue instrucciones concretas y consulta incidencias; media: organiza algunas tareas y resuelve situaciones habituales; alta: toma decisiones dentro de su ámbito de responsabilidad",
+          "Baja: toma decisiones dentro de su ámbito; media: consulta cualquier incidencia; alta: organiza tareas habituales",
+          "Baja: organiza algunas tareas; media: toma decisiones sin límites; alta: sigue instrucciones concretas",
+          "Baja: resuelve situaciones habituales; media: consulta todas las incidencias; alta: sigue instrucciones sin decidir"
+        ],
+        "explanation": "La autonomía baja implica seguir instrucciones y consultar incidencias; la media permite organizar algunas tareas y resolver situaciones habituales; la alta permite decidir dentro del propio ámbito."
+      },
+      "memoryAid": {
+        "type": "idea",
+        "ca": "Autonomia: baixa = segueix; mitjana = organitza/resol; alta = decideix dins del seu àmbit.",
+        "es": "Autonomía: baja = sigue; media = organiza/resuelve; alta = decide dentro de su ámbito."
       }
     }
   }

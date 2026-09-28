@@ -195,14 +195,14 @@
     },
     "u2b1-017": {
       "ca": [
-        "Un conjunt d’instruccions que orienta com s’ha d’actuar davant d’una situació concreta",
-        "Unes regles que delimiten què es pot fer dins del procés de treball",
-        "Una forma d’ordenar i controlar la feina per reduir errors i millorar la qualitat"
+        "Baixa: segueix instruccions concretes; mitjana: pren decisions fora del seu àmbit; alta: consulta qualsevol situació habitual",
+        "Baixa: resol situacions habituals; mitjana: segueix instruccions concretes; alta: organitza algunes tasques sense decidir",
+        "Baixa: organitza tasques; mitjana: consulta totes les incidències; alta: segueix instruccions concretes"
       ],
       "es": [
-        "Un conjunto de instrucciones que orienta cómo debe actuarse ante una situación concreta",
-        "Unas reglas que delimitan qué puede hacerse dentro del proceso de trabajo",
-        "Una forma de ordenar y controlar el trabajo para reducir errores y mejorar la calidad"
+        "Baja: sigue instrucciones concretas; media: toma decisiones fuera de su ámbito; alta: consulta cualquier situación habitual",
+        "Baja: resuelve situaciones habituales; media: sigue instrucciones concretas; alta: organiza algunas tareas sin decidir",
+        "Baja: organiza tareas; media: consulta todas las incidencias; alta: sigue instrucciones concretas"
       ]
     },
     "u2b1-018": {
@@ -699,14 +699,14 @@
     },
     "u2b1-059": {
       "ca": [
-        "Rendiment",
-        "Les persones es coneixen, intenten entendre els objectius i mantenen una comunicació prudent",
-        "Apareixen desacords sobre responsabilitats, manera de treballar o lideratge"
+        "La informació i el canal, però no el termini ni la persona responsable, perquè es poden concretar durant l’execució",
+        "El termini i la persona responsable, sense identificar qui envia o rep la informació",
+        "Els departaments implicats i els recursos disponibles, sense concretar el flux d’informació"
       ],
       "es": [
-        "Rendimiento",
-        "Las personas se conocen, intentan entender los objetivos y mantienen una comunicación prudente",
-        "Aparecen desacuerdos sobre responsabilidades, forma de trabajar o liderazgo"
+        "La información y el canal, pero no el plazo ni la persona responsable, porque pueden concretarse durante la ejecución",
+        "El plazo y la persona responsable, sin identificar quién envía o recibe la información",
+        "Los departamentos implicados y los recursos disponibles, sin concretar el flujo de información"
       ]
     },
     "u2b1-060": {
@@ -963,14 +963,14 @@
     },
     "u2b1-081": {
       "ca": [
-        "Supervisió directa",
-        "Normalització dels processos de treball",
-        "Normalització dels resultats"
+        "Responsabilitat",
+        "Cooperació",
+        "Professionalitat"
       ],
       "es": [
-        "Supervisión directa",
-        "Normalización de los procesos de trabajo",
-        "Normalización de los resultados"
+        "Responsabilidad",
+        "Cooperación",
+        "Profesionalidad"
       ]
     },
     "u2b1-082": {
@@ -1023,14 +1023,14 @@
     },
     "u2b1-086": {
       "ca": [
-        "Un recorregut amb alternatives diferents segons el resultat obtingut en cada pas",
-        "Un conjunt d’instruccions que orienta com s’ha d’actuar davant d’una situació concreta",
-        "Unes regles que delimiten què es pot fer dins del procés de treball"
+        "Presentar-la, explicar els objectius i assignar funcions, deixant les normes i els procediments per a una fase posterior",
+        "Explicar normes i procediments i oferir suport, però sense assignar responsabilitats concretes durant l’adaptació",
+        "Assignar funcions i indicar amb qui coordinar-se, sense explicar els objectius del grup ni els procediments de treball"
       ],
       "es": [
-        "Un recorrido con alternativas diferentes según el resultado obtenido en cada paso",
-        "Un conjunto de instrucciones que orienta cómo debe actuarse ante una situación concreta",
-        "Unas reglas que delimitan qué puede hacerse dentro del proceso de trabajo"
+        "Presentarla, explicar los objetivos y asignar funciones, dejando las normas y los procedimientos para una fase posterior",
+        "Explicar normas y procedimientos y ofrecer apoyo, pero sin asignar responsabilidades concretas durante la adaptación",
+        "Asignar funciones e indicar con quién coordinarse, sin explicar los objetivos del grupo ni los procedimientos de trabajo"
       ]
     },
     "u2b1-087": {
@@ -1167,14 +1167,14 @@
     },
     "u2b1-098": {
       "ca": [
-        "Important",
-        "Poc important",
-        "Rutina"
+        "Abans de començar i al final, deixant el seguiment de l’execució per a situacions excepcionals",
+        "Durant la realització i al final, sense una comprovació prèvia de les instruccions i els recursos",
+        "Quan apareix una incidència i en la revisió final, sense un control planificat en altres moments"
       ],
       "es": [
-        "Importante",
-        "Poco importante",
-        "Rutina"
+        "Antes de empezar y al final, dejando el seguimiento de la ejecución para situaciones excepcionales",
+        "Durante la realización y al final, sin una comprobación previa de las instrucciones y los recursos",
+        "Cuando aparece una incidencia y en la revisión final, sin un control planificado en otros momentos"
       ]
     },
     "u2b1-099": {
@@ -1503,14 +1503,14 @@
     },
     "u2b1-126": {
       "ca": [
-        "La coordinació es limita al repartiment inicial i després cada membre treballa per separat",
-        "Comparteixen l’objectiu final, però les decisions i la informació es mantenen dins de cada funció",
-        "El responsable centralitza la informació i distribueix instruccions entre especialistes que no interactuen entre ells"
+        "En un grup hi ha més interdependència i responsabilitat conjunta que en un equip, que funciona sobretot amb treballs individuals",
+        "La diferència principal és que el grup es coordina per jerarquia i l’equip es coordina sense responsabilitat compartida",
+        "Un equip es diferencia sobretot perquè té més membres, mentre la responsabilitat i la coordinació es mantenen igual"
       ],
       "es": [
-        "La coordinación se limita al reparto inicial y después cada miembro trabaja por separado",
-        "Comparten el objetivo final, pero las decisiones y la información se mantienen dentro de cada función",
-        "El responsable centraliza la información y distribuye instrucciones entre especialistas que no interactúan entre ellos"
+        "En un grupo hay más interdependencia y responsabilidad conjunta que en un equipo, que funciona sobre todo con trabajos individuales",
+        "La diferencia principal es que el grupo se coordina por jerarquía y el equipo se coordina sin responsabilidad compartida",
+        "Un equipo se diferencia sobre todo porque tiene más miembros, mientras la responsabilidad y la coordinación se mantienen igual"
       ]
     },
     "u2b1-127": {

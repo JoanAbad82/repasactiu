@@ -3,15 +3,15 @@
   "blockTitle": "La organización de actividades de apoyo administrativo",
   "questions": {
     "u2b1-081": {
-      "topic": "Coordinación",
-      "question": "Dos personas de una oficina ajustan entre ellas el reparto de un trabajo hablando y ayudándose, sin esperar instrucciones constantes. ¿Qué mecanismo predomina?",
+      "topic": "Valores éticos profesionales",
+      "question": "Una persona trata correctamente a compañeros, clientes y demás personas con las que trabaja. ¿Qué valor ético profesional aplica principalmente?",
       "options": [
-        "Adaptación mutua",
-        "Supervisión directa",
-        "Normalización de resultados",
-        "Normalización de habilidades"
+        "Respeto",
+        "Honestidad",
+        "Confidencialidad",
+        "Compromiso"
       ],
-      "explanation": "La adaptación mutua coordina a las personas mediante comunicación directa y ayuda recíproca, sin supervisión constante."
+      "explanation": "El material define el respeto como tratar correctamente a todas las personas."
     },
     "u2b1-082": {
       "topic": "Coordinación",
@@ -58,15 +58,15 @@
       "explanation": "Un procedimiento es una serie de pasos definidos de forma clara y coherente que permiten trabajar y coordinarse para alcanzar objetivos."
     },
     "u2b1-086": {
-      "topic": "Procedimientos de trabajo",
-      "question": "Un trámite sigue siempre A → B → C → D, sin bifurcaciones según las respuestas. ¿Qué tipo de procedimiento es?",
+      "topic": "Incorporación al grupo",
+      "question": "¿Qué conjunto de acciones facilita mejor la integración de una persona nueva en el equipo según el material?",
       "options": [
-        "Ramificado",
-        "Lineal",
-        "Participativo",
-        "Informal"
+        "Presentarla y dejar que aprenda por observación las normas, los procedimientos y las responsabilidades",
+        "Presentarla, explicar objetivos, normas y procedimientos, asignar funciones y responsabilidades, indicar con quién debe coordinarse y ofrecer apoyo durante la adaptación",
+        "Asignarle todas las tareas del puesto desde el primer momento y explicar los procedimientos cuando aparezca una incidencia",
+        "Explicar los objetivos generales del grupo y aplazar la asignación de funciones y la coordinación hasta el final de la adaptación"
       ],
-      "explanation": "Un procedimiento lineal sigue una única secuencia de pasos en un orden establecido."
+      "explanation": "La integración requiere presentación, información sobre objetivos, normas y procedimientos, funciones claras, referentes de coordinación y apoyo durante la adaptación."
     },
     "u2b1-087": {
       "topic": "Procedimientos de trabajo",
@@ -190,15 +190,15 @@
       "explanation": "Las tareas importantes son imprescindibles para los objetivos y solo puede abordarlas la persona correspondiente."
     },
     "u2b1-098": {
-      "topic": "Clasificación de tareas",
-      "question": "Una actividad es relevante, pero puede posponerse un poco o delegarse en otra persona. ¿Cómo se clasifica?",
+      "topic": "Control de las instrucciones",
+      "question": "¿En qué tres momentos se puede controlar la aplicación de las instrucciones según el material?",
       "options": [
-        "Poco importante",
-        "Normal",
-        "Proyecto en curso",
-        "Planificación y desarrollo"
+        "Antes de empezar y al finalizar, sin hacer comprobaciones durante la ejecución",
+        "Antes de empezar, durante la realización y al finalizar",
+        "Durante la realización cuando hay una incidencia y después de cerrar la tarea",
+        "Al finalizar, revisando el resultado cuando el proceso ya se ha completado"
       ],
-      "explanation": "Las tareas normales son importantes, pero pueden aplazarse un corto periodo o delegarse."
+      "explanation": "El control puede hacerse antes de empezar, durante la realización y al finalizar."
     },
     "u2b1-099": {
       "topic": "Duración de tareas",
@@ -498,15 +498,15 @@
       "explanation": "La unidad destaca que el equipo funciona cuando los miembros se ayudan y comparten información, no solo cuando reparten tareas."
     },
     "u2b1-126": {
-      "topic": "Trabajo en equipo",
-      "question": "¿Qué afirmación diferencia mejor un equipo coordinado de una simple suma de trabajos individuales?",
+      "topic": "Grupo y equipo de trabajo",
+      "question": "¿Qué diferencia describe mejor un grupo de trabajo y un equipo de trabajo según el material?",
       "options": [
-        "Todas las personas deben hacer exactamente la misma función",
-        "Hay relación, coordinación y colaboración entre los miembros",
-        "El líder debe asumir todas las decisiones",
-        "No hace falta compartir objetivos"
+        "En un grupo hay responsabilidad conjunta y mucha interdependencia, mientras que en un equipo cada persona responde principalmente de su tarea",
+        "En un grupo cada persona responde principalmente de su tarea y la coordinación puede ser menor; en un equipo hay objetivo compartido, responsabilidad conjunta y tareas coordinadas",
+        "Grupo y equipo funcionan de la misma manera porque en ambos el resultado depende principalmente de los trabajos individuales",
+        "En un grupo las habilidades se complementan y el resultado depende del trabajo conjunto; en un equipo la coordinación es menor"
       ],
-      "explanation": "Un buen equipo no se basa solo en repartir trabajo: necesita relación, coordinación, ayuda y colaboración entre los miembros."
+      "explanation": "El material diferencia el grupo, donde cada persona responde principalmente de su tarea y la coordinación puede ser menor, del equipo, que comparte objetivo y responsabilidad y coordina tareas y habilidades."
     },
     "u2b1-127": {
       "topic": "Trabajo en equipo",

@@ -2348,6 +2348,14 @@
       "es": {
         "question": "¿Qué tres elementos resumen el principio básico de protección de datos en el archivo?"
       }
+    },
+    "u2b1-086": {
+      "ca": {
+        "question": "Quines accions bàsiques faciliten la integració d’una persona nova a l’equip?"
+      },
+      "es": {
+        "question": "¿Qué acciones básicas facilitan la integración de una persona nueva en el equipo?"
+      }
     }
   }
 }
