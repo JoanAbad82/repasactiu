@@ -267,14 +267,14 @@
     },
     "b5-023": {
       "ca": [
-        "El Banc Central Europeu",
-        "La Comissió Europea",
-        "El Tribunal de Justícia de la UE"
+        "La Comissió Europea, perquè vetlla per l’aplicació correcta del dret de la UE",
+        "El Tribunal de Comptes Europeu, perquè controla la gestió dels recursos econòmics de la UE",
+        "El Consell de la Unió Europea, perquè negocia i adopta legislació amb el Parlament"
       ],
       "es": [
-        "El Banco Central Europeo",
-        "La Comisión Europea",
-        "El Tribunal de Justicia de la UE"
+        "La Comisión Europea, porque vela por la correcta aplicación del derecho de la UE",
+        "El Tribunal de Cuentas Europeo, porque controla la gestión de los recursos económicos de la UE",
+        "El Consejo de la Unión Europea, porque negocia y adopta legislación con el Parlamento"
       ]
     },
     "b5-024": {
@@ -675,14 +675,14 @@
     },
     "b5-057": {
       "ca": [
-        "Consell de la UE, com a colegislador que representa els Estats membres",
-        "Parlament Europeu, com a colegislador elegit directament",
-        "Consell Europeu, com a òrgan de direcció política general"
+        "Els ministres competents dels Estats membres, reunits en diferents formacions segons l’àmbit",
+        "Els representants elegits directament per la ciutadania de la UE cada cinc anys",
+        "Els comissaris designats pels Estats membres juntament amb els jutges del TJUE"
       ],
       "es": [
-        "Consejo de la UE, como colegislador que representa a los Estados miembros",
-        "Parlamento Europeo, como colegislador elegido directamente",
-        "Consejo Europeo, como órgano de dirección política general"
+        "Los ministros competentes de los Estados miembros, reunidos en distintas formaciones según el ámbito",
+        "Los representantes elegidos directamente por la ciudadanía de la UE cada cinco años",
+        "Los comisarios designados por los Estados miembros junto con los jueces del TJUE"
       ]
     },
     "b5-058": {
@@ -783,14 +783,14 @@
     },
     "b5-066": {
       "ca": [
-        "Consell de la UE, perquè representa els governs i participa en l’aprovació de normes",
-        "Comissió Europea, perquè proposa legislació i defensa l’interès general de la Unió",
-        "Consell Europeu, perquè fixa les grans orientacions polítiques de la UE"
+        "Definir les orientacions i prioritats polítiques generals de la UE, funció pròpia del Consell Europeu",
+        "Vetllar per l’aplicació correcta del dret de la UE, funció atribuïda a la Comissió Europea",
+        "Controlar la correcta gestió dels recursos econòmics de la UE, funció del Tribunal de Comptes Europeu"
       ],
       "es": [
-        "Consejo de la UE, porque representa a los gobiernos y participa en la aprobación de normas",
-        "Comisión Europea, porque propone legislación y defiende el interés general de la Unión",
-        "Consejo Europeo, porque fija las grandes orientaciones políticas de la UE"
+        "Definir las orientaciones y prioridades políticas generales de la UE, función propia del Consejo Europeo",
+        "Velar por la correcta aplicación del derecho de la UE, función atribuida a la Comisión Europea",
+        "Controlar la correcta gestión de los recursos económicos de la UE, función del Tribunal de Cuentas Europeo"
       ]
     },
     "b5-067": {

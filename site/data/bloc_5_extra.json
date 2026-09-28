@@ -216,15 +216,15 @@
       "id": "b5-066",
       "block": "bloc-5",
       "topic": "Parlament Europeu",
-      "question": "Quina institució de la UE representa directament la ciutadania de la Unió i comparteix funcions legislatives amb el Consell?",
+      "question": "A més de les funcions legislativa i pressupostària, quina altra funció atribueix el material al Parlament Europeu?",
       "options": [
-        "Comissió Europea",
-        "Parlament Europeu",
-        "Consell Europeu",
-        "Tribunal de Comptes Europeu"
+        "Dirigir la política monetària de la zona euro",
+        "Exercir funcions de control polític",
+        "Interpretar de manera definitiva el dret de la UE",
+        "Controlar la gestió dels recursos econòmics de la UE"
       ],
       "correct": 1,
-      "explanation": "El Parlament Europeu representa la ciutadania de la UE i exerceix conjuntament amb el Consell funcions legislatives i pressupostàries."
+      "explanation": "El material indica que el Parlament Europeu exerceix, a més de funcions legislativa i pressupostària, funcions de control polític."
     },
     {
       "id": "b5-018",

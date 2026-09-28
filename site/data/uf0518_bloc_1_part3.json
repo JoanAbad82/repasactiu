@@ -202,15 +202,15 @@
       "id": "uf0518-b1-047",
       "block": "uf0518-bloc-1",
       "topic": "Estructura de la carta",
-      "question": "Quina funció té el paràgraf d’obertura del cos d’una carta?",
+      "question": "Quin contingut correspon al paràgraf de tancament del cos d’una carta comercial segons el model del material?",
       "options": [
-        "Incloure la signatura",
-        "Identificar els annexos",
-        "Explicar el motiu de la carta",
-        "Posar les dades del destinatari"
+        "La salutació inicial i les dades del remitent",
+        "La signatura, el càrrec i la relació d’annexos",
+        "Condicions addicionals, com preus unitaris, terminis de lliurament o descomptes",
+        "La data límit de resposta i una via de contacte"
       ],
       "correct": 2,
-      "explanation": "El paràgraf d’obertura explica el motiu pel qual s’escriu la carta."
+      "explanation": "El model situa al paràgraf de tancament del cos les condicions addicionals, com preus unitaris, terminis de lliurament, descomptes o ofertes; la data límit i el contacte corresponen al paràgraf final."
     },
     {
       "id": "uf0518-b1-048",

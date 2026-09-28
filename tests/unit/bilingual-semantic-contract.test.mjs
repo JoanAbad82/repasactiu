@@ -7,6 +7,6 @@ test('totes les preguntes publicades compleixen el contracte bilingüe i editori
   assert.equal(result.questions,842);
   assert.equal(result.translations,result.questions);
   assert.equal(result.memoryAids,result.questions);
-  assert.equal(result.corrections,6);
+  assert.equal(result.corrections,9);
   assert.deepEqual(result.errors,[]);
 });

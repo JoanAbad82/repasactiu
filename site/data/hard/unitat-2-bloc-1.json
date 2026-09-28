@@ -771,14 +771,14 @@
     },
     "u2b1-065": {
       "ca": [
-        "Guiar l’equip, facilitar decisions, repartir tasques i fer seguiment del treball",
-        "Ordenar informació, planificar tasques i controlar terminis",
-        "Aportar coneixements especialitzats, analitzar informació i resoldre dubtes tècnics"
+        "Els rols funcionen millor quan tots els membres assumeixen la mateixa funció i responsabilitat",
+        "La diversitat de rols és útil només en equips grans; en equips petits s’ha d’eliminar",
+        "Els rols aporten valor principalment quan no hi ha coordinació i cada persona actua de manera independent"
       ],
       "es": [
-        "Guiar al equipo, facilitar decisiones, repartir tareas y hacer seguimiento del trabajo",
-        "Ordenar información, planificar tareas y controlar plazos",
-        "Aportar conocimientos especializados, analizar información y resolver dudas técnicas"
+        "Los roles funcionan mejor cuando todos los miembros asumen la misma función y responsabilidad",
+        "La diversidad de roles es útil solo en equipos grandes; en equipos pequeños debe eliminarse",
+        "Los roles aportan valor principalmente cuando no existe coordinación y cada persona actúa de forma independiente"
       ]
     },
     "u2b1-066": {
@@ -1035,14 +1035,14 @@
     },
     "u2b1-087": {
       "ca": [
-        "Un conjunt d’instruccions que orienta com s’ha d’actuar davant d’una situació concreta",
-        "Unes regles que delimiten què es pot fer dins del procés de treball",
-        "Una forma d’ordenar i controlar la feina per reduir errors i millorar la qualitat"
+        "Una relació d’objectius que indica què s’ha d’aconseguir, però no els passos ni la coordinació necessària",
+        "Un protocol de control aplicat al final del procés per comprovar els resultats obtinguts",
+        "Un conjunt de regles generals que orienten la feina sense establir una seqüència de passos"
       ],
       "es": [
-        "Un conjunto de instrucciones que orienta cómo debe actuarse ante una situación concreta",
-        "Unas reglas que delimitan qué puede hacerse dentro del proceso de trabajo",
-        "Una forma de ordenar y controlar el trabajo para reducir errores y mejorar la calidad"
+        "Una relación de objetivos que indica qué debe conseguirse, pero no los pasos ni la coordinación necesaria",
+        "Un protocolo de control aplicado al final del proceso para comprobar los resultados obtenidos",
+        "Un conjunto de reglas generales que orientan el trabajo sin establecer una secuencia de pasos"
       ]
     },
     "u2b1-088": {

@@ -356,15 +356,15 @@
       "id": "u2b1-087",
       "block": "unitat-2-bloc-1",
       "topic": "Procediments de treball",
-      "question": "En un procés, si falta documentació es demana una esmena i, si és completa, es continua directament. Quin tipus de procediment representa millor aquesta lògica?",
+      "question": "Quina definició de procediment recull el material?",
       "options": [
-        "Lineal",
-        "Normalitzat per habilitats",
-        "Ramificat",
-        "Supervisió directa"
+        "Una llista flexible d’idees que cada persona aplica segons el seu criteri",
+        "Un conjunt d’objectius generals sense indicar com s’ha de desenvolupar la feina",
+        "Una sèrie de passos definits de manera clara i coherent que permet treballar i coordinar correctament per assolir els objectius",
+        "Un sistema de control que només s’utilitza quan ja s’ha acabat la tasca"
       ],
       "correct": 2,
-      "explanation": "Un procediment ramificat ofereix recorreguts diferents segons les decisions o condicions que apareixen durant el procés."
+      "explanation": "El material defineix un procediment com una sèrie de passos clars i coherents que permeten treballar i coordinar correctament per assolir els objectius establerts."
     },
     {
       "id": "u2b1-088",

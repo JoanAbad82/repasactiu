@@ -91,15 +91,15 @@
       "explanation": "La comercialización se orienta a dar a conocer y promocionar la oferta, mientras que ventas se ocupa de la actividad de venta."
     },
     "b1-051": {
-      "topic": "Entidades públicas y privadas",
-      "question": "Un servicio es creado y gestionado por un ayuntamiento, presta una actividad de interés general y se financia principalmente con tasas y presupuesto público. ¿Cómo debe clasificarse?",
+      "topic": "Organización empresarial",
+      "question": "Una empresa está definiendo cómo funcionar antes de iniciar la actividad. Además de fijar los objetivos, ¿qué dos elementos indica el material que deben concretarse?",
       "options": [
-        "Entidad pública",
-        "Entidad privada lucrativa",
-        "Entidad privada no lucrativa",
-        "Cooperativa privada"
+        "Las líneas de organización y el proceso de producción",
+        "Los canales de atención al cliente y el sistema de ventas",
+        "La política de precios y las acciones publicitarias",
+        "La forma jurídica y los impuestos del ejercicio"
       ],
-      "explanation": "Una entidad creada o gestionada por una administración, financiada principalmente con recursos públicos y orientada al interés general es una entidad pública."
+      "explanation": "El material indica que, además de los objetivos, deben definirse las líneas de organización y el proceso de producción."
     },
     "b1-052": {
       "topic": "Función de dirección",

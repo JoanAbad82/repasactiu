@@ -70,14 +70,14 @@
     },
     "u2b1-087": {
       "topic": "Procedimientos de trabajo",
-      "question": "En un proceso, si falta documentación se pide una subsanación y, si está completa, se continúa directamente. ¿Qué tipo de procedimiento representa mejor esta lógica?",
+      "question": "¿Qué definición de procedimiento recoge el material?",
       "options": [
-        "Lineal",
-        "Normalizado por habilidades",
-        "Ramificado",
-        "Supervisión directa"
+        "Una lista flexible de ideas que cada persona aplica según su criterio",
+        "Un conjunto de objetivos generales sin indicar cómo debe desarrollarse el trabajo",
+        "Una serie de pasos definidos de forma clara y coherente que permite trabajar y coordinar correctamente para alcanzar los objetivos",
+        "Un sistema de control que solo se utiliza cuando ya se ha terminado la tarea"
       ],
-      "explanation": "Un procedimiento ramificado ofrece recorridos diferentes según las decisiones o condiciones que aparecen durante el proceso."
+      "explanation": "El material define un procedimiento como una serie de pasos claros y coherentes que permiten trabajar y coordinar correctamente para alcanzar los objetivos establecidos."
     },
     "u2b1-088": {
       "topic": "Procedimientos de trabajo",

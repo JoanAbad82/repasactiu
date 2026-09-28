@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "questions": {
     "b2-037": {
       "canonical": {
@@ -128,6 +128,93 @@
           "Un conjunto de comportamientos esperados asociados a una posición dentro de una unidad social",
           "El grado de atracción y unión que favorece que los miembros permanezcan vinculados al grupo"
         ]
+      }
+    },
+    "b2-012": {
+      "canonical": {
+        "topic": "Estructura jurídica",
+        "question": "Quina característica jurídica de les societats destaca el material respecte de les persones sòcies?",
+        "options": [
+          "La societat disposa de personalitat jurídica pròpia, diferenciada de la dels seus socis",
+          "La societat comparteix necessàriament la mateixa personalitat jurídica que el soci amb més capital",
+          "La personalitat jurídica correspon només als administradors designats i no a la societat",
+          "La societat només adquireix personalitat jurídica pròpia quan tots els socis participen en la gestió"
+        ],
+        "explanation": "El material indica que, en les formes societàries habituals, la societat disposa d’una personalitat jurídica pròpia diferenciada de la dels seus socis."
+      },
+      "es": {
+        "topic": "Estructura jurídica",
+        "question": "¿Qué característica jurídica de las sociedades destaca el material respecto de las personas socias?",
+        "options": [
+          "La sociedad dispone de personalidad jurídica propia, diferenciada de la de sus socios",
+          "La sociedad comparte necesariamente la misma personalidad jurídica que el socio con más capital",
+          "La personalidad jurídica corresponde solo a los administradores designados y no a la sociedad",
+          "La sociedad solo adquiere personalidad jurídica propia cuando todos los socios participan en la gestión"
+        ],
+        "explanation": "El material indica que, en las formas societarias habituales, la sociedad dispone de personalidad jurídica propia diferenciada de la de sus socios."
+      },
+      "memoryAid": {
+        "type": "idea",
+        "ca": "Societat = personalitat jurídica pròpia, diferenciada de la dels socis.",
+        "es": "Sociedad = personalidad jurídica propia, diferenciada de la de los socios."
+      }
+    },
+    "b5-023": {
+      "canonical": {
+        "topic": "Institucions de la UE",
+        "question": "En determinats procediments d’incompliment del dret de la UE, quina institució pot imposar sancions econòmiques als Estats membres?",
+        "options": [
+          "El Tribunal de Justícia de la Unió Europea (TJUE)",
+          "La Comissió Europea",
+          "El Tribunal de Comptes Europeu",
+          "El Banc Central Europeu"
+        ],
+        "explanation": "El material indica que el TJUE pot imposar sancions econòmiques als Estats membres en determinats procediments d’incompliment."
+      },
+      "es": {
+        "topic": "Instituciones de la UE",
+        "question": "En determinados procedimientos de incumplimiento del derecho de la UE, ¿qué institución puede imponer sanciones económicas a los Estados miembros?",
+        "options": [
+          "El Tribunal de Justicia de la Unión Europea (TJUE)",
+          "La Comisión Europea",
+          "El Tribunal de Cuentas Europeo",
+          "El Banco Central Europeo"
+        ],
+        "explanation": "El material indica que el TJUE puede imponer sanciones económicas a los Estados miembros en determinados procedimientos de incumplimiento."
+      },
+      "memoryAid": {
+        "type": "idea",
+        "ca": "TJUE: dret de la UE + incompliment → en alguns procediments pot haver-hi sanció econòmica.",
+        "es": "TJUE: derecho de la UE + incumplimiento → en algunos procedimientos puede haber sanción económica."
+      }
+    },
+    "u2b1-065": {
+      "canonical": {
+        "topic": "Rols dins del grup",
+        "question": "Quina idea clau destaca el material sobre els rols dins d’un grup de treball?",
+        "options": [
+          "No totes les persones fan la mateixa funció, però els rols equilibrats i coordinats poden aportar valor al grup",
+          "Totes les persones han d’assumir el mateix rol per evitar diferències dins de l’equip",
+          "Els rols només són útils quan una única persona concentra les funcions principals",
+          "La coordinació dels rols redueix la participació i s’ha d’evitar en equips administratius"
+        ],
+        "explanation": "El material assenyala que les persones poden assumir funcions diferents i que els rols poden afavorir el bon funcionament del grup si estan equilibrats i ben coordinats."
+      },
+      "es": {
+        "topic": "Roles dentro del grupo",
+        "question": "¿Qué idea clave destaca el material sobre los roles dentro de un grupo de trabajo?",
+        "options": [
+          "No todas las personas realizan la misma función, pero los roles equilibrados y coordinados pueden aportar valor al grupo",
+          "Todas las personas deben asumir el mismo rol para evitar diferencias dentro del equipo",
+          "Los roles solo son útiles cuando una única persona concentra las funciones principales",
+          "La coordinación de los roles reduce la participación y debe evitarse en equipos administrativos"
+        ],
+        "explanation": "El material señala que las personas pueden asumir funciones diferentes y que los roles pueden favorecer el buen funcionamiento del grupo si están equilibrados y bien coordinados."
+      },
+      "memoryAid": {
+        "type": "idea",
+        "ca": "Rols diferents + equilibri + coordinació = valor per al grup.",
+        "es": "Roles diferentes + equilibrio + coordinación = valor para el grupo."
       }
     }
   }

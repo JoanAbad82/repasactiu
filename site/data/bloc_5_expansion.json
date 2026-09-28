@@ -160,15 +160,15 @@
       "id": "b5-057",
       "block": "bloc-5",
       "topic": "Institucions de la UE",
-      "question": "Una institució proposa legislació en la majoria d’àmbits i vetlla per l’aplicació correcta del dret europeu. Quina és?",
+      "question": "Qui forma el Consell Europeu segons el material?",
       "options": [
-        "Consell Europeu",
-        "Parlament Europeu",
-        "Comissió Europea",
-        "Banc Central Europeu"
+        "Els ministres competents de cada Estat membre, segons la matèria tractada",
+        "Els diputats elegits per sufragi directe i la presidència del Parlament Europeu",
+        "Els caps d’Estat o de Govern dels Estats membres, el president del Consell Europeu i el president de la Comissió Europea",
+        "Els comissaris de la UE i els membres del Tribunal de Justícia"
       ],
       "correct": 2,
-      "explanation": "La Comissió Europea promou l’interès general, proposa legislació en la majoria d’àmbits i vetlla per l’aplicació del dret de la UE."
+      "explanation": "El material indica que el Consell Europeu està format pels caps d’Estat o de Govern dels Estats membres, el seu president i el president de la Comissió Europea."
     },
     {
       "id": "b5-058",

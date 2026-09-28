@@ -933,17 +933,17 @@
       "id": "b5-023",
       "block": "B5",
       "status": "REWRITE",
-      "source": "B5 p.18",
-      "reason": "Near-duplicate of b5-044; target the additional purpose named by the source.",
+      "source": "B5 p.17",
+      "reason": "Question slot now evaluates the TJUE infringement-sanction power, replacing a redundant Court of Auditors item.",
       "ca": {
-        "question": "A què contribueix el Tribunal de Comptes Europeu, a més de controlar la gestió dels recursos econòmics de la UE?",
-        "answer": "A la rendició de comptes i la transparència.",
-        "mnemonic": "Tribunal de Comptes: recursos + rendició de comptes + transparència."
+        "question": "En determinats procediments d’incompliment del dret de la UE, quina institució pot imposar sancions econòmiques als Estats membres?",
+        "answer": "El Tribunal de Justícia de la Unió Europea (TJUE)",
+        "mnemonic": "TJUE: dret de la UE + incompliment → en alguns procediments pot haver-hi sanció econòmica."
       },
       "es": {
-        "question": "¿A qué contribuye el Tribunal de Cuentas Europeo, además de controlar la gestión de los recursos económicos de la UE?",
-        "answer": "A la rendición de cuentas y la transparencia.",
-        "mnemonic": "Tribunal de Cuentas: recursos + rendición de cuentas + transparencia."
+        "question": "En determinados procedimientos de incumplimiento del derecho de la UE, ¿qué institución puede imponer sanciones económicas a los Estados miembros?",
+        "answer": "El Tribunal de Justicia de la Unión Europea (TJUE)",
+        "mnemonic": "TJUE: derecho de la UE + incumplimiento → en algunos procedimientos puede haber sanción económica."
       }
     },
     {
@@ -1041,19 +1041,19 @@
       "id": "b5-066",
       "block": "B5",
       "status": "MERGE/REPLACE",
-      "reason": "Surplus member of a high-confidence semantic cluster; keep two pedagogically distinct variants and reuse this slot.",
+      "reason": "Redundant question slot reused for an underrepresented source-backed concept.",
       "replacement": {
-        "concept_id": "B5.UE.SET_INSTITUCIONS",
+        "concept_id": "B5.PARLAMENT.CONTROL_POLITIC",
         "source": "B5 p.15",
         "ca": {
-          "question": "Quantes institucions indica el temari que té la Unió Europea?",
-          "answer": "Set institucions.",
-          "mnemonic": "UE: 7 institucions amb competències atribuïdes pels tractats."
+          "question": "A més de les funcions legislativa i pressupostària, quina altra funció atribueix el material al Parlament Europeu?",
+          "answer": "Exercir funcions de control polític",
+          "mnemonic": "Parlament Europeu: legisla + pressupost + control polític."
         },
         "es": {
-          "question": "¿Cuántas instituciones indica el temario que tiene la Unión Europea?",
-          "answer": "Siete instituciones.",
-          "mnemonic": "UE: 7 instituciones con competencias atribuidas por los tratados."
+          "question": "Además de las funciones legislativa y presupuestaria, ¿qué otra función atribuye el material al Parlamento Europeo?",
+          "answer": "Ejercer funciones de control político",
+          "mnemonic": "Parlamento Europeo: legisla + presupuesto + control político."
         }
       }
     },
@@ -1318,19 +1318,19 @@
       "id": "u2b1-087",
       "block": "U2",
       "status": "MERGE/REPLACE",
-      "reason": "Surplus member of a high-confidence semantic cluster; keep two pedagogically distinct variants and reuse this slot.",
+      "reason": "Redundant question slot reused for an underrepresented source-backed concept.",
       "replacement": {
-        "concept_id": "U2.CONTROL_INSTRUCCIONS.QUI_COM",
-        "source": "U2 p.112",
+        "concept_id": "U2.PROCEDIMENT.DEFINICIO",
+        "source": "U2 p.13",
         "ca": {
-          "question": "Qui pot controlar les instruccions i mitjançant quins elements?",
-          "answer": "La persona coordinadora, responsable o superior jeràrquic, revisant documents, fent seguiment de tasques, terminis i criteris de qualitat.",
-          "mnemonic": "Control = responsable + documents + tasques + terminis + qualitat."
+          "question": "Quina definició de procediment recull el material?",
+          "answer": "Una sèrie de passos definits de manera clara i coherent que permet treballar i coordinar correctament per assolir els objectius",
+          "mnemonic": "Procediment = passos clars + coherents + coordinació + objectiu."
         },
         "es": {
-          "question": "¿Quién puede controlar las instrucciones y mediante qué elementos?",
-          "answer": "La persona coordinadora, responsable o superior jerárquico, revisando documentos y haciendo seguimiento de tareas, plazos y criterios de calidad.",
-          "mnemonic": "Control = responsable + documentos + tareas + plazos + calidad."
+          "question": "¿Qué definición de procedimiento recoge el material?",
+          "answer": "Una serie de pasos definidos de forma clara y coherente que permite trabajar y coordinar correctamente para alcanzar los objetivos",
+          "mnemonic": "Procedimiento = pasos claros + coherentes + coordinación + objetivo."
         }
       }
     },

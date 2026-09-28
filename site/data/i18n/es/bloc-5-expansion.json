@@ -114,14 +114,14 @@
     },
     "b5-057": {
       "topic": "Instituciones de la UE",
-      "question": "Una institución propone legislación en la mayoría de ámbitos y vela por la correcta aplicación del derecho europeo. ¿Cuál es?",
+      "question": "¿Quién forma el Consejo Europeo según el material?",
       "options": [
-        "Consejo Europeo",
-        "Parlamento Europeo",
-        "Comisión Europea",
-        "Banco Central Europeo"
+        "Los ministros competentes de cada Estado miembro, según la materia tratada",
+        "Los diputados elegidos por sufragio directo y la presidencia del Parlamento Europeo",
+        "Los jefes de Estado o de Gobierno de los Estados miembros, el presidente del Consejo Europeo y el presidente de la Comisión Europea",
+        "Los comisarios de la UE y los miembros del Tribunal de Justicia"
       ],
-      "explanation": "La Comisión Europea promueve el interés general, propone legislación en la mayoría de ámbitos y vela por la aplicación del derecho de la UE."
+      "explanation": "El material indica que el Consejo Europeo está formado por los jefes de Estado o de Gobierno de los Estados miembros, su presidente y el presidente de la Comisión Europea."
     },
     "b5-058": {
       "topic": "Instituciones de la UE",
@@ -213,14 +213,14 @@
     },
     "b5-066": {
       "topic": "Parlamento Europeo",
-      "question": "¿Qué institución de la UE representa directamente a la ciudadanía de la Unión y comparte funciones legislativas con el Consejo?",
+      "question": "Además de las funciones legislativa y presupuestaria, ¿qué otra función atribuye el material al Parlamento Europeo?",
       "options": [
-        "Comisión Europea",
-        "Parlamento Europeo",
-        "Consejo Europeo",
-        "Tribunal de Cuentas Europeo"
+        "Dirigir la política monetaria de la zona euro",
+        "Ejercer funciones de control político",
+        "Interpretar de forma definitiva el derecho de la UE",
+        "Controlar la gestión de los recursos económicos de la UE"
       ],
-      "explanation": "El Parlamento Europeo representa a la ciudadanía de la UE y ejerce conjuntamente con el Consejo funciones legislativas y presupuestarias."
+      "explanation": "El material indica que el Parlamento Europeo ejerce, además de funciones legislativa y presupuestaria, funciones de control político."
     },
     "b5-067": {
       "topic": "Comisión Europea",

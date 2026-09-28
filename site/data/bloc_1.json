@@ -173,16 +173,16 @@
     {
       "id": "b1-051",
       "block": "bloc-1",
-      "topic": "Entitats públiques i privades",
-      "question": "Un servei és creat i gestionat per un ajuntament, presta una activitat d’interès general i es finança principalment amb taxes i pressupost públic. Com s’ha de classificar?",
+      "topic": "Organització empresarial",
+      "question": "Una empresa està definint com funcionar abans d’iniciar l’activitat. A més de fixar els objectius, quins dos elements indica el material que s’han de concretar?",
       "options": [
-        "Entitat pública",
-        "Entitat privada lucrativa",
-        "Entitat privada no lucrativa",
-        "Cooperativa privada"
+        "Les línies d’organització i el procés de producció",
+        "Els canals d’atenció al client i el sistema de vendes",
+        "La política de preus i les accions publicitàries",
+        "La forma jurídica i els impostos de l’exercici"
       ],
       "correct": 0,
-      "explanation": "Una entitat creada o gestionada per una administració, finançada principalment amb recursos públics i orientada a l’interès general és una entitat pública."
+      "explanation": "El material indica que, a més dels objectius, s’han de definir les línies d’organització i el procés de producció."
     },
     {
       "id": "b1-007",
