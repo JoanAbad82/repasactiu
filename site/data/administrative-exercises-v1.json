@@ -1,0 +1,981 @@
+{
+  "version": 1,
+  "id": "admin-commercial-documents-exercises-v1",
+  "title": {
+    "ca": "Documents administratius i comercials",
+    "es": "Documentos administrativos y comerciales"
+  },
+  "intro": {
+    "ca": "Nou fulls d’exercicis per identificar, classificar i confeccionar documents administratius i comercials. Tots els recursos necessaris són dins de cada exercici.",
+    "es": "Nueve hojas de ejercicios para identificar, clasificar y confeccionar documentos administrativos y comerciales. Todos los recursos necesarios están dentro de cada ejercicio."
+  },
+  "source": {
+    "filename": "Exercicis_1-10_unificats.docx",
+    "sourceId": "UF0519_EXERCICIS_ADMIN_2026",
+    "provider": "Material de classe",
+    "sourceType": "teacher_handout_image_only_docx",
+    "embeddedSheets": 9,
+    "filenameSuggestsSheets": 10,
+    "received": "2026-09-28",
+    "imageOnly": true,
+    "scenarioText": "reconstructed_from_source_data",
+    "identifiersPreservedLiterally": true,
+    "languageBySheet": {
+      "sheet-1": "ca+es",
+      "sheet-2": "ca+es",
+      "sheet-3": "ca+es",
+      "sheet-4": "ca+es",
+      "sheet-5": "ca+es",
+      "sheet-6": "ca",
+      "sheet-7": "ca",
+      "sheet-8": "ca",
+      "sheet-9": "ca"
+    },
+    "traceabilityNote": {
+      "ca": "El fitxer font es diu «Exercicis_1-10_unificats.docx», però només conté 9 fulls incrustats: no s’ha inventat cap full 10. Els cinc primers fulls són bilingües català/castellà al material; els quatre últims són només en català i la versió castellana de la web és una traducció del lloc, no text font. Tots els identificadors i codis postals es reprodueixen literalment encara que semblin inusuals.",
+      "es": "El archivo fuente se llama «Exercicis_1-10_unificats.docx», pero solo contiene 9 hojas incrustadas: no se ha inventado ninguna hoja 10. Las cinco primeras hojas son bilingües catalán/castellano en el material; las cuatro últimas son solo en catalán y la versión castellana de la web es una traducción del sitio, no texto fuente. Todos los identificadores y códigos postales se reproducen literalmente aunque parezcan inusuales."
+    },
+    "literalIdentifiers": [
+      "B08999999",
+      "A08444445",
+      "B08911999",
+      "082936",
+      "B08958239",
+      "A084447895",
+      "200820",
+      "200750",
+      "A08945689",
+      "A08458966",
+      "45826",
+      "123/08",
+      "140/08",
+      "12589",
+      "15289"
+    ]
+  },
+  "resources": {
+    "roles": [
+      {
+        "id": "issuer",
+        "term": {
+          "ca": "Emissor",
+          "es": "Emisor"
+        },
+        "definition": {
+          "ca": "Persona o empresa que envia, emet o signa el document.",
+          "es": "Persona o empresa que envía, emite o firma el documento."
+        }
+      },
+      {
+        "id": "recipient",
+        "term": {
+          "ca": "Destinatari",
+          "es": "Destinatario"
+        },
+        "definition": {
+          "ca": "Persona o empresa que rep el document.",
+          "es": "Persona o empresa que recibe el documento."
+        }
+      }
+    ],
+    "cycle": [
+      {
+        "id": "pedido",
+        "label": {
+          "ca": "Comanda",
+          "es": "Pedido"
+        },
+        "definition": {
+          "ca": "Petició formal de mercaderia o servei que fa el client al proveïdor.",
+          "es": "Petición formal de mercancía o servicio que hace el cliente al proveedor."
+        }
+      },
+      {
+        "id": "albaran",
+        "label": {
+          "ca": "Albarà",
+          "es": "Albarán"
+        },
+        "definition": {
+          "ca": "Document que acompanya la mercaderia i en prova el lliurament.",
+          "es": "Documento que acompaña la mercancía y prueba su entrega."
+        }
+      },
+      {
+        "id": "factura",
+        "label": {
+          "ca": "Factura",
+          "es": "Factura"
+        },
+        "definition": {
+          "ca": "Document que detalla l’operació feta i l’import que cal pagar.",
+          "es": "Documento que detalla la operación realizada y el importe que hay que pagar."
+        }
+      },
+      {
+        "id": "pago",
+        "label": {
+          "ca": "Pagament",
+          "es": "Pago"
+        },
+        "definition": {
+          "ca": "Liquidació de l’import indicat a la factura dins del termini acordat.",
+          "es": "Liquidación del importe indicado en la factura dentro del plazo acordado."
+        }
+      }
+    ],
+    "categories": [
+      {
+        "id": "purchase_sale",
+        "label": {
+          "ca": "Gestió de compravenda",
+          "es": "Gestión de compraventa"
+        },
+        "definition": {
+          "ca": "Documents que formalitzen la compra i la venda de mercaderies o serveis.",
+          "es": "Documentos que formalizan la compra y la venta de mercancías o servicios."
+        }
+      },
+      {
+        "id": "payments",
+        "label": {
+          "ca": "Pagaments i cobraments",
+          "es": "Pagos y cobros"
+        },
+        "definition": {
+          "ca": "Documents que gestionen el pagament o el cobrament d’imports.",
+          "es": "Documentos que gestionan el pago o el cobro de importes."
+        }
+      },
+      {
+        "id": "hr",
+        "label": {
+          "ca": "Gestió productiva i de recursos humans",
+          "es": "Gestión productiva y de recursos humanos"
+        },
+        "definition": {
+          "ca": "Documents relacionats amb el personal i amb l’activitat productiva.",
+          "es": "Documentos relacionados con el personal y con la actividad productiva."
+        }
+      },
+      {
+        "id": "decisions",
+        "label": {
+          "ca": "Gestió de decisions",
+          "es": "Gestión de decisiones"
+        },
+        "definition": {
+          "ca": "Documents que recullen acords i decisions preses en una reunió o òrgan.",
+          "es": "Documentos que recogen acuerdos y decisiones tomadas en una reunión u órgano."
+        }
+      },
+      {
+        "id": "procedures",
+        "label": {
+          "ca": "Gestió de procediments administratius",
+          "es": "Gestión de procedimientos administrativos"
+        },
+        "definition": {
+          "ca": "Documents que serveixen per iniciar o tramitar un procediment davant d’una administració.",
+          "es": "Documentos que sirven para iniciar o tramitar un procedimiento ante una administración."
+        }
+      }
+    ],
+    "documents": [
+      {
+        "id": "pedido",
+        "label": {
+          "ca": "Comanda",
+          "es": "Pedido"
+        },
+        "category": "purchase_sale",
+        "purpose": {
+          "ca": "Formalitza la petició de mercaderia o servei.",
+          "es": "Formaliza la petición de mercancía o servicio."
+        }
+      },
+      {
+        "id": "nomina",
+        "label": {
+          "ca": "Nòmina",
+          "es": "Nómina"
+        },
+        "category": "hr",
+        "purpose": {
+          "ca": "Recull el salari i les deduccions de la persona treballadora.",
+          "es": "Recoge el salario y las deducciones de la persona trabajadora."
+        }
+      },
+      {
+        "id": "factura",
+        "label": {
+          "ca": "Factura",
+          "es": "Factura"
+        },
+        "category": "purchase_sale",
+        "purpose": {
+          "ca": "Detalla l’operació i l’import que el client ha de pagar.",
+          "es": "Detalla la operación y el importe que el cliente debe pagar."
+        }
+      },
+      {
+        "id": "instancia",
+        "label": {
+          "ca": "Instància",
+          "es": "Instancia"
+        },
+        "category": "procedures",
+        "purpose": {
+          "ca": "Inicia una sol·licitud o un procediment administratiu.",
+          "es": "Inicia una solicitud o un procedimiento administrativo."
+        }
+      },
+      {
+        "id": "cheque",
+        "label": {
+          "ca": "Xec",
+          "es": "Cheque"
+        },
+        "category": "payments",
+        "purpose": {
+          "ca": "Ordre de pagament d’un import amb càrrec a un compte.",
+          "es": "Orden de pago de un importe con cargo a una cuenta."
+        }
+      },
+      {
+        "id": "acta",
+        "label": {
+          "ca": "Acta",
+          "es": "Acta"
+        },
+        "category": "decisions",
+        "purpose": {
+          "ca": "Deixa constància dels acords i les decisions d’una reunió.",
+          "es": "Deja constancia de los acuerdos y las decisiones de una reunión."
+        }
+      },
+      {
+        "id": "albaran",
+        "label": {
+          "ca": "Albarà",
+          "es": "Albarán"
+        },
+        "category": "purchase_sale",
+        "purpose": {
+          "ca": "Acompanya la mercaderia i en documenta el lliurament.",
+          "es": "Acompaña la mercancía y documenta su entrega."
+        }
+      }
+    ]
+  },
+  "sheets": [
+    {
+      "id": "sheet-1",
+      "number": 1,
+      "kind": "questions",
+      "sourceLanguage": "ca+es",
+      "title": {
+        "ca": "Identifica els elements del document",
+        "es": "Identifica los elementos del documento"
+      },
+      "scenario": {
+        "ca": "Muebles García S.L. emet una factura el 3 de març de 2026 a DecoHogar S.A. per un import de 1.200 €. La signa el cap de vendes.",
+        "es": "Muebles García S.L. emite una factura el 3 de marzo de 2026 a DecoHogar S.A. por un importe de 1.200 €. La firma el jefe de ventas."
+      },
+      "fields": [
+        {
+          "id": "s1-q1",
+          "type": "text",
+          "prompt": {
+            "ca": "Qui és l’emissor?",
+            "es": "¿Quién es el emisor?"
+          },
+          "accept": [
+            "Muebles García S.L."
+          ],
+          "display": {
+            "ca": "Muebles García S.L.",
+            "es": "Muebles García S.L."
+          },
+          "hint": {
+            "ca": "L’emissor és qui envia, emet o signa la factura.",
+            "es": "El emisor es quien envía, emite o firma la factura."
+          }
+        },
+        {
+          "id": "s1-q2",
+          "type": "text",
+          "prompt": {
+            "ca": "Qui és el destinatari?",
+            "es": "¿Quién es el destinatario?"
+          },
+          "accept": [
+            "DecoHogar S.A."
+          ],
+          "display": {
+            "ca": "DecoHogar S.A.",
+            "es": "DecoHogar S.A."
+          },
+          "hint": {
+            "ca": "El destinatari és qui rep la factura.",
+            "es": "El destinatario es quien recibe la factura."
+          }
+        },
+        {
+          "id": "s1-q3",
+          "type": "select",
+          "prompt": {
+            "ca": "Quin tipus de document és?",
+            "es": "¿Qué tipo de documento es?"
+          },
+          "optionSource": "documents",
+          "expected": "factura",
+          "hint": {
+            "ca": "El document detalla una operació i l’import que el client ha de pagar.",
+            "es": "El documento detalla una operación y el importe que el cliente debe pagar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sheet-2",
+      "number": 2,
+      "kind": "questions",
+      "sourceLanguage": "ca+es",
+      "title": {
+        "ca": "Classifica els documents",
+        "es": "Clasifica los documentos"
+      },
+      "scenario": {
+        "ca": "Classifica cada document en una de les cinc categories de gestió documental indicades al material.",
+        "es": "Clasifica cada documento en una de las cinco categorías de gestión documental indicadas en el material."
+      },
+      "fields": [
+        {
+          "id": "s2-pedido",
+          "type": "select",
+          "label": {
+            "ca": "Comanda",
+            "es": "Pedido"
+          },
+          "optionSource": "categories",
+          "expected": "purchase_sale",
+          "hint": {
+            "ca": "Formalitza la petició de mercaderia.",
+            "es": "Formaliza la petición de mercancía."
+          }
+        },
+        {
+          "id": "s2-nomina",
+          "type": "select",
+          "label": {
+            "ca": "Nòmina",
+            "es": "Nómina"
+          },
+          "optionSource": "categories",
+          "expected": "hr",
+          "hint": {
+            "ca": "Té a veure amb el personal i l’activitat productiva.",
+            "es": "Tiene que ver con el personal y la actividad productiva."
+          }
+        },
+        {
+          "id": "s2-factura",
+          "type": "select",
+          "label": {
+            "ca": "Factura",
+            "es": "Factura"
+          },
+          "optionSource": "categories",
+          "expected": "purchase_sale",
+          "hint": {
+            "ca": "Documenta la venda i l’import a pagar.",
+            "es": "Documenta la venta y el importe a pagar."
+          }
+        },
+        {
+          "id": "s2-instancia",
+          "type": "select",
+          "label": {
+            "ca": "Instància",
+            "es": "Instancia"
+          },
+          "optionSource": "categories",
+          "expected": "procedures",
+          "hint": {
+            "ca": "Serveix per iniciar un procediment administratiu.",
+            "es": "Sirve para iniciar un procedimiento administrativo."
+          }
+        },
+        {
+          "id": "s2-cheque",
+          "type": "select",
+          "label": {
+            "ca": "Xec",
+            "es": "Cheque"
+          },
+          "optionSource": "categories",
+          "expected": "payments",
+          "hint": {
+            "ca": "És una ordre de pagament.",
+            "es": "Es una orden de pago."
+          }
+        },
+        {
+          "id": "s2-acta",
+          "type": "select",
+          "label": {
+            "ca": "Acta",
+            "es": "Acta"
+          },
+          "optionSource": "categories",
+          "expected": "decisions",
+          "hint": {
+            "ca": "Recull els acords d’una reunió.",
+            "es": "Recoge los acuerdos de una reunión."
+          }
+        },
+        {
+          "id": "s2-albaran",
+          "type": "select",
+          "label": {
+            "ca": "Albarà",
+            "es": "Albarán"
+          },
+          "optionSource": "categories",
+          "expected": "purchase_sale",
+          "hint": {
+            "ca": "Documenta el lliurament de la mercaderia venuda.",
+            "es": "Documenta la entrega de la mercancía vendida."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sheet-3",
+      "number": 3,
+      "kind": "questions",
+      "sourceLanguage": "ca+es",
+      "title": {
+        "ca": "Ordena els documents i explica la seva funció",
+        "es": "Ordena los documentos y explica su función"
+      },
+      "scenario": {
+        "ca": "Ordena la comanda, l’albarà i la factura segons el moment en què s’utilitzen en una venda i explica amb les teves paraules per a què serveix cada document.",
+        "es": "Ordena el pedido, el albarán y la factura según el momento en que se utilizan en una venta y explica con tus palabras para qué sirve cada documento."
+      },
+      "fields": [
+        {
+          "id": "s3-rank-pedido",
+          "type": "rank",
+          "label": {
+            "ca": "Comanda",
+            "es": "Pedido"
+          },
+          "expected": "1",
+          "hint": {
+            "ca": "És el primer pas: el client demana la mercaderia.",
+            "es": "Es el primer paso: el cliente pide la mercancía."
+          }
+        },
+        {
+          "id": "s3-rank-albaran",
+          "type": "rank",
+          "label": {
+            "ca": "Albarà",
+            "es": "Albarán"
+          },
+          "expected": "2",
+          "hint": {
+            "ca": "Acompanya la mercaderia quan es lliura.",
+            "es": "Acompaña la mercancía cuando se entrega."
+          }
+        },
+        {
+          "id": "s3-rank-factura",
+          "type": "rank",
+          "label": {
+            "ca": "Factura",
+            "es": "Factura"
+          },
+          "expected": "3",
+          "hint": {
+            "ca": "Es fa quan ja s’ha lliurat la mercaderia i indica l’import a pagar.",
+            "es": "Se hace cuando ya se ha entregado la mercancía e indica el importe a pagar."
+          }
+        },
+        {
+          "id": "s3-explanation",
+          "type": "free",
+          "prompt": {
+            "ca": "Explica amb les teves paraules per a què serveix cada document.",
+            "es": "Explica con tus palabras para qué sirve cada documento."
+          },
+          "modelPoints": {
+            "ca": [
+              "La comanda és la petició formal de mercaderia o servei que fa el client.",
+              "L’albarà acompanya la mercaderia i en prova el lliurament.",
+              "La factura detalla l’operació realitzada i l’import que el client ha de pagar."
+            ],
+            "es": [
+              "El pedido es la petición formal de mercancía o servicio que hace el cliente.",
+              "El albarán acompaña la mercancía y prueba su entrega.",
+              "La factura detalla la operación realizada y el importe que el cliente debe pagar."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sheet-4",
+      "number": 4,
+      "kind": "questions",
+      "sourceLanguage": "ca+es",
+      "title": {
+        "ca": "Procés senzill de material d’oficina",
+        "es": "Proceso sencillo de material de oficina"
+      },
+      "scenario": {
+        "ca": "Una empresa rep la comanda d’un client, més endavant li envia els productes i finalment li emet la factura.",
+        "es": "Una empresa recibe el pedido de un cliente, más adelante le envía los productos y finalmente le emite la factura."
+      },
+      "fields": [
+        {
+          "id": "s4-q1",
+          "type": "select",
+          "prompt": {
+            "ca": "Quin document genera el client?",
+            "es": "¿Qué documento genera el cliente?"
+          },
+          "optionSource": "documents",
+          "expected": "pedido",
+          "hint": {
+            "ca": "El client demana formalment els productes.",
+            "es": "El cliente pide formalmente los productos."
+          }
+        },
+        {
+          "id": "s4-q2",
+          "type": "select",
+          "prompt": {
+            "ca": "Quin document acompanya la mercaderia?",
+            "es": "¿Qué documento acompaña la mercancía?"
+          },
+          "optionSource": "documents",
+          "expected": "albaran",
+          "hint": {
+            "ca": "Viatja amb els productes i en prova el lliurament.",
+            "es": "Viaja con los productos y prueba su entrega."
+          }
+        },
+        {
+          "id": "s4-q3",
+          "type": "select",
+          "prompt": {
+            "ca": "Quin document indica què ha de pagar el client?",
+            "es": "¿Qué documento indica qué debe pagar el cliente?"
+          },
+          "optionSource": "documents",
+          "expected": "factura",
+          "hint": {
+            "ca": "Detalla l’operació i l’import a pagar.",
+            "es": "Detalla la operación y el importe a pagar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sheet-5",
+      "number": 5,
+      "kind": "questions",
+      "sourceLanguage": "ca+es",
+      "title": {
+        "ca": "Procés de compravenda",
+        "es": "Proceso de compraventa"
+      },
+      "scenario": {
+        "ca": "La María té una botiga de roba i fa una comanda de samarretes al seu proveïdor. El proveïdor envia les samarretes amb l’albarà corresponent. La María comprova la comanda i signa l’albarà per confirmar la recepció. Després, el proveïdor emet la factura corresponent i l’envia a la María, que paga dins del termini acordat.",
+        "es": "María tiene una tienda de ropa y hace un pedido de camisetas a su proveedor. El proveedor envía las camisetas con el albarán correspondiente. María comprueba el pedido y firma el albarán para confirmar la recepción. Después, el proveedor emite la factura correspondiente y la envía a María, que paga dentro del plazo acordado."
+      },
+      "fields": [
+        {
+          "id": "s5-q1",
+          "type": "multi",
+          "prompt": {
+            "ca": "Quins documents administratius es generen en aquest procés?",
+            "es": "¿Qué documentos administrativos se generan en este proceso?"
+          },
+          "optionSource": "documents",
+          "expected": [
+            "pedido",
+            "albaran",
+            "factura"
+          ],
+          "hint": {
+            "ca": "Segueix el cicle de la compravenda: petició, lliurament i cobrament.",
+            "es": "Sigue el ciclo de la compraventa: petición, entrega y cobro."
+          }
+        },
+        {
+          "id": "s5-q2",
+          "type": "select",
+          "prompt": {
+            "ca": "Quan s’emet la factura?",
+            "es": "¿Cuándo se emite la factura?"
+          },
+          "options": [
+            {
+              "id": "after_delivery",
+              "label": {
+                "ca": "Després que el proveïdor lliuri la mercaderia i el comprador signi l’albarà, i abans del pagament.",
+                "es": "Después de que el proveedor entregue la mercancía y el comprador firme el albarán, y antes del pago."
+              }
+            },
+            {
+              "id": "with_order",
+              "label": {
+                "ca": "Quan la clienta fa la comanda.",
+                "es": "Cuando la clienta hace el pedido."
+              }
+            },
+            {
+              "id": "before_delivery",
+              "label": {
+                "ca": "Abans que el proveïdor enviï la mercaderia.",
+                "es": "Antes de que el proveedor envíe la mercancía."
+              }
+            },
+            {
+              "id": "after_payment",
+              "label": {
+                "ca": "Només després que la clienta hagi pagat.",
+                "es": "Solo después de que la clienta haya pagado."
+              }
+            }
+          ],
+          "expected": "after_delivery",
+          "hint": {
+            "ca": "Primer cal confirmar la recepció amb l’albarà signat; el pagament ve després.",
+            "es": "Primero hay que confirmar la recepción con el albarán firmado; el pago viene después."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sheet-6",
+      "number": 6,
+      "kind": "order",
+      "sourceLanguage": "ca",
+      "title": {
+        "ca": "Confecciona la comanda de Software Reus, SL",
+        "es": "Confecciona el pedido de Software Reus, SL"
+      },
+      "scenario": {
+        "ca": "La societat Software Reus, SL (NIF B08999999), amb domicili al carrer Arenys, 56 de Barcelona (08000), fa la comanda número 123/08 el 5 de novembre de 2025 a la societat Distrisoft, SA (NIF A08444445), amb domicili al carrer Gran, 4 de Tarragona (43000).\n\nMercaderia sol·licitada:\n• 10 unitats de SoftMM, referència MM, a 290 €/u.\n• 50 unitats de SoftGG, referència GG, a 130 €/u.\n• 30 unitats de SoftUU, referència UU, a 200 €/u.\n• 75 unitats de SoftLL, referència LL, a 250 €/u.\n\nCondicions: descompte del 3 %; lliurament al domicili del comprador; pagament a 30 dies a comptar de la factura mitjançant transferència bancària. El termini màxim de lliurament és de 10 dies des de la data de la comanda.",
+        "es": "La sociedad Software Reus, SL (NIF B08999999), con domicilio en la calle Arenys, 56 de Barcelona (08000), realiza el pedido número 123/08 el 5 de noviembre de 2025 a la sociedad Distrisoft, SA (NIF A08444445), con domicilio en la calle Gran, 4 de Tarragona (43000).\n\nMercancía solicitada:\n• 10 unidades de SoftMM, referencia MM, a 290 €/u.\n• 50 unidades de SoftGG, referencia GG, a 130 €/u.\n• 30 unidades de SoftUU, referencia UU, a 200 €/u.\n• 75 unidades de SoftLL, referencia LL, a 250 €/u.\n\nCondiciones: descuento del 3 %; entrega en el domicilio del comprador; pago a 30 días desde la factura mediante transferencia bancaria. El plazo máximo de entrega es de 10 días desde la fecha del pedido."
+      },
+      "order": {
+        "orderNumber": "123/08",
+        "orderDate": "2025-11-05",
+        "buyer": {
+          "name": "Software Reus, SL",
+          "nif": "B08999999",
+          "address": "carrer Arenys, 56 de Barcelona (08000)"
+        },
+        "supplier": {
+          "name": "Distrisoft, SA",
+          "nif": "A08444445",
+          "address": "carrer Gran, 4 de Tarragona (43000)"
+        },
+        "items": [
+          {
+            "reference": "MM",
+            "description": "SoftMM",
+            "quantity": 10,
+            "unitPrice": 290,
+            "lineTotal": 2900
+          },
+          {
+            "reference": "GG",
+            "description": "SoftGG",
+            "quantity": 50,
+            "unitPrice": 130,
+            "lineTotal": 6500
+          },
+          {
+            "reference": "UU",
+            "description": "SoftUU",
+            "quantity": 30,
+            "unitPrice": 200,
+            "lineTotal": 6000
+          },
+          {
+            "reference": "LL",
+            "description": "SoftLL",
+            "quantity": 75,
+            "unitPrice": 250,
+            "lineTotal": 18750
+          }
+        ],
+        "discountPercent": 3,
+        "transport": null,
+        "deliveryAddress": "carrer Arenys, 56 de Barcelona (08000)",
+        "paymentDays": 30,
+        "paymentMethod": "transfer",
+        "maxDeliveryDays": 10,
+        "latestDelivery": "2025-11-15",
+        "specialInstructions": null,
+        "derived": {
+          "subtotal": 34150,
+          "discountAmount": 1024.5,
+          "totalBeforeTax": 33125.5
+        }
+      }
+    },
+    {
+      "id": "sheet-7",
+      "number": 7,
+      "kind": "order",
+      "sourceLanguage": "ca",
+      "title": {
+        "ca": "Confecciona la comanda de MareNostrum, SL",
+        "es": "Confecciona el pedido de MareNostrum, SL"
+      },
+      "scenario": {
+        "ca": "La societat MareNostrum, SL (NIF B08911999), amb domicili al carrer Caifòrnia, 45 de Cerdanyola del Vallès (08291), fa la comanda número 140/08 el 10 de juny de 2026 a la societat MareVostrum SA (NIF A08444445), amb domicili al carrer Joan Viladomat, 4 de Barcelona (082936).\n\nMercaderia sol·licitada:\n• 50 unitats d’Aigua rose, referència 1236, a 30 €/u.\n• 250 unitats d’Aigua salada, referència 1237, a 100 €/u.\n• 400 unitats d’Aigua vostrum, referència 1258, a 600 €/u.\n• 150 unitats d’Aigua Light, referència 0326, a 750 €/u.\n\nCondicions: descompte del 4 %; lliurament al domicili de l’empresa compradora; pagament a 30 dies a comptar de la factura mitjançant transferència bancària. El termini màxim de lliurament és de 5 dies.",
+        "es": "La sociedad MareNostrum, SL (NIF B08911999), con domicilio en la calle Caifòrnia, 45 de Cerdanyola del Vallès (08291), realiza el pedido número 140/08 el 10 de junio de 2026 a la sociedad MareVostrum SA (NIF A08444445), con domicilio en la calle Joan Viladomat, 4 de Barcelona (082936).\n\nMercancía solicitada:\n• 50 unidades de Aigua rose, referencia 1236, a 30 €/u.\n• 250 unidades de Aigua salada, referencia 1237, a 100 €/u.\n• 400 unidades de Aigua vostrum, referencia 1258, a 600 €/u.\n• 150 unidades de Aigua Light, referencia 0326, a 750 €/u.\n\nCondiciones: descuento del 4 %; entrega en el domicilio de la empresa compradora; pago a 30 días desde la factura mediante transferencia bancaria. El plazo máximo de entrega es de 5 días."
+      },
+      "order": {
+        "orderNumber": "140/08",
+        "orderDate": "2026-06-10",
+        "buyer": {
+          "name": "MareNostrum, SL",
+          "nif": "B08911999",
+          "address": "carrer Caifòrnia, 45 de Cerdanyola del Vallès (08291)"
+        },
+        "supplier": {
+          "name": "MareVostrum SA",
+          "nif": "A08444445",
+          "address": "carrer Joan Viladomat, 4 de Barcelona (082936)"
+        },
+        "items": [
+          {
+            "reference": "1236",
+            "description": "Aigua rose",
+            "quantity": 50,
+            "unitPrice": 30,
+            "lineTotal": 1500
+          },
+          {
+            "reference": "1237",
+            "description": "Aigua salada",
+            "quantity": 250,
+            "unitPrice": 100,
+            "lineTotal": 25000
+          },
+          {
+            "reference": "1258",
+            "description": "Aigua vostrum",
+            "quantity": 400,
+            "unitPrice": 600,
+            "lineTotal": 240000
+          },
+          {
+            "reference": "0326",
+            "description": "Aigua Light",
+            "quantity": 150,
+            "unitPrice": 750,
+            "lineTotal": 112500
+          }
+        ],
+        "discountPercent": 4,
+        "transport": null,
+        "deliveryAddress": "carrer Caifòrnia, 45 de Cerdanyola del Vallès (08291)",
+        "paymentDays": 30,
+        "paymentMethod": "transfer",
+        "maxDeliveryDays": 5,
+        "latestDelivery": "2026-06-15",
+        "specialInstructions": null,
+        "derived": {
+          "subtotal": 379000,
+          "discountAmount": 15160,
+          "totalBeforeTax": 363840
+        }
+      }
+    },
+    {
+      "id": "sheet-8",
+      "number": 8,
+      "kind": "order",
+      "sourceLanguage": "ca",
+      "title": {
+        "ca": "Confecciona la comanda de DRYSAW, SL",
+        "es": "Confecciona el pedido de DRYSAW, SL"
+      },
+      "scenario": {
+        "ca": "La societat DRYSAW, SL (NIF B08958239), amb domicili al carrer Mallorca, 650 de Madrid (200820), fa la comanda número 12589 el 3 de gener de 2026 a la societat WETSEEN, SA (NIF A084447895), amb domicili al carrer Gran Via, 158 de Pozuelo de Alarcón (200750).\n\nMercaderia sol·licitada:\n• 1.000 unitats de Yelow, referència Y01, a 25 €/u.\n• 6.000 unitats de Green, referència G03, a 60 €/u.\n• 4.500 unitats de Blue, referència B36, a 40 €/u.\n• 2.500 unitats de Pink, referència P05, a 100 €/u.\n• 4.000 unitats de Grey, referència G15, a 70 €/u.\n• 7.500 unitats de Red, referència R01, a 250 €/u.\n\nCondicions: descompte del 5 %; despesa de transport de 100 € a càrrec del comprador, amb el transportista Colour SA; lliurament al domicili del comprador; pagament a 90 dies a comptar de la factura mitjançant transferència bancària. El termini màxim de lliurament és de 15 dies.",
+        "es": "La sociedad DRYSAW, SL (NIF B08958239), con domicilio en la calle Mallorca, 650 de Madrid (200820), realiza el pedido número 12589 el 3 de enero de 2026 a la sociedad WETSEEN, SA (NIF A084447895), con domicilio en la calle Gran Via, 158 de Pozuelo de Alarcón (200750).\n\nMercancía solicitada:\n• 1.000 unidades de Yelow, referencia Y01, a 25 €/u.\n• 6.000 unidades de Green, referencia G03, a 60 €/u.\n• 4.500 unidades de Blue, referencia B36, a 40 €/u.\n• 2.500 unidades de Pink, referencia P05, a 100 €/u.\n• 4.000 unidades de Grey, referencia G15, a 70 €/u.\n• 7.500 unidades de Red, referencia R01, a 250 €/u.\n\nCondiciones: descuento del 5 %; gasto de transporte de 100 € a cargo del comprador, con el transportista Colour SA; entrega en el domicilio del comprador; pago a 90 días desde la factura mediante transferencia bancaria. El plazo máximo de entrega es de 15 días."
+      },
+      "order": {
+        "orderNumber": "12589",
+        "orderDate": "2026-01-03",
+        "buyer": {
+          "name": "DRYSAW, SL",
+          "nif": "B08958239",
+          "address": "carrer Mallorca, 650 de Madrid (200820)"
+        },
+        "supplier": {
+          "name": "WETSEEN, SA",
+          "nif": "A084447895",
+          "address": "carrer Gran Via, 158 de Pozuelo de Alarcón (200750)"
+        },
+        "items": [
+          {
+            "reference": "Y01",
+            "description": "Yelow",
+            "quantity": 1000,
+            "unitPrice": 25,
+            "lineTotal": 25000
+          },
+          {
+            "reference": "G03",
+            "description": "Green",
+            "quantity": 6000,
+            "unitPrice": 60,
+            "lineTotal": 360000
+          },
+          {
+            "reference": "B36",
+            "description": "Blue",
+            "quantity": 4500,
+            "unitPrice": 40,
+            "lineTotal": 180000
+          },
+          {
+            "reference": "P05",
+            "description": "Pink",
+            "quantity": 2500,
+            "unitPrice": 100,
+            "lineTotal": 250000
+          },
+          {
+            "reference": "G15",
+            "description": "Grey",
+            "quantity": 4000,
+            "unitPrice": 70,
+            "lineTotal": 280000
+          },
+          {
+            "reference": "R01",
+            "description": "Red",
+            "quantity": 7500,
+            "unitPrice": 250,
+            "lineTotal": 1875000
+          }
+        ],
+        "discountPercent": 5,
+        "transport": {
+          "cost": 100,
+          "payer": "buyer",
+          "carrier": "Colour SA"
+        },
+        "deliveryAddress": "carrer Mallorca, 650 de Madrid (200820)",
+        "paymentDays": 90,
+        "paymentMethod": "transfer",
+        "maxDeliveryDays": 15,
+        "latestDelivery": "2026-01-18",
+        "specialInstructions": null,
+        "derived": {
+          "subtotal": 2970000,
+          "discountAmount": 148500,
+          "totalBeforeTax": 2821600
+        }
+      }
+    },
+    {
+      "id": "sheet-9",
+      "number": 9,
+      "kind": "order",
+      "sourceLanguage": "ca",
+      "title": {
+        "ca": "Confecciona la comanda de Florencia, SA",
+        "es": "Confecciona el pedido de Florencia, SA"
+      },
+      "scenario": {
+        "ca": "La societat Florencia, SA (NIF A08945689), amb domicili al carrer Sant Joan, 5 de Sant Cugat del Vallès (08285), fa la comanda número 15289 el 4 de març de 2017 a la societat Caolin, SA (NIF A08458966), amb domicili al carrer Sant Salvador, 8 de Girona (45826).\n\nMercaderia sol·licitada:\n• 5.000 unitats de gelats artesans Xocolata, referència 58960, a 5 €/u.\n• 5.000 unitats de gelats artesans Vainilla, referència 58970, a 4,5 €/u.\n\nCondicions: no s’indica cap descompte; despesa de transport de 450 € a càrrec del comprador, amb el transportista Fresco, SA; adreça de lliurament: Plataforma Florencia SA, carrer Domènech parcel·la 12, polígon Can Magí de Terrasa (08265); pagament a 30 dies a comptar de la factura mitjançant transferència bancària. Instrucció especial: cal distingir els palets amb etiquetes verdes i vermelles segons el gelat: Xocolata (verd) i Vainilla (vermell). El termini màxim de lliurament és de 3 dies.",
+        "es": "La sociedad Florencia, SA (NIF A08945689), con domicilio en la calle Sant Joan, 5 de Sant Cugat del Vallès (08285), realiza el pedido número 15289 el 4 de marzo de 2017 a la sociedad Caolin, SA (NIF A08458966), con domicilio en la calle Sant Salvador, 8 de Girona (45826).\n\nMercancía solicitada:\n• 5.000 unidades de helados artesanos Xocolata, referencia 58960, a 5 €/u.\n• 5.000 unidades de helados artesanos Vainilla, referencia 58970, a 4,5 €/u.\n\nCondiciones: no se indica ningún descuento; gasto de transporte de 450 € a cargo del comprador, con el transportista Fresco, SA; dirección de entrega: Plataforma Florencia SA, carrer Domènech parcel·la 12, polígon Can Magí de Terrasa (08265); pago a 30 días desde la factura mediante transferencia bancaria. Instrucción especial: hay que distinguir los palés con etiquetas verdes y rojas según el helado: Xocolata (verde) y Vainilla (rojo). El plazo máximo de entrega es de 3 días."
+      },
+      "order": {
+        "orderNumber": "15289",
+        "orderDate": "2017-03-04",
+        "buyer": {
+          "name": "Florencia, SA",
+          "nif": "A08945689",
+          "address": "carrer Sant Joan, 5 de Sant Cugat del Vallès (08285)"
+        },
+        "supplier": {
+          "name": "Caolin, SA",
+          "nif": "A08458966",
+          "address": "carrer Sant Salvador, 8 de Girona (45826)"
+        },
+        "items": [
+          {
+            "reference": "58960",
+            "description": "gelats artesans Xocolata",
+            "quantity": 5000,
+            "unitPrice": 5,
+            "lineTotal": 25000
+          },
+          {
+            "reference": "58970",
+            "description": "gelats artesans Vainilla",
+            "quantity": 5000,
+            "unitPrice": 4.5,
+            "lineTotal": 22500
+          }
+        ],
+        "discountPercent": 0,
+        "transport": {
+          "cost": 450,
+          "payer": "buyer",
+          "carrier": "Fresco, SA"
+        },
+        "deliveryAddress": "Plataforma Florencia SA, carrer Domènech parcel·la 12, polígon Can Magí de Terrasa (08265)",
+        "paymentDays": 30,
+        "paymentMethod": "transfer",
+        "maxDeliveryDays": 3,
+        "latestDelivery": "2017-03-07",
+        "specialInstructions": {
+          "ca": "Distingir els palets amb etiquetes verdes i vermelles segons el gelat: Xocolata (verd) i Vainilla (vermell).",
+          "es": "Distinguir los palés con etiquetas verdes y rojas según el helado: Xocolata (verde) y Vainilla (rojo).",
+          "keywords": [
+            [
+              "xocolata",
+              "chocolate"
+            ],
+            [
+              "verd",
+              "verde",
+              "green"
+            ],
+            [
+              "vainilla"
+            ],
+            [
+              "vermell",
+              "vermella",
+              "rojo",
+              "roja",
+              "red"
+            ]
+          ]
+        },
+        "derived": {
+          "subtotal": 47500,
+          "discountAmount": 0,
+          "totalBeforeTax": 47950
+        }
+      }
+    }
+  ]
+}
