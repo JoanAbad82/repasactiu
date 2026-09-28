@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "sourceId": "UF0519_EXERCICIS_ADMIN_2026",
+  "filename": "Exercicis_1-10_unificats.docx",
+  "title": "Exercicis de documents administratius i comercials",
+  "courseUnit": "UF0519 · Gestió auxiliar de documentació economicoadministrativa i comercial",
+  "provider": "Material de classe",
+  "sourceType": "teacher_handout_image_only_docx",
+  "imageOnly": true,
+  "received": "2026-09-28",
+  "embeddedSheets": 9,
+  "filenameSuggestsSheets": 10,
+  "tenthSheetAdded": false,
+  "languageBySheet": {
+    "sheet-1": "ca+es",
+    "sheet-2": "ca+es",
+    "sheet-3": "ca+es",
+    "sheet-4": "ca+es",
+    "sheet-5": "ca+es",
+    "sheet-6": "ca",
+    "sheet-7": "ca",
+    "sheet-8": "ca",
+    "sheet-9": "ca"
+  },
+  "siteTranslationNote": {
+    "ca": "Els fulls 1-5 són bilingües català/castellà al material. Els fulls 6-9 són només en català; les versions castellanes de la web són traduccions del lloc, no text del material.",
+    "es": "Las hojas 1-5 son bilingües catalán/castellano en el material. Las hojas 6-9 son solo en catalán; las versiones castellanas de la web son traducciones del sitio, no texto del material."
+  },
+  "scenarioTextPolicy": "El DOCX és només imatge, de manera que els enunciats de la web són transcripcions/reconstruccions fetes a partir de les dades de cada full. No s’hi ha afegit cap dada que no consti al material.",
+  "identifiersPreservedLiterally": true,
+  "literalIdentifierPolicy": "Tots els identificadors, números de comanda i codis postals es reprodueixen literalment encara que semblin inusuals (per exemple codis postals de 5 o 6 xifres o NIF de 9 xifres). No s’han corregit ni normalitzat.",
+  "literalIdentifiers": [
+    "B08999999",
+    "A08444445",
+    "B08911999",
+    "082936",
+    "B08958239",
+    "A084447895",
+    "200820",
+    "200750",
+    "A08945689",
+    "A08458966",
+    "45826",
+    "123/08",
+    "140/08",
+    "12589",
+    "15289"
+  ],
+  "canonicalFor": [
+    "site/data/administrative-exercises-v1.json",
+    "site/js/administrative-exercises.js"
+  ],
+  "sheets": [
+    {
+      "sheet": 1,
+      "topic": "Identificar els elements del document",
+      "expected": {
+        "issuer": "Muebles García S.L.",
+        "recipient": "DecoHogar S.A.",
+        "documentType": "factura"
+      }
+    },
+    {
+      "sheet": 2,
+      "topic": "Classificar documents",
+      "categories": [
+        "Gestió de compravenda",
+        "Pagaments i cobraments",
+        "Gestió productiva i de recursos humans",
+        "Gestió de decisions",
+        "Gestió de procediments administratius"
+      ],
+      "expected": {
+        "pedido": "purchase_sale",
+        "nomina": "hr",
+        "factura": "purchase_sale",
+        "instancia": "procedures",
+        "cheque": "payments",
+        "acta": "decisions",
+        "albaran": "purchase_sale"
+      }
+    },
+    {
+      "sheet": 3,
+      "topic": "Ordenar documents i explicar la seva funció",
+      "expectedOrder": [
+        "pedido",
+        "albaran",
+        "factura"
+      ],
+      "gradingPolicy": "Es correcció objectiva l’ordre. L’explicació lliure no es puntua: es mostren criteris i punts model per a l’autocorrecció."
+    },
+    {
+      "sheet": 4,
+      "topic": "Procés senzill de material d’oficina",
+      "expected": [
+        "pedido",
+        "albaran",
+        "factura"
+      ]
+    },
+    {
+      "sheet": 5,
+      "topic": "Procés de compravenda",
+      "expectedDocuments": [
+        "pedido",
+        "albaran",
+        "factura"
+      ],
+      "expectedInvoiceTiming": "Després del lliurament i de signar l’albarà, abans del pagament."
+    },
+    {
+      "sheet": 6,
+      "topic": "Confeccionar la comanda",
+      "buyer": "Software Reus, SL",
+      "supplier": "Distrisoft, SA",
+      "orderDate": "2025-11-05",
+      "orderNumber": "123/08",
+      "discountPercent": 3,
+      "latestDelivery": "2025-11-15",
+      "derived": {
+        "subtotal": 34150,
+        "discountAmount": 1024.5,
+        "totalBeforeTax": 33125.5
+      }
+    },
+    {
+      "sheet": 7,
+      "topic": "Confeccionar la comanda",
+      "buyer": "MareNostrum, SL",
+      "supplier": "MareVostrum SA",
+      "orderDate": "2026-06-10",
+      "orderNumber": "140/08",
+      "discountPercent": 4,
+      "latestDelivery": "2026-06-15",
+      "derived": {
+        "subtotal": 379000,
+        "discountAmount": 15160,
+        "totalBeforeTax": 363840
+      }
+    },
+    {
+      "sheet": 8,
+      "topic": "Confeccionar la comanda",
+      "buyer": "DRYSAW, SL",
+      "supplier": "WETSEEN, SA",
+      "orderDate": "2026-01-03",
+      "orderNumber": "12589",
+      "discountPercent": 5,
+      "transport": 100,
+      "latestDelivery": "2026-01-18",
+      "derived": {
+        "subtotal": 2970000,
+        "discountAmount": 148500,
+        "totalBeforeTax": 2821600
+      }
+    },
+    {
+      "sheet": 9,
+      "topic": "Confeccionar la comanda",
+      "buyer": "Florencia, SA",
+      "supplier": "Caolin, SA",
+      "orderDate": "2017-03-04",
+      "orderNumber": "15289",
+      "discountPercent": 0,
+      "transport": 450,
+      "latestDelivery": "2017-03-07",
+      "derived": {
+        "subtotal": 47500,
+        "discountAmount": 0,
+        "totalBeforeTax": 47950
+      }
+    }
+  ],
+  "ambiguities": [
+    "El nom del fitxer diu 1-10 però només hi ha 9 fulls incrustats; no s’ha creat cap full 10.",
+    "El document és només imatge: els enunciats de la web són reconstruccions fidels a les dades, no una transcripció literal paraula per paraula.",
+    "Es conserven codis postals i NIF tal com apareixen al material encara que semblin errades (per exemple 082936, 200820, 200750, 45826).",
+    "El material no indica cap tipus d’IVA per a les comandes: els totals de la web són abans d’impostos i no s’hi afegeix IVA."
+  ]
+}

@@ -1,4 +1,5 @@
 import {renderCommercialCorrespondenceHtml,validateCommercialCorrespondenceData} from "./commercial-correspondence.js";
+import {validateAdministrativeExercisesData,createAdministrativeExerciseState,renderAdministrativeExercisesHtml,bindAdministrativeExercises} from "./administrative-exercises.js";
 
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const money=v=>Number(v).toFixed(2).replace(".",",").replace(/\B(?=(\d{3})+(?!\d))/g,".")+" €";
@@ -163,18 +164,22 @@ function payrollAreaHtml(b,l,t,view,state){
 }
 
 
-export function renderPracticalExamplesHtml({correspondenceBank,payrollBank,language="ca",category="correspondence",correspondenceTab="guide",payrollView="resolved",practiceState=null}){
- validateCommercialCorrespondenceData(correspondenceBank);validatePayrollExampleData(payrollBank);const l=language==="es"?"es":"ca",t=C[l],active=category==="payroll"?"payroll":"correspondence";
- const body=active==="payroll"?payrollAreaHtml(payrollBank,l,t,payrollView,practiceState):renderCommercialCorrespondenceHtml(correspondenceBank,l,correspondenceTab,{showBack:false});
- return `<div class="practical-examples-shell"><div class="practical-toolbar"><button class="back-button" data-action="home" type="button">${t.back}</button></div><header class="practical-head"><p class="eyebrow">${l==="ca"?"Aplicació del temari":"Aplicación del temario"}</p><h1>${t.title}</h1><p>${t.intro}</p></header><nav class="practical-tabs" aria-label="${t.title}"><button type="button" data-practical-category="correspondence" aria-pressed="${String(active==="correspondence")}">${t.corr}</button><button type="button" data-practical-category="payroll" aria-pressed="${String(active==="payroll")}">${t.pay}</button></nav><div class="practical-content">${body}</div></div>`;
+const ADMIN_LABEL={ca:"Documents administratius i comercials",es:"Documentos administrativos y comerciales"};
+
+export function renderPracticalExamplesHtml({correspondenceBank,payrollBank,administrativeBank=null,language="ca",category="correspondence",correspondenceTab="guide",payrollView="resolved",practiceState=null,administrativeState=null}){
+ validateCommercialCorrespondenceData(correspondenceBank);validatePayrollExampleData(payrollBank);if(administrativeBank)validateAdministrativeExercisesData(administrativeBank);
+ const l=language==="es"?"es":"ca",t=C[l],enabled=administrativeBank?["correspondence","payroll","administrative"]:["correspondence","payroll"],active=enabled.includes(category)?category:"correspondence";
+ const body=active==="payroll"?payrollAreaHtml(payrollBank,l,t,payrollView,practiceState):active==="administrative"?renderAdministrativeExercisesHtml(administrativeBank,l,administrativeState||createAdministrativeExerciseState()):renderCommercialCorrespondenceHtml(correspondenceBank,l,correspondenceTab,{showBack:false});
+ const adminTab=administrativeBank?`<button type="button" data-practical-category="administrative" aria-pressed="${String(active==="administrative")}">${ADMIN_LABEL[l]}</button>`:"";
+ return `<div class="practical-examples-shell"><div class="practical-toolbar"><button class="back-button" data-action="home" type="button">${t.back}</button></div><header class="practical-head"><p class="eyebrow">${l==="ca"?"Aplicació del temari":"Aplicación del temario"}</p><h1>${t.title}</h1><p>${t.intro}</p></header><nav class="practical-tabs" aria-label="${t.title}"><button type="button" data-practical-category="correspondence" aria-pressed="${String(active==="correspondence")}">${t.corr}</button><button type="button" data-practical-category="payroll" aria-pressed="${String(active==="payroll")}">${t.pay}</button>${adminTab}</nav><div class="practical-content">${body}</div></div>`;
 }
 
-export function createPracticalExamples({screen,correspondenceBank,payrollBank,language="ca",onHome}){
- let l=language==="es"?"es":"ca",category="correspondence",correspondenceTab="guide",payrollView="resolved",practiceState=createPayrollPracticeState();
+export function createPracticalExamples({screen,correspondenceBank,payrollBank,administrativeBank=null,language="ca",onHome}){
+ let l=language==="es"?"es":"ca",category="correspondence",correspondenceTab="guide",payrollView="resolved",practiceState=createPayrollPracticeState(),administrativeState=createAdministrativeExerciseState();
  const render=()=>{
-  screen.innerHTML=renderPracticalExamplesHtml({correspondenceBank,payrollBank,language:l,category,correspondenceTab,payrollView,practiceState});
+  screen.innerHTML=renderPracticalExamplesHtml({correspondenceBank,payrollBank,administrativeBank,language:l,category,correspondenceTab,payrollView,practiceState,administrativeState});
   screen.querySelector('[data-action="home"]')?.addEventListener("click",onHome);
-  for(const b of screen.querySelectorAll("[data-practical-category]"))b.addEventListener("click",()=>{category=b.dataset.practicalCategory==="payroll"?"payroll":"correspondence";render();});
+  for(const b of screen.querySelectorAll("[data-practical-category]"))b.addEventListener("click",()=>{const value=b.dataset.practicalCategory;category=value==="payroll"?"payroll":value==="administrative"?"administrative":"correspondence";render();});
   for(const b of screen.querySelectorAll("[data-correspondence-tab]"))b.addEventListener("click",()=>{correspondenceTab=b.dataset.correspondenceTab;render();});
   for(const b of screen.querySelectorAll("[data-payroll-view]"))b.addEventListener("click",()=>{payrollView=b.dataset.payrollView==="practice"?"practice":"resolved";render();});
   screen.querySelector("[data-practice-restart]")?.addEventListener("click",()=>{practiceState=createPayrollPracticeState();render();});
@@ -239,6 +244,7 @@ export function createPracticalExamples({screen,correspondenceBank,payrollBank,l
    practiceState.attempts[current.key]=(practiceState.attempts[current.key]||0)+1;
    practiceState.feedback={type:"wrong"};render();
   });
+  if(administrativeBank)bindAdministrativeExercises({root:screen,bank:administrativeBank,language:l,state:administrativeState,rerender:render});
  };
  render();
  return {setLanguage(n){l=n==="es"?"es":"ca";render();},destroy(){screen.replaceChildren();}};
