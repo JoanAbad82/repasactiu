@@ -176,10 +176,10 @@
       "topic": "Mitjans de pagament",
       "question": "Quins altres mitjans de pagament o crèdit apareixen a la presentació?",
       "options": [
-        "Només efectiu i rebuts",
-        "Només transferències i ingressos en compte",
+        "Efectiu, xecs, rebuts, transferències i ingressos en compte",
+        "Pressupostos, comandes, albarans i factures comercials",
         "Targetes de crèdit o dèbit, pagarés i lletres de canvi",
-        "Només xecs nominatius"
+        "Certificats, actes, informes i comunicacions internes"
       ],
       "correct": 2,
       "explanation": "La presentació afegeix les targetes de crèdit o dèbit, els pagarés i les lletres de canvi."

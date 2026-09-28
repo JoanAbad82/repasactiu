@@ -4,12 +4,12 @@
   "questions": {
     "b2-057": {
       "topic": "Empresas lucrativas",
-      "question": "Una empresa con beneficios decide destinar una parte a comprar nuevos equipos. Según el temario, ¿es un destino posible del beneficio?",
+      "question": "Después de calcular el beneficio, una empresa decide utilizar una parte dentro del negocio. ¿Qué actuación encaja con el material?",
       "options": [
-        "Sí, los beneficios se pueden reinvertir o destinar a nuevos equipos y recursos",
-        "No, todos los beneficios deben repartirse entre los propietarios",
-        "No, los beneficios solo pueden guardarse sin utilizar",
-        "Sí, pero solo si la empresa deja de tener finalidad lucrativa"
+        "Reinvertirlo en la empresa, por ejemplo comprando nuevos equipos o recursos",
+        "Contabilizarlo de nuevo como un gasto antes de determinar el resultado del ejercicio",
+        "Mantenerlo fuera de la actividad hasta que se reparta entre los propietarios o socios",
+        "Convertirlo previamente en capital social antes de poder aplicarlo a equipos o recursos"
       ],
       "explanation": "El material indica que los beneficios de una empresa lucrativa se pueden reinvertir, destinar a nuevos equipos, ampliar la actividad o mejorar productos y servicios."
     },

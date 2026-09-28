@@ -84,9 +84,9 @@
       "question": "¿Qué elementos debe identificar una solicitud?",
       "options": [
         "Persona interesada, medio de notificación, hechos, petición, lugar, fecha y firma",
-        "Solo el asunto y el precio",
-        "Solo remitente y destinatario",
-        "Exclusivamente una posdata"
+        "Persona interesada, hechos, petición, lugar, fecha y firma, sin indicar el medio de notificación",
+        "Datos de la persona interesada, identificación del órgano destinatario, exposición de los hechos, petición concreta y documentos anexos",
+        "Persona interesada, medio de notificación, hechos, petición y anexos, sin lugar, fecha ni firma"
       ],
       "explanation": "El material enumera estos elementos básicos y admite documentos anexos que justifiquen la petición."
     },

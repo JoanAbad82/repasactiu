@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "questions": {
     "b2-037": {
       "canonical": {
@@ -54,6 +54,80 @@
         "type": "idea",
         "ca": "Control = supervisar i coordinar; responsabilitat = assumir la part pròpia i treballar en equip.",
         "es": "Control = supervisar y coordinar; responsabilidad = asumir la parte propia y trabajar en equipo."
+      }
+    },
+    "b2-013": {
+      "canonical": {
+        "options": [
+          "Les participacions d’una S.L. no es transmeten amb la mateixa llibertat que les accions d’una S.A.",
+          "Les participacions d’una S.L. es transmeten amb més llibertat que les accions d’una S.A.",
+          "Les participacions d’una S.L. i les accions d’una S.A. tenen el mateix grau de llibertat de transmissió",
+          "Les accions d’una S.A. tenen una transmissió més restringida que les participacions d’una S.L."
+        ]
+      },
+      "es": {
+        "options": [
+          "Las participaciones de una S.L. no se transmiten con la misma libertad que las acciones de una S.A.",
+          "Las participaciones de una S.L. se transmiten con más libertad que las acciones de una S.A.",
+          "Las participaciones de una S.L. y las acciones de una S.A. tienen el mismo grado de libertad de transmisión",
+          "Las acciones de una S.A. tienen una transmisión más restringida que las participaciones de una S.L."
+        ]
+      }
+    },
+    "b4-024": {
+      "canonical": {
+        "options": [
+          "Recursos Humans i Financer",
+          "Administració i Financer",
+          "Recursos Humans i Prevenció de Riscos Laborals",
+          "Recursos Humans i Administració"
+        ],
+        "question": "Contractes, nòmines, formació, absències i avaluacions formen un tipus d’informació que l’empresa ha de gestionar. Quins departaments n’assumeixen principalment la gestió?"
+      },
+      "es": {
+        "options": [
+          "Recursos Humanos y Financiero",
+          "Administración y Financiero",
+          "Recursos Humanos y Prevención de Riesgos Laborales",
+          "Recursos Humanos y Administración"
+        ],
+        "question": "Contratos, nóminas, formación, ausencias y evaluaciones forman un tipo de información que la empresa debe gestionar. ¿Qué departamentos asumen principalmente su gestión?"
+      }
+    },
+    "b4-034": {
+      "canonical": {
+        "options": [
+          "Amb més de 250 persones, o entre 100 i 250 si es desenvolupen activitats de l’annex I, entre altres supòsits",
+          "Amb més de 500 persones treballadores, o entre 250 i 500 si es fan activitats de l’annex I, entre altres supòsits legals",
+          "Amb més de 500 persones, o entre 250 i 500 quan hi ha riscos específics encara que l’activitat no sigui de l’annex I",
+          "Amb més de 1.000 persones, o entre 500 i 1.000 si es desenvolupen activitats de l’annex I, entre altres supòsits"
+        ]
+      },
+      "es": {
+        "options": [
+          "Con más de 250 personas, o entre 100 y 250 si se desarrollan actividades del anexo I, entre otros supuestos",
+          "Con más de 500 personas trabajadoras, o entre 250 y 500 si se realizan actividades del anexo I, entre otros supuestos legales",
+          "Con más de 500 personas, o entre 250 y 500 cuando hay riesgos específicos aunque la actividad no sea del anexo I",
+          "Con más de 1.000 personas, o entre 500 y 1.000 si se desarrollan actividades del anexo I, entre otros supuestos"
+        ]
+      }
+    },
+    "u2b1-043": {
+      "canonical": {
+        "options": [
+          "Un estàndard compartit que indica quins comportaments són acceptables dins del grup",
+          "La posició o el rang social que els altres atribueixen a una persona dins del grup",
+          "Un conjunt de comportaments esperats associats a una posició dins d’una unitat social",
+          "El grau d’atracció i unió que afavoreix que els membres romanguin vinculats al grup"
+        ]
+      },
+      "es": {
+        "options": [
+          "Un estándar compartido que indica qué comportamientos son aceptables dentro del grupo",
+          "La posición o el rango social que los demás atribuyen a una persona dentro del grupo",
+          "Un conjunto de comportamientos esperados asociados a una posición dentro de una unidad social",
+          "El grado de atracción y unión que favorece que los miembros permanezcan vinculados al grupo"
+        ]
       }
     }
   }

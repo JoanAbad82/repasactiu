@@ -279,14 +279,14 @@
     },
     "b4-024": {
       "ca": [
-        "Recursos Humans i Financer",
-        "Administració i Financer",
-        "Recursos Humans i Prevenció"
+        "Recursos Humans i Financer, perquè Financer controla els pagaments i el pressupost de personal",
+        "Administració i Prevenció de Riscos Laborals, perquè gestionen documentació laboral i preventiva",
+        "Recursos Humans i Prevenció de Riscos Laborals, perquè totes dues treballen amb informació de les persones"
       ],
       "es": [
-        "Recursos Humanos y Financiero",
-        "Administración y Financiero",
-        "Recursos Humanos y Prevención"
+        "Recursos Humanos y Financiero, porque Financiero controla los pagos y el presupuesto de personal",
+        "Administración y Prevención de Riesgos Laborales, porque gestionan documentación laboral y preventiva",
+        "Recursos Humanos y Prevención de Riesgos Laborales, porque ambos trabajan con información de las personas"
       ]
     },
     "b4-025": {
@@ -399,14 +399,14 @@
     },
     "b4-034": {
       "ca": [
-        "Amb més de 250 persones, independentment del tipus d’activitat",
-        "Amb més de 500 persones, o entre 250 i 500 quan qualsevol lloc presenta algun risc",
-        "Només quan una autoritat laboral ho ordena després d’un accident"
+        "Amb més de 500 persones, o entre 250 i 500 quan l’empresa disposa d’un servei de prevenció aliè",
+        "Amb més de 250 persones, o entre 100 i 250 quan es desenvolupen activitats incloses en l’annex I",
+        "Amb més de 500 persones només si l’activitat està inclosa en l’annex I, o entre 250 i 500 davant qualsevol risc específic"
       ],
       "es": [
-        "Con más de 250 personas, independientemente del tipo de actividad",
-        "Con más de 500 personas, o entre 250 y 500 cuando cualquier puesto presenta algún riesgo",
-        "Solo cuando una autoridad laboral lo ordena después de un accidente"
+        "Con más de 500 personas, o entre 250 y 500 cuando la empresa dispone de un servicio de prevención ajeno",
+        "Con más de 250 personas, o entre 100 y 250 cuando se desarrollan actividades incluidas en el anexo I",
+        "Con más de 500 personas solo si la actividad está incluida en el anexo I, o entre 250 y 500 ante cualquier riesgo específico"
       ]
     },
     "b4-035": {
@@ -591,14 +591,14 @@
     },
     "b4-050": {
       "ca": [
-        "El pressupost",
-        "L’àrea geogràfica",
-        "La mida de l’empresa"
+        "El pressupost disponible, perquè determina per si mateix quins departaments han d’existir",
+        "L’àrea geogràfica d’actuació, perquè la necessitat de postvenda depèn principalment de les delegacions",
+        "La tipologia de clients, perquè la diferència descrita depèn sobretot del perfil del comprador i no de l’oferta"
       ],
       "es": [
-        "El presupuesto",
-        "El área geográfica",
-        "El tamaño de la empresa"
+        "El presupuesto disponible, porque determina por sí mismo qué departamentos deben existir",
+        "El área geográfica de actuación, porque la necesidad de posventa depende principalmente de las delegaciones",
+        "La tipología de clientes, porque la diferencia descrita depende sobre todo del perfil del comprador y no de la oferta"
       ]
     },
     "b4-051": {

@@ -103,12 +103,12 @@
     },
     "b4-050": {
       "topic": "Criterios de asignación",
-      "question": "Dos empresas tienen el mismo tamaño, pero una ofrece servicios muy especializados y la otra productos sencillos. ¿Qué criterio puede justificar estructuras diferentes?",
+      "question": "Dos empresas tienen un tamaño parecido: una es un concesionario que necesita posventa y financiación, y la otra una librería de barrio que no los necesita. ¿Qué criterio explica mejor esta diferencia de estructura?",
       "options": [
-        "El número de logotipos",
+        "El área geográfica de actuación",
         "La tipología de productos o servicios",
-        "El día de pago de nóminas",
-        "La ubicación del Registro Mercantil"
+        "El volumen de producción",
+        "El presupuesto disponible"
       ],
       "explanation": "La tipología de los productos o servicios es un criterio que influye en las unidades y departamentos que necesita cada empresa."
     },

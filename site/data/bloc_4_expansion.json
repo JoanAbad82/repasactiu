@@ -146,12 +146,12 @@
       "id": "b4-050",
       "block": "bloc-4",
       "topic": "Criteris d’assignació",
-      "question": "Dues empreses tenen la mateixa mida, però una ofereix serveis molt especialitzats i l’altra productes senzills. Quin criteri pot justificar estructures diferents?",
+      "question": "Dues empreses tenen una mida semblant: una és un concessionari que necessita postvenda i finançament, i l’altra una llibreria de barri que no els necessita. Quin criteri explica millor aquesta diferència d’estructura?",
       "options": [
-        "El nombre de logotips",
+        "L’àrea geogràfica d’actuació",
         "La tipologia de productes o serveis",
-        "El dia de pagament de nòmines",
-        "La ubicació del Registre Mercantil"
+        "El volum de producció",
+        "El pressupost disponible"
       ],
       "correct": 1,
       "explanation": "La tipologia dels productes o serveis és un criteri que influeix en les unitats i departaments que necessita cada empresa."

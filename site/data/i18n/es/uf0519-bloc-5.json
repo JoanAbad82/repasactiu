@@ -138,10 +138,10 @@
       "topic": "Medios de pago",
       "question": "¿Qué otros medios de pago o crédito aparecen en la presentación?",
       "options": [
-        "Solo efectivo y recibos",
-        "Solo transferencias e ingresos en cuenta",
+        "Efectivo, cheques, recibos, transferencias e ingresos en cuenta",
+        "Presupuestos, pedidos, albaranes y facturas comerciales",
         "Tarjetas de crédito o débito, pagarés y letras de cambio",
-        "Solo cheques nominativos"
+        "Certificados, actas, informes y comunicaciones internas"
       ],
       "explanation": "La presentación añade las tarjetas de crédito o débito, los pagarés y las letras de cambio."
     },

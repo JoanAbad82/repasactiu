@@ -118,12 +118,12 @@
       "id": "b2-057",
       "block": "bloc-2",
       "topic": "Empreses lucratives",
-      "question": "Una empresa amb beneficis decideix destinar-ne una part a comprar nous equips. Segons el temari, és una destinació possible del benefici?",
+      "question": "Després de calcular el benefici, una empresa decideix utilitzar-ne una part dins del negoci. Quina actuació encaixa amb el material?",
       "options": [
-        "Sí, els beneficis es poden reinvertir o destinar a nous equips i recursos",
-        "No, tots els beneficis s’han de repartir entre els propietaris",
-        "No, els beneficis només es poden guardar sense utilitzar",
-        "Sí, però només si l’empresa deixa de tenir finalitat lucrativa"
+        "Reinvertir-lo en l’empresa, per exemple comprant nous equips o recursos",
+        "Comptabilitzar-lo de nou com una despesa abans de determinar el resultat de l’exercici",
+        "Mantenir-lo fora de l’activitat fins que es reparteixi entre els propietaris o socis",
+        "Convertir-lo prèviament en capital social abans de poder-lo aplicar a equips o recursos"
       ],
       "correct": 0,
       "explanation": "El material indica que els beneficis d’una empresa lucrativa es poden reinvertir, destinar a nous equips, ampliar l’activitat o millorar productes i serveis."

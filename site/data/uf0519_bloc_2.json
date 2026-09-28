@@ -176,10 +176,10 @@
       "topic": "Albarà",
       "question": "Quines dades bàsiques destaca el material en un albarà?",
       "options": [
-        "Només IBAN i retenció d’IRPF",
+        "Número i data, identificació de comprador i venedor, base imposable, tipus d’IVA, quota i import total",
         "Número i data, identificació de comprador i venedor, referència de comanda, lloc de lliurament i signatura o segell",
-        "Únicament salari base i complements",
-        "Només número de nòmina i període"
+        "Número i data, identificació d’empresa i persona treballadora, salari base, complements i deduccions",
+        "Número i data, identificació de client i empresa, validesa de l’oferta, preus, impostos i acceptació"
       ],
       "correct": 1,
       "explanation": "Aquests elements permeten identificar el lliurament i relacionar-lo amb la comanda."

@@ -9,9 +9,9 @@
       "question": "Què és un document administratiu segons el material?",
       "options": [
         "Un suport físic o digital que deixa constància d’un fet, comunicació, decisió o actuació",
-        "Un document exclusivament comptable",
-        "Una comunicació oral sense registre",
-        "Un arxiu que només pot existir en paper"
+        "Un suport físic o digital centrat en operacions comptables, sense funcions informatives o probatòries",
+        "Una comunicació que transmet una decisió però no deixa constància documental de l’actuació",
+        "Un arxiu intern destinat a ordenar informació, però sense funció de prova o constància"
       ],
       "correct": 0,
       "explanation": "El document administratiu pot ser físic o digital i deixa constància d’una actuació o informació."

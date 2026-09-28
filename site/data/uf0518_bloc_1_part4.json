@@ -218,10 +218,10 @@
       "topic": "Instància o sol·licitud",
       "question": "Quins elements ha d’identificar una sol·licitud?",
       "options": [
-        "Persona interessada, mitjà de notificació, fets, petició, lloc, data i signatura",
-        "Només l’assumpte i el preu",
-        "Només remitent i destinatari",
-        "Exclusivament una postdata"
+        "Persona interessada, mitj? de notificaci?, fets, petici?, lloc, data i signatura",
+        "Persona interessada, fets, petici?, lloc, data i signatura, sense indicar el mitj? de notificaci?",
+        "Dades de la persona interessada, identificaci? de l??rgan destinatari, exposici? dels fets, petici? concreta i documents annexos",
+        "Persona interessada, mitj? de notificaci?, fets, petici? i annexos, sense lloc, data ni signatura"
       ],
       "correct": 0,
       "explanation": "El material enumera aquests elements bàsics i admet documents annexos que justifiquin la petició."

@@ -129,12 +129,52 @@
       ],
       "status": "CORRECTED",
       "reason": "The former wording referred vaguely to 'the two principles worked on in the block'. It now names the principle of organizational control and the principle of responsibility explicitly while preserving the same source-backed correct meaning."
+    },
+    {
+      "id": "b2-013",
+      "source": "B2",
+      "pageRange": [
+        11,
+        11
+      ],
+      "status": "CORRECTED",
+      "reason": "The source-backed S.L./S.A. transmission rule is unchanged; distractors were rewritten to remove answer-length and absolute-wording cues while preserving the same correct index and meaning."
+    },
+    {
+      "id": "b4-034",
+      "source": "B4",
+      "pageRange": [
+        29,
+        29
+      ],
+      "status": "CORRECTED",
+      "reason": "The source-backed thresholds for a company-owned prevention service are unchanged; alternatives were balanced in length and structure without altering the correct rule."
+    },
+    {
+      "id": "u2b1-043",
+      "source": "U2B1",
+      "pageRange": [
+        41,
+        42
+      ],
+      "status": "CORRECTED",
+      "reason": "The source definition of role is unchanged; distractors now use the source-backed definitions of status, norms and cohesion so the item tests conceptual distinction instead of option length."
+    },
+    {
+      "id": "b4-024",
+      "source": "B4",
+      "pageRange": [
+        23,
+        23
+      ],
+      "status": "CORRECTED",
+      "reason": "The source-backed answer Recursos Humans i Administraci? is unchanged; the stem now describes personnel-information examples rather than naming the target concept, and distractors use adjacent departmental responsibilities."
     }
   ],
   "review": {
     "questionCount": 510,
     "method": "Question, marked correct option and explanation reviewed against the authorized PDF for its block/topic; the 2026-09-19 editorial audit also verifies self-contained wording for study-card reuse and records source-backed corrections explicitly.",
-    "semanticCorrections": 2,
+    "semanticCorrections": 6,
     "residualGuarantee": "Technical invariants are exhaustive. Academic correctness is source-audited to high assurance but is not a mathematical proof of zero interpretation error.",
     "teacherValidatedSourcesDate": "2026-09-24"
   }

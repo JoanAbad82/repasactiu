@@ -147,14 +147,14 @@
     },
     "b2-013": {
       "ca": [
-        "Les participacions d’una S.L. es transmeten més lliurement que les accions d’una S.A.",
-        "S.A. i S.L. tenen la mateixa llibertat de transmissió perquè totes dues limiten responsabilitat",
-        "Les accions d’una S.A. només es poden transmetre entre els seus socis actuals"
+        "La transmissió és equivalent en S.L. i S.A.; la diferència principal és la manera de dividir el capital",
+        "Les participacions d’una S.L. es transmeten lliurement i les accions d’una S.A. estan més restringides",
+        "La llibertat de transmissió depèn del volum de capital i no de la forma societària"
       ],
       "es": [
-        "Las participaciones de una S.L. se transmiten más libremente que las acciones de una S.A.",
-        "S.A. y S.L. tienen la misma libertad de transmisión porque ambas limitan responsabilidad",
-        "Las acciones de una S.A. solo se pueden transmitir entre sus socios actuales"
+        "La transmisión es equivalente en S.L. y S.A.; la diferencia principal es la forma de dividir el capital",
+        "Las participaciones de una S.L. se transmiten libremente y las acciones de una S.A. están más restringidas",
+        "La libertad de transmisión depende del volumen de capital y no de la forma societaria"
       ]
     },
     "b2-014": {
@@ -675,14 +675,14 @@
     },
     "b2-057": {
       "ca": [
-        "Sí, després de destinar primer una part fixa al repartiment entre els propietaris",
-        "No, perquè la reinversió correspon a entitats que no reparteixen beneficis",
-        "Sí, però la compra d’equips transforma l’empresa en no lucrativa durant l’exercici"
+        "Registrar el benefici com una despesa necess?ria del mateix exercici abans de calcular el resultat",
+        "Considerar-lo un ingr?s pendent fins a l?exercici seg?ent abans de decidir-ne la destinaci?",
+        "Convertir-lo en deute de l?empresa abans de poder aplicar-lo a nous equips o recursos"
       ],
       "es": [
-        "Sí, después de destinar primero una parte fija al reparto entre los propietarios",
-        "No, porque la reinversión corresponde a entidades que no reparten beneficios",
-        "Sí, pero la compra de equipos transforma la empresa en no lucrativa durante el ejercicio"
+        "Registrar el beneficio como un gasto necesario del mismo ejercicio antes de calcular el resultado",
+        "Considerarlo un ingreso pendiente hasta el ejercicio siguiente antes de decidir su destino",
+        "Convertirlo en deuda de la empresa antes de poder aplicarlo a nuevos equipos o recursos"
       ]
     },
     "b2-058": {

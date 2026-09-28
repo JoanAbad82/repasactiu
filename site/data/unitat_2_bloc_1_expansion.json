@@ -694,9 +694,9 @@
       "topic": "Treball en equip",
       "question": "En una decisió col·lectiva, els membres perceben menys responsabilitat individual i accepten una opció més arriscada. Quin inconvenient descriu el material?",
       "options": [
-        "Excés de normalització de processos",
-        "Manca de formació professional",
-        "Augment automàtic de la cohesió",
+        "Reducció de l’esforç individual perquè alguns membres confien que la resta assumirà part de la feina",
+        "Responsabilitat compartida que permet afrontar tasques complexes amb el suport de la resta del grup",
+        "Major acceptació de les solucions quan els membres participen en la presa de decisions",
         "Assumpció de riscos més elevats en la presa de decisions grupal"
       ],
       "correct": 3,
