@@ -3143,6 +3143,293 @@
         113,
         113
       ]
+    },
+    "uf0519-b1-017": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        7,
+        7
+      ]
+    },
+    "uf0519-b1-018": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        7,
+        7
+      ]
+    },
+    "uf0519-b1-019": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        10,
+        10
+      ]
+    },
+    "uf0519-b1-020": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        10,
+        10
+      ]
+    },
+    "uf0519-b1-021": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        11,
+        12
+      ]
+    },
+    "uf0519-b1-022": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        11,
+        12
+      ]
+    },
+    "uf0519-b1-023": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        11,
+        12
+      ]
+    },
+    "uf0519-b1-024": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        11,
+        12
+      ]
+    },
+    "uf0519-b1-025": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        14,
+        14
+      ]
+    },
+    "uf0519-b1-026": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        14,
+        14
+      ]
+    },
+    "uf0519-b1-027": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        14,
+        14
+      ]
+    },
+    "uf0519-b1-028": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        16,
+        16
+      ]
+    },
+    "uf0519-b2-034": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        18,
+        18
+      ]
+    },
+    "uf0519-b2-035": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        23,
+        23
+      ]
+    },
+    "uf0519-b2-036": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        26,
+        26
+      ]
+    },
+    "uf0519-b2-037": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        31,
+        31
+      ]
+    },
+    "uf0519-b2-038": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        32,
+        32
+      ]
+    },
+    "uf0519-b2-039": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        36,
+        36
+      ]
+    },
+    "uf0519-b2-040": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        36,
+        36
+      ]
+    },
+    "uf0519-b2-041": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        37,
+        37
+      ]
+    },
+    "uf0519-b3-020": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        53,
+        53
+      ]
+    },
+    "uf0519-b3-021": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        54,
+        54
+      ]
+    },
+    "uf0519-b3-022": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        54,
+        54
+      ]
+    },
+    "uf0519-b3-023": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        54,
+        54
+      ]
+    },
+    "uf0519-b3-024": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        55,
+        55
+      ]
+    },
+    "uf0519-b3-025": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        56,
+        56
+      ]
+    },
+    "uf0519-b3-026": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        57,
+        57
+      ]
+    },
+    "uf0519-b3-027": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        58,
+        58
+      ]
+    },
+    "uf0519-b3-028": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        58,
+        58
+      ]
+    },
+    "uf0519-b3-029": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        61,
+        61
+      ]
+    },
+    "uf0519-b3-030": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        62,
+        62
+      ]
+    },
+    "uf0519-b4-009": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        68,
+        68
+      ]
+    },
+    "uf0519-b4-010": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        68,
+        68
+      ]
+    },
+    "uf0519-b4-011": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        68,
+        68
+      ]
+    },
+    "uf0519-b4-012": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        68,
+        68
+      ]
+    },
+    "uf0519-b5-023": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        70,
+        70
+      ]
+    },
+    "uf0519-b5-024": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        71,
+        71
+      ]
+    },
+    "uf0519-b5-025": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        71,
+        71
+      ]
+    },
+    "uf0519-b5-026": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        71,
+        71
+      ]
+    },
+    "uf0519-b5-027": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        72,
+        72
+      ]
+    },
+    "uf0519-b5-028": {
+      "source": "UF0519_U1",
+      "pageRange": [
+        72,
+        72
+      ]
     }
   }
 }

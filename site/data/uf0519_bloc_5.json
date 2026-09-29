@@ -59,6 +59,20 @@
       "explanation": "El material assenyala l’aplicació d’impostos, descomptes, venciments i formes de pagament."
     },
     {
+      "id": "uf0519-b5-023",
+      "block": "uf0519-bloc-5",
+      "topic": "Programari de facturació",
+      "question": "Quin criteri ha d’aplicar el personal auxiliar en exportar, arxivar o enviar documents des del programari de facturació?",
+      "options": [
+        "Prioritzar la rapidesa encara que s’exposin dades",
+        "Enviar sempre una còpia a tot el departament",
+        "Respectar la confidencialitat i la normativa",
+        "Convertir tots els documents a paper abans d’enviar-los"
+      ],
+      "correct": 2,
+      "explanation": "El material indica que exportar, arxivar o enviar documents s’ha de fer respectant confidencialitat i normativa."
+    },
+    {
       "id": "uf0519-b5-005",
       "block": "uf0519-bloc-5",
       "topic": "Programari de nòmines",
@@ -87,6 +101,48 @@
       "explanation": "El material diferencia el suport administratiu del criteri laboral especialitzat."
     },
     {
+      "id": "uf0519-b5-024",
+      "block": "uf0519-bloc-5",
+      "topic": "Programari de nòmines",
+      "question": "Quina tasca pot fer el personal auxiliar amb els rebuts de salari i els informes del programa de nòmines?",
+      "options": [
+        "Generar-los i revisar la coherència de les dades",
+        "Modificar criteris laborals sense instruccions",
+        "Resoldre interpretacions jurídiques complexes",
+        "Canviar els tipus de cotització pel seu compte"
+      ],
+      "correct": 0,
+      "explanation": "El material inclou generar rebuts de salari i informes i revisar la coherència de les dades."
+    },
+    {
+      "id": "uf0519-b5-025",
+      "block": "uf0519-bloc-5",
+      "topic": "Programari de nòmines",
+      "question": "Com s’ha de custodiar la documentació laboral i salarial gestionada amb el programa de nòmines?",
+      "options": [
+        "En una carpeta compartida per tota l’empresa",
+        "Amb accés públic mentre no contingui l’IBAN",
+        "En paper fora del sistema informàtic",
+        "Amb accés restringit"
+      ],
+      "correct": 3,
+      "explanation": "El material exigeix custodiar la documentació laboral i salarial amb accés restringit."
+    },
+    {
+      "id": "uf0519-b5-026",
+      "block": "uf0519-bloc-5",
+      "topic": "Programari de nòmines",
+      "question": "Quin tipus d’incidències pot preparar i registrar el personal auxiliar al programa de nòmines?",
+      "options": [
+        "Únicament baixes comptables de clients",
+        "Absentisme, hores, dietes, variables o canvis de jornada",
+        "Rectificacions d’IVA i factures recapitulatives",
+        "Inventaris, comandes i albarans"
+      ],
+      "correct": 1,
+      "explanation": "El material enumera absentisme, hores, dietes, variables i canvis de jornada com a incidències que es poden preparar i registrar."
+    },
+    {
       "id": "uf0519-b5-009",
       "block": "uf0519-bloc-5",
       "topic": "Arxiu digital",
@@ -113,6 +169,34 @@
       ],
       "correct": 2,
       "explanation": "El material posa el control d’accessos com a primer criteri de seguretat digital."
+    },
+    {
+      "id": "uf0519-b5-027",
+      "block": "uf0519-bloc-5",
+      "topic": "Seguretat digital",
+      "question": "Quina finalitat tenen les còpies de seguretat en la gestió documental digital?",
+      "options": [
+        "Permetre que qualsevol persona accedeixi als documents",
+        "Eliminar la necessitat d’arxivar",
+        "Recuperar informació si es perd o es danya",
+        "Substituir el control d’accessos"
+      ],
+      "correct": 2,
+      "explanation": "Les còpies de seguretat permeten recuperar informació si es perd o es danya."
+    },
+    {
+      "id": "uf0519-b5-028",
+      "block": "uf0519-bloc-5",
+      "topic": "Seguretat digital",
+      "question": "Quan considera el material adequada l’eliminació segura de documentació digital?",
+      "options": [
+        "Tan bon punt s’ha enviat el document",
+        "Quan l’espai de disc és insuficient",
+        "Quan deixa d’utilitzar-se durant uns dies",
+        "Quan ha finalitzat el termini de conservació i ho permet el procediment intern"
+      ],
+      "correct": 3,
+      "explanation": "L’eliminació segura s’ha de fer quan finalitza el termini de conservació i el procediment intern ho permet."
     },
     {
       "id": "uf0519-b5-008",

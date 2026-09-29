@@ -110,6 +110,36 @@
       "type": "idea",
       "ca": "Stock segur + reposició + inventari = evitar ruptures i errors.",
       "es": "Stock seguro + reposición + inventario = evitar roturas y errores."
+    },
+    "uf0519-b5-023": {
+      "type": "idea",
+      "ca": "Facturació digital: exportar, arxivar i enviar amb confidencialitat.",
+      "es": "Facturación digital: exportar, archivar y enviar con confidencialidad."
+    },
+    "uf0519-b5-024": {
+      "type": "idea",
+      "ca": "Programa de nòmines: generar + revisar coherència.",
+      "es": "Programa de nóminas: generar + revisar coherencia."
+    },
+    "uf0519-b5-025": {
+      "type": "idea",
+      "ca": "Documentació laboral i salarial = accés restringit.",
+      "es": "Documentación laboral y salarial = acceso restringido."
+    },
+    "uf0519-b5-026": {
+      "type": "idea",
+      "ca": "Incidències de nòmina: absències, hores, dietes, variables i jornada.",
+      "es": "Incidencias de nómina: ausencias, horas, dietas, variables y jornada."
+    },
+    "uf0519-b5-027": {
+      "type": "idea",
+      "ca": "Còpia de seguretat = poder recuperar.",
+      "es": "Copia de seguridad = poder recuperar."
+    },
+    "uf0519-b5-028": {
+      "type": "idea",
+      "ca": "Eliminar segur = termini acabat + procediment ho permet.",
+      "es": "Eliminar seguro = plazo terminado + procedimiento lo permite."
     }
   }
 }

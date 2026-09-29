@@ -243,6 +243,72 @@
         "Controlar el stock de seguridad, preparar la reposición y hacer inventarios periódicos corrigiendo diferencias"
       ],
       "explanation": "El material recomienda controlar el stock de seguridad, preparar la reposición y hacer inventarios periódicos corrigiendo las diferencias detectadas."
+    },
+    "uf0519-b5-023": {
+      "topic": "Software de facturación",
+      "question": "¿Qué criterio debe aplicar el personal auxiliar al exportar, archivar o enviar documentos desde el software de facturación?",
+      "options": [
+        "Priorizar la rapidez aunque se expongan datos",
+        "Enviar siempre una copia a todo el departamento",
+        "Respetar la confidencialidad y la normativa",
+        "Convertir todos los documentos a papel antes de enviarlos"
+      ],
+      "explanation": "El material indica que exportar, archivar o enviar documentos debe hacerse respetando la confidencialidad y la normativa."
+    },
+    "uf0519-b5-024": {
+      "topic": "Software de nóminas",
+      "question": "¿Qué tarea puede realizar el personal auxiliar con los recibos de salario y los informes del programa de nóminas?",
+      "options": [
+        "Generarlos y revisar la coherencia de los datos",
+        "Modificar criterios laborales sin instrucciones",
+        "Resolver interpretaciones jurídicas complejas",
+        "Cambiar los tipos de cotización por su cuenta"
+      ],
+      "explanation": "El material incluye generar recibos de salario e informes y revisar la coherencia de los datos."
+    },
+    "uf0519-b5-025": {
+      "topic": "Software de nóminas",
+      "question": "¿Cómo debe custodiarse la documentación laboral y salarial gestionada con el programa de nóminas?",
+      "options": [
+        "En una carpeta compartida por toda la empresa",
+        "Con acceso público mientras no contenga el IBAN",
+        "En papel fuera del sistema informático",
+        "Con acceso restringido"
+      ],
+      "explanation": "El material exige custodiar la documentación laboral y salarial con acceso restringido."
+    },
+    "uf0519-b5-026": {
+      "topic": "Software de nóminas",
+      "question": "¿Qué tipo de incidencias puede preparar y registrar el personal auxiliar en el programa de nóminas?",
+      "options": [
+        "Únicamente bajas contables de clientes",
+        "Absentismo, horas, dietas, variables o cambios de jornada",
+        "Rectificaciones de IVA y facturas recapitulativas",
+        "Inventarios, pedidos y albaranes"
+      ],
+      "explanation": "El material enumera absentismo, horas, dietas, variables y cambios de jornada como incidencias que se pueden preparar y registrar."
+    },
+    "uf0519-b5-027": {
+      "topic": "Seguridad digital",
+      "question": "¿Qué finalidad tienen las copias de seguridad en la gestión documental digital?",
+      "options": [
+        "Permitir que cualquier persona acceda a los documentos",
+        "Eliminar la necesidad de archivar",
+        "Recuperar información si se pierde o se daña",
+        "Sustituir el control de accesos"
+      ],
+      "explanation": "Las copias de seguridad permiten recuperar información si se pierde o se daña."
+    },
+    "uf0519-b5-028": {
+      "topic": "Seguridad digital",
+      "question": "¿Cuándo considera el material adecuada la eliminación segura de documentación digital?",
+      "options": [
+        "En cuanto se ha enviado el documento",
+        "Cuando el espacio en disco es insuficiente",
+        "Cuando deja de utilizarse durante unos días",
+        "Cuando ha finalizado el plazo de conservación y lo permite el procedimiento interno"
+      ],
+      "explanation": "La eliminación segura debe hacerse cuando finaliza el plazo de conservación y el procedimiento interno lo permite."
     }
   }
 }

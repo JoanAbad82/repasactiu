@@ -31,6 +31,20 @@
       "explanation": "El material enumera aquests grans blocs d’informació de la nòmina."
     },
     {
+      "id": "uf0519-b3-020",
+      "block": "uf0519-bloc-3",
+      "topic": "Nòmina",
+      "question": "En quin format pot lliurar-se la nòmina segons el material, sempre que es garanteixin l’accés i la conservació adequada?",
+      "options": [
+        "Només en paper",
+        "Només en format electrònic",
+        "Només mitjançant una aplicació de nòmines",
+        "En paper o en format digital"
+      ],
+      "correct": 3,
+      "explanation": "El material admet el lliurament en paper o en format digital si es garanteixen l’accés i la conservació adequada."
+    },
+    {
       "id": "uf0519-b3-003",
       "block": "uf0519-bloc-3",
       "topic": "Marc laboral",
@@ -57,6 +71,48 @@
       ],
       "correct": 3,
       "explanation": "Els convenis col·lectius concreten condicions laborals aplicables segons el sector."
+    },
+    {
+      "id": "uf0519-b3-021",
+      "block": "uf0519-bloc-3",
+      "topic": "Marc laboral",
+      "question": "Què regula la Llei General de la Seguretat Social segons el material?",
+      "options": [
+        "Només la jornada laboral",
+        "Cotització i prestacions",
+        "La numeració de les nòmines",
+        "Els tipus de contracte mercantil"
+      ],
+      "correct": 1,
+      "explanation": "El material associa la Llei General de la Seguretat Social amb la regulació de la cotització i les prestacions."
+    },
+    {
+      "id": "uf0519-b3-022",
+      "block": "uf0519-bloc-3",
+      "topic": "Marc laboral",
+      "question": "Quina funció tenen les ordres anuals de cotització segons el material?",
+      "options": [
+        "Fixar les categories professionals de cada sector",
+        "Determinar el salari base de totes les empreses",
+        "Actualitzar les bases i els tipus aplicables",
+        "Establir el model de nòmina de cada treballador"
+      ],
+      "correct": 2,
+      "explanation": "Les ordres anuals de cotització actualitzen les bases i els tipus aplicables."
+    },
+    {
+      "id": "uf0519-b3-023",
+      "block": "uf0519-bloc-3",
+      "topic": "Marc laboral",
+      "question": "Amb quins elements indica el material que s’ha d’interpretar una nòmina?",
+      "options": [
+        "Contracte, conveni i jornada",
+        "Pressupost, comanda i albarà",
+        "Factura, rebut i domiciliació",
+        "Registre, resolució i recurs"
+      ],
+      "correct": 0,
+      "explanation": "La nòmina s’ha d’interpretar en relació amb el contracte, el conveni col·lectiu i la jornada."
     },
     {
       "id": "uf0519-b3-005",
@@ -115,6 +171,20 @@
       "explanation": "El líquid a percebre és l’import net final després de les deduccions."
     },
     {
+      "id": "uf0519-b3-024",
+      "block": "uf0519-bloc-3",
+      "topic": "Estructura de la nòmina",
+      "question": "Quin conjunt correspon a dades de la persona treballadora que poden aparèixer a la nòmina?",
+      "options": [
+        "NIF de l’empresa, domicili social i compte de cotització",
+        "Base imposable, IVA i quota tributària",
+        "Número de factura, sèrie i data d’expedició",
+        "Nom, DNI/NIE, número de Seguretat Social, grup professional i antiguitat"
+      ],
+      "correct": 3,
+      "explanation": "Entre les dades de la persona treballadora hi ha nom, DNI/NIE, número de Seguretat Social, grup professional, antiguitat i, si consta, tipus o codi de contracte."
+    },
+    {
       "id": "uf0519-b3-009",
       "block": "uf0519-bloc-3",
       "topic": "Meritacions",
@@ -143,6 +213,20 @@
       "explanation": "Aquestes percepcions poden compensar despeses o situacions i no retribueixen directament el treball de la mateixa manera."
     },
     {
+      "id": "uf0519-b3-025",
+      "block": "uf0519-bloc-3",
+      "topic": "Meritacions",
+      "question": "Quina advertència fa el material sobre les diferents percepcions que apareixen a les meritacions?",
+      "options": [
+        "Totes cotitzen i tributen exactament igual",
+        "No totes tenen el mateix tractament de cotització o IRPF",
+        "Les no salarials no poden aparèixer a la nòmina",
+        "Les salarials no estan subjectes a deduccions"
+      ],
+      "correct": 1,
+      "explanation": "El material adverteix que no totes les percepcions tenen el mateix tractament de cotització o IRPF."
+    },
+    {
       "id": "uf0519-b3-011",
       "block": "uf0519-bloc-3",
       "topic": "Deduccions",
@@ -155,6 +239,20 @@
       ],
       "correct": 2,
       "explanation": "La pàgina de deduccions enumera Seguretat Social, IRPF i altres imports com bestretes o embargaments."
+    },
+    {
+      "id": "uf0519-b3-026",
+      "block": "uf0519-bloc-3",
+      "topic": "Deduccions",
+      "question": "De què depèn la retenció a compte de l’IRPF segons el material?",
+      "options": [
+        "Només de l’antiguitat",
+        "Només del tipus de nòmina",
+        "Dels ingressos i de la situació personal comunicada",
+        "Del nombre de factures emeses per l’empresa"
+      ],
+      "correct": 2,
+      "explanation": "El material indica que la retenció d’IRPF depèn dels ingressos i de la situació personal comunicada."
     },
     {
       "id": "uf0519-b3-012",
@@ -199,6 +297,34 @@
       "explanation": "El material assenyala expressament que les hores extraordinàries cotitzen de manera diferenciada."
     },
     {
+      "id": "uf0519-b3-027",
+      "block": "uf0519-bloc-3",
+      "topic": "Bases de cotització",
+      "question": "Per a què s’utilitza la base de contingències professionals segons el material?",
+      "options": [
+        "Per accidents de treball, malalties professionals i conceptes associats",
+        "Per calcular exclusivament l’IRPF",
+        "Per determinar la base imposable de l’IVA",
+        "Per fixar l’antiguitat de la persona treballadora"
+      ],
+      "correct": 0,
+      "explanation": "La base de contingències professionals s’utilitza per accidents de treball, malalties professionals i altres conceptes associats."
+    },
+    {
+      "id": "uf0519-b3-028",
+      "block": "uf0519-bloc-3",
+      "topic": "Bases de cotització",
+      "question": "Què indica el material sobre els límits de les bases de cotització?",
+      "options": [
+        "Que no tenen cap límit",
+        "Que els fixa cada empresa de manera interna",
+        "Que només existeix un topall màxim",
+        "Que estan sotmeses a topalls mínims i màxims actualitzats periòdicament"
+      ],
+      "correct": 3,
+      "explanation": "Les bases de cotització estan sotmeses a topalls mínims i màxims que s’actualitzen periòdicament."
+    },
+    {
       "id": "uf0519-b3-015",
       "block": "uf0519-bloc-3",
       "topic": "Cotització 2026",
@@ -241,6 +367,20 @@
       "explanation": "El material qualifica la nòmina de document especialment sensible i limita l’accés al personal autoritzat."
     },
     {
+      "id": "uf0519-b3-029",
+      "block": "uf0519-bloc-3",
+      "topic": "Protecció de dades laborals",
+      "question": "Quina conseqüència pot tenir enviar una nòmina a un destinatari equivocat segons el material?",
+      "options": [
+        "Només un error formal sense efectes",
+        "Pot constituir una incidència de seguretat",
+        "Converteix la nòmina en document públic",
+        "Anul·la automàticament la nòmina"
+      ],
+      "correct": 1,
+      "explanation": "El material adverteix que una errada en el destinatari pot constituir una incidència de seguretat."
+    },
+    {
       "id": "uf0519-b3-018",
       "block": "uf0519-bloc-3",
       "topic": "Ordre de treball",
@@ -253,6 +393,20 @@
       ],
       "correct": 1,
       "explanation": "L’ordre de treball assigna i controla tasques i defineix què s’ha de fer, qui ho farà, recursos i termini."
+    },
+    {
+      "id": "uf0519-b3-030",
+      "block": "uf0519-bloc-3",
+      "topic": "Ordre de treball",
+      "question": "Quines dades operatives ha de definir una ordre de treball segons el material?",
+      "options": [
+        "Número de factura, sèrie, IVA i venciment",
+        "Client, pressupost, comanda i cobrament",
+        "Què s’ha de fer, qui ho farà, amb quins recursos i en quin termini",
+        "Assistents, acords, votacions i signatures"
+      ],
+      "correct": 2,
+      "explanation": "L’ordre de treball defineix la tasca, la persona responsable, els recursos i el termini."
     },
     {
       "id": "uf0519-b3-019",

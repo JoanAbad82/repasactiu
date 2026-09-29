@@ -17,15 +17,15 @@ const expected={
   'uf0518-bloc-1':{count:86,last:'uf0518-b1-086'},
   'uf0518-bloc-2':{count:68,last:'uf0518-b2-068'},
   'uf0518-bloc-3':{count:80,last:'uf0518-b3-080'},
-  'uf0519-bloc-1':{count:16,last:'uf0519-b1-016'},
-  'uf0519-bloc-2':{count:33,last:'uf0519-b2-033'},
-  'uf0519-bloc-3':{count:19,last:'uf0519-b3-019'},
-  'uf0519-bloc-4':{count:8,last:'uf0519-b4-008'},
-  'uf0519-bloc-5':{count:22,last:'uf0519-b5-022'}
+  'uf0519-bloc-1':{count:28,last:'uf0519-b1-028'},
+  'uf0519-bloc-2':{count:41,last:'uf0519-b2-041'},
+  'uf0519-bloc-3':{count:30,last:'uf0519-b3-030'},
+  'uf0519-bloc-4':{count:12,last:'uf0519-b4-012'},
+  'uf0519-bloc-5':{count:28,last:'uf0519-b5-028'}
 };
 const readData=async p=>JSON.parse(await readFile(path.join(dataDir,p.replace(/^data\//,'')),'utf8'));
 
-test('el catàleg publica 842 preguntes amb UF0519 Unitat 1',async()=>{
+test('el catàleg publica 883 preguntes amb UF0519 Unitat 1',async()=>{
   let total=0;
   for(const block of course.blocks){
     const questions=[];
@@ -37,7 +37,7 @@ test('el catàleg publica 842 preguntes amb UF0519 Unitat 1',async()=>{
     assert.ok(questions.some(q=>q.id===expected[block.id].last),`${block.id}: falta ${expected[block.id].last}`);
     total+=questions.length;
   }
-  assert.equal(total,842);
+  assert.equal(total,883);
 });
 
 test('totes les preguntes publicades existeixen també al Mode Examen difícil',async()=>{

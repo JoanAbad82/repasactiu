@@ -103,8 +103,8 @@ export async function runChronologyAudit(){
 
   const expectedIds=new Set([...coreCards,...extraCards].map(card=>card.id));
   const orderedIds=new Set(orderedCards.map(card=>card.id));
-  if(expectedIds.size!==926||orderedIds.size!==926||orderedCards.length!==926){
-    errors.push(`study cards: recompte cronològic invàlid ${orderedCards.length}/926`);
+  if(expectedIds.size!==961||orderedIds.size!==961||orderedCards.length!==961){
+    errors.push(`study cards: recompte cronològic invàlid ${orderedCards.length}/961`);
   }
   for(const id of expectedIds)if(!orderedIds.has(id))errors.push(`study cards: falta ${id} després d'ordenar`);
 

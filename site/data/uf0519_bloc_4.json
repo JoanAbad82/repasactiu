@@ -113,6 +113,62 @@
       ],
       "correct": 3,
       "explanation": "La minimització de dades és una de les bones pràctiques comunes del material."
+    },
+    {
+      "id": "uf0519-b4-009",
+      "block": "uf0519-bloc-4",
+      "topic": "Bones pràctiques documentals",
+      "question": "Quina bona pràctica recomana el material respecte del títol i l’assumpte d’un document empresarial?",
+      "options": [
+        "Utilitzar-los de manera concreta",
+        "Ometre’ls si el document és intern",
+        "Fer-los genèrics per poder reutilitzar el document",
+        "Substituir-los pel nom del departament"
+      ],
+      "correct": 0,
+      "explanation": "El material recomana utilitzar un títol i un assumpte concrets."
+    },
+    {
+      "id": "uf0519-b4-010",
+      "block": "uf0519-bloc-4",
+      "topic": "Bones pràctiques documentals",
+      "question": "Quines dades bàsiques recomana identificar el material en qualsevol document empresarial?",
+      "options": [
+        "Només el departament emissor",
+        "Número de factura i base imposable",
+        "Responsable, data i destinataris",
+        "IBAN, forma de pagament i venciment"
+      ],
+      "correct": 2,
+      "explanation": "Entre les bones pràctiques comunes hi ha identificar responsable, data i destinataris."
+    },
+    {
+      "id": "uf0519-b4-011",
+      "block": "uf0519-bloc-4",
+      "topic": "Bones pràctiques documentals",
+      "question": "Quan sigui necessari, quina evidència recomana conservar el material?",
+      "options": [
+        "Només una còpia del text sense metadades",
+        "Evidència d’enviament, recepció o aprovació",
+        "Una impressió de tots els documents digitals",
+        "Únicament el nom de la persona que el va redactar"
+      ],
+      "correct": 1,
+      "explanation": "El material recomana conservar evidència d’enviament, recepció o aprovació quan sigui necessari."
+    },
+    {
+      "id": "uf0519-b4-012",
+      "block": "uf0519-bloc-4",
+      "topic": "Bones pràctiques documentals",
+      "question": "Què recomana el material si barrejar temes diferents en un mateix document dificulta l’arxiu?",
+      "options": [
+        "Afegir més destinataris per contextualitzar-lo",
+        "Eliminar el títol per fer-lo més general",
+        "Guardar-lo en totes les carpetes afectades",
+        "No barrejar aquests temes en el mateix document"
+      ],
+      "correct": 3,
+      "explanation": "Una bona pràctica és no barrejar temes diferents en el mateix document quan això dificulta l’arxiu."
     }
   ]
 }

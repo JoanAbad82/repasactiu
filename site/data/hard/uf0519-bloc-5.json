@@ -264,6 +264,78 @@
         "Hacer inventario solo cuando hay una rotura de stock",
         "No corregir diferencias para conservar el histórico"
       ]
+    },
+    "uf0519-b5-023": {
+      "ca": [
+        "Compartir els fitxers amb permisos amplis per facilitar-ne l’accés",
+        "Arxivar-los fora del sistema per evitar restriccions de permisos",
+        "Enviar-los pel canal disponible encara que no sigui l’adequat per a les dades"
+      ],
+      "es": [
+        "Compartir los archivos con permisos amplios para facilitar su acceso",
+        "Archivarlos fuera del sistema para evitar restricciones de permisos",
+        "Enviarlos por el canal disponible aunque no sea adecuado para los datos"
+      ]
+    },
+    "uf0519-b5-024": {
+      "ca": [
+        "Validar criteris jurídics abans de generar cada nòmina",
+        "Ajustar manualment els tipus legals quan el resultat no sembli correcte",
+        "Substituir la revisió de dades per una aprovació automàtica del programa"
+      ],
+      "es": [
+        "Validar criterios jurídicos antes de generar cada nómina",
+        "Ajustar manualmente los tipos legales cuando el resultado no parezca correcto",
+        "Sustituir la revisión de datos por una aprobación automática del programa"
+      ]
+    },
+    "uf0519-b5-025": {
+      "ca": [
+        "Amb accés general al departament per agilitzar consultes",
+        "En una ubicació externa al sistema sense control d’usuaris",
+        "Amb permisos temporals oberts durant el tancament mensual"
+      ],
+      "es": [
+        "Con acceso general al departamento para agilizar consultas",
+        "En una ubicación externa al sistema sin control de usuarios",
+        "Con permisos temporales abiertos durante el cierre mensual"
+      ]
+    },
+    "uf0519-b5-026": {
+      "ca": [
+        "Canvis de preus, descomptes i venciments de factures",
+        "Entrades de magatzem, ruptures d’estoc i inventaris",
+        "Recursos administratius, notificacions i resolucions"
+      ],
+      "es": [
+        "Cambios de precios, descuentos y vencimientos de facturas",
+        "Entradas de almacén, roturas de stock e inventarios",
+        "Recursos administrativos, notificaciones y resoluciones"
+      ]
+    },
+    "uf0519-b5-027": {
+      "ca": [
+        "Crear una versió pública de la documentació crítica",
+        "Evitar haver de controlar qui modifica els fitxers",
+        "Conservar indefinidament tots els documents sense criteri de termini"
+      ],
+      "es": [
+        "Crear una versión pública de la documentación crítica",
+        "Evitar tener que controlar quién modifica los archivos",
+        "Conservar indefinidamente todos los documentos sin criterio de plazo"
+      ]
+    },
+    "uf0519-b5-028": {
+      "ca": [
+        "Quan el document ja té una còpia impresa encara que el termini continuï vigent",
+        "Quan la persona usuària decideix que el fitxer ja no és útil per a la seva tasca",
+        "Quan s’ha fet una còpia de seguretat, independentment del termini de conservació"
+      ],
+      "es": [
+        "Cuando el documento ya tiene una copia impresa aunque el plazo siga vigente",
+        "Cuando la persona usuaria decide que el archivo ya no es útil para su tarea",
+        "Cuando se ha hecho una copia de seguridad, con independencia del plazo de conservación"
+      ]
     }
   }
 }

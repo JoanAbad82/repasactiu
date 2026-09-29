@@ -17,6 +17,20 @@
       "explanation": "El material presenta aquest ordre habitual, tot i advertir que pot variar segons l’empresa."
     },
     {
+      "id": "uf0519-b2-034",
+      "block": "uf0519-bloc-2",
+      "topic": "Seqüència de compravenda",
+      "question": "En revisar la seqüència documental d’una venda, quines dades ha de comprovar que coincideixin el personal auxiliar?",
+      "options": [
+        "Només el client i la forma de pagament",
+        "Client, referències, quantitats, imports i dates",
+        "Únicament el número de factura i l’IVA",
+        "Només el producte i la signatura del transportista"
+      ],
+      "correct": 1,
+      "explanation": "El material indica que cal comprovar la coincidència de client, referències, quantitats, imports i dates."
+    },
+    {
       "id": "uf0519-b2-002",
       "block": "uf0519-bloc-2",
       "topic": "Pressupost",
@@ -87,6 +101,20 @@
       "explanation": "A més d’identificar comprador i venedor, la comanda inclou les dades operatives de l’encàrrec."
     },
     {
+      "id": "uf0519-b2-035",
+      "block": "uf0519-bloc-2",
+      "topic": "Comanda",
+      "question": "A més de formalitzar la petició del client, per a què serveix la comanda dins del procés de compravenda?",
+      "options": [
+        "Per acreditar fiscalment la venda",
+        "Per substituir l’albarà en la recepció",
+        "Per justificar que el pagament ja s’ha fet",
+        "Per preparar la mercaderia, controlar el lliurament i contrastar la factura"
+      ],
+      "correct": 3,
+      "explanation": "La comanda serveix de base per preparar la mercaderia, controlar el lliurament i contrastar posteriorment la factura."
+    },
+    {
       "id": "uf0519-b2-007",
       "block": "uf0519-bloc-2",
       "topic": "Albarà",
@@ -127,6 +155,20 @@
       ],
       "correct": 0,
       "explanation": "La taula de còpies habituals assigna a l’empresa emissora l’evidència del lliurament i la base de facturació."
+    },
+    {
+      "id": "uf0519-b2-036",
+      "block": "uf0519-bloc-2",
+      "topic": "Albarà",
+      "question": "Quina funció té habitualment la còpia de l’albarà destinada al transportista?",
+      "options": [
+        "Control de ruta, lliurament i incidències",
+        "Base per liquidar l’IVA",
+        "Autorització bancària de cobrament",
+        "Justificant fiscal de la venda"
+      ],
+      "correct": 0,
+      "explanation": "La còpia del transportista serveix per al control de ruta, del lliurament i de les incidències."
     },
     {
       "id": "uf0519-b2-010",
@@ -227,6 +269,20 @@
       "explanation": "El material enumera aquestes dades com a elements bàsics de la factura."
     },
     {
+      "id": "uf0519-b2-037",
+      "block": "uf0519-bloc-2",
+      "topic": "Factura",
+      "question": "Quina afirmació diferencia correctament el tipus de factura del seu format?",
+      "options": [
+        "La factura simplificada ha de ser en paper i l’ordinària electrònica",
+        "Només les factures rectificatives poden ser electròniques",
+        "Qualsevol dels tipus indicats pot expedir-se en paper o en format electrònic",
+        "El format electrònic converteix qualsevol factura en recapitulativa"
+      ],
+      "correct": 2,
+      "explanation": "El material separa el tipus de factura del format: ordinària, simplificada, rectificativa o recapitulativa poden expedir-se en paper o electrònicament."
+    },
+    {
       "id": "uf0519-b2-020",
       "block": "uf0519-bloc-2",
       "topic": "Factura recapitulativa",
@@ -295,6 +351,20 @@
       ],
       "correct": 0,
       "explanation": "El material estableix com a regla general l’expedició en el moment de l’operació."
+    },
+    {
+      "id": "uf0519-b2-038",
+      "block": "uf0519-bloc-2",
+      "topic": "Terminis de facturació",
+      "question": "Quina distinció recorda expressament el material en parlar dels terminis de facturació?",
+      "options": [
+        "Factura ordinària, simplificada i rectificativa",
+        "Expedir la factura, remetre-la al client i conservar-la correctament",
+        "Base imposable, quota i import total",
+        "Pressupost, comanda i albarà"
+      ],
+      "correct": 1,
+      "explanation": "El material adverteix que cal diferenciar l’expedició de la factura, la remissió al client i la seva conservació."
     },
     {
       "id": "uf0519-b2-022",
@@ -367,6 +437,34 @@
       "explanation": "El material associa VERI*FACTU amb sistemes de facturació que poden remetre registres a l’AEAT."
     },
     {
+      "id": "uf0519-b2-039",
+      "block": "uf0519-bloc-2",
+      "topic": "VERI*FACTU",
+      "question": "Segons el material, abans de quina data han de tenir adaptats els sistemes de facturació les entitats subjectes a l’impost sobre societats?",
+      "options": [
+        "1 de juliol de 2026",
+        "1 de juliol de 2027",
+        "1 de gener de 2028",
+        "1 de gener de 2027"
+      ],
+      "correct": 3,
+      "explanation": "El material fixa per a les entitats subjectes a l’impost sobre societats l’adaptació abans de l’1 de gener de 2027."
+    },
+    {
+      "id": "uf0519-b2-040",
+      "block": "uf0519-bloc-2",
+      "topic": "VERI*FACTU",
+      "question": "Quina data d’adaptació indica el material per a la resta de contribuents inclosos en la normativa de sistemes de facturació?",
+      "options": [
+        "Abans de l’1 de juliol de 2027",
+        "Abans de l’1 de gener de 2027",
+        "Abans del 31 de desembre de 2026",
+        "Abans de l’1 de gener de 2028"
+      ],
+      "correct": 0,
+      "explanation": "Per a la resta de contribuents inclosos, el material assenyala l’adaptació abans de l’1 de juliol de 2027."
+    },
+    {
       "id": "uf0519-b2-027",
       "block": "uf0519-bloc-2",
       "topic": "Conservació documental",
@@ -379,6 +477,20 @@
       ],
       "correct": 2,
       "explanation": "El material diferencia el termini mercantil de sis anys i el termini tributari general de quatre anys."
+    },
+    {
+      "id": "uf0519-b2-041",
+      "block": "uf0519-bloc-2",
+      "topic": "Conservació documental",
+      "question": "Què ha de garantir l’arxiu de factures i documents, sigui físic, digital o mixt?",
+      "options": [
+        "Que tots els documents siguin públics",
+        "Que es conservin indefinidament",
+        "Localització, integritat i accés autoritzat",
+        "Que s’imprimeixin totes les còpies digitals"
+      ],
+      "correct": 2,
+      "explanation": "Independentment del suport, l’arxiu ha de garantir localització, integritat i accés autoritzat."
     },
     {
       "id": "uf0519-b2-028",

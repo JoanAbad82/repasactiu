@@ -59,6 +59,34 @@
       "explanation": "Una funció dels documents és deixar evidència i facilitar inspeccions, auditories i verificacions."
     },
     {
+      "id": "uf0519-b1-017",
+      "block": "uf0519-bloc-1",
+      "topic": "Funcions documentals",
+      "question": "Una organització conserva un document per poder justificar posteriorment un pagament, una recepció, un termini o un acord. Quina funció documental està utilitzant?",
+      "options": [
+        "Comunicar informació",
+        "Organitzar processos",
+        "Provar operacions",
+        "Facilitar la redacció"
+      ],
+      "correct": 2,
+      "explanation": "El material indica que els documents poden provar operacions i justificar pagaments, recepcions, terminis o acords."
+    },
+    {
+      "id": "uf0519-b1-018",
+      "block": "uf0519-bloc-1",
+      "topic": "Funcions documentals",
+      "question": "Un document permet seguir un circuit de treball amb ordre i responsabilitats definides. Quina funció documental descriu?",
+      "options": [
+        "Comunicar informació",
+        "Organitzar processos",
+        "Provar operacions",
+        "Acreditar una identitat"
+      ],
+      "correct": 1,
+      "explanation": "Una de les funcions documentals és organitzar processos, perquè els documents permeten seguir un circuit de treball amb ordre i responsabilitats."
+    },
+    {
       "id": "uf0519-b1-005",
       "block": "uf0519-bloc-1",
       "topic": "Circuit documental",
@@ -143,6 +171,34 @@
       "explanation": "La traçabilitat permet reconstruir i acreditar el recorregut o estat del document."
     },
     {
+      "id": "uf0519-b1-019",
+      "block": "uf0519-bloc-1",
+      "topic": "Qualitat documental",
+      "question": "Quin criteri de qualitat documental s’aplica quan el text s’entén sense interpretacions forçades?",
+      "options": [
+        "Precisió",
+        "Concisi",
+        "Traçabilitat",
+        "Claredat"
+      ],
+      "correct": 3,
+      "explanation": "La claredat exigeix que el document s’entengui sense interpretacions forçades."
+    },
+    {
+      "id": "uf0519-b1-020",
+      "block": "uf0519-bloc-1",
+      "topic": "Qualitat documental",
+      "question": "Abans d’enviar un document es comproven dades, dates, imports i referències perquè siguin exactes i coherents. Quin criteri s’està revisant?",
+      "options": [
+        "Precisió",
+        "Claredat",
+        "Concisi",
+        "Correcció"
+      ],
+      "correct": 0,
+      "explanation": "La precisió implica dades exactes, dates correctes, imports revisats i referències coherents."
+    },
+    {
       "id": "uf0519-b1-011",
       "block": "uf0519-bloc-1",
       "topic": "Procediment administratiu",
@@ -185,6 +241,62 @@
       "explanation": "El material defineix el silenci administratiu com l’efecte de no notificar resolució dins del termini."
     },
     {
+      "id": "uf0519-b1-021",
+      "block": "uf0519-bloc-1",
+      "topic": "Procediment administratiu",
+      "question": "Quin conjunt de documents correspon a la fase d’iniciació d’un procediment administratiu?",
+      "options": [
+        "Al·legacions, proves i informes",
+        "Diligències, comunicacions d’impuls i actes de tràmit",
+        "Sol·licitud, instància, acord d’iniciació i requeriment d’esmena",
+        "Resolució, desistiment, renúncia i caducitat"
+      ],
+      "correct": 2,
+      "explanation": "A la iniciació apareixen la sol·licitud, la instància, l’acord d’iniciació i el requeriment d’esmena."
+    },
+    {
+      "id": "uf0519-b1-022",
+      "block": "uf0519-bloc-1",
+      "topic": "Procediment administratiu",
+      "question": "En quina fase són habituals les diligències, les comunicacions d’impuls i els actes de tràmit?",
+      "options": [
+        "Instrucció",
+        "Ordenació",
+        "Finalització",
+        "Execució"
+      ],
+      "correct": 1,
+      "explanation": "El material situa les diligències, comunicacions d’impuls i actes de tràmit en la fase d’ordenació."
+    },
+    {
+      "id": "uf0519-b1-023",
+      "block": "uf0519-bloc-1",
+      "topic": "Procediment administratiu",
+      "question": "Quin conjunt correspon a formes o documents de finalització del procediment administratiu?",
+      "options": [
+        "Diligències, impuls i actes de tràmit",
+        "Acords per executar la resolució",
+        "Al·legacions, proves i audiència",
+        "Resolució, desistiment, renúncia, caducitat o silenci administratiu"
+      ],
+      "correct": 3,
+      "explanation": "La finalització pot produir-se per resolució, desistiment, renúncia, caducitat o pels efectes del silenci administratiu."
+    },
+    {
+      "id": "uf0519-b1-024",
+      "block": "uf0519-bloc-1",
+      "topic": "Procediment administratiu",
+      "question": "Què caracteritza documentalment la fase d’execució del procediment administratiu?",
+      "options": [
+        "Acords i actuacions necessàries per executar la resolució",
+        "Al·legacions i proves per formar criteri",
+        "Sol·licituds i instàncies que obren l’expedient",
+        "Diligències que impulsen l’ordenació"
+      ],
+      "correct": 0,
+      "explanation": "L’execució inclou els acords i les actuacions necessàries per portar a efecte la resolució."
+    },
+    {
       "id": "uf0519-b1-014",
       "block": "uf0519-bloc-1",
       "topic": "Registre",
@@ -213,6 +325,48 @@
       "explanation": "El registre auxiliar facilita la recepció descentralitzada, però la informació ha d’integrar-se al registre general."
     },
     {
+      "id": "uf0519-b1-025",
+      "block": "uf0519-bloc-1",
+      "topic": "Normativa administrativa",
+      "question": "Quina norma regula el procediment administratiu comú de les administracions públiques segons el material?",
+      "options": [
+        "Llei 40/2015",
+        "Reial decret 203/2021",
+        "Llei 39/2015",
+        "Reial decret 1619/2012"
+      ],
+      "correct": 2,
+      "explanation": "La Llei 39/2015 regula el procediment administratiu comú de les administracions públiques."
+    },
+    {
+      "id": "uf0519-b1-026",
+      "block": "uf0519-bloc-1",
+      "topic": "Normativa administrativa",
+      "question": "Quina norma regula el règim jurídic del sector públic i els seus principis d’actuació?",
+      "options": [
+        "Llei 39/2015",
+        "Llei 40/2015",
+        "Reial decret 203/2021",
+        "LOPDGDD 3/2018"
+      ],
+      "correct": 1,
+      "explanation": "La Llei 40/2015 regula el règim jurídic del sector públic i els principis d’actuació."
+    },
+    {
+      "id": "uf0519-b1-027",
+      "block": "uf0519-bloc-1",
+      "topic": "Normativa administrativa",
+      "question": "Quina norma desenvolupa l’actuació i el funcionament del sector públic per mitjans electrònics?",
+      "options": [
+        "Llei 39/2015",
+        "Llei 40/2015",
+        "Reial decret 1007/2023",
+        "Reial decret 203/2021"
+      ],
+      "correct": 3,
+      "explanation": "El Reial decret 203/2021 desenvolupa l’actuació i el funcionament del sector públic per mitjans electrònics."
+    },
+    {
       "id": "uf0519-b1-016",
       "block": "uf0519-bloc-1",
       "topic": "Resolució administrativa",
@@ -225,6 +379,20 @@
       ],
       "correct": 3,
       "explanation": "El resum de l’article 88 indica que la resolució ha d’informar dels recursos, l’òrgan competent i els terminis."
+    },
+    {
+      "id": "uf0519-b1-028",
+      "block": "uf0519-bloc-1",
+      "topic": "Protecció de dades",
+      "question": "Quina pràctica recomana el material per protegir les adreces de correu en un enviament massiu?",
+      "options": [
+        "Utilitzar CCO quan correspongui",
+        "Posar tots els destinataris al camp Per a",
+        "Adjuntar una llista completa de contactes",
+        "Reenviar el missatge des d’un compte compartit"
+      ],
+      "correct": 0,
+      "explanation": "En enviaments massius, el material recomana utilitzar CCO quan correspongui per evitar exposar adreces."
     }
   ]
 }

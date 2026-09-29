@@ -1245,27 +1245,6 @@
       }
     },
     {
-      "id": "sc-uf0519-b1-04",
-      "blockId": "uf0519-bloc-1",
-      "ca": {
-        "question": "Quina llei regula el procediment administratiu comú de les administracions públiques?",
-        "answer": "Llei 39/2015",
-        "mnemonic": "39/2015 = procediment administratiu comú."
-      },
-      "es": {
-        "question": "¿Qué ley regula el procedimiento administrativo común de las administraciones públicas?",
-        "answer": "Ley 39/2015",
-        "mnemonic": "39/2015 = procedimiento administrativo común."
-      },
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          14,
-          14
-        ]
-      }
-    },
-    {
       "id": "sc-uf0519-b1-05",
       "blockId": "uf0519-bloc-1",
       "ca": {
@@ -1283,27 +1262,6 @@
         "pages": [
           15,
           15
-        ]
-      }
-    },
-    {
-      "id": "sc-uf0519-b1-06",
-      "blockId": "uf0519-bloc-1",
-      "ca": {
-        "question": "Quina pràctica protegeix dades quan s’envia un correu massiu?",
-        "answer": "Utilitzar CCO quan correspongui",
-        "mnemonic": "CCO protegeix adreces visibles."
-      },
-      "es": {
-        "question": "¿Qué práctica protege datos al enviar un correo masivo?",
-        "answer": "Utilizar CCO cuando corresponda",
-        "mnemonic": "CCO protege direcciones visibles."
-      },
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          16,
-          16
         ]
       }
     },
@@ -1476,27 +1434,6 @@
       }
     },
     {
-      "id": "sc-uf0519-b3-03",
-      "blockId": "uf0519-bloc-3",
-      "ca": {
-        "question": "Quina base de cotització s’utilitza per accidents de treball i malalties professionals?",
-        "answer": "Base de contingències professionals",
-        "mnemonic": "Professional = accident o malaltia professional."
-      },
-      "es": {
-        "question": "¿Qué base de cotización se utiliza para accidentes de trabajo y enfermedades profesionales?",
-        "answer": "Base de contingencias profesionales",
-        "mnemonic": "Profesional = accidente o enfermedad profesional."
-      },
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          58,
-          58
-        ]
-      }
-    },
-    {
       "id": "sc-uf0519-b3-04",
       "blockId": "uf0519-bloc-3",
       "ca": {
@@ -1665,27 +1602,6 @@
       }
     },
     {
-      "id": "sc-uf0519-b4-06",
-      "blockId": "uf0519-bloc-4",
-      "ca": {
-        "question": "Quina pràctica facilita l’arxiu quan un document tracta diversos assumptes?",
-        "answer": "No barrejar temes diferents si dificulta l’arxiu",
-        "mnemonic": "Un document, un tema coherent."
-      },
-      "es": {
-        "question": "¿Qué práctica facilita el archivo cuando un documento trata varios asuntos?",
-        "answer": "No mezclar temas distintos si dificulta el archivo",
-        "mnemonic": "Un documento, un tema coherente."
-      },
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          68,
-          68
-        ]
-      }
-    },
-    {
       "id": "sc-uf0519-b5-02",
       "blockId": "uf0519-bloc-5",
       "ca": {
@@ -1745,48 +1661,6 @@
         "pages": [
           71,
           71
-        ]
-      }
-    },
-    {
-      "id": "sc-uf0519-b5-04",
-      "blockId": "uf0519-bloc-5",
-      "ca": {
-        "question": "Què permet una còpia de seguretat?",
-        "answer": "Recuperar informació si es perd o es danya",
-        "mnemonic": "Còpia = recuperació."
-      },
-      "es": {
-        "question": "¿Qué permite una copia de seguridad?",
-        "answer": "Recuperar información si se pierde o se daña",
-        "mnemonic": "Copia = recuperación."
-      },
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          72,
-          72
-        ]
-      }
-    },
-    {
-      "id": "sc-uf0519-b5-05",
-      "blockId": "uf0519-bloc-5",
-      "ca": {
-        "question": "Què vol dir eliminar de manera segura documentació digital?",
-        "answer": "Eliminar-la quan acaba el termini de conservació i ho permet el procediment intern",
-        "mnemonic": "Eliminar segur = quan toca i segons procediment."
-      },
-      "es": {
-        "question": "¿Qué significa eliminar de forma segura documentación digital?",
-        "answer": "Eliminarla cuando termina el plazo de conservación y lo permite el procedimiento interno",
-        "mnemonic": "Eliminar seguro = cuando toca y según procedimiento."
-      },
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          72,
-          72
         ]
       }
     },
@@ -2355,6 +2229,38 @@
       },
       "es": {
         "question": "¿Qué acciones básicas facilitan la integración de una persona nueva en el equipo?"
+      }
+    },
+    "uf0519-b1-021": {
+      "ca": {
+        "question": "Quins documents són habituals en la fase d’iniciació d’un procediment administratiu?"
+      },
+      "es": {
+        "question": "¿Qué documentos son habituales en la fase de iniciación de un procedimiento administrativo?"
+      }
+    },
+    "uf0519-b1-023": {
+      "ca": {
+        "question": "Quines formes o documents poden finalitzar un procediment administratiu?"
+      },
+      "es": {
+        "question": "¿Qué formas o documentos pueden finalizar un procedimiento administrativo?"
+      }
+    },
+    "uf0519-b2-037": {
+      "ca": {
+        "question": "En quins formats poden expedir-se els tipus de factura indicats al material?"
+      },
+      "es": {
+        "question": "¿En qué formatos pueden expedirse los tipos de factura indicados en el material?"
+      }
+    },
+    "uf0519-b3-024": {
+      "ca": {
+        "question": "Quines dades de la persona treballadora poden aparèixer a la nòmina?"
+      },
+      "es": {
+        "question": "¿Qué datos de la persona trabajadora pueden aparecer en la nómina?"
       }
     }
   }
