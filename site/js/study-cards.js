@@ -111,6 +111,19 @@ function deriveConceptId(blockId,topic,canonicalAnswer,explicit){
 }
 
 function traceForCore(traceability,blockId,questionId,topic){
+  const location=traceability?.questionLocations?.[questionId];
+  if(location?.source&&location?.chronology?.source&&Array.isArray(location?.chronology?.pageRange)){
+    return {
+      id:location.chronology.source,
+      pageRange:location.chronology.pageRange,
+      precision:'question',
+      artifact:{
+        source:location.source,
+        ...(Array.isArray(location.pageRange)?{pageRange:location.pageRange}:{}),
+        ...(Array.isArray(location.cells)?{cells:location.cells}:{})
+      }
+    };
+  }
   const exact=traceability?.questionRanges?.[questionId];
   if(exact?.source&&Array.isArray(exact.pageRange)){
     return {id:exact.source,pageRange:exact.pageRange,precision:'question'};

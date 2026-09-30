@@ -393,6 +393,48 @@
       ],
       "correct": 3,
       "explanation": "El material recomana controlar el stock de seguretat, preparar la reposició i fer inventaris periòdics corregint les diferències detectades."
+    },
+    {
+      "id": "uf0519-b5-029",
+      "block": "uf0519-bloc-5",
+      "topic": "Full de càlcul",
+      "question": "A la fórmula «=SUM(C6:N6)» de l’exercici de despeses, què s’està calculant?",
+      "options": [
+        "La suma dels valors de la fila 6 entre les columnes C i N",
+        "La resta entre les cel·les C6 i N6",
+        "La suma de totes les files entre 6 i 43",
+        "La mitjana anual de totes les categories"
+      ],
+      "correct": 0,
+      "explanation": "La fórmula suma horitzontalment les dotze cel·les de C6 a N6."
+    },
+    {
+      "id": "uf0519-b5-030",
+      "block": "uf0519-bloc-5",
+      "topic": "Full de càlcul",
+      "question": "Què calcula la fórmula «=SUM(C6:C43)» de l’exercici de despeses?",
+      "options": [
+        "El total anual de la fila 6",
+        "El total de la columna C entre les files 6 i 43",
+        "El saldo net entre ingressos i despeses",
+        "El percentatge de despesa de gener"
+      ],
+      "correct": 1,
+      "explanation": "La fórmula suma verticalment els imports de la columna C entre les files 6 i 43."
+    },
+    {
+      "id": "uf0519-b5-031",
+      "block": "uf0519-bloc-5",
+      "topic": "Full de càlcul",
+      "question": "Si els ingressos mensuals són 1.100 € i les despeses 1.029 €, quin saldo net dona la fórmula «ingressos − despeses»?",
+      "options": [
+        "2.129 €",
+        "−71 €",
+        "71 €",
+        "1.029 €"
+      ],
+      "correct": 2,
+      "explanation": "1.100 − 1.029 = 71 €."
     }
   ]
 }

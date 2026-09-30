@@ -77,6 +77,14 @@ export function validateTraceEntry(entry,sources){
     errors.push(`${id}: font desconeguda ${entry?.source??''}`.trim());
     return errors;
   }
+  if(source?.type==='xlsx'){
+    const cells=entry?.cells;
+    if(typeof source.archive!=='string'||!source.archive.trim()||typeof source.file!=='string'||!source.file.trim()||typeof source.sheet!=='string'||!source.sheet.trim()){
+      errors.push(`${id}: font XLSX incompleta`);
+    }
+    if(!Array.isArray(cells)||!cells.length||cells.some(cell=>typeof cell!=='string'||!cell.trim()))errors.push(`${id}: cells invàlides`);
+    return errors;
+  }
   const range=entry?.pageRange;
   if(!Array.isArray(range)||range.length!==2||!range.every(Number.isInteger)||range[0]<1||range[1]<range[0]){
     errors.push(`${id}: pageRange invàlid`);

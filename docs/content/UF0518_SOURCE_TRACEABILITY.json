@@ -13,6 +13,12 @@
     "UF0518_B3": {
       "file": "UF0518_Bloc3_L’arxiu i les comunicacions escrites.pdf",
       "pages": 50
+    },
+    "XLSX_HOJAS_REGISTRE_CORRESP": {
+      "type": "xlsx",
+      "archive": "Hojas_Excel.zip",
+      "file": "Hoja de registro de la entrada de la correspondecia.xlsx",
+      "sheet": "Hoja1"
     }
   },
   "questionTraces": [
@@ -2121,14 +2127,31 @@
         46
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0518-b2-069",
+      "source": "XLSX_HOJAS_REGISTRE_CORRESP",
+      "cells": [
+        "C7:J7"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0518-b2-070",
+      "source": "XLSX_HOJAS_REGISTRE_CORRESP",
+      "cells": [
+        "C14:J14"
+      ],
+      "status": "PASS"
     }
   ],
   "corrections": [],
   "review": {
-    "questionCount": 234,
-    "method": "Question, correct option and explanation reviewed against the assigned page of the uploaded UF0518 Bloc 1, Bloc 2 and Bloc 3 PDFs; all published UF0518 questions have page-level traceability.",
-    "date": "2026-09-24",
+    "questionCount": 236,
+    "method": "Source-backed expansion with XLSX cell-level traceability and full regression certification.",
+    "date": "2026-09-30",
     "teacherValidatedSources": true,
-    "note": "UF0518 Bloc 1 usa la versió validada per la professora de 31 pàgines; les referències antigues p. 2–28 es desplacen +3."
+    "note": "UF0518 Bloc 1 usa la versió validada per la professora de 31 pàgines; les referències antigues p. 2–28 es desplacen +3.",
+    "result": "PASS"
   }
 }

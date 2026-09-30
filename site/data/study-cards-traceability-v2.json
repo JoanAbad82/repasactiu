@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "date": "2026-09-24",
-  "policy": "Flashcard source traceability. UF0517 core cards use section/topic page ranges; UF0518 and UF0519 core cards use per-question page ranges; semantic V2 changes override these with their audited page source; extra cards preserve their own page ranges. Teacher-validated ZIP sources from 2026-09-24 are canonical and take precedence.",
+  "date": "2026-09-30",
+  "policy": "Flashcard source traceability. UF0517 core cards use section/topic page ranges; UF0518 and UF0519 core cards use per-question page ranges; semantic V2 changes override these with their audited page source; extra cards preserve their own page ranges. Teacher-validated ZIP sources from 2026-09-24 are canonical and take precedence. XLSX-backed core cards preserve archive/file/sheet/cells in questionLocations; chronology uses an explicit canonical surrogate so supplementary class material does not disturb the established source order.",
   "sources": {
     "B1": {
       "file": "1. L’organització entitats públiques i privades (Funcions i tipus d’empresa)_BLOC_1.pdf",
@@ -46,6 +46,58 @@
     "MF0969_PRESENTACIO": {
       "file": "Presentació del mòdul_MF0969_1.pdf",
       "pages": 22
+    },
+    "UF0519_U1_4_2026": {
+      "file": "1.4_Altres_documents_administratius_i_empresarials.pdf",
+      "pages": 40
+    },
+    "XLSX_HOJAS_PLANTILLA_FACTURA": {
+      "type": "xlsx",
+      "archive": "Hojas_Excel.zip",
+      "file": "Plantilla factura.xlsx",
+      "sheet": "Plantilla factura"
+    },
+    "XLSX_FACT_EX3": {
+      "type": "xlsx",
+      "archive": "Exercici_Fact.zip",
+      "file": "Exercici_3_Fact.xlsx",
+      "sheet": "SENSE RECÃ€RREC EQUI"
+    },
+    "XLSX_FACT_EX4": {
+      "type": "xlsx",
+      "archive": "Exercici_Fact.zip",
+      "file": "Exercici_4_Fact.xlsx",
+      "sheet": "Con recargo de equivalencia"
+    },
+    "XLSX_FACT_EX1": {
+      "type": "xlsx",
+      "archive": "Exercici_Fact.zip",
+      "file": "Exercici_1_Fact.xlsx",
+      "sheet": "SENSE RECÃ€RREC EQUI"
+    },
+    "XLSX_HOJAS_PLANTILLA_RE": {
+      "type": "xlsx",
+      "archive": "Hojas_Excel.zip",
+      "file": "Plantilla_factura_2026_amb_recarrec_equivalencia_2.xlsx",
+      "sheet": "Con recargo de equivalencia"
+    },
+    "XLSX_HOJAS_COMANDA": {
+      "type": "xlsx",
+      "archive": "Hojas_Excel.zip",
+      "file": "COMANDA EXCEL_sense formules.xlsx",
+      "sheet": "Exercici 9"
+    },
+    "XLSX_HOJAS_GASTOS": {
+      "type": "xlsx",
+      "archive": "Hojas_Excel.zip",
+      "file": "Gastos_mensuales.xlsx",
+      "sheet": "proves"
+    },
+    "XLSX_HOJAS_REGISTRE_CORRESP": {
+      "type": "xlsx",
+      "archive": "Hojas_Excel.zip",
+      "file": "Hoja de registro de la entrada de la correspondecia.xlsx",
+      "sheet": "Hoja1"
     }
   },
   "blockSources": {
@@ -3430,6 +3482,503 @@
         72,
         72
       ]
+    }
+  },
+  "questionLocations": {
+    "uf0519-b4-013": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        7,
+        7
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-014": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        7,
+        8
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-015": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        7,
+        8
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-016": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        10,
+        10
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-017": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        12,
+        12
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-018": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        13,
+        14
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-019": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        13,
+        15
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-020": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        14,
+        14
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-021": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        19,
+        20
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-022": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        19,
+        20
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-023": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        19,
+        20
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-024": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        19,
+        20
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-025": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        25,
+        25
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-026": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        25,
+        25
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-027": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        26,
+        26
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-028": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        29,
+        29
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-029": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        29,
+        29
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-030": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        29,
+        29
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-031": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        34,
+        34
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b4-032": {
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        34,
+        34
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          69,
+          69
+        ]
+      }
+    },
+    "uf0519-b2-042": {
+      "source": "XLSX_HOJAS_PLANTILLA_FACTURA",
+      "cells": [
+        "F21",
+        "H21",
+        "J21",
+        "K21"
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          50,
+          50
+        ]
+      }
+    },
+    "uf0519-b2-043": {
+      "source": "XLSX_HOJAS_PLANTILLA_FACTURA",
+      "cells": [
+        "F21"
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          50,
+          50
+        ]
+      }
+    },
+    "uf0519-b2-044": {
+      "source": "XLSX_FACT_EX3",
+      "cells": [
+        "B22",
+        "F22",
+        "G22",
+        "H22"
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          50,
+          50
+        ]
+      }
+    },
+    "uf0519-b2-045": {
+      "source": "XLSX_HOJAS_PLANTILLA_FACTURA",
+      "cells": [
+        "H21"
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          50,
+          50
+        ]
+      }
+    },
+    "uf0519-b2-046": {
+      "source": "XLSX_FACT_EX4",
+      "cells": [
+        "F21",
+        "G21",
+        "H21"
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          50,
+          50
+        ]
+      }
+    },
+    "uf0519-b2-047": {
+      "source": "XLSX_FACT_EX1",
+      "cells": [
+        "H22",
+        "J22",
+        "K22"
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          50,
+          50
+        ]
+      }
+    },
+    "uf0519-b2-048": {
+      "source": "XLSX_HOJAS_PLANTILLA_RE",
+      "cells": [
+        "J21"
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          50,
+          50
+        ]
+      }
+    },
+    "uf0519-b2-049": {
+      "source": "XLSX_FACT_EX4",
+      "cells": [
+        "F21",
+        "H21",
+        "J21",
+        "K21"
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          50,
+          50
+        ]
+      }
+    },
+    "uf0519-b2-050": {
+      "source": "XLSX_HOJAS_COMANDA",
+      "cells": [
+        "D8",
+        "E8",
+        "F8",
+        "G8"
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          50,
+          50
+        ]
+      }
+    },
+    "uf0519-b2-051": {
+      "source": "XLSX_HOJAS_COMANDA",
+      "cells": [
+        "C17",
+        "C18",
+        "C19"
+      ],
+      "chronology": {
+        "source": "UF0519_U1",
+        "pageRange": [
+          50,
+          50
+        ]
+      }
+    },
+    "uf0518-b2-069": {
+      "source": "XLSX_HOJAS_REGISTRE_CORRESP",
+      "cells": [
+        "C7:J7"
+      ],
+      "chronology": {
+        "source": "UF0518_B2",
+        "pageRange": [
+          35,
+          35
+        ]
+      }
+    },
+    "uf0518-b2-070": {
+      "source": "XLSX_HOJAS_REGISTRE_CORRESP",
+      "cells": [
+        "C14:J14"
+      ],
+      "chronology": {
+        "source": "UF0518_B2",
+        "pageRange": [
+          36,
+          36
+        ]
+      }
+    },
+    "uf0519-b5-029": {
+      "source": "XLSX_HOJAS_GASTOS",
+      "cells": [
+        "O6"
+      ],
+      "chronology": {
+        "source": "MF0969_PRESENTACIO",
+        "pageRange": [
+          22,
+          22
+        ]
+      }
+    },
+    "uf0519-b5-030": {
+      "source": "XLSX_HOJAS_GASTOS",
+      "cells": [
+        "C44"
+      ],
+      "chronology": {
+        "source": "MF0969_PRESENTACIO",
+        "pageRange": [
+          22,
+          22
+        ]
+      }
+    },
+    "uf0519-b5-031": {
+      "source": "XLSX_HOJAS_GASTOS",
+      "cells": [
+        "C44",
+        "C45",
+        "C46"
+      ],
+      "chronology": {
+        "source": "MF0969_PRESENTACIO",
+        "pageRange": [
+          22,
+          22
+        ]
+      }
     }
   }
 }

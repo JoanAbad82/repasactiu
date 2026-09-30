@@ -309,6 +309,39 @@
         "Cuando ha finalizado el plazo de conservación y lo permite el procedimiento interno"
       ],
       "explanation": "La eliminación segura debe hacerse cuando finaliza el plazo de conservación y el procedimiento interno lo permite."
+    },
+    "uf0519-b5-029": {
+      "topic": "Hoja de cálculo",
+      "question": "En la fórmula «=SUM(C6:N6)» del ejercicio de gastos, ¿qué se está calculando?",
+      "options": [
+        "La suma de los valores de la fila 6 entre las columnas C y N",
+        "La resta entre las celdas C6 y N6",
+        "La suma de todas las filas entre 6 y 43",
+        "La media anual de todas las categorías"
+      ],
+      "explanation": "La fórmula suma horizontalmente las doce celdas de C6 a N6."
+    },
+    "uf0519-b5-030": {
+      "topic": "Hoja de cálculo",
+      "question": "¿Qué calcula la fórmula «=SUM(C6:C43)» del ejercicio de gastos?",
+      "options": [
+        "El total anual de la fila 6",
+        "El total de la columna C entre las filas 6 y 43",
+        "El saldo neto entre ingresos y gastos",
+        "El porcentaje de gasto de enero"
+      ],
+      "explanation": "La fórmula suma verticalmente los importes de la columna C entre las filas 6 y 43."
+    },
+    "uf0519-b5-031": {
+      "topic": "Hoja de cálculo",
+      "question": "Si los ingresos mensuales son 1.100 € y los gastos 1.029 €, ¿qué saldo neto da la fórmula «ingresos − gastos»?",
+      "options": [
+        "2.129 €",
+        "−71 €",
+        "71 €",
+        "1.029 €"
+      ],
+      "explanation": "1.100 − 1.029 = 71 €."
     }
   }
 }

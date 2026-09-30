@@ -169,6 +169,286 @@
       ],
       "correct": 3,
       "explanation": "Una bona pràctica és no barrejar temes diferents en el mateix document quan això dificulta l’arxiu."
+    },
+    {
+      "id": "uf0519-b4-021",
+      "block": "uf0519-bloc-4",
+      "topic": "Acta",
+      "question": "Quines dades formen la identificació bàsica d’una reunió en una acta?",
+      "options": [
+        "Organisme, número de sessió, data, hora i lloc",
+        "Només data i signatura",
+        "Emissor, base imposable i quota",
+        "Objectiu, resultats anuals i incidències"
+      ],
+      "correct": 0,
+      "explanation": "La identificació de la reunió inclou organisme, número de sessió, data, hora i lloc."
+    },
+    {
+      "id": "uf0519-b4-022",
+      "block": "uf0519-bloc-4",
+      "topic": "Acta",
+      "question": "Què recull l’«ordre del dia» d’una acta?",
+      "options": [
+        "Només les decisions ja aprovades",
+        "Els punts que es tractaran a la reunió",
+        "La valoració anual de l’organització",
+        "Els documents que acrediten un fet"
+      ],
+      "correct": 1,
+      "explanation": "L’ordre del dia enumera els punts previstos per tractar durant la reunió."
+    },
+    {
+      "id": "uf0519-b4-023",
+      "block": "uf0519-bloc-4",
+      "topic": "Acta",
+      "question": "Quina diferència hi ha entre «desenvolupament» i «acords i votacions» en una acta?",
+      "options": [
+        "El desenvolupament només identifica assistents; els acords indiquen data i lloc",
+        "El desenvolupament acredita un fet; els acords formulen una petició",
+        "El desenvolupament resumeix temes i intervencions; els acords recullen decisions, desacords i resultats de votacions",
+        "No hi ha diferència: tots dos apartats tenen la mateixa funció"
+      ],
+      "correct": 2,
+      "explanation": "El desenvolupament explica què s’ha tractat; l’apartat d’acords i votacions deixa constància del que s’ha decidit."
+    },
+    {
+      "id": "uf0519-b4-024",
+      "block": "uf0519-bloc-4",
+      "topic": "Acta",
+      "question": "Segons el model bàsic, com es formalitza el tancament d’una acta?",
+      "options": [
+        "Amb una fórmula «CERTIFICO» signada pel client",
+        "Amb una transferència bancària",
+        "Amb una petició «SOL·LICITO»",
+        "Amb la signatura del secretari o secretària i el vistiplau de la presidència"
+      ],
+      "correct": 3,
+      "explanation": "El model preveu la signatura del secretari o secretària i el vistiplau de la presidència."
+    },
+    {
+      "id": "uf0519-b4-031",
+      "block": "uf0519-bloc-4",
+      "topic": "Arxiu i traçabilitat",
+      "question": "Quina pregunta de control correspon a l’aspecte «versió» d’un document?",
+      "options": [
+        "Durant quant temps s’ha de guardar?",
+        "Qui pot consultar-lo o enviar-lo?",
+        "És l’última versió o encara hi ha esborranys?",
+        "Cal deixar constància d’entrada o sortida?"
+      ],
+      "correct": 2,
+      "explanation": "El control de versió comprova si el document és la versió vigent o si hi ha esborranys."
+    },
+    {
+      "id": "uf0519-b4-032",
+      "block": "uf0519-bloc-4",
+      "topic": "Arxiu i traçabilitat",
+      "question": "Quina diferència hi ha entre controlar la «conservació» i la «destrucció» d’un document?",
+      "options": [
+        "Conservació identifica el destinatari; destrucció comprova la signatura",
+        "Conservació revisa els annexos; destrucció assigna el número de registre",
+        "Són exactament el mateix control",
+        "Conservació pregunta quant temps s’ha de guardar; destrucció pregunta si es pot eliminar o cal bloquejar-lo o conservar-lo"
+      ],
+      "correct": 3,
+      "explanation": "La conservació determina el temps de guarda; la destrucció determina si es pot eliminar o si cal mantenir o bloquejar el document."
+    },
+    {
+      "id": "uf0519-b4-017",
+      "block": "uf0519-bloc-4",
+      "topic": "Certificat",
+      "question": "Quan una persona signa un certificat administratiu, en quina condició ho fa segons el material?",
+      "options": [
+        "Pel càrrec que ocupa",
+        "A títol estrictament personal",
+        "Com a testimoni sense responsabilitat institucional",
+        "Només com a representant de la persona interessada"
+      ],
+      "correct": 0,
+      "explanation": "La persona que certifica signa pel càrrec que ocupa, no a títol personal."
+    },
+    {
+      "id": "uf0519-b4-018",
+      "block": "uf0519-bloc-4",
+      "topic": "Certificat",
+      "question": "Com s’inicia habitualment la part que descriu el fet acreditat després de «CERTIFICO»?",
+      "options": [
+        "Amb «Atentament...»",
+        "Amb «Que...»",
+        "Amb «SOL·LICITO...»",
+        "Amb una llista d’annexos sense text introductori"
+      ],
+      "correct": 1,
+      "explanation": "La certificació comença habitualment amb «Que...» i explica el fet que s’acredita."
+    },
+    {
+      "id": "uf0519-b4-019",
+      "block": "uf0519-bloc-4",
+      "topic": "Certificat",
+      "question": "Quin tancament és més coherent amb el model de certificat del material?",
+      "options": [
+        "«Atentament» i una salutació final",
+        "Una nova secció «SOL·LICITO»",
+        "Fórmula com «I, per donar-ne fe...», seguida de datació i signatura",
+        "Una ordre del dia i el resultat de les votacions"
+      ],
+      "correct": 2,
+      "explanation": "El certificat utilitza una fórmula final de fe i acaba amb lloc, data i signatura; no s’hi recomana «Atentament»."
+    },
+    {
+      "id": "uf0519-b4-020",
+      "block": "uf0519-bloc-4",
+      "topic": "Certificat",
+      "question": "Quina datació segueix els criteris lingüístics indicats al material?",
+      "options": [
+        "Barcelona, 14 de Juny de 2.026",
+        "Barcelona, 14/JUNY/2026.",
+        "Barcelona, 14 de 06 de 2026",
+        "Barcelona, 14 de juny de 2026"
+      ],
+      "correct": 3,
+      "explanation": "El material recomana els mesos en minúscula i l’any sense punt."
+    },
+    {
+      "id": "uf0519-b4-025",
+      "block": "uf0519-bloc-4",
+      "topic": "Informe",
+      "question": "Quina seqüència correspon a l’estructura bàsica d’un informe?",
+      "options": [
+        "Portada → introducció → desenvolupament → conclusions → annexos",
+        "EXPOSO → SOL·LICITO → annexos → signatura",
+        "Assistents → ordre del dia → votacions → vistiplau",
+        "Emissor → client → base imposable → IVA → total"
+      ],
+      "correct": 0,
+      "explanation": "El material estructura l’informe en portada, introducció, desenvolupament, conclusions i annexos."
+    },
+    {
+      "id": "uf0519-b4-026",
+      "block": "uf0519-bloc-4",
+      "topic": "Informe",
+      "question": "Quina afirmació descriu millor la relació d’un informe amb la presa de decisions?",
+      "options": [
+        "Un informe sempre conté una decisió obligatòria",
+        "Un informe sovint aporta dades i anàlisi per ajudar a decidir, però no sempre decideix",
+        "Un informe només es redacta després que la decisió ja sigui definitiva",
+        "Un informe substitueix qualsevol acta de reunió"
+      ],
+      "correct": 1,
+      "explanation": "El material indica que un informe no sempre decideix; sovint ajuda a prendre decisions."
+    },
+    {
+      "id": "uf0519-b4-027",
+      "block": "uf0519-bloc-4",
+      "topic": "Informe",
+      "question": "Quina pràctica millora la qualitat d’un informe segons el material?",
+      "options": [
+        "Barrejar dades i valoracions perquè el text sigui més breu",
+        "Ometre fonts i data d’elaboració",
+        "Separar fets, dades i opinions",
+        "Evitar taules o gràfics encara que facilitin la comprensió"
+      ],
+      "correct": 2,
+      "explanation": "Entre les bones pràctiques hi ha separar fets, dades i opinions i ordenar la informació."
+    },
+    {
+      "id": "uf0519-b4-028",
+      "block": "uf0519-bloc-4",
+      "topic": "Memòria",
+      "question": "Què recull principalment el «cos» d’una memòria?",
+      "options": [
+        "Només els punts febles",
+        "Exclusivament les propostes de millora",
+        "La petició formal adreçada a una administració",
+        "Activitats realitzades, recursos utilitzats, resultats i incidències"
+      ],
+      "correct": 3,
+      "explanation": "El cos de la memòria descriu les activitats, recursos, resultats i incidències del període."
+    },
+    {
+      "id": "uf0519-b4-029",
+      "block": "uf0519-bloc-4",
+      "topic": "Memòria",
+      "question": "Quina diferència estableix el material entre «anàlisi» i «conclusions» d’una memòria?",
+      "options": [
+        "L’anàlisi valora punts forts i febles; les conclusions resumeixen resultats principals i propostes de millora",
+        "L’anàlisi enumera annexos; les conclusions identifiquen el destinatari",
+        "L’anàlisi és la portada; les conclusions són l’ordre del dia",
+        "No hi ha diferència funcional entre tots dos apartats"
+      ],
+      "correct": 0,
+      "explanation": "L’anàlisi valora el període; les conclusions en recullen els resultats principals i les propostes de millora."
+    },
+    {
+      "id": "uf0519-b4-030",
+      "block": "uf0519-bloc-4",
+      "topic": "Memòria",
+      "question": "Quin criteri d’ordre recomana el material per redactar una memòria?",
+      "options": [
+        "Ordre aleatori per evitar repeticions",
+        "Ordre lògic i, quan sigui possible, cronològic",
+        "Ordre exclusivament alfabètic",
+        "Ordre per import econòmic, encara que trenqui la seqüència"
+      ],
+      "correct": 1,
+      "explanation": "La informació ha de seguir un ordre lògic i, quan sigui possible, cronològic."
+    },
+    {
+      "id": "uf0519-b4-016",
+      "block": "uf0519-bloc-4",
+      "topic": "Presentació i registre",
+      "question": "Quina afirmació diferencia correctament la presentació en paper de l’electrònica?",
+      "options": [
+        "En paper sempre calen dues còpies i en electrònic no hi ha justificant",
+        "En electrònic només consta la data, però no l’hora ni el número d’assentament",
+        "Totes dues modalitats exigeixen sempre el mateix tipus de justificant",
+        "En paper es pot obtenir una còpia segellada segons el procediment; en electrònic es genera un rebut de registre"
+      ],
+      "correct": 3,
+      "explanation": "El material evita la regla «sempre per duplicat»: el paper depèn del procediment i l’electrònic genera un justificant de registre."
+    },
+    {
+      "id": "uf0519-b4-013",
+      "block": "uf0519-bloc-4",
+      "topic": "Sol·licitud",
+      "question": "En una sol·licitud, què correspon a l’apartat «EXPOSO»?",
+      "options": [
+        "Els fets, motius i antecedents que fonamenten la petició",
+        "La petició concreta que es demana",
+        "La relació final de signatures",
+        "Només els documents annexos"
+      ],
+      "correct": 0,
+      "explanation": "L’apartat EXPOSO recull els fets, motius i antecedents de manera ordenada i clara."
+    },
+    {
+      "id": "uf0519-b4-014",
+      "block": "uf0519-bloc-4",
+      "topic": "Sol·licitud",
+      "question": "Quina funció té l’apartat «SOL·LICITO» d’una sol·licitud?",
+      "options": [
+        "Resumir els antecedents",
+        "Formular la petició concreta de manera breu i directa",
+        "Identificar els annexos",
+        "Acreditar oficialment els fets exposats"
+      ],
+      "correct": 1,
+      "explanation": "SOL·LICITO formula de manera concreta allò que es demana."
+    },
+    {
+      "id": "uf0519-b4-015",
+      "block": "uf0519-bloc-4",
+      "topic": "Sol·licitud",
+      "question": "Quins elements formen el tancament bàsic d’una sol·licitud segons el material?",
+      "options": [
+        "Número de factura, IVA i total",
+        "Ordre del dia i votacions",
+        "Lloc, data i signatura o validació electrònica",
+        "Conclusions, propostes i annexos"
+      ],
+      "correct": 2,
+      "explanation": "El final de la sol·licitud inclou lloc, data i signatura o validació electrònica."
     }
   ]
 }

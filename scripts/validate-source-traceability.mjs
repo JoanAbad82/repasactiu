@@ -14,7 +14,20 @@ const readData=async p=>readJson(path.join(dataDir,p.replace(/^data\//,'')));
 const formatId=(prefix,n)=>`${prefix}${String(n).padStart(3,'0')}`;
 
 function validRange(range,source){
-  return Array.isArray(range)&&range.length===2&&Number.isInteger(range[0])&&Number.isInteger(range[1])&&range[0]>=1&&range[1]>=range[0]&&range[1]<=source.pages;
+  return Number.isInteger(source?.pages)&&Array.isArray(range)&&range.length===2&&Number.isInteger(range[0])&&Number.isInteger(range[1])&&range[0]>=1&&range[1]>=range[0]&&range[1]<=source.pages;
+}
+
+function validCells(cells){
+  return Array.isArray(cells)&&cells.length>0&&cells.every(cell=>typeof cell==='string'&&cell.trim().length>0);
+}
+
+function validQuestionLocator(item,source){
+  if(source?.type==='xlsx'){
+    return typeof source.archive==='string'&&source.archive.trim().length>0&&
+      typeof source.file==='string'&&source.file.trim().length>0&&
+      typeof source.sheet==='string'&&source.sheet.trim().length>0&&validCells(item.cells);
+  }
+  return validRange(item.pageRange,source);
 }
 
 export async function validateSourceTraceability({tracePaths=defaultTracePaths}={}){
@@ -62,10 +75,10 @@ export async function validateSourceTraceability({tracePaths=defaultTracePaths}=
       const source=trace.sources?.[item.source];
       if(!item.id?.trim()){errors.push(`${trace.scope||tracePath}: trace without id`);continue;}
       if(!source){errors.push(`${item.id}: unknown source ${item.source}`);continue;}
-      if(!validRange(item.pageRange,source))errors.push(`${item.id}: invalid page range`);
-      if(item.pageRange?.[0]===1&&item.pageRange?.[1]===source.pages)errors.push(`${item.id}: blanket full-document range is not allowed`);
+      if(!validQuestionLocator(item,source))errors.push(`${item.id}: invalid source locator`);
+      if(source?.type!=='xlsx'&&item.pageRange?.[0]===1&&item.pageRange?.[1]===source.pages)errors.push(`${item.id}: blanket full-document range is not allowed`);
       if(ruleMap.has(item.id))errors.push(`trace rule duplicate ${item.id}`);
-      ruleMap.set(item.id,{source:item.source,pageRange:item.pageRange,status:item.status,scope:trace.scope});
+      ruleMap.set(item.id,{source:item.source,pageRange:item.pageRange,cells:item.cells,status:item.status,scope:trace.scope});
       manifestIds.add(item.id);
     }
 
