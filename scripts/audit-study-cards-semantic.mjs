@@ -16,13 +16,13 @@ const EXPECTED={
   'bloc-5':76,
   'unitat-2-bloc-1':156,
   'uf0518-bloc-1':92,
-  'uf0518-bloc-2':74,
+  'uf0518-bloc-2':76,
   'uf0518-bloc-3':86,
   'uf0519-bloc-1':32,
-  'uf0519-bloc-2':47,
+  'uf0519-bloc-2':57,
   'uf0519-bloc-3':35,
-  'uf0519-bloc-4':17,
-  'uf0519-bloc-5':32
+  'uf0519-bloc-4':37,
+  'uf0519-bloc-5':35
 };
 
 const normalize=value=>String(value??'')
@@ -95,6 +95,10 @@ export async function runSemanticStudyCardsAudit(){
   const seenChanges=new Set();
   const cards=[];
   const sourceFor=(blockId,id,topic)=>{
+    const location=traceability.questionLocations?.[id];
+    if(location?.source&&(Array.isArray(location.pageRange)||Array.isArray(location.cells))){
+      return {source:location.source,pageRange:location.pageRange||null,cells:location.cells||null,precision:'question'};
+    }
     const exact=traceability.questionRanges?.[id];
     if(exact?.source&&Array.isArray(exact.pageRange))return {source:exact.source,pageRange:exact.pageRange,precision:'question'};
     const range=traceability.topicRanges?.[blockId]?.[topic];
@@ -153,7 +157,7 @@ export async function runSemanticStudyCardsAudit(){
 
   const missingChanges=(manifest.changes||[]).map(x=>x.id).filter(id=>!seenChanges.has(id));
   if(missingChanges.length)errors.push('manifest IDs inexistents: '+missingChanges.join(', '));
-  if(cards.length!==961)errors.push('targetes efectives: '+cards.length+'/961');
+  if(cards.length!==996)errors.push('targetes efectives: '+cards.length+'/996');
   if(new Set(cards.map(c=>c.id)).size!==cards.length)errors.push('IDs efectius duplicats');
 
   const countByBlock={};
@@ -169,7 +173,7 @@ export async function runSemanticStudyCardsAudit(){
       if(!String(data.mnemonic||'').trim())errors.push(card.id+': mnemotècnia '+lang+' buida');
     }
     if(!card.conceptId)errors.push(card.id+': conceptId buit');
-    if(!card.source?.source||!Array.isArray(card.source?.pageRange))errors.push(card.id+': traçabilitat sense rang de pàgina');
+    if(!card.source?.source||(!Array.isArray(card.source?.pageRange)&&!Array.isArray(card.source?.cells)))errors.push(card.id+': traçabilitat sense localitzador de pàgina/cel·les');
     if(card.source?.precision==='missing'||card.source?.precision==='block')errors.push(card.id+': traçabilitat massa ampla');
   }
 

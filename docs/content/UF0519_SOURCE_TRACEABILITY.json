@@ -9,6 +9,52 @@
     "MF0969_PRESENTACIO": {
       "file": "Presentació del mòdul_MF0969_1.pdf",
       "pages": 22
+    },
+    "UF0519_U1_4_2026": {
+      "file": "1.4_Altres_documents_administratius_i_empresarials.pdf",
+      "pages": 40
+    },
+    "XLSX_HOJAS_PLANTILLA_FACTURA": {
+      "type": "xlsx",
+      "archive": "Hojas_Excel.zip",
+      "file": "Plantilla factura.xlsx",
+      "sheet": "Plantilla factura"
+    },
+    "XLSX_FACT_EX3": {
+      "type": "xlsx",
+      "archive": "Exercici_Fact.zip",
+      "file": "Exercici_3_Fact.xlsx",
+      "sheet": "SENSE RECÃ€RREC EQUI"
+    },
+    "XLSX_FACT_EX4": {
+      "type": "xlsx",
+      "archive": "Exercici_Fact.zip",
+      "file": "Exercici_4_Fact.xlsx",
+      "sheet": "Con recargo de equivalencia"
+    },
+    "XLSX_FACT_EX1": {
+      "type": "xlsx",
+      "archive": "Exercici_Fact.zip",
+      "file": "Exercici_1_Fact.xlsx",
+      "sheet": "SENSE RECÃ€RREC EQUI"
+    },
+    "XLSX_HOJAS_PLANTILLA_RE": {
+      "type": "xlsx",
+      "archive": "Hojas_Excel.zip",
+      "file": "Plantilla_factura_2026_amb_recarrec_equivalencia_2.xlsx",
+      "sheet": "Con recargo de equivalencia"
+    },
+    "XLSX_HOJAS_COMANDA": {
+      "type": "xlsx",
+      "archive": "Hojas_Excel.zip",
+      "file": "COMANDA EXCEL_sense formules.xlsx",
+      "sheet": "Exercici 9"
+    },
+    "XLSX_HOJAS_GASTOS": {
+      "type": "xlsx",
+      "archive": "Hojas_Excel.zip",
+      "file": "Gastos_mensuales.xlsx",
+      "sheet": "proves"
     }
   },
   "questionTraces": [
@@ -1262,12 +1308,316 @@
         72
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-013",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        7,
+        7
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-014",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        7,
+        8
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-015",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        7,
+        8
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-016",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        10,
+        10
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-017",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        12,
+        12
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-018",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        13,
+        14
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-019",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        13,
+        15
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-020",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        14,
+        14
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-021",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        19,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-022",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        19,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-023",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        19,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-024",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        19,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-025",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        25,
+        25
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-026",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        25,
+        25
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-027",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        26,
+        26
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-028",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        29,
+        29
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-029",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        29,
+        29
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-030",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        29,
+        29
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-031",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        34,
+        34
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b4-032",
+      "source": "UF0519_U1_4_2026",
+      "pageRange": [
+        34,
+        34
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b2-042",
+      "source": "XLSX_HOJAS_PLANTILLA_FACTURA",
+      "cells": [
+        "F21",
+        "H21",
+        "J21",
+        "K21"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b2-043",
+      "source": "XLSX_HOJAS_PLANTILLA_FACTURA",
+      "cells": [
+        "F21"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b2-044",
+      "source": "XLSX_FACT_EX3",
+      "cells": [
+        "B22",
+        "F22",
+        "G22",
+        "H22"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b2-045",
+      "source": "XLSX_HOJAS_PLANTILLA_FACTURA",
+      "cells": [
+        "H21"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b2-046",
+      "source": "XLSX_FACT_EX4",
+      "cells": [
+        "F21",
+        "G21",
+        "H21"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b2-047",
+      "source": "XLSX_FACT_EX1",
+      "cells": [
+        "H22",
+        "J22",
+        "K22"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b2-048",
+      "source": "XLSX_HOJAS_PLANTILLA_RE",
+      "cells": [
+        "J21"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b2-049",
+      "source": "XLSX_FACT_EX4",
+      "cells": [
+        "F21",
+        "H21",
+        "J21",
+        "K21"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b2-050",
+      "source": "XLSX_HOJAS_COMANDA",
+      "cells": [
+        "D8",
+        "E8",
+        "F8",
+        "G8"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b2-051",
+      "source": "XLSX_HOJAS_COMANDA",
+      "cells": [
+        "C17",
+        "C18",
+        "C19"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-029",
+      "source": "XLSX_HOJAS_GASTOS",
+      "cells": [
+        "O6"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-030",
+      "source": "XLSX_HOJAS_GASTOS",
+      "cells": [
+        "C44"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-031",
+      "source": "XLSX_HOJAS_GASTOS",
+      "cells": [
+        "C44",
+        "C45",
+        "C46"
+      ],
+      "status": "PASS"
     }
   ],
   "review": {
-    "date": "2026-09-29",
-    "questionCount": 139,
-    "method": "Source-backed expansion: concept-gap review, bilingual drafting, duplicate screening, hard-mode validation and full regression certification.",
+    "date": "2026-09-30",
+    "questionCount": 172,
+    "method": "Source-backed PDF + XLSX integration: deduplication, exact cell/page traceability, bilingual drafting, hard-mode validation and regression certification.",
     "result": "PASS"
   },
   "corrections": []

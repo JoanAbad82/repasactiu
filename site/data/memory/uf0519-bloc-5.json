@@ -140,6 +140,21 @@
       "type": "idea",
       "ca": "Eliminar segur = termini acabat + procediment ho permet.",
       "es": "Eliminar seguro = plazo terminado + procedimiento lo permite."
+    },
+    "uf0519-b5-029": {
+      "type": "idea",
+      "ca": "SUM horitzontal = total d’una fila.",
+      "es": "SUM horizontal = total de una fila."
+    },
+    "uf0519-b5-030": {
+      "type": "idea",
+      "ca": "SUM vertical = total d’una columna.",
+      "es": "SUM vertical = total de una columna."
+    },
+    "uf0519-b5-031": {
+      "type": "idea",
+      "ca": "Saldo net = ingressos − despeses.",
+      "es": "Saldo neto = ingresos − gastos."
     }
   }
 }

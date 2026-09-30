@@ -336,6 +336,42 @@
         "Cuando la persona usuaria decide que el archivo ya no es útil para su tarea",
         "Cuando se ha hecho una copia de seguridad, con independencia del plazo de conservación"
       ]
+    },
+    "uf0519-b5-029": {
+      "ca": [
+        "La suma de la columna C entre les files 6 i 43",
+        "La diferència entre el primer i l’últim mes",
+        "La suma de totes les cel·les del rectangle C6:N43"
+      ],
+      "es": [
+        "La suma de la columna C entre las filas 6 y 43",
+        "La diferencia entre el primer y el último mes",
+        "La suma de todas las celdas del rectángulo C6:N43"
+      ]
+    },
+    "uf0519-b5-030": {
+      "ca": [
+        "La suma de totes les columnes C a N de la fila 43",
+        "La diferència entre C6 i C43",
+        "La suma només de les cel·les C6 i C43"
+      ],
+      "es": [
+        "La suma de todas las columnas C a N de la fila 43",
+        "La diferencia entre C6 y C43",
+        "La suma solo de las celdas C6 y C43"
+      ]
+    },
+    "uf0519-b5-031": {
+      "ca": [
+        "129 €",
+        "−1.029 €",
+        "2.029 €"
+      ],
+      "es": [
+        "129 €",
+        "−1.029 €",
+        "2.029 €"
+      ]
     }
   }
 }

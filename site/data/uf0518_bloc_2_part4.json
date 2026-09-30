@@ -239,6 +239,34 @@
       ],
       "correct": 3,
       "explanation": "El material recomana permisos adequats, no compartir per canals no autoritzats i destruir de manera segura els documents amb dades."
+    },
+    {
+      "id": "uf0518-b2-069",
+      "block": "uf0518-bloc-2",
+      "topic": "Recepció i incidències",
+      "question": "Si un paquet arriba amb l’embalatge deteriorat però no s’ha comprovat el contingut, què és més correcte registrar?",
+      "options": [
+        "Que el contingut està malmès encara que no s’hagi obert",
+        "Que no hi ha cap incidència perquè el paquet s’ha rebut",
+        "Que l’embalatge està deteriorat i que cal comunicar la incidència, sense afirmar danys interns no comprovats",
+        "Que s’ha de destruir l’embalatge abans de deixar constància"
+      ],
+      "correct": 2,
+      "explanation": "L’exercici diferencia el dany visible de l’embalatge d’un possible dany del contingut encara no verificat."
+    },
+    {
+      "id": "uf0518-b2-070",
+      "block": "uf0518-bloc-2",
+      "topic": "Confidencialitat i terminis",
+      "question": "Arriba documentació fiscal confidencial amb límit abans de final de mes. Quina actuació combina millor els dos criteris?",
+      "options": [
+        "Obrir-la i distribuir-ne còpies per accelerar la resposta",
+        "Arxivar-la sense avisar fins que arribi el final de mes",
+        "Enviar-la a qualsevol departament disponible perquè no quedi pendent",
+        "Mantenir la confidencialitat i lliurar-la amb prioritat al departament de comptabilitat"
+      ],
+      "correct": 3,
+      "explanation": "L’exercici exigeix protegir la documentació confidencial i, alhora, prioritzar-la perquè té termini."
     }
   ]
 }

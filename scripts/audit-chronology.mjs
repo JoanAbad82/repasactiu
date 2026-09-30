@@ -10,6 +10,19 @@ const dataDir=path.join(root,'site','data');
 const readJson=async rel=>JSON.parse(await readFile(path.join(dataDir,String(rel).replace(/^data\//,'')),'utf8'));
 
 function questionSourceRef(question,blockId,traceability){
+  const location=traceability.questionLocations?.[question.id];
+  if(location?.source&&location?.chronology?.source&&Array.isArray(location?.chronology?.pageRange)){
+    return {
+      id:location.chronology.source,
+      pageRange:location.chronology.pageRange,
+      precision:'question',
+      artifact:{
+        source:location.source,
+        ...(Array.isArray(location.pageRange)?{pageRange:location.pageRange}:{}),
+        ...(Array.isArray(location.cells)?{cells:location.cells}:{})
+      }
+    };
+  }
   const exact=traceability.questionRanges?.[question.id];
   if(exact?.source&&Array.isArray(exact.pageRange)){
     return {id:exact.source,pageRange:exact.pageRange,precision:'question'};
@@ -103,8 +116,9 @@ export async function runChronologyAudit(){
 
   const expectedIds=new Set([...coreCards,...extraCards].map(card=>card.id));
   const orderedIds=new Set(orderedCards.map(card=>card.id));
-  if(expectedIds.size!==961||orderedIds.size!==961||orderedCards.length!==961){
-    errors.push(`study cards: recompte cronològic invàlid ${orderedCards.length}/961`);
+  const expectedTotal=coreCards.length+extraCards.length;
+  if(expectedIds.size!==expectedTotal||orderedIds.size!==expectedTotal||orderedCards.length!==expectedTotal){
+    errors.push(`study cards: recompte cronològic invàlid ${orderedCards.length}/${expectedTotal}`);
   }
   for(const id of expectedIds)if(!orderedIds.has(id))errors.push(`study cards: falta ${id} després d'ordenar`);
 

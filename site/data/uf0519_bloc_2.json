@@ -575,6 +575,146 @@
       ],
       "correct": 0,
       "explanation": "La domiciliació permet càrrecs periòdics i normalment requereix mandat del titular."
+    },
+    {
+      "id": "uf0519-b2-042",
+      "block": "uf0519-bloc-2",
+      "topic": "Càlcul de factura",
+      "question": "Quin ordre de càlcul reflecteixen els exercicis de factura quan hi ha descompte?",
+      "options": [
+        "Quantitat × preu → aplicar descompte → base imposable → quotes d’impostos → total",
+        "IVA → quantitat × preu → descompte → base imposable",
+        "Total → base imposable → descompte → quantitat × preu",
+        "Descompte → total → IVA → preu unitari"
+      ],
+      "correct": 0,
+      "explanation": "Les plantilles calculen primer l’import comercial, apliquen el descompte per obtenir la base i després calculen les quotes i el total."
+    },
+    {
+      "id": "uf0519-b2-043",
+      "block": "uf0519-bloc-2",
+      "topic": "Càlcul de factura",
+      "question": "Si el descompte s’expressa en tant per u, quina expressió dona la base imposable d’una línia segons les plantilles?",
+      "options": [
+        "Quantitat + preu unitari − descompte",
+        "Quantitat × preu unitari × (1 − descompte)",
+        "Quantitat Ã— preu unitari, sense aplicar cap descompte",
+        "Preu unitari − quota d’IVA"
+      ],
+      "correct": 1,
+      "explanation": "Les fórmules de les plantilles utilitzen quantitat × preu × (1 − descompte)."
+    },
+    {
+      "id": "uf0519-b2-044",
+      "block": "uf0519-bloc-2",
+      "topic": "Càlcul de factura",
+      "question": "30 samarretes a 15 € cadascuna tenen un 10 % de descompte. Quina base imposable resulta?",
+      "options": [
+        "450 €",
+        "415 €",
+        "405 €",
+        "40,50 €"
+      ],
+      "correct": 2,
+      "explanation": "30 × 15 = 450 €; aplicant un 10 % de descompte, la base és 405 €."
+    },
+    {
+      "id": "uf0519-b2-047",
+      "block": "uf0519-bloc-2",
+      "topic": "Càlcul de factura",
+      "question": "Si una línia no té recàrrec d’equivalència, com s’obté el total de línia en els exercicis?",
+      "options": [
+        "Prendre directament la base imposable com a total de lÃ­nia",
+        "Base imposable + quota d’IVA",
+        "Preu unitari + descompte",
+        "Quota d’IVA + percentatge d’IVA"
+      ],
+      "correct": 1,
+      "explanation": "En les plantilles sense recàrrec, el total de línia és la base imposable més la quota d’IVA."
+    },
+    {
+      "id": "uf0519-b2-050",
+      "block": "uf0519-bloc-2",
+      "topic": "Comanda",
+      "question": "En l’exercici de comanda, 1.000 unitats a 25 € amb un 5 % de descompte donen quin import net sense IVA?",
+      "options": [
+        "23.750 €",
+        "25.000 €",
+        "24.950 €",
+        "1.250 €"
+      ],
+      "correct": 0,
+      "explanation": "1.000 × 25 = 25.000 €; aplicant el 5 % de descompte, l’import net és 23.750 €."
+    },
+    {
+      "id": "uf0519-b2-051",
+      "block": "uf0519-bloc-2",
+      "topic": "Comanda",
+      "question": "Una comanda indica «entrega a 15 dies des de la data de la comanda» i «pagament a 90 dies des de la data de la factura». Quina interpretació és correcta?",
+      "options": [
+        "Tots dos terminis es compten des de la comanda",
+        "El termini de lliurament es compta des de la comanda i el de pagament des de la factura",
+        "Tots dos terminis es compten des de la factura",
+        "El termini de pagament determina automàticament la data de lliurament"
+      ],
+      "correct": 1,
+      "explanation": "L’exercici utilitza punts d’inici diferents per al lliurament i per al pagament."
+    },
+    {
+      "id": "uf0519-b2-045",
+      "block": "uf0519-bloc-2",
+      "topic": "IVA",
+      "question": "Com calculen els exercicis la quota d’IVA d’una línia?",
+      "options": [
+        "Total de línia × tipus d’IVA",
+        "Preu unitari × IVA, sense tenir en compte la quantitat",
+        "Base imposable − tipus d’IVA",
+        "Base imposable × tipus d’IVA"
+      ],
+      "correct": 3,
+      "explanation": "La quota d’IVA s’obté multiplicant la base imposable pel tipus d’IVA."
+    },
+    {
+      "id": "uf0519-b2-046",
+      "block": "uf0519-bloc-2",
+      "topic": "IVA",
+      "question": "Una línia té una base imposable de 200 € i un IVA del 21 %. Quina quota d’IVA correspon?",
+      "options": [
+        "42 €",
+        "21 €",
+        "242 €",
+        "10,40 €"
+      ],
+      "correct": 0,
+      "explanation": "200 × 0,21 = 42 €."
+    },
+    {
+      "id": "uf0519-b2-048",
+      "block": "uf0519-bloc-2",
+      "topic": "Recàrrec d’equivalència",
+      "question": "Com calculen les plantilles la quota de recàrrec d’equivalència quan s’aplica?",
+      "options": [
+        "Quota d’IVA × percentatge de recàrrec",
+        "Total de línia × percentatge de recàrrec",
+        "Base imposable × percentatge de recàrrec",
+        "Preu unitari × percentatge de recàrrec, ignorant la quantitat"
+      ],
+      "correct": 2,
+      "explanation": "La quota de recàrrec es calcula sobre la base imposable."
+    },
+    {
+      "id": "uf0519-b2-049",
+      "block": "uf0519-bloc-2",
+      "topic": "Recàrrec d’equivalència",
+      "question": "Amb recàrrec d’equivalència, quina suma dona el total de línia segons les plantilles?",
+      "options": [
+        "Base imposable + percentatge d’IVA + percentatge de recàrrec",
+        "Base imposable − IVA + recàrrec",
+        "Quota d’IVA + quota de recàrrec, sense la base",
+        "Base imposable + quota d’IVA + quota de recàrrec"
+      ],
+      "correct": 3,
+      "explanation": "La fórmula del total suma base imposable, quota d’IVA i quota de recàrrec."
     }
   ]
 }

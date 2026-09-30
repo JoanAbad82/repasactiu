@@ -18,13 +18,13 @@ const EXPECTED={
   'bloc-5':76,
   'unitat-2-bloc-1':156,
   'uf0518-bloc-1':92,
-  'uf0518-bloc-2':74,
+  'uf0518-bloc-2':76,
   'uf0518-bloc-3':86,
   'uf0519-bloc-1':32,
-  'uf0519-bloc-2':47,
+  'uf0519-bloc-2':57,
   'uf0519-bloc-3':35,
-  'uf0519-bloc-4':17,
-  'uf0519-bloc-5':32
+  'uf0519-bloc-4':37,
+  'uf0519-bloc-5':35
 };
 
 function mergeQuestionObjects(items){
@@ -69,7 +69,7 @@ export async function runStudyCardsAudit(){
     }
   }
 
-  if(coreCards!==883)errors.push('nucli: '+coreCards+'/883 targetes');
+  if(coreCards!==918)errors.push('nucli: '+coreCards+'/918 targetes');
 
   const coreOverrides=extra.coreOverrides||{};
   const standaloneRiskPhrasesCa=[
@@ -158,7 +158,7 @@ export async function runStudyCardsAudit(){
     if(combined!==EXPECTED[block.id])errors.push(block.id+': '+combined+'/'+EXPECTED[block.id]+' targetes totals');
   }
 
-  if(totalCards!==961)errors.push('total: '+totalCards+'/961 targetes');
+  if(totalCards!==996)errors.push('total: '+totalCards+'/996 targetes');
 
   return {
     coreCards,
