@@ -512,7 +512,8 @@ main:has(#commercial-correspondence-screen:not([hidden])){width:min(960px,calc(1
 .payroll-memory p{margin:0;font-weight:650;line-height:1.5}
 .payroll-dynamic-note{margin:0;color:var(--muted);font-size:.88rem;padding-top:.2rem}
 @media(max-width:700px){
- .practical-tabs button{font-size:.9rem;padding:.5rem .65rem}
+ .practical-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible}
+ .practical-tabs button{font-size:.9rem;padding:.55rem .65rem;white-space:normal;line-height:1.25}
  .payroll-facts,.payroll-summary{grid-template-columns:1fr}
  .payroll-steps>li{padding:.85rem}
  .payroll-table{min-width:560px}

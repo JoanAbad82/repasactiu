@@ -44,5 +44,7 @@ test("la pràctica de tresoreria canvia a castellà i és usable en mòbil",asyn
   await expect(page.getByText("Incidencia 1 de 10")).toBeVisible();
   await expect(page.getByRole("button",{name:"Comprobar respuesta",exact:true})).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
+  expect(await page.locator(".practical-tabs").evaluate(el=>el.scrollWidth<=el.clientWidth)).toBe(true);
+  await expect(page.getByRole("button",{name:"Tesorería",exact:true})).toBeInViewport();
   await page.close();
 });
