@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "source": {
+    "sourceId": "UF0519_U2_TRESORERIA",
+    "filename": "2. Gestió_bàsica_tresoreria.pdf",
+    "pages": 41
+  },
+  "title": {
+    "ca": "Circuit pràctic de tresoreria",
+    "es": "Circuito práctico de tesorería"
+  },
+  "intro": {
+    "ca": "Assumeix el paper d’una persona auxiliar administrativa i resol 10 incidències habituals de cobrament i pagament. Cada decisió està vinculada a una pàgina concreta del material de classe.",
+    "es": "Asume el papel de una persona auxiliar administrativa y resuelve 10 incidencias habituales de cobro y pago. Cada decisión está vinculada a una página concreta del material de clase."
+  },
+  "steps": [
+    {
+      "id": "cash-limit",
+      "page": 14,
+      "title": {"ca": "Pagament en efectiu", "es": "Pago en efectivo"},
+      "scenario": {
+        "ca": "Una empresa ha de cobrar 1.000 € exactes en una operació en què participa un empresari o professional.",
+        "es": "Una empresa debe cobrar 1.000 € exactos en una operación en la que participa un empresario o profesional."
+      },
+      "question": {"ca": "Segons el material, quina actuació és correcta?", "es": "Según el material, ¿qué actuación es correcta?"},
+      "options": {
+        "ca": [
+          "Acceptar els 1.000 € en efectiu perquè el límit només afecta imports superiors",
+          "No tramitar el pagament en efectiu i utilitzar un altre mitjà admès",
+          "Acceptar-lo només si es lliuren menys de 50 monedes",
+          "Acceptar-lo si s’emet un rebut signat"
+        ],
+        "es": [
+          "Aceptar los 1.000 € en efectivo porque el límite solo afecta a importes superiores",
+          "No tramitar el pago en efectivo y utilizar otro medio admitido",
+          "Aceptarlo solo si se entregan menos de 50 monedas",
+          "Aceptarlo si se emite un recibo firmado"
+        ]
+      },
+      "correct": 1,
+      "hint": {
+        "ca": "Fixa’t en si el material diu «superior a» o «igual o superior a».",
+        "es": "Fíjate en si el material dice «superior a» o «igual o superior a»."
+      },
+      "explanation": {
+        "ca": "El material indica que, quan participa un empresari o professional, no es poden fer pagaments en efectiu d’import igual o superior a 1.000 €.",
+        "es": "El material indica que, cuando participa un empresario o profesional, no pueden hacerse pagos en efectivo de importe igual o superior a 1.000 €."
+      }
+    },
+    {
+      "id": "direct-debit",
+      "page": 16,
+      "title": {"ca": "Domiciliació bancària", "es": "Domiciliación bancaria"},
+      "scenario": {
+        "ca": "L’empresa vol automatitzar el pagament mensual d’un subministrament.",
+        "es": "La empresa quiere automatizar el pago mensual de un suministro."
+      },
+      "question": {"ca": "Quines dades o requisits identifica el material per a la domiciliació?", "es": "¿Qué datos o requisitos identifica el material para la domiciliación?"},
+      "options": {
+        "ca": [
+          "Número de compte i autorització del titular",
+          "Número de factura i signatura del proveïdor",
+          "Targeta de crèdit i codi PIN",
+          "Xec conformat i identificació del prenedor"
+        ],
+        "es": [
+          "Número de cuenta y autorización del titular",
+          "Número de factura y firma del proveedor",
+          "Tarjeta de crédito y código PIN",
+          "Cheque conformado e identificación del tenedor"
+        ]
+      },
+      "correct": 0,
+      "hint": {
+        "ca": "La domiciliació és una ordre de pagament vinculada al compte.",
+        "es": "La domiciliación es una orden de pago vinculada a la cuenta."
+      },
+      "explanation": {
+        "ca": "La domiciliació bancària consisteix a donar una ordre de pagament a través del número de compte i l’autorització del titular.",
+        "es": "La domiciliación bancaria consiste en dar una orden de pago mediante el número de cuenta y la autorización del titular."
+      }
+    },
+    {
+      "id": "cash-on-delivery",
+      "page": 17,
+      "title": {"ca": "Contra reemborsament", "es": "Contra reembolso"},
+      "scenario": {
+        "ca": "Un client compra a distància i vol pagar només quan rebi la comanda.",
+        "es": "Un cliente compra a distancia y quiere pagar solo cuando reciba el pedido."
+      },
+      "question": {"ca": "Quin mitjà encaixa amb aquesta petició?", "es": "¿Qué medio encaja con esta petición?"},
+      "options": {
+        "ca": ["Pagament anticipat", "Domiciliació bancària", "Contra reemborsament", "Pagaré"],
+        "es": ["Pago anticipado", "Domiciliación bancaria", "Contra reembolso", "Pagaré"]
+      },
+      "correct": 2,
+      "hint": {
+        "ca": "El pagament es produeix en el moment del lliurament.",
+        "es": "El pago se produce en el momento de la entrega."
+      },
+      "explanation": {
+        "ca": "En el contra reemborsament, el comprador paga quan rep la comanda; el sistema pot comportar una comissió o cost addicional.",
+        "es": "En el contra reembolso, el comprador paga cuando recibe el pedido; el sistema puede comportar una comisión o coste adicional."
+      }
+    },
+    {
+      "id": "cheque-no-order",
+      "page": 27,
+      "title": {"ca": "Endossament del xec", "es": "Endoso del cheque"},
+      "scenario": {
+        "ca": "L’empresa rep un xec i vol transmetre el dret de cobrament a un proveïdor, però al document hi consta «no a l’ordre».",
+        "es": "La empresa recibe un cheque y quiere transmitir el derecho de cobro a un proveedor, pero en el documento consta «no a la orden»."
+      },
+      "question": {"ca": "Què s’ha de concloure?", "es": "¿Qué debe concluirse?"},
+      "options": {
+        "ca": [
+          "Es pot endossar si el proveïdor signa el dors",
+          "Només es pot endossar si és un xec creuat",
+          "No es pot endossar",
+          "Es pot endossar si el banc confirma que hi ha fons"
+        ],
+        "es": [
+          "Puede endosarse si el proveedor firma el reverso",
+          "Solo puede endosarse si es un cheque cruzado",
+          "No puede endosarse",
+          "Puede endosarse si el banco confirma que hay fondos"
+        ]
+      },
+      "correct": 2,
+      "hint": {
+        "ca": "La menció escrita al xec és decisiva.",
+        "es": "La mención escrita en el cheque es decisiva."
+      },
+      "explanation": {
+        "ca": "El material assenyala expressament que un xec no es podrà endossar si inclou la menció «no a l’ordre».",
+        "es": "El material señala expresamente que un cheque no podrá endosarse si incluye la mención «no a la orden»."
+      }
+    },
+    {
+      "id": "receipt-content",
+      "page": 29,
+      "title": {"ca": "Contingut del rebut", "es": "Contenido del recibo"},
+      "scenario": {
+        "ca": "Després de cobrar un servei, has de preparar un rebut que permeti identificar correctament el pagament.",
+        "es": "Después de cobrar un servicio, debes preparar un recibo que permita identificar correctamente el pago."
+      },
+      "question": {"ca": "Quin conjunt recull la informació bàsica indicada al material?", "es": "¿Qué conjunto recoge la información básica indicada en el material?"},
+      "options": {
+        "ca": [
+          "Data, emissor, pagador, import, concepte i forma de pagament",
+          "IBAN, límit de crèdit, interessos, venciment i aval",
+          "Data, inventari, albarà, descompte i termini de lliurament",
+          "Emissor, targeta, PIN, saldo bancari i signatura del banc"
+        ],
+        "es": [
+          "Fecha, emisor, pagador, importe, concepto y forma de pago",
+          "IBAN, límite de crédito, intereses, vencimiento y aval",
+          "Fecha, inventario, albarán, descuento y plazo de entrega",
+          "Emisor, tarjeta, PIN, saldo bancario y firma del banco"
+        ]
+      },
+      "correct": 0,
+      "hint": {
+        "ca": "El rebut ha de deixar clar qui paga, qui cobra, quant, per què i com.",
+        "es": "El recibo debe dejar claro quién paga, quién cobra, cuánto, por qué y cómo."
+      },
+      "explanation": {
+        "ca": "El material inclou, entre altres dades, data, emissor, pagador, import, concepte i forma de pagament; també pot requerir número, signatura o segell segons el cas.",
+        "es": "El material incluye, entre otros datos, fecha, emisor, pagador, importe, concepto y forma de pago; también puede requerir número, firma o sello según el caso."
+      }
+    },
+    {
+      "id": "transfer-check",
+      "page": 32,
+      "title": {"ca": "Control abans d’una transferència", "es": "Control antes de una transferencia"},
+      "scenario": {
+        "ca": "Has preparat una transferència i estàs a punt d’autoritzar-la.",
+        "es": "Has preparado una transferencia y estás a punto de autorizarla."
+      },
+      "question": {"ca": "Quin control previ demana el material?", "es": "¿Qué control previo pide el material?"},
+      "options": {
+        "ca": [
+          "Revisar IBAN, destinatari, import i concepte",
+          "Revisar només el saldo del compte d’origen",
+          "Comprovar el PIN de la targeta del beneficiari",
+          "Validar el xec i el pagaré associats"
+        ],
+        "es": [
+          "Revisar IBAN, destinatario, importe y concepto",
+          "Revisar solo el saldo de la cuenta de origen",
+          "Comprobar el PIN de la tarjeta del beneficiario",
+          "Validar el cheque y el pagaré asociados"
+        ]
+      },
+      "correct": 0,
+      "hint": {
+        "ca": "Són quatre dades de la mateixa ordre de transferència.",
+        "es": "Son cuatro datos de la misma orden de transferencia."
+      },
+      "explanation": {
+        "ca": "Abans d’autoritzar una transferència, el material indica revisar l’IBAN, el nom del destinatari, l’import i el concepte.",
+        "es": "Antes de autorizar una transferencia, el material indica revisar el IBAN, el nombre del destinatario, el importe y el concepto."
+      }
+    },
+    {
+      "id": "promissory-note-no-maturity",
+      "page": 35,
+      "title": {"ca": "Pagaré sense venciment", "es": "Pagaré sin vencimiento"},
+      "scenario": {
+        "ca": "Revisant un pagaré observes que no hi consta cap data de venciment.",
+        "es": "Revisando un pagaré observas que no consta ninguna fecha de vencimiento."
+      },
+      "question": {"ca": "Què estableix el material?", "es": "¿Qué establece el material?"},
+      "options": {
+        "ca": [
+          "El pagaré queda anul·lat",
+          "S’ha de pagar a la vista",
+          "El venciment passa automàticament a 30 dies",
+          "El beneficiari ha d’afegir una data abans de cobrar"
+        ],
+        "es": [
+          "El pagaré queda anulado",
+          "Debe pagarse a la vista",
+          "El vencimiento pasa automáticamente a 30 días",
+          "El beneficiario debe añadir una fecha antes de cobrar"
+        ]
+      },
+      "correct": 1,
+      "hint": {
+        "ca": "El material dona una regla expressa quan falta el venciment.",
+        "es": "El material da una regla expresa cuando falta el vencimiento."
+      },
+      "explanation": {
+        "ca": "Entre els requisits del pagaré, el material indica que, si el venciment no consta, s’ha de pagar a la vista.",
+        "es": "Entre los requisitos del pagaré, el material indica que, si no consta el vencimiento, debe pagarse a la vista."
+      }
+    },
+    {
+      "id": "bank-guarantee-roles",
+      "page": 38,
+      "title": {"ca": "Parts de l’aval bancari", "es": "Partes del aval bancario"},
+      "scenario": {
+        "ca": "L’empresa demana al banc un aval a favor d’un proveïdor.",
+        "es": "La empresa solicita al banco un aval a favor de un proveedor."
+      },
+      "question": {"ca": "Com s’identifiquen les tres parts?", "es": "¿Cómo se identifican las tres partes?"},
+      "options": {
+        "ca": [
+          "Empresa = beneficiari; banc = avalat; proveïdor = avalista",
+          "Empresa = avalat; banc = avalista; proveïdor = beneficiari",
+          "Empresa = avalista; banc = beneficiari; proveïdor = avalat",
+          "Empresa = lliurador; banc = lliurat; proveïdor = prenedor"
+        ],
+        "es": [
+          "Empresa = beneficiario; banco = avalado; proveedor = avalista",
+          "Empresa = avalado; banco = avalista; proveedor = beneficiario",
+          "Empresa = avalista; banco = beneficiario; proveedor = avalado",
+          "Empresa = librador; banco = librado; proveedor = tenedor"
+        ]
+      },
+      "correct": 1,
+      "hint": {
+        "ca": "Qui demana l’aval és l’avalat; qui garanteix és l’avalista.",
+        "es": "Quien solicita el aval es el avalado; quien garantiza es el avalista."
+      },
+      "explanation": {
+        "ca": "L’avalat és el client que sol·licita l’aval, l’avalista és l’entitat bancària i el beneficiari és qui rep la garantia.",
+        "es": "El avalado es el cliente que solicita el aval, el avalista es la entidad bancaria y el beneficiario es quien recibe la garantía."
+      }
+    },
+    {
+      "id": "technical-guarantee",
+      "page": 39,
+      "title": {"ca": "Aval econòmic o tècnic", "es": "Aval económico o técnico"},
+      "scenario": {
+        "ca": "Una administració exigeix una garantia per assegurar que una empresa executarà correctament una obra.",
+        "es": "Una administración exige una garantía para asegurar que una empresa ejecutará correctamente una obra."
+      },
+      "question": {"ca": "Quin tipus d’aval descriu el material per a aquest cas?", "es": "¿Qué tipo de aval describe el material para este caso?"},
+      "options": {
+        "ca": ["Aval econòmic", "Aval tècnic", "Pignoració parcial", "Pagaré"],
+        "es": ["Aval económico", "Aval técnico", "Pignoración parcial", "Pagaré"]
+      },
+      "correct": 1,
+      "hint": {
+        "ca": "No es garanteix directament un pagament, sinó el compliment d’una obligació.",
+        "es": "No se garantiza directamente un pago, sino el cumplimiento de una obligación."
+      },
+      "explanation": {
+        "ca": "L’aval tècnic garanteix el compliment d’una obligació o contracte; el material posa com a exemple l’execució d’una obra.",
+        "es": "El aval técnico garantiza el cumplimiento de una obligación o contrato; el material pone como ejemplo la ejecución de una obra."
+      }
+    },
+    {
+      "id": "full-pledge",
+      "page": 40,
+      "title": {"ca": "Pignoració", "es": "Pignoración"},
+      "scenario": {
+        "ca": "El banc concedeix un aval de 20.000 € i exigeix que 20.000 € del client quedin afectats com a garantia mentre l’aval sigui vigent.",
+        "es": "El banco concede un aval de 20.000 € y exige que 20.000 € del cliente queden afectados como garantía mientras el aval esté vigente."
+      },
+      "question": {"ca": "Com es classifica aquesta pignoració?", "es": "¿Cómo se clasifica esta pignoración?"},
+      "options": {
+        "ca": ["Parcial", "Total", "Tècnica", "A primer requeriment"],
+        "es": ["Parcial", "Total", "Técnica", "A primer requerimiento"]
+      },
+      "correct": 1,
+      "hint": {
+        "ca": "Compara l’import de l’aval amb l’import pignorat.",
+        "es": "Compara el importe del aval con el importe pignorado."
+      },
+      "explanation": {
+        "ca": "La pignoració és total quan cobreix el 100 % de l’aval. En l’exemple, 20.000 € pignorats cobreixen íntegrament un aval de 20.000 €.",
+        "es": "La pignoración es total cuando cubre el 100 % del aval. En el ejemplo, 20.000 € pignorados cubren íntegramente un aval de 20.000 €."
+      }
+    }
+  ]
+}

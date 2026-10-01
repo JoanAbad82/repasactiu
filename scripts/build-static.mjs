@@ -24,7 +24,9 @@ for(const rel of [
   'data/payroll-example-2026-v1.json',
   'js/practical-examples.js',
   'data/administrative-exercises-v1.json',
-  'js/administrative-exercises.js'
+  'js/administrative-exercises.js',
+  'data/treasury-practice-v1.json',
+  'js/treasury-practice.js'
 ]){
   await access(path.join(dist,rel));
 }
@@ -35,6 +37,7 @@ const keyLists=JSON.parse(await readFile(path.join(dist,'data','key-lists-v1.jso
 const correspondence=JSON.parse(await readFile(path.join(dist,'data','commercial-correspondence-v1.json'),'utf8'));
 const payroll=JSON.parse(await readFile(path.join(dist,'data','payroll-example-2026-v1.json'),'utf8'));
 const administrative=JSON.parse(await readFile(path.join(dist,'data','administrative-exercises-v1.json'),'utf8'));
+const treasury=JSON.parse(await readFile(path.join(dist,'data','treasury-practice-v1.json'),'utf8'));
 if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
   throw new Error('Build validation failed: semantic manifest must contain 84 changes.');
 }
@@ -62,6 +65,9 @@ if(payroll.version!==1||payroll.source?.sourceId!=='UF0519_NOMINA_2026_CECOT'||p
 if(administrative.version!==1||administrative.source?.filename!=='Exercicis_1-10_unificats.docx'||administrative.source?.embeddedSheets!==9||administrative.sheets?.length!==9){
   throw new Error('Build validation failed: administrative/commercial document exercises are invalid.');
 }
+if(treasury.version!==1||treasury.source?.sourceId!=='UF0519_U2_TRESORERIA'||treasury.source?.pages!==41||!Array.isArray(treasury.steps)||treasury.steps.length!==10){
+  throw new Error('Build validation failed: treasury practical circuit is invalid.');
+}
 for(const lang of ['ca','es']){
   const abbreviations=correspondence.abbreviations?.[lang];
   const items=abbreviations?.groups?.flatMap(group=>group.items||[])||[];
@@ -69,4 +75,4 @@ for(const lang of ['ca','es']){
     throw new Error(`Build validation failed: commercial abbreviations for ${lang} must contain 20-30 curated entries.`);
   }
 }
-console.log('Static build PASS: site/ -> dist/ with learning tools, 116-concept dictionary, 85 key lists, practical examples, payroll walkthrough, bilingual commercial correspondence guide and 9 administrative/commercial document exercises');
+console.log('Static build PASS: site/ -> dist/ with learning tools, 116-concept dictionary, 85 key lists, payroll and treasury practicals, bilingual commercial correspondence guide and 9 administrative/commercial document exercises');

@@ -10,6 +10,7 @@ import {loadConceptDictionary,loadKeyLists,createConceptDictionary} from './conc
 import {loadCommercialCorrespondence} from './commercial-correspondence.js';
 import {loadPayrollExample,createPracticalExamples} from './practical-examples.js';
 import {loadAdministrativeExercises} from './administrative-exercises.js';
+import {loadTreasuryPractice} from './treasury-practice.js';
 
 const els={
  home:document.querySelector('#home-screen'),setup:document.querySelector('#setup-screen'),quiz:document.querySelector('#quiz-screen'),results:document.querySelector('#results-screen'),review:document.querySelector('#review-screen'),study:document.querySelector('#study-cards-screen'),dictionary:document.querySelector('#concept-dictionary-screen'),correspondence:document.querySelector('#commercial-correspondence-screen'),live:document.querySelector('#live-region'),
@@ -20,7 +21,7 @@ const chromeCopy={
  es:{syllabus:'Temario',review:'Repasar errores',study:'Tarjetas de memoria',dictionary:'Diccionario',correspondence:'Ejemplos prácticos',theme:'Claro/Oscuro',themeAria:'Claro/Oscuro — cambiar modo de color',nav:'Navegación principal',language:'Idioma',all:'Todo el temario disponible',syllabusFallback:'Temario',block:'Bloque',leave:'¿Quieres abandonar el test en curso?',correct:'Respuesta correcta',incorrect:'Respuesta incorrecta',back:'← Volver',emptyTitle:'Todavía no tienes preguntas pendientes de repaso',emptyText:'Cuando falles alguna pregunta, aparecerá aquí para reforzarla.',reset:'¿Quieres borrar el historial, las estadísticas y los errores pendientes?',loadError:'No se ha podido cargar el temario.',retry:'Vuelve a intentarlo.'}
 };
 
-let course=null,banks=[],studyBank=null,studyCards=null,dictionaryBank=null,keyListsBank=null,dictionaryView=null,correspondenceBank=null,payrollBank=null,administrativeBank=null,correspondenceView=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
+let course=null,banks=[],studyBank=null,studyCards=null,dictionaryBank=null,keyListsBank=null,dictionaryView=null,correspondenceBank=null,payrollBank=null,administrativeBank=null,treasuryBank=null,correspondenceView=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
 const prefersDark=()=>window.matchMedia?.('(prefers-color-scheme: dark)').matches??false;
 const language=()=>state.language==='es'?'es':'ca';
 const t=()=>chromeCopy[language()];
@@ -88,7 +89,7 @@ function openCommercialCorrespondence(){
  exitStudyMode();
  exitDictionaryMode();
  if(correspondenceView)correspondenceView.destroy();
- correspondenceView=createPracticalExamples({screen:els.correspondence,correspondenceBank,payrollBank,administrativeBank,language:language(),onHome:goHome});
+ correspondenceView=createPracticalExamples({screen:els.correspondence,correspondenceBank,payrollBank,administrativeBank,treasuryBank,language:language(),onHome:goHome});
  displayScreen('commercial-correspondence-screen');
 }
 
@@ -133,7 +134,7 @@ function bindGlobal(){
  els.theme.addEventListener('click',()=>{const current=resolveTheme(state.theme,prefersDark());state.theme=current==='dark'?'light':'dark';saveState(state);syncTheme();});
  els.home.addEventListener('click',e=>{const card=e.target.closest('[data-block-card]');if(card)openSetup(card.dataset.selection,false);if(e.target.closest('#reset-progress')){if(window.confirm(t().reset)){resetProgress();state=loadState();syncTheme();syncLanguageChrome();renderHome();}}});
 }
-async function init(){try{syncTheme();syncLanguageChrome();[course,studyBank,dictionaryBank,keyListsBank,correspondenceBank,payrollBank,administrativeBank]=await Promise.all([loadCourse(),loadStudyCardsBank(),loadConceptDictionary(),loadKeyLists(),loadCommercialCorrespondence(),loadPayrollExample(),loadAdministrativeExercises()]);const corrections=await loadContentCorrections();banks=await Promise.all(course.blocks.map(async meta=>{
+async function init(){try{syncTheme();syncLanguageChrome();[course,studyBank,dictionaryBank,keyListsBank,correspondenceBank,payrollBank,administrativeBank,treasuryBank]=await Promise.all([loadCourse(),loadStudyCardsBank(),loadConceptDictionary(),loadKeyLists(),loadCommercialCorrespondence(),loadPayrollExample(),loadAdministrativeExercises(),loadTreasuryPractice()]);const corrections=await loadContentCorrections();banks=await Promise.all(course.blocks.map(async meta=>{
  const [loadedBank,hard]=await Promise.all([
   loadBlockBundle(meta.file,meta.extraFile,fetch,meta.translationFile,meta.memoryAidFile,meta.additionalFiles||[],meta.additionalTranslationFiles||[],meta.additionalMemoryAidFiles||[]),
   loadHardDistractors(meta.hardDistractorFile,meta.id,fetch)

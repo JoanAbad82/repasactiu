@@ -694,3 +694,22 @@ main:has(#commercial-correspondence-screen:not([hidden])){width:min(960px,calc(1
  .admin-actions{display:grid}
  .admin-actions>*{width:100%}
 }
+
+
+/* Pràctica interactiva de tresoreria */
+.treasury-practice{display:grid;gap:1.2rem}
+.treasury-case{display:grid;gap:.85rem;padding:1rem;border:1px solid var(--border);border-radius:1rem;background:var(--surface);box-shadow:var(--shadow)}
+.treasury-case h3{margin:0;font-size:1.08rem;line-height:1.35}
+.treasury-scenario{margin:0;padding:.8rem .9rem;border-radius:.75rem;background:var(--surface-2);line-height:1.55}
+.treasury-options{display:grid;gap:.55rem}
+.treasury-option{display:grid;grid-template-columns:auto minmax(0,1fr);gap:.65rem;align-items:flex-start;padding:.75rem .8rem;border:1px solid var(--border);border-radius:.75rem;background:var(--bg);cursor:pointer;line-height:1.45}
+.treasury-option:hover{background:var(--surface-2)}
+.treasury-option input{margin-top:.2rem}
+.treasury-option-selected{border-color:var(--text);background:var(--surface-2)}
+.treasury-case .practice-actions{margin-top:.2rem}
+@media(max-width:620px){
+ .treasury-case{padding:.85rem}
+ .treasury-option{padding:.7rem}
+ .treasury-case .practice-actions{display:grid}
+ .treasury-case .practice-actions>*{width:100%}
+}
