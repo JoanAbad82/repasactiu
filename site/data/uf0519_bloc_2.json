@@ -598,7 +598,7 @@
       "options": [
         "Quantitat + preu unitari − descompte",
         "Quantitat × preu unitari × (1 − descompte)",
-        "Quantitat Ã— preu unitari, sense aplicar cap descompte",
+        "Quantitat × preu unitari, sense aplicar cap descompte",
         "Preu unitari − quota d’IVA"
       ],
       "correct": 1,
@@ -624,7 +624,7 @@
       "topic": "Càlcul de factura",
       "question": "Si una línia no té recàrrec d’equivalència, com s’obté el total de línia en els exercicis?",
       "options": [
-        "Prendre directament la base imposable com a total de lÃ­nia",
+        "Prendre directament la base imposable com a total de línia",
         "Base imposable + quota d’IVA",
         "Preu unitari + descompte",
         "Quota d’IVA + percentatge d’IVA"
