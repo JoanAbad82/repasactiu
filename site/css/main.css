@@ -321,18 +321,20 @@ main:has(#commercial-correspondence-screen:not([hidden])){width:min(960px,calc(1
     order:3;
     width:100%;
     max-width:100%;
-    justify-content:flex-start;
-    gap:.15rem;
-    overflow-x:auto;
-    scrollbar-width:none;
-    -webkit-overflow-scrolling:touch;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:.25rem;
+    overflow:visible;
   }
-  .site-header .primary-nav::-webkit-scrollbar{display:none}
   .site-header .primary-nav button{
-    min-height:40px;
-    padding:.42rem .55rem;
+    min-height:42px;
+    padding:.48rem .55rem;
     font-size:.9rem;
-    white-space:nowrap;
+    white-space:normal;
+    line-height:1.2;
+  }
+  .site-header .primary-nav #commercial-correspondence-link{
+    grid-column:1 / -1;
   }
 }
 

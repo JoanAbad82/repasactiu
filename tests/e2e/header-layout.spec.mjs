@@ -40,11 +40,14 @@ test("la capçalera continua sent usable en mòbil sense desbordar la pàgina",a
   await expect(page.locator("#home-link")).toBeVisible();
   await expect(page.locator(".language-switcher")).toBeVisible();
   await expect(page.locator("#theme-toggle")).toBeVisible();
-  await expect(page.locator(".primary-nav")).toBeVisible();
+  const nav=page.locator(".primary-nav");
+  await expect(nav).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
+  expect(await nav.evaluate(el=>el.scrollWidth<=el.clientWidth)).toBe(true);
+  await expect(page.getByRole("button",{name:"Exemples pràctics",exact:true})).toBeInViewport();
 
   await page.locator("#language-es").click();
   await expect(page.locator("html")).toHaveAttribute("lang","es");
-  await expect(page.getByRole("button",{name:"Ejemplos prácticos",exact:true})).toBeVisible();
+  await expect(page.getByRole("button",{name:"Ejemplos prácticos",exact:true})).toBeInViewport();
   await page.close();
 });
