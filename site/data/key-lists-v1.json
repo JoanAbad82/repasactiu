@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 78,
+  "count": 85,
   "languages": [
     "ca",
     "es"
@@ -230,7 +230,14 @@
         "uf519-mitjans-pagament-list",
         "uf519-control-caixa-bancs",
         "uf519-control-material",
-        "uf519-seguretat-operacions"
+        "uf519-seguretat-operacions",
+        "uf519-formes-gestio-pagament-u2",
+        "uf519-opcions-pagament-mobil-u2",
+        "uf519-requisits-xec-u2",
+        "uf519-intervinents-xec-u2",
+        "uf519-contingut-rebut-u2",
+        "uf519-requisits-pagare-u2",
+        "uf519-parts-aval-u2"
       ]
     }
   ],
@@ -2860,6 +2867,240 @@
           "Comprobar destinatario e importe antes de una operación electrónica"
         ]
       }
+    },
+    {
+      "id": "uf519-formes-gestio-pagament-u2",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          10,
+          10
+        ]
+      },
+      "ca": {
+        "title": "Formes de gestió del pagament",
+        "items": [
+          "Pagament anticipat",
+          "Pagament al comptat",
+          "Pagament ajornat"
+        ],
+        "memory": "Abans → en rebre → després."
+      },
+      "es": {
+        "title": "Formas de gestión del pago",
+        "items": [
+          "Pago anticipado",
+          "Pago al contado",
+          "Pago aplazado"
+        ],
+        "memory": "Antes → al recibir → después."
+      }
+    },
+    {
+      "id": "uf519-opcions-pagament-mobil-u2",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          18,
+          18
+        ]
+      },
+      "ca": {
+        "title": "Opcions habituals de pagament mòbil",
+        "items": [
+          "Transferències de diners entre usuaris",
+          "Compres en línia",
+          "Pagaments en establiments físics amb NFC"
+        ],
+        "memory": "Enviar → comprar online → pagar per proximitat."
+      },
+      "es": {
+        "title": "Opciones habituales de pago móvil",
+        "items": [
+          "Transferencias de dinero entre usuarios",
+          "Compras en línea",
+          "Pagos en establecimientos físicos con NFC"
+        ],
+        "memory": "Enviar → comprar online → pagar por proximidad."
+      }
+    },
+    {
+      "id": "uf519-requisits-xec-u2",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "title": "Requisits bàsics del xec",
+        "items": [
+          "Denominació «xec»",
+          "Ordre de pagar una quantitat determinada",
+          "Nom del banc que ha de pagar",
+          "Lloc de pagament",
+          "Data i lloc d’emissió",
+          "Signatura del lliurador"
+        ],
+        "memory": "Nom → ordre → banc → lloc → emissió → signatura."
+      },
+      "es": {
+        "title": "Requisitos básicos del cheque",
+        "items": [
+          "Denominación «cheque»",
+          "Orden de pagar una cantidad determinada",
+          "Nombre del banco que debe pagar",
+          "Lugar de pago",
+          "Fecha y lugar de emisión",
+          "Firma del librador"
+        ],
+        "memory": "Nombre → orden → banco → lugar → emisión → firma."
+      }
+    },
+    {
+      "id": "uf519-intervinents-xec-u2",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          25,
+          25
+        ]
+      },
+      "ca": {
+        "title": "Intervinents principals del xec",
+        "items": [
+          "Lliurador: emet i signa",
+          "Lliurat: banc que ha de pagar",
+          "Prenedor o beneficiari: té dret a cobrar"
+        ],
+        "memory": "Emet → paga → cobra."
+      },
+      "es": {
+        "title": "Intervinientes principales del cheque",
+        "items": [
+          "Librador: emite y firma",
+          "Librado: banco que debe pagar",
+          "Tenedor o beneficiario: tiene derecho a cobrar"
+        ],
+        "memory": "Emite → paga → cobra."
+      }
+    },
+    {
+      "id": "uf519-contingut-rebut-u2",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "title": "Contingut bàsic d’un rebut",
+        "items": [
+          "Número de rebut, si escau",
+          "Data del pagament",
+          "Dades de l’emissor",
+          "Dades del pagador",
+          "Import pagat",
+          "Concepte del pagament",
+          "Forma de pagament",
+          "Signatura o segell, si és necessari"
+        ],
+        "memory": "Identifica quan, qui, quant, per què i com s’ha pagat."
+      },
+      "es": {
+        "title": "Contenido básico de un recibo",
+        "items": [
+          "Número de recibo, si procede",
+          "Fecha del pago",
+          "Datos del emisor",
+          "Datos del pagador",
+          "Importe pagado",
+          "Concepto del pago",
+          "Forma de pago",
+          "Firma o sello, si es necesario"
+        ],
+        "memory": "Identifica cuándo, quién, cuánto, por qué y cómo se ha pagado."
+      }
+    },
+    {
+      "id": "uf519-requisits-pagare-u2",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          35,
+          35
+        ]
+      },
+      "ca": {
+        "title": "Requisits bàsics del pagaré",
+        "items": [
+          "Denominació «pagaré»",
+          "Promesa incondicional de pagar una quantitat",
+          "Venciment",
+          "Lloc de pagament",
+          "Nom de la persona beneficiària",
+          "Data i lloc d’emissió",
+          "Signatura de qui l’emet"
+        ],
+        "memory": "Nom → promesa → venciment → lloc → beneficiari → emissió → signatura."
+      },
+      "es": {
+        "title": "Requisitos básicos del pagaré",
+        "items": [
+          "Denominación «pagaré»",
+          "Promesa incondicional de pagar una cantidad",
+          "Vencimiento",
+          "Lugar de pago",
+          "Nombre de la persona beneficiaria",
+          "Fecha y lugar de emisión",
+          "Firma de quien lo emite"
+        ],
+        "memory": "Nombre → promesa → vencimiento → lugar → beneficiario → emisión → firma."
+      }
+    },
+    {
+      "id": "uf519-parts-aval-u2",
+      "blockId": "uf0519-bloc-5",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          38,
+          38
+        ]
+      },
+      "ca": {
+        "title": "Parts d’un aval bancari",
+        "items": [
+          "Avalat: persona o empresa que sol·licita l’aval",
+          "Avalista: entitat bancària que garanteix",
+          "Beneficiari: persona, empresa o administració que rep la garantia"
+        ],
+        "memory": "Client avalat → banc avalista → tercer beneficiari."
+      },
+      "es": {
+        "title": "Partes de un aval bancario",
+        "items": [
+          "Avalado: persona o empresa que solicita el aval",
+          "Avalista: entidad bancaria que garantiza",
+          "Beneficiario: persona, empresa o administración que recibe la garantía"
+        ],
+        "memory": "Cliente avalado → banco avalista → tercero beneficiario."
+      }
     }
   ],
   "policy": {
@@ -2869,5 +3110,6 @@
   "memoryPolicy": {
     "ca": "Acrònims només quan són fidels a la llista; si no, es prioritzen cadenes, contrastos, agrupacions i preguntes guia.",
     "es": "Acrónimos solo cuando son fieles a la lista; si no, se priorizan cadenas, contrastes, agrupaciones y preguntas guía."
-  }
+  },
+  "date": "2026-10-01"
 }

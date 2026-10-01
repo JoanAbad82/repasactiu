@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "date": "2026-09-24",
+  "date": "2026-10-01",
   "purpose": "Inventari pedagògic de llistes, classificacions i seqüències que convé recordar com a conjunt complet.",
   "selectionPolicy": {
     "include": [
@@ -15,7 +15,7 @@
     ]
   },
   "totals": {
-    "lists": 78,
+    "lists": 85,
     "families": 11,
     "orderedSequences": 13
   },
@@ -33,7 +33,7 @@
     "uf0519-bloc-2": 7,
     "uf0519-bloc-3": 4,
     "uf0519-bloc-4": 1,
-    "uf0519-bloc-5": 7
+    "uf0519-bloc-5": 14
   },
   "sources": {
     "B1": {
@@ -75,6 +75,10 @@
     "UF0519_U1": {
       "file": "UF0519_1.Gestió_auxiliar_documentació_administrativa_bàsica.pdf",
       "pages": 76
+    },
+    "UF0519_U2_TRESORERIA": {
+      "file": "2. Gestió_bàsica_tresoreria.pdf",
+      "pages": 41
     }
   },
   "traceability": "Cada entrada de site/data/key-lists-v1.json declara source.id i source.pages. L’auditoria valida font, rang, famílies, contracte bilingüe i recompte; les fonts validades per la professora el 2026-09-24 tenen prioritat canònica."

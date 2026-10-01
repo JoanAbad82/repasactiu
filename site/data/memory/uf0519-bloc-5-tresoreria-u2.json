@@ -1,0 +1,155 @@
+{
+  "blockId": "uf0519-bloc-5",
+  "questions": {
+    "uf0519-b5-032": {
+      "type": "idea",
+      "ca": "Ajornat: < 1 any = curt termini; > 1 any = llarg termini.",
+      "es": "Aplazado: < 1 año = corto plazo; > 1 año = largo plazo."
+    },
+    "uf0519-b5-033": {
+      "type": "idea",
+      "ca": "Anticipat = pagar abans de rebre el producte o gaudir del servei.",
+      "es": "Anticipado = pagar antes de recibir el producto o disfrutar del servicio."
+    },
+    "uf0519-b5-034": {
+      "type": "idea",
+      "ca": "Parcial = una part ara + una part després.",
+      "es": "Parcial = una parte ahora + una parte después."
+    },
+    "uf0519-b5-035": {
+      "type": "idea",
+      "ca": "Cobrament + inventari integrat = millor control d’existències.",
+      "es": "Cobro + inventario integrado = mejor control de existencias."
+    },
+    "uf0519-b5-036": {
+      "type": "idea",
+      "ca": "Accés restringit = menys risc d’ús no autoritzat.",
+      "es": "Acceso restringido = menos riesgo de uso no autorizado."
+    },
+    "uf0519-b5-037": {
+      "type": "idea",
+      "ca": "Amb empresari/professional: 1.000 € ja entra en el límit d’efectiu.",
+      "es": "Con empresario/profesional: 1.000 € ya entra en el límite de efectivo."
+    },
+    "uf0519-b5-038": {
+      "type": "idea",
+      "ca": "50 monedes: límit d’acceptació; excepció, caixes públiques.",
+      "es": "50 monedas: límite de aceptación; excepción, cajas públicas."
+    },
+    "uf0519-b5-039": {
+      "type": "idea",
+      "ca": "Domiciliació = compte + autorització del titular.",
+      "es": "Domiciliación = cuenta + autorización del titular."
+    },
+    "uf0519-b5-040": {
+      "type": "idea",
+      "ca": "Contra reemborsament = rebre primer, pagar en el lliurament.",
+      "es": "Contra reembolso = recibir primero, pagar en la entrega."
+    },
+    "uf0519-b5-041": {
+      "type": "idea",
+      "ca": "Mòbil: enviar diners, comprar online i pagar per NFC.",
+      "es": "Móvil: enviar dinero, comprar online y pagar por NFC."
+    },
+    "uf0519-b5-042": {
+      "type": "idea",
+      "ca": "NFC = apropar el mòbil al terminal.",
+      "es": "NFC = acercar el móvil al terminal."
+    },
+    "uf0519-b5-043": {
+      "type": "idea",
+      "ca": "Offline: transferència/ingrés/contra reemborsament; online: TPV virtual/Bizum/plataformes.",
+      "es": "Offline: transferencia/ingreso/contra reembolso; online: TPV virtual/Bizum/plataformas."
+    },
+    "uf0519-b5-044": {
+      "type": "idea",
+      "ca": "Autenticació reforçada = app bancària + biometria/codi d’un sol ús.",
+      "es": "Autenticación reforzada = app bancaria + biometría/código de un solo uso."
+    },
+    "uf0519-b5-045": {
+      "type": "idea",
+      "ca": "Justificant = pagament fet; factura = operació de venda.",
+      "es": "Justificante = pago hecho; factura = operación de venta."
+    },
+    "uf0519-b5-046": {
+      "type": "idea",
+      "ca": "Xec = ordre al banc perquè pagui des del compte del lliurador.",
+      "es": "Cheque = orden al banco para que pague desde la cuenta del librador."
+    },
+    "uf0519-b5-047": {
+      "type": "idea",
+      "ca": "Xec: lliurador emet; lliurat paga; beneficiari cobra.",
+      "es": "Cheque: librador emite; librado paga; beneficiario cobra."
+    },
+    "uf0519-b5-048": {
+      "type": "idea",
+      "ca": "Sense fons: el xec pot seguir sent vàlid, però pot quedar impagat.",
+      "es": "Sin fondos: el cheque puede seguir siendo válido, pero puede quedar impagado."
+    },
+    "uf0519-b5-049": {
+      "type": "idea",
+      "ca": "«No a l’ordre» = no endossable.",
+      "es": "«No a la orden» = no endosable."
+    },
+    "uf0519-b5-050": {
+      "type": "idea",
+      "ca": "Creuat = dues línies → compte bancari.",
+      "es": "Cruzado = dos líneas → cuenta bancaria."
+    },
+    "uf0519-b5-051": {
+      "type": "idea",
+      "ca": "Conformat = el banc confirma fons.",
+      "es": "Conformado = el banco confirma fondos."
+    },
+    "uf0519-b5-052": {
+      "type": "idea",
+      "ca": "Rebut: emissor cobra; pagador paga.",
+      "es": "Recibo: emisor cobra; pagador paga."
+    },
+    "uf0519-b5-053": {
+      "type": "idea",
+      "ca": "Rebut: quan + qui cobra + qui paga + quant + per què + com.",
+      "es": "Recibo: cuándo + quién cobra + quién paga + cuánto + por qué + cómo."
+    },
+    "uf0519-b5-054": {
+      "type": "idea",
+      "ca": "Transferència = compte → compte; ingrés = diners/xec → compte.",
+      "es": "Transferencia = cuenta → cuenta; ingreso = dinero/cheque → cuenta."
+    },
+    "uf0519-b5-055": {
+      "type": "idea",
+      "ca": "Immediata = segons + 24/7/365.",
+      "es": "Inmediata = segundos + 24/7/365."
+    },
+    "uf0519-b5-056": {
+      "type": "idea",
+      "ca": "Transferència segura: IBAN + destinatari + import + concepte.",
+      "es": "Transferencia segura: IBAN + destinatario + importe + concepto."
+    },
+    "uf0519-b5-057": {
+      "type": "idea",
+      "ca": "Dèbit = diners teus disponibles; crèdit = diners concedits que retornaràs.",
+      "es": "Débito = dinero tuyo disponible; crédito = dinero concedido que devolverás."
+    },
+    "uf0519-b5-058": {
+      "type": "idea",
+      "ca": "Pagaré sense venciment = a la vista.",
+      "es": "Pagaré sin vencimiento = a la vista."
+    },
+    "uf0519-b5-059": {
+      "type": "idea",
+      "ca": "Crèdit: total després o fraccionat; fraccionar pot costar interessos.",
+      "es": "Crédito: total después o fraccionado; fraccionar puede costar intereses."
+    },
+    "uf0519-b5-060": {
+      "type": "idea",
+      "ca": "Aval: client avalat + banc avalista + tercer beneficiari.",
+      "es": "Aval: cliente avalado + banco avalista + tercero beneficiario."
+    },
+    "uf0519-b5-061": {
+      "type": "idea",
+      "ca": "Pignorar = immobilitzar diners o actius com a garantia del banc.",
+      "es": "Pignorar = inmovilizar dinero o activos como garantía del banco."
+    }
+  }
+}

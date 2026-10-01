@@ -278,7 +278,16 @@
       "file": "data/uf0519_bloc_5.json",
       "translationFile": "data/i18n/es/uf0519-bloc-5.json",
       "memoryAidFile": "data/memory/uf0519-bloc-5.json",
-      "hardDistractorFile": "data/hard/uf0519-bloc-5.json"
+      "hardDistractorFile": "data/hard/uf0519-bloc-5.json",
+      "additionalFiles": [
+        "data/uf0519_bloc_5_tresoreria_u2.json"
+      ],
+      "additionalTranslationFiles": [
+        "data/i18n/es/uf0519-bloc-5-tresoreria-u2.json"
+      ],
+      "additionalMemoryAidFiles": [
+        "data/memory/uf0519-bloc-5-tresoreria-u2.json"
+      ]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "languages": [
     "ca",
     "es"
@@ -44,6 +44,10 @@
     "UF0519_U1": {
       "file": "UF0519_1.Gestió_auxiliar_documentació_administrativa_bàsica.pdf",
       "pages": 76
+    },
+    "UF0519_U2_TRESORERIA": {
+      "file": "2. Gestió_bàsica_tresoreria.pdf",
+      "pages": 41
     }
   },
   "cards": [
@@ -1684,6 +1688,132 @@
           73
         ]
       }
+    },
+    {
+      "id": "sc-uf0519-b5-tres-01",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "question": "Quins són els requisits bàsics d’un xec?",
+        "answer": "Denominació, ordre i import, banc, lloc de pagament, emissió i signatura.",
+        "mnemonic": "Xec: nom + ordre + banc + lloc + emissió + signatura."
+      },
+      "es": {
+        "question": "¿Cuáles son los requisitos básicos de un cheque?",
+        "answer": "Denominación, orden e importe, banco, lugar de pago, emisión y firma.",
+        "mnemonic": "Cheque: nombre + orden + banco + lugar + emisión + firma."
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-tres-02",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "question": "Quines dades bàsiques convé incloure en un rebut?",
+        "answer": "Data, emissor, pagador, import, concepte, forma de pagament i, si cal, signatura.",
+        "mnemonic": "Rebut = quan + qui + quant + concepte + com + validació."
+      },
+      "es": {
+        "question": "¿Qué datos básicos conviene incluir en un recibo?",
+        "answer": "Fecha, emisor, pagador, importe, concepto, forma de pago y, si procede, firma.",
+        "mnemonic": "Recibo = cuándo + quién + cuánto + concepto + cómo + validación."
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-tres-03",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          35,
+          35
+        ]
+      },
+      "ca": {
+        "question": "Quins requisits essencials ha de contenir un pagaré?",
+        "answer": "Denominació, promesa, venciment, lloc de pagament, beneficiari, emissió i signatura.",
+        "mnemonic": "Pagaré: nom + promesa + venciment + lloc + beneficiari + emissió + signatura."
+      },
+      "es": {
+        "question": "¿Qué requisitos esenciales debe contener un pagaré?",
+        "answer": "Denominación, promesa, vencimiento, lugar de pago, beneficiario, emisión y firma.",
+        "mnemonic": "Pagaré: nombre + promesa + vencimiento + lugar + beneficiario + emisión + firma."
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-tres-04",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          38,
+          38
+        ]
+      },
+      "ca": {
+        "question": "Quines tres parts intervenen en un aval bancari?",
+        "answer": "Avalat, avalista i beneficiari.",
+        "mnemonic": "Aval: A-A-B = Avalat, Avalista, Beneficiari."
+      },
+      "es": {
+        "question": "¿Qué tres partes intervienen en un aval bancario?",
+        "answer": "Avalado, avalista y beneficiario.",
+        "mnemonic": "Aval: A-A-B = Avalado, Avalista, Beneficiario."
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-tres-05",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          39,
+          39
+        ]
+      },
+      "ca": {
+        "question": "Què diferencia un aval econòmic d’un aval tècnic?",
+        "answer": "L’econòmic garanteix un pagament; el tècnic, el compliment d’una obligació o contracte.",
+        "mnemonic": "Econòmic = euros; tècnic = tasca/contracte."
+      },
+      "es": {
+        "question": "¿Qué diferencia un aval económico de un aval técnico?",
+        "answer": "El económico garantiza un pago; el técnico, cumplir una obligación o contrato.",
+        "mnemonic": "Económico = euros; técnico = tarea/contrato."
+      }
+    },
+    {
+      "id": "sc-uf0519-b5-tres-06",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          40,
+          40
+        ]
+      },
+      "ca": {
+        "question": "Quina diferència hi ha entre pignoració total i parcial?",
+        "answer": "La total cobreix el 100 % de l’aval; la parcial cobreix només una part.",
+        "mnemonic": "Pignoració: total = 100 %; parcial = una part."
+      },
+      "es": {
+        "question": "¿Qué diferencia hay entre pignoración total y parcial?",
+        "answer": "La total cubre el 100 % del aval; la parcial cubre solo una parte.",
+        "mnemonic": "Pignoración: total = 100 %; parcial = una parte."
+      }
     }
   ],
   "coreOverrides": {
@@ -2277,6 +2407,38 @@
       },
       "es": {
         "question": "Â¿CÃ³mo puede ayudar un informe a tomar decisiones?"
+      }
+    },
+    "uf0519-b5-040": {
+      "ca": {
+        "question": "Quan paga el comprador en un pagament contra reemborsament?"
+      },
+      "es": {
+        "question": "¿Cuándo paga el comprador en un pago contra reembolso?"
+      }
+    },
+    "uf0519-b5-041": {
+      "ca": {
+        "question": "Quines tres operacions habituals permet el pagament mòbil segons el material?"
+      },
+      "es": {
+        "question": "¿Qué tres operaciones habituales permite el pago móvil según el material?"
+      }
+    },
+    "uf0519-b5-043": {
+      "ca": {
+        "question": "Com classifica el material la transferència bancària i la targeta via TPV virtual?"
+      },
+      "es": {
+        "question": "¿Cómo clasifica el material la transferencia bancaria y la tarjeta vía TPV virtual?"
+      }
+    },
+    "uf0519-b5-053": {
+      "ca": {
+        "question": "Quines dades bàsiques identifica un rebut?"
+      },
+      "es": {
+        "question": "¿Qué datos básicos identifica un recibo?"
       }
     }
   }

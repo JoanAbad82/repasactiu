@@ -372,6 +372,366 @@
         "−1.029 €",
         "2.029 €"
       ]
+    },
+    "uf0519-b5-032": {
+      "ca": [
+        "Pagament al comptat amb venciment pactat",
+        "Pagament parcial a llarg termini",
+        "Pagament anticipat amb lliurament diferit"
+      ],
+      "es": [
+        "Pago al contado con vencimiento pactado",
+        "Pago parcial a largo plazo",
+        "Pago anticipado con entrega diferida"
+      ]
+    },
+    "uf0519-b5-033": {
+      "ca": [
+        "Pagament a crèdit amb càrrec immediat",
+        "Pagament parcial amb bestreta posterior",
+        "Pagament diferit al venciment"
+      ],
+      "es": [
+        "Pago a crédito con cargo inmediato",
+        "Pago parcial con anticipo posterior",
+        "Pago diferido al vencimiento"
+      ]
+    },
+    "uf0519-b5-034": {
+      "ca": [
+        "Pagament únic amb bestreta",
+        "Pagament fraccionat íntegrament ajornat",
+        "Pagament al comptat amb descompte"
+      ],
+      "es": [
+        "Pago único con anticipo",
+        "Pago fraccionado íntegramente aplazado",
+        "Pago al contado con descuento"
+      ]
+    },
+    "uf0519-b5-035": {
+      "ca": [
+        "Calcular automàticament els interessos de crèdit",
+        "Convertir els rebuts en pagarés",
+        "Validar contractes amb proveïdors"
+      ],
+      "es": [
+        "Calcular automáticamente los intereses de crédito",
+        "Convertir los recibos en pagarés",
+        "Validar contratos con proveedores"
+      ]
+    },
+    "uf0519-b5-036": {
+      "ca": [
+        "Per separar cobraments al comptat i ajornats",
+        "Per autenticar els proveïdors abans de pagar-los",
+        "Per conciliar el saldo amb l’extracte bancari"
+      ],
+      "es": [
+        "Para separar cobros al contado y aplazados",
+        "Para autenticar a los proveedores antes de pagarles",
+        "Para conciliar el saldo con el extracto bancario"
+      ]
+    },
+    "uf0519-b5-037": {
+      "ca": [
+        "Es pot fer si l’import es divideix en dos justificants el mateix dia",
+        "S’ha de convertir obligatòriament en un ingrés en compte",
+        "Es pot fer si el receptor identifica documentalment el pagador"
+      ],
+      "es": [
+        "Puede hacerse si el importe se divide en dos justificantes el mismo día",
+        "Debe convertirse obligatoriamente en un ingreso en cuenta",
+        "Puede hacerse si el receptor identifica documentalmente al pagador"
+      ]
+    },
+    "uf0519-b5-038": {
+      "ca": [
+        "La regla depèn del valor total de les monedes i no del nombre",
+        "El límit és de 40 monedes quan el pagament supera 100 €",
+        "Les monedes de cèntim tenen un límit diferent de les monedes d’euro"
+      ],
+      "es": [
+        "La regla depende del valor total de las monedas y no del número",
+        "El límite es de 40 monedas cuando el pago supera 100 €",
+        "Las monedas de céntimo tienen un límite distinto de las monedas de euro"
+      ]
+    },
+    "uf0519-b5-039": {
+      "ca": [
+        "IBAN del creditor i conformitat del banc receptor",
+        "Número de compte i aval del proveïdor",
+        "Compte bancari i endós del beneficiari"
+      ],
+      "es": [
+        "IBAN del acreedor y conformidad del banco receptor",
+        "Número de cuenta y aval del proveedor",
+        "Cuenta bancaria y endoso del beneficiario"
+      ]
+    },
+    "uf0519-b5-040": {
+      "ca": [
+        "El comprador paga en confirmar l’enviament, abans del lliurament",
+        "El transportista concedeix crèdit fins al final de mes",
+        "El pagament queda domiciliat després de la primera entrega"
+      ],
+      "es": [
+        "El comprador paga al confirmar el envío, antes de la entrega",
+        "El transportista concede crédito hasta final de mes",
+        "El pago queda domiciliado después de la primera entrega"
+      ]
+    },
+    "uf0519-b5-041": {
+      "ca": [
+        "Transferències SEPA, domiciliacions i retirada al caixer",
+        "Compres en línia, xecs digitals i pagaments ajornats",
+        "Bizum entre usuaris, rebuts domiciliats i ingrés d’efectiu"
+      ],
+      "es": [
+        "Transferencias SEPA, domiciliaciones y retirada en cajero",
+        "Compras en línea, cheques digitales y pagos aplazados",
+        "Bizum entre usuarios, recibos domiciliados e ingreso de efectivo"
+      ]
+    },
+    "uf0519-b5-042": {
+      "ca": [
+        "Bluetooth de baixa energia",
+        "Codi QR bancari",
+        "Xip EMV sense contacte del compte"
+      ],
+      "es": [
+        "Bluetooth de baja energía",
+        "Código QR bancario",
+        "Chip EMV sin contacto de la cuenta"
+      ]
+    },
+    "uf0519-b5-043": {
+      "ca": [
+        "Ingrés en compte = online; cartera digital = offline",
+        "Contra reemborsament = online; Bizum al comerç = offline",
+        "Transferència bancària = online; PayPal = offline"
+      ],
+      "es": [
+        "Ingreso en cuenta = online; cartera digital = offline",
+        "Contra reembolso = online; Bizum en comercio = offline",
+        "Transferencia bancaria = online; PayPal = offline"
+      ]
+    },
+    "uf0519-b5-044": {
+      "ca": [
+        "PIN de la targeta, número de comanda i correu electrònic",
+        "Contrasenya del comerç, IBAN i data de caducitat",
+        "Empremta del terminal, rebut i codi de client"
+      ],
+      "es": [
+        "PIN de la tarjeta, número de pedido y correo electrónico",
+        "Contraseña del comercio, IBAN y fecha de caducidad",
+        "Huella del terminal, recibo y código de cliente"
+      ]
+    },
+    "uf0519-b5-045": {
+      "ca": [
+        "El justificant acredita el lliurament; la factura acredita el cobrament bancari",
+        "La factura acredita el pagament; el rebut documenta fiscalment la venda",
+        "El justificant i la factura tenen la mateixa funció però diferent format"
+      ],
+      "es": [
+        "El justificante acredita la entrega; la factura acredita el cobro bancario",
+        "La factura acredita el pago; el recibo documenta fiscalmente la venta",
+        "El justificante y la factura tienen la misma función pero distinto formato"
+      ]
+    },
+    "uf0519-b5-046": {
+      "ca": [
+        "Un compromís escrit del banc de pagar en una data futura",
+        "Una ordre del beneficiari perquè el lliurador ingressi fons",
+        "Un document que reserva saldo sense ordenar cap pagament"
+      ],
+      "es": [
+        "Un compromiso escrito del banco de pagar en una fecha futura",
+        "Una orden del beneficiario para que el librador ingrese fondos",
+        "Un documento que reserva saldo sin ordenar ningún pago"
+      ]
+    },
+    "uf0519-b5-047": {
+      "ca": [
+        "Lliurador = qui cobra; lliurat = qui emet; beneficiari = banc",
+        "Lliurador = entitat que avala; lliurat = client; beneficiari = proveïdor",
+        "Lliurador = qui endossa; lliurat = qui rep l’endós; beneficiari = banc"
+      ],
+      "es": [
+        "Librador = quien cobra; librado = quien emite; beneficiario = banco",
+        "Librador = entidad que avala; librado = cliente; beneficiario = proveedor",
+        "Librador = quien endosa; librado = quien recibe el endoso; beneficiario = banco"
+      ]
+    },
+    "uf0519-b5-048": {
+      "ca": [
+        "El banc ha de pagar-lo i reclamar després l’import al beneficiari",
+        "El xec queda suspès fins que el compte recuperi saldo",
+        "La manca de fons transforma el xec en un xec conformat"
+      ],
+      "es": [
+        "El banco debe pagarlo y reclamar después el importe al beneficiario",
+        "El cheque queda suspendido hasta que la cuenta recupere saldo",
+        "La falta de fondos transforma el cheque en un cheque conformado"
+      ]
+    },
+    "uf0519-b5-049": {
+      "ca": [
+        "«A l’ordre del beneficiari»",
+        "«Xec creuat»",
+        "«Lliurat contra compte»"
+      ],
+      "es": [
+        "«A la orden del beneficiario»",
+        "«Cheque cruzado»",
+        "«Librado contra cuenta»"
+      ]
+    },
+    "uf0519-b5-050": {
+      "ca": [
+        "Porta dues signatures al revers i exigeix identificació del lliurador",
+        "Inclou un segell del banc que reserva l’import fins al cobrament",
+        "Té una franja diagonal que indica pagament ajornat"
+      ],
+      "es": [
+        "Lleva dos firmas en el reverso y exige identificación del librador",
+        "Incluye un sello del banco que reserva el importe hasta el cobro",
+        "Tiene una franja diagonal que indica pago aplazado"
+      ]
+    },
+    "uf0519-b5-051": {
+      "ca": [
+        "El banc garanteix el pagament encara que el compte quedi sense saldo posteriorment",
+        "El banc certifica la identitat del beneficiari però no comprova els fons",
+        "El banc fixa una data de venciment obligatòria abans de permetre el cobrament"
+      ],
+      "es": [
+        "El banco garantiza el pago aunque la cuenta quede sin saldo posteriormente",
+        "El banco certifica la identidad del beneficiario pero no comprueba los fondos",
+        "El banco fija una fecha de vencimiento obligatoria antes de permitir el cobro"
+      ]
+    },
+    "uf0519-b5-052": {
+      "ca": [
+        "Creditor que paga i deutor que emet el document",
+        "Banc que cobra i beneficiari que autoritza",
+        "Emissor que paga i receptor que valida fiscalment"
+      ],
+      "es": [
+        "Acreedor que paga y deudor que emite el documento",
+        "Banco que cobra y beneficiario que autoriza",
+        "Emisor que paga y receptor que valida fiscalmente"
+      ]
+    },
+    "uf0519-b5-053": {
+      "ca": [
+        "Número de rebut, data, creditor, venciment, interessos i aval",
+        "Emissor, beneficiari, IBAN, data de càrrec, comissió i saldo",
+        "Data, pagador, base imposable, IVA, quota i total fiscal"
+      ],
+      "es": [
+        "Número de recibo, fecha, acreedor, vencimiento, intereses y aval",
+        "Emisor, beneficiario, IBAN, fecha de cargo, comisión y saldo",
+        "Fecha, pagador, base imponible, IVA, cuota y total fiscal"
+      ]
+    },
+    "uf0519-b5-054": {
+      "ca": [
+        "La transferència és una ordre del beneficiari; l’ingrés és una ordre del banc",
+        "La transferència usa un compte de destinació; l’ingrés crea un nou compte receptor",
+        "La transferència acredita una venda; l’ingrés acredita una factura"
+      ],
+      "es": [
+        "La transferencia es una orden del beneficiario; el ingreso es una orden del banco",
+        "La transferencia usa una cuenta de destino; el ingreso crea una nueva cuenta receptora",
+        "La transferencia acredita una venta; el ingreso acredita una factura"
+      ]
+    },
+    "uf0519-b5-055": {
+      "ca": [
+        "Arriba el mateix dia si s’ordena abans del migdia",
+        "Arriba en minuts durant dies hàbils i en hores els festius",
+        "Funciona 24 hores però liquida els moviments el dia hàbil següent"
+      ],
+      "es": [
+        "Llega el mismo día si se ordena antes del mediodía",
+        "Llega en minutos durante días hábiles y en horas los festivos",
+        "Funciona 24 horas pero liquida los movimientos el día hábil siguiente"
+      ]
+    },
+    "uf0519-b5-056": {
+      "ca": [
+        "IBAN, saldo del destinatari, data de factura i tipus d’interès",
+        "Nom del banc, número de targeta, import i venciment",
+        "Compte d’origen, límit de crèdit, comissió i referència fiscal"
+      ],
+      "es": [
+        "IBAN, saldo del destinatario, fecha de factura y tipo de interés",
+        "Nombre del banco, número de tarjeta, importe y vencimiento",
+        "Cuenta de origen, límite de crédito, comisión y referencia fiscal"
+      ]
+    },
+    "uf0519-b5-057": {
+      "ca": [
+        "Dèbit = saldo reservat; crèdit = saldo disponible del mateix compte",
+        "Dèbit = pagament ajornat sense interessos; crèdit = pagament immediat",
+        "Dèbit = límit contractual; crèdit = saldo bancari real"
+      ],
+      "es": [
+        "Débito = saldo reservado; crédito = saldo disponible de la misma cuenta",
+        "Débito = pago aplazado sin intereses; crédito = pago inmediato",
+        "Débito = límite contractual; crédito = saldo bancario real"
+      ]
+    },
+    "uf0519-b5-058": {
+      "ca": [
+        "Es presumeix un venciment de 30 dies",
+        "Es paga en la data d’emissió més 60 dies",
+        "Cal completar-lo amb un annex abans de poder cobrar-lo"
+      ],
+      "es": [
+        "Se presume un vencimiento de 30 días",
+        "Se paga en la fecha de emisión más 60 días",
+        "Hay que completarlo con un anexo antes de poder cobrarlo"
+      ]
+    },
+    "uf0519-b5-059": {
+      "ca": [
+        "Amb liquidació diària del saldo utilitzat o compensació amb ingressos futurs",
+        "Amb pagament únic al final del contracte sense possibilitat de terminis",
+        "Amb càrrec automàtic de cada compra al compte i recuperació posterior del crèdit"
+      ],
+      "es": [
+        "Con liquidación diaria del saldo utilizado o compensación con ingresos futuros",
+        "Con pago único al final del contrato sin posibilidad de plazos",
+        "Con cargo automático de cada compra a la cuenta y recuperación posterior del crédito"
+      ]
+    },
+    "uf0519-b5-060": {
+      "ca": [
+        "Avalat = beneficiari del contracte; avalista = client; beneficiari = entitat financera",
+        "Avalat = banc emissor; avalista = deutor; beneficiari = creditor",
+        "Avalat = qui aporta la contragarantia; avalista = beneficiari; beneficiari = banc"
+      ],
+      "es": [
+        "Avalado = beneficiario del contrato; avalista = cliente; beneficiario = entidad financiera",
+        "Avalado = banco emisor; avalista = deudor; beneficiario = acreedor",
+        "Avalado = quien aporta la contragarantía; avalista = beneficiario; beneficiario = banco"
+      ]
+    },
+    "uf0519-b5-061": {
+      "ca": [
+        "Reservar una línia de crèdit sense immobilitzar cap actiu",
+        "Cedir al beneficiari el dret de disposar del compte del client",
+        "Dipositar l’import de l’aval al compte del beneficiari fins al venciment"
+      ],
+      "es": [
+        "Reservar una línea de crédito sin inmovilizar ningún activo",
+        "Ceder al beneficiario el derecho a disponer de la cuenta del cliente",
+        "Depositar el importe del aval en la cuenta del beneficiario hasta el vencimiento"
+      ]
     }
   }
 }

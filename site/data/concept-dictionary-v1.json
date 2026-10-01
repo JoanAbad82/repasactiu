@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "date": "2026-09-24",
+  "date": "2026-10-01",
   "policy": "Curated learning dictionary: only high-value concepts that improve comprehension, discrimination or memorisation. Source material is authoritative.",
   "languages": [
     "ca",
     "es"
   ],
-  "count": 106,
+  "count": 116,
   "groups": [
     {
       "id": "bloc-1",
@@ -2369,6 +2369,236 @@
         "definition": "Nivel de reserva que se controla para preparar la reposición a tiempo y evitar roturas de stock.",
         "memory": "Stock de seguridad = margen antes de quedarse sin material."
       }
+    },
+    {
+      "id": "uf519-pagament-anticipat",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          10,
+          10
+        ]
+      },
+      "ca": {
+        "term": "Pagament anticipat",
+        "definition": "Pagament que es realitza abans de rebre el producte o de gaudir del servei.",
+        "memory": "Anticipat = abans de rebre.",
+        "technique": "Contrast temporal"
+      },
+      "es": {
+        "term": "Pago anticipado",
+        "definition": "Pago que se realiza antes de recibir el producto o de disfrutar del servicio.",
+        "memory": "Anticipado = antes de recibir.",
+        "technique": "Contraste temporal"
+      }
+    },
+    {
+      "id": "uf519-domiciliacio-bancaria",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          16,
+          16
+        ]
+      },
+      "ca": {
+        "term": "Domiciliació bancària",
+        "definition": "Ordre de pagament vinculada a un compte bancari i autoritzada pel titular, habitual en cobraments periòdics.",
+        "memory": "Domiciliar = compte + autorització.",
+        "technique": "Fórmula"
+      },
+      "es": {
+        "term": "Domiciliación bancaria",
+        "definition": "Orden de pago vinculada a una cuenta bancaria y autorizada por el titular, habitual en cobros periódicos.",
+        "memory": "Domiciliar = cuenta + autorización.",
+        "technique": "Fórmula"
+      }
+    },
+    {
+      "id": "uf519-contra-reemborsament",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          17,
+          17
+        ]
+      },
+      "ca": {
+        "term": "Contra reemborsament",
+        "definition": "Mitjà de pagament en compres a distància en què el comprador paga quan rep la comanda.",
+        "memory": "Rebre → pagar.",
+        "technique": "Seqüència"
+      },
+      "es": {
+        "term": "Contra reembolso",
+        "definition": "Medio de pago en compras a distancia en el que el comprador paga cuando recibe el pedido.",
+        "memory": "Recibir → pagar.",
+        "technique": "Secuencia"
+      }
+    },
+    {
+      "id": "uf519-xec-creuat",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "term": "Xec creuat",
+        "definition": "Xec amb dues línies paral·leles a l’anvers que normalment s’ha d’ingressar en un compte bancari.",
+        "memory": "Dues línies = va al compte.",
+        "technique": "Imatge visual"
+      },
+      "es": {
+        "term": "Cheque cruzado",
+        "definition": "Cheque con dos líneas paralelas en el anverso que normalmente debe ingresarse en una cuenta bancaria.",
+        "memory": "Dos líneas = va a la cuenta.",
+        "technique": "Imagen visual"
+      }
+    },
+    {
+      "id": "uf519-xec-conformat",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "term": "Xec conformat",
+        "definition": "Xec en què el banc confirma que hi ha fons suficients al compte per pagar-lo.",
+        "memory": "Conformat = fons confirmats.",
+        "technique": "Associació"
+      },
+      "es": {
+        "term": "Cheque conformado",
+        "definition": "Cheque en el que el banco confirma que hay fondos suficientes en la cuenta para pagarlo.",
+        "memory": "Conformado = fondos confirmados.",
+        "technique": "Asociación"
+      }
+    },
+    {
+      "id": "uf519-endossament",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          26,
+          27
+        ]
+      },
+      "ca": {
+        "term": "Endossament",
+        "definition": "Acte pel qual la persona beneficiària transmet a una altra persona o entitat el dret de cobrament d’un xec.",
+        "memory": "Endossar = transmetre el dret de cobrar.",
+        "technique": "Verb clau"
+      },
+      "es": {
+        "term": "Endoso",
+        "definition": "Acto por el que la persona beneficiaria transmite a otra persona o entidad el derecho de cobro de un cheque.",
+        "memory": "Endosar = transmitir el derecho a cobrar.",
+        "technique": "Verbo clave"
+      }
+    },
+    {
+      "id": "uf519-transferencia-bancaria",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          30,
+          30
+        ]
+      },
+      "ca": {
+        "term": "Transferència bancària",
+        "definition": "Operació per la qual s’ordena al banc enviar diners d’un compte a un altre.",
+        "memory": "Compte → compte.",
+        "technique": "Fletxa"
+      },
+      "es": {
+        "term": "Transferencia bancaria",
+        "definition": "Operación por la que se ordena al banco enviar dinero de una cuenta a otra.",
+        "memory": "Cuenta → cuenta.",
+        "technique": "Flecha"
+      }
+    },
+    {
+      "id": "uf519-pagare",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          34,
+          35
+        ]
+      },
+      "ca": {
+        "term": "Pagaré",
+        "definition": "Promesa escrita i incondicional de pagar una quantitat determinada a una persona beneficiària.",
+        "memory": "Pagaré = promesa de pagar.",
+        "technique": "Paraula clau"
+      },
+      "es": {
+        "term": "Pagaré",
+        "definition": "Promesa escrita e incondicional de pagar una cantidad determinada a una persona beneficiaria.",
+        "memory": "Pagaré = promesa de pagar.",
+        "technique": "Palabra clave"
+      }
+    },
+    {
+      "id": "uf519-aval-bancari",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          38,
+          38
+        ]
+      },
+      "ca": {
+        "term": "Aval bancari",
+        "definition": "Garantia per la qual una entitat financera respon davant d’un tercer si el seu client incompleix una obligació.",
+        "memory": "Aval = el banc respon si el client no compleix.",
+        "technique": "Relació causa-efecte"
+      },
+      "es": {
+        "term": "Aval bancario",
+        "definition": "Garantía por la que una entidad financiera responde ante un tercero si su cliente incumple una obligación.",
+        "memory": "Aval = el banco responde si el cliente no cumple.",
+        "technique": "Relación causa-efecto"
+      }
+    },
+    {
+      "id": "uf519-pignoracio",
+      "blockId": "uf0519-bloc-5",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA",
+        "pages": [
+          40,
+          40
+        ]
+      },
+      "ca": {
+        "term": "Pignoració",
+        "definition": "Afectació de diners o altres actius com a garantia d’un aval; poden quedar immobilitzats mentre l’aval és vigent.",
+        "memory": "Pignorar = immobilitzar per garantir.",
+        "technique": "Verb clau"
+      },
+      "es": {
+        "term": "Pignoración",
+        "definition": "Afectación de dinero u otros activos como garantía de un aval; pueden quedar inmovilizados mientras el aval está vigente.",
+        "memory": "Pignorar = inmovilizar para garantizar.",
+        "technique": "Verbo clave"
+      }
     }
   ],
   "familyPolicy": "Order by conceptual families and learning dependency, not alphabetically. Keep contrasts and strongly related concepts adjacent to improve retrieval and memorisation.",
@@ -2595,7 +2825,17 @@
         "uf519-arqueig-caixa",
         "uf519-conciliacio-bancaria",
         "uf519-fungible-no-fungible",
-        "uf519-stock-seguretat"
+        "uf519-stock-seguretat",
+        "uf519-pagament-anticipat",
+        "uf519-domiciliacio-bancaria",
+        "uf519-contra-reemborsament",
+        "uf519-xec-creuat",
+        "uf519-xec-conformat",
+        "uf519-endossament",
+        "uf519-transferencia-bancaria",
+        "uf519-pagare",
+        "uf519-aval-bancari",
+        "uf519-pignoracio"
       ]
     }
   ],

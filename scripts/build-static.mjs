@@ -41,16 +41,16 @@ if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
 if(traceability.version!==2||!traceability.topicRanges||!traceability.questionRanges){
   throw new Error('Build validation failed: traceability v2 is invalid.');
 }
-if(dictionary.version!==1||dictionary.count!==106||!Array.isArray(dictionary.entries)||dictionary.entries.length!==106){
+if(dictionary.version!==1||dictionary.count!==116||!Array.isArray(dictionary.entries)||dictionary.entries.length!==116){
   throw new Error('Build validation failed: concept dictionary v1 is invalid.');
 }
-if(!Array.isArray(dictionary.families)||dictionary.families.length!==17||dictionary.families.flatMap(family=>family.entryIds||[]).length!==106){
+if(!Array.isArray(dictionary.families)||dictionary.families.length!==17||dictionary.families.flatMap(family=>family.entryIds||[]).length!==116){
   throw new Error('Build validation failed: concept dictionary families are invalid.');
 }
-if(keyLists.version!==1||keyLists.count!==78||!Array.isArray(keyLists.entries)||keyLists.entries.length!==78){
+if(keyLists.version!==1||keyLists.count!==85||!Array.isArray(keyLists.entries)||keyLists.entries.length!==85){
   throw new Error('Build validation failed: key-list bank is invalid.');
 }
-if(!Array.isArray(keyLists.families)||keyLists.families.length!==11||keyLists.families.flatMap(family=>family.entryIds||[]).length!==78){
+if(!Array.isArray(keyLists.families)||keyLists.families.length!==11||keyLists.families.flatMap(family=>family.entryIds||[]).length!==85){
   throw new Error('Build validation failed: key-list families are invalid.');
 }
 if(correspondence.version!==1||!Array.isArray(correspondence.structure)||correspondence.structure.length!==10||!Array.isArray(correspondence.models)||correspondence.models.length!==8){
@@ -69,4 +69,4 @@ for(const lang of ['ca','es']){
     throw new Error(`Build validation failed: commercial abbreviations for ${lang} must contain 20-30 curated entries.`);
   }
 }
-console.log('Static build PASS: site/ -> dist/ with learning tools, 106-concept dictionary, 78 key lists, practical examples, payroll walkthrough, bilingual commercial correspondence guide and 9 administrative/commercial document exercises');
+console.log('Static build PASS: site/ -> dist/ with learning tools, 116-concept dictionary, 85 key lists, practical examples, payroll walkthrough, bilingual commercial correspondence guide and 9 administrative/commercial document exercises');

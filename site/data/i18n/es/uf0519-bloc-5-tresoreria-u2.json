@@ -1,0 +1,336 @@
+{
+  "blockId": "uf0519-bloc-5",
+  "blockTitle": "Operaciones informáticas, tesorería, caja y control de material",
+  "questions": {
+    "uf0519-b5-032": {
+      "topic": "Pago aplazado",
+      "question": "Una compra se paga íntegramente 10 meses después de la entrega. ¿Cómo se clasifica según el momento del pago?",
+      "options": [
+        "Pago anticipado",
+        "Pago al contado",
+        "Pago aplazado a corto plazo",
+        "Pago aplazado a largo plazo"
+      ],
+      "explanation": "El pago aplazado es a corto plazo cuando el plazo acordado es inferior a un año."
+    },
+    "uf0519-b5-033": {
+      "topic": "Pago anticipado",
+      "question": "Un servicio se paga al firmar el contrato, antes de disfrutarlo. ¿Qué forma de gestión es?",
+      "options": [
+        "Pago anticipado",
+        "Pago al contado",
+        "Pago aplazado fraccionado",
+        "Pago contra reembolso"
+      ],
+      "explanation": "En un servicio, el pago anticipado puede hacerse al firmar el contrato o pedir la cita."
+    },
+    "uf0519-b5-034": {
+      "topic": "Pago parcial",
+      "question": "Si una parte del importe se paga al contado y el resto se aplaza, ¿de qué tipo de pago aplazado se trata?",
+      "options": [
+        "Fraccionado",
+        "Parcial",
+        "Un solo pago",
+        "Anticipado"
+      ],
+      "explanation": "El pago parcial combina una parte al contado con otra parte aplazada."
+    },
+    "uf0519-b5-035": {
+      "topic": "Sistemas de cobro",
+      "question": "¿Qué ventaja adicional puede aportar un sistema de cobro si está integrado con la gestión de inventario?",
+      "options": [
+        "Sustituir la conciliación bancaria",
+        "Eliminar la necesidad de facturar",
+        "Determinar los plazos de pago de los clientes",
+        "Facilitar el control de las existencias"
+      ],
+      "explanation": "La integración con inventario puede facilitar el control de las existencias."
+    },
+    "uf0519-b5-036": {
+      "topic": "Seguridad del sistema de cobro",
+      "question": "¿Para qué sirven los mecanismos de apertura y acceso restringido de una caja o sistema de cobro?",
+      "options": [
+        "Para calcular el cambio automáticamente",
+        "Para generar una factura ordinaria en cualquier operación",
+        "Para evitar usos no autorizados",
+        "Para sustituir el control de caja"
+      ],
+      "explanation": "El acceso restringido protege la caja o el sistema frente a usos no autorizados."
+    },
+    "uf0519-b5-037": {
+      "topic": "Pago en efectivo",
+      "question": "En una operación en la que participa un empresario o profesional, ¿qué ocurre con un pago en efectivo de 1.000 € exactos?",
+      "options": [
+        "Es admisible porque el límite solo afecta a importes superiores a 1.000 €",
+        "No puede hacerse en efectivo porque el límite afecta a importes iguales o superiores a 1.000 €",
+        "Solo puede hacerse si se utilizan menos de 50 monedas",
+        "Puede hacerse si el pagador conserva un recibo"
+      ],
+      "explanation": "El material indica que no pueden hacerse pagos en efectivo de importe igual o superior a 1.000 € cuando participa un empresario o profesional."
+    },
+    "uf0519-b5-038": {
+      "topic": "Pago en efectivo",
+      "question": "¿Qué regla indica el material sobre el número de monedas en un mismo pago?",
+      "options": [
+        "No existe obligación de aceptar más de 50 monedas, salvo en cajas públicas",
+        "El máximo es de 50 monedas también en las cajas públicas",
+        "Deben aceptarse hasta 100 monedas si son de euro",
+        "La limitación solo se aplica a pagos entre empresas"
+      ],
+      "explanation": "No existe obligación de aceptar más de 50 monedas en un mismo pago, salvo en cajas públicas."
+    },
+    "uf0519-b5-039": {
+      "topic": "Domiciliación bancaria",
+      "question": "¿Qué necesita una domiciliación bancaria según el material?",
+      "options": [
+        "Un cheque conformado y el número de factura",
+        "Una orden verbal del proveedor y un recibo",
+        "Una tarjeta de crédito asociada al servicio",
+        "El número de cuenta y la autorización del titular"
+      ],
+      "explanation": "La domiciliación consiste en dar una orden de pago mediante el número de cuenta y la autorización del titular."
+    },
+    "uf0519-b5-040": {
+      "topic": "Contra reembolso",
+      "question": "¿Qué afirmación describe correctamente el pago contra reembolso?",
+      "options": [
+        "El comprador paga antes de que el vendedor prepare el pedido",
+        "El banco carga automáticamente el importe cada mes",
+        "El comprador paga cuando recibe el pedido y puede haber una comisión o coste adicional",
+        "El vendedor cobra mediante un pagaré con vencimiento posterior"
+      ],
+      "explanation": "En el contra reembolso el pago se realiza en la entrega y puede comportar una comisión o coste adicional."
+    },
+    "uf0519-b5-041": {
+      "topic": "Pago móvil",
+      "question": "¿Qué conjunto recoge las tres opciones habituales de pago móvil que describe el material?",
+      "options": [
+        "Domiciliaciones, pagarés y cheques cruzados",
+        "Transferencias entre usuarios, compras en línea y pagos físicos con NFC",
+        "Ingresos en cuenta, efectivo y avales bancarios",
+        "Facturas simplificadas, recibos y conciliaciones bancarias"
+      ],
+      "explanation": "El material agrupa el pago móvil en transferencias entre usuarios, compras en línea y pagos en establecimientos con NFC."
+    },
+    "uf0519-b5-042": {
+      "topic": "Tecnología NFC",
+      "question": "¿Qué tecnología permite pagar acercando un móvil compatible al terminal de pago?",
+      "options": [
+        "NFC",
+        "IBAN",
+        "SEPA",
+        "PIN"
+      ],
+      "explanation": "La tecnología NFC permite el pago de proximidad entre el móvil compatible y el terminal."
+    },
+    "uf0519-b5-043": {
+      "topic": "Pagos online y offline",
+      "question": "Según la clasificación del material, ¿qué pareja diferencia correctamente un pago offline de uno online?",
+      "options": [
+        "Tarjeta en TPV virtual = offline; ingreso en cuenta = online",
+        "Bizum en comercio = offline; contra reembolso = online",
+        "Cartera digital = offline; PayPal = offline",
+        "Transferencia bancaria = offline; tarjeta mediante TPV virtual = online"
+      ],
+      "explanation": "El material sitúa la transferencia bancaria entre los métodos offline y la tarjeta vía TPV virtual entre los online."
+    },
+    "uf0519-b5-044": {
+      "topic": "Autenticación reforzada",
+      "question": "¿Qué mecanismos cita el material como ejemplos de autenticación reforzada en pagos con tarjeta por internet?",
+      "options": [
+        "Número de factura, NIF y fecha de compra",
+        "Firma manuscrita, sello y albarán",
+        "Aplicación bancaria, biometría o códigos de un solo uso",
+        "IBAN, concepto de transferencia y recibo"
+      ],
+      "explanation": "El material cita la aplicación bancaria, la biometría, códigos de un solo uso u otros mecanismos de verificación."
+    },
+    "uf0519-b5-045": {
+      "topic": "Justificante y factura",
+      "question": "¿Qué diferencia establece el material entre el justificante de pago y la factura?",
+      "options": [
+        "El justificante documenta la venta y la factura solo acredita el pago",
+        "El justificante acredita que se ha pagado; la factura documenta la operación de venta",
+        "El comprobante del TPV sustituye a la factura cuando hay tarjeta",
+        "La factura solo es necesaria si el pago es aplazado"
+      ],
+      "explanation": "El justificante acredita el pago, mientras que la factura documenta la operación de venta; el comprobante del TPV no sustituye a la factura."
+    },
+    "uf0519-b5-046": {
+      "topic": "Cheque",
+      "question": "¿Qué es un cheque según el material?",
+      "options": [
+        "Un documento mercantil por el que una persona da al banco una orden de pago con cargo a su cuenta",
+        "Una promesa del beneficiario de devolver un importe al banco",
+        "Una autorización para domiciliar pagos periódicos en la cuenta del proveedor",
+        "Un justificante que acredita una transferencia ya ejecutada"
+      ],
+      "explanation": "El cheque es una orden de pago dirigida a una entidad bancaria y cargada en la cuenta de quien lo emite."
+    },
+    "uf0519-b5-047": {
+      "topic": "Intervinientes del cheque",
+      "question": "¿Qué correspondencia entre intervinientes de un cheque es correcta?",
+      "options": [
+        "Librador = banco; librado = beneficiario; tenedor = quien firma",
+        "Librador = beneficiario; librado = quien endosa; tenedor = banco",
+        "Librador = banco; librado = quien emite; tenedor = quien autoriza",
+        "Librador = quien emite y firma; librado = banco que paga; tenedor = quien tiene derecho a cobrar"
+      ],
+      "explanation": "El librador emite y firma, el librado es la entidad bancaria y el tenedor o beneficiario tiene derecho a cobrar."
+    },
+    "uf0519-b5-048": {
+      "topic": "Impago del cheque",
+      "question": "¿Qué puede ocurrir si se emite un cheque sin fondos suficientes?",
+      "options": [
+        "El cheque queda automáticamente anulado y deja de tener efectos",
+        "El banco lo convierte en un pagaré con vencimiento",
+        "El cheque sigue siendo válido, pero puede resultar impagado y generar responsabilidades",
+        "El beneficiario pasa a ser el librado del cheque"
+      ],
+      "explanation": "La falta de fondos no invalida automáticamente el cheque, pero puede provocar el impago y responsabilidades para el emisor."
+    },
+    "uf0519-b5-049": {
+      "topic": "Endoso del cheque",
+      "question": "¿Qué mención impide que un cheque pueda endosarse?",
+      "options": [
+        "«Para abonar en cuenta»",
+        "«No a la orden»",
+        "«Cheque conformado»",
+        "«Pago a la vista»"
+      ],
+      "explanation": "El material indica que un cheque no podrá endosarse si incluye la mención «no a la orden»."
+    },
+    "uf0519-b5-050": {
+      "topic": "Cheque cruzado",
+      "question": "¿Cómo se identifica y cómo se cobra habitualmente un cheque cruzado?",
+      "options": [
+        "Lleva dos líneas paralelas en el anverso y normalmente debe ingresarse en una cuenta",
+        "Lleva la firma del banco en el reverso y se cobra en efectivo",
+        "Incluye la mención «no a la orden» y se cobra por domiciliación",
+        "Indica el vencimiento y se presenta como un pagaré"
+      ],
+      "explanation": "El cheque cruzado lleva dos líneas paralelas en el anverso y normalmente no se cobra directamente en efectivo."
+    },
+    "uf0519-b5-051": {
+      "topic": "Cheque conformado",
+      "question": "¿Qué aporta un cheque conformado respecto a un cheque ordinario?",
+      "options": [
+        "Permite cobrar sin identificar al beneficiario",
+        "Hace que el cheque sea endosable aunque diga «no a la orden»",
+        "Convierte el pago en una transferencia inmediata",
+        "El banco confirma que hay fondos suficientes para pagarlo y da más seguridad al cobro"
+      ],
+      "explanation": "En el cheque conformado el banco confirma la existencia de fondos suficientes, lo que aumenta la seguridad del beneficiario."
+    },
+    "uf0519-b5-052": {
+      "topic": "Recibo",
+      "question": "¿Quiénes son las dos partes habituales de un recibo?",
+      "options": [
+        "Librador y librado",
+        "Avalado y avalista",
+        "Emisor que cobra y pagador que realiza el pago",
+        "Endosante y tenedor"
+      ],
+      "explanation": "En el recibo, el emisor es quien cobra y emite el documento, y el pagador es quien efectúa el pago."
+    },
+    "uf0519-b5-053": {
+      "topic": "Contenido del recibo",
+      "question": "¿Qué conjunto recoge datos propios del contenido básico de un recibo?",
+      "options": [
+        "Fecha, IBAN, límite de crédito y vencimiento",
+        "Fecha, emisor, pagador, importe, concepto y forma de pago",
+        "Orden del día, asistentes, acuerdos y votaciones",
+        "Base de cotización, deducciones, salario neto e IRPF"
+      ],
+      "explanation": "El recibo identifica el pago con datos como fecha, emisor, pagador, importe, concepto y forma de pago; puede incluir firma o sello."
+    },
+    "uf0519-b5-054": {
+      "topic": "Transferencia e ingreso en cuenta",
+      "question": "¿Qué diferencia hay entre una transferencia bancaria y un ingreso en cuenta?",
+      "options": [
+        "La transferencia mueve dinero de una cuenta a otra; el ingreso introduce efectivo o un cheque directamente en una cuenta",
+        "La transferencia introduce efectivo en la cuenta; el ingreso siempre mueve dinero entre dos cuentas",
+        "La transferencia requiere tarjeta; el ingreso requiere pagaré",
+        "No hay diferencia funcional entre ambas operaciones"
+      ],
+      "explanation": "La transferencia ordena enviar dinero entre cuentas; el ingreso deposita efectivo o un cheque directamente en una cuenta."
+    },
+    "uf0519-b5-055": {
+      "topic": "Transferencia inmediata",
+      "question": "¿Qué característica define una transferencia inmediata según el material?",
+      "options": [
+        "Se abona habitualmente el día hábil siguiente",
+        "Funciona de lunes a viernes en horario bancario",
+        "Necesita una orden previa con 24 horas de antelación",
+        "El dinero llega en pocos segundos y funciona 24 horas todos los días del año"
+      ],
+      "explanation": "La transferencia inmediata permite que el dinero llegue en segundos y está disponible 24/7, también fines de semana y festivos."
+    },
+    "uf0519-b5-056": {
+      "topic": "Precauciones en transferencias",
+      "question": "¿Qué datos conviene revisar antes de autorizar una transferencia?",
+      "options": [
+        "Número de factura, tipo de IVA, descuento y total",
+        "PIN, límite de tarjeta, saldo de caja y comisión",
+        "IBAN, nombre del destinatario, importe y concepto",
+        "Número de cheque, endosante, avalista y vencimiento"
+      ],
+      "explanation": "Antes de autorizar una transferencia hay que revisar el IBAN, el nombre del destinatario, el importe y el concepto."
+    },
+    "uf0519-b5-057": {
+      "topic": "Tarjeta de débito y crédito",
+      "question": "¿Qué diferencia básica establece el material entre tarjeta de débito y tarjeta de crédito?",
+      "options": [
+        "La de débito utiliza crédito del banco y la de crédito dinero de la cuenta",
+        "La de débito utiliza dinero disponible en la cuenta; la de crédito utiliza crédito concedido por la entidad",
+        "Ambas cargan necesariamente el importe de forma inmediata",
+        "La de crédito no tiene ningún límite establecido contractualmente"
+      ],
+      "explanation": "La tarjeta de débito carga el importe en la cuenta asociada; la de crédito permite utilizar un límite de crédito que debe devolverse."
+    },
+    "uf0519-b5-058": {
+      "topic": "Pagaré",
+      "question": "¿Qué ocurre si un pagaré no indica el vencimiento?",
+      "options": [
+        "Debe pagarse a la vista",
+        "Queda anulado",
+        "Se convierte en cheque",
+        "El beneficiario fija unilateralmente el vencimiento"
+      ],
+      "explanation": "Entre los requisitos del pagaré, el material señala que, si no consta el vencimiento, debe pagarse a la vista."
+    },
+    "uf0519-b5-059": {
+      "topic": "Tarjeta de crédito",
+      "question": "¿Cómo puede devolverse el importe utilizado con una tarjeta de crédito?",
+      "options": [
+        "Mediante una domiciliación que elimina el límite de crédito",
+        "Con un ingreso en efectivo obligatorio antes de cada compra",
+        "Con una transferencia inmediata después de cada operación",
+        "Con pago total en una fecha o de forma aplazada/fraccionada, que puede comportar intereses y costes"
+      ],
+      "explanation": "La tarjeta de crédito puede liquidarse totalmente en una fecha o de forma aplazada/fraccionada; esta última puede comportar intereses y otros costes."
+    },
+    "uf0519-b5-060": {
+      "topic": "Aval bancario",
+      "question": "¿Qué correspondencia entre las partes de un aval bancario es correcta?",
+      "options": [
+        "Avalado = banco; avalista = beneficiario; beneficiario = cliente",
+        "Avalado = acreedor; avalista = cliente; beneficiario = banco",
+        "Avalado = cliente que solicita el aval; avalista = banco que garantiza; beneficiario = quien recibe la garantía",
+        "Avalado = quien cobra; avalista = proveedor; beneficiario = quien pignora"
+      ],
+      "explanation": "En el aval bancario, el avalado es el cliente, el avalista es la entidad bancaria y el beneficiario recibe la garantía."
+    },
+    "uf0519-b5-061": {
+      "topic": "Pignoración",
+      "question": "¿Qué significa pignorar en el contexto de un aval bancario?",
+      "options": [
+        "Transferir definitivamente al banco la propiedad del dinero",
+        "Dejar dinero u otros activos afectados como garantía, que pueden quedar bloqueados mientras el aval esté vigente",
+        "Endosar el aval a otra entidad para que lo cobre",
+        "Convertir el aval económico en un aval técnico"
+      ],
+      "explanation": "La pignoración afecta dinero o activos como contragarantía; puede ser total o parcial y los activos pueden quedar bloqueados mientras el aval esté vigente."
+    }
+  }
+}

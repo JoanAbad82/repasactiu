@@ -17,7 +17,7 @@ test('ordre canònic de fonts segueix el recorregut pedagògic del curs',()=>{
   assert.deepEqual(CHRONOLOGY_SOURCE_ORDER,[
     'B1','B2','B3','B4','B5','U2B1',
     'UF0518_B1','UF0518_B2','UF0518_B3',
-    'UF0519_U1','MF0969_PRESENTACIO'
+    'UF0519_U1','MF0969_PRESENTACIO','UF0519_U2_TRESORERIA'
   ]);
 });
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "policy": "Flashcard source traceability. UF0517 core cards use section/topic page ranges; UF0518 and UF0519 core cards use per-question page ranges; semantic V2 changes override these with their audited page source; extra cards preserve their own page ranges. Teacher-validated ZIP sources from 2026-09-24 are canonical and take precedence. XLSX-backed core cards preserve archive/file/sheet/cells in questionLocations; chronology uses an explicit canonical surrogate so supplementary class material does not disturb the established source order.",
   "sources": {
     "B1": {
@@ -98,6 +98,10 @@
       "archive": "Hojas_Excel.zip",
       "file": "Hoja de registro de la entrada de la correspondecia.xlsx",
       "sheet": "Hoja1"
+    },
+    "UF0519_U2_TRESORERIA": {
+      "file": "2. Gestió_bàsica_tresoreria.pdf",
+      "pages": 41
     }
   },
   "blockSources": {
@@ -3977,6 +3981,426 @@
         "pageRange": [
           22,
           22
+        ]
+      }
+    },
+    "uf0519-b5-032": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        4,
+        4
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          4,
+          4
+        ]
+      }
+    },
+    "uf0519-b5-033": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        10,
+        10
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          10,
+          10
+        ]
+      }
+    },
+    "uf0519-b5-034": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        10,
+        10
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          10,
+          10
+        ]
+      }
+    },
+    "uf0519-b5-035": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        7,
+        7
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          7,
+          7
+        ]
+      }
+    },
+    "uf0519-b5-036": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        6,
+        6
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          6,
+          6
+        ]
+      }
+    },
+    "uf0519-b5-037": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        14,
+        14
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          14,
+          14
+        ]
+      }
+    },
+    "uf0519-b5-038": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        14,
+        14
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          14,
+          14
+        ]
+      }
+    },
+    "uf0519-b5-039": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        16,
+        16
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          16,
+          16
+        ]
+      }
+    },
+    "uf0519-b5-040": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        17,
+        17
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          17,
+          17
+        ]
+      }
+    },
+    "uf0519-b5-041": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        18,
+        18
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          18,
+          18
+        ]
+      }
+    },
+    "uf0519-b5-042": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        19,
+        19
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          19,
+          19
+        ]
+      }
+    },
+    "uf0519-b5-043": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        20,
+        20
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          20,
+          20
+        ]
+      }
+    },
+    "uf0519-b5-044": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        20,
+        20
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          20,
+          20
+        ]
+      }
+    },
+    "uf0519-b5-045": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        22,
+        23
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          22,
+          23
+        ]
+      }
+    },
+    "uf0519-b5-046": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        24,
+        24
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          24,
+          24
+        ]
+      }
+    },
+    "uf0519-b5-047": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        25,
+        25
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          25,
+          25
+        ]
+      }
+    },
+    "uf0519-b5-048": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        25,
+        25
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          25,
+          25
+        ]
+      }
+    },
+    "uf0519-b5-049": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        26,
+        27
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          26,
+          27
+        ]
+      }
+    },
+    "uf0519-b5-050": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        27,
+        27
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          27,
+          27
+        ]
+      }
+    },
+    "uf0519-b5-051": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        27,
+        27
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          27,
+          27
+        ]
+      }
+    },
+    "uf0519-b5-052": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        28,
+        28
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          28,
+          28
+        ]
+      }
+    },
+    "uf0519-b5-053": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        29,
+        29
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          29,
+          29
+        ]
+      }
+    },
+    "uf0519-b5-054": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        30,
+        30
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          30,
+          30
+        ]
+      }
+    },
+    "uf0519-b5-055": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        31,
+        31
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          31,
+          31
+        ]
+      }
+    },
+    "uf0519-b5-056": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        32,
+        32
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          32,
+          32
+        ]
+      }
+    },
+    "uf0519-b5-057": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        33,
+        36
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          33,
+          36
+        ]
+      }
+    },
+    "uf0519-b5-058": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        35,
+        35
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          35,
+          35
+        ]
+      }
+    },
+    "uf0519-b5-059": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        36,
+        37
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          36,
+          37
+        ]
+      }
+    },
+    "uf0519-b5-060": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        38,
+        38
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          38,
+          38
+        ]
+      }
+    },
+    "uf0519-b5-061": {
+      "source": "UF0519_U2_TRESORERIA",
+      "pageRange": [
+        40,
+        40
+      ],
+      "chronology": {
+        "source": "UF0519_U2_TRESORERIA",
+        "pageRange": [
+          40,
+          40
         ]
       }
     }

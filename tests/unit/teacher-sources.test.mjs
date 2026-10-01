@@ -4,7 +4,7 @@ import {readFile} from 'node:fs/promises';
 
 const readJson=async rel=>JSON.parse(await readFile(new URL('../../'+rel,import.meta.url),'utf8'));
 
-test('les 11 fonts validades per la professora governen tots els manifests de traçabilitat',async()=>{
+test('les 11 fonts validades per la professora es preserven i les fonts suplementàries queden declarades',async()=>{
   const [canonical,uf0517,uf0518,uf0519,studyTrace,extra]=await Promise.all([
     readJson('docs/content/TEACHER_VALIDATED_SOURCES_2026-09-24.json'),
     readJson('docs/content/UF0517_SOURCE_TRACEABILITY.json'),
@@ -26,7 +26,11 @@ test('les 11 fonts validades per la professora governen tots els manifests de tr
     assert.deepEqual(studyTrace.sources[id],source,'study trace '+id);
   }
   for(const [id,source] of Object.entries(extra.sources)){
-    assert.deepEqual(source,expected[id],'extra '+id);
+    if(expected[id])assert.deepEqual(source,expected[id],'extra '+id);
+    else{
+      assert.deepEqual(studyTrace.sources[id],source,'supplementary study trace '+id);
+      assert.deepEqual(combined[id],source,'supplementary manifest '+id);
+    }
   }
 
   const firstUf0518=uf0518.questionTraces.find(x=>x.id==='uf0518-b1-001');

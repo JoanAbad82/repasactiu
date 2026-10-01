@@ -1,0 +1,426 @@
+{
+  "blockId": "uf0519-bloc-5",
+  "blockTitle": "Gestió bàsica de tresoreria — ampliació Unitat 2",
+  "questions": [
+    {
+      "id": "uf0519-b5-032",
+      "block": "uf0519-bloc-5",
+      "topic": "Pagament ajornat",
+      "question": "Una compra es paga íntegrament 10 mesos després del lliurament. Com es classifica segons el moment del pagament?",
+      "options": [
+        "Pagament anticipat",
+        "Pagament al comptat",
+        "Pagament ajornat a curt termini",
+        "Pagament ajornat a llarg termini"
+      ],
+      "correct": 2,
+      "explanation": "El pagament ajornat és a curt termini quan el termini acordat és inferior a un any."
+    },
+    {
+      "id": "uf0519-b5-036",
+      "block": "uf0519-bloc-5",
+      "topic": "Seguretat del sistema de cobrament",
+      "question": "Per a què serveixen els mecanismes d’obertura i accés restringit d’una caixa o sistema de cobrament?",
+      "options": [
+        "Per calcular el canvi automàticament",
+        "Per generar una factura ordinària en qualsevol operació",
+        "Per evitar usos no autoritzats",
+        "Per substituir el control de caixa"
+      ],
+      "correct": 2,
+      "explanation": "L’accés restringit protegeix la caixa o el sistema davant usos no autoritzats."
+    },
+    {
+      "id": "uf0519-b5-035",
+      "block": "uf0519-bloc-5",
+      "topic": "Sistemes de cobrament",
+      "question": "Quin avantatge addicional pot aportar un sistema de cobrament si està integrat amb la gestió d’inventari?",
+      "options": [
+        "Substituir la conciliació bancària",
+        "Eliminar la necessitat de facturar",
+        "Determinar els terminis de pagament dels clients",
+        "Facilitar el control de les existències"
+      ],
+      "correct": 3,
+      "explanation": "La integració amb inventari pot facilitar el control de les existències."
+    },
+    {
+      "id": "uf0519-b5-033",
+      "block": "uf0519-bloc-5",
+      "topic": "Pagament anticipat",
+      "question": "Un servei es paga en el moment de signar el contracte, abans de gaudir-ne. Quina forma de gestió és?",
+      "options": [
+        "Pagament anticipat",
+        "Pagament al comptat",
+        "Pagament ajornat fraccionat",
+        "Pagament contra reemborsament"
+      ],
+      "correct": 0,
+      "explanation": "En un servei, el pagament anticipat es pot fer en signar el contracte o demanar la cita."
+    },
+    {
+      "id": "uf0519-b5-034",
+      "block": "uf0519-bloc-5",
+      "topic": "Pagament parcial",
+      "question": "Si una part de l’import es paga al comptat i la resta s’ajorna, de quin tipus de pagament ajornat es tracta?",
+      "options": [
+        "Fraccionat",
+        "Parcial",
+        "Un sol pagament",
+        "Anticipat"
+      ],
+      "correct": 1,
+      "explanation": "El pagament parcial combina una part al comptat amb una altra part ajornada."
+    },
+    {
+      "id": "uf0519-b5-037",
+      "block": "uf0519-bloc-5",
+      "topic": "Pagament en efectiu",
+      "question": "En una operació en què participa un empresari o professional, què passa amb un pagament en efectiu de 1.000 € exactes?",
+      "options": [
+        "És admissible perquè el límit només afecta imports superiors a 1.000 €",
+        "No es pot fer en efectiu perquè el límit afecta imports iguals o superiors a 1.000 €",
+        "Només es pot fer si s’utilitzen menys de 50 monedes",
+        "Es pot fer si el pagador conserva un rebut"
+      ],
+      "correct": 1,
+      "explanation": "El material indica que no es poden fer pagaments en efectiu d’import igual o superior a 1.000 € quan hi participa un empresari o professional."
+    },
+    {
+      "id": "uf0519-b5-038",
+      "block": "uf0519-bloc-5",
+      "topic": "Pagament en efectiu",
+      "question": "Quina regla indica el material sobre el nombre de monedes en un mateix pagament?",
+      "options": [
+        "No hi ha obligació d’acceptar més de 50 monedes, excepte en caixes públiques",
+        "El màxim és de 50 monedes també a les caixes públiques",
+        "S’han d’acceptar fins a 100 monedes si són d’euro",
+        "La limitació només s’aplica als pagaments entre empreses"
+      ],
+      "correct": 0,
+      "explanation": "No hi ha obligació d’acceptar més de 50 monedes en un mateix pagament, excepte en caixes públiques."
+    },
+    {
+      "id": "uf0519-b5-039",
+      "block": "uf0519-bloc-5",
+      "topic": "Domiciliació bancària",
+      "question": "Què necessita una domiciliació bancària segons el material?",
+      "options": [
+        "Un xec conformat i el número de factura",
+        "Una ordre verbal del proveïdor i un rebut",
+        "Una targeta de crèdit associada al servei",
+        "El número de compte i l’autorització del titular"
+      ],
+      "correct": 3,
+      "explanation": "La domiciliació consisteix a donar una ordre de pagament a través del número de compte i l’autorització del titular."
+    },
+    {
+      "id": "uf0519-b5-040",
+      "block": "uf0519-bloc-5",
+      "topic": "Contra reemborsament",
+      "question": "Quina afirmació descriu correctament el pagament contra reemborsament?",
+      "options": [
+        "El comprador paga abans que el venedor prepari la comanda",
+        "El banc carrega automàticament l’import cada mes",
+        "El comprador paga quan rep la comanda i pot haver-hi una comissió o cost addicional",
+        "El venedor cobra mitjançant un pagaré amb venciment posterior"
+      ],
+      "correct": 2,
+      "explanation": "En el contra reemborsament el pagament es fa en el lliurament i pot comportar una comissió o cost addicional."
+    },
+    {
+      "id": "uf0519-b5-041",
+      "block": "uf0519-bloc-5",
+      "topic": "Pagament mòbil",
+      "question": "Quin conjunt recull les tres opcions habituals de pagament mòbil que descriu el material?",
+      "options": [
+        "Domiciliacions, pagarés i xecs creuats",
+        "Transferències entre usuaris, compres en línia i pagaments físics amb NFC",
+        "Ingressos en compte, efectiu i avals bancaris",
+        "Factures simplificades, rebuts i conciliacions bancàries"
+      ],
+      "correct": 1,
+      "explanation": "El material agrupa el pagament mòbil en transferències entre usuaris, compres en línia i pagaments en establiments amb NFC."
+    },
+    {
+      "id": "uf0519-b5-042",
+      "block": "uf0519-bloc-5",
+      "topic": "Tecnologia NFC",
+      "question": "Quina tecnologia permet pagar apropant un mòbil compatible al terminal de pagament?",
+      "options": [
+        "NFC",
+        "IBAN",
+        "SEPA",
+        "PIN"
+      ],
+      "correct": 0,
+      "explanation": "La tecnologia NFC permet el pagament de proximitat entre el mòbil compatible i el terminal."
+    },
+    {
+      "id": "uf0519-b5-044",
+      "block": "uf0519-bloc-5",
+      "topic": "Autenticació reforçada",
+      "question": "Quins mecanismes cita el material com a exemples d’autenticació reforçada en pagaments amb targeta per internet?",
+      "options": [
+        "Número de factura, CIF i data de compra",
+        "Signatura manuscrita, segell i albarà",
+        "Aplicació bancària, biometria o codis d’un sol ús",
+        "IBAN, concepte de transferència i rebut"
+      ],
+      "correct": 2,
+      "explanation": "El material cita l’aplicació bancària, la biometria, codis d’un sol ús o altres mecanismes de verificació."
+    },
+    {
+      "id": "uf0519-b5-043",
+      "block": "uf0519-bloc-5",
+      "topic": "Pagaments online i offline",
+      "question": "Segons la classificació del material, quina parella diferencia correctament un pagament offline d’un online?",
+      "options": [
+        "Targeta en TPV virtual = offline; ingrés en compte = online",
+        "Bizum al comerç = offline; contra reemborsament = online",
+        "Cartera digital = offline; PayPal = offline",
+        "Transferència bancària = offline; targeta mitjançant TPV virtual = online"
+      ],
+      "correct": 3,
+      "explanation": "El material situa la transferència bancària entre els mètodes offline i la targeta via TPV virtual entre els online."
+    },
+    {
+      "id": "uf0519-b5-045",
+      "block": "uf0519-bloc-5",
+      "topic": "Justificant i factura",
+      "question": "Quina diferència estableix el material entre el justificant de pagament i la factura?",
+      "options": [
+        "El justificant documenta la venda i la factura només acredita el pagament",
+        "El justificant acredita que s’ha pagat; la factura documenta l’operació de venda",
+        "El comprovant del TPV substitueix la factura quan hi ha targeta",
+        "La factura només és necessària si el pagament és ajornat"
+      ],
+      "correct": 1,
+      "explanation": "El justificant acredita el pagament, mentre que la factura documenta l’operació de venda; el comprovant del TPV no substitueix la factura."
+    },
+    {
+      "id": "uf0519-b5-046",
+      "block": "uf0519-bloc-5",
+      "topic": "Xec",
+      "question": "Què és un xec segons el material?",
+      "options": [
+        "Un document mercantil pel qual una persona dona al banc una ordre de pagament a càrrec del seu compte",
+        "Una promesa del beneficiari de retornar un import al banc",
+        "Una autorització per domiciliar pagaments periòdics al compte del proveïdor",
+        "Un justificant que acredita una transferència ja executada"
+      ],
+      "correct": 0,
+      "explanation": "El xec és una ordre de pagament dirigida a una entitat bancària i carregada al compte de qui l’emet."
+    },
+    {
+      "id": "uf0519-b5-048",
+      "block": "uf0519-bloc-5",
+      "topic": "Impagament del xec",
+      "question": "Què pot passar si s’emet un xec sense fons suficients?",
+      "options": [
+        "El xec queda automàticament anul·lat i deixa de tenir efectes",
+        "El banc el converteix en un pagaré amb venciment",
+        "El xec continua essent vàlid, però pot resultar impagat i generar responsabilitats",
+        "El beneficiari passa a ser el lliurat del xec"
+      ],
+      "correct": 2,
+      "explanation": "La manca de fons no invalida automàticament el xec, però pot provocar l’impagament i responsabilitats per a l’emissor."
+    },
+    {
+      "id": "uf0519-b5-047",
+      "block": "uf0519-bloc-5",
+      "topic": "Intervinents del xec",
+      "question": "Quina correspondència entre intervinents d’un xec és correcta?",
+      "options": [
+        "Lliurador = banc; lliurat = beneficiari; prenedor = qui signa",
+        "Lliurador = beneficiari; lliurat = qui endossa; prenedor = banc",
+        "Lliurador = banc; lliurat = qui emet; prenedor = qui autoritza",
+        "Lliurador = qui emet i signa; lliurat = banc que paga; prenedor = qui té dret a cobrar"
+      ],
+      "correct": 3,
+      "explanation": "El lliurador emet i signa, el lliurat és l’entitat bancària i el prenedor o beneficiari té dret a cobrar."
+    },
+    {
+      "id": "uf0519-b5-049",
+      "block": "uf0519-bloc-5",
+      "topic": "Endossament del xec",
+      "question": "Quina menció impedeix que un xec es pugui endossar?",
+      "options": [
+        "«Per abonar en compte»",
+        "«No a l’ordre»",
+        "«Xec conformat»",
+        "«Pagament a la vista»"
+      ],
+      "correct": 1,
+      "explanation": "El material indica que un xec no es podrà endossar si inclou la menció «no a l’ordre»."
+    },
+    {
+      "id": "uf0519-b5-051",
+      "block": "uf0519-bloc-5",
+      "topic": "Xec conformat",
+      "question": "Què aporta un xec conformat respecte d’un xec ordinari?",
+      "options": [
+        "Permet cobrar sense identificar el beneficiari",
+        "Fa que el xec sigui endossable encara que digui «no a l’ordre»",
+        "Converteix el pagament en una transferència immediata",
+        "El banc confirma que hi ha fons suficients per pagar-lo i dona més seguretat al cobrament"
+      ],
+      "correct": 3,
+      "explanation": "En el xec conformat el banc confirma l’existència de fons suficients, cosa que augmenta la seguretat del beneficiari."
+    },
+    {
+      "id": "uf0519-b5-050",
+      "block": "uf0519-bloc-5",
+      "topic": "Xec creuat",
+      "question": "Com s’identifica i com es cobra habitualment un xec creuat?",
+      "options": [
+        "Porta dues línies paral·leles a l’anvers i normalment s’ha d’ingressar en un compte",
+        "Porta la signatura del banc al dors i es cobra en efectiu",
+        "Inclou la menció «no a l’ordre» i es cobra per domiciliació",
+        "Indica el venciment i es presenta com un pagaré"
+      ],
+      "correct": 0,
+      "explanation": "El xec creuat porta dues línies paral·leles a l’anvers i normalment no es cobra directament en efectiu."
+    },
+    {
+      "id": "uf0519-b5-052",
+      "block": "uf0519-bloc-5",
+      "topic": "Rebut",
+      "question": "Qui són les dues parts habituals d’un rebut?",
+      "options": [
+        "Lliurador i lliurat",
+        "Avalat i avalista",
+        "Emissor que cobra i pagador que fa el pagament",
+        "Endossant i prenedor"
+      ],
+      "correct": 2,
+      "explanation": "En el rebut, l’emissor és qui cobra i emet el document, i el pagador és qui efectua el pagament."
+    },
+    {
+      "id": "uf0519-b5-053",
+      "block": "uf0519-bloc-5",
+      "topic": "Contingut del rebut",
+      "question": "Quin conjunt recull dades pròpies del contingut bàsic d’un rebut?",
+      "options": [
+        "Data, IBAN, límit de crèdit i venciment",
+        "Data, emissor, pagador, import, concepte i forma de pagament",
+        "Ordre del dia, assistents, acords i votacions",
+        "Base de cotització, deduccions, salari net i IRPF"
+      ],
+      "correct": 1,
+      "explanation": "El rebut identifica el pagament amb dades com la data, emissor, pagador, import, concepte i forma de pagament; pot incloure signatura o segell."
+    },
+    {
+      "id": "uf0519-b5-054",
+      "block": "uf0519-bloc-5",
+      "topic": "Transferència i ingrés en compte",
+      "question": "Quina diferència hi ha entre una transferència bancària i un ingrés en compte?",
+      "options": [
+        "La transferència mou diners d’un compte a un altre; l’ingrés introdueix efectiu o un xec directament en un compte",
+        "La transferència introdueix efectiu al compte; l’ingrés sempre mou diners entre dos comptes",
+        "La transferència requereix targeta; l’ingrés requereix pagaré",
+        "No hi ha diferència funcional entre totes dues operacions"
+      ],
+      "correct": 0,
+      "explanation": "La transferència ordena enviar diners entre comptes; l’ingrés diposita diners en efectiu o un xec directament en un compte."
+    },
+    {
+      "id": "uf0519-b5-055",
+      "block": "uf0519-bloc-5",
+      "topic": "Transferència immediata",
+      "question": "Quina característica defineix una transferència immediata segons el material?",
+      "options": [
+        "S’abona habitualment el dia hàbil següent",
+        "Funciona de dilluns a divendres en horari bancari",
+        "Necessita una ordre prèvia amb 24 hores d’antelació",
+        "Els diners arriben en pocs segons i funciona 24 hores tots els dies de l’any"
+      ],
+      "correct": 3,
+      "explanation": "La transferència immediata permet que els diners arribin en segons i està disponible 24/7, també caps de setmana i festius."
+    },
+    {
+      "id": "uf0519-b5-056",
+      "block": "uf0519-bloc-5",
+      "topic": "Precaucions en transferències",
+      "question": "Quines dades convé revisar abans d’autoritzar una transferència?",
+      "options": [
+        "Número de factura, tipus d’IVA, descompte i total",
+        "PIN, límit de targeta, saldo de caixa i comissió",
+        "IBAN, nom del destinatari, import i concepte",
+        "Número de xec, endossant, avalista i venciment"
+      ],
+      "correct": 2,
+      "explanation": "Abans d’autoritzar una transferència cal revisar l’IBAN, el nom del destinatari, l’import i el concepte."
+    },
+    {
+      "id": "uf0519-b5-057",
+      "block": "uf0519-bloc-5",
+      "topic": "Targeta de dèbit i crèdit",
+      "question": "Quina diferència bàsica estableix el material entre targeta de dèbit i targeta de crèdit?",
+      "options": [
+        "La de dèbit utilitza crèdit del banc i la de crèdit diners del compte",
+        "La de dèbit utilitza diners disponibles al compte; la de crèdit utilitza crèdit concedit per l’entitat",
+        "Totes dues carreguen necessàriament l’import de manera immediata",
+        "La de crèdit no té cap límit establert contractualment"
+      ],
+      "correct": 1,
+      "explanation": "La targeta de dèbit carrega l’import al compte associat; la de crèdit permet utilitzar un límit de crèdit que s’ha de retornar."
+    },
+    {
+      "id": "uf0519-b5-058",
+      "block": "uf0519-bloc-5",
+      "topic": "Pagaré",
+      "question": "Què passa si un pagaré no indica el venciment?",
+      "options": [
+        "S’ha de pagar a la vista",
+        "Queda anul·lat",
+        "Es converteix en xec",
+        "El beneficiari fixa unilateralment el venciment"
+      ],
+      "correct": 0,
+      "explanation": "Entre els requisits del pagaré, el material assenyala que, si el venciment no consta, s’ha de pagar a la vista."
+    },
+    {
+      "id": "uf0519-b5-059",
+      "block": "uf0519-bloc-5",
+      "topic": "Targeta de crèdit",
+      "question": "Com es pot retornar l’import utilitzat amb una targeta de crèdit?",
+      "options": [
+        "Mitjançant una domiciliació que elimina el límit de crèdit",
+        "Amb un ingrés en efectiu obligatori abans de cada compra",
+        "Amb una transferència immediata després de cada operació",
+        "Amb pagament total en una data o de manera ajornada/fraccionada, que pot comportar interessos i costos"
+      ],
+      "correct": 3,
+      "explanation": "La targeta de crèdit pot liquidar-se totalment en una data o de forma ajornada/fraccionada; aquesta última pot comportar interessos i altres costos."
+    },
+    {
+      "id": "uf0519-b5-060",
+      "block": "uf0519-bloc-5",
+      "topic": "Aval bancari",
+      "question": "Quina correspondència entre les parts d’un aval bancari és correcta?",
+      "options": [
+        "Avalat = banc; avalista = beneficiari; beneficiari = client",
+        "Avalat = creditor; avalista = client; beneficiari = banc",
+        "Avalat = client que sol·licita l’aval; avalista = banc que garanteix; beneficiari = qui rep la garantia",
+        "Avalat = qui cobra; avalista = proveïdor; beneficiari = qui pignora"
+      ],
+      "correct": 2,
+      "explanation": "En l’aval bancari, l’avalat és el client, l’avalista és l’entitat bancària i el beneficiari rep la garantia."
+    },
+    {
+      "id": "uf0519-b5-061",
+      "block": "uf0519-bloc-5",
+      "topic": "Pignoració",
+      "question": "Què significa pignorar en el context d’un aval bancari?",
+      "options": [
+        "Transferir definitivament al banc la propietat dels diners",
+        "Deixar diners o altres actius afectats com a garantia, que poden quedar bloquejats mentre l’aval sigui vigent",
+        "Endossar l’aval a una altra entitat perquè el cobri",
+        "Convertir l’aval econòmic en un aval tècnic"
+      ],
+      "correct": 1,
+      "explanation": "La pignoració afecta diners o actius com a contragarantia; pot ser total o parcial i els actius poden quedar bloquejats mentre l’aval és vigent."
+    }
+  ]
+}

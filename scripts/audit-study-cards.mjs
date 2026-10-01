@@ -24,7 +24,7 @@ const EXPECTED={
   'uf0519-bloc-2':57,
   'uf0519-bloc-3':35,
   'uf0519-bloc-4':37,
-  'uf0519-bloc-5':35
+  'uf0519-bloc-5':71
 };
 
 function mergeQuestionObjects(items){
@@ -69,7 +69,7 @@ export async function runStudyCardsAudit(){
     }
   }
 
-  if(coreCards!==918)errors.push('nucli: '+coreCards+'/918 targetes');
+  if(coreCards!==948)errors.push('nucli: '+coreCards+'/918 targetes');
 
   const coreOverrides=extra.coreOverrides||{};
   const standaloneRiskPhrasesCa=[
@@ -121,7 +121,7 @@ export async function runStudyCardsAudit(){
   }
 
   if(!Array.isArray(extra.languages)||!extra.languages.includes('ca')||!extra.languages.includes('es'))errors.push('extra: idiomes CA/ES incomplets');
-  if(extra.cards?.length!==78)errors.push('extra: '+(extra.cards?.length||0)+'/78 targetes');
+  if(extra.cards?.length!==84)errors.push('extra: '+(extra.cards?.length||0)+'/84 targetes');
 
   const ids=new Set();
   const extraQuestions={ca:new Set(),es:new Set()};
@@ -158,7 +158,7 @@ export async function runStudyCardsAudit(){
     if(combined!==EXPECTED[block.id])errors.push(block.id+': '+combined+'/'+EXPECTED[block.id]+' targetes totals');
   }
 
-  if(totalCards!==996)errors.push('total: '+totalCards+'/996 targetes');
+  if(totalCards!==1032)errors.push('total: '+totalCards+'/1032 targetes');
 
   return {
     coreCards,
