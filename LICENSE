@@ -1,0 +1,27 @@
+# Licensing
+
+Repàs Actiu contains both software and educational/content assets. They do not share the same licensing scope.
+
+## Software
+
+Original software source code, application logic, scripts, tests, build tooling, styles, and repository automation authored for this project are licensed under the **Apache License 2.0**. The full license text is in `LICENSES/Apache-2.0.txt`.
+
+## Educational content and traceability
+
+The Apache-2.0 grant does **not** automatically apply to educational question banks, translations, flashcards, answer/explanation text, source-traceability datasets, or other content derived from or mapped to teaching materials.
+
+Those materials are published for the operation, validation, and study purpose of Repàs Actiu. No additional rights are granted here in any third-party source material beyond the rights held by their respective owners.
+
+Examples of content-oriented paths include, but are not limited to:
+
+- `site/data/`
+- `docs/content/`
+- test fixtures that reproduce or map educational content
+
+## Third-party material
+
+Third-party names, source materials, and other third-party content remain subject to their original rights and terms.
+
+## Interpretation
+
+When in doubt, do not infer that Apache-2.0 covers educational/source-derived content merely because it is stored in the same repository. The software license applies to original software/tooling; content rights are separate.
