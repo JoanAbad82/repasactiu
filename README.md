@@ -19,6 +19,17 @@ Curs inicial: **Operacions auxiliars de serveis administratius i generals**.
 
 Producció: https://repasactiu.pages.dev
 
+## Resum tècnic / Technical summary
+
+- **Rol / Role:** plataforma estàtica d'estudi bilingüe amb contingut validat i traçabilitat de fonts.
+- **Contingut canònic / Canonical content:** català; la versió castellana conserva identificadors i índexs de resposta correcta.
+- **Autoritat acadèmica / Academic authority:** els materials docents oficials disponibles; les propostes externes no substitueixen aquesta autoritat.
+- **Traçabilitat / Traceability:** fitxers machine-readable sota `docs/content/` i dades relacionades connecten contingut publicat amb la seva font.
+- **Validació / Validation:** CI executa `npm run test:all` i `npm run build` sobre pull requests.
+- **Runtime:** sense comptes ni backend d'aplicació; progrés i preferències es guarden localment al navegador.
+- **Agents:** `AGENTS.md` defineix fonts canòniques, límits de producció/recerca i definició de terminat.
+- **Llicència / License:** el software propi està sota Apache-2.0; el contingut educatiu i derivat de fonts té una frontera de drets separada descrita a `LICENSE`.
+
 ### Banc de preguntes
 
 El banc es basa exclusivament en els materials docents originals disponibles. Les preguntes incorporen casos d’aplicació, comparació entre conceptes pròxims i distractors del mateix àmbit, mantenint una sola resposta inequívocament correcta.
