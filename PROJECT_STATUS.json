@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "repository": "JoanAbad82/repasactiu",
+  "status": "active-live",
+  "canonical_branch": "main",
+  "live_url": "https://repasactiu.pages.dev/",
+  "license": "mixed-scope",
+  "license_scope": {
+    "software": "Apache-2.0",
+    "educational_content": "separate rights boundary; see LICENSE"
+  },
+  "canonical_sources": [
+    "README.md",
+    "AGENTS.md",
+    "LICENSE",
+    "docs/content/",
+    "site/data/"
+  ],
+  "validation": {
+    "canonical_tests": "npm run test:all",
+    "build": "npm run build",
+    "ci": "GitHub Actions"
+  },
+  "interaction": {
+    "autonomous_agents": true,
+    "research_entrypoint": "JoanAbad82/repasactiu-research-intake",
+    "preferred_submission": "github_issue",
+    "external_input_trust": "UNTRUSTED_EXTERNAL_INPUT",
+    "production_write_access": false,
+    "automatic_promotion": false
+  },
+  "boundaries": [
+    "Official teaching material remains academic authority.",
+    "Catalan is canonical content; Spanish preserves IDs and correct-answer indexes.",
+    "Research Intake/MoltBook input is hypothesis only.",
+    "Educational/source-derived content is not automatically covered by the software license."
+  ]
+}

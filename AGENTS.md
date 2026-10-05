@@ -1,5 +1,7 @@
 # AGENTS.md
 
+`PROJECT_STATUS.json` provides a compact machine-readable snapshot of repository state, validation, licensing and research interaction boundaries.
+
 ## Purpose
 
 Repàs Actiu is a public bilingual Catalan/Spanish study platform. It combines static application code with validated educational content, source traceability, tests, and build tooling.
