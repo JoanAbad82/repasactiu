@@ -11,9 +11,10 @@ import {loadCommercialCorrespondence} from './commercial-correspondence.js';
 import {loadPayrollExample,createPracticalExamples} from './practical-examples.js';
 import {loadAdministrativeExercises} from './administrative-exercises.js';
 import {loadTreasuryPractice} from './treasury-practice.js';
+import {createHangman} from './hangman.js';
 
 const els={
- home:document.querySelector('#home-screen'),setup:document.querySelector('#setup-screen'),quiz:document.querySelector('#quiz-screen'),results:document.querySelector('#results-screen'),review:document.querySelector('#review-screen'),study:document.querySelector('#study-cards-screen'),dictionary:document.querySelector('#concept-dictionary-screen'),correspondence:document.querySelector('#commercial-correspondence-screen'),live:document.querySelector('#live-region'),
+ home:document.querySelector('#home-screen'),setup:document.querySelector('#setup-screen'),quiz:document.querySelector('#quiz-screen'),results:document.querySelector('#results-screen'),review:document.querySelector('#review-screen'),study:document.querySelector('#study-cards-screen'),dictionary:document.querySelector('#concept-dictionary-screen'),correspondence:document.querySelector('#commercial-correspondence-screen'),hangman:document.querySelector('#hangman-screen'),live:document.querySelector('#live-region'),
  syllabus:document.querySelector('#syllabus-link'),reviewErrors:document.querySelector('#review-errors-link'),studyLink:document.querySelector('#study-cards-link'),dictionaryLink:document.querySelector('#concept-dictionary-link'),correspondenceLink:document.querySelector('#commercial-correspondence-link'),theme:document.querySelector('#theme-toggle'),langCa:document.querySelector('#language-ca'),langEs:document.querySelector('#language-es'),nav:document.querySelector('.site-header nav'),languageGroup:document.querySelector('.language-switcher')
 };
 const chromeCopy={
@@ -21,7 +22,7 @@ const chromeCopy={
  es:{syllabus:'Temario',review:'Repasar errores',study:'Tarjetas de memoria',dictionary:'Diccionario',correspondence:'Ejemplos prácticos',theme:'Claro/Oscuro',themeAria:'Claro/Oscuro — cambiar modo de color',nav:'Navegación principal',language:'Idioma',all:'Todo el temario disponible',syllabusFallback:'Temario',block:'Bloque',leave:'¿Quieres abandonar el test en curso?',correct:'Respuesta correcta',incorrect:'Respuesta incorrecta',back:'← Volver',emptyTitle:'Todavía no tienes preguntas pendientes de repaso',emptyText:'Cuando falles alguna pregunta, aparecerá aquí para reforzarla.',reset:'¿Quieres borrar el historial, las estadísticas y los errores pendientes?',loadError:'No se ha podido cargar el temario.',retry:'Vuelve a intentarlo.'}
 };
 
-let course=null,banks=[],studyBank=null,studyCards=null,dictionaryBank=null,keyListsBank=null,dictionaryView=null,correspondenceBank=null,payrollBank=null,administrativeBank=null,treasuryBank=null,correspondenceView=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
+let course=null,banks=[],studyBank=null,studyCards=null,dictionaryBank=null,keyListsBank=null,dictionaryView=null,correspondenceBank=null,payrollBank=null,administrativeBank=null,treasuryBank=null,correspondenceView=null,hangmanView=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
 const prefersDark=()=>window.matchMedia?.('(prefers-color-scheme: dark)').matches??false;
 const language=()=>state.language==='es'?'es':'ca';
 const t=()=>chromeCopy[language()];
@@ -59,10 +60,14 @@ function exitDictionaryMode(){
 function exitCorrespondenceMode(){
  if(correspondenceView){correspondenceView.destroy();correspondenceView=null;}
 }
+function exitHangmanMode(){
+ if(hangmanView){hangmanView.destroy();hangmanView=null;}
+}
 function exitLearningTools(){
  exitStudyMode();
  exitDictionaryMode();
  exitCorrespondenceMode();
+ exitHangmanMode();
 }
 function goHome(){if(!askLeave())return;session=null;lastResult=null;exitLearningTools();renderHome();}
 function openStudyCards(){
@@ -88,9 +93,20 @@ function openCommercialCorrespondence(){
  session=null;lastResult=null;
  exitStudyMode();
  exitDictionaryMode();
+ exitHangmanMode();
  if(correspondenceView)correspondenceView.destroy();
  correspondenceView=createPracticalExamples({screen:els.correspondence,correspondenceBank,payrollBank,administrativeBank,treasuryBank,language:language(),onHome:goHome});
  displayScreen('commercial-correspondence-screen');
+}
+function openHangman(){
+ if(!askLeave())return;
+ session=null;lastResult=null;
+ exitStudyMode();
+ exitDictionaryMode();
+ exitCorrespondenceMode();
+ if(hangmanView)hangmanView.destroy();
+ hangmanView=createHangman({screen:els.hangman,bank:dictionaryBank,language:language(),onHome:goHome});
+ displayScreen('hangman-screen');
 }
 
 function setupContext(){
@@ -125,14 +141,14 @@ function currentResult(){return {...lastResult,breakdown:buildBreakdown(localize
 function renderResultsScreen(){els.results.innerHTML=renderResultsHtml(currentResult(),language());displayScreen('results-screen');els.results.querySelector('#review-answers').addEventListener('click',renderReviewScreen);els.results.querySelector('[data-action="home"]').addEventListener('click',()=>{session=null;lastResult=null;renderHome();});}
 function renderReviewScreen(){const items=session.questions.map(q=>({question:localizedQuestion(q),selected:session.answers[q.id]??null}));els.review.innerHTML=renderReviewHtml(items,language());displayScreen('review-screen');els.review.querySelector('[data-action="results"]').addEventListener('click',renderResultsScreen);}
 function finishQuiz(){if(isExamMode(session.mode)){for(const q of session.questions){const selected=session.answers[q.id];const outcome=selected==null?'blank':selected===q.correct?'correct':'incorrect';state=recordAttempt(state,q.id,outcome);}}const score=scoreQuiz(session.questions,session.answers,session.penaltyEnabled);state=appendHistory(state,{id:crypto.randomUUID?.()||String(Date.now()),completedAt:new Date().toISOString(),selection:(setup.review||setup.mode==='review')?'review':selection,mode:session.mode,requestedCount:setup.count,penaltyEnabled:session.penaltyEnabled,...score});saveState(state);session.finished=true;lastResult={score,breakdown:{byBlock:{},byTopic:{}},penaltyEnabled:session.penaltyEnabled};renderResultsScreen();}
-function rerenderCurrentScreen(){syncLanguageChrome();if(currentScreen==='home-screen')renderHome();else if(currentScreen==='setup-screen'){if(els.setup.querySelector('.empty-state'))renderEmptyReview();else renderSetupScreen();}else if(currentScreen==='quiz-screen'&&session)renderCurrent();else if(currentScreen==='results-screen'&&lastResult)renderResultsScreen();else if(currentScreen==='review-screen'&&session)renderReviewScreen();else if(currentScreen==='study-cards-screen'){studyCards?.setLanguage(language());}else if(currentScreen==='concept-dictionary-screen'){dictionaryView?.setLanguage(language());}else if(currentScreen==='commercial-correspondence-screen'){correspondenceView?.setLanguage(language());}}
+function rerenderCurrentScreen(){syncLanguageChrome();if(currentScreen==='home-screen')renderHome();else if(currentScreen==='setup-screen'){if(els.setup.querySelector('.empty-state'))renderEmptyReview();else renderSetupScreen();}else if(currentScreen==='quiz-screen'&&session)renderCurrent();else if(currentScreen==='results-screen'&&lastResult)renderResultsScreen();else if(currentScreen==='review-screen'&&session)renderReviewScreen();else if(currentScreen==='study-cards-screen'){studyCards?.setLanguage(language());}else if(currentScreen==='concept-dictionary-screen'){dictionaryView?.setLanguage(language());}else if(currentScreen==='commercial-correspondence-screen'){correspondenceView?.setLanguage(language());}else if(currentScreen==='hangman-screen'){hangmanView?.setLanguage(language());}}
 function setLanguage(lang){if(lang!=='ca'&&lang!=='es')return;if(state.language===lang){syncLanguageChrome();return;}state.language=lang;saveState(state);rerenderCurrentScreen();}
 
 function bindGlobal(){
  document.querySelector('#home-link').addEventListener('click',goHome);els.syllabus.addEventListener('click',goHome);els.reviewErrors.addEventListener('click',()=>openSetup('all',true));els.studyLink.addEventListener('click',openStudyCards);els.dictionaryLink.addEventListener('click',openConceptDictionary);els.correspondenceLink.addEventListener('click',openCommercialCorrespondence);
  els.langCa.addEventListener('click',()=>setLanguage('ca'));els.langEs.addEventListener('click',()=>setLanguage('es'));
  els.theme.addEventListener('click',()=>{const current=resolveTheme(state.theme,prefersDark());state.theme=current==='dark'?'light':'dark';saveState(state);syncTheme();});
- els.home.addEventListener('click',e=>{const card=e.target.closest('[data-block-card]');if(card)openSetup(card.dataset.selection,false);if(e.target.closest('#reset-progress')){if(window.confirm(t().reset)){resetProgress();state=loadState();syncTheme();syncLanguageChrome();renderHome();}}});
+ els.home.addEventListener('click',e=>{if(e.target.closest('#hangman-card')){openHangman();return;}const card=e.target.closest('[data-block-card]');if(card)openSetup(card.dataset.selection,false);if(e.target.closest('#reset-progress')){if(window.confirm(t().reset)){resetProgress();state=loadState();syncTheme();syncLanguageChrome();renderHome();}}});
 }
 async function init(){try{syncTheme();syncLanguageChrome();[course,studyBank,dictionaryBank,keyListsBank,correspondenceBank,payrollBank,administrativeBank,treasuryBank]=await Promise.all([loadCourse(),loadStudyCardsBank(),loadConceptDictionary(),loadKeyLists(),loadCommercialCorrespondence(),loadPayrollExample(),loadAdministrativeExercises(),loadTreasuryPractice()]);const corrections=await loadContentCorrections();banks=await Promise.all(course.blocks.map(async meta=>{
  const [loadedBank,hard]=await Promise.all([
