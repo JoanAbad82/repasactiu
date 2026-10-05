@@ -24,7 +24,7 @@ const EXPECTED={
   'uf0519-bloc-2':57,
   'uf0519-bloc-3':35,
   'uf0519-bloc-4':37,
-  'uf0519-bloc-5':71
+  'uf0519-bloc-5':79
 };
 
 function mergeQuestionObjects(items){
@@ -69,7 +69,7 @@ export async function runStudyCardsAudit(){
     }
   }
 
-  if(coreCards!==948)errors.push('nucli: '+coreCards+'/918 targetes');
+  if(coreCards!==956)errors.push('nucli: '+coreCards+'/956 targetes');
 
   const coreOverrides=extra.coreOverrides||{};
   const standaloneRiskPhrasesCa=[
@@ -158,7 +158,7 @@ export async function runStudyCardsAudit(){
     if(combined!==EXPECTED[block.id])errors.push(block.id+': '+combined+'/'+EXPECTED[block.id]+' targetes totals');
   }
 
-  if(totalCards!==1032)errors.push('total: '+totalCards+'/1032 targetes');
+  if(totalCards!==1040)errors.push('total: '+totalCards+'/1040 targetes');
 
   return {
     coreCards,

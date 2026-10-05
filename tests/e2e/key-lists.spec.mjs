@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 
 async function openLists(page){
   await page.goto('/');
-  await expect(page.getByText('948 preguntes')).toBeVisible();
+  await expect(page.getByText('956 preguntes')).toBeVisible();
   await page.getByRole('button',{name:'Diccionari',exact:true}).click();
   await page.getByRole('button',{name:'Llistes clau',exact:true}).click();
 }

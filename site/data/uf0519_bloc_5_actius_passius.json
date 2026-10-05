@@ -1,0 +1,118 @@
+{
+  "blockId": "uf0519-bloc-5",
+  "blockTitle": "Actius i passius",
+  "questions": [
+    {
+      "id": "uf0519-b5-062",
+      "block": "uf0519-bloc-5",
+      "topic": "Actiu",
+      "question": "Què representa l’actiu d’una empresa?",
+      "options": [
+        "Els recursos i els drets amb valor econòmic",
+        "Les obligacions de pagament amb tercers",
+        "La diferència entre cobraments i pagaments",
+        "Els diners disponibles després de pagar deutes"
+      ],
+      "correct": 0,
+      "explanation": "L’actiu inclou béns, diners i drets de cobrament; no es limita als diners disponibles."
+    },
+    {
+      "id": "uf0519-b5-063",
+      "block": "uf0519-bloc-5",
+      "topic": "Passiu",
+      "question": "Què representa el passiu d’una empresa?",
+      "options": [
+        "Els drets de cobrament davant dels clients",
+        "Els deutes i les obligacions de pagament amb tercers",
+        "Els productes disponibles per vendre",
+        "El valor dels equips utilitzats en l’activitat"
+      ],
+      "correct": 1,
+      "explanation": "El passiu recull allò que l’empresa deu, com factures, préstecs, impostos o nòmines pendents."
+    },
+    {
+      "id": "uf0519-b5-064",
+      "block": "uf0519-bloc-5",
+      "topic": "Actiu corrent",
+      "question": "Com es classifiquen les existències destinades a vendre’s durant el cicle habitual de l’empresa?",
+      "options": [
+        "Com a passiu corrent",
+        "Com a actiu no corrent",
+        "Com a actiu corrent",
+        "Com a passiu no corrent"
+      ],
+      "correct": 2,
+      "explanation": "Les existències formen part de l’actiu corrent perquè es preveu vendre-les o consumir-les durant el cicle habitual."
+    },
+    {
+      "id": "uf0519-b5-065",
+      "block": "uf0519-bloc-5",
+      "topic": "Actiu no corrent",
+      "question": "Com es classifica una màquina que l’empresa utilitzarà en la producció durant diversos anys?",
+      "options": [
+        "Com a passiu no corrent",
+        "Com a actiu corrent",
+        "Com a passiu corrent",
+        "Com a actiu no corrent"
+      ],
+      "correct": 3,
+      "explanation": "La màquina és un recurs que roman a l’empresa més d’un any i s’utilitza en l’activitat."
+    },
+    {
+      "id": "uf0519-b5-066",
+      "block": "uf0519-bloc-5",
+      "topic": "Passiu corrent",
+      "question": "Com es classifica un deute que venç exactament d’aquí a dotze mesos?",
+      "options": [
+        "Com a passiu corrent",
+        "Com a passiu no corrent",
+        "Com a actiu corrent",
+        "Com a actiu no corrent"
+      ],
+      "correct": 0,
+      "explanation": "El passiu corrent inclou obligacions amb venciment de fins a un any, inclòs."
+    },
+    {
+      "id": "uf0519-b5-067",
+      "block": "uf0519-bloc-5",
+      "topic": "Passiu no corrent",
+      "question": "Com es classifica un deute amb venciment únic d’aquí a divuit mesos?",
+      "options": [
+        "Com a actiu no corrent",
+        "Com a passiu no corrent",
+        "Com a passiu corrent",
+        "Com a actiu corrent"
+      ],
+      "correct": 1,
+      "explanation": "El venciment supera un any, de manera que el deute és passiu no corrent."
+    },
+    {
+      "id": "uf0519-b5-068",
+      "block": "uf0519-bloc-5",
+      "topic": "Disponibilitat de tresoreria",
+      "question": "Una empresa té 500 € en caixa i 2.000 € pendents de cobrar d’aquí a trenta dies. Quants diners té disponibles ara, si no hi ha altres saldos?",
+      "options": [
+        "2.500 €",
+        "2.000 €",
+        "500 €",
+        "1.500 €"
+      ],
+      "correct": 2,
+      "explanation": "Els 2.000 € són un dret de cobrament, però encara no són diners disponibles. Ara disposa dels 500 € en caixa."
+    },
+    {
+      "id": "uf0519-b5-069",
+      "block": "uf0519-bloc-5",
+      "topic": "Préstec amb venciments repartits",
+      "question": "D’un préstec pendent de 10.000 €, s’han de tornar 2.000 € en els pròxims dotze mesos i 8.000 € després. Com es reparteix el passiu?",
+      "options": [
+        "10.000 € de passiu corrent",
+        "10.000 € de passiu no corrent",
+        "8.000 € de passiu corrent i 2.000 € de no corrent",
+        "2.000 € de passiu corrent i 8.000 € de no corrent"
+      ],
+      "correct": 3,
+      "explanation": "Cada part del capital es classifica pel seu venciment: fins a dotze mesos, corrent; després, no corrent."
+    }
+  ]
+}

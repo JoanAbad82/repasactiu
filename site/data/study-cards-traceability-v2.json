@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "date": "2026-10-01",
+  "date": "2026-10-05",
   "policy": "Flashcard source traceability. UF0517 core cards use section/topic page ranges; UF0518 and UF0519 core cards use per-question page ranges; semantic V2 changes override these with their audited page source; extra cards preserve their own page ranges. Teacher-validated ZIP sources from 2026-09-24 are canonical and take precedence. XLSX-backed core cards preserve archive/file/sheet/cells in questionLocations; chronology uses an explicit canonical surrogate so supplementary class material does not disturb the established source order.",
   "sources": {
     "B1": {
@@ -102,6 +102,11 @@
     "UF0519_U2_TRESORERIA": {
       "file": "2. Gestió_bàsica_tresoreria.pdf",
       "pages": 41
+    },
+    "UF0519_ACTIUS_PASSIUS": {
+      "file": "Activos y pasivos.pdf",
+      "pages": 5,
+      "sha256": "83b88944fe266e99886633404215b5e00371b9dc637f0fe9e08506b54833efc4"
     }
   },
   "blockSources": {
@@ -3485,6 +3490,62 @@
       "pageRange": [
         72,
         72
+      ]
+    },
+    "uf0519-b5-062": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        2,
+        2
+      ]
+    },
+    "uf0519-b5-063": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        2,
+        2
+      ]
+    },
+    "uf0519-b5-064": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    "uf0519-b5-065": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    "uf0519-b5-066": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ]
+    },
+    "uf0519-b5-067": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ]
+    },
+    "uf0519-b5-068": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        5,
+        5
+      ]
+    },
+    "uf0519-b5-069": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        5,
+        5
       ]
     }
   },

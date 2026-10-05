@@ -280,13 +280,16 @@
       "memoryAidFile": "data/memory/uf0519-bloc-5.json",
       "hardDistractorFile": "data/hard/uf0519-bloc-5.json",
       "additionalFiles": [
-        "data/uf0519_bloc_5_tresoreria_u2.json"
+        "data/uf0519_bloc_5_tresoreria_u2.json",
+        "data/uf0519_bloc_5_actius_passius.json"
       ],
       "additionalTranslationFiles": [
-        "data/i18n/es/uf0519-bloc-5-tresoreria-u2.json"
+        "data/i18n/es/uf0519-bloc-5-tresoreria-u2.json",
+        "data/i18n/es/uf0519-bloc-5-actius-passius.json"
       ],
       "additionalMemoryAidFiles": [
-        "data/memory/uf0519-bloc-5-tresoreria-u2.json"
+        "data/memory/uf0519-bloc-5-tresoreria-u2.json",
+        "data/memory/uf0519-bloc-5-actius-passius.json"
       ]
     }
   ]

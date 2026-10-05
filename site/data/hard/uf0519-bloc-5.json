@@ -732,6 +732,102 @@
         "Ceder al beneficiario el derecho a disponer de la cuenta del cliente",
         "Depositar el importe del aval en la cuenta del beneficiario hasta el vencimiento"
       ]
+    },
+    "uf0519-b5-062": {
+      "ca": [
+        "Els recursos menys les obligacions pendents",
+        "Els ingressos obtinguts durant l’exercici",
+        "Els cobraments registrats al compte bancari"
+      ],
+      "es": [
+        "Los recursos menos las obligaciones pendientes",
+        "Los ingresos obtenidos durante el ejercicio",
+        "Los cobros registrados en la cuenta bancaria"
+      ]
+    },
+    "uf0519-b5-063": {
+      "ca": [
+        "Els imports que els clients deuen a l’empresa",
+        "Les despeses ja pagades durant el mes",
+        "Els diners reservats al banc per a pagaments futurs"
+      ],
+      "es": [
+        "Los importes que los clientes deben a la empresa",
+        "Los gastos ya pagados durante el mes",
+        "El dinero reservado en el banco para pagos futuros"
+      ]
+    },
+    "uf0519-b5-064": {
+      "ca": [
+        "Com a diners disponibles en caixa",
+        "Com a recurs permanent, igual que una màquina",
+        "Com a obligació de pagament al proveïdor"
+      ],
+      "es": [
+        "Como dinero disponible en caja",
+        "Como recurso permanente, igual que una máquina",
+        "Como obligación de pago al proveedor"
+      ]
+    },
+    "uf0519-b5-065": {
+      "ca": [
+        "Com a existència per vendre en el cicle habitual",
+        "Com a obligació a llarg termini pel seu valor",
+        "Com a disponibilitat de tresoreria pel seu cost"
+      ],
+      "es": [
+        "Como existencia para vender en el ciclo habitual",
+        "Como obligación a largo plazo por su valor",
+        "Como disponibilidad de tesorería por su coste"
+      ]
+    },
+    "uf0519-b5-066": {
+      "ca": [
+        "Com a deute a llarg termini perquè arriba a un any",
+        "Com a dret de cobrament a curt termini",
+        "Com a recurs permanent fins al venciment"
+      ],
+      "es": [
+        "Como deuda a largo plazo porque alcanza un año",
+        "Como derecho de cobro a corto plazo",
+        "Como recurso permanente hasta el vencimiento"
+      ]
+    },
+    "uf0519-b5-067": {
+      "ca": [
+        "Com a deute corrent perquè ja existeix avui",
+        "Com a recurs a llarg termini fins que es pagui",
+        "Com a dret de cobrament a llarg termini"
+      ],
+      "es": [
+        "Como deuda corriente porque ya existe hoy",
+        "Como recurso a largo plazo hasta que se pague",
+        "Como derecho de cobro a largo plazo"
+      ]
+    },
+    "uf0519-b5-068": {
+      "ca": [
+        "2.500 €, sumant caixa i drets de cobrament",
+        "2.000 €, prenent el cobrament futur com a disponible",
+        "1.500 €, restant la caixa del cobrament pendent"
+      ],
+      "es": [
+        "2.500 €, sumando caja y derechos de cobro",
+        "2.000 €, tomando el cobro futuro como disponible",
+        "1.500 €, restando la caja del cobro pendiente"
+      ]
+    },
+    "uf0519-b5-069": {
+      "ca": [
+        "2.000 € d’actiu corrent i 8.000 € de passiu no corrent",
+        "8.000 € de passiu corrent i 2.000 € de no corrent",
+        "2.000 € de passiu corrent i 10.000 € de no corrent"
+      ],
+      "es": [
+        "2.000 € de activo corriente y 8.000 € de pasivo no corriente",
+        "8.000 € de pasivo corriente y 2.000 € de no corriente",
+        "2.000 € de pasivo corriente y 10.000 € de no corriente"
+      ]
     }
   }
 }

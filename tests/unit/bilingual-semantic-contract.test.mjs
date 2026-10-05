@@ -4,7 +4,7 @@ import {runBilingualContractAudit} from '../../scripts/audit-bilingual-contract.
 
 test('totes les preguntes publicades compleixen el contracte bilingüe i editorial estricte',async()=>{
   const result=await runBilingualContractAudit();
-  assert.equal(result.questions,948);
+  assert.equal(result.questions,956);
   assert.equal(result.translations,result.questions);
   assert.equal(result.memoryAids,result.questions);
   assert.equal(result.corrections,11);

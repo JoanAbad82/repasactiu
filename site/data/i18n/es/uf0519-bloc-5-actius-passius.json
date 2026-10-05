@@ -1,0 +1,94 @@
+{
+  "blockId": "uf0519-bloc-5",
+  "blockTitle": "Operaciones informáticas, tesorería, caja y control de material",
+  "questions": {
+    "uf0519-b5-062": {
+      "topic": "Activo",
+      "question": "¿Qué representa el activo de una empresa?",
+      "options": [
+        "Los recursos y derechos con valor económico",
+        "Las obligaciones de pago con terceros",
+        "La diferencia entre cobros y pagos",
+        "El dinero disponible después de pagar deudas"
+      ],
+      "explanation": "El activo incluye bienes, dinero y derechos de cobro; no se limita al dinero disponible."
+    },
+    "uf0519-b5-063": {
+      "topic": "Pasivo",
+      "question": "¿Qué representa el pasivo de una empresa?",
+      "options": [
+        "Los derechos de cobro frente a los clientes",
+        "Las deudas y obligaciones de pago con terceros",
+        "Los productos disponibles para vender",
+        "El valor de los equipos utilizados en la actividad"
+      ],
+      "explanation": "El pasivo recoge lo que la empresa debe, como facturas, préstamos, impuestos o nóminas pendientes."
+    },
+    "uf0519-b5-064": {
+      "topic": "Activo corriente",
+      "question": "¿Cómo se clasifican las existencias destinadas a venderse durante el ciclo habitual de la empresa?",
+      "options": [
+        "Como pasivo corriente",
+        "Como activo no corriente",
+        "Como activo corriente",
+        "Como pasivo no corriente"
+      ],
+      "explanation": "Las existencias forman parte del activo corriente porque se prevé venderlas o consumirlas durante el ciclo habitual."
+    },
+    "uf0519-b5-065": {
+      "topic": "Activo no corriente",
+      "question": "¿Cómo se clasifica una máquina que la empresa utilizará en la producción durante varios años?",
+      "options": [
+        "Como pasivo no corriente",
+        "Como activo corriente",
+        "Como pasivo corriente",
+        "Como activo no corriente"
+      ],
+      "explanation": "La máquina es un recurso que permanece en la empresa más de un año y se utiliza en la actividad."
+    },
+    "uf0519-b5-066": {
+      "topic": "Pasivo corriente",
+      "question": "¿Cómo se clasifica una deuda que vence exactamente dentro de doce meses?",
+      "options": [
+        "Como pasivo corriente",
+        "Como pasivo no corriente",
+        "Como activo corriente",
+        "Como activo no corriente"
+      ],
+      "explanation": "El pasivo corriente incluye obligaciones con vencimiento de hasta un año, incluido."
+    },
+    "uf0519-b5-067": {
+      "topic": "Pasivo no corriente",
+      "question": "¿Cómo se clasifica una deuda con vencimiento único dentro de dieciocho meses?",
+      "options": [
+        "Como activo no corriente",
+        "Como pasivo no corriente",
+        "Como pasivo corriente",
+        "Como activo corriente"
+      ],
+      "explanation": "El vencimiento supera un año, por lo que la deuda es pasivo no corriente."
+    },
+    "uf0519-b5-068": {
+      "topic": "Disponibilidad de tesorería",
+      "question": "Una empresa tiene 500 € en caja y 2.000 € pendientes de cobrar dentro de treinta días. ¿Cuánto dinero tiene disponible ahora, si no hay otros saldos?",
+      "options": [
+        "2.500 €",
+        "2.000 €",
+        "500 €",
+        "1.500 €"
+      ],
+      "explanation": "Los 2.000 € son un derecho de cobro, pero todavía no son dinero disponible. Ahora dispone de los 500 € en caja."
+    },
+    "uf0519-b5-069": {
+      "topic": "Préstamo con vencimientos repartidos",
+      "question": "De un préstamo pendiente de 10.000 €, se deben devolver 2.000 € en los próximos doce meses y 8.000 € después. ¿Cómo se reparte el pasivo?",
+      "options": [
+        "10.000 € de pasivo corriente",
+        "10.000 € de pasivo no corriente",
+        "8.000 € de pasivo corriente y 2.000 € de no corriente",
+        "2.000 € de pasivo corriente y 8.000 € de no corriente"
+      ],
+      "explanation": "Cada parte del capital se clasifica por su vencimiento: hasta doce meses, corriente; después, no corriente."
+    }
+  }
+}

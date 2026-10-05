@@ -1,0 +1,45 @@
+{
+  "blockId": "uf0519-bloc-5",
+  "questions": {
+    "uf0519-b5-062": {
+      "type": "idea",
+      "ca": "Actiu: allò que tens i allò que et deuen.",
+      "es": "Activo: lo que tienes y lo que te deben."
+    },
+    "uf0519-b5-063": {
+      "type": "idea",
+      "ca": "Passiu: pendent de pagar a altres.",
+      "es": "Pasivo: pendiente de pagar a otros."
+    },
+    "uf0519-b5-064": {
+      "type": "idea",
+      "ca": "Existències: es venen en el cicle habitual → actiu corrent.",
+      "es": "Existencias: se venden en el ciclo habitual → activo corriente."
+    },
+    "uf0519-b5-065": {
+      "type": "idea",
+      "ca": "Màquina que es queda anys → actiu no corrent.",
+      "es": "Máquina que permanece años → activo no corriente."
+    },
+    "uf0519-b5-066": {
+      "type": "idea",
+      "ca": "Dotze mesos inclosos → passiu corrent.",
+      "es": "Doce meses incluidos → pasivo corriente."
+    },
+    "uf0519-b5-067": {
+      "type": "idea",
+      "ca": "Deute a més d’un any → passiu no corrent.",
+      "es": "Deuda a más de un año → pasivo no corriente."
+    },
+    "uf0519-b5-068": {
+      "type": "idea",
+      "ca": "Pendent de cobrar no vol dir disponible ara.",
+      "es": "Pendiente de cobrar no significa disponible ahora."
+    },
+    "uf0519-b5-069": {
+      "type": "idea",
+      "ca": "Un préstec, dos terminis: cada part al seu grup.",
+      "es": "Un préstamo, dos plazos: cada parte en su grupo."
+    }
+  }
+}

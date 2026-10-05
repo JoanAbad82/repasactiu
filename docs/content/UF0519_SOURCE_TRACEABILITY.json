@@ -59,6 +59,11 @@
     "UF0519_U2_TRESORERIA": {
       "file": "2. Gestió_bàsica_tresoreria.pdf",
       "pages": 41
+    },
+    "UF0519_ACTIUS_PASSIUS": {
+      "file": "Activos y pasivos.pdf",
+      "pages": 5,
+      "sha256": "83b88944fe266e99886633404215b5e00371b9dc637f0fe9e08506b54833efc4"
     }
   },
   "questionTraces": [
@@ -1886,12 +1891,84 @@
         40
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-062",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        2,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-063",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        2,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-064",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-065",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-066",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-067",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-068",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        5,
+        5
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b5-069",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        5,
+        5
+      ],
+      "status": "PASS"
     }
   ],
   "review": {
-    "date": "2026-10-01",
-    "questionCount": 202,
-    "method": "Source-backed integration of UF0519 Unit 2 treasury PDF plus prior PDF/XLSX sources: deduplication, exact page/cell traceability, bilingual drafting, hard-mode validation and regression certification.",
+    "date": "2026-10-05",
+    "questionCount": 210,
+    "method": "Source-backed integration of UF0519 Unit 2 treasury PDF plus prior PDF/XLSX sources: deduplication, exact page/cell traceability, bilingual drafting, hard-mode validation and regression certification. Actius/passius: eight bilingual questions and core cards, individually mapped to PDF pages; source SHA-256 recorded.",
     "result": "PASS"
   },
   "corrections": []
