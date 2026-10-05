@@ -22,7 +22,7 @@ const fnv1a32=text=>{
   return hash.toString(16).padStart(8,'0');
 };
 const uf0517FinalCounts={"bloc-1":60,"bloc-2":80,"bloc-3":80,"bloc-4":70,"bloc-5":70,"unitat-2-bloc-1":150};
-const uf0519Counts={"uf0519-bloc-1":28,"uf0519-bloc-2":51,"uf0519-bloc-3":30,"uf0519-bloc-4":32,"uf0519-bloc-5":69};
+const uf0519Counts={"uf0519-bloc-1":28,"uf0519-bloc-2":51,"uf0519-bloc-3":30,"uf0519-bloc-4":32,"uf0519-bloc-5":61,"uf0519-bloc-6":20};
 test("les 320 preguntes prèvies mantenen exactament el mateix contingut encara que canviï l’ordre físic",async()=>{
   const course=await readJson("course.json");
   const legacy=[];
@@ -39,9 +39,9 @@ test("les 320 preguntes prèvies mantenen exactament el mateix contingut encara 
   assert.equal(fnv1a32(payload),"a5492016");
 });
 
-test("UF0517 manté 510 preguntes, UF0518 en té 236 i UF0519 n’afegeix 210",async()=>{
+test("UF0517 manté 510 preguntes, UF0518 en té 236 i UF0519 n’afegeix 222",async()=>{
   const course=await readJson("course.json");
-  assert.equal(course.blocks.length,14);
+  assert.equal(course.blocks.length,15);
   assert.deepEqual([...new Set(course.blocks.map(b=>b.unitId))],["unitat-1","unitat-2","uf0518","uf0519-unitat-1"]);
   let uf0517=0,uf0518=0,uf0519=0;
   for(const block of course.blocks){
@@ -61,11 +61,11 @@ test("UF0517 manté 510 preguntes, UF0518 en té 236 i UF0519 n’afegeix 210",a
   }
   assert.equal(uf0517,510);
   assert.equal(uf0518,236);
-  assert.equal(uf0519,210);
-  assert.equal(uf0517+uf0518+uf0519,956);
+  assert.equal(uf0519,222);
+  assert.equal(uf0517+uf0518+uf0519,968);
 });
 
-test("les 956 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
+test("les 968 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
   const course=await readJson("course.json");
   let total=0;
   for(const block of course.blocks){
@@ -88,5 +88,5 @@ test("les 956 preguntes tenen una ajuda de memòria bilingüe de màxim 144 car�
       total++;
     }
   }
-  assert.equal(total,956);
+  assert.equal(total,968);
 });

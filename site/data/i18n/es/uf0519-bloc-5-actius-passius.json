@@ -1,6 +1,6 @@
 {
-  "blockId": "uf0519-bloc-5",
-  "blockTitle": "Operaciones informáticas, tesorería, caja y control de material",
+  "blockId": "uf0519-bloc-6",
+  "blockTitle": "Activos y pasivos",
   "questions": {
     "uf0519-b5-062": {
       "topic": "Activo",
@@ -89,6 +89,138 @@
         "2.000 € de pasivo corriente y 8.000 € de no corriente"
       ],
       "explanation": "Cada parte del capital se clasifica por su vencimiento: hasta doce meses, corriente; después, no corriente."
+    },
+    "uf0519-b6-001": {
+      "topic": "Derechos de cobro",
+      "question": "Un cliente debe a la empresa una factura por una venta ya realizada. ¿Qué representa ese importe para la empresa?",
+      "options": [
+        "Un derecho de cobro dentro del activo",
+        "Una obligación de pago dentro del pasivo",
+        "Un importe ya disponible en caja",
+        "Un préstamo recibido de un cliente"
+      ],
+      "explanation": "Una factura pendiente de cobrar es un derecho de la empresa, aunque no se haya cobrado."
+    },
+    "uf0519-b6-002": {
+      "topic": "Deudas con proveedores",
+      "question": "La empresa ha recibido mercancías y todavía debe la factura al proveedor. ¿Qué representa la factura pendiente?",
+      "options": [
+        "Un derecho de cobro de la empresa",
+        "Una obligación de pago de la empresa",
+        "Dinero disponible en el banco",
+        "Un bien que la empresa utilizará durante años"
+      ],
+      "explanation": "La mercancía es un bien, pero la deuda pendiente con el proveedor es pasivo."
+    },
+    "uf0519-b6-003": {
+      "topic": "Recursos intangibles duraderos",
+      "question": "La empresa es propietaria de un programa informático que utilizará durante cuatro años. ¿Cómo se clasifica este recurso?",
+      "options": [
+        "Como pasivo corriente",
+        "Como activo corriente",
+        "Como activo no corriente",
+        "Como pasivo no corriente"
+      ],
+      "explanation": "El PDF incluye los programas entre los recursos que pueden permanecer en la empresa más de un año."
+    },
+    "uf0519-b6-004": {
+      "topic": "Destino de los bienes",
+      "question": "Un concesionario tiene un coche para vender este mes y otro para utilizarlo durante cinco años. ¿Cómo se clasifican, respectivamente?",
+      "options": [
+        "Ambos como activo corriente",
+        "Ambos como activo no corriente",
+        "Activo no corriente y activo corriente",
+        "Activo corriente y activo no corriente"
+      ],
+      "explanation": "El destinado a la venta habitual es una existencia; el destinado al uso durante años es un recurso no corriente."
+    },
+    "uf0519-b6-005": {
+      "topic": "Nóminas pendientes",
+      "question": "Las nóminas de este mes están pendientes de pagar y vencen la semana próxima. ¿Dónde se clasifica esta deuda?",
+      "options": [
+        "En el pasivo corriente",
+        "En el activo corriente",
+        "En el pasivo no corriente",
+        "En el activo no corriente"
+      ],
+      "explanation": "Las nóminas pendientes son obligaciones de pago; si vencen a corto plazo, forman parte del pasivo corriente."
+    },
+    "uf0519-b6-006": {
+      "topic": "Impuestos pendientes",
+      "question": "La empresa debe un impuesto que debe pagar dentro de dos meses. ¿Cómo se clasifica el importe pendiente?",
+      "options": [
+        "Como activo corriente",
+        "Como pasivo corriente",
+        "Como activo no corriente",
+        "Como pasivo no corriente"
+      ],
+      "explanation": "Es una obligación de pago con vencimiento inferior a un año, aunque el acreedor sea una administración."
+    },
+    "uf0519-b6-007": {
+      "topic": "Ciclo habitual de la actividad",
+      "question": "¿Por qué las existencias que se prevé vender en el ciclo habitual forman parte del activo corriente?",
+      "options": [
+        "Porque el proveedor todavía no las ha cobrado",
+        "Porque ya equivalen a un saldo bancario",
+        "Porque se prevé venderlas o consumirlas en ese ciclo",
+        "Porque se utilizarán como instalaciones permanentes"
+      ],
+      "explanation": "La clasificación considera la venta o el consumo previsto durante el ciclo habitual, no si la compra ya se ha pagado."
+    },
+    "uf0519-b6-008": {
+      "topic": "Caja y bancos disponibles",
+      "question": "Hay 300 € en caja, 1.200 € disponibles en el banco y una factura de cliente de 900 € pendiente de cobro. ¿Qué importe está disponible ahora?",
+      "options": [
+        "2.400 €",
+        "1.200 €",
+        "900 €",
+        "1.500 €"
+      ],
+      "explanation": "La disponibilidad es caja más bancos: 300 + 1.200 = 1.500 €. La factura pendiente todavía no se ha cobrado."
+    },
+    "uf0519-b6-009": {
+      "topic": "Patrimonio y disponibilidad",
+      "question": "Una empresa tiene maquinaria valiosa, pero no tiene dinero disponible y debe pagar mañana. ¿Por qué puede tener dificultades de tesorería?",
+      "options": [
+        "Porque tener bienes no garantiza disponer de dinero al vencimiento",
+        "Porque la maquinaria se convierte en pasivo cuando falta efectivo",
+        "Porque la deuda deja de ser exigible hasta que se venda la máquina",
+        "Porque el valor de la máquina es un saldo bancario bloqueado"
+      ],
+      "explanation": "La idea clave del PDF es que tener patrimonio no implica tener dinero disponible para pagar."
+    },
+    "uf0519-b6-010": {
+      "topic": "Importe del activo corriente",
+      "question": "La empresa tiene 1.000 € en el banco, existencias de 2.000 € para vender este mes, clientes que pagarán 3.000 € en treinta días y una máquina de 8.000 € de uso duradero. ¿Cuánto suma el activo corriente?",
+      "options": [
+        "1.000 €",
+        "6.000 €",
+        "14.000 €",
+        "4.000 €"
+      ],
+      "explanation": "Bancos, existencias y clientes a corto plazo: 1.000 + 2.000 + 3.000 = 6.000 €. La máquina es no corriente."
+    },
+    "uf0519-b6-011": {
+      "topic": "Importe del pasivo corriente",
+      "question": "Se deben pagar 700 € a proveedores en treinta días y 300 € de impuestos en dos meses; otra deuda de 4.000 € vence íntegramente dentro de tres años. ¿Cuánto suma el pasivo corriente?",
+      "options": [
+        "5.000 €",
+        "700 €",
+        "1.000 €",
+        "4.000 €"
+      ],
+      "explanation": "Los dos pagos a corto plazo suman 700 + 300 = 1.000 €. La deuda con vencimiento a tres años es no corriente."
+    },
+    "uf0519-b6-012": {
+      "topic": "Criterio de vencimiento",
+      "question": "Para separar la parte corriente y no corriente de una deuda, ¿qué dato hay que consultar?",
+      "options": [
+        "El valor de los bienes que tiene la empresa",
+        "La fecha en que se firmó el contrato",
+        "El saldo disponible en la cuenta bancaria",
+        "El vencimiento de cada importe pendiente"
+      ],
+      "explanation": "El pasivo se clasifica según cuándo debe pagarse cada importe pendiente, no según cuándo se contrató."
     }
   }
 }

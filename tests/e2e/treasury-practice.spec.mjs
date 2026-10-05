@@ -2,7 +2,7 @@ import {test,expect} from "@playwright/test";
 
 async function openTreasury(page){
   await page.goto("/");
-  await expect(page.getByText("956 preguntes")).toBeVisible();
+  await expect(page.getByText("968 preguntes")).toBeVisible();
   await page.getByRole("button",{name:"Exemples pràctics",exact:true}).click();
   await page.getByRole("button",{name:"Tresoreria",exact:true}).click();
 }

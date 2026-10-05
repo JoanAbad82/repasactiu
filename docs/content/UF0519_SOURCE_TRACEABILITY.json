@@ -1963,12 +1963,120 @@
         5
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-001",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        2,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-002",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        2,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-003",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-004",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-005",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-006",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-007",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-008",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        5,
+        5
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-009",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        1,
+        1
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-010",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-011",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-b6-012",
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
     }
   ],
   "review": {
     "date": "2026-10-05",
-    "questionCount": 210,
-    "method": "Source-backed integration of UF0519 Unit 2 treasury PDF plus prior PDF/XLSX sources: deduplication, exact page/cell traceability, bilingual drafting, hard-mode validation and regression certification. Actius/passius: eight bilingual questions and core cards, individually mapped to PDF pages; source SHA-256 recorded.",
+    "questionCount": 222,
+    "method": "Source-backed integration of UF0519 Unit 2 treasury PDF plus prior PDF/XLSX sources: deduplication, exact page/cell traceability, bilingual drafting, hard-mode validation and regression certification. Actius/passius: eight bilingual questions and core cards, individually mapped to PDF pages; source SHA-256 recorded. Dedicated assets/liabilities block: 20 questions and core cards; legacy IDs retained for progress continuity.",
     "result": "PASS"
   },
   "corrections": []

@@ -123,7 +123,8 @@
     "uf0519-bloc-2": "UF0519_U1",
     "uf0519-bloc-3": "UF0519_U1",
     "uf0519-bloc-4": "UF0519_U1",
-    "uf0519-bloc-5": "UF0519_U1"
+    "uf0519-bloc-5": "UF0519_U1",
+    "uf0519-bloc-6": "UF0519_ACTIUS_PASSIUS"
   },
   "topicRanges": {
     "bloc-1": {
@@ -3546,6 +3547,90 @@
       "pageRange": [
         5,
         5
+      ]
+    },
+    "uf0519-b6-001": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        2,
+        2
+      ]
+    },
+    "uf0519-b6-002": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        2,
+        2
+      ]
+    },
+    "uf0519-b6-003": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    "uf0519-b6-004": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    "uf0519-b6-005": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ]
+    },
+    "uf0519-b6-006": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ]
+    },
+    "uf0519-b6-007": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    "uf0519-b6-008": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        5,
+        5
+      ]
+    },
+    "uf0519-b6-009": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        1,
+        1
+      ]
+    },
+    "uf0519-b6-010": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    "uf0519-b6-011": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
+      ]
+    },
+    "uf0519-b6-012": {
+      "source": "UF0519_ACTIUS_PASSIUS",
+      "pageRange": [
+        4,
+        4
       ]
     }
   },

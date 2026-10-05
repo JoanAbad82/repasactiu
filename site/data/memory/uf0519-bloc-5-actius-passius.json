@@ -1,5 +1,5 @@
 {
-  "blockId": "uf0519-bloc-5",
+  "blockId": "uf0519-bloc-6",
   "questions": {
     "uf0519-b5-062": {
       "type": "idea",
@@ -40,6 +40,66 @@
       "type": "idea",
       "ca": "Un préstec, dos terminis: cada part al seu grup.",
       "es": "Un préstamo, dos plazos: cada parte en su grupo."
+    },
+    "uf0519-b6-001": {
+      "type": "idea",
+      "ca": "El client et deu diners → dret de cobrament.",
+      "es": "El cliente te debe dinero → derecho de cobro."
+    },
+    "uf0519-b6-002": {
+      "type": "idea",
+      "ca": "Mercaderia rebuda ≠ factura pagada.",
+      "es": "Mercancía recibida ≠ factura pagada."
+    },
+    "uf0519-b6-003": {
+      "type": "idea",
+      "ca": "Programa per a diversos anys → recurs durador.",
+      "es": "Programa para varios años → recurso duradero."
+    },
+    "uf0519-b6-004": {
+      "type": "idea",
+      "ca": "La destinació importa: vendre o utilitzar durant anys.",
+      "es": "El destino importa: vender o utilizar durante años."
+    },
+    "uf0519-b6-005": {
+      "type": "idea",
+      "ca": "Sou pendent i pròxim → passiu corrent.",
+      "es": "Sueldo pendiente y próximo → pasivo corriente."
+    },
+    "uf0519-b6-006": {
+      "type": "idea",
+      "ca": "Impost que deus aviat → passiu corrent.",
+      "es": "Impuesto que debes pronto → pasivo corriente."
+    },
+    "uf0519-b6-007": {
+      "type": "idea",
+      "ca": "Corrent: circula dins del cicle habitual.",
+      "es": "Corriente: circula dentro del ciclo habitual."
+    },
+    "uf0519-b6-008": {
+      "type": "idea",
+      "ca": "Disponible ara = caixa + saldo bancari disponible.",
+      "es": "Disponible ahora = caja + saldo bancario disponible."
+    },
+    "uf0519-b6-009": {
+      "type": "idea",
+      "ca": "Tenir béns ≠ tenir efectiu avui.",
+      "es": "Tener bienes ≠ tener efectivo hoy."
+    },
+    "uf0519-b6-010": {
+      "type": "idea",
+      "ca": "Actiu corrent inclou diners, existències i drets a curt termini.",
+      "es": "Activo corriente incluye dinero, existencias y derechos a corto plazo."
+    },
+    "uf0519-b6-011": {
+      "type": "idea",
+      "ca": "Suma els deutes que vencen fins a un any.",
+      "es": "Suma las deudas que vencen hasta un año."
+    },
+    "uf0519-b6-012": {
+      "type": "idea",
+      "ca": "Classifica el deute pel que falta per al venciment.",
+      "es": "Clasifica la deuda por lo que falta para el vencimiento."
     }
   }
 }

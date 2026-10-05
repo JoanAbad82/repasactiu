@@ -1,0 +1,245 @@
+{
+  "blockId": "uf0519-bloc-6",
+  "questions": {
+    "uf0519-b5-062": {
+      "ca": [
+        "Els recursos menys les obligacions pendents",
+        "Els ingressos obtinguts durant l’exercici",
+        "Els cobraments registrats al compte bancari"
+      ],
+      "es": [
+        "Los recursos menos las obligaciones pendientes",
+        "Los ingresos obtenidos durante el ejercicio",
+        "Los cobros registrados en la cuenta bancaria"
+      ]
+    },
+    "uf0519-b5-063": {
+      "ca": [
+        "Els imports que els clients deuen a l’empresa",
+        "Les despeses ja pagades durant el mes",
+        "Els diners reservats al banc per a pagaments futurs"
+      ],
+      "es": [
+        "Los importes que los clientes deben a la empresa",
+        "Los gastos ya pagados durante el mes",
+        "El dinero reservado en el banco para pagos futuros"
+      ]
+    },
+    "uf0519-b5-064": {
+      "ca": [
+        "Com a diners disponibles en caixa",
+        "Com a recurs permanent, igual que una màquina",
+        "Com a obligació de pagament al proveïdor"
+      ],
+      "es": [
+        "Como dinero disponible en caja",
+        "Como recurso permanente, igual que una máquina",
+        "Como obligación de pago al proveedor"
+      ]
+    },
+    "uf0519-b5-065": {
+      "ca": [
+        "Com a existència per vendre en el cicle habitual",
+        "Com a obligació a llarg termini pel seu valor",
+        "Com a disponibilitat de tresoreria pel seu cost"
+      ],
+      "es": [
+        "Como existencia para vender en el ciclo habitual",
+        "Como obligación a largo plazo por su valor",
+        "Como disponibilidad de tesorería por su coste"
+      ]
+    },
+    "uf0519-b5-066": {
+      "ca": [
+        "Com a deute a llarg termini perquè arriba a un any",
+        "Com a dret de cobrament a curt termini",
+        "Com a recurs permanent fins al venciment"
+      ],
+      "es": [
+        "Como deuda a largo plazo porque alcanza un año",
+        "Como derecho de cobro a corto plazo",
+        "Como recurso permanente hasta el vencimiento"
+      ]
+    },
+    "uf0519-b5-067": {
+      "ca": [
+        "Com a deute corrent perquè ja existeix avui",
+        "Com a recurs a llarg termini fins que es pagui",
+        "Com a dret de cobrament a llarg termini"
+      ],
+      "es": [
+        "Como deuda corriente porque ya existe hoy",
+        "Como recurso a largo plazo hasta que se pague",
+        "Como derecho de cobro a largo plazo"
+      ]
+    },
+    "uf0519-b5-068": {
+      "ca": [
+        "2.500 €, sumant caixa i drets de cobrament",
+        "2.000 €, prenent el cobrament futur com a disponible",
+        "1.500 €, restant la caixa del cobrament pendent"
+      ],
+      "es": [
+        "2.500 €, sumando caja y derechos de cobro",
+        "2.000 €, tomando el cobro futuro como disponible",
+        "1.500 €, restando la caja del cobro pendiente"
+      ]
+    },
+    "uf0519-b5-069": {
+      "ca": [
+        "2.000 € d’actiu corrent i 8.000 € de passiu no corrent",
+        "8.000 € de passiu corrent i 2.000 € de no corrent",
+        "2.000 € de passiu corrent i 10.000 € de no corrent"
+      ],
+      "es": [
+        "2.000 € de activo corriente y 8.000 € de pasivo no corriente",
+        "8.000 € de pasivo corriente y 2.000 € de no corriente",
+        "2.000 € de pasivo corriente y 10.000 € de no corriente"
+      ]
+    },
+    "uf0519-b6-001": {
+      "ca": [
+        "Un deute de l’empresa amb el client",
+        "Un cobrament ja ingressat al banc",
+        "Una factura pendent de pagar al proveïdor"
+      ],
+      "es": [
+        "Una deuda de la empresa con el cliente",
+        "Un cobro ya ingresado en el banco",
+        "Una factura pendiente de pagar al proveedor"
+      ]
+    },
+    "uf0519-b6-002": {
+      "ca": [
+        "El valor d’un dret davant del proveïdor",
+        "Un recurs material dins de l’actiu",
+        "Un cobrament pendent d’ingressar"
+      ],
+      "es": [
+        "El valor de un derecho frente al proveedor",
+        "Un recurso material dentro del activo",
+        "Un cobro pendiente de ingresar"
+      ]
+    },
+    "uf0519-b6-003": {
+      "ca": [
+        "Com a existència del cicle habitual de venda",
+        "Com a deute a llarg termini pel seu preu",
+        "Com a disponibilitat bancària pel seu valor"
+      ],
+      "es": [
+        "Como existencia del ciclo habitual de venta",
+        "Como deuda a largo plazo por su precio",
+        "Como disponibilidad bancaria por su valor"
+      ]
+    },
+    "uf0519-b6-004": {
+      "ca": [
+        "Existències en tots dos casos perquè són cotxes",
+        "Recursos permanents en tots dos casos pel seu valor",
+        "Actiu no corrent per al de venda i corrent per al d’ús"
+      ],
+      "es": [
+        "Existencias en ambos casos porque son coches",
+        "Recursos permanentes en ambos casos por su valor",
+        "Activo no corriente para el de venta y corriente para el de uso"
+      ]
+    },
+    "uf0519-b6-005": {
+      "ca": [
+        "En els drets de cobrament a curt termini",
+        "En les obligacions amb venciment superior a un any",
+        "En els recursos disponibles per pagar al personal"
+      ],
+      "es": [
+        "En los derechos de cobro a corto plazo",
+        "En las obligaciones con vencimiento superior a un año",
+        "En los recursos disponibles para pagar al personal"
+      ]
+    },
+    "uf0519-b6-006": {
+      "ca": [
+        "Com a dret de cobrament davant de l’Administració",
+        "Com a obligació a llarg termini pel tipus de creditor",
+        "Com a diners disponibles reservats per pagar"
+      ],
+      "es": [
+        "Como derecho de cobro frente a la Administración",
+        "Como obligación a largo plazo por el tipo de acreedor",
+        "Como dinero disponible reservado para pagar"
+      ]
+    },
+    "uf0519-b6-007": {
+      "ca": [
+        "Perquè el termini depèn de quan es paga la compra",
+        "Perquè el valor de venda ja està ingressat a caixa",
+        "Perquè tenen la mateixa permanència que el local"
+      ],
+      "es": [
+        "Porque el plazo depende de cuándo se paga la compra",
+        "Porque el valor de venta ya está ingresado en caja",
+        "Porque tienen la misma permanencia que el local"
+      ]
+    },
+    "uf0519-b6-008": {
+      "ca": [
+        "2.400 €, incloent el cobrament pendent",
+        "1.200 €, comptant el banc però no la caixa",
+        "600 €, descomptant el dret de cobrament"
+      ],
+      "es": [
+        "2.400 €, incluyendo el cobro pendiente",
+        "1.200 €, contando el banco pero no la caja",
+        "600 €, descontando el derecho de cobro"
+      ]
+    },
+    "uf0519-b6-009": {
+      "ca": [
+        "Perquè tot actiu durador representa una obligació de pagament",
+        "Perquè el venciment depèn del valor de la maquinària",
+        "Perquè la màquina ja forma part dels diners en caixa"
+      ],
+      "es": [
+        "Porque todo activo duradero representa una obligación de pago",
+        "Porque el vencimiento depende del valor de la maquinaria",
+        "Porque la máquina ya forma parte del dinero en caja"
+      ]
+    },
+    "uf0519-b6-010": {
+      "ca": [
+        "14.000 €, incloent-hi la màquina",
+        "4.000 €, excloent-ne les existències",
+        "3.000 €, excloent-ne els clients pendents"
+      ],
+      "es": [
+        "14.000 €, incluyendo la máquina",
+        "4.000 €, excluyendo las existencias",
+        "3.000 €, excluyendo los clientes pendientes"
+      ]
+    },
+    "uf0519-b6-011": {
+      "ca": [
+        "5.000 €, sumant tots els venciments",
+        "4.700 €, excloent-ne els impostos",
+        "4.300 €, excloent-ne els proveïdors"
+      ],
+      "es": [
+        "5.000 €, sumando todos los vencimientos",
+        "4.700 €, excluyendo los impuestos",
+        "4.300 €, excluyendo los proveedores"
+      ]
+    },
+    "uf0519-b6-012": {
+      "ca": [
+        "L’antiguitat del contracte de finançament",
+        "La quantitat de diners que hi ha a caixa",
+        "La durada d’ús del bé que es va comprar"
+      ],
+      "es": [
+        "La antigüedad del contrato de financiación",
+        "La cantidad de dinero que hay en caja",
+        "La duración de uso del bien que se compró"
+      ]
+    }
+  }
+}

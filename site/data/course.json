@@ -280,17 +280,27 @@
       "memoryAidFile": "data/memory/uf0519-bloc-5.json",
       "hardDistractorFile": "data/hard/uf0519-bloc-5.json",
       "additionalFiles": [
-        "data/uf0519_bloc_5_tresoreria_u2.json",
-        "data/uf0519_bloc_5_actius_passius.json"
+        "data/uf0519_bloc_5_tresoreria_u2.json"
       ],
       "additionalTranslationFiles": [
-        "data/i18n/es/uf0519-bloc-5-tresoreria-u2.json",
-        "data/i18n/es/uf0519-bloc-5-actius-passius.json"
+        "data/i18n/es/uf0519-bloc-5-tresoreria-u2.json"
       ],
       "additionalMemoryAidFiles": [
-        "data/memory/uf0519-bloc-5-tresoreria-u2.json",
-        "data/memory/uf0519-bloc-5-actius-passius.json"
+        "data/memory/uf0519-bloc-5-tresoreria-u2.json"
       ]
+    },
+    {
+      "id": "uf0519-bloc-6",
+      "unitId": "uf0519-unitat-1",
+      "unitTitle": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 1",
+      "unitTitleEs": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 1",
+      "blockNumber": 6,
+      "title": "Actius i passius",
+      "titleEs": "Activos y pasivos",
+      "file": "data/uf0519_bloc_5_actius_passius.json",
+      "translationFile": "data/i18n/es/uf0519-bloc-5-actius-passius.json",
+      "memoryAidFile": "data/memory/uf0519-bloc-5-actius-passius.json",
+      "hardDistractorFile": "data/hard/uf0519-bloc-6.json"
     }
   ]
 }
