@@ -56,6 +56,13 @@ Distribució actual:
 
 **Total: 450 preguntes en català + 450 traduccions completes al castellà + 450 ajudes de memòria bilingües.**
 
+## Agent / estat machine-readable
+
+- `AGENTS.md` — fonts canòniques, límits de producció/recerca i definició de terminat.
+- `PROJECT_STATUS.json` — estat, validació, llicència i superfície d'interacció machine-readable.
+- `SECURITY.md` — política de seguretat i tractament de dades/material sensible.
+- `CONTRIBUTING.md` — regles per a contribucions de codi i contingut.
+
 ## Desenvolupament
 
 Requereix Node.js 22 LTS.
