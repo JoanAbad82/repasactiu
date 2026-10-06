@@ -1,8 +1,8 @@
 const esc=v=>String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 const COPY={
-  ca:{back:"← Tornar",eyebrow:"Joc de repàs",title:"Penjat de conceptes",subtitle:"Endevina el concepte a partir de la definició. Les paraules provenen del diccionari verificat del curs.",filter:"Bloc o tema",all:"Tot el diccionari",hint:"Pista",errors:"Errors",wins:"Encerts",streak:"Ratxa",letters:"Teclat de lletres",newWord:"Nova paraula",won:"Correcte. Has completat el concepte.",lost:"S'han acabat els intents.",answer:"Resposta",memory:"Per recordar",source:"Font",empty:"No hi ha conceptes aptes per jugar en aquesta selecció.",words:"paraules",lettersCount:"lletres",playable:"conceptes disponibles"},
-  es:{back:"← Volver",eyebrow:"Juego de repaso",title:"Ahorcado de conceptos",subtitle:"Adivina el concepto a partir de la definición. Las palabras proceden del diccionario verificado del curso.",filter:"Bloque o tema",all:"Todo el diccionario",hint:"Pista",errors:"Errores",wins:"Aciertos",streak:"Racha",letters:"Teclado de letras",newWord:"Nueva palabra",won:"Correcto. Has completado el concepto.",lost:"Se han acabado los intentos.",answer:"Respuesta",memory:"Para recordar",source:"Fuente",empty:"No hay conceptos aptos para jugar en esta selección.",words:"palabras",lettersCount:"letras",playable:"conceptos disponibles"}
+  ca:{back:"← Tornar",eyebrow:"Joc de repàs",title:"Penjat de conceptes",subtitle:"Endevina el concepte a partir de la definició. Les paraules provenen del diccionari verificat del curs.",filter:"Bloc o tema",all:"Tot el diccionari",hint:"Pista",errors:"Errors",wins:"Encerts",streak:"Ratxa",letters:"Teclat de lletres",newWord:"Nova paraula",won:"Correcte. Has completat el concepte.",lost:"S'han acabat els intents.",answer:"Resposta",memory:"Per recordar",source:"Font",empty:"No hi ha conceptes aptes per jugar en aquesta selecció.",words:"paraules",lettersCount:"lletres",playable:"conceptes disponibles",languageChangeWarning:"Canviar l\'idioma reiniciarà la ronda actual. Vols continuar?"},
+  es:{back:"← Volver",eyebrow:"Juego de repaso",title:"Ahorcado de conceptos",subtitle:"Adivina el concepto a partir de la definición. Las palabras proceden del diccionario verificado del curso.",filter:"Bloque o tema",all:"Todo el diccionario",hint:"Pista",errors:"Errores",wins:"Aciertos",streak:"Racha",letters:"Teclado de letras",newWord:"Nueva palabra",won:"Correcto. Has completado el concepto.",lost:"Se han acabado los intentos.",answer:"Respuesta",memory:"Para recordar",source:"Fuente",empty:"No hay conceptos aptos para jugar en esta selección.",words:"palabras",lettersCount:"letras",playable:"conceptos disponibles",languageChangeWarning:"Cambiar el idioma reiniciará la ronda actual. ¿Quieres continuar?"}
 };
 
 const ALPHABETS={
@@ -169,6 +169,11 @@ export function createHangman({screen,bank,language="ca",onHome=()=>{}}){
   screen.addEventListener("change",handleChange);
   chooseRound();
   return {
+    confirmLanguageChange(nextLanguage){
+      const target=nextLanguage==="es"?"es":"ca";
+      if(target===lang||!current||finished)return true;
+      return window.confirm(COPY[lang].languageChangeWarning);
+    },
     setLanguage(nextLanguage){
       lang=nextLanguage==="es"?"es":"ca";
       blockId=playableEntries(bank,{language:lang,blockId}).length?blockId:"all";
