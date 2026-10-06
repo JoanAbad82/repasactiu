@@ -1,8 +1,8 @@
 const esc=v=>String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 const COPY={
-  ca:{back:"← Tornar",eyebrow:"Joc de repàs",title:"Penjat de conceptes",subtitle:"Endevina el concepte a partir de la definició. Les paraules provenen del diccionari verificat del curs.",filter:"Bloc o tema",all:"Tot el diccionari",hint:"Pista",errors:"Errors",wins:"Encerts",streak:"Ratxa",letters:"Teclat de lletres",newWord:"Nova paraula",won:"Correcte. Has completat el concepte.",lost:"S'han acabat els intents.",answer:"Resposta",memory:"Per recordar",source:"Font",empty:"No hi ha conceptes aptes per jugar en aquesta selecció.",words:"paraules",lettersCount:"lletres",playable:"conceptes disponibles",languageChangeWarning:"Canviar l\'idioma reiniciarà la ronda actual. Vols continuar?"},
-  es:{back:"← Volver",eyebrow:"Juego de repaso",title:"Ahorcado de conceptos",subtitle:"Adivina el concepto a partir de la definición. Las palabras proceden del diccionario verificado del curso.",filter:"Bloque o tema",all:"Todo el diccionario",hint:"Pista",errors:"Errores",wins:"Aciertos",streak:"Racha",letters:"Teclado de letras",newWord:"Nueva palabra",won:"Correcto. Has completado el concepto.",lost:"Se han acabado los intentos.",answer:"Respuesta",memory:"Para recordar",source:"Fuente",empty:"No hay conceptos aptos para jugar en esta selección.",words:"palabras",lettersCount:"letras",playable:"conceptos disponibles",languageChangeWarning:"Cambiar el idioma reiniciará la ronda actual. ¿Quieres continuar?"}
+  ca:{back:"← Tornar",eyebrow:"Joc de repàs",title:"Penjat de conceptes",subtitle:"Endevina el concepte a partir d’una pista o definició. El banc cobreix tots els blocs publicats del curs.",filter:"Bloc o tema",all:"Tot el curs",hint:"Pista",errors:"Errors",wins:"Encerts",streak:"Ratxa",letters:"Teclat de lletres",newWord:"Nova paraula",won:"Correcte. Has completat el concepte.",lost:"S'han acabat els intents.",answer:"Resposta",memory:"Per recordar",source:"Font",empty:"No hi ha conceptes aptes per jugar en aquesta selecció.",words:"paraules",lettersCount:"lletres",playable:"conceptes disponibles",languageChangeWarning:"Canviar l\'idioma reiniciarà la ronda actual. Vols continuar?"},
+  es:{back:"← Volver",eyebrow:"Juego de repaso",title:"Ahorcado de conceptos",subtitle:"Adivina el concepto a partir de una pista o definición. El banco cubre todos los bloques publicados del curso.",filter:"Bloque o tema",all:"Todo el curso",hint:"Pista",errors:"Errores",wins:"Aciertos",streak:"Racha",letters:"Teclado de letras",newWord:"Nueva palabra",won:"Correcto. Has completado el concepto.",lost:"Se han acabado los intentos.",answer:"Respuesta",memory:"Para recordar",source:"Fuente",empty:"No hay conceptos aptos para jugar en esta selección.",words:"palabras",lettersCount:"letras",playable:"conceptos disponibles",languageChangeWarning:"Cambiar el idioma reiniciará la ronda actual. ¿Quieres continuar?"}
 };
 
 const ALPHABETS={
@@ -31,7 +31,8 @@ export function isPlayableEntry(entry,language="ca"){
   if(!term||/[0-9./:;=+<>→←]/u.test(term)||/vs/i.test(term))return false;
   const letters=[...term].filter(isLetter);
   const words=term.split(/\s+/u).filter(Boolean);
-  return letters.length>=4&&letters.length<=28&&words.length<=4;
+  const longest=Math.max(0,...words.map(word=>[...word].filter(isLetter).length));
+  return letters.length>=4&&letters.length<=45&&words.length<=6&&longest<=18;
 }
 export function playableEntries(bank,{language="ca",blockId="all"}={}){
   return (bank?.entries||[]).filter(entry=>(blockId==="all"||entry.blockId===blockId)&&isPlayableEntry(entry,language));
@@ -87,6 +88,23 @@ function keyboardHtml(lang,guessed,finished){
   }).join("");
 }
 
+export async function loadHangmanBank(fetcher=fetch){
+  const response=await fetcher('data/hangman-bank-v2.json');
+  if(!response.ok)throw new Error('No s’ha pogut carregar el banc del penjat.');
+  const bank=await response.json();
+  if(bank?.version!=='2.0'||!Array.isArray(bank.entries)||!bank.entries.length||bank.count!==bank.entries.length){
+    throw new Error('Banc del penjat invàlid.');
+  }
+  if(!Array.isArray(bank.groups)||!bank.groups.length||!Array.isArray(bank.languages)||!bank.languages.includes('ca')||!bank.languages.includes('es')){
+    throw new Error('Banc del penjat incomplet.');
+  }
+  for(const entry of bank.entries){
+    if(!entry?.id||!entry?.blockId||!entry?.source?.id||!entry?.ca?.term||!entry?.ca?.hint||!entry?.es?.term||!entry?.es?.hint||
+       !isPlayableEntry(entry,'ca')||!isPlayableEntry(entry,'es'))throw new Error('Banc del penjat amb una entrada invàlida.');
+  }
+  return bank;
+}
+
 export function createHangman({screen,bank,language="ca",onHome=()=>{}}){
   let lang=language==="es"?"es":"ca";
   let blockId="all";
@@ -120,13 +138,14 @@ export function createHangman({screen,bank,language="ca",onHome=()=>{}}){
     const body=!current?`<div class="hangman-empty">${esc(c.empty)}</div>`:(()=>{
       const item=current[lang];
       const solved=isSolved(item.term,guessed);
-      const result=finished?`<div class="hangman-feedback ${solved?"is-win":"is-loss"}"><strong>${esc(solved?c.won:c.lost)}</strong><p><span>${esc(c.answer)}:</span> ${esc(item.term)}</p><p><span>${esc(c.memory)}:</span> ${esc(item.memory)}</p><p class="hangman-source"><span>${esc(c.source)}:</span> ${esc(sourceLabel(current.source))}</p></div>`:"";
+      const memory=item.memory?`<p><span>${esc(c.memory)}:</span> ${esc(item.memory)}</p>`:"";
+      const result=finished?`<div class="hangman-feedback ${solved?"is-win":"is-loss"}"><strong>${esc(solved?c.won:c.lost)}</strong><p><span>${esc(c.answer)}:</span> ${esc(item.term)}</p>${memory}<p class="hangman-source"><span>${esc(c.source)}:</span> ${esc(sourceLabel(current.source))}</p></div>`:"";
       return `<div class="hangman-round" data-hangman-entry="${esc(current.id)}">
         <div class="hangman-stage">
           <div class="hangman-visual">${drawingHtml(wrong)}<strong>${esc(c.errors)}: ${wrong} / ${maxWrong}</strong></div>
           <div class="hangman-clue">
             <p class="eyebrow">${esc(c.hint)}</p>
-            <p class="hangman-definition">${esc(item.definition)}</p>
+            <p class="hangman-definition">${esc(item.hint||item.definition||"")}</p>
             <p class="hangman-category">${esc(groupLabel(bank,current.blockId,lang))}</p>
           </div>
         </div>

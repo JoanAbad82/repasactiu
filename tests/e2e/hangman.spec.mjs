@@ -9,6 +9,8 @@ test('el penjat usa conceptes verificats, funciona en català i canvia a castell
   await expect(page.locator('.hangman-definition')).not.toBeEmpty();
   await expect(page.locator('.hangman-keyboard button')).toHaveCount(27);
   await expect(page.locator('.hangman-drawing')).toBeVisible();
+  await expect(page.locator('.hangman-summary')).toContainText('308 conceptes disponibles');
+  await expect(page.locator('[data-hangman-filter] option')).toHaveCount(18);
 
   const firstId=await page.locator('[data-hangman-entry]').getAttribute('data-hangman-entry');
   page.once('dialog',async dialog=>{
@@ -19,6 +21,7 @@ test('el penjat usa conceptes verificats, funciona en català i canvia a castell
   await expect(page.getByRole('heading',{name:'Ahorcado de conceptos'})).toBeVisible();
   await expect(page.locator('[data-hangman-entry]')).toHaveAttribute('data-hangman-entry',firstId);
   await expect(page.locator('.hangman-keyboard button')).toHaveCount(27);
+  await expect(page.locator('.hangman-summary')).toContainText('308 conceptos disponibles');
 });
 
 test('cancel·lar el canvi d’idioma conserva la ronda i el progrés',async({page})=>{
@@ -62,14 +65,14 @@ test('el penjat no desborda en mòbil i una lletra només compta una vegada',asy
 
 test('les paraules compostes salten de línia senceres i mai es parteixen entre lletres',async({page})=>{
   await page.setViewportSize({width:390,height:844});
-  await page.addInitScript(()=>{Math.random=()=>0.05;});
+  await page.addInitScript(()=>{Math.random=()=>0.03793103448275863;});
   await page.goto('/');
   await page.locator('#language-es').click();
   await page.locator('#hangman-card').click();
   await page.locator('[data-hangman-filter]').selectOption('uf0519-unitat-2-bloc-2');
 
   const entry=page.locator('[data-hangman-entry]');
-  await expect(entry).toHaveAttribute('data-hangman-entry','uf519-descompte-comercial');
+  await expect(entry).toHaveAttribute('data-hangman-entry','dict:uf519-descompte-comercial');
   const tokens=page.locator('.hangman-word-token');
   await expect(tokens).toHaveCount(2);
 
@@ -87,13 +90,13 @@ test('les paraules compostes salten de línia senceres i mai es parteixen entre 
 
 test('una paraula llarga es compacta en mòbil sense desbordar ni partir-se',async({page})=>{
   await page.setViewportSize({width:390,height:844});
-  await page.addInitScript(()=>{Math.random=()=>0.5;});
+  await page.addInitScript(()=>{Math.random=()=>0.1952380952380952;});
   await page.goto('/');
   await page.locator('#language-es').click();
   await page.locator('#hangman-card').click();
   await page.locator('[data-hangman-filter]').selectOption('bloc-3');
 
-  await expect(page.locator('[data-hangman-entry]')).toHaveAttribute('data-hangman-entry','b3-descentralitzacio');
+  await expect(page.locator('[data-hangman-entry]')).toHaveAttribute('data-hangman-entry','dict:b3-descentralitzacio');
   const token=page.locator('.hangman-word-token');
   await expect(token).toHaveCount(1);
   await expect(token).toHaveClass(/is-long-word/);
@@ -105,4 +108,21 @@ test('una paraula llarga es compacta en mòbil sense desbordar ni partir-se',asy
   });
   expect(layout).toEqual({fits:true,rightFits:true,childRows:1});
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
+});
+
+
+test('el penjat cobreix els 17 blocs publicats i Actius i passius té contingut propi',async({page})=>{
+  await page.goto('/');
+  await page.locator('#hangman-card').click();
+  const filter=page.locator('[data-hangman-filter]');
+  await expect(filter.locator('option')).toHaveCount(18);
+  await filter.selectOption('uf0519-bloc-6');
+  await expect(page.locator('.hangman-summary')).toContainText('6 conceptes disponibles');
+  await expect(page.locator('[data-hangman-entry]')).toHaveCount(1);
+  await expect(page.locator('.hangman-definition')).not.toBeEmpty();
+
+  page.once('dialog',dialog=>dialog.accept());
+  await page.locator('#language-es').click();
+  await expect(page.locator('.hangman-summary')).toContainText('6 conceptos disponibles');
+  await expect(page.locator('[data-hangman-entry]')).toHaveCount(1);
 });

@@ -17,6 +17,8 @@ for(const rel of [
   'data/study-cards-semantic-v2.json',
   'data/study-cards-traceability-v2.json',
   'data/concept-dictionary-v1.json',
+  'data/hangman-bank-v2.json',
+  'js/hangman.js',
   'data/key-lists-v1.json',
   'js/concept-dictionary.js',
   'data/commercial-correspondence-v1.json',
@@ -33,6 +35,7 @@ for(const rel of [
 const semantic=JSON.parse(await readFile(path.join(dist,'data','study-cards-semantic-v2.json'),'utf8'));
 const traceability=JSON.parse(await readFile(path.join(dist,'data','study-cards-traceability-v2.json'),'utf8'));
 const dictionary=JSON.parse(await readFile(path.join(dist,'data','concept-dictionary-v1.json'),'utf8'));
+const hangman=JSON.parse(await readFile(path.join(dist,'data','hangman-bank-v2.json'),'utf8'));
 const keyLists=JSON.parse(await readFile(path.join(dist,'data','key-lists-v1.json'),'utf8'));
 const correspondence=JSON.parse(await readFile(path.join(dist,'data','commercial-correspondence-v1.json'),'utf8'));
 const payroll=JSON.parse(await readFile(path.join(dist,'data','payroll-example-2026-v1.json'),'utf8'));
@@ -49,6 +52,9 @@ if(dictionary.version!==1||dictionary.count!==138||!Array.isArray(dictionary.ent
 }
 if(!Array.isArray(dictionary.families)||dictionary.families.length!==17||dictionary.families.flatMap(family=>family.entryIds||[]).length!==138){
   throw new Error('Build validation failed: concept dictionary families are invalid.');
+}
+if(hangman.version!=='2.0'||hangman.count<300||!Array.isArray(hangman.entries)||hangman.entries.length!==hangman.count||!Array.isArray(hangman.groups)||hangman.groups.length!==17){
+  throw new Error('Build validation failed: full-course hangman bank is invalid.');
 }
 if(keyLists.version!==1||keyLists.count!==85||!Array.isArray(keyLists.entries)||keyLists.entries.length!==85){
   throw new Error('Build validation failed: key-list bank is invalid.');
@@ -75,4 +81,4 @@ for(const lang of ['ca','es']){
     throw new Error(`Build validation failed: commercial abbreviations for ${lang} must contain 20-30 curated entries.`);
   }
 }
-console.log('Static build PASS: site/ -> dist/ with learning tools, 138-concept dictionary, 85 key lists, payroll and treasury practicals, bilingual commercial correspondence guide and 9 administrative/commercial document exercises');
+console.log(`Static build PASS: site/ -> dist/ with learning tools, 138-concept dictionary, ${hangman.count}-entry full-course hangman bank, 85 key lists, payroll and treasury practicals, bilingual commercial correspondence guide and 9 administrative/commercial document exercises`);

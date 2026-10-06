@@ -29,7 +29,7 @@ test('les targetes agrupen els dos blocs de la nova Unitat 2 en 77 targetes',asy
   await expect(page.locator('#study-card-progress')).toHaveText('1 / 77');
 });
 
-test('el diccionari i el penjat incorporen els 22 conceptes nous del Bloc 2',async({page})=>{
+test('el diccionari conserva 22 conceptes i el penjat amplia el Bloc 2 a 29 entrades',async({page})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Diccionari',exact:true}).click();
   await page.locator('[data-dictionary-filter]').selectOption('uf0519-unitat-2-bloc-2');
@@ -41,7 +41,7 @@ test('el diccionari i el penjat incorporen els 22 conceptes nous del Bloc 2',asy
   await page.getByRole('button',{name:'← Tornar al temari'}).click();
   await page.locator('#hangman-card').click();
   await page.locator('[data-hangman-filter]').selectOption('uf0519-unitat-2-bloc-2');
-  await expect(page.locator('.hangman-summary')).toContainText('22 conceptes disponibles');
+  await expect(page.locator('.hangman-summary')).toContainText('29 conceptes disponibles');
   await expect(page.locator('[data-hangman-entry]')).toHaveCount(1);
 });
 
