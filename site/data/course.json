@@ -278,16 +278,33 @@
       "file": "data/uf0519_bloc_5.json",
       "translationFile": "data/i18n/es/uf0519-bloc-5.json",
       "memoryAidFile": "data/memory/uf0519-bloc-5.json",
-      "hardDistractorFile": "data/hard/uf0519-bloc-5.json",
-      "additionalFiles": [
-        "data/uf0519_bloc_5_tresoreria_u2.json"
-      ],
-      "additionalTranslationFiles": [
-        "data/i18n/es/uf0519-bloc-5-tresoreria-u2.json"
-      ],
-      "additionalMemoryAidFiles": [
-        "data/memory/uf0519-bloc-5-tresoreria-u2.json"
-      ]
+      "hardDistractorFile": "data/hard/uf0519-bloc-5.json"
+    },
+    {
+      "id": "uf0519-unitat-2-bloc-1",
+      "unitId": "uf0519-unitat-2",
+      "unitTitle": "UF0519 · Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 2",
+      "unitTitleEs": "UF0519 · Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 2",
+      "blockNumber": 1,
+      "title": "Gestió bàsica de tresoreria — mitjans de cobrament i pagament",
+      "titleEs": "Gestión básica de tesorería — medios de cobro y pago",
+      "file": "data/uf0519_unitat_2_bloc_1.json",
+      "translationFile": "data/i18n/es/uf0519-unitat-2-bloc-1.json",
+      "memoryAidFile": "data/memory/uf0519-unitat-2-bloc-1.json",
+      "hardDistractorFile": "data/hard/uf0519-unitat-2-bloc-1.json"
+    },
+    {
+      "id": "uf0519-unitat-2-bloc-2",
+      "unitId": "uf0519-unitat-2",
+      "unitTitle": "UF0519 · Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 2",
+      "unitTitleEs": "UF0519 · Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 2",
+      "blockNumber": 2,
+      "title": "Caixa, bancs, seguretat i mitjans informàtics de tresoreria",
+      "titleEs": "Caja, bancos, seguridad y medios informáticos de tesorería",
+      "file": "data/uf0519_unitat_2_bloc_2.json",
+      "translationFile": "data/i18n/es/uf0519-unitat-2-bloc-2.json",
+      "memoryAidFile": "data/memory/uf0519-unitat-2-bloc-2.json",
+      "hardDistractorFile": "data/hard/uf0519-unitat-2-bloc-2.json"
     },
     {
       "id": "uf0519-bloc-6",

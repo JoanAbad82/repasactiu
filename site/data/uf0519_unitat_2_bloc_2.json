@@ -1,0 +1,580 @@
+{
+  "blockId": "uf0519-unitat-2-bloc-2",
+  "blockTitle": "Caixa, bancs, seguretat i mitjans informàtics de tresoreria",
+  "questions": [
+    {
+      "id": "uf0519-u2b2-001",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Llibre auxiliar de caixa",
+      "question": "Quina és la finalitat principal del llibre auxiliar de caixa?",
+      "options": [
+        "Controlar exclusivament les transferències bancàries",
+        "Registrar l’inventari de productes",
+        "Registrar els moviments d’efectiu i comprovar el saldo real disponible",
+        "Calcular les nòmines del personal"
+      ],
+      "correct": 2,
+      "explanation": "El llibre auxiliar de caixa registra entrades i sortides d’efectiu i permet comprovar que el saldo final coincideix amb els diners reals."
+    },
+    {
+      "id": "uf0519-u2b2-002",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Cobraments i pagaments",
+      "question": "Quina diferència bàsica hi ha entre un cobrament i un pagament en el llibre de caixa?",
+      "options": [
+        "El cobrament redueix el saldo i el pagament l’augmenta",
+        "El cobrament és una entrada de diners i el pagament una sortida",
+        "Tots dos són entrades, però amb conceptes diferents",
+        "Tots dos són sortides, però amb dates diferents"
+      ],
+      "correct": 1,
+      "explanation": "Un cobrament fa entrar diners a l’empresa; un pagament en fa sortir."
+    },
+    {
+      "id": "uf0519-u2b2-004",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Descompte comercial bancari",
+      "question": "Què caracteritza el descompte comercial bancari d’un pagaré?",
+      "options": [
+        "El banc avança l’import abans del venciment, descompta despeses i l’empresa respon si el client no paga",
+        "El banc garanteix el cobrament sense avançar diners ni cobrar comissions",
+        "El client paga abans i obté un descompte del proveïdor",
+        "L’empresa cedeix definitivament totes les factures sense cap risc"
+      ],
+      "correct": 0,
+      "explanation": "El banc anticipa l’efecte i resta interessos i comissions; si el client no paga, l’empresa ha de retornar l’import avançat."
+    },
+    {
+      "id": "uf0519-u2b2-003",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Gestió de cobraments",
+      "question": "Quina afirmació descriu correctament el cobrament de rebuts domiciliats?",
+      "options": [
+        "L’empresa lliura xecs al banc perquè els endossi",
+        "El banc avança un pagaré abans del venciment",
+        "El client paga sempre en efectiu a la caixa",
+        "L’empresa cobra al compte del client amb la seva autorització"
+      ],
+      "correct": 3,
+      "explanation": "En la domiciliació de rebuts, el cobrament es carrega al compte bancari del client amb autorització."
+    },
+    {
+      "id": "uf0519-u2b2-005",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Factoring",
+      "question": "Què fa l’empresa quan utilitza factoring?",
+      "options": [
+        "Converteix un pagaré en una transferència immediata",
+        "Domicilia les nòmines dels treballadors",
+        "Cedeix els drets de cobrament de factures a una entitat de factoring",
+        "Traspassa al proveïdor la gestió dels pagaments"
+      ],
+      "correct": 2,
+      "explanation": "El factoring consisteix a cedir drets de cobrament perquè l’entitat els gestioni i, si es pacta, n’anticipi l’import."
+    },
+    {
+      "id": "uf0519-u2b2-006",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Assegurança de crèdit",
+      "question": "Quina diferència clau hi ha entre l’assegurança de crèdit i l’anticipació d’una factura?",
+      "options": [
+        "L’assegurança sempre avança el 100 % de la factura",
+        "L’assegurança protegeix davant impagaments coberts, però no implica necessàriament cobrar abans",
+        "L’anticipació només analitza la solvència del client",
+        "No hi ha cap diferència pràctica"
+      ],
+      "correct": 1,
+      "explanation": "L’assegurança de crèdit cobreix el risc d’impagament segons la pòlissa; no és, per si mateixa, un mecanisme d’anticipació."
+    },
+    {
+      "id": "uf0519-u2b2-007",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Factoring amb recurs i sense recurs",
+      "question": "Quina afirmació diferencia correctament el factoring amb recurs del factoring sense recurs?",
+      "options": [
+        "Amb recurs, l’entitat assumeix sempre la insolvència; sense recurs, l’empresa",
+        "Tots dos traslladen íntegrament el risc a l’entitat",
+        "Sense recurs no es pot anticipar cap import",
+        "Amb recurs el risc d’impagament continua en l’empresa; sense recurs l’entitat assumeix el risc cobert"
+      ],
+      "correct": 3,
+      "explanation": "El criteri diferencial és qui suporta el risc d’insolvència dins dels límits del contracte."
+    },
+    {
+      "id": "uf0519-u2b2-008",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Gestió de pagaments",
+      "question": "Quin conjunt recull formes de pagament que el material atribueix a l’empresa?",
+      "options": [
+        "Transferència, domiciliació bancària, xec o pagaré",
+        "Factoring, assegurança de crèdit, inventari i nòmina",
+        "Arqueig, conciliació, remesa i inventari",
+        "Albarà, factura, pressupost i comanda"
+      ],
+      "correct": 0,
+      "explanation": "El material presenta transferència, domiciliació, xec i pagaré com a vies per efectuar pagaments."
+    },
+    {
+      "id": "uf0519-u2b2-009",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Confirming",
+      "question": "Qui contracta el confirming i amb quina finalitat principal?",
+      "options": [
+        "El proveïdor, per assegurar totes les seves factures",
+        "El client final, per pagar amb targeta",
+        "L’empresa que ha de pagar, perquè una entitat financera gestioni els pagaments als proveïdors",
+        "El banc, per convertir factures en pagarés"
+      ],
+      "correct": 2,
+      "explanation": "El confirming és un servei contractat per l’empresa deutora per gestionar pagaments; el proveïdor pot rebre una oferta d’anticipació."
+    },
+    {
+      "id": "uf0519-u2b2-010",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Confirming i pagament anticipat",
+      "question": "Quina diferència descriu millor confirming i descompte per pagament anticipat?",
+      "options": [
+        "En tots dos casos el client paga necessàriament abans al proveïdor",
+        "En el confirming intervé una entitat financera; en el descompte el client paga abans directament i paga menys",
+        "El descompte exigeix una entitat financera i el confirming no",
+        "El confirming redueix sempre l’import de la factura"
+      ],
+      "correct": 1,
+      "explanation": "En confirming l’empresa manté la data pactada i el proveïdor pot anticipar; en el descompte el client avança el pagament a canvi d’una reducció."
+    },
+    {
+      "id": "uf0519-u2b2-011",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Emplenament del llibre de caixa",
+      "question": "Quines són les columnes bàsiques del llibre auxiliar de caixa segons el material?",
+      "options": [
+        "Data, client, IBAN, factura i IVA",
+        "Data, concepte, càrrec, abonament i banc",
+        "Data, producte, quantitat, preu i descompte",
+        "Data, concepte, entrada, sortida i saldo"
+      ],
+      "correct": 3,
+      "explanation": "El registre bàsic de caixa identifica quan i per què es mou l’efectiu, si entra o surt i quin saldo queda."
+    },
+    {
+      "id": "uf0519-u2b2-012",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Càlcul del saldo de caixa",
+      "question": "Si la caixa comença amb 800 €, surt un pagament de 190 € i després entra un cobrament de 200 €, quin saldo queda?",
+      "options": [
+        "810 €",
+        "610 €",
+        "990 €",
+        "1.190 €"
+      ],
+      "correct": 0,
+      "explanation": "800 − 190 + 200 = 810 €, com mostra l’exemple del llibre auxiliar de caixa."
+    },
+    {
+      "id": "uf0519-u2b2-013",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Arqueig de caixa",
+      "question": "Què comprova l’arqueig de caixa més enllà de comptar bitllets i monedes?",
+      "options": [
+        "Que totes les vendes s’hagin cobrat amb targeta",
+        "Que l’inventari coincideixi amb les compres",
+        "Que l’efectiu real coincideixi amb el saldo que hauria d’haver segons els registres",
+        "Que el banc hagi abonat totes les transferències"
+      ],
+      "correct": 2,
+      "explanation": "L’arqueig compara l’efectiu físic comptat amb el saldo teòric i permet detectar desquadraments."
+    },
+    {
+      "id": "uf0519-u2b2-014",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Arqueig de caixa",
+      "question": "Si en fer l’arqueig sobren o falten diners, quina actuació indica el material abans del tancament?",
+      "options": [
+        "Traspassar la diferència al saldo bancari",
+        "Revisar l’origen de la diferència",
+        "Eliminar el moviment més antic",
+        "Modificar el saldo teòric perquè coincideixi"
+      ],
+      "correct": 1,
+      "explanation": "Una diferència entre efectiu real i teòric s’ha d’investigar abans de tancar la caixa."
+    },
+    {
+      "id": "uf0519-u2b2-015",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Efectiu i targetes",
+      "question": "Què passa amb l’efectiu de la caixa quan un client paga 50 € amb targeta?",
+      "options": [
+        "Augmenta en 50 € perquè és una venda",
+        "Augmenta quan el banc autoritza l’operació",
+        "Disminueix perquè el TPV cobra una comissió",
+        "No augmenta: la venda es registra, però no entren monedes ni bitllets al calaix"
+      ],
+      "correct": 3,
+      "explanation": "El cobrament amb targeta es tramita pel banc i es comprova amb l’informe del datàfon, no amb l’efectiu físic."
+    },
+    {
+      "id": "uf0519-u2b2-016",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Saldo real i saldo teòric",
+      "question": "Quina fórmula calcula el saldo teòric d’efectiu?",
+      "options": [
+        "Saldo inicial + entrades d’efectiu − sortides d’efectiu",
+        "Saldo inicial + cobraments amb targeta − inventari",
+        "Saldo real − devolucions + vendes totals",
+        "Saldo bancari + efectiu − comissions"
+      ],
+      "correct": 0,
+      "explanation": "El saldo teòric parteix del saldo inicial, suma les entrades d’efectiu i resta les sortides d’efectiu."
+    },
+    {
+      "id": "uf0519-u2b2-017",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Registre de vendes i moviments",
+      "question": "En registrar una venda al sistema de caixa, quina dada és essencial diferenciar perquè després el tancament sigui correcte?",
+      "options": [
+        "La mida del producte",
+        "La data de compra del proveïdor",
+        "La forma de pagament, com efectiu o targeta",
+        "El saldo del compte bancari del client"
+      ],
+      "correct": 2,
+      "explanation": "El material insisteix que la forma de pagament ha de quedar ben diferenciada per comprovar cada mitjà per separat."
+    },
+    {
+      "id": "uf0519-u2b2-018",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Desquadrament de caixa",
+      "question": "Com s’interpreta un desquadrament negatiu de caixa?",
+      "options": [
+        "Hi ha més diners dels esperats",
+        "Hi ha menys diners dels esperats",
+        "Els cobraments amb targeta superen els d’efectiu",
+        "El saldo bancari és inferior al de caixa"
+      ],
+      "correct": 1,
+      "explanation": "Un desquadrament negatiu significa que l’efectiu real és inferior al saldo esperat; un de positiu indica el contrari."
+    },
+    {
+      "id": "uf0519-u2b2-019",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Tancament de caixa",
+      "question": "Quan s’han de corregir els errors detectats en la caixa?",
+      "options": [
+        "Després de tancar, sense necessitat de justificar-los",
+        "En el tancament del mes següent",
+        "Només quan afecten cobraments amb targeta",
+        "Abans del tancament definitiu; després, qualsevol canvi ha d’estar justificat i autoritzat"
+      ],
+      "correct": 3,
+      "explanation": "Les correccions s’han de fer abans del tancament; una modificació posterior requereix justificació i autorització segons el procediment."
+    },
+    {
+      "id": "uf0519-u2b2-020",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Llibre auxiliar de bancs",
+      "question": "Quina és la funció principal del llibre auxiliar de bancs?",
+      "options": [
+        "Registrar i controlar els moviments dels comptes bancaris de l’empresa",
+        "Substituir l’extracte bancari oficial",
+        "Controlar únicament els pagaments en efectiu",
+        "Registrar l’inventari de material d’oficina"
+      ],
+      "correct": 0,
+      "explanation": "El llibre auxiliar de bancs recull els moviments efectuats a través dels comptes bancaris de l’empresa."
+    },
+    {
+      "id": "uf0519-u2b2-021",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Càrrecs i abonaments",
+      "question": "En el llibre auxiliar de bancs, què representa un càrrec?",
+      "options": [
+        "Una entrada de diners al compte",
+        "Un document o referència sense efecte econòmic",
+        "Una sortida de diners del compte",
+        "El saldo inicial del període"
+      ],
+      "correct": 2,
+      "explanation": "El material identifica el càrrec amb una sortida de diners i l’abonament amb una entrada."
+    },
+    {
+      "id": "uf0519-u2b2-022",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Emplenament del llibre de bancs",
+      "question": "Quina pràctica facilita especialment la conciliació bancària?",
+      "options": [
+        "Agrupar totes les operacions al final del mes sense data",
+        "Registrar per ordre de data, separar càrrecs i abonaments i conservar justificants",
+        "Eliminar els justificants un cop actualitzat el saldo",
+        "Anotar només els moviments de més import"
+      ],
+      "correct": 1,
+      "explanation": "Un registre ordenat, clar, amb saldo actualitzat i justificants facilita comparar-lo després amb l’extracte bancari."
+    },
+    {
+      "id": "uf0519-u2b2-023",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Exemple de llibre de bancs",
+      "question": "En l’exemple del llibre de bancs, com es registren una comissió bancària de 12 € i una transferència rebuda de 250 €?",
+      "options": [
+        "Totes dues com a càrrecs",
+        "Totes dues com a abonaments",
+        "La comissió com a abonament i la transferència com a càrrec",
+        "La comissió com a càrrec i la transferència com a abonament"
+      ],
+      "correct": 3,
+      "explanation": "La comissió és una sortida del compte i la transferència rebuda és una entrada."
+    },
+    {
+      "id": "uf0519-u2b2-024",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Conciliació bancària",
+      "question": "Què compara la conciliació bancària per detectar diferències?",
+      "options": [
+        "El llibre auxiliar de bancs amb l’extracte de l’entitat bancària",
+        "El llibre de caixa amb l’inventari",
+        "Les factures emeses amb les nòmines",
+        "El datàfon amb el saldo físic de caixa"
+      ],
+      "correct": 0,
+      "explanation": "La conciliació posa en paral·lel el registre intern de bancs i l’extracte bancari per comprovar coincidències i diferències."
+    },
+    {
+      "id": "uf0519-u2b2-025",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Diferències de conciliació",
+      "question": "Quina situació pot explicar una diferència en una conciliació bancària?",
+      "options": [
+        "Que el producte venut tingui un codi diferent",
+        "Que el caixer hagi comptat malament les monedes",
+        "Que el banc hagi carregat una comissió que l’empresa encara no ha registrat",
+        "Que una factura tingui un descompte comercial"
+      ],
+      "correct": 2,
+      "explanation": "Entre les diferències habituals hi ha comissions no registrades, operacions pendents i errors de dates, imports o conceptes."
+    },
+    {
+      "id": "uf0519-u2b2-026",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Errors de conciliació",
+      "question": "Quin error pot provocar problemes directes en el control del llibre de bancs?",
+      "options": [
+        "Separar correctament càrrecs i abonaments",
+        "Confondre càrrecs i abonaments o duplicar una operació",
+        "Conservar els justificants",
+        "Revisar les operacions pendents"
+      ],
+      "correct": 1,
+      "explanation": "El material assenyala com a errors habituals ometre o duplicar moviments, anotar imports incorrectes i confondre càrrecs amb abonaments."
+    },
+    {
+      "id": "uf0519-u2b2-027",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Confidencialitat en tresoreria",
+      "question": "Què implica la confidencialitat en la gestió de tresoreria?",
+      "options": [
+        "Que qualsevol treballador pugui consultar dades si no les modifica",
+        "Que les dades econòmiques es puguin comunicar fora de l’empresa si són antigues",
+        "Que les contrasenyes es comparteixin dins del departament",
+        "Que només persones autoritzades consultin o comuniquin la informació per finalitats de feina"
+      ],
+      "correct": 3,
+      "explanation": "La confidencialitat limita l’accés i la comunicació de dades econòmiques, bancàries i personals a qui ho necessita per treballar."
+    },
+    {
+      "id": "uf0519-u2b2-028",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Dades protegides",
+      "question": "Quin criteri d’accés aplica el material a dades com IBAN, nòmines o claus de banca electrònica?",
+      "options": [
+        "Limitar l’accés a les persones que necessiten les dades per fer la seva feina",
+        "Permetre l’accés a tota la plantilla si hi ha contrasenya",
+        "Publicar-les en una carpeta comuna amb permisos de lectura",
+        "Compartir-les només verbalment per evitar registres"
+      ],
+      "correct": 0,
+      "explanation": "No tota la plantilla necessita accedir a tota la informació econòmica; l’accés s’ha de limitar segons la funció."
+    },
+    {
+      "id": "uf0519-u2b2-029",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Seguretat en operacions en línia",
+      "question": "Abans d’autoritzar una operació bancària en línia, quina comprovació és correcta?",
+      "options": [
+        "Obrir l’enllaç rebut per correu si mostra el logotip del banc",
+        "Confirmar primer i revisar l’import després",
+        "Revisar beneficiari, import i IBAN i comprovar que la pàgina és segura",
+        "Desactivar l’autenticació reforçada per evitar errors"
+      ],
+      "correct": 2,
+      "explanation": "El material recomana verificar pàgina, beneficiari, import i compte, evitar enllaços sospitosos, usar autenticació reforçada i desar el justificant."
+    },
+    {
+      "id": "uf0519-u2b2-030",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Dispositius associats a la caixa",
+      "question": "Quin conjunt està format per perifèrics habituals d’un sistema de venda?",
+      "options": [
+        "Escàner documental, servidor de correu i projector",
+        "Impressora de tiquets, lector de codis de barres i calaix portamonedes",
+        "Router, disc extern i impressora làser d’oficina",
+        "Fotocopiadora, destructora i enquadernadora"
+      ],
+      "correct": 1,
+      "explanation": "Aquests perifèrics faciliten registrar vendes, cobraments i productes i milloren el control de l’operació."
+    },
+    {
+      "id": "uf0519-u2b2-031",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Datàfon",
+      "question": "Quina és la funció principal d’un datàfon?",
+      "options": [
+        "Gestionar tot l’inventari del comerç",
+        "Fer la conciliació bancària automàtica",
+        "Substituir el programari del TPV",
+        "Processar pagaments electrònics i comunicar-se amb l’entitat financera per autoritzar-los"
+      ],
+      "correct": 3,
+      "explanation": "El datàfon cobra amb targeta o altres mitjans electrònics, obté l’autorització i emet un justificant."
+    },
+    {
+      "id": "uf0519-u2b2-032",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Ús del datàfon",
+      "question": "Quina pràctica forma part de l’ús correcte del datàfon?",
+      "options": [
+        "Comprovar l’import abans de cobrar i revisar anul·lacions o devolucions",
+        "Modificar l’import després de l’autorització si el client ho demana",
+        "No lliurar justificant quan el TPV ja ha registrat la venda",
+        "Barrejar les operacions de diferents dies abans del tancament"
+      ],
+      "correct": 0,
+      "explanation": "El material recomana comprovar l’import, lliurar o enviar el justificant i revisar anul·lacions, devolucions i tancaments."
+    },
+    {
+      "id": "uf0519-u2b2-033",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "TPV",
+      "question": "Quina funció correspon al TPV i no només al datàfon?",
+      "options": [
+        "Autoritzar una targeta amb l’entitat financera",
+        "Emetre únicament el comprovant bancari",
+        "Registrar vendes, controlar formes de pagament i poder actualitzar l’inventari",
+        "Llegir el xip o el contactless d’una targeta"
+      ],
+      "correct": 2,
+      "explanation": "El TPV gestiona el procés de venda i pot incloure productes, inventari, informes i tancament de caixa."
+    },
+    {
+      "id": "uf0519-u2b2-034",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "TPV compacte",
+      "question": "Què caracteritza un TPV compacte?",
+      "options": [
+        "Funciona exclusivament com a datàfon sense programari de venda",
+        "Integra diversos elements en un mateix equip i redueix dispositius independents",
+        "Està format sempre per ordinador, monitor i perifèrics separats",
+        "Només es pot utilitzar en comerç electrònic"
+      ],
+      "correct": 1,
+      "explanation": "El TPV compacte pot integrar pantalla, impressora, lector, calaix i programari en un únic sistema."
+    },
+    {
+      "id": "uf0519-u2b2-035",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "TPV modular",
+      "question": "Quin tret defineix millor un TPV modular?",
+      "options": [
+        "Integra totes les funcions en una sola carcassa",
+        "No admet datàfon extern",
+        "Està pensat únicament per a restaurants",
+        "Combina diversos dispositius connectats i es pot adaptar a les necessitats del negoci"
+      ],
+      "correct": 3,
+      "explanation": "El sistema modular combina terminal, pantalla, teclat, impressora, calaix, lector o datàfon segons el negoci."
+    },
+    {
+      "id": "uf0519-u2b2-036",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Programari del TPV",
+      "question": "Quina classificació del programari de TPV recull el material?",
+      "options": [
+        "A mida, comercial i específic del sector",
+        "Local, bancari i fiscal",
+        "Fix, sense fil i virtual",
+        "Comptable, jurídic i documental"
+      ],
+      "correct": 0,
+      "explanation": "El programari pot ser dissenyat a mida, comercial estàndard o específic per a un sector."
+    },
+    {
+      "id": "uf0519-u2b2-037",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Datàfon i TPV",
+      "question": "Quina frase resumeix correctament la diferència entre datàfon i TPV?",
+      "options": [
+        "El TPV autoritza targetes i el datàfon gestiona inventari",
+        "Tots dos tenen exactament la mateixa funció",
+        "El datàfon processa el pagament; el TPV gestiona el procés de venda",
+        "El datàfon és sempre part física del calaix de caixa"
+      ],
+      "correct": 2,
+      "explanation": "El material ho sintetitza així: el datàfon cobra; el TPV gestiona la venda i es pot integrar amb el datàfon."
+    },
+    {
+      "id": "uf0519-u2b2-038",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "TPV virtual",
+      "question": "Quina funció fa un TPV virtual en una botiga en línia?",
+      "options": [
+        "Gestiona l’inventari físic del magatzem",
+        "Actua com a passarel·la de pagament entre comprador, comerç i entitat financera",
+        "Substitueix la pàgina web del comerç",
+        "Converteix totes les compres en transferències ordinàries"
+      ],
+      "correct": 1,
+      "explanation": "El TPV virtual permet acceptar pagaments per internet i connecta les parts de l’operació de pagament."
+    },
+    {
+      "id": "uf0519-u2b2-039",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Banca electrònica",
+      "question": "Quina operació es pot fer mitjançant banca electrònica segons el material?",
+      "options": [
+        "Comptar físicament l’efectiu de caixa",
+        "Imprimir etiquetes de producte",
+        "Fer l’arqueig físic del calaix",
+        "Consultar saldos, fer transferències o descarregar justificants"
+      ],
+      "correct": 3,
+      "explanation": "La banca electrònica permet operar amb el banc per internet o aplicació sense desplaçar-s’hi físicament."
+    },
+    {
+      "id": "uf0519-u2b2-040",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Comerç electrònic i B2B",
+      "question": "Què significa B2B en el comerç electrònic?",
+      "options": [
+        "Relacions comercials entre empreses",
+        "Venda d’una empresa al consumidor final",
+        "Relacions entre empreses i administracions",
+        "Compravenda entre consumidors"
+      ],
+      "correct": 0,
+      "explanation": "B2B significa business to business: operacions comercials entre empreses."
+    },
+    {
+      "id": "uf0519-u2b2-041",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Modalitats de comerç electrònic",
+      "question": "Quina correspondència és correcta?",
+      "options": [
+        "B2C = empresa-consumidor; B2A = empresa-Administració; C2C = consumidor-consumidor",
+        "B2C = empresa-empresa; B2A = consumidor-Administració; C2C = empresa-consumidor",
+        "B2C = banc-consumidor; B2A = banc-Administració; C2C = comerç-comerç",
+        "B2C = consumidor-empresa; B2A = Administració-empresa; C2C = client-proveïdor"
+      ],
+      "correct": 0,
+      "explanation": "El material diferencia B2C, B2A i C2C segons qui ven o es relaciona amb qui."
+    }
+  ]
+}

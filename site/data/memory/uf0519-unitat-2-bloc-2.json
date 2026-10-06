@@ -1,0 +1,210 @@
+{
+  "blockId": "uf0519-unitat-2-bloc-2",
+  "questions": {
+    "uf0519-u2b2-001": {
+      "type": "idea",
+      "ca": "Caixa = moviments d’efectiu + saldo real.",
+      "es": "Caja = movimientos de efectivo + saldo real."
+    },
+    "uf0519-u2b2-002": {
+      "type": "idea",
+      "ca": "Cobrament entra; pagament surt.",
+      "es": "Cobro entra; pago sale."
+    },
+    "uf0519-u2b2-003": {
+      "type": "idea",
+      "ca": "Rebut domiciliat = compte del client + autorització.",
+      "es": "Recibo domiciliado = cuenta del cliente + autorización."
+    },
+    "uf0519-u2b2-004": {
+      "type": "idea",
+      "ca": "Descompte comercial = anticipació bancària amb cost i recurs.",
+      "es": "Descuento comercial = anticipo bancario con coste y recurso."
+    },
+    "uf0519-u2b2-005": {
+      "type": "idea",
+      "ca": "Factoring = cedir factures per gestionar o anticipar cobrament.",
+      "es": "Factoring = ceder facturas para gestionar o anticipar cobro."
+    },
+    "uf0519-u2b2-006": {
+      "type": "idea",
+      "ca": "Assegurança de crèdit = protecció del risc, no liquiditat anticipada.",
+      "es": "Seguro de crédito = protección del riesgo, no liquidez anticipada."
+    },
+    "uf0519-u2b2-007": {
+      "type": "idea",
+      "ca": "Amb recurs = risc empresa; sense recurs = risc cobert per l’entitat.",
+      "es": "Con recurso = riesgo empresa; sin recurso = riesgo cubierto por la entidad."
+    },
+    "uf0519-u2b2-008": {
+      "type": "idea",
+      "ca": "Pagaments: transferència, domiciliació, xec o pagaré.",
+      "es": "Pagos: transferencia, domiciliación, cheque o pagaré."
+    },
+    "uf0519-u2b2-009": {
+      "type": "idea",
+      "ca": "Confirming = l’empresa pagadora encarrega la gestió al banc.",
+      "es": "Confirming = la empresa pagadora encarga la gestión al banco."
+    },
+    "uf0519-u2b2-010": {
+      "type": "idea",
+      "ca": "Confirming: anticipa el proveïdor; descompte: paga abans el client.",
+      "es": "Confirming: anticipa el proveedor; descuento: paga antes el cliente."
+    },
+    "uf0519-u2b2-011": {
+      "type": "idea",
+      "ca": "Caixa: data + concepte + entrada + sortida + saldo.",
+      "es": "Caja: fecha + concepto + entrada + salida + saldo."
+    },
+    "uf0519-u2b2-012": {
+      "type": "idea",
+      "ca": "Saldo = anterior − sortides + entrades.",
+      "es": "Saldo = anterior − salidas + entradas."
+    },
+    "uf0519-u2b2-013": {
+      "type": "idea",
+      "ca": "Arqueig = comptar i comparar amb el registre.",
+      "es": "Arqueo = contar y comparar con el registro."
+    },
+    "uf0519-u2b2-014": {
+      "type": "idea",
+      "ca": "Desquadrament abans de tancar = buscar-ne la causa.",
+      "es": "Descuadre antes de cerrar = buscar su causa."
+    },
+    "uf0519-u2b2-015": {
+      "type": "idea",
+      "ca": "Targeta = venda registrada, però no efectiu al calaix.",
+      "es": "Tarjeta = venta registrada, pero no efectivo en el cajón."
+    },
+    "uf0519-u2b2-016": {
+      "type": "idea",
+      "ca": "Teòric = inicial + entrades − sortides.",
+      "es": "Teórico = inicial + entradas − salidas."
+    },
+    "uf0519-u2b2-017": {
+      "type": "idea",
+      "ca": "Venda registrada = import + forma de pagament ben separada.",
+      "es": "Venta registrada = importe + forma de pago bien separada."
+    },
+    "uf0519-u2b2-018": {
+      "type": "idea",
+      "ca": "Negatiu = falta efectiu; positiu = sobra efectiu.",
+      "es": "Negativo = falta efectivo; positivo = sobra efectivo."
+    },
+    "uf0519-u2b2-019": {
+      "type": "idea",
+      "ca": "Primer revisar i corregir; després tancar.",
+      "es": "Primero revisar y corregir; después cerrar."
+    },
+    "uf0519-u2b2-020": {
+      "type": "idea",
+      "ca": "Bancs = moviments dels comptes bancaris.",
+      "es": "Bancos = movimientos de las cuentas bancarias."
+    },
+    "uf0519-u2b2-021": {
+      "type": "idea",
+      "ca": "Càrrec surt; abonament entra.",
+      "es": "Cargo sale; abono entra."
+    },
+    "uf0519-u2b2-022": {
+      "type": "idea",
+      "ca": "Bon llibre de bancs = ordre + separació + saldo + justificants.",
+      "es": "Buen libro de bancos = orden + separación + saldo + justificantes."
+    },
+    "uf0519-u2b2-023": {
+      "type": "idea",
+      "ca": "Comissió = càrrec; transferència rebuda = abonament.",
+      "es": "Comisión = cargo; transferencia recibida = abono."
+    },
+    "uf0519-u2b2-024": {
+      "type": "idea",
+      "ca": "Conciliar = empresa i banc han de quadrar.",
+      "es": "Conciliar = empresa y banco deben cuadrar."
+    },
+    "uf0519-u2b2-025": {
+      "type": "idea",
+      "ca": "Conciliació busca moviments pendents, comissions i errors.",
+      "es": "Conciliación busca movimientos pendientes, comisiones y errores."
+    },
+    "uf0519-u2b2-026": {
+      "type": "idea",
+      "ca": "Conciliació detecta omissions, duplicats i càrrecs/abonaments mal posats.",
+      "es": "Conciliación detecta omisiones, duplicados y cargos/abonos mal puestos."
+    },
+    "uf0519-u2b2-027": {
+      "type": "idea",
+      "ca": "Confidencialitat = accés autoritzat i finalitat laboral.",
+      "es": "Confidencialidad = acceso autorizado y finalidad laboral."
+    },
+    "uf0519-u2b2-028": {
+      "type": "idea",
+      "ca": "Accés mínim necessari per a la feina.",
+      "es": "Acceso mínimo necesario para el trabajo."
+    },
+    "uf0519-u2b2-029": {
+      "type": "idea",
+      "ca": "Abans de confirmar: pàgina + beneficiari + import + IBAN.",
+      "es": "Antes de confirmar: página + beneficiario + importe + IBAN."
+    },
+    "uf0519-u2b2-030": {
+      "type": "idea",
+      "ca": "TPV físic: tiquet + codi + calaix, entre altres perifèrics.",
+      "es": "TPV físico: ticket + código + cajón, entre otros periféricos."
+    },
+    "uf0519-u2b2-031": {
+      "type": "idea",
+      "ca": "Datàfon = autoritza i processa el pagament electrònic.",
+      "es": "Datáfono = autoriza y procesa el pago electrónico."
+    },
+    "uf0519-u2b2-032": {
+      "type": "idea",
+      "ca": "Datàfon correcte: import → cobrament → justificant → revisió.",
+      "es": "Datáfono correcto: importe → cobro → justificante → revisión."
+    },
+    "uf0519-u2b2-033": {
+      "type": "idea",
+      "ca": "TPV = venda completa; datàfon = pagament.",
+      "es": "TPV = venta completa; datáfono = pago."
+    },
+    "uf0519-u2b2-034": {
+      "type": "idea",
+      "ca": "Compacte = diverses eines en un sol equip.",
+      "es": "Compacto = varias herramientas en un solo equipo."
+    },
+    "uf0519-u2b2-035": {
+      "type": "idea",
+      "ca": "Modular = peces connectades i adaptables.",
+      "es": "Modular = piezas conectadas y adaptables."
+    },
+    "uf0519-u2b2-036": {
+      "type": "idea",
+      "ca": "Programari TPV: a mida, comercial o sectorial.",
+      "es": "Software TPV: a medida, comercial o sectorial."
+    },
+    "uf0519-u2b2-037": {
+      "type": "idea",
+      "ca": "Datàfon cobra; TPV gestiona.",
+      "es": "Datáfono cobra; TPV gestiona."
+    },
+    "uf0519-u2b2-038": {
+      "type": "idea",
+      "ca": "TPV virtual = passarel·la per cobrar en línia.",
+      "es": "TPV virtual = pasarela para cobrar en línea."
+    },
+    "uf0519-u2b2-039": {
+      "type": "idea",
+      "ca": "Banca electrònica = consultar i operar sense anar al banc.",
+      "es": "Banca electrónica = consultar y operar sin ir al banco."
+    },
+    "uf0519-u2b2-040": {
+      "type": "idea",
+      "ca": "B2B = empresa amb empresa.",
+      "es": "B2B = empresa con empresa."
+    },
+    "uf0519-u2b2-041": {
+      "type": "idea",
+      "ca": "B2C consumidor; B2A Administració; C2C consumidors.",
+      "es": "B2C consumidor; B2A Administración; C2C consumidores."
+    }
+  }
+}

@@ -75,6 +75,11 @@
       "id": "uf0519-bloc-5",
       "ca": "UF0519 · Bloc 5 — Operacions, tresoreria, caixa i material",
       "es": "UF0519 · Bloque 5 — Operaciones, tesorería, caja y material"
+    },
+    {
+      "id": "uf0519-unitat-2-bloc-1",
+      "ca": "UF0519 · Unitat 2 · Bloc 1 — Mitjans de cobrament i pagament",
+      "es": "UF0519 · Unidad 2 · Bloque 1 — Medios de cobro y pago"
     }
   ],
   "families": [
@@ -2870,7 +2875,7 @@
     },
     {
       "id": "uf519-formes-gestio-pagament-u2",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "ordered": false,
       "source": {
         "id": "UF0519_U2_TRESORERIA",
@@ -2900,7 +2905,7 @@
     },
     {
       "id": "uf519-opcions-pagament-mobil-u2",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "ordered": false,
       "source": {
         "id": "UF0519_U2_TRESORERIA",
@@ -2930,7 +2935,7 @@
     },
     {
       "id": "uf519-requisits-xec-u2",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "ordered": false,
       "source": {
         "id": "UF0519_U2_TRESORERIA",
@@ -2966,7 +2971,7 @@
     },
     {
       "id": "uf519-intervinents-xec-u2",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "ordered": false,
       "source": {
         "id": "UF0519_U2_TRESORERIA",
@@ -2996,7 +3001,7 @@
     },
     {
       "id": "uf519-contingut-rebut-u2",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "ordered": false,
       "source": {
         "id": "UF0519_U2_TRESORERIA",
@@ -3036,7 +3041,7 @@
     },
     {
       "id": "uf519-requisits-pagare-u2",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "ordered": false,
       "source": {
         "id": "UF0519_U2_TRESORERIA",
@@ -3074,7 +3079,7 @@
     },
     {
       "id": "uf519-parts-aval-u2",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "ordered": false,
       "source": {
         "id": "UF0519_U2_TRESORERIA",

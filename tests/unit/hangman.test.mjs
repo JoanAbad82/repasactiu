@@ -24,6 +24,8 @@ test('només entren termes curts i jugables del diccionari',()=>{
   assert.equal(isPlayableEntry(entry('Cooperativa'),'ca'),true);
   assert.equal(isPlayableEntry(entry('S.A. vs. S.L.'),'ca'),false);
   assert.equal(isPlayableEntry(entry('IVA 21 %'),'ca'),false);
+  assert.equal(isPlayableEntry(entry('Llibre auxiliar de bancs'),'ca'),true);
+  assert.equal(isPlayableEntry(entry('Un dos tres quatre cinc'),'ca'),false);
   const bank={entries:[entry('Cooperativa'),entry('Autoritat','Autoridad','b2'),entry('IVA 21 %')]};
   assert.deepEqual(playableEntries(bank,{language:'ca',blockId:'b1'}).map(x=>x.ca.term),['Cooperativa']);
 });

@@ -30,7 +30,7 @@ export function isPlayableEntry(entry,language="ca"){
   const term=entry?.[lang]?.term?.trim()||"";
   if(!term||/[0-9./:;=+<>→←]/u.test(term)||/vs/i.test(term))return false;
   const letters=[...term].filter(isLetter);
-  const words=term.split(/s+/u).filter(Boolean);
+  const words=term.split(/\s+/u).filter(Boolean);
   return letters.length>=4&&letters.length<=28&&words.length<=4;
 }
 export function playableEntries(bank,{language="ca",blockId="all"}={}){
@@ -51,7 +51,7 @@ function sourceLabel(source){
 }
 function groupLabel(bank,id,lang){const group=(bank?.groups||[]).find(item=>item.id===id);return group?.[lang]||group?.ca||id;}
 function termStats(term,c){
-  const words=term.split(/s+/u).filter(Boolean).length;
+  const words=term.split(/\s+/u).filter(Boolean).length;
   const letters=[...term].filter(isLetter).length;
   return `${words} ${c.words} · ${letters} ${c.lettersCount}`;
 }

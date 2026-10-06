@@ -11,13 +11,13 @@ test('generatePermutations produeix exactament les 24 permutacions de quatre opc
 test('totes les preguntes publicades superen les 24 permutacions en pràctica i examen difícil, en català i castellà', async () => {
   const result=await runPermutationAudit();
   const perRepresentation=result.questions*result.permutationsPerQuestion*result.languages;
-  assert.equal(result.questions,968);
+  assert.equal(result.questions,1009);
   assert.equal(result.permutationsPerQuestion,24);
   assert.equal(result.languages,2);
   assert.equal(result.practiceCases,perRepresentation);
   assert.equal(result.hardCases,perRepresentation);
-  assert.equal(result.practiceCases,46464);
-  assert.equal(result.hardCases,46464);
-  assert.equal(result.cases,92928);
+  assert.equal(result.practiceCases,48432);
+  assert.equal(result.hardCases,48432);
+  assert.equal(result.cases,96864);
   assert.deepEqual(result.errors,[]);
 });

@@ -6,7 +6,7 @@
     "ca",
     "es"
   ],
-  "count": 116,
+  "count": 138,
   "groups": [
     {
       "id": "bloc-1",
@@ -77,6 +77,16 @@
       "id": "uf0519-bloc-5",
       "ca": "UF0519 · Bloc 5 — Operacions, tresoreria, caixa i material",
       "es": "UF0519 · Bloque 5 — Operaciones, tesorería, caja y material"
+    },
+    {
+      "id": "uf0519-unitat-2-bloc-1",
+      "ca": "UF0519 · Unitat 2 · Bloc 1 — Mitjans de cobrament i pagament",
+      "es": "UF0519 · Unidad 2 · Bloque 1 — Medios de cobro y pago"
+    },
+    {
+      "id": "uf0519-unitat-2-bloc-2",
+      "ca": "UF0519 · Unitat 2 · Bloc 2 — Caixa, bancs i mitjans informàtics",
+      "es": "UF0519 · Unidad 2 · Bloque 2 — Caja, bancos y medios informáticos"
     }
   ],
   "entries": [
@@ -2372,7 +2382,7 @@
     },
     {
       "id": "uf519-pagament-anticipat",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2395,7 +2405,7 @@
     },
     {
       "id": "uf519-domiciliacio-bancaria",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2418,7 +2428,7 @@
     },
     {
       "id": "uf519-contra-reemborsament",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2441,7 +2451,7 @@
     },
     {
       "id": "uf519-xec-creuat",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2464,7 +2474,7 @@
     },
     {
       "id": "uf519-xec-conformat",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2487,7 +2497,7 @@
     },
     {
       "id": "uf519-endossament",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2510,7 +2520,7 @@
     },
     {
       "id": "uf519-transferencia-bancaria",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2533,7 +2543,7 @@
     },
     {
       "id": "uf519-pagare",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2556,7 +2566,7 @@
     },
     {
       "id": "uf519-aval-bancari",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2579,7 +2589,7 @@
     },
     {
       "id": "uf519-pignoracio",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2598,6 +2608,468 @@
         "definition": "Afectación de dinero u otros activos como garantía de un aval; pueden quedar inmovilizados mientras el aval está vigente.",
         "memory": "Pignorar = inmovilizar para garantizar.",
         "technique": "Verbo clave"
+      }
+    },
+    {
+      "id": "uf519-llibre-auxiliar-caixa",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          4,
+          4
+        ]
+      },
+      "ca": {
+        "term": "Llibre auxiliar de caixa",
+        "definition": "Registre dels moviments de diners en efectiu que permet controlar entrades, sortides i saldo de la caixa física.",
+        "memory": "Caixa = efectiu que entra, surt i queda."
+      },
+      "es": {
+        "term": "Libro auxiliar de caja",
+        "definition": "Registro de los movimientos de dinero en efectivo que permite controlar entradas, salidas y saldo de la caja física.",
+        "memory": "Caja = efectivo que entra, sale y queda."
+      }
+    },
+    {
+      "id": "uf519-descompte-comercial",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          6,
+          6
+        ]
+      },
+      "ca": {
+        "term": "Descompte comercial",
+        "definition": "Operació en què el banc avança l’import d’un efecte abans del venciment i descompta interessos i comissions.",
+        "memory": "Descompte comercial = cobrar abans amb cost bancari."
+      },
+      "es": {
+        "term": "Descuento comercial",
+        "definition": "Operación en la que el banco anticipa el importe de un efecto antes del vencimiento y descuenta intereses y comisiones.",
+        "memory": "Descuento comercial = cobrar antes con coste bancario."
+      }
+    },
+    {
+      "id": "uf519-factoring",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          7,
+          7
+        ]
+      },
+      "ca": {
+        "term": "Factoring",
+        "definition": "Cessió dels drets de cobrament de factures a una entitat que en pot gestionar el cobrament i anticipar l’import.",
+        "memory": "Factoring = cedir factures per cobrar-les o anticipar-les."
+      },
+      "es": {
+        "term": "Factoring",
+        "definition": "Cesión de los derechos de cobro de facturas a una entidad que puede gestionar el cobro y anticipar el importe.",
+        "memory": "Factoring = ceder facturas para cobrarlas o anticiparlas."
+      }
+    },
+    {
+      "id": "uf519-asseguranca-credit",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "term": "Assegurança de crèdit",
+        "definition": "Assegurança que protegeix l’empresa davant el risc d’impagament dels clients per causes cobertes per la pòlissa.",
+        "memory": "Assegurança de crèdit = protecció davant impagats."
+      },
+      "es": {
+        "term": "Seguro de crédito",
+        "definition": "Seguro que protege a la empresa frente al riesgo de impago de los clientes por causas cubiertas por la póliza.",
+        "memory": "Seguro de crédito = protección frente a impagos."
+      }
+    },
+    {
+      "id": "uf519-factoring-recurs",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          10,
+          10
+        ]
+      },
+      "ca": {
+        "term": "Factoring amb recurs",
+        "definition": "Modalitat de factoring en què l’empresa continua assumint el risc d’impagament del client.",
+        "memory": "Amb recurs: el risc torna a l’empresa."
+      },
+      "es": {
+        "term": "Factoring con recurso",
+        "definition": "Modalidad de factoring en la que la empresa sigue asumiendo el riesgo de impago del cliente.",
+        "memory": "Con recurso: el riesgo vuelve a la empresa."
+      }
+    },
+    {
+      "id": "uf519-factoring-sense-recurs",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          10,
+          10
+        ]
+      },
+      "ca": {
+        "term": "Factoring sense recurs",
+        "definition": "Modalitat en què l’entitat de factoring assumeix el risc d’insolvència cobert dins dels límits pactats.",
+        "memory": "Sense recurs: el risc cobert passa a l’entitat."
+      },
+      "es": {
+        "term": "Factoring sin recurso",
+        "definition": "Modalidad en la que la entidad de factoring asume el riesgo de insolvencia cubierto dentro de los límites pactados.",
+        "memory": "Sin recurso: el riesgo cubierto pasa a la entidad."
+      }
+    },
+    {
+      "id": "uf519-confirming",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          12,
+          12
+        ]
+      },
+      "ca": {
+        "term": "Confirming",
+        "definition": "Servei financer pel qual una empresa encarrega a una entitat la gestió dels pagaments als seus proveïdors.",
+        "memory": "Confirming = gestionar pagaments a proveïdors."
+      },
+      "es": {
+        "term": "Confirming",
+        "definition": "Servicio financiero por el que una empresa encarga a una entidad la gestión de los pagos a sus proveedores.",
+        "memory": "Confirming = gestionar pagos a proveedores."
+      }
+    },
+    {
+      "id": "uf519-saldo-real",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          21,
+          21
+        ]
+      },
+      "ca": {
+        "term": "Saldo real",
+        "definition": "Efectiu físic, en monedes i bitllets, que es compta realment a la caixa.",
+        "memory": "Real = el que comptes al calaix."
+      },
+      "es": {
+        "term": "Saldo real",
+        "definition": "Efectivo físico, en monedas y billetes, que se cuenta realmente en la caja.",
+        "memory": "Real = lo que cuentas en el cajón."
+      }
+    },
+    {
+      "id": "uf519-saldo-teoric",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          21,
+          21
+        ]
+      },
+      "ca": {
+        "term": "Saldo teòric",
+        "definition": "Efectiu que hi hauria d’haver segons el saldo inicial, les entrades i les sortides registrades.",
+        "memory": "Teòric = inicial + entrades − sortides."
+      },
+      "es": {
+        "term": "Saldo teórico",
+        "definition": "Efectivo que debería haber según el saldo inicial, las entradas y las salidas registradas.",
+        "memory": "Teórico = inicial + entradas − salidas."
+      }
+    },
+    {
+      "id": "uf519-quadrament-caixa",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          22,
+          22
+        ]
+      },
+      "ca": {
+        "term": "Quadrament de caixa",
+        "definition": "Comprovació que els moviments registrats durant la jornada coincideixen amb els diners reals disponibles.",
+        "memory": "Quadrar = registre i diners coincideixen."
+      },
+      "es": {
+        "term": "Cuadre de caja",
+        "definition": "Comprobación de que los movimientos registrados durante la jornada coinciden con el dinero real disponible.",
+        "memory": "Cuadrar = registro y dinero coinciden."
+      }
+    },
+    {
+      "id": "uf519-desquadrament-caixa",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "term": "Desquadrament de caixa",
+        "definition": "Diferència entre els diners reals disponibles i el saldo que s’esperava segons els registres.",
+        "memory": "Desquadrament = real i teòric no coincideixen."
+      },
+      "es": {
+        "term": "Descuadre de caja",
+        "definition": "Diferencia entre el dinero real disponible y el saldo esperado según los registros.",
+        "memory": "Descuadre = real y teórico no coinciden."
+      }
+    },
+    {
+      "id": "uf519-llibre-auxiliar-bancs",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "term": "Llibre auxiliar de bancs",
+        "definition": "Registre intern que controla els moviments dels comptes bancaris de l’empresa.",
+        "memory": "Bancs = càrrecs, abonaments i saldo."
+      },
+      "es": {
+        "term": "Libro auxiliar de bancos",
+        "definition": "Registro interno que controla los movimientos de las cuentas bancarias de la empresa.",
+        "memory": "Bancos = cargos, abonos y saldo."
+      }
+    },
+    {
+      "id": "uf519-carrec",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          28,
+          28
+        ]
+      },
+      "ca": {
+        "term": "Càrrec",
+        "definition": "Anotació del llibre de bancs que representa una sortida de diners del compte.",
+        "memory": "Càrrec = diners que surten."
+      },
+      "es": {
+        "term": "Cargo",
+        "definition": "Anotación del libro de bancos que representa una salida de dinero de la cuenta.",
+        "memory": "Cargo = dinero que sale."
+      }
+    },
+    {
+      "id": "uf519-abonament",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          28,
+          28
+        ]
+      },
+      "ca": {
+        "term": "Abonament",
+        "definition": "Anotació del llibre de bancs que representa una entrada de diners al compte.",
+        "memory": "Abonament = diners que entren."
+      },
+      "es": {
+        "term": "Abono",
+        "definition": "Anotación del libro de bancos que representa una entrada de dinero en la cuenta.",
+        "memory": "Abono = dinero que entra."
+      }
+    },
+    {
+      "id": "uf519-confidencialitat-tresoreria",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          34,
+          34
+        ]
+      },
+      "ca": {
+        "term": "Confidencialitat",
+        "definition": "Principi que limita la consulta o comunicació de dades de tresoreria a persones autoritzades i per finalitats de feina.",
+        "memory": "Confidencial = només qui ho necessita per treballar."
+      },
+      "es": {
+        "term": "Confidencialidad",
+        "definition": "Principio que limita la consulta o comunicación de datos de tesorería a personas autorizadas y con fines de trabajo.",
+        "memory": "Confidencial = solo quien lo necesita para trabajar."
+      }
+    },
+    {
+      "id": "uf519-datafon",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          39,
+          39
+        ]
+      },
+      "ca": {
+        "term": "Datàfon",
+        "definition": "Dispositiu que processa pagaments electrònics, demana autorització a l’entitat financera i emet un justificant.",
+        "memory": "Datàfon = cobrar electrònicament."
+      },
+      "es": {
+        "term": "Datáfono",
+        "definition": "Dispositivo que procesa pagos electrónicos, solicita autorización a la entidad financiera y emite un justificante.",
+        "memory": "Datáfono = cobrar electrónicamente."
+      }
+    },
+    {
+      "id": "uf519-tpv-compacte",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          42,
+          42
+        ]
+      },
+      "ca": {
+        "term": "TPV compacte",
+        "definition": "Equip de punt de venda que integra diversos elements, com pantalla, impressora, lector, calaix i programari.",
+        "memory": "Compacte = moltes eines en un equip."
+      },
+      "es": {
+        "term": "TPV compacto",
+        "definition": "Equipo de punto de venta que integra varios elementos, como pantalla, impresora, lector, cajón y software.",
+        "memory": "Compacto = muchas herramientas en un equipo."
+      }
+    },
+    {
+      "id": "uf519-tpv-modular",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          43,
+          43
+        ]
+      },
+      "ca": {
+        "term": "TPV modular",
+        "definition": "Sistema de punt de venda format per diversos dispositius connectats que es poden adaptar al negoci.",
+        "memory": "Modular = peces connectades i adaptables."
+      },
+      "es": {
+        "term": "TPV modular",
+        "definition": "Sistema de punto de venta formado por varios dispositivos conectados que pueden adaptarse al negocio.",
+        "memory": "Modular = piezas conectadas y adaptables."
+      }
+    },
+    {
+      "id": "uf519-tpv-virtual",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          46,
+          46
+        ]
+      },
+      "ca": {
+        "term": "TPV virtual",
+        "definition": "Passarel·la que permet acceptar pagaments per internet entre comprador, comerç i entitat financera.",
+        "memory": "Virtual = cobrar en línia."
+      },
+      "es": {
+        "term": "TPV virtual",
+        "definition": "Pasarela que permite aceptar pagos por internet entre comprador, comercio y entidad financiera.",
+        "memory": "Virtual = cobrar en línea."
+      }
+    },
+    {
+      "id": "uf519-banca-electronica",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          47,
+          47
+        ]
+      },
+      "ca": {
+        "term": "Banca electrònica",
+        "definition": "Servei que permet consultar i fer operacions bancàries per internet o mitjançant una aplicació mòbil.",
+        "memory": "Banca electrònica = operar sense anar al banc."
+      },
+      "es": {
+        "term": "Banca electrónica",
+        "definition": "Servicio que permite consultar y realizar operaciones bancarias por internet o mediante una aplicación móvil.",
+        "memory": "Banca electrónica = operar sin ir al banco."
+      }
+    },
+    {
+      "id": "uf519-comerc-electronic",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          48,
+          48
+        ]
+      },
+      "ca": {
+        "term": "Comerç electrònic",
+        "definition": "Compra i venda de productes o serveis a través d’internet amb suport de plataforma, pagament i lliurament.",
+        "memory": "Comerç electrònic = vendre i comprar per internet."
+      },
+      "es": {
+        "term": "Comercio electrónico",
+        "definition": "Compra y venta de productos o servicios a través de internet con soporte de plataforma, pago y entrega.",
+        "memory": "Comercio electrónico = vender y comprar por internet."
+      }
+    },
+    {
+      "id": "uf519-passarella-pagament",
+      "blockId": "uf0519-unitat-2-bloc-2",
+      "source": {
+        "id": "UF0519_U2_TRESORERIA_B2",
+        "pages": [
+          48,
+          48
+        ]
+      },
+      "ca": {
+        "term": "Passarel·la de pagament",
+        "definition": "Sistema que connecta el comerç en línia amb els mecanismes necessaris per processar el pagament del comprador.",
+        "memory": "Passarel·la = pont entre compra i cobrament."
+      },
+      "es": {
+        "term": "Pasarela de pago",
+        "definition": "Sistema que conecta el comercio en línea con los mecanismos necesarios para procesar el pago del comprador.",
+        "memory": "Pasarela = puente entre compra y cobro."
       }
     }
   ],
@@ -2835,7 +3307,29 @@
         "uf519-transferencia-bancaria",
         "uf519-pagare",
         "uf519-aval-bancari",
-        "uf519-pignoracio"
+        "uf519-pignoracio",
+        "uf519-llibre-auxiliar-caixa",
+        "uf519-descompte-comercial",
+        "uf519-factoring",
+        "uf519-asseguranca-credit",
+        "uf519-factoring-recurs",
+        "uf519-factoring-sense-recurs",
+        "uf519-confirming",
+        "uf519-saldo-real",
+        "uf519-saldo-teoric",
+        "uf519-quadrament-caixa",
+        "uf519-desquadrament-caixa",
+        "uf519-llibre-auxiliar-bancs",
+        "uf519-carrec",
+        "uf519-abonament",
+        "uf519-confidencialitat-tresoreria",
+        "uf519-datafon",
+        "uf519-tpv-compacte",
+        "uf519-tpv-modular",
+        "uf519-tpv-virtual",
+        "uf519-banca-electronica",
+        "uf519-comerc-electronic",
+        "uf519-passarella-pagament"
       ]
     }
   ],

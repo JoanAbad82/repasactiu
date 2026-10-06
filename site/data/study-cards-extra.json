@@ -1691,7 +1691,7 @@
     },
     {
       "id": "sc-uf0519-b5-tres-01",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -1712,7 +1712,7 @@
     },
     {
       "id": "sc-uf0519-b5-tres-02",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -1733,7 +1733,7 @@
     },
     {
       "id": "sc-uf0519-b5-tres-03",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "sc-uf0519-b5-tres-04",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -1775,7 +1775,7 @@
     },
     {
       "id": "sc-uf0519-b5-tres-05",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -1796,7 +1796,7 @@
     },
     {
       "id": "sc-uf0519-b5-tres-06",
-      "blockId": "uf0519-bloc-5",
+      "blockId": "uf0519-unitat-2-bloc-1",
       "source": {
         "id": "UF0519_U2_TRESORERIA",
         "pages": [
@@ -2439,6 +2439,38 @@
       },
       "es": {
         "question": "¿Qué datos básicos identifica un recibo?"
+      }
+    },
+    "uf0519-u2b2-003": {
+      "ca": {
+        "question": "Com funciona el cobrament d’un rebut domiciliat?"
+      },
+      "es": {
+        "question": "¿Cómo funciona el cobro de un recibo domiciliado?"
+      }
+    },
+    "uf0519-u2b2-007": {
+      "ca": {
+        "question": "Qui assumeix el risc d’impagament en el factoring amb recurs i sense recurs?"
+      },
+      "es": {
+        "question": "¿Quién asume el riesgo de impago en el factoring con recurso y sin recurso?"
+      }
+    },
+    "uf0519-u2b2-008": {
+      "ca": {
+        "question": "Quines quatre formes de pagament destaca el material per a l’empresa?"
+      },
+      "es": {
+        "question": "¿Qué cuatro formas de pago destaca el material para la empresa?"
+      }
+    },
+    "uf0519-u2b2-030": {
+      "ca": {
+        "question": "Quins tres perifèrics habituals pot incorporar un sistema de venda?"
+      },
+      "es": {
+        "question": "¿Qué tres periféricos habituales puede incorporar un sistema de venta?"
       }
     }
   }

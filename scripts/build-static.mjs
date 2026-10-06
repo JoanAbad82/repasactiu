@@ -44,10 +44,10 @@ if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
 if(traceability.version!==2||!traceability.topicRanges||!traceability.questionRanges){
   throw new Error('Build validation failed: traceability v2 is invalid.');
 }
-if(dictionary.version!==1||dictionary.count!==116||!Array.isArray(dictionary.entries)||dictionary.entries.length!==116){
+if(dictionary.version!==1||dictionary.count!==138||!Array.isArray(dictionary.entries)||dictionary.entries.length!==138){
   throw new Error('Build validation failed: concept dictionary v1 is invalid.');
 }
-if(!Array.isArray(dictionary.families)||dictionary.families.length!==17||dictionary.families.flatMap(family=>family.entryIds||[]).length!==116){
+if(!Array.isArray(dictionary.families)||dictionary.families.length!==17||dictionary.families.flatMap(family=>family.entryIds||[]).length!==138){
   throw new Error('Build validation failed: concept dictionary families are invalid.');
 }
 if(keyLists.version!==1||keyLists.count!==85||!Array.isArray(keyLists.entries)||keyLists.entries.length!==85){
@@ -75,4 +75,4 @@ for(const lang of ['ca','es']){
     throw new Error(`Build validation failed: commercial abbreviations for ${lang} must contain 20-30 curated entries.`);
   }
 }
-console.log('Static build PASS: site/ -> dist/ with learning tools, 116-concept dictionary, 85 key lists, payroll and treasury practicals, bilingual commercial correspondence guide and 9 administrative/commercial document exercises');
+console.log('Static build PASS: site/ -> dist/ with learning tools, 138-concept dictionary, 85 key lists, payroll and treasury practicals, bilingual commercial correspondence guide and 9 administrative/commercial document exercises');

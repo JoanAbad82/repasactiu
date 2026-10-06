@@ -69,7 +69,9 @@ const SOURCE_RANGES={
   'uf0519-bloc-2':{id:'UF0519_U1',pageRange:[1,76]},
   'uf0519-bloc-3':{id:'UF0519_U1',pageRange:[1,76]},
   'uf0519-bloc-4':{id:'UF0519_U1',pageRange:[1,76]},
-  'uf0519-bloc-5':{id:'UF0519_U1',pageRange:[1,76]}
+  'uf0519-bloc-5':{id:'UF0519_U1',pageRange:[1,76]},
+  'uf0519-unitat-2-bloc-1':{id:'UF0519_U2_TRESORERIA',pageRange:[1,41]},
+  'uf0519-unitat-2-bloc-2':{id:'UF0519_U2_TRESORERIA_B2',pageRange:[1,52]}
 };
 
 const conceptPart=value=>String(value??'')

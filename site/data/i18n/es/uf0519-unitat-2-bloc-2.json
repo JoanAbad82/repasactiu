@@ -1,0 +1,457 @@
+{
+  "blockId": "uf0519-unitat-2-bloc-2",
+  "blockTitle": "Caja, bancos, seguridad y medios informáticos de tesorería",
+  "questions": {
+    "uf0519-u2b2-001": {
+      "topic": "Libro auxiliar de caja",
+      "question": "¿Cuál es la finalidad principal del libro auxiliar de caja?",
+      "options": [
+        "Controlar exclusivamente las transferencias bancarias",
+        "Registrar el inventario de productos",
+        "Registrar los movimientos de efectivo y comprobar el saldo real disponible",
+        "Calcular las nóminas del personal"
+      ],
+      "explanation": "El libro auxiliar de caja registra entradas y salidas de efectivo y permite comprobar que el saldo final coincide con el dinero real."
+    },
+    "uf0519-u2b2-002": {
+      "topic": "Cobros y pagos",
+      "question": "¿Qué diferencia básica hay entre un cobro y un pago en el libro de caja?",
+      "options": [
+        "El cobro reduce el saldo y el pago lo aumenta",
+        "El cobro es una entrada de dinero y el pago una salida",
+        "Ambos son entradas, pero con conceptos distintos",
+        "Ambos son salidas, pero con fechas distintas"
+      ],
+      "explanation": "Un cobro hace entrar dinero en la empresa; un pago hace salir dinero."
+    },
+    "uf0519-u2b2-003": {
+      "topic": "Gestión de cobros",
+      "question": "¿Qué afirmación describe correctamente el cobro de recibos domiciliados?",
+      "options": [
+        "La empresa entrega cheques al banco para que los endose",
+        "El banco anticipa un pagaré antes del vencimiento",
+        "El cliente paga siempre en efectivo en caja",
+        "La empresa cobra en la cuenta del cliente con su autorización"
+      ],
+      "explanation": "En la domiciliación de recibos, el cobro se carga en la cuenta bancaria del cliente con autorización."
+    },
+    "uf0519-u2b2-004": {
+      "topic": "Descuento comercial bancario",
+      "question": "¿Qué caracteriza el descuento comercial bancario de un pagaré?",
+      "options": [
+        "El banco anticipa el importe antes del vencimiento, descuenta gastos y la empresa responde si el cliente no paga",
+        "El banco garantiza el cobro sin anticipar dinero ni cobrar comisiones",
+        "El cliente paga antes y obtiene un descuento del proveedor",
+        "La empresa cede definitivamente todas las facturas sin ningún riesgo"
+      ],
+      "explanation": "El banco anticipa el efecto y resta intereses y comisiones; si el cliente no paga, la empresa debe devolver el importe anticipado."
+    },
+    "uf0519-u2b2-005": {
+      "topic": "Factoring",
+      "question": "¿Qué hace la empresa cuando utiliza factoring?",
+      "options": [
+        "Convierte un pagaré en una transferencia inmediata",
+        "Domicilia las nóminas de los trabajadores",
+        "Cede los derechos de cobro de facturas a una entidad de factoring",
+        "Traslada al proveedor la gestión de los pagos"
+      ],
+      "explanation": "El factoring consiste en ceder derechos de cobro para que la entidad los gestione y, si se pacta, anticipe el importe."
+    },
+    "uf0519-u2b2-006": {
+      "topic": "Seguro de crédito",
+      "question": "¿Qué diferencia clave hay entre el seguro de crédito y el anticipo de una factura?",
+      "options": [
+        "El seguro siempre anticipa el 100 % de la factura",
+        "El seguro protege frente a impagos cubiertos, pero no implica necesariamente cobrar antes",
+        "El anticipo solo analiza la solvencia del cliente",
+        "No hay ninguna diferencia práctica"
+      ],
+      "explanation": "El seguro de crédito cubre el riesgo de impago según la póliza; no es, por sí mismo, un mecanismo de anticipo."
+    },
+    "uf0519-u2b2-007": {
+      "topic": "Factoring con recurso y sin recurso",
+      "question": "¿Qué afirmación diferencia correctamente el factoring con recurso del factoring sin recurso?",
+      "options": [
+        "Con recurso, la entidad asume siempre la insolvencia; sin recurso, la empresa",
+        "Ambos trasladan íntegramente el riesgo a la entidad",
+        "Sin recurso no puede anticiparse ningún importe",
+        "Con recurso el riesgo de impago sigue en la empresa; sin recurso la entidad asume el riesgo cubierto"
+      ],
+      "explanation": "El criterio diferencial es quién soporta el riesgo de insolvencia dentro de los límites del contrato."
+    },
+    "uf0519-u2b2-008": {
+      "topic": "Gestión de pagos",
+      "question": "¿Qué conjunto recoge formas de pago que el material atribuye a la empresa?",
+      "options": [
+        "Transferencia, domiciliación bancaria, cheque o pagaré",
+        "Factoring, seguro de crédito, inventario y nómina",
+        "Arqueo, conciliación, remesa e inventario",
+        "Albarán, factura, presupuesto y pedido"
+      ],
+      "explanation": "El material presenta transferencia, domiciliación, cheque y pagaré como vías para efectuar pagos."
+    },
+    "uf0519-u2b2-009": {
+      "topic": "Confirming",
+      "question": "¿Quién contrata el confirming y con qué finalidad principal?",
+      "options": [
+        "El proveedor, para asegurar todas sus facturas",
+        "El cliente final, para pagar con tarjeta",
+        "La empresa que debe pagar, para que una entidad financiera gestione los pagos a proveedores",
+        "El banco, para convertir facturas en pagarés"
+      ],
+      "explanation": "El confirming es un servicio contratado por la empresa deudora para gestionar pagos; el proveedor puede recibir una oferta de anticipo."
+    },
+    "uf0519-u2b2-010": {
+      "topic": "Confirming y pago anticipado",
+      "question": "¿Qué diferencia describe mejor confirming y descuento por pronto pago?",
+      "options": [
+        "En ambos casos el cliente paga necesariamente antes al proveedor",
+        "En el confirming interviene una entidad financiera; en el descuento el cliente paga antes directamente y paga menos",
+        "El descuento exige una entidad financiera y el confirming no",
+        "El confirming reduce siempre el importe de la factura"
+      ],
+      "explanation": "En confirming la empresa mantiene la fecha pactada y el proveedor puede anticipar; en el descuento el cliente adelanta el pago a cambio de una reducción."
+    },
+    "uf0519-u2b2-011": {
+      "topic": "Cumplimentación del libro de caja",
+      "question": "¿Cuáles son las columnas básicas del libro auxiliar de caja según el material?",
+      "options": [
+        "Fecha, cliente, IBAN, factura e IVA",
+        "Fecha, concepto, cargo, abono y banco",
+        "Fecha, producto, cantidad, precio y descuento",
+        "Fecha, concepto, entrada, salida y saldo"
+      ],
+      "explanation": "El registro básico de caja identifica cuándo y por qué se mueve el efectivo, si entra o sale y qué saldo queda."
+    },
+    "uf0519-u2b2-012": {
+      "topic": "Cálculo del saldo de caja",
+      "question": "Si la caja empieza con 800 €, sale un pago de 190 € y después entra un cobro de 200 €, ¿qué saldo queda?",
+      "options": [
+        "810 €",
+        "610 €",
+        "990 €",
+        "1.190 €"
+      ],
+      "explanation": "800 − 190 + 200 = 810 €, como muestra el ejemplo del libro auxiliar de caja."
+    },
+    "uf0519-u2b2-013": {
+      "topic": "Arqueo de caja",
+      "question": "¿Qué comprueba el arqueo de caja más allá de contar billetes y monedas?",
+      "options": [
+        "Que todas las ventas se hayan cobrado con tarjeta",
+        "Que el inventario coincida con las compras",
+        "Que el efectivo real coincida con el saldo que debería haber según los registros",
+        "Que el banco haya abonado todas las transferencias"
+      ],
+      "explanation": "El arqueo compara el efectivo físico contado con el saldo teórico y permite detectar descuadres."
+    },
+    "uf0519-u2b2-014": {
+      "topic": "Arqueo de caja",
+      "question": "Si al hacer el arqueo sobra o falta dinero, ¿qué actuación indica el material antes del cierre?",
+      "options": [
+        "Traspasar la diferencia al saldo bancario",
+        "Revisar el origen de la diferencia",
+        "Eliminar el movimiento más antiguo",
+        "Modificar el saldo teórico para que coincida"
+      ],
+      "explanation": "Una diferencia entre efectivo real y teórico debe investigarse antes de cerrar la caja."
+    },
+    "uf0519-u2b2-015": {
+      "topic": "Efectivo y tarjetas",
+      "question": "¿Qué ocurre con el efectivo de la caja cuando un cliente paga 50 € con tarjeta?",
+      "options": [
+        "Aumenta en 50 € porque es una venta",
+        "Aumenta cuando el banco autoriza la operación",
+        "Disminuye porque el TPV cobra una comisión",
+        "No aumenta: la venta se registra, pero no entran monedas ni billetes en el cajón"
+      ],
+      "explanation": "El cobro con tarjeta se tramita por el banco y se comprueba con el informe del datáfono, no con el efectivo físico."
+    },
+    "uf0519-u2b2-016": {
+      "topic": "Saldo real y saldo teórico",
+      "question": "¿Qué fórmula calcula el saldo teórico de efectivo?",
+      "options": [
+        "Saldo inicial + entradas de efectivo − salidas de efectivo",
+        "Saldo inicial + cobros con tarjeta − inventario",
+        "Saldo real − devoluciones + ventas totales",
+        "Saldo bancario + efectivo − comisiones"
+      ],
+      "explanation": "El saldo teórico parte del saldo inicial, suma las entradas de efectivo y resta las salidas de efectivo."
+    },
+    "uf0519-u2b2-017": {
+      "topic": "Registro de ventas y movimientos",
+      "question": "Al registrar una venta en el sistema de caja, ¿qué dato es esencial diferenciar para que después el cierre sea correcto?",
+      "options": [
+        "El tamaño del producto",
+        "La fecha de compra del proveedor",
+        "La forma de pago, como efectivo o tarjeta",
+        "El saldo de la cuenta bancaria del cliente"
+      ],
+      "explanation": "El material insiste en que la forma de pago debe quedar bien diferenciada para comprobar cada medio por separado."
+    },
+    "uf0519-u2b2-018": {
+      "topic": "Descuadre de caja",
+      "question": "¿Cómo se interpreta un descuadre negativo de caja?",
+      "options": [
+        "Hay más dinero del esperado",
+        "Hay menos dinero del esperado",
+        "Los cobros con tarjeta superan a los de efectivo",
+        "El saldo bancario es inferior al de caja"
+      ],
+      "explanation": "Un descuadre negativo significa que el efectivo real es inferior al saldo esperado; uno positivo indica lo contrario."
+    },
+    "uf0519-u2b2-019": {
+      "topic": "Cierre de caja",
+      "question": "¿Cuándo deben corregirse los errores detectados en la caja?",
+      "options": [
+        "Después de cerrar, sin necesidad de justificarlos",
+        "En el cierre del mes siguiente",
+        "Solo cuando afectan a cobros con tarjeta",
+        "Antes del cierre definitivo; después, cualquier cambio debe estar justificado y autorizado"
+      ],
+      "explanation": "Las correcciones deben hacerse antes del cierre; una modificación posterior requiere justificación y autorización según el procedimiento."
+    },
+    "uf0519-u2b2-020": {
+      "topic": "Libro auxiliar de bancos",
+      "question": "¿Cuál es la función principal del libro auxiliar de bancos?",
+      "options": [
+        "Registrar y controlar los movimientos de las cuentas bancarias de la empresa",
+        "Sustituir el extracto bancario oficial",
+        "Controlar únicamente los pagos en efectivo",
+        "Registrar el inventario de material de oficina"
+      ],
+      "explanation": "El libro auxiliar de bancos recoge los movimientos realizados a través de las cuentas bancarias de la empresa."
+    },
+    "uf0519-u2b2-021": {
+      "topic": "Cargos y abonos",
+      "question": "En el libro auxiliar de bancos, ¿qué representa un cargo?",
+      "options": [
+        "Una entrada de dinero en la cuenta",
+        "Un documento o referencia sin efecto económico",
+        "Una salida de dinero de la cuenta",
+        "El saldo inicial del periodo"
+      ],
+      "explanation": "El material identifica el cargo con una salida de dinero y el abono con una entrada."
+    },
+    "uf0519-u2b2-022": {
+      "topic": "Cumplimentación del libro de bancos",
+      "question": "¿Qué práctica facilita especialmente la conciliación bancaria?",
+      "options": [
+        "Agrupar todas las operaciones al final del mes sin fecha",
+        "Registrar por orden de fecha, separar cargos y abonos y conservar justificantes",
+        "Eliminar los justificantes una vez actualizado el saldo",
+        "Anotar solo los movimientos de mayor importe"
+      ],
+      "explanation": "Un registro ordenado, claro, con saldo actualizado y justificantes facilita compararlo después con el extracto bancario."
+    },
+    "uf0519-u2b2-023": {
+      "topic": "Ejemplo de libro de bancos",
+      "question": "En el ejemplo del libro de bancos, ¿cómo se registran una comisión bancaria de 12 € y una transferencia recibida de 250 €?",
+      "options": [
+        "Ambas como cargos",
+        "Ambas como abonos",
+        "La comisión como abono y la transferencia como cargo",
+        "La comisión como cargo y la transferencia como abono"
+      ],
+      "explanation": "La comisión es una salida de la cuenta y la transferencia recibida es una entrada."
+    },
+    "uf0519-u2b2-024": {
+      "topic": "Conciliación bancaria",
+      "question": "¿Qué compara la conciliación bancaria para detectar diferencias?",
+      "options": [
+        "El libro auxiliar de bancos con el extracto de la entidad bancaria",
+        "El libro de caja con el inventario",
+        "Las facturas emitidas con las nóminas",
+        "El datáfono con el saldo físico de caja"
+      ],
+      "explanation": "La conciliación pone en paralelo el registro interno de bancos y el extracto bancario para comprobar coincidencias y diferencias."
+    },
+    "uf0519-u2b2-025": {
+      "topic": "Diferencias de conciliación",
+      "question": "¿Qué situación puede explicar una diferencia en una conciliación bancaria?",
+      "options": [
+        "Que el producto vendido tenga un código diferente",
+        "Que el cajero haya contado mal las monedas",
+        "Que el banco haya cargado una comisión que la empresa aún no ha registrado",
+        "Que una factura tenga un descuento comercial"
+      ],
+      "explanation": "Entre las diferencias habituales hay comisiones no registradas, operaciones pendientes y errores de fechas, importes o conceptos."
+    },
+    "uf0519-u2b2-026": {
+      "topic": "Errores de conciliación",
+      "question": "¿Qué error puede provocar problemas directos en el control del libro de bancos?",
+      "options": [
+        "Separar correctamente cargos y abonos",
+        "Confundir cargos y abonos o duplicar una operación",
+        "Conservar los justificantes",
+        "Revisar las operaciones pendientes"
+      ],
+      "explanation": "El material señala como errores habituales omitir o duplicar movimientos, anotar importes incorrectos y confundir cargos con abonos."
+    },
+    "uf0519-u2b2-027": {
+      "topic": "Confidencialidad en tesorería",
+      "question": "¿Qué implica la confidencialidad en la gestión de tesorería?",
+      "options": [
+        "Que cualquier trabajador pueda consultar datos si no los modifica",
+        "Que los datos económicos puedan comunicarse fuera de la empresa si son antiguos",
+        "Que las contraseñas se compartan dentro del departamento",
+        "Que solo personas autorizadas consulten o comuniquen la información con fines de trabajo"
+      ],
+      "explanation": "La confidencialidad limita el acceso y la comunicación de datos económicos, bancarios y personales a quien lo necesita para trabajar."
+    },
+    "uf0519-u2b2-028": {
+      "topic": "Datos protegidos",
+      "question": "¿Qué criterio de acceso aplica el material a datos como IBAN, nóminas o claves de banca electrónica?",
+      "options": [
+        "Limitar el acceso a las personas que necesitan los datos para hacer su trabajo",
+        "Permitir el acceso a toda la plantilla si hay contraseña",
+        "Publicarlos en una carpeta común con permisos de lectura",
+        "Compartirlos solo verbalmente para evitar registros"
+      ],
+      "explanation": "No toda la plantilla necesita acceder a toda la información económica; el acceso debe limitarse según la función."
+    },
+    "uf0519-u2b2-029": {
+      "topic": "Seguridad en operaciones en línea",
+      "question": "Antes de autorizar una operación bancaria en línea, ¿qué comprobación es correcta?",
+      "options": [
+        "Abrir el enlace recibido por correo si muestra el logotipo del banco",
+        "Confirmar primero y revisar el importe después",
+        "Revisar beneficiario, importe e IBAN y comprobar que la página es segura",
+        "Desactivar la autenticación reforzada para evitar errores"
+      ],
+      "explanation": "El material recomienda verificar página, beneficiario, importe y cuenta, evitar enlaces sospechosos, usar autenticación reforzada y guardar el justificante."
+    },
+    "uf0519-u2b2-030": {
+      "topic": "Dispositivos asociados a la caja",
+      "question": "¿Qué conjunto está formado por periféricos habituales de un sistema de venta?",
+      "options": [
+        "Escáner documental, servidor de correo y proyector",
+        "Impresora de tickets, lector de códigos de barras y cajón portamonedas",
+        "Router, disco externo e impresora láser de oficina",
+        "Fotocopiadora, destructora y encuadernadora"
+      ],
+      "explanation": "Estos periféricos facilitan registrar ventas, cobros y productos y mejoran el control de la operación."
+    },
+    "uf0519-u2b2-031": {
+      "topic": "Datáfono",
+      "question": "¿Cuál es la función principal de un datáfono?",
+      "options": [
+        "Gestionar todo el inventario del comercio",
+        "Hacer la conciliación bancaria automática",
+        "Sustituir el software del TPV",
+        "Procesar pagos electrónicos y comunicarse con la entidad financiera para autorizarlos"
+      ],
+      "explanation": "El datáfono cobra con tarjeta u otros medios electrónicos, obtiene la autorización y emite un justificante."
+    },
+    "uf0519-u2b2-032": {
+      "topic": "Uso del datáfono",
+      "question": "¿Qué práctica forma parte del uso correcto del datáfono?",
+      "options": [
+        "Comprobar el importe antes de cobrar y revisar anulaciones o devoluciones",
+        "Modificar el importe después de la autorización si el cliente lo pide",
+        "No entregar justificante cuando el TPV ya ha registrado la venta",
+        "Mezclar las operaciones de distintos días antes del cierre"
+      ],
+      "explanation": "El material recomienda comprobar el importe, entregar o enviar el justificante y revisar anulaciones, devoluciones y cierres."
+    },
+    "uf0519-u2b2-033": {
+      "topic": "TPV",
+      "question": "¿Qué función corresponde al TPV y no solo al datáfono?",
+      "options": [
+        "Autorizar una tarjeta con la entidad financiera",
+        "Emitir únicamente el comprobante bancario",
+        "Registrar ventas, controlar formas de pago y poder actualizar el inventario",
+        "Leer el chip o el contactless de una tarjeta"
+      ],
+      "explanation": "El TPV gestiona el proceso de venta y puede incluir productos, inventario, informes y cierre de caja."
+    },
+    "uf0519-u2b2-034": {
+      "topic": "TPV compacto",
+      "question": "¿Qué caracteriza a un TPV compacto?",
+      "options": [
+        "Funciona exclusivamente como datáfono sin software de venta",
+        "Integra varios elementos en un mismo equipo y reduce dispositivos independientes",
+        "Está formado siempre por ordenador, monitor y periféricos separados",
+        "Solo puede utilizarse en comercio electrónico"
+      ],
+      "explanation": "El TPV compacto puede integrar pantalla, impresora, lector, cajón y software en un único sistema."
+    },
+    "uf0519-u2b2-035": {
+      "topic": "TPV modular",
+      "question": "¿Qué rasgo define mejor un TPV modular?",
+      "options": [
+        "Integra todas las funciones en una sola carcasa",
+        "No admite datáfono externo",
+        "Está pensado únicamente para restaurantes",
+        "Combina varios dispositivos conectados y puede adaptarse a las necesidades del negocio"
+      ],
+      "explanation": "El sistema modular combina terminal, pantalla, teclado, impresora, cajón, lector o datáfono según el negocio."
+    },
+    "uf0519-u2b2-036": {
+      "topic": "Software del TPV",
+      "question": "¿Qué clasificación del software de TPV recoge el material?",
+      "options": [
+        "A medida, comercial y específico del sector",
+        "Local, bancario y fiscal",
+        "Fijo, inalámbrico y virtual",
+        "Contable, jurídico y documental"
+      ],
+      "explanation": "El software puede ser diseñado a medida, comercial estándar o específico para un sector."
+    },
+    "uf0519-u2b2-037": {
+      "topic": "Datáfono y TPV",
+      "question": "¿Qué frase resume correctamente la diferencia entre datáfono y TPV?",
+      "options": [
+        "El TPV autoriza tarjetas y el datáfono gestiona inventario",
+        "Ambos tienen exactamente la misma función",
+        "El datáfono procesa el pago; el TPV gestiona el proceso de venta",
+        "El datáfono es siempre parte física del cajón de caja"
+      ],
+      "explanation": "El material lo sintetiza así: el datáfono cobra; el TPV gestiona la venta y puede integrarse con el datáfono."
+    },
+    "uf0519-u2b2-038": {
+      "topic": "TPV virtual",
+      "question": "¿Qué función realiza un TPV virtual en una tienda en línea?",
+      "options": [
+        "Gestiona el inventario físico del almacén",
+        "Actúa como pasarela de pago entre comprador, comercio y entidad financiera",
+        "Sustituye la página web del comercio",
+        "Convierte todas las compras en transferencias ordinarias"
+      ],
+      "explanation": "El TPV virtual permite aceptar pagos por internet y conecta a las partes de la operación de pago."
+    },
+    "uf0519-u2b2-039": {
+      "topic": "Banca electrónica",
+      "question": "¿Qué operación puede hacerse mediante banca electrónica según el material?",
+      "options": [
+        "Contar físicamente el efectivo de caja",
+        "Imprimir etiquetas de producto",
+        "Hacer el arqueo físico del cajón",
+        "Consultar saldos, hacer transferencias o descargar justificantes"
+      ],
+      "explanation": "La banca electrónica permite operar con el banco por internet o aplicación sin desplazarse físicamente."
+    },
+    "uf0519-u2b2-040": {
+      "topic": "Comercio electrónico y B2B",
+      "question": "¿Qué significa B2B en el comercio electrónico?",
+      "options": [
+        "Relaciones comerciales entre empresas",
+        "Venta de una empresa al consumidor final",
+        "Relaciones entre empresas y administraciones",
+        "Compraventa entre consumidores"
+      ],
+      "explanation": "B2B significa business to business: operaciones comerciales entre empresas."
+    },
+    "uf0519-u2b2-041": {
+      "topic": "Modalidades de comercio electrónico",
+      "question": "¿Qué correspondencia es correcta?",
+      "options": [
+        "B2C = empresa-consumidor; B2A = empresa-Administración; C2C = consumidor-consumidor",
+        "B2C = empresa-empresa; B2A = consumidor-Administración; C2C = empresa-consumidor",
+        "B2C = banco-consumidor; B2A = banco-Administración; C2C = comercio-comercio",
+        "B2C = consumidor-empresa; B2A = Administración-empresa; C2C = cliente-proveedor"
+      ],
+      "explanation": "El material diferencia B2C, B2A y C2C según quién vende o se relaciona con quién."
+    }
+  }
+}

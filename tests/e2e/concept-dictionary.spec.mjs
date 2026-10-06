@@ -1,13 +1,13 @@
 import {test,expect} from '@playwright/test';
 
-test('el diccionari mostra 116 conceptes agrupats en 17 famílies pedagògiques',async({page})=>{
+test('el diccionari mostra 138 conceptes agrupats en 17 famílies pedagògiques',async({page})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Diccionari',exact:true}).click();
   await expect(page.getByRole('heading',{name:'Diccionari de conceptes clau'})).toBeVisible();
-  await expect(page.locator('[data-concept-id]')).toHaveCount(116);
+  await expect(page.locator('[data-concept-id]')).toHaveCount(138);
   await expect(page.locator('[data-concept-family]')).toHaveCount(17);
-  await expect(page.locator('[data-dictionary-count]')).toHaveText('116');
-  await expect(page.getByText('116 conceptes')).toBeVisible();
+  await expect(page.locator('[data-dictionary-count]')).toHaveText('138');
+  await expect(page.getByText('138 conceptes')).toBeVisible();
 });
 
 test('l’ordre inicial és conceptual i manté junts els conceptes relacionats',async({page})=>{

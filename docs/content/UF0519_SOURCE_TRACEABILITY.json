@@ -64,6 +64,11 @@
       "file": "Activos y pasivos.pdf",
       "pages": 5,
       "sha256": "83b88944fe266e99886633404215b5e00371b9dc637f0fe9e08506b54833efc4"
+    },
+    "UF0519_U2_TRESORERIA_B2": {
+      "file": "2_Gestio_basica_tresoreria_Bloc2.pdf",
+      "pages": 52,
+      "sha256": "267621ef180b6d33b0c9d2af44adde6ca8ee46ea91e4192c79755c98027c6c1e"
     }
   },
   "questionTraces": [
@@ -2071,11 +2076,380 @@
         4
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-001",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-002",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        5,
+        5
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-003",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        6,
+        6
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-004",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        6,
+        6
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-005",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        7,
+        7
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-006",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        9,
+        9
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-007",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        10,
+        10
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-008",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        11,
+        11
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-009",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        12,
+        12
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-010",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        14,
+        14
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-011",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        15,
+        15
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-012",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        16,
+        16
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-013",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        17,
+        17
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-014",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        18,
+        18
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-015",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        20,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-016",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        21,
+        21
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-017",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        23,
+        23
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-018",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        24,
+        24
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-019",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        25,
+        25
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-020",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        27,
+        27
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-021",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        28,
+        28
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-022",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        29,
+        29
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-023",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        30,
+        30
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-024",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        31,
+        31
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-025",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        31,
+        31
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-026",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        32,
+        32
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-027",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        34,
+        34
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-028",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        35,
+        35
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-029",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        36,
+        36
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-030",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        38,
+        38
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-031",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        39,
+        39
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-032",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        40,
+        40
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-033",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        41,
+        41
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-034",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        42,
+        42
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-035",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        43,
+        43
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-036",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        44,
+        44
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-037",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        45,
+        45
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-038",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        46,
+        46
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-039",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        47,
+        47
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-040",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        48,
+        48
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-041",
+      "source": "UF0519_U2_TRESORERIA_B2",
+      "pageRange": [
+        49,
+        49
+      ],
+      "status": "PASS"
     }
   ],
   "review": {
     "date": "2026-10-05",
-    "questionCount": 222,
+    "questionCount": 263,
     "method": "Source-backed integration of UF0519 Unit 2 treasury PDF plus prior PDF/XLSX sources: deduplication, exact page/cell traceability, bilingual drafting, hard-mode validation and regression certification. Actius/passius: eight bilingual questions and core cards, individually mapped to PDF pages; source SHA-256 recorded. Dedicated assets/liabilities block: 20 questions and core cards; legacy IDs retained for progress continuity.",
     "result": "PASS"
   },

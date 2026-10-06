@@ -16,14 +16,15 @@ const EXPECTED_BY_BLOCK={
   'uf0519-bloc-2':7,
   'uf0519-bloc-3':4,
   'uf0519-bloc-4':1,
-  'uf0519-bloc-5':14
+  'uf0519-bloc-5':7,
+  'uf0519-unitat-2-bloc-1':7
 };
 const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:31,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22,UF0519_U2_TRESORERIA:41};
 
 if(bank.version!==1)errors.push('version != 1');
 if(bank.count!==85)errors.push('count != 78');
 if(!Array.isArray(bank.entries)||bank.entries.length!==85)errors.push('entries != 78');
-if(!Array.isArray(bank.groups)||bank.groups.length!==14)errors.push('groups != 14');
+if(!Array.isArray(bank.groups)||bank.groups.length!==15)errors.push('groups != 15');
 if(!Array.isArray(bank.families)||bank.families.length!==11)errors.push('families != 11');
 
 const ids=new Set();

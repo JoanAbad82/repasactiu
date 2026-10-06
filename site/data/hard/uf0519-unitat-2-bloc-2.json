@@ -1,0 +1,497 @@
+{
+  "blockId": "uf0519-unitat-2-bloc-2",
+  "questions": {
+    "uf0519-u2b2-001": {
+      "ca": [
+        "Controlar els cobraments bancaris encara que no afectin l’efectiu",
+        "Registrar els moviments de caixa sense contrastar-los amb diners físics",
+        "Controlar només els pagaments en efectiu i no les entrades"
+      ],
+      "es": [
+        "Controlar los cobros bancarios aunque no afecten al efectivo",
+        "Registrar los movimientos de caja sin contrastarlos con dinero físico",
+        "Controlar los pagos en efectivo pero no las entradas"
+      ]
+    },
+    "uf0519-u2b2-002": {
+      "ca": [
+        "El cobrament és una entrada només si prové d’un client i el pagament és una sortida bancària",
+        "El cobrament i el pagament es diferencien pel document, no pel sentit dels diners",
+        "El pagament pot ser una entrada quan redueix un deute"
+      ],
+      "es": [
+        "El cobro es una entrada solo si procede de un cliente y el pago es una salida bancaria",
+        "El cobro y el pago se diferencian por el documento, no por el sentido del dinero",
+        "El pago puede ser una entrada cuando reduce una deuda"
+      ]
+    },
+    "uf0519-u2b2-003": {
+      "ca": [
+        "L’empresa presenta una remesa i el banc cobra sense autorització del client",
+        "El client ordena una transferència i això converteix el rebut en domiciliat",
+        "El banc cobra el rebut del compte de l’empresa i després el repercuteix al client"
+      ],
+      "es": [
+        "La empresa presenta una remesa y el banco cobra sin autorización del cliente",
+        "El cliente ordena una transferencia y eso convierte el recibo en domiciliado",
+        "El banco cobra el recibo de la cuenta de la empresa y después lo repercute al cliente"
+      ]
+    },
+    "uf0519-u2b2-004": {
+      "ca": [
+        "El banc compra el pagaré i assumeix qualsevol impagament sense condicions",
+        "L’empresa paga abans al proveïdor i redueix l’import de la factura",
+        "El banc espera al venciment i cobra una comissió sense anticipar liquiditat"
+      ],
+      "es": [
+        "El banco compra el pagaré y asume cualquier impago sin condiciones",
+        "La empresa paga antes al proveedor y reduce el importe de la factura",
+        "El banco espera al vencimiento y cobra una comisión sin anticipar liquidez"
+      ]
+    },
+    "uf0519-u2b2-005": {
+      "ca": [
+        "Cedeix al banc les obligacions de pagament als proveïdors",
+        "Ven les factures al client perquè aquest decideixi quan pagar",
+        "Substitueix els drets de cobrament per una assegurança sense cessió"
+      ],
+      "es": [
+        "Cede al banco las obligaciones de pago a proveedores",
+        "Vende las facturas al cliente para que este decida cuándo pagar",
+        "Sustituye los derechos de cobro por un seguro sin cesión"
+      ]
+    },
+    "uf0519-u2b2-006": {
+      "ca": [
+        "L’assegurança anticipa liquiditat però deixa tot el risc a l’empresa",
+        "L’anticipació cobreix la insolvència mentre l’assegurança gestiona el cobrament",
+        "L’assegurança transforma el dret de cobrament en efectiu abans del venciment"
+      ],
+      "es": [
+        "El seguro anticipa liquidez pero deja todo el riesgo a la empresa",
+        "El anticipo cubre la insolvencia mientras el seguro gestiona el cobro",
+        "El seguro transforma el derecho de cobro en efectivo antes del vencimiento"
+      ]
+    },
+    "uf0519-u2b2-007": {
+      "ca": [
+        "Amb recurs l’empresa recupera el risc només després del venciment",
+        "Sense recurs l’entitat gestiona el cobrament però el risc continua en l’empresa",
+        "La diferència depèn de si la factura està domiciliada, no del risc"
+      ],
+      "es": [
+        "Con recurso la empresa recupera el riesgo solo después del vencimiento",
+        "Sin recurso la entidad gestiona el cobro pero el riesgo sigue en la empresa",
+        "La diferencia depende de si la factura está domiciliada, no del riesgo"
+      ]
+    },
+    "uf0519-u2b2-008": {
+      "ca": [
+        "Transferència, remesa de xecs, factoring i assegurança de crèdit",
+        "Domiciliació, arqueig, xec i conciliació",
+        "Pagaré, inventari, rebut i remesa documental"
+      ],
+      "es": [
+        "Transferencia, remesa de cheques, factoring y seguro de crédito",
+        "Domiciliación, arqueo, cheque y conciliación",
+        "Pagaré, inventario, recibo y remesa documental"
+      ]
+    },
+    "uf0519-u2b2-009": {
+      "ca": [
+        "El proveïdor contracta el servei perquè el banc reclami el pagament al client",
+        "L’empresa cedent utilitza confirming per vendre els seus drets de cobrament",
+        "L’entitat financera contracta el servei per decidir quines factures paga"
+      ],
+      "es": [
+        "El proveedor contrata el servicio para que el banco reclame el pago al cliente",
+        "La empresa cedente usa confirming para vender sus derechos de cobro",
+        "La entidad financiera contrata el servicio para decidir qué facturas paga"
+      ]
+    },
+    "uf0519-u2b2-010": {
+      "ca": [
+        "En el confirming el proveïdor redueix la factura i en el descompte el banc anticipa",
+        "El confirming és un acord directe entre client i proveïdor sense entitat financera",
+        "El descompte manté la data de pagament i trasllada el cost financer al proveïdor"
+      ],
+      "es": [
+        "En el confirming el proveedor reduce la factura y en el descuento el banco anticipa",
+        "El confirming es un acuerdo directo entre cliente y proveedor sin entidad financiera",
+        "El descuento mantiene la fecha de pago y traslada el coste financiero al proveedor"
+      ]
+    },
+    "uf0519-u2b2-011": {
+      "ca": [
+        "Data, referència bancària, càrrec, abonament i saldo",
+        "Data, concepte, entrada, sortida i forma de pagament sense saldo",
+        "Data, concepte, saldo inicial, saldo final i inventari"
+      ],
+      "es": [
+        "Fecha, referencia bancaria, cargo, abono y saldo",
+        "Fecha, concepto, entrada, salida y forma de pago sin saldo",
+        "Fecha, concepto, saldo inicial, saldo final e inventario"
+      ]
+    },
+    "uf0519-u2b2-012": {
+      "ca": [
+        "670 € perquè es resten tots dos moviments",
+        "1.010 € perquè els dos moviments s’afegeixen al saldo",
+        "600 € perquè només es considera l’entrada posterior"
+      ],
+      "es": [
+        "670 € porque se restan ambos movimientos",
+        "1.010 € porque ambos movimientos se suman al saldo",
+        "600 € porque solo se considera la entrada posterior"
+      ]
+    },
+    "uf0519-u2b2-013": {
+      "ca": [
+        "Que el saldo del datàfon coincideixi amb l’extracte bancari",
+        "Que el total de vendes coincideixi amb el valor de l’inventari",
+        "Que totes les operacions del dia tinguin factura encara que no afectin caixa"
+      ],
+      "es": [
+        "Que el saldo del datáfono coincida con el extracto bancario",
+        "Que el total de ventas coincida con el valor del inventario",
+        "Que todas las operaciones del día tengan factura aunque no afecten a caja"
+      ]
+    },
+    "uf0519-u2b2-014": {
+      "ca": [
+        "Compensar la diferència amb el primer cobrament de l’endemà",
+        "Registrar la diferència com una venda sense revisar-la",
+        "Ajustar el saldo inicial del dia següent sense documentar la incidència"
+      ],
+      "es": [
+        "Compensar la diferencia con el primer cobro del día siguiente",
+        "Registrar la diferencia como una venta sin revisarla",
+        "Ajustar el saldo inicial del día siguiente sin documentar la incidencia"
+      ]
+    },
+    "uf0519-u2b2-015": {
+      "ca": [
+        "Augmenta el saldo teòric d’efectiu però no el saldo real",
+        "S’anota com a entrada d’efectiu fins que es fa el tancament del datàfon",
+        "Es compta com efectiu si el TPV està integrat amb el datàfon"
+      ],
+      "es": [
+        "Aumenta el saldo teórico de efectivo pero no el saldo real",
+        "Se anota como entrada de efectivo hasta cerrar el datáfono",
+        "Se cuenta como efectivo si el TPV está integrado con el datáfono"
+      ]
+    },
+    "uf0519-u2b2-016": {
+      "ca": [
+        "Saldo inicial + totes les vendes − pagaments bancaris",
+        "Saldo real + cobraments electrònics − retirades",
+        "Saldo inicial + vendes totals − devolucions i anul·lacions"
+      ],
+      "es": [
+        "Saldo inicial + todas las ventas − pagos bancarios",
+        "Saldo real + cobros electrónicos − retiradas",
+        "Saldo inicial + ventas totales − devoluciones y anulaciones"
+      ]
+    },
+    "uf0519-u2b2-017": {
+      "ca": [
+        "El codi del venedor encara que el sistema no l’utilitzi",
+        "El número de factura del proveïdor associat al producte",
+        "El saldo teòric final abans d’haver registrat la venda"
+      ],
+      "es": [
+        "El código del vendedor aunque el sistema no lo utilice",
+        "El número de factura del proveedor asociado al producto",
+        "El saldo teórico final antes de registrar la venta"
+      ]
+    },
+    "uf0519-u2b2-018": {
+      "ca": [
+        "El saldo teòric és negatiu encara que l’efectiu coincideixi",
+        "Hi ha més efectiu, però menys operacions de targeta",
+        "La diferència prové d’una comissió bancària encara no conciliada"
+      ],
+      "es": [
+        "El saldo teórico es negativo aunque el efectivo coincida",
+        "Hay más efectivo, pero menos operaciones con tarjeta",
+        "La diferencia procede de una comisión bancaria aún no conciliada"
+      ]
+    },
+    "uf0519-u2b2-019": {
+      "ca": [
+        "Els errors es corregeixen després del tancament per no alterar el recompte",
+        "Es pot ajustar el saldo final sense documentació si la diferència és petita",
+        "Les devolucions es poden corregir en qualsevol moment sense autorització"
+      ],
+      "es": [
+        "Los errores se corrigen después del cierre para no alterar el recuento",
+        "Puede ajustarse el saldo final sin documentación si la diferencia es pequeña",
+        "Las devoluciones pueden corregirse en cualquier momento sin autorización"
+      ]
+    },
+    "uf0519-u2b2-020": {
+      "ca": [
+        "Registrar els moviments bancaris sense actualitzar el saldo",
+        "Controlar els cobraments bancaris però no les comissions",
+        "Reproduir l’extracte del banc sense afegir control intern"
+      ],
+      "es": [
+        "Registrar los movimientos bancarios sin actualizar el saldo",
+        "Controlar los cobros bancarios pero no las comisiones",
+        "Reproducir el extracto del banco sin añadir control interno"
+      ]
+    },
+    "uf0519-u2b2-021": {
+      "ca": [
+        "Una entrada que encara no apareix a l’extracte",
+        "Una anotació que augmenta el saldo disponible",
+        "Una comissió que es registra com a abonament"
+      ],
+      "es": [
+        "Una entrada que aún no aparece en el extracto",
+        "Una anotación que aumenta el saldo disponible",
+        "Una comisión que se registra como abono"
+      ]
+    },
+    "uf0519-u2b2-022": {
+      "ca": [
+        "Registrar per ordre d’import i unir càrrecs i abonaments en una sola columna",
+        "Guardar els justificants però revisar l’extracte només si hi ha una incidència",
+        "Actualitzar el saldo sense indicar el concepte de l’operació"
+      ],
+      "es": [
+        "Registrar por orden de importe y unir cargos y abonos en una sola columna",
+        "Guardar los justificantes pero revisar el extracto solo si hay una incidencia",
+        "Actualizar el saldo sin indicar el concepto de la operación"
+      ]
+    },
+    "uf0519-u2b2-023": {
+      "ca": [
+        "La comissió es registra com a abonament perquè és un servei bancari",
+        "La transferència rebuda és un càrrec perquè prové d’un altre compte",
+        "Totes dues operacions es registren en una columna neutra fins a conciliar"
+      ],
+      "es": [
+        "La comisión se registra como abono porque es un servicio bancario",
+        "La transferencia recibida es un cargo porque procede de otra cuenta",
+        "Ambas operaciones se registran en una columna neutra hasta conciliar"
+      ]
+    },
+    "uf0519-u2b2-024": {
+      "ca": [
+        "El llibre de caixa amb l’extracte bancari, encara que siguin registres de naturalesa diferent",
+        "Els moviments de targeta amb les factures de proveïdors",
+        "El saldo del TPV amb el saldo comptable de l’inventari"
+      ],
+      "es": [
+        "El libro de caja con el extracto bancario, aunque sean registros de naturaleza distinta",
+        "Los movimientos de tarjeta con las facturas de proveedores",
+        "El saldo del TPV con el saldo contable del inventario"
+      ]
+    },
+    "uf0519-u2b2-025": {
+      "ca": [
+        "Que el saldo inicial de caixa no coincideixi amb el recompte físic",
+        "Que el proveïdor ofereixi un descompte per pagament anticipat",
+        "Que una venda amb targeta no incrementi el calaix d’efectiu"
+      ],
+      "es": [
+        "Que el saldo inicial de caja no coincida con el recuento físico",
+        "Que el proveedor ofrezca un descuento por pronto pago",
+        "Que una venta con tarjeta no incremente el cajón de efectivo"
+      ]
+    },
+    "uf0519-u2b2-026": {
+      "ca": [
+        "Registrar una comissió bancària com a càrrec amb el seu justificant",
+        "Revisar l’extracte i deixar identificades les operacions pendents",
+        "Anotar el moviment en la data corresponent i actualitzar el saldo"
+      ],
+      "es": [
+        "Registrar una comisión bancaria como cargo con su justificante",
+        "Revisar el extracto y dejar identificadas las operaciones pendientes",
+        "Anotar el movimiento en la fecha correspondiente y actualizar el saldo"
+      ]
+    },
+    "uf0519-u2b2-027": {
+      "ca": [
+        "Permetre un accés intern ampli i restringir sobretot l’enviament extern",
+        "Compartir credencials entre persones autoritzades per agilitzar operacions",
+        "Protegir les dades bancàries però deixar factures i pagaments amb un control menor"
+      ],
+      "es": [
+        "Permitir un acceso interno amplio y restringir sobre todo el envío externo",
+        "Compartir credenciales entre personas autorizadas para agilizar operaciones",
+        "Proteger los datos bancarios pero dejar facturas y pagos con un control menor"
+      ]
+    },
+    "uf0519-u2b2-028": {
+      "ca": [
+        "Donar accés a qualsevol persona del mateix departament encara que no ho necessiti",
+        "Centralitzar totes les claus en un document compartit amb lectura restringida",
+        "Permetre l’accés temporal sense identificar qui consulta la informació"
+      ],
+      "es": [
+        "Dar acceso a cualquier persona del mismo departamento aunque no lo necesite",
+        "Centralizar todas las claves en un documento compartido con lectura restringida",
+        "Permitir acceso temporal sin identificar quién consulta la información"
+      ]
+    },
+    "uf0519-u2b2-029": {
+      "ca": [
+        "Comprovar només l’import perquè el beneficiari ja consta a l’ordre",
+        "Usar la banca electrònica des de qualsevol enllaç si demana autenticació",
+        "Desar el justificant sense revisar prèviament les dades del destinatari"
+      ],
+      "es": [
+        "Comprobar solo el importe porque el beneficiario ya consta en la orden",
+        "Usar la banca electrónica desde cualquier enlace si pide autenticación",
+        "Guardar el justificante sin revisar previamente los datos del destinatario"
+      ]
+    },
+    "uf0519-u2b2-030": {
+      "ca": [
+        "Impressora de factures A4, servidor web i terminal bancari central",
+        "Lector de codis, arxiu de factures i full de càlcul",
+        "Calaix portamonedes, extracte bancari i sistema de nòmines"
+      ],
+      "es": [
+        "Impresora de facturas A4, servidor web y terminal bancario central",
+        "Lector de códigos, archivo de facturas y hoja de cálculo",
+        "Cajón portamonedas, extracto bancario y sistema de nóminas"
+      ]
+    },
+    "uf0519-u2b2-031": {
+      "ca": [
+        "Registrar productes i actualitzar existències després de cada venda",
+        "Gestionar vendes, devolucions, inventari i informes sense altre sistema",
+        "Controlar el calaix d’efectiu encara que el pagament sigui bancari"
+      ],
+      "es": [
+        "Registrar productos y actualizar existencias después de cada venta",
+        "Gestionar ventas, devoluciones, inventario e informes sin otro sistema",
+        "Controlar el cajón de efectivo aunque el pago sea bancario"
+      ]
+    },
+    "uf0519-u2b2-032": {
+      "ca": [
+        "Fer el tancament abans de revisar devolucions per fixar el total",
+        "Acceptar l’import mostrat si coincideix amb el tiquet, sense verificar-lo",
+        "Ometre el justificant en pagaments sense contacte per reduir passos"
+      ],
+      "es": [
+        "Hacer el cierre antes de revisar devoluciones para fijar el total",
+        "Aceptar el importe mostrado si coincide con el ticket, sin verificarlo",
+        "Omitir el justificante en pagos sin contacto para reducir pasos"
+      ]
+    },
+    "uf0519-u2b2-033": {
+      "ca": [
+        "Autoritzar el pagament amb la xarxa bancària sense registrar productes",
+        "Emetre el justificant del pagament sense gestionar la venda",
+        "Validar la targeta i retornar el codi d’autorització de l’entitat"
+      ],
+      "es": [
+        "Autorizar el pago con la red bancaria sin registrar productos",
+        "Emitir el justificante del pago sin gestionar la venta",
+        "Validar la tarjeta y devolver el código de autorización de la entidad"
+      ]
+    },
+    "uf0519-u2b2-034": {
+      "ca": [
+        "Integra el pagament bancari però deixa fora la gestió de productes",
+        "Agrupa perifèrics en xarxa, però requereix que cadascun funcioni com a equip autònom",
+        "Redueix l’espai perquè prescindeix del programari de gestió"
+      ],
+      "es": [
+        "Integra el pago bancario pero deja fuera la gestión de productos",
+        "Agrupa periféricos en red, pero requiere que cada uno funcione como equipo autónomo",
+        "Reduce espacio porque prescinde del software de gestión"
+      ]
+    },
+    "uf0519-u2b2-035": {
+      "ca": [
+        "Integra pantalla i impressora en un equip que no es pot ampliar",
+        "Separa el programari del maquinari però no permet afegir perifèrics",
+        "Funciona com a passarel·la en línia sense dispositius físics de venda"
+      ],
+      "es": [
+        "Integra pantalla e impresora en un equipo que no puede ampliarse",
+        "Separa el software del hardware pero no permite añadir periféricos",
+        "Funciona como pasarela en línea sin dispositivos físicos de venta"
+      ]
+    },
+    "uf0519-u2b2-036": {
+      "ca": [
+        "Estàndard, bancari i de conciliació",
+        "Compacte, modular i virtual",
+        "Generalista, fiscal i de nòmines"
+      ],
+      "es": [
+        "Estándar, bancario y de conciliación",
+        "Compacto, modular y virtual",
+        "Generalista, fiscal y de nóminas"
+      ]
+    },
+    "uf0519-u2b2-037": {
+      "ca": [
+        "El datàfon registra productes i el TPV envia l’autorització bancària",
+        "El TPV només imprimeix tiquets mentre el datàfon gestiona la venda completa",
+        "El datàfon controla inventari i el TPV es limita a registrar l’import"
+      ],
+      "es": [
+        "El datáfono registra productos y el TPV envía la autorización bancaria",
+        "El TPV solo imprime tickets mientras el datáfono gestiona la venta completa",
+        "El datáfono controla inventario y el TPV se limita a registrar el importe"
+      ]
+    },
+    "uf0519-u2b2-038": {
+      "ca": [
+        "Actua com a catàleg de productes i envia la comanda al magatzem",
+        "Gestiona la venda completa sense intervenció de l’entitat financera",
+        "Serveix per conciliar automàticament totes les operacions del compte bancari"
+      ],
+      "es": [
+        "Actúa como catálogo de productos y envía el pedido al almacén",
+        "Gestiona la venta completa sin intervención de la entidad financiera",
+        "Sirve para conciliar automáticamente todas las operaciones de la cuenta bancaria"
+      ]
+    },
+    "uf0519-u2b2-039": {
+      "ca": [
+        "Registrar vendes i devolucions del punt de venda",
+        "Gestionar l’inventari del comerç i generar tiquets",
+        "Comptar monedes i comparar-les amb el saldo teòric"
+      ],
+      "es": [
+        "Registrar ventas y devoluciones del punto de venta",
+        "Gestionar el inventario del comercio y generar tickets",
+        "Contar monedas y compararlas con el saldo teórico"
+      ]
+    },
+    "uf0519-u2b2-040": {
+      "ca": [
+        "Relació d’una empresa amb particulars mitjançant botiga en línia",
+        "Relació d’un proveïdor amb una administració pública",
+        "Intercanvi entre dos consumidors en una plataforma"
+      ],
+      "es": [
+        "Relación de una empresa con particulares mediante tienda en línea",
+        "Relación de un proveedor con una administración pública",
+        "Intercambio entre dos consumidores en una plataforma"
+      ]
+    },
+    "uf0519-u2b2-041": {
+      "ca": [
+        "B2C = empresa amb empresa; B2A = empresa amb consumidor; C2C = empresa amb Administració",
+        "B2C = consumidor amb consumidor; B2A = empresa amb empresa; C2C = empresa amb consumidor",
+        "B2C = empresa amb Administració; B2A = consumidor amb empresa; C2C = empresa amb empresa"
+      ],
+      "es": [
+        "B2C = empresa con empresa; B2A = empresa con consumidor; C2C = empresa con Administración",
+        "B2C = consumidor con consumidor; B2A = empresa con empresa; C2C = empresa con consumidor",
+        "B2C = empresa con Administración; B2A = consumidor con empresa; C2C = empresa con empresa"
+      ]
+    }
+  }
+}

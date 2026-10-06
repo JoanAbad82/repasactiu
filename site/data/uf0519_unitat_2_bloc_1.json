@@ -1,10 +1,10 @@
 {
-  "blockId": "uf0519-bloc-5",
-  "blockTitle": "Gestió bàsica de tresoreria — ampliació Unitat 2",
+  "blockId": "uf0519-unitat-2-bloc-1",
+  "blockTitle": "Gestió bàsica de tresoreria — mitjans de cobrament i pagament",
   "questions": [
     {
       "id": "uf0519-b5-032",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Pagament ajornat",
       "question": "Una compra es paga íntegrament 10 mesos després del lliurament. Com es classifica segons el moment del pagament?",
       "options": [
@@ -18,7 +18,7 @@
     },
     {
       "id": "uf0519-b5-036",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Seguretat del sistema de cobrament",
       "question": "Per a què serveixen els mecanismes d’obertura i accés restringit d’una caixa o sistema de cobrament?",
       "options": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "uf0519-b5-035",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Sistemes de cobrament",
       "question": "Quin avantatge addicional pot aportar un sistema de cobrament si està integrat amb la gestió d’inventari?",
       "options": [
@@ -46,7 +46,7 @@
     },
     {
       "id": "uf0519-b5-033",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Pagament anticipat",
       "question": "Un servei es paga en el moment de signar el contracte, abans de gaudir-ne. Quina forma de gestió és?",
       "options": [
@@ -60,7 +60,7 @@
     },
     {
       "id": "uf0519-b5-034",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Pagament parcial",
       "question": "Si una part de l’import es paga al comptat i la resta s’ajorna, de quin tipus de pagament ajornat es tracta?",
       "options": [
@@ -74,7 +74,7 @@
     },
     {
       "id": "uf0519-b5-037",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Pagament en efectiu",
       "question": "En una operació en què participa un empresari o professional, què passa amb un pagament en efectiu de 1.000 € exactes?",
       "options": [
@@ -88,7 +88,7 @@
     },
     {
       "id": "uf0519-b5-038",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Pagament en efectiu",
       "question": "Quina regla indica el material sobre el nombre de monedes en un mateix pagament?",
       "options": [
@@ -102,7 +102,7 @@
     },
     {
       "id": "uf0519-b5-039",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Domiciliació bancària",
       "question": "Què necessita una domiciliació bancària segons el material?",
       "options": [
@@ -116,7 +116,7 @@
     },
     {
       "id": "uf0519-b5-040",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Contra reemborsament",
       "question": "Quina afirmació descriu correctament el pagament contra reemborsament?",
       "options": [
@@ -130,7 +130,7 @@
     },
     {
       "id": "uf0519-b5-041",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Pagament mòbil",
       "question": "Quin conjunt recull les tres opcions habituals de pagament mòbil que descriu el material?",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "id": "uf0519-b5-042",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Tecnologia NFC",
       "question": "Quina tecnologia permet pagar apropant un mòbil compatible al terminal de pagament?",
       "options": [
@@ -158,7 +158,7 @@
     },
     {
       "id": "uf0519-b5-044",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Autenticació reforçada",
       "question": "Quins mecanismes cita el material com a exemples d’autenticació reforçada en pagaments amb targeta per internet?",
       "options": [
@@ -172,7 +172,7 @@
     },
     {
       "id": "uf0519-b5-043",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Pagaments online i offline",
       "question": "Segons la classificació del material, quina parella diferencia correctament un pagament offline d’un online?",
       "options": [
@@ -186,7 +186,7 @@
     },
     {
       "id": "uf0519-b5-045",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Justificant i factura",
       "question": "Quina diferència estableix el material entre el justificant de pagament i la factura?",
       "options": [
@@ -200,7 +200,7 @@
     },
     {
       "id": "uf0519-b5-046",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Xec",
       "question": "Què és un xec segons el material?",
       "options": [
@@ -214,7 +214,7 @@
     },
     {
       "id": "uf0519-b5-048",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Impagament del xec",
       "question": "Què pot passar si s’emet un xec sense fons suficients?",
       "options": [
@@ -228,7 +228,7 @@
     },
     {
       "id": "uf0519-b5-047",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Intervinents del xec",
       "question": "Quina correspondència entre intervinents d’un xec és correcta?",
       "options": [
@@ -242,7 +242,7 @@
     },
     {
       "id": "uf0519-b5-049",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Endossament del xec",
       "question": "Quina menció impedeix que un xec es pugui endossar?",
       "options": [
@@ -256,7 +256,7 @@
     },
     {
       "id": "uf0519-b5-051",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Xec conformat",
       "question": "Què aporta un xec conformat respecte d’un xec ordinari?",
       "options": [
@@ -270,7 +270,7 @@
     },
     {
       "id": "uf0519-b5-050",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Xec creuat",
       "question": "Com s’identifica i com es cobra habitualment un xec creuat?",
       "options": [
@@ -284,7 +284,7 @@
     },
     {
       "id": "uf0519-b5-052",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Rebut",
       "question": "Qui són les dues parts habituals d’un rebut?",
       "options": [
@@ -298,7 +298,7 @@
     },
     {
       "id": "uf0519-b5-053",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Contingut del rebut",
       "question": "Quin conjunt recull dades pròpies del contingut bàsic d’un rebut?",
       "options": [
@@ -312,7 +312,7 @@
     },
     {
       "id": "uf0519-b5-054",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Transferència i ingrés en compte",
       "question": "Quina diferència hi ha entre una transferència bancària i un ingrés en compte?",
       "options": [
@@ -326,7 +326,7 @@
     },
     {
       "id": "uf0519-b5-055",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Transferència immediata",
       "question": "Quina característica defineix una transferència immediata segons el material?",
       "options": [
@@ -340,7 +340,7 @@
     },
     {
       "id": "uf0519-b5-056",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Precaucions en transferències",
       "question": "Quines dades convé revisar abans d’autoritzar una transferència?",
       "options": [
@@ -354,7 +354,7 @@
     },
     {
       "id": "uf0519-b5-057",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Targeta de dèbit i crèdit",
       "question": "Quina diferència bàsica estableix el material entre targeta de dèbit i targeta de crèdit?",
       "options": [
@@ -368,7 +368,7 @@
     },
     {
       "id": "uf0519-b5-058",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Pagaré",
       "question": "Què passa si un pagaré no indica el venciment?",
       "options": [
@@ -382,7 +382,7 @@
     },
     {
       "id": "uf0519-b5-059",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Targeta de crèdit",
       "question": "Com es pot retornar l’import utilitzat amb una targeta de crèdit?",
       "options": [
@@ -396,7 +396,7 @@
     },
     {
       "id": "uf0519-b5-060",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Aval bancari",
       "question": "Quina correspondència entre les parts d’un aval bancari és correcta?",
       "options": [
@@ -410,7 +410,7 @@
     },
     {
       "id": "uf0519-b5-061",
-      "block": "uf0519-bloc-5",
+      "block": "uf0519-unitat-2-bloc-1",
       "topic": "Pignoració",
       "question": "Què significa pignorar en el context d’un aval bancari?",
       "options": [
