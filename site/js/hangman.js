@@ -55,13 +55,18 @@ function termStats(term,c){
   const letters=[...term].filter(isLetter).length;
   return `${words} ${c.words} · ${letters} ${c.lettersCount}`;
 }
-function wordHtml(term,guessed,finished){
-  return [...term].map(char=>{
-    if(char===" ")return '<span class="hangman-space" aria-hidden="true"></span>';
+function wordTokenHtml(token,guessed,finished){
+  const letterCount=[...token].filter(isLetter).length;
+  const sizeClass=letterCount>=15?" is-long-word":"";
+  const chars=[...token].map(char=>{
     if(!isLetter(char))return `<span class="hangman-punct">${esc(char)}</span>`;
     const shown=finished||guessed.has(foldLetter(char));
     return `<span class="hangman-char ${shown?"is-revealed":""}">${shown?esc(char):"&nbsp;"}</span>`;
   }).join("");
+  return `<span class="hangman-word-token${sizeClass}" data-letter-count="${letterCount}">${chars}</span>`;
+}
+function wordHtml(term,guessed,finished){
+  return term.trim().split(/\s+/u).filter(Boolean).map(token=>wordTokenHtml(token,guessed,finished)).join("");
 }
 function drawingHtml(wrong){
   const show=n=>wrong>=n?"is-visible":"";

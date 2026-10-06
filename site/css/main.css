@@ -745,10 +745,10 @@ main:has(#hangman-screen:not([hidden])){width:min(900px,calc(100% - 2rem))}
 .hangman-clue .eyebrow{margin:0}
 .hangman-definition{font-size:clamp(1.05rem,2.5vw,1.25rem);line-height:1.5;margin:0}
 .hangman-category{margin:0;color:var(--muted);font-size:.88rem}
-.hangman-word{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-end;gap:.32rem;padding:.65rem 0 .2rem;min-height:62px}
+.hangman-word{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-end;row-gap:.7rem;column-gap:.9rem;padding:.65rem 0 .2rem;min-height:62px}
+.hangman-word-token{display:inline-flex;flex:0 0 auto;flex-wrap:nowrap;align-items:flex-end;gap:.32rem;white-space:nowrap;max-width:100%}
 .hangman-char,.hangman-punct{display:grid;place-items:center;min-width:1.55rem;height:2.25rem;font-size:clamp(1.3rem,4vw,1.85rem);font-weight:750}
 .hangman-char{border-bottom:2px solid var(--text)}
-.hangman-space{width:.85rem}
 .hangman-term-stats{text-align:center;margin:-.3rem 0 .1rem;color:var(--muted);font-size:.84rem}
 .hangman-keyboard{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:.4rem}
 .hangman-keyboard button{min-height:42px;border:1px solid var(--border);border-radius:.65rem;background:var(--surface-2);cursor:pointer;font-weight:750}
@@ -771,7 +771,10 @@ main:has(#hangman-screen:not([hidden])){width:min(900px,calc(100% - 2rem))}
 }
 @media(max-width:460px){
  .hangman-keyboard{grid-template-columns:repeat(6,minmax(0,1fr));gap:.32rem}
- .hangman-char,.hangman-punct{min-width:1.25rem;height:2rem;font-size:1.2rem}
- .hangman-space{width:.55rem}
+ .hangman-word{row-gap:.65rem;column-gap:.75rem}
+ .hangman-word-token{gap:.22rem}
+ .hangman-char,.hangman-punct{min-width:1.1rem;height:2rem;font-size:1.15rem}
+ .hangman-word-token.is-long-word{gap:.16rem}
+ .hangman-word-token.is-long-word .hangman-char,.hangman-word-token.is-long-word .hangman-punct{min-width:1rem;height:1.9rem;font-size:1.05rem}
  .hangman-actions .primary{width:100%}
 }

@@ -58,3 +58,51 @@ test('el penjat no desborda en mòbil i una lletra només compta una vegada',asy
   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth);
   expect(overflow).toBe(false);
 });
+
+
+test('les paraules compostes salten de línia senceres i mai es parteixen entre lletres',async({page})=>{
+  await page.setViewportSize({width:390,height:844});
+  await page.addInitScript(()=>{Math.random=()=>0.05;});
+  await page.goto('/');
+  await page.locator('#language-es').click();
+  await page.locator('#hangman-card').click();
+  await page.locator('[data-hangman-filter]').selectOption('uf0519-unitat-2-bloc-2');
+
+  const entry=page.locator('[data-hangman-entry]');
+  await expect(entry).toHaveAttribute('data-hangman-entry','uf519-descompte-comercial');
+  const tokens=page.locator('.hangman-word-token');
+  await expect(tokens).toHaveCount(2);
+
+  const layout=await tokens.evaluateAll(nodes=>nodes.map(node=>{
+    const rect=node.getBoundingClientRect();
+    const childTops=[...node.querySelectorAll('.hangman-char,.hangman-punct')].map(child=>Math.round(child.getBoundingClientRect().top));
+    return {top:Math.round(rect.top),right:rect.right,width:rect.width,childRows:new Set(childTops).size};
+  }));
+  expect(layout[0].childRows).toBe(1);
+  expect(layout[1].childRows).toBe(1);
+  expect(layout[1].top).toBeGreaterThan(layout[0].top);
+  const wordRight=await page.locator('.hangman-word').evaluate(node=>node.getBoundingClientRect().right);
+  expect(layout.every(item=>item.right<=wordRight+1)).toBe(true);
+});
+
+test('una paraula llarga es compacta en mòbil sense desbordar ni partir-se',async({page})=>{
+  await page.setViewportSize({width:390,height:844});
+  await page.addInitScript(()=>{Math.random=()=>0.5;});
+  await page.goto('/');
+  await page.locator('#language-es').click();
+  await page.locator('#hangman-card').click();
+  await page.locator('[data-hangman-filter]').selectOption('bloc-3');
+
+  await expect(page.locator('[data-hangman-entry]')).toHaveAttribute('data-hangman-entry','b3-descentralitzacio');
+  const token=page.locator('.hangman-word-token');
+  await expect(token).toHaveCount(1);
+  await expect(token).toHaveClass(/is-long-word/);
+  const layout=await token.evaluate(node=>{
+    const rect=node.getBoundingClientRect();
+    const parent=node.parentElement.getBoundingClientRect();
+    const childTops=[...node.querySelectorAll('.hangman-char,.hangman-punct')].map(child=>Math.round(child.getBoundingClientRect().top));
+    return {fits:rect.width<=parent.width+1,rightFits:rect.right<=parent.right+1,childRows:new Set(childTops).size};
+  });
+  expect(layout).toEqual({fits:true,rightFits:true,childRows:1});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
+});
