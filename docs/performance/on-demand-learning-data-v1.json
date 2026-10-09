@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "experiment": "on-demand-learning-data-v1",
+  "baselineCommit": "ea9f77970bfd657eb8fc7584461f1d3498e7caba",
+  "method": {
+    "url": "http://127.0.0.1:4173/",
+    "viewport": "390x844",
+    "browser": "Playwright Chromium",
+    "cacheDisabled": true,
+    "bytesMetric": "CDP Network.loadingFinished.encodedDataLength",
+    "script": "scripts/performance-audit.mjs",
+    "limit": "Local loopback HTTP, not production Core Web Vitals"
+  },
+  "before": {
+    "initial": {
+      "requests": 146,
+      "jsonRequests": 125,
+      "transferBytes": 2876345,
+      "jsonBytes": 2612686
+    }
+  },
+  "after": {
+    "initial": {
+      "requests": 128,
+      "jsonRequests": 115,
+      "transferBytes": 1948571,
+      "jsonBytes": 1832263
+    },
+    "onFirstOpen": {
+      "study": {
+        "requests": 5,
+        "jsonRequests": 3,
+        "transferBytes": 269424,
+        "jsonBytes": 247383
+      },
+      "dictionary": {
+        "requests": 3,
+        "jsonRequests": 2,
+        "transferBytes": 216452,
+        "jsonBytes": 200284
+      },
+      "examples": {
+        "requests": 8,
+        "jsonRequests": 4,
+        "transferBytes": 198752,
+        "jsonBytes": 99792
+      },
+      "hangman": {
+        "requests": 2,
+        "jsonRequests": 1,
+        "transferBytes": 245209,
+        "jsonBytes": 232964
+      }
+    }
+  },
+  "delta": {
+    "savedInitialRequests": 18,
+    "savedInitialJsonRequests": 10,
+    "savedInitialTransferBytes": 927774,
+    "savedInitialTransferPercent": 32.26,
+    "savedInitialJsonBytes": 780423
+  },
+  "deferredJsonFiles": [
+    "data/study-cards-extra.json",
+    "data/study-cards-semantic-v2.json",
+    "data/study-cards-traceability-v2.json",
+    "data/concept-dictionary-v1.json",
+    "data/key-lists-v1.json",
+    "data/commercial-correspondence-v1.json",
+    "data/payroll-example-2026-v1.json",
+    "data/administrative-exercises-v1.json",
+    "data/treasury-practice-v1.json",
+    "data/hangman-bank-v2.json"
+  ],
+  "notDeferred": [
+    "canonical-question-banks",
+    "hard-distractor-overlays"
+  ],
+  "checks": [
+    "tests/e2e/lazy-feature-loading.spec.mjs",
+    "npm run test:all",
+    "npm run build"
+  ]
+}

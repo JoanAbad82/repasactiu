@@ -48,6 +48,12 @@ npm run serve
 - `npm run serve` permet executar la web en local.
 - El workflow `.github/workflows/ci.yml` executa tests i build en les pull requests i les actualitzacions de `main`.
 
+## Càrrega diferida i mesura
+
+La portada carrega els bancs canònics de preguntes per mostrar blocs, recomptes i progrés. Els bancs de targetes addicionals, diccionari, llistes clau, joc del penjat i exemples pràctics es carreguen **quan s'obre cada eina**, i després es reutilitzen mentre dura la sessió. Si falla la descàrrega, la interfície permet reintentar-la.
+
+Per repetir el mesurament local, executeu `npm run serve` en un terminal i `npm run audit:loading` en un altre. L'script usa Playwright Chromium amb la memòria cau desactivada; genera un JSON de recursos i bytes carregats per pantalla. La mesura de referència i les seves limitacions consten a `docs/performance/on-demand-learning-data-v1.json`. Les mesures locals no equivalen a una prova de Core Web Vitals en producció.
+
 ## Estructura
 
 - `site/index.html`: document principal.
