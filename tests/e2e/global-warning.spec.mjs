@@ -17,7 +17,7 @@ test("l'avís global es mostra a dalt i es manté en navegar per la web",async({
   await expect(warning).toBeVisible();
 
   await page.getByRole("button",{name:"Temari",exact:true}).click();
-  await page.getByRole("button",{name:"Diccionari",exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   await expect(page.locator("#concept-dictionary-screen")).toBeVisible();
   await expect(warning).toBeVisible();
 });

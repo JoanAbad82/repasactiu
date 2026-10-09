@@ -3,7 +3,7 @@ import {test,expect} from '@playwright/test';
 async function openLists(page){
   await page.goto('/');
   await expect(page.getByText('1009 preguntes')).toBeVisible();
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   await page.getByRole('button',{name:'Llistes clau',exact:true}).click();
 }
 

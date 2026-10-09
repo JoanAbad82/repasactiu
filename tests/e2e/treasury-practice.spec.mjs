@@ -3,7 +3,7 @@ import {test,expect} from "@playwright/test";
 async function openTreasury(page){
   await page.goto("/");
   await expect(page.getByText("1009 preguntes")).toBeVisible();
-  await page.getByRole("button",{name:"Exemples pràctics",exact:true}).click();
+  await page.locator('#home-shortcut-examples').click();
   await page.getByRole("button",{name:"Tresoreria",exact:true}).click();
 }
 
