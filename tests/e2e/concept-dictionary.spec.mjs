@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 
 test('el diccionari mostra 138 conceptes agrupats en 17 famílies pedagògiques',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   await expect(page.getByRole('heading',{name:'Diccionari de conceptes clau'})).toBeVisible();
   await expect(page.locator('[data-concept-id]')).toHaveCount(138);
   await expect(page.locator('[data-concept-family]')).toHaveCount(17);
@@ -12,7 +12,7 @@ test('el diccionari mostra 138 conceptes agrupats en 17 famílies pedagògiques'
 
 test('l’ordre inicial és conceptual i manté junts els conceptes relacionats',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   const firstFamily=page.locator('[data-concept-family]').first();
   await expect(firstFamily).toHaveAttribute('data-concept-family','entity-company-forms');
   await expect(firstFamily.getByRole('heading',{name:'Formes d’empresa i estructura jurídica'})).toBeVisible();
@@ -26,7 +26,7 @@ test('l’ordre inicial és conceptual i manté junts els conceptes relacionats'
 
 test('entitat pública i privada queden connectades amb Administracions i Estat',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   const family=page.locator('[data-concept-family="public-administration-state"]');
   await expect(family.getByRole('heading',{name:'Sector públic, privat i Administracions'})).toBeVisible();
   await expect(family.locator('[data-concept-id]')).toHaveCount(6);
@@ -37,7 +37,7 @@ test('entitat pública i privada queden connectades amb Administracions i Estat'
 
 test('la cerca troba conceptes sense exigir accents i conserva la família',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   const search=page.locator('[data-dictionary-search]');
   await search.fill('delegacio');
   await expect(page.locator('[data-concept-id]')).toHaveCount(1);
@@ -48,7 +48,7 @@ test('la cerca troba conceptes sense exigir accents i conserva la família',asyn
 
 test('el filtre del bloc 5 conserva les dues famílies conceptuals corresponents',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   await page.locator('[data-dictionary-filter]').selectOption('bloc-5');
   await expect(page.locator('[data-concept-id]')).toHaveCount(10);
   await expect(page.locator('[data-dictionary-count]')).toHaveText('10');
@@ -60,7 +60,7 @@ test('el filtre del bloc 5 conserva les dues famílies conceptuals corresponents
 
 test('el diccionari canvia íntegrament a castellà i conserva el filtre',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   await page.locator('[data-dictionary-filter]').selectOption('uf0518-bloc-1');
   await page.locator('#language-es').click();
   await expect(page.getByRole('heading',{name:'Diccionario de conceptos clave'})).toBeVisible();
@@ -73,7 +73,7 @@ test('el diccionari canvia íntegrament a castellà i conserva el filtre',async(
 
 test('el diccionari mostra la traçabilitat de pàgina',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   await page.locator('[data-dictionary-search]').fill('transposició');
   await expect(page.locator('[data-concept-id="b5-transposicio"] .concept-source')).toHaveText('B5 · p. 19');
 });
@@ -81,7 +81,7 @@ test('el diccionari mostra la traçabilitat de pàgina',async({page})=>{
 
 test('el nou bloc UF0518 B2 aporta 9 conceptes connectats en dues famílies',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   await page.locator('[data-dictionary-filter]').selectOption('uf0518-bloc-2');
   await expect(page.locator('[data-concept-id]')).toHaveCount(9);
   await expect(page.locator('[data-dictionary-count]')).toHaveText('9');
@@ -93,7 +93,7 @@ test('el nou bloc UF0518 B2 aporta 9 conceptes connectats en dues famílies',asy
 
 test('el nou bloc UF0518 B3 aporta 12 conceptes connectats a arxiu i comunicació digital',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   await page.locator('[data-dictionary-filter]').selectOption('uf0518-bloc-3');
   await expect(page.locator('[data-concept-id]')).toHaveCount(12);
   await expect(page.locator('[data-dictionary-count]')).toHaveText('12');
@@ -106,7 +106,7 @@ test('el nou bloc UF0518 B3 aporta 12 conceptes connectats a arxiu i comunicaci�
 test('el diccionari no desborda en mòbil',async({browser})=>{
   const page=await browser.newPage({viewport:{width:390,height:844}});
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
   await expect(page.locator('[data-concept-family]')).toHaveCount(17);
   await page.locator('[data-dictionary-search]').fill('sinergia');
@@ -118,7 +118,7 @@ test('el diccionari no desborda en mòbil',async({browser})=>{
 
 test('UF0519 incorpora conceptes de documents, facturació i nòmina',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   await page.locator('[data-dictionary-filter]').selectOption('uf0519-bloc-2');
   await expect(page.locator('[data-concept-id]')).toHaveCount(8);
   await expect(page.locator('[data-concept-id="uf519-albara"]')).toContainText('Albarà');
@@ -130,7 +130,7 @@ test('UF0519 incorpora conceptes de documents, facturació i nòmina',async({pag
 
 test('el diccionari identifica la tècnica mnemotècnica quan està definida',async({page})=>{
   await page.goto('/');
-  await page.getByRole('button',{name:'Diccionari',exact:true}).click();
+  await page.locator('#home-shortcut-dictionary').click();
   await page.locator('[data-dictionary-search]').fill('qualitat del text');
   const entry=page.locator('[data-concept-id="uf-qualitat-text"]');
   await expect(entry).toContainText('Recorda · 4C + P');

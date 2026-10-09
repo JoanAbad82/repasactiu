@@ -7,12 +7,15 @@
   <title>Repàs Actiu</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/material-notice.css">
+  <link rel="stylesheet" href="css/navigation-polish.css">
 </head>
 <body>
+  <a class="skip-link" id="skip-link" href="#app">Salta al contingut</a>
   <header class="site-header">
     <div class="site-header-inner">
       <button class="brand" id="home-link" type="button">Repàs Actiu</button>
-      <nav class="primary-nav" aria-label="Navegació principal">
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">Menú</button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navegació principal">
         <button id="syllabus-link" type="button">Temari</button>
         <button id="review-errors-link" type="button">Repassar errors</button>
         <button id="study-cards-link" type="button" disabled aria-disabled="true">Targetes de memòria</button>

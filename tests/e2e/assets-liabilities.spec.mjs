@@ -23,7 +23,7 @@ test('el bloc independent conserva el progrés i conté 20 targetes bilingües',
   await page.addInitScript(()=>localStorage.setItem('repasActiu:v1',JSON.stringify({version:1,language:'ca',questionStats:{'uf0519-b5-062':{attempts:1,correct:1,incorrect:0,blank:0}},errorScores:{},history:[]})));
   await page.goto('/');
   await expect(page.locator('[data-selection="uf0519-bloc-6"]')).toContainText('100 %');
-  await page.getByRole('button',{name:'Targetes de memòria',exact:true}).click();
+  await page.locator('#home-shortcut-study').click();
   await page.locator('[data-study-block="uf0519-bloc-6"] input').check();
   await expect(page.locator('#study-selected-count')).toHaveText('20');
   await page.getByRole('button',{name:'Començar repàs',exact:true}).click();
