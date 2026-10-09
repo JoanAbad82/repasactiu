@@ -11,6 +11,9 @@ await cp(source,dist,{recursive:true});
 
 for(const rel of [
   'index.html',
+  'css/main.css',
+  'css/material-notice.css',
+  'css/navigation-polish.css',
   'js/study-cards.js',
   'data/course.json',
   'data/study-cards-extra.json',
