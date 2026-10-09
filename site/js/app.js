@@ -5,24 +5,17 @@ import {loadState,saveState,recordAttempt,appendHistory,resetProgress} from './s
 import {resolveTheme,applyTheme} from './theme.js';
 import {computeProgress} from './progress.js';
 import {renderHomeHtml,renderSetupHtml,renderQuestionHtml,renderResultsHtml,renderReviewHtml,showScreen} from './ui.js';
-import {loadStudyCardsBank,createStudyCards} from './study-cards.js';
-import {loadConceptDictionary,loadKeyLists,createConceptDictionary} from './concept-dictionary.js';
-import {loadCommercialCorrespondence} from './commercial-correspondence.js';
-import {loadPayrollExample,createPracticalExamples} from './practical-examples.js';
-import {loadAdministrativeExercises} from './administrative-exercises.js';
-import {loadTreasuryPractice} from './treasury-practice.js';
-import {createHangman,loadHangmanBank} from './hangman.js';
 
 const els={
  home:document.querySelector('#home-screen'),setup:document.querySelector('#setup-screen'),quiz:document.querySelector('#quiz-screen'),results:document.querySelector('#results-screen'),review:document.querySelector('#review-screen'),study:document.querySelector('#study-cards-screen'),dictionary:document.querySelector('#concept-dictionary-screen'),correspondence:document.querySelector('#commercial-correspondence-screen'),hangman:document.querySelector('#hangman-screen'),live:document.querySelector('#live-region'),
  syllabus:document.querySelector('#syllabus-link'),reviewErrors:document.querySelector('#review-errors-link'),studyLink:document.querySelector('#study-cards-link'),dictionaryLink:document.querySelector('#concept-dictionary-link'),correspondenceLink:document.querySelector('#commercial-correspondence-link'),theme:document.querySelector('#theme-toggle'),langCa:document.querySelector('#language-ca'),langEs:document.querySelector('#language-es'),nav:document.querySelector('.site-header nav'),languageGroup:document.querySelector('.language-switcher'),menu:document.querySelector('#mobile-menu-toggle'),skip:document.querySelector('#skip-link'),header:document.querySelector('.site-header')
 };
 const chromeCopy={
- ca:{syllabus:'Temari',review:'Repassar errors',study:'Targetes de memòria',dictionary:'Diccionari',correspondence:'Exemples pràctics',theme:'Clar/Fosc',themeAria:'Clar/Fosc — canviar mode de color',nav:'Navegació principal',language:'Idioma',all:'Tot el temari disponible',syllabusFallback:'Temari',block:'Bloc',leave:'Vols abandonar el test en curs?',correct:'Resposta correcta',incorrect:'Resposta incorrecta',back:'← Tornar',emptyTitle:'Encara no tens preguntes pendents de repàs',emptyText:'Quan fallis alguna pregunta, apareixerà aquí per reforçar-la.',reset:'Vols esborrar l’historial, les estadístiques i els errors pendents?',loadError:'No s’ha pogut carregar el temari.',retry:'Torna-ho a provar.',menu:'Menú',skip:'Salta al contingut'},
- es:{syllabus:'Temario',review:'Repasar errores',study:'Tarjetas de memoria',dictionary:'Diccionario',correspondence:'Ejemplos prácticos',theme:'Claro/Oscuro',themeAria:'Claro/Oscuro — cambiar modo de color',nav:'Navegación principal',language:'Idioma',all:'Todo el temario disponible',syllabusFallback:'Temario',block:'Bloque',leave:'¿Quieres abandonar el test en curso?',correct:'Respuesta correcta',incorrect:'Respuesta incorrecta',back:'← Volver',emptyTitle:'Todavía no tienes preguntas pendientes de repaso',emptyText:'Cuando falles alguna pregunta, aparecerá aquí para reforzarla.',reset:'¿Quieres borrar el historial, las estadísticas y los errores pendientes?',loadError:'No se ha podido cargar el temario.',retry:'Vuelve a intentarlo.',menu:'Menú',skip:'Saltar al contenido'}
+ ca:{syllabus:'Temari',review:'Repassar errors',study:'Targetes de memòria',dictionary:'Diccionari',correspondence:'Exemples pràctics',theme:'Clar/Fosc',themeAria:'Clar/Fosc — canviar mode de color',nav:'Navegació principal',language:'Idioma',all:'Tot el temari disponible',syllabusFallback:'Temari',block:'Bloc',leave:'Vols abandonar el test en curs?',correct:'Resposta correcta',incorrect:'Resposta incorrecta',back:'← Tornar',emptyTitle:'Encara no tens preguntes pendents de repàs',emptyText:'Quan fallis alguna pregunta, apareixerà aquí per reforçar-la.',reset:'Vols esborrar l’historial, les estadístiques i els errors pendents?',loadError:'No s’ha pogut carregar el temari.',retry:'Torna-ho a provar.',menu:'Menú',skip:'Salta al contingut',loadingTool:'Carregant el contingut...',toolError:'No s’ha pogut carregar aquesta eina.',retryTool:'Tornar-ho a provar'},
+ es:{syllabus:'Temario',review:'Repasar errores',study:'Tarjetas de memoria',dictionary:'Diccionario',correspondence:'Ejemplos prácticos',theme:'Claro/Oscuro',themeAria:'Claro/Oscuro — cambiar modo de color',nav:'Navegación principal',language:'Idioma',all:'Todo el temario disponible',syllabusFallback:'Temario',block:'Bloque',leave:'¿Quieres abandonar el test en curso?',correct:'Respuesta correcta',incorrect:'Respuesta incorrecta',back:'← Volver',emptyTitle:'Todavía no tienes preguntas pendientes de repaso',emptyText:'Cuando falles alguna pregunta, aparecerá aquí para reforzarla.',reset:'¿Quieres borrar el historial, las estadísticas y los errores pendientes?',loadError:'No se ha podido cargar el temario.',retry:'Vuelve a intentarlo.',menu:'Menú',skip:'Saltar al contenido',loadingTool:'Cargando el contenido...',toolError:'No se ha podido cargar esta herramienta.',retryTool:'Volver a intentarlo'}
 };
 
-let course=null,banks=[],studyBank=null,studyCards=null,dictionaryBank=null,hangmanBank=null,keyListsBank=null,dictionaryView=null,correspondenceBank=null,payrollBank=null,administrativeBank=null,treasuryBank=null,correspondenceView=null,hangmanView=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
+let course=null,banks=[],studyCards=null,dictionaryView=null,correspondenceView=null,hangmanView=null,state=loadState(),selection='all',setup={mode:'study',count:10,penaltyEnabled:false,review:false},session=null,lastResult=null,currentScreen='home-screen';
 const prefersDark=()=>window.matchMedia?.('(prefers-color-scheme: dark)').matches??false;
 const language=()=>state.language==='es'?'es':'ca';
 const t=()=>chromeCopy[language()];
@@ -32,6 +25,9 @@ function syncLanguageChrome(){
  const lang=language(); document.documentElement.lang=state.language=lang;
  els.langCa.setAttribute('aria-pressed',String(lang==='ca')); els.langEs.setAttribute('aria-pressed',String(lang==='es'));
  els.syllabus.textContent=t().syllabus; els.reviewErrors.textContent=t().review; els.studyLink.textContent=t().study; els.dictionaryLink.textContent=t().dictionary; els.correspondenceLink.textContent=t().correspondence; els.theme.textContent=t().theme; els.theme.setAttribute('aria-label',t().themeAria); els.nav.setAttribute('aria-label',t().nav); els.languageGroup.setAttribute('aria-label',t().language); els.menu.textContent=t().menu; els.skip.textContent=t().skip;
+ document.querySelectorAll('[data-tool-loading]').forEach(node=>{node.textContent=t().loadingTool;});
+ document.querySelectorAll('[data-tool-error-title]').forEach(node=>{node.textContent=t().toolError;});
+ document.querySelectorAll('[data-tool-retry]').forEach(node=>{node.textContent=t().retryTool;});
 }
 function closeMobileMenu(restoreFocus=false){els.menu.setAttribute('aria-expanded','false');els.header.classList.remove('menu-open');if(restoreFocus)els.menu.focus();}
 function displayScreen(id){const changed=currentScreen!==id;currentScreen=id;showScreen(id);closeMobileMenu();if(changed)window.scrollTo(0,0);}
@@ -70,44 +66,85 @@ function exitLearningTools(){
  exitCorrespondenceMode();
  exitHangmanMode();
 }
-function goHome(){if(!askLeave())return;session=null;lastResult=null;exitLearningTools();renderHome();}
-function openStudyCards(){
+const featureCache=new Map();
+let navigationRequest=0;
+function cachedFeature(key,loader){
+ if(featureCache.has(key))return featureCache.get(key);
+ const promise=Promise.resolve().then(loader);
+ featureCache.set(key,promise);
+ promise.catch(()=>{if(featureCache.get(key)===promise)featureCache.delete(key);});
+ return promise;
+}
+function renderToolLoading(target,screen){
+ els[target].setAttribute('aria-busy','true');
+ els[target].innerHTML='<div class="panel" role="status"><p data-tool-loading>'+t().loadingTool+'</p></div>';
+ displayScreen(screen);
+}
+function renderToolError(target,screen,retry,error){
+ const container=els[target];
+ container.removeAttribute('aria-busy');
+ container.innerHTML='<div class="panel"><p class="error-message" role="alert"><strong data-tool-error-title>'+t().toolError+'</strong></p><button class="primary" type="button" data-tool-retry>'+t().retryTool+'</button></div>';
+ displayScreen(screen);
+ container.querySelector('[data-tool-retry]').addEventListener('click',retry);
+ console.error(error);
+}
+async function openLearningTool(target,screen,key,loader,mount,retry){
  if(!askLeave())return;
- session=null;lastResult=null;
- exitDictionaryMode();
- exitCorrespondenceMode();
- if(studyCards)studyCards.destroy();
- studyCards=createStudyCards({screen:els.study,live:els.live,banks,extraBank:studyBank,language:language(),onHome:goHome});
- displayScreen('study-cards-screen');
+ const request=++navigationRequest;
+ session=null;lastResult=null;exitLearningTools();
+ renderToolLoading(target,screen);
+ try{
+  const feature=await cachedFeature(key,loader);
+  if(request!==navigationRequest)return;
+  els[target].removeAttribute('aria-busy');
+  mount(feature);
+  displayScreen(screen);
+ }catch(error){
+  if(request===navigationRequest)renderToolError(target,screen,retry,error);
+ }
+}
+function goHome(){if(!askLeave())return;++navigationRequest;session=null;lastResult=null;exitLearningTools();renderHome();}
+function openStudyCards(){
+ return openLearningTool('study','study-cards-screen','study',async()=>{
+  const module=await import('./study-cards.js');
+  return {create:module.createStudyCards,extraBank:await module.loadStudyCardsBank()};
+ },feature=>{
+  studyCards=feature.create({screen:els.study,live:els.live,banks,extraBank:feature.extraBank,language:language(),onHome:goHome});
+ },openStudyCards);
 }
 function openConceptDictionary(){
- if(!askLeave())return;
- session=null;lastResult=null;
- exitStudyMode();
- exitCorrespondenceMode();
- if(dictionaryView)dictionaryView.destroy();
- dictionaryView=createConceptDictionary({screen:els.dictionary,bank:dictionaryBank,keyLists:keyListsBank,language:language(),onHome:goHome});
- displayScreen('concept-dictionary-screen');
+ return openLearningTool('dictionary','concept-dictionary-screen','dictionary',async()=>{
+  const module=await import('./concept-dictionary.js');
+  const [bank,keyLists]=await Promise.all([module.loadConceptDictionary(),module.loadKeyLists()]);
+  return {create:module.createConceptDictionary,bank,keyLists};
+ },feature=>{
+  dictionaryView=feature.create({screen:els.dictionary,bank:feature.bank,keyLists:feature.keyLists,language:language(),onHome:goHome});
+ },openConceptDictionary);
 }
 function openCommercialCorrespondence(){
- if(!askLeave())return;
- session=null;lastResult=null;
- exitStudyMode();
- exitDictionaryMode();
- exitHangmanMode();
- if(correspondenceView)correspondenceView.destroy();
- correspondenceView=createPracticalExamples({screen:els.correspondence,correspondenceBank,payrollBank,administrativeBank,treasuryBank,language:language(),onHome:goHome});
- displayScreen('commercial-correspondence-screen');
+ return openLearningTool('correspondence','commercial-correspondence-screen','examples',async()=>{
+  const [correspondence,practicals,administrative,treasury]=await Promise.all([
+   import('./commercial-correspondence.js'),
+   import('./practical-examples.js'),
+   import('./administrative-exercises.js'),
+   import('./treasury-practice.js')
+  ]);
+  const [correspondenceBank,payrollBank,administrativeBank,treasuryBank]=await Promise.all([
+   correspondence.loadCommercialCorrespondence(),practicals.loadPayrollExample(),
+   administrative.loadAdministrativeExercises(),treasury.loadTreasuryPractice()
+  ]);
+  return {create:practicals.createPracticalExamples,correspondenceBank,payrollBank,administrativeBank,treasuryBank};
+ },feature=>{
+  correspondenceView=feature.create({screen:els.correspondence,correspondenceBank:feature.correspondenceBank,payrollBank:feature.payrollBank,administrativeBank:feature.administrativeBank,treasuryBank:feature.treasuryBank,language:language(),onHome:goHome});
+ },openCommercialCorrespondence);
 }
 function openHangman(){
- if(!askLeave())return;
- session=null;lastResult=null;
- exitStudyMode();
- exitDictionaryMode();
- exitCorrespondenceMode();
- if(hangmanView)hangmanView.destroy();
- hangmanView=createHangman({screen:els.hangman,bank:hangmanBank,language:language(),onHome:goHome});
- displayScreen('hangman-screen');
+ return openLearningTool('hangman','hangman-screen','hangman',async()=>{
+  const module=await import('./hangman.js');
+  return {create:module.createHangman,bank:await module.loadHangmanBank()};
+ },feature=>{
+  hangmanView=feature.create({screen:els.hangman,bank:feature.bank,language:language(),onHome:goHome});
+ },openHangman);
 }
 
 function setupContext(){
@@ -115,7 +152,7 @@ function setupContext(){
  return {base,pool,pendingReview};
 }
 function renderSetupScreen(){const {pool,pendingReview}=setupContext();els.setup.innerHTML=renderSetupHtml({label:setup.review?t().review:blockLabel(),...setup,available:pool.length,pendingReview},language());displayScreen('setup-screen');bindSetup();}
-function openSetup(sel,review=false){if(!askLeave())return;exitLearningTools();selection=sel;setup={mode:'study',count:10,penaltyEnabled:false,review};renderSetupScreen();}
+function openSetup(sel,review=false){if(!askLeave())return;++navigationRequest;exitLearningTools();selection=sel;setup={mode:'study',count:10,penaltyEnabled:false,review};renderSetupScreen();}
 function bindSetup(){
  els.setup.querySelector('[data-action="home"]')?.addEventListener('click',goHome);
  els.setup.onchange=e=>{if(e.target.name==='mode'){setup.mode=e.target.value;const field=els.setup.querySelector('#penalty-field');if(field)field.hidden=!isExamMode(setup.mode);}if(e.target.name==='count')setup.count=e.target.value==='all'?'all':Number(e.target.value);if(e.target.name==='penalty')setup.penaltyEnabled=e.target.value==='on';};
@@ -154,7 +191,7 @@ function bindGlobal(){
  els.theme.addEventListener('click',()=>{const current=resolveTheme(state.theme,prefersDark());state.theme=current==='dark'?'light':'dark';saveState(state);syncTheme();});
  els.home.addEventListener('click',e=>{if(e.target.closest('#home-shortcut-study')){openStudyCards();return;}if(e.target.closest('#home-shortcut-dictionary')){openConceptDictionary();return;}if(e.target.closest('#home-shortcut-examples')){openCommercialCorrespondence();return;}if(e.target.closest('#hangman-card')){openHangman();return;}const card=e.target.closest('[data-block-card]');if(card)openSetup(card.dataset.selection,false);if(e.target.closest('#reset-progress')){if(window.confirm(t().reset)){resetProgress();state=loadState();syncTheme();syncLanguageChrome();renderHome();}}});
 }
-async function init(){try{syncTheme();syncLanguageChrome();[course,studyBank,dictionaryBank,hangmanBank,keyListsBank,correspondenceBank,payrollBank,administrativeBank,treasuryBank]=await Promise.all([loadCourse(),loadStudyCardsBank(),loadConceptDictionary(),loadHangmanBank(),loadKeyLists(),loadCommercialCorrespondence(),loadPayrollExample(),loadAdministrativeExercises(),loadTreasuryPractice()]);const corrections=await loadContentCorrections();banks=await Promise.all(course.blocks.map(async meta=>{
+async function init(){try{syncTheme();syncLanguageChrome();const [loadedCourse,corrections]=await Promise.all([loadCourse(),loadContentCorrections()]);course=loadedCourse;banks=await Promise.all(course.blocks.map(async meta=>{
  const [loadedBank,hard]=await Promise.all([
   loadBlockBundle(meta.file,meta.extraFile,fetch,meta.translationFile,meta.memoryAidFile,meta.additionalFiles||[],meta.additionalTranslationFiles||[],meta.additionalMemoryAidFiles||[]),
   loadHardDistractors(meta.hardDistractorFile,meta.id,fetch)
