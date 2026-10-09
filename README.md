@@ -1,5 +1,8 @@
 # Repàs Actiu
 
+[![CI](https://github.com/JoanAbad82/repasactiu/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/JoanAbad82/repasactiu/actions/workflows/ci.yml)
+
+
 Plataforma web pública i minimalista de tests en català i castellà.
 
 ## V1
