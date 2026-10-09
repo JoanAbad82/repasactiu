@@ -2,82 +2,64 @@
 
 [![CI](https://github.com/JoanAbad82/repasactiu/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/JoanAbad82/repasactiu/actions/workflows/ci.yml)
 
+Plataforma web pública, bilingüe i gratuïta de suport a l'estudi del curs **Operacions auxiliars de serveis administratius i generals**.
 
-Plataforma web pública i minimalista de tests en català i castellà.
+**Web publicada:** https://repasactiu.pages.dev/
 
-## V1
+> **Avís acadèmic:** Repàs Actiu és una eina informal i no oficial. Els apunts i materials docents oficials són l'autoritat acadèmica; les respostes de la web poden contenir errors.
 
-Curs inicial: **Operacions auxiliars de serveis administratius i generals**.
+## Funcionalitats
 
-- Interfície bilingüe Català / Castellano
-- 450 preguntes disponibles en tots dos idiomes
-- Traducció completa d’enunciats, opcions i explicacions
-- 450 ajudes de memòria bilingües: exemple pràctic o idea breu per recordar
-- Mode Estudi
-- Mode Examen
-- Mode Repassar errors
-- Sense comptes ni backend
-- Progrés, tema i idioma desats localment amb `localStorage`
-- Cloudflare Pages
+- Tests per unitat, bloc o conjunt del temari, amb modes Estudi, Examen i Examen difícil.
+- Revisió de preguntes fallades, explicacions i ajudes de memòria.
+- Targetes de memòria amb resposta i mnemotècnica.
+- Diccionari organitzat per famílies de conceptes i llistes clau.
+- Exemples pràctics de correspondència, documents administratius, nòmines i tresoreria.
+- Joc del penjat amb conceptes del curs.
+- Interfície en català i castellà, mode clar/fosc i adaptació a dispositius mòbils.
+- Progrés i preferències desats al navegador amb `localStorage`; sense comptes ni servidor d'usuari.
 
-Producció: https://repasactiu.pages.dev
+Els recomptes vigents de preguntes, targetes i conceptes es deriven dels bancs publicats i es validen automàticament. No es mantenen totals històrics fixos en aquest document.
 
-## Resum tècnic / Technical summary
+## Fonts i traçabilitat
 
-- **Rol / Role:** plataforma estàtica d'estudi bilingüe amb contingut validat i traçabilitat de fonts.
-- **Contingut canònic / Canonical content:** català; la versió castellana conserva identificadors i índexs de resposta correcta.
-- **Autoritat acadèmica / Academic authority:** els materials docents oficials disponibles; les propostes externes no substitueixen aquesta autoritat.
-- **Traçabilitat / Traceability:** fitxers machine-readable sota `docs/content/` i dades relacionades connecten contingut publicat amb la seva font.
-- **Validació / Validation:** CI executa `npm run test:all` i `npm run build` sobre pull requests.
-- **Runtime:** sense comptes ni backend d'aplicació; progrés i preferències es guarden localment al navegador.
-- **Agents:** `AGENTS.md` defineix fonts canòniques, límits de producció/recerca i definició de terminat.
-- **Llicència / License:** el software propi està sota Apache-2.0; el contingut educatiu i derivat de fonts té una frontera de drets separada descrita a `LICENSE`.
+1. Els materials oficials del curs prevalen sobre qualsevol correcció o proposta externa.
+2. El català és la capa canònica del contingut de test.
+3. La traducció castellana conserva els identificadors i els índexs de resposta correcta.
+4. Les dades de traçabilitat a `docs/content/` documenten la relació entre materials de referència i contingut.
+5. Els validadors comproven estructura, traducció, codificació, cronologia, qualitat editorial i traçabilitat.
 
-### Banc de preguntes
+La documentació d'agent `AGENTS.md` i l'estat `PROJECT_STATUS.json` estableixen els límits de producció i recerca. Les propostes de `repasactiu-research-intake` no es publiquen automàticament.
 
-El banc es basa exclusivament en els materials docents originals disponibles. Les preguntes incorporen casos d’aplicació, comparació entre conceptes pròxims i distractors del mateix àmbit, mantenint una sola resposta inequívocament correcta.
+## Desenvolupament reproduïble
 
-El català és la versió canònica del contingut. La versió castellana reutilitza els mateixos identificadors de pregunta i el mateix índex de resposta correcta; només tradueix el text de la pregunta, les quatre opcions, el tema i l’explicació. Això evita duplicar la lògica de puntuació o crear divergències entre idiomes.
+Requereix **Node.js 22 o posterior compatible** i les dependències fixades a `package-lock.json`.
 
-Cada pregunta incorpora també una ajuda de memòria separada del banc canònic. Prioritza un exemple d’aplicació pràctica i, quan no és natural, una idea concisa per recordar. Cada versió lingüística té un màxim de 144 caràcters. L’ajuda només es mostra després de respondre i també durant la revisió de respostes, de manera que no dona pistes abans de contestar.
-
-Les 320 preguntes publicades abans d’aquesta ampliació es conserven sense modificacions. L’ampliació afegeix 130 preguntes noves, distribuïdes segons la cobertura real dels sis materials docents originals del curs.
-
-Distribució actual:
-
-**Unitat 1 — Organització empresarial**
-
-- Bloc 1: 50 preguntes
-- Bloc 2: 70 preguntes
-- Bloc 3: 70 preguntes
-- Bloc 4 — Els departaments: 60 preguntes
-- Bloc 5: 60 preguntes
-
-**Unitat 2 — L’organització dels recursos humans**
-
-- Bloc 1 — L’organització d’activitats de suport administratiu: 140 preguntes
-
-**Total: 450 preguntes en català + 450 traduccions completes al castellà + 450 ajudes de memòria bilingües.**
-
-## Agent / estat machine-readable
-
-- `AGENTS.md` — fonts canòniques, límits de producció/recerca i definició de terminat.
-- `PROJECT_STATUS.json` — estat, validació, llicència i superfície d'interacció machine-readable.
-- `SECURITY.md` — política de seguretat i tractament de dades/material sensible.
-- `CONTRIBUTING.md` — regles per a contribucions de codi i contingut.
-
-## Desenvolupament
-
-Requereix Node.js 22 LTS.
-
-```powershell
-npm install
-npm run test
+```bash
+npm ci
+npx playwright install chromium
+npm run test:all
+npm run build
 npm run serve
 ```
 
-La validació automàtica comprova els 450 registres canònics, la cobertura exacta de les 450 traduccions castellanes i les 450 ajudes de memòria en tots dos idiomes. També verifica que cada ajuda sigui `example` o `idea`, que no sigui buida i que no superi els 144 caràcters.
+- `npm run test:all` executa les auditories de contingut, tests unitaris i proves de navegador.
+- `npm run build` crea `dist/` i verifica els recursos essencials.
+- `npm run serve` permet executar la web en local.
+- El workflow `.github/workflows/ci.yml` executa tests i build en les pull requests i les actualitzacions de `main`.
 
-## Independència
+## Estructura
 
-Repàs Actiu és un projecte independent d’Open Utility Lab.
+- `site/index.html`: document principal.
+- `site/css/`: disseny, avisos i adaptació responsiva.
+- `site/js/`: navegació i funcionalitats educatives.
+- `site/data/`: continguts canònics i traduccions.
+- `scripts/`: generació i validacions.
+- `tests/unit/` i `tests/e2e/`: comprovacions automatitzades.
+- `docs/content/`: auditories i traçabilitat de fonts.
+
+La web es publica a Cloudflare Pages des de `main` amb `npm run build` i directori de sortida `dist/`. Els canvis han de superar tests i build abans d'integrar-se a `main`.
+
+## Llicència i independència
+
+Repàs Actiu és independent d'Open Utility Lab. El programari original té l'abast de llicència Apache-2.0 descrit a `LICENSE`; el contingut educatiu i derivat de materials docents manté una delimitació de drets diferenciada. Consulteu `LICENSE`, `SECURITY.md` i `CONTRIBUTING.md` abans de reutilitzar contingut o contribuir-hi.
