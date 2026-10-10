@@ -318,6 +318,19 @@
       "translationFile": "data/i18n/es/uf0519-bloc-5-actius-passius.json",
       "memoryAidFile": "data/memory/uf0519-bloc-5-actius-passius.json",
       "hardDistractorFile": "data/hard/uf0519-bloc-6.json"
+    },
+    {
+      "id": "uf0519-unitat-3-bloc-1",
+      "unitId": "uf0519-unitat-3",
+      "unitTitle": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 3",
+      "unitTitleEs": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 3",
+      "blockNumber": 1,
+      "title": "Material d’oficina, aprovisionament i control d’existències",
+      "titleEs": "Material de oficina, aprovisionamiento y control de existencias",
+      "file": "data/uf0519_unitat_3_bloc_1.json",
+      "translationFile": "data/i18n/es/uf0519-unitat-3-bloc-1.json",
+      "memoryAidFile": "data/memory/uf0519-unitat-3-bloc-1.json",
+      "hardDistractorFile": "data/hard/uf0519-unitat-3-bloc-1.json"
     }
   ]
 }

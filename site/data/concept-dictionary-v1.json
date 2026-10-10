@@ -6,7 +6,7 @@
     "ca",
     "es"
   ],
-  "count": 138,
+  "count": 150,
   "groups": [
     {
       "id": "bloc-1",
@@ -87,6 +87,11 @@
       "id": "uf0519-unitat-2-bloc-2",
       "ca": "UF0519 · Unitat 2 · Bloc 2 — Caixa, bancs i mitjans informàtics",
       "es": "UF0519 · Unidad 2 · Bloque 2 — Caja, bancos y medios informáticos"
+    },
+    {
+      "id": "uf0519-unitat-3-bloc-1",
+      "ca": "UF0519 · Unitat 3 — Material, aprovisionament i existències",
+      "es": "UF0519 · Unidad 3 — Materiales, aprovisionamiento y existencias"
     }
   ],
   "entries": [
@@ -3071,6 +3076,282 @@
         "definition": "Sistema que conecta el comercio en línea con los mecanismos necesarios para procesar el pago del comprador.",
         "memory": "Pasarela = puente entre compra y cobro."
       }
+    },
+    {
+      "id": "u3-bastidor",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          4,
+          4
+        ]
+      },
+      "ca": {
+        "term": "Bastidor de sobretaula",
+        "definition": "Estructura petita que ordena carpetes de consulta freqüent.",
+        "memory": "A mà sobre la taula: bastidor.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "Bastidor de sobremesa",
+        "definition": "Estructura pequeña que organiza carpetas de consulta frecuente.",
+        "memory": "A mano sobre la mesa: bastidor.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-expedient-compra",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "term": "Expedient de compra",
+        "definition": "Conjunt ordenat dels documents d’una mateixa adquisició, del pressupost a la factura.",
+        "memory": "Una compra, un expedient complet.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "Expediente de compra",
+        "definition": "Conjunto ordenado de documentos de una misma adquisición, del presupuesto a la factura.",
+        "memory": "Una compra, un expediente completo.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-fitxer-informatic",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          12,
+          12
+        ]
+      },
+      "ca": {
+        "term": "Fitxer informàtic",
+        "definition": "Unitat de dades digitals identificada amb un nom i un format; es guarda dins d’un directori.",
+        "memory": "Fitxer = dades; carpeta = contenidor.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "Archivo informático",
+        "definition": "Unidad de datos digitales identificada por nombre y formato; se guarda en un directorio.",
+        "memory": "Archivo = datos; carpeta = contenedor.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-etiqueta-interna",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          21,
+          21
+        ]
+      },
+      "ca": {
+        "term": "Etiqueta interna de magatzem",
+        "definition": "Identificador d’un article per codi, lot o ubicació, sense substituir la informació legal obligatòria.",
+        "memory": "Etiqueta interna complementa, no tapa.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "Etiqueta interna de almacén",
+        "definition": "Identificador de un artículo por código, lote o ubicación, sin sustituir la información legal obligatoria.",
+        "memory": "Etiqueta interna complementa, no tapa.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-punt-comanda",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          23,
+          23
+        ]
+      },
+      "ca": {
+        "term": "Punt de comanda",
+        "definition": "Nivell d’existències a partir del qual s’ha d’iniciar una reposició segons el criteri establert.",
+        "memory": "Punt de comanda = senyal de reposar.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "Punto de pedido",
+        "definition": "Nivel de existencias a partir del cual se inicia una reposición según el criterio fijado.",
+        "memory": "Punto de pedido = señal para reponer.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-ubicacio-fixa",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          26,
+          26
+        ]
+      },
+      "ca": {
+        "term": "Ubicació fixa",
+        "definition": "Sistema que reserva un lloc predeterminat a cada referència, encara que temporalment quedi buit.",
+        "memory": "Fixa: un lloc reservat.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "Ubicación fija",
+        "definition": "Sistema que reserva un lugar predeterminado a cada referencia, aunque quede temporalmente vacío.",
+        "memory": "Fija: un lugar reservado.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-ubicacio-variable",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          26,
+          26
+        ]
+      },
+      "ca": {
+        "term": "Ubicació variable",
+        "definition": "Sistema que assigna espais compatibles disponibles i obliga a registrar on s’ha col·locat el producte.",
+        "memory": "Variable: lliure + registrat.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "Ubicación variable",
+        "definition": "Sistema que asigna espacios compatibles disponibles y obliga a registrar dónde se ubicó el producto.",
+        "memory": "Variable: libre + registrado.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-picking",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          26,
+          26
+        ]
+      },
+      "ca": {
+        "term": "Picking",
+        "definition": "Selecció i recollida física dels articles necessaris per preparar una comanda.",
+        "memory": "Picking: recollir la llista de la comanda.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "Picking",
+        "definition": "Selección y recogida física de los artículos necesarios para preparar un pedido.",
+        "memory": "Picking: recoger la lista del pedido.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-fifo",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "term": "FIFO",
+        "definition": "Criteri de rotació física en què surt primer el producte que va entrar primer.",
+        "memory": "First In, First Out: primer que entra, surt.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "FIFO",
+        "definition": "Criterio de rotación física en el que sale primero el producto que entró primero.",
+        "memory": "First In, First Out: primero que entra, sale.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-fefo",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "term": "FEFO",
+        "definition": "Criteri de rotació física en què es prioritza el lot vigent que caduca abans.",
+        "memory": "First Expired, First Out: caduca abans, surt.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "FEFO",
+        "definition": "Criterio de rotación física que prioriza el lote vigente cuya caducidad es más próxima.",
+        "memory": "First Expired, First Out: caduca antes, sale.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-lifo",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "term": "LIFO de rotació física",
+        "definition": "Criteri físic d’última entrada i primera sortida; no és admès com a valoració comptable pel PGC.",
+        "memory": "LIFO físic ≠ mètode comptable admès.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "LIFO de rotación física",
+        "definition": "Criterio físico de última entrada y primera salida; no se admite como valoración contable en el PGC.",
+        "memory": "LIFO físico ≠ método contable admitido.",
+        "technique": "Contraste"
+      }
+    },
+    {
+      "id": "u3-trasllat-intern",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          28,
+          28
+        ]
+      },
+      "ca": {
+        "term": "Trasllat intern",
+        "definition": "Moviment d’articles entre ubicacions del mateix magatzem, sense alterar l’estoc total.",
+        "memory": "A i B canvien; el total no.",
+        "technique": "Contrast"
+      },
+      "es": {
+        "term": "Traslado interno",
+        "definition": "Movimiento de artículos entre ubicaciones del mismo almacén sin cambiar el stock total.",
+        "memory": "A y B cambian; el total no.",
+        "technique": "Contraste"
+      }
     }
   ],
   "familyPolicy": "Order by conceptual families and learning dependency, not alphabetically. Keep contrasts and strongly related concepts adjacent to improve retrieval and memorisation.",
@@ -3330,6 +3611,25 @@
         "uf519-banca-electronica",
         "uf519-comerc-electronic",
         "uf519-passarella-pagament"
+      ]
+    },
+    {
+      "id": "inventory-warehouse-logistics",
+      "ca": "Existències, magatzem i rotació",
+      "es": "Existencias, almacén y rotación",
+      "entryIds": [
+        "u3-bastidor",
+        "u3-expedient-compra",
+        "u3-fitxer-informatic",
+        "u3-etiqueta-interna",
+        "u3-punt-comanda",
+        "u3-ubicacio-fixa",
+        "u3-ubicacio-variable",
+        "u3-picking",
+        "u3-fifo",
+        "u3-fefo",
+        "u3-lifo",
+        "u3-trasllat-intern"
       ]
     }
   ],

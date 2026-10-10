@@ -44,14 +44,16 @@ const EXPECTED_FAMILIES={
   'treasury-cash-inventory':['uf519-tresoreria','uf519-mitjans-pagament','uf519-arqueig-caixa','uf519-conciliacio-bancaria','uf519-fungible-no-fungible','uf519-stock-seguretat','uf519-pagament-anticipat','uf519-domiciliacio-bancaria','uf519-contra-reemborsament','uf519-xec-creuat','uf519-xec-conformat','uf519-endossament','uf519-transferencia-bancaria','uf519-pagare','uf519-aval-bancari','uf519-pignoracio','uf519-llibre-auxiliar-caixa','uf519-descompte-comercial','uf519-factoring','uf519-asseguranca-credit','uf519-factoring-recurs','uf519-factoring-sense-recurs','uf519-confirming','uf519-saldo-real','uf519-saldo-teoric','uf519-quadrament-caixa','uf519-desquadrament-caixa','uf519-llibre-auxiliar-bancs','uf519-carrec','uf519-abonament','uf519-confidencialitat-tresoreria','uf519-datafon','uf519-tpv-compacte','uf519-tpv-modular','uf519-tpv-virtual','uf519-banca-electronica','uf519-comerc-electronic','uf519-passarella-pagament']
 };
 
-const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:31,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22,UF0519_U2_TRESORERIA:41,UF0519_U2_TRESORERIA_B2:52};
+EXPECTED['uf0519-unitat-3-bloc-1']=12;
+EXPECTED_FAMILIES['inventory-warehouse-logistics']=['u3-bastidor','u3-expedient-compra','u3-fitxer-informatic','u3-etiqueta-interna','u3-punt-comanda','u3-ubicacio-fixa','u3-ubicacio-variable','u3-picking','u3-fifo','u3-fefo','u3-lifo','u3-trasllat-intern'];
+const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:31,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22,UF0519_U2_TRESORERIA:41,UF0519_U2_TRESORERIA_B2:52,UF0519_U3_STOCK:29};
 const errors=[];
 
 if(bank.version!==1)errors.push('version != 1');
-if(bank.count!==138)errors.push('count != 138');
-if(!Array.isArray(bank.entries)||bank.entries.length!==138)errors.push('entries != 138');
-if(!Array.isArray(bank.groups)||bank.groups.length!==16)errors.push('groups != 16');
-if(!Array.isArray(bank.families)||bank.families.length!==17)errors.push('families != 17');
+if(bank.count!==150)errors.push('count != 150');
+if(!Array.isArray(bank.entries)||bank.entries.length!==150)errors.push('entries != 150');
+if(!Array.isArray(bank.groups)||bank.groups.length!==17)errors.push('groups != 17');
+if(!Array.isArray(bank.families)||bank.families.length!==18)errors.push('families != 17');
 if(!Array.isArray(bank.languages)||bank.languages.join(',')!=='ca,es')errors.push('languages must be ca,es');
 
 const ids=new Set();
@@ -98,8 +100,8 @@ for(const family of bank.families||[]){
   else if(JSON.stringify(family.entryIds)!==JSON.stringify(expected))errors.push('family order/membership mismatch '+family.id);
   assigned.push(...family.entryIds);
 }
-if(assigned.length!==138)errors.push('family assignments != 138');
-if(new Set(assigned).size!==138)errors.push('family assignments contain duplicates');
+if(assigned.length!==150)errors.push('family assignments != 150');
+if(new Set(assigned).size!==150)errors.push('family assignments contain duplicates');
 for(const id of ids){
   if(!assigned.includes(id))errors.push('unassigned concept '+id);
 }
@@ -119,8 +121,8 @@ for(const blockId of Object.keys(counts)){
 
 if(errors.length)throw new Error('CONCEPT_DICTIONARY_AUDIT=FAIL\n- '+errors.join('\n- '));
 console.log('CONCEPT_DICTIONARY_AUDIT=PASS');
-console.log('CONCEPTS=138');
+console.log('CONCEPTS=150');
 console.log('BLOCK_COUNTS='+JSON.stringify(counts));
 console.log('LANGUAGES=ca,es');
-console.log('CONCEPT_FAMILIES=17');
+console.log('CONCEPT_FAMILIES=18');
 console.log('FAMILY_ORDER='+bank.families.map(x=>x.id).join(' > '));

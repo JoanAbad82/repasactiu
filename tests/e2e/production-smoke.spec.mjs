@@ -5,9 +5,9 @@ const production=process.env.BASE_URL?.includes('repasactiu.pages.dev')??false;
 test('smoke del lloc publicat',async({page})=>{
   await page.goto('/');
   await expect(page.getByText('Repàs Actiu').first()).toBeVisible();
-  await expect(page.locator('[data-unit-group]')).toHaveCount(5);
-  await expect(page.locator('[data-block-card]')).toHaveCount(18);
-  await expect(page.getByText('1009 preguntes')).toBeVisible();
+  await expect(page.locator('[data-unit-group]')).toHaveCount(6);
+  await expect(page.locator('[data-block-card]')).toHaveCount(19);
+  await expect(page.getByText('1036 preguntes')).toBeVisible();
   await expect(page.locator('[data-selection="unitat-2-bloc-1"]')).toContainText('150 preguntes');
   await expect(page.locator('[data-selection="uf0518-bloc-1"]')).toContainText('86 preguntes');
   await expect(page.locator('[data-selection="uf0518-bloc-2"]')).toContainText('70 preguntes');
@@ -19,7 +19,7 @@ test('smoke del lloc publicat',async({page})=>{
 
   await page.locator('#language-es').click();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
-  await expect(page.getByText('1009 preguntas')).toBeVisible();
+  await expect(page.getByText('1036 preguntas')).toBeVisible();
   await expect(page.locator('[data-selection="unitat-2-bloc-1"]')).toContainText('150 preguntas');
   await expect(page.locator('[data-selection="uf0518-bloc-1"]')).toContainText('86 preguntas');
   await expect(page.locator('[data-selection="uf0518-bloc-2"]')).toContainText('70 preguntas');

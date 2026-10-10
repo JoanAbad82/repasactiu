@@ -1,0 +1,303 @@
+{
+  "blockId": "uf0519-unitat-3-bloc-1",
+  "blockTitle": "Material de oficina, aprovisionamiento y control de existencias",
+  "questions": {
+    "uf0519-u3b1-001": {
+      "topic": "Arxiu de documents",
+      "question": "¿Para qué sirve un bastidor de sobremesa en una oficina?",
+      "options": [
+        "Para mantener carpetas de uso frecuente ordenadas y accesibles",
+        "Para conservar mercancías con frío industrial",
+        "Para destruir documentación caducada",
+        "Para comprobar el saldo del libro de caja"
+      ],
+      "explanation": "El bastidor de sobremesa ordena carpetas consultadas a menudo."
+    },
+    "uf0519-u3b1-002": {
+      "topic": "Transport documental",
+      "question": "¿Qué función tienen los carros para carpetas colgantes y de anillas?",
+      "options": [
+        "Inventariar físicamente el stock de tóner",
+        "Organizar y desplazar documentos mediante un soporte con ruedas",
+        "Fijar un punto de pedido de papel",
+        "Etiquetar productos destinados a expedición"
+      ],
+      "explanation": "Los carros permiten trasladar carpetas y consultar un archivo provisional."
+    },
+    "uf0519-u3b1-003": {
+      "topic": "Conservació documental",
+      "question": "¿Qué elemento es especialmente adecuado para proteger documentos y restringir su acceso?",
+      "options": [
+        "Un carro sin cierre",
+        "Una papelera abierta",
+        "Un armario con cerradura",
+        "Una bandeja de recogida sin control"
+      ],
+      "explanation": "Un armario con cerradura ayuda a custodiar documentos de acceso limitado."
+    },
+    "uf0519-u3b1-004": {
+      "topic": "Mobiliari d’arxiu",
+      "question": "¿Cómo se caracteriza un archivador vertical de cajones?",
+      "options": [
+        "Sirve para mover palés dentro del almacén",
+        "Es un fichero únicamente de correo electrónico",
+        "Es un sistema de conservación refrigerada",
+        "Permite ordenar y guardar documentos en cajones"
+      ],
+      "explanation": "El archivador vertical utiliza cajones para disponer carpetas y documentos."
+    },
+    "uf0519-u3b1-005": {
+      "topic": "Expedients",
+      "question": "¿Qué es un expediente administrativo?",
+      "options": [
+        "Un conjunto ordenado de documentos vinculados al mismo asunto o procedimiento",
+        "Una única factura aislada sin relación documental",
+        "La reserva de materiales necesaria para la oficina",
+        "Una etiqueta que identifica un lote de productos"
+      ],
+      "explanation": "El expediente agrupa documentos del mismo asunto y puede ser físico, digital o mixt."
+    },
+    "uf0519-u3b1-006": {
+      "topic": "Circuit documental",
+      "question": "En el expediente de una compra de oficina, ¿qué documento confirma la entrega del material?",
+      "options": [
+        "El presupuesto previo",
+        "El albarán",
+        "La solicitud interna",
+        "El registro de personal"
+      ],
+      "explanation": "El albarán acredita la entrega; presupuesto y pedido son anteriores."
+    },
+    "uf0519-u3b1-007": {
+      "topic": "Arxiu digital",
+      "question": "¿Qué distingue una carpeta digital de un archivo informático?",
+      "options": [
+        "La carpeta solo guarda imágenes y el archivo solo texto",
+        "La carpeta es un archivador físico y el archivo siempre es papel",
+        "La carpeta agrupa archivos; el archivo contiene datos identificados con un nombre",
+        "Ambos son sistemas de clasificación de almacenes"
+      ],
+      "explanation": "Una carpeta digital es un directorio y un archivo es una unidad de datos con nombre."
+    },
+    "uf0519-u3b1-008": {
+      "topic": "Material fungible",
+      "question": "¿Por qué se considera fungible un cartucho de tóner?",
+      "options": [
+        "Porque no interviene en tareas administrativas",
+        "Porque es un mueble de uso continuado",
+        "Porque solo se guarda en armarios cerrados",
+        "Porque se agota con el uso y necesita reposición"
+      ],
+      "explanation": "El tóner es consumible, a diferencia de la impresora en la que se utiliza."
+    },
+    "uf0519-u3b1-009": {
+      "topic": "Material no fungible",
+      "question": "¿Qué rasgo justifica clasificar una silla de oficina como no fungible?",
+      "options": [
+        "Permite un uso continuado sin consumirse en cada utilización",
+        "Se agota después de cada jornada laboral",
+        "Es un producto para reposición diaria",
+        "Solo se puede utilizar junto con tóner"
+      ],
+      "explanation": "La silla es un elemento duradero que puede desgastarse pero no se consume en cada uso."
+    },
+    "uf0519-u3b1-010": {
+      "topic": "Funció d’aprovisionament",
+      "question": "¿Qué dos gestiones integra el aprovisionamiento de existencias?",
+      "options": [
+        "Comunicación comercial y contabilidad salarial",
+        "Compras y control de las existencias",
+        "Contratación de personal y nóminas",
+        "Archivo permanente y correo postal"
+      ],
+      "explanation": "El aprovisionamiento incluye adquirir materiales y gestionar su inventario."
+    },
+    "uf0519-u3b1-011": {
+      "topic": "Selecció de proveïdors",
+      "question": "Para elegir un proveedor con plazo máximo obligatorio, ¿qué debe compararse?",
+      "options": [
+        "Oferta más barata aunque llegue fuera de plazo",
+        "Precio unitario sin transporte de todas las ofertas",
+        "Coste total de las ofertas que cumplen el plazo",
+        "Cantidad mínima de paquetes de la competencia"
+      ],
+      "explanation": "Primero se descartan las ofertas fuera de plazo y después se comparan costes completos."
+    },
+    "uf0519-u3b1-012": {
+      "topic": "Gestió d’inventari",
+      "question": "¿Qué información requiere la gestión de inventarios para planificar reposiciones?",
+      "options": [
+        "La fecha de la última reunión del equipo",
+        "El nombre de quien imprimió el presupuesto",
+        "El color de la carpeta de contabilidad",
+        "Cantidad disponible, demanda y plazo de suministro"
+      ],
+      "explanation": "Los niveles de stock y el plazo de suministro influyen en cuándo reponer."
+    },
+    "uf0519-u3b1-013": {
+      "topic": "Etiquetatge obligatori",
+      "question": "¿De qué dependen los datos obligatorios de la etiqueta de un producto?",
+      "options": [
+        "Del tipo de producto y de la normativa aplicable",
+        "Del formato de papel preferido por la oficina",
+        "De la ubicación física asignada por el almacén",
+        "De la marca de la impresora de etiquetas"
+      ],
+      "explanation": "Los requisitos legales de etiquetado varían por producto y normativa."
+    },
+    "uf0519-u3b1-014": {
+      "topic": "Etiquetatge intern",
+      "question": "¿Qué condición debe cumplir una etiqueta interna de almacén?",
+      "options": [
+        "Sustituir todos los símbolos legales de peligro",
+        "No ocultar las advertencias de seguridad obligatorias",
+        "Eliminar la referencia del lote cuando hay código interno",
+        "Mostrar el mismo texto para todos los productos"
+      ],
+      "explanation": "El etiquetado interno complementa la identificación sin tapar datos obligatorios."
+    },
+    "uf0519-u3b1-015": {
+      "topic": "Magatzem",
+      "question": "¿Cuál es una función esencial del almacén?",
+      "options": [
+        "Autorizar las transferencias del banco",
+        "Calcular las retenciones de nóminas",
+        "Recibir, manipular, conservar y expedir materiales",
+        "Registrar los acuerdos de una reunión"
+      ],
+      "explanation": "El almacén coordina el flujo físico de materiales y su conservación."
+    },
+    "uf0519-u3b1-016": {
+      "topic": "Estoc de seguretat",
+      "question": "¿Para qué se prevé un stock de seguridad?",
+      "options": [
+        "Para fijar el precio de venta de los artículos",
+        "Para sustituir el recuento real del inventario",
+        "Para impedir nuevos pedidos",
+        "Para afrontar imprevistos de consumo o suministro"
+      ],
+      "explanation": "El stock de seguridad es una reserva para reducir el riesgo de ruptura de existencias."
+    },
+    "uf0519-u3b1-017": {
+      "topic": "Punt de comanda",
+      "question": "Si se repone cuando el stock es igual o inferior al punto de pedido, ¿qué ocurre con 18 unidades y un punto de 20?",
+      "options": [
+        "Hay que iniciar un nuevo pedido",
+        "Debe esperarse hasta quedarse sin existencias",
+        "Hay que suspender las compras",
+        "El nivel de stock pasa a 20 automáticamente"
+      ],
+      "explanation": "Como 18 es inferior a 20, se ha alcanzado el umbral de reposición."
+    },
+    "uf0519-u3b1-018": {
+      "topic": "Classificació de magatzems",
+      "question": "Un almacén que abastece una zona territorial desde un centro regional, ¿cómo se clasifica por ubicación?",
+      "options": [
+        "De materias primas",
+        "Regional",
+        "Refrigerado",
+        "Al aire libre"
+      ],
+      "explanation": "El criterio territorial describe la función regional del centro."
+    },
+    "uf0519-u3b1-019": {
+      "topic": "Ubicacions fixes",
+      "question": "¿Qué inconveniente pueden tener las ubicaciones fijas cuando se agota una referencia?",
+      "options": [
+        "Se elimina la necesidad de señalizar zonas",
+        "Es imposible encontrar la ubicación del producto",
+        "El espacio reservado puede quedar vacío",
+        "El producto se traslada sin registro"
+      ],
+      "explanation": "La ubicación fija facilita localizar pero puede dejar espacios vacíos."
+    },
+    "uf0519-u3b1-020": {
+      "topic": "Ubicacions variables",
+      "question": "¿Qué condición es imprescindible en un almacén de ubicaciones variables?",
+      "options": [
+        "Dejar elegir espacios sin informar",
+        "Mantener cada referencia siempre en un espacio permanente",
+        "Evitar comprobar la compatibilidad con la mercancía",
+        "Registrar en el sistema las ubicaciones asignadas"
+      ],
+      "explanation": "La ubicación variable exige identificar y registrar dónde está cada referencia."
+    },
+    "uf0519-u3b1-021": {
+      "topic": "Picking",
+      "question": "¿Qué es el picking en la preparación de pedidos?",
+      "options": [
+        "Seleccionar y recoger artículos para preparar un pedido",
+        "Calcular la valoración de mercancías sin moverlas",
+        "Clasificar proveedores por plazo bancario",
+        "Revisar solo la factura a su llegada"
+      ],
+      "explanation": "El picking es una operación física de selección y recogida de productos."
+    },
+    "uf0519-u3b1-022": {
+      "topic": "Rotació FIFO",
+      "question": "Con rotación física FIFO, ¿qué lote se expide primero?",
+      "options": [
+        "El que entró más recientemente",
+        "El que entró primero en el almacén",
+        "El que tiene el precio más alto",
+        "El que ocupa la posición más próxima a la salida"
+      ],
+      "explanation": "FIFO: First In, First Out, primera entrada, primera salida."
+    },
+    "uf0519-u3b1-023": {
+      "topic": "Rotació FEFO",
+      "question": "Con rotación física FEFO, ¿qué lote se expide primero?",
+      "options": [
+        "El que se almacenó en el estante más alto",
+        "El que llegó primero, independientemente de su caducidad",
+        "El que tiene la fecha de caducidad más próxima",
+        "El que tiene el mayor coste de compra"
+      ],
+      "explanation": "FEFO prioriza el lote que caduca antes, si sigue vigente."
+    },
+    "uf0519-u3b1-024": {
+      "topic": "Rotació LIFO",
+      "question": "En rotación física LIFO, ¿cuál es la secuencia de salida?",
+      "options": [
+        "Sale primero el lote más barato",
+        "El primer lote que entra es el primero en salir",
+        "Sale primero el que caduca antes",
+        "El último lote que entra es el primero en salir"
+      ],
+      "explanation": "LIFO equivale a Last In, First Out, pero no es un método contable admitido por el PGC."
+    },
+    "uf0519-u3b1-025": {
+      "topic": "Valoració comptable",
+      "question": "¿Qué métodos de valoración de existencias intercambiables prevé el PGC?",
+      "options": [
+        "Precio medio ponderado, con carácter general, y FIFO como admisible",
+        "FEFO y LIFO como métodos contables principales",
+        "LIFO y coste del lote que caduca antes",
+        "Rotación física variable sin valoración monetaria"
+      ],
+      "explanation": "La valoración contable no equivale a la rotación física: el PGC prioriza PMP y admite FIFO."
+    },
+    "uf0519-u3b1-026": {
+      "topic": "Trasllats interns",
+      "question": "Si se trasladan 25 unidades de la ubicación A a B dentro del mismo almacén, ¿qué ocurre con el stock total?",
+      "options": [
+        "Aumenta en 25 porque B recibe material",
+        "Se mantiene igual porque no hay entrada ni salida externa",
+        "Disminuye en 25 porque A pierde material",
+        "Pasa a cero porque se cierran dos registros"
+      ],
+      "explanation": "El traslado interno cambia ubicaciones, no el número total de unidades."
+    },
+    "uf0519-u3b1-027": {
+      "topic": "Seguretat en manipulació",
+      "question": "Al elegir un equipo para mover cargas, ¿qué datos son imprescindibles?",
+      "options": [
+        "Color de carpetas y fecha de factura",
+        "Marca del papel de oficina y duración de la nómina",
+        "Peso y volumen de la carga y dimensiones de pasillos",
+        "Distancia al banco y número de presupuestos"
+      ],
+      "explanation": "Hay que comprobar capacidad de carga y compatibilidad con pasillos y espacios."
+    }
+  }
+}

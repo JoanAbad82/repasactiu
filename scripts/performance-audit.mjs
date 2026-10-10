@@ -21,7 +21,7 @@ const snapshot=async(label)=>{
   measurements.push({stage:label,requests:items.length,transferBytes:items.reduce((n,x)=>n+x.bytes,0),jsonRequests:items.filter(x=>x.url.endsWith('.json')).length,jsonBytes:items.filter(x=>x.url.endsWith('.json')).reduce((n,x)=>n+x.bytes,0),paths:items.map(x=>x.url)});
 };
 await page.goto('http://127.0.0.1:4173/');
-await page.getByText('1009 preguntes').waitFor();
+await page.getByText('1036 preguntes').waitFor();
 await snapshot('initial');
 const actions=[
   ['study','#home-shortcut-study','.study-selector-head'],

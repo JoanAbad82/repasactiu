@@ -4,7 +4,7 @@ const ADMIN_TAB="Documents administratius i comercials";
 
 async function openAdmin(page){
   await page.goto("/");
-  await expect(page.getByText("1009 preguntes")).toBeVisible();
+  await expect(page.getByText("1036 preguntes")).toBeVisible();
   await page.locator('#home-shortcut-examples').click();
   await page.getByRole("button",{name:ADMIN_TAB,exact:true}).click();
   await expect(page.getByRole("heading",{name:ADMIN_TAB})).toBeVisible();

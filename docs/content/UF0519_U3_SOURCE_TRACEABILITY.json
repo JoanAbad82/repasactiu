@@ -1,0 +1,264 @@
+{
+  "version": 1,
+  "scope": "UF0519_U3_STOCK",
+  "sources": {
+    "UF0519_U3_STOCK": {
+      "file": "3_Gestió i control bàsic d’existències.pdf",
+      "pages": 29,
+      "sha256": "06f89f17152e1cbd3b238ca019c95e815949606a6e775c484c486d1cef7710da"
+    }
+  },
+  "questionTraces": [
+    {
+      "id": "uf0519-u3b1-001",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-002",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        5,
+        5
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-003",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        6,
+        6
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-004",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        7,
+        7
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-005",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        8,
+        8
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-006",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        9,
+        9
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-007",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        12,
+        12
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-008",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        14,
+        14
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-009",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        15,
+        15
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-010",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        18,
+        18
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-011",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        19,
+        19
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-012",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        19,
+        19
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-013",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        20,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-014",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        21,
+        21
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-015",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        22,
+        22
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-016",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        23,
+        23
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-017",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        23,
+        23
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-018",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        24,
+        24
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-019",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        26,
+        26
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-020",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        26,
+        26
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-021",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        26,
+        26
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-022",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        27,
+        27
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-023",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        27,
+        27
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-024",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        27,
+        27
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-025",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        27,
+        27
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-026",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        28,
+        28
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b1-027",
+      "source": "UF0519_U3_STOCK",
+      "pageRange": [
+        29,
+        29
+      ],
+      "status": "PASS"
+    }
+  ],
+  "coverageRules": [],
+  "sourceOverrides": [],
+  "corrections": [],
+  "review": {
+    "questionCount": 27,
+    "status": "PASS",
+    "policy": "Per-question checked against original UF0519 Unitat 3 slide deck; exercises correspond to four DOCX handouts and an XLSX template with explicit simulated office data."
+  }
+}

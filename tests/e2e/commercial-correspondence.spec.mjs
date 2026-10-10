@@ -2,7 +2,7 @@ import {test,expect} from "@playwright/test";
 
 async function openGuide(page){
   await page.goto("/");
-  await expect(page.getByText("1009 preguntes")).toBeVisible();
+  await expect(page.getByText("1036 preguntes")).toBeVisible();
   await page.locator('#home-shortcut-examples').click();
 }
 
@@ -56,7 +56,7 @@ test("la guia no desborda horitzontalment en mòbil",async({browser})=>{
 
 test("Exemples pràctics incorpora el cas de nòmina amb càlcul complet i vista bilingüe",async({page})=>{
   await page.goto("/");
-  await expect(page.getByText("1009 preguntes")).toBeVisible();
+  await expect(page.getByText("1036 preguntes")).toBeVisible();
   await page.locator('#home-shortcut-examples').click();
   await expect(page.getByRole("heading",{name:"Exemples pràctics"})).toBeVisible();
   await page.getByRole("button",{name:"Nòmines",exact:true}).click();
@@ -82,7 +82,7 @@ test("la nòmina no desborda horitzontalment en mòbil",async({browser})=>{
 
 test("la pràctica interactiva de nòmina guia els 11 imports i accepta formats locals",async({page})=>{
   await page.goto("/");
-  await expect(page.getByText("1009 preguntes")).toBeVisible();
+  await expect(page.getByText("1036 preguntes")).toBeVisible();
   await page.locator('#home-shortcut-examples').click();
   await page.getByRole("button",{name:"Nòmines",exact:true}).click();
   await page.getByRole("button",{name:"Practicar una nòmina",exact:true}).click();

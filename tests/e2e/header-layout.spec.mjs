@@ -3,7 +3,7 @@ import {test,expect} from "@playwright/test";
 test("la capçalera d'escriptori manté les tres zones sense salts",async({page})=>{
   await page.setViewportSize({width:1600,height:900});
   await page.goto("/");
-  await expect(page.getByText("1009 preguntes")).toBeVisible();
+  await expect(page.getByText("1036 preguntes")).toBeVisible();
 
   const header=page.locator(".site-header-inner");
   const brand=page.locator("#home-link");
@@ -32,7 +32,7 @@ test("la capçalera d'escriptori manté les tres zones sense salts",async({page}
 test("el menú de mòbil s'obre, es tanca i es tradueix sense ocultar les utilitats",async({page})=>{
   await page.setViewportSize({width:390,height:844});
   await page.goto("/");
-  await expect(page.getByText("1009 preguntes")).toBeVisible();
+  await expect(page.getByText("1036 preguntes")).toBeVisible();
   const toggle=page.locator("#mobile-menu-toggle");
   const nav=page.locator("#primary-nav");
   await expect(toggle).toBeVisible();
@@ -65,7 +65,7 @@ test("cap desbordament horitzontal a les amplades estretes",async({page})=>{
   for(const width of [320,360,390,760,1024]){
     await page.setViewportSize({width,height:844});
     await page.goto("/");
-    await expect(page.getByText("1009 preguntes")).toBeVisible();
+    await expect(page.getByText("1036 preguntes")).toBeVisible();
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth),`Viewport ${width}`).toBe(true);
     await expect(page.locator("#theme-toggle")).toBeInViewport();
     if(width<=760){await page.locator("#mobile-menu-toggle").click();await expect(page.locator("#primary-nav")).toBeVisible();}

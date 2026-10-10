@@ -5,7 +5,7 @@
     "ca",
     "es"
   ],
-  "count": 308,
+  "count": 322,
   "groups": [
     {
       "id": "bloc-1",
@@ -91,6 +91,11 @@
       "id": "uf0519-bloc-6",
       "ca": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 1 · Bloc 6 — Actius i passius",
       "es": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 1 · Bloque 6 — Activos y pasivos"
+    },
+    {
+      "id": "uf0519-unitat-3-bloc-1",
+      "ca": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 3 · Bloc 1 — Material d’oficina, aprovisionament i control d’existències",
+      "es": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 3 · Bloque 1 — Material de oficina, aprovisionamiento y control de existencias"
     }
   ],
   "stats": {
@@ -111,12 +116,13 @@
       "uf0519-bloc-5": 11,
       "uf0519-unitat-2-bloc-1": 18,
       "uf0519-unitat-2-bloc-2": 29,
-      "uf0519-bloc-6": 6
+      "uf0519-bloc-6": 6,
+      "uf0519-unitat-3-bloc-1": 14
     },
     "byKind": {
-      "dictionary": 109,
+      "dictionary": 121,
       "topic": 86,
-      "named-question": 65,
+      "named-question": 67,
       "ordered-list": 48
     }
   },
@@ -7209,6 +7215,318 @@
         "term": "Pasivo no corriente",
         "hint": "¿Cómo se clasifica una deuda con vencimiento único dentro de dieciocho meses?",
         "memory": "Deuda a más de un año → pasivo no corriente."
+      }
+    },
+    {
+      "id": "dict:u3-bastidor",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          4,
+          4
+        ]
+      },
+      "ca": {
+        "term": "Bastidor de sobretaula",
+        "hint": "Estructura petita que ordena carpetes de consulta freqüent.",
+        "memory": "A mà sobre la taula: bastidor."
+      },
+      "es": {
+        "term": "Bastidor de sobremesa",
+        "hint": "Estructura pequeña que organiza carpetas de consulta frecuente.",
+        "memory": "A mano sobre la mesa: bastidor."
+      }
+    },
+    {
+      "id": "dict:u3-expedient-compra",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "term": "Expedient de compra",
+        "hint": "Conjunt ordenat dels documents d’una mateixa adquisició, del pressupost a la factura.",
+        "memory": "Una compra, un expedient complet."
+      },
+      "es": {
+        "term": "Expediente de compra",
+        "hint": "Conjunto ordenado de documentos de una misma adquisición, del presupuesto a la factura.",
+        "memory": "Una compra, un expediente completo."
+      }
+    },
+    {
+      "id": "dict:u3-fitxer-informatic",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          12,
+          12
+        ]
+      },
+      "ca": {
+        "term": "Fitxer informàtic",
+        "hint": "Unitat de dades digitals identificada amb un nom i un format; es guarda dins d’un directori.",
+        "memory": "Fitxer = dades; carpeta = contenidor."
+      },
+      "es": {
+        "term": "Archivo informático",
+        "hint": "Unidad de datos digitales identificada por nombre y formato; se guarda en un directorio.",
+        "memory": "Archivo = datos; carpeta = contenedor."
+      }
+    },
+    {
+      "id": "dict:u3-etiqueta-interna",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          21,
+          21
+        ]
+      },
+      "ca": {
+        "term": "Etiqueta interna de magatzem",
+        "hint": "Identificador d’un article per codi, lot o ubicació, sense substituir la informació legal obligatòria.",
+        "memory": "Etiqueta interna complementa, no tapa."
+      },
+      "es": {
+        "term": "Etiqueta interna de almacén",
+        "hint": "Identificador de un artículo por código, lote o ubicación, sin sustituir la información legal obligatoria.",
+        "memory": "Etiqueta interna complementa, no tapa."
+      }
+    },
+    {
+      "id": "dict:u3-punt-comanda",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          23,
+          23
+        ]
+      },
+      "ca": {
+        "term": "Punt de comanda",
+        "hint": "Nivell d’existències a partir del qual s’ha d’iniciar una reposició segons el criteri establert.",
+        "memory": "Punt de comanda = senyal de reposar."
+      },
+      "es": {
+        "term": "Punto de pedido",
+        "hint": "Nivel de existencias a partir del cual se inicia una reposición según el criterio fijado.",
+        "memory": "Punto de pedido = señal para reponer."
+      }
+    },
+    {
+      "id": "dict:u3-ubicacio-fixa",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          26,
+          26
+        ]
+      },
+      "ca": {
+        "term": "Ubicació fixa",
+        "hint": "Sistema que reserva un lloc predeterminat a cada referència, encara que temporalment quedi buit.",
+        "memory": "Fixa: un lloc reservat."
+      },
+      "es": {
+        "term": "Ubicación fija",
+        "hint": "Sistema que reserva un lugar predeterminado a cada referencia, aunque quede temporalmente vacío.",
+        "memory": "Fija: un lugar reservado."
+      }
+    },
+    {
+      "id": "dict:u3-ubicacio-variable",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          26,
+          26
+        ]
+      },
+      "ca": {
+        "term": "Ubicació variable",
+        "hint": "Sistema que assigna espais compatibles disponibles i obliga a registrar on s’ha col·locat el producte.",
+        "memory": "Variable: lliure + registrat."
+      },
+      "es": {
+        "term": "Ubicación variable",
+        "hint": "Sistema que asigna espacios compatibles disponibles y obliga a registrar dónde se ubicó el producto.",
+        "memory": "Variable: libre + registrado."
+      }
+    },
+    {
+      "id": "dict:u3-picking",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          26,
+          26
+        ]
+      },
+      "ca": {
+        "term": "Picking",
+        "hint": "Selecció i recollida física dels articles necessaris per preparar una comanda.",
+        "memory": "Picking: recollir la llista de la comanda."
+      },
+      "es": {
+        "term": "Picking",
+        "hint": "Selección y recogida física de los artículos necesarios para preparar un pedido.",
+        "memory": "Picking: recoger la lista del pedido."
+      }
+    },
+    {
+      "id": "dict:u3-fifo",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "term": "FIFO",
+        "hint": "Criteri de rotació física en què surt primer el producte que va entrar primer.",
+        "memory": "First In, First Out: primer que entra, surt."
+      },
+      "es": {
+        "term": "FIFO",
+        "hint": "Criterio de rotación física en el que sale primero el producto que entró primero.",
+        "memory": "First In, First Out: primero que entra, sale."
+      }
+    },
+    {
+      "id": "dict:u3-fefo",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "term": "FEFO",
+        "hint": "Criteri de rotació física en què es prioritza el lot vigent que caduca abans.",
+        "memory": "First Expired, First Out: caduca abans, surt."
+      },
+      "es": {
+        "term": "FEFO",
+        "hint": "Criterio de rotación física que prioriza el lote vigente cuya caducidad es más próxima.",
+        "memory": "First Expired, First Out: caduca antes, sale."
+      }
+    },
+    {
+      "id": "dict:u3-lifo",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "term": "LIFO de rotació física",
+        "hint": "Criteri físic d’última entrada i primera sortida; no és admès com a valoració comptable pel PGC.",
+        "memory": "LIFO físic ≠ mètode comptable admès."
+      },
+      "es": {
+        "term": "LIFO de rotación física",
+        "hint": "Criterio físico de última entrada y primera salida; no se admite como valoración contable en el PGC.",
+        "memory": "LIFO físico ≠ método contable admitido."
+      }
+    },
+    {
+      "id": "dict:u3-trasllat-intern",
+      "kind": "dictionary",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          28,
+          28
+        ]
+      },
+      "ca": {
+        "term": "Trasllat intern",
+        "hint": "Moviment d’articles entre ubicacions del mateix magatzem, sense alterar l’estoc total.",
+        "memory": "A i B canvien; el total no."
+      },
+      "es": {
+        "term": "Traslado interno",
+        "hint": "Movimiento de artículos entre ubicaciones del mismo almacén sin cambiar el stock total.",
+        "memory": "A y B cambian; el total no."
+      }
+    },
+    {
+      "id": "named:uf0519-u3b1-001",
+      "kind": "named-question",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "questionId": "uf0519-u3b1-001",
+      "hintType": "answer",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          4,
+          4
+        ]
+      },
+      "ca": {
+        "term": "bastidor de sobretaula en una oficina",
+        "hint": "Per tenir carpetes d’ús freqüent ordenades i accessibles",
+        "memory": "Bastidor = carpetes a mà, no magatzem de productes."
+      },
+      "es": {
+        "term": "bastidor de sobremesa en una oficina",
+        "hint": "Para mantener carpetas de uso frecuente ordenadas y accesibles",
+        "memory": "Bastidor = carpetas a mano, no almacén de productos."
+      }
+    },
+    {
+      "id": "named:uf0519-u3b1-005",
+      "kind": "named-question",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "questionId": "uf0519-u3b1-005",
+      "hintType": "answer",
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          8,
+          8
+        ]
+      },
+      "ca": {
+        "term": "expedient administratiu",
+        "hint": "Un conjunt ordenat de documents vinculats al mateix assumpte o procediment",
+        "memory": "Expedient = documents d’un mateix cas."
+      },
+      "es": {
+        "term": "expediente administrativo",
+        "hint": "Un conjunto ordenado de documentos vinculados al mismo asunto o procedimiento",
+        "memory": "Expediente = documentos de un mismo caso."
       }
     }
   ]
