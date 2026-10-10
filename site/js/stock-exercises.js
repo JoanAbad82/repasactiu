@@ -52,6 +52,9 @@ export function officeTotal(exercise,state){
   return sum+(n!==null&&n>=0&&price!==null&&price>=0?Math.round(n*price*100)/100:0);
  },0);
 }
+const sourceLabel=(exercise,l)=>exercise.type==='office'
+ ?(l==='ca'?'Plantilla Excel · 21 articles':'Plantilla Excel · 21 artículos')
+ :(l==='ca'?'Fitxa del curs · PDF p. ':'Ficha del curso · PDF pp. ')+exercise.source.pages.join('–');
 const resultFor=(exercise,state)=>{
  const entries=exercise.fields||[];
  const answers=state.answers[exercise.id]||{};
@@ -61,7 +64,7 @@ function landing(bank,l,state){
  const t=T[l];
  return '<header class="stock-head"><h2>'+t.title+'</h2><p>'+t.intro+'</p></header><div class="stock-exercise-grid">'+bank.exercises.map(x=>{
   const result=x.type==="office"?null:resultFor(x,state);
-  return '<button type="button" class="stock-exercise-card" data-stock-exercise="'+esc(x.id)+'"><span class="stock-exercise-number">'+esc(x.id)+'</span><strong>'+esc(x.title[l])+'</strong><small>'+esc(x.source.file)+'</small>'+ (result&&result.answered?'<span class="stock-progress">'+result.correct+' / '+result.total+'</span>':'')+'</button>';
+  return '<button type="button" class="stock-exercise-card" data-stock-exercise="'+esc(x.id)+'"><span class="stock-exercise-number">'+esc(x.id)+'</span><strong>'+esc(x.title[l])+'</strong><small>'+esc(sourceLabel(x,l))+'</small>'+ (result&&result.answered?'<span class="stock-progress">'+result.correct+' / '+result.total+'</span>':'')+'</button>';
  }).join("")+'</div>';
 }
 function calculator(l){

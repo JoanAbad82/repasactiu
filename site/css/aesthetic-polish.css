@@ -1,0 +1,67 @@
+/* Repàs Actiu — aprovació visual 01–05 (2026-10-10).
+   Estils de presentació; sense canviar les dades ni les interaccions. */
+
+/* Evita un parpelleig de contrast en canviar entre modes: el fons
+   no ha de fer transició mentre el color del text canvia immediatament. */
+.home-tools-grid .home-tool{transition:border-color .15s ease}
+
+/* 01: els accessos de la portada han de respectar el tema fosc.
+   Contrast mínim WCAG AA per al text de les targetes. */
+:root[data-theme="dark"] .home-tools-grid .home-tool{
+  background:var(--surface);
+  color:var(--text);
+  border-color:var(--border);
+}
+:root[data-theme="dark"] .home-tools-grid .home-tool:hover{
+  background:var(--surface-2);
+  border-color:var(--muted);
+}
+:root[data-theme="dark"] .home-tools-grid .home-tool strong{
+  color:var(--text);
+}
+
+/* 02: cinc categories sempre visibles sense tall horitzontal.
+   La distribució passa de tres columnes a dues en mòbil. */
+.practical-tabs{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:.35rem;
+  overflow:visible;
+}
+.practical-tabs button{
+  min-width:0;
+  width:100%;
+  white-space:normal;
+  overflow-wrap:normal;
+  line-height:1.3;
+  text-align:center;
+  padding:.65rem .65rem;
+}
+@media(max-width:700px){
+  .practical-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .practical-tabs button:last-child:nth-child(odd){grid-column:1/-1}
+}
+
+/* 03: capçalera compacta, mantenint controls tàctils ≥44 px. */
+@media(max-width:760px){
+  .site-header{padding:.3rem max(.8rem,calc((100vw - 620px)/2))}
+  .site-header-inner{row-gap:.2rem}
+  .site-header .mobile-menu-toggle{min-height:44px;padding:.3rem .8rem}
+  .site-header .header-utilities{min-height:44px;align-items:center}
+  .site-header .language-switcher button{min-height:40px;padding:.28rem .46rem}
+  .site-header .header-utilities .theme-control{min-height:44px;padding:.3rem .65rem}
+}
+
+/* 04: referències breus en el llistat; el nom de fitxer íntegre
+   continua disponible al detall de cada activitat. */
+.stock-exercise-card small{font-size:.79rem;line-height:1.4;overflow-wrap:normal}
+.stock-exercise-card strong{line-height:1.35}
+
+/* 05: context de test llegible i identificable sense una capçalera
+   de diverses línies en majúscules. */
+.setup-context{font-size:.77rem;line-height:1.4;letter-spacing:.06em;overflow-wrap:anywhere}
+.setup-topic{margin:.2rem 0 1rem;color:var(--muted);font-size:.94rem;line-height:1.4}
+@media(max-width:520px){
+  .setup-context{font-size:.72rem;letter-spacing:.035em}
+  .setup-topic{font-size:.9rem}
+}
