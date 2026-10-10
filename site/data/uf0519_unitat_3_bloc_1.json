@@ -1,0 +1,384 @@
+{
+  "blockId": "uf0519-unitat-3-bloc-1",
+  "blockTitle": "Material d'oficina, aprovisionament i control d'existències",
+  "questions": [
+    {
+      "id": "uf0519-u3b1-001",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Arxiu de documents",
+      "question": "Per a què serveix un bastidor de sobretaula en una oficina?",
+      "options": [
+        "Per tenir carpetes d’ús freqüent ordenades i accessibles",
+        "Per conservar mercaderies amb fred industrial",
+        "Per destruir documentació caducada",
+        "Per comprovar el saldo del llibre de caixa"
+      ],
+      "correct": 0,
+      "explanation": "El bastidor de sobretaula ordena carpetes consultades sovint."
+    },
+    {
+      "id": "uf0519-u3b1-002",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Transport documental",
+      "question": "Quina funció tenen els carrets per a carpetes penjants i d’anelles?",
+      "options": [
+        "Inventariar físicament l’estoc de tòner",
+        "Organitzar i desplaçar documents mitjançant un suport amb rodes",
+        "Fixar un punt de comanda de paper",
+        "Etiquetar productes destinats a l’expedició"
+      ],
+      "correct": 1,
+      "explanation": "Els carrets permeten traslladar carpetes i consultar un arxiu provisional."
+    },
+    {
+      "id": "uf0519-u3b1-003",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Conservació documental",
+      "question": "Quin element és especialment adequat per protegir documents i restringir-ne l’accés?",
+      "options": [
+        "Un carret sense tancament",
+        "Una paperera oberta",
+        "Un armari amb pany",
+        "Una safata de recollida sense control"
+      ],
+      "correct": 2,
+      "explanation": "Un armari amb pany ajuda a custodiar documentació que exigeix accés limitat."
+    },
+    {
+      "id": "uf0519-u3b1-004",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Mobiliari d’arxiu",
+      "question": "Com es caracteritza un arxivador vertical de calaixos?",
+      "options": [
+        "Serveix per moure palets dins del magatzem",
+        "És un fitxer únicament de correu electrònic",
+        "És un sistema de conservació refrigerada",
+        "Permet ordenar i guardar documents en calaixos"
+      ],
+      "correct": 3,
+      "explanation": "L’arxivador vertical utilitza calaixos per disposar carpetes i documents."
+    },
+    {
+      "id": "uf0519-u3b1-005",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Expedients",
+      "question": "Què és un expedient administratiu?",
+      "options": [
+        "Un conjunt ordenat de documents vinculats al mateix assumpte o procediment",
+        "Una única factura aïllada sense relació documental",
+        "La reserva de materials necessària per a l’oficina",
+        "Una etiqueta que identifica un lot de productes"
+      ],
+      "correct": 0,
+      "explanation": "L’expedient agrupa documents d’un mateix cas i pot ser físic, digital o mixt."
+    },
+    {
+      "id": "uf0519-u3b1-006",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Circuit documental",
+      "question": "En l’expedient d’una compra d’oficina, quin document confirma que s’ha lliurat el material?",
+      "options": [
+        "El pressupost previ",
+        "L’albarà",
+        "La sol·licitud interna",
+        "El registre de personal"
+      ],
+      "correct": 1,
+      "explanation": "L’albarà acredita el lliurament; pressupost i comanda són passos previs."
+    },
+    {
+      "id": "uf0519-u3b1-007",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Arxiu digital",
+      "question": "Què distingeix una carpeta digital d’un fitxer informàtic?",
+      "options": [
+        "La carpeta només guarda imatges i el fitxer només text",
+        "La carpeta és un arxiu físic de cartró i el fitxer sempre és paper",
+        "La carpeta agrupa fitxers; el fitxer conté dades identificades amb un nom",
+        "Tots dos són sistemes de classificació de magatzems"
+      ],
+      "correct": 2,
+      "explanation": "Una carpeta digital és un directori i un fitxer és una unitat de dades amb nom."
+    },
+    {
+      "id": "uf0519-u3b1-008",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Material fungible",
+      "question": "Per què un cartutx de tòner es considera material fungible?",
+      "options": [
+        "Perquè no intervé en cap tasca administrativa",
+        "Perquè és un moble amb ús continuat",
+        "Perquè només es guarda en armaris tancats",
+        "Perquè s’esgota amb l’ús i necessita reposició"
+      ],
+      "correct": 3,
+      "explanation": "El tòner és consumible, a diferència de la impressora on s’utilitza."
+    },
+    {
+      "id": "uf0519-u3b1-009",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Material no fungible",
+      "question": "Quin tret justifica classificar una cadira d’oficina com a no fungible?",
+      "options": [
+        "Permet un ús continuat sense consumir-se en cada utilització",
+        "S’esgota després de cada jornada laboral",
+        "És un producte pensat per a reposició diària",
+        "Només es pot utilitzar juntament amb tòner"
+      ],
+      "correct": 0,
+      "explanation": "La cadira és un element durador que es pot desgastar però no es consumeix en cada ús."
+    },
+    {
+      "id": "uf0519-u3b1-010",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Funció d’aprovisionament",
+      "question": "Quines dues gestions integra l’aprovisionament d’existències?",
+      "options": [
+        "Comunicació comercial i comptabilitat salarial",
+        "Compres i control de les existències",
+        "Contractació de personal i nòmines",
+        "Arxiu permanent i correu postal"
+      ],
+      "correct": 1,
+      "explanation": "L’aprovisionament inclou adquirir els materials i gestionar-ne l’inventari."
+    },
+    {
+      "id": "uf0519-u3b1-012",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Gestió d’inventari",
+      "question": "Quina informació necessita la gestió d’inventaris per planificar reposicions?",
+      "options": [
+        "La data de l’última reunió de l’equip",
+        "El nom de qui va imprimir el pressupost",
+        "El color de la carpeta de comptabilitat",
+        "Quantitat disponible, demanda i termini de subministrament"
+      ],
+      "correct": 3,
+      "explanation": "Els nivells d’estoc i el termini de subministrament influeixen en el moment de reposar."
+    },
+    {
+      "id": "uf0519-u3b1-011",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Selecció de proveïdors",
+      "question": "Per seleccionar un proveïdor amb termini màxim obligatori, què s’ha de comparar?",
+      "options": [
+        "Oferta més barata encara que arribi fora de termini",
+        "Preu unitari sense transport de totes les ofertes",
+        "Cost total de les ofertes que compleixen el termini",
+        "Quantitat mínima de paquets de la competència"
+      ],
+      "correct": 2,
+      "explanation": "Primer es descarten les ofertes fora de termini i després es comparen els costos complets."
+    },
+    {
+      "id": "uf0519-u3b1-013",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Etiquetatge obligatori",
+      "question": "De què depenen les dades obligatòries d’una etiqueta de producte?",
+      "options": [
+        "Del tipus de producte i de la normativa aplicable",
+        "Del format de paper que prefereix l’oficina",
+        "De la ubicació física que assigna el magatzem",
+        "De la marca de la impressora d’etiquetes"
+      ],
+      "correct": 0,
+      "explanation": "Els requeriments legals d’etiquetatge varien segons el producte i la normativa."
+    },
+    {
+      "id": "uf0519-u3b1-014",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Etiquetatge intern",
+      "question": "Quina condició ha de complir una etiqueta interna del magatzem?",
+      "options": [
+        "Substituir tots els símbols legals de perill",
+        "No ocultar les advertències de seguretat obligatòries",
+        "Eliminar la referència del lot quan hi ha codi intern",
+        "Mostrar el mateix text per a tots els productes"
+      ],
+      "correct": 1,
+      "explanation": "L’etiquetatge intern complementa la identificació, sense ocultar informació obligatòria."
+    },
+    {
+      "id": "uf0519-u3b1-015",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Magatzem",
+      "question": "Quina és una funció essencial del magatzem?",
+      "options": [
+        "Autoritzar les transferències del banc",
+        "Calcular les retencions de les nòmines",
+        "Rebre, manipular, conservar i expedir materials",
+        "Registrar els acords d’una reunió"
+      ],
+      "correct": 2,
+      "explanation": "El magatzem coordina el flux físic dels materials i la seva conservació."
+    },
+    {
+      "id": "uf0519-u3b1-016",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Estoc de seguretat",
+      "question": "Per a què es preveu un estoc de seguretat?",
+      "options": [
+        "Per fixar el preu de venda dels articles",
+        "Per substituir el recompte real de l’inventari",
+        "Per impedir qualsevol comanda addicional",
+        "Per afrontar imprevistos de consum o de subministrament"
+      ],
+      "correct": 3,
+      "explanation": "L’estoc de seguretat és una reserva per reduir el risc de ruptura d’estoc."
+    },
+    {
+      "id": "uf0519-u3b1-017",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Punt de comanda",
+      "question": "Si s’inicia reposició quan l’estoc és igual o inferior al punt de comanda, què passa amb 18 unitats i un punt de 20?",
+      "options": [
+        "Cal iniciar una nova comanda",
+        "S’ha d’esperar que l’estoc arribi a zero",
+        "Cal suspendre qualsevol compra",
+        "El nivell d’estoc passa a ser 20 automàticament"
+      ],
+      "correct": 0,
+      "explanation": "Com que 18 és inferior a 20, s’ha assolit el llindar de reposició."
+    },
+    {
+      "id": "uf0519-u3b1-018",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Classificació de magatzems",
+      "question": "Un magatzem que serveix una zona territorial des d’un centre regional, com es classifica per ubicació?",
+      "options": [
+        "De matèries primeres",
+        "Regional",
+        "Refrigerat",
+        "A l’aire lliure"
+      ],
+      "correct": 1,
+      "explanation": "El criteri territorial descriu la funció regional del centre."
+    },
+    {
+      "id": "uf0519-u3b1-021",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Picking",
+      "question": "Què és el picking dins de la preparació de comandes?",
+      "options": [
+        "Seleccionar i recollir els articles necessaris per preparar una comanda",
+        "Calcular la valoració de mercaderies sense moure-les",
+        "Classificar proveïdors per termini bancari",
+        "Revisar només la factura quan arriba"
+      ],
+      "correct": 0,
+      "explanation": "El picking és una operació física de selecció i recollida de productes."
+    },
+    {
+      "id": "uf0519-u3b1-019",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Ubicacions fixes",
+      "question": "Quin inconvenient pot tenir un magatzem d’ubicacions fixes quan una referència s’esgota?",
+      "options": [
+        "S’elimina la necessitat de senyalitzar les zones",
+        "És impossible trobar la ubicació del producte",
+        "La ubicació reservada pot quedar buida",
+        "El producte es trasllada sense registre"
+      ],
+      "correct": 2,
+      "explanation": "La ubicació fixa facilita localitzar però pot desaprofitar espai si no hi ha estoc."
+    },
+    {
+      "id": "uf0519-u3b1-020",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Ubicacions variables",
+      "question": "Quina condició és imprescindible en un magatzem d’ubicacions variables?",
+      "options": [
+        "Deixar que cada treballador triï espai sense informar",
+        "Mantenir cada referència en un únic espai permanent",
+        "Evitar comprovar la compatibilitat amb la mercaderia",
+        "Registrar al sistema les ubicacions assignades"
+      ],
+      "correct": 3,
+      "explanation": "L’assignació variable exigeix identificar i registrar on és cada referència."
+    },
+    {
+      "id": "uf0519-u3b1-023",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Rotació FEFO",
+      "question": "Amb FEFO de rotació física, quin lot s’expedeix primer?",
+      "options": [
+        "El que es va guardar a la prestatgeria més alta",
+        "El que va arribar primer, independentment de caducitat",
+        "El que té la data de caducitat més propera",
+        "El que té l’import de compra més elevat"
+      ],
+      "correct": 2,
+      "explanation": "FEFO prioritza el lot que caduca abans, si continua vigent."
+    },
+    {
+      "id": "uf0519-u3b1-022",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Rotació FIFO",
+      "question": "Amb FIFO de rotació física, quin lot s’expedeix primer?",
+      "options": [
+        "El que va entrar més recentment",
+        "El que va entrar primer al magatzem",
+        "El que té el preu més alt",
+        "El que ocupa la posició més propera a la sortida"
+      ],
+      "correct": 1,
+      "explanation": "FIFO: First In, First Out, primera entrada, primera sortida."
+    },
+    {
+      "id": "uf0519-u3b1-024",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Rotació LIFO",
+      "question": "En rotació física LIFO, quina és la seqüència de sortida?",
+      "options": [
+        "El lot que costa menys surt primer",
+        "El primer lot que entra és el primer a sortir",
+        "El que caduca abans surt primer",
+        "L’últim lot que entra és el primer a sortir"
+      ],
+      "correct": 3,
+      "explanation": "LIFO correspon a Last In, First Out, però no és admès per valoració comptable pel PGC."
+    },
+    {
+      "id": "uf0519-u3b1-025",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Valoració comptable",
+      "question": "Quins mètodes de valoració d’existències intercanviables preveu el PGC?",
+      "options": [
+        "Preu mitjà ponderat, amb caràcter general, i FIFO com a admissible",
+        "FEFO i LIFO com a mètodes comptables principals",
+        "LIFO i el cost del lot que caduca abans",
+        "Una rotació física variable sense valoració monetària"
+      ],
+      "correct": 0,
+      "explanation": "La valoració comptable no és sinònim de rotació física: el PGC prioritza PMP i admet FIFO."
+    },
+    {
+      "id": "uf0519-u3b1-026",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Trasllats interns",
+      "question": "Si es traslladen 25 unitats d’una ubicació A a B dins del mateix magatzem, què passa amb l’estoc total?",
+      "options": [
+        "Augmenta en 25 perquè B rep material",
+        "Es manté igual perquè no hi ha entrada ni sortida externa",
+        "Disminueix en 25 perquè A perd material",
+        "Passa a zero perquè es tanquen dos registres"
+      ],
+      "correct": 1,
+      "explanation": "Un trasllat intern modifica ubicacions però no el nombre total d’unitats."
+    },
+    {
+      "id": "uf0519-u3b1-027",
+      "block": "uf0519-unitat-3-bloc-1",
+      "topic": "Seguretat en manipulació",
+      "question": "En triar un equip de moviment de càrregues, quines dades són imprescindibles?",
+      "options": [
+        "El color de les carpetes i la data de factura",
+        "La marca del paper d’oficina i la durada de la nòmina",
+        "Pes i volum de la càrrega i dimensions dels passadissos",
+        "La distància al banc i la quantitat de pressupostos"
+      ],
+      "correct": 2,
+      "explanation": "Cal comprovar capacitat de càrrega i compatibilitat amb espais i passadissos."
+    }
+  ]
+}

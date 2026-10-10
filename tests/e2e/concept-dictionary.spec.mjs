@@ -1,13 +1,13 @@
 import {test,expect} from '@playwright/test';
 
-test('el diccionari mostra 138 conceptes agrupats en 17 famílies pedagògiques',async({page})=>{
+test('el diccionari mostra 150 conceptes agrupats en 18 famílies pedagògiques',async({page})=>{
   await page.goto('/');
   await page.locator('#home-shortcut-dictionary').click();
   await expect(page.getByRole('heading',{name:'Diccionari de conceptes clau'})).toBeVisible();
-  await expect(page.locator('[data-concept-id]')).toHaveCount(138);
-  await expect(page.locator('[data-concept-family]')).toHaveCount(17);
-  await expect(page.locator('[data-dictionary-count]')).toHaveText('138');
-  await expect(page.getByText('138 conceptes')).toBeVisible();
+  await expect(page.locator('[data-concept-id]')).toHaveCount(150);
+  await expect(page.locator('[data-concept-family]')).toHaveCount(18);
+  await expect(page.locator('[data-dictionary-count]')).toHaveText('150');
+  await expect(page.getByText('150 conceptes')).toBeVisible();
 });
 
 test('l’ordre inicial és conceptual i manté junts els conceptes relacionats',async({page})=>{
@@ -108,7 +108,7 @@ test('el diccionari no desborda en mòbil',async({browser})=>{
   await page.goto('/');
   await page.locator('#home-shortcut-dictionary').click();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);
-  await expect(page.locator('[data-concept-family]')).toHaveCount(17);
+  await expect(page.locator('[data-concept-family]')).toHaveCount(18);
   await page.locator('[data-dictionary-search]').fill('sinergia');
   await expect(page.locator('[data-concept-id]')).toHaveCount(1);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);

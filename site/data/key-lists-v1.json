@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 85,
+  "count": 89,
   "languages": [
     "ca",
     "es"
@@ -80,6 +80,11 @@
       "id": "uf0519-unitat-2-bloc-1",
       "ca": "UF0519 · Unitat 2 · Bloc 1 — Mitjans de cobrament i pagament",
       "es": "UF0519 · Unidad 2 · Bloque 1 — Medios de cobro y pago"
+    },
+    {
+      "id": "uf0519-unitat-3-bloc-1",
+      "ca": "UF0519 · Unitat 3 — Aprovisionament i magatzem",
+      "es": "UF0519 · Unidad 3 — Aprovisionamiento y almacén"
     }
   ],
   "families": [
@@ -243,6 +248,17 @@
         "uf519-contingut-rebut-u2",
         "uf519-requisits-pagare-u2",
         "uf519-parts-aval-u2"
+      ]
+    },
+    {
+      "id": "inventory-logistics",
+      "ca": "Existències, magatzem i rotació física",
+      "es": "Existencias, almacén y rotación física",
+      "entryIds": [
+        "u3-criteris-aprovisionament",
+        "u3-etiqueta-magatzem",
+        "u3-rotacio-fisica",
+        "u3-controles-magatzem"
       ]
     }
   ],
@@ -3105,6 +3121,146 @@
           "Beneficiario: persona, empresa o administración que recibe la garantía"
         ],
         "memory": "Cliente avalado → banco avalista → tercero beneficiario."
+      }
+    },
+    {
+      "id": "u3-criteris-aprovisionament",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "ca": {
+        "title": "Factors en l'aprovisionament",
+        "items": [
+          "Quantitat necessària",
+          "Qualitat adequada al producte",
+          "Preu total de l'oferta, amb transport",
+          "Termini de subministrament",
+          "Estoc disponible i reposició",
+          "Cost de comanda i emmagatzematge"
+        ],
+        "memory": "Quantitat → qualitat → cost → termini → estoc → magatzem."
+      },
+      "es": {
+        "title": "Factores en el aprovisionamiento",
+        "items": [
+          "Cantidad necesaria",
+          "Calidad adecuada al producto",
+          "Precio total de la oferta, con transporte",
+          "Plazo de suministro",
+          "Existencias disponibles y reposición",
+          "Coste de pedido y almacenamiento"
+        ],
+        "memory": "Cantidad → calidad → coste → plazo → stock → almacén."
+      }
+    },
+    {
+      "id": "u3-etiqueta-magatzem",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "ca": {
+        "title": "Etiqueta interna i seguretat",
+        "items": [
+          "Codi o referència del producte",
+          "Descripció del producte",
+          "Lot, quan sigui aplicable",
+          "Quantitat i ubicació",
+          "Enllaç al sistema de gestió, si escau",
+          "No ocultar avisos de seguretat obligatoris"
+        ],
+        "memory": "Identificar + localitzar, sense tapar informació legal."
+      },
+      "es": {
+        "title": "Etiqueta interna y seguridad",
+        "items": [
+          "Código o referencia del producto",
+          "Descripción del producto",
+          "Lote, cuando corresponda",
+          "Cantidad y ubicación",
+          "Vínculo al sistema de gestión, cuando proceda",
+          "No tapar advertencias de seguridad obligatorias"
+        ],
+        "memory": "Identificar + localizar, sin tapar información legal."
+      }
+    },
+    {
+      "id": "u3-rotacio-fisica",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "ca": {
+        "title": "Diferenciar rotació física i valoració",
+        "items": [
+          "FIFO: primera entrada, primera sortida",
+          "FEFO: caducitat més propera, primera sortida",
+          "LIFO: última entrada, primera sortida física",
+          "Valoració comptable PGC: preu mitjà ponderat, generalment, i FIFO admès"
+        ],
+        "memory": "FIFO = data d’entrada; FEFO = caducitat; LIFO = darrera entrada; comptable = PMP/FIFO."
+      },
+      "es": {
+        "title": "Diferenciar rotación física y valoración",
+        "items": [
+          "FIFO: primera entrada, primera salida",
+          "FEFO: caducidad más próxima, primera salida",
+          "LIFO: última entrada, primera salida física",
+          "Valoración contable PGC: precio medio ponderado, generalmente, y FIFO admitido"
+        ],
+        "memory": "FIFO = entrada; FEFO = caducidad; LIFO = última entrada; contable = PMP/FIFO."
+      }
+    },
+    {
+      "id": "u3-controles-magatzem",
+      "blockId": "uf0519-unitat-3-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0519_U3_STOCK",
+        "pages": [
+          22,
+          29
+        ]
+      },
+      "ca": {
+        "title": "Controls del magatzem segur",
+        "items": [
+          "Ubicacions compatibles amb cada material",
+          "Ubicació enregistrada, fixa o variable",
+          "Passadissos i sortides d’emergència lliures",
+          "Càrregues estables i capacitat adequada dels equips",
+          "Temperatura i humitat segons el producte",
+          "Trasllats interns registrats sense alterar l’estoc total"
+        ],
+        "memory": "Ubicar → registrar → protegir → manipular → conservar → traslladar."
+      },
+      "es": {
+        "title": "Controles del almacén seguro",
+        "items": [
+          "Ubicaciones compatibles con cada material",
+          "Ubicación registrada, fija o variable",
+          "Pasillos y salidas de emergencia libres",
+          "Cargas estables y capacidad adecuada del equipo",
+          "Temperatura y humedad según el producto",
+          "Traslados internos registrados sin alterar el stock total"
+        ],
+        "memory": "Ubicar → registrar → proteger → manipular → conservar → trasladar."
       }
     }
   ],

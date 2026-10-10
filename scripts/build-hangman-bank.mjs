@@ -96,7 +96,7 @@ function extractNamedTerm(question,patterns,lang){
 function makeTraceMap(){
   const map=new Map();
   const formatId=(prefix,n)=>`${prefix}${String(n).padStart(3,'0')}`;
-  for(const rel of ['docs/content/UF0517_SOURCE_TRACEABILITY.json','docs/content/UF0518_SOURCE_TRACEABILITY.json','docs/content/UF0519_SOURCE_TRACEABILITY.json']){
+  for(const rel of ['docs/content/UF0517_SOURCE_TRACEABILITY.json','docs/content/UF0518_SOURCE_TRACEABILITY.json','docs/content/UF0519_SOURCE_TRACEABILITY.json','docs/content/UF0519_U3_SOURCE_TRACEABILITY.json']){
     const trace=read(rel);
     for(const rule of trace.coverageRules||[]){
       for(let n=rule.start;n<=rule.end;n++)map.set(formatId(rule.prefix,n),{id:rule.source,pages:rule.pageRange});

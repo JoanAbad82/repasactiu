@@ -1,0 +1,329 @@
+{
+  "blockId": "uf0519-unitat-3-bloc-1",
+  "questions": {
+    "uf0519-u3b1-001": {
+      "ca": [
+        "Per conservar fitxers digitals a la xarxa",
+        "Per apilar material de reposició a gran altura",
+        "Per arxivar expedients amb accés restringit"
+      ],
+      "es": [
+        "Para conservar archivos digitales en red",
+        "Para apilar material de reposición a gran altura",
+        "Para archivar expedientes con acceso restringido"
+      ]
+    },
+    "uf0519-u3b1-002": {
+      "ca": [
+        "Concentrar expedients en un arxiu definitiu sense moviments",
+        "Protegir material químic sota ventilació específica",
+        "Assignar ubicacions variables a productes petits"
+      ],
+      "es": [
+        "Concentrar expedientes en un archivo definitivo sin desplazamientos",
+        "Proteger material químico bajo ventilación específica",
+        "Asignar ubicaciones variables a productos pequeños"
+      ]
+    },
+    "uf0519-u3b1-003": {
+      "ca": [
+        "Una prestatgeria descoberta en un passadís de pas",
+        "Una carpeta compartida amb permisos públics",
+        "Una zona de classificació sense identificació"
+      ],
+      "es": [
+        "Una estantería descubierta en un pasillo de paso",
+        "Una carpeta compartida con permisos públicos",
+        "Una zona de clasificación sin identificación"
+      ]
+    },
+    "uf0519-u3b1-004": {
+      "ca": [
+        "Guarda documents només en carpetes en línia",
+        "Obliga a ordenar totes les carpetes per colors",
+        "Desplaça la documentació sense suport fix"
+      ],
+      "es": [
+        "Guarda documentos solo en carpetas en línea",
+        "Obliga a ordenar todas las carpetas por colores",
+        "Desplaza la documentación sin soporte fijo"
+      ]
+    },
+    "uf0519-u3b1-005": {
+      "ca": [
+        "Un índex de documents sense conservar-ne els originals",
+        "Una carpeta destinada exclusivament a nòmines",
+        "Un registre de quantitats d’estoc sense documents"
+      ],
+      "es": [
+        "Un índice de documentos sin conservar los originales",
+        "Una carpeta destinada exclusivamente a nóminas",
+        "Un registro de cantidades de stock sin documentos"
+      ]
+    },
+    "uf0519-u3b1-006": {
+      "ca": [
+        "La comanda aprovada com a prova física del lliurament",
+        "La factura proforma abans de rebre el producte",
+        "Una proposta de preus sense acceptació"
+      ],
+      "es": [
+        "El pedido aprobado como prueba física de entrega",
+        "La factura proforma antes de recibir el producto",
+        "Una propuesta de precios sin aceptación"
+      ]
+    },
+    "uf0519-u3b1-007": {
+      "ca": [
+        "La carpeta identifica una versió i el fitxer una ubicació fixa",
+        "La carpeta determina permisos i el fitxer determina jerarquies",
+        "La carpeta crea duplicats i el fitxer elimina metadades"
+      ],
+      "es": [
+        "La carpeta identifica una versión y el archivo una ubicación fija",
+        "La carpeta determina permisos y el archivo determina jerarquías",
+        "La carpeta crea duplicados y el archivo elimina metadatos"
+      ]
+    },
+    "uf0519-u3b1-008": {
+      "ca": [
+        "Perquè la impressora no pot reutilitzar-se",
+        "Perquè el cartutx dura més que l’equip",
+        "Perquè té un codi d’inventari propi"
+      ],
+      "es": [
+        "Porque la impresora no se puede reutilizar",
+        "Porque el cartucho dura más que el equipo",
+        "Porque tiene un código de inventario propio"
+      ]
+    },
+    "uf0519-u3b1-009": {
+      "ca": [
+        "Es material immaterial que no cal registrar",
+        "No requereix manteniment durant la vida útil",
+        "Té una data de caducitat més llarga"
+      ],
+      "es": [
+        "Es un material inmaterial que no requiere registro",
+        "No requiere mantenimiento durante su vida útil",
+        "Tiene una fecha de caducidad más larga"
+      ]
+    },
+    "uf0519-u3b1-010": {
+      "ca": [
+        "Compres i classificació de documents comptables",
+        "Valoració del patrimoni i nòmines",
+        "Manteniment informàtic i distribució de tasques"
+      ],
+      "es": [
+        "Compras y clasificación de documentos contables",
+        "Valoración patrimonial y nóminas",
+        "Mantenimiento informático y reparto de tareas"
+      ]
+    },
+    "uf0519-u3b1-011": {
+      "ca": [
+        "Cost de mercaderia abans dels impostos si ja estan inclosos",
+        "Termini mitjà del sector sense mirar l’oferta",
+        "Import del transport oblidant el preu unitari"
+      ],
+      "es": [
+        "Coste de mercancía antes de impuestos si ya están incluidos",
+        "Plazo medio del sector sin mirar la oferta",
+        "Importe del transporte sin considerar el precio unitario"
+      ]
+    },
+    "uf0519-u3b1-012": {
+      "ca": [
+        "Valor inicial dels mobles i comptabilitat de personal",
+        "Quantitat d’arxivadors per departament i nòmines",
+        "Nom del proveïdor sense dades d’estoc"
+      ],
+      "es": [
+        "Valor inicial del mobiliario y contabilidad de personal",
+        "Cantidad de archivadores por departamento y nóminas",
+        "Nombre del proveedor sin datos de existencias"
+      ]
+    },
+    "uf0519-u3b1-013": {
+      "ca": [
+        "Del codi de barres intern que fa servir l’empresa",
+        "Del preu fixat per un proveïdor qualsevol",
+        "Del nombre de prestatgeries del magatzem"
+      ],
+      "es": [
+        "Del código de barras interno de la empresa",
+        "Del precio fijado por un proveedor cualquiera",
+        "Del número de estanterías del almacén"
+      ]
+    },
+    "uf0519-u3b1-014": {
+      "ca": [
+        "Indicar un inventari només comptable i prescindir d’ubicacions",
+        "Substituir la fitxa de seguretat en productes químics",
+        "Permetre canvis de ubicació sense registrar-los"
+      ],
+      "es": [
+        "Indicar solo un inventario contable y prescindir de ubicaciones",
+        "Sustituir la ficha de seguridad en productos químicos",
+        "Permitir cambios de ubicación sin registrarlos"
+      ]
+    },
+    "uf0519-u3b1-015": {
+      "ca": [
+        "Emetre justificants fiscals sense moviment físic",
+        "Gestionar moviments bancaris sense mercaderies",
+        "Conservar documentació de personal exclusivament"
+      ],
+      "es": [
+        "Emitir justificantes fiscales sin movimiento físico",
+        "Gestionar movimientos bancarios sin mercancías",
+        "Conservar solo documentación de personal"
+      ]
+    },
+    "uf0519-u3b1-016": {
+      "ca": [
+        "Per eliminar la necessitat de controlar els terminis",
+        "Per fixar l’última data de caducitat",
+        "Per convertir un estoc físic en un saldo bancari"
+      ],
+      "es": [
+        "Para eliminar el control de plazos",
+        "Para fijar la última fecha de caducidad",
+        "Para convertir el stock físico en saldo bancario"
+      ]
+    },
+    "uf0519-u3b1-017": {
+      "ca": [
+        "Només cal una comanda si hi ha 20 unitats exactes",
+        "Es comprova primer la caducitat de la prestatgeria",
+        "Cal traslladar les 18 unitats a una altra ubicació"
+      ],
+      "es": [
+        "Solo se pide al haber exactamente 20 unidades",
+        "Primero se verifica la caducidad de la estantería",
+        "Hay que trasladar las 18 unidades a otra ubicación"
+      ]
+    },
+    "uf0519-u3b1-018": {
+      "ca": [
+        "Central en qualsevol cas perquè distribueix mercaderies",
+        "De productes acabats pel sol fet de transportar",
+        "Magatzem compacte si té prestatgeries mòbils"
+      ],
+      "es": [
+        "Central en cualquier caso porque distribuye mercancías",
+        "De productos terminados solo por transportar",
+        "Almacén compacto si posee estanterías móviles"
+      ]
+    },
+    "uf0519-u3b1-019": {
+      "ca": [
+        "Cada article es desplaça a un lloc nou automàticament",
+        "La referència perd el seu codi de producte",
+        "S’assigna la zona de temperatura sense comprovar-la"
+      ],
+      "es": [
+        "Cada artículo pasa automáticamente a un lugar nuevo",
+        "La referencia pierde su código de producto",
+        "Se asigna una zona de temperatura sin comprobarla"
+      ]
+    },
+    "uf0519-u3b1-020": {
+      "ca": [
+        "Reservar el mateix espai per tota la vida del producte",
+        "Registrar únicament les entrades sense ubicació",
+        "Prioritzar un espai lliure encara que no sigui compatible"
+      ],
+      "es": [
+        "Reservar el mismo espacio durante toda la vida del producto",
+        "Registrar solo entradas sin ubicaciones",
+        "Priorizar el espacio libre aunque sea incompatible"
+      ]
+    },
+    "uf0519-u3b1-021": {
+      "ca": [
+        "Reubicar productes sense preparar cap comanda",
+        "Fer només el recompte anual de tota la nau",
+        "Introduir el preu d’una etiqueta de venda"
+      ],
+      "es": [
+        "Reubicar productos sin preparar pedidos",
+        "Realizar solo el recuento anual de la nave",
+        "Introducir el precio de una etiqueta de venta"
+      ]
+    },
+    "uf0519-u3b1-022": {
+      "ca": [
+        "El lot amb venciment més proper encara que hagi arribat després",
+        "El lot físicament més accessible sense comprovar l’entrada",
+        "El lot amb un valor comptable més petit"
+      ],
+      "es": [
+        "El lote que caduca antes aunque llegara más tarde",
+        "El lote más accesible sin comprobar la entrada",
+        "El lote de menor valoración contable"
+      ]
+    },
+    "uf0519-u3b1-023": {
+      "ca": [
+        "El lot més antic en registre encara que caduqui més tard",
+        "El lot més nou perquè sol estar a mà",
+        "El lot amb el codi alfabètic primer"
+      ],
+      "es": [
+        "El lote más antiguo en registro aunque caduque después",
+        "El lote más nuevo por estar más accesible",
+        "El lote cuyo código va primero alfabéticamente"
+      ]
+    },
+    "uf0519-u3b1-024": {
+      "ca": [
+        "El lot amb la caducitat més llunyana surt primer",
+        "El lot amb menys unitats disponibles surt primer",
+        "El lot amb prioritat comptable superior surt primer"
+      ],
+      "es": [
+        "El lote que caduca más tarde sale primero",
+        "El lote con menos unidades sale primero",
+        "El lote con mayor prioridad contable sale primero"
+      ]
+    },
+    "uf0519-u3b1-025": {
+      "ca": [
+        "FEFO quan es vol valorar el cost dels lots segons la caducitat",
+        "LIFO quan l'emmagatzematge físic utilitza apilaments",
+        "El valor assignat al lot físicament més proper"
+      ],
+      "es": [
+        "Solo FEFO cuando hay perecederos",
+        "LIFO si existe apilamiento compacto",
+        "El valor del lote físicamente más próximo"
+      ]
+    },
+    "uf0519-u3b1-026": {
+      "ca": [
+        "L’estoc queda repartit sense obligació de registre",
+        "El total coincideix amb la quantitat moguda, no amb l’inventari",
+        "La quantitat transferida s’afegeix a les compres del dia"
+      ],
+      "es": [
+        "El stock queda repartido sin necesidad de registro",
+        "El total pasa a ser la cantidad desplazada",
+        "La cantidad transferida se suma a las compras del día"
+      ]
+    },
+    "uf0519-u3b1-027": {
+      "ca": [
+        "El tipus de document que acompanya la comanda",
+        "El nombre de proveïdors sense dimensions",
+        "El preu de l’equip sense conèixer la càrrega"
+      ],
+      "es": [
+        "El tipo de documento que acompaña el pedido",
+        "El número de proveedores sin dimensiones",
+        "El precio del equipo sin conocer la carga"
+      ]
+    }
+  }
+}

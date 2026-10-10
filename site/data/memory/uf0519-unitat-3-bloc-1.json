@@ -1,0 +1,140 @@
+{
+  "blockId": "uf0519-unitat-3-bloc-1",
+  "questions": {
+    "uf0519-u3b1-001": {
+      "type": "idea",
+      "ca": "Bastidor = carpetes a mà, no magatzem de productes.",
+      "es": "Bastidor = carpetas a mano, no almacén de productos."
+    },
+    "uf0519-u3b1-002": {
+      "type": "idea",
+      "ca": "Carret: documents amb rodes.",
+      "es": "Carro: documentos con ruedas."
+    },
+    "uf0519-u3b1-003": {
+      "type": "idea",
+      "ca": "Pany = protecció i accés restringit.",
+      "es": "Cerradura = protección y acceso restringido."
+    },
+    "uf0519-u3b1-004": {
+      "type": "idea",
+      "ca": "Arxivador vertical: calaixos per ordenar.",
+      "es": "Archivador vertical: cajones para ordenar."
+    },
+    "uf0519-u3b1-005": {
+      "type": "idea",
+      "ca": "Expedient = documents d’un mateix cas.",
+      "es": "Expediente = documentos de un mismo caso."
+    },
+    "uf0519-u3b1-006": {
+      "type": "idea",
+      "ca": "Pressupost → comanda → albarà de lliurament.",
+      "es": "Presupuesto → pedido → albarán de entrega."
+    },
+    "uf0519-u3b1-007": {
+      "type": "idea",
+      "ca": "Carpeta conté; fitxer té nom i contingut.",
+      "es": "Carpeta contiene; archivo tiene nombre y contenido."
+    },
+    "uf0519-u3b1-008": {
+      "type": "idea",
+      "ca": "Tòner = es gasta; impressora = dura.",
+      "es": "Tóner = se gasta; impresora = dura."
+    },
+    "uf0519-u3b1-009": {
+      "type": "idea",
+      "ca": "No fungible: ús repetit; no es gasta en cada ús.",
+      "es": "No fungible: uso repetido; no se agota en cada uso."
+    },
+    "uf0519-u3b1-010": {
+      "type": "idea",
+      "ca": "Aprovisionar = comprar + controlar estoc.",
+      "es": "Aprovisionar = comprar + controlar existencias."
+    },
+    "uf0519-u3b1-011": {
+      "type": "idea",
+      "ca": "Termini vàlid → compara preu + transport.",
+      "es": "Plazo válido → compara precio + transporte."
+    },
+    "uf0519-u3b1-012": {
+      "type": "idea",
+      "ca": "Estoc + demanda + termini → reposició.",
+      "es": "Stock + demanda + plazo → reposición."
+    },
+    "uf0519-u3b1-013": {
+      "type": "idea",
+      "ca": "Etiqueta legal: depèn del producte i la norma.",
+      "es": "Etiqueta legal: depende del producto y la norma."
+    },
+    "uf0519-u3b1-014": {
+      "type": "idea",
+      "ca": "Interna complementa; no tapa advertències.",
+      "es": "Interna complementa; no tapa advertencias."
+    },
+    "uf0519-u3b1-015": {
+      "type": "idea",
+      "ca": "Magatzem: rebre → guardar → expedir.",
+      "es": "Almacén: recibir → guardar → expedir."
+    },
+    "uf0519-u3b1-016": {
+      "type": "idea",
+      "ca": "Seguretat = reserva davant imprevistos.",
+      "es": "Seguridad = reserva ante imprevistos."
+    },
+    "uf0519-u3b1-017": {
+      "type": "idea",
+      "ca": "18 ≤ 20: s’activa reposició.",
+      "es": "18 ≤ 20: se activa reposición."
+    },
+    "uf0519-u3b1-018": {
+      "type": "idea",
+      "ca": "Territori concret = magatzem regional.",
+      "es": "Territorio concreto = almacén regional."
+    },
+    "uf0519-u3b1-019": {
+      "type": "idea",
+      "ca": "Fixa: fàcil de trobar, pot deixar buit.",
+      "es": "Fija: fácil de localizar, puede quedar vacía."
+    },
+    "uf0519-u3b1-020": {
+      "type": "idea",
+      "ca": "Variable = espai flexible + registre obligatori.",
+      "es": "Variable = espacio flexible + registro obligatorio."
+    },
+    "uf0519-u3b1-021": {
+      "type": "idea",
+      "ca": "Picking = agafar articles de la comanda.",
+      "es": "Picking = recoger artículos del pedido."
+    },
+    "uf0519-u3b1-022": {
+      "type": "idea",
+      "ca": "FIFO: primer que entra, primer que surt.",
+      "es": "FIFO: primero que entra, primero que sale."
+    },
+    "uf0519-u3b1-023": {
+      "type": "idea",
+      "ca": "FEFO: caduca abans, surt abans.",
+      "es": "FEFO: caduca antes, sale antes."
+    },
+    "uf0519-u3b1-024": {
+      "type": "idea",
+      "ca": "LIFO: últim entrant, primer sortint.",
+      "es": "LIFO: último que entra, primero que sale."
+    },
+    "uf0519-u3b1-025": {
+      "type": "idea",
+      "ca": "PGC comptable: PMP i FIFO; FEFO és físic.",
+      "es": "PGC contable: PMP y FIFO; FEFO es físico."
+    },
+    "uf0519-u3b1-026": {
+      "type": "idea",
+      "ca": "Trasllat intern: canvia el lloc, no el total.",
+      "es": "Traslado interno: cambia el lugar, no el total."
+    },
+    "uf0519-u3b1-027": {
+      "type": "idea",
+      "ca": "Equip: capacitat + dimensions + seguretat.",
+      "es": "Equipo: capacidad + dimensiones + seguridad."
+    }
+  }
+}

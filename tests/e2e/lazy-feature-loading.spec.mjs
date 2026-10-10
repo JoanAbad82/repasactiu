@@ -11,7 +11,7 @@ test('la portada no descarrega bancs opcionals fins a obrir les eines',async({pa
  const requested=[];
  page.on('request',request=>requested.push(request.url()));
  await page.goto('/');
- await expect(page.getByText('1009 preguntes')).toBeVisible();
+ await expect(page.getByText('1036 preguntes')).toBeVisible();
  await page.waitForLoadState('networkidle');
  expect(optionalFiles.filter(name=>requested.some(url=>url.endsWith('/'+name)))).toEqual([]);
  await page.locator('#home-shortcut-study').click();
@@ -25,7 +25,7 @@ test('els bancs carregats es reutilitzen en tornar a obrir el diccionari',async(
  const files=[];
  page.on('request',request=>{if(request.url().endsWith('/concept-dictionary-v1.json'))files.push(request.url());});
  await page.goto('/');
- await expect(page.getByText('1009 preguntes')).toBeVisible();
+ await expect(page.getByText('1036 preguntes')).toBeVisible();
  await page.locator('#home-shortcut-dictionary').click();
  await expect(page.getByRole('heading',{name:'Diccionari de conceptes clau'})).toBeVisible();
  await page.locator('#home-link').click();
@@ -41,7 +41,7 @@ test('un error de descàrrega permet tornar a provar sense recarregar tota la we
   return route.continue();
  });
  await page.goto('/');
- await expect(page.getByText('1009 preguntes')).toBeVisible();
+ await expect(page.getByText('1036 preguntes')).toBeVisible();
  await page.locator('#hangman-card').click();
  await expect(page.locator('[data-tool-error-title]')).toHaveText('No s’ha pogut carregar aquesta eina.');
  await page.locator('#language-es').click();
@@ -60,7 +60,7 @@ test('una descàrrega tardana no pot reobrir una pantalla que ja s’ha abandona
   signal();await pending;await route.continue();
  });
  await page.goto('/');
- await expect(page.getByText('1009 preguntes')).toBeVisible();
+ await expect(page.getByText('1036 preguntes')).toBeVisible();
  await page.locator('#home-shortcut-study').click();
  await requested;
  await expect(page.locator('[data-tool-loading]')).toBeVisible();

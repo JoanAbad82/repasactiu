@@ -14,6 +14,13 @@ for(const rel of [
   'css/main.css',
   'css/material-notice.css',
   'css/navigation-polish.css',
+  'css/stock-exercises.css',
+  'js/stock-exercises.js',
+  'data/stock-exercises-u3-v1.json',
+  'data/uf0519_unitat_3_bloc_1.json',
+  'data/i18n/es/uf0519-unitat-3-bloc-1.json',
+  'data/memory/uf0519-unitat-3-bloc-1.json',
+  'data/hard/uf0519-unitat-3-bloc-1.json',
   'js/study-cards.js',
   'data/course.json',
   'data/study-cards-extra.json',
@@ -44,25 +51,26 @@ const correspondence=JSON.parse(await readFile(path.join(dist,'data','commercial
 const payroll=JSON.parse(await readFile(path.join(dist,'data','payroll-example-2026-v1.json'),'utf8'));
 const administrative=JSON.parse(await readFile(path.join(dist,'data','administrative-exercises-v1.json'),'utf8'));
 const treasury=JSON.parse(await readFile(path.join(dist,'data','treasury-practice-v1.json'),'utf8'));
+const stock=JSON.parse(await readFile(path.join(dist,'data','stock-exercises-u3-v1.json'),'utf8'));
 if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
   throw new Error('Build validation failed: semantic manifest must contain 84 changes.');
 }
 if(traceability.version!==2||!traceability.topicRanges||!traceability.questionRanges){
   throw new Error('Build validation failed: traceability v2 is invalid.');
 }
-if(dictionary.version!==1||dictionary.count!==138||!Array.isArray(dictionary.entries)||dictionary.entries.length!==138){
+if(dictionary.version!==1||dictionary.count!==150||!Array.isArray(dictionary.entries)||dictionary.entries.length!==150){
   throw new Error('Build validation failed: concept dictionary v1 is invalid.');
 }
-if(!Array.isArray(dictionary.families)||dictionary.families.length!==17||dictionary.families.flatMap(family=>family.entryIds||[]).length!==138){
+if(!Array.isArray(dictionary.families)||dictionary.families.length!==18||dictionary.families.flatMap(family=>family.entryIds||[]).length!==150){
   throw new Error('Build validation failed: concept dictionary families are invalid.');
 }
-if(hangman.version!=='2.0'||hangman.count<300||!Array.isArray(hangman.entries)||hangman.entries.length!==hangman.count||!Array.isArray(hangman.groups)||hangman.groups.length!==17){
+if(hangman.version!=='2.0'||hangman.count<300||!Array.isArray(hangman.entries)||hangman.entries.length!==hangman.count||!Array.isArray(hangman.groups)||hangman.groups.length!==18){
   throw new Error('Build validation failed: full-course hangman bank is invalid.');
 }
-if(keyLists.version!==1||keyLists.count!==85||!Array.isArray(keyLists.entries)||keyLists.entries.length!==85){
+if(keyLists.version!==1||keyLists.count!==89||!Array.isArray(keyLists.entries)||keyLists.entries.length!==89){
   throw new Error('Build validation failed: key-list bank is invalid.');
 }
-if(!Array.isArray(keyLists.families)||keyLists.families.length!==11||keyLists.families.flatMap(family=>family.entryIds||[]).length!==85){
+if(!Array.isArray(keyLists.families)||keyLists.families.length!==12||keyLists.families.flatMap(family=>family.entryIds||[]).length!==89){
   throw new Error('Build validation failed: key-list families are invalid.');
 }
 if(correspondence.version!==1||!Array.isArray(correspondence.structure)||correspondence.structure.length!==10||!Array.isArray(correspondence.models)||correspondence.models.length!==8){
@@ -74,6 +82,7 @@ if(payroll.version!==1||payroll.source?.sourceId!=='UF0519_NOMINA_2026_CECOT'||p
 if(administrative.version!==1||administrative.source?.filename!=='Exercicis_1-10_unificats.docx'||administrative.source?.embeddedSheets!==9||administrative.sheets?.length!==9){
   throw new Error('Build validation failed: administrative/commercial document exercises are invalid.');
 }
+if(stock.version!==1||stock.id!=='UF0519_U3_PRACTICE_V1'||stock.exercises?.length!==11||stock.exercises[10]?.products?.length!==21){throw new Error('Build validation failed: UF0519 U3 exercises missing.');}
 if(treasury.version!==1||treasury.source?.sourceId!=='UF0519_U2_TRESORERIA'||treasury.source?.pages!==41||!Array.isArray(treasury.steps)||treasury.steps.length!==10){
   throw new Error('Build validation failed: treasury practical circuit is invalid.');
 }
@@ -84,4 +93,4 @@ for(const lang of ['ca','es']){
     throw new Error(`Build validation failed: commercial abbreviations for ${lang} must contain 20-30 curated entries.`);
   }
 }
-console.log(`Static build PASS: site/ -> dist/ with learning tools, 138-concept dictionary, ${hangman.count}-entry full-course hangman bank, 85 key lists, payroll and treasury practicals, bilingual commercial correspondence guide and 9 administrative/commercial document exercises`);
+console.log(`Static build PASS: site/ -> dist/ with learning tools, 150-concept dictionary, ${hangman.count}-entry full-course hangman bank, 89 key lists, payroll and treasury practicals, bilingual commercial correspondence guide and 9 administrative/commercial document exercises`);

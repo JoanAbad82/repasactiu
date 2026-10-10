@@ -2,17 +2,17 @@ import {test,expect} from '@playwright/test';
 
 async function openLists(page){
   await page.goto('/');
-  await expect(page.getByText('1009 preguntes')).toBeVisible();
+  await expect(page.getByText('1036 preguntes')).toBeVisible();
   await page.locator('#home-shortcut-dictionary').click();
   await page.getByRole('button',{name:'Llistes clau',exact:true}).click();
 }
 
-test('el diccionari publica 85 llistes clau agrupades en onze famílies',async({page})=>{
+test('el diccionari publica 89 llistes clau agrupades en dotze famílies',async({page})=>{
   await openLists(page);
-  await expect(page.locator('[data-key-list-id]')).toHaveCount(85);
-  await expect(page.locator('[data-key-list-family]')).toHaveCount(11);
-  await expect(page.locator('[data-dictionary-count]')).toHaveText('85');
-  await expect(page.getByText('85 llistes')).toBeVisible();
+  await expect(page.locator('[data-key-list-id]')).toHaveCount(89);
+  await expect(page.locator('[data-key-list-family]')).toHaveCount(12);
+  await expect(page.locator('[data-dictionary-count]')).toHaveText('89');
+  await expect(page.getByText('89 llistes')).toBeVisible();
   await expect(page.locator('[data-key-list-id="uf2-criteris-canal"]')).toContainText('Contingut');
   await expect(page.locator('[data-key-list-id="uf2-criteris-canal"]')).toContainText('Traçabilitat');
   await expect(page.locator('[data-key-list-id="uf2-criteris-canal"] .concept-source')).toHaveText('UF0518_B2 · p. 21');
@@ -52,7 +52,7 @@ test('les llistes canvien a castellà mantenint la pestanya activa',async({page}
 test('les llistes clau no desborden en mòbil',async({browser})=>{
   const page=await browser.newPage({viewport:{width:390,height:844}});
   await openLists(page);
-  await expect(page.locator('[data-key-list-id]')).toHaveCount(85);
+  await expect(page.locator('[data-key-list-id]')).toHaveCount(89);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
   await page.locator('[data-dictionary-search]').fill('classificació');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth)).toBe(true);

@@ -1,0 +1,2415 @@
+{
+  "version": 1,
+  "id": "UF0519_U3_PRACTICE_V1",
+  "sourcePdf": "3_Gestió i control bàsic d’existències.pdf",
+  "sourcePdfPages": 29,
+  "sourceHashesSha256": {
+    "3_Gestió i control bàsic d’existències.pdf": "06f89f17152e1cbd3b238ca019c95e815949606a6e775c484c486d1cef7710da",
+    "Excel oficina.xlsx": "25d67560383f3cb9faecbf1166d6939ef2e1483ddfbc56aaf8a69db7196ef5dd",
+    "UF0519_U3_01_Material_i_arxiu_Exercicis.docx": "03671a5b053e19fc0d6b796e9191b4659d1060921c3e34e9e8811c64c0e386fc",
+    "UF0519_U3_02_Aprovisionament_i_etiquetatge_Exercicis.docx": "c6d9097dde2b3fdf14ee1a3dbe00ea0a8b067d3c8b75e363c150bb12f57ac20e",
+    "UF0519_U3_03_Magatzem_i_seguretat_Exercicis.docx": "33a282fb184e5db468b9133620358fb627bc7b03d97c042a68e5cc78fc657f46",
+    "UF0519_U3_04_Organitzacio_rotacio_i_trasllats_Exercicis.docx": "63a64c69ef5be110944f66d4ef4dc25eb70e7cf88bf08b22e2698db7076ed078"
+  },
+  "languagePolicy": "ca-source-es-site-translation",
+  "exercises": [
+    {
+      "id": "001",
+      "title": {
+        "ca": "Material i equips per arxivar",
+        "es": "Materiales y equipos para archivar"
+      },
+      "reference": {
+        "ca": "Banc de paraules: carret, prestatgeria, armari, arxivador de calaixos, fitxer de fitxes i bastidor. Cada element s’utilitza una vegada. (PDF p. 4–7)",
+        "es": "Banco de palabras: carro, estantería, armario, archivador de cajones, fichero de fichas y bastidor. Cada elemento se utiliza una vez. (PDF pp. 4–7)"
+      },
+      "source": {
+        "file": "UF0519_U3_01_Material_i_arxiu_Exercicis.docx",
+        "pages": [
+          4,
+          7
+        ]
+      },
+      "fields": [
+        {
+          "id": "a",
+          "question": {
+            "ca": "Suport amb rodes per traslladar documents.",
+            "es": "Soporte con ruedas para trasladar documentos."
+          },
+          "type": "choice",
+          "answer": "carret",
+          "options": [
+            {
+              "value": "carret",
+              "label": {
+                "ca": "Carret",
+                "es": "Carro"
+              }
+            },
+            {
+              "value": "prestatgeria",
+              "label": {
+                "ca": "Prestatgeria",
+                "es": "Estantería"
+              }
+            },
+            {
+              "value": "armari",
+              "label": {
+                "ca": "Armari",
+                "es": "Armario"
+              }
+            },
+            {
+              "value": "arxivador",
+              "label": {
+                "ca": "Arxivador de calaixos",
+                "es": "Archivador de cajones"
+              }
+            },
+            {
+              "value": "fitxer",
+              "label": {
+                "ca": "Fitxer de fitxes",
+                "es": "Fichero de fichas"
+              }
+            },
+            {
+              "value": "bastidor",
+              "label": {
+                "ca": "Bastidor",
+                "es": "Bastidor"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "question": {
+            "ca": "Mobles amb prestatges per a carpetes i caixes.",
+            "es": "Muebles con estantes para carpetas y cajas."
+          },
+          "type": "choice",
+          "answer": "prestatgeria",
+          "options": [
+            {
+              "value": "carret",
+              "label": {
+                "ca": "Carret",
+                "es": "Carro"
+              }
+            },
+            {
+              "value": "prestatgeria",
+              "label": {
+                "ca": "Prestatgeria",
+                "es": "Estantería"
+              }
+            },
+            {
+              "value": "armari",
+              "label": {
+                "ca": "Armari",
+                "es": "Armario"
+              }
+            },
+            {
+              "value": "arxivador",
+              "label": {
+                "ca": "Arxivador de calaixos",
+                "es": "Archivador de cajones"
+              }
+            },
+            {
+              "value": "fitxer",
+              "label": {
+                "ca": "Fitxer de fitxes",
+                "es": "Fichero de fichas"
+              }
+            },
+            {
+              "value": "bastidor",
+              "label": {
+                "ca": "Bastidor",
+                "es": "Bastidor"
+              }
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "question": {
+            "ca": "Moble amb portes que pot tenir pany.",
+            "es": "Mueble con puertas que puede tener cerradura."
+          },
+          "type": "choice",
+          "answer": "armari",
+          "options": [
+            {
+              "value": "carret",
+              "label": {
+                "ca": "Carret",
+                "es": "Carro"
+              }
+            },
+            {
+              "value": "prestatgeria",
+              "label": {
+                "ca": "Prestatgeria",
+                "es": "Estantería"
+              }
+            },
+            {
+              "value": "armari",
+              "label": {
+                "ca": "Armari",
+                "es": "Armario"
+              }
+            },
+            {
+              "value": "arxivador",
+              "label": {
+                "ca": "Arxivador de calaixos",
+                "es": "Archivador de cajones"
+              }
+            },
+            {
+              "value": "fitxer",
+              "label": {
+                "ca": "Fitxer de fitxes",
+                "es": "Fichero de fichas"
+              }
+            },
+            {
+              "value": "bastidor",
+              "label": {
+                "ca": "Bastidor",
+                "es": "Bastidor"
+              }
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "question": {
+            "ca": "Moble amb calaixos per a carpetes penjants.",
+            "es": "Mueble con cajones para carpetas colgantes."
+          },
+          "type": "choice",
+          "answer": "arxivador",
+          "options": [
+            {
+              "value": "carret",
+              "label": {
+                "ca": "Carret",
+                "es": "Carro"
+              }
+            },
+            {
+              "value": "prestatgeria",
+              "label": {
+                "ca": "Prestatgeria",
+                "es": "Estantería"
+              }
+            },
+            {
+              "value": "armari",
+              "label": {
+                "ca": "Armari",
+                "es": "Armario"
+              }
+            },
+            {
+              "value": "arxivador",
+              "label": {
+                "ca": "Arxivador de calaixos",
+                "es": "Archivador de cajones"
+              }
+            },
+            {
+              "value": "fitxer",
+              "label": {
+                "ca": "Fitxer de fitxes",
+                "es": "Fichero de fichas"
+              }
+            },
+            {
+              "value": "bastidor",
+              "label": {
+                "ca": "Bastidor",
+                "es": "Bastidor"
+              }
+            }
+          ]
+        },
+        {
+          "id": "e",
+          "question": {
+            "ca": "Recipient amb separadors per ordenar targetes.",
+            "es": "Recipiente con separadores para ordenar fichas."
+          },
+          "type": "choice",
+          "answer": "fitxer",
+          "options": [
+            {
+              "value": "carret",
+              "label": {
+                "ca": "Carret",
+                "es": "Carro"
+              }
+            },
+            {
+              "value": "prestatgeria",
+              "label": {
+                "ca": "Prestatgeria",
+                "es": "Estantería"
+              }
+            },
+            {
+              "value": "armari",
+              "label": {
+                "ca": "Armari",
+                "es": "Armario"
+              }
+            },
+            {
+              "value": "arxivador",
+              "label": {
+                "ca": "Arxivador de calaixos",
+                "es": "Archivador de cajones"
+              }
+            },
+            {
+              "value": "fitxer",
+              "label": {
+                "ca": "Fitxer de fitxes",
+                "es": "Fichero de fichas"
+              }
+            },
+            {
+              "value": "bastidor",
+              "label": {
+                "ca": "Bastidor",
+                "es": "Bastidor"
+              }
+            }
+          ]
+        },
+        {
+          "id": "f",
+          "question": {
+            "ca": "Estructura petita de sobretaula per a carpetes d’ús freqüent.",
+            "es": "Estructura pequeña de sobremesa para carpetas de uso frecuente."
+          },
+          "type": "choice",
+          "answer": "bastidor",
+          "options": [
+            {
+              "value": "carret",
+              "label": {
+                "ca": "Carret",
+                "es": "Carro"
+              }
+            },
+            {
+              "value": "prestatgeria",
+              "label": {
+                "ca": "Prestatgeria",
+                "es": "Estantería"
+              }
+            },
+            {
+              "value": "armari",
+              "label": {
+                "ca": "Armari",
+                "es": "Armario"
+              }
+            },
+            {
+              "value": "arxivador",
+              "label": {
+                "ca": "Arxivador de calaixos",
+                "es": "Archivador de cajones"
+              }
+            },
+            {
+              "value": "fitxer",
+              "label": {
+                "ca": "Fitxer de fitxes",
+                "es": "Fichero de fichas"
+              }
+            },
+            {
+              "value": "bastidor",
+              "label": {
+                "ca": "Bastidor",
+                "es": "Bastidor"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "title": {
+        "ca": "Expedients, carpetes i fitxers",
+        "es": "Expedientes, carpetas y archivos"
+      },
+      "reference": {
+        "ca": "A: fitxer informàtic · B: carpeta física · C: carpeta digital · D: expedient. (PDF p. 8–12)",
+        "es": "A: archivo informático · B: carpeta física · C: carpeta digital · D: expediente. (PDF pp. 8–12)"
+      },
+      "source": {
+        "file": "UF0519_U3_01_Material_i_arxiu_Exercicis.docx",
+        "pages": [
+          8,
+          12
+        ]
+      },
+      "fields": [
+        {
+          "id": "a",
+          "question": {
+            "ca": "Conjunt ordenat de documents d’un mateix assumpte o procediment.",
+            "es": "Conjunto ordenado de documentos de un mismo asunto o procedimiento."
+          },
+          "type": "choice",
+          "answer": "D",
+          "options": [
+            {
+              "value": "A",
+              "label": {
+                "ca": "A · Fitxer informàtic",
+                "es": "A · Archivo informático"
+              }
+            },
+            {
+              "value": "B",
+              "label": {
+                "ca": "B · Carpeta física",
+                "es": "B · Carpeta física"
+              }
+            },
+            {
+              "value": "C",
+              "label": {
+                "ca": "C · Carpeta digital",
+                "es": "C · Carpeta digital"
+              }
+            },
+            {
+              "value": "D",
+              "label": {
+                "ca": "D · Expedient",
+                "es": "D · Expediente"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "question": {
+            "ca": "Element de paper o plàstic que agrupa documents impresos.",
+            "es": "Elemento de papel o plástico que agrupa documentos impresos."
+          },
+          "type": "choice",
+          "answer": "B",
+          "options": [
+            {
+              "value": "A",
+              "label": {
+                "ca": "A · Fitxer informàtic",
+                "es": "A · Archivo informático"
+              }
+            },
+            {
+              "value": "B",
+              "label": {
+                "ca": "B · Carpeta física",
+                "es": "B · Carpeta física"
+              }
+            },
+            {
+              "value": "C",
+              "label": {
+                "ca": "C · Carpeta digital",
+                "es": "C · Carpeta digital"
+              }
+            },
+            {
+              "value": "D",
+              "label": {
+                "ca": "D · Expedient",
+                "es": "D · Expediente"
+              }
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "question": {
+            "ca": "Directori que agrupa fitxers i subdirectoris.",
+            "es": "Directorio que agrupa archivos y subdirectorios."
+          },
+          "type": "choice",
+          "answer": "C",
+          "options": [
+            {
+              "value": "A",
+              "label": {
+                "ca": "A · Fitxer informàtic",
+                "es": "A · Archivo informático"
+              }
+            },
+            {
+              "value": "B",
+              "label": {
+                "ca": "B · Carpeta física",
+                "es": "B · Carpeta física"
+              }
+            },
+            {
+              "value": "C",
+              "label": {
+                "ca": "C · Carpeta digital",
+                "es": "C · Carpeta digital"
+              }
+            },
+            {
+              "value": "D",
+              "label": {
+                "ca": "D · Expedient",
+                "es": "D · Expediente"
+              }
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "question": {
+            "ca": "Conjunt de dades digitals amb nom, com informe.pdf.",
+            "es": "Conjunto de datos digitales con nombre, como informe.pdf."
+          },
+          "type": "choice",
+          "answer": "A",
+          "options": [
+            {
+              "value": "A",
+              "label": {
+                "ca": "A · Fitxer informàtic",
+                "es": "A · Archivo informático"
+              }
+            },
+            {
+              "value": "B",
+              "label": {
+                "ca": "B · Carpeta física",
+                "es": "B · Carpeta física"
+              }
+            },
+            {
+              "value": "C",
+              "label": {
+                "ca": "C · Carpeta digital",
+                "es": "C · Carpeta digital"
+              }
+            },
+            {
+              "value": "D",
+              "label": {
+                "ca": "D · Expedient",
+                "es": "D · Expediente"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "title": {
+        "ca": "Material fungible i no fungible",
+        "es": "Material fungible y no fungible"
+      },
+      "reference": {
+        "ca": "F: consumible, s’esgota i cal reposar-lo. NF: durador, permet un ús continuat. (PDF p. 14–15)",
+        "es": "F: consumible, se agota y hay que reponerlo. NF: duradero, permite un uso continuado. (PDF pp. 14–15)"
+      },
+      "source": {
+        "file": "UF0519_U3_01_Material_i_arxiu_Exercicis.docx",
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "fields": [
+        {
+          "id": "paper",
+          "question": {
+            "ca": "Paquet de paper A4",
+            "es": "Paquete de papel A4"
+          },
+          "type": "choice",
+          "answer": "F",
+          "options": [
+            {
+              "value": "F",
+              "label": {
+                "ca": "F · Fungible",
+                "es": "F · Fungible"
+              }
+            },
+            {
+              "value": "NF",
+              "label": {
+                "ca": "NF · No fungible",
+                "es": "NF · No fungible"
+              }
+            }
+          ]
+        },
+        {
+          "id": "printer",
+          "question": {
+            "ca": "Impressora",
+            "es": "Impresora"
+          },
+          "type": "choice",
+          "answer": "NF",
+          "options": [
+            {
+              "value": "F",
+              "label": {
+                "ca": "F · Fungible",
+                "es": "F · Fungible"
+              }
+            },
+            {
+              "value": "NF",
+              "label": {
+                "ca": "NF · No fungible",
+                "es": "NF · No fungible"
+              }
+            }
+          ]
+        },
+        {
+          "id": "toner",
+          "question": {
+            "ca": "Cartutx de tòner",
+            "es": "Cartucho de tóner"
+          },
+          "type": "choice",
+          "answer": "F",
+          "options": [
+            {
+              "value": "F",
+              "label": {
+                "ca": "F · Fungible",
+                "es": "F · Fungible"
+              }
+            },
+            {
+              "value": "NF",
+              "label": {
+                "ca": "NF · No fungible",
+                "es": "NF · No fungible"
+              }
+            }
+          ]
+        },
+        {
+          "id": "chair",
+          "question": {
+            "ca": "Cadira d’oficina",
+            "es": "Silla de oficina"
+          },
+          "type": "choice",
+          "answer": "NF",
+          "options": [
+            {
+              "value": "F",
+              "label": {
+                "ca": "F · Fungible",
+                "es": "F · Fungible"
+              }
+            },
+            {
+              "value": "NF",
+              "label": {
+                "ca": "NF · No fungible",
+                "es": "NF · No fungible"
+              }
+            }
+          ]
+        },
+        {
+          "id": "tape",
+          "question": {
+            "ca": "Rotlle de cinta adhesiva",
+            "es": "Rollo de cinta adhesiva"
+          },
+          "type": "choice",
+          "answer": "F",
+          "options": [
+            {
+              "value": "F",
+              "label": {
+                "ca": "F · Fungible",
+                "es": "F · Fungible"
+              }
+            },
+            {
+              "value": "NF",
+              "label": {
+                "ca": "NF · No fungible",
+                "es": "NF · No fungible"
+              }
+            }
+          ]
+        },
+        {
+          "id": "calc",
+          "question": {
+            "ca": "Calculadora",
+            "es": "Calculadora"
+          },
+          "type": "choice",
+          "answer": "NF",
+          "options": [
+            {
+              "value": "F",
+              "label": {
+                "ca": "F · Fungible",
+                "es": "F · Fungible"
+              }
+            },
+            {
+              "value": "NF",
+              "label": {
+                "ca": "NF · No fungible",
+                "es": "NF · No fungible"
+              }
+            }
+          ]
+        },
+        {
+          "id": "staples",
+          "question": {
+            "ca": "Paquet de grapes",
+            "es": "Caja de grapas"
+          },
+          "type": "choice",
+          "answer": "F",
+          "options": [
+            {
+              "value": "F",
+              "label": {
+                "ca": "F · Fungible",
+                "es": "F · Fungible"
+              }
+            },
+            {
+              "value": "NF",
+              "label": {
+                "ca": "NF · No fungible",
+                "es": "NF · No fungible"
+              }
+            }
+          ]
+        },
+        {
+          "id": "usb",
+          "question": {
+            "ca": "Memòria USB reutilitzable",
+            "es": "Memoria USB reutilizable"
+          },
+          "type": "choice",
+          "answer": "NF",
+          "options": [
+            {
+              "value": "F",
+              "label": {
+                "ca": "F · Fungible",
+                "es": "F · Fungible"
+              }
+            },
+            {
+              "value": "NF",
+              "label": {
+                "ca": "NF · No fungible",
+                "es": "NF · No fungible"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "title": {
+        "ca": "Aprovisionament i selecció de proveïdors",
+        "es": "Aprovisionamiento y selección de proveedores"
+      },
+      "reference": {
+        "ca": "Necessitat: 12 paquets A4 de 500 fulls; termini màxim 3 dies. Preus amb impostos; transport una vegada per comanda. Oferta A: 4,00 €/paquet, transport 0 €, 5 dies. B: 4,20 €/paquet, transport 3 €, 2 dies. C: 4,40 €/paquet, transport 0 €, 3 dies. Fórmula: quantitat × preu + transport. (PDF p. 18–19)",
+        "es": "Necesidad: 12 paquetes A4 de 500 hojas; plazo máximo 3 días. Precios con impuestos; transporte una vez por pedido. Oferta A: 4,00 €/paquete, transporte 0 €, 5 días. B: 4,20 €/paquete, transporte 3 €, 2 días. C: 4,40 €/paquete, transporte 0 €, 3 días. Fórmula: cantidad × precio + transporte. (PDF pp. 18–19)"
+      },
+      "source": {
+        "file": "UF0519_U3_02_Aprovisionament_i_etiquetatge_Exercicis.docx",
+        "pages": [
+          17,
+          19
+        ]
+      },
+      "fields": [
+        {
+          "id": "a",
+          "question": {
+            "ca": "Cost total A (€).",
+            "es": "Coste total A (€)."
+          },
+          "type": "number",
+          "answer": "48",
+          "hint": {
+            "ca": "12 × 4,00 + 0",
+            "es": "12 × 4,00 + 0"
+          }
+        },
+        {
+          "id": "b",
+          "question": {
+            "ca": "Cost total B (€).",
+            "es": "Coste total B (€)."
+          },
+          "type": "number",
+          "answer": "53.4",
+          "hint": {
+            "ca": "12 × 4,20 + 3",
+            "es": "12 × 4,20 + 3"
+          }
+        },
+        {
+          "id": "c",
+          "question": {
+            "ca": "Cost total C (€).",
+            "es": "Coste total C (€)."
+          },
+          "type": "number",
+          "answer": "52.8",
+          "hint": {
+            "ca": "12 × 4,40 + 0",
+            "es": "12 × 4,40 + 0"
+          }
+        },
+        {
+          "id": "valid",
+          "question": {
+            "ca": "Quines ofertes compleixen el termini?",
+            "es": "¿Qué ofertas cumplen el plazo?"
+          },
+          "type": "choice",
+          "answer": "BC",
+          "options": [
+            {
+              "value": "A",
+              "label": {
+                "ca": "Només A",
+                "es": "Solo A"
+              }
+            },
+            {
+              "value": "BC",
+              "label": {
+                "ca": "B i C",
+                "es": "B y C"
+              }
+            },
+            {
+              "value": "AB",
+              "label": {
+                "ca": "A i B",
+                "es": "A y B"
+              }
+            },
+            {
+              "value": "ABC",
+              "label": {
+                "ca": "A, B i C",
+                "es": "A, B y C"
+              }
+            }
+          ]
+        },
+        {
+          "id": "chosen",
+          "question": {
+            "ca": "Quin proveïdor compleix el termini al cost més baix?",
+            "es": "¿Qué proveedor cumple el plazo al menor coste?"
+          },
+          "type": "choice",
+          "answer": "C",
+          "options": [
+            {
+              "value": "A",
+              "label": {
+                "ca": "Proveïdor A",
+                "es": "Proveedor A"
+              }
+            },
+            {
+              "value": "B",
+              "label": {
+                "ca": "Proveïdor B",
+                "es": "Proveedor B"
+              }
+            },
+            {
+              "value": "C",
+              "label": {
+                "ca": "Proveïdor C",
+                "es": "Proveedor C"
+              }
+            }
+          ]
+        },
+        {
+          "id": "saving",
+          "question": {
+            "ca": "Estalvi respecte de l’altra oferta vàlida (€).",
+            "es": "Ahorro frente a la otra oferta válida (€)."
+          },
+          "type": "number",
+          "answer": "0.6",
+          "hint": {
+            "ca": "53,40 − 52,80",
+            "es": "53,40 − 52,80"
+          }
+        },
+        {
+          "id": "excluded",
+          "question": {
+            "ca": "Per què queda exclòs el proveïdor A?",
+            "es": "¿Por qué queda excluido el proveedor A?"
+          },
+          "type": "choice",
+          "answer": "late",
+          "options": [
+            {
+              "value": "late",
+              "label": {
+                "ca": "Triga 5 dies i supera el màxim de 3",
+                "es": "Tarda 5 días y supera el máximo de 3"
+              }
+            },
+            {
+              "value": "tax",
+              "label": {
+                "ca": "Els seus preus no inclouen impostos",
+                "es": "Sus precios no incluyen impuestos"
+              }
+            },
+            {
+              "value": "stock",
+              "label": {
+                "ca": "No permet comprar 12 paquets",
+                "es": "No permite comprar 12 paquetes"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "title": {
+        "ca": "Existències i reposició",
+        "es": "Existencias y reposición"
+      },
+      "reference": {
+        "ca": "Termes: existències, estoc de seguretat, punt de comanda i termini de subministrament. S’inicia una reposició quan l’estoc disponible és igual o inferior al punt de comanda. (PDF p. 22–23)",
+        "es": "Términos: existencias, stock de seguridad, punto de pedido y plazo de suministro. Se inicia una reposición cuando el stock disponible es igual o inferior al punto de pedido. (PDF pp. 22–23)"
+      },
+      "source": {
+        "file": "UF0519_U3_02_Aprovisionament_i_etiquetatge_Exercicis.docx",
+        "pages": [
+          22,
+          23
+        ]
+      },
+      "fields": [
+        {
+          "id": "stock",
+          "question": {
+            "ca": "Béns disponibles emmagatzemats.",
+            "es": "Bienes disponibles almacenados."
+          },
+          "type": "choice",
+          "answer": "stock",
+          "options": [
+            {
+              "value": "stock",
+              "label": {
+                "ca": "Existències",
+                "es": "Existencias"
+              }
+            },
+            {
+              "value": "safety",
+              "label": {
+                "ca": "Estoc de seguretat",
+                "es": "Stock de seguridad"
+              }
+            },
+            {
+              "value": "point",
+              "label": {
+                "ca": "Punt de comanda",
+                "es": "Punto de pedido"
+              }
+            },
+            {
+              "value": "delay",
+              "label": {
+                "ca": "Termini de subministrament",
+                "es": "Plazo de suministro"
+              }
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "question": {
+            "ca": "Reserva per afrontar imprevistos de consum o subministrament.",
+            "es": "Reserva para afrontar imprevistos de consumo o suministro."
+          },
+          "type": "choice",
+          "answer": "safety",
+          "options": [
+            {
+              "value": "stock",
+              "label": {
+                "ca": "Existències",
+                "es": "Existencias"
+              }
+            },
+            {
+              "value": "safety",
+              "label": {
+                "ca": "Estoc de seguretat",
+                "es": "Stock de seguridad"
+              }
+            },
+            {
+              "value": "point",
+              "label": {
+                "ca": "Punt de comanda",
+                "es": "Punto de pedido"
+              }
+            },
+            {
+              "value": "delay",
+              "label": {
+                "ca": "Termini de subministrament",
+                "es": "Plazo de suministro"
+              }
+            }
+          ]
+        },
+        {
+          "id": "point",
+          "question": {
+            "ca": "Nivell d’estoc que activa la nova comanda.",
+            "es": "Nivel de stock que activa el nuevo pedido."
+          },
+          "type": "choice",
+          "answer": "point",
+          "options": [
+            {
+              "value": "stock",
+              "label": {
+                "ca": "Existències",
+                "es": "Existencias"
+              }
+            },
+            {
+              "value": "safety",
+              "label": {
+                "ca": "Estoc de seguretat",
+                "es": "Stock de seguridad"
+              }
+            },
+            {
+              "value": "point",
+              "label": {
+                "ca": "Punt de comanda",
+                "es": "Punto de pedido"
+              }
+            },
+            {
+              "value": "delay",
+              "label": {
+                "ca": "Termini de subministrament",
+                "es": "Plazo de suministro"
+              }
+            }
+          ]
+        },
+        {
+          "id": "delay",
+          "question": {
+            "ca": "Temps entre fer la comanda i rebre-la.",
+            "es": "Tiempo entre hacer el pedido y recibirlo."
+          },
+          "type": "choice",
+          "answer": "delay",
+          "options": [
+            {
+              "value": "stock",
+              "label": {
+                "ca": "Existències",
+                "es": "Existencias"
+              }
+            },
+            {
+              "value": "safety",
+              "label": {
+                "ca": "Estoc de seguretat",
+                "es": "Stock de seguridad"
+              }
+            },
+            {
+              "value": "point",
+              "label": {
+                "ca": "Punt de comanda",
+                "es": "Punto de pedido"
+              }
+            },
+            {
+              "value": "delay",
+              "label": {
+                "ca": "Termini de subministrament",
+                "es": "Plazo de suministro"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paper",
+          "question": {
+            "ca": "Paper: estoc 18, punt de comanda 20. Cal reposar?",
+            "es": "Papel: stock 18, punto de pedido 20. ¿Hay que reponer?"
+          },
+          "type": "choice",
+          "answer": "si",
+          "options": [
+            {
+              "value": "si",
+              "label": {
+                "ca": "Sí",
+                "es": "Sí"
+              }
+            },
+            {
+              "value": "no",
+              "label": {
+                "ca": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "id": "toner",
+          "question": {
+            "ca": "Tòner: estoc 7, punt de comanda 5. Cal reposar?",
+            "es": "Tóner: stock 7, punto de pedido 5. ¿Hay que reponer?"
+          },
+          "type": "choice",
+          "answer": "no",
+          "options": [
+            {
+              "value": "si",
+              "label": {
+                "ca": "Sí",
+                "es": "Sí"
+              }
+            },
+            {
+              "value": "no",
+              "label": {
+                "ca": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "id": "envelopes",
+          "question": {
+            "ca": "Sobres: estoc 100, punt de comanda 100. Cal reposar?",
+            "es": "Sobres: stock 100, punto de pedido 100. ¿Hay que reponer?"
+          },
+          "type": "choice",
+          "answer": "si",
+          "options": [
+            {
+              "value": "si",
+              "label": {
+                "ca": "Sí",
+                "es": "Sí"
+              }
+            },
+            {
+              "value": "no",
+              "label": {
+                "ca": "No",
+                "es": "No"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "title": {
+        "ca": "Etiquetatge de productes i magatzem",
+        "es": "Etiquetado de productos y almacén"
+      },
+      "reference": {
+        "ca": "Marca V o F. L’etiqueta interna identifica ubicacions, però no substitueix avisos obligatoris. (PDF p. 20–21)",
+        "es": "Marca V o F. La etiqueta interna identifica ubicaciones, pero no sustituye advertencias obligatorias. (PDF pp. 20–21)"
+      },
+      "source": {
+        "file": "UF0519_U3_02_Aprovisionament_i_etiquetatge_Exercicis.docx",
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "fields": [
+        {
+          "id": "a",
+          "question": {
+            "ca": "Les dades obligatòries depenen del producte i la normativa aplicable.",
+            "es": "Los datos obligatorios dependen del producto y la normativa aplicable."
+          },
+          "type": "choice",
+          "answer": "V",
+          "options": [
+            {
+              "value": "V",
+              "label": {
+                "ca": "Vertader",
+                "es": "Verdadero"
+              }
+            },
+            {
+              "value": "F",
+              "label": {
+                "ca": "Fals",
+                "es": "Falso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "question": {
+            "ca": "L’etiqueta interna pot ocultar advertències de seguretat obligatòries.",
+            "es": "La etiqueta interna puede ocultar advertencias de seguridad obligatorias."
+          },
+          "type": "choice",
+          "answer": "F",
+          "options": [
+            {
+              "value": "V",
+              "label": {
+                "ca": "Vertader",
+                "es": "Verdadero"
+              }
+            },
+            {
+              "value": "F",
+              "label": {
+                "ca": "Fals",
+                "es": "Falso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "question": {
+            "ca": "Un codi d’ubicació ajuda a localitzar els productes.",
+            "es": "Un código de ubicación ayuda a localizar productos."
+          },
+          "type": "choice",
+          "answer": "V",
+          "options": [
+            {
+              "value": "V",
+              "label": {
+                "ca": "Vertader",
+                "es": "Verdadero"
+              }
+            },
+            {
+              "value": "F",
+              "label": {
+                "ca": "Fals",
+                "es": "Falso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "question": {
+            "ca": "Aliments i productes químics poden tenir normes específiques.",
+            "es": "Alimentos y productos químicos pueden tener normas específicas."
+          },
+          "type": "choice",
+          "answer": "V",
+          "options": [
+            {
+              "value": "V",
+              "label": {
+                "ca": "Vertader",
+                "es": "Verdadero"
+              }
+            },
+            {
+              "value": "F",
+              "label": {
+                "ca": "Fals",
+                "es": "Falso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "e",
+          "question": {
+            "ca": "Tots els productes tenen exactament les mateixes dades obligatòries.",
+            "es": "Todos los productos tienen exactamente los mismos datos obligatorios."
+          },
+          "type": "choice",
+          "answer": "F",
+          "options": [
+            {
+              "value": "V",
+              "label": {
+                "ca": "Vertader",
+                "es": "Verdadero"
+              }
+            },
+            {
+              "value": "F",
+              "label": {
+                "ca": "Fals",
+                "es": "Falso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "f",
+          "question": {
+            "ca": "Un codi de barres intern es pot vincular al sistema de gestió.",
+            "es": "Un código de barras interno puede vincularse al sistema de gestión."
+          },
+          "type": "choice",
+          "answer": "V",
+          "options": [
+            {
+              "value": "V",
+              "label": {
+                "ca": "Vertader",
+                "es": "Verdadero"
+              }
+            },
+            {
+              "value": "F",
+              "label": {
+                "ca": "Fals",
+                "es": "Falso"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "007",
+      "title": {
+        "ca": "Tipus de magatzem i seguretat",
+        "es": "Tipos de almacén y seguridad"
+      },
+      "reference": {
+        "ca": "Classifica el magatzem i determina si les afirmacions sobre seguretat són vertaderes. (PDF p. 22–24)",
+        "es": "Clasifica el almacén y determina si las afirmaciones sobre seguridad son verdaderas. (PDF pp. 22–24)"
+      },
+      "source": {
+        "file": "UF0519_U3_03_Magatzem_i_seguretat_Exercicis.docx",
+        "pages": [
+          22,
+          24
+        ]
+      },
+      "fields": [
+        {
+          "id": "a",
+          "question": {
+            "ca": "Guarda productes acabats per distribuir.",
+            "es": "Guarda productos terminados para distribuir."
+          },
+          "type": "choice",
+          "answer": "finished",
+          "options": [
+            {
+              "value": "raw",
+              "label": {
+                "ca": "Matèries primeres",
+                "es": "Materias primas"
+              }
+            },
+            {
+              "value": "finished",
+              "label": {
+                "ca": "Productes acabats",
+                "es": "Productos terminados"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "question": {
+            "ca": "Abasteix una zona des d’un centre regional.",
+            "es": "Abastece una zona desde un centro regional."
+          },
+          "type": "choice",
+          "answer": "regional",
+          "options": [
+            {
+              "value": "central",
+              "label": {
+                "ca": "Central",
+                "es": "Central"
+              }
+            },
+            {
+              "value": "regional",
+              "label": {
+                "ca": "Regional",
+                "es": "Regional"
+              }
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "question": {
+            "ca": "Manté temperatura baixa controlada.",
+            "es": "Mantiene temperatura baja controlada."
+          },
+          "type": "choice",
+          "answer": "cold",
+          "options": [
+            {
+              "value": "general",
+              "label": {
+                "ca": "General",
+                "es": "General"
+              }
+            },
+            {
+              "value": "cold",
+              "label": {
+                "ca": "Refrigerat",
+                "es": "Refrigerado"
+              }
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "question": {
+            "ca": "És un recinte sota coberta.",
+            "es": "Es un recinto bajo cubierta."
+          },
+          "type": "choice",
+          "answer": "covered",
+          "options": [
+            {
+              "value": "covered",
+              "label": {
+                "ca": "Cobert",
+                "es": "Cubierto"
+              }
+            },
+            {
+              "value": "outside",
+              "label": {
+                "ca": "A l’aire lliure",
+                "es": "Al aire libre"
+              }
+            }
+          ]
+        },
+        {
+          "id": "e",
+          "question": {
+            "ca": "Es poden deixar caixes davant d’una sortida d’emergència.",
+            "es": "Pueden dejarse cajas ante una salida de emergencia."
+          },
+          "type": "choice",
+          "answer": "F",
+          "options": [
+            {
+              "value": "V",
+              "label": {
+                "ca": "Vertader",
+                "es": "Verdadero"
+              }
+            },
+            {
+              "value": "F",
+              "label": {
+                "ca": "Fals",
+                "es": "Falso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "f",
+          "question": {
+            "ca": "Les càrregues s’han de col·locar de manera estable i segura.",
+            "es": "Las cargas deben colocarse de forma estable y segura."
+          },
+          "type": "choice",
+          "answer": "V",
+          "options": [
+            {
+              "value": "V",
+              "label": {
+                "ca": "Vertader",
+                "es": "Verdadero"
+              }
+            },
+            {
+              "value": "F",
+              "label": {
+                "ca": "Fals",
+                "es": "Falso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "g",
+          "question": {
+            "ca": "Temperatura i humitat han de ser adequades al producte.",
+            "es": "Temperatura y humedad deben adecuarse al producto."
+          },
+          "type": "choice",
+          "answer": "V",
+          "options": [
+            {
+              "value": "V",
+              "label": {
+                "ca": "Vertader",
+                "es": "Verdadero"
+              }
+            },
+            {
+              "value": "F",
+              "label": {
+                "ca": "Fals",
+                "es": "Falso"
+              }
+            }
+          ]
+        },
+        {
+          "id": "h",
+          "question": {
+            "ca": "La neteja i el manteniment són innecessaris si hi ha espai lliure.",
+            "es": "La limpieza y el mantenimiento son innecesarios si hay espacio libre."
+          },
+          "type": "choice",
+          "answer": "F",
+          "options": [
+            {
+              "value": "V",
+              "label": {
+                "ca": "Vertader",
+                "es": "Verdadero"
+              }
+            },
+            {
+              "value": "F",
+              "label": {
+                "ca": "Fals",
+                "es": "Falso"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "008",
+      "title": {
+        "ca": "Organització i preparació de comandes",
+        "es": "Organización y preparación de pedidos"
+      },
+      "reference": {
+        "ca": "Ubicació fixa: espai reservat per referència. Variable: espai compatible lliure, registrat sempre. Picking: selecció i recollida d’articles per preparar la comanda. (PDF p. 26)",
+        "es": "Ubicación fija: espacio reservado por referencia. Variable: espacio compatible disponible, siempre registrado. Picking: selección y recogida de artículos para preparar el pedido. (PDF p. 26)"
+      },
+      "source": {
+        "file": "UF0519_U3_04_Organitzacio_rotacio_i_trasllats_Exercicis.docx",
+        "pages": [
+          26,
+          26
+        ]
+      },
+      "fields": [
+        {
+          "id": "a",
+          "question": {
+            "ca": "Cada referència té sempre una ubicació concreta.",
+            "es": "Cada referencia tiene siempre una ubicación concreta."
+          },
+          "type": "choice",
+          "answer": "Fixa",
+          "options": [
+            {
+              "value": "Fixa",
+              "label": {
+                "ca": "Fixa",
+                "es": "Fija"
+              }
+            },
+            {
+              "value": "Variable",
+              "label": {
+                "ca": "Variable",
+                "es": "Variable"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "question": {
+            "ca": "S’assigna un espai disponible i es registra al sistema.",
+            "es": "Se asigna un espacio disponible y se registra en el sistema."
+          },
+          "type": "choice",
+          "answer": "Variable",
+          "options": [
+            {
+              "value": "Fixa",
+              "label": {
+                "ca": "Fixa",
+                "es": "Fija"
+              }
+            },
+            {
+              "value": "Variable",
+              "label": {
+                "ca": "Variable",
+                "es": "Variable"
+              }
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "question": {
+            "ca": "Sense unitats, l’espai reservat queda buit.",
+            "es": "Sin unidades, el espacio reservado queda vacío."
+          },
+          "type": "choice",
+          "answer": "Fixa",
+          "options": [
+            {
+              "value": "Fixa",
+              "label": {
+                "ca": "Fixa",
+                "es": "Fija"
+              }
+            },
+            {
+              "value": "Variable",
+              "label": {
+                "ca": "Variable",
+                "es": "Variable"
+              }
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "question": {
+            "ca": "Una referència pot ocupar espais diferents registrats.",
+            "es": "Una referencia puede ocupar espacios distintos registrados."
+          },
+          "type": "choice",
+          "answer": "Variable",
+          "options": [
+            {
+              "value": "Fixa",
+              "label": {
+                "ca": "Fixa",
+                "es": "Fija"
+              }
+            },
+            {
+              "value": "Variable",
+              "label": {
+                "ca": "Variable",
+                "es": "Variable"
+              }
+            }
+          ]
+        },
+        {
+          "id": "pick",
+          "question": {
+            "ca": "Què és el picking?",
+            "es": "¿Qué es el picking?"
+          },
+          "type": "choice",
+          "answer": "pick",
+          "options": [
+            {
+              "value": "value",
+              "label": {
+                "ca": "Valorar comptablement existències",
+                "es": "Valorar contablemente existencias"
+              }
+            },
+            {
+              "value": "pick",
+              "label": {
+                "ca": "Seleccionar i recollir productes per preparar una comanda",
+                "es": "Seleccionar y recoger productos para preparar un pedido"
+              }
+            },
+            {
+              "value": "discard",
+              "label": {
+                "ca": "Destruir mercaderies caducades",
+                "es": "Destruir mercancías caducadas"
+              }
+            }
+          ]
+        },
+        {
+          "id": "log",
+          "question": {
+            "ca": "En ubicacions variables podem prescindir del registre d’ubicacions?",
+            "es": "¿En ubicaciones variables podemos prescindir del registro de ubicaciones?"
+          },
+          "type": "choice",
+          "answer": "no",
+          "options": [
+            {
+              "value": "si",
+              "label": {
+                "ca": "Sí",
+                "es": "Sí"
+              }
+            },
+            {
+              "value": "no",
+              "label": {
+                "ca": "No",
+                "es": "No"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "009",
+      "title": {
+        "ca": "Rotació física: FIFO, FEFO i LIFO",
+        "es": "Rotación física: FIFO, FEFO y LIFO"
+      },
+      "reference": {
+        "ca": "Operació el 10/10/2026: lots A, B i C tenen 30 unitats i són vigents. A: entrada 01/10/2026, caducitat 30/06/2027. B: entrada 03/10/2026, caducitat 31/03/2027. C: entrada 05/10/2026, caducitat 31/12/2027. Cada mètode parteix de la mateixa situació inicial. (PDF p. 27)",
+        "es": "Operación el 10/10/2026: los lotes A, B y C tienen 30 unidades y están vigentes. A: entrada 01/10/2026, caducidad 30/06/2027. B: entrada 03/10/2026, caducidad 31/03/2027. C: entrada 05/10/2026, caducidad 31/12/2027. Cada método parte de la misma situación inicial. (PDF p. 27)"
+      },
+      "source": {
+        "file": "UF0519_U3_04_Organitzacio_rotacio_i_trasllats_Exercicis.docx",
+        "pages": [
+          27,
+          27
+        ]
+      },
+      "fields": [
+        {
+          "id": "fifo",
+          "question": {
+            "ca": "Quin lot surt primer segons FIFO?",
+            "es": "¿Qué lote sale primero según FIFO?"
+          },
+          "type": "choice",
+          "answer": "A",
+          "options": [
+            {
+              "value": "A",
+              "label": {
+                "ca": "Lot A",
+                "es": "Lote A"
+              }
+            },
+            {
+              "value": "B",
+              "label": {
+                "ca": "Lot B",
+                "es": "Lote B"
+              }
+            },
+            {
+              "value": "C",
+              "label": {
+                "ca": "Lot C",
+                "es": "Lote C"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fefo",
+          "question": {
+            "ca": "Quin lot surt primer segons FEFO?",
+            "es": "¿Qué lote sale primero según FEFO?"
+          },
+          "type": "choice",
+          "answer": "B",
+          "options": [
+            {
+              "value": "A",
+              "label": {
+                "ca": "Lot A",
+                "es": "Lote A"
+              }
+            },
+            {
+              "value": "B",
+              "label": {
+                "ca": "Lot B",
+                "es": "Lote B"
+              }
+            },
+            {
+              "value": "C",
+              "label": {
+                "ca": "Lot C",
+                "es": "Lote C"
+              }
+            }
+          ]
+        },
+        {
+          "id": "lifo",
+          "question": {
+            "ca": "Quin lot surt primer segons LIFO?",
+            "es": "¿Qué lote sale primero según LIFO?"
+          },
+          "type": "choice",
+          "answer": "C",
+          "options": [
+            {
+              "value": "A",
+              "label": {
+                "ca": "Lot A",
+                "es": "Lote A"
+              }
+            },
+            {
+              "value": "B",
+              "label": {
+                "ca": "Lot B",
+                "es": "Lote B"
+              }
+            },
+            {
+              "value": "C",
+              "label": {
+                "ca": "Lot C",
+                "es": "Lote C"
+              }
+            }
+          ]
+        },
+        {
+          "id": "pgc",
+          "question": {
+            "ca": "Quins mètodes preveu el PGC per a existències intercanviables?",
+            "es": "¿Qué métodos contempla el PGC para existencias intercambiables?"
+          },
+          "type": "choice",
+          "answer": "fifo-pmp",
+          "options": [
+            {
+              "value": "lifo-fefo",
+              "label": {
+                "ca": "LIFO i FEFO",
+                "es": "LIFO y FEFO"
+              }
+            },
+            {
+              "value": "fifo-pmp",
+              "label": {
+                "ca": "Preu mitjà ponderat i FIFO",
+                "es": "Precio medio ponderado y FIFO"
+              }
+            },
+            {
+              "value": "fefo-only",
+              "label": {
+                "ca": "Només FEFO",
+                "es": "Solo FEFO"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "010",
+      "title": {
+        "ca": "Trasllats interns i equips de moviment",
+        "es": "Traslados internos y equipos de movimiento"
+      },
+      "reference": {
+        "ca": "80 caixes: A en té 50 i B en té 30. Es traslladen 25 d’A a B, sense entrades o sortides externes. Càrrega de 400 kg: capacitat mínima 400 kg i amplada màxima 0,90 m. Equip X: 300 kg i 0,70 m; Y: 600 kg i 0,80 m; Z: 600 kg i 1,10 m. (PDF p. 28–29)",
+        "es": "80 cajas: A tiene 50 y B tiene 30. Se trasladan 25 de A a B, sin entradas o salidas externas. Carga de 400 kg: capacidad mínima 400 kg y ancho máximo 0,90 m. Equipo X: 300 kg y 0,70 m; Y: 600 kg y 0,80 m; Z: 600 kg y 1,10 m. (PDF pp. 28–29)"
+      },
+      "source": {
+        "file": "UF0519_U3_04_Organitzacio_rotacio_i_trasllats_Exercicis.docx",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "fields": [
+        {
+          "id": "a",
+          "question": {
+            "ca": "Caixes finals a la ubicació A.",
+            "es": "Cajas finales en la ubicación A."
+          },
+          "type": "number",
+          "answer": "25",
+          "hint": {
+            "ca": "50 − 25",
+            "es": "50 − 25"
+          }
+        },
+        {
+          "id": "b",
+          "question": {
+            "ca": "Caixes finals a la ubicació B.",
+            "es": "Cajas finales en la ubicación B."
+          },
+          "type": "number",
+          "answer": "55",
+          "hint": {
+            "ca": "30 + 25",
+            "es": "30 + 25"
+          }
+        },
+        {
+          "id": "sum",
+          "question": {
+            "ca": "Total final al magatzem.",
+            "es": "Total final en el almacén."
+          },
+          "type": "number",
+          "answer": "80",
+          "hint": {
+            "ca": "El trasllat intern no altera l’estoc total.",
+            "es": "El traslado interno no altera el stock total."
+          }
+        },
+        {
+          "id": "equipment",
+          "question": {
+            "ca": "Quin equip compleix els dos requisits?",
+            "es": "¿Qué equipo cumple los dos requisitos?"
+          },
+          "type": "choice",
+          "answer": "Y",
+          "options": [
+            {
+              "value": "X",
+              "label": {
+                "ca": "Equip X",
+                "es": "Equipo X"
+              }
+            },
+            {
+              "value": "Y",
+              "label": {
+                "ca": "Equip Y",
+                "es": "Equipo Y"
+              }
+            },
+            {
+              "value": "Z",
+              "label": {
+                "ca": "Equip Z",
+                "es": "Equipo Z"
+              }
+            }
+          ]
+        },
+        {
+          "id": "evac",
+          "question": {
+            "ca": "En magatzems compactes, les vies d’evacuació…",
+            "es": "En almacenes compactos, las vías de evacuación…"
+          },
+          "type": "choice",
+          "answer": "free",
+          "options": [
+            {
+              "value": "occupied",
+              "label": {
+                "ca": "Es poden ocupar amb mercaderies",
+                "es": "Pueden ocuparse con mercancías"
+              }
+            },
+            {
+              "value": "none",
+              "label": {
+                "ca": "Desapareixen sempre",
+                "es": "Desaparecen siempre"
+              }
+            },
+            {
+              "value": "free",
+              "label": {
+                "ca": "Han de quedar lliures d’obstacles",
+                "es": "Deben permanecer libres de obstáculos"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "011",
+      "title": {
+        "ca": "Muntem una oficina — Tràmit Blau, SL",
+        "es": "Montamos una oficina — Tràmit Blau, SL"
+      },
+      "source": {
+        "file": "Excel oficina.xlsx",
+        "sheet": "Oficina",
+        "rows": [
+          5,
+          25
+        ]
+      },
+      "type": "office",
+      "reference": {
+        "ca": "21 línies extretes de la plantilla original, amb les mateixes categories. Perquè el càlcul es pugui fer sense sortir de la web, s'ofereix un catàleg de preus i quantitats SIMULATS, editables i amb IVA inclòs. No són ofertes ni enllaços comercials reals.",
+        "es": "21 líneas extraídas de la plantilla original, con las mismas categorías. Para poder realizar el cálculo sin salir de la web, se ofrece un catálogo de precios y cantidades SIMULADOS, editables y con IVA incluido. No son ofertas ni enlaces comerciales reales."
+      },
+      "products": [
+        {
+          "id": 1,
+          "name": {
+            "ca": "Taules de treball",
+            "es": "Mesas de trabajo"
+          },
+          "classification": "NF",
+          "quantity": 2,
+          "price": 165,
+          "model": {
+            "ca": "Referència didàctica 01",
+            "es": "Referencia didáctica 01"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 2,
+          "name": {
+            "ca": "Cadires de treball",
+            "es": "Sillas de trabajo"
+          },
+          "classification": "NF",
+          "quantity": 2,
+          "price": 79,
+          "model": {
+            "ca": "Referència didàctica 02",
+            "es": "Referencia didáctica 02"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 3,
+          "name": {
+            "ca": "Cadires de visita",
+            "es": "Sillas de visita"
+          },
+          "classification": "NF",
+          "quantity": 3,
+          "price": 49,
+          "model": {
+            "ca": "Referència didàctica 03",
+            "es": "Referencia didáctica 03"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 4,
+          "name": {
+            "ca": "Armari per a documents",
+            "es": "Armario para documentos"
+          },
+          "classification": "NF",
+          "quantity": 1,
+          "price": 189,
+          "model": {
+            "ca": "Referència didàctica 04",
+            "es": "Referencia didáctica 04"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 5,
+          "name": {
+            "ca": "Prestatgeria",
+            "es": "Estantería"
+          },
+          "classification": "NF",
+          "quantity": 2,
+          "price": 86,
+          "model": {
+            "ca": "Referència didàctica 05",
+            "es": "Referencia didáctica 05"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 6,
+          "name": {
+            "ca": "Impressora multifunció",
+            "es": "Impresora multifunción"
+          },
+          "classification": "NF",
+          "quantity": 1,
+          "price": 229,
+          "model": {
+            "ca": "Referència didàctica 06",
+            "es": "Referencia didáctica 06"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 7,
+          "name": {
+            "ca": "Suport per a la impressora",
+            "es": "Soporte para la impresora"
+          },
+          "classification": "NF",
+          "quantity": 1,
+          "price": 45,
+          "model": {
+            "ca": "Referència didàctica 07",
+            "es": "Referencia didáctica 07"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 8,
+          "name": {
+            "ca": "Carpetes arxivadores de palanca",
+            "es": "Archivadores de palanca"
+          },
+          "classification": "NF",
+          "quantity": 12,
+          "price": 3.8,
+          "model": {
+            "ca": "Referència didàctica 08",
+            "es": "Referencia didáctica 08"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 9,
+          "name": {
+            "ca": "Safates de sobretaula",
+            "es": "Bandejas de sobremesa"
+          },
+          "classification": "NF",
+          "quantity": 4,
+          "price": 7.5,
+          "model": {
+            "ca": "Referència didàctica 09",
+            "es": "Referencia didáctica 09"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 10,
+          "name": {
+            "ca": "Papereres",
+            "es": "Papeleras"
+          },
+          "classification": "NF",
+          "quantity": 3,
+          "price": 8.5,
+          "model": {
+            "ca": "Referència didàctica 10",
+            "es": "Referencia didáctica 10"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 11,
+          "name": {
+            "ca": "Grapadora",
+            "es": "Grapadora"
+          },
+          "classification": "NF",
+          "quantity": 2,
+          "price": 11,
+          "model": {
+            "ca": "Referència didàctica 11",
+            "es": "Referencia didáctica 11"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 12,
+          "name": {
+            "ca": "Perforadora",
+            "es": "Perforadora"
+          },
+          "classification": "NF",
+          "quantity": 1,
+          "price": 12,
+          "model": {
+            "ca": "Referència didàctica 12",
+            "es": "Referencia didáctica 12"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 13,
+          "name": {
+            "ca": "Tisores",
+            "es": "Tijeras"
+          },
+          "classification": "NF",
+          "quantity": 2,
+          "price": 4,
+          "model": {
+            "ca": "Referència didàctica 13",
+            "es": "Referencia didáctica 13"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 14,
+          "name": {
+            "ca": "Paper A4",
+            "es": "Papel A4"
+          },
+          "classification": "F",
+          "quantity": 8,
+          "price": 4.6,
+          "model": {
+            "ca": "Referència didàctica 14",
+            "es": "Referencia didáctica 14"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 15,
+          "name": {
+            "ca": "Bolígrafs",
+            "es": "Bolígrafos"
+          },
+          "classification": "F",
+          "quantity": 24,
+          "price": 0.85,
+          "model": {
+            "ca": "Referència didàctica 15",
+            "es": "Referencia didáctica 15"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 16,
+          "name": {
+            "ca": "Llapis",
+            "es": "Lápices"
+          },
+          "classification": "F",
+          "quantity": 12,
+          "price": 0.45,
+          "model": {
+            "ca": "Referència didàctica 16",
+            "es": "Referencia didáctica 16"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 17,
+          "name": {
+            "ca": "Retoladors fluorescents",
+            "es": "Rotuladores fluorescentes"
+          },
+          "classification": "F",
+          "quantity": 10,
+          "price": 1.2,
+          "model": {
+            "ca": "Referència didàctica 17",
+            "es": "Referencia didáctica 17"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 18,
+          "name": {
+            "ca": "Grapes",
+            "es": "Grapas"
+          },
+          "classification": "F",
+          "quantity": 6,
+          "price": 1.7,
+          "model": {
+            "ca": "Referència didàctica 18",
+            "es": "Referencia didáctica 18"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 19,
+          "name": {
+            "ca": "Cinta adhesiva",
+            "es": "Cinta adhesiva"
+          },
+          "classification": "F",
+          "quantity": 6,
+          "price": 2,
+          "model": {
+            "ca": "Referència didàctica 19",
+            "es": "Referencia didáctica 19"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 20,
+          "name": {
+            "ca": "Etiquetes adhesives",
+            "es": "Etiquetas adhesivas"
+          },
+          "classification": "F",
+          "quantity": 5,
+          "price": 3.6,
+          "model": {
+            "ca": "Referència didàctica 20",
+            "es": "Referencia didáctica 20"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        },
+        {
+          "id": 21,
+          "name": {
+            "ca": "Recanvi de tinta o tòner negre",
+            "es": "Recambio de tinta o tóner negro"
+          },
+          "classification": "F",
+          "quantity": 2,
+          "price": 45,
+          "model": {
+            "ca": "Referència didàctica 21",
+            "es": "Referencia didáctica 21"
+          },
+          "supplier": {
+            "ca": "Catàleg simulat",
+            "es": "Catálogo simulado"
+          }
+        }
+      ]
+    }
+  ]
+}

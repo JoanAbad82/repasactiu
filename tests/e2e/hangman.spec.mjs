@@ -9,8 +9,8 @@ test('el penjat usa conceptes verificats, funciona en català i canvia a castell
   await expect(page.locator('.hangman-definition')).not.toBeEmpty();
   await expect(page.locator('.hangman-keyboard button')).toHaveCount(27);
   await expect(page.locator('.hangman-drawing')).toBeVisible();
-  await expect(page.locator('.hangman-summary')).toContainText('308 conceptes disponibles');
-  await expect(page.locator('[data-hangman-filter] option')).toHaveCount(18);
+  await expect(page.locator('.hangman-summary')).toContainText('322 conceptes disponibles');
+  await expect(page.locator('[data-hangman-filter] option')).toHaveCount(19);
 
   const firstId=await page.locator('[data-hangman-entry]').getAttribute('data-hangman-entry');
   page.once('dialog',async dialog=>{
@@ -21,7 +21,7 @@ test('el penjat usa conceptes verificats, funciona en català i canvia a castell
   await expect(page.getByRole('heading',{name:'Ahorcado de conceptos'})).toBeVisible();
   await expect(page.locator('[data-hangman-entry]')).toHaveAttribute('data-hangman-entry',firstId);
   await expect(page.locator('.hangman-keyboard button')).toHaveCount(27);
-  await expect(page.locator('.hangman-summary')).toContainText('308 conceptos disponibles');
+  await expect(page.locator('.hangman-summary')).toContainText('322 conceptos disponibles');
 });
 
 test('cancel·lar el canvi d’idioma conserva la ronda i el progrés',async({page})=>{
@@ -111,11 +111,11 @@ test('una paraula llarga es compacta en mòbil sense desbordar ni partir-se',asy
 });
 
 
-test('el penjat cobreix els 17 blocs publicats i Actius i passius té contingut propi',async({page})=>{
+test('el penjat cobreix els 18 blocs publicats i Actius i passius té contingut propi',async({page})=>{
   await page.goto('/');
   await page.locator('#hangman-card').click();
   const filter=page.locator('[data-hangman-filter]');
-  await expect(filter.locator('option')).toHaveCount(18);
+  await expect(filter.locator('option')).toHaveCount(19);
   await filter.selectOption('uf0519-bloc-6');
   await expect(page.locator('.hangman-summary')).toContainText('6 conceptes disponibles');
   await expect(page.locator('[data-hangman-entry]')).toHaveCount(1);

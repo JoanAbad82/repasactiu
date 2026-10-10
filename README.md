@@ -14,7 +14,7 @@ Plataforma web pública, bilingüe i gratuïta de suport a l'estudi del curs **O
 - Revisió de preguntes fallades, explicacions i ajudes de memòria.
 - Targetes de memòria amb resposta i mnemotècnica.
 - Diccionari organitzat per famílies de conceptes i llistes clau.
-- Exemples pràctics de correspondència, documents administratius, nòmines i tresoreria.
+- Exemples pràctics de correspondència, documents administratius, nòmines, tresoreria i UF0519 Unitat 3: material d'oficina i gestió d'existències (11 activitats amb 61 respostes guiades i pressupost d'oficina editable de 21 articles).
 - Joc del penjat amb conceptes del curs.
 - Interfície en català i castellà, mode clar/fosc i adaptació a dispositius mòbils.
 - Progrés i preferències desats al navegador amb `localStorage`; sense comptes ni servidor d'usuari.
@@ -28,6 +28,8 @@ Els recomptes vigents de preguntes, targetes i conceptes es deriven dels bancs p
 3. La traducció castellana conserva els identificadors i els índexs de resposta correcta.
 4. Les dades de traçabilitat a `docs/content/` documenten la relació entre materials de referència i contingut.
 5. Els validadors comproven estructura, traducció, codificació, cronologia, qualitat editorial i traçabilitat.
+
+**UF0519 · Unitat 3:** les activitats estan traçades al PDF oficial i als quatre fulls DOCX; la plantilla Excel d'oficina s'ha convertit en un exercici amb els mateixos 21 materials. Com que la plantilla no incloïa preus ni ofertes de botigues, els imports i proveïdors de l'activitat són **dades didàctiques simulades**, identificades explícitament i editables. No són cotitzacions reals. Les operacions i respostes es resolen sense calculadores ni fonts externes.
 
 La documentació d'agent `AGENTS.md` i l'estat `PROJECT_STATUS.json` estableixen els límits de producció i recerca. Les propostes de `repasactiu-research-intake` no es publiquen automàticament.
 

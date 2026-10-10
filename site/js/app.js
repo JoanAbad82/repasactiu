@@ -123,19 +123,20 @@ function openConceptDictionary(){
 }
 function openCommercialCorrespondence(){
  return openLearningTool('correspondence','commercial-correspondence-screen','examples',async()=>{
-  const [correspondence,practicals,administrative,treasury]=await Promise.all([
+  const [correspondence,practicals,administrative,treasury,stock]=await Promise.all([
    import('./commercial-correspondence.js'),
    import('./practical-examples.js'),
    import('./administrative-exercises.js'),
-   import('./treasury-practice.js')
+   import('./treasury-practice.js'),
+   import('./stock-exercises.js')
   ]);
-  const [correspondenceBank,payrollBank,administrativeBank,treasuryBank]=await Promise.all([
+  const [correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank]=await Promise.all([
    correspondence.loadCommercialCorrespondence(),practicals.loadPayrollExample(),
-   administrative.loadAdministrativeExercises(),treasury.loadTreasuryPractice()
+   administrative.loadAdministrativeExercises(),treasury.loadTreasuryPractice(),stock.loadStockExercises()
   ]);
-  return {create:practicals.createPracticalExamples,correspondenceBank,payrollBank,administrativeBank,treasuryBank};
+  return {create:practicals.createPracticalExamples,correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank};
  },feature=>{
-  correspondenceView=feature.create({screen:els.correspondence,correspondenceBank:feature.correspondenceBank,payrollBank:feature.payrollBank,administrativeBank:feature.administrativeBank,treasuryBank:feature.treasuryBank,language:language(),onHome:goHome});
+  correspondenceView=feature.create({screen:els.correspondence,correspondenceBank:feature.correspondenceBank,payrollBank:feature.payrollBank,administrativeBank:feature.administrativeBank,treasuryBank:feature.treasuryBank,stockBank:feature.stockBank,language:language(),onHome:goHome});
  },openCommercialCorrespondence);
 }
 function openHangman(){
