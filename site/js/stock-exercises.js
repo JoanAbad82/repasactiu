@@ -103,8 +103,8 @@ export function renderStockExercisesHtml(bank,language="ca",state=createStockExe
 }
 export function bindStockExercises({root,bank,language="ca",state,rerender}){
  const exercise=bank.exercises.find(e=>e.id===state.selected);
- root.querySelectorAll('[data-stock-exercise]').forEach(b=>b.addEventListener('click',()=>{state.selected=b.dataset.stockExercise;state.checked=false;persist(state);rerender();}));
- root.querySelector('[data-stock-back]')?.addEventListener('click',()=>{state.selected="";state.checked=false;persist(state);rerender();});
+ root.querySelectorAll('[data-stock-exercise]').forEach(b=>b.addEventListener('click',()=>{state.selected=b.dataset.stockExercise;state.checked=false;persist(state);rerender();root.querySelector('.stock-head')?.scrollIntoView({block:'start'});}));
+ root.querySelector('[data-stock-back]')?.addEventListener('click',()=>{state.selected="";state.checked=false;persist(state);rerender();root.querySelector('.stock-head')?.scrollIntoView({block:'start'});});
  if(!exercise)return;
  root.querySelector('[data-stock-reset]')?.addEventListener('click',()=>{
   if(exercise.type==="office")state.office={};

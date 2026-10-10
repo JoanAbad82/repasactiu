@@ -49,6 +49,21 @@ test("la simulació d'oficina calcula les 21 línies sense eines externes",async
  await expect(page.locator(".stock-office-final")).toContainText("21/21");
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
 });
+test("en mòbil les activitats s'obren des de l'inici i no a mig document",async({page})=>{
+ await page.setViewportSize({width:390,height:844});
+ await page.goto("/");
+ await expect(page.getByText("1036 preguntes")).toBeVisible();
+ await page.locator("#home-shortcut-examples").click();
+ await page.locator('[data-practical-category="stock"]').click();
+ await page.locator('[data-stock-exercise="011"]').scrollIntoViewIfNeeded();
+ await page.locator('[data-stock-exercise="011"]').click();
+ await expect(page.locator(".stock-head h2")).toBeInViewport();
+ expect(await page.evaluate(()=>window.scrollY)).toBeGreaterThan(0);
+ await page.locator("[data-stock-back]").click();
+ await expect(page.locator(".stock-head h2")).toBeInViewport();
+ expect(await page.evaluate(()=>window.scrollY)).toBeGreaterThan(0);
+});
+
 test("la categoria d'existències es tradueix al castellà i recupera el progrés",async({page})=>{
  await page.goto("/");
  await expect(page.getByText("1036 preguntes")).toBeVisible();
