@@ -37,10 +37,13 @@ for(const width of widths){
 }
 test("decoració sense alterar la semàntica ni fer peticions externes",async({page})=>{
  const requests=[];
- page.on("request",r=>{if(!r.url().startsWith("http://127.0.0.1:4173"))requests.push(r.url())});
+ page.on("request",r=>requests.push(r.url()));
  await page.goto("/");
  await expect(page.getByText("1036 preguntes")).toBeVisible();
- expect(requests).toEqual([]);
+ const origin=new URL(page.url()).origin;
+ // Cloudflare Web Analytics és preexistent a producció, no forma part de la decoració.
+ const existingAnalytics=new Set(["static.cloudflareinsights.com","cloudflareinsights.com"]);
+ expect(requests.filter(url=>{const u=new URL(url);return u.origin!==origin&&!existingAnalytics.has(u.hostname)})).toEqual([]);
  await expect(page.getByRole("button",{name:"Obrir diccionari"})).toBeVisible();
  await expect(page.getByRole("button",{name:"Obrir exemples pràctics"})).toBeVisible();
 });
