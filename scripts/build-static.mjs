@@ -16,6 +16,7 @@ for(const rel of [
   'css/navigation-polish.css',
   'css/stock-exercises.css',
   'css/aesthetic-polish.css',
+  'css/academic-details.css',
   'js/stock-exercises.js',
   'data/stock-exercises-u3-v1.json',
   'data/uf0519_unitat_3_bloc_1.json',
