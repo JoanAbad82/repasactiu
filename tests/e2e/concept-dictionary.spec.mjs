@@ -1,13 +1,13 @@
-import {test,expect} from '@playwright/test';
+﻿import {test,expect} from '@playwright/test';
 
-test('el diccionari mostra 150 conceptes agrupats en 18 famílies pedagògiques',async({page})=>{
+test('el diccionari mostra 156 conceptes agrupats en 18 famílies pedagògiques',async({page})=>{
   await page.goto('/');
   await page.locator('#home-shortcut-dictionary').click();
   await expect(page.getByRole('heading',{name:'Diccionari de conceptes clau'})).toBeVisible();
-  await expect(page.locator('[data-concept-id]')).toHaveCount(150);
+  await expect(page.locator('[data-concept-id]')).toHaveCount(156);
   await expect(page.locator('[data-concept-family]')).toHaveCount(18);
-  await expect(page.locator('[data-dictionary-count]')).toHaveText('150');
-  await expect(page.getByText('150 conceptes')).toBeVisible();
+  await expect(page.locator('[data-dictionary-count]')).toHaveText('156');
+  await expect(page.getByText('156 conceptes')).toBeVisible();
 });
 
 test('l’ordre inicial és conceptual i manté junts els conceptes relacionats',async({page})=>{
@@ -68,7 +68,7 @@ test('el diccionari canvia íntegrament a castellà i conserva el filtre',async(
   await expect(page.locator('[data-concept-id]')).toHaveCount(7);
   await expect(page.locator('[data-concept-family="written-communication"]')).toBeVisible();
   await expect(page.locator('[data-concept-id="uf-canal-codi"]')).toContainText('Canal vs. código');
-  await expect(page.locator('[data-concept-id="uf-canal-codi"]')).toContainText('Recuerda');
+  await expect(page.locator('[data-concept-id="uf-canal-codi"]')).toContainText('Truco de memoria');
 });
 
 test('el diccionari mostra la traçabilitat de pàgina',async({page})=>{
@@ -120,7 +120,7 @@ test('UF0519 incorpora conceptes de documents, facturació i nòmina',async({pag
   await page.goto('/');
   await page.locator('#home-shortcut-dictionary').click();
   await page.locator('[data-dictionary-filter]').selectOption('uf0519-bloc-2');
-  await expect(page.locator('[data-concept-id]')).toHaveCount(8);
+  await expect(page.locator('[data-concept-id]')).toHaveCount(11);
   await expect(page.locator('[data-concept-id="uf519-albara"]')).toContainText('Albarà');
   await expect(page.locator('[data-concept-id="uf519-iva-repercutit-suportat"]')).toBeVisible();
   await page.locator('#language-es').click();
@@ -133,9 +133,9 @@ test('el diccionari identifica la tècnica mnemotècnica quan està definida',as
   await page.locator('#home-shortcut-dictionary').click();
   await page.locator('[data-dictionary-search]').fill('qualitat del text');
   const entry=page.locator('[data-concept-id="uf-qualitat-text"]');
-  await expect(entry).toContainText('Recorda · 4C + P');
+  await expect(entry).toContainText('Truc de memòria · 4C + P');
   await expect(entry).toContainText('claredat, concisió, correcció, coherència/cohesió + precisió');
   await page.locator('[data-dictionary-mode="lists"]').click();
   await page.locator('[data-dictionary-search]').fill('bon text professional');
-  await expect(page.locator('[data-key-list-id="uf1-bon-text"]')).toContainText('Recorda · 4C + P');
+  await expect(page.locator('[data-key-list-id="uf1-bon-text"]')).toContainText('Truc de memòria · 4C + P');
 });

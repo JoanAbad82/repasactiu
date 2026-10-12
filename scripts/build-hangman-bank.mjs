@@ -235,6 +235,8 @@ export async function buildHangmanBank(){
   for(const block of course.blocks||[]){
     for(const candidate of perBlock.get(block.id)?.values()||[])entries.push(candidate);
   }
+  const overrides={"topic:b2-063":["Quin criteri classifica empreses segons si el capital és públic, privat o mixt?","¿Qué criterio clasifica empresas según si el capital es público, privado o mixto?"],"topic:uf0518-b2-062":["Conjunt de mesures per tractar dades personals conforme al RGPD i la LOPDGDD.","Conjunto de medidas para tratar datos personales conforme al RGPD y la LOPDGDD."],"topic:uf0518-b3-036":["Deure d’evitar que persones no autoritzades accedeixin a documents o dades.","Deber de impedir que personas no autorizadas accedan a documentos o datos."],"topic:uf0519-b2-018":["Tipus de factura amb menys requisits de contingut, admès en determinats supòsits.","Tipo de factura con menos requisitos de contenido, admitido en determinados supuestos."]};
+  for(const entry of entries){if(overrides[entry.id]){entry.ca.hint=overrides[entry.id][0];entry.es.hint=overrides[entry.id][1]}}
   const byBlock=Object.fromEntries((course.blocks||[]).map(block=>[block.id,entries.filter(e=>e.blockId===block.id).length]));
   const byKind={};
   for(const entry of entries)byKind[entry.kind]=(byKind[entry.kind]||0)+1;
@@ -242,7 +244,7 @@ export async function buildHangmanBank(){
 
   return {
     version:'2.0',
-    date:'2026-10-06',
+    date:'2026-10-12',
     languages:['ca','es'],
     count:entries.length,
     groups,

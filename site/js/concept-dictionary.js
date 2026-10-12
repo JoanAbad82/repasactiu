@@ -16,7 +16,8 @@ const COPY={
     all:'Tots els blocs',
     results:'conceptes',
     listResults:'llistes',
-    memory:'Recorda',
+    memory:'Truc de memòria',
+    example:'Exemple pràctic',
     source:'Font',
     family:'Família conceptual',
     listFamily:'Família de llistes',
@@ -40,7 +41,8 @@ const COPY={
     all:'Todos los bloques',
     results:'conceptos',
     listResults:'listas',
-    memory:'Recuerda',
+    memory:'Truco de memoria',
+    example:'Ejemplo práctico',
     source:'Fuente',
     family:'Familia conceptual',
     listFamily:'Familia de listas',
@@ -139,7 +141,7 @@ export function filterConceptEntries(bank,{language='ca',query='',blockId='all'}
     .filter(entry=>{
       if(!q)return true;
       const localized=entry[lang]||{};
-      return normalize([localized.term,localized.definition,localized.memory,localized.technique].join(' ')).includes(q);
+      return normalize([localized.term,localized.definition,localized.example,localized.memory,localized.technique].join(' ')).includes(q);
     })
     .slice()
     .sort((a,b)=>{
@@ -203,6 +205,7 @@ function conceptEntryHtml(entry,lang,c){
       <span class="concept-source" title="${esc(c.source)}">${esc(sourceLabel(entry.source,lang))}</span>
     </div>
     <p class="concept-definition">${esc(item.definition)}</p>
+    ${item.example?`<p class="concept-example"><strong>${esc(c.example)}:</strong> ${esc(item.example)}</p>`:''}
     <p class="concept-memory"><strong>${esc(item.technique?`${c.memory} · ${item.technique}`:c.memory)}:</strong> ${esc(item.memory)}</p>
   </article>`;
 }
