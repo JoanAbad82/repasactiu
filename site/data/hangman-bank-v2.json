@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "date": "2026-10-06",
+  "date": "2026-10-12",
   "languages": [
     "ca",
     "es"
@@ -120,8 +120,8 @@
       "uf0519-unitat-3-bloc-1": 14
     },
     "byKind": {
-      "dictionary": 121,
-      "topic": 86,
+      "dictionary": 127,
+      "topic": 80,
       "named-question": 67,
       "ordered-list": 48
     }
@@ -563,12 +563,12 @@
       },
       "ca": {
         "term": "Tipus de capital",
-        "hint": "Mixta",
+        "hint": "Quin criteri classifica empreses segons si el capital és públic, privat o mixt?",
         "memory": "Mixta = capital públic + capital privat."
       },
       "es": {
         "term": "Tipo de capital",
-        "hint": "Mixta",
+        "hint": "¿Qué criterio clasifica empresas según si el capital es público, privado o mixto?",
         "memory": "Mixta = capital público + capital privado."
       }
     },
@@ -3127,12 +3127,12 @@
       },
       "ca": {
         "term": "Protecció de dades",
-        "hint": "RGPD i LOPDGDD",
+        "hint": "Conjunt de mesures per tractar dades personals conforme al RGPD i la LOPDGDD.",
         "memory": "Protecció de dades: RGPD + LOPDGDD."
       },
       "es": {
         "term": "Protección de datos",
-        "hint": "RGPD y LOPDGDD",
+        "hint": "Conjunto de medidas para tratar datos personales conforme al RGPD y la LOPDGDD.",
         "memory": "Protección de datos: RGPD + LOPDGDD."
       }
     },
@@ -3873,12 +3873,12 @@
       },
       "ca": {
         "term": "Confidencialitat",
-        "hint": "Quina actuació correspon abans d’arxivar documentació?",
+        "hint": "Deure d’evitar que persones no autoritzades accedeixin a documents o dades.",
         "memory": "Abans d’arxivar: destinatari, contingut, annexos, firma, data i confidencialitat."
       },
       "es": {
         "term": "Confidencialidad",
-        "hint": "¿Qué actuación corresponde antes de archivar documentación?",
+        "hint": "Deber de impedir que personas no autorizadas accedan a documentos o datos.",
         "memory": "Antes de archivar: destinatario, contenido, anexos, firma, fecha y confidencialidad."
       }
     },
@@ -4911,6 +4911,72 @@
       }
     },
     {
+      "id": "dict:uf0519-factura-simplificada",
+      "kind": "dictionary",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          31,
+          31
+        ]
+      },
+      "ca": {
+        "term": "Factura simplificada",
+        "hint": "Document de facturació amb requisits de contingut reduïts que s’utilitza en els supòsits previstos legalment.",
+        "memory": "Simplificada no significa sense factura: té dades obligatòries."
+      },
+      "es": {
+        "term": "Factura simplificada",
+        "hint": "Documento de facturación con requisitos de contenido reducidos utilizado en los supuestos previstos legalmente.",
+        "memory": "Simplificada no significa sin factura: tiene datos obligatorios."
+      }
+    },
+    {
+      "id": "dict:uf0519-factura-electronica",
+      "kind": "dictionary",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          35,
+          35
+        ]
+      },
+      "ca": {
+        "term": "Factura electrònica",
+        "hint": "Factura emesa i rebuda en format electrònic que ha de garantir autenticitat, integritat i llegibilitat.",
+        "memory": "A-I-L: autenticitat, integritat i llegibilitat."
+      },
+      "es": {
+        "term": "Factura electrónica",
+        "hint": "Factura expedida y recibida en formato electrónico que debe garantizar autenticidad, integridad y legibilidad.",
+        "memory": "A-I-L: autenticidad, integridad y legibilidad."
+      }
+    },
+    {
+      "id": "dict:uf0519-liquidacio-iva",
+      "kind": "dictionary",
+      "blockId": "uf0519-bloc-2",
+      "source": {
+        "id": "UF0519_U1",
+        "pages": [
+          42,
+          42
+        ]
+      },
+      "ca": {
+        "term": "Liquidació de l’IVA",
+        "hint": "Càlcul que compara l’IVA repercutit en vendes amb l’IVA suportat que és deduïble.",
+        "memory": "Vendes menys compres deduïbles: repercutit − suportat deduïble."
+      },
+      "es": {
+        "term": "Liquidación del IVA",
+        "hint": "Cálculo que compara el IVA repercutido en ventas con el IVA soportado que es deducible.",
+        "memory": "Ventas menos compras deducibles: repercutido − soportado deducible."
+      }
+    },
+    {
       "id": "topic:uf0519-b2-008",
       "kind": "topic",
       "blockId": "uf0519-bloc-2",
@@ -4956,30 +5022,6 @@
         "term": "Factura",
         "hint": "Acreditar una venta o prestación de servicio y justificar fiscalmente la operación",
         "memory": "Factura = prueba económica y fiscal."
-      }
-    },
-    {
-      "id": "topic:uf0519-b2-018",
-      "kind": "topic",
-      "blockId": "uf0519-bloc-2",
-      "questionId": "uf0519-b2-018",
-      "hintType": "answer",
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          31,
-          31
-        ]
-      },
-      "ca": {
-        "term": "Factura simplificada",
-        "hint": "400 € IVA inclòs",
-        "memory": "Simplificada: regla general del temari, 400 € IVA inclòs."
-      },
-      "es": {
-        "term": "Factura simplificada",
-        "hint": "400 € IVA incluido",
-        "memory": "Simplificada: regla general del temario, 400 € IVA incluido."
       }
     },
     {
@@ -5031,30 +5073,6 @@
       }
     },
     {
-      "id": "topic:uf0519-b2-024",
-      "kind": "topic",
-      "blockId": "uf0519-bloc-2",
-      "questionId": "uf0519-b2-024",
-      "hintType": "answer",
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          35,
-          35
-        ]
-      },
-      "ca": {
-        "term": "Factura electrònica",
-        "hint": "Autenticitat d’origen, integritat del contingut i llegibilitat",
-        "memory": "Electrònica: autèntica, íntegra i llegible."
-      },
-      "es": {
-        "term": "Factura electrónica",
-        "hint": "Autenticidad de origen, integridad del contenido y legibilidad",
-        "memory": "Electrónica: auténtica, íntegra y legible."
-      }
-    },
-    {
       "id": "topic:uf0519-b2-028",
       "kind": "topic",
       "blockId": "uf0519-bloc-2",
@@ -5076,30 +5094,6 @@
         "term": "Facturación y contabilidad",
         "hint": "Facturación es crear y gestionar facturas; contabilidad es registrarlas dentro de las cuentas de la empresa",
         "memory": "Facturación crea/gestiona; contabilidad registra económicamente."
-      }
-    },
-    {
-      "id": "topic:uf0519-b2-031",
-      "kind": "topic",
-      "blockId": "uf0519-bloc-2",
-      "questionId": "uf0519-b2-031",
-      "hintType": "answer",
-      "source": {
-        "id": "UF0519_U1",
-        "pages": [
-          42,
-          42
-        ]
-      },
-      "ca": {
-        "term": "Liquidació de l’IVA",
-        "hint": "IVA repercutit − IVA suportat deduïble",
-        "memory": "Liquidació = repercutit − suportat deduïble."
-      },
-      "es": {
-        "term": "Liquidación del IVA",
-        "hint": "IVA repercutido − IVA soportado deducible",
-        "memory": "Liquidación = repercutido − soportado deducible."
       }
     },
     {
@@ -5370,11 +5364,9 @@
       }
     },
     {
-      "id": "topic:uf0519-b3-012",
-      "kind": "topic",
+      "id": "dict:uf0519-bases-cotitzacio",
+      "kind": "dictionary",
       "blockId": "uf0519-bloc-3",
-      "questionId": "uf0519-b3-012",
-      "hintType": "answer",
       "source": {
         "id": "UF0519_U1",
         "pages": [
@@ -5384,13 +5376,13 @@
       },
       "ca": {
         "term": "Bases de cotització",
-        "hint": "Per calcular les aportacions a la Seguretat Social",
-        "memory": "Base de cotització = base de càlcul de les aportacions."
+        "hint": "Imports calculats segons les regles aplicables sobre els quals s’apliquen els tipus de cotització a la Seguretat Social.",
+        "memory": "Primer BASE, després TIPUS: base × percentatge."
       },
       "es": {
         "term": "Bases de cotización",
-        "hint": "Para calcular las aportaciones a la Seguridad Social",
-        "memory": "Base de cotización = base de cálculo de las aportaciones."
+        "hint": "Importes calculados según las reglas aplicables sobre los que se aplican los tipos de cotización a la Seguridad Social.",
+        "memory": "Primero BASE, después TIPO: base × porcentaje."
       }
     },
     {
@@ -7074,6 +7066,50 @@
       }
     },
     {
+      "id": "dict:uf0519-actiu-corrent",
+      "kind": "dictionary",
+      "blockId": "uf0519-bloc-6",
+      "source": {
+        "id": "UF0519_ACTIUS_PASSIUS",
+        "pages": [
+          3,
+          3
+        ]
+      },
+      "ca": {
+        "term": "Actiu corrent",
+        "hint": "Béns i drets que es preveu realitzar, vendre o consumir dins del cicle normal d’explotació o en el curt termini.",
+        "memory": "Corrent = circula durant el cicle habitual."
+      },
+      "es": {
+        "term": "Activo corriente",
+        "hint": "Bienes y derechos que se prevé realizar, vender o consumir en el ciclo normal de explotación o a corto plazo.",
+        "memory": "Corriente = circula durante el ciclo habitual."
+      }
+    },
+    {
+      "id": "dict:uf0519-passiu-corrent",
+      "kind": "dictionary",
+      "blockId": "uf0519-bloc-6",
+      "source": {
+        "id": "UF0519_ACTIUS_PASSIUS",
+        "pages": [
+          4,
+          4
+        ]
+      },
+      "ca": {
+        "term": "Passiu corrent",
+        "hint": "Obligació que s’espera liquidar en el cicle normal o que venç en un termini no superior a dotze mesos, entre altres supòsits.",
+        "memory": "Passiu = deure; corrent = venciment proper o cicle habitual."
+      },
+      "es": {
+        "term": "Pasivo corriente",
+        "hint": "Obligación que se espera liquidar en el ciclo normal o que vence en un plazo no superior a doce meses, entre otros supuestos.",
+        "memory": "Pasivo = deber; corriente = vencimiento próximo o ciclo habitual."
+      }
+    },
+    {
       "id": "topic:uf0519-b5-062",
       "kind": "topic",
       "blockId": "uf0519-bloc-6",
@@ -7122,30 +7158,6 @@
       }
     },
     {
-      "id": "topic:uf0519-b5-064",
-      "kind": "topic",
-      "blockId": "uf0519-bloc-6",
-      "questionId": "uf0519-b5-064",
-      "hintType": "question",
-      "source": {
-        "id": "UF0519_ACTIUS_PASSIUS",
-        "pages": [
-          3,
-          3
-        ]
-      },
-      "ca": {
-        "term": "Actiu corrent",
-        "hint": "Com es classifiquen les existències destinades a vendre’s durant el cicle habitual de l’empresa?",
-        "memory": "Existències: es venen en el cicle habitual → actiu corrent."
-      },
-      "es": {
-        "term": "Activo corriente",
-        "hint": "¿Cómo se clasifican las existencias destinadas a venderse durante el ciclo habitual de la empresa?",
-        "memory": "Existencias: se venden en el ciclo habitual → activo corriente."
-      }
-    },
-    {
       "id": "topic:uf0519-b5-065",
       "kind": "topic",
       "blockId": "uf0519-bloc-6",
@@ -7167,30 +7179,6 @@
         "term": "Activo no corriente",
         "hint": "¿Cómo se clasifica una máquina que la empresa utilizará en la producción durante varios años?",
         "memory": "Máquina que permanece años → activo no corriente."
-      }
-    },
-    {
-      "id": "topic:uf0519-b5-066",
-      "kind": "topic",
-      "blockId": "uf0519-bloc-6",
-      "questionId": "uf0519-b5-066",
-      "hintType": "question",
-      "source": {
-        "id": "UF0519_ACTIUS_PASSIUS",
-        "pages": [
-          4,
-          4
-        ]
-      },
-      "ca": {
-        "term": "Passiu corrent",
-        "hint": "Com es classifica un deute que venç exactament d’aquí a dotze mesos?",
-        "memory": "Dotze mesos inclosos → passiu corrent."
-      },
-      "es": {
-        "term": "Pasivo corriente",
-        "hint": "¿Cómo se clasifica una deuda que vence exactamente dentro de doce meses?",
-        "memory": "Doce meses incluidos → pasivo corriente."
       }
     },
     {

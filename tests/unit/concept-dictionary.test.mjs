@@ -75,11 +75,11 @@ test('renderConceptDictionaryHtml és bilingüe i mostra famílies, recordatori 
   assert.match(ca,/Família conceptual/);
   assert.match(ca,/Entitats/);
   assert.match(ca,/Organització/);
-  assert.match(ca,/Recorda:/);
+  assert.match(ca,/Truc de memòria:/);
   assert.match(ca,/B3 · p. 13/);
   const es=renderConceptDictionaryHtml(bank,{language:'es',query:'delegacion'});
   assert.match(es,/Diccionario de conceptos clave/);
   assert.match(es,/Familia conceptual/);
   assert.match(es,/Delegación/);
-  assert.match(es,/Recuerda:/);
+  assert.match(es,/Truco de memoria:/);
 });

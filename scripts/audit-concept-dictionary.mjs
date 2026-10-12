@@ -16,12 +16,13 @@ const EXPECTED={
   'uf0518-bloc-2':9,
   'uf0518-bloc-3':12,
   'uf0519-bloc-1':5,
-  'uf0519-bloc-2':8,
-  'uf0519-bloc-3':6,
+  'uf0519-bloc-2':11,
+  'uf0519-bloc-3':7,
   'uf0519-bloc-4':4,
   'uf0519-bloc-5':8,
   'uf0519-unitat-2-bloc-1':10,
-  'uf0519-unitat-2-bloc-2':22
+  'uf0519-unitat-2-bloc-2':22,
+  'uf0519-bloc-6':2
 };
 
 const EXPECTED_FAMILIES={
@@ -38,20 +39,20 @@ const EXPECTED_FAMILIES={
   'document-archive-management':['uf3-arxiu-documental','uf3-control-arxiu','uf3-classificar-arxivar','uf3-sistemes-classificacio','uf3-metadades','uf3-conservacio-mercantil-fiscal','uf2-rgpd-lopdgdd','uf2-proteccio-custodia','uf3-drets-persones'],
   'digital-office-communication':['uf3-pagina-lloc-web','uf3-estatica-dinamica','uf3-portals-web','uf3-transferencia-fitxers','uf2-cc-cco','uf3-phishing'],
   'administrative-documents-procedure':['uf519-document-administratiu','uf519-circuit-documental','uf519-registre-general-auxiliar','uf519-silenci-administratiu','uf519-resolucio-administrativa','uf519-informe','uf519-acta','uf519-certificat','uf519-memoria'],
-  'commercial-documents-invoicing':['uf519-pressupost','uf519-comanda','uf519-albara','uf519-factura-rectificativa','uf519-factura-recapitulativa','uf519-verifactu','uf519-iva-repercutit-suportat','uf519-rebut'],
-  'payroll-labour':['uf519-nomina','uf519-meritacions','uf519-deduccions','uf519-base-cotitzacio','uf519-salari-brut-net','uf519-ordre-treball'],
+  'commercial-documents-invoicing':['uf519-pressupost','uf519-comanda','uf519-albara','uf519-factura-rectificativa','uf519-factura-recapitulativa','uf519-verifactu','uf519-iva-repercutit-suportat','uf519-rebut','uf0519-factura-simplificada','uf0519-factura-electronica','uf0519-liquidacio-iva'],
+  'payroll-labour':['uf519-nomina','uf519-meritacions','uf519-deduccions','uf519-base-cotitzacio','uf519-salari-brut-net','uf519-ordre-treball','uf0519-bases-cotitzacio'],
   'administrative-software':['uf519-programari-facturacio','uf519-programari-nomines'],
-  'treasury-cash-inventory':['uf519-tresoreria','uf519-mitjans-pagament','uf519-arqueig-caixa','uf519-conciliacio-bancaria','uf519-fungible-no-fungible','uf519-stock-seguretat','uf519-pagament-anticipat','uf519-domiciliacio-bancaria','uf519-contra-reemborsament','uf519-xec-creuat','uf519-xec-conformat','uf519-endossament','uf519-transferencia-bancaria','uf519-pagare','uf519-aval-bancari','uf519-pignoracio','uf519-llibre-auxiliar-caixa','uf519-descompte-comercial','uf519-factoring','uf519-asseguranca-credit','uf519-factoring-recurs','uf519-factoring-sense-recurs','uf519-confirming','uf519-saldo-real','uf519-saldo-teoric','uf519-quadrament-caixa','uf519-desquadrament-caixa','uf519-llibre-auxiliar-bancs','uf519-carrec','uf519-abonament','uf519-confidencialitat-tresoreria','uf519-datafon','uf519-tpv-compacte','uf519-tpv-modular','uf519-tpv-virtual','uf519-banca-electronica','uf519-comerc-electronic','uf519-passarella-pagament']
+  'treasury-cash-inventory':['uf519-tresoreria','uf519-mitjans-pagament','uf519-arqueig-caixa','uf519-conciliacio-bancaria','uf519-fungible-no-fungible','uf519-stock-seguretat','uf519-pagament-anticipat','uf519-domiciliacio-bancaria','uf519-contra-reemborsament','uf519-xec-creuat','uf519-xec-conformat','uf519-endossament','uf519-transferencia-bancaria','uf519-pagare','uf519-aval-bancari','uf519-pignoracio','uf519-llibre-auxiliar-caixa','uf519-descompte-comercial','uf519-factoring','uf519-asseguranca-credit','uf519-factoring-recurs','uf519-factoring-sense-recurs','uf519-confirming','uf519-saldo-real','uf519-saldo-teoric','uf519-quadrament-caixa','uf519-desquadrament-caixa','uf519-llibre-auxiliar-bancs','uf519-carrec','uf519-abonament','uf519-confidencialitat-tresoreria','uf519-datafon','uf519-tpv-compacte','uf519-tpv-modular','uf519-tpv-virtual','uf519-banca-electronica','uf519-comerc-electronic','uf519-passarella-pagament','uf0519-actiu-corrent','uf0519-passiu-corrent']
 };
 
 EXPECTED['uf0519-unitat-3-bloc-1']=12;
 EXPECTED_FAMILIES['inventory-warehouse-logistics']=['u3-bastidor','u3-expedient-compra','u3-fitxer-informatic','u3-etiqueta-interna','u3-punt-comanda','u3-ubicacio-fixa','u3-ubicacio-variable','u3-picking','u3-fifo','u3-fefo','u3-lifo','u3-trasllat-intern'];
-const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:31,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22,UF0519_U2_TRESORERIA:41,UF0519_U2_TRESORERIA_B2:52,UF0519_U3_STOCK:29};
+const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:31,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22,UF0519_U2_TRESORERIA:41,UF0519_U2_TRESORERIA_B2:52,UF0519_U3_STOCK:29,UF0519_ACTIUS_PASSIUS:6};
 const errors=[];
 
 if(bank.version!==1)errors.push('version != 1');
-if(bank.count!==150)errors.push('count != 150');
-if(!Array.isArray(bank.entries)||bank.entries.length!==150)errors.push('entries != 150');
+if(bank.count!==156)errors.push('count != 150');
+if(!Array.isArray(bank.entries)||bank.entries.length!==156)errors.push('entries != 150');
 if(!Array.isArray(bank.groups)||bank.groups.length!==17)errors.push('groups != 17');
 if(!Array.isArray(bank.families)||bank.families.length!==18)errors.push('families != 17');
 if(!Array.isArray(bank.languages)||bank.languages.join(',')!=='ca,es')errors.push('languages must be ca,es');
@@ -100,8 +101,8 @@ for(const family of bank.families||[]){
   else if(JSON.stringify(family.entryIds)!==JSON.stringify(expected))errors.push('family order/membership mismatch '+family.id);
   assigned.push(...family.entryIds);
 }
-if(assigned.length!==150)errors.push('family assignments != 150');
-if(new Set(assigned).size!==150)errors.push('family assignments contain duplicates');
+if(assigned.length!==156)errors.push('family assignments != 150');
+if(new Set(assigned).size!==156)errors.push('family assignments contain duplicates');
 for(const id of ids){
   if(!assigned.includes(id))errors.push('unassigned concept '+id);
 }
@@ -121,7 +122,7 @@ for(const blockId of Object.keys(counts)){
 
 if(errors.length)throw new Error('CONCEPT_DICTIONARY_AUDIT=FAIL\n- '+errors.join('\n- '));
 console.log('CONCEPT_DICTIONARY_AUDIT=PASS');
-console.log('CONCEPTS=150');
+console.log('CONCEPTS=156');
 console.log('BLOCK_COUNTS='+JSON.stringify(counts));
 console.log('LANGUAGES=ca,es');
 console.log('CONCEPT_FAMILIES=18');
