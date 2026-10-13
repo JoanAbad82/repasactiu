@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "scope": "UF0519 new classroom materials",
+  "files": [
+    {
+      "file": "3_Gestio i control basic d´existencies_bloc 2.pdf",
+      "pages": 39,
+      "sha256": "d804d37a09aa04067d860277ea8252d534838676fed396a906e1505c1f1b3df9"
+    },
+    {
+      "file": "Exercicis_Inventari.docx",
+      "pages": 3,
+      "sha256": "329d8f60ef3e68a00f19833cd4f059adac6566aa7fb40f266ff631a85897fa5d"
+    },
+    {
+      "file": "Plantilla_llibre_auxiliar de caixa(1).xlsx",
+      "sheet": "Llibre de caixa",
+      "sha256": "c107cea256ecf1279c66490a6fafd468b862dde834e57774e4a7742082948473"
+    },
+    {
+      "file": "Plantilla_llibre_auxiliar_bancs(1).xlsx",
+      "sheet": "Llibre de bancs",
+      "sha256": "d6b04fbcf783c3edbfa259bddf00c61cac3fd246a998835fa53d55a234fa90c3"
+    },
+    {
+      "file": "Actividad_busqueda_anuncios_y_exposicion(1).docx",
+      "pages": 3,
+      "sha256": "7600315e5de366907e6a1735723daf8125766e5fda8ee4fe7a7df378f9b5e289"
+    }
+  ],
+  "review": {
+    "status": "source-grounded",
+    "note": "Derived practice only; original teacher documents are not republished. For PDF page 24 the plus sign in rotation is inconsistent with its definition and example; corrected to division."
+  },
+  "inventoryFinalChecks": [
+    {
+      "id": "001",
+      "expectedFinal": [
+        57,
+        12,
+        18,
+        37
+      ]
+    },
+    {
+      "id": "002",
+      "expectedFinal": [
+        21,
+        75,
+        14,
+        19
+      ]
+    },
+    {
+      "id": "003",
+      "expectedFinal": [
+        24,
+        33,
+        24,
+        10
+      ]
+    }
+  ]
+}

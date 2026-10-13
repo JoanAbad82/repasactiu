@@ -25,11 +25,12 @@ const expected={
   'uf0519-unitat-2-bloc-1':{count:30,last:'uf0519-b5-061'},
   'uf0519-unitat-2-bloc-2':{count:41,last:'uf0519-u2b2-041'},
   'uf0519-bloc-6':{count:20,last:'uf0519-b6-012'},
-  'uf0519-unitat-3-bloc-1':{count:27,last:'uf0519-u3b1-027'}
+  'uf0519-unitat-3-bloc-1':{count:27,last:'uf0519-u3b1-027'},
+  'uf0519-unitat-3-bloc-2':{count:19,last:'uf0519-u3b2-019'}
 };
 const readData=async p=>JSON.parse(await readFile(path.join(dataDir,p.replace(/^data\//,'')),'utf8'));
 
-test('el catàleg publica 1036 preguntes amb UF0519 Unitats 1, 2 i 3 separades',async()=>{
+test('el catàleg publica 1055 preguntes amb UF0519 Unitats 1, 2 i 3 separades',async()=>{
   let total=0;
   for(const block of course.blocks){
     const questions=[];
@@ -41,7 +42,7 @@ test('el catàleg publica 1036 preguntes amb UF0519 Unitats 1, 2 i 3 separades',
     assert.ok(questions.some(q=>q.id===expected[block.id].last),`${block.id}: falta ${expected[block.id].last}`);
     total+=questions.length;
   }
-  assert.equal(total,1036);
+  assert.equal(total,1055);
 });
 
 test('totes les preguntes publicades existeixen també al Mode Examen difícil',async()=>{

@@ -1,0 +1,233 @@
+{
+  "blockId": "uf0519-unitat-3-bloc-2",
+  "questions": {
+    "uf0519-u3b2-001": {
+      "ca": [
+        "La data i el justificant, sense les quantitats reals",
+        "Les quantitats previstes a la comanda, sense registrar la recepció",
+        "El saldo agregat del mes, sense identificar operacions"
+      ],
+      "es": [
+        "La fecha y el justificante, sin las cantidades reales",
+        "Las cantidades previstas en el pedido, sin registrar la recepción",
+        "El saldo agregado del mes, sin identificar operaciones"
+      ]
+    },
+    "uf0519-u3b2-002": {
+      "ca": [
+        "12 paquets i una anotació verbal de la incidència",
+        "10 paquets més 2 pendents sumats a l’estoc disponible",
+        "10 paquets sense comunicar la diferència amb la comanda"
+      ],
+      "es": [
+        "12 paquetes y una anotación verbal de la incidencia",
+        "10 paquetes más 2 pendientes sumados al stock disponible",
+        "10 paquetes sin comunicar la diferencia respecto al pedido"
+      ]
+    },
+    "uf0519-u3b2-003": {
+      "ca": [
+        "Emmagatzemar palets en altura amb les forquilles esteses",
+        "Remuntar desnivells pronunciats sense revisar el recorregut",
+        "Fer servir l’equip sense revisar-ne l’estat i la capacitat"
+      ],
+      "es": [
+        "Almacenar palés en altura con las horquillas extendidas",
+        "Superar pendientes pronunciadas sin revisar el recorrido",
+        "Utilizar el equipo sin revisar su estado y capacidad"
+      ]
+    },
+    "uf0519-u3b2-004": {
+      "ca": [
+        "Haver utilitzat un transpalet manual sense formació addicional",
+        "Tenir una ordre de feina, encara que es desconegui el límit de càrrega",
+        "Confiar en el contrapès sense comprovar l’estabilitat del palet"
+      ],
+      "es": [
+        "Haber utilizado una transpaleta manual sin formación adicional",
+        "Tener una orden de trabajo aunque se desconozca el límite de carga",
+        "Confiar en el contrapeso sin comprobar la estabilidad del palé"
+      ]
+    },
+    "uf0519-u3b2-005": {
+      "ca": [
+        "Sortida a A sense identificar-ne el destí",
+        "Entrada a B sense documentar la baixa a A",
+        "Ajustar les existències totals en 8 unitats addicionals"
+      ],
+      "es": [
+        "Salida en A sin identificar el destino",
+        "Entrada en B sin documentar la baja en A",
+        "Ajustar las existencias totales en 8 unidades adicionales"
+      ]
+    },
+    "uf0519-u3b2-006": {
+      "ca": [
+        "El preu de venda sense conèixer quantitats físiques",
+        "La quantitat comptada sense determinar el cost aplicable",
+        "El valor previst sense verificar les unitats disponibles"
+      ],
+      "es": [
+        "El precio de venta sin conocer cantidades físicas",
+        "La cantidad contada sin determinar el coste aplicable",
+        "El valor previsto sin verificar las unidades disponibles"
+      ]
+    },
+    "uf0519-u3b2-007": {
+      "ca": [
+        "Regularitzar la diferència sense autorització de la persona responsable",
+        "Atribuir el desquadre a una pèrdua desconeguda i tancar-lo",
+        "Anotar la quantitat física i eliminar el justificant anterior"
+      ],
+      "es": [
+        "Regularizar la diferencia sin autorización de la persona responsable",
+        "Atribuir el descuadre a una pérdida desconocida y cerrarlo",
+        "Anotar la cantidad física y borrar el justificante anterior"
+      ]
+    },
+    "uf0519-u3b2-008": {
+      "ca": [
+        "2,50 € perquè només es pondera la compra més antiga",
+        "30 € perquè el cost conjunt no es divideix per les unitats",
+        "40 € perquè es considera el preu de l’última compra"
+      ],
+      "es": [
+        "2,50 € porque solo se pondera la compra más antigua",
+        "30 € porque el coste conjunto no se divide entre unidades",
+        "40 € porque se considera el precio de la última compra"
+      ]
+    },
+    "uf0519-u3b2-009": {
+      "ca": [
+        "FIFO perquè prioritza unitats antigues",
+        "PMP perquè exigeix dividir costos i quantitats",
+        "Cost de producció quan el bé s’ha fabricat"
+      ],
+      "es": [
+        "FIFO porque prioriza unidades antiguas",
+        "PMP porque exige dividir costes y cantidades",
+        "Coste de producción cuando el bien se ha fabricado"
+      ]
+    },
+    "uf0519-u3b2-010": {
+      "ca": [
+        "Generar una comanda idèntica sense revisar les pendents",
+        "Esperar a la ruptura encara que el subministrament trigui",
+        "Consultar el cost unitari però no el termini de lliurament"
+      ],
+      "es": [
+        "Generar un pedido idéntico sin revisar los pendientes",
+        "Esperar a la rotura aunque el suministro tarde",
+        "Consultar el coste unitario pero no el plazo de entrega"
+      ]
+    },
+    "uf0519-u3b2-011": {
+      "ca": [
+        "Validar la suma final sense detectar un moviment duplicat",
+        "Considerar equivalents caixes i unitats sense conversió",
+        "Editar una fórmula sense contrastar el justificant"
+      ],
+      "es": [
+        "Validar la suma final sin detectar un movimiento duplicado",
+        "Considerar equivalentes cajas y unidades sin conversión",
+        "Modificar una fórmula sin contrastar el justificante"
+      ]
+    },
+    "uf0519-u3b2-012": {
+      "ca": [
+        "Agrupar-los a la mateixa categoria perquè tenen ubicació física",
+        "Classificar segons el volum sense atendre la naturalesa del bé",
+        "Considerar la cadira fungible per un possible desgast"
+      ],
+      "es": [
+        "Agruparlos en la misma categoría porque tienen ubicación física",
+        "Clasificar según el volumen sin atender a la naturaleza del bien",
+        "Considerar la silla fungible por su posible desgaste"
+      ]
+    },
+    "uf0519-u3b2-013": {
+      "ca": [
+        "0,33 vegades perquè s’inverteix el quocient",
+        "3 paquets per dia sense conèixer els dies de consum",
+        "90 vegades perquè s’utilitzen les sortides sense estoc mitjà"
+      ],
+      "es": [
+        "0,33 veces porque se invierte el cociente",
+        "3 paquetes por día sin conocer los días de consumo",
+        "90 veces porque se usan las salidas sin stock medio"
+      ]
+    },
+    "uf0519-u3b2-014": {
+      "ca": [
+        "3 dies perquè es considera el consum i no l’estoc",
+        "36 dies perquè s’ignora el consum diari",
+        "9 dies perquè es resta el consum a l’estoc"
+      ],
+      "es": [
+        "3 días porque se considera el consumo y no el stock",
+        "36 días porque se ignora el consumo diario",
+        "9 días porque se resta el consumo al stock"
+      ]
+    },
+    "uf0519-u3b2-015": {
+      "ca": [
+        "Els assentaments de totes les àrees sense detall logístic",
+        "El disseny comercial dels productes sense registrar ubicacions",
+        "La selecció de proveïdors com a únic registre de la cadena"
+      ],
+      "es": [
+        "Los asientos de todas las áreas sin detalle logístico",
+        "El diseño comercial de los productos sin registrar ubicaciones",
+        "La selección de proveedores como único registro de la cadena"
+      ]
+    },
+    "uf0519-u3b2-016": {
+      "ca": [
+        "L’ERP controla les ubicacions físiques com a única funció",
+        "L’SGA substitueix tots els mòduls de comptabilitat i personal",
+        "No poden intercanviar dades perquè tenen finalitats diferents"
+      ],
+      "es": [
+        "El ERP controla las ubicaciones físicas como única función",
+        "El SGA sustituye todos los módulos de contabilidad y personal",
+        "No pueden intercambiar datos porque tienen finalidades diferentes"
+      ]
+    },
+    "uf0519-u3b2-017": {
+      "ca": [
+        "Exigeix que el lector vegi la superfície impresa de l’etiqueta",
+        "Confirma la recepció real sense cap operació al sistema",
+        "Equival a un inventari físic verificat sense recompte"
+      ],
+      "es": [
+        "Exige que el lector vea la superficie impresa de la etiqueta",
+        "Confirma la recepción real sin ninguna operación en el sistema",
+        "Equivale a un inventario físico verificado sin recuento"
+      ]
+    },
+    "uf0519-u3b2-018": {
+      "ca": [
+        "Determinar l’estat físic de l’article pel sol fet de llegir-lo",
+        "Registrar entrades sense confirmar-ne la quantitat rebuda",
+        "Eliminar el justificant de transport si la lectura és correcta"
+      ],
+      "es": [
+        "Determinar el estado físico del artículo solo por leerlo",
+        "Registrar entradas sin confirmar la cantidad recibida",
+        "Eliminar el justificante de transporte si la lectura es correcta"
+      ]
+    },
+    "uf0519-u3b2-019": {
+      "ca": [
+        "Quan les dades d’ubicació es deixen d’actualitzar",
+        "Quan s’instal·len robots sense avaluar l’espai i la càrrega",
+        "Quan l’estoc registrat no es contrasta amb el físic"
+      ],
+      "es": [
+        "Cuando los datos de ubicación dejan de actualizarse",
+        "Cuando se instalan robots sin evaluar espacio y carga",
+        "Cuando el stock registrado no se contrasta con el físico"
+      ]
+    }
+  }
+}

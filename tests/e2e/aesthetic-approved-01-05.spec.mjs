@@ -2,7 +2,7 @@ import {test,expect} from "@playwright/test";
 
 async function ready(page){
  await page.goto("/");
- await expect(page.getByText("1036 preguntes")).toBeVisible();
+ await expect(page.getByText("1055 preguntes")).toBeVisible();
 }
 const contrast=(rgb1,rgb2)=>{
  const channels=s=>(s.match(/[\d.]+/g)||[]).slice(0,3).map(Number).map(c=>{
@@ -31,7 +31,7 @@ for(const width of [390,800,1440]){
   await ready(page);
   await page.locator("#home-shortcut-examples").click();
   const nav=page.locator(".practical-tabs");
-  await expect(nav.locator("button")).toHaveCount(5);
+  await expect(nav.locator("button")).toHaveCount(6);
   const geometry=await nav.evaluate(el=>{
    const bounds=el.getBoundingClientRect();
    return {overflow:el.scrollWidth>el.clientWidth,buttons:[...el.querySelectorAll("button")].map(b=>{

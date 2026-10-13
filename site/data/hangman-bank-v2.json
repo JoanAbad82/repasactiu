@@ -5,7 +5,7 @@
     "ca",
     "es"
   ],
-  "count": 322,
+  "count": 327,
   "groups": [
     {
       "id": "bloc-1",
@@ -96,6 +96,11 @@
       "id": "uf0519-unitat-3-bloc-1",
       "ca": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 3 · Bloc 1 — Material d’oficina, aprovisionament i control d’existències",
       "es": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 3 · Bloque 1 — Material de oficina, aprovisionamiento y control de existencias"
+    },
+    {
+      "id": "uf0519-unitat-3-bloc-2",
+      "ca": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 3 · Bloc 2 — Gestió i control bàsic d’existències",
+      "es": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 3 · Bloque 2 — Gestión y control básico de existencias"
     }
   ],
   "stats": {
@@ -117,11 +122,12 @@
       "uf0519-unitat-2-bloc-1": 18,
       "uf0519-unitat-2-bloc-2": 29,
       "uf0519-bloc-6": 6,
-      "uf0519-unitat-3-bloc-1": 14
+      "uf0519-unitat-3-bloc-1": 14,
+      "uf0519-unitat-3-bloc-2": 5
     },
     "byKind": {
       "dictionary": 127,
-      "topic": 80,
+      "topic": 85,
       "named-question": 67,
       "ordered-list": 48
     }
@@ -7515,6 +7521,126 @@
         "term": "expediente administrativo",
         "hint": "Un conjunto ordenado de documentos vinculados al mismo asunto o procedimiento",
         "memory": "Expediente = documentos de un mismo caso."
+      }
+    },
+    {
+      "id": "topic:uf0519-u3b2-001",
+      "kind": "topic",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "questionId": "uf0519-u3b2-001",
+      "hintType": "answer",
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          4,
+          4
+        ]
+      },
+      "ca": {
+        "term": "Fitxa de magatzem",
+        "hint": "La data, el document i les unitats d’entrada o sortida",
+        "memory": "Moviment verificable = data + document + quantitat + saldo."
+      },
+      "es": {
+        "term": "Ficha de almacén",
+        "hint": "La fecha, el documento y las unidades de entrada o salida",
+        "memory": "Movimiento verificable = fecha + documento + cantidad + saldo."
+      }
+    },
+    {
+      "id": "topic:uf0519-u3b2-003",
+      "kind": "topic",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "questionId": "uf0519-u3b2-003",
+      "hintType": "answer",
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          8,
+          8
+        ]
+      },
+      "ca": {
+        "term": "Transpalet manual",
+        "hint": "Desplaçar horitzontalment un palet lleugerament elevat",
+        "memory": "Transpalet = transport horitzontal, no apilament."
+      },
+      "es": {
+        "term": "Transpaleta manual",
+        "hint": "Desplazar horizontalmente un palé ligeramente elevado",
+        "memory": "Transpaleta = transporte horizontal, no apilado."
+      }
+    },
+    {
+      "id": "topic:uf0519-u3b2-006",
+      "kind": "topic",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "questionId": "uf0519-u3b2-006",
+      "hintType": "answer",
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          13,
+          13
+        ]
+      },
+      "ca": {
+        "term": "Inventari valorat",
+        "hint": "Cost unitari i import total de cada article",
+        "memory": "Valorat = quantitat × cost unitari."
+      },
+      "es": {
+        "term": "Inventario valorado",
+        "hint": "Coste unitario e importe total de cada artículo",
+        "memory": "Valorado = cantidad × coste unitario."
+      }
+    },
+    {
+      "id": "topic:uf0519-u3b2-017",
+      "kind": "topic",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "questionId": "uf0519-u3b2-017",
+      "hintType": "answer",
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          30,
+          30
+        ]
+      },
+      "ca": {
+        "term": "RFID",
+        "hint": "Pot identificar etiquetes sense visió directa",
+        "memory": "RFID = radiofreqüència, sense línia de visió."
+      },
+      "es": {
+        "term": "RFID",
+        "hint": "Puede identificar etiquetas sin visión directa",
+        "memory": "RFID = radiofrecuencia, sin línea de visión."
+      }
+    },
+    {
+      "id": "topic:uf0519-u3b2-019",
+      "kind": "topic",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "questionId": "uf0519-u3b2-019",
+      "hintType": "answer",
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          35,
+          35
+        ]
+      },
+      "ca": {
+        "term": "Automatització",
+        "hint": "Quan s’adapta a la càrrega, el procés i es manté el control de seguretat",
+        "memory": "Tecnologia útil = procés correcte + dades fiables + seguretat."
+      },
+      "es": {
+        "term": "Automatización",
+        "hint": "Cuando se adapta a la carga, el proceso y se mantiene el control de seguridad",
+        "memory": "Tecnología útil = proceso correcto + datos fiables + seguridad."
       }
     }
   ]

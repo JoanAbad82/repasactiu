@@ -15,6 +15,8 @@ Plataforma web pública, bilingüe i gratuïta de suport a l'estudi del curs **O
 - Targetes de memòria amb resposta i mnemotècnica.
 - Diccionari organitzat per famílies de conceptes i llistes clau.
 - Exemples pràctics de correspondència, documents administratius, nòmines, tresoreria i UF0519 Unitat 3: material d'oficina i gestió d'existències (11 activitats amb 61 respostes guiades i pressupost d'oficina editable de 21 articles).
+- Nou bloc UF0519 Unitat 3 — gestió i control bàsic d’existències, amb 19 preguntes, traducció i traçabilitat al PDF de 39 pàgines.
+- Material nou d’octubre: tres casos guiats d’inventari amb saldos verificables, llibres de caixa i bancs interactius amb exportació CSV, i comparador didàctic de lloguer i compra.
 - Joc del penjat amb conceptes del curs.
 - Interfície en català i castellà, mode clar/fosc i adaptació a dispositius mòbils.
 - Progrés i preferències desats al navegador amb `localStorage`; sense comptes ni servidor d'usuari.

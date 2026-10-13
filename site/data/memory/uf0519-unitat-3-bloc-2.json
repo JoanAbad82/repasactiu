@@ -1,0 +1,100 @@
+{
+  "blockId": "uf0519-unitat-3-bloc-2",
+  "questions": {
+    "uf0519-u3b2-001": {
+      "type": "idea",
+      "ca": "Moviment verificable = data + document + quantitat + saldo.",
+      "es": "Movimiento verificable = fecha + documento + cantidad + saldo."
+    },
+    "uf0519-u3b2-002": {
+      "type": "idea",
+      "ca": "Rebut apte ≠ quantitat demanada.",
+      "es": "Recibido apto ≠ cantidad pedida."
+    },
+    "uf0519-u3b2-003": {
+      "type": "idea",
+      "ca": "Transpalet = transport horitzontal, no apilament.",
+      "es": "Transpaleta = transporte horizontal, no apilado."
+    },
+    "uf0519-u3b2-004": {
+      "type": "idea",
+      "ca": "Carretó = formació + càrrega estable + circulació segura.",
+      "es": "Carretilla = formación + carga estable + circulación segura."
+    },
+    "uf0519-u3b2-005": {
+      "type": "idea",
+      "ca": "A −8, B +8, total 0.",
+      "es": "A −8, B +8, total 0."
+    },
+    "uf0519-u3b2-006": {
+      "type": "idea",
+      "ca": "Valorat = quantitat × cost unitari.",
+      "es": "Valorado = cantidad × coste unitario."
+    },
+    "uf0519-u3b2-007": {
+      "type": "idea",
+      "ca": "Diferència → comprovar → investigar → autoritzar ajust.",
+      "es": "Diferencia → comprobar → investigar → autorizar ajuste."
+    },
+    "uf0519-u3b2-008": {
+      "type": "idea",
+      "ca": "PMP = cost total ÷ unitats totals.",
+      "es": "PMP = coste total ÷ unidades totales."
+    },
+    "uf0519-u3b2-009": {
+      "type": "idea",
+      "ca": "LIFO físic possible; LIFO comptable PGC no.",
+      "es": "LIFO físico posible; LIFO contable PGC no."
+    },
+    "uf0519-u3b2-010": {
+      "type": "idea",
+      "ca": "Punt de comanda ≠ duplicar comanda pendent.",
+      "es": "Punto de pedido ≠ duplicar pedido pendiente."
+    },
+    "uf0519-u3b2-011": {
+      "type": "idea",
+      "ca": "Fórmula + unitats + justificants + no duplicats.",
+      "es": "Fórmula + unidades + justificantes + sin duplicados."
+    },
+    "uf0519-u3b2-012": {
+      "type": "idea",
+      "ca": "Cadira duradora; paper consumible.",
+      "es": "Silla duradera; papel consumible."
+    },
+    "uf0519-u3b2-013": {
+      "type": "idea",
+      "ca": "Rotació = sortides ÷ estoc mitjà.",
+      "es": "Rotación = salidas ÷ stock medio."
+    },
+    "uf0519-u3b2-014": {
+      "type": "idea",
+      "ca": "Cobertura = unitats ÷ unitats/dia.",
+      "es": "Cobertura = unidades ÷ unidades/día."
+    },
+    "uf0519-u3b2-015": {
+      "type": "idea",
+      "ca": "SGA/WMS = operativa del magatzem.",
+      "es": "SGA/WMS = operativa del almacén."
+    },
+    "uf0519-u3b2-016": {
+      "type": "idea",
+      "ca": "ERP = empresa integrada; SGA = magatzem.",
+      "es": "ERP = empresa integrada; SGA = almacén."
+    },
+    "uf0519-u3b2-017": {
+      "type": "idea",
+      "ca": "RFID = radiofreqüència, sense línia de visió.",
+      "es": "RFID = radiofrecuencia, sin línea de visión."
+    },
+    "uf0519-u3b2-018": {
+      "type": "idea",
+      "ca": "Codi = identificació; registre = confirmació del moviment.",
+      "es": "Código = identificación; registro = confirmación del movimiento."
+    },
+    "uf0519-u3b2-019": {
+      "type": "idea",
+      "ca": "Tecnologia útil = procés correcte + dades fiables + seguretat.",
+      "es": "Tecnología útil = proceso correcto + datos fiables + seguridad."
+    }
+  }
+}

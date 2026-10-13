@@ -1,0 +1,12 @@
+.new-class-tabs,.new-class-subtabs{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.new-class-tabs button,.new-class-subtabs button{padding:.75rem;border:1px solid #999;border-radius:8px;background:transparent;color:inherit;cursor:pointer}
+.new-class-tabs button[aria-pressed="true"],.new-class-subtabs button[aria-pressed="true"]{outline:2px solid currentColor}
+.new-class-table-scroll{overflow-x:auto;max-width:100%}
+.stock-new-table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.95rem}
+.stock-new-table td,.stock-new-table th{padding:.6rem;border:1px solid #999;text-align:left;vertical-align:top}
+.stock-new-table input{width:100%;min-width:5rem;max-width:12rem;box-sizing:border-box;padding:.5rem}
+.stock-new-table td small{display:block;font-size:.78rem}
+.new-house-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:.75rem}
+.new-house-grid label{display:flex;flex-direction:column;gap:.5rem}
+.new-house-grid input{width:100%;box-sizing:border-box;padding:.65rem}
+.new-class-practice h3{margin-top:1.5rem}

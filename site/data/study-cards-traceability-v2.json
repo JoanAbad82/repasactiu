@@ -117,6 +117,10 @@
       "file": "3_Gestió i control bàsic d’existències.pdf",
       "pages": 29,
       "sha256": "06f89f17152e1cbd3b238ca019c95e815949606a6e775c484c486d1cef7710da"
+    },
+    "UF0519_U3_BLOC2_20261013": {
+      "file": "3_Gestio i control basic d´existencies_bloc 2.pdf",
+      "pages": 39
     }
   },
   "blockSources": {
@@ -137,7 +141,8 @@
     "uf0519-bloc-6": "UF0519_ACTIUS_PASSIUS",
     "uf0519-unitat-2-bloc-1": "UF0519_U2_TRESORERIA",
     "uf0519-unitat-2-bloc-2": "UF0519_U2_TRESORERIA_B2",
-    "uf0519-unitat-3-bloc-1": "UF0519_U3_STOCK"
+    "uf0519-unitat-3-bloc-1": "UF0519_U3_STOCK",
+    "uf0519-unitat-3-bloc-2": "UF0519_U3_BLOC2_20261013"
   },
   "topicRanges": {
     "bloc-1": {
@@ -3833,6 +3838,139 @@
       "pageRange": [
         29,
         29
+      ]
+    },
+    "uf0519-u3b2-001": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        4,
+        4
+      ]
+    },
+    "uf0519-u3b2-002": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        7,
+        7
+      ]
+    },
+    "uf0519-u3b2-003": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        8,
+        8
+      ]
+    },
+    "uf0519-u3b2-004": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0519-u3b2-005": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        10,
+        10
+      ]
+    },
+    "uf0519-u3b2-006": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        13,
+        13
+      ]
+    },
+    "uf0519-u3b2-007": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        14,
+        14
+      ]
+    },
+    "uf0519-u3b2-008": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    "uf0519-u3b2-009": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    "uf0519-u3b2-010": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        16,
+        16
+      ]
+    },
+    "uf0519-u3b2-011": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        19,
+        19
+      ]
+    },
+    "uf0519-u3b2-012": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0519-u3b2-013": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        24,
+        24
+      ]
+    },
+    "uf0519-u3b2-014": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        24,
+        24
+      ]
+    },
+    "uf0519-u3b2-015": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        27,
+        27
+      ]
+    },
+    "uf0519-u3b2-016": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        29,
+        29
+      ]
+    },
+    "uf0519-u3b2-017": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        30,
+        30
+      ]
+    },
+    "uf0519-u3b2-018": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        31,
+        31
+      ]
+    },
+    "uf0519-u3b2-019": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        35,
+        35
       ]
     }
   },
