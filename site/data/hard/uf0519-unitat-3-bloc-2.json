@@ -228,6 +228,222 @@
         "Cuando se instalan robots sin evaluar espacio y carga",
         "Cuando el stock registrado no se contrasta con el físico"
       ]
+    },
+    "uf0519-u3b2-020": {
+      "ca": [
+        "Es crea una entrada pendent sense incrementar l’estoc disponible",
+        "Es registra una baixa i una incidència del client",
+        "Es compensen quatre sortides antigues sense justificant"
+      ],
+      "es": [
+        "Se crea una entrada pendiente sin aumentar el stock disponible",
+        "Se registra una baja y una incidencia del cliente",
+        "Se compensan cuatro salidas antiguas sin justificante"
+      ]
+    },
+    "uf0519-u3b2-021": {
+      "ca": [
+        "La quantitat de la comanda original sense el destí de col·locació",
+        "La ubicació que tenia l’article el mes anterior",
+        "La destinació prevista sense identificar el punt de recollida"
+      ],
+      "es": [
+        "La cantidad del pedido original sin destino de ubicación",
+        "La ubicación del artículo del mes anterior",
+        "El destino previsto sin identificar el punto de recogida"
+      ]
+    },
+    "uf0519-u3b2-022": {
+      "ca": [
+        "153 bolígrafs, sumant caixes i contingut",
+        "100 bolígrafs, comptant dues caixes en lloc de tres",
+        "47 bolígrafs, restant caixes al contingut"
+      ],
+      "es": [
+        "153 bolígrafos, sumando cajas y contenido",
+        "100 bolígrafos, contando dos cajas en vez de tres",
+        "47 bolígrafos, restando cajas al contenido"
+      ]
+    },
+    "uf0519-u3b2-023": {
+      "ca": [
+        "Afegir les sortides posteriors i restar les entrades",
+        "Regularitzar el valor sense comprovar els moviments entre dates",
+        "Tancar amb el saldo d’una altra ubicació del mateix magatzem"
+      ],
+      "es": [
+        "Añadir las salidas posteriores y restar las entradas",
+        "Regularizar el valor sin comprobar movimientos entre fechas",
+        "Cerrar con el saldo de otra ubicación del mismo almacén"
+      ]
+    },
+    "uf0519-u3b2-024": {
+      "ca": [
+        "Pèrdua coneguda per simple desajust sense comprovació",
+        "Regularització automàtica sense investigar documents",
+        "Sortida autoritzada perquè el recompte és inferior"
+      ],
+      "es": [
+        "Pérdida conocida por mero descuadre sin comprobación",
+        "Regularización automática sin investigar documentos",
+        "Salida autorizada porque el recuento es inferior"
+      ]
+    },
+    "uf0519-u3b2-025": {
+      "ca": [
+        "121 €, perquè és el total del document de compra",
+        "100 € menys l’IVA de 21 €, sense altre ajust",
+        "21 €, perquè correspon a l’impost de la factura"
+      ],
+      "es": [
+        "121 €, porque es el total del documento de compra",
+        "100 € menos el IVA de 21 €, sin otro ajuste",
+        "21 €, porque corresponde al impuesto de la factura"
+      ]
+    },
+    "uf0519-u3b2-026": {
+      "ca": [
+        "18 € aplicant el preu mitjà ponderat de 3 €",
+        "22 € si es valoren cinc unitats noves primer",
+        "20 € per no separar les capes antigues i noves"
+      ],
+      "es": [
+        "18 € aplicando el precio medio ponderado de 3 €",
+        "22 € si se valoran cinco unidades nuevas primero",
+        "20 € por no separar las capas antiguas y nuevas"
+      ]
+    },
+    "uf0519-u3b2-027": {
+      "ca": [
+        "Actualitzar el saldo al final sense identificar les sortides",
+        "Anotar únicament els moviments superiors a una caixa",
+        "Comparar amb el registre del dia anterior sense conciliació"
+      ],
+      "es": [
+        "Actualizar el saldo al final sin identificar las salidas",
+        "Anotar únicamente los movimientos superiores a una caja",
+        "Comparar con el registro del día anterior sin conciliación"
+      ]
+    },
+    "uf0519-u3b2-028": {
+      "ca": [
+        "Donar per registrada l’entrada abans de definir-ne el tipus",
+        "Considerar l’article rebut malgrat no confirmar-ne la quantitat",
+        "Assumir que el sistema coneix el destí per la lectura de l’etiqueta"
+      ],
+      "es": [
+        "Dar por registrada la entrada antes de definir su tipo",
+        "Considerar el artículo recibido aunque no se confirme su cantidad",
+        "Suponer que el sistema conoce el destino por la lectura de la etiqueta"
+      ]
+    },
+    "uf0519-u3b2-029": {
+      "ca": [
+        "Només les existències totals de totes les referències",
+        "Les ubicacions previstes sense registrar trasllats reals",
+        "El proveïdor inicial sense constància dels moviments posteriors"
+      ],
+      "es": [
+        "Únicamente las existencias totales de todas las referencias",
+        "Las ubicaciones previstas sin registrar traslados reales",
+        "El proveedor inicial sin constancia de movimientos posteriores"
+      ]
+    },
+    "uf0519-u3b2-030": {
+      "ca": [
+        "Que llegeixi codis lineals encara que no admeti bidimensionals",
+        "Que pugui calcular preus sense identificar la referència",
+        "Que es pugui validar visualment el saldo sense llegir el codi"
+      ],
+      "es": [
+        "Que lea códigos lineales aunque no admita bidimensionales",
+        "Que pueda calcular precios sin identificar la referencia",
+        "Que pueda validarse visualmente el saldo sin leer el código"
+      ]
+    },
+    "uf0519-u3b2-031": {
+      "ca": [
+        "Reprendre l’operativa ignorant les entrades pendents",
+        "Confiar en l’últim saldo sense conciliar moviments manuals",
+        "Compartir credencials per accelerar la represa del sistema"
+      ],
+      "es": [
+        "Reanudar la operativa ignorando las entradas pendientes",
+        "Confiar en el último saldo sin conciliar movimientos manuales",
+        "Compartir credenciales para acelerar la reanudación del sistema"
+      ]
+    },
+    "uf0519-u3b2-032": {
+      "ca": [
+        "75 sobres sumant totes les operacions com a entrades",
+        "15 sobres restant també la recepció",
+        "48 sobres aplicant la sortida després de la recepció dues vegades"
+      ],
+      "es": [
+        "75 sobres sumando todas las operaciones como entradas",
+        "15 sobres restando también la recepción",
+        "48 sobres aplicando dos veces la salida tras la recepción"
+      ]
+    },
+    "uf0519-u3b2-033": {
+      "ca": [
+        "15 rotlles perquè es pren el saldo abans del lliurament",
+        "9 rotlles perquè es cancel·len totes les operacions",
+        "3 rotlles perquè es calcula la diferència entre moviments"
+      ],
+      "es": [
+        "15 rollos porque se toma el saldo anterior a la entrega",
+        "9 rollos porque se cancelan todas las operaciones",
+        "3 rollos porque se calcula la diferencia entre movimientos"
+      ]
+    },
+    "uf0519-u3b2-034": {
+      "ca": [
+        "93 fundes perquè falta registrar un lliurament",
+        "57 fundes perquè es descompta una sortida duplicada",
+        "40 fundes perquè s’ignora el saldo inicial"
+      ],
+      "es": [
+        "93 fundas porque falta registrar una entrega",
+        "57 fundas porque se descuenta una salida duplicada",
+        "40 fundas porque se ignora el saldo inicial"
+      ]
+    },
+    "uf0519-u3b2-035": {
+      "ca": [
+        "11 unitats perquè se suposa que entrada i sortida es neutralitzen",
+        "4 unitats perquè es descompta l’entrada posterior",
+        "15 unitats perquè s’omet una unitat del saldo inicial"
+      ],
+      "es": [
+        "11 unidades porque se supone que entrada y salida se anulan",
+        "4 unidades porque se descuenta la entrada posterior",
+        "15 unidades porque se omite una unidad del saldo inicial"
+      ]
+    },
+    "uf0519-u3b2-036": {
+      "ca": [
+        "33 llibretes perquè falta la primera sortida",
+        "15 llibretes perquè s’ignora la recepció",
+        "42 llibretes perquè no es resta l’últim lliurament"
+      ],
+      "es": [
+        "33 libretas porque falta la primera salida",
+        "15 libretas porque se ignora la recepción",
+        "42 libretas porque no se resta la última entrega"
+      ]
+    },
+    "uf0519-u3b2-037": {
+      "ca": [
+        "13 caixes perquè s’ignora el lliurament",
+        "8 caixes perquè es confonen entrades i sortides",
+        "0 caixes perquè es resten totes dues operacions"
+      ],
+      "es": [
+        "13 cajas porque se ignora la entrega",
+        "8 cajas porque se confunden entradas y salidas",
+        "0 cajas porque se restan ambas operaciones"
+      ]
     }
   }
 }

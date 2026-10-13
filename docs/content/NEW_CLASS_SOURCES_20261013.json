@@ -60,5 +60,31 @@
         10
       ]
     }
-  ]
+  ],
+  "extensionAudit": {
+    "date": "2026-10-13",
+    "mode": "single-controlled-batch",
+    "baseline": {
+      "questions": 1055,
+      "cards": 1139,
+      "blocks": 19
+    },
+    "addedQuestions": 20,
+    "addedCoreCards": 20,
+    "addedIndependentCards": 6,
+    "selection": {
+      "pdfApplication": 12,
+      "inventoryDocumentCases": 6,
+      "cashTemplateSynthetic": 1,
+      "bankTemplateSynthetic": 1
+    },
+    "rejectedAsRedundant": [
+      "PMP basic definition",
+      "LIFO exclusion under PGC",
+      "basic RFID definition",
+      "ERP versus SGA definition",
+      "generic inventory count"
+    ],
+    "evidencePolicy": "PDF page evidence, DOCX case statements, XLSX only column structure (synthetic numbers explicitly labelled); no extra questions from unrelated housing advertisements."
+  }
 }

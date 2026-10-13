@@ -9,7 +9,7 @@ test('el penjat usa conceptes verificats, funciona en català i canvia a castell
   await expect(page.locator('.hangman-definition')).not.toBeEmpty();
   await expect(page.locator('.hangman-keyboard button')).toHaveCount(27);
   await expect(page.locator('.hangman-drawing')).toBeVisible();
-  await expect(page.locator('.hangman-summary')).toContainText('327 conceptes disponibles');
+  await expect(page.locator('.hangman-summary')).toContainText('328 conceptes disponibles');
   await expect(page.locator('[data-hangman-filter] option')).toHaveCount(20);
 
   const firstId=await page.locator('[data-hangman-entry]').getAttribute('data-hangman-entry');
@@ -21,7 +21,7 @@ test('el penjat usa conceptes verificats, funciona en català i canvia a castell
   await expect(page.getByRole('heading',{name:'Ahorcado de conceptos'})).toBeVisible();
   await expect(page.locator('[data-hangman-entry]')).toHaveAttribute('data-hangman-entry',firstId);
   await expect(page.locator('.hangman-keyboard button')).toHaveCount(27);
-  await expect(page.locator('.hangman-summary')).toContainText('327 conceptos disponibles');
+  await expect(page.locator('.hangman-summary')).toContainText('328 conceptos disponibles');
 });
 
 test('cancel·lar el canvi d’idioma conserva la ronda i el progrés',async({page})=>{

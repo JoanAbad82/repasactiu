@@ -1,18 +1,18 @@
 import {test,expect} from '@playwright/test';
 
-test('Tarjetas de memoria mostra selector bilingüe amb 1139 targetes',async({page})=>{
+test('Tarjetas de memoria mostra selector bilingüe amb 1165 targetes',async({page})=>{
   await page.goto('/');
   await page.locator('#home-shortcut-study').click();
   await expect(page.locator('html')).toHaveAttribute('lang','ca');
   await expect(page.getByRole('heading',{name:'Targetes de memòria'})).toBeVisible();
-  await expect(page.getByText('1139 targetes disponibles')).toBeVisible();
+  await expect(page.getByText('1165 targetes disponibles')).toBeVisible();
   await expect(page.locator('[data-study-block]')).toHaveCount(19);
   await expect(page.locator('[data-study-unit="unitat-1"] h2')).toHaveText('Unitat 1 — Organització empresarial');
 
   await page.locator('#language-es').click();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.getByRole('heading',{name:'Tarjetas de memoria'})).toBeVisible();
-  await expect(page.getByText('1139 tarjetas disponibles')).toBeVisible();
+  await expect(page.getByText('1165 tarjetas disponibles')).toBeVisible();
   await expect(page.locator('[data-study-unit="unitat-1"] h2')).toHaveText('Unidad 1 — Organización empresarial');
 });
 
@@ -23,21 +23,21 @@ test('els recomptes per bloc inclouen test + extra',async({page})=>{
     'bloc-1':'66','bloc-2':'86','bloc-3':'86','bloc-4':'76','bloc-5':'76',
     'unitat-2-bloc-1':'156','uf0518-bloc-1':'92','uf0518-bloc-2':'76','uf0518-bloc-3':'86',
     'uf0519-bloc-1':'32','uf0519-bloc-2':'57','uf0519-bloc-3':'35','uf0519-bloc-4':'37','uf0519-bloc-5':'35',
-    'uf0519-unitat-2-bloc-1':'36','uf0519-unitat-2-bloc-2':'41','uf0519-bloc-6':'20'
+    'uf0519-unitat-2-bloc-1':'36','uf0519-unitat-2-bloc-2':'43','uf0519-bloc-6':'20'
   };
   for(const [id,count] of Object.entries(expected)){
     await expect(page.locator('[data-study-block="'+id+'"] [data-study-count]')).toHaveText(count);
   }
 });
 
-test('Tot el temari selecciona 1139 targetes i inicia una baralla mixta',async({page})=>{
+test('Tot el temari selecciona 1165 targetes i inicia una baralla mixta',async({page})=>{
   await page.goto('/');
   await page.locator('#home-shortcut-study').click();
   await page.getByRole('button',{name:'Tot el temari'}).click();
-  await expect(page.locator('#study-selected-count')).toHaveText('1139');
+  await expect(page.locator('#study-selected-count')).toHaveText('1165');
   await page.getByRole('button',{name:'Començar repàs'}).click();
   await expect(page.locator('[data-study-card]')).toHaveCount(1);
-  await expect(page.locator('#study-card-progress')).toHaveText('1 / 1139');
+  await expect(page.locator('#study-card-progress')).toHaveText('1 / 1165');
   await expect(page.getByRole('button',{name:'Barrejar'})).toBeVisible();
 });
 

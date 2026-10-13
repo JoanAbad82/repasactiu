@@ -492,6 +492,30 @@
         "B2C = consumidor con consumidor; B2A = empresa con empresa; C2C = empresa con consumidor",
         "B2C = empresa con Administración; B2A = consumidor con empresa; C2C = empresa con empresa"
       ]
+    },
+    "uf0519-u2b2-042": {
+      "ca": [
+        "205 € tractant el pagament com un cobrament",
+        "110 € en deixar sense registrar la sortida",
+        "55 € utilitzant el pagament com si fos el saldo"
+      ],
+      "es": [
+        "205 € tratando el pago como un cobro",
+        "110 € al dejar sin registrar la salida",
+        "55 € usando el pago como saldo"
+      ]
+    },
+    "uf0519-u2b2-043": {
+      "ca": [
+        "1.040 € per restar la transferència rebuda",
+        "1.360 € perquè s’omet el càrrec bancari",
+        "1.290 € en duplicar parcialment l’entrada"
+      ],
+      "es": [
+        "1.040 € por restar la transferencia recibida",
+        "1.360 € porque se omite el cargo bancario",
+        "1.290 € al duplicar parcialmente la entrada"
+      ]
     }
   }
 }

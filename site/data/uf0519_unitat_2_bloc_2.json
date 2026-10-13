@@ -575,6 +575,34 @@
       ],
       "correct": 0,
       "explanation": "El material diferencia B2C, B2A i C2C segons qui ven o es relaciona amb qui."
+    },
+    {
+      "id": "uf0519-u2b2-042",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Llibre de caixa: saldo",
+      "question": "Exemple inventat per practicar la plantilla: caixa inicial 150 €, entrada en efectiu 40 € i pagament en efectiu 55 €. Quin saldo s’anota?",
+      "options": [
+        "245 €",
+        "165 €",
+        "135 €",
+        "95 €"
+      ],
+      "correct": 2,
+      "explanation": "La plantilla separa entrada i sortida: 150 + 40 − 55 = 135 €. Les xifres són un cas didàctic nou."
+    },
+    {
+      "id": "uf0519-u2b2-043",
+      "block": "uf0519-unitat-2-bloc-2",
+      "topic": "Llibre de bancs: saldo",
+      "question": "Exemple inventat per practicar la plantilla: saldo bancari inicial 1.200 €, transferència rebuda 160 € i càrrec de 90 €. Quin saldo queda?",
+      "options": [
+        "1.450 €",
+        "1.130 €",
+        "970 €",
+        "1.270 €"
+      ],
+      "correct": 3,
+      "explanation": "La plantilla de bancs separa entrades i sortides: 1.200 + 160 − 90 = 1.270 €. Xifres didàctiques, no del full original."
     }
   ]
 }

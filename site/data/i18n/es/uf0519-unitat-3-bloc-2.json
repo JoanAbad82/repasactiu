@@ -210,6 +210,204 @@
         "Cuando se prescinde de toda supervisión de los equipos"
       ],
       "explanation": "La automatización puede agilizar tareas, pero exige equipos adecuados, formación y control del proceso."
+    },
+    "uf0519-u3b2-020": {
+      "topic": "Devolución recibida",
+      "question": "Un cliente devuelve 4 unidades aptas al almacén; ¿cómo afecta al registro del artículo?",
+      "options": [
+        "Aumenta en 4 unidades mediante una entrada justificada",
+        "Se restan 4 unidades por ser una devolución",
+        "El saldo no cambia hasta el siguiente pedido",
+        "Se contabiliza como una salida hacia el cliente"
+      ],
+      "explanation": "Una devolución recibida en buen estado es una entrada y debe documentarse."
+    },
+    "uf0519-u3b2-021": {
+      "topic": "Orden de movimiento interno",
+      "question": "Un programa genera una orden para trasladar material recibido a una ubicación. ¿Qué instrucción debe constar?",
+      "options": [
+        "El precio de venta y el nombre del último cliente",
+        "El origen de recogida y la ubicación de destino",
+        "La nómina del personal de almacén",
+        "El saldo bancario de la empresa"
+      ],
+      "explanation": "Una orden interna puede indicar de dónde se recoge el material y dónde debe dejarse; la ubicación final se registra tras la comprobación."
+    },
+    "uf0519-u3b2-022": {
+      "topic": "Conversión de unidades",
+      "question": "Un documento de salida indica 3 cajas con 50 bolígrafos cada una. ¿Cuántas unidades salen si la ficha controla bolígrafos individuales?",
+      "options": [
+        "53 bolígrafos",
+        "50 bolígrafos",
+        "150 bolígrafos",
+        "3 bolígrafos"
+      ],
+      "explanation": "La unidad de control es el bolígrafo: 3 × 50 = 150 unidades."
+    },
+    "uf0519-u3b2-023": {
+      "topic": "Recuento fuera del cierre",
+      "question": "Se hace un inventario físico antes del 31 de diciembre. ¿Qué debe hacerse para informar de las existencias al cierre?",
+      "options": [
+        "Usar el recuento anterior sin cambios",
+        "Aplicar un coste medio a las unidades contadas y darlo por definitivo",
+        "Sustituir el recuento por el stock de seguridad",
+        "Ajustar el recuento con los movimientos posteriores hasta la fecha de cierre"
+      ],
+      "explanation": "Cuando las fechas no coinciden, hay que incorporar entradas y salidas hasta el cierre."
+    },
+    "uf0519-u3b2-024": {
+      "topic": "Pérdida desconocida",
+      "question": "El recuento indica 6 unidades menos que la ficha y aún no se sabe por qué. ¿Cuál es la clasificación inicial correcta?",
+      "options": [
+        "Diferencia pendiente de investigación; posible pérdida desconocida",
+        "Robo demostrado por la diferencia",
+        "Pérdida conocida con causa acreditada",
+        "Entrada pendiente de un proveedor"
+      ],
+      "explanation": "Una diferencia sin causa identificada no demuestra un robo y debe investigarse."
+    },
+    "uf0519-u3b2-025": {
+      "topic": "IVA recuperable y coste",
+      "question": "Un artículo cuesta 100 € y se añaden 21 € de IVA totalmente recuperable. ¿Qué importe corresponde al coste de adquisición en este supuesto?",
+      "options": [
+        "121 €",
+        "100 €",
+        "21 €",
+        "79 €"
+      ],
+      "explanation": "El temario excluye el IVA recuperable del coste de las existencias."
+    },
+    "uf0519-u3b2-026": {
+      "topic": "Valoración FIFO",
+      "question": "Con 5 unidades antiguas a 2 € y 5 nuevas a 4 €, ¿qué coste tienen 6 unidades salidas valoradas por FIFO?",
+      "options": [
+        "18 €",
+        "12 €",
+        "14 €",
+        "24 €"
+      ],
+      "explanation": "FIFO asigna 5 × 2 € a las antiguas y 1 × 4 € a la siguiente: 14 €."
+    },
+    "uf0519-u3b2-027": {
+      "topic": "Inventario: control de movimientos",
+      "question": "Durante un recuento físico se sigue entregando material. ¿Qué debe preverse para evitar un descuadre falso?",
+      "options": [
+        "Ignorar todas las salidas durante el recuento",
+        "Cambiar las unidades de medida a mitad del recuento",
+        "Modificar las existencias teóricas antes de contar",
+        "Un procedimiento para identificar y registrar los movimientos durante el recuento"
+      ],
+      "explanation": "En la preparación del inventario debe establecerse cómo se controlarán los movimientos mientras se cuenta."
+    },
+    "uf0519-u3b2-028": {
+      "topic": "Confirmación en el SGA",
+      "question": "Un terminal lee una referencia, pero el movimiento todavía no se ha confirmado en el SGA. ¿Qué puede concluirse del saldo registrado?",
+      "options": [
+        "Que la lectura por sí sola no garantiza la actualización del stock",
+        "Que el saldo se actualiza por activar el lector",
+        "Que se registra una devolución con cada lectura",
+        "Que se duplica automáticamente el saldo disponible"
+      ],
+      "explanation": "El SGA actualiza el registro cuando se registra o confirma correctamente el movimiento."
+    },
+    "uf0519-u3b2-029": {
+      "topic": "Trazabilidad de lotes",
+      "question": "Una empresa necesita reconstruir por dónde ha pasado un lote. ¿Qué información debe permitir recuperar la trazabilidad?",
+      "options": [
+        "El precio de venta sin movimientos",
+        "Origen, ubicaciones y movimientos del lote",
+        "La nómina del personal de recepción",
+        "El horario de limpieza del almacén"
+      ],
+      "explanation": "La trazabilidad es el seguimiento del origen, la ubicación y los movimientos de un artículo o lote."
+    },
+    "uf0519-u3b2-030": {
+      "topic": "Lectura de códigos 2D",
+      "question": "Hay que identificar una etiqueta Data Matrix. ¿Qué criterio es imprescindible al elegir el lector?",
+      "options": [
+        "Que esté conectado a una impresora de papel",
+        "Que la ficha tenga un valor monetario",
+        "Que sea compatible con el tipo de código bidimensional",
+        "Que el lote se haya registrado por FIFO"
+      ],
+      "explanation": "Los lectores deben ser compatibles con el código que van a leer; Data Matrix es bidimensional."
+    },
+    "uf0519-u3b2-031": {
+      "topic": "Continuidad operativa",
+      "question": "Un almacén pierde la conexión con el programa de gestión. ¿Qué preparación recomienda el temario?",
+      "options": [
+        "Permitir accesos sin permisos durante la avería",
+        "Eliminar los justificantes para simplificar la reanudación",
+        "Dejar de revisar todos los movimientos posteriores",
+        "Prever cómo continuar la actividad y proteger los registros"
+      ],
+      "explanation": "El temario exige planificar la continuidad, los permisos y las copias de seguridad ante fallos."
+    },
+    "uf0519-u3b2-032": {
+      "topic": "Inventario 001: sobres",
+      "question": "En el ejercicio 001 hay 45 sobres iniciales, se entregan 18 y se reciben 30. ¿Cuál es el saldo final?",
+      "options": [
+        "57 sobres",
+        "93 sobres",
+        "27 sobres",
+        "63 sobres"
+      ],
+      "explanation": "45 − 18 + 30 = 57 sobres disponibles al final del registro."
+    },
+    "uf0519-u3b2-033": {
+      "topic": "Inventario 001: etiquetas",
+      "question": "En el ejercicio 001 hay 9 rollos de etiquetas; el 15/10 se reciben 6 y el 16/10 se entregan 3. ¿Cuántos quedan?",
+      "options": [
+        "18 rollos",
+        "12 rollos",
+        "15 rollos",
+        "6 rollos"
+      ],
+      "explanation": "9 + 6 − 3 = 12 rollos; 15 es el saldo intermedio del 15/10."
+    },
+    "uf0519-u3b2-034": {
+      "topic": "Inventario 002: fundas",
+      "question": "En el caso 002 hay 75 fundas iniciales; llegan 40 y se entregan 18 y 22. ¿Qué saldo queda?",
+      "options": [
+        "115 fundas",
+        "35 fundas",
+        "75 fundas",
+        "97 fundas"
+      ],
+      "explanation": "75 + 40 − 18 − 22 = 75. El saldo final puede coincidir con el inicial."
+    },
+    "uf0519-u3b2-035": {
+      "topic": "Inventario 002: cinta correctora",
+      "question": "La cinta correctora del caso 002 empieza con 11 unidades, tiene una salida de 4 y una recepción de 7. ¿Cuál es el saldo final?",
+      "options": [
+        "22 unidades",
+        "7 unidades",
+        "18 unidades",
+        "14 unidades"
+      ],
+      "explanation": "11 − 4 + 7 = 14 unidades; la entrada posterior recupera y amplía el saldo."
+    },
+    "uf0519-u3b2-036": {
+      "topic": "Inventario 003: libretas",
+      "question": "En el ejercicio 003 se parte de 26 libretas, se entregan 9, se reciben 18 y se entregan 11. ¿Cuántas quedan?",
+      "options": [
+        "24 libretas",
+        "35 libretas",
+        "44 libretas",
+        "6 libretas"
+      ],
+      "explanation": "26 − 9 + 18 − 11 = 24. Deben registrarse las dos salidas en fechas distintas."
+    },
+    "uf0519-u3b2-037": {
+      "topic": "Inventario 003: pinzas",
+      "question": "En el caso 003 hay 8 cajas de pinzas metálicas, se entregan 3 y se reciben 5. ¿Cuál es el saldo?",
+      "options": [
+        "16 cajas",
+        "10 cajas",
+        "5 cajas",
+        "6 cajas"
+      ],
+      "explanation": "8 − 3 + 5 = 10 cajas. La unidad de control es la caja, no la pinza individual."
     }
   }
 }

@@ -48,6 +48,10 @@
     "UF0519_U2_TRESORERIA": {
       "file": "2. Gestió_bàsica_tresoreria.pdf",
       "pages": 41
+    },
+    "UF0519_U3_BLOC2_20261013": {
+      "file": "3_Gestio i control basic d´existencies_bloc 2.pdf",
+      "pages": 39
     }
   },
   "cards": [
@@ -1813,6 +1817,132 @@
         "question": "¿Qué diferencia hay entre pignoración total y parcial?",
         "answer": "La total cubre el 100 % del aval; la parcial cubre solo una parte.",
         "mnemonic": "Pignoración: total = 100 %; parcial = una parte."
+      }
+    },
+    {
+      "id": "sc-uf0519-u3b2-ext-01",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "ca": {
+        "question": "Com es distingeix una pèrdua coneguda d’una desconeguda?",
+        "answer": "La coneguda té causa identificada i documentada; la desconeguda està pendent d’explicació.",
+        "mnemonic": "Coneguda = causa; desconeguda = investigar."
+      },
+      "es": {
+        "question": "¿Cómo se distingue una pérdida conocida de una desconocida?",
+        "answer": "La conocida tiene causa identificada y documentada; la desconocida está pendiente de explicación.",
+        "mnemonic": "Conocida = causa; desconocida = investigar."
+      },
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-u3b2-ext-02",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "ca": {
+        "question": "Què ha d’acompanyar la decisió de reposar quan baixa l’estoc?",
+        "answer": "Revisar el punt de comanda, el termini de lliurament i les comandes pendents.",
+        "mnemonic": "Reposició = punt + termini + pendents."
+      },
+      "es": {
+        "question": "¿Qué debe acompañar la decisión de reponer cuando baja el stock?",
+        "answer": "Revisar el punto de pedido, el plazo de entrega y los pedidos pendientes.",
+        "mnemonic": "Reposición = punto + plazo + pendientes."
+      },
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-u3b2-ext-03",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "ca": {
+        "question": "Quina diferència hi ha entre mesurar existències i valorar-les?",
+        "answer": "Les existències es poden comptar en unitats físiques; la valoració les expressa en euros.",
+        "mnemonic": "Quantitat = unitats; valor = euros."
+      },
+      "es": {
+        "question": "¿Qué diferencia hay entre medir existencias y valorarlas?",
+        "answer": "Las existencias pueden contarse en unidades físicas; la valoración las expresa en euros.",
+        "mnemonic": "Cantidad = unidades; valor = euros."
+      },
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          23,
+          23
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-u3b2-ext-04",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "ca": {
+        "question": "Què vol dir picking al magatzem?",
+        "answer": "Seleccionar i recollir els articles que formen una comanda.",
+        "mnemonic": "Picking = preparar recollint articles."
+      },
+      "es": {
+        "question": "¿Qué significa picking en el almacén?",
+        "answer": "Seleccionar y recoger los artículos que forman un pedido.",
+        "mnemonic": "Picking = preparar recogiendo artículos."
+      },
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          27,
+          27
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-u3b2-ext-05",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "ca": {
+        "question": "Quina verificació cal fer després de llegir una etiqueta automàticament?",
+        "answer": "Comprovar article, quantitat i tipus de moviment abans de donar l’operació per correcta.",
+        "mnemonic": "Lectura + verificació = moviment fiable."
+      },
+      "es": {
+        "question": "¿Qué comprobación sigue a la lectura automática de una etiqueta?",
+        "answer": "Comprobar artículo, cantidad y tipo de movimiento antes de validar la operación.",
+        "mnemonic": "Lectura + verificación = movimiento fiable."
+      },
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          32,
+          32
+        ]
+      }
+    },
+    {
+      "id": "sc-uf0519-u3b2-ext-06",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "ca": {
+        "question": "Quines tres condicions acompanyen un robot de magatzem útil i segur?",
+        "answer": "Manteniment, personal format i mesures de seguretat a la zona de treball.",
+        "mnemonic": "Robot útil = manteniment + formació + seguretat."
+      },
+      "es": {
+        "question": "¿Qué tres condiciones acompañan a un robot de almacén útil y seguro?",
+        "answer": "Mantenimiento, personal formado y medidas de seguridad en la zona de trabajo.",
+        "mnemonic": "Robot útil = mantenimiento + formación + seguridad."
+      },
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          35,
+          35
+        ]
       }
     }
   ],

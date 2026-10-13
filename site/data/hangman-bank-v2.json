@@ -5,7 +5,7 @@
     "ca",
     "es"
   ],
-  "count": 327,
+  "count": 328,
   "groups": [
     {
       "id": "bloc-1",
@@ -123,11 +123,11 @@
       "uf0519-unitat-2-bloc-2": 29,
       "uf0519-bloc-6": 6,
       "uf0519-unitat-3-bloc-1": 14,
-      "uf0519-unitat-3-bloc-2": 5
+      "uf0519-unitat-3-bloc-2": 6
     },
     "byKind": {
       "dictionary": 127,
-      "topic": 85,
+      "topic": 86,
       "named-question": 67,
       "ordered-list": 48
     }
@@ -7593,6 +7593,30 @@
         "term": "Inventario valorado",
         "hint": "Coste unitario e importe total de cada artículo",
         "memory": "Valorado = cantidad × coste unitario."
+      }
+    },
+    {
+      "id": "topic:uf0519-u3b2-024",
+      "kind": "topic",
+      "blockId": "uf0519-unitat-3-bloc-2",
+      "questionId": "uf0519-u3b2-024",
+      "hintType": "question",
+      "source": {
+        "id": "UF0519_U3_BLOC2_20261013",
+        "pages": [
+          14,
+          14
+        ]
+      },
+      "ca": {
+        "term": "Pèrdua desconeguda",
+        "hint": "El recompte indica 6 unitats menys que la fitxa i encara no se sap per què. Quina classificació inicial és correcta?",
+        "memory": "Causa identificada = coneguda; causa pendent = desconeguda."
+      },
+      "es": {
+        "term": "Pérdida desconocida",
+        "hint": "El recuento indica 6 unidades menos que la ficha y aún no se sabe por qué. ¿Cuál es la clasificación inicial correcta?",
+        "memory": "Causa identificada = conocida; causa pendiente = desconocida."
       }
     },
     {

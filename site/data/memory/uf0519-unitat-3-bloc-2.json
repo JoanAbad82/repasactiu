@@ -95,6 +95,96 @@
       "type": "idea",
       "ca": "Tecnologia útil = procés correcte + dades fiables + seguretat.",
       "es": "Tecnología útil = proceso correcto + datos fiables + seguridad."
+    },
+    "uf0519-u3b2-020": {
+      "type": "idea",
+      "ca": "Devolució rebuda i apta = entrada; devolució al proveïdor = sortida.",
+      "es": "Devolución recibida y apta = entrada; devolución al proveedor = salida."
+    },
+    "uf0519-u3b2-021": {
+      "type": "idea",
+      "ca": "Ordre interna: origen de recollida → ubicació de destí.",
+      "es": "Orden interna: origen de recogida → ubicación de destino."
+    },
+    "uf0519-u3b2-022": {
+      "type": "idea",
+      "ca": "Caixes a unitats: multiplica caixes × unitats per caixa.",
+      "es": "Cajas a unidades: multiplica cajas × unidades por caja."
+    },
+    "uf0519-u3b2-023": {
+      "type": "idea",
+      "ca": "Data de recompte diferent del tancament: ajusta els moviments intermedis.",
+      "es": "Fecha de recuento distinta del cierre: ajusta movimientos intermedios."
+    },
+    "uf0519-u3b2-024": {
+      "type": "idea",
+      "ca": "Causa identificada = coneguda; causa pendent = desconeguda.",
+      "es": "Causa identificada = conocida; causa pendiente = desconocida."
+    },
+    "uf0519-u3b2-025": {
+      "type": "idea",
+      "ca": "IVA recuperable no incrementa el cost de compra.",
+      "es": "IVA recuperable no aumenta el coste de compra."
+    },
+    "uf0519-u3b2-026": {
+      "type": "idea",
+      "ca": "FIFO: consumeix primer la capa més antiga.",
+      "es": "FIFO: consume primero la capa más antigua."
+    },
+    "uf0519-u3b2-027": {
+      "type": "idea",
+      "ca": "Recompte + moviments simultanis = control temporal documentat.",
+      "es": "Recuento + movimientos simultáneos = control temporal documentado."
+    },
+    "uf0519-u3b2-028": {
+      "type": "idea",
+      "ca": "Lectura no equival a moviment confirmat.",
+      "es": "Lectura no equivale a movimiento confirmado."
+    },
+    "uf0519-u3b2-029": {
+      "type": "idea",
+      "ca": "Lot traçable: origen → ubicacions → moviments.",
+      "es": "Lote trazable: origen → ubicaciones → movimientos."
+    },
+    "uf0519-u3b2-030": {
+      "type": "idea",
+      "ca": "Escàner i etiqueta han de parlar el mateix format.",
+      "es": "Escáner y etiqueta deben reconocer el mismo formato."
+    },
+    "uf0519-u3b2-031": {
+      "type": "idea",
+      "ca": "Tecnologia segura: permisos + còpies + pla d’avaria.",
+      "es": "Tecnología segura: permisos + copias + plan ante averías."
+    },
+    "uf0519-u3b2-032": {
+      "type": "idea",
+      "ca": "Saldo = inicial − lliuraments + recepcions.",
+      "es": "Saldo = inicial − entregas + recepciones."
+    },
+    "uf0519-u3b2-033": {
+      "type": "idea",
+      "ca": "Període final: inclou també la sortida de l’últim dia.",
+      "es": "Periodo final: incluye también la salida del último día."
+    },
+    "uf0519-u3b2-034": {
+      "type": "idea",
+      "ca": "Entrades 40 = sortides 18 + 22: saldo inicial recuperat.",
+      "es": "Entradas 40 = salidas 18 + 22: saldo inicial recuperado."
+    },
+    "uf0519-u3b2-035": {
+      "type": "idea",
+      "ca": "Saldo correcte: primer surt 4; després entren 7.",
+      "es": "Saldo correcto: primero salen 4; después entran 7."
+    },
+    "uf0519-u3b2-036": {
+      "type": "idea",
+      "ca": "Dues sortides: resta les dues, no només l’última.",
+      "es": "Dos salidas: resta ambas, no solo la última."
+    },
+    "uf0519-u3b2-037": {
+      "type": "idea",
+      "ca": "Mantén la unitat de mesura: 10 caixes, no 10 pinces.",
+      "es": "Mantén la unidad de medida: 10 cajas, no 10 pinzas."
     }
   }
 }

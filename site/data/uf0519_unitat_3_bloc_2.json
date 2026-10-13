@@ -17,6 +17,34 @@
       "explanation": "Cada entrada o sortida s’identifica amb data, justificant, concepte i quantitat, i actualitza el saldo."
     },
     {
+      "id": "uf0519-u3b2-020",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Devolució rebuda",
+      "question": "Un client retorna 4 unitats aptes al magatzem; com afecta això al registre de l’article?",
+      "options": [
+        "Augmenta en 4 unitats mitjançant una entrada justificada",
+        "Es resta 4 unitats per ser una devolució",
+        "El saldo no canvia fins a la següent comanda",
+        "Es comptabilitza com una sortida cap al client"
+      ],
+      "correct": 0,
+      "explanation": "Una devolució rebuda en bon estat és una entrada i ha d’estar documentada."
+    },
+    {
+      "id": "uf0519-u3b2-021",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Ordre de moviment intern",
+      "question": "Un programa genera una ordre per traslladar material rebut a una ubicació. Quina instrucció hi ha de constar?",
+      "options": [
+        "El preu de venda i el nom de l’últim client",
+        "L’origen de la recollida i la ubicació de destí",
+        "La nòmina del personal del magatzem",
+        "El saldo bancari de l’empresa"
+      ],
+      "correct": 1,
+      "explanation": "Una ordre interna pot indicar d’on es recull el material i on s’ha de deixar; la ubicació final es registra després de la comprovació."
+    },
+    {
       "id": "uf0519-u3b2-002",
       "block": "uf0519-unitat-3-bloc-2",
       "topic": "Recepció de material",
@@ -73,6 +101,20 @@
       "explanation": "El moviment entre ubicacions exigeix una sortida a l’origen i una entrada al destí, sense canviar el total."
     },
     {
+      "id": "uf0519-u3b2-022",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Conversió d’unitats",
+      "question": "Un document de sortida indica 3 caixes amb 50 bolígrafs cadascuna. Quantes unitats surten si la fitxa controla bolígrafs individuals?",
+      "options": [
+        "53 bolígrafs",
+        "50 bolígrafs",
+        "150 bolígrafs",
+        "3 bolígrafs"
+      ],
+      "correct": 2,
+      "explanation": "La unitat de control és el bolígraf: 3 × 50 = 150 unitats."
+    },
+    {
       "id": "uf0519-u3b2-006",
       "block": "uf0519-unitat-3-bloc-2",
       "topic": "Inventari valorat",
@@ -85,6 +127,20 @@
       ],
       "correct": 1,
       "explanation": "L’inventari físic identifica unitats i estat; el valorat incorpora costos unitaris i imports totals."
+    },
+    {
+      "id": "uf0519-u3b2-023",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Recompte fora de tancament",
+      "question": "Es fa un inventari físic abans del 31 de desembre. Què cal fer per informar de les existències al tancament?",
+      "options": [
+        "Usar el recompte anterior sense canvis",
+        "Aplicar un cost mitjà a les unitats comptades i donar-lo per definitiu",
+        "Substituir el recompte per l’estoc de seguretat",
+        "Ajustar el recompte amb els moviments posteriors fins a la data de tancament"
+      ],
+      "correct": 3,
+      "explanation": "Quan les dates no coincideixen, cal incorporar les entrades i sortides fins al tancament."
     },
     {
       "id": "uf0519-u3b2-007",
@@ -101,6 +157,20 @@
       "explanation": "El desquadrament pot tenir diverses causes i no demostra per si sol un furt; els ajustos requereixen autorització."
     },
     {
+      "id": "uf0519-u3b2-024",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Pèrdua desconeguda",
+      "question": "El recompte indica 6 unitats menys que la fitxa i encara no se sap per què. Quina classificació inicial és correcta?",
+      "options": [
+        "Diferència pendent d’investigació; possible pèrdua desconeguda",
+        "Furt demostrat per la diferència",
+        "Pèrdua coneguda amb causa acreditada",
+        "Entrada pendent d’un proveïdor"
+      ],
+      "correct": 0,
+      "explanation": "Una diferència sense causa identificada no demostra un furt i s’ha d’investigar."
+    },
+    {
       "id": "uf0519-u3b2-008",
       "block": "uf0519-unitat-3-bloc-2",
       "topic": "Cost de les existències",
@@ -113,6 +183,34 @@
       ],
       "correct": 3,
       "explanation": "El PMP és (10 × 2 + 10 × 4) ÷ 20 = 3 € per unitat."
+    },
+    {
+      "id": "uf0519-u3b2-025",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "IVA recuperable i cost",
+      "question": "Un article costa 100 € i s’hi afegeixen 21 € d’IVA totalment recuperable. Quin import correspon al cost d’adquisició en aquest supòsit?",
+      "options": [
+        "121 €",
+        "100 €",
+        "21 €",
+        "79 €"
+      ],
+      "correct": 1,
+      "explanation": "El temari exclou l’IVA recuperable del cost de les existències."
+    },
+    {
+      "id": "uf0519-u3b2-026",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Valoració FIFO",
+      "question": "Amb 5 unitats antigues a 2 € i 5 de noves a 4 €, quin cost tenen 6 unitats sortides valorades amb FIFO?",
+      "options": [
+        "18 €",
+        "12 €",
+        "14 €",
+        "24 €"
+      ],
+      "correct": 2,
+      "explanation": "FIFO assigna 5 × 2 € a les antigues i 1 × 4 € a la següent: 14 €."
     },
     {
       "id": "uf0519-u3b2-009",
@@ -171,6 +269,20 @@
       "explanation": "Els béns duradors com el mobiliari es controlen separadament de les existències consumibles o per a venda."
     },
     {
+      "id": "uf0519-u3b2-027",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Inventari: control de moviments",
+      "question": "Durant un recompte físic es continua lliurant material. Què cal preveure per evitar un desquadrament fals?",
+      "options": [
+        "Ignorar totes les sortides durant el recompte",
+        "Canviar les unitats de mesura a mig recompte",
+        "Modificar les existències teòriques abans de comptar",
+        "Un procediment per identificar i registrar els moviments durant el recompte"
+      ],
+      "correct": 3,
+      "explanation": "A la preparació de l’inventari cal establir com es controlaran els moviments mentre es compta."
+    },
+    {
       "id": "uf0519-u3b2-014",
       "block": "uf0519-unitat-3-bloc-2",
       "topic": "Cobertura d’estoc",
@@ -199,6 +311,20 @@
       "explanation": "La rotació és sortides del període dividides per l’estoc mitjà: 90 ÷ 30 = 3. La diapositiva 24 conté un signe erroni a la fórmula."
     },
     {
+      "id": "uf0519-u3b2-028",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Confirmació al SGA",
+      "question": "Un terminal llegeix una referència, però el moviment encara no s’ha confirmat a l’SGA. Què es pot concloure del saldo registrat?",
+      "options": [
+        "Que la lectura per si sola no garanteix l’actualització de l’estoc",
+        "Que el saldo s’actualitza per haver activat el lector",
+        "Que es registra una devolució amb cada lectura",
+        "Que es duplica automàticament el saldo disponible"
+      ],
+      "correct": 0,
+      "explanation": "L’SGA actualitza el registre quan es registra o es confirma correctament el moviment."
+    },
+    {
       "id": "uf0519-u3b2-015",
       "block": "uf0519-unitat-3-bloc-2",
       "topic": "SGA i WMS",
@@ -211,6 +337,20 @@
       ],
       "correct": 2,
       "explanation": "L’SGA és especialitzat en recepcions, ubicacions, picking, trasllats i estoc."
+    },
+    {
+      "id": "uf0519-u3b2-029",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Traçabilitat de lots",
+      "question": "Una empresa necessita reconstruir per on ha passat un lot. Quina informació ha de permetre recuperar la traçabilitat?",
+      "options": [
+        "El preu de venda sense moviments",
+        "Origen, ubicacions i moviments del lot",
+        "La nòmina del personal de recepció",
+        "L’horari de neteja del magatzem"
+      ],
+      "correct": 1,
+      "explanation": "La traçabilitat és el seguiment de l’origen, la ubicació i els moviments d’un article o lot."
     },
     {
       "id": "uf0519-u3b2-016",
@@ -255,6 +395,20 @@
       "explanation": "La lectura identifica articles i agilitza registres, però no substitueix la comprovació de les operacions."
     },
     {
+      "id": "uf0519-u3b2-030",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Lectura de codis 2D",
+      "question": "Cal identificar una etiqueta Data Matrix. Quin criteri és imprescindible en seleccionar el lector?",
+      "options": [
+        "Que estigui connectat a una impressora de paper",
+        "Que la fitxa tingui un valor monetari",
+        "Que sigui compatible amb el tipus de codi bidimensional",
+        "Que el lot hagi estat registrat per FIFO"
+      ],
+      "correct": 2,
+      "explanation": "Els lectors han de ser compatibles amb el codi que han de llegir; Data Matrix és bidimensional."
+    },
+    {
       "id": "uf0519-u3b2-019",
       "block": "uf0519-unitat-3-bloc-2",
       "topic": "Automatització",
@@ -267,6 +421,104 @@
       ],
       "correct": 2,
       "explanation": "L’automatització pot agilitar tasques, però exigeix equips adequats, formació i control del procés."
+    },
+    {
+      "id": "uf0519-u3b2-031",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Continuïtat operativa",
+      "question": "Un magatzem perd la connexió amb el programa de gestió. Quina preparació recomana el temari?",
+      "options": [
+        "Permetre accessos sense permisos durant l’avaria",
+        "Eliminar els justificants per simplificar la represa",
+        "Deixar de revisar tots els moviments posteriors",
+        "Preveure com continuar l’activitat i protegir els registres"
+      ],
+      "correct": 3,
+      "explanation": "El temari exigeix planificar la continuïtat, els permisos i les còpies de seguretat davant fallades."
+    },
+    {
+      "id": "uf0519-u3b2-033",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Inventari 001: etiquetes",
+      "question": "A l’exercici 001 hi ha 9 rotlles d’etiquetes; el 15/10 se’n reben 6 i el 16/10 se’n lliuren 3. Quants en queden?",
+      "options": [
+        "18 rotlles",
+        "12 rotlles",
+        "15 rotlles",
+        "6 rotlles"
+      ],
+      "correct": 1,
+      "explanation": "9 + 6 − 3 = 12 rotlles; 15 és el saldo intermedi del 15/10."
+    },
+    {
+      "id": "uf0519-u3b2-032",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Inventari 001: sobres",
+      "question": "A l’exercici 001 hi ha 45 sobres inicials, se’n lliuren 18 i se’n reben 30. Quin és el saldo final?",
+      "options": [
+        "57 sobres",
+        "93 sobres",
+        "27 sobres",
+        "63 sobres"
+      ],
+      "correct": 0,
+      "explanation": "45 − 18 + 30 = 57 sobres disponibles al final del registre."
+    },
+    {
+      "id": "uf0519-u3b2-035",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Inventari 002: cinta correctora",
+      "question": "La cinta correctora del cas 002 comença amb 11 unitats, té una sortida de 4 i una recepció de 7. Quin és el saldo final?",
+      "options": [
+        "22 unitats",
+        "7 unitats",
+        "18 unitats",
+        "14 unitats"
+      ],
+      "correct": 3,
+      "explanation": "11 − 4 + 7 = 14 unitats; l’entrada posterior recupera i amplia el saldo."
+    },
+    {
+      "id": "uf0519-u3b2-034",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Inventari 002: fundes",
+      "question": "En el cas 002 hi ha 75 fundes inicials; arriben 40 i se’n lliuren 18 i 22. Quin saldo queda?",
+      "options": [
+        "115 fundes",
+        "35 fundes",
+        "75 fundes",
+        "97 fundes"
+      ],
+      "correct": 2,
+      "explanation": "75 + 40 − 18 − 22 = 75. El saldo final pot coincidir amb l’inicial."
+    },
+    {
+      "id": "uf0519-u3b2-036",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Inventari 003: llibretes",
+      "question": "A l’exercici 003 es parteix de 26 llibretes, se’n lliuren 9, se’n reben 18 i se’n lliuren 11. Quantes en queden?",
+      "options": [
+        "24 llibretes",
+        "35 llibretes",
+        "44 llibretes",
+        "6 llibretes"
+      ],
+      "correct": 0,
+      "explanation": "26 − 9 + 18 − 11 = 24. S’han de registrar les dues sortides en dates diferents."
+    },
+    {
+      "id": "uf0519-u3b2-037",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Inventari 003: pinces",
+      "question": "En el cas 003 hi ha 8 caixes de pinces metàl·liques, se’n lliuren 3 i se’n reben 5. Quin és el saldo?",
+      "options": [
+        "16 caixes",
+        "10 caixes",
+        "5 caixes",
+        "6 caixes"
+      ],
+      "correct": 1,
+      "explanation": "8 − 3 + 5 = 10 caixes. La unitat de control és la caixa, no la pinça individual."
     }
   ]
 }

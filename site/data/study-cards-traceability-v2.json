@@ -121,6 +121,18 @@
     "UF0519_U3_BLOC2_20261013": {
       "file": "3_Gestio i control basic d´existencies_bloc 2.pdf",
       "pages": 39
+    },
+    "UF0519_U3_INVENTORY_20261013": {
+      "file": "Exercicis_Inventari.docx",
+      "pages": 3
+    },
+    "XLSX_CASH_TEMPLATE_20261013": {
+      "file": "Plantilla_llibre_auxiliar de caixa(1).xlsx",
+      "pages": 1
+    },
+    "XLSX_BANK_TEMPLATE_20261013": {
+      "file": "Plantilla_llibre_auxiliar_bancs(1).xlsx",
+      "pages": 1
     }
   },
   "blockSources": {
@@ -3972,6 +3984,132 @@
         35,
         35
       ]
+    },
+    "uf0519-u3b2-020": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        6,
+        6
+      ]
+    },
+    "uf0519-u3b2-021": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        7,
+        7
+      ]
+    },
+    "uf0519-u3b2-022": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        11,
+        11
+      ]
+    },
+    "uf0519-u3b2-023": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        13,
+        13
+      ]
+    },
+    "uf0519-u3b2-024": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        14,
+        14
+      ]
+    },
+    "uf0519-u3b2-025": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    "uf0519-u3b2-026": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    "uf0519-u3b2-027": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        21,
+        21
+      ]
+    },
+    "uf0519-u3b2-028": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        27,
+        27
+      ]
+    },
+    "uf0519-u3b2-029": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        28,
+        28
+      ]
+    },
+    "uf0519-u3b2-030": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        31,
+        31
+      ]
+    },
+    "uf0519-u3b2-031": {
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        36,
+        36
+      ]
+    },
+    "uf0519-u3b2-032": {
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "pageRange": [
+        1,
+        1
+      ]
+    },
+    "uf0519-u3b2-033": {
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "pageRange": [
+        1,
+        1
+      ]
+    },
+    "uf0519-u3b2-034": {
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "pageRange": [
+        2,
+        2
+      ]
+    },
+    "uf0519-u3b2-035": {
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "pageRange": [
+        2,
+        2
+      ]
+    },
+    "uf0519-u3b2-036": {
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    "uf0519-u3b2-037": {
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "pageRange": [
+        3,
+        3
+      ]
     }
   },
   "questionLocations": {
@@ -5461,6 +5599,32 @@
         "pageRange": [
           49,
           49
+        ]
+      }
+    },
+    "uf0519-u2b2-042": {
+      "source": "XLSX_CASH_TEMPLATE_20261013",
+      "cells": [
+        "A6:E7"
+      ],
+      "chronology": {
+        "source": "XLSX_CASH_TEMPLATE_20261013",
+        "pageRange": [
+          1,
+          1
+        ]
+      }
+    },
+    "uf0519-u2b2-043": {
+      "source": "XLSX_BANK_TEMPLATE_20261013",
+      "cells": [
+        "A6:E7"
+      ],
+      "chronology": {
+        "source": "XLSX_BANK_TEMPLATE_20261013",
+        "pageRange": [
+          1,
+          1
         ]
       }
     }

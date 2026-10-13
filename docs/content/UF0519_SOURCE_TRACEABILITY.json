@@ -69,6 +69,20 @@
       "file": "2_Gestio_basica_tresoreria_Bloc2.pdf",
       "pages": 52,
       "sha256": "267621ef180b6d33b0c9d2af44adde6ca8ee46ea91e4192c79755c98027c6c1e"
+    },
+    "XLSX_CASH_TEMPLATE_20261013": {
+      "type": "xlsx",
+      "archive": "Direct attachment; not from an archive",
+      "file": "Plantilla_llibre_auxiliar de caixa(1).xlsx",
+      "sheet": "Llibre de caixa",
+      "sha256": "c107cea256ecf1279c66490a6fafd468b862dde834e57774e4a7742082948473"
+    },
+    "XLSX_BANK_TEMPLATE_20261013": {
+      "type": "xlsx",
+      "archive": "Direct attachment; not from an archive",
+      "file": "Plantilla_llibre_auxiliar_bancs(1).xlsx",
+      "sheet": "Llibre de bancs",
+      "sha256": "d6b04fbcf783c3edbfa259bddf00c61cac3fd246a998835fa53d55a234fa90c3"
     }
   },
   "questionTraces": [
@@ -2445,12 +2459,30 @@
         49
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0519-u2b2-042",
+      "source": "XLSX_CASH_TEMPLATE_20261013",
+      "status": "PASS",
+      "kind": "SYNTHETIC_ON_EMPTY_TEMPLATE",
+      "cells": [
+        "A6:E7"
+      ]
+    },
+    {
+      "id": "uf0519-u2b2-043",
+      "source": "XLSX_BANK_TEMPLATE_20261013",
+      "status": "PASS",
+      "kind": "SYNTHETIC_ON_EMPTY_TEMPLATE",
+      "cells": [
+        "A6:E7"
+      ]
     }
   ],
   "review": {
     "date": "2026-10-05",
-    "questionCount": 263,
-    "method": "Source-backed integration of UF0519 Unit 2 treasury PDF plus prior PDF/XLSX sources: deduplication, exact page/cell traceability, bilingual drafting, hard-mode validation and regression certification. Actius/passius: eight bilingual questions and core cards, individually mapped to PDF pages; source SHA-256 recorded. Dedicated assets/liabilities block: 20 questions and core cards; legacy IDs retained for progress continuity.",
+    "questionCount": 265,
+    "method": "Source-backed integration of UF0519 Unit 2 treasury PDF plus prior PDF/XLSX sources: deduplication, exact page/cell traceability, bilingual drafting, hard-mode validation and regression certification. Actius/passius: eight bilingual questions and core cards, individually mapped to PDF pages; source SHA-256 recorded. Dedicated assets/liabilities block: 20 questions and core cards; legacy IDs retained for progress continuity. Lot 2026-10-13: 2 synthetic numeric applications of empty auxiliary cash/bank templates; A6:E7 supplies the structure, not numeric source values.",
     "result": "PASS"
   },
   "corrections": []
