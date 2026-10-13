@@ -1,0 +1,215 @@
+{
+  "blockId": "uf0519-unitat-3-bloc-2",
+  "blockTitle": "Gestión y control básico de existencias",
+  "questions": {
+    "uf0519-u3b2-001": {
+      "topic": "Ficha de almacén",
+      "question": "¿Qué datos permiten justificar cada movimiento en una ficha de almacén?",
+      "options": [
+        "La fecha, el documento y las unidades de entrada o salida",
+        "La marca del lector, el nombre del transportista y el turno",
+        "El coste total anual de la empresa y la nómina",
+        "El color de la caja y la fecha de la próxima reunión"
+      ],
+      "explanation": "Cada entrada o salida se identifica con fecha, justificante, concepto y cantidad, y actualiza el saldo."
+    },
+    "uf0519-u3b2-002": {
+      "topic": "Recepción de material",
+      "question": "Si se piden 12 paquetes y solo 10 son aptos, ¿cuántas unidades disponibles se registran?",
+      "options": [
+        "12 paquetes, porque coincide con el pedido",
+        "10 paquetes y una incidencia por las 2 unidades restantes",
+        "2 paquetes, porque son los que faltan",
+        "Ningún paquete hasta que llegue todo el pedido"
+      ],
+      "explanation": "El stock disponible refleja el material realmente recibido y apto; hay que comunicar las dos unidades que faltan."
+    },
+    "uf0519-u3b2-003": {
+      "topic": "Transpaleta manual",
+      "question": "¿Qué operación corresponde a una transpaleta manual?",
+      "options": [
+        "Apilar palés en estanterías altas",
+        "Elevar personas en una plataforma improvisada",
+        "Desplazar horizontalmente un palé ligeramente elevado",
+        "Manipular cargas sin comprobar su peso"
+      ],
+      "explanation": "La transpaleta manual mueve cargas sobre palés en horizontal; no es una máquina para apilarlos en altura."
+    },
+    "uf0519-u3b2-004": {
+      "topic": "Carretilla elevadora",
+      "question": "¿Qué condición es necesaria para conducir con seguridad una carretilla automotora?",
+      "options": [
+        "Tener acceso al programa de contabilidad",
+        "Conocer la referencia comercial del proveedor",
+        "Disponer de la ficha de precios de venta",
+        "Formación específica y respeto a la capacidad de carga"
+      ],
+      "explanation": "El uso de equipos automotores exige formación específica y medidas de seguridad según el equipo y la carga."
+    },
+    "uf0519-u3b2-005": {
+      "topic": "Salidas y traslados",
+      "question": "¿Cómo se registra un traslado de 8 unidades entre las ubicaciones A y B?",
+      "options": [
+        "Salida de 8 en A y entrada de 8 en B",
+        "Entrada de 8 en ambas ubicaciones",
+        "Salida de 8 en ambas ubicaciones",
+        "Ningún registro si es dentro de la misma empresa"
+      ],
+      "explanation": "El movimiento entre ubicaciones exige una salida en origen y una entrada en destino, sin cambiar el total."
+    },
+    "uf0519-u3b2-006": {
+      "topic": "Inventario valorado",
+      "question": "¿Qué datos añade un inventario valorado respecto al recuento físico?",
+      "options": [
+        "El turno de limpieza y el nombre del conductor",
+        "Coste unitario e importe total de cada artículo",
+        "La cuota mensual del préstamo de la empresa",
+        "Las contraseñas del sistema de gestión"
+      ],
+      "explanation": "El inventario físico identifica unidades y estado; el valorado incorpora costes unitarios e importes totales."
+    },
+    "uf0519-u3b2-007": {
+      "topic": "Diferencias de inventario",
+      "question": "Si el recuento físico no coincide con el registro, ¿qué debe hacerse primero?",
+      "options": [
+        "Concluir que se ha producido un robo",
+        "Modificar el saldo sin dejar constancia",
+        "Revisar justificantes, repetir el recuento si procede e investigar la causa",
+        "Omitir la diferencia si es pequeña"
+      ],
+      "explanation": "El descuadre puede tener distintas causas y no demuestra por sí solo un robo; los ajustes requieren autorización."
+    },
+    "uf0519-u3b2-008": {
+      "topic": "Coste de las existencias",
+      "question": "Con 10 unidades a 2 € y 10 a 4 €, ¿cuál es el coste unitario medio ponderado de las 20 unidades?",
+      "options": [
+        "2 € por unidad",
+        "4 € por unidad",
+        "6 € por unidad",
+        "3 € por unidad"
+      ],
+      "explanation": "El PMP es (10 × 2 + 10 × 4) ÷ 20 = 3 € por unidad."
+    },
+    "uf0519-u3b2-009": {
+      "topic": "Valoración y LIFO",
+      "question": "¿Qué método NO admite el PGC para valorar existencias intercambiables?",
+      "options": [
+        "LIFO",
+        "Precio medio ponderado",
+        "FIFO",
+        "Coste de adquisición"
+      ],
+      "explanation": "El PGC prevé PMP con carácter general y admite FIFO; LIFO no es válido para esa valoración."
+    },
+    "uf0519-u3b2-010": {
+      "topic": "Reposición",
+      "question": "¿Qué debe comprobarse antes de emitir otra orden porque el stock está por debajo del punto de pedido?",
+      "options": [
+        "El número de facturas pagadas el año anterior",
+        "Si ya hay un pedido pendiente y cuál es su plazo de entrega",
+        "El color de las etiquetas del departamento",
+        "El tipo de letra de la ficha de almacén"
+      ],
+      "explanation": "El punto de pedido activa la revisión de reposición, pero deben considerarse pedidos en curso y plazos."
+    },
+    "uf0519-u3b2-011": {
+      "topic": "Hoja de cálculo de stock",
+      "question": "¿Qué control evita que una ficha de almacén en hoja de cálculo muestre saldos engañosos?",
+      "options": [
+        "Ordenar las filas por color sin comprobar los saldos",
+        "Eliminar las columnas de entrada y salida",
+        "Revisar fórmulas, duplicados, unidades de medida y justificantes",
+        "Redondear todas las cantidades a decenas"
+      ],
+      "explanation": "La trazabilidad requiere fórmulas correctas, unidades consistentes y ausencia de registros duplicados."
+    },
+    "uf0519-u3b2-012": {
+      "topic": "Clasificación de bienes",
+      "question": "¿Cómo debe diferenciarse una silla de oficina de los paquetes de papel en un inventario empresarial?",
+      "options": [
+        "Ambos se registran como material consumido en cada uso",
+        "La silla es una existencia para consumo diario",
+        "El papel siempre es un inmovilizado material",
+        "La silla puede inventariarse como bien duradero y el papel como existencias"
+      ],
+      "explanation": "Los bienes duraderos como el mobiliario se controlan separadamente de las existencias consumibles o para venta."
+    },
+    "uf0519-u3b2-013": {
+      "topic": "Rotación de stock",
+      "question": "Si en un mes salen 90 paquetes y el stock medio es de 30 paquetes, ¿cuál es la rotación?",
+      "options": [
+        "3 veces durante el mes",
+        "120 veces",
+        "60 veces",
+        "30 veces"
+      ],
+      "explanation": "La rotación son las salidas del periodo divididas entre el stock medio: 90 ÷ 30 = 3. La diapositiva 24 contiene un signo erróneo en la fórmula."
+    },
+    "uf0519-u3b2-014": {
+      "topic": "Cobertura de stock",
+      "question": "Con 36 paquetes y un consumo previsto de 3 paquetes diarios, ¿cuál es la cobertura?",
+      "options": [
+        "39 días",
+        "12 días",
+        "33 días",
+        "108 días"
+      ],
+      "explanation": "Cobertura = stock disponible ÷ consumo medio diario = 36 ÷ 3 = 12 días."
+    },
+    "uf0519-u3b2-015": {
+      "topic": "SGA y WMS",
+      "question": "¿Qué gestiona principalmente un SGA o WMS?",
+      "options": [
+        "La declaración personal de la renta",
+        "La redacción de contratos laborales",
+        "Operaciones, ubicaciones y movimientos del almacén",
+        "La configuración de salarios de toda la plantilla"
+      ],
+      "explanation": "El SGA está especializado en recepciones, ubicaciones, picking, traslados y existencias."
+    },
+    "uf0519-u3b2-016": {
+      "topic": "Integración ERP",
+      "question": "¿Qué diferencia básica existe entre un ERP y un SGA?",
+      "options": [
+        "El ERP sirve para mover palés; el SGA para pagar facturas",
+        "El ERP es una etiqueta; el SGA es un lector",
+        "No hay diferencia entre ambos sistemas",
+        "El ERP integra áreas de la empresa; el SGA se especializa en el almacén"
+      ],
+      "explanation": "Un ERP integra compras, ventas, contabilidad y otras áreas; el SGA se centra en las operaciones de almacén."
+    },
+    "uf0519-u3b2-017": {
+      "topic": "RFID",
+      "question": "¿Qué característica distingue una lectura RFID de un código de barras tradicional?",
+      "options": [
+        "Puede identificar etiquetas sin visión directa",
+        "No necesita etiquetas en los productos",
+        "Elimina la necesidad de registrar movimientos",
+        "Calcula automáticamente el coste de adquisición"
+      ],
+      "explanation": "El RFID usa radiofrecuencia y algunos sistemas permiten leer varias etiquetas sin verlas."
+    },
+    "uf0519-u3b2-018": {
+      "topic": "Códigos de barras",
+      "question": "¿Cuál es la finalidad principal de leer un código de barras en almacén?",
+      "options": [
+        "Modificar el saldo sin identificar el producto",
+        "Identificar la referencia y facilitar el registro de movimientos",
+        "Sustituir la comprobación del pedido",
+        "Garantizar que el producto no está deteriorado"
+      ],
+      "explanation": "La lectura identifica artículos y agiliza registros, pero no sustituye la comprobación de las operaciones."
+    },
+    "uf0519-u3b2-019": {
+      "topic": "Automatización",
+      "question": "¿Cuándo ayuda realmente la automatización a la gestión del almacén?",
+      "options": [
+        "Cuando se sustituyen los procedimientos de seguridad por velocidad",
+        "Cuando se elimina la obligación de identificar materiales",
+        "Cuando se adapta a la carga, el proceso y se mantiene el control de seguridad",
+        "Cuando se prescinde de toda supervisión de los equipos"
+      ],
+      "explanation": "La automatización puede agilizar tareas, pero exige equipos adecuados, formación y control del proceso."
+    }
+  }
+}

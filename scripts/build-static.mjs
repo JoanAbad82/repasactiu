@@ -18,6 +18,13 @@ for(const rel of [
   'css/aesthetic-polish.css',
   'css/academic-details.css',
   'js/stock-exercises.js',
+  'js/new-course-activities.js',
+  'data/new-course-activities-202610.json',
+  'data/uf0519_unitat_3_bloc_2.json',
+  'data/i18n/es/uf0519-unitat-3-bloc-2.json',
+  'data/memory/uf0519-unitat-3-bloc-2.json',
+  'data/hard/uf0519-unitat-3-bloc-2.json',
+  'css/new-course-activities.css',
   'data/stock-exercises-u3-v1.json',
   'data/uf0519_unitat_3_bloc_1.json',
   'data/i18n/es/uf0519-unitat-3-bloc-1.json',
@@ -54,6 +61,8 @@ const payroll=JSON.parse(await readFile(path.join(dist,'data','payroll-example-2
 const administrative=JSON.parse(await readFile(path.join(dist,'data','administrative-exercises-v1.json'),'utf8'));
 const treasury=JSON.parse(await readFile(path.join(dist,'data','treasury-practice-v1.json'),'utf8'));
 const stock=JSON.parse(await readFile(path.join(dist,'data','stock-exercises-u3-v1.json'),'utf8'));
+const newCourse=JSON.parse(await readFile(path.join(dist,'data','new-course-activities-202610.json'),'utf8'));
+if(newCourse.version!==1||newCourse.inventory?.cases?.length!==3||newCourse.sourceFiles?.length!==5)throw new Error('New class activities incomplete');
 if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
   throw new Error('Build validation failed: semantic manifest must contain 84 changes.');
 }
@@ -66,7 +75,7 @@ if(dictionary.version!==1||dictionary.count!==156||!Array.isArray(dictionary.ent
 if(!Array.isArray(dictionary.families)||dictionary.families.length!==18||dictionary.families.flatMap(family=>family.entryIds||[]).length!==156){
   throw new Error('Build validation failed: concept dictionary families are invalid.');
 }
-if(hangman.version!=='2.0'||hangman.count<300||!Array.isArray(hangman.entries)||hangman.entries.length!==hangman.count||!Array.isArray(hangman.groups)||hangman.groups.length!==18){
+if(hangman.version!=='2.0'||hangman.count<300||!Array.isArray(hangman.entries)||hangman.entries.length!==hangman.count||!Array.isArray(hangman.groups)||hangman.groups.length!==19){
   throw new Error('Build validation failed: full-course hangman bank is invalid.');
 }
 if(keyLists.version!==1||keyLists.count!==89||!Array.isArray(keyLists.entries)||keyLists.entries.length!==89){

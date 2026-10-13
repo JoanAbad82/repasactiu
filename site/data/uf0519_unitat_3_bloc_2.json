@@ -1,0 +1,272 @@
+{
+  "blockId": "uf0519-unitat-3-bloc-2",
+  "blockTitle": "Gestió i control bàsic d’existències",
+  "questions": [
+    {
+      "id": "uf0519-u3b2-001",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Fitxa de magatzem",
+      "question": "Quines dades permeten justificar cada moviment en una fitxa de magatzem?",
+      "options": [
+        "La data, el document i les unitats d’entrada o sortida",
+        "La marca del lector, el nom del transportista i el torn",
+        "El cost total anual de l’empresa i la nòmina",
+        "El color de la caixa i la data de la pròxima reunió"
+      ],
+      "correct": 0,
+      "explanation": "Cada entrada o sortida s’identifica amb data, justificant, concepte i quantitat, i actualitza el saldo."
+    },
+    {
+      "id": "uf0519-u3b2-002",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Recepció de material",
+      "question": "Si es demanen 12 paquets i només en són aptes 10, quantes unitats disponibles cal registrar?",
+      "options": [
+        "12 paquets, perquè coincideix amb la comanda",
+        "10 paquets i una incidència per les 2 unitats restants",
+        "2 paquets, perquè són els que falten",
+        "Cap paquet fins que no arribi la comanda sencera"
+      ],
+      "correct": 1,
+      "explanation": "L’estoc disponible reflecteix el material realment rebut i apte; cal comunicar les dues unitats que falten."
+    },
+    {
+      "id": "uf0519-u3b2-003",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Transpalet manual",
+      "question": "Quina operació és pròpia d’un transpalet manual?",
+      "options": [
+        "Apilar palets a les prestatgeries altes",
+        "Elevar persones en una plataforma improvisada",
+        "Desplaçar horitzontalment un palet lleugerament elevat",
+        "Manipular càrregues sense comprovar-ne el pes"
+      ],
+      "correct": 2,
+      "explanation": "El transpalet manual mou càrregues sobre palets en horitzontal; no és una màquina per apilar en altura."
+    },
+    {
+      "id": "uf0519-u3b2-004",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Carretó elevador",
+      "question": "Quina condició és necessària per conduir amb seguretat un carretó automotor?",
+      "options": [
+        "Tenir accés al programa de comptabilitat",
+        "Conèixer la referència comercial del proveïdor",
+        "Disposar de la fitxa de preus de venda",
+        "Formació específica i respecte a la capacitat de càrrega"
+      ],
+      "correct": 3,
+      "explanation": "L’ús d’equips automotors exigeix formació específica i mesures de seguretat segons l’equip i la càrrega."
+    },
+    {
+      "id": "uf0519-u3b2-005",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Sortides i trasllats",
+      "question": "Com s’ha de registrar un trasllat de 8 unitats entre les ubicacions A i B?",
+      "options": [
+        "Sortida de 8 a A i entrada de 8 a B",
+        "Entrada de 8 a totes dues ubicacions",
+        "Sortida de 8 a totes dues ubicacions",
+        "Cap registre si és dins de la mateixa empresa"
+      ],
+      "correct": 0,
+      "explanation": "El moviment entre ubicacions exigeix una sortida a l’origen i una entrada al destí, sense canviar el total."
+    },
+    {
+      "id": "uf0519-u3b2-006",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Inventari valorat",
+      "question": "Quines dades afegeix un inventari valorat respecte al recompte físic?",
+      "options": [
+        "El torn de neteja i el nom del conductor",
+        "Cost unitari i import total de cada article",
+        "La quota mensual del préstec de l’empresa",
+        "Les contrasenyes del sistema de gestió"
+      ],
+      "correct": 1,
+      "explanation": "L’inventari físic identifica unitats i estat; el valorat incorpora costos unitaris i imports totals."
+    },
+    {
+      "id": "uf0519-u3b2-007",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Diferències d’inventari",
+      "question": "Si el recompte físic no coincideix amb el registre, què cal fer primer?",
+      "options": [
+        "Concloure que hi ha hagut un furt",
+        "Modificar el saldo sense deixar constància",
+        "Revisar justificants, repetir el recompte si cal i investigar la causa",
+        "Ometre la diferència si és petita"
+      ],
+      "correct": 2,
+      "explanation": "El desquadrament pot tenir diverses causes i no demostra per si sol un furt; els ajustos requereixen autorització."
+    },
+    {
+      "id": "uf0519-u3b2-008",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Cost de les existències",
+      "question": "Amb 10 unitats a 2 € i 10 a 4 €, quin és el cost unitari mitjà ponderat de les 20 unitats?",
+      "options": [
+        "2 € per unitat",
+        "4 € per unitat",
+        "6 € per unitat",
+        "3 € per unitat"
+      ],
+      "correct": 3,
+      "explanation": "El PMP és (10 × 2 + 10 × 4) ÷ 20 = 3 € per unitat."
+    },
+    {
+      "id": "uf0519-u3b2-009",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Valoració i LIFO",
+      "question": "Quin mètode NO admet el PGC per valorar existències intercanviables?",
+      "options": [
+        "LIFO",
+        "Preu mitjà ponderat",
+        "FIFO",
+        "Cost d’adquisició"
+      ],
+      "correct": 0,
+      "explanation": "El PGC preveu PMP amb caràcter general i admet FIFO; LIFO no és vàlid per a aquesta valoració."
+    },
+    {
+      "id": "uf0519-u3b2-010",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Reposició",
+      "question": "Què s’ha de comprovar abans de generar una nova ordre perquè l’estoc sigui inferior al punt de comanda?",
+      "options": [
+        "El nombre de factures pagades l’any anterior",
+        "Si ja hi ha una comanda pendent i quin termini de lliurament té",
+        "El color de les etiquetes del departament",
+        "El tipus de lletra de la fitxa de magatzem"
+      ],
+      "correct": 1,
+      "explanation": "El punt de comanda activa la revisió de reposició, però cal tenir en compte comandes en curs i terminis."
+    },
+    {
+      "id": "uf0519-u3b2-011",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Full de càlcul d’estoc",
+      "question": "Quin control evita que una fitxa de magatzem en full de càlcul mostri saldos enganyosos?",
+      "options": [
+        "Ordenar les files per color sense comprovar els saldos",
+        "Eliminar les columnes d’entrada i sortida",
+        "Revisar fórmules, duplicats, unitats de mesura i justificants",
+        "Arrodonir totes les quantitats a desenes"
+      ],
+      "correct": 2,
+      "explanation": "La traçabilitat requereix fórmules correctes, unitats consistents i absència de registres duplicats."
+    },
+    {
+      "id": "uf0519-u3b2-012",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Classificació de béns",
+      "question": "Com s’ha de diferenciar una cadira d’oficina dels paquets de paper en un inventari empresarial?",
+      "options": [
+        "Ambdós es registren com a material consumit en cada ús",
+        "La cadira és una existència per a consum diari",
+        "El paper sempre és un immobilitzat material",
+        "La cadira es pot inventariar com a bé durador i el paper com a existències"
+      ],
+      "correct": 3,
+      "explanation": "Els béns duradors com el mobiliari es controlen separadament de les existències consumibles o per a venda."
+    },
+    {
+      "id": "uf0519-u3b2-014",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Cobertura d’estoc",
+      "question": "Amb 36 paquets i un consum previst de 3 paquets diaris, quina és la cobertura?",
+      "options": [
+        "39 dies",
+        "12 dies",
+        "33 dies",
+        "108 dies"
+      ],
+      "correct": 1,
+      "explanation": "Cobertura = estoc disponible ÷ consum mitjà diari = 36 ÷ 3 = 12 dies."
+    },
+    {
+      "id": "uf0519-u3b2-013",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Rotació d’estoc",
+      "question": "Si en un mes surten 90 paquets i l’estoc mitjà és de 30 paquets, quina és la rotació?",
+      "options": [
+        "3 vegades durant el mes",
+        "120 vegades",
+        "60 vegades",
+        "30 vegades"
+      ],
+      "correct": 0,
+      "explanation": "La rotació és sortides del període dividides per l’estoc mitjà: 90 ÷ 30 = 3. La diapositiva 24 conté un signe erroni a la fórmula."
+    },
+    {
+      "id": "uf0519-u3b2-015",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "SGA i WMS",
+      "question": "Què gestiona principalment un SGA o WMS?",
+      "options": [
+        "La declaració personal de la renda",
+        "La redacció de contractes de treball",
+        "Operacions, ubicacions i moviments del magatzem",
+        "La configuració dels salaris de tota la plantilla"
+      ],
+      "correct": 2,
+      "explanation": "L’SGA és especialitzat en recepcions, ubicacions, picking, trasllats i estoc."
+    },
+    {
+      "id": "uf0519-u3b2-016",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Integració ERP",
+      "question": "Quina diferència bàsica hi ha entre un ERP i un SGA?",
+      "options": [
+        "L’ERP serveix per moure palets; l’SGA per pagar factures",
+        "L’ERP és una etiqueta; l’SGA és un lector",
+        "No hi ha diferència entre tots dos sistemes",
+        "L’ERP integra àrees de l’empresa; l’SGA s’especialitza en el magatzem"
+      ],
+      "correct": 3,
+      "explanation": "Un ERP integra compres, vendes, comptabilitat i altres àrees; l’SGA se centra en les operacions del magatzem."
+    },
+    {
+      "id": "uf0519-u3b2-017",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "RFID",
+      "question": "Quina característica diferencia una lectura RFID d’un codi de barres tradicional?",
+      "options": [
+        "Pot identificar etiquetes sense visió directa",
+        "No necessita etiquetes als productes",
+        "Elimina la necessitat de registrar moviments",
+        "Calcula automàticament el cost d’adquisició"
+      ],
+      "correct": 0,
+      "explanation": "L’RFID usa radiofreqüència i alguns sistemes permeten llegir diverses etiquetes sense veure-les."
+    },
+    {
+      "id": "uf0519-u3b2-018",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Codis de barres",
+      "question": "Quina és la finalitat principal de llegir un codi de barres al magatzem?",
+      "options": [
+        "Modificar el saldo sense identificar el producte",
+        "Identificar la referència i facilitar el registre de moviments",
+        "Substituir la comprovació de la comanda",
+        "Garantir que el producte no està deteriorat"
+      ],
+      "correct": 1,
+      "explanation": "La lectura identifica articles i agilitza registres, però no substitueix la comprovació de les operacions."
+    },
+    {
+      "id": "uf0519-u3b2-019",
+      "block": "uf0519-unitat-3-bloc-2",
+      "topic": "Automatització",
+      "question": "Quan ajuda realment l’automatització a la gestió del magatzem?",
+      "options": [
+        "Quan se substitueixen els procediments de seguretat per velocitat",
+        "Quan s’elimina l’obligació d’identificar els materials",
+        "Quan s’adapta a la càrrega, el procés i es manté el control de seguretat",
+        "Quan es prescindeix de tota supervisió dels equips"
+      ],
+      "correct": 2,
+      "explanation": "L’automatització pot agilitar tasques, però exigeix equips adequats, formació i control del procés."
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "version": 1,
+  "id": "UF0519_OCT2026_NEW_CLASS_ACTIVITIES",
+  "sourceFiles": [
+    {
+      "file": "3_Gestio i control basic d´existencies_bloc 2.pdf",
+      "pages": 39,
+      "sha256": "d804d37a09aa04067d860277ea8252d534838676fed396a906e1505c1f1b3df9"
+    },
+    {
+      "file": "Exercicis_Inventari.docx",
+      "pages": 3,
+      "sha256": "329d8f60ef3e68a00f19833cd4f059adac6566aa7fb40f266ff631a85897fa5d"
+    },
+    {
+      "file": "Plantilla_llibre_auxiliar de caixa(1).xlsx",
+      "sheet": "Llibre de caixa",
+      "sha256": "c107cea256ecf1279c66490a6fafd468b862dde834e57774e4a7742082948473"
+    },
+    {
+      "file": "Plantilla_llibre_auxiliar_bancs(1).xlsx",
+      "sheet": "Llibre de bancs",
+      "sha256": "d6b04fbcf783c3edbfa259bddf00c61cac3fd246a998835fa53d55a234fa90c3"
+    },
+    {
+      "file": "Actividad_busqueda_anuncios_y_exposicion(1).docx",
+      "pages": 3,
+      "sha256": "7600315e5de366907e6a1735723daf8125766e5fda8ee4fe7a7df378f9b5e289"
+    }
+  ],
+  "inventory": {
+    "sourceIndex": 1,
+    "dateStart": "14/10/2026",
+    "dateEnd": "16/10/2026",
+    "cases": [
+      {
+        "id": "001",
+        "title": {
+          "ca": "Control de material per a enviaments",
+          "es": "Control de material para envíos"
+        },
+        "company": "Missatgeria Ràpida, SL",
+        "sourcePage": 1,
+        "items": [
+          {
+            "name": {
+              "ca": "Sobres encoixinats",
+              "es": "Sobres acolchados"
+            },
+            "unit": {
+              "ca": "unitats",
+              "es": "unidades"
+            },
+            "initial": 45
+          },
+          {
+            "name": {
+              "ca": "Etiquetes adhesives",
+              "es": "Etiquetas adhesivas"
+            },
+            "unit": {
+              "ca": "rotlles",
+              "es": "rollos"
+            },
+            "initial": 9
+          },
+          {
+            "name": {
+              "ca": "Cinta d’embalatge",
+              "es": "Cinta de embalaje"
+            },
+            "unit": {
+              "ca": "rotlles",
+              "es": "rollos"
+            },
+            "initial": 14
+          },
+          {
+            "name": {
+              "ca": "Caixes petites",
+              "es": "Cajas pequeñas"
+            },
+            "unit": {
+              "ca": "unitats",
+              "es": "unidades"
+            },
+            "initial": 32
+          }
+        ],
+        "events": [
+          {
+            "day": "14/10",
+            "item": 0,
+            "delta": -18,
+            "concept": {
+              "ca": "Lliurament a expedicions",
+              "es": "Entrega a expediciones"
+            }
+          },
+          {
+            "day": "14/10",
+            "item": 2,
+            "delta": -4,
+            "concept": {
+              "ca": "Lliurament a expedicions",
+              "es": "Entrega a expediciones"
+            }
+          },
+          {
+            "day": "14/10",
+            "item": 3,
+            "delta": 25,
+            "concept": {
+              "ca": "Recepció del proveïdor",
+              "es": "Recepción del proveedor"
+            }
+          },
+          {
+            "day": "15/10",
+            "item": 0,
+            "delta": 30,
+            "concept": {
+              "ca": "Recepció del proveïdor",
+              "es": "Recepción del proveedor"
+            }
+          },
+          {
+            "day": "15/10",
+            "item": 1,
+            "delta": 6,
+            "concept": {
+              "ca": "Recepció del proveïdor",
+              "es": "Recepción del proveedor"
+            }
+          },
+          {
+            "day": "15/10",
+            "item": 3,
+            "delta": -20,
+            "concept": {
+              "ca": "Lliurament a expedicions",
+              "es": "Entrega a expediciones"
+            }
+          },
+          {
+            "day": "16/10",
+            "item": 1,
+            "delta": -3,
+            "concept": {
+              "ca": "Lliurament a recepció",
+              "es": "Entrega a recepción"
+            }
+          },
+          {
+            "day": "16/10",
+            "item": 2,
+            "delta": 8,
+            "concept": {
+              "ca": "Recepció del proveïdor",
+              "es": "Recepción del proveedor"
+            }
+          }
+        ],
+        "expectedFinal": [
+          57,
+          12,
+          18,
+          37
+        ]
+      },
+      {
+        "id": "002",
+        "title": {
+          "ca": "Registre de consumibles de secretaria",
+          "es": "Registro de consumibles de secretaría"
+        },
+        "company": "Centre Esportiu La Riera",
+        "sourcePage": 2,
+        "items": [
+          {
+            "name": {
+              "ca": "Grapes",
+              "es": "Grapas"
+            },
+            "unit": {
+              "ca": "caixes",
+              "es": "cajas"
+            },
+            "initial": 16
+          },
+          {
+            "name": {
+              "ca": "Fundes transparents",
+              "es": "Fundas transparentes"
+            },
+            "unit": {
+              "ca": "unitats",
+              "es": "unidades"
+            },
+            "initial": 75
+          },
+          {
+            "name": {
+              "ca": "Cinta correctora",
+              "es": "Cinta correctora"
+            },
+            "unit": {
+              "ca": "unitats",
+              "es": "unidades"
+            },
+            "initial": 11
+          },
+          {
+            "name": {
+              "ca": "Notes adhesives",
+              "es": "Notas adhesivas"
+            },
+            "unit": {
+              "ca": "blocs",
+              "es": "bloques"
+            },
+            "initial": 28
+          }
+        ],
+        "events": [
+          {
+            "day": "14/10",
+            "item": 1,
+            "delta": 40,
+            "concept": {
+              "ca": "Recepció del proveïdor",
+              "es": "Recepción del proveedor"
+            }
+          },
+          {
+            "day": "14/10",
+            "item": 0,
+            "delta": -5,
+            "concept": {
+              "ca": "Lliurament a secretaria",
+              "es": "Entrega a secretaría"
+            }
+          },
+          {
+            "day": "14/10",
+            "item": 3,
+            "delta": -9,
+            "concept": {
+              "ca": "Lliurament a secretaria",
+              "es": "Entrega a secretaría"
+            }
+          },
+          {
+            "day": "15/10",
+            "item": 1,
+            "delta": -18,
+            "concept": {
+              "ca": "Lliurament a recepció",
+              "es": "Entrega a recepción"
+            }
+          },
+          {
+            "day": "15/10",
+            "item": 2,
+            "delta": -4,
+            "concept": {
+              "ca": "Lliurament a recepció",
+              "es": "Entrega a recepción"
+            }
+          },
+          {
+            "day": "15/10",
+            "item": 2,
+            "delta": 7,
+            "concept": {
+              "ca": "Recepció del proveïdor",
+              "es": "Recepción del proveedor"
+            }
+          },
+          {
+            "day": "16/10",
+            "item": 0,
+            "delta": 10,
+            "concept": {
+              "ca": "Recepció del proveïdor",
+              "es": "Recepción del proveedor"
+            }
+          },
+          {
+            "day": "16/10",
+            "item": 1,
+            "delta": -22,
+            "concept": {
+              "ca": "Lliurament a secretaria",
+              "es": "Entrega a secretaría"
+            }
+          }
+        ],
+        "expectedFinal": [
+          21,
+          75,
+          14,
+          19
+        ]
+      },
+      {
+        "id": "003",
+        "title": {
+          "ca": "Control de material per a reunions",
+          "es": "Control de material para reuniones"
+        },
+        "company": "Cooperativa Camins",
+        "sourcePage": 3,
+        "items": [
+          {
+            "name": {
+              "ca": "Llibretes",
+              "es": "Libretas"
+            },
+            "unit": {
+              "ca": "unitats",
+              "es": "unidades"
+            },
+            "initial": 26
+          },
+          {
+            "name": {
+              "ca": "Llapis",
+              "es": "Lápices"
+            },
+            "unit": {
+              "ca": "unitats",
+              "es": "unidades"
+            },
+            "initial": 48
+          },
+          {
+            "name": {
+              "ca": "Gomes d’esborrar",
+              "es": "Gomas de borrar"
+            },
+            "unit": {
+              "ca": "unitats",
+              "es": "unidades"
+            },
+            "initial": 19
+          },
+          {
+            "name": {
+              "ca": "Pinces metàl·liques",
+              "es": "Pinzas metálicas"
+            },
+            "unit": {
+              "ca": "caixes",
+              "es": "cajas"
+            },
+            "initial": 8
+          }
+        ],
+        "events": [
+          {
+            "day": "14/10",
+            "item": 0,
+            "delta": -9,
+            "concept": {
+              "ca": "Lliurament a coordinació",
+              "es": "Entrega a coordinación"
+            }
+          },
+          {
+            "day": "14/10",
+            "item": 1,
+            "delta": -15,
+            "concept": {
+              "ca": "Lliurament a coordinació",
+              "es": "Entrega a coordinación"
+            }
+          },
+          {
+            "day": "14/10",
+            "item": 2,
+            "delta": 12,
+            "concept": {
+              "ca": "Recepció del proveïdor",
+              "es": "Recepción del proveedor"
+            }
+          },
+          {
+            "day": "15/10",
+            "item": 0,
+            "delta": 18,
+            "concept": {
+              "ca": "Recepció del proveïdor",
+              "es": "Recepción del proveedor"
+            }
+          },
+          {
+            "day": "15/10",
+            "item": 2,
+            "delta": -7,
+            "concept": {
+              "ca": "Lliurament a administració",
+              "es": "Entrega a administración"
+            }
+          },
+          {
+            "day": "15/10",
+            "item": 3,
+            "delta": -3,
+            "concept": {
+              "ca": "Lliurament a administració",
+              "es": "Entrega a administración"
+            }
+          },
+          {
+            "day": "16/10",
+            "item": 0,
+            "delta": -11,
+            "concept": {
+              "ca": "Lliurament a coordinació",
+              "es": "Entrega a coordinación"
+            }
+          },
+          {
+            "day": "16/10",
+            "item": 3,
+            "delta": 5,
+            "concept": {
+              "ca": "Recepció del proveïdor",
+              "es": "Recepción del proveedor"
+            }
+          }
+        ],
+        "expectedFinal": [
+          24,
+          33,
+          24,
+          10
+        ]
+      }
+    ]
+  },
+  "books": {
+    "sourceIndices": [
+      2,
+      3
+    ],
+    "types": [
+      "caixa",
+      "bancs"
+    ],
+    "columns": [
+      "data",
+      "concepte",
+      "entrada",
+      "sortida",
+      "saldo"
+    ],
+    "initialRow": true
+  },
+  "housing": {
+    "sourceIndex": 4,
+    "sourceLanguage": "es",
+    "income": 2300,
+    "savings": 50000,
+    "rental": {
+      "depositMonths": 1,
+      "firstMonth": 1,
+      "move": 500,
+      "utilities": 150,
+      "internet": 40
+    },
+    "purchase": {
+      "downRate": 0.2,
+      "expensesRate": 0.1,
+      "move": 500,
+      "loanRate": 0.8,
+      "annualInterest": 0.03,
+      "years": 30,
+      "community": 60,
+      "utilities": 150,
+      "internet": 40,
+      "insurance": 25,
+      "ibiMaintenanceReserve": 70
+    },
+    "groupMin": 3,
+    "groupMax": 4,
+    "slides": 4
+  }
+}

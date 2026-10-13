@@ -6,6 +6,11 @@
       "file": "3_Gestió i control bàsic d’existències.pdf",
       "pages": 29,
       "sha256": "06f89f17152e1cbd3b238ca019c95e815949606a6e775c484c486d1cef7710da"
+    },
+    "UF0519_U3_BLOC2_20261013": {
+      "file": "3_Gestio i control basic d´existencies_bloc 2.pdf",
+      "pages": 39,
+      "sha256": "d804d37a09aa04067d860277ea8252d534838676fed396a906e1505c1f1b3df9"
     }
   },
   "questionTraces": [
@@ -251,14 +256,185 @@
         29
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-001",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        4,
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-002",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        7,
+        7
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-003",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        8,
+        8
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-004",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        9,
+        9
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-005",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        10,
+        10
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-006",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        13,
+        13
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-007",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        14,
+        14
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-008",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        15,
+        15
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-009",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        15,
+        15
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-010",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        16,
+        16
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-011",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        19,
+        19
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-012",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        20,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-013",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        24,
+        24
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-014",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        24,
+        24
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-015",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        27,
+        27
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-016",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        29,
+        29
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-017",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        30,
+        30
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-018",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        31,
+        31
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-019",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "pageRange": [
+        35,
+        35
+      ],
+      "status": "PASS"
     }
   ],
   "coverageRules": [],
   "sourceOverrides": [],
   "corrections": [],
   "review": {
-    "questionCount": 27,
+    "questionCount": 46,
     "status": "PASS",
-    "policy": "Per-question checked against original UF0519 Unitat 3 slide deck; exercises correspond to four DOCX handouts and an XLSX template with explicit simulated office data."
+    "policy": "Per-question checked against original UF0519 Unitat 3 slide deck; exercises correspond to four DOCX handouts and an XLSX template with explicit simulated office data. Bloc 2 (19 questions) sourced to newly supplied 39-page presentation and discrepancy p.24 recorded separately."
   }
 }
