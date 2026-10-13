@@ -29,7 +29,7 @@ test('els accessos directes porten a les eines adequades sense duplicar contingu
 
 test('els accessos directes es tradueixen a castellà',async({page})=>{
   await page.goto('/');
-  await expect(page.getByText('1055 preguntes')).toBeVisible();
+  await expect(page.getByText('1075 preguntes')).toBeVisible();
   await page.locator('#language-es').click();
   await expect(page.locator('#home-tools-title')).toHaveText('Herramientas de repaso');
   await expect(page.locator('#home-shortcut-study')).toContainText('Tarjetas de memoria');
@@ -41,7 +41,7 @@ test('els accessos directes es tradueixen a castellà',async({page})=>{
 
 test('la drecera del teclat salta al contingut principal',async({page})=>{
   await page.goto('/');
-  await expect(page.getByText('1055 preguntes')).toBeVisible();
+  await expect(page.getByText('1075 preguntes')).toBeVisible();
   await page.keyboard.press('Tab');
   await expect(page.locator('#skip-link')).toBeFocused();
   await expect(page.locator('#skip-link')).toBeVisible();

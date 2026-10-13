@@ -452,6 +452,28 @@
         "B2C = consumidor-empresa; B2A = Administración-empresa; C2C = cliente-proveedor"
       ],
       "explanation": "El material diferencia B2C, B2A y C2C según quién vende o se relaciona con quién."
+    },
+    "uf0519-u2b2-042": {
+      "topic": "Libro de caja: saldo",
+      "question": "Ejemplo inventado para practicar la plantilla: caja inicial 150 €, entrada en efectivo 40 € y pago en efectivo 55 €. ¿Qué saldo se anota?",
+      "options": [
+        "245 €",
+        "165 €",
+        "135 €",
+        "95 €"
+      ],
+      "explanation": "La plantilla separa entrada y salida: 150 + 40 − 55 = 135 €. Las cifras son un caso didáctico nuevo."
+    },
+    "uf0519-u2b2-043": {
+      "topic": "Libro de bancos: saldo",
+      "question": "Ejemplo inventado para practicar la plantilla: saldo bancario inicial 1.200 €, transferencia recibida 160 € y cargo de 90 €. ¿Qué saldo queda?",
+      "options": [
+        "1.450 €",
+        "1.130 €",
+        "970 €",
+        "1.270 €"
+      ],
+      "explanation": "La plantilla de bancos separa entradas y salidas: 1.200 + 160 − 90 = 1.270 €. Cifras didácticas, no de la hoja original."
     }
   }
 }

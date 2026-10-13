@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
 
-test('UF0519 Unitat 2 separa els blocs 1 i 2 i publica 41 preguntes noves',async({page})=>{
+test('UF0519 Unitat 2 separa els blocs 1 i 2 i publica 43 preguntes',async({page})=>{
   await page.goto('/');
   const b1=page.locator('[data-block-card][data-selection="uf0519-unitat-2-bloc-1"]');
   const b2=page.locator('[data-block-card][data-selection="uf0519-unitat-2-bloc-2"]');
@@ -8,25 +8,25 @@ test('UF0519 Unitat 2 separa els blocs 1 i 2 i publica 41 preguntes noves',async
   await expect(b1).toContainText('30 preguntes');
   await expect(b2).toBeVisible();
   await expect(b2).toContainText('Caixa, bancs, seguretat i mitjans informàtics de tresoreria');
-  await expect(b2).toContainText('41 preguntes');
+  await expect(b2).toContainText('43 preguntes');
 
   await page.locator('#language-es').click();
   await expect(b2).toContainText('Caja, bancos, seguridad y medios informáticos de tesorería');
-  await expect(b2).toContainText('41 preguntas');
+  await expect(b2).toContainText('43 preguntas');
 });
 
-test('les targetes agrupen els dos blocs de la nova Unitat 2 en 77 targetes',async({page})=>{
+test('les targetes agrupen els dos blocs de la nova Unitat 2 en 79 targetes',async({page})=>{
   await page.goto('/');
   await page.getByRole('button',{name:'Targetes de memòria'}).click();
   const unit=page.locator('[data-study-unit="uf0519-unitat-2"]');
   await expect(unit).toBeVisible();
-  await expect(unit).toContainText('77 targetes');
+  await expect(unit).toContainText('79 targetes');
   await expect(unit.locator('[data-study-block="uf0519-unitat-2-bloc-1"] [data-study-count]')).toHaveText('36');
-  await expect(unit.locator('[data-study-block="uf0519-unitat-2-bloc-2"] [data-study-count]')).toHaveText('41');
+  await expect(unit.locator('[data-study-block="uf0519-unitat-2-bloc-2"] [data-study-count]')).toHaveText('43');
   await unit.locator('[data-study-action="unit"]').click();
-  await expect(page.locator('#study-selected-count')).toHaveText('77');
+  await expect(page.locator('#study-selected-count')).toHaveText('79');
   await page.getByRole('button',{name:'Començar repàs'}).click();
-  await expect(page.locator('#study-card-progress')).toHaveText('1 / 77');
+  await expect(page.locator('#study-card-progress')).toHaveText('1 / 79');
 });
 
 test('el diccionari conserva 22 conceptes i el penjat amplia el Bloc 2 a 29 entrades',async({page})=>{

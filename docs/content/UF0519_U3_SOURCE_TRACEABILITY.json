@@ -11,6 +11,11 @@
       "file": "3_Gestio i control basic d´existencies_bloc 2.pdf",
       "pages": 39,
       "sha256": "d804d37a09aa04067d860277ea8252d534838676fed396a906e1505c1f1b3df9"
+    },
+    "UF0519_U3_INVENTORY_20261013": {
+      "file": "Exercicis_Inventari.docx",
+      "pages": 3,
+      "sha256": "329d8f60ef3e68a00f19833cd4f059adac6566aa7fb40f266ff631a85897fa5d"
     }
   },
   "questionTraces": [
@@ -427,14 +432,194 @@
         35
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0519-u3b2-020",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-021",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-022",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-023",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        13,
+        13
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-024",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        14,
+        14
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-025",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-026",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-027",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        21,
+        21
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-028",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        27,
+        27
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-029",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        28,
+        28
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-030",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        31,
+        31
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-031",
+      "source": "UF0519_U3_BLOC2_20261013",
+      "status": "PASS",
+      "kind": "SOURCE_APPLICATION",
+      "pageRange": [
+        36,
+        36
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-032",
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "status": "PASS",
+      "kind": "DOCUMENT_CASE_CALCULATION",
+      "pageRange": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-033",
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "status": "PASS",
+      "kind": "DOCUMENT_CASE_CALCULATION",
+      "pageRange": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-034",
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "status": "PASS",
+      "kind": "DOCUMENT_CASE_CALCULATION",
+      "pageRange": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-035",
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "status": "PASS",
+      "kind": "DOCUMENT_CASE_CALCULATION",
+      "pageRange": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-036",
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "status": "PASS",
+      "kind": "DOCUMENT_CASE_CALCULATION",
+      "pageRange": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "uf0519-u3b2-037",
+      "source": "UF0519_U3_INVENTORY_20261013",
+      "status": "PASS",
+      "kind": "DOCUMENT_CASE_CALCULATION",
+      "pageRange": [
+        3,
+        3
+      ]
     }
   ],
   "coverageRules": [],
   "sourceOverrides": [],
   "corrections": [],
   "review": {
-    "questionCount": 46,
+    "questionCount": 64,
     "status": "PASS",
-    "policy": "Per-question checked against original UF0519 Unitat 3 slide deck; exercises correspond to four DOCX handouts and an XLSX template with explicit simulated office data. Bloc 2 (19 questions) sourced to newly supplied 39-page presentation and discrepancy p.24 recorded separately."
+    "policy": "Per-question checked against original UF0519 Unitat 3 slide deck; exercises correspond to four DOCX handouts and an XLSX template with explicit simulated office data. Bloc 2 (19 questions) sourced to newly supplied 39-page presentation and discrepancy p.24 recorded separately. Lot 2026-10-13: 12 application questions PDF pp.6–36 and 6 derived calculations from original 3-page inventory worksheet."
   }
 }

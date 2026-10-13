@@ -205,6 +205,16 @@
       "type": "idea",
       "ca": "B2C consumidor; B2A Administració; C2C consumidors.",
       "es": "B2C consumidor; B2A Administración; C2C consumidores."
+    },
+    "uf0519-u2b2-042": {
+      "type": "idea",
+      "ca": "Caixa: saldo anterior + cobrat en efectiu − pagat en efectiu.",
+      "es": "Caja: saldo anterior + cobrado en efectivo − pagado en efectivo."
+    },
+    "uf0519-u2b2-043": {
+      "type": "idea",
+      "ca": "Transferència rebuda suma; càrrec bancari resta.",
+      "es": "Transferencia recibida suma; cargo bancario resta."
     }
   }
 }
