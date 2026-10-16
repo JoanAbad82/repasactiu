@@ -20,6 +20,8 @@ for(const rel of [
   'js/stock-exercises.js',
   'js/new-course-activities.js',
   'data/new-course-activities-202610.json',
+  'data/uf0520-comunicacio-vs-informacio-practice-v1.json',
+  'js/communication-practice.js',
   'data/uf0519_unitat_3_bloc_2.json',
   'data/i18n/es/uf0519-unitat-3-bloc-2.json',
   'data/memory/uf0519-unitat-3-bloc-2.json',
@@ -62,6 +64,8 @@ const administrative=JSON.parse(await readFile(path.join(dist,'data','administra
 const treasury=JSON.parse(await readFile(path.join(dist,'data','treasury-practice-v1.json'),'utf8'));
 const stock=JSON.parse(await readFile(path.join(dist,'data','stock-exercises-u3-v1.json'),'utf8'));
 const newCourse=JSON.parse(await readFile(path.join(dist,'data','new-course-activities-202610.json'),'utf8'));
+const communication=JSON.parse(await readFile(path.join(dist,'data','uf0520-comunicacio-vs-informacio-practice-v1.json'),'utf8'));
+if(communication.version!==1||communication.blockId!=='uf0520-unitat-1-bloc-1'||communication.cases?.length!==5||communication.cases.map(c=>c.answer).join(',')!=='informacio,comunicacio,informacio,comunicacio,informacio')throw new Error('UF0520 practice missing or inconsistent');
 if(newCourse.version!==1||newCourse.inventory?.cases?.length!==3||newCourse.sourceFiles?.length!==5)throw new Error('New class activities incomplete');
 if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
   throw new Error('Build validation failed: semantic manifest must contain 84 changes.');

@@ -31,7 +31,7 @@ for(const width of [390,800,1440]){
   await ready(page);
   await page.locator("#home-shortcut-examples").click();
   const nav=page.locator(".practical-tabs");
-  await expect(nav.locator("button")).toHaveCount(6);
+  await expect(nav.locator("button")).toHaveCount(7);
   const geometry=await nav.evaluate(el=>{
    const bounds=el.getBoundingClientRect();
    return {overflow:el.scrollWidth>el.clientWidth,buttons:[...el.querySelectorAll("button")].map(b=>{

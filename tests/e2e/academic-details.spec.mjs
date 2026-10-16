@@ -24,7 +24,7 @@ for(const width of widths){
    const sr=await page.locator("#home-shortcut-dictionary .tool-motif").getAttribute("aria-hidden");
    expect(sr).toBe("true");
    await page.locator("#home-shortcut-examples").click();
-   await expect(page.locator(".practical-tabs button")).toHaveCount(6);
+   await expect(page.locator(".practical-tabs button")).toHaveCount(7);
    expect(await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth)).toBeLessThanOrEqual(1);
    await page.locator("#home-link").click();
    await page.locator('[data-selection="uf0519-unitat-3-bloc-1"]').click();
