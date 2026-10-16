@@ -158,11 +158,11 @@
     },
     "uf0520-u1b1-015": {
       "topic": "Caso del proveedor",
-      "question": "En el caso de la llamada de Luis, ¿qué conviene confirmar antes de indicarle el acceso?",
+      "question": "En un caso ficticio, Luis, de Suministros Norte, llama a recepción y dice: «Llegaré hoy a las 11:30 con el pedido 218. ¿Por qué acceso debo entrar?». Antes de indicarle el acceso correcto, ¿qué conviene confirmar?",
       "options": [
-        "Su estado de ánimo a partir de la voz",
-        "El color del vehículo sin relación con el acceso",
-        "Que cualquier entrada es adecuada",
+        "Confirmar el nombre de la empresa y facilitar el acceso sin revisar el pedido",
+        "Anotar la hora prevista, pero dejar pendiente la verificación del pedido",
+        "Indicar la entrada habitual de proveedores antes de identificar la entrega",
         "El número de pedido 218 y los datos necesarios de la llegada"
       ],
       "explanation": "El ejercicio pide identificar el mensaje, responder con el acceso y comprobar el pedido."
@@ -180,7 +180,7 @@
     },
     "uf0520-u1b1-017": {
       "topic": "Retroalimentación",
-      "question": "¿Qué respuesta comprueba mejor que se ha entendido una instrucción?",
+      "question": "Una responsable pide a un auxiliar que prepare tres copias y las deje en recepción antes de las 13:00. ¿Qué respuesta comprueba mejor que el auxiliar ha entendido la instrucción?",
       "options": [
         "«Vale», sin repetir los detalles",
         "«Preparo tres copias y las dejo en recepción antes de las 13:00, ¿correcto?»",
@@ -345,14 +345,322 @@
     },
     "uf0520-u1b1-032": {
       "topic": "Aviso por cambio de horario",
-      "question": "En la actividad de atención del 21 de octubre, ¿qué debe indicar el aviso a quien tenía cita a las 9?",
+      "question": "En un caso ficticio, el 21 de octubre una oficina atenderá de 10:00 a 13:00 por una formación interna. Las personas con cita a las 9:00 deberán cambiarla. ¿Qué indicación debe incluir el aviso?",
       "options": [
         "Que contacte con recepción para acordar otra hora porque se atenderá de 10 a 13",
-        "Que la cita de las 9 sigue sin cambios",
-        "Que la oficina abrirá todo el día",
-        "Que no hace falta avisar a las personas con cita"
+        "Que las citas de las 9 se trasladan a las 10 sin confirmación de las personas afectadas",
+        "Que se comunique el nuevo horario sin explicar cómo reprogramar las citas",
+        "Que las personas con cita consulten el cartel cuando lleguen a la oficina"
       ],
       "explanation": "El caso ficticio especifica atención de 10 a 13 y contacto con recepción para cambiar citas de las 9."
+    },
+    "uf0520-u1b1-033": {
+      "topic": "Petición profesional",
+      "question": "Una encargada dice: «Hazlo ya. Siempre tengo que recordártelo». ¿Cómo puede formular mejor la petición si necesita un listado antes de las 12:00?",
+      "options": [
+        "«El listado es urgente y ya sabes qué debes hacer»",
+        "«Necesito el listado antes de las 12:00. ¿Te falta algún dato para terminarlo?»",
+        "«Hay que tener el listado pronto; deja las dudas para después»",
+        "«Prioriza el listado y luego hablamos»"
+      ],
+      "explanation": "La formulación precisa el plazo y permite aclarar datos sin descalificar a la persona."
+    },
+    "uf0520-u1b1-034": {
+      "topic": "Funciones combinadas",
+      "question": "En un correo se escribe: «Buenos días. Adjunto la lista actualizada. ¿Puedes confirmar que la has recibido?». ¿Qué relación entre frases y funciones es correcta?",
+      "options": [
+        "El saludo es referencial, el envío es poético y la pregunta es fática",
+        "Las tres frases tienen exclusivamente función expresiva",
+        "El saludo es fático, el envío es referencial y la pregunta es apelativa",
+        "La pregunta es metalingüística porque contiene una palabra"
+      ],
+      "explanation": "Un mismo correo puede tener funciones diferentes según la intención de cada parte."
+    },
+    "uf0520-u1b1-035": {
+      "topic": "Mensaje y canal",
+      "question": "Una auxiliar explica verbalmente a un proveedor que debe dejar una factura en recepción. ¿Qué es el mensaje y qué es el canal?",
+      "options": [
+        "El mensaje es el proveedor; el canal es la factura",
+        "El mensaje es recepción; el canal es el motivo de la visita",
+        "El mensaje es la lengua empleada; el canal es la persona que habla",
+        "El mensaje es la indicación sobre la factura; el canal es la conversación oral"
+      ],
+      "explanation": "El contenido comunicado es distinto del medio por el que se transmite."
+    },
+    "uf0520-u1b1-036": {
+      "topic": "Código compartido",
+      "question": "Una auxiliar envía «Hay que registrarlo en el GDI», pero una compañera nueva desconoce la sigla GDI. ¿Qué elemento del proceso causa la dificultad?",
+      "options": [
+        "El código: la sigla no tiene un significado compartido entre ambas",
+        "El canal: el correo llega tarde",
+        "El referente: la compañera no ha recibido el mensaje",
+        "La retroalimentación: ya se ha confirmado el registro"
+      ],
+      "explanation": "Compartir idioma no garantiza entender siglas internas; hay que explicarlas."
+    },
+    "uf0520-u1b1-037": {
+      "topic": "Canal y constancia",
+      "question": "Una auxiliar debe comunicar una decisión que puede generar dudas y que debe quedar documentada. ¿Qué combinación de canales es más adecuada?",
+      "options": [
+        "Anunciarla verbalmente sin registrar acuerdos",
+        "Explicarla oralmente y enviar un resumen escrito de los acuerdos",
+        "Enviar un mensaje ambiguo y confiar en la respuesta automática",
+        "Aplazarla hasta la próxima reunión aunque sea urgente"
+      ],
+      "explanation": "La conversación permite aclaraciones y el soporte escrito deja constancia verificable."
+    },
+    "uf0520-u1b1-038": {
+      "topic": "Elemento del correo",
+      "question": "Ana envía a Marta un correo: «La reunión del 16 de octubre será a las 10:00 en la sala 2. Confirma la asistencia antes del día 15». ¿Quién es la emisora y cuál es el canal?",
+      "options": [
+        "Marta es la emisora; la sala 2 es el canal",
+        "La reunión es la emisora; el castellano escrito es el canal",
+        "Ana es la emisora; el correo electrónico es el canal",
+        "Ana es la receptora; la fecha del 16 es el canal"
+      ],
+      "explanation": "La persona que redacta y envía es emisora; el soporte por el que llega es el canal."
+    },
+    "uf0520-u1b1-039": {
+      "topic": "Cartel informativo",
+      "question": "En una oficina hay un cartel que dice «Horario de atención: de 9:00 a 14:00». Una visita lo lee y entiende el horario sin preguntar. ¿Qué ha ocurrido?",
+      "options": [
+        "Solo hay información si la visita firma la recepción",
+        "El cartel es un canal auditivo y no se interpreta",
+        "Sin respuesta oral no se puede comunicar un horario",
+        "El cartel ha comunicado información sin retroalimentación inmediata"
+      ],
+      "explanation": "La comunicación puede producirse sin respuesta inmediata si se interpreta el mensaje."
+    },
+    "uf0520-u1b1-040": {
+      "topic": "Error de transmisión",
+      "question": "Una auxiliar escribe correctamente fecha, hora y lugar de una cita en un correo, pero introduce una dirección electrónica incorrecta y el mensaje no llega. ¿En qué fase falla el proceso?",
+      "options": [
+        "En la transmisión del mensaje hasta la destinataria",
+        "En la codificación de fecha y hora",
+        "En la comprensión de la destinataria tras leerlo",
+        "En la retroalimentación que ya ha enviado la destinataria"
+      ],
+      "explanation": "La información está preparada, pero no llega por el medio elegido."
+    },
+    "uf0520-u1b1-041": {
+      "topic": "Codificación y emisión",
+      "question": "Antes de llamar para confirmar una cita, una administrativa ordena en una nota la fecha, la hora y el lugar. ¿Qué fase realiza antes de pronunciar el mensaje?",
+      "options": [
+        "Transmisión: el mensaje ya circula hasta el receptor",
+        "Codificación: transforma la idea en datos y palabras comprensibles",
+        "Recepción: la destinataria ya ha oído la llamada",
+        "Retroalimentación: la destinataria ya ha confirmado la cita"
+      ],
+      "explanation": "Preparar y formular la idea precede a la emisión y al tránsito del mensaje."
+    },
+    "uf0520-u1b1-042": {
+      "topic": "Aclaración de cita",
+      "question": "Ana avisa a Marta de una reunión. Marta pregunta: «¿Te refieres al viernes 16 a las 10:00?». Ana responde: «Sí, pero en la sala 3». ¿Por qué es útil la respuesta de Ana?",
+      "options": [
+        "Porque sustituye la necesidad de comunicar el lugar",
+        "Porque convierte la reunión en una nueva petición no confirmada",
+        "Porque confirma el día y la hora y corrige el lugar antes de la reunión",
+        "Porque la pregunta de Marta no aporta información útil"
+      ],
+      "explanation": "La retroalimentación permite completar y rectificar datos relevantes para actuar."
+    },
+    "uf0520-u1b1-043": {
+      "topic": "Tres dimensiones del lenguaje",
+      "question": "En una recepción, una auxiliar dice «Pase a la sala 2» con voz pausada mientras señala la puerta. ¿Qué clasificación corresponde a cada elemento?",
+      "options": [
+        "Palabras: no verbal; tono: verbal; gesto: paraverbal",
+        "Palabras y gestos: paraverbales; tono: no verbal",
+        "Palabras: verbal; tono y gesto: código escrito",
+        "Palabras: verbal; voz pausada: paraverbal; gesto: no verbal"
+      ],
+      "explanation": "La comunicación puede combinar palabras, características vocales y movimiento corporal."
+    },
+    "uf0520-u1b1-044": {
+      "topic": "Plazos inequívocos",
+      "question": "Una administrativa necesita un formulario firmado antes del 20 de octubre. ¿Qué mensaje permite a la destinataria saber exactamente qué debe hacer y cuándo?",
+      "options": [
+        "«Envía el formulario firmado antes del 20 de octubre»",
+        "«Envíalo en cuanto puedas»",
+        "«El documento debe llegar pronto»",
+        "«Ya sabes qué formulario nos falta»"
+      ],
+      "explanation": "La orden precisa el documento, la acción y el límite temporal sin expresiones vagas."
+    },
+    "uf0520-u1b1-045": {
+      "topic": "Atención telefónica",
+      "question": "Durante una llamada, una persona no entiende el número de expediente porque la auxiliar habla demasiado rápido. ¿Qué debería hacer la auxiliar?",
+      "options": [
+        "Repetir las cifras más deprisa para no alargar la llamada",
+        "Reducir el ritmo, articular las cifras y comprobar que se han entendido",
+        "Aumentar el volumen y omitir su confirmación",
+        "Dar por conocido el número porque figura en el expediente"
+      ],
+      "explanation": "El paralenguaje y la comprobación de datos ayudan a reducir errores telefónicos."
+    },
+    "uf0520-u1b1-046": {
+      "topic": "Gesto que refuerza el mensaje",
+      "question": "Una auxiliar dice a una visita «La sala de reuniones está al fondo» mientras señala la puerta correspondiente. ¿Qué función tiene el gesto?",
+      "options": [
+        "Sustituye la hora de la reunión",
+        "Interrumpe automáticamente el turno de la visita",
+        "Refuerza e ilustra la indicación verbal",
+        "Expresa necesariamente una emoción"
+      ],
+      "explanation": "Señalar el lugar explicado con palabras es un gesto ilustrador."
+    },
+    "uf0520-u1b1-047": {
+      "topic": "Emblemas e ilustradores",
+      "question": "Durante una visita, la auxiliar primero mueve la mano para despedirse y luego señala la sala mientras explica dónde está. ¿Qué tipos de gestos aparecen, por ese orden?",
+      "options": [
+        "Regulador y adaptador",
+        "Ilustrador y regulador",
+        "Expresión afectiva y adaptador",
+        "Emblema e ilustrador"
+      ],
+      "explanation": "La despedida convencional es un emblema; señalar mientras se explica es ilustrar."
+    },
+    "uf0520-u1b1-048": {
+      "topic": "Expresiones afectivas",
+      "question": "Una persona manipula repetidamente su bolígrafo durante una reunión. Alguien concluye que está enfadada. ¿Qué valoración es correcta?",
+      "options": [
+        "El movimiento puede ser adaptador, pero por sí solo no permite afirmar una emoción concreta",
+        "El movimiento demuestra que rechaza la propuesta",
+        "El bolígrafo confirma que ha perdido interés en la reunión",
+        "El gesto sustituye verbalmente una queja"
+      ],
+      "explanation": "Un movimiento de autorregulación no permite atribuir un estado interno sin contexto."
+    },
+    "uf0520-u1b1-049": {
+      "topic": "Diferencias culturales",
+      "question": "Una auxiliar señala una carpeta para que una visita deje allí una solicitud. ¿Cómo puede evitar un malentendido si desconoce cómo interpreta la visita el gesto?",
+      "options": [
+        "Repetir el gesto con mayor intensidad sin hablar",
+        "Añadir «Deje la solicitud en esta bandeja» y comprobar que lo ha entendido",
+        "Confiar en que todos los gestos indican lo mismo",
+        "Cambiar la carpeta por otra sin explicarlo"
+      ],
+      "explanation": "Los gestos convencionales pueden variar; las palabras y la comprobación reducen dudas."
+    },
+    "uf0520-u1b1-050": {
+      "topic": "Gestión del tiempo",
+      "question": "Una consulta en recepción requiere comprobar varios datos y tardará unos minutos. ¿Qué es una buena práctica de cronémica?",
+      "options": [
+        "Dejar a la persona esperando sin información",
+        "Prometer una respuesta inmediata sin conocer la duración",
+        "Explicar que se están comprobando los datos y ofrecer una previsión realista del tiempo",
+        "Atender a otra visita sin aclarar qué ocurrirá"
+      ],
+      "explanation": "La cronémica trata del uso del tiempo; informar de la espera mejora el trato."
+    },
+    "uf0520-u1b1-051": {
+      "topic": "Canal audiovisual",
+      "question": "Una empresa difunde un vídeo formativo con imágenes, rótulos escritos y voz. ¿Qué afirmación sobre las vías sensoriales es correcta?",
+      "options": [
+        "Es solo auditiva porque hay voz",
+        "Es exclusivamente verbal porque hay rótulos",
+        "Es comunicación táctil porque aparecen imágenes",
+        "Combina las vías visual y auditiva, que pueden contener lenguaje verbal y no verbal"
+      ],
+      "explanation": "La clasificación por sentido es independiente de si el contenido usa palabras."
+    },
+    "uf0520-u1b1-052": {
+      "topic": "Verificación telefónica",
+      "question": "Una auxiliar recibe una llamada sobre la entrega de un pedido. El ruido le impide oír bien el número y la fecha. ¿Qué debe hacer antes de anotarlos?",
+      "options": [
+        "Pedir que los repitan, comprobarlos y recurrir a otro canal si hace falta",
+        "Anotar los fragmentos entendidos y completar el resto por intuición",
+        "Confirmar la recepción sin precisar los datos",
+        "Repetir las palabras oídas sin comprobar la fecha"
+      ],
+      "explanation": "En una llamada hay que confirmar los identificadores y fechas cuando hay ruido."
+    },
+    "uf0520-u1b1-053": {
+      "topic": "Accesibilidad visual",
+      "question": "Una oficina anuncia un cambio de sala con un cartel donde la antigua figura en rojo y la nueva solo en verde. ¿Cómo debería mejorarlo?",
+      "options": [
+        "Añadir más colores sin explicar su significado",
+        "Escribir explícitamente la nueva sala y destacar fecha y hora con buena legibilidad",
+        "Eliminar palabras y dejar solo marcas de color",
+        "Hacer el cartel más pequeño para reducir el texto"
+      ],
+      "explanation": "El color no debe ser el único código del cambio; importan el contraste y los datos visibles."
+    },
+    "uf0520-u1b1-054": {
+      "topic": "Braille y lenguaje",
+      "question": "Una persona lee un documento en braille con los dedos. ¿Qué demuestra este ejemplo sobre la clasificación de la comunicación?",
+      "options": [
+        "La vía es visual porque el documento tiene signos",
+        "La vía es auditiva porque las palabras tienen significado",
+        "La vía es táctil y puede transmitir lenguaje escrito",
+        "El braille transmite gestos sin equivalencia escrita"
+      ],
+      "explanation": "Los puntos en relieve representan signos escritos percibidos mediante el tacto."
+    },
+    "uf0520-u1b1-055": {
+      "topic": "Información pertinente",
+      "question": "Para avisar de una entrega a una empresa, una auxiliar dispone del pedido 218, la fecha, la dirección de entrega y el contacto. ¿Qué datos debería priorizar en el mensaje?",
+      "options": [
+        "El tiempo de la ciudad y el color del vehículo",
+        "La historia completa del proveedor sin indicar la entrega",
+        "Solo la fecha sin información para identificar el pedido",
+        "El pedido, la fecha, el lugar y la persona de contacto"
+      ],
+      "explanation": "Seleccionar datos pertinentes permite a la destinataria saber qué acción debe realizar."
+    },
+    "uf0520-u1b1-056": {
+      "topic": "Cierre con acción",
+      "question": "Una administrativa redacta un aviso con asunto «Cambio de cita» y detalle «Nueva fecha: 16 de octubre, sala 3». ¿Qué cierre lo hace más útil?",
+      "options": [
+        "«Confirma antes de mañana si puedes asistir; si tienes dudas, contacta con recepción»",
+        "«Ya te hemos informado del cambio»",
+        "«El resto de los detalles puedes deducirlos»",
+        "«La cita es importante para el equipo»"
+      ],
+      "explanation": "El cierre debe indicar la acción, el plazo y cómo resolver dudas."
+    },
+    "uf0520-u1b1-057": {
+      "topic": "Resumen fiel",
+      "question": "Un comunicado indica: «El pedido 218 se entregará el 20 de octubre, salvo si llueve; en ese caso, se avisará del nuevo plazo». ¿Qué resumen conserva la condición importante?",
+      "options": [
+        "«Pedido 218: entrega confirmada el 20 de octubre»",
+        "«Pedido 218: entrega prevista el 20 de octubre, condicionada a la lluvia; se avisará si cambia»",
+        "«Pedido 218: entrega cancelada»",
+        "«Pedido 218: se recibirá una llamada cada día»"
+      ],
+      "explanation": "Resumir no permite eliminar condiciones, excepciones ni plazos relevantes."
+    },
+    "uf0520-u1b1-058": {
+      "topic": "Aviso operativo",
+      "question": "Un mensaje dice: «La reunión ha cambiado. Mirad el correo y avisad a todos». ¿Cuál de los siguientes mensajes resuelve mejor la falta de datos?",
+      "options": [
+        "«La reunión será esta semana; vigilad los cambios»",
+        "«Informad a los compañeros del cambio ya recibido»",
+        "«La reunión será el 16 de octubre a las 10:00 en la sala 3. Informa a administración y confirma hoy la recepción»",
+        "«La reunión ha cambiado de sala; avisad cuando podáis»"
+      ],
+      "explanation": "Un aviso completo indica fecha, hora, lugar, destinatarios y acción a realizar."
+    },
+    "uf0520-u1b1-059": {
+      "topic": "Avisar citas afectadas",
+      "question": "El 21 de octubre, una oficina abrirá de 10:00 a 13:00 por una formación interna. Ya hay citas concertadas a las 9:00. ¿Qué debe hacer la oficina antes del cambio?",
+      "options": [
+        "Publicar el cartel el mismo día y esperar que lo vean",
+        "Mantener las citas a las 9:00 aunque la oficina esté cerrada",
+        "Cambiar las citas en el sistema sin avisar",
+        "Contactar con las personas afectadas, proponer otra hora y comprobar que están informadas"
+      ],
+      "explanation": "Las personas con cita previa necesitan comunicación directa y confirmación del nuevo horario."
+    },
+    "uf0520-u1b1-060": {
+      "topic": "Mensaje accionable",
+      "question": "Una encargada debe indicar a un auxiliar que registre 12 expedientes antes de las 16:00 y confirme cuando termine. ¿Qué instrucción cumple mejor los criterios de comunicación profesional?",
+      "options": [
+        "«Registra los 12 expedientes antes de las 16:00 y avísame cuando estén registrados»",
+        "«Encárgate de los expedientes cuanto antes»",
+        "«Hoy tienes mucho trabajo; ya sabes por dónde empezar»",
+        "«Registra algunos expedientes y luego hablamos»"
+      ],
+      "explanation": "La instrucción identifica acción, cantidad, plazo y confirmación esperada."
     }
   }
 }

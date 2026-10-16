@@ -48,7 +48,7 @@ test("UF0517 manté 510 preguntes, UF0518 en té 236 i UF0519 en publica 329 ent
   for(const block of course.blocks){
     let count=0;
     for(const file of bankFiles(block))count+=(await readJson(file.replace(/^data\//,""))).questions.length;
-    if(block.unitId==='uf0520-unitat-1'){assert.equal(count,32);uf0520+=count;
+    if(block.unitId==='uf0520-unitat-1'){assert.equal(count,60);uf0520+=count;
     }else if(block.unitId==='uf0518'){
       const expectedUf0518=block.id==='uf0518-bloc-1'?86:block.id==='uf0518-bloc-2'?70:80;
       assert.equal(count,expectedUf0518,`${block.id}: total UF0518 incorrecte`);
@@ -72,11 +72,11 @@ test("UF0517 manté 510 preguntes, UF0518 en té 236 i UF0519 en publica 329 ent
   assert.equal(uf0519u1,192);
   assert.equal(uf0519u2,73);
   assert.equal(uf0519u3,64);
-  assert.equal(uf0520,32);
-  assert.equal(uf0517+uf0518+uf0519u1+uf0519u2+uf0519u3+uf0520,1107);
+  assert.equal(uf0520,60);
+  assert.equal(uf0517+uf0518+uf0519u1+uf0519u2+uf0519u3+uf0520,1135);
 });
 
-test("les 1107 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
+test("les 1135 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
   const course=await readJson("course.json");
   let total=0;
   for(const block of course.blocks){
@@ -99,5 +99,5 @@ test("les 1107 preguntes tenen una ajuda de memòria bilingüe de màxim 144 car
       total++;
     }
   }
-  assert.equal(total,1107);
+  assert.equal(total,1135);
 });

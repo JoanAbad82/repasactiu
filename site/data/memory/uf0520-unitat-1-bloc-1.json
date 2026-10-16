@@ -160,6 +160,146 @@
       "type": "idea",
       "ca": "Canvi d’horari = nou horari + cita afectada + acció.",
       "es": "Cambio de horario = nuevo horario + cita afectada + acción."
+    },
+    "uf0520-u1b1-033": {
+      "type": "idea",
+      "ca": "Petició útil: tasca, hora i possibilitat de preguntar.",
+      "es": "Petición útil: tarea, hora y opción de preguntar."
+    },
+    "uf0520-u1b1-034": {
+      "type": "idea",
+      "ca": "Hola = contacte; adjunto = dada; confirma = acció.",
+      "es": "Hola = contacto; adjunto = dato; confirma = acción."
+    },
+    "uf0520-u1b1-035": {
+      "type": "idea",
+      "ca": "Missatge = contingut; canal = via.",
+      "es": "Mensaje = contenido; canal = vía."
+    },
+    "uf0520-u1b1-036": {
+      "type": "idea",
+      "ca": "Sigla desconeguda = problema de codi.",
+      "es": "Sigla desconocida = problema de código."
+    },
+    "uf0520-u1b1-037": {
+      "type": "idea",
+      "ca": "Oral per aclarir; escrit per deixar constància.",
+      "es": "Oral para aclarar; escrito para dejar constancia."
+    },
+    "uf0520-u1b1-038": {
+      "type": "idea",
+      "ca": "Qui envia = emissor; correu = canal.",
+      "es": "Quien envía = emisor; correo = canal."
+    },
+    "uf0520-u1b1-039": {
+      "type": "idea",
+      "ca": "Cartell llegit i entès = comunicació.",
+      "es": "Cartel leído y entendido = comunicación."
+    },
+    "uf0520-u1b1-040": {
+      "type": "idea",
+      "ca": "Contingut bé + adreça malament = transmissió fallida.",
+      "es": "Contenido bien + dirección mal = transmisión fallida."
+    },
+    "uf0520-u1b1-041": {
+      "type": "idea",
+      "ca": "Preparar la frase = codificar.",
+      "es": "Preparar la frase = codificar."
+    },
+    "uf0520-u1b1-042": {
+      "type": "idea",
+      "ca": "Confirmació + correcció = missatge més segur.",
+      "es": "Confirmación + corrección = mensaje más seguro."
+    },
+    "uf0520-u1b1-043": {
+      "type": "idea",
+      "ca": "Què dic / com sona / què fa el cos.",
+      "es": "Qué digo / cómo suena / qué hace el cuerpo."
+    },
+    "uf0520-u1b1-044": {
+      "type": "idea",
+      "ca": "Document + acció + data exacta.",
+      "es": "Documento + acción + fecha exacta."
+    },
+    "uf0520-u1b1-045": {
+      "type": "idea",
+      "ca": "Xifres: lent, clar i repetides.",
+      "es": "Cifras: despacio, claras y repetidas."
+    },
+    "uf0520-u1b1-046": {
+      "type": "idea",
+      "ca": "Dir i assenyalar el mateix = reforç.",
+      "es": "Decir y señalar lo mismo = refuerzo."
+    },
+    "uf0520-u1b1-047": {
+      "type": "idea",
+      "ca": "Comiat = emblema; assenyalar = il·lustrador.",
+      "es": "Despedida = emblema; señalar = ilustrador."
+    },
+    "uf0520-u1b1-048": {
+      "type": "idea",
+      "ca": "Gest visible ≠ emoció demostrada.",
+      "es": "Gesto visible ≠ emoción demostrada."
+    },
+    "uf0520-u1b1-049": {
+      "type": "idea",
+      "ca": "Gest + instrucció clara + comprovació.",
+      "es": "Gesto + instrucción clara + comprobación."
+    },
+    "uf0520-u1b1-050": {
+      "type": "idea",
+      "ca": "Crono = espera informada i termini realista.",
+      "es": "Crono = espera informada y plazo realista."
+    },
+    "uf0520-u1b1-051": {
+      "type": "idea",
+      "ca": "Vídeo amb so = vista + oïda.",
+      "es": "Vídeo con sonido = vista + oído."
+    },
+    "uf0520-u1b1-052": {
+      "type": "idea",
+      "ca": "Número i data: demanar, repetir i confirmar.",
+      "es": "Número y fecha: preguntar, repetir y confirmar."
+    },
+    "uf0520-u1b1-053": {
+      "type": "idea",
+      "ca": "No només color: sala, data i hora escrites.",
+      "es": "No solo color: sala, fecha y hora escritas."
+    },
+    "uf0520-u1b1-054": {
+      "type": "idea",
+      "ca": "Braille = tacte + signes escrits.",
+      "es": "Braille = tacto + signos escritos."
+    },
+    "uf0520-u1b1-055": {
+      "type": "idea",
+      "ca": "Entrega = què, quan, on i contacte.",
+      "es": "Entrega = qué, cuándo, dónde y contacto."
+    },
+    "uf0520-u1b1-056": {
+      "type": "idea",
+      "ca": "Tancar = acció + termini + ajuda.",
+      "es": "Cerrar = acción + plazo + ayuda."
+    },
+    "uf0520-u1b1-057": {
+      "type": "idea",
+      "ca": "En un resum, la condició segueix viva.",
+      "es": "En un resumen, la condición se conserva."
+    },
+    "uf0520-u1b1-058": {
+      "type": "idea",
+      "ca": "Canvi = data, hora, lloc i què fer.",
+      "es": "Cambio = fecha, hora, lugar y qué hacer."
+    },
+    "uf0520-u1b1-059": {
+      "type": "idea",
+      "ca": "Cita afectada = avisar + reprogramar + confirmar.",
+      "es": "Cita afectada = avisar + reprogramar + confirmar."
+    },
+    "uf0520-u1b1-060": {
+      "type": "idea",
+      "ca": "Acció + quantitat + hora + retorn.",
+      "es": "Acción + cantidad + hora + confirmación."
     }
   }
 }

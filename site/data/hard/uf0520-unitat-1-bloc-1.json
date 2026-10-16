@@ -384,6 +384,342 @@
         "Modificar citas unilateralmente sin consultar recepción",
         "Difundir el aviso sin indicar la fecha del cambio"
       ]
+    },
+    "uf0520-u1b1-033": {
+      "ca": [
+        "«Acaba el llistat quan puguis; així evitem retrets»",
+        "«Confio que tindràs el llistat a punt; avisa si hi ha res»",
+        "«Necessito el llistat avui; confirma que has llegit l’avís»"
+      ],
+      "es": [
+        "«Termina el listado cuando puedas; así evitamos reproches»",
+        "«Confío en que tendrás el listado listo; avisa si surge algo»",
+        "«Necesito el listado hoy; confirma que has leído el aviso»"
+      ]
+    },
+    "uf0520-u1b1-034": {
+      "ca": [
+        "Fàtica en la salutació, apel·lativa en l’enviament i referencial en la pregunta",
+        "Expressiva en la salutació, referencial en l’enviament i metalingüística en la pregunta",
+        "Poètica en la salutació, referencial en l’enviament i fàtica en la pregunta"
+      ],
+      "es": [
+        "Fática en el saludo, apelativa en el envío y referencial en la pregunta",
+        "Expresiva en el saludo, referencial en el envío y metalingüística en la pregunta",
+        "Poética en el saludo, referencial en el envío y fática en la pregunta"
+      ]
+    },
+    "uf0520-u1b1-035": {
+      "ca": [
+        "El missatge és l’encàrrec i el canal és el codi lingüístic",
+        "El missatge és la factura i el canal és l’auxiliar",
+        "El missatge és la conversa i el canal és la instrucció concreta"
+      ],
+      "es": [
+        "El mensaje es el encargo y el canal es el código lingüístico",
+        "El mensaje es la factura y el canal es la auxiliar",
+        "El mensaje es la conversación y el canal es la instrucción concreta"
+      ]
+    },
+    "uf0520-u1b1-036": {
+      "ca": [
+        "La fase d’emissió perquè s’ha enviat massa informació",
+        "El context perquè l’eina GDI és accessible",
+        "El canal perquè els escrits no transmeten sigles"
+      ],
+      "es": [
+        "La fase de emisión porque se ha enviado demasiada información",
+        "El contexto porque la herramienta GDI es accesible",
+        "El canal porque los escritos no transmiten siglas"
+      ]
+    },
+    "uf0520-u1b1-037": {
+      "ca": [
+        "Fer servir una trucada i donar-ne per registrada la decisió",
+        "Enviar el resum escrit abans d’entendre els dubtes",
+        "Prioritzar un cartell general sense identificar els destinataris"
+      ],
+      "es": [
+        "Usar una llamada y dar por registrada la decisión",
+        "Enviar el resumen escrito antes de resolver las dudas",
+        "Priorizar un cartel general sin identificar destinatarios"
+      ]
+    },
+    "uf0520-u1b1-038": {
+      "ca": [
+        "Anna és emissora, però el canal és la llengua emprada",
+        "Marta és receptora, però el canal és la sala de reunió",
+        "Anna és emissora, però el canal és el referent de la cita"
+      ],
+      "es": [
+        "Ana es emisora, pero el canal es la lengua empleada",
+        "Marta es receptora, pero el canal es la sala de reunión",
+        "Ana es emisora, pero el canal es el referente de la cita"
+      ]
+    },
+    "uf0520-u1b1-039": {
+      "ca": [
+        "La comunicació existeix només després d’una confirmació escrita",
+        "El cartell emet dades, però interpretar-les requereix un altre canal",
+        "La comprensió de la visita converteix la informació en una ordre"
+      ],
+      "es": [
+        "La comunicación existe solo tras confirmación escrita",
+        "El cartel emite datos, pero interpretarlos exige otro canal",
+        "La comprensión de la visita convierte la información en una orden"
+      ]
+    },
+    "uf0520-u1b1-040": {
+      "ca": [
+        "En la descodificació, perquè la destinatària interpreta malament la data",
+        "En l’emissió, perquè no s’ha preparat el missatge",
+        "En la retroalimentació, perquè encara no hi ha confirmació"
+      ],
+      "es": [
+        "En la decodificación, porque la destinataria interpreta mal la fecha",
+        "En la emisión, porque no se ha preparado el mensaje",
+        "En la retroalimentación, porque aún no hay confirmación"
+      ]
+    },
+    "uf0520-u1b1-041": {
+      "ca": [
+        "Emissió perquè escriu la nota, tot i que encara no comunica",
+        "Recepció perquè pot llegir el seu propi escrit",
+        "Descodificació perquè identifica els detalls que vol dir"
+      ],
+      "es": [
+        "Emisión porque escribe la nota, aunque todavía no comunica",
+        "Recepción porque puede leer su propio escrito",
+        "Decodificación porque identifica los detalles que quiere decir"
+      ]
+    },
+    "uf0520-u1b1-042": {
+      "ca": [
+        "Perquè la confirmació de l’hora elimina els dubtes sobre la sala",
+        "Perquè només cal respondre a la data, no al lloc",
+        "Perquè permet canviar el canal sense avisar la destinatària"
+      ],
+      "es": [
+        "Porque confirmar la hora elimina dudas sobre la sala",
+        "Porque basta responder a la fecha, no al lugar",
+        "Porque permite cambiar el canal sin avisar a la destinataria"
+      ]
+    },
+    "uf0520-u1b1-043": {
+      "ca": [
+        "Paraules: verbal; veu pausada i gest: paraverbal",
+        "Paraules: verbal; veu pausada: no verbal; gest: canal auditiu",
+        "Paraules: referencial; veu: codificació; gest: retroalimentació"
+      ],
+      "es": [
+        "Palabras: verbal; voz pausada y gesto: paraverbal",
+        "Palabras: verbal; voz pausada: no verbal; gesto: canal auditivo",
+        "Palabras: referencial; voz: codificación; gesto: retroalimentación"
+      ]
+    },
+    "uf0520-u1b1-044": {
+      "ca": [
+        "«Envia el formulari aviat i avisa quan ho hagis fet»",
+        "«Necessitem la signatura dins del termini previst»",
+        "«Signa el document i gestiona’n l’enviament aquest mes»"
+      ],
+      "es": [
+        "«Envía el formulario pronto y avisa cuando lo hagas»",
+        "«Necesitamos la firma dentro del plazo previsto»",
+        "«Firma el documento y gestiona su envío este mes»"
+      ]
+    },
+    "uf0520-u1b1-045": {
+      "ca": [
+        "Apujar la veu i deixar el número a criteri de qui escolta",
+        "Repetir el número sense deixar temps per respondre",
+        "Enviar el mateix número per un altre canal sense confirmar-ne la recepció"
+      ],
+      "es": [
+        "Subir la voz y dejar que quien escucha deduzca el número",
+        "Repetir el número sin dejar tiempo para responder",
+        "Enviar el mismo número por otro canal sin confirmar su recepción"
+      ]
+    },
+    "uf0520-u1b1-046": {
+      "ca": [
+        "Regula el torn perquè l’altra persona ja no pot parlar",
+        "És un emblema de comiat sense relació amb la porta",
+        "És una resposta tàctil que reemplaça les paraules"
+      ],
+      "es": [
+        "Regula el turno porque la otra persona ya no puede hablar",
+        "Es un emblema de despedida sin relación con la puerta",
+        "Es una respuesta táctil que reemplaza las palabras"
+      ]
+    },
+    "uf0520-u1b1-047": {
+      "ca": [
+        "Regulador i il·lustrador: el primer gest ordena la conversa",
+        "Emblema i regulador: el segon gest demana el torn",
+        "Il·lustrador i emblema: el primer només reforça una frase"
+      ],
+      "es": [
+        "Regulador e ilustrador: el primero ordena la conversación",
+        "Emblema y regulador: el segundo pide turno",
+        "Ilustrador y emblema: el primero solo refuerza una frase"
+      ]
+    },
+    "uf0520-u1b1-048": {
+      "ca": [
+        "Un adaptador sempre informa del tipus d’emoció dominant",
+        "La repetició del moviment permet inferir una queixa",
+        "La manca de paraules converteix el moviment en prova de rebuig"
+      ],
+      "es": [
+        "Un adaptador siempre indica el tipo de emoción dominante",
+        "La repetición del movimiento permite inferir una queja",
+        "La falta de palabras convierte el movimiento en prueba de rechazo"
+      ]
+    },
+    "uf0520-u1b1-049": {
+      "ca": [
+        "Utilitzar un emblema diferent sense comprovar què significa",
+        "Explicar la tasca sense identificar el lloc de lliurament",
+        "Assenyalar una safata i donar el tràmit per acabat"
+      ],
+      "es": [
+        "Usar otro emblema sin comprobar su significado",
+        "Explicar la tarea sin identificar el lugar de entrega",
+        "Señalar una bandeja y dar el trámite por terminado"
+      ]
+    },
+    "uf0520-u1b1-050": {
+      "ca": [
+        "Reduir l’espera anunciant una hora aproximada sense contrastar-la",
+        "Sol·licitar paciència però evitar indicar cap previsió disponible",
+        "Donar prioritat a la rapidesa encara que quedin dades per verificar"
+      ],
+      "es": [
+        "Reducir la espera anunciando una hora sin contrastarla",
+        "Pedir paciencia pero evitar una previsión disponible",
+        "Priorizar la rapidez aunque queden datos por comprobar"
+      ]
+    },
+    "uf0520-u1b1-051": {
+      "ca": [
+        "És visual per les imatges i la veu es classifica com a gest",
+        "És auditiva si parla una persona i visual només si no hi ha text",
+        "Les imatges i el so no poden formar part d’un mateix missatge"
+      ],
+      "es": [
+        "Es visual por las imágenes y la voz se clasifica como gesto",
+        "Es auditiva si habla alguien y visual solo si no hay texto",
+        "Las imágenes y el sonido no pueden pertenecer a un mismo mensaje"
+      ]
+    },
+    "uf0520-u1b1-052": {
+      "ca": [
+        "Anotar el número probable i revisar-lo quan arribi la mercaderia",
+        "Continuar la conversa sense distingir els dígits confirmats dels dubtosos",
+        "Demanar només una segona lectura del número i ignorar la data"
+      ],
+      "es": [
+        "Anotar el número probable y revisarlo al llegar la mercancía",
+        "Seguir sin distinguir dígitos confirmados y dudosos",
+        "Pedir segunda lectura del número pero ignorar la fecha"
+      ]
+    },
+    "uf0520-u1b1-053": {
+      "ca": [
+        "Afegir una llegenda cromàtica però ometre el nom de la sala",
+        "Posar la sala nova amb una font petita i el color més intens",
+        "Destacar el canvi però deixar el dia i l’hora al text secundari"
+      ],
+      "es": [
+        "Añadir una leyenda de colores pero omitir el nombre de la sala",
+        "Poner la sala nueva en letra pequeña y color más intenso",
+        "Destacar el cambio pero relegar día y hora a texto secundario"
+      ]
+    },
+    "uf0520-u1b1-054": {
+      "ca": [
+        "Es tracta de comunicació no verbal perquè no hi ha veu",
+        "Es tracta de comunicació visual encara que es percebi amb els dits",
+        "És un codi sense signes lingüístics reconeixibles"
+      ],
+      "es": [
+        "Es comunicación no verbal porque no hay voz",
+        "Es comunicación visual aunque se perciba con los dedos",
+        "Es un código sin signos lingüísticos reconocibles"
+      ]
+    },
+    "uf0520-u1b1-055": {
+      "ca": [
+        "Data i proveïdor, però sense número de comanda ni destinació",
+        "Número de comanda i lloc, però amb el contacte per confirmar",
+        "Totes les dades disponibles, encara que ocultin la data del lliurament"
+      ],
+      "es": [
+        "Fecha y proveedor sin número de pedido ni destino",
+        "Número de pedido y lugar, pero contacto pendiente de confirmar",
+        "Todos los datos disponibles aunque oculten la fecha de entrega"
+      ]
+    },
+    "uf0520-u1b1-056": {
+      "ca": [
+        "«Confirma que has llegit l’avís quan et sigui possible»",
+        "«Si tens alguna incidència, comenta-la al pròxim torn»",
+        "«Ja ens diràs si el canvi t’encaixa»"
+      ],
+      "es": [
+        "«Confirma que has leído el aviso cuando puedas»",
+        "«Si hay incidencias, coméntalas en el próximo turno»",
+        "«Ya nos dirás si te encaja el cambio»"
+      ]
+    },
+    "uf0520-u1b1-057": {
+      "ca": [
+        "«Entrega el 20 d’octubre segons la previsió inicial»",
+        "«El lliurament depèn del temps, encara no hi ha data»",
+        "«Comanda 218: lliurament confirmat llevat d’un avís administratiu»"
+      ],
+      "es": [
+        "«Entrega el 20 de octubre según la previsión inicial»",
+        "«La entrega depende del tiempo; todavía no hay fecha»",
+        "«Pedido 218: entrega confirmada salvo aviso administrativo»"
+      ]
+    },
+    "uf0520-u1b1-058": {
+      "ca": [
+        "«La reunió és el dia 16; revisa el calendari per saber la sala»",
+        "«El lloc és la sala 3; el departament ja sap l’hora»",
+        "«La reunió és a les 10; avisa l’equip tan aviat com puguis»"
+      ],
+      "es": [
+        "«La reunión es el día 16; consulta el calendario para saber la sala»",
+        "«El lugar es la sala 3; el departamento ya sabe la hora»",
+        "«La reunión es a las 10; avisa al equipo en cuanto puedas»"
+      ]
+    },
+    "uf0520-u1b1-059": {
+      "ca": [
+        "Publicar un avís general i donar per notificades les cites existents",
+        "Oferir un horari alternatiu sense preguntar-ne disponibilitat",
+        "Reprogramar les cites abans de confirmar que l’avís els ha arribat"
+      ],
+      "es": [
+        "Publicar aviso general y dar por notificadas las citas existentes",
+        "Ofrecer horario alternativo sin consultar disponibilidad",
+        "Reprogramar las citas antes de confirmar que recibieron el aviso"
+      ]
+    },
+    "uf0520-u1b1-060": {
+      "ca": [
+        "«Registra els 12 expedients avui i confirma la feina si tens temps»",
+        "«Prepara el registre de 12 expedients abans de sortir»",
+        "«Registra els expedients pendents i comunica-ho al departament»"
+      ],
+      "es": [
+        "«Registra los 12 expedientes hoy y confirma el trabajo si puedes»",
+        "«Prepara el registro de 12 expedientes antes de salir»",
+        "«Registra los expedientes pendientes y comunícalo al departamento»"
+      ]
     }
   }
 }
