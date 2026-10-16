@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "id": "UF0520_U1_PRACTICE_COMUNICACIO_INFORMACIO_01",
+  "blockId": "uf0520-unitat-1-bloc-1",
+  "title": {
+    "ca": "Exercici 1 · Comunicació vs. informació",
+    "es": "Ejercicio 1 · Comunicación vs. información"
+  },
+  "instruction": {
+    "ca": "Llegeix cada situació, classifica-la com a informació o comunicació i justifica breument la teva resposta. Comprova després la classificació i compara la teva justificació amb la solució del material.",
+    "es": "Lee cada situación, clasifícala como información o comunicación y justifica brevemente tu respuesta. Comprueba después la clasificación y compara tu justificación con la solución del material."
+  },
+  "classificationNote": {
+    "ca": "Criteri d’aquest exercici: «informació» quan es transmet un avís sense diàleg descrit; «comunicació» quan hi ha intercanvi entre persones. En sentit ampli, transmetre informació també és una forma de comunicació.",
+    "es": "Criterio de este ejercicio: «información» cuando se transmite un aviso sin diálogo descrito; «comunicación» cuando hay intercambio entre personas. En sentido amplio, transmitir información también es una forma de comunicación."
+  },
+  "source": {
+    "original": {
+      "filename": "Exercici 1_COMUNICACIÓ VS. INFORMACIÓ.docx",
+      "sha256": "e77aa9eb80254ad96e691bdc159afcee96bdb7f2d5f72ae70f5c84011c24d537",
+      "pages": [
+        1,
+        1
+      ]
+    },
+    "resolved": {
+      "filename": "Exercici_1_Comunicacio_vs_Informacio_RESOLT.docx",
+      "sha256": "464a12f4a36294f6ccf0907acfd9a23be2f48c5d9c621d85ab3bdd3534c25d9d",
+      "pages": [
+        1,
+        1
+      ]
+    },
+    "span": "items 1–5",
+    "language": "ca original; es translation for site",
+    "kind": "classroom exercise with supplied solution"
+  },
+  "cases": [
+    {
+      "id": "01",
+      "scenario": {
+        "ca": "Un correu electrònic amb l’horari de vacances enviat a tot l’equip.",
+        "es": "Un correo electrónico con el horario de vacaciones enviado a todo el equipo."
+      },
+      "answer": "informacio",
+      "explanation": {
+        "ca": "S’envia l’horari a tot l’equip, però no s’hi descriu cap intercanvi de respostes.",
+        "es": "Se envía el horario a todo el equipo, pero no se describe ningún intercambio de respuestas."
+      }
+    },
+    {
+      "id": "02",
+      "scenario": {
+        "ca": "Una clienta pregunta per un producte i el venedor li respon, li fa preguntes i li recomana opcions.",
+        "es": "Una clienta pregunta por un producto y el vendedor le responde, le hace preguntas y le recomienda opciones."
+      },
+      "answer": "comunicacio",
+      "explanation": {
+        "ca": "La clienta i el venedor dialoguen, es fan preguntes i intercanvien respostes.",
+        "es": "La clienta y el vendedor dialogan, se hacen preguntas e intercambian respuestas."
+      }
+    },
+    {
+      "id": "03",
+      "scenario": {
+        "ca": "Un cartell a la porta indica «Tancat per vacances».",
+        "es": "Un cartel en la puerta indica «Cerrado por vacaciones»."
+      },
+      "answer": "informacio",
+      "explanation": {
+        "ca": "El cartell transmet un avís sense que hi hagi una resposta o un diàleg.",
+        "es": "El cartel transmite un aviso sin que haya una respuesta o un diálogo."
+      }
+    },
+    {
+      "id": "04",
+      "scenario": {
+        "ca": "Una reunió on es debat un canvi d’organització interna.",
+        "es": "Una reunión en la que se debate un cambio de organización interna."
+      },
+      "answer": "comunicacio",
+      "explanation": {
+        "ca": "Les persones participants expressen opinions, escolten i debaten entre elles.",
+        "es": "Las personas participantes expresan opiniones, escuchan y debaten entre ellas."
+      }
+    },
+    {
+      "id": "05",
+      "scenario": {
+        "ca": "Un missatge automàtic que diu: «La seva trucada serà atesa en breu».",
+        "es": "Un mensaje automático que dice: «Su llamada será atendida en breve»."
+      },
+      "answer": "informacio",
+      "explanation": {
+        "ca": "És un avís enregistrat que transmet un missatge sense establir un diàleg.",
+        "es": "Es un aviso grabado que transmite un mensaje sin establecer un diálogo."
+      }
+    }
+  ]
+}

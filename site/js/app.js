@@ -134,21 +134,22 @@ function openConceptDictionary(){
 }
 function openCommercialCorrespondence(){
  return openLearningTool('correspondence','commercial-correspondence-screen','examples',async()=>{
-  const [correspondence,practicals,administrative,treasury,stock,newCourse]=await Promise.all([
+  const [correspondence,practicals,administrative,treasury,stock,newCourse,communication]=await Promise.all([
    import('./commercial-correspondence.js'),
    import('./practical-examples.js'),
    import('./administrative-exercises.js'),
    import('./treasury-practice.js'),
    import('./stock-exercises.js'),
-   import('./new-course-activities.js')
+   import('./new-course-activities.js'),
+   import('./communication-practice.js')
   ]);
-  const [correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank,newBank]=await Promise.all([
+  const [correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank,newBank,communicationBank]=await Promise.all([
    correspondence.loadCommercialCorrespondence(),practicals.loadPayrollExample(),
-   administrative.loadAdministrativeExercises(),treasury.loadTreasuryPractice(),stock.loadStockExercises(),newCourse.loadNewCourseData()
+   administrative.loadAdministrativeExercises(),treasury.loadTreasuryPractice(),stock.loadStockExercises(),newCourse.loadNewCourseData(),communication.loadCommunicationPractice()
   ]);
-  return {create:practicals.createPracticalExamples,correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank,newBank};
+  return {create:practicals.createPracticalExamples,correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank,newBank,communicationBank};
  },feature=>{
-  correspondenceView=feature.create({screen:els.correspondence,correspondenceBank:feature.correspondenceBank,payrollBank:feature.payrollBank,administrativeBank:feature.administrativeBank,treasuryBank:feature.treasuryBank,stockBank:feature.stockBank,newBank:feature.newBank,language:language(),onHome:goHome});
+  correspondenceView=feature.create({screen:els.correspondence,correspondenceBank:feature.correspondenceBank,payrollBank:feature.payrollBank,administrativeBank:feature.administrativeBank,treasuryBank:feature.treasuryBank,stockBank:feature.stockBank,newBank:feature.newBank,communicationBank:feature.communicationBank,language:language(),onHome:goHome});
  },openCommercialCorrespondence);
 }
 function openHangman(){
