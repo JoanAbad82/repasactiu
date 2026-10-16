@@ -41,3 +41,12 @@
 .comm-activities .new-class-subtabs{display:flex;flex-wrap:wrap;gap:.5rem}
 .comm-activities .new-class-subtabs button{white-space:normal;text-align:left;min-height:44px}
 @media(max-width:520px){.comm-activities-item{padding:.75rem}.comm-activities .new-class-subtabs button{flex:1 1 100%}}
+
+.comm-emotions .comm-activities-head ol{padding-inline-start:1.4rem;line-height:1.65}
+.comm-emotions .comm-activities-head li{margin:.4rem 0}
+.comm-emotions .comm-activities-context p{margin:.75rem 0;overflow-wrap:anywhere}
+.comm-emotions [data-emotion-members]{display:block;box-sizing:border-box;max-width:100%;width:min(100%,32rem);margin:.5rem 0 1.25rem;padding:.7rem;border:1px solid var(--border);border-radius:.65rem;background:var(--surface);color:var(--text);font:inherit}
+.comm-emotions [data-emotion-members]:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.comm-emotions .comm-activities-item textarea{min-height:110px}
+.comm-emotions [data-emotion-progress]{font-weight:600}
+@media(max-width:520px){.comm-emotions .comm-activities-context{padding:.75rem}.comm-emotions .stock-actions button{max-width:100%;white-space:normal}}

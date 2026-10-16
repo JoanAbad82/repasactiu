@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "id": "UF0520_EMOTIONS_124_TOTHOM_01",
+  "blockId": "uf0520-unitat-1-bloc-1",
+  "graded": false,
+  "title": {
+    "ca": "Comunicació i gestió de les emocions a la feina",
+    "es": "Comunicación y gestión de las emociones en el trabajo"
+  },
+  "subtitle": {
+    "ca": "Dinàmica 1–2–4–Tothom",
+    "es": "Dinámica 1–2–4–Todos"
+  },
+  "instruction": {
+    "ca": "Analitza una situació de tensió en una oficina. Comparteix les teves propostes, escolta les dels companys i acordeu com resoldre el problema mantenint un tracte respectuós. Aquesta activitat no té nota.",
+    "es": "Analiza una situación de tensión en una oficina. Comparte tus propuestas, escucha las de tus compañeros y acordad cómo resolver el problema manteniendo un trato respetuoso. Esta actividad no tiene nota."
+  },
+  "stages": [
+    {
+      "id": "individual",
+      "label": {
+        "ca": "1. Individualment",
+        "es": "1. Individualmente"
+      },
+      "description": {
+        "ca": "Llegeix el cas i prepara les teves respostes.",
+        "es": "Lee el caso y prepara tus respuestas."
+      }
+    },
+    {
+      "id": "group",
+      "label": {
+        "ca": "2. En grups de quatre",
+        "es": "2. En grupos de cuatro"
+      },
+      "description": {
+        "ca": "Poseu en comú les propostes i acordeu una solució a les cinc preguntes.",
+        "es": "Poned en común las propuestas y acordad una solución para las cinco preguntas."
+      }
+    },
+    {
+      "id": "everyone",
+      "label": {
+        "ca": "3. Posada en comú",
+        "es": "3. Puesta en común"
+      },
+      "description": {
+        "ca": "Compartiu la solució i expliqueu com heu arribat a l'acord.",
+        "es": "Compartid la solución y explicad cómo habéis llegado al acuerdo."
+      }
+    }
+  ],
+  "caseTitle": {
+    "ca": "Situació · Una acusació davant de l’equip",
+    "es": "Situación · Una acusación delante del equipo"
+  },
+  "scenario": [
+    {
+      "ca": "Són les 12.30 h i treballeu a l’administració d’una empresa. A les 13.00 h s’ha d’enviar una documentació important a un client.",
+      "es": "Son las 12:30 y trabajáis en el departamento de administración de una empresa. A las 13:00 debe enviarse documentación importante a un cliente."
+    },
+    {
+      "ca": "La Marta, responsable del departament, descobreix que l’arxiu està incomplet. Davant d’altres companys, diu a l’Àlex, que fa dues setmanes que treballa a l’empresa: «Una altra vegada igual! Et vaig demanar que ho deixessis preparat. No puc estar pendent de tot el que fas».",
+      "es": "Marta, responsable del departamento, descubre que el archivo está incompleto. Ante otros compañeros, dice a Àlex, que lleva dos semanas trabajando en la empresa: «¡Otra vez lo mismo! Te pedí que lo dejaras preparado. No puedo estar pendiente de todo lo que haces»."
+    },
+    {
+      "ca": "L’Àlex havia enviat un correu el dia abans explicant que li faltaven unes dades i demanant ajuda. Ningú no li va respondre. Se sent acusat injustament, està nerviós i té ganes de contestar: «Si llegissis els correus, sabries que això no és culpa meva!».",
+      "es": "Àlex había enviado un correo el día anterior explicando que le faltaban unos datos y pidiendo ayuda. Nadie le respondió. Se siente acusado injustamente, está nervioso y tiene ganas de contestar: «¡Si leyeras los correos, sabrías que esto no es culpa mía!»."
+    },
+    {
+      "ca": "La Sònia, una companya, ha presenciat la conversa. Sap que el correu existeix, però té por que intervenir empitjori la situació. La Marta està molt preocupada pel termini i per la possible reacció del client. La resta de l’equip es queda en silenci.",
+      "es": "Sònia, una compañera, ha presenciado la conversación. Sabe que el correo existe, pero teme que intervenir empeore la situación. Marta está muy preocupada por el plazo y por la posible reacción del cliente. El resto del equipo permanece en silencio."
+    }
+  ],
+  "source": {
+    "original": {
+      "filename": "Dinàmica_comunicació_emocions.docx",
+      "sha256": "b777b6e7618517ee817f5f5ae671f67676a2f04b826bdda0502110de2cbdd71c",
+      "pages": 2
+    },
+    "resolved": {
+      "filename": "Dinamica_comunicacio_emocions_resolta.docx",
+      "sha256": "ba98eadd6ed5f4b298b552324737d5d2b46b422e6518a23d1a55510db8ebc212",
+      "pages": 2
+    },
+    "originalLanguage": "ca",
+    "span": "Case and methods p.1, five questions p.1–2, final reflection p.2"
+  },
+  "prompts": [
+    {
+      "id": "1",
+      "page": 1,
+      "prompt": {
+        "ca": "Què pot estar sentint cada persona? Indiqueu quina part de la situació us ho fa pensar.",
+        "es": "¿Qué puede estar sintiendo cada persona? Indicad qué parte de la situación os hace pensarlo."
+      },
+      "solution": {
+        "ca": "La Marta: preocupació, estrès i frustració perquè falten 30 minuts per enviar la documentació. L’Àlex: ràbia, nerviosisme i sensació d’injustícia perquè havia demanat ajuda per correu i ningú no li va respondre. La Sònia: por i inseguretat perquè coneix el correu, però tem empitjorar el conflicte. La resta de l’equip: incomoditat i tensió perquè presencia l’acusació i es queda en silenci.",
+        "es": "Marta: preocupación, estrés y frustración porque faltan 30 minutos para enviar la documentación. Àlex: rabia, nerviosismo y sensación de injusticia porque había pedido ayuda por correo y nadie le respondió. Sònia: miedo e inseguridad porque conoce el correo, pero teme empeorar el conflicto. El resto del equipo: incomodidad y tensión porque presencia la acusación y permanece en silencio."
+      }
+    },
+    {
+      "id": "2",
+      "page": 2,
+      "prompt": {
+        "ca": "Què podria fer l’Àlex abans de respondre per gestionar l’enuig i els nervis? Proposeu dues accions concretes.",
+        "es": "¿Qué podría hacer Àlex antes de responder para gestionar el enfado y los nervios? Proponed dos acciones concretas."
+      },
+      "solution": {
+        "ca": "1) Fer tres respiracions lentes i esperar uns segons abans de contestar. 2) Centrar-se en els fets i preparar una resposta breu i tranquil·la, sense retrets.",
+        "es": "1) Hacer tres respiraciones lentas y esperar unos segundos antes de contestar. 2) Centrarse en los hechos y preparar una respuesta breve y tranquila, sin reproches."
+      }
+    },
+    {
+      "id": "3",
+      "page": 2,
+      "prompt": {
+        "ca": "Com pot respondre l’Àlex sense atacar i sense acceptar una acusació que considera injusta? Escriviu les seves paraules exactes.",
+        "es": "¿Cómo puede responder Àlex sin atacar y sin aceptar una acusación que considera injusta? Escribid sus palabras exactas."
+      },
+      "solution": {
+        "ca": "«Marta, entenc que et preocupi el termini. Ahir vaig enviar un correu explicant quines dades faltaven i demanant ajuda, però no vaig rebre resposta. M’agradaria que ho reviséssim i que busquéssim una solució entre tots».",
+        "es": "«Marta, entiendo que te preocupe el plazo. Ayer envié un correo explicando qué datos faltaban y pidiendo ayuda, pero no recibí respuesta. Me gustaría que lo revisáramos y buscáramos una solución entre todos»."
+      }
+    },
+    {
+      "id": "4",
+      "page": 2,
+      "prompt": {
+        "ca": "Què podria dir la Sònia per ajudar? I què hauria de fer la Marta en conèixer el correu? Redacteu una intervenció breu per a cadascuna.",
+        "es": "¿Qué podría decir Sònia para ayudar? ¿Y qué debería hacer Marta al conocer el correo? Redactad una intervención breve para cada una."
+      },
+      "solution": {
+        "ca": "Sònia: «Marta, jo també tinc constància del correu de l’Àlex. Potser podem revisar què falta i ajudar a completar-ho». Marta: «Tens raó, Àlex. No havia vist el correu i m’he precipitat en acusar-te davant de l’equip. Et demano disculpes. Organitzem-nos per acabar la documentació».",
+        "es": "Sònia: «Marta, también tengo constancia del correo de Àlex. Quizá podamos revisar qué falta y ayudar a completarlo». Marta: «Tienes razón, Àlex. No había visto el correo y me he precipitado al acusarte delante del equipo. Te pido disculpas. Organicémonos para terminar la documentación»."
+      }
+    },
+    {
+      "id": "5",
+      "page": 2,
+      "prompt": {
+        "ca": "Què resoldríeu ara i de què parlaríeu després de l’enviament? Concreteu com abordaríeu el que ha passat per evitar que es repeteixi.",
+        "es": "¿Qué resolveríais ahora y de qué hablaríais después del envío? Concretad cómo abordaríais lo ocurrido para evitar que se repita."
+      },
+      "solution": {
+        "ca": "Ara: identificar les dades pendents, repartir les tasques, comprovar el document i enviar-lo abans de les 13.00 h si és possible; si no, avisar el client del retard. Després: parlar en privat i amb calma sobre el tracte rebut, revisar per què no es va respondre el correu i establir un sistema de seguiment, responsables i avisos per a tasques urgents.",
+        "es": "Ahora: identificar los datos pendientes, repartir las tareas, comprobar el documento y enviarlo antes de las 13:00 si es posible; si no, avisar al cliente del retraso. Después: hablar en privado y con calma sobre el trato recibido, revisar por qué no se respondió al correo y establecer un sistema de seguimiento, responsables y avisos para tareas urgentes."
+      }
+    },
+    {
+      "id": "reflection",
+      "page": 2,
+      "prompt": {
+        "ca": "Podem comprendre que la Marta estigui preocupada i, alhora, considerar inadequada la seva manera de parlar? Com podem expressar l’enuig sense faltar al respecte?",
+        "es": "¿Podemos comprender que Marta esté preocupada y, al mismo tiempo, considerar inadecuada su manera de hablar? ¿Cómo podemos expresar el enfado sin faltar al respeto?"
+      },
+      "solution": {
+        "ca": "Sí. La preocupació de la Marta és comprensible, però acusar l’Àlex en públic no és una manera adequada de comunicar-se. Podem expressar l’enuig parlant en primera persona, explicant els fets sense culpar ningú, mantenint un to respectuós i proposant solucions.",
+        "es": "Sí. La preocupación de Marta es comprensible, pero acusar a Àlex en público no es una forma adecuada de comunicarse. Podemos expresar el enfado hablando en primera persona, explicando los hechos sin culpar a nadie, manteniendo un tono respetuoso y proponiendo soluciones."
+      }
+    }
+  ]
+}

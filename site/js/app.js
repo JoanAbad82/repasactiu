@@ -134,7 +134,7 @@ function openConceptDictionary(){
 }
 function openCommercialCorrespondence(){
  return openLearningTool('correspondence','commercial-correspondence-screen','examples',async()=>{
-  const [correspondence,practicals,administrative,treasury,stock,newCourse,communication,communicationActivities]=await Promise.all([
+  const [correspondence,practicals,administrative,treasury,stock,newCourse,communication,communicationActivities,emotions]=await Promise.all([
    import('./commercial-correspondence.js'),
    import('./practical-examples.js'),
    import('./administrative-exercises.js'),
@@ -142,15 +142,16 @@ function openCommercialCorrespondence(){
    import('./stock-exercises.js'),
    import('./new-course-activities.js'),
    import('./communication-practice.js'),
-   import('./communication-activities.js')
+   import('./communication-activities.js'),
+   import('./emotions-group-practice.js')
   ]);
-  const [correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank,newBank,communicationBank,communicationActivitiesBank]=await Promise.all([
+  const [correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank,newBank,communicationBank,communicationActivitiesBank,emotionsGroupBank]=await Promise.all([
    correspondence.loadCommercialCorrespondence(),practicals.loadPayrollExample(),
-   administrative.loadAdministrativeExercises(),treasury.loadTreasuryPractice(),stock.loadStockExercises(),newCourse.loadNewCourseData(),communication.loadCommunicationPractice(),communicationActivities.loadCommunicationActivities()
+   administrative.loadAdministrativeExercises(),treasury.loadTreasuryPractice(),stock.loadStockExercises(),newCourse.loadNewCourseData(),communication.loadCommunicationPractice(),communicationActivities.loadCommunicationActivities(),emotions.loadEmotionsGroupData()
   ]);
-  return {create:practicals.createPracticalExamples,correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank,newBank,communicationBank,communicationActivitiesBank};
+  return {create:practicals.createPracticalExamples,correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank,newBank,communicationBank,communicationActivitiesBank,emotionsGroupBank};
  },feature=>{
-  correspondenceView=feature.create({screen:els.correspondence,correspondenceBank:feature.correspondenceBank,payrollBank:feature.payrollBank,administrativeBank:feature.administrativeBank,treasuryBank:feature.treasuryBank,stockBank:feature.stockBank,newBank:feature.newBank,communicationBank:feature.communicationBank,communicationActivitiesBank:feature.communicationActivitiesBank,language:language(),onHome:goHome});
+  correspondenceView=feature.create({screen:els.correspondence,correspondenceBank:feature.correspondenceBank,payrollBank:feature.payrollBank,administrativeBank:feature.administrativeBank,treasuryBank:feature.treasuryBank,stockBank:feature.stockBank,newBank:feature.newBank,communicationBank:feature.communicationBank,communicationActivitiesBank:feature.communicationActivitiesBank,emotionsGroupBank:feature.emotionsGroupBank,language:language(),onHome:goHome});
  },openCommercialCorrespondence);
 }
 function openHangman(){
