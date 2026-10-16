@@ -22,6 +22,8 @@ for(const rel of [
   'data/new-course-activities-202610.json',
   'data/uf0520-comunicacio-vs-informacio-practice-v1.json',
   'js/communication-practice.js',
+  'data/uf0520-activities-111-practice-v1.json',
+  'js/communication-activities.js',
   'data/uf0519_unitat_3_bloc_2.json',
   'data/i18n/es/uf0519-unitat-3-bloc-2.json',
   'data/memory/uf0519-unitat-3-bloc-2.json',
@@ -65,6 +67,8 @@ const treasury=JSON.parse(await readFile(path.join(dist,'data','treasury-practic
 const stock=JSON.parse(await readFile(path.join(dist,'data','stock-exercises-u3-v1.json'),'utf8'));
 const newCourse=JSON.parse(await readFile(path.join(dist,'data','new-course-activities-202610.json'),'utf8'));
 const communication=JSON.parse(await readFile(path.join(dist,'data','uf0520-comunicacio-vs-informacio-practice-v1.json'),'utf8'));
+const activities=JSON.parse(await readFile(path.join(dist,'data','uf0520-activities-111-practice-v1.json'),'utf8'));
+if(activities.version!==1||activities.sections?.length!==4||activities.sections.flatMap(x=>x.items).length!==27)throw new Error('UF0520 activities 1.1.1 incomplete');
 if(communication.version!==1||communication.blockId!=='uf0520-unitat-1-bloc-1'||communication.cases?.length!==5||communication.cases.map(c=>c.answer).join(',')!=='informacio,comunicacio,informacio,comunicacio,informacio')throw new Error('UF0520 practice missing or inconsistent');
 if(newCourse.version!==1||newCourse.inventory?.cases?.length!==3||newCourse.sourceFiles?.length!==5)throw new Error('New class activities incomplete');
 if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){

@@ -1,0 +1,402 @@
+{
+  "version": 1,
+  "id": "UF0520_1_1_1_CLASSROOM_ACTIVITIES",
+  "blockId": "uf0520-unitat-1-bloc-1",
+  "title": {
+    "es": "Actividades 1.1.1 · Comunicación profesional",
+    "ca": "Activitats 1.1.1 · Comunicació professional"
+  },
+  "source": {
+    "original": {
+      "pages": 4,
+      "sha256": "f00b729ee09447409951c0f23ae162739fd6da11eb1e8f4d4283d9853dd373d7",
+      "filename": "UF0520_Actividades_1.1.1.docx"
+    },
+    "languagePolicy": "es-original-ca-site-translation",
+    "type": "classroom-practice-original-and-solved",
+    "resolved": {
+      "pages": 4,
+      "sha256": "17b43b7225c009a370c6dec5f672578fbd381295bfdc210eb5655993fb9afcd2",
+      "filename": "UF0520_Actividades_1.1.1_RESUELTAS.docx"
+    }
+  },
+  "sections": [
+    {
+      "id": "1",
+      "page": 1,
+      "title": {
+        "es": "Comunicación profesional y trato",
+        "ca": "Comunicació professional i tracte"
+      },
+      "objective": {
+        "es": "Distinguir la tarea del trato y comprobar datos de una instrucción.",
+        "ca": "Distingir la tasca del tracte i comprovar dades d'una instrucció."
+      },
+      "intro": {
+        "es": "Responde sobre los fragmentos indicados. No atribuyas intenciones o emociones que el caso no describe.",
+        "ca": "Respon sobre els fragments indicats. No atribueixis intencions ni emocions que el cas no descriu."
+      },
+      "context": {
+        "es": "En administración, Elena dice a David: «Necesito que envíes el listado de visitas a recepción antes de las 12:00. ¿Te falta algún dato para terminarlo?». David responde: «Enviaré el listado de visitas a recepción antes de las 12:00».",
+        "ca": "A administració, Elena diu a David: «Necessito que enviïs la llista de visites a recepció abans de les 12.00. Et falta alguna dada per acabar-la?». David respon: «Enviaré la llista de visites a recepció abans de les 12.00»."
+      },
+      "items": [
+        {
+          "id": "1.1",
+          "prompt": {
+            "es": "Identifica los tres datos del nivel de tarea: actuación, destinatario del listado y plazo.",
+            "ca": "Identifica les tres dades del nivell de tasca: actuació, destinatari de la llista i termini."
+          },
+          "solution": {
+            "es": "Actuación: enviar el listado de visitas. Destinatario: recepción. Plazo: antes de las 12:00.",
+            "ca": "Actuació: enviar la llista de visites. Destinatari: recepció. Termini: abans de les 12.00."
+          }
+        },
+        {
+          "id": "1.2",
+          "prompt": {
+            "es": "Copia la pregunta que permite aclarar dificultades y favorece un trato colaborativo.",
+            "ca": "Copia la pregunta que permet aclarir dificultats i afavoreix un tracte col·laboratiu."
+          },
+          "solution": {
+            "es": "«¿Te falta algún dato para terminarlo?»",
+            "ca": "«Et falta alguna dada per acabar-la?»"
+          }
+        },
+        {
+          "id": "1.3",
+          "prompt": {
+            "es": "Copia la respuesta que devuelve a Elena los datos de la instrucción.",
+            "ca": "Copia la resposta que retorna a Elena les dades de la instrucció."
+          },
+          "solution": {
+            "es": "«Enviaré el listado de visitas a recepción antes de las 12:00».",
+            "ca": "«Enviaré la llista de visites a recepció abans de les 12.00»."
+          }
+        },
+        {
+          "id": "1.4",
+          "prompt": {
+            "es": "¿Permite la respuesta de David asegurar que el listado ya se ha enviado? Marca sí o no y cita el dato verbal que lo demuestra.",
+            "ca": "La resposta de David permet assegurar que ja s'ha enviat la llista? Indica sí o no i cita la dada verbal que ho demostra."
+          },
+          "solution": {
+            "es": "No. «Enviaré» está en futuro: David confirma su intención, no que ya lo haya enviado.",
+            "ca": "No. «Enviaré» és futur: David confirma la intenció, no que ja l'hagi enviada."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "page": 2,
+      "title": {
+        "es": "Funciones del lenguaje",
+        "ca": "Funcions del llenguatge"
+      },
+      "objective": {
+        "es": "Identificar la función de fragmentos con una finalidad delimitada.",
+        "ca": "Identificar la funció de fragments amb una finalitat delimitada."
+      },
+      "intro": {
+        "es": "Relaciona cada fragmento con una función. Utiliza cada función una sola vez: referencial, expresiva, apelativa, fática, metalingüística y poética. Atiende a la intención que se indica entre paréntesis.",
+        "ca": "Relaciona cada fragment amb una funció. Utilitza cada funció una sola vegada: referencial, expressiva, apel·lativa, fàtica, metalingüística i poètica. Fixa't en la intenció indicada entre parèntesis."
+      },
+      "items": [
+        {
+          "id": "2.1",
+          "prompt": {
+            "es": "«El pedido 315 llegará el jueves» (se comunica un dato confirmado).",
+            "ca": "«La comanda 315 arribarà dijous» (es comunica una dada confirmada)."
+          },
+          "solution": {
+            "es": "Función referencial: transmite un dato confirmado sobre el pedido.",
+            "ca": "Funció referencial: transmet una dada confirmada sobre la comanda."
+          }
+        },
+        {
+          "id": "2.2",
+          "prompt": {
+            "es": "«Me preocupa el retraso de la entrega» (se expresa una preocupación personal).",
+            "ca": "«Em preocupa el retard del lliurament» (s'expressa una preocupació personal)."
+          },
+          "solution": {
+            "es": "Función expresiva: manifiesta una preocupación personal.",
+            "ca": "Funció expressiva: manifesta una preocupació personal."
+          }
+        },
+        {
+          "id": "2.3",
+          "prompt": {
+            "es": "«Confirme la recepción del documento antes de las 14:00» (se solicita una actuación).",
+            "ca": "«Confirmi la recepció del document abans de les 14.00» (se sol·licita una actuació)."
+          },
+          "solution": {
+            "es": "Función apelativa: pide al receptor que confirme la recepción.",
+            "ca": "Funció apel·lativa: demana al receptor que confirmi la recepció."
+          }
+        },
+        {
+          "id": "2.4",
+          "prompt": {
+            "es": "«¿Me oye bien?» (al iniciar una llamada, se comprueba el contacto).",
+            "ca": "«Em sent bé?» (en iniciar una trucada, es comprova el contacte)."
+          },
+          "solution": {
+            "es": "Función fática: comprueba que el canal de comunicación funciona.",
+            "ca": "Funció fàtica: comprova que el canal de comunicació funciona."
+          }
+        },
+        {
+          "id": "2.5",
+          "prompt": {
+            "es": "«En este correo, “adjunto” significa que el archivo acompaña al mensaje» (se explica una palabra).",
+            "ca": "«En aquest correu, “adjunt” significa que el fitxer acompanya el missatge» (s'explica una paraula)."
+          },
+          "solution": {
+            "es": "Función metalingüística: explica el significado de «adjunto».",
+            "ca": "Funció metalingüística: explica el significat d'«adjunt»."
+          }
+        },
+        {
+          "id": "2.6",
+          "prompt": {
+            "es": "«Tu tiempo, nuestro compromiso» (eslogan cuya finalidad en este ejercicio es destacar la forma de expresión).",
+            "ca": "«El teu temps, el nostre compromís» (eslògan que, en aquest exercici, té per finalitat destacar la forma de l'expressió)."
+          },
+          "solution": {
+            "es": "Función poética: destaca la forma del mensaje mediante un eslogan.",
+            "ca": "Funció poètica: destaca la forma del missatge mitjançant un eslògan."
+          }
+        },
+        {
+          "id": "2.7",
+          "prompt": {
+            "es": "En «Buenos días. Le envío el listado actualizado. Confirme su recepción», identifica por separado la función de cada una de las tres frases.",
+            "ca": "A «Bon dia. Li envio la llista actualitzada. Confirmi'n la recepció», identifica per separat la funció de cadascuna de les tres frases."
+          },
+          "solution": {
+            "es": "«Buenos días»: fática. «Le envío el listado actualizado»: referencial. «Confirme su recepción»: apelativa.",
+            "ca": "«Bon dia»: fàtica. «Li envio la llista actualitzada»: referencial. «Confirmi'n la recepció»: apel·lativa."
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "page": 3,
+      "title": {
+        "es": "Elementos de un correo de trabajo",
+        "ca": "Elements d'un correu de feina"
+      },
+      "objective": {
+        "es": "Diferenciar los elementos de un intercambio concreto.",
+        "ca": "Diferenciar els elements d'un intercanvi concret."
+      },
+      "intro": {
+        "es": "Completa cada apartado con los datos del caso. En 3.1 a 3.7 analiza únicamente el correo inicial de Clara.",
+        "ca": "Completa cada apartat amb les dades del cas. De 3.1 a 3.7 analitza únicament el correu inicial de Clara."
+      },
+      "context": {
+        "es": "Clara y Óscar trabajan en administración. Clara envía a Óscar un correo electrónico en castellano: «La reunión de archivo del 22 de octubre será a las 9:30 en la sala 4. Confirma tu asistencia antes del 21 de octubre». Óscar responde: «Confirmo mi asistencia a la reunión de archivo del 22 de octubre, a las 9:30, en la sala 4».",
+        "ca": "Clara i Óscar treballen a administració. Clara envia a Óscar un correu electrònic en castellà: «La reunión de archivo del 22 de octubre será a las 9:30 en la sala 4. Confirma tu asistencia antes del 21 de octubre». Óscar respon: «Confirmo mi asistencia a la reunión de archivo del 22 de octubre, a las 9:30, en la sala 4»."
+      },
+      "items": [
+        {
+          "id": "3.1",
+          "prompt": {
+            "es": "Emisor y receptor del correo inicial.",
+            "ca": "Emissor i receptor del correu inicial."
+          },
+          "solution": {
+            "es": "Emisor: Clara. Receptor: Óscar.",
+            "ca": "Emissora: Clara. Receptor: Óscar."
+          }
+        },
+        {
+          "id": "3.2",
+          "prompt": {
+            "es": "Canal utilizado.",
+            "ca": "Canal utilitzat."
+          },
+          "solution": {
+            "es": "Correo electrónico.",
+            "ca": "Correu electrònic."
+          }
+        },
+        {
+          "id": "3.3",
+          "prompt": {
+            "es": "Código utilizado.",
+            "ca": "Codi utilitzat."
+          },
+          "solution": {
+            "es": "Lengua castellana, en un mensaje escrito.",
+            "ca": "Llengua castellana, en un missatge escrit."
+          }
+        },
+        {
+          "id": "3.4",
+          "prompt": {
+            "es": "Referente del correo.",
+            "ca": "Referent del correu."
+          },
+          "solution": {
+            "es": "La reunión de archivo y la confirmación de asistencia.",
+            "ca": "La reunió d'arxiu i la confirmació d'assistència."
+          }
+        },
+        {
+          "id": "3.5",
+          "prompt": {
+            "es": "Extrae cuatro datos del mensaje: fecha de reunión, hora, lugar y fecha límite para confirmar.",
+            "ca": "Extreu quatre dades del missatge: data de la reunió, hora, lloc i data límit per confirmar."
+          },
+          "solution": {
+            "es": "Fecha: 22 de octubre. Hora: 9:30. Lugar: sala 4. Límite de confirmación: antes del 21 de octubre.",
+            "ca": "Data: 22 d'octubre. Hora: 9.30. Lloc: sala 4. Límit de confirmació: abans del 21 d'octubre."
+          }
+        },
+        {
+          "id": "3.6",
+          "prompt": {
+            "es": "Contexto profesional que aparece expresamente en el caso.",
+            "ca": "Context professional que apareix expressament al cas."
+          },
+          "solution": {
+            "es": "Clara y Óscar trabajan en administración y coordinan una reunión de archivo.",
+            "ca": "Clara i Óscar treballen a administració i coordinen una reunió d'arxiu."
+          }
+        },
+        {
+          "id": "3.7",
+          "prompt": {
+            "es": "Acción que Clara solicita a Óscar.",
+            "ca": "Acció que Clara demana a Óscar."
+          },
+          "solution": {
+            "es": "Confirmar su asistencia antes del 21 de octubre.",
+            "ca": "Confirmar l'assistència abans del 21 d'octubre."
+          }
+        },
+        {
+          "id": "3.8",
+          "prompt": {
+            "es": "¿Qué intervención es la retroalimentación al correo inicial? ¿Quién es el emisor de esa respuesta?",
+            "ca": "Quina intervenció és la retroalimentació al correu inicial? Qui és l'emissor d'aquesta resposta?"
+          },
+          "solution": {
+            "es": "La respuesta de Óscar: «Confirmo mi asistencia a la reunión de archivo del 22 de octubre, a las 9:30, en la sala 4». El emisor es Óscar.",
+            "ca": "La resposta d'Óscar: «Confirmo mi asistencia a la reunión de archivo del 22 de octubre, a las 9:30, en la sala 4». L'emissor és Óscar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "page": 4,
+      "title": {
+        "es": "Información y fases del proceso",
+        "ca": "Informació i fases del procés"
+      },
+      "objective": {
+        "es": "Identificar fases y distinguir recepción de comprensión.",
+        "ca": "Identificar fases i distingir recepció de comprensió."
+      },
+      "intro": {
+        "es": "En 4.1 a 4.6 escribe la fase correspondiente. Usa cada fase una vez: codificación, emisión, transmisión, recepción, decodificación y retroalimentación. Aplica el esquema de seis fases de la presentación.",
+        "ca": "De 4.1 a 4.6 escriu la fase corresponent. Utilitza cada fase una sola vegada: codificació, emissió, transmissió, recepció, descodificació i retroalimentació. Aplica l'esquema de sis fases de la presentació."
+      },
+      "items": [
+        {
+          "id": "4.1",
+          "prompt": {
+            "es": "Nuria transforma la idea de cambiar una cita en un texto con fecha, hora y lugar.",
+            "ca": "Núria transforma la idea de canviar una cita en un text amb data, hora i lloc."
+          },
+          "solution": {
+            "es": "Codificación.",
+            "ca": "Codificació."
+          }
+        },
+        {
+          "id": "4.2",
+          "prompt": {
+            "es": "Nuria pulsa «Enviar» para remitir el mensaje.",
+            "ca": "Núria prem «Envia» per trametre el missatge."
+          },
+          "solution": {
+            "es": "Emisión.",
+            "ca": "Emissió."
+          }
+        },
+        {
+          "id": "4.3",
+          "prompt": {
+            "es": "El mensaje circula por el canal de correo hacia la cuenta de Iván.",
+            "ca": "El missatge circula pel canal de correu fins al compte d'Iván."
+          },
+          "solution": {
+            "es": "Transmisión.",
+            "ca": "Transmissió."
+          }
+        },
+        {
+          "id": "4.4",
+          "prompt": {
+            "es": "El mensaje llega e Iván puede percibir el texto, sin haberle atribuido todavía significado.",
+            "ca": "El missatge arriba i Iván pot percebre el text, sense haver-li atribuït encara cap significat."
+          },
+          "solution": {
+            "es": "Recepción.",
+            "ca": "Recepció."
+          }
+        },
+        {
+          "id": "4.5",
+          "prompt": {
+            "es": "Iván interpreta que debe acudir el 23 de octubre a las 11:00.",
+            "ca": "Iván interpreta que ha d'anar-hi el 23 d'octubre a les 11.00."
+          },
+          "solution": {
+            "es": "Decodificación.",
+            "ca": "Descodificació."
+          }
+        },
+        {
+          "id": "4.6",
+          "prompt": {
+            "es": "Iván responde a Nuria repitiendo la fecha y la hora para confirmarlas.",
+            "ca": "Iván respon a Núria repetint la data i l'hora per confirmar-les."
+          },
+          "solution": {
+            "es": "Retroalimentación.",
+            "ca": "Retroalimentació."
+          }
+        },
+        {
+          "id": "4.7",
+          "prompt": {
+            "es": "Un cartel dice «Atención de 9:00 a 14:00». Una visita lo lee y comprende el horario, sin responder. ¿Hay comunicación según el material? Justifica con una frase.",
+            "ca": "Un cartell diu «Atenció de 9.00 a 14.00». Una visita el llegeix i entén l'horari, sense respondre. Hi ha comunicació segons el material? Justifica-ho amb una frase."
+          },
+          "solution": {
+            "es": "Sí. La visita recibe e interpreta el mensaje del cartel; no es imprescindible responder para que exista comunicación.",
+            "ca": "Sí. La visita rep i interpreta el missatge del cartell; no és imprescindible respondre perquè hi hagi comunicació."
+          }
+        },
+        {
+          "id": "4.8",
+          "prompt": {
+            "es": "Una persona responde «vale» a una instrucción con varias cantidades. ¿Esa palabra demuestra por sí sola que ha comprendido todas las cantidades?",
+            "ca": "Una persona respon «d'acord» a una instrucció amb diverses quantitats. Aquesta expressió demostra per si sola que ha entès totes les quantitats?"
+          },
+          "solution": {
+            "es": "No. «Vale» indica una respuesta, pero no prueba que haya comprendido todas las cantidades; debería repetirlas o verificarlas.",
+            "ca": "No. «D'acord» indica una resposta, però no demostra que hagi entès totes les quantitats; les hauria de repetir o verificar."
+          }
+        }
+      ]
+    }
+  ]
+}

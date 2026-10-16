@@ -4,6 +4,7 @@ import {validateTreasuryPracticeData,createTreasuryPracticeState,renderTreasuryP
 import {validateStockExercisesData,createStockExerciseState,renderStockExercisesHtml,bindStockExercises} from "./stock-exercises.js";
 import {validateNewCourseData,createNewCourseState,renderNewCourseHtml,bindNewCourse} from "./new-course-activities.js";
 import {validateCommunicationPracticeData,createCommunicationPracticeState,renderCommunicationPracticeHtml,bindCommunicationPractice} from "./communication-practice.js";
+import {validateCommunicationActivitiesData,createCommunicationActivitiesState,renderCommunicationActivitiesHtml,bindCommunicationActivities} from "./communication-activities.js";
 
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const money=v=>Number(v).toFixed(2).replace(".",",").replace(/\B(?=(\d{3})+(?!\d))/g,".")+" €";
@@ -174,8 +175,8 @@ const STOCK_LABEL={ca:"Existències · Unitat 3",es:"Existencias · Unidad 3"};
 const COMMUNICATION_LABEL={ca:"Comunicació · UF0520",es:"Comunicación · UF0520"};
 const NEW_LABEL={ca:"Material nou · octubre",es:"Material nuevo · octubre"};
 
-export function renderPracticalExamplesHtml({correspondenceBank,payrollBank,administrativeBank=null,treasuryBank=null,stockBank=null,newBank=null,communicationBank=null,language="ca",category="correspondence",correspondenceTab="guide",payrollView="resolved",practiceState=null,administrativeState=null,treasuryState=null,stockState=null,newState=null,communicationState=null}){
- validateCommercialCorrespondenceData(correspondenceBank);validatePayrollExampleData(payrollBank);if(administrativeBank)validateAdministrativeExercisesData(administrativeBank);if(treasuryBank)validateTreasuryPracticeData(treasuryBank);if(stockBank)validateStockExercisesData(stockBank);if(newBank)validateNewCourseData(newBank);if(communicationBank)validateCommunicationPracticeData(communicationBank);
+export function renderPracticalExamplesHtml({correspondenceBank,payrollBank,administrativeBank=null,treasuryBank=null,stockBank=null,newBank=null,communicationBank=null,communicationActivitiesBank=null,language="ca",category="correspondence",correspondenceTab="guide",payrollView="resolved",practiceState=null,administrativeState=null,treasuryState=null,stockState=null,newState=null,communicationState=null,communicationTab="classification",communicationActivitiesState=null}){
+ validateCommercialCorrespondenceData(correspondenceBank);validatePayrollExampleData(payrollBank);if(administrativeBank)validateAdministrativeExercisesData(administrativeBank);if(treasuryBank)validateTreasuryPracticeData(treasuryBank);if(stockBank)validateStockExercisesData(stockBank);if(newBank)validateNewCourseData(newBank);if(communicationBank)validateCommunicationPracticeData(communicationBank);if(communicationActivitiesBank)validateCommunicationActivitiesData(communicationActivitiesBank);
  const l=language==="es"?"es":"ca",t=C[l],enabled=["correspondence","payroll",...(administrativeBank?["administrative"]:[]),...(treasuryBank?["treasury"]:[]),...(stockBank?["stock"]:[]),...(newBank?["new"]:[]),...(communicationBank?["communication"]:[])],active=enabled.includes(category)?category:"correspondence";
  const body=active==="payroll"
   ?payrollAreaHtml(payrollBank,l,t,payrollView,practiceState)
@@ -188,23 +189,24 @@ export function renderPracticalExamplesHtml({correspondenceBank,payrollBank,admi
         :active==="new"
           ?renderNewCourseHtml(newBank,l,newState||createNewCourseState())
         :active==="communication"
-           ?renderCommunicationPracticeHtml(communicationBank,l,communicationState||createCommunicationPracticeState())
+           ?'<nav class="new-class-subtabs" data-communication-variants><button type="button" data-communication-variant="classification" aria-pressed="'+String(communicationTab==="classification") +'">'+(l==="ca"?"Comunicació vs. informació":"Comunicación vs. información") +'</button><button type="button" data-communication-variant="activities" aria-pressed="'+String(communicationTab==="activities") +'">'+(l==="ca"?"Activitats 1.1.1 · 27 qüestions":"Actividades 1.1.1 · 27 preguntas") +'</button></nav>'+(communicationTab==="activities"&&communicationActivitiesBank?renderCommunicationActivitiesHtml(communicationActivitiesBank,l,communicationActivitiesState||createCommunicationActivitiesState()):renderCommunicationPracticeHtml(communicationBank,l,communicationState||createCommunicationPracticeState()))
            :renderCommercialCorrespondenceHtml(correspondenceBank,l,correspondenceTab,{showBack:false});
  const adminTab=administrativeBank?`<button type="button" data-practical-category="administrative" aria-pressed="${String(active==="administrative")}">${ADMIN_LABEL[l]}</button>`:"";
  const treasuryTab=treasuryBank?`<button type="button" data-practical-category="treasury" aria-pressed="${String(active==="treasury")}">${TREASURY_LABEL[l]}</button>`:"";
  const newTab=newBank?'<button type="button" data-practical-category="new" aria-pressed="'+String(active==="new")+'">'+NEW_LABEL[l]+'</button>':'';
- const communicationTab=communicationBank?'<button type="button" data-practical-category="communication" aria-pressed="'+String(active==="communication")+'">'+COMMUNICATION_LABEL[l]+'</button>':'';
+ const communicationButton=communicationBank?'<button type="button" data-practical-category="communication" aria-pressed="'+String(active==="communication")+'">'+COMMUNICATION_LABEL[l]+'</button>':'';
   const stockTab=stockBank?`<button type="button" data-practical-category="stock" aria-pressed="${String(active==="stock")}">${STOCK_LABEL[l]}</button>`:"";
- return `<div class="practical-examples-shell"><div class="practical-toolbar"><button class="back-button" data-action="home" type="button">${t.back}</button></div><header class="practical-head"><p class="eyebrow">${l==="ca"?"Aplicació del temari":"Aplicación del temario"}</p><h1>${t.title}</h1><p>${t.intro}</p></header><nav class="practical-tabs" aria-label="${t.title}"><button type="button" data-practical-category="correspondence" aria-pressed="${String(active==="correspondence")}">${t.corr}</button><button type="button" data-practical-category="payroll" aria-pressed="${String(active==="payroll")}">${t.pay}</button>${adminTab}${treasuryTab}${stockTab}${newTab}${communicationTab}</nav><div class="practical-content">${body}</div></div>`;
+ return `<div class="practical-examples-shell"><div class="practical-toolbar"><button class="back-button" data-action="home" type="button">${t.back}</button></div><header class="practical-head"><p class="eyebrow">${l==="ca"?"Aplicació del temari":"Aplicación del temario"}</p><h1>${t.title}</h1><p>${t.intro}</p></header><nav class="practical-tabs" aria-label="${t.title}"><button type="button" data-practical-category="correspondence" aria-pressed="${String(active==="correspondence")}">${t.corr}</button><button type="button" data-practical-category="payroll" aria-pressed="${String(active==="payroll")}">${t.pay}</button>${adminTab}${treasuryTab}${stockTab}${newTab}${communicationButton}</nav><div class="practical-content">${body}</div></div>`;
 }
 
-export function createPracticalExamples({screen,correspondenceBank,payrollBank,administrativeBank=null,treasuryBank=null,stockBank=null,newBank=null,communicationBank=null,language="ca",onHome}){
- let l=language==="es"?"es":"ca",category="correspondence",correspondenceTab="guide",payrollView="resolved",practiceState=createPayrollPracticeState(),administrativeState=createAdministrativeExerciseState(),treasuryState=createTreasuryPracticeState(),stockState=createStockExerciseState(),newState=createNewCourseState(),communicationState=createCommunicationPracticeState();
+export function createPracticalExamples({screen,correspondenceBank,payrollBank,administrativeBank=null,treasuryBank=null,stockBank=null,newBank=null,communicationBank=null,communicationActivitiesBank=null,language="ca",onHome}){
+ let l=language==="es"?"es":"ca",category="correspondence",correspondenceTab="guide",payrollView="resolved",practiceState=createPayrollPracticeState(),administrativeState=createAdministrativeExerciseState(),treasuryState=createTreasuryPracticeState(),stockState=createStockExerciseState(),newState=createNewCourseState(),communicationState=createCommunicationPracticeState(),communicationTab="classification",communicationActivitiesState=createCommunicationActivitiesState();
  const render=()=>{
-  screen.innerHTML=renderPracticalExamplesHtml({correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank,newBank,language:l,category,correspondenceTab,payrollView,practiceState,administrativeState,treasuryState,stockState,newState,communicationBank,communicationState});
+  screen.innerHTML=renderPracticalExamplesHtml({correspondenceBank,payrollBank,administrativeBank,treasuryBank,stockBank,newBank,language:l,category,correspondenceTab,payrollView,practiceState,administrativeState,treasuryState,stockState,newState,communicationBank,communicationState,communicationActivitiesBank,communicationTab,communicationActivitiesState});
   screen.querySelector('[data-action="home"]')?.addEventListener("click",onHome);
   for(const b of screen.querySelectorAll("[data-practical-category]"))b.addEventListener("click",()=>{const value=b.dataset.practicalCategory;category=value==="payroll"?"payroll":value==="administrative"?"administrative":value==="treasury"?"treasury":value==="stock"?"stock":value==="new"?"new":value==="communication"?"communication":"correspondence";render();});
-  for(const b of screen.querySelectorAll("[data-correspondence-tab]"))b.addEventListener("click",()=>{correspondenceTab=b.dataset.correspondenceTab;render();});
+  for(const b of screen.querySelectorAll("[data-communication-variant]"))b.addEventListener("click",()=>{communicationTab=b.dataset.communicationVariant;render();});
+   for(const b of screen.querySelectorAll("[data-correspondence-tab]"))b.addEventListener("click",()=>{correspondenceTab=b.dataset.correspondenceTab;render();});
   for(const b of screen.querySelectorAll("[data-payroll-view]"))b.addEventListener("click",()=>{payrollView=b.dataset.payrollView==="practice"?"practice":"resolved";render();});
   screen.querySelector("[data-practice-restart]")?.addEventListener("click",()=>{practiceState=createPayrollPracticeState();render();});
   screen.querySelector("[data-use-practice-solution]")?.addEventListener("click",()=>{
@@ -272,7 +274,8 @@ export function createPracticalExamples({screen,correspondenceBank,payrollBank,a
   if(treasuryBank)bindTreasuryPractice({root:screen,bank:treasuryBank,language:l,state:treasuryState,rerender:render});
    if(stockBank&&category==="stock")bindStockExercises({root:screen,bank:stockBank,language:l,state:stockState,rerender:render});
   if(newBank&&category==="new")bindNewCourse({root:screen,data:newBank,language:l,state:newState,rerender:render});
-   if(communicationBank&&category==="communication")bindCommunicationPractice({root:screen,data:communicationBank,state:communicationState,rerender:render});
+   if(communicationBank&&category==="communication"&&communicationTab==="classification")bindCommunicationPractice({root:screen,data:communicationBank,state:communicationState,rerender:render});
+   if(communicationActivitiesBank&&category==="communication"&&communicationTab==="activities")bindCommunicationActivities({root:screen,data:communicationActivitiesBank,state:communicationActivitiesState,language:l,rerender:render});
  };
  render();
  return {setLanguage(n){l=n==="es"?"es":"ca";render();},destroy(){screen.replaceChildren();}};
