@@ -15,14 +15,14 @@ test('UF0520 published as independent 20th block and only under own unit',()=>{
  assert.equal(b[0].unitId,'uf0520-unitat-1');assert.match(b[0].unitTitle,/Comunicació en entorns laborals/);
  assert.match(b[0].unitTitleEs,/Comunicación en entornos laborales/);
 });
-test('32 questions, bilingual and hard, 48-page source checksum, exact pages',()=>{
- assert.equal(q.questions.length,32);
- assert.equal(new Set(q.questions.map(x=>x.id)).size,32);
- assert.equal(trace.questionTraces.length,32);
+test('60 questions, bilingual and hard, 48-page source checksum, exact pages',()=>{
+ assert.equal(q.questions.length,60);
+ assert.equal(new Set(q.questions.map(x=>x.id)).size,60);
+ assert.equal(trace.questionTraces.length,60);
  assert.equal(trace.sources[source].sha256,'cc6f7a7e6ad35421eb17fd4b937fe4d4170e2527074f9659b49519107217e96d');
  for(const question of q.questions){
   const t=trace.questionTraces.find(x=>x.id===question.id);
-  assert.equal(t.source,source);assert.ok(t.pageRange[0]>=4&&t.pageRange[0]<=42);
+  assert.equal(t.source,source);assert.ok(t.pageRange[0]>=4&&t.pageRange[0]<=43);
   assert.equal(es.questions[question.id].options.length,4);
   assert.equal(hard.questions[question.id].ca.length,3);
   assert.equal(hard.questions[question.id].es.length,3);

@@ -2748,6 +2748,22 @@
       "es": {
         "question": "¿Qué criterio distingue la comunicación auditiva, visual y táctil?"
       }
+    },
+    "uf0520-u1b1-055": {
+      "ca": {
+        "question": "Com es resumeix fidelment un comunicat amb una condició de lliurament?"
+      },
+      "es": {
+        "question": "¿Cómo se resume fielmente un comunicado que condiciona la entrega?"
+      }
+    },
+    "uf0520-u1b1-056": {
+      "ca": {
+        "question": "Quin contingut fa complet un avís de canvi de reunió?"
+      },
+      "es": {
+        "question": "¿Qué contenido hace completo un aviso de cambio de reunión?"
+      }
     }
   }
 }

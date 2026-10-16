@@ -4,7 +4,7 @@ import {inventoryExpected} from '../../site/js/new-course-activities.js';
 const data=JSON.parse(await readFile(new URL('../../site/data/new-course-activities-202610.json',import.meta.url),'utf8'));
 async function visitNew(page){
  await page.goto('/');
- await expect(page.getByText('1107 preguntes')).toBeVisible();
+ await expect(page.getByText('1135 preguntes')).toBeVisible();
  await page.locator('#home-shortcut-examples').click();
  await page.locator('[data-practical-category="new"]').click();
  await expect(page.getByText('Activitats noves · octubre 2026')).toBeVisible();

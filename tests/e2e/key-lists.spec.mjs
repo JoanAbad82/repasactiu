@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 
 async function openLists(page){
   await page.goto('/');
-  await expect(page.getByText('1107 preguntes')).toBeVisible();
+  await expect(page.getByText('1135 preguntes')).toBeVisible();
   await page.locator('#home-shortcut-dictionary').click();
   await page.getByRole('button',{name:'Llistes clau',exact:true}).click();
 }

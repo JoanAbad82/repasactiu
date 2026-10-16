@@ -6,8 +6,8 @@ import {validateSourceTraceability} from '../../scripts/validate-source-traceabi
 test('les preguntes publicades tenen traçabilitat completa a les fonts autoritzades',async()=>{
   const result=await validateSourceTraceability();
   assert.equal(result.manifests,5);
-  assert.equal(result.questions,1107);
-  assert.equal(result.traceable,1107);
+  assert.equal(result.questions,1135);
+  assert.equal(result.traceable,1135);
   assert.equal(result.sources,29);
   assert.equal(result.corrections,11);
   assert.deepEqual(result.errors,[]);
@@ -23,7 +23,7 @@ test('la traçabilitat combina UF0517, UF0518 i UF0519 sense fixar el total a 45
     path.join(root,'docs','content','UF0520_SOURCE_TRACEABILITY.json')
   ]});
   assert.equal(result.manifests,5);
-  assert.equal(result.questions,1107);
+  assert.equal(result.questions,1135);
   assert.equal(result.traceable,result.questions);
   assert.deepEqual(result.errors,[]);
 });

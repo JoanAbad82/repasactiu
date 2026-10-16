@@ -296,11 +296,282 @@
         42
       ],
       "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-033",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        7,
+        7
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-034",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        10,
+        10
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-035",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        11,
+        11
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-036",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        14,
+        14
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-037",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        15,
+        15
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-038",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        16,
+        16
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-039",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        18,
+        18
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-040",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        21,
+        21
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-041",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        21,
+        21
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-042",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        23,
+        23
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-043",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        24,
+        24
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-044",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        25,
+        25
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-045",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        26,
+        26
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-046",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        27,
+        27
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-047",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        29,
+        29
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-048",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        30,
+        30
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-049",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        31,
+        31
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-050",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        32,
+        32
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-051",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        34,
+        34
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-052",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        35,
+        35
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-053",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        36,
+        36
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-054",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        37,
+        37
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-055",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        38,
+        38
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-056",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        39,
+        39
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-057",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        40,
+        40
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-058",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        41,
+        41
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-059",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        42,
+        42
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "uf0520-u1b1-060",
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        43,
+        43
+      ],
+      "status": "PASS"
     }
   ],
   "review": {
-    "questionCount": 32,
+    "questionCount": 60,
     "status": "PASS",
-    "method": "Every question separately mapped to the original 48-page PDF, Spanish source transcreated in Catalan and independent difficulty distractors; original course remains intact."
+    "method": "Every question separately mapped to the original 48-page PDF, Spanish source transcreated in Catalan and independent difficulty distractors; original course remains intact.",
+    "contextAudit": {
+      "date": "2026-10-16",
+      "scope": "UF0520 1.1, full 60 questions",
+      "reviewedCount": 60,
+      "revisedIds": [
+        "uf0520-u1b1-015",
+        "uf0520-u1b1-017",
+        "uf0520-u1b1-032"
+      ],
+      "addedCount": 28,
+      "criteria": [
+        "Every stem contains the scenario data needed to solve it",
+        "No dependency on a previous question, screenshot, lecture or unseen exercise",
+        "Catalan and Spanish ask the same task and have the same correct option index",
+        "Explanations, memory cues and three difficult-mode distractors follow their own question",
+        "Question and new additions retain exact PDF page traceability"
+      ],
+      "sourceSha256": "cc6f7a7e6ad35421eb17fd4b937fe4d4170e2527074f9659b49519107217e96d"
+    }
   }
 }

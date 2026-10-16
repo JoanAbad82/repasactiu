@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 
 async function waitForHome(page,language='ca'){
-  await expect(page.getByText(language==='es'?'1107 preguntas':'1107 preguntes')).toBeVisible();
+  await expect(page.getByText(language==='es'?'1135 preguntas':'1135 preguntes')).toBeVisible();
 }
 
 test('Examen difícil funciona des de Tot el temari i conserva selecció en canviar d idioma',async({page})=>{
