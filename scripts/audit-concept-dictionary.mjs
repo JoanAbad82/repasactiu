@@ -22,7 +22,8 @@ const EXPECTED={
   'uf0519-bloc-5':8,
   'uf0519-unitat-2-bloc-1':10,
   'uf0519-unitat-2-bloc-2':22,
-  'uf0519-bloc-6':2
+  'uf0519-bloc-6':2,
+  'uf0520-unitat-1-bloc-1':18
 };
 
 const EXPECTED_FAMILIES={
@@ -47,14 +48,15 @@ const EXPECTED_FAMILIES={
 
 EXPECTED['uf0519-unitat-3-bloc-1']=12;
 EXPECTED_FAMILIES['inventory-warehouse-logistics']=['u3-bastidor','u3-expedient-compra','u3-fitxer-informatic','u3-etiqueta-interna','u3-punt-comanda','u3-ubicacio-fixa','u3-ubicacio-variable','u3-picking','u3-fifo','u3-fefo','u3-lifo','u3-trasllat-intern'];
-const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:31,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22,UF0519_U2_TRESORERIA:41,UF0519_U2_TRESORERIA_B2:52,UF0519_U3_STOCK:29,UF0519_ACTIUS_PASSIUS:6};
+EXPECTED_FAMILIES['communication-workplace-uf0520']=Array.from({length:18},(_,i)=>'uf0520-c-'+String(i+1).padStart(2,'0'));
+const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:31,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22,UF0519_U2_TRESORERIA:41,UF0519_U2_TRESORERIA_B2:52,UF0519_U3_STOCK:29,UF0519_ACTIUS_PASSIUS:6,UF0520_U1_1:48};
 const errors=[];
 
 if(bank.version!==1)errors.push('version != 1');
-if(bank.count!==156)errors.push('count != 150');
-if(!Array.isArray(bank.entries)||bank.entries.length!==156)errors.push('entries != 150');
-if(!Array.isArray(bank.groups)||bank.groups.length!==17)errors.push('groups != 17');
-if(!Array.isArray(bank.families)||bank.families.length!==18)errors.push('families != 17');
+if(bank.count!==174)errors.push('count != 150');
+if(!Array.isArray(bank.entries)||bank.entries.length!==174)errors.push('entries != 150');
+if(!Array.isArray(bank.groups)||bank.groups.length!==18)errors.push('groups != 17');
+if(!Array.isArray(bank.families)||bank.families.length!==19)errors.push('families != 17');
 if(!Array.isArray(bank.languages)||bank.languages.join(',')!=='ca,es')errors.push('languages must be ca,es');
 
 const ids=new Set();
@@ -101,8 +103,8 @@ for(const family of bank.families||[]){
   else if(JSON.stringify(family.entryIds)!==JSON.stringify(expected))errors.push('family order/membership mismatch '+family.id);
   assigned.push(...family.entryIds);
 }
-if(assigned.length!==156)errors.push('family assignments != 150');
-if(new Set(assigned).size!==156)errors.push('family assignments contain duplicates');
+if(assigned.length!==174)errors.push('family assignments != 150');
+if(new Set(assigned).size!==174)errors.push('family assignments contain duplicates');
 for(const id of ids){
   if(!assigned.includes(id))errors.push('unassigned concept '+id);
 }
@@ -122,8 +124,8 @@ for(const blockId of Object.keys(counts)){
 
 if(errors.length)throw new Error('CONCEPT_DICTIONARY_AUDIT=FAIL\n- '+errors.join('\n- '));
 console.log('CONCEPT_DICTIONARY_AUDIT=PASS');
-console.log('CONCEPTS=156');
+console.log('CONCEPTS=174');
 console.log('BLOCK_COUNTS='+JSON.stringify(counts));
 console.log('LANGUAGES=ca,es');
-console.log('CONCEPT_FAMILIES=18');
+console.log('CONCEPT_FAMILIES=19');
 console.log('FAMILY_ORDER='+bank.families.map(x=>x.id).join(' > '));

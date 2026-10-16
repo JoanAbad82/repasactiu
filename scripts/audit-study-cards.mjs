@@ -1,4 +1,4 @@
-import {readFile} from 'node:fs/promises';
+﻿import {readFile} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 
@@ -29,7 +29,8 @@ const EXPECTED={
   'uf0519-unitat-2-bloc-2':43,
   'uf0519-bloc-6':20,
   'uf0519-unitat-3-bloc-1':27,
-  'uf0519-unitat-3-bloc-2':43
+  'uf0519-unitat-3-bloc-2':43,
+  'uf0520-unitat-1-bloc-1':38
 };
 
 function mergeQuestionObjects(items){
@@ -63,31 +64,31 @@ export async function runStudyCardsAudit(){
     for(const q of questions){
       const es=translations[q.id];
       const memory=memories[q.id];
-      if(!es)errors.push(q.id+': falta traducció ES per a flashcard');
-      if(!memory)errors.push(q.id+': falta mnemotècnia bilingüe per a flashcard');
-      if(!q.question||!Array.isArray(q.options)||!q.options[q.correct])errors.push(q.id+': targeta CA no construïble');
-      if(es&&(!es.question||!Array.isArray(es.options)||!es.options[q.correct]))errors.push(q.id+': targeta ES no construïble');
-      if(memory&&(!String(memory.ca||'').trim()||!String(memory.es||'').trim()))errors.push(q.id+': mnemotècnia CA/ES buida');
+      if(!es)errors.push(q.id+': falta traducciÃ³ ES per a flashcard');
+      if(!memory)errors.push(q.id+': falta mnemotÃ¨cnia bilingÃ¼e per a flashcard');
+      if(!q.question||!Array.isArray(q.options)||!q.options[q.correct])errors.push(q.id+': targeta CA no construÃ¯ble');
+      if(es&&(!es.question||!Array.isArray(es.options)||!es.options[q.correct]))errors.push(q.id+': targeta ES no construÃ¯ble');
+      if(memory&&(!String(memory.ca||'').trim()||!String(memory.es||'').trim()))errors.push(q.id+': mnemotÃ¨cnia CA/ES buida');
       if(q.question)canonicalQuestions.ca.add(normalize(q.question));
       if(es?.question)canonicalQuestions.es.add(normalize(es.question));
       coreById.set(q.id,{ca:q,es,memory,blockId:block.id});
     }
   }
 
-  if(coreCards!==1075)errors.push('nucli: '+coreCards+'/1075 targetes');
+  if(coreCards!==1107)errors.push('nucli: '+coreCards+'/1107 targetes');
 
   const coreOverrides=extra.coreOverrides||{};
   const standaloneRiskPhrasesCa=[
-    'quina d’aquestes','quina d\'aquestes','quin d’aquests','quin d\'aquests',
-    'quina opció','quina afirmació','quina combinació','quin conjunt',
-    'quina parella','quin parell','quina conclusió','quina lectura','quina relació'
+    'quina dâ€™aquestes','quina d\'aquestes','quin dâ€™aquests','quin d\'aquests',
+    'quina opciÃ³','quina afirmaciÃ³','quina combinaciÃ³','quin conjunt',
+    'quina parella','quin parell','quina conclusiÃ³','quina lectura','quina relaciÃ³'
   ];
   const standaloneRiskPhrasesEs=[
-    'cuál de estas','cual de estas','cuál de estos','cual de estos',
-    'qué opción','que opción','qué afirmación','que afirmación',
-    'qué combinación','que combinación','qué conjunto','que conjunto',
-    'qué pareja','que pareja','qué conclusión','que conclusión',
-    'qué lectura','que lectura','qué relación','que relación'
+    'cuÃ¡l de estas','cual de estas','cuÃ¡l de estos','cual de estos',
+    'quÃ© opciÃ³n','que opciÃ³n','quÃ© afirmaciÃ³n','que afirmaciÃ³n',
+    'quÃ© combinaciÃ³n','que combinaciÃ³n','quÃ© conjunto','que conjunto',
+    'quÃ© pareja','que pareja','quÃ© conclusiÃ³n','que conclusiÃ³n',
+    'quÃ© lectura','que lectura','quÃ© relaciÃ³n','que relaciÃ³n'
   ];
   const hasStandaloneRisk=(value,lang)=>{
     const text=String(value??'').toLocaleLowerCase(lang==='es'?'es':'ca');
@@ -99,10 +100,10 @@ export async function runStudyCardsAudit(){
   for(const [id,record] of coreById){
     const override=coreOverrides[id];
     if(hasStandaloneRisk(record.ca?.question,'ca')&&!override?.ca?.question){
-      errors.push(id+': la pregunta de test depèn de les opcions i necessita pregunta pròpia de flashcard CA');
+      errors.push(id+': la pregunta de test depÃ¨n de les opcions i necessita pregunta prÃ²pia de flashcard CA');
     }
     if(hasStandaloneRisk(record.ca?.question,'ca')&&!override?.es?.question){
-      errors.push(id+': la pregunta de test depèn de les opcions i necessita pregunta pròpia de flashcard ES');
+      errors.push(id+': la pregunta de test depÃ¨n de les opcions i necessita pregunta prÃ²pia de flashcard ES');
     }
     const caQuestion=override?.ca?.question||record.ca?.question||'';
     const esQuestion=override?.es?.question||record.es?.question||'';
@@ -119,14 +120,14 @@ export async function runStudyCardsAudit(){
       const loc=override?.[lang];
       if(!loc||typeof loc!=='object'){errors.push(id+': override '+lang+' absent');continue;}
       for(const key of Object.keys(loc)){
-        if(!['question','answer','mnemonic'].includes(key))errors.push(id+': camp override no admès '+lang+'.'+key);
+        if(!['question','answer','mnemonic'].includes(key))errors.push(id+': camp override no admÃ¨s '+lang+'.'+key);
         if(!String(loc[key]??'').trim())errors.push(id+': camp override buit '+lang+'.'+key);
       }
     }
   }
 
   if(!Array.isArray(extra.languages)||!extra.languages.includes('ca')||!extra.languages.includes('es'))errors.push('extra: idiomes CA/ES incomplets');
-  if(extra.cards?.length!==90)errors.push('extra: '+(extra.cards?.length||0)+'/90 targetes');
+  if(extra.cards?.length!==96)errors.push('extra: '+(extra.cards?.length||0)+'/96 targetes');
 
   const ids=new Set();
   const extraQuestions={ca:new Set(),es:new Set()};
@@ -141,8 +142,8 @@ export async function runStudyCardsAudit(){
       if(!String(loc.question||'').trim())errors.push(card.id+': pregunta '+lang+' buida');
       else if(!isQuestion(loc.question))errors.push(card.id+': la pregunta extra '+lang+' ha de ser interrogativa');
       if(!String(loc.answer||'').trim())errors.push(card.id+': resposta '+lang+' buida');
-      if(!String(loc.mnemonic||'').trim())errors.push(card.id+': mnemotècnia '+lang+' buida');
-      if([...String(loc.mnemonic||'')].length>110)errors.push(card.id+': mnemotècnia '+lang+' massa llarga');
+      if(!String(loc.mnemonic||'').trim())errors.push(card.id+': mnemotÃ¨cnia '+lang+' buida');
+      if([...String(loc.mnemonic||'')].length>110)errors.push(card.id+': mnemotÃ¨cnia '+lang+' massa llarga');
       const key=normalize(loc.question);
       if(extraQuestions[lang].has(key))errors.push(card.id+': pregunta extra '+lang+' duplicada');
       extraQuestions[lang].add(key);
@@ -152,7 +153,7 @@ export async function runStudyCardsAudit(){
     const source=extra.sources?.[card.source?.id];
     const pages=card.source?.pages;
     if(!source)errors.push(card.id+': font desconeguda');
-    if(!Array.isArray(pages)||pages.length!==2||!pages.every(Number.isInteger))errors.push(card.id+': pageRange invàlid');
+    if(!Array.isArray(pages)||pages.length!==2||!pages.every(Number.isInteger))errors.push(card.id+': pageRange invÃ lid');
     else if(source&&(pages[0]<1||pages[1]<pages[0]||pages[1]>source.pages))errors.push(card.id+': pageRange fora de la font');
   }
 
@@ -163,7 +164,7 @@ export async function runStudyCardsAudit(){
     if(combined!==EXPECTED[block.id])errors.push(block.id+': '+combined+'/'+EXPECTED[block.id]+' targetes totals');
   }
 
-  if(totalCards!==1165)errors.push('total: '+totalCards+'/1165 targetes');
+  if(totalCards!==1203)errors.push('total: '+totalCards+'/1203 targetes');
 
   return {
     coreCards,

@@ -140,7 +140,8 @@ export async function runContentQualityAudit(){
     await readJson(path.join(docsDir,'UF0517_SOURCE_TRACEABILITY.json')),
     await readJson(path.join(docsDir,'UF0518_SOURCE_TRACEABILITY.json')),
     await readJson(path.join(docsDir,'UF0519_SOURCE_TRACEABILITY.json')),
-  await readJson(path.join(docsDir,'UF0519_U3_SOURCE_TRACEABILITY.json'))
+  await readJson(path.join(docsDir,'UF0519_U3_SOURCE_TRACEABILITY.json')),
+    await readJson(path.join(docsDir,'UF0520_SOURCE_TRACEABILITY.json'))
   ];
   const traceById=new Map();
   for(const manifest of manifests){

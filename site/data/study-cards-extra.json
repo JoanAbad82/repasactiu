@@ -52,6 +52,10 @@
     "UF0519_U3_BLOC2_20261013": {
       "file": "3_Gestio i control basic d´existencies_bloc 2.pdf",
       "pages": 39
+    },
+    "UF0520_U1_1": {
+      "file": "1.1_La comunicació com a  procés.pdf",
+      "pages": 48
     }
   },
   "cards": [
@@ -1944,6 +1948,132 @@
           35
         ]
       }
+    },
+    {
+      "id": "sc-uf0520-1-01",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          9,
+          9
+        ]
+      },
+      "ca": {
+        "question": "Com es relacionen els conceptes de «Funcions del llenguatge»?",
+        "answer": "Referencial, expressiva, apel·lativa, fàtica, metalingüística i poètica.",
+        "mnemonic": "Fet, emoció, acció, contacte, paraules, forma."
+      },
+      "es": {
+        "question": "¿Cómo se relacionan los conceptos de «Funciones del lenguaje»?",
+        "answer": "Referencial, expresiva, apelativa, fática, metalingüística y poética.",
+        "mnemonic": "Hecho, emoción, acción, contacto, palabras, forma."
+      }
+    },
+    {
+      "id": "sc-uf0520-1-02",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          11,
+          11
+        ]
+      },
+      "ca": {
+        "question": "Com es relacionen els conceptes de «Elements de la comunicació»?",
+        "answer": "Emissor, receptor, missatge, codi, canal, context, referent i retroalimentació.",
+        "mnemonic": "Qui, a qui, què, amb què, per on i en quin context."
+      },
+      "es": {
+        "question": "¿Cómo se relacionan los conceptos de «Elementos de la comunicación»?",
+        "answer": "Emisor, receptor, mensaje, código, canal, contexto, referente y retroalimentación.",
+        "mnemonic": "Quién, a quién, qué, con qué, por dónde y en qué contexto."
+      }
+    },
+    {
+      "id": "sc-uf0520-1-03",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          20,
+          20
+        ]
+      },
+      "ca": {
+        "question": "Com es relacionen els conceptes de «Fases de la comunicació»?",
+        "answer": "Codificació, emissió, transmissió, recepció, descodificació i retroalimentació.",
+        "mnemonic": "Co–E–T–R–De–Re."
+      },
+      "es": {
+        "question": "¿Cómo se relacionan los conceptos de «Fases de la comunicación»?",
+        "answer": "Codificación, emisión, transmisión, recepción, decodificación y retroalimentación.",
+        "mnemonic": "Co–E–T–R–De–Re."
+      }
+    },
+    {
+      "id": "sc-uf0520-1-04",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "question": "Com es relacionen els conceptes de «Verbal, paraverbal i no verbal»?",
+        "answer": "Paraules; característiques de la veu; gestos i postures corporals.",
+        "mnemonic": "Què diem, com sona, què expressa el cos."
+      },
+      "es": {
+        "question": "¿Cómo se relacionan los conceptos de «Verbal, paraverbal y no verbal»?",
+        "answer": "Palabras; características de la voz; gestos y posturas corporales.",
+        "mnemonic": "Qué decimos, cómo suena, qué expresa el cuerpo."
+      }
+    },
+    {
+      "id": "sc-uf0520-1-05",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "question": "Com es relacionen els conceptes de «Emblema, il·lustrador, regulador»?",
+        "answer": "L’emblema té un significat convencional; l’il·lustrador acompanya les paraules; el regulador organitza torns.",
+        "mnemonic": "Cultura – explicació – torn."
+      },
+      "es": {
+        "question": "¿Cómo se relacionan los conceptos de «Emblema, ilustrador, regulador»?",
+        "answer": "El emblema tiene significado convencional; el ilustrador acompaña palabras; el regulador organiza turnos.",
+        "mnemonic": "Cultura – explicación – turno."
+      }
+    },
+    {
+      "id": "sc-uf0520-1-06",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          32,
+          32
+        ]
+      },
+      "ca": {
+        "question": "Com es relacionen els conceptes de «Proxèmica i cronèmica»?",
+        "answer": "La proxèmica estudia la distància interpersonal; la cronèmica, el temps d’interacció.",
+        "mnemonic": "Proxi = prop; crono = rellotge."
+      },
+      "es": {
+        "question": "¿Cómo se relacionan los conceptos de «Proxémica y cronémica»?",
+        "answer": "La proxémica estudia la distancia interpersonal; la cronémica, el tiempo de interacción.",
+        "mnemonic": "Proxi = cerca; crono = reloj."
+      }
     }
   ],
   "coreOverrides": {
@@ -2601,6 +2731,22 @@
       },
       "es": {
         "question": "¿Qué tres periféricos habituales puede incorporar un sistema de venta?"
+      }
+    },
+    "uf0520-u1b1-024": {
+      "ca": {
+        "question": "Quina diferència hi ha entre proxèmica i cronèmica?"
+      },
+      "es": {
+        "question": "¿Qué diferencia hay entre proxémica y cronémica?"
+      }
+    },
+    "uf0520-u1b1-026": {
+      "ca": {
+        "question": "Quin criteri diferencia la comunicació auditiva, visual i tàctil?"
+      },
+      "es": {
+        "question": "¿Qué criterio distingue la comunicación auditiva, visual y táctil?"
       }
     }
   }

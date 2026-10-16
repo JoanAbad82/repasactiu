@@ -5,7 +5,7 @@
     "ca",
     "es"
   ],
-  "count": 328,
+  "count": 355,
   "groups": [
     {
       "id": "bloc-1",
@@ -101,6 +101,11 @@
       "id": "uf0519-unitat-3-bloc-2",
       "ca": "UF0519 — Gestió auxiliar de documentació economicoadministrativa i comercial · Unitat 3 · Bloc 2 — Gestió i control bàsic d’existències",
       "es": "UF0519 — Gestión auxiliar de documentación económico-administrativa y comercial · Unidad 3 · Bloque 2 — Gestión y control básico de existencias"
+    },
+    {
+      "id": "uf0520-unitat-1-bloc-1",
+      "ca": "Comunicació en entorns laborals · UF0520 / MF0970_1 · Unitat 1 · Bloc 1 — La comunicació com a procés (apartat 1.1)",
+      "es": "Comunicación en entornos laborales · UF0520 / MF0970_1 · Unidad 1 · Bloque 1 — La comunicación como proceso (apartado 1.1)"
     }
   ],
   "stats": {
@@ -123,13 +128,14 @@
       "uf0519-unitat-2-bloc-2": 29,
       "uf0519-bloc-6": 6,
       "uf0519-unitat-3-bloc-1": 14,
-      "uf0519-unitat-3-bloc-2": 6
+      "uf0519-unitat-3-bloc-2": 6,
+      "uf0520-unitat-1-bloc-1": 27
     },
     "byKind": {
-      "dictionary": 127,
+      "dictionary": 145,
       "topic": 86,
       "named-question": 67,
-      "ordered-list": 48
+      "ordered-list": 57
     }
   },
   "policy": {
@@ -7665,6 +7671,600 @@
         "term": "Automatización",
         "hint": "Cuando se adapta a la carga, el proceso y se mantiene el control de seguridad",
         "memory": "Tecnología útil = proceso correcto + datos fiables + seguridad."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-01",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          11,
+          11
+        ]
+      },
+      "ca": {
+        "term": "Emissor",
+        "hint": "Persona que elabora i envia el missatge.",
+        "memory": "E = envia."
+      },
+      "es": {
+        "term": "Emisor",
+        "hint": "Persona que elabora y envía el mensaje.",
+        "memory": "E = envía."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-02",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          11,
+          11
+        ]
+      },
+      "ca": {
+        "term": "Receptor",
+        "hint": "Persona que rep i interpreta el missatge.",
+        "memory": "R = rep."
+      },
+      "es": {
+        "term": "Receptor",
+        "hint": "Persona que recibe e interpreta el mensaje.",
+        "memory": "R = recibe."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-03",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          11,
+          11
+        ]
+      },
+      "ca": {
+        "term": "Contingut del missatge",
+        "hint": "Contingut que es transmet a una altra persona.",
+        "memory": "M = informació transmesa."
+      },
+      "es": {
+        "term": "Contenido del mensaje",
+        "hint": "Contenido que se transmite a otra persona.",
+        "memory": "M = información transmitida."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-04",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          13,
+          13
+        ]
+      },
+      "ca": {
+        "term": "Referent",
+        "hint": "Assumpte del qual tracta un missatge.",
+        "memory": "Referent = de què."
+      },
+      "es": {
+        "term": "Referente",
+        "hint": "Asunto del que trata un mensaje.",
+        "memory": "Referente = de qué."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-05",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          13,
+          13
+        ]
+      },
+      "ca": {
+        "term": "Context comunicatiu",
+        "hint": "Circumstàncies que ajuden a interpretar el contingut.",
+        "memory": "Context = entorn del missatge."
+      },
+      "es": {
+        "term": "Contexto comunicativo",
+        "hint": "Circunstancias que ayudan a interpretar el contenido.",
+        "memory": "Contexto = entorno del mensaje."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-06",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          14,
+          14
+        ]
+      },
+      "ca": {
+        "term": "Codi comunicatiu",
+        "hint": "Sistema compartit de signes i regles per construir i entendre missatges.",
+        "memory": "Codi = signes compartits."
+      },
+      "es": {
+        "term": "Código comunicativo",
+        "hint": "Sistema compartido de signos y reglas para construir y entender mensajes.",
+        "memory": "Código = signos compartidos."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-07",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          15,
+          15
+        ]
+      },
+      "ca": {
+        "term": "Canal comunicatiu",
+        "hint": "Mitjà físic o tecnològic per on circula el missatge.",
+        "memory": "Canal = camí."
+      },
+      "es": {
+        "term": "Canal comunicativo",
+        "hint": "Medio físico o tecnológico por el que circula el mensaje.",
+        "memory": "Canal = camino."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-08",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          19,
+          19
+        ]
+      },
+      "ca": {
+        "term": "Retroalimentació",
+        "hint": "Resposta que permet confirmar, preguntar o aclarir el missatge rebut.",
+        "memory": "Retro = resposta de tornada."
+      },
+      "es": {
+        "term": "Retroalimentación",
+        "hint": "Respuesta que permite confirmar, preguntar o aclarar el mensaje recibido.",
+        "memory": "Retro = respuesta de vuelta."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-09",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          20,
+          20
+        ]
+      },
+      "ca": {
+        "term": "Codificació",
+        "hint": "Transformació d’una idea en paraules, signes o altres recursos comunicables.",
+        "memory": "Codificar = preparar signes."
+      },
+      "es": {
+        "term": "Codificación",
+        "hint": "Transformación de una idea en palabras, signos u otros recursos comunicables.",
+        "memory": "Codificar = preparar signos."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-10",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          22,
+          22
+        ]
+      },
+      "ca": {
+        "term": "Descodificació",
+        "hint": "Interpretació del missatge rebut segons el codi i el context.",
+        "memory": "Des-codificar = interpretar."
+      },
+      "es": {
+        "term": "Decodificación",
+        "hint": "Interpretación del mensaje recibido según código y contexto.",
+        "memory": "Des-codificar = interpretar."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-11",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "term": "Parallenguatge",
+        "hint": "Característiques de la veu com to, volum, ritme i pauses.",
+        "memory": "Para = al costat de les paraules."
+      },
+      "es": {
+        "term": "Paralenguaje",
+        "hint": "Características de la voz como tono, volumen, ritmo y pausas.",
+        "memory": "Para = junto a las palabras."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-12",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          28,
+          28
+        ]
+      },
+      "ca": {
+        "term": "Cinèsica",
+        "hint": "Estudi dels gestos, postures i expressions corporals amb valor comunicatiu.",
+        "memory": "Cine = moviment."
+      },
+      "es": {
+        "term": "Cinésica",
+        "hint": "Estudio de gestos, posturas y expresiones corporales con valor comunicativo.",
+        "memory": "Cine = movimiento."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-13",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "term": "Emblema gestual",
+        "hint": "Gest amb significat convencional en un grup o cultura.",
+        "memory": "Emblema = gest pactat."
+      },
+      "es": {
+        "term": "Emblema gestual",
+        "hint": "Gesto con significado convencional en un grupo o cultura.",
+        "memory": "Emblema = gesto pactado."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-14",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "term": "Gest il·lustrador",
+        "hint": "Moviment corporal que acompanya o explica el que es diu.",
+        "memory": "Il·lustrar = mostrar el que dius."
+      },
+      "es": {
+        "term": "Gesto ilustrador",
+        "hint": "Movimiento corporal que acompaña o explica lo que se dice.",
+        "memory": "Ilustrar = mostrar lo que dices."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-15",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "term": "Gest regulador",
+        "hint": "Gest que organitza els torns de conversa.",
+        "memory": "Regulador = regula torns."
+      },
+      "es": {
+        "term": "Gesto regulador",
+        "hint": "Gesto que organiza turnos de conversación.",
+        "memory": "Regulador = regula turnos."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-16",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          30,
+          30
+        ]
+      },
+      "ca": {
+        "term": "Gest adaptador",
+        "hint": "Moviment corporal associat a l’autoregulació; no prova cap emoció concreta.",
+        "memory": "Adaptador = autoregulació, no diagnòstic."
+      },
+      "es": {
+        "term": "Gesto adaptador",
+        "hint": "Movimiento corporal de autorregulación; no prueba emociones concretas.",
+        "memory": "Adaptador = autorregulación, no diagnóstico."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-17",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          32,
+          32
+        ]
+      },
+      "ca": {
+        "term": "Proxèmica",
+        "hint": "Ús comunicatiu de la distància i de l’espai entre persones.",
+        "memory": "Proxi = proximitat."
+      },
+      "es": {
+        "term": "Proxémica",
+        "hint": "Uso comunicativo de la distancia y del espacio entre personas.",
+        "memory": "Proxi = proximidad."
+      }
+    },
+    {
+      "id": "dict:uf0520-c-18",
+      "kind": "dictionary",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          32,
+          32
+        ]
+      },
+      "ca": {
+        "term": "Cronèmica",
+        "hint": "Ús comunicatiu del temps, incloent espera, puntualitat i resposta.",
+        "memory": "Crono = temps."
+      },
+      "es": {
+        "term": "Cronémica",
+        "hint": "Uso comunicativo del tiempo, como espera, puntualidad y respuesta.",
+        "memory": "Crono = tiempo."
+      }
+    },
+    {
+      "id": "list:uf0520-l-fases:2",
+      "kind": "ordered-list",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          20,
+          23
+        ]
+      },
+      "ca": {
+        "term": "Emissió",
+        "hint": "Pas 2 de 6: Sis fases per estudiar la comunicació.",
+        "memory": "Co–E–T–R–De–Re."
+      },
+      "es": {
+        "term": "Emisión",
+        "hint": "Paso 2 de 6: Seis fases para estudiar la comunicación.",
+        "memory": "Co–E–T–R–De–Re."
+      }
+    },
+    {
+      "id": "list:uf0520-l-fases:3",
+      "kind": "ordered-list",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          20,
+          23
+        ]
+      },
+      "ca": {
+        "term": "Transmissió",
+        "hint": "Pas 3 de 6: Sis fases per estudiar la comunicació.",
+        "memory": "Co–E–T–R–De–Re."
+      },
+      "es": {
+        "term": "Transmisión",
+        "hint": "Paso 3 de 6: Seis fases para estudiar la comunicación.",
+        "memory": "Co–E–T–R–De–Re."
+      }
+    },
+    {
+      "id": "list:uf0520-l-fases:4",
+      "kind": "ordered-list",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          20,
+          23
+        ]
+      },
+      "ca": {
+        "term": "Recepció",
+        "hint": "Pas 4 de 6: Sis fases per estudiar la comunicació.",
+        "memory": "Co–E–T–R–De–Re."
+      },
+      "es": {
+        "term": "Recepción",
+        "hint": "Paso 4 de 6: Seis fases para estudiar la comunicación.",
+        "memory": "Co–E–T–R–De–Re."
+      }
+    },
+    {
+      "id": "list:uf0520-l-avis:1",
+      "kind": "ordered-list",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          38,
+          40
+        ]
+      },
+      "ca": {
+        "term": "Definir objectiu i destinatari",
+        "hint": "Pas 1 de 6: Preparació d’un avís clar.",
+        "memory": "Objectiu → dades → ordre → acció → revisió."
+      },
+      "es": {
+        "term": "Definir objetivo y destinatario",
+        "hint": "Paso 1 de 6: Preparación de un aviso claro.",
+        "memory": "Objetivo → datos → orden → acción → revisión."
+      }
+    },
+    {
+      "id": "list:uf0520-l-avis:2",
+      "kind": "ordered-list",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          38,
+          40
+        ]
+      },
+      "ca": {
+        "term": "Seleccionar dades pertinents i verificades",
+        "hint": "Pas 2 de 6: Preparació d’un avís clar.",
+        "memory": "Objectiu → dades → ordre → acció → revisió."
+      },
+      "es": {
+        "term": "Seleccionar datos pertinentes y verificados",
+        "hint": "Paso 2 de 6: Preparación de un aviso claro.",
+        "memory": "Objetivo → datos → orden → acción → revisión."
+      }
+    },
+    {
+      "id": "list:uf0520-l-avis:3",
+      "kind": "ordered-list",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          38,
+          40
+        ]
+      },
+      "ca": {
+        "term": "Ordenar assumpte i context inicial",
+        "hint": "Pas 3 de 6: Preparació d’un avís clar.",
+        "memory": "Objectiu → dades → ordre → acció → revisió."
+      },
+      "es": {
+        "term": "Ordenar asunto y contexto inicial",
+        "hint": "Paso 3 de 6: Preparación de un aviso claro.",
+        "memory": "Objetivo → datos → orden → acción → revisión."
+      }
+    },
+    {
+      "id": "list:uf0520-l-avis:4",
+      "kind": "ordered-list",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          38,
+          40
+        ]
+      },
+      "ca": {
+        "term": "Exposar dades i canvi",
+        "hint": "Pas 4 de 6: Preparació d’un avís clar.",
+        "memory": "Objectiu → dades → ordre → acció → revisió."
+      },
+      "es": {
+        "term": "Exponer datos y cambio",
+        "hint": "Paso 4 de 6: Preparación de un aviso claro.",
+        "memory": "Objetivo → datos → orden → acción → revisión."
+      }
+    },
+    {
+      "id": "list:uf0520-l-avis:5",
+      "kind": "ordered-list",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          38,
+          40
+        ]
+      },
+      "ca": {
+        "term": "Tancar amb acció, termini i confirmació",
+        "hint": "Pas 5 de 6: Preparació d’un avís clar.",
+        "memory": "Objectiu → dades → ordre → acció → revisió."
+      },
+      "es": {
+        "term": "Cerrar con acción, plazo y confirmación",
+        "hint": "Paso 5 de 6: Preparación de un aviso claro.",
+        "memory": "Objetivo → datos → orden → acción → revisión."
+      }
+    },
+    {
+      "id": "list:uf0520-l-avis:6",
+      "kind": "ordered-list",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          38,
+          40
+        ]
+      },
+      "ca": {
+        "term": "Revisar claredat i exactitud",
+        "hint": "Pas 6 de 6: Preparació d’un avís clar.",
+        "memory": "Objectiu → dades → ordre → acció → revisió."
+      },
+      "es": {
+        "term": "Revisar claridad y exactitud",
+        "hint": "Paso 6 de 6: Preparación de un aviso claro.",
+        "memory": "Objetivo → datos → orden → acción → revisión."
       }
     }
   ]

@@ -344,6 +344,19 @@
       "translationFile": "data/i18n/es/uf0519-unitat-3-bloc-2.json",
       "memoryAidFile": "data/memory/uf0519-unitat-3-bloc-2.json",
       "hardDistractorFile": "data/hard/uf0519-unitat-3-bloc-2.json"
+    },
+    {
+      "id": "uf0520-unitat-1-bloc-1",
+      "unitId": "uf0520-unitat-1",
+      "unitTitle": "Comunicació en entorns laborals · UF0520 / MF0970_1 · Unitat 1",
+      "unitTitleEs": "Comunicación en entornos laborales · UF0520 / MF0970_1 · Unidad 1",
+      "blockNumber": 1,
+      "title": "La comunicació com a procés (apartat 1.1)",
+      "titleEs": "La comunicación como proceso (apartado 1.1)",
+      "file": "data/uf0520_unitat_1_bloc_1.json",
+      "translationFile": "data/i18n/es/uf0520-unitat-1-bloc-1.json",
+      "memoryAidFile": "data/memory/uf0520-unitat-1-bloc-1.json",
+      "hardDistractorFile": "data/hard/uf0520-unitat-1-bloc-1.json"
     }
   ]
 }

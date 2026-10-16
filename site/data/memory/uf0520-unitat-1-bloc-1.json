@@ -1,0 +1,165 @@
+{
+  "blockId": "uf0520-unitat-1-bloc-1",
+  "questions": {
+    "uf0520-u1b1-001": {
+      "type": "idea",
+      "ca": "Enviar no és entendre: verifica.",
+      "es": "Enviar no es entender: verifica."
+    },
+    "uf0520-u1b1-002": {
+      "type": "idea",
+      "ca": "Visita: qui, què, on i a qui.",
+      "es": "Visita: quién, qué, dónde y a quién."
+    },
+    "uf0520-u1b1-003": {
+      "type": "idea",
+      "ca": "Tasca = què fem; relació = com ens tractem.",
+      "es": "Tarea = qué hacemos; relación = cómo nos tratamos."
+    },
+    "uf0520-u1b1-004": {
+      "type": "idea",
+      "ca": "Apel·lar = demanar una acció.",
+      "es": "Apelar = pedir una acción."
+    },
+    "uf0520-u1b1-005": {
+      "type": "idea",
+      "ca": "Expressiva = expressar emoció.",
+      "es": "Expresiva = expresar emoción."
+    },
+    "uf0520-u1b1-006": {
+      "type": "idea",
+      "ca": "Referencial = referir fets.",
+      "es": "Referencial = referir hechos."
+    },
+    "uf0520-u1b1-007": {
+      "type": "idea",
+      "ca": "Fàtica = fil del contacte.",
+      "es": "Fática = hilo del contacto."
+    },
+    "uf0520-u1b1-008": {
+      "type": "idea",
+      "ca": "Meta = parlar de les paraules.",
+      "es": "Meta = hablar de las palabras."
+    },
+    "uf0520-u1b1-009": {
+      "type": "idea",
+      "ca": "Poètica = forma memorable.",
+      "es": "Poética = forma memorable."
+    },
+    "uf0520-u1b1-010": {
+      "type": "idea",
+      "ca": "Canal = camí del missatge.",
+      "es": "Canal = camino del mensaje."
+    },
+    "uf0520-u1b1-011": {
+      "type": "idea",
+      "ca": "Qui escolta pot parlar: els papers giren.",
+      "es": "Quien escucha puede hablar: los papeles giran."
+    },
+    "uf0520-u1b1-012": {
+      "type": "idea",
+      "ca": "Referent = de què parlem.",
+      "es": "Referente = de qué hablamos."
+    },
+    "uf0520-u1b1-013": {
+      "type": "idea",
+      "ca": "Codi comú, missatge entenedor.",
+      "es": "Código común, mensaje comprensible."
+    },
+    "uf0520-u1b1-014": {
+      "type": "idea",
+      "ca": "Urgència: trucada; constància: correu.",
+      "es": "Urgencia: llamada; constancia: correo."
+    },
+    "uf0520-u1b1-015": {
+      "type": "idea",
+      "ca": "Luis → comanda 218 → accés confirmat.",
+      "es": "Luis → pedido 218 → acceso confirmado."
+    },
+    "uf0520-u1b1-016": {
+      "type": "idea",
+      "ca": "Informació = què; comunicació = com arriba i s’entén.",
+      "es": "Información = qué; comunicación = cómo llega y se entiende."
+    },
+    "uf0520-u1b1-017": {
+      "type": "idea",
+      "ca": "Repeteix dades clau, no només «d’acord».",
+      "es": "Repite datos clave, no solo «vale»."
+    },
+    "uf0520-u1b1-018": {
+      "type": "idea",
+      "ca": "Co–E–T–R–De–Re: preparar, enviar, circular, rebre, interpretar, respondre.",
+      "es": "Co–E–T–R–De–Re: preparar, enviar, circular, recibir, interpretar, responder."
+    },
+    "uf0520-u1b1-019": {
+      "type": "idea",
+      "ca": "Rebre ≠ comprendre.",
+      "es": "Recibir ≠ comprender."
+    },
+    "uf0520-u1b1-020": {
+      "type": "idea",
+      "ca": "Para-verbal = com sona la veu.",
+      "es": "Para-verbal = cómo suena la voz."
+    },
+    "uf0520-u1b1-021": {
+      "type": "idea",
+      "ca": "Un gest no és una prova psicològica.",
+      "es": "Un gesto no es prueba psicológica."
+    },
+    "uf0520-u1b1-022": {
+      "type": "idea",
+      "ca": "Regulador = regula torns.",
+      "es": "Regulador = regula turnos."
+    },
+    "uf0520-u1b1-023": {
+      "type": "idea",
+      "ca": "Adaptador = moviment d’autoregulació; no diagnòstic.",
+      "es": "Adaptador = movimiento de autorregulación; no diagnóstico."
+    },
+    "uf0520-u1b1-024": {
+      "type": "idea",
+      "ca": "Proxi = proximitat; crono = rellotge.",
+      "es": "Proxi = proximidad; crono = reloj."
+    },
+    "uf0520-u1b1-025": {
+      "type": "idea",
+      "ca": "Escoltar = paraules i conducta coherents.",
+      "es": "Escuchar = palabras y conducta coherentes."
+    },
+    "uf0520-u1b1-026": {
+      "type": "idea",
+      "ca": "Sentit ≠ tipus de llenguatge.",
+      "es": "Sentido ≠ tipo de lenguaje."
+    },
+    "uf0520-u1b1-027": {
+      "type": "idea",
+      "ca": "Soroll = repeteix i verifica.",
+      "es": "Ruido = repite y verifica."
+    },
+    "uf0520-u1b1-028": {
+      "type": "idea",
+      "ca": "Accessibilitat = preguntar, no pressuposar.",
+      "es": "Accesibilidad = preguntar, no suponer."
+    },
+    "uf0520-u1b1-029": {
+      "type": "idea",
+      "ca": "Confirmat separat de pendent.",
+      "es": "Confirmado separado de pendiente."
+    },
+    "uf0520-u1b1-030": {
+      "type": "idea",
+      "ca": "Inici → dades → acció/termini.",
+      "es": "Inicio → datos → acción/plazo."
+    },
+    "uf0520-u1b1-031": {
+      "type": "idea",
+      "ca": "Resum curt, però condicions completes.",
+      "es": "Resumen corto, pero condiciones completas."
+    },
+    "uf0520-u1b1-032": {
+      "type": "idea",
+      "ca": "Canvi d’horari = nou horari + cita afectada + acció.",
+      "es": "Cambio de horario = nuevo horario + cita afectada + acción."
+    }
+  }
+}

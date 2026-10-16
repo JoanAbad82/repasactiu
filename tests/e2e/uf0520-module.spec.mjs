@@ -1,0 +1,31 @@
+import {test,expect} from '@playwright/test';
+const id='uf0520-unitat-1-bloc-1';
+test('UF0520 és un mòdul propi, amb 32 preguntes en català i castellà',async({page})=>{
+ await page.goto('/');
+ const card=page.locator('[data-block-card][data-selection="'+id+'"]');
+ await expect(card).toBeVisible();
+ await expect(card).toContainText('32 preguntes');
+ await expect(page.locator('[data-unit-group="uf0520-unitat-1"]')).toContainText('Comunicació en entorns laborals');
+ await card.click();
+ await page.locator('#start-quiz').click();
+ await expect(page.locator('.question-card')).toBeVisible();
+ await expect(page.locator('[data-answer-option]')).toHaveCount(4);
+ await page.locator('#language-es').click();
+ await expect(page.locator('html')).toHaveAttribute('lang','es');
+ await expect(page.locator('.question-card')).toBeVisible();
+});
+test('UF0520 visible al diccionari, targetes, llistes i penjat',async({page})=>{
+ await page.goto('/');
+ await page.locator('#home-shortcut-dictionary').click();
+ await page.locator('[data-dictionary-filter]').selectOption(id);
+ await expect(page.locator('[data-concept-id]')).toHaveCount(18);
+ await page.locator('[data-dictionary-mode="lists"]').click();
+ await expect(page.locator('[data-key-list-id]')).toHaveCount(4);
+ await page.locator('[data-dictionary-action="home"]').click();
+ await page.locator('#home-shortcut-study').click();
+ await expect(page.locator('[data-study-block="'+id+'"] [data-study-count]')).toHaveText('38');
+ await page.locator('#home-link').click();
+ await page.locator('#hangman-card').click();
+ await page.locator('[data-hangman-filter]').selectOption(id);
+ await expect(page.locator('.hangman-summary')).toContainText('27 conceptes disponibles');
+});

@@ -5,12 +5,12 @@ for(const width of widths){
   test("Visual sobri "+width+"px "+theme+": icones, marcs, llegibilitat i sense desbordament",async({page})=>{
    await page.setViewportSize({width,height:900});
    await page.goto("/");
-   await expect(page.getByText("1075 preguntes")).toBeVisible();
+   await expect(page.getByText("1107 preguntes")).toBeVisible();
    if(theme==="dark")await page.locator("#theme-toggle").click();
    await expect(page.locator("html")).toHaveAttribute("data-theme",theme);
    await expect(page.locator("#home-screen .tool-motif svg")).toHaveCount(4);
-   await expect(page.locator("#home-screen .block-file-icon svg")).toHaveCount(19);
-   await expect(page.locator("#home-screen .unit-group")).toHaveCount(6);
+   await expect(page.locator("#home-screen .block-file-icon svg")).toHaveCount(20);
+   await expect(page.locator("#home-screen .unit-group")).toHaveCount(7);
    await expect(page.locator("#home-screen #course-title")).toBeVisible();
    const visible=await page.evaluate(()=>{
     const doc=document.documentElement;
@@ -39,7 +39,7 @@ test("decoració sense alterar la semàntica ni fer peticions externes",async({p
  const requests=[];
  page.on("request",r=>requests.push(r.url()));
  await page.goto("/");
- await expect(page.getByText("1075 preguntes")).toBeVisible();
+ await expect(page.getByText("1107 preguntes")).toBeVisible();
  const origin=new URL(page.url()).origin;
  // Cloudflare Web Analytics és preexistent a producció, no forma part de la decoració.
  const existingAnalytics=new Set(["static.cloudflareinsights.com","cloudflareinsights.com"]);

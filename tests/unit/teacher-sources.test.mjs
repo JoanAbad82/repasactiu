@@ -5,12 +5,13 @@ import {readFile} from 'node:fs/promises';
 const readJson=async rel=>JSON.parse(await readFile(new URL('../../'+rel,import.meta.url),'utf8'));
 
 test('les 11 fonts validades per la professora es preserven i les fonts suplementàries queden declarades',async()=>{
-  const [canonical,uf0517,uf0518,uf0519,uf0519u3,studyTrace,extra]=await Promise.all([
+  const [canonical,uf0517,uf0518,uf0519,uf0519u3,uf0520,studyTrace,extra]=await Promise.all([
     readJson('docs/content/TEACHER_VALIDATED_SOURCES_2026-09-24.json'),
     readJson('docs/content/UF0517_SOURCE_TRACEABILITY.json'),
     readJson('docs/content/UF0518_SOURCE_TRACEABILITY.json'),
     readJson('docs/content/UF0519_SOURCE_TRACEABILITY.json'),
     readJson('docs/content/UF0519_U3_SOURCE_TRACEABILITY.json'),
+    readJson('docs/content/UF0520_SOURCE_TRACEABILITY.json'),
     readJson('site/data/study-cards-traceability-v2.json'),
     readJson('site/data/study-cards-extra.json')
   ]);
@@ -21,7 +22,7 @@ test('les 11 fonts validades per la professora es preserven i les fonts suplemen
   assert.equal(new Set(canonical.files.map(x=>x.sha256)).size,11);
 
   const expected=Object.fromEntries(canonical.files.map(x=>[x.sourceId,{file:x.file,pages:x.pages}]));
-  const combined={...uf0517.sources,...uf0518.sources,...uf0519.sources,...Object.fromEntries(Object.entries(uf0519u3.sources).map(([id,source])=>[id,{file:source.file,pages:source.pages}]))};
+  const combined={...uf0517.sources,...uf0518.sources,...uf0519.sources,...Object.fromEntries(Object.entries(uf0520.sources).map(([id,src])=>[id,{file:src.file,pages:src.pages}])),...Object.fromEntries(Object.entries(uf0519u3.sources).map(([id,source])=>[id,{file:source.file,pages:source.pages}]))};
   for(const [id,source] of Object.entries(expected)){
     assert.deepEqual(combined[id],source,id);
     assert.deepEqual(studyTrace.sources[id],source,'study trace '+id);
