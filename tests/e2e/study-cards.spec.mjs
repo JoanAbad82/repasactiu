@@ -1,18 +1,18 @@
 import {test,expect} from '@playwright/test';
 
-test('Tarjetas de memoria mostra selector bilingüe amb 1165 targetes',async({page})=>{
+test('Tarjetas de memoria mostra selector bilingüe amb 1203 targetes',async({page})=>{
   await page.goto('/');
   await page.locator('#home-shortcut-study').click();
   await expect(page.locator('html')).toHaveAttribute('lang','ca');
   await expect(page.getByRole('heading',{name:'Targetes de memòria'})).toBeVisible();
-  await expect(page.getByText('1165 targetes disponibles')).toBeVisible();
-  await expect(page.locator('[data-study-block]')).toHaveCount(19);
+  await expect(page.getByText('1203 targetes disponibles')).toBeVisible();
+  await expect(page.locator('[data-study-block]')).toHaveCount(20);
   await expect(page.locator('[data-study-unit="unitat-1"] h2')).toHaveText('Unitat 1 — Organització empresarial');
 
   await page.locator('#language-es').click();
   await expect(page.locator('html')).toHaveAttribute('lang','es');
   await expect(page.getByRole('heading',{name:'Tarjetas de memoria'})).toBeVisible();
-  await expect(page.getByText('1165 tarjetas disponibles')).toBeVisible();
+  await expect(page.getByText('1203 tarjetas disponibles')).toBeVisible();
   await expect(page.locator('[data-study-unit="unitat-1"] h2')).toHaveText('Unidad 1 — Organización empresarial');
 });
 
@@ -30,14 +30,14 @@ test('els recomptes per bloc inclouen test + extra',async({page})=>{
   }
 });
 
-test('Tot el temari selecciona 1165 targetes i inicia una baralla mixta',async({page})=>{
+test('Tot el temari selecciona 1203 targetes i inicia una baralla mixta',async({page})=>{
   await page.goto('/');
   await page.locator('#home-shortcut-study').click();
   await page.getByRole('button',{name:'Tot el temari'}).click();
-  await expect(page.locator('#study-selected-count')).toHaveText('1165');
+  await expect(page.locator('#study-selected-count')).toHaveText('1203');
   await page.getByRole('button',{name:'Començar repàs'}).click();
   await expect(page.locator('[data-study-card]')).toHaveCount(1);
-  await expect(page.locator('#study-card-progress')).toHaveText('1 / 1165');
+  await expect(page.locator('#study-card-progress')).toHaveText('1 / 1203');
   await expect(page.getByRole('button',{name:'Barrejar'})).toBeVisible();
 });
 

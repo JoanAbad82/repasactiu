@@ -1,0 +1,389 @@
+{
+  "blockId": "uf0520-unitat-1-bloc-1",
+  "questions": {
+    "uf0520-u1b1-001": {
+      "ca": [
+        "Donar per comprès el missatge quan consta com a enviat",
+        "Repetir les mateixes paraules amb més volum",
+        "Delegar en el mitjà la verificació de l’ordre"
+      ],
+      "es": [
+        "Dar por comprendido el mensaje al constar como enviado",
+        "Repetir las mismas palabras con más volumen",
+        "Delegar en el medio la verificación de la orden"
+      ]
+    },
+    "uf0520-u1b1-002": {
+      "ca": [
+        "La identitat de la visita sense el motiu ni el destinatari",
+        "El motiu de la visita sense dir on espera",
+        "L’horari del departament sense la persona que arriba"
+      ],
+      "es": [
+        "La identidad de la visita sin el motivo ni el destinatario",
+        "El motivo de la visita sin indicar dónde espera",
+        "El horario del departamento sin identificar a quien llega"
+      ]
+    },
+    "uf0520-u1b1-003": {
+      "ca": [
+        "El nivell de relació indica la quantitat de feina",
+        "El nivell de tasca mesura el grau de confiança",
+        "Només hi ha nivell de relació en converses informals"
+      ],
+      "es": [
+        "El nivel de relación indica la cantidad de trabajo",
+        "El nivel de tarea mide el grado de confianza",
+        "Solo hay nivel de relación en conversaciones informales"
+      ]
+    },
+    "uf0520-u1b1-004": {
+      "ca": [
+        "Fàtica perquè el canal és un correu",
+        "Referencial perquè esmenta la comanda",
+        "Emotiva perquè la confirmació pot tranquil·litzar"
+      ],
+      "es": [
+        "Fática porque el canal es un correo",
+        "Referencial porque menciona el pedido",
+        "Emotiva porque confirmar puede tranquilizar"
+      ]
+    },
+    "uf0520-u1b1-005": {
+      "ca": [
+        "Apel·lativa perquè parla d’un problema laboral",
+        "Metalingüística perquè explica un terme",
+        "Referencial perquè informa del sentiment sense expressar-lo"
+      ],
+      "es": [
+        "Apelativa porque habla de un problema laboral",
+        "Metalingüística porque explica un término",
+        "Referencial porque informa del sentimiento sin expresarlo"
+      ]
+    },
+    "uf0520-u1b1-006": {
+      "ca": [
+        "Apel·lativa perquè assenyala un dia futur",
+        "Fàtica perquè s’adreça a una altra persona",
+        "Metalingüística perquè conté la paraula comanda"
+      ],
+      "es": [
+        "Apelativa porque señala un día futuro",
+        "Fática porque se dirige a otra persona",
+        "Metalingüística porque contiene la palabra pedido"
+      ]
+    },
+    "uf0520-u1b1-007": {
+      "ca": [
+        "Apel·lativa perquè apareix una pregunta",
+        "Emotiva perquè el to pot ser cordial",
+        "Referencial perquè comprova un fet sense contactar"
+      ],
+      "es": [
+        "Apelativa porque aparece una pregunta",
+        "Emotiva porque el tono puede ser cordial",
+        "Referencial porque comprueba un dato sin establecer contacto"
+      ]
+    },
+    "uf0520-u1b1-008": {
+      "ca": [
+        "Referencial perquè esmenta un arxiu",
+        "Apel·lativa perquè apareix en un correu laboral",
+        "Fàtica perquè facilita continuar escrivint"
+      ],
+      "es": [
+        "Referencial porque menciona un archivo",
+        "Apelativa porque aparece en un correo laboral",
+        "Fática porque facilita continuar escribiendo"
+      ]
+    },
+    "uf0520-u1b1-009": {
+      "ca": [
+        "Apel·lativa perquè sempre conté una ordre",
+        "Expressiva perquè descriu sentiments del receptor",
+        "Metalingüística perquè parla del temps"
+      ],
+      "es": [
+        "Apelativa porque siempre contiene una orden",
+        "Expresiva porque describe sentimientos del receptor",
+        "Metalingüística porque habla del tiempo"
+      ]
+    },
+    "uf0520-u1b1-010": {
+      "ca": [
+        "El context que ajuda a interpretar el contingut",
+        "La retroalimentació de la persona destinatària",
+        "El codi compartit entre els interlocutors"
+      ],
+      "es": [
+        "El contexto que ayuda a interpretar el contenido",
+        "La retroalimentación del destinatario",
+        "El código compartido entre interlocutores"
+      ]
+    },
+    "uf0520-u1b1-011": {
+      "ca": [
+        "L’emissor inicial conserva aquesta funció durant tota la visita",
+        "El receptor interpreta el missatge sense convertir-se en emissor quan respon",
+        "Els papers només canvien quan canvia el canal"
+      ],
+      "es": [
+        "El emisor inicial conserva esa función durante toda la visita",
+        "El receptor interpreta el mensaje sin convertirse en emisor al responder",
+        "Los papeles solo cambian cuando cambia el canal"
+      ]
+    },
+    "uf0520-u1b1-012": {
+      "ca": [
+        "El lloc de treball de la persona emissora",
+        "Les circumstàncies compartides que envolten la frase",
+        "El codi de signes emprat per comunicar"
+      ],
+      "es": [
+        "El lugar de trabajo del emisor",
+        "Las circunstancias compartidas que rodean la frase",
+        "El código de signos empleado para comunicar"
+      ]
+    },
+    "uf0520-u1b1-013": {
+      "ca": [
+        "Confiar que el canal digital ja defineix les sigles",
+        "Prescindir del context perquè tots fan servir un codi",
+        "Mantenir la sigla i augmentar-ne la mida"
+      ],
+      "es": [
+        "Confiar en que el canal digital ya define las siglas",
+        "Prescindir del contexto porque todos usan un código",
+        "Mantener la sigla y aumentar su tamaño"
+      ]
+    },
+    "uf0520-u1b1-014": {
+      "ca": [
+        "Fer servir el correu sense comprovar cap resposta malgrat la urgència",
+        "Trucar i considerar arxivat l’acord sense documentar-lo",
+        "Publicar un missatge general sense identificar els afectats"
+      ],
+      "es": [
+        "Usar el correo sin comprobar respuesta pese a la urgencia",
+        "Llamar y dar por archivado el acuerdo sin documentarlo",
+        "Publicar un mensaje general sin identificar a los afectados"
+      ]
+    },
+    "uf0520-u1b1-015": {
+      "ca": [
+        "Indicar una porta sense verificar de quina comanda es tracta",
+        "Demanar el número sense explicar l’accés correcte",
+        "Respondre només que truqui un altre dia"
+      ],
+      "es": [
+        "Indicar una puerta sin verificar de qué pedido se trata",
+        "Pedir el número sin explicar el acceso correcto",
+        "Responder solo que llame otro día"
+      ]
+    },
+    "uf0520-u1b1-016": {
+      "ca": [
+        "La informació és un canal i la comunicació el document",
+        "Una resposta immediata és necessària per considerar comunicatiu un avís",
+        "Els missatges visuals només informen, però no comuniquen"
+      ],
+      "es": [
+        "La información es un canal y la comunicación el documento",
+        "Una respuesta inmediata es necesaria para que un aviso comunique",
+        "Los mensajes visuales solo informan, pero no comunican"
+      ]
+    },
+    "uf0520-u1b1-017": {
+      "ca": [
+        "Confirmar només la recepció del correu sense el contingut",
+        "Respondre que es farà quan sigui possible sense concretar",
+        "Repetir una única dada ometent el termini i el lloc"
+      ],
+      "es": [
+        "Confirmar solo la recepción del correo sin su contenido",
+        "Responder que se hará cuando sea posible sin concretar",
+        "Repetir una única parte del dato y omitir el plazo y el lugar"
+      ]
+    },
+    "uf0520-u1b1-018": {
+      "ca": [
+        "La recepció es produeix abans de transmetre el missatge",
+        "La descodificació és preparar les paraules del remitent",
+        "La retroalimentació precedeix la codificació del primer missatge"
+      ],
+      "es": [
+        "La recepción ocurre antes de transmitir el mensaje",
+        "La decodificación consiste en preparar las palabras del remitente",
+        "La retroalimentación precede a la codificación del primer mensaje"
+      ]
+    },
+    "uf0520-u1b1-019": {
+      "ca": [
+        "La fase de transmissió garanteix el sentit complet de divendres",
+        "La lectura elimina la necessitat de comprovar la data",
+        "La descodificació es limita a obrir un missatge digital"
+      ],
+      "es": [
+        "La transmisión garantiza el significado completo del viernes",
+        "La lectura elimina la necesidad de comprobar la fecha",
+        "La decodificación se limita a abrir un mensaje digital"
+      ]
+    },
+    "uf0520-u1b1-020": {
+      "ca": [
+        "L’elecció de paraules tècniques en un document",
+        "El gest amb què s’assenyala una porta",
+        "La puntualitat amb què es respon una visita"
+      ],
+      "es": [
+        "La elección de palabras técnicas de un documento",
+        "El gesto con el que se señala una puerta",
+        "La puntualidad al responder a una visita"
+      ]
+    },
+    "uf0520-u1b1-021": {
+      "ca": [
+        "La mirada per si sola confirma el grau d’honestedat",
+        "Una expressió corporal concreta té el mateix significat universal",
+        "És vàlid interpretar el gest sense conèixer les circumstàncies"
+      ],
+      "es": [
+        "La mirada por sí sola confirma la honestidad",
+        "Una expresión corporal tiene el mismo significado universal",
+        "Es válido interpretar el gesto sin conocer las circunstancias"
+      ]
+    },
+    "uf0520-u1b1-022": {
+      "ca": [
+        "Il·lustrador perquè acompanya una frase explicativa",
+        "Adaptador perquè descarrega tensió amb un objecte",
+        "Emblema perquè substitueix una salutació convencionada"
+      ],
+      "es": [
+        "Ilustrador porque acompaña una frase explicativa",
+        "Adaptador porque descarga tensión con un objeto",
+        "Emblema porque sustituye un saludo convencional"
+      ]
+    },
+    "uf0520-u1b1-023": {
+      "ca": [
+        "Regulador perquè es repeteix durant una conversa",
+        "Emblema perquè mou un objecte visible",
+        "Il·lustrador perquè substitueix les paraules de la visita"
+      ],
+      "es": [
+        "Regulador porque se repite durante una conversación",
+        "Emblema porque mueve un objeto visible",
+        "Ilustrador porque sustituye las palabras de la visita"
+      ]
+    },
+    "uf0520-u1b1-024": {
+      "ca": [
+        "Proxèmica com a gest i cronèmica com a vocabulari",
+        "Proxèmica com a velocitat vocal i cronèmica com a contacte",
+        "Proxèmica com a destinatari i cronèmica com a codi"
+      ],
+      "es": [
+        "Proxémica como gesto y cronémica como vocabulario",
+        "Proxémica como velocidad vocal y cronémica como contacto",
+        "Proxémica como destinatario y cronémica como código"
+      ]
+    },
+    "uf0520-u1b1-025": {
+      "ca": [
+        "Respondre abans que acabi perquè es dona una resposta ràpida",
+        "Assumir que la manca de mirada prova desinterès mutu",
+        "Mantenir l’ús del telèfon i compensar-ho parlant més alt"
+      ],
+      "es": [
+        "Responder antes de terminar para dar respuesta rápida",
+        "Suponer que la falta de mirada prueba desinterés mutuo",
+        "Mantener el móvil y compensarlo hablando más alto"
+      ]
+    },
+    "uf0520-u1b1-026": {
+      "ca": [
+        "Un canal visual exclou la presència de paraules escrites",
+        "Un so d’alarma és interpretat com una ordre formulada amb paraules",
+        "El braille és només un gest sense signes lingüístics"
+      ],
+      "es": [
+        "Un canal visual excluye palabras escritas",
+        "Un sonido de alarma se interpreta como una orden formulada con palabras",
+        "El braille es solo un gesto sin signos lingüísticos"
+      ]
+    },
+    "uf0520-u1b1-027": {
+      "ca": [
+        "Confiar en la paraula que s’ha sentit parcialment",
+        "Confirmar la data sense haver-ne rebut tots els dígits",
+        "Augmentar només el volum en lloc de demanar la repetició"
+      ],
+      "es": [
+        "Confiar en la palabra oída parcialmente",
+        "Confirmar la fecha sin haber oído todos los dígitos",
+        "Aumentar solo el volumen en vez de pedir repetición"
+      ]
+    },
+    "uf0520-u1b1-028": {
+      "ca": [
+        "Imposar la mateixa via de lectura per a totes les persones",
+        "Considerar la via tàctil obligatòria per a qualsevol consulta",
+        "Suprimir alternatives quan hi ha documents en braille"
+      ],
+      "es": [
+        "Imponer la misma vía de lectura a todas las personas",
+        "Considerar obligatoria la vía táctil en toda consulta",
+        "Suprimir alternativas cuando hay documentos en braille"
+      ]
+    },
+    "uf0520-u1b1-029": {
+      "ca": [
+        "Fusionar estimacions i dates verificades en una sola afirmació",
+        "Afegir dades accessòries per compensar la manca de confirmació",
+        "Ocultar qualsevol dubte per presentar un missatge breu"
+      ],
+      "es": [
+        "Fusionar estimaciones y fechas verificadas en una sola afirmación",
+        "Añadir datos accesorios para compensar la falta de confirmación",
+        "Ocultar las dudas para presentar un mensaje breve"
+      ]
+    },
+    "uf0520-u1b1-030": {
+      "ca": [
+        "Afegir l’acció però ometre el context i el termini",
+        "Desenvolupar els detalls sense identificar el destinatari",
+        "Tancar amb un comiat sense indicar cap actuació necessària"
+      ],
+      "es": [
+        "Añadir la acción pero omitir contexto y plazo",
+        "Desarrollar detalles sin identificar destinatario",
+        "Cerrar con despedida sin indicar actuación necesaria"
+      ]
+    },
+    "uf0520-u1b1-031": {
+      "ca": [
+        "Conservar la idea general encara que es perdin excepcions",
+        "Mantenir noms i quantitats però oblidar els terminis",
+        "Redactar abans de llegir el document complet"
+      ],
+      "es": [
+        "Conservar la idea general aunque se pierdan excepciones",
+        "Mantener nombres y cantidades pero omitir plazos",
+        "Redactar antes de leer el documento completo"
+      ]
+    },
+    "uf0520-u1b1-032": {
+      "ca": [
+        "Anunciar el nou horari sense indicar què han de fer les cites afectades",
+        "Modificar unilateralment les cites sense consultar recepció",
+        "Difondre l’avís sense especificar la data del canvi"
+      ],
+      "es": [
+        "Anunciar horario nuevo sin explicar qué hacer a las citas afectadas",
+        "Modificar citas unilateralmente sin consultar recepción",
+        "Difundir el aviso sin indicar la fecha del cambio"
+      ]
+    }
+  }
+}

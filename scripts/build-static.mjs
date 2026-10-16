@@ -69,19 +69,19 @@ if(!Array.isArray(semantic.changes)||semantic.changes.length!==84){
 if(traceability.version!==2||!traceability.topicRanges||!traceability.questionRanges){
   throw new Error('Build validation failed: traceability v2 is invalid.');
 }
-if(dictionary.version!==1||dictionary.count!==156||!Array.isArray(dictionary.entries)||dictionary.entries.length!==156){
+if(dictionary.version!==1||dictionary.count!==174||!Array.isArray(dictionary.entries)||dictionary.entries.length!==174){
   throw new Error('Build validation failed: concept dictionary v1 is invalid.');
 }
-if(!Array.isArray(dictionary.families)||dictionary.families.length!==18||dictionary.families.flatMap(family=>family.entryIds||[]).length!==156){
+if(!Array.isArray(dictionary.families)||dictionary.families.length!==19||dictionary.families.flatMap(family=>family.entryIds||[]).length!==174){
   throw new Error('Build validation failed: concept dictionary families are invalid.');
 }
-if(hangman.version!=='2.0'||hangman.count<300||!Array.isArray(hangman.entries)||hangman.entries.length!==hangman.count||!Array.isArray(hangman.groups)||hangman.groups.length!==19){
+if(hangman.version!=='2.0'||hangman.count<300||!Array.isArray(hangman.entries)||hangman.entries.length!==hangman.count||!Array.isArray(hangman.groups)||hangman.groups.length!==20){
   throw new Error('Build validation failed: full-course hangman bank is invalid.');
 }
-if(keyLists.version!==1||keyLists.count!==89||!Array.isArray(keyLists.entries)||keyLists.entries.length!==89){
+if(keyLists.version!==1||keyLists.count!==93||!Array.isArray(keyLists.entries)||keyLists.entries.length!==93){
   throw new Error('Build validation failed: key-list bank is invalid.');
 }
-if(!Array.isArray(keyLists.families)||keyLists.families.length!==12||keyLists.families.flatMap(family=>family.entryIds||[]).length!==89){
+if(!Array.isArray(keyLists.families)||keyLists.families.length!==13||keyLists.families.flatMap(family=>family.entryIds||[]).length!==93){
   throw new Error('Build validation failed: key-list families are invalid.');
 }
 if(correspondence.version!==1||!Array.isArray(correspondence.structure)||correspondence.structure.length!==10||!Array.isArray(correspondence.models)||correspondence.models.length!==8){
@@ -104,4 +104,4 @@ for(const lang of ['ca','es']){
     throw new Error(`Build validation failed: commercial abbreviations for ${lang} must contain 20-30 curated entries.`);
   }
 }
-console.log(`Static build PASS: site/ -> dist/ with learning tools, 156-concept dictionary, ${hangman.count}-entry full-course hangman bank, 89 key lists, payroll and treasury practicals, bilingual commercial correspondence guide and 9 administrative/commercial document exercises`);
+console.log(`Static build PASS: site/ -> dist/ with learning tools, 174-concept dictionary, ${hangman.count}-entry full-course hangman bank, 93 key lists, payroll and treasury practicals, bilingual commercial correspondence guide and 9 administrative/commercial document exercises`);

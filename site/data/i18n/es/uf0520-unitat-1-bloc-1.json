@@ -1,0 +1,358 @@
+{
+  "blockId": "uf0520-unitat-1-bloc-1",
+  "blockTitle": "La comunicación como proceso (apartado 1.1)",
+  "questions": {
+    "uf0520-u1b1-001": {
+      "topic": "Comprensión del mensaje",
+      "question": "¿Por qué no basta con enviar una instrucción en el trabajo?",
+      "options": [
+        "Porque el mensaje queda automáticamente archivado",
+        "Porque hay que comprobar que la persona destinataria ha entendido los datos importantes",
+        "Porque las instrucciones no necesitan respuesta",
+        "Porque el canal sustituye la comprensión"
+      ],
+      "explanation": "El envío no garantiza la comprensión; los datos importantes deben verificarse."
+    },
+    "uf0520-u1b1-002": {
+      "topic": "Aviso de recepción",
+      "question": "Recepción avisa de que espera un proveedor. ¿Qué datos hacen que el aviso permita actuar?",
+      "options": [
+        "Solo el nombre de la empresa",
+        "Solo la duración prevista de la visita",
+        "Quién espera, qué necesita, dónde está y quién debe atenderlo",
+        "El color de la carpeta y el departamento"
+      ],
+      "explanation": "El aviso útil identifica la visita, la necesidad, la ubicación y la persona responsable."
+    },
+    "uf0520-u1b1-003": {
+      "topic": "Niveles de comunicación",
+      "question": "¿Qué diferencia hay entre el nivel de tarea y el nivel de relación?",
+      "options": [
+        "La tarea es oral y la relación es escrita",
+        "La tarea solo importa en reuniones formales",
+        "La relación equivale al plazo de un pedido",
+        "La tarea trata del contenido laboral; la relación, del trato entre personas"
+      ],
+      "explanation": "Una misma instrucción puede contener un plazo y transmitir respeto o tensión."
+    },
+    "uf0520-u1b1-004": {
+      "topic": "Función apelativa",
+      "question": "¿Qué función predomina en «Confirme la recepción del pedido»?",
+      "options": [
+        "Apelativa o conativa: solicita una actuación",
+        "Referencial, porque ofrece un dato",
+        "Expresiva, porque describe una emoción",
+        "Poética, porque cuida el ritmo"
+      ],
+      "explanation": "La intención principal es obtener una confirmación del destinatario."
+    },
+    "uf0520-u1b1-005": {
+      "topic": "Función expresiva",
+      "question": "¿Qué función predomina en «Me preocupa este retraso»?",
+      "options": [
+        "Referencial, porque fija una fecha",
+        "Expresiva o emotiva",
+        "Fática, porque saluda",
+        "Poética, porque crea un eslogan"
+      ],
+      "explanation": "El emisor comunica su estado de ánimo o una valoración."
+    },
+    "uf0520-u1b1-006": {
+      "topic": "Función referencial",
+      "question": "¿Qué función predomina en «El pedido llegará el jueves»?",
+      "options": [
+        "Emotiva: expresa una preocupación",
+        "Apelativa: exige una actuación",
+        "Referencial: comunica un hecho",
+        "Fática: comprueba el contacto"
+      ],
+      "explanation": "La frase transmite un dato de entrega sin pedir una respuesta."
+    },
+    "uf0520-u1b1-007": {
+      "topic": "Función fática",
+      "question": "¿Qué función cumple «Buenos días, ¿me oye bien?» al empezar una llamada?",
+      "options": [
+        "Metalingüística: definir una palabra",
+        "Poética: destacar la belleza del mensaje",
+        "Referencial: describir un pedido",
+        "Fática: abrir y comprobar el contacto"
+      ],
+      "explanation": "La función fática ayuda a establecer o mantener el canal de comunicación."
+    },
+    "uf0520-u1b1-008": {
+      "topic": "Función metalingüística",
+      "question": "¿Qué función predomina al explicar qué significa «adjunto» en un correo?",
+      "options": [
+        "Metalingüística: el lenguaje explica el propio lenguaje",
+        "Fática: mantiene una llamada",
+        "Emotiva: muestra preocupación",
+        "Poética: crea un lema"
+      ],
+      "explanation": "Se aclara el significado de una palabra utilizada en el mensaje."
+    },
+    "uf0520-u1b1-009": {
+      "topic": "Función poética",
+      "question": "¿Qué función destaca en el lema «Tu tiempo, nuestro compromiso»?",
+      "options": [
+        "Fática: verifica la conexión",
+        "Poética o estética: destaca la forma de expresión",
+        "Metalingüística: explica una sigla",
+        "Referencial: enumera una cita"
+      ],
+      "explanation": "Un eslogan da relevancia a la forma de expresar el mensaje."
+    },
+    "uf0520-u1b1-010": {
+      "topic": "Elementos del proceso",
+      "question": "En una conversación, ¿qué es el canal?",
+      "options": [
+        "El sistema de signos del mensaje",
+        "La persona que prepara la información",
+        "El medio por el que se transmite el mensaje",
+        "El tema al que se refiere la información"
+      ],
+      "explanation": "El canal puede ser una llamada, un correo o una conversación presencial."
+    },
+    "uf0520-u1b1-011": {
+      "topic": "Alternancia emisor-receptor",
+      "question": "Una clienta pregunta por una factura y la auxiliar responde. ¿Qué ocurre con los papeles comunicativos?",
+      "options": [
+        "La clienta sigue siendo siempre el único emisor",
+        "La respuesta de la auxiliar es un canal diferente",
+        "Emisor y receptor desaparecen durante el diálogo",
+        "Quien era receptor se convierte en emisor al responder"
+      ],
+      "explanation": "Los papeles de emisor y receptor pueden intercambiarse en cada turno."
+    },
+    "uf0520-u1b1-012": {
+      "topic": "Referente y contexto",
+      "question": "En «La reunión empieza a las 10», ¿cuál es el referente?",
+      "options": [
+        "La reunión de la que se habla",
+        "El reloj utilizado",
+        "El idioma en que se ha escrito",
+        "El correo que transmite la frase"
+      ],
+      "explanation": "El referente es el asunto del mensaje; el contexto ayuda a interpretar detalles."
+    },
+    "uf0520-u1b1-013": {
+      "topic": "Código y signos",
+      "question": "Una persona desconoce una sigla interna de un aviso. ¿Qué facilita la comprensión?",
+      "options": [
+        "Enviar el mismo mensaje sin aclaraciones",
+        "Explicar la sigla con palabras conocidas",
+        "Cambiar el tipo de letra",
+        "Usar más siglas del departamento"
+      ],
+      "explanation": "El código es el sistema de signos compartido; una sigla desconocida puede impedir interpretar el mensaje."
+    },
+    "uf0520-u1b1-014": {
+      "topic": "Elección del canal",
+      "question": "Hay una incidencia urgente que requiere aclaración y constancia. ¿Qué procedimiento es adecuado?",
+      "options": [
+        "Enviar solo un aviso sin confirmar su recepción",
+        "Esperar a la próxima reunión mensual",
+        "Llamar para aclararla y enviar después un correo con el acuerdo y el plazo",
+        "Comunicarla oralmente y descartar cualquier registro"
+      ],
+      "explanation": "El canal depende de la urgencia y de la necesidad de dejar constancia."
+    },
+    "uf0520-u1b1-015": {
+      "topic": "Caso del proveedor",
+      "question": "En el caso de la llamada de Luis, ¿qué conviene confirmar antes de indicarle el acceso?",
+      "options": [
+        "Su estado de ánimo a partir de la voz",
+        "El color del vehículo sin relación con el acceso",
+        "Que cualquier entrada es adecuada",
+        "El número de pedido 218 y los datos necesarios de la llegada"
+      ],
+      "explanation": "El ejercicio pide identificar el mensaje, responder con el acceso y comprobar el pedido."
+    },
+    "uf0520-u1b1-016": {
+      "topic": "Información y comunicación",
+      "question": "¿Qué distinción es correcta entre información y comunicación?",
+      "options": [
+        "La información es el contenido; la comunicación es el proceso de transmitirlo e interpretarlo",
+        "La información exige siempre respuesta inmediata",
+        "Un cartel con horarios no puede comunicar",
+        "La comunicación solo ocurre hablando cara a cara"
+      ],
+      "explanation": "Un cartel aporta datos y puede comunicarlos sin respuesta inmediata."
+    },
+    "uf0520-u1b1-017": {
+      "topic": "Retroalimentación",
+      "question": "¿Qué respuesta comprueba mejor que se ha entendido una instrucción?",
+      "options": [
+        "«Vale», sin repetir los detalles",
+        "«Preparo tres copias y las dejo en recepción antes de las 13:00, ¿correcto?»",
+        "Marcar el correo como leído",
+        "No contestar hasta la entrega"
+      ],
+      "explanation": "La reformulación concreta cantidad, lugar y plazo, y permite corregir errores."
+    },
+    "uf0520-u1b1-018": {
+      "topic": "Fases de la comunicación",
+      "question": "¿Qué orden presenta el esquema didáctico del proceso de comunicación?",
+      "options": [
+        "Recepción, codificación, emisión y archivo",
+        "Emisión, retroalimentación, transmisión y silencio",
+        "Codificación, emisión, transmisión, recepción, decodificación y retroalimentación",
+        "Canal, destinatario, plazo y firma"
+      ],
+      "explanation": "Las seis fases sirven como modelo; en conversaciones reales pueden alternarse y repetirse."
+    },
+    "uf0520-u1b1-019": {
+      "topic": "Recepción y decodificación",
+      "question": "Marta lee «La cita pasa al viernes» pero no sabe el día ni la hora. ¿Qué puede afirmarse?",
+      "options": [
+        "Ya conoce la fecha exacta por leerlo",
+        "El mensaje se ha decodificado por completo",
+        "Debe responder sin pedir aclaraciones",
+        "Ha recibido el mensaje, pero necesita datos para interpretarlo y actuar"
+      ],
+      "explanation": "La recepción no equivale a entender lo suficiente para actuar."
+    },
+    "uf0520-u1b1-020": {
+      "topic": "Comunicación verbal y paraverbal",
+      "question": "En una atención telefónica, ¿qué es un recurso paraverbal?",
+      "options": [
+        "El tono, el ritmo, el volumen o las pausas de la voz",
+        "Las palabras escritas en un correo",
+        "La postura corporal en una silla",
+        "La distancia física entre dos personas"
+      ],
+      "explanation": "El paralenguaje acompaña las palabras mediante recursos de la voz."
+    },
+    "uf0520-u1b1-021": {
+      "topic": "Interpretación de gestos",
+      "question": "¿Qué podemos concluir solo porque una visita evita el contacto visual?",
+      "options": [
+        "Que oculta información deliberadamente",
+        "No podemos asegurar desinterés ni falta de sinceridad sin el contexto",
+        "Que no escucha ninguna indicación",
+        "Que desconoce los procedimientos internos"
+      ],
+      "explanation": "El documento advierte que los gestos aislados no permiten atribuir intenciones."
+    },
+    "uf0520-u1b1-022": {
+      "topic": "Gestos reguladores",
+      "question": "Una persona levanta la mano para pedir turno en una reunión. ¿Qué tipo de gesto es?",
+      "options": [
+        "Ilustrador",
+        "Adaptador",
+        "Regulador",
+        "Emblema de despedida"
+      ],
+      "explanation": "Los gestos reguladores organizan los turnos de conversación."
+    },
+    "uf0520-u1b1-023": {
+      "topic": "Gestos adaptadores",
+      "question": "Manipular un bolígrafo mientras se espera es ejemplo de qué tipo de movimiento?",
+      "options": [
+        "Ilustrador que señala una sala",
+        "Regulador del turno de palabra",
+        "Emblema de despedida compartido",
+        "Adaptador o movimiento de autorregulación"
+      ],
+      "explanation": "Un adaptador puede acompañar la autorregulación, pero no demuestra una emoción concreta."
+    },
+    "uf0520-u1b1-024": {
+      "topic": "Proxémica y cronémica",
+      "question": "¿Qué pareja de conceptos describe el uso del espacio y del tiempo en la interacción?",
+      "options": [
+        "Proxémica: espacio; cronémica: tiempo",
+        "Proxémica: voz; cronémica: gestos",
+        "Cinésica: plazos; paralenguaje: lugar",
+        "Código: distancia; canal: horario"
+      ],
+      "explanation": "La proxémica trata de distancias y espacios; la cronémica, de espera, puntualidad y tiempo de respuesta."
+    },
+    "uf0520-u1b1-025": {
+      "topic": "Coherencia verbal y no verbal",
+      "question": "Una auxiliar dice «Le escucho» pero sigue mirando el móvil. ¿Qué mejora es adecuada?",
+      "options": [
+        "Suponer que la visita está enfadada",
+        "Dejar el móvil, dirigir la atención a la visita y dejar que termine",
+        "Repetir «le escucho» sin cambiar el comportamiento",
+        "Interrumpir a la visita para terminar antes"
+      ],
+      "explanation": "El contenido verbal y las señales corporales deben facilitar la atención sin atribuir emociones."
+    },
+    "uf0520-u1b1-026": {
+      "topic": "Canales sensoriales",
+      "question": "¿Qué afirmación sobre comunicación auditiva, visual y táctil es correcta?",
+      "options": [
+        "La táctil transmite sensaciones sin representar signos escritos",
+        "La visual excluye el texto verbal",
+        "Clasifican el sentido de percepción y pueden combinarse con verbal y no verbal",
+        "La auditiva equivale al lenguaje hablado"
+      ],
+      "explanation": "El braille es táctil y puede representar lenguaje escrito; un correo es visual y verbal."
+    },
+    "uf0520-u1b1-027": {
+      "topic": "Ruido en una llamada",
+      "question": "Una llamada se corta y no se oye la fecha de entrega. ¿Qué actuación es adecuada?",
+      "options": [
+        "Anotar una fecha aproximada sin decirlo",
+        "Dar por recibida y completa la instrucción",
+        "Hablar más rápido para compensar el ruido",
+        "Pedir que repitan la fecha o utilizar otro canal adecuado"
+      ],
+      "explanation": "El ruido dificulta la recepción; hay que repetir la información clave y confirmarla."
+    },
+    "uf0520-u1b1-028": {
+      "topic": "Accesibilidad táctil",
+      "question": "¿Qué es adecuado al atender a una persona con discapacidad visual?",
+      "options": [
+        "Preguntar qué apoyo necesita y ofrecer canales disponibles sin suposiciones",
+        "Dar por hecho que lee braille",
+        "Usar braille sin consultar preferencias",
+        "Evitar toda explicación oral"
+      ],
+      "explanation": "El documento indica que no todas las personas con discapacidad visual leen braille."
+    },
+    "uf0520-u1b1-029": {
+      "topic": "Selección de datos",
+      "question": "En un aviso de entrega, ¿cómo deben tratarse los datos pendientes de confirmar?",
+      "options": [
+        "Presentarlos como confirmados",
+        "Separarlos de los datos comprobados y no inventar respuestas",
+        "Omitir también los datos relevantes comprobados",
+        "Sustituirlos por estimaciones sin advertirlo"
+      ],
+      "explanation": "Hay que seleccionar información pertinente, distinguir lo confirmado de lo incierto y no inventar datos."
+    },
+    "uf0520-u1b1-030": {
+      "topic": "Estructura del mensaje",
+      "question": "¿Qué organización es adecuada para un aviso profesional?",
+      "options": [
+        "Solo un título sin instrucciones",
+        "Primero un plazo desconocido y al final el tema",
+        "Inicio con asunto, desarrollo con datos y cierre con acción y plazo",
+        "Una lista de datos sin indicar qué hay que hacer"
+      ],
+      "explanation": "El esquema del temario es inicio, desarrollo y cierre con confirmación o vía para resolver dudas."
+    },
+    "uf0520-u1b1-031": {
+      "topic": "Resumen documental",
+      "question": "Antes de enviar un resumen, ¿qué debe comprobarse respecto al original?",
+      "options": [
+        "Que el resumen sea igual de largo que el original",
+        "Que se hayan suprimido todas las fechas",
+        "Que contenga frases copiadas sin revisarlas",
+        "Que se conserven condiciones, excepciones, plazos y datos importantes"
+      ],
+      "explanation": "El proceso de síntesis exige cotejar el resumen con el documento y verificar su exactitud."
+    },
+    "uf0520-u1b1-032": {
+      "topic": "Aviso por cambio de horario",
+      "question": "En la actividad de atención del 21 de octubre, ¿qué debe indicar el aviso a quien tenía cita a las 9?",
+      "options": [
+        "Que contacte con recepción para acordar otra hora porque se atenderá de 10 a 13",
+        "Que la cita de las 9 sigue sin cambios",
+        "Que la oficina abrirá todo el día",
+        "Que no hace falta avisar a las personas con cita"
+      ],
+      "explanation": "El caso ficticio especifica atención de 10 a 13 y contacto con recepción para cambiar citas de las 9."
+    }
+  }
+}

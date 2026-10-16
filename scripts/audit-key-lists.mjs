@@ -18,15 +18,16 @@ const EXPECTED_BY_BLOCK={
   'uf0519-bloc-4':1,
   'uf0519-bloc-5':7,
   'uf0519-unitat-2-bloc-1':7,
-  'uf0519-unitat-3-bloc-1':4
+  'uf0519-unitat-3-bloc-1':4,
+  'uf0520-unitat-1-bloc-1':4
 };
-const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:31,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22,UF0519_U2_TRESORERIA:41,UF0519_U3_STOCK:29};
+const SOURCE_LIMITS={B1:19,B2:33,B3:35,B4:34,B5:24,U2B1:119,UF0518_B1:31,UF0518_B2:39,UF0518_B3:50,UF0519_U1:76,MF0969_PRESENTACIO:22,UF0519_U2_TRESORERIA:41,UF0519_U3_STOCK:29,UF0520_U1_1:48};
 
 if(bank.version!==1)errors.push('version != 1');
-if(bank.count!==89)errors.push('count != 78');
-if(!Array.isArray(bank.entries)||bank.entries.length!==89)errors.push('entries != 78');
-if(!Array.isArray(bank.groups)||bank.groups.length!==16)errors.push('groups != 15');
-if(!Array.isArray(bank.families)||bank.families.length!==12)errors.push('families != 11');
+if(bank.count!==93)errors.push('count != 78');
+if(!Array.isArray(bank.entries)||bank.entries.length!==93)errors.push('entries != 78');
+if(!Array.isArray(bank.groups)||bank.groups.length!==17)errors.push('groups != 15');
+if(!Array.isArray(bank.families)||bank.families.length!==13)errors.push('families != 11');
 
 const ids=new Set();
 for(const entry of bank.entries||[]){
@@ -52,12 +53,12 @@ for(const [blockId,expected] of Object.entries(EXPECTED_BY_BLOCK)){
 }
 
 const assigned=(bank.families||[]).flatMap(family=>family.entryIds||[]);
-if(assigned.length!==89)errors.push('family assignments != 89');
-if(new Set(assigned).size!==89)errors.push('family assignments contain duplicates');
+if(assigned.length!==93)errors.push('family assignments != 93');
+if(new Set(assigned).size!==93)errors.push('family assignments contain duplicates');
 if(assigned.some(id=>!ids.has(id)))errors.push('family assignment points to unknown list');
 
 const ordered=(bank.entries||[]).filter(entry=>entry.ordered).length;
-if(ordered!==13)errors.push(`ordered lists: ${ordered}/13`);
+if(ordered!==15)errors.push(`ordered lists: ${ordered}/13`);
 
 if(errors.length){
   console.error('KEY_LIST_AUDIT=FAIL');
@@ -65,6 +66,6 @@ if(errors.length){
   process.exit(1);
 }
 console.log('KEY_LIST_AUDIT=PASS');
-console.log('KEY_LISTS=89');
-console.log('KEY_LIST_FAMILIES=12');
-console.log('ORDERED_LISTS=13');
+console.log('KEY_LISTS=93');
+console.log('KEY_LIST_FAMILIES=13');
+console.log('ORDERED_LISTS=15');

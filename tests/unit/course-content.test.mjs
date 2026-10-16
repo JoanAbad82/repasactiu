@@ -42,13 +42,14 @@ test("les 320 preguntes prèvies mantenen exactament el mateix contingut encara 
 
 test("UF0517 manté 510 preguntes, UF0518 en té 236 i UF0519 en publica 329 entre les unitats 1, 2 i 3",async()=>{
   const course=await readJson("course.json");
-  assert.equal(course.blocks.length,19);
-  assert.deepEqual([...new Set(course.blocks.map(b=>b.unitId))],["unitat-1","unitat-2","uf0518","uf0519-unitat-1","uf0519-unitat-2","uf0519-unitat-3"]);
-  let uf0517=0,uf0518=0,uf0519u1=0,uf0519u2=0,uf0519u3=0;
+  assert.equal(course.blocks.length,20);
+  assert.deepEqual([...new Set(course.blocks.map(b=>b.unitId))],["unitat-1","unitat-2","uf0518","uf0519-unitat-1","uf0519-unitat-2","uf0519-unitat-3","uf0520-unitat-1"]);
+  let uf0517=0,uf0518=0,uf0519u1=0,uf0519u2=0,uf0519u3=0,uf0520=0;
   for(const block of course.blocks){
     let count=0;
     for(const file of bankFiles(block))count+=(await readJson(file.replace(/^data\//,""))).questions.length;
-    if(block.unitId==='uf0518'){
+    if(block.unitId==='uf0520-unitat-1'){assert.equal(count,32);uf0520+=count;
+    }else if(block.unitId==='uf0518'){
       const expectedUf0518=block.id==='uf0518-bloc-1'?86:block.id==='uf0518-bloc-2'?70:80;
       assert.equal(count,expectedUf0518,`${block.id}: total UF0518 incorrecte`);
       uf0518+=count;
@@ -71,10 +72,11 @@ test("UF0517 manté 510 preguntes, UF0518 en té 236 i UF0519 en publica 329 ent
   assert.equal(uf0519u1,192);
   assert.equal(uf0519u2,73);
   assert.equal(uf0519u3,64);
-  assert.equal(uf0517+uf0518+uf0519u1+uf0519u2+uf0519u3,1075);
+  assert.equal(uf0520,32);
+  assert.equal(uf0517+uf0518+uf0519u1+uf0519u2+uf0519u3+uf0520,1107);
 });
 
-test("les 1075 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
+test("les 1107 preguntes tenen una ajuda de memòria bilingüe de màxim 144 caràcters",async()=>{
   const course=await readJson("course.json");
   let total=0;
   for(const block of course.blocks){
@@ -97,5 +99,5 @@ test("les 1075 preguntes tenen una ajuda de memòria bilingüe de màxim 144 car
       total++;
     }
   }
-  assert.equal(total,1075);
+  assert.equal(total,1107);
 });

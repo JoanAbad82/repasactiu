@@ -6,7 +6,7 @@
     "ca",
     "es"
   ],
-  "count": 156,
+  "count": 174,
   "groups": [
     {
       "id": "bloc-1",
@@ -92,6 +92,11 @@
       "id": "uf0519-unitat-3-bloc-1",
       "ca": "UF0519 · Unitat 3 — Material, aprovisionament i existències",
       "es": "UF0519 · Unidad 3 — Materiales, aprovisionamiento y existencias"
+    },
+    {
+      "id": "uf0520-unitat-1-bloc-1",
+      "ca": "Comunicació en entorns laborals · UF0520 — Procés comunicatiu",
+      "es": "Comunicación en entornos laborales · UF0520 — Proceso comunicativo"
     }
   ],
   "entries": [
@@ -3518,6 +3523,456 @@
         "memory": "Pasivo = deber; corriente = vencimiento próximo o ciclo habitual.",
         "technique": "Ejemplo y regla"
       }
+    },
+    {
+      "id": "uf0520-c-01",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          11,
+          11
+        ]
+      },
+      "ca": {
+        "term": "Emissor",
+        "definition": "Persona que elabora i envia el missatge.",
+        "example": "Qui inicia una instrucció.",
+        "memory": "E = envia.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Emisor",
+        "definition": "Persona que elabora y envía el mensaje.",
+        "example": "Quien inicia una instrucción.",
+        "memory": "E = envía.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-02",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          11,
+          11
+        ]
+      },
+      "ca": {
+        "term": "Receptor",
+        "definition": "Persona que rep i interpreta el missatge.",
+        "example": "Recepció rep una trucada.",
+        "memory": "R = rep.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Receptor",
+        "definition": "Persona que recibe e interpreta el mensaje.",
+        "example": "Recepción atiende una llamada.",
+        "memory": "R = recibe.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-03",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          11,
+          11
+        ]
+      },
+      "ca": {
+        "term": "Contingut del missatge",
+        "definition": "Contingut que es transmet a una altra persona.",
+        "example": "La reunió serà a les 10.",
+        "memory": "M = informació transmesa.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Contenido del mensaje",
+        "definition": "Contenido que se transmite a otra persona.",
+        "example": "La reunión será a las 10.",
+        "memory": "M = información transmitida.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-04",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          13,
+          13
+        ]
+      },
+      "ca": {
+        "term": "Referent",
+        "definition": "Assumpte del qual tracta un missatge.",
+        "example": "La reunió esmentada en un correu.",
+        "memory": "Referent = de què.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Referente",
+        "definition": "Asunto del que trata un mensaje.",
+        "example": "La reunión citada en un correo.",
+        "memory": "Referente = de qué.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-05",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          13,
+          13
+        ]
+      },
+      "ca": {
+        "term": "Context comunicatiu",
+        "definition": "Circumstàncies que ajuden a interpretar el contingut.",
+        "example": "Dia i situació d’una cita.",
+        "memory": "Context = entorn del missatge.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Contexto comunicativo",
+        "definition": "Circunstancias que ayudan a interpretar el contenido.",
+        "example": "Día y situación de una cita.",
+        "memory": "Contexto = entorno del mensaje.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-06",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          14,
+          14
+        ]
+      },
+      "ca": {
+        "term": "Codi comunicatiu",
+        "definition": "Sistema compartit de signes i regles per construir i entendre missatges.",
+        "example": "Una llengua escrita o el braille.",
+        "memory": "Codi = signes compartits.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Código comunicativo",
+        "definition": "Sistema compartido de signos y reglas para construir y entender mensajes.",
+        "example": "Una lengua escrita o el braille.",
+        "memory": "Código = signos compartidos.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-07",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          15,
+          15
+        ]
+      },
+      "ca": {
+        "term": "Canal comunicatiu",
+        "definition": "Mitjà físic o tecnològic per on circula el missatge.",
+        "example": "Trucada o correu electrònic.",
+        "memory": "Canal = camí.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Canal comunicativo",
+        "definition": "Medio físico o tecnológico por el que circula el mensaje.",
+        "example": "Llamada o correo electrónico.",
+        "memory": "Canal = camino.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-08",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          19,
+          19
+        ]
+      },
+      "ca": {
+        "term": "Retroalimentació",
+        "definition": "Resposta que permet confirmar, preguntar o aclarir el missatge rebut.",
+        "example": "Confirmar dia i hora d’una cita.",
+        "memory": "Retro = resposta de tornada.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Retroalimentación",
+        "definition": "Respuesta que permite confirmar, preguntar o aclarar el mensaje recibido.",
+        "example": "Confirmar día y hora de una cita.",
+        "memory": "Retro = respuesta de vuelta.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-09",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          20,
+          20
+        ]
+      },
+      "ca": {
+        "term": "Codificació",
+        "definition": "Transformació d’una idea en paraules, signes o altres recursos comunicables.",
+        "example": "Redactar la data d’un avís.",
+        "memory": "Codificar = preparar signes.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Codificación",
+        "definition": "Transformación de una idea en palabras, signos u otros recursos comunicables.",
+        "example": "Redactar la fecha de un aviso.",
+        "memory": "Codificar = preparar signos.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-10",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          22,
+          22
+        ]
+      },
+      "ca": {
+        "term": "Descodificació",
+        "definition": "Interpretació del missatge rebut segons el codi i el context.",
+        "example": "Entendre la data d’una cita.",
+        "memory": "Des-codificar = interpretar.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Decodificación",
+        "definition": "Interpretación del mensaje recibido según código y contexto.",
+        "example": "Entender la fecha de una cita.",
+        "memory": "Des-codificar = interpretar.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-11",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          24,
+          24
+        ]
+      },
+      "ca": {
+        "term": "Parallenguatge",
+        "definition": "Característiques de la veu com to, volum, ritme i pauses.",
+        "example": "Dir el mateix amb un to calmat.",
+        "memory": "Para = al costat de les paraules.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Paralenguaje",
+        "definition": "Características de la voz como tono, volumen, ritmo y pausas.",
+        "example": "Decir lo mismo con tono calmado.",
+        "memory": "Para = junto a las palabras.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-12",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          28,
+          28
+        ]
+      },
+      "ca": {
+        "term": "Cinèsica",
+        "definition": "Estudi dels gestos, postures i expressions corporals amb valor comunicatiu.",
+        "example": "Acompanyar una indicació amb un gest.",
+        "memory": "Cine = moviment.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Cinésica",
+        "definition": "Estudio de gestos, posturas y expresiones corporales con valor comunicativo.",
+        "example": "Acompañar una indicación con un gesto.",
+        "memory": "Cine = movimiento.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-13",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "term": "Emblema gestual",
+        "definition": "Gest amb significat convencional en un grup o cultura.",
+        "example": "Moure la mà per acomiadar-se.",
+        "memory": "Emblema = gest pactat.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Emblema gestual",
+        "definition": "Gesto con significado convencional en un grupo o cultura.",
+        "example": "Mover la mano para despedirse.",
+        "memory": "Emblema = gesto pactado.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-14",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "term": "Gest il·lustrador",
+        "definition": "Moviment corporal que acompanya o explica el que es diu.",
+        "example": "Assenyalar la sala que s’indica.",
+        "memory": "Il·lustrar = mostrar el que dius.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Gesto ilustrador",
+        "definition": "Movimiento corporal que acompaña o explica lo que se dice.",
+        "example": "Señalar la sala indicada.",
+        "memory": "Ilustrar = mostrar lo que dices.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-15",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          29,
+          29
+        ]
+      },
+      "ca": {
+        "term": "Gest regulador",
+        "definition": "Gest que organitza els torns de conversa.",
+        "example": "Aixecar la mà per intervenir.",
+        "memory": "Regulador = regula torns.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Gesto regulador",
+        "definition": "Gesto que organiza turnos de conversación.",
+        "example": "Levantar la mano para intervenir.",
+        "memory": "Regulador = regula turnos.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-16",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          30,
+          30
+        ]
+      },
+      "ca": {
+        "term": "Gest adaptador",
+        "definition": "Moviment corporal associat a l’autoregulació; no prova cap emoció concreta.",
+        "example": "Manipular un bolígraf mentre esperem.",
+        "memory": "Adaptador = autoregulació, no diagnòstic.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Gesto adaptador",
+        "definition": "Movimiento corporal de autorregulación; no prueba emociones concretas.",
+        "example": "Manipular un bolígrafo al esperar.",
+        "memory": "Adaptador = autorregulación, no diagnóstico.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-17",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          32,
+          32
+        ]
+      },
+      "ca": {
+        "term": "Proxèmica",
+        "definition": "Ús comunicatiu de la distància i de l’espai entre persones.",
+        "example": "Respectar l’espai personal en recepció.",
+        "memory": "Proxi = proximitat.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Proxémica",
+        "definition": "Uso comunicativo de la distancia y del espacio entre personas.",
+        "example": "Respetar espacio personal en recepción.",
+        "memory": "Proxi = proximidad.",
+        "technique": "Ejemplo y contraste"
+      }
+    },
+    {
+      "id": "uf0520-c-18",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          32,
+          32
+        ]
+      },
+      "ca": {
+        "term": "Cronèmica",
+        "definition": "Ús comunicatiu del temps, incloent espera, puntualitat i resposta.",
+        "example": "Informar del temps que durarà una consulta.",
+        "memory": "Crono = temps.",
+        "technique": "Exemple i contrast"
+      },
+      "es": {
+        "term": "Cronémica",
+        "definition": "Uso comunicativo del tiempo, como espera, puntualidad y respuesta.",
+        "example": "Informar cuánto tardará una consulta.",
+        "memory": "Crono = tiempo.",
+        "technique": "Ejemplo y contraste"
+      }
     }
   ],
   "familyPolicy": "Order by conceptual families and learning dependency, not alphabetically. Keep contrasts and strongly related concepts adjacent to improve retrieval and memorisation.",
@@ -3802,6 +4257,31 @@
         "u3-fefo",
         "u3-lifo",
         "u3-trasllat-intern"
+      ]
+    },
+    {
+      "id": "communication-workplace-uf0520",
+      "ca": "Procés, llenguatge i comunicació laboral",
+      "es": "Proceso, lenguaje y comunicación laboral",
+      "entryIds": [
+        "uf0520-c-01",
+        "uf0520-c-02",
+        "uf0520-c-03",
+        "uf0520-c-04",
+        "uf0520-c-05",
+        "uf0520-c-06",
+        "uf0520-c-07",
+        "uf0520-c-08",
+        "uf0520-c-09",
+        "uf0520-c-10",
+        "uf0520-c-11",
+        "uf0520-c-12",
+        "uf0520-c-13",
+        "uf0520-c-14",
+        "uf0520-c-15",
+        "uf0520-c-16",
+        "uf0520-c-17",
+        "uf0520-c-18"
       ]
     }
   ],

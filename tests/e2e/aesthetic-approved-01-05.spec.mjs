@@ -2,7 +2,7 @@ import {test,expect} from "@playwright/test";
 
 async function ready(page){
  await page.goto("/");
- await expect(page.getByText("1075 preguntes")).toBeVisible();
+ await expect(page.getByText("1107 preguntes")).toBeVisible();
 }
 const contrast=(rgb1,rgb2)=>{
  const channels=s=>(s.match(/[\d.]+/g)||[]).slice(0,3).map(Number).map(c=>{

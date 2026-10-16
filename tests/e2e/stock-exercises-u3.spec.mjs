@@ -1,7 +1,7 @@
 import {test,expect} from "@playwright/test";
 test("la unitat 3 publica les onze activitats i l'enunciat complet de proveïdors",async({page})=>{
  await page.goto("/");
- await expect(page.getByText("1075 preguntes")).toBeVisible();
+ await expect(page.getByText("1107 preguntes")).toBeVisible();
  await page.locator("#home-shortcut-examples").click();
  await page.locator('[data-practical-category="stock"]').click();
  await expect(page.locator("[data-stock-exercise]")).toHaveCount(11);
@@ -19,7 +19,7 @@ async function fillStock(page,key,value){
 }
 test("la calculadora funciona dins del cas de trasllats",async({page})=>{
  await page.goto("/");
- await expect(page.getByText("1075 preguntes")).toBeVisible();
+ await expect(page.getByText("1107 preguntes")).toBeVisible();
  await page.locator("#home-shortcut-examples").click();
  await page.locator('[data-practical-category="stock"]').click();
  await page.locator('[data-stock-exercise="010"]').click();
@@ -34,7 +34,7 @@ test("la calculadora funciona dins del cas de trasllats",async({page})=>{
 test("la simulació d'oficina calcula les 21 línies sense eines externes",async({page})=>{
  await page.setViewportSize({width:390,height:844});
  await page.goto("/");
- await expect(page.getByText("1075 preguntes")).toBeVisible();
+ await expect(page.getByText("1107 preguntes")).toBeVisible();
  await page.locator("#home-shortcut-examples").click();
  await page.locator('[data-practical-category="stock"]').click();
  await page.locator('[data-stock-exercise="011"]').click();
@@ -52,7 +52,7 @@ test("la simulació d'oficina calcula les 21 línies sense eines externes",async
 test("en mòbil les activitats s'obren des de l'inici i no a mig document",async({page})=>{
  await page.setViewportSize({width:390,height:844});
  await page.goto("/");
- await expect(page.getByText("1075 preguntes")).toBeVisible();
+ await expect(page.getByText("1107 preguntes")).toBeVisible();
  await page.locator("#home-shortcut-examples").click();
  await page.locator('[data-practical-category="stock"]').click();
  await page.locator('[data-stock-exercise="011"]').scrollIntoViewIfNeeded();
@@ -66,7 +66,7 @@ test("en mòbil les activitats s'obren des de l'inici i no a mig document",async
 
 test("la categoria d'existències es tradueix al castellà i recupera el progrés",async({page})=>{
  await page.goto("/");
- await expect(page.getByText("1075 preguntes")).toBeVisible();
+ await expect(page.getByText("1107 preguntes")).toBeVisible();
  await page.locator("#home-shortcut-examples").click();
  await page.locator('[data-practical-category="stock"]').click();
  await page.locator('[data-stock-exercise="003"]').click();

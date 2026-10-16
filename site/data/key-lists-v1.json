@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 89,
+  "count": 93,
   "languages": [
     "ca",
     "es"
@@ -85,6 +85,11 @@
       "id": "uf0519-unitat-3-bloc-1",
       "ca": "UF0519 · Unitat 3 — Aprovisionament i magatzem",
       "es": "UF0519 · Unidad 3 — Aprovisionamiento y almacén"
+    },
+    {
+      "id": "uf0520-unitat-1-bloc-1",
+      "ca": "UF0520 · Procés de comunicació",
+      "es": "UF0520 · Proceso de comunicación"
     }
   ],
   "families": [
@@ -259,6 +264,17 @@
         "u3-etiqueta-magatzem",
         "u3-rotacio-fisica",
         "u3-controles-magatzem"
+      ]
+    },
+    {
+      "id": "communication-uf0520",
+      "ca": "Comunicació professional i missatges",
+      "es": "Comunicación profesional y mensajes",
+      "entryIds": [
+        "uf0520-l-funcions",
+        "uf0520-l-elements",
+        "uf0520-l-fases",
+        "uf0520-l-avis"
       ]
     }
   ],
@@ -3261,6 +3277,148 @@
           "Traslados internos registrados sin alterar el stock total"
         ],
         "memory": "Ubicar → registrar → proteger → manipular → conservar → trasladar."
+      }
+    },
+    {
+      "id": "uf0520-l-funcions",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "ca": {
+        "title": "Funcions del llenguatge",
+        "items": [
+          "Referencial: transmetre dades",
+          "Expressiva: expressar emocions",
+          "Apel·lativa: demanar una actuació",
+          "Fàtica: obrir i mantenir el contacte",
+          "Metalingüística: explicar paraules",
+          "Poètica: destacar la forma"
+        ],
+        "memory": "Fets – emoció – acció – contacte – llengua – forma."
+      },
+      "es": {
+        "title": "Funciones del lenguaje",
+        "items": [
+          "Referencial: transmitir datos",
+          "Expresiva: expresar emociones",
+          "Apelativa: pedir una actuación",
+          "Fática: abrir y mantener contacto",
+          "Metalingüística: explicar palabras",
+          "Poética: destacar la forma"
+        ],
+        "memory": "Hechos – emoción – acción – contacto – lengua – forma."
+      }
+    },
+    {
+      "id": "uf0520-l-elements",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "ordered": false,
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          11,
+          16
+        ]
+      },
+      "ca": {
+        "title": "Elements del procés comunicatiu",
+        "items": [
+          "Emissor i receptor",
+          "Missatge i referent",
+          "Codi i canal",
+          "Context",
+          "Retroalimentació"
+        ],
+        "memory": "Qui – què – com – per on – en quin context – resposta."
+      },
+      "es": {
+        "title": "Elementos del proceso comunicativo",
+        "items": [
+          "Emisor y receptor",
+          "Mensaje y referente",
+          "Código y canal",
+          "Contexto",
+          "Retroalimentación"
+        ],
+        "memory": "Quién – qué – cómo – por dónde – contexto – respuesta."
+      }
+    },
+    {
+      "id": "uf0520-l-fases",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "ordered": true,
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          20,
+          23
+        ]
+      },
+      "ca": {
+        "title": "Sis fases per estudiar la comunicació",
+        "items": [
+          "Codificació",
+          "Emissió",
+          "Transmissió",
+          "Recepció",
+          "Descodificació",
+          "Retroalimentació"
+        ],
+        "memory": "Co–E–T–R–De–Re."
+      },
+      "es": {
+        "title": "Seis fases para estudiar la comunicación",
+        "items": [
+          "Codificación",
+          "Emisión",
+          "Transmisión",
+          "Recepción",
+          "Decodificación",
+          "Retroalimentación"
+        ],
+        "memory": "Co–E–T–R–De–Re."
+      }
+    },
+    {
+      "id": "uf0520-l-avis",
+      "blockId": "uf0520-unitat-1-bloc-1",
+      "ordered": true,
+      "source": {
+        "id": "UF0520_U1_1",
+        "pages": [
+          38,
+          40
+        ]
+      },
+      "ca": {
+        "title": "Preparació d’un avís clar",
+        "items": [
+          "Definir objectiu i destinatari",
+          "Seleccionar dades pertinents i verificades",
+          "Ordenar assumpte i context inicial",
+          "Exposar dades i canvi",
+          "Tancar amb acció, termini i confirmació",
+          "Revisar claredat i exactitud"
+        ],
+        "memory": "Objectiu → dades → ordre → acció → revisió."
+      },
+      "es": {
+        "title": "Preparación de un aviso claro",
+        "items": [
+          "Definir objetivo y destinatario",
+          "Seleccionar datos pertinentes y verificados",
+          "Ordenar asunto y contexto inicial",
+          "Exponer datos y cambio",
+          "Cerrar con acción, plazo y confirmación",
+          "Revisar claridad y exactitud"
+        ],
+        "memory": "Objetivo → datos → orden → acción → revisión."
       }
     }
   ],

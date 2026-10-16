@@ -1,0 +1,454 @@
+{
+  "blockId": "uf0520-unitat-1-bloc-1",
+  "blockTitle": "La comunicació com a procés (apartat 1.1)",
+  "questions": [
+    {
+      "id": "uf0520-u1b1-001",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Comprensió del missatge",
+      "question": "Per què no n’hi ha prou amb enviar una instrucció a la feina?",
+      "options": [
+        "Perquè el missatge queda automàticament arxivat",
+        "Perquè cal comprovar que la persona destinatària n’ha entès les dades importants",
+        "Perquè les instruccions no necessiten resposta",
+        "Perquè el canal substitueix la comprensió"
+      ],
+      "correct": 1,
+      "explanation": "La tramesa no garanteix la comprensió; les dades importants s’han de verificar."
+    },
+    {
+      "id": "uf0520-u1b1-002",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Avís de recepció",
+      "question": "Recepció avisa que espera un proveïdor. Quines dades fan que l’avís permeti actuar?",
+      "options": [
+        "Només el nom de l’empresa",
+        "Només la durada prevista de la visita",
+        "Qui espera, què necessita, on és i qui l’ha d’atendre",
+        "El color de la carpeta i el departament"
+      ],
+      "correct": 2,
+      "explanation": "L’avís útil identifica la visita, la necessitat, la ubicació i la persona responsable."
+    },
+    {
+      "id": "uf0520-u1b1-003",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Nivells de comunicació",
+      "question": "Quina diferència hi ha entre el nivell de tasca i el nivell de relació?",
+      "options": [
+        "La tasca és oral i la relació és escrita",
+        "La tasca només importa en reunions formals",
+        "La relació equival al termini d’una comanda",
+        "La tasca tracta del contingut laboral; la relació, del tracte entre les persones"
+      ],
+      "correct": 3,
+      "explanation": "Una mateixa instrucció pot contenir un termini i transmetre respecte o tensió."
+    },
+    {
+      "id": "uf0520-u1b1-004",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Funció apel·lativa",
+      "question": "Quina funció predomina a «Confirmi la recepció de la comanda»?",
+      "options": [
+        "Apel·lativa o conativa: demana una actuació",
+        "Referencial, perquè ofereix una dada",
+        "Expressiva, perquè descriu una emoció",
+        "Poètica, perquè cuida el ritme"
+      ],
+      "correct": 0,
+      "explanation": "La intenció principal és obtenir una confirmació de qui rep el missatge."
+    },
+    {
+      "id": "uf0520-u1b1-005",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Funció expressiva",
+      "question": "Quina funció predomina a «Em preocupa aquest retard»?",
+      "options": [
+        "Referencial, perquè fixa una data",
+        "Expressiva o emotiva",
+        "Fàtica, perquè saluda",
+        "Poètica, perquè crea un eslògan"
+      ],
+      "correct": 1,
+      "explanation": "L’emissor comunica el seu estat d’ànim o una valoració."
+    },
+    {
+      "id": "uf0520-u1b1-006",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Funció referencial",
+      "question": "Quina funció predomina a «La comanda arribarà dijous»?",
+      "options": [
+        "Emotiva: expressa una preocupació",
+        "Apel·lativa: exigeix una actuació",
+        "Referencial: comunica un fet",
+        "Fàtica: comprova el contacte"
+      ],
+      "correct": 2,
+      "explanation": "La frase transmet una dada sobre el lliurament, sense demanar resposta."
+    },
+    {
+      "id": "uf0520-u1b1-007",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Funció fàtica",
+      "question": "Quina funció té «Bon dia, em sent bé?» a l’inici d’una trucada?",
+      "options": [
+        "Metalingüística: definir una paraula",
+        "Poètica: destacar la bellesa del missatge",
+        "Referencial: descriure una comanda",
+        "Fàtica: obrir i comprovar el contacte"
+      ],
+      "correct": 3,
+      "explanation": "La funció fàtica ajuda a establir o mantenir el canal de comunicació."
+    },
+    {
+      "id": "uf0520-u1b1-008",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Funció metalingüística",
+      "question": "Quina funció predomina quan expliquem què significa «adjunt» en un correu?",
+      "options": [
+        "Metalingüística: el llenguatge explica el mateix llenguatge",
+        "Fàtica: manté una trucada",
+        "Emotiva: mostra preocupació",
+        "Poètica: crea un lema"
+      ],
+      "correct": 0,
+      "explanation": "S’aclareix el significat d’una paraula utilitzada en el missatge."
+    },
+    {
+      "id": "uf0520-u1b1-009",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Funció poètica",
+      "question": "Quina funció destaca a l’eslògan «El teu temps, el nostre compromís»?",
+      "options": [
+        "Fàtica: verifica la connexió",
+        "Poètica o estètica: destaca la forma de l’expressió",
+        "Metalingüística: explica una sigla",
+        "Referencial: enumera una cita"
+      ],
+      "correct": 1,
+      "explanation": "Un eslògan dona rellevància a la manera d’expressar el missatge."
+    },
+    {
+      "id": "uf0520-u1b1-010",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Elements del procés",
+      "question": "En una conversa, què és el canal?",
+      "options": [
+        "El sistema de signes del missatge",
+        "La persona que prepara la informació",
+        "El mitjà pel qual es transmet el missatge",
+        "El tema al qual fa referència la informació"
+      ],
+      "correct": 2,
+      "explanation": "El canal pot ser una trucada, un correu o una conversa presencial."
+    },
+    {
+      "id": "uf0520-u1b1-011",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Alternança emissor-receptor",
+      "question": "Una clienta pregunta per una factura i l’auxiliar respon. Què passa amb els papers comunicatius?",
+      "options": [
+        "La clienta continua sent sempre l’únic emissor",
+        "La resposta de l’auxiliar és un canal diferent",
+        "Emissor i receptor desapareixen durant el diàleg",
+        "Qui era receptor es converteix en emissor quan respon"
+      ],
+      "correct": 3,
+      "explanation": "Els papers d’emissor i receptor poden intercanviar-se en cada torn."
+    },
+    {
+      "id": "uf0520-u1b1-012",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Referent i context",
+      "question": "A «La reunió comença a les 10», quin és el referent?",
+      "options": [
+        "La reunió de què es parla",
+        "El rellotge utilitzat",
+        "L’idioma en què s’ha escrit",
+        "El correu que transmet la frase"
+      ],
+      "correct": 0,
+      "explanation": "El referent és l’assumpte de què tracta el missatge; el context n’ajuda a interpretar els detalls."
+    },
+    {
+      "id": "uf0520-u1b1-013",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Codi i signes",
+      "question": "Una persona no coneix una sigla interna en un avís. Què facilita la comprensió?",
+      "options": [
+        "Enviar el mateix missatge sense aclariments",
+        "Explicar la sigla amb paraules conegudes",
+        "Canviar la font tipogràfica",
+        "Fer servir més sigles del departament"
+      ],
+      "correct": 1,
+      "explanation": "El codi és el sistema de signes compartit; una sigla desconeguda pot impedir interpretar el missatge."
+    },
+    {
+      "id": "uf0520-u1b1-014",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Elecció del canal",
+      "question": "Hi ha una incidència urgent que requereix aclariment i constància. Quin procediment és adequat?",
+      "options": [
+        "Enviar només un avís sense confirmar-ne la recepció",
+        "Esperar la pròxima reunió mensual",
+        "Trucar per aclarir-la i enviar després un correu amb l’acord i el termini",
+        "Comunicar-la oralment i descartar qualsevol registre"
+      ],
+      "correct": 2,
+      "explanation": "El canal depèn de la urgència i la necessitat de deixar-ne constància."
+    },
+    {
+      "id": "uf0520-u1b1-015",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Cas de proveïdor",
+      "question": "En el cas de la trucada de Luis, què és prudent confirmar abans d’indicar-li l’accés?",
+      "options": [
+        "El seu estat d’ànim a partir de la veu",
+        "El color del vehicle sense relació amb l’accés",
+        "Que qualsevol entrada és adequada",
+        "El número de comanda 218 i les dades necessàries de l’arribada"
+      ],
+      "correct": 3,
+      "explanation": "L’exercici demana identificar el missatge, respondre amb l’accés i comprovar la comanda."
+    },
+    {
+      "id": "uf0520-u1b1-016",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Informació i comunicació",
+      "question": "Quina distinció és correcta entre informació i comunicació?",
+      "options": [
+        "La informació és el contingut; la comunicació és el procés d’interpretar-lo i transmetre’l",
+        "La informació exigeix sempre una resposta immediata",
+        "Una cartellera amb horaris no pot comunicar",
+        "La comunicació només es produeix parlant cara a cara"
+      ],
+      "correct": 0,
+      "explanation": "Un cartell aporta dades i pot comunicar-les sense resposta immediata."
+    },
+    {
+      "id": "uf0520-u1b1-017",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Retroalimentació",
+      "question": "Quina resposta comprova millor que s’ha entès una instrucció?",
+      "options": [
+        "«D’acord», sense repetir els detalls",
+        "«Preparo tres còpies i les deixo a recepció abans de les 13.00, correcte?»",
+        "Marcar el correu com a llegit",
+        "No contestar fins al lliurament"
+      ],
+      "correct": 1,
+      "explanation": "La reformulació concreta quantitat, lloc i termini, i permet corregir errors."
+    },
+    {
+      "id": "uf0520-u1b1-018",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Fases de la comunicació",
+      "question": "Quin ordre presenta l’esquema didàctic del procés de comunicació?",
+      "options": [
+        "Recepció, codificació, emissió i arxiu",
+        "Emissió, retroalimentació, transmissió i silenci",
+        "Codificació, emissió, transmissió, recepció, descodificació i retroalimentació",
+        "Canal, destinatari, termini i signatura"
+      ],
+      "correct": 2,
+      "explanation": "Les sis fases serveixen com a model; en converses reals poden alternar-se i repetir-se."
+    },
+    {
+      "id": "uf0520-u1b1-019",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Recepció i descodificació",
+      "question": "Marta llegeix «La cita passa a divendres» però no sap quin dia ni a quina hora. Què es pot afirmar?",
+      "options": [
+        "Ja coneix la data exacta pel fet de llegir-lo",
+        "El missatge s’ha descodificat completament",
+        "Cal respondre sense demanar aclariments",
+        "Ha rebut el missatge, però necessita dades per interpretar-lo i actuar"
+      ],
+      "correct": 3,
+      "explanation": "La recepció no equival a comprendre el contingut suficient per actuar."
+    },
+    {
+      "id": "uf0520-u1b1-020",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Comunicació verbal i paraverbal",
+      "question": "En una atenció telefònica, què és un recurs paraverbal?",
+      "options": [
+        "El to, el ritme, el volum o les pauses de la veu",
+        "Les paraules escrites en un correu",
+        "La postura del cos en una cadira",
+        "La distància física entre dues persones"
+      ],
+      "correct": 0,
+      "explanation": "El paralenguatge acompanya les paraules mitjançant recursos de la veu."
+    },
+    {
+      "id": "uf0520-u1b1-021",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Interpretació dels gestos",
+      "question": "Què podem concloure només perquè una visita evita el contacte visual?",
+      "options": [
+        "Que oculta informació deliberadament",
+        "No podem assegurar desinterès ni manca de sinceritat sense el context",
+        "Que no escolta cap indicació",
+        "Que desconeix els procediments interns"
+      ],
+      "correct": 1,
+      "explanation": "El document adverteix que els gestos aïllats no permeten atribuir intencions."
+    },
+    {
+      "id": "uf0520-u1b1-022",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Gestos reguladors",
+      "question": "Una persona aixeca la mà per demanar torn en una reunió. Quin tipus de gest és?",
+      "options": [
+        "Il·lustrador",
+        "Adaptador",
+        "Regulador",
+        "Emblema de comiat"
+      ],
+      "correct": 2,
+      "explanation": "Els gestos reguladors organitzen els torns de conversa."
+    },
+    {
+      "id": "uf0520-u1b1-023",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Gestos adaptadors",
+      "question": "Manipular un bolígraf mentre s’espera és un exemple de quin tipus de moviment?",
+      "options": [
+        "Il·lustrador que assenyala una sala",
+        "Regulador del torn de paraula",
+        "Emblema de comiat compartit",
+        "Adaptador o moviment d’autoregulació"
+      ],
+      "correct": 3,
+      "explanation": "Un adaptador pot acompanyar l’autoregulació, però no demostra cap emoció concreta."
+    },
+    {
+      "id": "uf0520-u1b1-024",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Proxèmica i cronèmica",
+      "question": "Quina parella de conceptes descriu l’ús de l’espai i l’ús del temps en la interacció?",
+      "options": [
+        "Proxèmica: espai; cronèmica: temps",
+        "Proxèmica: veu; cronèmica: gestos",
+        "Cinèsica: terminis; paralenguatge: lloc",
+        "Codi: distància; canal: horari"
+      ],
+      "correct": 0,
+      "explanation": "La proxèmica tracta de distàncies i espais; la cronèmica, d’espera, puntualitat i temps de resposta."
+    },
+    {
+      "id": "uf0520-u1b1-025",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Coherència verbal i no verbal",
+      "question": "Una auxiliar diu «L’escolto» però continua mirant el mòbil. Quina millora és adequada?",
+      "options": [
+        "Suposar que la visita està enfadada",
+        "Deixar el mòbil, orientar l’atenció a la visita i permetre-li acabar",
+        "Repetir «l’escolto» sense canviar el comportament",
+        "Interrompre la visita per acabar abans"
+      ],
+      "correct": 1,
+      "explanation": "El contingut verbal i els senyals corporals han de facilitar l’atenció sense suposar emocions."
+    },
+    {
+      "id": "uf0520-u1b1-026",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Canals sensorials",
+      "question": "Quina afirmació sobre la comunicació auditiva, visual i tàctil és correcta?",
+      "options": [
+        "La tàctil transmet sensacions sense representar signes escrits",
+        "La visual exclou el text verbal",
+        "Classifiquen el sentit de percepció i poden combinar-se amb verbal i no verbal",
+        "L’auditiva és equivalent al llenguatge parlat"
+      ],
+      "correct": 2,
+      "explanation": "El braille és tàctil i pot representar llenguatge escrit; un correu és visual i verbal."
+    },
+    {
+      "id": "uf0520-u1b1-027",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Soroll en una trucada",
+      "question": "Una trucada es talla i no se sent la data de lliurament. Quina actuació és adequada?",
+      "options": [
+        "Anotar la data aproximada sense dir-ho",
+        "Donar la instrucció per rebuda i completa",
+        "Parlar més ràpid per compensar el soroll",
+        "Demanar que repeteixin la data o fer servir un altre canal adient"
+      ],
+      "correct": 3,
+      "explanation": "El soroll dificulta la recepció; cal repetir la informació clau i confirmar-la."
+    },
+    {
+      "id": "uf0520-u1b1-028",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Accessibilitat tàctil",
+      "question": "Què és adequat quan atenem una persona amb discapacitat visual?",
+      "options": [
+        "Preguntar quin suport necessita i oferir canals disponibles sense pressuposicions",
+        "Donar per fet que sap llegir braille",
+        "Utilitzar braille sense consultar preferències",
+        "Evitar qualsevol explicació oral"
+      ],
+      "correct": 0,
+      "explanation": "El document indica que no totes les persones amb discapacitat visual llegeixen braille."
+    },
+    {
+      "id": "uf0520-u1b1-029",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Selecció de dades",
+      "question": "En un avís de lliurament, com s’han de tractar les dades pendents de confirmar?",
+      "options": [
+        "Presentar-les com si ja fossin confirmades",
+        "Separar-les de les dades comprovades i no inventar cap resposta",
+        "Ometre també les dades rellevants comprovades",
+        "Substituir-les per estimacions sense advertir-ho"
+      ],
+      "correct": 1,
+      "explanation": "Cal seleccionar informació pertinent, distingir allò confirmat de l’incert i evitar dades inventades."
+    },
+    {
+      "id": "uf0520-u1b1-030",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Estructura del missatge",
+      "question": "Quina organització és adequada per a un avís professional?",
+      "options": [
+        "Només un títol sense cap instrucció",
+        "Primer un termini desconegut i al final el tema",
+        "Inici amb assumpte, desenvolupament amb dades i tancament amb acció i termini",
+        "Una llista de dades sense indicar què s’ha de fer"
+      ],
+      "correct": 2,
+      "explanation": "L’esquema del temari és inici, desenvolupament i tancament amb confirmació o via per resoldre dubtes."
+    },
+    {
+      "id": "uf0520-u1b1-031",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Resum documental",
+      "question": "Abans d’enviar un resum, què cal comprovar respecte de l’original?",
+      "options": [
+        "Que el resum sigui tan llarg com el text inicial",
+        "Que s’hagin suprimit totes les dates",
+        "Que contingui frases copiades sense revisar-les",
+        "Que es conservin condicions, excepcions, terminis i dades importants"
+      ],
+      "correct": 3,
+      "explanation": "El procés de síntesi demana comparar el resum amb el document i verificar-ne l’exactitud."
+    },
+    {
+      "id": "uf0520-u1b1-032",
+      "block": "uf0520-unitat-1-bloc-1",
+      "topic": "Avís per canvi d’horari",
+      "question": "En l’activitat d’atenció del 21 d’octubre, què ha d’indicar l’avís a qui tenia cita a les 9?",
+      "options": [
+        "Que contacti amb recepció per acordar una nova hora perquè s’atendrà de 10 a 13",
+        "Que la cita de les 9 continua sense canvis",
+        "Que l’oficina estarà oberta tot el dia",
+        "Que no cal avisar les persones amb cita"
+      ],
+      "correct": 0,
+      "explanation": "L’exercici fictici especifica canvi d’atenció de 10 a 13 i contacte amb recepció per reprogramar les cites de les 9."
+    }
+  ]
+}

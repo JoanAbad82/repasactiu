@@ -133,6 +133,10 @@
     "XLSX_BANK_TEMPLATE_20261013": {
       "file": "Plantilla_llibre_auxiliar_bancs(1).xlsx",
       "pages": 1
+    },
+    "UF0520_U1_1": {
+      "file": "1.1_La comunicació com a  procés.pdf",
+      "pages": 48
     }
   },
   "blockSources": {
@@ -154,7 +158,8 @@
     "uf0519-unitat-2-bloc-1": "UF0519_U2_TRESORERIA",
     "uf0519-unitat-2-bloc-2": "UF0519_U2_TRESORERIA_B2",
     "uf0519-unitat-3-bloc-1": "UF0519_U3_STOCK",
-    "uf0519-unitat-3-bloc-2": "UF0519_U3_BLOC2_20261013"
+    "uf0519-unitat-3-bloc-2": "UF0519_U3_BLOC2_20261013",
+    "uf0520-unitat-1-bloc-1": "UF0520_U1_1"
   },
   "topicRanges": {
     "bloc-1": {
@@ -4109,6 +4114,230 @@
       "pageRange": [
         3,
         3
+      ]
+    },
+    "uf0520-u1b1-001": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        4,
+        4
+      ]
+    },
+    "uf0520-u1b1-002": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        5,
+        5
+      ]
+    },
+    "uf0520-u1b1-003": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        6,
+        6
+      ]
+    },
+    "uf0520-u1b1-004": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        8,
+        8
+      ]
+    },
+    "uf0520-u1b1-005": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        8,
+        8
+      ]
+    },
+    "uf0520-u1b1-006": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        8,
+        8
+      ]
+    },
+    "uf0520-u1b1-007": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0520-u1b1-008": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0520-u1b1-009": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        9,
+        9
+      ]
+    },
+    "uf0520-u1b1-010": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        11,
+        11
+      ]
+    },
+    "uf0520-u1b1-011": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        12,
+        12
+      ]
+    },
+    "uf0520-u1b1-012": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        13,
+        13
+      ]
+    },
+    "uf0520-u1b1-013": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        14,
+        14
+      ]
+    },
+    "uf0520-u1b1-014": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        15,
+        15
+      ]
+    },
+    "uf0520-u1b1-015": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        17,
+        17
+      ]
+    },
+    "uf0520-u1b1-016": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        18,
+        18
+      ]
+    },
+    "uf0520-u1b1-017": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        19,
+        19
+      ]
+    },
+    "uf0520-u1b1-018": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        20,
+        20
+      ]
+    },
+    "uf0520-u1b1-019": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        22,
+        22
+      ]
+    },
+    "uf0520-u1b1-020": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        24,
+        24
+      ]
+    },
+    "uf0520-u1b1-021": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        27,
+        27
+      ]
+    },
+    "uf0520-u1b1-022": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        29,
+        29
+      ]
+    },
+    "uf0520-u1b1-023": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        30,
+        30
+      ]
+    },
+    "uf0520-u1b1-024": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        32,
+        32
+      ]
+    },
+    "uf0520-u1b1-025": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        33,
+        33
+      ]
+    },
+    "uf0520-u1b1-026": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        34,
+        34
+      ]
+    },
+    "uf0520-u1b1-027": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        35,
+        35
+      ]
+    },
+    "uf0520-u1b1-028": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        37,
+        37
+      ]
+    },
+    "uf0520-u1b1-029": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        38,
+        38
+      ]
+    },
+    "uf0520-u1b1-030": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        39,
+        39
+      ]
+    },
+    "uf0520-u1b1-031": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        40,
+        40
+      ]
+    },
+    "uf0520-u1b1-032": {
+      "source": "UF0520_U1_1",
+      "pageRange": [
+        42,
+        42
       ]
     }
   },
